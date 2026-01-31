@@ -1,0 +1,38 @@
+[
+  {
+    "sid": "/1-protect-the-innocent",
+    "title": "1. Protect the innocent",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/2-honor-their-contracts",
+    "title": "2. Honor their contracts",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/3-share-vital-information-with-fellow-wardens",
+    "title": "3. Share vital information with fellow Wardens",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/4-respect-the-frontiers-people-land-and-traditions",
+    "title": "4. Respect the frontier’s people, land, and traditions",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/5-stand-against-corruption-mortal-or-magical",
+    "title": "5. Stand against corruption, mortal or magical",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/6-never-abandon-a-companion-unless-retreat-is-the-only-path-to-survival",
+    "title": "6. Never abandon a companion unless retreat is the only path to survival",
+    "level": 1,
+    "children": []
+  }
+]

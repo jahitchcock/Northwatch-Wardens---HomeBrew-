@@ -1,0 +1,138 @@
+[
+  {
+    "sid": "/summary",
+    "title": "Summary",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/using-this-adventure",
+    "title": "Using This Adventure",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/adventure-hooks",
+    "title": "Adventure Hooks",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/baaaa-d-news",
+    "title": "Baaaa-d News",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/guz",
+    "title": "Guz",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/shepherds-crooks",
+        "title": "Shepherds, Crooks",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/actions",
+        "title": "Actions",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/roleplaying-shinebright",
+        "title": "Roleplaying Shinebright",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/after-the-dust-settles",
+        "title": "After the Dust Settles",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/roleplaying-guz",
+        "title": "Roleplaying Guz",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/the-house-in-the-woods",
+        "title": "The House in the Woods",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      },
+      {
+        "sid": "/roleplaying-noke",
+        "title": "Roleplaying Noke",
+        "level": 2,
+        "parent": "/guz",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/bed-dragon-wyrmling",
+    "title": "Bed Dragon Wyrmling",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/actions-1",
+        "title": "Actions",
+        "level": 2,
+        "parent": "/bed-dragon-wyrmling",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/ahmed-noke",
+    "title": "Ahmed Noke",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/actions-2",
+        "title": "Actions",
+        "level": 2,
+        "parent": "/ahmed-noke",
+        "children": []
+      },
+      {
+        "sid": "/big-choices",
+        "title": "Big Choices",
+        "level": 2,
+        "parent": "/ahmed-noke",
+        "children": []
+      },
+      {
+        "sid": "/consequences",
+        "title": "Consequences",
+        "level": 2,
+        "parent": "/ahmed-noke",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/modified-wand-of-true-polymorph",
+    "title": "Modified Wand of True Polymorph",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/credits-and-acknowledgments",
+        "title": "Credits and Acknowledgments",
+        "level": 2,
+        "parent": "/modified-wand-of-true-polymorph",
+        "children": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  // Homebrewery Markdown Preview extension
+  // Extension ID: officerhalf.homebrewery-vscode
+  "homebrewery.enabled": true,
+
+  // Force a light (paper) look in the Markdown preview pane
+  "markdown.styles": [
+    ".vscode/homebrewery-preview-light.css"
+  ],
+
+  // Recommended: prevent preview jumpiness & hover-selection reflow
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "markdown.preview.markEditorSelection": false
+}

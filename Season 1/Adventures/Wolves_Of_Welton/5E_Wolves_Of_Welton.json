@@ -1,0 +1,197 @@
+[
+  {
+    "sid": "/scene-1-welcome-to-the-welton-wolfpack",
+    "title": "Scene 1: Welcome to the Welton Wolfpack",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/combat-tactics",
+        "title": "Combat Tactics",
+        "level": 2,
+        "parent": "/scene-1-welcome-to-the-welton-wolfpack",
+        "children": []
+      },
+      {
+        "sid": "/shaggy-wolf-stories",
+        "title": "Shaggy Wolf Stories",
+        "level": 2,
+        "parent": "/scene-1-welcome-to-the-welton-wolfpack",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/scene-2-village-people",
+    "title": "Scene 2: Village People",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/the-shepherds-crook",
+        "title": "The Shepherd’s Crook",
+        "level": 2,
+        "parent": "/scene-2-village-people",
+        "children": []
+      },
+      {
+        "sid": "/the-council-meeting",
+        "title": "The Council Meeting",
+        "level": 2,
+        "parent": "/scene-2-village-people",
+        "children": []
+      },
+      {
+        "sid": "/featherocks-room",
+        "title": "Featherock’s Room",
+        "level": 2,
+        "parent": "/scene-2-village-people",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/scene-3-plan-of-attack",
+    "title": "Scene 3: Plan of Attack",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/guidelines-for-skill-checks",
+        "title": "Guidelines for skill checks",
+        "level": 2,
+        "parent": "/scene-3-plan-of-attack",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/map-of-welton--the-surrounding-area",
+    "title": "Map of Welton & the Surrounding Area",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/scene-5-the-dens-denizens",
+    "title": "Scene 5: The Den’s Denizens",
+    "level": 1,
+    "children": []
+  },
+  {
+    "sid": "/map-of-the-wolves-den",
+    "title": "Map of The Wolves' Den",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/the-back-door",
+        "title": "The Back Door",
+        "level": 2,
+        "parent": "/map-of-the-wolves-den",
+        "children": []
+      },
+      {
+        "sid": "/inside-the-cave",
+        "title": "Inside the Cave",
+        "level": 2,
+        "parent": "/map-of-the-wolves-den",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/flame",
+    "title": "Flame",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/actions",
+        "title": "Actions",
+        "level": 2,
+        "parent": "/flame",
+        "children": []
+      }
+    ]
+  },
+  {
+    "sid": "/bolt",
+    "title": "Bolt",
+    "level": 1,
+    "children": [
+      {
+        "sid": "/actions-1",
+        "title": "Actions",
+        "level": 2,
+        "parent": "/bolt",
+        "children": []
+      },
+      {
+        "sid": "/big-bad-wolves",
+        "title": "Big Bad Wolves",
+        "level": 2,
+        "parent": "/bolt",
+        "children": []
+      },
+      {
+        "sid": "/combat-tactics-1",
+        "title": "Combat Tactics",
+        "level": 2,
+        "parent": "/bolt",
+        "children": []
+      },
+      {
+        "sid": "/lets-talk-this-over",
+        "title": "Let’s Talk This Over",
+        "level": 2,
+        "parent": "/bolt",
+        "children": []
+      },
+      {
+        "sid": "/scene-6-settling-the-scores",
+        "title": "Scene 6: Settling the Scores",
+        "level": 2,
+        "parent": "/bolt",
+        "children": [
+          {
+            "sid": "/the-party-refuse-to-negotiate",
+            "title": "The Party Refuse to Negotiate",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          },
+          {
+            "sid": "/the-party-negotiate-with-the-wolves",
+            "title": "The Party Negotiate with the Wolves",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          },
+          {
+            "sid": "/leanor-slatebeard-father-merriksonn",
+            "title": "Leanor Slatebeard Father Merriksonn",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          },
+          {
+            "sid": "/willen-featherock",
+            "title": "Willen Featherock",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          },
+          {
+            "sid": "/corel",
+            "title": "Corel",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          },
+          {
+            "sid": "/flame-and-bolt",
+            "title": "Flame and Bolt",
+            "level": 3,
+            "parent": "/scene-6-settling-the-scores",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

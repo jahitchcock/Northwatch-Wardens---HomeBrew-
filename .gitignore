@@ -1,0 +1,16 @@
+# Python virtual environments
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# One-off local logs
+filter-branch-purge-pinebrook.log
+
+# PDFs / source material not meant for GitHub
+/Season 1/Source Material/Peril_in_Pinebrook_COMPLETE.pdf
