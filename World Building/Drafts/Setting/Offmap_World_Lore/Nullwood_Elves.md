@@ -62,6 +62,8 @@ Vaeltharyn is built around a natural basin where the Nullwood’s magic‑dampen
 - **The Memory Courts** — quiet plazas for emotional and mnemonic rituals meant to maintain clarity and suppress dangerous memories.
 - **The Veilwatch Spires** — slender towers where scouts monitor the horizon for magical disturbances; they log artifact activity but do not intervene.
 
+\page
+
 ### Culture & society
 - Magic is subtle—illusions, emotional resonance, memory shaping.
 - Voices are soft—loud speech is considered disrespectful.

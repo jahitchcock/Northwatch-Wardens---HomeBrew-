@@ -74,6 +74,8 @@ The Eclipse caused panic, magical anomalies, a brief blackout of the Masked Mark
 
 Every syndicate interprets it differently, but all want to exploit it—making Vharoxis an ideal place for early, fragmented, self‑serving clues to surface.
 
+\page
+
 ## Why Vharoxis works alongside other powers
 - **Solaris** — culture, politics, magic
 - **Nullwood / Stonebound** — ancient history, artifacts, tradition

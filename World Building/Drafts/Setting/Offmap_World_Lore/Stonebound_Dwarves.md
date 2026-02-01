@@ -66,6 +66,8 @@ The city spans multiple cavern levels shaped by centuries of geomancy and rune�
 
 The city is governed by the **Stonebound Council**, drawn from master artisans, geomancers, and Deep‑Readers.
 
+\page
+
 ### Eclipse Day in Khardûn‑Tharum
 When the Eclipse struck, the Heartstone hummed—loudly. Runes shifted. Crystals vibrated. Stone cracked in patterns unseen in recorded history.
 

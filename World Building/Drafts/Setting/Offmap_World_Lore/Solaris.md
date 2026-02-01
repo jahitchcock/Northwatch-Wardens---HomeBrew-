@@ -70,6 +70,8 @@ The statue depicts him mid‑performance, cloak swirling, lute raised—like the
 - Blend divine, arcane, and cosmic philosophies.
 - Attract those who believe the world is entering a new era shaped by celestial forces.
 
+\page 
+
 ## Eclipse Day
 A cosmic event that changed everything.
 
