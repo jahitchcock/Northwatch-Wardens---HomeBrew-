@@ -46,7 +46,6 @@ The elves believe it's natural—a blessed place untouched by "the world's noise
 
 **The truth:** They deliberately chose a region far from Aeorian artifact influence, then reinforced the natural dampening through millennia of careful magic.
 
-\page
 
 ### Key Regions Within the Expanse
 
@@ -73,6 +72,11 @@ The elves believe it's natural—a blessed place untouched by "the world's noise
 - Sites of cultural rituals
 - Places where memories are "tended"
 - Outsiders rarely allowed
+
+
+
+
+\page
 
 ---
 
@@ -103,7 +107,6 @@ A perfectly calm lake at the city's center:
 - Sacred to elven culture
 - "Reflects the world as it should be, not as it is"
 
-\page
 
 **The Memory Courts** (Ground level)
 Quiet plazas for emotional and mnemonic rituals:
@@ -154,9 +157,13 @@ Everything reflects elven philosophy:
 - Shadows long and gentle
 - Perpetual calm atmosphere
 
-\page
 
 ---
+
+
+
+
+\page
 
 ## Culture and Society
 
@@ -214,7 +221,6 @@ This is how the elves systematically forgot why they fled:
 - Growing sense something is wrong
 - Eclipse Day disrupted the process
 
-\page
 
 ### Social Structure
 
@@ -269,7 +275,6 @@ Those who question:
 - Work-life balance emphasized
 - Magic used sparingly
 
-\page
 
 **Arts:**
 - Music (quiet, complex, haunting)
@@ -277,6 +282,8 @@ Those who question:
 - Weaving and growing-craft
 - Memory-sculpture (ephemeral art)
 - Dance (slow, ritualistic)
+
+
 
 **Values:**
 - Patience above urgency
@@ -294,6 +301,9 @@ Those who question:
 - Disturbing the Stillwater Mirror
 
 ---
+
+
+\page
 
 ## The Old Fear
 
@@ -330,7 +340,6 @@ What really happened (DM knowledge):
   - Corrupt others
   - Kill many
 
-\page
 
 **The Flight:**
 - Leaders recognized the threat
@@ -372,6 +381,8 @@ Their ancestors deliberately erased the truth to protect them.
 
 ---
 
+
+
 ## Eclipse Day in the Nullwood
 
 ### The Event
@@ -385,7 +396,6 @@ When Eclipse Day struck Solaris and Northreach, the Nullwood felt it too:
 - Animals briefly agitated
 - Some elves felt physical pain
 
-\page
 
 **Mental/Emotional Effects:**
 - Mass visions among population
@@ -437,9 +447,11 @@ Months later, consequences unfolding:
 - **Fearful:** Hide deeper in the Nullwood
 - **Activists:** Contact outside world; seek answers
 
-\page
 
 ---
+
+\page
+
 
 ## Magic in the Nullwood
 
@@ -483,6 +495,8 @@ How it works (hidden knowledge):
 - Reinforced by cultural practice
 - Now self-sustaining
 
+
+
 **Limitations:**
 - Doesn't prevent magic
 - Just dampens it
@@ -491,7 +505,6 @@ How it works (hidden knowledge):
 - But Wild Magic impossible
 - And artifact influence minimized
 
-\page
 
 **Eclipse Day Impact:**
 - Dampening flickered
@@ -547,7 +560,6 @@ How it works (hidden knowledge):
 - Crafted wooden items
 - Some magical services
 
-\page
 
 **What They Import:**
 - Metals (from Stonebound)
@@ -600,9 +612,13 @@ Some leave the forest:
 - Others return with questions
 - Treated with suspicion
 
-\page
 
 ---
+
+\page
+
+
+
 
 ## Adventure Hooks
 
@@ -648,7 +664,6 @@ Some leave the forest:
 - Truth about elven history valuable commodity
 - Regents divided; power struggle brewing
 
-\page
 
 ---
 
@@ -691,7 +706,12 @@ Some leave the forest:
 **Early (Northreach-focused):**
 - Elves are distant rumor
 - Maybe one elf PC or NPC from Nullwood
+
+\page
+
 - Cultural oddity, not plot-relevant yet
+
+
 
 **Mid (Regional awareness):**
 - Party learns about Eclipse Day affecting multiple regions
@@ -699,7 +719,6 @@ Some leave the forest:
 - Logs correlate with party's discoveries
 - Elven memory magic might help investigation
 
-\page
 
 **Late (Continental scope):**
 - Elves' history crucial to understanding artifacts
@@ -754,7 +773,6 @@ Some leave the forest:
 - Secrets in every shadow
 - Memory gaps you can sense
 
-\page
 
 ### Key Themes
 - **Protective amnesia**
@@ -803,13 +821,14 @@ Enforce atmosphere:
 - What do Veilwatch logs reveal?
 - Connection to party's mission?
 
+
+
 **As Resource:**
 - Ancient knowledge (once recovered)
 - Memory magic techniques
 - Maps of old artifact sites
 - Elven allies (eventually)
 
-\page
 
 **As Parallel:**
 - Another society facing Echo
@@ -862,6 +881,9 @@ Enforce atmosphere:
 - Parallel to Northreach (different response)
 
 ---
+
+
+\page
 
 *"The elves of the Nullwood are not calm. They are controlled. There's a difference, and it's terrifying."*
 

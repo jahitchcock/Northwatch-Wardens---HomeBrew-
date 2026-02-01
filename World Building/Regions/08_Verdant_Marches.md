@@ -43,6 +43,11 @@ Vast grasslands that undulate like a green ocean, dotted with wildflowers that b
 A swift-flowing waterway fed by mountain snowmelt, named for the dense thornbrier that grows along its banks. The river serves as a natural boundary and traditional meeting ground for the druidic circles. Ancient standing stones mark sacred fords.
 
 **Travel:** Difficult to cross (DC 13 Athletics) without using marked fords.  
+
+\page
+
+
+
 **Visibility:** Thorns create natural walls 10-15 feet high along banks.  
 **Encounters:** Awakened river otters, giant crocodiles, water elementals, druidic gatherings.
 
@@ -83,7 +88,8 @@ A field of perfectly spherical boulders, each 6-8 feet in diameter, scattered ac
 **Current Status:** Under investigation by Circle of the Land druids and Warden scholars.  
 **Secrets:** The stones are hibernating earth elementals, beginning to wake due to the Echo.
 
-\page
+
+
 
 ## Settlements and Havens
 
@@ -110,6 +116,9 @@ Since the Beast Awakening intensified, Thornhaven has become a sanctuary city wh
 - **Warden Lieutenant Cassia Redleaf** (female half-elf fighter): Commander of Thornhaven Warden post
 
 ### Druidic Circles
+
+
+\page
 
 Four major druidic circles operate in the Verdant Marches, each with distinct philosophy and response to the Beast Awakening.
 
@@ -151,6 +160,8 @@ The most radical circle, they see the awakening as proof that the natural world 
 
 This mysterious circle operates at the boundaries where the Feywild touches the material plane. They believe the Beast Awakening is actually animals remembering past lives from the Feywild, where all creatures possess intelligence. They work to ease this "awakening" process.
 
+
+
 **Current Activity:** Guiding newly awakened animals, maintaining Feywild portals, negotiating with archfey.
 
 ### Camp Greenwatch (Northwatch Warden Forward Base)
@@ -167,7 +178,6 @@ Established six months ago as the awakening phenomenon escalated, Camp Greenwatc
 - Basic arcane research equipment
 - Secure lodging
 
-\page
 
 ## Culture and Society
 
@@ -180,6 +190,9 @@ The Verdant Marches have been tended by druidic circles for over 500 years—sin
 **Speaking for the Voiceless:** Druids have historically served as advocates for animals and plants that cannot speak for themselves. Now that animals CAN speak, many druids struggle with their shifting role.
 
 **Guardian, Not Master:** A core tenet is that druids protect nature without controlling it. This becomes complicated when awakened bears ask for weapons training or wolves request alliance against human settlements.
+
+\page
+
 
 **The Green Tongue:** All initiates learn Druidic, the secret language of nature. However, awakened animals are independently developing their own languages (called "First Speech" by scholars), raising questions about Druidic's sanctity.
 
@@ -207,13 +220,14 @@ For the druids, traders, and scouts who call the Marches home, life has dramatic
 
 **New Cuisine:** Awakened animals who choose civilization have introduced "ethical eating" philosophies. Thornhaven now features vegetarian menus and insect farming operated by awakened corvids.
 
+
+
 **Employment:** Awakened animals work jobs in Thornhaven—ravens as scribes and messengers, wolves as guards, otters as fishers who share their catch. They demand fair payment.
 
 **Property Rights:** A legal and philosophical nightmare. Do awakened bears own the territory they've always inhabited? Can wolves claim ancestral hunting grounds? Courts in larger settlements are paralyzed by these questions.
 
 **Interspecies Relations:** Some awakened animals and humanoids have formed genuine friendships—hunting partnerships, research collaborations, even romances (which create their own complications). Others view the other side with deep suspicion.
 
-\page
 
 ## The Beast Awakening
 
@@ -239,6 +253,9 @@ The Beast Awakening is the most significant supernatural event in the Northreach
 **Psychological Impact:**
 The awakening is described as "remembering being someone" rather than becoming someone new. Subjects report feeling like they've woken from a long dream, and many experience existential crises as they grapple with their dual nature—still an animal in body and instinct, but a person in mind and ambition.
 
+\page
+
+
 ### Awakening Process
 
 Based on documented cases, the awakening follows recognizable patterns:
@@ -256,6 +273,8 @@ The newly awakened must reconcile instinct with intelligence. Many seek out othe
 The subject develops a stable identity blending their animal nature with sapience. They choose how to engage with the world—join civilization, form new animal communities, or reject contact entirely.
 
 ### Distribution and Patterns
+
+
 
 Circle of Stars druids have mapped awakening incidents and identified troubling patterns:
 
@@ -289,6 +308,8 @@ Recovered Aeorian texts reference something called the "Bestiary Cognition Matri
 
 **Divergent Theory:**  
 Not all scholars agree the awakening is Aeorian in origin. Some argue the Echo is merely amplifying existing primal magic, awakening an ancient natural force that predates even Aeor. The land itself might be the true source.
+
+
 
 \page
 
@@ -335,6 +356,8 @@ Conservative druids and frontier settlers who view the awakening as dangerous co
 
 **Tactics:** Quarantine of affected areas, capture and study of awakened subjects, searches for "cure" or reversal method, defensive fortifications.
 
+
+
 **Leadership:** **Archdruid Morwen Ironbark** (conservative faction leader) and **Baron Aldric Thornwood** (frontier lord).
 
 ### The Warden Mediation Corps
@@ -362,7 +385,9 @@ Unknown to most, a powerful intelligence has been subtly influencing the awakeni
 
 This "Architect" communicates through dreams, guides specific animals to awaken, and seems to be testing the region's readiness for some larger transformation.
 
+
 \page
+
 
 ## Adventures in the Marches
 
@@ -396,6 +421,8 @@ This "Architect" communicates through dreams, guides specific animals to awaken,
 - Players' recommendations will influence parliamentary vote
 - Success or failure affects region-wide tensions
 
+
+
 **Rewards:** 400gp, diplomatic credentials, animal faction contacts, potential animal companion/ally.
 
 #### The Spring Runs Red
@@ -419,6 +446,9 @@ This "Architect" communicates through dreams, guides specific animals to awaken,
 **Type:** Exploration, Survival  
 **Location:** Deep Eldergrove  
 **Hook:** Dozens of awakened animals are abandoning their communities and walking trance-like toward the Eldergrove's heart. They speak of "hearing the voice of the first forest" and cannot be dissuaded. Druids fear mass death—or something worse.
+
+\page
+
 
 **Truth:** The Architect is summoning awakened animals to a hidden Aeorian facility beneath the Crowning Oak. It's conducting "ascension trials" to select candidates for full magical empowerment. Those who pass gain spellcasting abilities. Those who fail suffer madness or death.
 
@@ -444,6 +474,8 @@ This "Architect" communicates through dreams, guides specific animals to awaken,
 - If device activates, players must manage chaotic mass awakening scenario
 - Korra may be working with (or manipulated by) the Architect
 
+
+
 **Rewards:** 1000gp, significant regional reputation, potential druid circle ally (moderate Wildfire members who reject violence), confiscated Aeorian device for study.
 
 #### The Dream Walker
@@ -462,7 +494,9 @@ This "Architect" communicates through dreams, guides specific animals to awaken,
 
 **Rewards:** 1200gp, powerful fey patron contact, unique magic items, revelation about awakening's true nature (multiple causes, not single source).
 
+
 \page
+
 
 ## Running the Marches
 
@@ -507,6 +541,8 @@ The Marches present unique encounter challenges:
 
 Create memorable awakened animal NPCs:
 
+
+
 **Silver-Eye** (Awakened Wolf, Ranger 3)
 - Female dire wolf, one of the first awakened
 - Speaks Common and Druidic fluently
@@ -543,6 +579,9 @@ The Echo's presence creates unique magical effects:
 
 **Dream Intrusion:** Characters sleeping in the deep Marches may experience vivid dreams of being animals or seeing through animal eyes. These are generally harmless but unsettling.
 
+\page
+
+
 **Wild Magic Surges:** Sorcerers and other wild magic users experience increased surge frequency near awakening sites.
 
 **Speak with Animals Overlap:** The spell becomes unreliable—awakened animals are unaffected (already intelligent), but normal animals sometimes respond as if awakened temporarily.
@@ -559,7 +598,8 @@ Over the course of adventures in the Marches, players should learn:
 6. **Moral ambiguity:** No simple solutions exist; all factions have valid concerns
 7. **Personal stakes:** The awakening could spread to affect all of Northreach
 
-\page
+
+
 
 ## DM Secrets
 
@@ -602,6 +642,9 @@ When that happens, one of three outcomes occurs:
 
 The Architect knows this and is racing to reach a "critical mass" of awakened animals who can sustain their own sapience through mutual reinforcement before the reserves run out. It's a dangerous gamble.
 
+\page
+
+
 ### Optional Revelation: The Calamity Connection
 
 For campaigns that want deeper lore:
@@ -613,6 +656,8 @@ If the Marches' awakening fails catastrophically, it could repeat the Savalirwoo
 ### Korra's Real Motivation
 
 Korra Ashbough isn't a simple villain. Twenty years ago, her entire druid circle was slaughtered by loggers and settlers who wanted their sacred grove for farmland. She was the only survivor, hidden by a mother bear who died protecting her.
+
+
 
 She sees the awakening as nature's judgment and the animals' chance for justice. She's not wrong about historical crimes against nature, but her solution—retributive violence—will only create more suffering. She can be reasoned with, but it requires acknowledging her trauma and the real injustices she's experienced.
 
@@ -629,7 +674,6 @@ If all thirteen stones fully awaken, they'll release:
 
 This is the next major threat if the immediate awakening crisis is resolved. Some stones may crack during adventures, releasing individual threats.
 
-\page
 
 ## Connections to Other Regions
 
@@ -646,6 +690,9 @@ Elro Aldataur and Palebank scholars have established collaborative research with
 The Wolves of Welton incident was the first documented mass awakening event, preceding the Marches phenomenon by three months. Several awakened wolves from that event have traveled to the Marches seeking community and understanding. They're viewed as "elders" despite their recent awakening.
 
 **Potential Adventure:** One of the Welton wolves, now a respected voice in the Parliament of Beasts, is actually a sleeper agent—either for Korra's faction or the Architect. Uncovering their true loyalty and motives without destroying fragile diplomatic progress is delicate work.
+
+\page
+
 
 ### Waystone Inn (Central)
 
@@ -668,7 +715,8 @@ The Dragonknights who built this temple dealt with similarly transformative magi
 
 **Potential Adventure:** High-level (8+) expedition to the Temple seeking ancient wisdom about how previous civilizations handled similar phenomena.
 
-\page
+
+
 
 ## Quick Reference
 
@@ -698,6 +746,9 @@ The Dragonknights who built this temple dealt with similarly transformative magi
 ### Encounter Tables
 
 **Daytime Encounters (d12):**
+
+\page
+
 1. Awakened deer herd, nervous but curious
 2. Circle of Stars druids observing celestial alignments
 3. Merchant caravan negotiating with awakened raccoon toll collectors
@@ -731,6 +782,8 @@ When players witness an awakening:
 
 **Stage One - Recognition:**  
 DC 14 Perception check notices animal acting strangely—seeking solitude, repetitive behaviors, unnatural stillness.
+
+
 
 **Stage Two - Emergence:**  
 DC 12 Arcana check detects magical pulse of divination/enchantment energy. Animal experiences visible distress, then sudden calmness. First words typically simple: "I... am?"
@@ -771,6 +824,9 @@ Track player standing with key groups:
 2. **Lost Child:** Settler's child wandered into forest, possibly befriended by awakened animals
 3. **Herb Gathering:** Collect rare plants from dangerous Eldergrove for healing ritual
 4. **Trail Blazing:** Establish safe route through awakening-heavy territory
+
+\page
+
 5. **Diplomacy:** Mediate dispute between awakened predator pack and prey herd
 6. **Rescue:** Free trapped animal (awakened or not?) from hunter's snare
 7. **Investigation:** Determine if awakened animals or natural predators killed livestock
@@ -793,7 +849,8 @@ Track player standing with key groups:
 - Alliance with animal factions
 - Druidic training (if appropriate)
 
-\page
+
+
 
 ## Campaign Integration
 
@@ -842,6 +899,9 @@ Player choices in the Marches affect the entire campaign:
 
 **If Awakening Succeeds:** The Northreach becomes a unique experiment in multi-species civilization. Other regions watch nervously. Some see opportunity, others see threat.
 
+\page
+
+
 **If Awakening Fails:** Reverting awakened animals to mindless beasts is a tragedy and possible war crime. Players must live with consequences. Energy depletion may create dead zone.
 
 **If Architect is Destroyed:** The awakening ends immediately, but energy backlash could devastate region. Remaining awakened animals become permanent minority population.
@@ -849,6 +909,8 @@ Player choices in the Marches affect the entire campaign:
 **If Architect is Befriended:** Players gain incredibly powerful ally but must navigate complex relationship with non-human intelligence. Guild may view this as dangerous compromise.
 
 ---
+
+
 
 ## Conclusion
 

@@ -41,7 +41,6 @@ Eclipse Day caused chaos here—a violent reshuffling of faction power. Now ever
 - Fortified against naval assault
 - Changeable allegiances with coastal powers
 
-\page
 
 ### City Layout
 Vharoxis is a labyrinth by design:
@@ -81,6 +80,8 @@ Vharoxis is a labyrinth by design:
 - Cheap housing
 - Dangerous after dark (and during)
 
+
+
 **The Iron District**
 - Gladiatorial pits
 - Mercenary guildhalls
@@ -89,7 +90,6 @@ Vharoxis is a labyrinth by design:
 - Violence for profit
 - Entertainment and recruiting
 
-\page
 
 **The Counting Houses**
 - Banks and moneylenders
@@ -119,6 +119,9 @@ Vharoxis is a labyrinth by design:
 
 ---
 
+
+\page
+
 ## The Five Syndicates
 
 No single faction can rule Vharoxis; the others would unite to crush them. Balance through mutual threat keeps the city stable—and profitable.
@@ -140,7 +143,6 @@ No single faction can rule Vharoxis; the others would unite to crush them. Balan
 - Blackmail and leverage
 - Information vaults (physical and magical)
 
-\page
 
 **Resources:**
 - Best intelligence network
@@ -190,7 +192,6 @@ Massive information gathering operation launched. Everything about Eclipse Day i
 - International contacts
 - Weather mages (for fog cover)
 
-\page
 
 **Goals:**
 - Dominate maritime trade
@@ -201,6 +202,8 @@ Massive information gathering operation launched. Everything about Eclipse Day i
 
 **Eclipse Day Response:**
 Disrupted shipping worldwide provided opportunities. Strange objects washing ashore from ancient sites became new commodity. Corsairs now trafficking in "sea-glass relics" (artifact fragments) without understanding what they carry.
+
+
 
 **Current Projects:**
 - Salvaging sunken ruins (Sunken Dominion)
@@ -240,7 +243,6 @@ Disrupted shipping worldwide provided opportunities. Strange objects washing ash
 - Prevent any single power from dominating
 - Keep world in "productive chaos"
 
-\page
 
 **Eclipse Day Response:**
 Chaos sold well. Multiple governments hired them to suppress or cause unrest related to Eclipse interpretations. Currently profiting from all sides of every conflict. Also: genuinely curious about fire magic amplification since Eclipse.
@@ -254,6 +256,9 @@ Chaos sold well. Multiple governments hired them to suppress or cause unrest rel
 
 ### 4. The Ironbound Syndicate
 **Specialty:** Mercenary work, enforcement, gladiatorial games
+
+\page
+
 
 **Philosophy:** Strength rules; everything else is negotiation
 
@@ -284,7 +289,6 @@ Chaos sold well. Multiple governments hired them to suppress or cause unrest rel
 - Supply all sides of wars
 - Control weapon trade
 
-\page
 
 **Eclipse Day Response:**
 Increased demand for protection. Many clients hiring bodyguards against "magical threats." Also: magical combat abilities manifesting in some fighters. Studying and exploiting this. Gladiatorial games now feature "Eclipse-touched" combatants.
@@ -314,6 +318,8 @@ Increased demand for protection. Many clients hiring bodyguards against "magical
 - Financing criminal enterprises
 - Foreclosing on assets
 
+
+
 **Resources:**
 - Vast wealth
 - Debt records on everyone important
@@ -328,7 +334,6 @@ Increased demand for protection. Many clients hiring bodyguards against "magical
 - Call in debts at opportune moments
 - Never lose money
 
-\page
 
 **Eclipse Day Response:**
 Financed everyone's response. Every syndicate borrowed money for Eclipse Day operations. Now: collecting. Some debtors paying with information about artifacts. Whispered Coin becoming major holder of Echo-related intelligence, purchased through foreclosure.
@@ -375,7 +380,9 @@ Post-Eclipse Day, equilibrium disturbed:
 
 Everyone waiting for someone to overreach...
 
+
 \page
+
 
 ---
 
@@ -430,7 +437,8 @@ Greatest insult or intimacy:
 - Living day-to-day
 - Easy to exploit
 
-\page
+
+
 
 **Temporary Residents:**
 - Foreign visitors
@@ -483,9 +491,11 @@ Greatest insult or intimacy:
 **Pragmatism:** Morality is expensive luxury  
 **Survival:** First, last, and only real goal
 
-\page
 
 ---
+
+
+\page
 
 ## Magic in Vharoxis
 
@@ -535,7 +545,6 @@ No restrictions, no regulations:
 - Transmutation (counterfeiting)
 - Enhancement substances
 
-\page
 
 ### The Magic Market
 Anything magical for sale:
@@ -569,6 +578,8 @@ Anything magical for sale:
 - Information about Echo effects
 - Maps to ruin locations
 
+
+
 ---
 
 ## Eclipse Day in Vharoxis
@@ -592,7 +603,6 @@ Affected differently than elsewhere:
 - Syndicate warfare (brief but brutal)
 - Dozens dead by sunrise
 
-\page
 
 **Aftermath:**
 - New power balance emerging
@@ -648,9 +658,11 @@ What they're really trading in:
 - Weapons waiting to activate
 - Evidence of continental threat
 
-\page
 
 ---
+
+\page
+
 
 ## Connections to the World
 
@@ -692,6 +704,8 @@ What they're really trading in:
 - Source of valuable information
 - Some Wardens have criminal pasts here
 
+
+
 **Shattered Coast:**
 - Maritime partnership
 - Corsair fleets cooperate
@@ -699,7 +713,6 @@ What they're really trading in:
 - Storm-magic trade
 - Sunken artifact recovery
 
-\page
 
 **Emberlands:**
 - Volcanic materials trade
@@ -747,7 +760,6 @@ Post-Eclipse Day, information about:
 - Research findings
 - Who knows what, when
 
-\page
 
 ---
 
@@ -800,7 +812,6 @@ Post-Eclipse Day, information about:
 - Discover larger network
 - Implications for continental threat
 
-\page
 
 ### Hunt and Hunted
 - Party member has price on head
@@ -811,6 +822,11 @@ Post-Eclipse Day, information about:
 - Who do you trust?
 
 ---
+
+
+\page
+
+
 
 ## Secrets and Revelations
 
@@ -847,7 +863,6 @@ Some syndicate members beginning to notice:
 - **Mercenary Kara Steelsong:** Echo-touched, hiding it
 - **Banker Finnick Goldcount:** Realized debt pattern indicates manipulation
 
-\page
 
 ### Connection to Campaign
 
@@ -894,7 +909,6 @@ Some syndicate members beginning to notice:
 - Some buyers suspicious
 - Network larger than known
 
-\page
 
 **Late:**
 - Vharoxis central to continental artifact trade
@@ -904,6 +918,11 @@ Some syndicate members beginning to notice:
 - Moral complexity unavoidable
 
 ---
+
+
+
+
+\page
 
 ## Running Vharoxis
 
@@ -949,7 +968,6 @@ Force players to choose:
 - Practical vs. idealistic
 - Survival vs. principle
 
-\page
 
 ### Using in Campaign
 
@@ -1020,5 +1038,10 @@ Force players to choose:
 ---
 
 *"In Vharoxis, everything and everyone is for sale. Including the truth about the Echo. Problem is, they'll sell it to anyone with coin—including those who shouldn't have it."*
+
+\page
+
+
+
 
 — Lorewarden Elric Vael, after infiltration mission

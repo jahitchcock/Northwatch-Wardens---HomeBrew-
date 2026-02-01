@@ -46,7 +46,6 @@ The warm climate supports outdoor performance culture:
 - Festivals celebrating arts and history
 - Year-round cultural calendar
 
-\page
 
 ## Major Locations
 
@@ -76,6 +75,8 @@ The warm climate supports outdoor performance culture:
 - Rumor network (everything said here spreads)
 - Historical archives (songs recorded in special ledgers)
 
+
+
 **Current State:**
 Since Eclipse Day, the Cord has become epicenter of cultural response:
 - Competing factions hold events here
@@ -85,6 +86,9 @@ Since Eclipse Day, the Cord has become epicenter of cultural response:
 
 ### Eldric's Monument
 **Location:** Outside the Tail Spinner's Cord  
+
+\page
+
 **Form:** Life-sized bronze statue
 
 **Subject:** Eldric the Loreweaver, Solaris' most revered bard
@@ -99,7 +103,6 @@ Since Eclipse Day, the Cord has become epicenter of cultural response:
 - Political symbol (each faction claims his legacy)
 - Prophecy debate (did he foresee Eclipse Day?)
 
-\page
 
 **Famous Works of Eldric:**
 | Title | Type | Reputation |
@@ -151,10 +154,11 @@ Strictly opposed; pacts are dangerous shortcuts inviting corruption. They advoca
 - Traditional artisans
 - Those who fear change
 
-\page
 
 **Eclipse Day Response:**
 "The gods showed us shadow so we would remember the value of light. We must purify our practices and return to proven truths."
+
+
 
 **How They Shape Culture:**
 - Commission traditional art and music
@@ -199,7 +203,6 @@ Supportive and protective; pacts are tools, not sins. They provide sanctuary, ed
 **Eclipse Day Response:**
 "The cosmos just proved that magic is bigger than our laws. It's time to embrace that complexity instead of fearing it."
 
-\page
 
 **How They Shape Culture:**
 - Sponsor diverse artistic expression
@@ -251,7 +254,11 @@ Neutral to welcoming; pacts are one of many paths. They're more interested in co
 - Meditation and prophecy circles
 - Synthesis of magical traditions
 
+
+
+
 \page
+
 
 ## Eclipse Day
 
@@ -304,7 +311,6 @@ Most Solarians experienced brief visions during totality. Common themes:
 - **Futures** that might or might not come to pass
 - **Ancient structures** awakening underground
 
-\page
 
 Many visions included recurring symbols:
 - Geometric patterns
@@ -343,6 +349,11 @@ Months later, Eclipse Day continues to shape Solaris:
 
 ---
 
+
+
+
+\page
+
 ## Culture and Society
 
 ### Music as Civic Language
@@ -362,7 +373,6 @@ In Solaris, disputes are settled with performances as often as with politics:
 - Performance skill opens doors
 - But also manipulates and obscures
 
-\page
 
 ### Social Structure
 
@@ -422,7 +432,6 @@ Many citizens know at least one Eldric tale by heart:
 - Canon debates can become fierce
 - New stories constantly created
 
-\page
 
 **This creates:**
 - Shared cultural foundation
@@ -432,6 +441,11 @@ Many citizens know at least one Eldric tale by heart:
 - Living tradition that adapts
 
 ---
+
+
+
+
+\page
 
 ## Magic in Solaris
 
@@ -480,7 +494,6 @@ Present but less central:
 - Nature-themed performances
 - Gardens and green spaces
 
-\page
 
 ### The Warlock Question
 Central to factional conflict:
@@ -535,6 +548,10 @@ The event changed magical practice:
 - Cosmic alignment
 - Ancient artifact activation (closer to truth than they know)
 - Reality shift
+
+
+
+
 
 \page
 
@@ -597,7 +614,6 @@ Information flows faster through Solaris than anywhere:
 - Smuggling networks
 - Necessary evil
 
-\page
 
 **With Nullwood:**
 - Respectful but distant
@@ -652,6 +668,10 @@ Information flows faster through Solaris than anywhere:
 - Nullwood scouts with dire warnings
 - Foreign powers exploiting divisions
 
+
+
+
+
 \page
 
 ## Secrets and Revelations
@@ -700,7 +720,6 @@ Eclipse Day was Aeorian network activation ripple:
 - Political power necessary
 - Final confrontation requires coordination
 
-\page
 
 ---
 
@@ -762,6 +781,11 @@ Instead of pure Charisma checks:
 - Appreciate different responses to Echo
 - See civilization under different stress
 - Recognize shared threats
+
+
+
+
+\page
 
 ---
 

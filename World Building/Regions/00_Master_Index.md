@@ -46,7 +46,6 @@ The regions are organized in concentric rings of influence, with Northreach at t
 - **Role:** The black-market heart; factions manipulate global politics
 - **File:** `05_Vharoxis.md`
 
-\page
 
 ### 6. **The Shattered Coast** (Maritime Frontier)
 - **Theme:** Shipwrecks, storms, drowned ruins
@@ -77,6 +76,11 @@ The regions are organized in concentric rings of influence, with Northreach at t
 - **Tone:** Bleak, cosmic, dangerous
 - **Role:** Home of Salsvault; true origin of the Aeorian Echo; endgame region
 - **File:** `10_Far_North.md`
+
+
+
+
+\page
 
 ---
 
@@ -112,7 +116,6 @@ All regions experience effects from the reawakening of ancient Aeorian artifacts
       Sunken Dominion
 ```
 
-\page
 
 ## Using These Regions
 
@@ -158,6 +161,11 @@ Each region document includes:
 
 ---
 
+
+
+
+\page
+
 ## Campaign Escalation
 
 ### Tier 1 (Levels 1-4): Northreach Focus
@@ -172,7 +180,6 @@ Each region document includes:
 - Interact with faction agents from other regions
 - Discover connections between local and distant events
 
-\page
 
 ### Tier 3 (Levels 11-16): Continental Scope
 - Travel to other regions on critical missions
@@ -222,6 +229,11 @@ Each region document includes:
 - Preserve investigation-focused gameplay
 
 ---
+
+
+
+
+\page
 
 ## Quick Reference
 

@@ -49,7 +49,6 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - **Croaker Cave** — North of Palebank, bandit hideout
 - **Salsvault** — Far north, buried Aeorian ruins, **source of the Echo**
 
-\page
 
 ## Major Locations
 
@@ -84,6 +83,11 @@ Northreach's geography follows a practical travel network centered on **Waystone
 
 **Current Situation:** Recovering from wolf attacks; uneasy truce with awakened wolf pack.
 
+
+\page
+
+
+
 ### Pinebrook (Southeast)
 **Type:** Trading village  
 **Population:** ~250  
@@ -107,7 +111,6 @@ Northreach's geography follows a practical travel network centered on **Waystone
 
 **Current Situation:** Plagued by mysterious illness tied to Aeorian spores from Salsvault.
 
-\page
 
 ### Salsvault (Far North)
 **Type:** Buried Aeorian ruin complex  
@@ -163,7 +166,6 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - **Wary of strangers:** Trust must be earned
 - **Respect for competence:** Skill and reliability matter more than background
 
-\page
 
 ### Social Structure
 - **Village councils:** Local governance by respected community members
@@ -179,6 +181,11 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - **Threats:** Wolves, bandits, weather, now stranger things
 
 ---
+
+
+
+
+\page
 
 ## The Aeorian Echo
 
@@ -216,7 +223,6 @@ The Aeorian Echo operates as the campaign's central mystery, with revelations de
 - Multiple sites identified
 - Faction involvement exposed
 
-\page
 
 **Late-campaign understanding:**
 - Full scope of Echo revealed
@@ -275,6 +281,10 @@ No matter which adventures players complete first, they accumulate pieces of the
 
 \page
 
+
+
+
+
 ## Adventure Integration
 
 ### Core Adventures (Season One)
@@ -326,7 +336,6 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Moral complexity:** Multiple valid resolutions
 - **Investigation focus:** Discovery over combat
 
-\page
 
 ## Running Northreach
 
@@ -371,6 +380,8 @@ Information flows slowly; rumors arrive before truth:
 - Scholar theories about changes
 - Folklore suddenly seeming relevant
 
+
+
 **Investigation Clues:**
 Players should discover connections naturally:
 - Physical evidence (spores, tracks, artifacts)
@@ -388,7 +399,6 @@ Players should discover connections naturally:
 - What to investigate (open exploration)
 - How to spend resources (frontier logistics)
 
-\page
 
 **Consequences:**
 - Reputation with settlements
@@ -423,6 +433,9 @@ Organizations from other regions notice Northreach:
 
 ---
 
+
+\page
+
 ## Secrets and Revelations
 
 ### For the DM (Hidden Truths)
@@ -444,7 +457,6 @@ Organizations from other regions notice Northreach:
 - Testing responses of different species/societies
 - Ultimate purpose remains unclear (Season Two?)
 
-\page
 
 **About NPCs:**
 - Finethir Shinebright knows more than he reveals (warlock connection)
@@ -459,6 +471,8 @@ Organizations from other regions notice Northreach:
 - **Tier 4 (17-20):** Source confronted, continental resolution
 
 ---
+
+
 
 ## Campaign Escalation
 

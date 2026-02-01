@@ -48,7 +48,11 @@ The Emberlands are dominated by a chain of active volcanoes known as the **Fireb
 - "Intelligent" lava behavior reported
 - New volcanic features appearing overnight
 
+
+
+
 \page
+
 
 ### Major Geographical Features
 
@@ -83,6 +87,10 @@ Since Eclipse Day, the Emberlands sky has taken on a permanent crimson tinge dur
 
 **Resonance Zones:**
 Areas where the Aeorian Echo manifests as visible heat distortions combined with harmonic vibrations. Standing in these zones is described as "hearing the world's heartbeat" or "feeling the planet breathe." Extended exposure causes hallucinations, heat exhaustion, and sometimes spontaneous magical effects.
+
+
+
+
 
 \page
 
@@ -126,7 +134,6 @@ Built atop an active lava flow that mysteriously solidified on Eclipse Day (and 
 **Philosophy:**
 The Kindled believe reality itself is flawed—a cold, ordered prison imposed on a universe that should burn freely. Eclipse Day was the first crack in that prison, and the Emberlands are the place where the flames of true existence are breaking through. They seek to hasten this process.
 
-\page
 
 **Current Activities:**
 - Recruiting from desperate communities
@@ -134,6 +141,8 @@ The Kindled believe reality itself is flawed—a cold, ordered prison imposed on
 - Performing rituals at resonance sites
 - Attempting to amplify volcanic activity
 - Searching for ancient fire-related artifacts
+
+
 
 **Key NPCs:**
 - **High Flame Meridax:** Charismatic sorcerer-prophet, believes they are channeling the "True Fire," probably Echo-touched, increasingly unstable
@@ -143,6 +152,9 @@ The Kindled believe reality itself is flawed—a cold, ordered prison imposed on
 
 **Threat Level:**
 Growing. The cult was fringe before Eclipse Day, now they're attracting desperate converts and legitimizing their prophecies with each new eruption. They're not sophisticated terrorists—they're true believers with apocalyptic goals and growing supernatural power.
+
+\page
+
 
 ### Stoneheart Mine
 
@@ -174,7 +186,6 @@ The dwarven clans are offering substantial rewards for expeditions to:
 - Reality distortions near active artifact nodes
 - Kindled cultists seeking same information
 
-\page
 
 ### The Ashfall Trading Post
 
@@ -193,6 +204,8 @@ Located in one of the more stable ashfall valleys, this settlement exists becaus
 - Guides for dangerous routes
 - Black market for questionable artifacts
 
+
+
 **Current Tension:**
 The Trading Post is under pressure from all sides. Dwarven traditionalists want them to stop trading with the Kindled. The Kindled want them to stop supporting dwarven stabilization efforts. External powers want information on both groups. The merchants just want everyone to pay their bills and stop threatening to burn the place down.
 
@@ -203,6 +216,9 @@ The Trading Post is under pressure from all sides. Dwarven traditionalists want 
 - **Sergeant Kross:** Mercenary captain, leads Trading Post guard, ex-military from somewhere, professional and expensive
 
 ### The Glass Gardens
+
+
+\page
 
 **Type:** Phenomenon/location  
 **Status:** Unexplained  
@@ -222,7 +238,6 @@ In the heart of the Obsidian Plains, an area of volcanic glass has spontaneously
 - Cultists consider them sacred
 - Dwarven researchers find them terrifying and fascinating
 
-\page
 
 **Current Situation:**
 The Glass Gardens are a contested site. Researchers want to study them. Cultists want to worship them. Some external powers want to harvest them. And the gardens themselves might have an opinion about all this.
@@ -248,6 +263,8 @@ This isn't a single location but an interconnected system of volcanic caves, col
 **Exploration:**
 Mapping the Burning Deep is nearly impossible due to constant changes, but expeditions continue because the potential discoveries are too valuable to ignore. Every major faction has agents attempting to explore and claim territory down there.
 
+
+
 ---
 
 ## Culture and Society
@@ -272,6 +289,8 @@ Eclipse Day has fractured this unity. The traditionalists insist established met
 Life in the dwarven holds has become one of constant crisis management. Forges that once ran on strict schedules now operate when conditions allow. Mining operations are suspended, resumed, and suspended again based on rapidly changing conditions. Everyone knows someone who died in an "impossible" eruption or unexpected magma flow.
 
 \page
+
+
 
 ### The Kindled
 
@@ -308,6 +327,8 @@ Scattered across the Emberlands are smaller settlements that aren't dwarven hold
 - Researchers studying the changes
 - Adventurers exploring Aeorian facilities
 
+
+
 **Challenges:**
 - Limited resources
 - Constant environmental threats
@@ -318,7 +339,6 @@ Scattered across the Emberlands are smaller settlements that aren't dwarven hold
 **Opportunities:**
 These communities need help desperately and can offer unique rewards: local knowledge, access to restricted areas, information on faction movements, rare heat-resistant materials, guides through changing terrain.
 
-\page
 
 ## The Aeorian Echo in the Emberlands
 
@@ -333,6 +353,9 @@ Eruptions and magma flows respond to Aeorian geometric patterns rather than pure
 
 **Elemental Awakening**
 Fire elementals and magma-based creatures show signs of increased intelligence and coordination. Some appear to be attempting communication. Others demonstrate organized behavior suggesting outside direction.
+
+\page
+
 
 **Material Transformation**
 Metals and minerals exposed to resonance zones develop unusual properties:
@@ -358,7 +381,6 @@ Partially active. Systems are coming online in sequence, following some ancient 
 **Implications:**
 If the Aeorians built infrastructure to control volcanic activity, what were they planning to do with it? Power generation? Climate control? Terraforming? Weaponization? And what happens when it finishes activating?
 
-\page
 
 ### Why the Emberlands?
 
@@ -392,6 +414,8 @@ The Kindled might be accidentally correct. The volcanic network could be designe
 - Continental climate effects
 - Unknown capabilities come online
 
+
+
 **Stage 4: Full Activation (Campaign Endgame)**
 - Complete control over southern volcanic systems
 - Potential planetary-scale effects
@@ -399,6 +423,9 @@ The Kindled might be accidentally correct. The volcanic network could be designe
 - Catastrophic consequences or opportunities
 
 ---
+
+
+\page
 
 ## Relations with Other Regions
 
@@ -411,7 +438,6 @@ The Emberlands are one of the clearest examples of Echo effects outside Northrea
 
 **Conflict Potential:** Low direct, high indirect. If Emberlands facilities are connected to Northreach facilities, actions in one region affect the other.
 
-\page
 
 ### Solaris Dominion (North)
 **Status:** Strategic interest, resource extraction
@@ -458,7 +484,6 @@ The Marches druids view what's happening in the Emberlands as unnatural corrupti
 
 **Conflict Potential:** High. Growing ideological conflict between "let nature reclaim" druids and "master the elements" dwarves/cultists.
 
-\page
 
 ### The Sunken Dominion (Southeast)
 **Status:** Research interest, comparative study
@@ -469,10 +494,15 @@ Underwater researchers have detected similar pattern formations in oceanic volca
 
 **Conflict Potential:** Low. Shared research interests, no territorial disputes.
 
+
+
 ### The Far North (Distant North)
 **Status:** Critical connection, shared origin
 
 The Emberlands and Far North facilities appear to be different nodes in the same Aeorian network. What happens in one region affects the other. Researchers attempting to map this connection are discovering terrifying implications about continental-scale infrastructure.
+
+\page
+
 
 **Trade:** None currently.
 
@@ -507,7 +537,6 @@ The Kindled are planning something major at an upcoming ritual during a predicte
 - Stopping ritual might make things worse
 - Multiple employers want different outcomes
 
-\page
 
 ### Stoneheart Mine Expedition
 **Level:** 7-10  
@@ -528,6 +557,8 @@ Hire on with a dwarven expedition to explore the compromised Stoneheart Mine, ma
 
 The Ashfall Trading Post hires the party to protect researchers studying the Glass Gardens and document the crystalline formations. But the crystals are more active than anyone realized—they respond to presence, create illusions or visions, and might be attempting communication. Party must protect researchers from cultists, hostile creatures, and the gardens themselves while determining what the crystals are and what they want.
 
+
+
 **Complications:**
 - Crystals show visions of past or future
 - Multiple factions want research data
@@ -537,6 +568,9 @@ The Ashfall Trading Post hires the party to protect researchers studying the Gla
 
 ### The Burning Deep Descent
 **Level:** 8-12  
+
+\page
+
 **Type:** Mega-dungeon, extended campaign
 
 Mount an expedition into the Burning Deep to map the Aeorian network, locate the central control facility, and determine what the ancient technology is building toward. This is a major undertaking requiring multiple sessions, careful resource management, faction negotiations, and difficult choices about whether to shut systems down, control them, or let them activate.
@@ -562,7 +596,6 @@ Traditionalist dwarves and Resonance Smiths are on the brink of civil conflict. 
 - External powers want conflict to continue
 - Wrong decision could trigger civil war
 
-\page
 
 ### Refugee Rescue
 **Level:** 4-7  
@@ -592,9 +625,14 @@ High Flame Meridax challenges the party to witness a ritual at a major resonance
 - Meridax is clearly insane but possibly correct
 - Choice between dogma and evidence
 
+
+
 ### Material Matters
 **Level:** 5-8  
 **Type:** Heist, trade mission, moral compromise
+
+\page
+
 
 Multiple factions want Echo-touched materials from the Emberlands. The party is hired to acquire specific samples, negotiate with sellers, or even steal from competing factions. But Echo-touched materials are dangerous, potentially unstable, and might be used for terrible purposes. Who you sell to matters, and the party must navigate competing interests while avoiding being used as pawns.
 
@@ -620,7 +658,6 @@ The Ashfall Trading Post is under siege by a Kindled war party demanding the set
 - Resolution sets precedent for regional conflict
 - Everyone blames everyone else
 
-\page
 
 ---
 
@@ -645,6 +682,11 @@ Master Smith Embervein's experiments are producing results because she's acciden
 **The Glass Gardens' Purpose**
 The crystalline formations are data storage and communication nodes. They're recording everything—geological changes, magical fluctuations, facility status, even observations of visitors. The gardens are growing along old Aeorian information networks, reconnecting distributed systems.
 
+\page
+
+
+
+
 **The Burning Deep Network**
 The interconnected facilities form a distributed control system managing volcanic activity across multiple mountain ranges. Individual nodes can be shut down, but the network will route around damage. Complete shutdown requires accessing master controls, which are deeper and more dangerous than anyone has explored.
 
@@ -654,7 +696,6 @@ Aeorian facilities in the Emberlands are linked to oceanic systems in the Sunken
 **Thorvald's Secret**
 High Forgemaster Thorvald knows traditional methods are failing but can't admit it without destroying his authority and cultural legitimacy. He's desperately searching ancient records for solutions while publicly maintaining confidence. He's found references to "old agreements" with "the mountain keepers" but doesn't understand what that means.
 
-\page
 
 **The Weapon Theory**
 Some Aeorian facilities appear designed for weaponization—directing volcanic eruptions, triggering earthquakes, manipulating lava flows as tactical weapons. If military applications come online, whoever controls them could devastate nations. Multiple factions are racing to find these systems without fully understanding them.
@@ -694,7 +735,11 @@ The Solaris Dominion wants Emberlands materials for weapons development. Vharoxi
 - Regional factions become allies or enemies based on previous choices
 - What happens here affects planetary climate and geological stability
 
+
+
+
 \page
+
 
 ### Revelation Timing
 
@@ -744,13 +789,17 @@ Something triggers premature activation of major systems. The party must deal wi
 **The Unexpected Alliance**
 Desperate circumstances force cooperation between traditionalist dwarves and Kindled cultists. Natural enemies must work together, creating opportunity for understanding or deeper conflict. Party mediates extremely uncomfortable alliance.
 
-\page
 
 **The Price of Control**
 Controlling Aeorian systems is possible—but requires accepting guidance from Aeorian intelligence, using dangerous technology, or making deals with questionable entities. Power comes with compromises. How far will the party go?
 
 **The Outside Invasion**
 External power sees Emberlands chaos as conquest opportunity. Solaris Dominion, Vharoxis syndicates, or foreign nation makes major move. Party must handle regional crisis while repelling invasion. Defending people who might be making terrible choices.
+
+\page
+
+
+
 
 **Personal Stakes**
 A party member's background connects to Emberlands. Family in dwarven holds, past involvement with cult, previous expedition to deep facilities, or Echo-touched physiology manifesting. The regional crisis becomes deeply personal.
@@ -795,7 +844,6 @@ A party member's background connects to Emberlands. Family in dwarven holds, pas
 - Landscape actively hostile
 - Everything could erupt at any moment
 
-\page
 
 ### Key Themes
 
@@ -816,6 +864,11 @@ The land itself is the threat. No villain to defeat will fix the problem. The pa
 
 **Cultural Collapse**
 Dwarven civilization is fracturing. Centuries of tradition and achievement face irrelevance. How does a culture survive when its foundation becomes unstable? What do you preserve, and what do you abandon?
+
+\page
+
+
+
 
 ### DM Tools
 
@@ -844,7 +897,6 @@ Dwarven civilization is fracturing. Centuries of tradition and achievement face 
 
 Roll every hour of travel or at dramatically appropriate moments. Adjust results based on location and situation.
 
-\page
 
 **Environmental Hazards:**
 
@@ -899,6 +951,8 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - May attack or test party
 - Some individual cultists question cause
 
+
+
 **Resonance Smiths:**
 - Excited to meet adventurers with fresh perspectives
 - Want to demonstrate new techniques
@@ -906,7 +960,6 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - Share research data freely
 - Sometimes recklessly experimental
 
-\page
 
 **Survivor Communities:**
 - Desperate for supplies and help
@@ -969,7 +1022,6 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - Potential allies or hirelings
 - Humanize the crisis
 
-\page
 
 ### Using in Campaign
 
@@ -1012,6 +1064,8 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - Regional crisis forces party choice
 - Allies or enemies based on choices made
 
+
+
 **Scaling:**
 - **Levels 1-4:** Rumors only, maybe refugee encounter
 - **Levels 5-8:** First visits, surface adventures, faction introduction
@@ -1029,7 +1083,6 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - **Merchant-Captain Velara Cinderwind:** Neutral trader, information broker
 - **Geomancer Dugal Stoneheart:** Dwarven researcher, pattern recognition
 
-\page
 
 ### Key Locations
 - **Ironhearth Hold:** Dwarven capital, faction conflict
@@ -1062,6 +1115,9 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 ### Adventure Hooks Summary
 1. Stabilize the Great Forge before catastrophic failure
 2. Infiltrate Cinder Citadel and stop cult ritual
+
+\page
+
 3. Explore Stoneheart Mine and map Aeorian facility
 4. Study Glass Gardens and decode crystal patterns
 5. Descend into Burning Deep mega-dungeon
@@ -1088,6 +1144,8 @@ Roll every hour of travel or at dramatically appropriate moments. Adjust results
 - **Verdant Marches:** Ideological opposition, environmental conflict
 - **Sunken Dominion:** Research collaboration, volcanic connections
 - **Far North:** Shared network, coordinated effects
+
+
 
 ---
 

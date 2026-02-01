@@ -42,7 +42,6 @@ The Blackwake Corsairs operate here, using the chaos to profit from smuggling an
 - Navigation nightmare
 - Perfect for smugglers
 
-\page
 
 **Underwater Features:**
 - Continental shelf drops dramatically
@@ -88,6 +87,8 @@ The Blackwake Corsairs operate here, using the chaos to profit from smuggling an
 - Struggling with empty nets
 - Strange catches
 
+
+
 **Reefshadow**
 - Population: ~600
 - Island settlement
@@ -96,7 +97,6 @@ The Blackwake Corsairs operate here, using the chaos to profit from smuggling an
 - Knowledge of safe passages
 - Selling information at premium
 
-\page
 
 **The Drowned Settlements:**
 Several coastal villages abandoned in last year:
@@ -108,6 +108,9 @@ Several coastal villages abandoned in last year:
 - No one returns to investigate
 
 ---
+
+
+\page
 
 ## Culture and Society
 
@@ -155,7 +158,6 @@ Several coastal villages abandoned in last year:
 - Growing debates about artifacts
 - Some things better left
 
-\page
 
 **The Salvage Markets:**
 Port Salvage central hub:
@@ -194,6 +196,8 @@ Port Salvage central hub:
 
 ---
 
+
+
 ## The Aeorian Echo on the Coast
 
 ### Underwater Awakening
@@ -207,7 +211,6 @@ The Sunken Dominion—ancient Aeorian facilities submerged in cataclysm—is rea
 - Artifacts breaking free from sediment
 - Structures rising from seafloor (slowly)
 
-\page
 
 **Observable Effects:**
 
@@ -261,7 +264,6 @@ The Sunken Dominion—ancient Aeorian facilities submerged in cataclysm—is rea
 - Lights and structures
 - Sounds like speech
 
-\page
 
 **Ongoing Consequences:**
 - Increased anomalies
@@ -279,6 +281,9 @@ The Sunken Dominion—ancient Aeorian facilities submerged in cataclysm—is rea
 - No consensus
 - Situation worsening
 - Decision point approaching
+
+
+\page
 
 ---
 
@@ -316,9 +321,10 @@ Even corsairs worried:
 - Artifact trafficking booming
 - Divided between profit and survival
 
-\page
 
 ### Corsair Operations
+
+
 
 **Smuggling Networks:**
 - Move illegal goods worldwide
@@ -370,7 +376,6 @@ Even corsairs worried:
 - Might work with party if properly approached
 - Price: always a price
 
-\page
 
 ---
 
@@ -423,7 +428,6 @@ Rumors speak of entire city:
 - Actually: artifact shards
 - Physically and magically active
 
-\page
 
 **The Drowned Lights:**
 - Bioluminescence spreading
@@ -440,6 +444,11 @@ Rumors speak of entire city:
 - Calm during storms, storms during calm
 - Underwater currents surface-level
 - Physics breaking down
+
+
+
+
+\page
 
 ---
 
@@ -479,7 +488,6 @@ Rumors speak of entire city:
 - Scholars comparing notes
 - Patterns emerging
 
-\page
 
 **Sunken Dominion:**
 - Unknown to most
@@ -533,7 +541,6 @@ Rumors speak of entire city:
 - Or: wants to stay
 - Either way: dangerous
 
-\page
 
 ### Underwater Expedition
 - Scholar hires party
@@ -554,6 +561,11 @@ Rumors speak of entire city:
 - Paranoia and survival
 
 ---
+
+
+
+
+\page
 
 ## Secrets and Revelations
 
@@ -592,7 +604,6 @@ Rumors speak of entire city:
 - Could be decoded (crucial intelligence)
 - But: requires underwater access
 
-\page
 
 ### NPC Secrets
 
@@ -648,9 +659,13 @@ Rumors speak of entire city:
 - Corsairs and navy cooperating
 - Desperate measures
 
-\page
 
 ---
+
+
+
+
+\page
 
 ## Running the Shattered Coast
 
@@ -699,7 +714,6 @@ Rumors speak of entire city:
 - Underwater = additional complexity
 - Can't just walk away from ocean
 
-\page
 
 **As Resource:**
 - Artifacts from underwater sites

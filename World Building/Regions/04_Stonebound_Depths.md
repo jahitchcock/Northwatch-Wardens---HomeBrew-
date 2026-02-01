@@ -40,7 +40,6 @@ Eclipse Day sent shockwaves through the Depths. The Heartstone—a massive artif
 - Massive chambers (some natural, some carved)
 - Interconnected levels spanning vertical miles
 
-\page
 
 ### Levels of the Depths
 
@@ -83,6 +82,11 @@ Eclipse Day sent shockwaves through the Depths. The Heartstone—a massive artif
 
 ---
 
+
+
+
+\page
+
 ## Khardûn-Tharum, the Deep Crown
 
 ### Overview
@@ -93,7 +97,6 @@ The capital city, a monumental underground metropolis carved around a massive cr
 **Architecture:** Carved stone, precise geometric patterns, resonant design  
 **Atmosphere:** Echoing, monumental, ancient
 
-\page
 
 ### The Heartstone
 The centerpiece of dwarven civilization:
@@ -143,7 +146,6 @@ Cathedral-like cavern housing the core:
 - Where Deep-Readers interpret vibrations
 - Now the busiest place in the city
 
-\page
 
 **The Resonant Forges**
 Workshops built around harmonic metal veins:
@@ -190,7 +192,11 @@ Government seat for Stonebound Council:
 - Military commanders
 - Currently in continuous session (Eclipse Day response)
 
+
+
+
 \page
+
 
 ---
 
@@ -245,7 +251,6 @@ Each guild internally ranked by skill:
 - Inter-clan marriages common
 - Foundlings adopted into clans readily
 
-\page
 
 **Class Mobility:**
 Relatively high:
@@ -296,9 +301,13 @@ Relatively high:
 - Practicality
 - Tradition (but flexible tradition)
 
-\page
 
 ---
+
+
+
+
+\page
 
 ## Magic in the Depths
 
@@ -348,7 +357,6 @@ The formal magical tradition:
 - Solo performances for precision
 - Emergency fast-singing (dangerous, imprecise)
 
-\page
 
 **Common Spells:**
 - Shaping stone (gradual, permanent)
@@ -395,6 +403,11 @@ They're reading Aeorian artifact network activity:
 
 ---
 
+
+
+
+\page
+
 ## Eclipse Day in the Depths
 
 ### The Event
@@ -408,7 +421,6 @@ When Eclipse Day struck the surface, the Depths felt it immediately:
 - Metal veins glowed briefly
 - Underground rivers churned
 
-\page
 
 **Magical Effects:**
 - Rune-singers experienced power surge
@@ -463,7 +475,6 @@ Months later:
 - Some mines becoming too dangerous
 - But also: unprecedented finds
 
-\page
 
 **Social Impact:**
 - Increased mining activity
@@ -519,7 +530,8 @@ Months later:
 - Both experiencing "strange times"
 - Growing correlation recognized
 
-\page
+
+
 
 **Nullwood:**
 - Minimal contact
@@ -569,9 +581,11 @@ Months later:
 - Some accepted as honorary guild members
 - After Eclipse Day, more foreigners seeking access
 
-\page
 
 ---
+
+\page
+
 
 ## Adventure Hooks
 
@@ -620,9 +634,10 @@ Months later:
 - Sealed chamber with impossible contents
 - Truth about "Deep Roots" emerging
 
-\page
 
 ---
+
+
 
 ## Secrets and Revelations
 
@@ -662,7 +677,6 @@ Heartstone pulses encode information:
 - But: decoding would reveal truth
 - Truth might cause cultural collapse
 
-\page
 
 ### Connection to Campaign
 
@@ -713,7 +727,11 @@ Heartstone pulses encode information:
 - Dwarven civilization built on ancient site
 - Choices must be made
 
+
+
+
 \page
+
 
 ---
 
@@ -768,7 +786,6 @@ No easy answers:
 - Not using it risks world
 - Dwarven stubbornness vs. survival
 
-\page
 
 ### Using in Campaign
 
@@ -836,6 +853,8 @@ What happens when you ignore signs:
 - Ancient levels awakening
 - Constructs stirring
 
+
+
 **Campaign Role:**
 - Unconscious witnesses to artifact network
 - Potential technology resource
@@ -844,6 +863,9 @@ What happens when you ignore signs:
 - Alternative approach to Echo threat
 
 ---
+
+
+\page
 
 *"The dwarves have been reading the artifacts' instruction manual for three thousand years. They just thought it was geology."*
 
