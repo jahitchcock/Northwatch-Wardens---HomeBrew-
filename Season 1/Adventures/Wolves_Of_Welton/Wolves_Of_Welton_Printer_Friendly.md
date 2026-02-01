@@ -22,7 +22,6 @@ The wolves are not ordinary — they have been magically awakened after an encou
 
 ---
 
-\page
 
 # Scene 1 — Wolf Ambush on the Road
 
@@ -51,7 +50,6 @@ The wolves are not ordinary — they have been magically awakened after an encou
 
 ---
 
-\page
 
 # Scene 2 — Welton
 
@@ -91,6 +89,8 @@ People are anxious, streets muddy from heavy traffic, and food shortages loom.
 
 ---
 
+
+
 \page
 
 # Scene 3 — Finding the Wolves’ Lair
@@ -121,7 +121,6 @@ Its injuries show wolf bites and scorch marks — clues to the wolves’ new abi
 
 ---
 
-\page
 
 # Scene 5 — The Wolves’ Den
 
@@ -162,7 +161,6 @@ Negotiation triggers:
 
 If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 
-\page
 
 ---
 
@@ -178,7 +176,6 @@ If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 - Council must be convinced  
 - Tillus opposes negotiations  
 - Persuasion checks determine outcome  
-\page
 
 - If wolves’ intelligence becomes known, Featherock recovers faster  
 
@@ -214,5 +211,8 @@ If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 (Use your own map tools to recreate these.)
 
 ---
+
+
+\page
 
 # End of Markdown Summary

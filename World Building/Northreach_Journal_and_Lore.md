@@ -53,7 +53,6 @@ When winter bites early, when rumors travel faster than wagons, and when somethi
 > This journal is your record of what you’ve seen and what you’ve chosen: the names you’ve learned, the promises you’ve made, and the trail of small facts that become a story. Keep it honest, keep it clear, and let it grow as Northreach grows familiar.
 ---
 
-\page
 
 # 1) Northreach Lore Primer (Common Knowledge)
 
@@ -63,7 +62,6 @@ Life in Northreach runs on practical virtues. A sharp axe, a steady hand, and th
 
 Trouble comes with the territory, and everyone knows it. Most dangers are ordinary: hunger, cold, and distance. Some are less easily named—strange tracks after fresh snow, animals that won’t spook, lights where there shouldn’t be any. Whatever the cause, Northreach respects anyone willing to step forward, take responsibility, and see a hard problem through to the end.
 
-\page
 
 ## 1.1 The Northwatch Wardens (The Guild)
 
@@ -116,10 +114,12 @@ Northreach is not a place where magic is commonplace.
 - Fewer have **seen** it.
 - Those who have tend to talk about it carefully—half in awe, half in fear.
 
-\page
 
 ## 1.5 Places of Northreach (Canonical)
 Below are the places people in the region would recognize by name. (Some are familiar, some are “heard-of,” and some are local legend.)
+
+\page
+
 
 ### Waystone Inn (Center)
 
@@ -175,9 +175,11 @@ Below are the places people in the region would recognize by name. (Some are fam
 - A strange illness has people worried.
 
 
-\page
 
 <div class="wide">
+
+
+\page
 
 ## 1.7 People of the Wardens
 
@@ -194,7 +196,6 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 </div>
 
-\page
 
 <div class="wide">
 
@@ -210,7 +211,6 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 </div>
 
-\page
 
 <div class="wide">
 
@@ -220,12 +220,14 @@ Below are the places people in the region would recognize by name. (Some are fam
 | <img src="Campaign%20Assets/Images/FatherJohanMerriksonn.jpg" width="90" alt="Father Johan Merriksonn" /> | Father Johan Merriksonn | Waystone Inn (roster) | Hearthwarden | Kind priest and counselor; a steady presence when things get grim. |  |
 | <img src="Campaign%20Assets/Images/WillenFeatherock.jpg" width="90" alt="Willen Featherock" /> | Willen Featherock | Waystone Inn (roster) | Hearthwarden | Shepherd and survivor; nervous, earnest, and easy to overwhelm. |  |
 | <img src="Campaign%20Assets/Images/FlyntWymblen.jpg" width="90" alt="Flynt Wymblen" /> | Flynt Wymblen | Waystone Inn (roster) | Hearthwarden | Bard and rumor-mill; always collecting stories and paying in songs. |  |
+
+\page
+
 | <img src="Campaign%20Assets/Images/JoelAndersmith.png" width="90" alt="Joel Andersmith" /> | Joel Andersmith | Waystone Inn (roster) | Hearthwarden (ally) | Farmhand and friend of the guild; shows up when honest help is needed. |  |
 |  |  |  |  |  |  |
 
 </div>
 
-\page
 
 
 <div class="wide">
@@ -240,7 +242,6 @@ Below are the places people in the region would recognize by name. (Some are fam
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
-\page
 
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
@@ -283,9 +284,11 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 </div>
 
-\page
 
 <div class="wide">
+
+
+\page
 
 ## 2.4 Places (location index)
 | Location | First visit | What we learned | Notes |
@@ -333,11 +336,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 | ________________________________ | ________________________________ | __________________ | ____________________________ |
 
 
-\page
 
 </div>
 
-\page
 
 <div class="wide">
 
@@ -403,5 +404,3 @@ Below are the places people in the region would recognize by name. (Some are fam
 ---
 
 </div>
-
-\page

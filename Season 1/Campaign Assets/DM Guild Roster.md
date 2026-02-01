@@ -51,6 +51,8 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Secret:** Elric has prophetic dreams he refuses to discuss. They always involve a tower of ice cracking open.
 
+
+
 \page
 
 **🌲 TRAILWARDENS**
@@ -116,6 +118,8 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 - Temple of the Dragonknights: Mila’s brother disappeared near the ruins.
 
 **Secret:** Mila’s brother was taken by Venomfang’s kobolds. He may still be alive.
+
+
 
 \page
 
@@ -219,6 +223,9 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Shinebright — High Elf Wizard (Polymorphed)**
 
+\page
+
+
 <img src="Images/Shinebright.png" width="90" alt="Shinebright" style="display: block;" />
 
 **Public Face:** A sheep.
@@ -305,7 +312,6 @@ You already know this one — he’s the chaos engine.
 - Frozen Sick: Joel knows a trader who handled the blue vials.
 
 **Secret:** Clementine’s magic awakened something in the ruins.
-\page
 
 
 **🐺 WILD ALLIES**
@@ -320,6 +326,9 @@ You already know this one — he’s the chaos engine.
 **Flame — Alpha Wolf (Awakened)**
 
 <img src="Images/Flame.jpg" width="90" alt="Flame" style="display: block;" />
+
+\page
+
 
 **Public Face:** Fierce, proud, aggressive.
 **Private Truth:** Flame believes the wolves are destined to rule the frontier.

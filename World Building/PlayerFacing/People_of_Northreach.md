@@ -1,6 +1,5 @@
 # People of Northreach
 
-\page
 
 ## Overview
 
@@ -68,6 +67,9 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 ---
 
 ## Warden Field Agents
+
+\page
+
 
 ### Corel
 
@@ -145,6 +147,9 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 ---
 
 ### Galvena Aballon
+
+\page
+
 
 **Role:** Lantern Guard (disciplined protector)
 
@@ -238,6 +243,9 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 
 ### Baleth Cindermoon
 
+\page
+
+
 **Role:** Lorewatch (charming warlock)
 
 **Background:** An elf with an easy smile and magic that doesn't quite feel like normal spellcasting. Baleth claims his powers come from "a mutually beneficial arrangement" and doesn't elaborate.
@@ -249,7 +257,6 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 - Always knows more than he's saying
 - People trust him despite not quite trusting him
 
-\page
 
 ---
 
@@ -333,6 +340,9 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 ---
 
 ### Pelc (Palebank Village)
+
+\page
+
 
 **Role:** Merchant and collector
 
@@ -426,6 +436,9 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 
 ### The Dragonknights (Historical)
 
+\page
+
+
 **Role:** Ancient order of warriors
 
 **Background:** Little is known for certain about the Dragonknights beyond their temple in the northwest mountains. Local stories credit them with protecting the region from great evils in ages past.
@@ -472,7 +485,6 @@ People passing through—some seeking opportunities, others fleeing pasts. North
 Those drawn to Northreach by its mysteries and ruins. They're usually more interested in ancient history than current problems.
 
 ### Wardens and Guards
-\page
 
 Professional protectors who handle the dangers that ordinary folk can't. They earn their reputation through actions, not titles.
 
@@ -523,6 +535,9 @@ In a frontier region, your reputation is built through actions:
 **Reputation is Local:** Someone might be a hero in Welton and unknown in Palebank. Word travels, but slowly.
 
 ---
+
+\page
+
 
 *"Out here, you're measured by what you do when no one's watching and what you don't do when everyone is."*  
 — Common frontier saying

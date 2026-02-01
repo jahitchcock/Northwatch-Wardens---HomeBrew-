@@ -26,6 +26,9 @@ Dungeons & Dragons is a collaborative storytelling and roleplaying game. Each pl
 
 One of the participants in the game takes the role of the Dungeon Master (DM). The DM acts as the lead storyteller, the keeper of secrets, and the referee. This document provides everything you need to know to get started as a DM.
 
+
+\page
+
 ## The Adventure
 
 Characters in Dungeons & Dragons undertake quests throughout their lives, heroic journeys and death-defying acts of courage that become tales of legend*—*or tales of doom! Peril in Pinebrook contains helpful hints, suggestions, and rules explanations that assist new Dungeon Masters in running the adventure. If you’re the DM, you can run this adventure as it’s written, or you can add your own bits of story. Your imagination, and the imaginations of the other players, make each game of D&D unique.
@@ -51,6 +54,9 @@ Each player should also have a way to make notes and keep track of changes to th
 This packet includes four character sheets and a handy guide that explains some of the rules and character options in more detail. Give each player one character sheet. If you have more than four players, they can change the names and descriptions on a duplicate character sheet so that they’ll have unique characters with similar abilities and equipment. The “Helping the Characters” section later in this document provides more information about using character sheets. The Experience
 
 ![A dramatic fantasy scene: a large, metallic-scaled dragon with broad, translucent wings glides low over a snowy mountain slope. Sunlight creates lens flares on the wing and highlights the dragon’s ornate crest and ridged jaw. Below, a scattering herd of antlered deer (resembling reindeer/elk) races across the snow beside pink‑tinted conifer trees. The color palette mixes silvery grays and icy blues with warm pinks and golds, giving a striking, wintry atmosphere.](./Peril_in_Pinebrook_COMPLETE_images/image_002.png)![- A mostly blank, portrait-oriented sheet with a subtle textured paper look. - Very light off-white/blue-gray tone with faint mottling and small speckles across the surface. - Slightly darker, soft blue-gray vignette around the edges, giving a stationery or watercolor-paper appearance. - No text, objects, or identifiable features present.](./Peril_in_Pinebrook_COMPLETE_images/image_003.png)![A mostly white, high-contrast abstract image. A large pale green, textured rectangular shape tilts diagonally across the center-right. The top-right corner contains a solid black triangular area, creating a strong diagonal divide. Overall the image looks like a lightly textured sheet or painted surface with a dark corner.](./Peril_in_Pinebrook_COMPLETE_images/image_004.png)![A photograph of a white sheet or print tilted on a dark background, showing a very faint, textured mint-green floral silhouette. The design features a tall stem with a rounded bloom at top and several leaves; the image has a soft, chalky or watercolor-like texture and is rotated slightly counterclockwise.](./Peril_in_Pinebrook_COMPLETE_images/image_005.png)![A mostly white, rotated sheet or panel set against a black background. The lower portion has a wide, pale teal/seafoam brushstroke or watercolor wash with subtle texture and streaks; the sheet’s bottom edge is rounded and angled, giving the whole image a tilted, cut-out appearance.](./Peril_in_Pinebrook_COMPLETE_images/image_006.png)![A tall, narrow portrait image showing a mostly white/off‑white background with a soft seafoam‑teal watercolor wash running down the right side. The teal area has irregular, organic edges, subtle tonal variations (darker core, lighter feathered margins), and a paper‑like texture—overall it looks like watercolor paint on paper and could serve as a decorative background or stationery element.](./Peril_in_Pinebrook_COMPLETE_images/image_007.png)![A close-up photo of a blue, marbled 20-sided gaming die (d20) with white engraved numbers. The die sits on a light surface and casts a soft shadow; the "20" face is prominently visible near the top. The surface shows glossy reflections and slight wear around the numerals.](./Peril_in_Pinebrook_COMPLETE_images/image_008.png)
+
+\page
+
 
 Peril in Pinebrook provides a play experience that can be completed in 60 to 90 minutes. It’s fine to take breaks or run the adventure in shorter sessions.
 
@@ -86,6 +92,9 @@ When an attack roll hits, it deals damage. The damage roll appears after the att
 
 Difficulty Class (DC) is the number that a character must equal or exceed to succeed at an action that is not an attack. This includes rolls to use skills.
 
+\page
+
+
 For example, if Shalefire wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called Athletics. Under “Skills” on Shalefire’s character sheet, it says “Athletics +6,” so Shalefire’s player rolls a 20-sided die and adds 6 to the number on the die. If the Difficulty Class to move the boulder is 12, the player would need to roll a 6 or higher for Shalefire to move the boulder.
 
 The Difficulty Class for actions a character can attempt is given in the adventure text. In general, a Difficulty Class of 10 (DC 10) is easy, while a DC of 15 is challenging. Most of the actions in this adventure are DC 10. The Dungeon Master can change DCs if circumstances make an action easier or harder.
@@ -112,6 +121,9 @@ Advantage means that instead of rolling the d20 once for the attack roll, Shalef
 
 Disadvantage works like advantage in reverse. If something in the game makes it harder to take an action, the roll for that action is made with disadvantage. For example, as Shalefire climbs a cliff using a rope, a monster at the top of the cliff shakes the rope. Because it’s now harder to climb, Shalefire makes the d20 roll to climb the rope with disadvantage. Disadvantage means that instead of rolling the d20 once to make the Athletics check to climb, Shalefire’s player rolls the d20 twice and uses the lower roll. They then add the normal modifier (+6 for Shalefire’s Athletics skill) to get a final result.
 
+\page
+
+
 ![A single marbled blue game die (cube) sitting on a light surface. The top face shows the number 5, the front face shows a white 6 (with a small underline), and the right face has a curved-arrow marking. The plastic has a glossy, swirled finish and the die casts a soft shadow.](./Peril_in_Pinebrook_COMPLETE_images/image_009.png)![A mostly blank, portrait-oriented sheet with a subtle paper texture. The background is off-white with faint blue-gray mottling and a gentle darker vignette around the edges. No text, figures, or distinct objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_010.png)![A mostly white, minimalist composition with a sharp black triangular area in the top-right corner. Across the center and lower-left there are pale, textured, almost translucent greenish rectangular shapes laid diagonally. The image has a rough, paper-like texture and high-contrast geometric simplicity.](./Peril_in_Pinebrook_COMPLETE_images/image_011.png)![A tilted white sheet or panel against a dark background showing a very pale mint-green botanical silhouette. The design is a soft, grainy/washed texture of a tall flower with a round bloom at the top, a slender stem and several elongated leaves. The overall look is faded, watercolor- or chalk-like and mostly white space.](./Peril_in_Pinebrook_COMPLETE_images/image_012.png)![A diagonally rotated, mostly white sheet or canvas set against a black background with a soft, pale mint/aqua brushstroke running across the lower third. The brushstroke shows visible texture and subtle gradients; overall the image is minimal and abstract with clean, airy tones.](./Peril_in_Pinebrook_COMPLETE_images/image_013.png)![- Tall, narrow vertical image with a lot of white negative space. - A soft sea‑foam / teal watercolor wash runs down the right side — semi‑transparent layers, feathery edges, light splatter and drip marks that fade toward the bottom, giving an organic, hand‑painted texture.](./Peril_in_Pinebrook_COMPLETE_images/image_014.png)
 
 ### Hit Points
@@ -121,6 +133,8 @@ Every creature in D&D has a number of “hit points.” This number reflects the
 When a character reaches 0 hit points, they are unconscious. In this adventure, a character at 0 hit points remains unconscious until they regain hit points through healing or until the end of the encounter, when they regain 1 hit point automatically. The adventure details ways to regain hit points.
 
 **Using the Rules |**
+
+
 
 \page
 
@@ -156,6 +170,9 @@ Here are some tips for DMs that can help them run great games:
 
 **Rule 0.** Rule 0 of D&D is simple: Have fun. It’s fine if everyone agrees to change the rules as long as doing so means the game is more fun for everyone. **Be Supportive.** The players and the DM are all on the same team. DMs aren’t playing against the characters. The
 
+\page
+
+
 #### **| Running an Adventure**
 
 DM wins when the players have fun and the story is exciting and memorable.
@@ -167,6 +184,9 @@ DM wins when the players have fun and the story is exciting and memorable.
 **NPCs Are Your Voice.** While the players determine what their characters do, the DM controls all the other characters in the game. Nonplayer characters (also known as NPCs) are a great tool for the DM to help the characters understand the game and the story, and to work information into the story smoothly. **Allow Alternatives.** D&D is a game of fantasy, where heroes use wits, skill, and determination to overcome obstacles. Sometimes those obstacles are defeated with weapons and spells. But characters can succeed in other ways. Communicating with monsters, tricking them or frightening them away, or avoiding a fight while cleverly sneaking past a challenge can be just as much fun. Such options are ideal if anyone playing the game wants to avoid violence. **Listen to Your Players.** Encourage your players to speak to you, publicly or privately, if something in the game upsets them. Then respond appropriately. For instance, you can move past upsetting topics by quickly narrating a resolution to a scene, then quickly move to the next part of the story.
 
 ![A close-up photo of a blue, marbled 20-sided gaming die (d20) with white numerals. The die is tilted so the faces showing include 20, 2, 8, 14, and 18. It sits on a light surface with a soft shadow around it; background appears largely removed or brightened. The plastic has a glossy finish and the numbers are painted in white.](./Peril_in_Pinebrook_COMPLETE_images/image_015.png)![A glossy, marbled blue gaming die (six-sided) sits on a light surface casting a soft shadow. The top face shows a white "5", the front face a white "6" with a small minus-like mark beneath it, and the right face shows part of a circular arrow symbol. The die has rounded edges and white recessed numerals set against a swirled blue finish.](./Peril_in_Pinebrook_COMPLETE_images/image_016.png)![The image shows a pale, light-blue textured paper background with a subtle mottled/grainy surface and slightly darker blue shading along the edges, creating a faint vignette effect. There are no distinct objects, text, or people.](./Peril_in_Pinebrook_COMPLETE_images/image_017.png)![A portrait-oriented, mostly blank sheet of paper with a subtle textured grain. The paper is off-white with a faint cool/blue tint toward the edges and very light mottling across the surface; no text, drawings, or distinct marks are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_018.png)![A wide horizontal banner showing a soft mint‑green watercolor wash across the lower-left to center area, with painterly, irregular edges and visible paper texture that fades to white toward the right and top.](./Peril_in_Pinebrook_COMPLETE_images/image_019.png)![A rotated, abstract paint composition dominated by pale mint/seafoam green brushstrokes against a white background. The marks are wide, semi-translucent swaths with visible ribbed texture and layered ridges, some curving and overlapping to create depth. The image is tilted so the painted area runs diagonally across the frame; small scraped or splattered highlights and areas of thinner paint add contrast. Overall it reads as a minimalist, textured brushwork study.](./Peril_in_Pinebrook_COMPLETE_images/image_020.png)![A vertical, stylized botanical illustration on a pale off‑white background. Soft, mint‑green leaves and thin stems form a loose spray across the page; the foliage has a textured, stippled or sponge‑print look rather than crisp lines. The composition shows several compound leaves and intersecting stems, with two black triangular corners (top‑left and bottom‑left) where the image is cropped. Overall the image reads like a delicate, vintage‑style leaf print or wallpaper motif.](./Peril_in_Pinebrook_COMPLETE_images/image_021.png)![- Large white canvas with a light teal/green speckled splatter pattern. - Speckles and small chips are denser on the right side and fade toward the left, creating a diagonal gradient. - Texture appears like fine spray paint or ink splatter with occasional larger droplets. - Overall minimal, airy background suitable for subtle textured backgrounds or stationary.](./Peril_in_Pinebrook_COMPLETE_images/image_022.png)![A mostly empty sheet with a pale, cool-blue paper texture. It has a subtle vignette (darker blue near the edges), light mottling/grain across the surface, and no text, objects, or distinct features.](./Peril_in_Pinebrook_COMPLETE_images/image_023.png)![- A single sheet of textured paper filling the frame. - Very light, off-white to pale blue tint with subtle mottling and faint darker edges. - No text, images, or distinct markings — looks like decorative or stationery background.](./Peril_in_Pinebrook_COMPLETE_images/image_024.png)![A wide, horizontal banner showing a soft mint-green watercolor wash concentrated at the left that fades into a white background toward the right. The paint has a textured, brushed look with uneven edges and subtle variations in tone; there are no distinct objects, figures, or text.](./Peril_in_Pinebrook_COMPLETE_images/image_025.png)![- Abstract close-up of paint brush strokes on a pale background. - Broad, textured strokes in a soft seafoam/teal color with visible ridges and scraped paint detail. - Strokes are mainly vertical/arched but the whole image is slightly rotated, giving a diagonal feel. - Background is off‑white with faint diagonal striping; small black triangular corners appear at the top-left and bottom-left edges. - Overall impression: muted, airy, painterly composition focused on texture and flow.](./Peril_in_Pinebrook_COMPLETE_images/image_026.png)![- A tall, vertical botanical illustration on a white background. - Pale teal/seafoam-green leaf clusters and slender stems arranged diagonally across the image. - Leaves have a soft, textured, stippled or stamped appearance (like a leaf rubbing or sponge print). - Two black triangular corner areas at the top-left and bottom-left edges (likely from cropping or framing).](./Peril_in_Pinebrook_COMPLETE_images/image_027.png)![The image shows a mostly white background with a pale teal/seafoam paint-splatter pattern concentrated along the right side and upper-right quadrant. Speckles range from very fine mist-like dots to larger irregular chips; density fades leftward, creating a subtle gradient from dense splatter to nearly clean white. Overall appearance is abstract, like spray paint or watercolor splatter used as a textured background.](./Peril_in_Pinebrook_COMPLETE_images/image_028.png)![A mostly blank, slightly textured sheet with a soft blue-gray vignette around the edges. The center is bright white with faint paper grain and subtle speckling, giving the appearance of aged or watercolor paper. No text, objects, or people are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_029.png)![- Abstract, high-contrast image with a large off-white/very pale area at the top. - A small black triangular corner appears at the top-left. - The lower and right portions contain a rough, chalky/grunge textured block in pale blue-gray, arranged on a diagonal across the frame.](./Peril_in_Pinebrook_COMPLETE_images/image_030.png)![- A soft, mint-green botanical print of a flowering stem with several compound leaves and a single daisy-like flower. - The artwork has a rough, speckled texture that looks like a stamped or monoprint effect. - The image is placed on a white square that is rotated about 30–45° against a black background.](./Peril_in_Pinebrook_COMPLETE_images/image_031.png)
+
+\page
+
 
 **Attacks.**
 
@@ -298,6 +318,9 @@ Offer to help the players fill out these parts of their character
 
 sheets if needed. Do your best to answer questions from players,
 
+\page
+
+
 but some questions are best answered as they come up during
 
 play. Let the players know that you'll give them more information
@@ -341,6 +364,9 @@ unconscious. You'll learn how to regain hit points later in the game.
 **Adventure Introduction |**
 
 ![An abstract, high-key painting made of broad, vertical and slightly arched brush strokes in a pale seafoam/teal color on a white background. The strokes show visible ridges and texture variations, with some scraped or uneven areas where the white ground shows through. Overall the image feels minimal, layered, and painterly, like a large swath of diluted acrylic or gouache applied with a wide brush.](./Peril_in_Pinebrook_COMPLETE_images/image_032.png)![A pale, mostly white background with a soft, mint-green speckled texture concentrated on the left and fading toward the right. The pattern looks like fine paint splatter or terrazzo-style flecks of varying sizes, distributed more densely near the center-left and becoming sparser toward the edges. Overall effect is airy and subtle, suitable as a background or decorative texture.](./Peril_in_Pinebrook_COMPLETE_images/image_033.png)![A high‑contrast, black‑and‑white abstract image. It shows several thick vertical black shapes on a white background; the black forms have slightly curved edges and there’s a white triangular notch cutting into the top right of one black shape. The overall look is minimal and graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_034.png)![A stylized fantasy dragon in flight, shown from a three‑quarter view with wings fully extended. It has a long, sinuous neck and body covered in overlapping golden‑bronze scales, with spines running down its back. The large membranous wings show reddish and greenish tones and detailed veining; claws and a tapering tail are visible. The image looks like a painted or watercolor illustration against a soft cloudy sky.](./Peril_in_Pinebrook_COMPLETE_images/image_035.png)![A photo of a mostly blank sheet of textured paper. The surface has a very light, mottled grain with faint blue-gray shading concentrated along the edges, giving a subtle vignette or watercolor-paper appearance. No text, markings, or objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_036.png)![- Portrait-oriented abstract texture. - Mostly white background with a large pale blue‑gray, rough, chalky/brush-stroke area covering the lower two-thirds. - Solid black triangular wedge in the top-left corner and faint vertical/diagonal scratches/marks on the right. - No recognizable objects, text, or people.](./Peril_in_Pinebrook_COMPLETE_images/image_037.png)![An overhead view of a rotated square canvas with a pale teal, distressed botanical print. The design shows a stem with several textured leaves and a single daisy-like flower at the top right. The print has a weathered, stamp-like texture on an off-white background; black triangles fill the image corners outside the rotated square.](./Peril_in_Pinebrook_COMPLETE_images/image_038.png)![- Abstract close-up of paint brushstrokes on a light background. - Vertical, sweeping strokes in a pale mint/seafoam color with visible bristle texture and streaky highlights. - Areas of thinner paint show white underneath, giving a layered, scraped effect and subtle tonal variation. - Overall impression is soft, painterly, and minimalist.](./Peril_in_Pinebrook_COMPLETE_images/image_039.png)![- A mostly white background with a pale teal/seafoam speckled spray concentrated on the left side and fading toward the right. - The speckles vary in size from very fine dots to small irregular chips, resembling paint splatter, mist, or terrazzo texture. - Overall appearance is light, airy, and abstract with an off-center composition.](./Peril_in_Pinebrook_COMPLETE_images/image_040.png)
+
+\page
+
 
 Starting the Adventure
 
@@ -461,8 +487,10 @@ forest, motioning for the characters to follow.
 Proceed to Encounter 1: A Not-So-Fearsome Dragon.
 
 **| Starting the Adventure**
-\page
 
+
+
+\page
 
 ## Encounter 1: A Not-So-Fearsome Dragon
 
@@ -490,7 +518,13 @@ The players will probably ask questions throughout the adventure. To give the pl
 
 **Information the Characters Might Know.** Players might learn information based on their characters' skills. For instance, Shalefire or Gallantine could ask if this is a baby silver dragon. As the DM, you can have their players make a DC 10 check with an appropriate skill to see if they know the answer to that question. Shalefire could use the Animal Handling skill, while Gallantine could use the Nature skill. If they succeed on the check (d20 + skill modifier is 10 or higher),
 
+\page
+
+
 ![A small, high‑contrast black-and-white image showing mostly white negative space with a few sharp black shapes: - A large triangular/diagonal black area in the top-left corner. - Three narrow, irregular vertical black bars or pillars along the lower portion. - Clean, hard edges and no visible texture or identifiable objects.](./Peril_in_Pinebrook_COMPLETE_images/image_041.png)![A painted illustration of a large, winged dragon in mid-flight. It has a long, sinuous neck with small spines, a golden-brown scaled body, and broad leathery wings with reddish-brown mottling. The dragon’s talons are tucked beneath it and the background shows a soft, cloudy sky, giving a sense of height and motion.](./Peril_in_Pinebrook_COMPLETE_images/image_042.png)![A wide horizontal abstract image showing a pale mint‑green watercolor wash along the left and lower edges that gradually fades into a white background on the right and top. Soft brush textures, subtle granulation, and gentle gradients create a calm, airy background suitable for a banner or stationery.](./Peril_in_Pinebrook_COMPLETE_images/image_043.png)![The image shows a mostly blank, off‑white sheet of textured paper. There is a subtle blue‑gray vignette and light mottling/grain across the surface, giving a watercolor or stationery paper look.](./Peril_in_Pinebrook_COMPLETE_images/image_044.png)![A soft, teal-green watercolor wash on a white background. The paint forms a cloudy, irregular blob with feathery, diffused edges and visible paper texture; color is denser toward the left and fades toward the right. The top-right and bottom-right corners show triangular cutouts (black/white), suggesting the image is cropped or masked.](./Peril_in_Pinebrook_COMPLETE_images/image_045.png)![A very narrow, vertical crop showing a repeating pattern of diagonal, pale teal/seafoam-green stripes on a white background. The stripes are slightly mottled and have soft, faded edges, giving a watercolor or textured-paper appearance.](./Peril_in_Pinebrook_COMPLETE_images/image_046.png)![An abstract paint smear: broad, sweeping brush strokes in a warm peach/beige color across a white background. The paint shows visible texture and ridges from the brush, with diagonal strokes and layered bands of thicker and thinner pigment. Edges fade into white, and the composition sits slightly rotated with triangular black corners outside the canvas. Overall the image reads like a textured, painterly swatch or background.](./Peril_in_Pinebrook_COMPLETE_images/image_047.png)![- Tall, narrow image with a clean white background. - A concentrated spray of copper/rose-gold paint splatter and tiny flecks runs diagonally from the upper right toward the center/right area. - Splatter density is highest near the top-right and gradually thins out into fine dots and a few larger paint chips. - Overall feel: minimal, decorative, abstract — like a subtle metallic powder or paint-splash accent on a white page.](./Peril_in_Pinebrook_COMPLETE_images/image_048.png)![- A large, textured pale-peach/beige area fills most of the image; the texture looks like crayon, pastel, or a sponge-painted surface. - The peach area is diagonal, sloping up from the lower-left toward the upper-right. - A white strip runs along the top edge where the peach meets a thin black triangular corner at the very top-left. - Overall it resembles a close-up of a shaded paper background or a swatch of textured pastel artwork.](./Peril_in_Pinebrook_COMPLETE_images/image_049.png)![- A tilted sheet or canvas with wide, sweeping brush strokes in a soft peach/beige tone. - Visible texture from the brush (parallel ridges and streaks) and areas of varying opacity. - Mostly white background with the painted area concentrated toward the center-right; black margins outside the tilted sheet.](./Peril_in_Pinebrook_COMPLETE_images/image_050.png)
+
+\page
+
 
 you can tell them "Yes! This is a newborn silver dragon." You might add that they often eat meat and other food as well. **Information the Characters Don’t Know Yet.** A question like, “Where did this baby dragon come from?” is something the characters don’t know, at least not yet. When this happens, you can simply say, “You’re not sure, but you can try to find out.”
 
@@ -514,6 +548,9 @@ Remind players how to make d20 rolls if needed. After the dragon is fed, it says
 
 Once the dragon eats, it perks up and follows the characters. They can carry the dragon, who enjoys the attention. The dragon also loves belly rubs!
 
+\page
+
+
 ### Moving the Adventure Forward
 
 The mountain Captain Kole pointed the characters toward is visible above the trees.
@@ -523,7 +560,6 @@ When the players are ready, proceed to Encounter 2:
 Living Icicles.
 
 **A Not-So-Fearsome Dragon |**
-\page
 
 
 ## Encounter 2: Living Icicles
@@ -564,6 +600,9 @@ Roll a 20-sided die and add the modifier listed by the attack you're using. Tell
 
 First, describe how the monsters are vicious, and the danger they present. Highlight how sharp their claws are. Try to make the players feel as if they’re in a battle for their characters’ lives. If the monsters make one or two successful attacks, that helps with this feeling. Let the characters act first, starting with the player on your left and going clockwise. Ask each player what they want to do, and encourage them to describe their actions so everyone can imagine what the scene looks like.
 
+\page
+
+
 After all the players have acted, any undefeated living icicles attack. Each monster that still has hit points moves to a different character and makes an attack using their claws. Roll a d20 and add the attack modifier (+2) to the roll. If the total equals or exceeds the Armor Class of the character being attacked, the attack hits. Roll 1d6, and tell the player to subtract that damage from their hit points. If the attack misses, nothing happens. Either way, describe the attack. Do the claws rend open a wound or rake harmlessly off armor?
 
 Continue taking turns until all the living icicles are defeated. You can describe the living icicles shattering or melting as they're defeated. Or perhaps the living icicles flee when they're defeated. Just make it clear to the players that the living icicles can’t be chased and caught, perhaps by having them flow into narrow cracks in the mountainside where the characters can’t follow.
@@ -573,6 +612,9 @@ Continue taking turns until all the living icicles are defeated. You can describ
 Running an exciting combat in D&D is like a thrilling amusement park ride: the players often want to be scared and excited, but they don't want the excitement to lead to certain character death. This is where you can perform storytelling and mathematical magic. You can intervene if the characters seem to be losing the battle. For instance, you can give the characters advantage on attack rolls or give the monsters disadvantage on attack rolls. See the "Using the Rules" section earlier in this document for details about advantage and disadvantage. Changing probabilities like this can improve the characters' odds in defeating the monsters.
 
 ![A vertical close-up illustration that looks like a serrated fin or leaf. Warm rusty reds and oranges along the top edge transition through purples and greens to blue at the bottom. Thin radial ribs and sharp, tooth-like points run along the jagged margin; the surface shows speckled paint texture and a soft aqua watercolor wash in the background.](./Peril_in_Pinebrook_COMPLETE_images/image_051.png)![A watercolor-style illustration of a small dragon or dragon-like creature perched on a rocky ledge, leaning over a calm pond. It has greenish-brown, scaly skin, a ridged neck, folded wings, clawed feet, a long tail, and a single glowing yellow eye focused on the water. Lily pads and pink water lilies float on the pond, where gentle ripples show the creature’s reflected image. The overall mood is quiet and contemplative, with soft, muted colors and painterly splashes around the scene.](./Peril_in_Pinebrook_COMPLETE_images/image_052.png)![A mostly blank, portrait-oriented sheet with a subtle paper texture. The center is very light (almost white) and the edges have a soft, pale blue wash/vignette. No text, objects, or distinct features are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_053.png)![A portrait-oriented, mostly blank sheet of textured paper. The surface is very light — off-white with a subtle blue-gray mottled texture and faint speckling, plus slightly darker, gently vignetting edges that give it a soft, aged/stationery look. No text, objects, or people are present.](./Peril_in_Pinebrook_COMPLETE_images/image_054.png)![A soft, irregular teal-green watercolor wash on a white background. The pigment forms a diffused, cloud‑like blotch with soft, feathered edges and visible paper texture; the color is denser toward the center/left and fades to pale at the edges. No text or recognizable objects are present — the image reads like an abstract paint wash suitable as a background or design element.](./Peril_in_Pinebrook_COMPLETE_images/image_055.png)![The image is a very tall, narrow vertical strip with a mostly white background. Diagonal, pale aqua/teal bands repeat down the length, giving a soft, washed‑out striped pattern. The texture looks slightly grainy with a few tiny specks and uneven faded areas, suggesting paper, fabric, or a printed border rather than a sharp graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_056.png)![- A large, single broad brushstroke or smear in a warm peach/tan color, centered in the image. - Visible streaks and bristle textures running mostly diagonally (upper-left to lower-right) with lighter and denser areas. - Edges are irregular and feathered; parts of the white canvas show through. - The painted area is rotated slightly inside a white polygonal crop, with black corners visible outside that polygon.](./Peril_in_Pinebrook_COMPLETE_images/image_057.png)![A tall, portrait-oriented image with a clean white background and a decorative copper/rose‑gold paint splatter concentrated along the right side. The splatter ranges from fine mist-like dots to larger flecks, creating an organic, airy, asymmetrical pattern — looks like decorative ink or pigment scattered across the page.](./Peril_in_Pinebrook_COMPLETE_images/image_058.png)![- Abstract, diagonal composition. - Large textured field in pale peach / light orange, resembling crayon or chalk shading, fills the lower-right portion. - Narrow white strip runs along the top edge of the textured area. - Small black triangular area occupies the top-left corner, creating strong contrast.](./Peril_in_Pinebrook_COMPLETE_images/image_059.png)![A slightly tilted, mostly white canvas or paper with broad, soft peach-colored paint brush strokes across the center. The strokes are textured—visible ridges and parallel lines from the brush—running mostly horizontal with a gentle diagonal sweep. The overall look is minimal, airy, and abstract.](./Peril_in_Pinebrook_COMPLETE_images/image_060.png)![A close-up watercolor illustration of a single fin- or leaf-like structure, shown vertically against a white background. The jagged, spiky edge has pointed tips and ribbed veins; colors blend from warm rust and crimson at the top into purples, greens, and bluish tones near the base. The surface shows speckled texture and subtle washes of paint, with a pale aqua wash bleeding into the background.](./Peril_in_Pinebrook_COMPLETE_images/image_061.png)
+
+\page
+
 
 Rather than having a monster attack one character until they fall unconscious, have the monster attack a different character each turn.
 
@@ -593,6 +635,9 @@ Just inside the cave entrance, the characters find a worn leather backpack. Insi
 a package of dried meat, five torches, flint and steel for starting fires, and a pouch containing 12 gold pieces.
 
 ![A watercolor-style illustration of a small dragon perched on a rocky ledge, leaning down to peer into a pond. Key details: - Earthy, muted palette — browns and greens with soft washes and textured brushstrokes. - The dragon is scaled with a long neck and snout, yellow-green eye, folded wings, sharp claws, and a curled tail. - It gazes at the water where gentle ripples and a faint reflection appear. - The pond contains lily pads and two pink lotus-like flowers, adding a calm, whimsical mood.](./Peril_in_Pinebrook_COMPLETE_images/image_062.png)![The image shows a blank sheet of textured paper with a light bluish tint. Subtle grain and faint speckles are visible across the surface, and a gentle darker vignette appears near the edges. Overall it looks like a clean, slightly worn or handmade paper background.](./Peril_in_Pinebrook_COMPLETE_images/image_063.png)![A minimal, portrait-oriented image with a large area of white space and a soft, peach-pink watercolor wash concentrated on the right side. The paint has translucent layers, organic edges, subtle splatters and brush textures, and fades gently into the white background — overall an abstract, delicate background or stationery-style composition.](./Peril_in_Pinebrook_COMPLETE_images/image_064.png)![The image shows an abstract, lightly textured scene: - A large, irregular white shape (like a tilted page or panel) fills most of the frame. - Inside that shape is a broad, peach/beige, crayon- or pastel-like scribble with visible grain and overlapping strokes. - Dark black areas appear along the left edge and the top-right corner, creating strong contrast with the pale interior. - No people, text, or recognizable objects are visible; overall it looks like an abstract or sketched texture.](./Peril_in_Pinebrook_COMPLETE_images/image_065.png)![A slightly rotated white sheet or panel with a soft, pale-pink paint splatter pattern concentrated toward the center-right and lower area. The pink marks range from very fine speckles to small chips, creating a diffuse, textured look. Black triangular areas at the top-left and bottom-right suggest the sheet sits on a dark background.](./Peril_in_Pinebrook_COMPLETE_images/image_066.png)![A mostly white, tilted rectangular surface fills the image with scattered tan/orange paint splatter concentrated on the right half. The top-left and left edges show black triangular/angled areas (like background), while the splatter forms many small dots and a few larger blobs giving a speckled, random texture. No people or distinct objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_067.png)![- Abstract composition with a large, irregular pale peach/beige smear or wash across a mostly white background. - Texture looks like crayon/pastel or rough brush strokes with visible grain and soft, uneven edges. - The painted area sits slightly rotated; dark black triangular corners crop the image, giving an overall angled/octagonal framing. - Overall impression: soft, muted, textured color field on a clean background.](./Peril_in_Pinebrook_COMPLETE_images/image_068.png)![A minimalist, diagonal composition: a bright white triangular plane dominates the top-right, separated by a sharp diagonal from a solid black lower-right area. The left edge of the white triangle features a soft, pale blue watercolor wash with subtle splatters and drips, giving a paper-or-canvas-like texture. Overall impression: an abstract, geometric layout with a watercolor accent.](./Peril_in_Pinebrook_COMPLETE_images/image_069.png)![- Portrait-oriented abstract/minimal image. - Predominantly white background with a large pale peach/beige watercolor wash concentrated on the left and lower-left areas, fading toward the center. - Subtle texture in the wash (brush strokes and faint handprint-like marks). - A narrow black diagonal strip along the top edge near the left corner. - Overall airy, minimal composition with a lot of negative space.](./Peril_in_Pinebrook_COMPLETE_images/image_070.png)![A vertical fantasy illustration of a large, reptilian dragon perched on a rocky outcrop with its wings raised. - Stance/pose: Standing on a ledge, foreclaw on the rock, wings spread upward and outward; tail curls down and around the rock. - Anatomy/details: Long sinuous neck, spiky crest along head and back, visible sharp teeth, taloned feet, layered scales and pronounced musculature. - Colors & style: Muted metallic greens, golds and bluish highlights with painterly brushwork and textured shading. - Background & framing: Mostly white/negative space around the figure; small treetops visible near the lower edge to imply scale and height. - Mood: Majestic and imposing, a mix of natural realism and stylized fantasy illustration.](./Peril_in_Pinebrook_COMPLETE_images/image_071.png)![A blank sheet of textured paper with a very light blue-gray vignette around the edges. The surface shows subtle paper grain and small speckled marks, giving it a soft, slightly worn stationery look.](./Peril_in_Pinebrook_COMPLETE_images/image_072.png)
+
+\page
+
 
 Dividing Treasure
 
@@ -641,7 +686,6 @@ The baby dragon tries to run into the cave. When the characters
 are ready, proceed to Encounter 3: A Dangerous Lair.
 
 **Living Icicles |**
-\page
 
 
 ## Encounter 3: A Dangerous Lair
@@ -665,6 +709,9 @@ Because the cave is dark and spooky beyond the entrance, the characters need to 
 The characters must overcome three challenges to safely reach the hatching cavern of the silver dragon’s lair. Each challenge can be overcome in a variety of ways, using skills, equipment, or attacks.
 
 The challenge descriptions suggest potential ways characters can overcome each challenge. However, if the players come up with other ways that might work, let them make a d20 roll that somehow connects to their idea. Imagination often leads to an even more creative story!
+
+\page
+
 
 #### Challenge 1: Climbing Icy Walls
 
@@ -700,6 +747,9 @@ Ask the players to make a DC 10 Arcana, History, or Religion check. If a charact
 
 ![A portrait-oriented, mostly white image featuring a soft, translucent blush-pink watercolor wash concentrated along the right side. The wash has irregular edges, subtle gradients, faint splatters and paper-like texture, leaving large empty white space on the left. Overall feel: light, airy, and minimalist.](./Peril_in_Pinebrook_COMPLETE_images/image_073.png)![An abstract image dominated by a large, tilted white polygonal area with softly rounded corners. Across that white field are broad, pale peach/orange crayon- or chalk-like scribbles and textured smudges forming diagonal bands. Small black triangular regions appear at the image corners outside the white shape, creating high contrast. Overall the composition feels like a light pastel or crayon sketch on paper.](./Peril_in_Pinebrook_COMPLETE_images/image_074.png)![- A mostly white, slightly tilted rectangular page or canvas against a dark background. - Light pink–reddish speckled/paint-splatter texture concentrated toward the center-right, with many tiny dots and some larger flecks. - Speckling density gradually decreases toward the edges; subtle shading along the page edges gives a gentle three-dimensional, rotated look.](./Peril_in_Pinebrook_COMPLETE_images/image_075.png)![A large, diagonally oriented white surface (like a sheet of paper) fills most of the frame against black triangular areas at the top-left and left edges. The right half of the white surface is scattered with many small tan/orange paint splatters and speckles, denser toward the center-right and upper-right. Overall the image looks like a tilted white page with a light beige/orange splatter texture.](./Peril_in_Pinebrook_COMPLETE_images/image_076.png)![An abstract, pale peach/orange textured brush or crayon mark centered on a white background, oriented diagonally with irregular, sketchy edges; the image corners show black triangular cropping.](./Peril_in_Pinebrook_COMPLETE_images/image_077.png)![A large white triangular shape set against a black background, appearing like the corner of a sheet or canvas cut on the diagonal. The left portion of the triangle features a soft, pale blue watercolor wash with irregular edges and small splatters; the right portion is clean white with a subtle beveled shadow that gives a slight 3D or folded effect. Overall the image feels minimal and abstract, combining crisp geometry with organic paint texture.](./Peril_in_Pinebrook_COMPLETE_images/image_078.png)![The image shows a mostly white, minimalist background with a soft, pale peach watercolor wash concentrated along the left and lower-left areas. Subtle texture and faint handprint-like marks appear within the wash. A narrow, angled black band runs along the top edge at the right side. Overall it resembles a lightly stained or painted sheet of paper with an abstract, airy composition.](./Peril_in_Pinebrook_COMPLETE_images/image_079.png)![- A painted or illustrated scene of a large dragon perched on a rocky outcrop, shown in a vertical composition. - The dragon faces left with wings partly raised; long neck, prominent jaw with visible teeth, and a crown-like crest of spines on its head. - Scaled body rendered with metallic tones — greens, blues, and gold highlights — and visible brushstrokes that give a painterly texture. - Strong forelimbs with sharp claws gripping the rock; a long, spiked tail curls down toward the bottom edge. - Sparse background: mostly white space around the creature, with a few small treetops visible near the base to suggest scale and elevation.](./Peril_in_Pinebrook_COMPLETE_images/image_080.png)
 
+\page
+
+
 If the players need help answering the question, or if they get the answer partly right, Bahamut’s reflection can provide hints such as, “You have one word correct, but you need the other.”
 
 If any character speaks the correct words, read the following:
@@ -721,6 +771,9 @@ mirror, such as melting the ice with a torch or smashing it with
 a weapon. If they do that, however, they don't receive Bahamut's
 
 healing magic. Also, a character who breaks the mirror takes
+
+\page
+
 
 damage. Roll 1d6 and tell the player to subtract that number
 
@@ -850,6 +903,9 @@ It’s a short walk from the bottom of the cave to the hatching
 
 cavern. The characters are ready to face the final threat!
 
+\page
+
+
 Proceed to Encounter 4: Dragon Eggs and Soaring Silver.
 
 **A Dangerous Lair |**
@@ -909,6 +965,9 @@ points of the two egg snatchers to 10.
 Describe the egg snatchers falling to the ground as they are
 
 defeated, or fleeing into the darkness too fast for the characters
+
+\page
+
 
 to follow.
 
@@ -1009,10 +1068,12 @@ Attack
 1d6 + 2 piercing damage.
 
 ![A tall, narrow image showing a mostly white polygonal shape. The left edge is vertical and straight; the right side has two diagonal edges that meet near the middle, forming a right-pointing chevron or arrowhead. The overall look is minimal with very light/off-white tones and no other visible detail.](./Peril_in_Pinebrook_COMPLETE_images/image_099.png)
-\page
 
 
 **| Dragon Eggs and Soaring Silver**
+
+
+\page
 
 # Conclusion
 
@@ -1066,6 +1127,9 @@ More Wyrmlings!
 
 As the characters speak with Rorn, the other two eggs hatch. Rorn watches carefully as the wyrmlings break their shells and then crawl over to nuzzle their mother. She pulls some frozen meat from the nest and feeds them.
 
+\page
+
+
 ## The Reward
 
 After the two other baby dragons hatch, Rorn speaks to the characters. Read the following:
@@ -1093,6 +1157,9 @@ At the conclusion of the conversation, Rorn shows the characters a secret passag
 ![I can’t see the image — please upload it or confirm the attachment. If it’s already uploaded, tell me which details you want (objects/people, text, colors, layout, or inferred context) and I’ll describe them.](./Peril_in_Pinebrook_COMPLETE_images/image_100.png)
 
 ![A mostly blank sheet of textured paper. The surface is off-white with subtle blue‑gray mottling and faint darker edges (a soft vignette). Small speckles and paper fibers are visible, giving it a watercolor/stationery look; no text or objects are present.](./Peril_in_Pinebrook_COMPLETE_images/image_101.png)![A minimalist, abstract image: pale green vertical brushstrokes and washed textures on a very light cream/white background. The strokes vary in width and opacity, with rough edges, faint speckles, and subtle horizontal grain; most marks are concentrated toward the right side, leaving large areas of empty space.](./Peril_in_Pinebrook_COMPLETE_images/image_102.png)![- A soft, pale-pink watercolor-like wash or cloud centered on a white background. - Feathery, diffuse edges with subtle gradient variations in pink tones. - A small black triangular corner appears at the bottom-left, likely from cropping or a background element.](./Peril_in_Pinebrook_COMPLETE_images/image_103.png)![A mostly white vertical page with a wide, pale warm-beige watercolor wash stretching across the upper third to middle of the image. The wash has soft, feathery edges, subtle tonal variations, and a slightly mottled paper texture. A thin dark vertical line runs along the left edge (looks like a scan/crop artifact). The lower two-thirds of the image remains blank white.](./Peril_in_Pinebrook_COMPLETE_images/image_104.png)![An abstract, vertical watercolor-style wash: soft, cloud-like teal/seafoam pigment diffuses across textured white paper. The color fades smoothly from denser areas to near‑white edges; there are no distinct shapes, text, or recognizable objects. The overall impression is a gentle, atmospheric paint wash.](./Peril_in_Pinebrook_COMPLETE_images/image_105.png)![- Wide, panoramic image with a grainy, textured pattern in pale blue and white. - Overall appearance resembles cloud cover, frosted glass, or a noisy scan — many small, irregular blotches and streaks. - Several slightly darker circular/oval patches scattered across the field. - Diagonal streaking gives a sense of directional texture. - White margins and irregular black borders at the top and right suggest the image is tilted or cropped.](./Peril_in_Pinebrook_COMPLETE_images/image_106.png)![- Tall, narrow vertical image with a stark, high-contrast composition. - A solid black triangular wedge occupies the top-left corner; its hypotenuse runs diagonally from about one-quarter down the left edge up to the top-right corner. - The remainder of the image is plain white. - Clean geometric/abstract appearance with sharp edges and minimal detail.](./Peril_in_Pinebrook_COMPLETE_images/image_107.png)![A tall, vertically oriented abstract image. A large white, angular polygon fills most of the frame with sharp diagonal edges; solid black triangular areas appear in the top-left and bottom-left corners. Along the right side of the white shape is a soft, pale blue–gray watercolor texture or cloud, giving a subtle washed gradient against the stark black-and-white geometry.](./Peril_in_Pinebrook_COMPLETE_images/image_108.png)![A wide rectangular image showing an empty parchment-style background in pale yellow/beige. The surface has a subtle mottled, paper-like texture with faint tonal variations and a few small darker marks near the left and right edges.](./Peril_in_Pinebrook_COMPLETE_images/image_109.png)![A long, very narrow horizontal strip with a metallic gold appearance. It shows a textured, wavy fibrous pattern in shades of gold, yellow and brown, like a decorative gilded border or ribbon.](./Peril_in_Pinebrook_COMPLETE_images/image_110.png)![- A very long, narrow horizontal strip centered on a black background. - Appears textured with a warm golden-yellow color, showing highlights and darker streaks that give a metallic or foil-like look. - Pattern suggests a decorative border or ribbon — irregular, slightly braided/hammered surface with subtle diagonal lines and shimmer.](./Peril_in_Pinebrook_COMPLETE_images/image_111.png)
+
+\page
+
 
 Credits
 
@@ -1148,6 +1215,9 @@ TM & ©2023 WIZARDS OF THE COAST LLC.
 
 ![A tall, vertical abstract composition. A large white, polygonal field dominates the image with a soft, pale-blue, watercolor-like cloud or texture toward the right. Two black triangular areas sit in the top-left and bottom-left corners, creating diagonal edges against the white.](./Peril_in_Pinebrook_COMPLETE_images/image_119.png)![A wide, horizontal image of a pale yellow/cream textured surface resembling aged or handmade paper. Subtle mottling and faint irregular tonal variations give it a parchment-like appearance; edges show slightly darker, worn shading. Overall look is soft, warm, and suitable as a background or stationery texture.](./Peril_in_Pinebrook_COMPLETE_images/image_120.png)![A narrow, horizontal decorative strip with a metallic gold appearance. It shows a textured, braided or woven pattern of swirling diagonal lines and highlights that give it a shiny, embossed look—like a gold ribbon, trim, or ornamental border.](./Peril_in_Pinebrook_COMPLETE_images/image_121.png)![A narrow horizontal decorative gold band or ribbon centered on a black background. - Color: metallic gold with bright highlights and darker shadows - Texture: twisted/struck or braided appearance with fine striations - Orientation: full-width, thin horizontal divider across the image](./Peril_in_Pinebrook_COMPLETE_images/image_122.png)![A light, textured sheet of paper with a very pale blue wash and subtle darker blue vignette around the edges; no objects, text, or people are present.](./Peril_in_Pinebrook_COMPLETE_images/image_123.png)
 
+\page
+
+
 **Full of lore and lavish illustrations,**
 
 **A Practically Complete Guide to Dragons**
@@ -1167,7 +1237,6 @@ TM & ©2023 WIZARDS OF THE COAST LLC.
 ![A very tall, narrow image showing an almost uniformly white/cream vertical expanse with subtle horizontal banding and a few faint smudges or spots (more visible near the top-left and lower-right). Overall it resembles a blank sheet of paper or a washed-out wall with minimal texture.](./Peril_in_Pinebrook_COMPLETE_images/image_125.png)
 
 ![- Abstract, minimal composition with a strong diagonal dividing the frame from lower-left to upper-right. - Lower-right triangle is solid black; upper-left area is mostly white. - In the upper-left, a soft, pale pink watercolor-like circular blotch with feathered edges. - Small black triangular corner visible at the top-right; overall high-contrast, geometric vs. organic texture.](./Peril_in_Pinebrook_COMPLETE_images/image_126.png)
-\page
 
 
 ![The image is a tall, narrow vertical strip with a mostly white background. Two black triangular shapes occupy opposite corners (top-right and bottom-left), creating a diagonal framing. A very faint, pale blue-green circular watercolor texture is visible on the left side about one-third down. Overall the composition is minimal and geometric.](./Peril_in_Pinebrook_COMPLETE_images/image_127.png)
@@ -1185,6 +1254,9 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 **Armor Class (AC).** Armor Class is the number that tells how hard it is to hit a creature with an attack roll. When you make a d20 roll as an attack roll, you need to equal or exceed a creature’s AC to hit them and deal damage. **Hit Points.** Hit Points is the number that shows how much damage a creature can take before they fall unconscious or are defeated.
 
 ![A minimal, mostly white image featuring a single large, pale mint-green leaf print with a distressed, textured appearance. The leaf is centered toward the lower-left area of the page, its veins and lobes rendered in a washed-out, almost stamp-like style. The top-right corner shows a small dark triangular detail that looks like a folded or cropped edge. Overall the composition is airy and subtle, resembling a light botanical watermark or background graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_128.png)![- A rotated, white pentagon-shaped sheet filling most of the frame, angled so its top edge slants down from left to right. - Pale mint-green, distressed leaf or floral print stamped near the lower-right corner of the white shape. - Solid black triangular areas visible at the top-left and bottom-right edges (background showing where the white shape doesn’t cover). - Overall high-contrast, minimal composition with a subtle textured/washed botanical motif.](./Peril_in_Pinebrook_COMPLETE_images/image_129.png)![An abstract watercolor texture occupying the upper-right half of the image, rendered in soft, muted blue tones. The paint forms cloud- or wave-like shapes with feathery, semi-transparent edges and subtle granulation. A dark triangular area fills the lower-left corner, creating a strong diagonal contrast across the composition.](./Peril_in_Pinebrook_COMPLETE_images/image_130.png)![A soft, abstract watercolor wash across the top of the image in a pale mint/seafoam green, fading into a large white area below. - Pale teal/seafoam watercolor texture with subtle granulation - Irregular, soft-edged brush shape running diagonally across the top - Small paint splatters and droplets scattered beneath the main wash - Large empty white space in the lower portion (clean background) - Black triangular/angled margins at far left and right edges (image crop or framing)](./Peril_in_Pinebrook_COMPLETE_images/image_131.png)![- Minimalist, abstract image in portrait orientation. - A large, off-white/very pale polygonal shape fills most of the frame, angled so two black triangular areas appear at the top-right and bottom-right edges. - Inside the pale shape is a soft, cloudlike watercolor wash in light bluish-gray centered toward the left. - Overall look is airy and muted, with high-contrast black corners and a gentle textured center.](./Peril_in_Pinebrook_COMPLETE_images/image_132.png)![A stylized watercolor illustration of a small pale-blue dragon or draconic creature standing on snowy ground. - Upright, squat body with scaly skin and layered neck plates - Semi‑open mouth showing a forked tongue and sharp beak‑like snout - Large yellow eye and expressive face - Outstretched bat‑like wings with visible membranes and claws on the forelimbs - Curved tail, thick hind legs, and pronounced talons - Snowy background with soft texture and scattered snowflakes, cool blue and gray color palette](./Peril_in_Pinebrook_COMPLETE_images/image_133.png)
+
+\page
+
 
 **Action.** What your character does on their turn during a game of D&D is their action. Actions include attacks, using skills, and more.
 
@@ -1233,6 +1305,9 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 **Holy Symbol.** A holy symbol is a small object that represents your god’s power. If you are a cleric, your holy symbol allows you to use that power to cast spells.
 
 **Leather Armor.** Leather armor is a suit of armor made from hardened animal skins. It is light and easy to wear. **Mace.** A mace is a weapon consisting of a blunt piece of metal on the end of a handle.
+
+\page
+
 
 **Magic Missile.** A Magic Missile spell sends out three missiles of magical force, which automatically hit without needing d20 rolls.
 

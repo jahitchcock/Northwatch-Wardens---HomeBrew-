@@ -1,6 +1,5 @@
 # Places of Northreach
 
-\page
 
 ## Overview
 
@@ -133,6 +132,9 @@ Village council of five elected members who rotate leadership:
 
 ## Westly's Farm (West of Welton)
 
+\page
+
+
 ### What It Is
 An outlying sheep farm that represents the isolated homesteads common on the frontier. Westly's Farm sits at the edge of Welton's protected area, closer to the wild forests than most residents prefer.
 
@@ -180,7 +182,6 @@ Outlying farms like Westly's face constant challenges:
 - "Those wolves have been at his flock every few nights."
 - "He's too proud to ask for help, but he needs it."
 
-\page
 
 ---
 
@@ -271,6 +272,9 @@ About 90 permanent residents, plus floating population of travelers:
 ---
 
 ## Palebank Village (Northeast Coast)
+
+\page
+
 
 ### What It Is
 A cold coastal settlement that survives on fishing, sealing, and the determination of people who've chosen to live at the edge of the known world. Palebank serves as the last outpost before the frozen wilderness of Eiselcross.
@@ -372,6 +376,9 @@ Palebank is the last stop before Eiselcross:
 
 ## Croaker Cave (North of Palebank)
 
+\page
+
+
 ### What It Is
 A cave complex north of Palebank Village, known locally as a shelter and occasionally used by trappers. Recently, it's become something more dangerous.
 
@@ -452,13 +459,15 @@ Multiple levels of threat:
 - "Salsvault killed Urgon Wenth."
 - "What's in that place should stay buried."
 - "Aeorian magic is too dangerous to mess with."
-\page
 
 - "The desperate go to Salsvault. The smart stay away."
 
 ---
 
 ## Temple of the Dragonknights (Northwest Mountains)
+
+\page
+
 
 ### What It Is
 A remote mountain temple dedicated to an ancient order of warriors who once defended the region. The temple is both a monument to past heroes and a warning about what they fought.
@@ -556,6 +565,9 @@ People treat the tower with wary respect:
 
 ## The Wilderness Between
 
+\page
+
+
 ### The Roads
 Northreach is stitched together by imperfect roads:
 - **Condition:** Muddy in rain, icy in winter, dusty in rare dry spells
@@ -616,7 +628,6 @@ Unnamed cities and towns far to the south:
 ### Shadycreek Run
 A smuggling town mentioned in connection with criminal activity:
 - Known for black market trade
-\page
 
 - Controlled by criminal families
 - Source of trouble occasionally reaching Northreach
@@ -652,3 +663,6 @@ Some can't endure frontier life:
 ---
 
 *"Northreach doesn't announce itself with walls and banners—it reveals itself mile by mile, earned step by earned step."*
+
+\page
+

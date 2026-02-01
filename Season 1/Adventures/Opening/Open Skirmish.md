@@ -53,7 +53,6 @@ As initiative is rolled, give each PC a 1‑sentence visual cue of the others:
 This creates instant awareness without forcing dialogue.
 
 **Round 2: Forced Cooperation**
-\page
 
 
 Have one wolf use **Pack Tactics** to flank a PC. This encourages another PC to intervene.
@@ -97,6 +96,9 @@ Then offer **three natural prompts** for the players to introduce themselves:
 Pick whichever fits your tone.
 
 **Optional: Quick Hooks to Bond the Party**
+
+\page
+
 
 Use one or more:
 

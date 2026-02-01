@@ -1,6 +1,5 @@
 # Cultures of Northreach
 
-\page
 
 ## Overview
 
@@ -123,6 +122,9 @@ Humans in Northreach celebrate:
 
 ## Dwarven Communities
 
+\page
+
+
 ### Origins
 Dwarves in Northreach come from two main sources:
 - **Mountain Dwarves:** From distant holds seeking new opportunities
@@ -181,7 +183,6 @@ Dwarves adjust their traditions:
 - Practical over ceremonial
 - Still maintain core values but with frontier flexibility
 
-\page
 
 ---
 
@@ -250,6 +251,9 @@ Elves face unique frontier difficulties:
 ---
 
 ## Halfling Communities
+
+\page
+
 
 ### Origins
 Halflings in Northreach are primarily:
@@ -384,13 +388,15 @@ Children of frontier settlers often:
 - Speak multiple languages fluently
 - Blend cultural practices
 - Create new traditions unique to the region
-\page
 
 - More comfortable with diversity than their parents
 
 ---
 
 ## Religious Practice
+
+\page
+
 
 ### Diverse Pantheons
 No single religious tradition dominates:
@@ -536,7 +542,6 @@ Food sharing is sacred:
 Hard winters teach lessons:
 - Preserve everything possible
 - Waste nothing
-\page
 
 - Share when others have none
 - Remember who helped during lean times
@@ -545,6 +550,9 @@ Hard winters teach lessons:
 ---
 
 ## Clothing and Practical Gear
+
+\page
+
 
 ### Climate-Appropriate Dress
 Function over fashion:
@@ -668,4 +676,7 @@ What brings people together:
 ---
 
 *"We didn't all come from the same place, but we all chose to stay. That means something."*  
+
+\page
+
 — Common frontier saying

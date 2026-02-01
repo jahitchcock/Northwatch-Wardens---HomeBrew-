@@ -1,6 +1,5 @@
 # People of Northreach: DM Secrets
 
-\page
 
 ## Overview
 
@@ -110,6 +109,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Lorewarden Elric Vael
 
+\page
+
+
 **Public Role:** Scholar, record-keeper, curious researcher
 
 **Secret Background:**
@@ -191,6 +193,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ---
 
 ### Rowan Fairweather (Trailwarden)
+
+\page
+
 
 **Public Persona:** Calm druid offering practical wilderness advice
 
@@ -275,6 +280,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Ariodh Highwhirl (Lantern Guard)
 
+\page
+
+
 **Public Persona:** Quiet monk from distant lands
 
 **Secret:**
@@ -313,7 +321,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - They might still be looking for him
 - His past expertise could help identify criminal patterns
 
-\page
 
 ---
 
@@ -368,6 +375,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ---
 
 ### Finethir Shinebright (Eccentric Wizard)
+
+\page
+
 
 **Public Persona:** Brilliant but chaotic gnome wizard
 
@@ -429,6 +439,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 [DM: Decide if this is a surviving Aeorian mage, a created construct with intelligence, or something else appropriate to your campaign]
 
 ---
+
+
+\page
 
 ## Healers and Support: Hidden Pain
 
@@ -536,6 +549,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## Local Leaders: Political Secrets
 
+\page
+
+
 ### Elro Aldataur (Palebank Leader)
 
 **Public Persona:** Weathered retired ranger and village leader
@@ -641,6 +657,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Leanor Slatebeard (Welton Tracker)
 
+\page
+
+
 **Public Persona:** Skilled hunter and tracker
 
 **Secret:**
@@ -689,7 +708,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - Could be abducted/tested by antagonist
 - Might become corrupted by Aeorian magic
 - Could be rescued and become information source
-\page
 
 - His farm could be nexus of investigation
 
@@ -743,6 +761,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ---
 
 ## The Larger Pattern: What NPCs Know Collectively
+
+\page
+
 
 ### About Aeorian Reactivation
 
@@ -826,7 +847,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - The buyer's ultimate goal
 - How many Aeorian sites exist in the region
 - What the "complete" reactivation would do
-\page
 
 - Whether the entity can be stopped permanently
 - Who else might be working for the entity
@@ -877,6 +897,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ---
 
 ## Campaign Integration Notes
+
+\page
+
 
 ### For "Wolves of Welton"
 

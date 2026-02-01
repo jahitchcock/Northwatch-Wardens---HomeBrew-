@@ -20,11 +20,13 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 
 ©2016 Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Manufactured by Hasbro SA, Rue Emile-Boéchat 31, 2800 Delémont, CH. Represented by Hasbro Europe, 4 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, UK.
 
-\page
 
 # Part I: Innocents Lost
 
 *In this part of the adventure, the players will encounter their first kobolds, investigate a small farmstead, and locate the source of the attacks…*
+
+
+\page
 
 ## A. Northcrest
 
@@ -104,6 +106,9 @@ After this information is given, Joel will burst into tears over the loss of his
 
 ### Capturing a Kobold
 
+\page
+
+
 If the players manage to capture and interrogate a Kobold, a DC 15 Persuasion or DC 12 Intimidation check will conclude with the captured enemy revealing information.
 
 #### Additional Information
@@ -140,6 +145,9 @@ Down the right hall there is a washroom to the left and another bedroom. In the 
 
 A DC 10 Survival check will reveal tracks that lead to the back side of the barn,
 
+
+\page
+
 ## D. The Trail
 
 The players will eventually follow tracks that reveal an unnatural looking thicket. This can be cut through or, with a DC 11 Investigation check, a vine connecting to a mechanism can be found that pulls the brush up. The following trail is 5 ft. wide and must be traveled single-file.
@@ -154,7 +162,6 @@ Following the trail through the woods for a mile leads to an opening to a small 
 
 After a curve in the trail, a DC 12 Passive perception check will signify movement around the corner. Turning the corner reveals two kobolds currently roasting a pig on a spit. They are currently eating so any attempt at stealth is successful. This encounter yields 50 XP divided amongst the party.
 
-\page
 
 # Part II: Poisontip Cavern
 
@@ -167,6 +174,9 @@ This section of the cavern is relatively straightforward. The players will immed
 |  |
 | --- |
 | This area involves crossing a rickety bridge over a lake full of stalagmites, and a trap.  **Puzzle Clue**    The parchment reads in Common: “Legends  are  born through blood and fire,  ”    and contains the  emblem of the  Dragonknight  s.    On the back it reads  in scribbled Draconic: “  We brought the girl to the  robed ones. Not sure why they wanted her, but  whatever it takes to please the master.”    **Additional**    **Information**        The emblem of the  Dragonknight  s appears as a snake  -  like  cre  ature wrapped around a sword.    **Area 3**   ![A pale green, hand-drawn dungeon/cave map on a square grid. Jagged cave walls outline interconnected tunnels and chambers; several areas are numbered 1–5. The drawing mixes natural cave features (wavy lines for water, small triangular stalagmite/stalactite marks) with constructed rooms and furnishings. Notable features - Large southern chamber labeled "1" reached by a single narrow approach. - Broad central band labeled "3" spanning the map, with water/feature marks inside the enclosed area. - Rectangular east complex labeled "2" with two hearth-like symbols and small rectangular furniture; a small side room at the far east contains stacked barrels or casks. - Northern small chamber labeled "5" with a long narrow corridor or causeway extending east from it. - A circled "T" on the western passage and an "S" adjacent to the east complex (both marked on the map). - Several narrow winding tunnels connecting chambers, plus short stair/ladder symbols in places. - Grid background for scale; overall style is schematic and suitable for tabletop RPG use.](./Temple_of_the_Dragonknights_images/image_003.png) **Crossing the Bridge** |
+
+\page
+
 
 After this encounter, the players may notice the cliff drop below them, into a small underground lake. Depending on their ability to see, they may stumble into it. See AREA 3 for details. A small passage on the right of the lake requires a DC 8 Acrobatics check to cross.
 
@@ -195,6 +205,9 @@ If any player falls in, roll a percentage. If the percentage is under 15% the pl
 
 Following the bridge, immediately after is a pressure triggered trap that is triggered by anyone over 120 lbs. If triggered, anyone in that 5x5 ft. square is pelted with rocks, suffering 1d6 bludgeoning damage. Disarming the trap yields 10 XP to the one who disarmed it.
 
+
+\page
+
 ## Area 4
 
 Area 4 contains a single piercer hanging above a single chest. The ceiling is 20 ft. high. Within the chest is 25 gp. As soon as someone opens the chest, the piercer will drop on its target. Completing this encounter yields 100 XP divided amongst the party.
@@ -208,7 +221,6 @@ This area contains an offering bowl, a large stone double door, and two lit torc
 | **Additional Information**   * To solve the puzzle, the players must poor a portion of their blood into the offering bowl, and light the blood on fire using one of the magical torches on the wall. * Emptying the bowl of gold and making a DC 10   Investigation check will reveal dried blood on either the gold or on the bowl. |
 
 Opening the door yields 50 XP divided amongst the party and reveals a pathway and staircase going up.
-\page
 
 
 # Part III: Temple of the Dragonknights
@@ -236,6 +248,9 @@ This room is drapped in torn and burnt banners of the Dragonknights, but within 
 ## Area 3
 
 This room contains a single brazier, and a massive stone carved frieze depicting an epic tale of dragonslaying. A DC 18 Investigation check will reveal a hidden groove in the stone that contains a single platinum ring (250 gp) inside.
+
+\page
+
 
 After looking over the beautiful artwork on the wall, have a character notice a fourth shadow. This shadow will initiate combat. This encounter yields 100 XP divided amongst the party.
 
@@ -269,8 +284,10 @@ Upon exiting up the stairs to this open area, the players find themselves in a c
 - As one of the players notice one is opened, the wyrmling will attack (unless the players noticed it previously.)  Clementine will hide in area 5.
 
 This encounter yields 450 XP divided amongst the party.
-\page
 
+
+
+\page
 
 # Part IV: Loose Ends
 

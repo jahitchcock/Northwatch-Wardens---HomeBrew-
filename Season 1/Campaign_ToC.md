@@ -101,6 +101,9 @@
 ---
 
 ### 4. Frozen Sick (uid: 2017)
+
+\page
+
 **Levels:** 1-3  
 **Type:** Survival adventure, plague investigation, Aeorian ruins  
 **Theme:** Disease mystery, harsh environment, ancient magic
@@ -232,6 +235,9 @@
 
 ---
 
+\page
+
+
 ### 6. The Wild Sheep Chase (uid: 2019)
 **Levels:** 2-4  
 **Type:** Comedy one-shot, magical chaos  
@@ -312,6 +318,9 @@
 | Adventure | UID Range | Status |
 |-----------|-----------|--------|
 | Campaign Setup | 2015 | ✅ |
+
+\page
+
 | Opening Session | 2013 | ✅ |
 | Wolves of Welton | 2016, 2102, 2180-2184 | ✅ |
 | Frozen Sick | 2017, 2103, 2221-2236 | ✅ |
@@ -339,7 +348,6 @@
 
 ### 🎉 Campaign Status: **100% COMPLETE with Enhancements!**
 
-\page
 
 ---
 
@@ -390,6 +398,9 @@
 ---
 
 ## Notes
+
+\page
+
 
 ### Design Philosophy
 - **Grounded low-magic**: Encounters feel dangerous and realistic

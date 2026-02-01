@@ -104,6 +104,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+
+
 \page
 
 ## The Reactivation: What's Happening and Why
@@ -187,7 +189,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - The entity revealing itself
 - Existential threat to Northreach
 
-\page
 
 ---
 
@@ -228,6 +229,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Voice:** Cultured, academic, patronizing—speaks to mortals like children
 
 **Quote:** "The gods destroyed Aeor because we were right. I will prove it by succeeding where the city failed."
+
+\page
+
 
 ---
 
@@ -370,6 +374,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
+
+
 \page
 
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
@@ -447,7 +453,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Dangers:**
 - Touch can transmit frigid woe or other plagues
 - Prolonged exposure causes corruption
-\page
 
 - Can spread through organic contact
 - Difficult to safely contain or destroy
@@ -581,7 +586,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Northreach becomes holy site of new god
 
 **How to Stop:**
-\page
 
 - Prevent network completion
 - Destroy critical ritual components
@@ -592,6 +596,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## The Artifact Trade: Following the Money
+
+\page
+
 
 ### The Theft Network
 
@@ -664,7 +671,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Knows exactly what it needs
 - Using criminals as expendable tools
 - Plans to eliminate them when done
-\page
 
 - Has contingencies for failure
 
@@ -778,7 +784,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Mid Intervention:**
 - Shut down activated facilities
-\page
 
 - Sever network connections
 - Deny ritual components
@@ -793,6 +798,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## Player Investigation Paths
+
+\page
+
 
 ### Following the Wolves (Welton)
 
@@ -917,7 +925,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Visions contain actual information
 - Some people are "sensitive"
 
-\page
 
 **Leads To:**
 - Direct communication with entity
@@ -967,6 +974,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ### Croaker Cave (Early-Mid Game)
+
+\page
+
 
 **Location:** North of Palebank
 
@@ -1083,7 +1093,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Full scope of Aeorian plans
 - Choice about knowledge preservation
 - Cost of victory
-\page
 
 
 **Stakes:**
@@ -1138,7 +1147,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Some facilities less critical than others
 
 **Alliance Building:**
-\page
 
 - Who to trust with truth?
 - When to reveal full scope?
@@ -1159,6 +1167,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## NPC Arcs and Development
+
+\page
+
 
 ### Potential Allies
 
@@ -1194,7 +1205,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Could become enemy or turncoat
 - Might steal crucial information
 
-\page
 
 **Mara's Past:**
 - Old organization arrives at wrong time
@@ -1233,7 +1243,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Pride before fall
 
 ### Community and Sacrifice
-\page
 
 
 - Frontier depends on cooperation
@@ -1342,6 +1351,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## Conclusion: The Echo's Resolution
+
+\page
+
 
 The Aeorian Echo represents both danger and opportunity—a chance for ancient evils to rise again, or for new heroes to prove that the present can overcome the past. How your players navigate this threat will define not just the campaign's outcome, but the kind of story you tell together.
 

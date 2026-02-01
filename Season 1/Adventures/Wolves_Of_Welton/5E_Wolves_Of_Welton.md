@@ -12,6 +12,9 @@ Assuming the players wish to do anything other than watch the fight from a dista
 
 Once the fight is over the injured shepherds are grateful for the help - assuming any was forthcoming - and ask for aid returning to Welton. They are more than happy to share local gossip (see **Shaggy Wolf Storie**s) but will not be able to offer any real reward.
 
+
+\page
+
 ## Combat Tactics
 
 The wolves are here to steal sheep, not kill shepherds - they certainly don’t want to fight even low-level adventurers. Half of them will keep the shepherds distracted while the rest pick off sheep and retreat to the west. They will not try to kill the shepherds, but will instead bite at their arms and legs.
@@ -56,6 +59,8 @@ When the players arrive on the scene the wolves may test their strength with a c
 
 *"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say.*"
 
+
+
 \page
 
 # Scene 2: Village People
@@ -78,6 +83,9 @@ The innkeeper is a dwarven women named **Leanor Slatebeard**, who runs the bar w
 
 Should they ask after Featherock she will direct them to his room, though she will ask them to be gentle with the poor man,
 
+
+\page
+
 ## The Council Meeting
 
 The meeting is being held in a plain room, centered around a large wooden table with eight chairs set around it. Five of the chairs are filled with human men, one by a human woman and two by halflings - one male and one female.
@@ -94,6 +102,9 @@ Should the party mention the possibility of werewolves, Merriksonn will point ou
 
 They believe that the wolves live in the woods to the west of town, but are not sure. A councillor with a tuft of wool tied to his vest will introduce himself as **Corel** of the Fleecers' Guild and say that he has been working on the hills for thes best part of forty years and is happy to answer questions on the local environment and provide general support for the party.
 
+\page
+
+
 ## Featherock’s Room
 
 Badly injured when the villagers sent a posse to hunt down the wolves, Featherock has been left badly damaged by his experiences - both mentally and physically. He is currently laid up in a room over the Shepherd’s Crook, where he is being regularly attended by Father Merrikson.
@@ -104,7 +115,6 @@ He explains that when the posse was attacked he was bitten badly and was trample
 
 If the party seem to believe his tale so far, he will hesitantly confess that the wolves were *talking*, arguing fiercely over whether they should eat him or not. Featherock then breaks down in tears and refuses to say anything more.
 
-\page
 
 # Scene 3: Plan of Attack
 
@@ -119,6 +129,9 @@ Should the party lack a tracker proficient in Survival, he will reluctantly volu
 Eventually, the party should end up making a trek into the woods, which are thick and clogged with undergrowth. The smell of earth and moss filsl the air and the passage of small animals creates a constant rustle in the bushes. Occasionally the howl of a lone wolf echoes eerily from the west.
 
 Crossing the woods takes approximately four hours at a walking pace.
+
+
+\page
 
 ## Guidelines for skill checks
 
@@ -146,11 +159,13 @@ making its way towards them. caused by wolves and that the wounds appear to Unle
 
 and sights them. Even at a glance, the party can Anybody proficient in Nature or able to pass a tell that it is limping, thin and appears to be DC10 Wisdom check will know that it’s very rare nursing several barely-healed wounds clotted for wolves to challenge Owlbears. If the with old, black blood. Despite its injuries, the encounter occurred during the daytime, they massive beast will charge the party, letting out a will also know that Owlbears are nocturnal deafening hoot as it does so. predators and shouldn't be out in sunlight.
 
-\page
 
 # Map of Welton & the Surrounding Area
 
 ![A wide, horizontal, light-gray panel with very subtle vertical streaks and faint, slightly darker smudges — overall a mostly uniform gray surface with minimal texture.](./5E_Wolves_Of_Welton_images/image_003.png)![A colored fantasy-style map showing open plains, a large forest, a village, and terrain features. Key elements: - Overall: pale-green rolling plain with a large dense forest occupying the upper-left quadrant and mountains beyond it. - Compass rose at upper-right and a horizontal scale bar along the bottom edge. - Water: a thin blue river/stream runs roughly north–south on the right side, passing the village. - Settlements/markers (numbered on the map): - 1: A small clearing at the forest edge with a few stone cairns or standing stones and a handful of trees. - 2: A clustered village/hamlet at the river with several buildings, a red-roofed structure, and a nearby church; a windmill sits a short distance to the east. - 3: A lone small building or hut in the open plain near a short cliff or escarpment. - 4: Mountainous terrain visible beyond the forest in the top-left. - Paths: dotted/trail lines cross the plain, connecting the forest edge, the hut, and the village. - Scattered terrain details: isolated groves of trees, small rocky outcrops, and a few standalone cairns or towers across the plain.](./5E_Wolves_Of_Welton_images/image_004.png)
+
+\page
+
 
 **1**
 
@@ -266,7 +281,6 @@ and sights them. Even at a glance, the party can Anybody proficient in Nature or
 
 **n**
 
-\page
 
 # Scene 5: The Den’s Denizens
 
@@ -298,9 +312,11 @@ The central chamber is the pack’s main living and sleeping area. There are pil
 
 The western sub-chamber functions as a storeroom for both goods and many of the stolen sheep. Bags containing thick leather and homespun wool are kept here, while other interesting items picked up by wolves during their raids - a couple of knives, a shovel and other mundane equipment - are piled up against the wall.
 
+\page
+
+
 Further inside the wolves have constructed a crude but effective fence out of what appears to be fallen branches, some of which have been
 
-\page
 
 # Flame
 
@@ -328,9 +344,11 @@ Further inside the wolves have constructed a crude but effective fence out of wh
 
 ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
 
-\page
 
 ![- Stylized fantasy map, oriented with north at the top (compass rose at upper right). - Large, dense forest occupying the upper-left quadrant, with mountains and the numeral "4" near its north edge. - Open grassy plain across the center and right side, dotted with small copses, single trees, and rocky outcrops. - A cluster of buildings/town labeled "2" on the lower-right beside a blue river; a windmill and a larger house are nearby. - A small isolated house or farm labeled "3" sits along a dashed path in the central plain. - A group of standing stones or ruined towers near the forest edge labeled "1" where a dashed track meets the woods. - Low cliffs or escarpments at the forest boundary, several solitary rock stacks, a curved dashed road connecting points, and a scale bar along the bottom edge.](./5E_Wolves_Of_Welton_images/image_006.png)***Fire Breath (Recharge 5-6).*** Flame exhales a firey blast in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.
+
+
+\page
 
 # Bolt
 
@@ -376,6 +394,9 @@ If the battle is taking place in front of the cave, **Flame** and **Bolt** will 
 
 The Alpha Pair will yell exhortations to their fellow wolves, with Flame encouraging them to kill the hunters and Bolt telling them to protect the pack, and not to let them harm the pups.
 
+\page
+
+
 All the wolves will move to attack the party, but after either one of the following occurs Bolt will let out a thunderous roar, bellowing that the battle is not helping either party:
 
 - Four wolves are killed
@@ -406,6 +427,9 @@ Barring that, he is willing to simply move the pack away to a more remote locati
 
 Should it become apparent that a deal is forthcoming, Flame will accuse Bolt of cowardice and betrayal and attack him from behind. This will badly injure him, taking him out of the fight. All of the remaining armored wolves will join her in a final, desperate attack on the party, while the others will fall back in confusion and fear.
 
+
+\page
+
 ## **Scene 6: Settling the Scores**
 
 There are a two main ways for the adventure to conclude depending on the party’s previous actions. Sometimes working out what happens next may require a degree of improvisation on the part of the DM.
@@ -429,6 +453,9 @@ How the party do this is entirely their choice. Talking Tillus around will need 
 If they find it impossible to convince him, Corel will call a vote on whether or not they should work with the wolves anyway. Allow the party to make a DC12 Charisma (Persuasion) check against each of the five remaining council members, awarding advantage or diasadvantage depending on how persuasive the party's argument was. Corel and Father Merriksonn will both vote to negotiate, so they need three successes in order to win an overall majority.
 
 Tillus will react with shock and horror at being outvoted. After a moment of blustering rage he will realise that he has been ousted. He willl leave the council a broken man, never to return. As long as the party have succeeded in dealing with the wolf problem in one way or another they will be paid in full at the rate they agreed with the council.
+
+\page
+
 
 Should the wolves’ intelligence become publicly known Feathrock will start to recover at a much faster rate, and will try and thank the party in person.
 
@@ -482,6 +509,9 @@ The local priest of Pelor (or any local good-
 
 One of very few dwarves in Welton, Leanor and aligned deity), Johan Merriksonn was born and her husband Banteth are cheerful, hard-working bred in Welton and loves both the village and its members of the community. She is well over 100 inhabitants. He is a human in his mid-50s with a years old and has seen the community grow from kindly face and wispy white hair. a mere hamlet to the thriving village it is today.
 
+\page
+
+
 He and his brother, Alexi, were born to a family
 
 Despite her apparently minor position, Leanor’s of reasonably successful farmers and are welllong-running relationships with virtually every educated by the standards of the region. While family in the village actually gives her a lot of
@@ -519,6 +549,9 @@ The alpha pair of the wolf pack, for most of their lives Flame and Bolt were sim
 Both are fiercely protective of their pack and are worried that their intelligence will cause men and other sentient races to hunt them down and destroy them. At the same time, however, they are now bright enough to be able to think of a great many ways in which they will be able to improve their lives and those of their pups.
 
 Flame, the alpha female, was granted the ability to produce and control flames. She is much more aggressive than her partner and believes that killing other intelligent beings to drive them away from the pack’s territory is the only way she can keep her people safe/ Bolt, the alpha male, has gained the ability to roar with the fury of a storm and shoot blasts of lightning from his mouth. He is generally more cautious and kindly than his partner, and prefers the idea of breeding sheep and moving into remote areas where other ‘civilised’ races won’t bother them.
+
+\page
+
 
 Tension has been brewing between the two ever since they were gifted with intelligence. Both are willing to die for the safety of the pack and deeply care for each other. However, if nothing changes they will probably fight to the death within a matter of weeks, each believing that the other is leading their people to their doom.
 

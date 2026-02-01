@@ -2,7 +2,6 @@
 
 Use this as the living continuity log for actual play. Update it after each session.
 
-\page
 
 ## Quick Links
 - [Campaign Table of Contents](Campaign_ToC.md)
@@ -39,9 +38,11 @@ Use this as the living continuity log for actual play. Update it after each sess
 - **Treasure:** 800 gp total, split three ways (266 gp each; 2 gp held as party funds or assigned later).
 - **Next objective:** Travel back to Waystone Inn and report in to the Wardens.
 
-\page
 
 ---
+
+
+\page
 
 ## Major Threads (track status)
 
@@ -134,13 +135,15 @@ Use this as the living continuity log for actual play. Update it after each sess
 
 ### Fallout (who’s angry, who’s grateful)
 - Welton council: truce approved; Tillus aligned with the party’s resolution.
-\page
 
 - Awakened wolves: truce exists, but Bolt/Flame remain active and could reverse course.
 
 ---
 
 ## “As Written” Beats (from the Season 1 ToC)
+
+\page
+
 
 Use this section as a quick reference for what the prepared material covers. Replace/adjust it as actual play diverges.
 

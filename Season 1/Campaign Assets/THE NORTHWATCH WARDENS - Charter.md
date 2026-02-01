@@ -83,7 +83,6 @@ All Wardens are entitled to:
 
 This charter may be amended by a majority vote of active Wardens present at a sanctioned gathering.
 
-\page
 
 **ROSTER**
 
@@ -108,6 +107,9 @@ Sera • Aurixean • Shinebright • Baleth
 **Hearthwardens**
 
 Father Merriksonn • Willen • Flynt • Joel (ally)
+
+\page
+
 
 **Wild Allies**
 
