@@ -1,5 +1,7 @@
 # Places of Northreach: DM Secrets
 
+page
+
 ## Overview
 
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
@@ -258,6 +260,8 @@ This document contains secret information about locations in the Northwatch Ward
 - The "controller" has established base here
 - Contains clues about larger operation
 - Major adventure location for investigating wolf problem
+
+page
 
 ---
 
@@ -629,6 +633,8 @@ This document contains secret information about locations in the Northwatch Ward
 - Will eventually reveal information
 - Concerned about sister Tulgi
 - Realizes operation is more dangerous than thought
+page
+
 - Might be convinced to cooperate
 
 ---
@@ -920,6 +926,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What He Can Provide:**
 - Translation of Aeorian text
+page
+
 - Maps of facilities
 - Protective magic against Aeorian effects
 - Theoretical solutions to final threat
@@ -1143,6 +1151,8 @@ This document contains secret information about locations in the Northwatch Ward
 - Reduce number of active facilities
 - Limit scope of threat
 - Buy time for evacuation/preparation
+
+page
 
 **If Players Fully Succeed:**
 - Prevent complete activation

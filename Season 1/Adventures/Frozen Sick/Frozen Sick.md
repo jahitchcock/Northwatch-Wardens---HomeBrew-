@@ -49,6 +49,8 @@ Work with the players to establish why their characters are in Palebank Village.
 
 Before the adventure begins is also the time to figure out if the characters already know each other or if this adventure is the first time they’ve met.
 
+page
+
 Mystery in Palebank Village
 The adventure begins in Palebank Village, with the characters drawn immediately into the drama of death in an isolated settlement. Once the players are ready to begin, read or paraphrase the following to set the scene:
 
@@ -160,6 +162,8 @@ What appears to be an ice statue of an elf is bundled beneath the blankets of a 
 The figure in the bed is the unfortunate Verla Pelc, who was infected with frigid woe by Urgon Wenth’s Aeorian relics. Her symptoms appeared a few weeks after the shop was robbed, but the reclusive elf never told anyone about them.
 
 Development
+page
+
 Questioning any of the bandits can turn up solid leads that can take the characters to Croaker Cave, or back to Tulgi’s cabin if there are other questions the dwarf has yet to answer. If they were unable to question the bandits, you can have one of the bandits carrying orders from Hulil that point toward the Croaker Cave hideout.
 
 Croaker Cave
@@ -299,6 +303,8 @@ VIALS OF FRIGID WOE
 As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount).
 
 If a character has contracted frigid woe, track the number of days that have passed so you can inform the player when their character’s symptoms appear and when they need to make Constitution saving throws.
+page
+
 
 Character Advancement
 The characters advance to 2nd level before traveling to Eiselcross.
@@ -403,6 +409,8 @@ When the characters have traveled two hundred miles, one character who acts as a
 
 Salsvault
 Salsvault was once a laboratory in the city of Aeor, where mages who specialized in necromancy and transmutation magic crafted constructs and diseases to be weaponized against their enemies. Many of the laboratory’s creations remain active, still guarding the diseases and treasures within.
+
+page
 
 Approaching Salsvault
 As the characters approach Salsvault, read:

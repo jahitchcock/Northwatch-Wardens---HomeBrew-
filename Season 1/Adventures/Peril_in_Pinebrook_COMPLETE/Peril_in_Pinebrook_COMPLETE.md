@@ -122,6 +122,8 @@ When a character reaches 0 hit points, they are unconscious. In this adventure, 
 
 **Using the Rules |**
 
+page
+
 ## Running an Adventure
 
 A DM gets to use their imagination while presenting the adventure to the other players. The DM can add excitement to the game as they describe the situations and help players navigate their way through the action.
@@ -459,6 +461,8 @@ forest, motioning for the characters to follow.
 Proceed to Encounter 1: A Not-So-Fearsome Dragon.
 
 **| Starting the Adventure**
+page
+
 
 ## Encounter 1: A Not-So-Fearsome Dragon
 
@@ -519,6 +523,8 @@ When the players are ready, proceed to Encounter 2:
 Living Icicles.
 
 **A Not-So-Fearsome Dragon |**
+page
+
 
 ## Encounter 2: Living Icicles
 
@@ -635,6 +641,8 @@ The baby dragon tries to run into the cave. When the characters
 are ready, proceed to Encounter 3: A Dangerous Lair.
 
 **Living Icicles |**
+page
+
 
 ## Encounter 3: A Dangerous Lair
 
@@ -1001,6 +1009,8 @@ Attack
 1d6 + 2 piercing damage.
 
 ![A tall, narrow image showing a mostly white polygonal shape. The left edge is vertical and straight; the right side has two diagonal edges that meet near the middle, forming a right-pointing chevron or arrowhead. The overall look is minimal with very light/off-white tones and no other visible detail.](./Peril_in_Pinebrook_COMPLETE_images/image_099.png)
+page
+
 
 **| Dragon Eggs and Soaring Silver**
 
@@ -1157,6 +1167,8 @@ TM & ©2023 WIZARDS OF THE COAST LLC.
 ![A very tall, narrow image showing an almost uniformly white/cream vertical expanse with subtle horizontal banding and a few faint smudges or spots (more visible near the top-left and lower-right). Overall it resembles a blank sheet of paper or a washed-out wall with minimal texture.](./Peril_in_Pinebrook_COMPLETE_images/image_125.png)
 
 ![- Abstract, minimal composition with a strong diagonal dividing the frame from lower-left to upper-right. - Lower-right triangle is solid black; upper-left area is mostly white. - In the upper-left, a soft, pale pink watercolor-like circular blotch with feathered edges. - Small black triangular corner visible at the top-right; overall high-contrast, geometric vs. organic texture.](./Peril_in_Pinebrook_COMPLETE_images/image_126.png)
+page
+
 
 ![The image is a tall, narrow vertical strip with a mostly white background. Two black triangular shapes occupy opposite corners (top-right and bottom-left), creating a diagonal framing. A very faint, pale blue-green circular watercolor texture is visible on the left side about one-third down. Overall the composition is minimal and geometric.](./Peril_in_Pinebrook_COMPLETE_images/image_127.png)
 

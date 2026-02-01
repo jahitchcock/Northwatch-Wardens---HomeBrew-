@@ -51,6 +51,8 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Secret:** Elric has prophetic dreams he refuses to discuss. They always involve a tower of ice cracking open.
 
+page
+
 **🌲 TRAILWARDENS**
 
 *Scouts, hunters, and wilderness specialists.*
@@ -114,6 +116,8 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 - Temple of the Dragonknights: Mila’s brother disappeared near the ruins.
 
 **Secret:** Mila’s brother was taken by Venomfang’s kobolds. He may still be alive.
+
+page
 
 **🔥 LANTERN GUARD**
 
@@ -301,6 +305,8 @@ You already know this one — he’s the chaos engine.
 - Frozen Sick: Joel knows a trader who handled the blue vials.
 
 **Secret:** Clementine’s magic awakened something in the ruins.
+page
+
 
 **🐺 WILD ALLIES**
 

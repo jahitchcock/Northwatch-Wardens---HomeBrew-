@@ -56,6 +56,8 @@ When the players arrive on the scene the wolves may test their strength with a c
 
 *"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say.*"
 
+\page
+
 # Scene 2: Village People
 
 Welton sits on the banks of a slow-moving river, with gentle hills rising up on each side. The houses and shops are generally made of oak, painted bright white, and many have elaborate carvings worked into the eaves. Wheat and sheep farming dominate the local economy, and people pay much more attention to the weather and wool prices than rumors of distant wars or disasters.
@@ -102,6 +104,8 @@ He explains that when the posse was attacked he was bitten badly and was trample
 
 If the party seem to believe his tale so far, he will hesitantly confess that the wolves were *talking*, arguing fiercely over whether they should eat him or not. Featherock then breaks down in tears and refuses to say anything more.
 
+\page
+
 # Scene 3: Plan of Attack
 
 Essentially, the aim of this scene to have the party find their way to the wolves' lair. There is no prescribed way for them to do this, so allow them to be as inventive as possible.
@@ -141,6 +145,8 @@ making its way towards them. caused by wolves and that the wounds appear to Unle
 **Owlbear** *(MM p249)* crashes through the bushes also scorch marks on the creature’s fur.
 
 and sights them. Even at a glance, the party can Anybody proficient in Nature or able to pass a tell that it is limping, thin and appears to be DC10 Wisdom check will know that it’s very rare nursing several barely-healed wounds clotted for wolves to challenge Owlbears. If the with old, black blood. Despite its injuries, the encounter occurred during the daytime, they massive beast will charge the party, letting out a will also know that Owlbears are nocturnal deafening hoot as it does so. predators and shouldn't be out in sunlight.
+
+page
 
 # Map of Welton & the Surrounding Area
 
@@ -260,6 +266,8 @@ and sights them. Even at a glance, the party can Anybody proficient in Nature or
 
 **n**
 
+page
+
 # Scene 5: The Den’s Denizens
 
 The wolves have made their den in a cave system on the western edge of the woods.
@@ -292,6 +300,8 @@ The western sub-chamber functions as a storeroom for both goods and many of the 
 
 Further inside the wolves have constructed a crude but effective fence out of what appears to be fallen branches, some of which have been
 
+page
+
 # Flame
 
 *Large beast, chaotic neutral*
@@ -317,6 +327,8 @@ Further inside the wolves have constructed a crude but effective fence out of wh
 ## Actions
 
 ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
+
+page
 
 ![- Stylized fantasy map, oriented with north at the top (compass rose at upper right). - Large, dense forest occupying the upper-left quadrant, with mountains and the numeral "4" near its north edge. - Open grassy plain across the center and right side, dotted with small copses, single trees, and rocky outcrops. - A cluster of buildings/town labeled "2" on the lower-right beside a blue river; a windmill and a larger house are nearby. - A small isolated house or farm labeled "3" sits along a dashed path in the central plain. - A group of standing stones or ruined towers near the forest edge labeled "1" where a dashed track meets the woods. - Low cliffs or escarpments at the forest boundary, several solitary rock stacks, a curved dashed road connecting points, and a scale bar along the bottom edge.](./5E_Wolves_Of_Welton_images/image_006.png)***Fire Breath (Recharge 5-6).*** Flame exhales a firey blast in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.
 

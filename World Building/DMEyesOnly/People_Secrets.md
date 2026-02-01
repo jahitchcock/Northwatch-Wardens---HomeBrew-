@@ -1,5 +1,7 @@
 # People of Northreach: DM Secrets
 
+page
+
 ## Overview
 
 This document contains secret information about NPCs in the Northwatch Wardens campaign. This includes hidden motivations, connections to the Aeorian Echo plotline, secret backgrounds, and information that would spoil player discoveries.
@@ -310,6 +312,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - Guz knows their operations and methods
 - They might still be looking for him
 - His past expertise could help identify criminal patterns
+
+page
 
 ---
 
@@ -685,6 +689,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - Could be abducted/tested by antagonist
 - Might become corrupted by Aeorian magic
 - Could be rescued and become information source
+page
+
 - His farm could be nexus of investigation
 
 ---
@@ -820,6 +826,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - The buyer's ultimate goal
 - How many Aeorian sites exist in the region
 - What the "complete" reactivation would do
+page
+
 - Whether the entity can be stopped permanently
 - Who else might be working for the entity
 - The full extent of the conspiracy

@@ -22,6 +22,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+page
+
 ## Historical Background
 
 ### Aeor Before the Fall
@@ -104,6 +106,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+page
+
 ## The Reactivation: What's Happening and Why
 
 ### The Trigger
@@ -184,6 +188,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Reality-warping effects
 - The entity revealing itself
 - Existential threat to Northreach
+
+page
 
 ---
 
@@ -366,6 +372,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
+page
+
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
 ---
@@ -441,6 +449,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Dangers:**
 - Touch can transmit frigid woe or other plagues
 - Prolonged exposure causes corruption
+page
+
 - Can spread through organic contact
 - Difficult to safely contain or destroy
 - Entity can sense through crystal network
@@ -573,6 +583,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Northreach becomes holy site of new god
 
 **How to Stop:**
+page
+
 - Prevent network completion
 - Destroy critical ritual components
 - Disrupt power accumulation
@@ -654,6 +666,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Knows exactly what it needs
 - Using criminals as expendable tools
 - Plans to eliminate them when done
+page
+
 - Has contingencies for failure
 
 **Investigating Players:**
@@ -766,6 +780,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Mid Intervention:**
 - Shut down activated facilities
+page
+
 - Sever network connections
 - Deny ritual components
 - Coordinate large-scale response
@@ -902,6 +918,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Entity trying to communicate
 - Visions contain actual information
 - Some people are "sensitive"
+
+page
 
 **Leads To:**
 - Direct communication with entity
@@ -1067,6 +1085,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Full scope of Aeorian plans
 - Choice about knowledge preservation
 - Cost of victory
+page
+
 
 **Stakes:**
 - Entire region's survival
@@ -1120,6 +1140,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Some facilities less critical than others
 
 **Alliance Building:**
+page
+
 - Who to trust with truth?
 - When to reveal full scope?
 - Coordinating large-scale response
@@ -1174,6 +1196,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Could become enemy or turncoat
 - Might steal crucial information
 
+page
+
 **Mara's Past:**
 - Old organization arrives at wrong time
 - Forced to choose between survival and duty
@@ -1211,6 +1235,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Pride before fall
 
 ### Community and Sacrifice
+page
+
 
 - Frontier depends on cooperation
 - Individual glory vs collective good

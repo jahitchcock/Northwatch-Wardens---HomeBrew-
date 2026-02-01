@@ -43,6 +43,8 @@ Use this mental map when you place scenes, rumors, and travel.
 
 ---
 
+page
+
 ## Travel Logic (keep it consistent)
 
 Pick travel times that feel right for your table and then keep them stable.
@@ -77,6 +79,8 @@ Use these anchors:
 - **Croaker Cave is the bridge from ‘bandits’ to ‘ancient horror.’** The first half of Frozen Sick can still feel like frontier work: interviews, local politics, criminals.
 - **Salsvault is why every other module is happening.** Make the “Aeorian Echo” feel like radiation: invisible, spreading, and causing secondary effects.
 - **The outpost / icefields are “beyond Palebank,” not a different world.** Use the names already present in your material, but frame them as seasonal camps and deadly terrain **north of Palebank on the same coastline**.
+
+page
 
 ---
 

@@ -1,5 +1,7 @@
 # Cultures of Northreach
 
+page
+
 ## Overview
 
 Northreach isn't defined by a single culture but by the practical blending of peoples who've chosen—or been forced—to live on the frontier. What emerges is a culture of survival, mutual aid, and earned respect, where your past matters less than what you contribute now.
@@ -178,6 +180,8 @@ Dwarves adjust their traditions:
 - More willing to work with other races
 - Practical over ceremonial
 - Still maintain core values but with frontier flexibility
+
+page
 
 ---
 
@@ -380,6 +384,8 @@ Children of frontier settlers often:
 - Speak multiple languages fluently
 - Blend cultural practices
 - Create new traditions unique to the region
+page
+
 - More comfortable with diversity than their parents
 
 ---
@@ -530,6 +536,8 @@ Food sharing is sacred:
 Hard winters teach lessons:
 - Preserve everything possible
 - Waste nothing
+page
+
 - Share when others have none
 - Remember who helped during lean times
 - Plan for next winter starting in spring
