@@ -1,11 +1,11 @@
-# cutestqrrrrl4evr's Character
+# ℂ𝕦𝕥𝕖𝕤𝕥𝕢𝕣𝕣𝕣𝕝𝟜𝕖𝕧𝕣
 
 ## Character Information
 
 | Field | Value |
 |-------|-------|
-| **Character Name** | cutestqrrrrl4evr's Character |
-| **Player Name** | cutestqrrrrl4evr |
+| **Character Name** | ℂ𝕦𝕥𝕖𝕤𝕥𝕢𝕣𝕣𝕣𝕝𝟜𝕖𝕧𝕣 |
+| **Player Name** | Rowan |
 | **Class & Level** | Warlock 2 |
 | **Species** | Tiefling |
 | **Background** | Criminal |

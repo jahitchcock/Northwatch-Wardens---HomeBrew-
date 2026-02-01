@@ -1,11 +1,11 @@
-# Perkian Fali
+# Perkia Fali
 
 ## Character Information
 
 | Field | Value |
 |-------|-------|
-| **Character Name** | Perkian Fali |
-| **Player Name** | Sporkulon |
+| **Character Name** | Perkia Fali |
+| **Player Name** | Erin |
 | **Class & Level** | Ranger 3 |
 | **Species** | Elf |
 | **Background** | Criminal / Spy |

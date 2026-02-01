@@ -5,7 +5,7 @@
 | Field | Value |
 |-------|-------|
 | **Character Name** | John paladin |
-| **Player Name** | Sporkulon |
+| **Player Name** | Jude |
 | **Class & Level** | Paladin 2 |
 | **Species** | Human |
 | **Background** | Soldier |
