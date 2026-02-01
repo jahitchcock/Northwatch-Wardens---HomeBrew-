@@ -11,6 +11,20 @@ This repository contains **Northwatch Wardens: Season One**, a modular, drop-in 
 - Central mystery: the Aeorian Echo
 - Format: Markdown + JSON stat blocks + Game Master 5e XML
 
+## Code Standards
+
+### Required Before Each Commit
+- **Validate XML**: Ensure all XML files are well-formed and use proper Game Master 5e v5 structure
+- **Check Geography**: Verify all location references use canonical geography (see table below)
+- **Preview Markdown**: Use Homebrewery VS Code extension to preview D&D content formatting
+- **Unique UIDs**: Ensure all XML elements have unique UIDs across the entire campaign
+
+### Development Flow
+- **Edit**: Make changes to markdown (.md), JSON (.json), or XML (.xml) files
+- **Preview**: For markdown files, use Homebrewery preview (`Ctrl+Shift+V` or `Cmd+Shift+V`)
+- **Validate**: Check XML syntax and structure, verify markdown formatting
+- **Test Import**: Test XML files in Game Master 5e application when possible
+
 ## Repository Structure
 
 ```
