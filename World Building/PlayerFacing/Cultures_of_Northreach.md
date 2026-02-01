@@ -98,6 +98,8 @@ Most humans in Northreach came from southern regions:
 - Create traditions quickly
 - Celebrate community achievements
 
+\page
+
 ### Typical Occupations
 - Farmers and homesteaders
 - Laborers and general workers
@@ -201,6 +203,8 @@ Elves in Northreach represent diverse backgrounds:
 - Studying frontier ecosystems
 - Escaping social constraints of elven society
 - Attracted by ancient mysteries
+
+\page
 
 ### Cultural Traits
 **Patience:** Long perspective:
@@ -317,6 +321,8 @@ Halflings often serve as social connectors:
 
 ---
 
+\page
+
 ## Other Peoples
 
 ### Gnomes
@@ -430,6 +436,8 @@ Religious sites are modest:
 - Ancestor memorials
 - The Waystone (debated religious significance)
 
+\page
+
 ### Death Customs
 Frontier death practices blend traditions:
 - Bodies returned to earth (burial most common)
@@ -538,6 +546,8 @@ Food sharing is sacred:
 - Community feasts on special occasions
 - Even enemies are fed before being judged
 
+\page
+
 ### Scarcity Management
 Hard winters teach lessons:
 - Preserve everything possible
@@ -643,6 +653,8 @@ What brings people together:
 - Pride in frontier accomplishment
 
 ---
+
+\page
 
 ## The Unspoken Cultural Rules
 

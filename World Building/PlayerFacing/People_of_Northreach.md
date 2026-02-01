@@ -86,6 +86,8 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 
 ---
 
+\page
+
 ### Bordel Barleywind
 
 **Role:** Trailwarden (ranger and scout)
@@ -193,6 +195,7 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 - Respects strength but despises bullies
 
 ---
+\page
 
 ## Magical Specialists
 
@@ -322,6 +325,8 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 
 ---
 
+\page
+
 ## Local Leaders and Notable Residents
 
 ### Elro Aldataur (Palebank Village)
@@ -431,6 +436,8 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 - Recently had trouble with wolves
 
 ---
+
+\page
 
 ## Cultural Figures and Legends
 

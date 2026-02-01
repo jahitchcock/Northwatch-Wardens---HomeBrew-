@@ -168,6 +168,16 @@ All adventures connect to a spreading arcane phenomenon: magic from buried Aeori
 4. **Stat References:** Link to JSON files or XML entries
 5. **Preview Settings:** Use workspace settings from `.vscode/settings.json`
 
+#### \page Insertion Heuristics (Based on PlayerFacing Docs)
+
+Use these rules-of-thumb to keep pagination consistent with `World Building/PlayerFacing/` reference documents:
+
+- **Default page chunk size:** insert `\page` at a natural boundary around **70–85 non-empty lines** or **450–550 words** since the last break.
+- **List- / header-heavy pages:** break earlier by words (**~330–420 words**) even if line count is high.
+- **Prose-heavy pages:** you can run longer (**~500–600 words**) before inserting `\page`.
+- **Avoid orphaned headings:** if a new major heading (e.g., `##`) would start near the bottom of a page, insert `\page` immediately before it.
+- **Keep blocks intact:** don’t place `\page` inside tables or long lists; break before or after.
+
 ## Custom Agents
 
 ### DMHelper Agent

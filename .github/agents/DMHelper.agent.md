@@ -405,6 +405,18 @@ When working with this agent:
 
 ---
 
+## Markdown Pagination (\page)
+
+When editing player-facing or handout-style markdown intended for Homebrewery-like rendering, insert `\page` breaks using these empirically-derived heuristics from existing `World Building/PlayerFacing/` docs:
+
+- **Default target per page chunk:** break at a natural boundary around **70–85 non-empty lines** or **450–550 words** since the last `\page`.
+- **List- / header-heavy sections:** break earlier by words (**~330–420 words**) even if line count is high.
+- **Prose-heavy sections (NPC blurbs / paragraphs):** can run longer (**~500–600 words**) before breaking.
+- **Don’t orphan headings:** if a new major entry (e.g., a `##` section) would start near the bottom of a page, insert `\page` immediately before that heading.
+- **Keep blocks together:** don’t place `\page` inside tables or long lists; break before or after them.
+
+---
+
 ## File References
 
 | File | Purpose |

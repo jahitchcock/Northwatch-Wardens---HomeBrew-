@@ -79,6 +79,8 @@ Welton is organized around its main square:
 - Wool production
 - Seasonal trading with other settlements
 
+\page
+
 ### Population
 About 120 permanent residents:
 - Primarily human farmers
@@ -121,6 +123,7 @@ Village council of five elected members who rotate leadership:
 - Some livestock has been lost
 - Patrols have increased around outlying farms
 - Tensions between those who want to hunt the wolves and those who fear something worse
+
 
 ### Local Knowledge
 - "Good bread, good people, but keep your animals penned."
@@ -175,6 +178,8 @@ Outlying farms like Westly's face constant challenges:
 - Livestock losses
 - Strange behavior from the wolves (too organized, too persistent)
 - Growing fear that something is deliberately targeting the farm
+
+\page
 
 ### Local Knowledge
 - "Westly's a hard worker, but he farms hard land."
@@ -271,6 +276,8 @@ About 90 permanent residents, plus floating population of travelers:
 
 ---
 
+\page
+
 ## Palebank Village (Northeast Coast)
 
 \page
@@ -347,6 +354,7 @@ Life here is hard but honest:
 - **Character:** Fiercely independent, distrustful
 - **Reputation:** Skilled trapper, avoids community events
 
+
 ### The Eiselcross Connection
 Palebank is the last stop before Eiselcross:
 - Explorers resupply here before heading north
@@ -365,6 +373,8 @@ Palebank is the last stop before Eiselcross:
 - Fear of contagion is spreading
 - Some residents showing symptoms of the same disease
 - Community is looking to outsiders for help
+
+\page
 
 ### Local Knowledge
 - "The sea provides—until it takes."
@@ -464,6 +474,8 @@ Multiple levels of threat:
 
 ---
 
+\page
+
 ## Temple of the Dragonknights (Northwest Mountains)
 
 \page
@@ -562,6 +574,7 @@ People treat the tower with wary respect:
 - "If you see lights where there shouldn't be lights—leave."
 
 ---
+\page
 
 ## The Wilderness Between
 
