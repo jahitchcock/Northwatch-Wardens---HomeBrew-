@@ -23,6 +23,7 @@ But every contract they take is another puzzle piece.
 
 Below is the “why it matters” for each adventure, independent of order.
 
+
 **🐺 1. Wolves of Welton — The First Contract**
 
 **Theme:** Intelligence awakening where it shouldn’t.
@@ -36,6 +37,7 @@ Below is the “why it matters” for each adventure, independent of order.
 The Wardens learn that something is *changing the frontier itself*.
 
 This is the campaign’s inciting incident.
+
 
 **❄️ 2. Frozen Sick — The First Major Threat**
 
@@ -55,6 +57,7 @@ The Wardens discover:
 
 This is the campaign’s *first revelation*.
 
+
 **🐉 3. Temple of the Dragonknights — Corruption Takes Root**
 
 **Theme:** Ambition, corruption, and the misuse of awakening magic.
@@ -73,6 +76,7 @@ The Wardens learn that:
 
 This is the campaign’s *escalation*.
 
+
 **🐑 4. The Wild Sheep Chase — Magical Chaos Spreads**
 
 **Theme:** Magic behaving unpredictably.
@@ -90,6 +94,10 @@ The Wardens see that:
 - Spellcasters are losing control.
 
 This is the campaign’s *comic but meaningful warning*.
+
+
+
+\page
 
 **🌲 5. Peril in Pinebrook — The Frontier Cracks**
 

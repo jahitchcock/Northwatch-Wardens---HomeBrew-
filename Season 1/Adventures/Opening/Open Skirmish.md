@@ -54,6 +54,7 @@ This creates instant awareness without forcing dialogue.
 
 **Round 2: Forced Cooperation**
 
+
 Have one wolf use **Pack Tactics** to flank a PC. This encourages another PC to intervene.
 
 Example narration:
@@ -95,6 +96,9 @@ Then offer **three natural prompts** for the players to introduce themselves:
 Pick whichever fits your tone.
 
 **Optional: Quick Hooks to Bond the Party**
+
+\page
+
 
 Use one or more:
 

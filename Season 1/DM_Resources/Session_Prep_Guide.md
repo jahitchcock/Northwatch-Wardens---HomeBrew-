@@ -1,5 +1,6 @@
 # Northwatch Wardens: DM Session Prep Guide
 
+
 ## Quick Reference: Campaign Flow & Cohesion
 
 ### ✅ Campaign DOES Flow Well Because:
@@ -88,6 +89,9 @@ CHOICE POINT:
 ### Keep This Simple Document
 
 ```markdown
+
+\page
+
 ## Northwatch Wardens: Campaign Tracker
 
 **Current Date:** [In-game date]
@@ -114,6 +118,7 @@ CHOICE POINT:
 ### Unfinished Business:
 - [Note anything party said they'd return to]
 ```
+
 
 ---
 
@@ -200,6 +205,9 @@ CHOICE POINT:
 
 ## DM Preparation Per Session
 
+\page
+
+
 ### 1 Week Before Session:
 
 - [ ] Review next adventure from XML
@@ -272,9 +280,13 @@ CHOICE POINT:
 - Kill Marshal Brenna: Steward Mara takes over, guild becomes more cautious
 - Kill Father Merriksonn: Welton becomes hostile to outsiders
 
+
 **Philosophy:** Actions have consequences, but campaign continues
 
 ---
+
+
+\page
 
 ## Improvisation Toolkit
 
@@ -387,6 +399,7 @@ CHOICE POINT:
 
 - [x] Read the adventure you'll run next session
 - [x] Know the 3 guild NPCs (Brenna, Mara, Elric)
+
 - [x] Understand Waystone Inn as hub
 - [x] Let players recap themselves
 - [x] Track major choices in simple document
@@ -394,6 +407,9 @@ CHOICE POINT:
 ---
 
 ## Quick Start Checklist
+
+\page
+
 
 ### Session 1 (Charter Signing):
 - [ ] Read Opening Session (uid 2013)

@@ -104,6 +104,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+
+
+\page
+
 ## The Reactivation: What's Happening and Why
 
 ### The Trigger
@@ -185,6 +189,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - The entity revealing itself
 - Existential threat to Northreach
 
+
 ---
 
 ## The Entity Behind the Echo
@@ -224,6 +229,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Voice:** Cultured, academic, patronizing—speaks to mortals like children
 
 **Quote:** "The gods destroyed Aeor because we were right. I will prove it by succeeding where the city failed."
+
+\page
+
 
 ---
 
@@ -366,6 +374,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
+
+
+\page
+
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
 ---
@@ -441,6 +453,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Dangers:**
 - Touch can transmit frigid woe or other plagues
 - Prolonged exposure causes corruption
+
 - Can spread through organic contact
 - Difficult to safely contain or destroy
 - Entity can sense through crystal network
@@ -573,6 +586,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Northreach becomes holy site of new god
 
 **How to Stop:**
+
 - Prevent network completion
 - Destroy critical ritual components
 - Disrupt power accumulation
@@ -582,6 +596,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## The Artifact Trade: Following the Money
+
+\page
+
 
 ### The Theft Network
 
@@ -654,6 +671,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Knows exactly what it needs
 - Using criminals as expendable tools
 - Plans to eliminate them when done
+
 - Has contingencies for failure
 
 **Investigating Players:**
@@ -766,6 +784,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Mid Intervention:**
 - Shut down activated facilities
+
 - Sever network connections
 - Deny ritual components
 - Coordinate large-scale response
@@ -779,6 +798,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## Player Investigation Paths
+
+\page
+
 
 ### Following the Wolves (Welton)
 
@@ -903,6 +925,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Visions contain actual information
 - Some people are "sensitive"
 
+
 **Leads To:**
 - Direct communication with entity
 - Understanding its perspective
@@ -951,6 +974,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ### Croaker Cave (Early-Mid Game)
+
+\page
+
 
 **Location:** North of Palebank
 
@@ -1068,6 +1094,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Choice about knowledge preservation
 - Cost of victory
 
+
 **Stakes:**
 - Entire region's survival
 - Potential creation of new deity
@@ -1120,6 +1147,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Some facilities less critical than others
 
 **Alliance Building:**
+
 - Who to trust with truth?
 - When to reveal full scope?
 - Coordinating large-scale response
@@ -1139,6 +1167,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## NPC Arcs and Development
+
+\page
+
 
 ### Potential Allies
 
@@ -1173,6 +1204,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - His organization might oppose party goals
 - Could become enemy or turncoat
 - Might steal crucial information
+
 
 **Mara's Past:**
 - Old organization arrives at wrong time
@@ -1211,6 +1243,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Pride before fall
 
 ### Community and Sacrifice
+
 
 - Frontier depends on cooperation
 - Individual glory vs collective good
@@ -1318,6 +1351,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## Conclusion: The Echo's Resolution
+
+\page
+
 
 The Aeorian Echo represents both danger and opportunity—a chance for ancient evils to rise again, or for new heroes to prove that the present can overcome the past. How your players navigate this threat will define not just the campaign's outcome, but the kind of story you tell together.
 

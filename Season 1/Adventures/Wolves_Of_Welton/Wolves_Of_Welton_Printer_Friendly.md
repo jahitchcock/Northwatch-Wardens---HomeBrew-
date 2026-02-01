@@ -22,6 +22,7 @@ The wolves are not ordinary — they have been magically awakened after an encou
 
 ---
 
+
 # Scene 1 — Wolf Ambush on the Road
 
 **Location:** West of Welton, near a rocky bend and woodland edge.  
@@ -48,6 +49,7 @@ The wolves are not ordinary — they have been magically awakened after an encou
 - A survivor (Featherock) left traumatized
 
 ---
+
 
 # Scene 2 — Welton
 
@@ -87,6 +89,10 @@ People are anxious, streets muddy from heavy traffic, and food shortages loom.
 
 ---
 
+
+
+\page
+
 # Scene 3 — Finding the Wolves’ Lair
 
 **Goal:** Track or lure the wolves to locate their den.  
@@ -114,6 +120,7 @@ A wounded, starving owlbear attacks.
 Its injuries show wolf bites and scorch marks — clues to the wolves’ new abilities.
 
 ---
+
 
 # Scene 5 — The Wolves’ Den
 
@@ -154,6 +161,7 @@ Negotiation triggers:
 
 If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 
+
 ---
 
 # Scene 6 — Resolution
@@ -168,6 +176,7 @@ If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 - Council must be convinced  
 - Tillus opposes negotiations  
 - Persuasion checks determine outcome  
+
 - If wolves’ intelligence becomes known, Featherock recovers faster  
 
 ---
@@ -202,5 +211,8 @@ If negotiations succeed, Flame betrays Bolt, triggering a final fight.
 (Use your own map tools to recreate these.)
 
 ---
+
+
+\page
 
 # End of Markdown Summary

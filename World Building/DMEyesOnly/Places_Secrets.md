@@ -1,5 +1,6 @@
 # Places of Northreach: DM Secrets
 
+
 ## Overview
 
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
@@ -113,6 +114,9 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 ### Current Threats
+
+\page
+
 
 **Surveillance:**
 - Someone is watching the Waystone Inn
@@ -230,6 +234,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### The Old Woods North of Welton
 
+\page
+
+
 **Local Reputation:**
 - "Old place" locals avoid
 - Superstitions and warnings
@@ -258,6 +265,7 @@ This document contains secret information about locations in the Northwatch Ward
 - The "controller" has established base here
 - Contains clues about larger operation
 - Major adventure location for investigating wolf problem
+
 
 ---
 
@@ -354,6 +362,9 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 ### Abandoned Logging Camp (North of Pinebrook)
+
+\page
+
 
 **Official Status:**
 - Shut down years ago
@@ -473,6 +484,9 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 ### Tulgi's Cabin: The Spy's Evidence
+
+\page
+
 
 **Visible:**
 - Dwelling of isolated trapper
@@ -612,6 +626,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Hulil's Knowledge
 
+\page
+
+
 **What She Knows:**
 - Full Uttolot operation in region
 - Identities of other operatives
@@ -629,6 +646,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Will eventually reveal information
 - Concerned about sister Tulgi
 - Realizes operation is more dangerous than thought
+
 - Might be convinced to cooperate
 
 ---
@@ -758,6 +776,9 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 ## Temple of the Dragonknights: Heroic Tomb
+
+\page
+
 
 ### The Historical Truth
 
@@ -906,6 +927,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Potential Alliance
 
+\page
+
+
 **If Players Earn Trust:**
 - Shares research and knowledge
 - Provides magical support
@@ -920,6 +944,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What He Can Provide:**
 - Translation of Aeorian text
+
 - Maps of facilities
 - Protective magic against Aeorian effects
 - Theoretical solutions to final threat
@@ -1058,6 +1083,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Regional Threats and Connections
 
+\page
+
+
 ### The Uttolot Operation
 
 **Visible:**
@@ -1144,6 +1172,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Limit scope of threat
 - Buy time for evacuation/preparation
 
+
 **If Players Fully Succeed:**
 - Prevent complete activation
 - Destroy or seal entity
@@ -1221,6 +1250,9 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 ## Campaign Integration
+
+\page
+
 
 ### For "Wolves of Welton"
 

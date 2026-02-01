@@ -37,6 +37,9 @@ Frigid woe is a special disease developed by Aeor’s mages that cannot be cured
 
 The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
 
+\page
+
+
 A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
 
 Adventure Summary
@@ -48,6 +51,7 @@ Setup and Starting Points
 Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of Explorer's Guide to Wildemount.
 
 Before the adventure begins is also the time to figure out if the characters already know each other or if this adventure is the first time they’ve met.
+
 
 Mystery in Palebank Village
 The adventure begins in Palebank Village, with the characters drawn immediately into the drama of death in an isolated settlement. Once the players are ready to begin, read or paraphrase the following to set the scene:
@@ -61,6 +65,9 @@ A gruff voice speaks softly from behind you. “Thank you for attending Urgon’
 Whether the characters are known in the village as neophyte adventurers or simply look the part, Elro (a neutral good, male wood elf veteran) hopes that they’re the sort of people not afraid to step up to help folks in need. Use the following points to help guide the conversation as he explains his concerns to the characters:
 
 Two months ago, Urgon Wenth returned home after exploring Eiselcross for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
+
+\page
+
 The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
 Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring Eiselcross. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
 Alarmed, Elro tried to talk to Tulgi about it, but she pushed him away, asking that he let her die in peace.
@@ -86,6 +93,9 @@ Strange Receipt
 A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in Eiselcross to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
 
 Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
+
+\page
+
 
 Development
 After searching the cabin, the characters can continue their investigation by going to Tulgi’s cabin or by stopping at Pelc’s Curiosities (assuming they found the receipt).
@@ -118,6 +128,9 @@ Tulgi is gruff and to the point, and tries to compensate for her illness with bl
 A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check convinces Tulgi to reveal the following information:
 
 Tulgi came to Palebank Village a few years back from Shadycreek Run with her sister, Hulil. Both work for the Uttolot family.
+
+\page
+
 The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from Eiselcross—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from Uthodurn or the Dwendalian Empire.
 When Urgon Wenth returned to Palebank Village with treasures from Eiselcross, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
 Tulgi gave most of Urgon’s relics to Hulil, but kept one for herself—an ornate dagger. She grudgingly gives this weapon to the characters if asked (see “Treasure” below). Hulil has the other items in a site north of the village known as Croaker Cave.
@@ -146,6 +159,9 @@ Five cloaked elves appear to have ransacked the shop and are searching through t
 
 This area is difficult terrain thanks to the debris covering it. The five elves are bandits with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put them to sleep.
 
+\page
+
+
 The bandits attack as soon as they notice the characters, fighting until only one remains. That survivor then surrenders. If a captive bandit is questioned, a character who succeeds on a DC 10 Charisma (Intimidation) check can learn the following information:
 
 The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Shadycreek Run.
@@ -160,6 +176,7 @@ What appears to be an ice statue of an elf is bundled beneath the blankets of a 
 The figure in the bed is the unfortunate Verla Pelc, who was infected with frigid woe by Urgon Wenth’s Aeorian relics. Her symptoms appeared a few weeks after the shop was robbed, but the reclusive elf never told anyone about them.
 
 Development
+
 Questioning any of the bandits can turn up solid leads that can take the characters to Croaker Cave, or back to Tulgi’s cabin if there are other questions the dwarf has yet to answer. If they were unable to question the bandits, you can have one of the bandits carrying orders from Hulil that point toward the Croaker Cave hideout.
 
 Croaker Cave
@@ -175,6 +192,9 @@ With the exception of Old Croaker (see area C5), giant ice frogs are giant frogs
 The blue-skinned frogs attack any creatures in the cave complex not escorted by bandits they recognize. Each fights until reduced to half its hit points or fewer, then flees. A character who succeeds on a DC 15 Wisdom (Animal Handling) check as an action convinces one frog to not attack or to stop attacking. If the character or any of their allies attacks or harms the frog, it resumes combat.
 
 The frogs spend much of their time resting in pools of murky, frigid water in Croaker Cave. A character who succeeds on a Wisdom (Perception) check opposed by a frog’s Dexterity (Stealth) check notices a frog hiding in a pool. If a frog goes undetected, it attacks with surprise when a character comes within 5 feet of the pool.
+
+\page
+
 
 Uttolot Bandits
 The bandits sent out with Hulil by the Uttolot family are all dwarves and elves. Up to ten bandits normally occupy Croaker Cave, but only three are currently present (in area C2). They use the bandit stat block and have darkvision out to a range of 60 feet. In addition, the dwarves have resistance to poison damage and have advantage on saving throws against poison; the elves have advantage on saving throws against being charmed and immunity to magic that would put them to sleep
@@ -217,6 +237,9 @@ Three Uttolot bandits and two giant ice frogs normally occupy this cavern. If th
 
 A dwarf and two elves bundled in layers of winter clothing are throwing dead bats into the air. Two giant blue-skinned frogs leap up to snatch the bats in midair, seemingly as part of some sort of training session.
 
+\page
+
+
 If the bandits went to investigate disturbances in adjacent areas, the frogs are hiding in the pool.
 
 Bucket
@@ -252,6 +275,9 @@ A warm rush of heat comes from a massive fire burning in the center of this cave
 
 Hulil Lutan (a neutral evil, female mountain dwarf cult fanatic with a walking speed of 15 feet, darkvision out to a range of 60 feet, resistance to poison damage, and advantage on saving throws against poison) and her apprentice, Raegrin Mau (a neutral evil, male wood elf cultist with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put him to sleep), are both in a state of deep meditation, praying to Tiamat for a cure for the dwarf’s affliction. Even if combat broke out in area C5, they remain unaware of the characters’ presence until they are disturbed or attacked. Hulil and Raegrin are both greedy servants of Tiamat and the Uttolot family. Raegrin follows Hulil’s every order with unshaking loyalty.
 
+\page
+
+
 Hulil is so desperate for a cure for the ailment that is slowly killing her that she doesn’t attack the characters when she first sees them, as long as she isn’t attacked first. Instead, she orders them to stand down and demands to know why they came to the cave. A quick-thinking character can claim to have come to help Hulil (at the direction of her sister, after receiving a message from Tiamat, or with another appropriate rationale). With a successful Charisma (Deception) check opposed by Hulil’s Wisdom (Insight) check, the character convinces the dwarf that all the characters are her allies. On a failed check, or if the characters challenge her, Hulil and Raegrin attack.
 
 Campfire
@@ -275,6 +301,9 @@ The chest contains the rest of the treasure found by Urgon Wenth—a gilded scro
 
 Development
 When the characters are done exploring Croaker Cave, they should know the blue glass vials found by Urgon Wenth are the source of the strange malady that is turning people into ice statues, and that Irven Liel has one of those vials. If the characters don’t have a chance to question Hulil or Raegrin, you can have the chest also contain a journal or notes that provide the information they need and point them toward the Jolly Dwarf inn.
+
+\page
+
 
 Jolly Dwarf
 The Jolly Dwarf is a cozy, two-story inn run by a retired adventurer named Arl Bortock. When the characters enter the inn, read:
@@ -300,11 +329,15 @@ As an action, a creature can throw a vial of frigid woe up to 20 feet, shatterin
 
 If a character has contracted frigid woe, track the number of days that have passed so you can inform the player when their character’s symptoms appear and when they need to make Constitution saving throws.
 
+
 Character Advancement
 The characters advance to 2nd level before traveling to Eiselcross.
 
 Traveling to Eiselcross
 When the characters are ready to leave for Eiselcross, Elro Aldataur provides them with the following information:
+
+\page
+
 
 Elro has arranged passage to Eiselcross for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
 The characters will be taken to Syrinlya, an Uthodurnian outpost on Foren, Eiselcross’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of Eiselcross with Urgon Wenth.
@@ -339,6 +372,9 @@ The dwarf stops in front of a large fur-lined yurt. “You can stay here. Belong
 Bertron’s Yurt
 The characters are welcome to this yurt during their time in Syrinlya. When they first enter, read:
 
+\page
+
+
 The sound of wind and the biting cold die down as you enter the yurt. A cold fire pit marks the center of the hide-covered floor. An open crate containing packaged rations and a few other items stands next to the door.
 
 Once the characters are settled, Morgo wishes them luck and leaves to prepare for an expedition of her own (see the “Can You Help Us?” sidebar). The crate contains 50 days of rations, a 50-foot silk rope, a blanket, a grappling hook, a miner’s pick, and a book titled Adventure Sexy: Impress Potential Lovers with Great Deeds by Scanlan Shorthalt.
@@ -365,6 +401,9 @@ Orvo Mustave
 Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
 
 A campfire burns in front of this small tent, whose flaps are open. Inside the tent sits a young dwarf whose face is scarred as though scratched by a large claw. A shortsword is casually laid across his lap as he warms his outstretched hands.
+
+\page
+
 
 Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of Eiselcross as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
 
@@ -395,6 +434,9 @@ d6	Encounter
 3	The characters find a griffon with an arrow in its wing that prevents it from flying. A character who succeeds on a DC 15 Wisdom (Animal Handling) check can approach the griffon without being attacked. Such a character can remove the arrow, restoring the griffon's ability to fly, after which the griffon allows the character to ride it as a mount for the next 1d10 days.
 4	The characters encounter the revenant of a dead explorer from Balenpost who was murdered by one of its team and is looking for vengeance.
 5	The characters find a 3-foot-tall, 50-pound egg. If they keep the egg in a cold environment for 1d10 weeks, a white dragon wyrmling hatches from it.
+
+\page
+
 6	A young remorhaz ambushes the characters.
 After traveling forty miles, the characters enter Thin Sheets. This region is known for its large patches of thin ice over deep, frigid water (see the rules for frigid water and thin ice in chapter 5 of the Dungeon Master’s Guide).
 
@@ -403,6 +445,7 @@ When the characters have traveled two hundred miles, one character who acts as a
 
 Salsvault
 Salsvault was once a laboratory in the city of Aeor, where mages who specialized in necromancy and transmutation magic crafted constructs and diseases to be weaponized against their enemies. Many of the laboratory’s creations remain active, still guarding the diseases and treasures within.
+
 
 Approaching Salsvault
 As the characters approach Salsvault, read:
@@ -432,6 +475,9 @@ Doors and Walls
 Salsvault’s heavy doors are made of black stone, and its walls are made of blue stone. A detect magic spell reveals a faint aura of abjuration magic radiating from the doors and walls. Each door and each 10-foot section of wall has AC 17; 27 hit points; resistance to bludgeoning, piercing, and slashing damage; and immunity to poison and psychic damage.
 
 If an area’s description notes a locked door, the lock can be picked with a successful DC 15 Dexterity check using thieves’ tools, or the door can be forced open with a successful DC 18 Strength check. Ferol Sal (see area S17) carries a master key that locks or unlocks all the doors in Salsvault.
+
+\page
+
 
 Aeorian Robes
 The undead in the complex wear archaic-looking robes. With a successful DC 12 Intelligence (History) check, a character recognizes the robes as being of Aeorian style. The characters can also find intact robes of the same style in the complex. Constructs and zombies in the complex don’t attack a character wearing intact robes, unless the character attacks first.
@@ -476,6 +522,9 @@ The door that leads to area S2 is slightly ajar. A character who examines the do
 S2. Ransacked Frigid Woe Laboratory
 Stone tables lie in pieces on the floor at the east end of the room. Two open stone chests stand against the west wall. A layer of fine sand coats the inside of the chests and the floor around them.
 
+\page
+
+
 If the characters make any noise louder than a whisper in this chamber, the suits of animated armor in area S3 investigate the noise.
 
 Any examination of the chests reveals that they are built into the floor. A character who examines the sand on the ground near the chest and succeeds on a DC 12 Wisdom (Perception) check notices two sets of dwarf-sized boot prints (from Orvo and Urgon) as well as two sets of boot prints made by human-sized feet (the animated armor from area S3).
@@ -509,6 +558,9 @@ Each chest is packed with fine sand, within which are nestled two vials of frigi
 
 Iron Lever
 A character who examines the lever notices spots of faded red paint on it with a successful DC 13 Wisdom (Perception) check. As an action, a creature can pull the lever down, causing flames to shoot down from the ceiling in area S5. Even with the door closed, a hiss can be heard in this area when the flames are active. A creature can use an action to push the lever back up, which shuts off the flames. See area S5 for more information on this hazard.
+
+\page
+
 
 Locked Doors
 The doors from this area to areas S1 and S5 are locked. The door to area S5 is also trapped.
@@ -563,6 +615,9 @@ The door to Ferol Sal’s personal quarters is locked. When the characters can s
 
 This room is in immaculate condition, apparently having been cleaned up after the destruction seen elsewhere in the complex. A crisply made bed stands at the center of the west wall, with small tables off to either side. The room also contains a stone desk set with a chair, and a chest built into the floor.
 
+\page
+
+
 Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into Eiselcross.
 
 Chest
@@ -609,6 +664,9 @@ A character with a passive Wisdom (Perception) score of 12 or higher, or one who
 S14. South Hall
 Three well-preserved human zombies in tattered robes roam this hall aimlessly, attacking any intruders that catch their attention.
 
+\page
+
+
 S15. Animated Weapon Storage
 The door to this room is locked. When the characters can see into this area, read:
 
@@ -645,6 +703,9 @@ Ferol knows nothing of Exandria’s history since Aeor’s crash, and his memory
 When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
 
 If Ferol trusts the characters, he tells them to stay away from the locked golem lab (area S16). If they ask about the cure for frigid woe, he tells them they can find it locked in a chest in what he calls the curative laboratory (area S18). A character who succeeds on a DC 15 Charisma (Persuasion) check can convince Ferol to provide the key that safely unlocks the chest.
+
+\page
+
 
 If the characters don’t earn Ferol’s trust, the wight attacks, fighting until destroyed.
 

@@ -24,6 +24,10 @@ Getting the players into this adventure is pretty straightforward. All that is r
 
 If you want to plant seeds in advance, you may wish to introduce the character of Noke through rumours or idle conversation with shopkeepers and innkeepers, who view him with fear and awe.
 
+
+
+\page
+
 # Baaaa-d News
 
 The adventure begins as the party idle away an afternoon. They might be enjoying a drink at a tavern, resting at their base or simply walking down the street without a care in the world. No matter where they are, however, it soon becomes clear that something quite odd is happening.
@@ -41,6 +45,7 @@ After establishing that the player can understand what it’s saying, the sheep 
 Specifically, he wants them to help take back an extremely powerful magical artefact from a dangerous, possibly insane wizard.
 
 He will attempt to tell his story, but shortly after he starts the sound of howling fills the air…
+
 
 # Guz
 
@@ -69,6 +74,9 @@ He demands that he be given "Master Noke's sheep," which he claimed has escaped,
 Guz is not a bright fellow, but he is very loyal and determined to complete his task. His trackers know that Shinebright is there, no matter how well the party tries to hide him, and will not take no for an answer.
 
 While he prefers violence and intimidation, he is also willing to offer bribes and promises of magical favours if that looks like the best option.
+
+\page
+
 
 If he feels like he's not making progress, Guz will simply attack without warning. The wolves will follow him up, while the cloaked figure will let its hood fall and run into combat with a terrible roar.
 
@@ -120,6 +128,9 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 
 ![- Abstract, colorful composition dominated by a glowing, horned silhouette made of bright sparkles and light particles. - Diagonal streaks of color run across the background from warm orange on the left, through yellow and green, to teal on the right. - The central shape (resembling a ram or bull head with curved horns) is formed by concentrated green-yellow points of light and small star-like flares. - A textured, darker green band runs along the bottom, suggesting ground or a foreground element. - Overall mood is cosmic, magical, and luminous.](./892902-The_Wild_Sheep_Chase_V2_images/image_002.png)![The image is a plain, uniform gray rectangle with no distinguishable objects, text, or features. There’s a slightly darker band near the top and bottom edges, but otherwise it’s a flat gray field.](./892902-The_Wild_Sheep_Chase_V2_images/image_003.png)
 
+\page
+
+
 ## After the Dust Settles
 
 Once Noke's goons have been defeated, distracted or otherwise dealt with, Shinebright pleads with the party. Without their help, he is doomed. Noke still has many guards still working for him and eventually they will find him.
@@ -156,6 +167,9 @@ However, he is also fond of trying to use long, complicated words he has picked 
 
 The path to Noke’s Tower cuts off from a main road a few miles out of town, darting off between a gap in the bushes. It is a well-trodden route that soon begins to weave its way between tall oak trees
 
+\page
+
+
 Anyone who cares to examine the path for tracks will easily see the impression of many feet and paws, with the most fresh sets appearing to match up with the group led by Guz.
 
 The track continues through sparse woodland for perhaps a mile without any sign of habitation. Unless they know what to look for, the party may be somewhat surprised by the view that awaits them when Shinebright's old house appears through the treetops. --------------------------------------------------------------------------------------------------------------
@@ -190,7 +204,11 @@ Scattered beneath the platforms are two small wooden huts and a large outhouse
 
 When the party arrives at the compound, there is a trio of Apes (MM p31 7) either sleeping or playing with an oversized pair of dice on the lawn, with iron greatswords stuck into the ground next to them. A Brown Bear is in the outhouse, taking care of business.
 
+\page
+
+
 ![- A nearly uniform medium-gray rectangle fills the entire image. - Slightly darker strip along the very top edge; no distinct objects, text, or patterns are visible. - Appears to be a blank, solid-color, or possibly corrupted/failed image.](./892902-The_Wild_Sheep_Chase_V2_images/image_007.png)The door to the central platform is almost always locked, requiring a DC1 4 Strength (Athletics) to break down or a DC1 2 Thieves' Tools check to pick. Inside, the area is divided up in to three sections. One contains a combination library and lab, one a sitting room and one dining room/kitchen. Untidy bookshelves line much of the outer walls and worktables are covered with stacks of ink-spattered notes and complicated anatomical diagrams of various beasts and monsters.
+
 
 # Bed Dragon Wyrmling
 
@@ -242,6 +260,9 @@ If they talk, he will reveal his reasons for hating Shinebright and boast disjoi
 
 The most important part of any fight that breaks out is Noke, who is offensively weak but can buff his allies dramatically. Once the Brown Bear emerges from the outhouse he will cast Enlarge/Reduce (PHB p237) on it to increase its damage. He will supplement his minions’ attacks with Ray of Frost (PHB p271 ) but will focus on keeping up concentration.
 
+\page
+
+
 The Apes will act intelligently, and as they are wielding greatswords their Fist attack is replaced by a Slash that deals 1 0 (2d6+3) slashing damage. They aren't likely to fight to the death and will flee once they fall below half health.
 
 Once it is clear that the fight is lost, or a player simply gets too close to him, Noke will cast Expeditious Retreat (PHB p238) and flee into the central platform, locking the door behind him. He will move to his bedroom as fast as he can and casts True Polymorph on the largest thing he can find - his bed.
@@ -251,6 +272,7 @@ Ewe are Very Clever...
 Noke is naturally paranoid and Shinebright’s recent escape hasn’t exactly improved his outlook. This makes luring him away from the safety of his tower an extremely difficult task, though not an impossible one.
 
 ![The image shows a nearly uniform medium-gray square with a subtle grainy texture and no discernible objects, text, or distinct features.](./892902-The_Wild_Sheep_Chase_V2_images/image_010.png)Noke's lust for fame and power slightly outweighs his fear of being unseated, for the time being at least. This means that a very, very skilled set of liars with a sufficiently devious plan and a good helping of luck may be able to tempt him with the offer of a particularly prestigious, lucrative contract.
+
 
 # Ahmed Noke
 
@@ -312,6 +334,9 @@ Desperate and unwilling to let his old master win, a babbling Noke will then att
 
 However, the over-used wand will crackle, fizz and malfunction with a loud bang, turning Noke into a Gibbering Mouther (MM p1 57) - a misshapen pile of flesh that bellows incoherently from dozens of mouths. The sad creature will attack mindlessly until completely destroyed.
 
+\page
+
+
 Even so, when Noke leaves he will take all of his remaining bodyguards with him and will be extremely quick to suspect the party of betrayal if there is any hint of a double-cross.
 
 He will, of course, have his wand to hand at all times. Should he be given enough time to cast it, Noke will use a charge of True Polymorph to transmute some nearby item into a Wyrmling that uses roughly the same stats as the Bed Dragon Wyrmling.
@@ -336,6 +361,9 @@ He will, however, be willing to perform transmutations of up to 5th level for th
 
 If the party decides to go ahead with the spell and it fails, Shinebright dies permanently. The party is free to honour his final wish and leave the tower more-or-less intact, or loot to their hearts’ content. The tower is surprisingly empty of anything of benefit to non-transmuters, however, with valuables restricted to expensive lab equipment and arcane paraphernalia estimated to be worth around 1 ,000gp. If the players wish they can also take the entire tower complex as their own, though this may cause trouble when the local nobles try to pay Noke a visit and find him missing…
 
+\page
+
+
 ![Top-down illustrated map of a fenced grassy compound with a light grid overlay. Key elements: - Large central circular building divided into rooms: a long dining table with many chairs, a lounge area with rugs and armchairs, and a workshop/study area with desks, bookshelves, and scattered papers. - Smaller circular bedroom building with a bed, rug, and furniture connected to the main circle by a short wooden walkway. - Another circular enclosure to the right serving as an open courtyard or garden with a large tree, shrubs, and a wooden stair/bridge to the main building. - Small square outbuilding containing a desk and books, plus two rectangular outbuildings on the left with beds and storage. - Worn dirt paths, scattered trees and bushes across the grassy yard, and a low perimeter wall around the property.](./892902-The_Wild_Sheep_Chase_V2_images/image_011.png)![The image shows a tall, nearly uniform medium-gray rectangle filling the frame with a thin, slightly darker border around the edges. There are no distinct objects, text, or recognizable features visible.](./892902-The_Wild_Sheep_Chase_V2_images/image_012.png)![The image is a plain, uniform gray rectangle filling the frame with a slightly darker thin border along the top edge. No distinct objects, text, or features are visible.](./892902-The_Wild_Sheep_Chase_V2_images/image_013.png)![A tall, vertical image filled almost entirely with a uniform medium-gray color. A slightly darker gray strip runs along the very top edge, and a thin darker outline is visible around the image edges; there are no distinct shapes, text, or recognizable objects.](./892902-The_Wild_Sheep_Chase_V2_images/image_014.png)
 
 If the party refuse to perform the spell, Shinebright accepts but will not give up his hopes entirely. He will take back his old home and work towards a way to remove his curse. In any case, he heads to the bedroom and slips on one of his old robes, which he wears until he is transformed back to his natural shape. Though he will be upset with them, Shinebright will acknowledge that he owes the party a large debt.
@@ -359,6 +387,9 @@ In order to increase the amount of times the spell has been case, the wand appea
 If inspected with a DC 1 5 Intelligence (Arcana) check, reveal that the modifications have left the wand extremely unreliable.
 
 Each time a charge is used the user must pass a DC 1 7
+
+\page
+
 
 Intelligence (Arcana) check.
 
