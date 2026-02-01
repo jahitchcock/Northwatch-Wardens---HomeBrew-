@@ -12,6 +12,12 @@ Northreach is a cold, sparsely settled frontier region where the ancient past is
 
 This is the heart of the Northwatch Wardens campaign. Everything else in the Known World connects back to what happens here.
 
+### Key Northreach Docs
+
+- Player-facing journal + lore: [Northreach/Northreach_Journal_and_Lore.md](Northreach/Northreach_Journal_and_Lore.md)
+- Setting quick reference: [Northreach/Northreach_Setting_Primer.md](Northreach/Northreach_Setting_Primer.md)
+- Music / playlists: [Northreach/SongsOfTheNorthreach.md](Northreach/SongsOfTheNorthreach.md)
+
 ---
 
 ## Geography
