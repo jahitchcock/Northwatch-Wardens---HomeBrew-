@@ -11,7 +11,7 @@
 ## Quick Links
 
 - [The Story So Far](The_Story_So_Far.md)
-- [Northreach Setting Primer](Campaign Assets/Northreach_Setting_Primer.md)
+- [Northreach Setting Primer](../World%20Building/Northreach_Setting_Primer.md)
 - [Session Prep Guide](DM_Resources/Session_Prep_Guide.md)
 - [Campaign Tracker (blank)](DM_Resources/Campaign_Tracker_BLANK.md)
 

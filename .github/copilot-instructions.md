@@ -82,20 +82,20 @@ This repository contains **Northwatch Wardens: Season One**, a modular, drop-in 
 
 ## Canonical Geography
 
-**IMPORTANT:** Never invent new locations. Always use these established locations:
+**IMPORTANT:** Never invent new locations unless directed to explicitly do so. Always use these established locations:
 
-| Location | Position | Purpose |
-|----------|----------|---------|
-| **Waystone Inn** | Center | Guild headquarters, mission hub |
-| **Welton** | Southwest | Farming village (Wolves of Welton) |
-| **Westly's Farm** | West of Welton | Wolf attack site |
-| **Shepherd's Crook Inn** | Inside Welton | Village social hub |
-| **Pinebrook** | Southeast | Trading village (Peril in Pinebrook) |
-| **Palebank Village** | Northeast coast | Seaside settlement (Frozen Sick) |
-| **Croaker Cave** | North of Palebank | Bandit hideout |
-| **Salsvault** | Far north of Palebank | Buried Aeorian ruins (source of Echo) |
-| **Temple of the Dragonknights** | Northwest mountains | Cult stronghold (capstone adventure) |
-| **Noke's Tower** | West of Waystone | Wizard's tower (Wild Sheep Chase) |
+| Location | Position | Purpose | Region |
+|----------|----------|---------|--------|
+| **Waystone Inn** | Center | Guild headquarters, mission hub | Northreach |
+| **Welton** | Southwest | Farming village (Wolves of Welton) | Northreach |
+| **Westly's Farm** | West of Welton | Wolf attack site | Northreach |
+| **Shepherd's Crook Inn** | Inside Welton | Village social hub | Northreach |
+| **Pinebrook** | Southeast | Trading village (Peril in Pinebrook) | Northreach |
+| **Palebank Village** | Northeast coast | Seaside settlement (Frozen Sick) | Northreach |
+| **Croaker Cave** | North of Palebank | Bandit hideout | Northreach |
+| **Salsvault** | Far north of Palebank | Buried Aeorian ruins (source of Echo) | Northreach |
+| **Temple of the Dragonknights** | Northwest mountains | Cult stronghold (capstone adventure) | Northreach |
+| **Noke's Tower** | West of Waystone | Wizard's tower (Wild Sheep Chase) | Northreach |
 
 ## Campaign Content Guidelines
 
@@ -286,7 +286,7 @@ Use these rules-of-thumb to keep pagination consistent with `World Building/Play
 ### Key Files
 - `README.md` — Complete campaign guide
 - `AITooling.md` — AI tooling notes and context
-- `Season 1/Campaign Assets/THE NORTHWATCH WARDENS - Charter.md` — Guild charter
+- `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md` — Guild charter (canonical)
 - `Season 1/Campaign Assets/DM Guild Roster.md` — NPC details and secrets
 - `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md` — Mystery framework
 

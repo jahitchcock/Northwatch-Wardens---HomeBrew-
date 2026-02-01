@@ -63,22 +63,38 @@ This Copilot agent assists with generating, expanding, and maintaining the **Gam
 
 ## Canonical Geography
 
-> **Important:** Never invent new locations. Always use these established locations.
+> **Important:** For Northreach (Season One) play, do not invent new Northreach locations. Use the established Northreach locations below.
 
-| Location | Position | Purpose |
-|----------|----------|---------|
-| **Waystone Inn** | Center | Guild headquarters |
-| **Welton** | Southwest | Farming village; Wolves of Welton |
-| **Westly's Farm** | West of Welton | Wolf attack site |
-| **Shepherd's Crook Inn** | Inside Welton | Village social hub |
-| **Pinebrook** | Southeast | Peril in Pinebrook quest |
-| **Palebank Village** | Northeast coast | Frozen Sick adventure |
-| **Croaker Cave** | North of Palebank | Bandit hideout |
-| **Salsvault** | Far north of Palebank | Aeorian ruin |
-| **Temple of the Dragonknights** | Northwest mountains | Capstone adventure |
-| **Noke's Tower** | West of Waystone | Wild Sheep Chase location |
+| Location | Position | Purpose | Region |
+|----------|----------|---------|--------|
+| **Waystone Inn** | Center | Guild headquarters | Northreach |
+| **Welton** | Southwest | Farming village; Wolves of Welton | Northreach |
+| **Westly's Farm** | West of Welton | Wolf attack site | Northreach |
+| **Shepherd's Crook Inn** | Inside Welton | Village social hub | Northreach |
+| **Pinebrook** | Southeast | Peril in Pinebrook quest | Northreach |
+| **Palebank Village** | Northeast coast | Frozen Sick adventure | Northreach |
+| **Croaker Cave** | North of Palebank | Bandit hideout | Northreach |
+| **Salsvault** | Far north of Palebank | Aeorian ruin | Northreach |
+| **Temple of the Dragonknights** | Northwest mountains | Capstone adventure | Northreach |
+| **Noke's Tower** | West of Waystone | Wild Sheep Chase location | Northreach |
+
+### Expanded World Canon (Off-map)
+
+Use these when you explicitly want the wider world beyond Northreach to be “on-screen.”
+
+| Location | Position | Purpose | Region |
+|----------|----------|---------|--------|
+| **Solaris** | Far south (off-map) | Cultural capital; bardic politics; Eclipse Day impact | Solaris Dominion |
+| **The Nullwood** | West-southwest (off-map) | Elven homeland; curated memory; silence-wards | Nullwood Expanse |
+| **Vaeltharyn** | Within the Nullwood (off-map) | Elven capital city | Nullwood Expanse |
+| **The Stonebound Depths** | Deep south / under-mountain (off-map) | Dwarven homeland; resonance; geomancy | Stonebound Depths |
+| **Khardûn-Tharum** | Within Stonebound (off-map) | Dwarven capital city | Stonebound Depths |
+| **Vharoxis** | Southern coast (off-map) | Outlaw city; masks; black-market power | Vharoxis |
+| **Solace Nexus** | Southern valleys (off-map) | Ley-port city; regulated spellwork hub | Verdant Marches |
+| **Divinity's Beacon** | Southern heartlands (off-map) | Multi-faith holy city; oaths; anti-unaccountable magic stance | Solaris Dominion |
 
 ---
+
 
 ## XML Format Requirements
 

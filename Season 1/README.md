@@ -22,29 +22,6 @@ The campaign is **order-independent** — each adventure stands alone while buil
 
 ---
 
-## Editing in VS Code (Homebrewery Preview)
-
-This repo is set up to write and preview documents in a Homebrewery-style layout directly in VS Code.
-
-- **Extension**: *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
-- **Formatting**: Use `\page` for page breaks. (Note: `\columnbreak` is supported by Homebrewery itself, but may render as literal text in the VS Code preview.)
-- **Snippets**: Most Homebrewery-style snippets are available with the `brew` prefix (example: `brewStatBlock`).
-
-### Commands
-
-- `homebrewery.toggle` — toggles `homebrewery.enabled`
-- `homebrewery.brew` — prints/exports to HTML
-
-### Recommended preview settings
-
-For best results, the workspace includes the following settings in `.vscode/settings.json`:
-
-- `markdown.preview.scrollEditorWithPreview`: `false`
-- `markdown.preview.scrollPreviewWithEditor`: `false`
-- `markdown.preview.markEditorSelection`: `false`
-
-These prevent the preview pane from jumping and avoid selection-hover effects that can disrupt the Homebrewery-style layout.
-
 ## The Aeorian Echo: Core Mystery
 
 All adventures connect to a single spreading phenomenon: **arcane magic from buried Aeorian ruins (Salsvault, far north) is destabilizing the frontier**. No single adventure reveals the full picture; each provides clues.
@@ -73,6 +50,8 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Council Mechanics**: 7 members, 3 votes needed; Father Merriksonn and Corel guaranteed YES
 - **Rewards**: 800 gp + Warden credit
 - **Files**: `Season 1/Adventures/Wolves_Of_Welton/`
+
+\page
 
 ### ❄️ Frozen Sick (Levels 2–4)
 - **Theme**: Ancient magic resurfacing with deadly consequences
@@ -154,6 +133,8 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 
 ---
 
+\page
+
 ## Guild Infrastructure
 
 ### The Northwatch Wardens Charter
@@ -214,6 +195,8 @@ All Wardens shall:
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
+
+\page
 
 ### Field Roster (See `Season 1/Campaign Assets/DM Guild Roster.md` for full details)
 
@@ -281,6 +264,8 @@ World Building/
     ├── THE NORTHWATCH WARDENS - Charter.md     (canonical charter source)
     └── THE NORTHWATCH WARDENS - Charter.json   (canonical charter source)
 ```
+
+\page
 
 ### Key Files
 - **Charter (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
@@ -369,6 +354,8 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 - Recommended: Add 1 extra monster per additional PC beyond 3
 
 ---
+
+\page
 
 ## Content & Licensing
 
