@@ -63,6 +63,8 @@ Life in Northreach runs on practical virtues. A sharp axe, a steady hand, and th
 
 Trouble comes with the territory, and everyone knows it. Most dangers are ordinary: hunger, cold, and distance. Some are less easily named—strange tracks after fresh snow, animals that won’t spook, lights where there shouldn’t be any. Whatever the cause, Northreach respects anyone willing to step forward, take responsibility, and see a hard problem through to the end.
 
+page
+
 ## 1.1 The Northwatch Wardens (The Guild)
 
 The Northwatch Wardens are a contract-based guild headquartered at the **Waystone Inn**.
@@ -113,6 +115,8 @@ Northreach is not a place where magic is commonplace.
 - Most residents have **heard of magic**.
 - Fewer have **seen** it.
 - Those who have tend to talk about it carefully—half in awe, half in fear.
+
+page
 
 \page
 
@@ -238,6 +242,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
+page
+
 - Session ___ — __________ — ________________________________ — p. ___
 - Session ___ — __________ — ________________________________ — p. ___
 
@@ -328,6 +334,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 | ________________________________ | ________________________________ | __________________ | ____________________________ |
 | ________________________________ | ________________________________ | __________________ | ____________________________ |
 
+
+page
 
 </div>
 

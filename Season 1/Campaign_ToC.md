@@ -1,4 +1,6 @@
 # Northwatch Wardens: Season One
+page
+
 ## Campaign Table of Contents & Encounter Checklist
 
 **Campaign Name:** Northwatch Wardens: Season One  
@@ -337,6 +339,8 @@
 - **18,900 XP** available
 
 ### 🎉 Campaign Status: **100% COMPLETE with Enhancements!**
+
+page
 
 ---
 

@@ -43,6 +43,8 @@ Brenna taps the posting with two fingers.
 
 “There are stories of awakened beasts in the frontier—spirits, curses, old magic. If these wolves are thinking like people… be cautious.”
 
+page
+
 **Mara Fenwick (Steward)**
 
 “I’ve packed you travel rations and a healer’s kit. Bring back receipts for anything you need to purchase in Welton; the guild will reimburse within reason.”

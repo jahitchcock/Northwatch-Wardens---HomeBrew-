@@ -1,5 +1,7 @@
 # Northwatch Wardens: DM Session Prep Guide
 
+page
+
 ## Quick Reference: Campaign Flow & Cohesion
 
 ### ✅ Campaign DOES Flow Well Because:
@@ -114,6 +116,8 @@ CHOICE POINT:
 ### Unfinished Business:
 - [Note anything party said they'd return to]
 ```
+
+page
 
 ---
 
@@ -272,6 +276,8 @@ CHOICE POINT:
 - Kill Marshal Brenna: Steward Mara takes over, guild becomes more cautious
 - Kill Father Merriksonn: Welton becomes hostile to outsiders
 
+page
+
 **Philosophy:** Actions have consequences, but campaign continues
 
 ---
@@ -387,6 +393,8 @@ CHOICE POINT:
 
 - [x] Read the adventure you'll run next session
 - [x] Know the 3 guild NPCs (Brenna, Mara, Elric)
+page
+
 - [x] Understand Waystone Inn as hub
 - [x] Let players recap themselves
 - [x] Track major choices in simple document
