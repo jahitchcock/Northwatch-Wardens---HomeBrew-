@@ -24,7 +24,7 @@ Getting the players into this adventure is pretty straightforward. All that is r
 
 If you want to plant seeds in advance, you may wish to introduce the character of Noke through rumours or idle conversation with shopkeepers and innkeepers, who view him with fear and awe.
 
-page
+\page
 
 # Baaaa-d News
 
@@ -44,7 +44,7 @@ Specifically, he wants them to help take back an extremely powerful magical arte
 
 He will attempt to tell his story, but shortly after he starts the sound of howling fills the air…
 
-page
+\page
 
 # Guz
 
@@ -195,7 +195,7 @@ Scattered beneath the platforms are two small wooden huts and a large outhouse
 When the party arrives at the compound, there is a trio of Apes (MM p31 7) either sleeping or playing with an oversized pair of dice on the lawn, with iron greatswords stuck into the ground next to them. A Brown Bear is in the outhouse, taking care of business.
 
 ![- A nearly uniform medium-gray rectangle fills the entire image. - Slightly darker strip along the very top edge; no distinct objects, text, or patterns are visible. - Appears to be a blank, solid-color, or possibly corrupted/failed image.](./892902-The_Wild_Sheep_Chase_V2_images/image_007.png)The door to the central platform is almost always locked, requiring a DC1 4 Strength (Athletics) to break down or a DC1 2 Thieves' Tools check to pick. Inside, the area is divided up in to three sections. One contains a combination library and lab, one a sitting room and one dining room/kitchen. Untidy bookshelves line much of the outer walls and worktables are covered with stacks of ink-spattered notes and complicated anatomical diagrams of various beasts and monsters.
-page
+\page
 
 
 # Bed Dragon Wyrmling
@@ -257,7 +257,7 @@ Ewe are Very Clever...
 Noke is naturally paranoid and Shinebright’s recent escape hasn’t exactly improved his outlook. This makes luring him away from the safety of his tower an extremely difficult task, though not an impossible one.
 
 ![The image shows a nearly uniform medium-gray square with a subtle grainy texture and no discernible objects, text, or distinct features.](./892902-The_Wild_Sheep_Chase_V2_images/image_010.png)Noke's lust for fame and power slightly outweighs his fear of being unseated, for the time being at least. This means that a very, very skilled set of liars with a sufficiently devious plan and a good helping of luck may be able to tempt him with the offer of a particularly prestigious, lucrative contract.
-page
+\page
 
 
 # Ahmed Noke

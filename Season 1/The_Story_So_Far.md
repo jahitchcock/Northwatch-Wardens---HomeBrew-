@@ -2,7 +2,7 @@
 
 Use this as the living continuity log for actual play. Update it after each session.
 
-page
+\page
 
 ## Quick Links
 - [Campaign Table of Contents](Campaign_ToC.md)
@@ -39,7 +39,7 @@ page
 - **Treasure:** 800 gp total, split three ways (266 gp each; 2 gp held as party funds or assigned later).
 - **Next objective:** Travel back to Waystone Inn and report in to the Wardens.
 
-page
+\page
 
 ---
 
@@ -134,7 +134,7 @@ page
 
 ### Fallout (who’s angry, who’s grateful)
 - Welton council: truce approved; Tillus aligned with the party’s resolution.
-page
+\page
 
 - Awakened wolves: truce exists, but Bolt/Flame remain active and could reverse course.
 

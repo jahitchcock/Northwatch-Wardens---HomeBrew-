@@ -1,6 +1,6 @@
 # People of Northreach: DM Secrets
 
-page
+\page
 
 ## Overview
 
@@ -313,7 +313,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - They might still be looking for him
 - His past expertise could help identify criminal patterns
 
-page
+\page
 
 ---
 
@@ -689,7 +689,7 @@ page
 - Could be abducted/tested by antagonist
 - Might become corrupted by Aeorian magic
 - Could be rescued and become information source
-page
+\page
 
 - His farm could be nexus of investigation
 
@@ -826,7 +826,7 @@ page
 - The buyer's ultimate goal
 - How many Aeorian sites exist in the region
 - What the "complete" reactivation would do
-page
+\page
 
 - Whether the entity can be stopped permanently
 - Who else might be working for the entity

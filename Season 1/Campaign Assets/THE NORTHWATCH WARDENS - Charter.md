@@ -83,7 +83,7 @@ All Wardens are entitled to:
 
 This charter may be amended by a majority vote of active Wardens present at a sanctioned gathering.
 
-page
+\page
 
 **ROSTER**
 

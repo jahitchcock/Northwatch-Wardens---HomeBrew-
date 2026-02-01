@@ -1,6 +1,6 @@
 # Northwatch Wardens: DM Session Prep Guide
 
-page
+\page
 
 ## Quick Reference: Campaign Flow & Cohesion
 
@@ -117,7 +117,7 @@ CHOICE POINT:
 - [Note anything party said they'd return to]
 ```
 
-page
+\page
 
 ---
 
@@ -276,7 +276,7 @@ page
 - Kill Marshal Brenna: Steward Mara takes over, guild becomes more cautious
 - Kill Father Merriksonn: Welton becomes hostile to outsiders
 
-page
+\page
 
 **Philosophy:** Actions have consequences, but campaign continues
 
@@ -393,7 +393,7 @@ page
 
 - [x] Read the adventure you'll run next session
 - [x] Know the 3 guild NPCs (Brenna, Mara, Elric)
-page
+\page
 
 - [x] Understand Waystone Inn as hub
 - [x] Let players recap themselves

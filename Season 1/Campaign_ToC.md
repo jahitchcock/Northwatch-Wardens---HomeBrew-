@@ -1,5 +1,5 @@
 # Northwatch Wardens: Season One
-page
+\page
 
 ## Campaign Table of Contents & Encounter Checklist
 
@@ -340,7 +340,7 @@ page
 
 ### 🎉 Campaign Status: **100% COMPLETE with Enhancements!**
 
-page
+\page
 
 ---
 

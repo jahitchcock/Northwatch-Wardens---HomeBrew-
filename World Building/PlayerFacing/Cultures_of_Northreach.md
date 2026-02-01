@@ -1,6 +1,6 @@
 # Cultures of Northreach
 
-page
+\page
 
 ## Overview
 
@@ -181,7 +181,7 @@ Dwarves adjust their traditions:
 - Practical over ceremonial
 - Still maintain core values but with frontier flexibility
 
-page
+\page
 
 ---
 
@@ -384,7 +384,7 @@ Children of frontier settlers often:
 - Speak multiple languages fluently
 - Blend cultural practices
 - Create new traditions unique to the region
-page
+\page
 
 - More comfortable with diversity than their parents
 
@@ -536,7 +536,7 @@ Food sharing is sacred:
 Hard winters teach lessons:
 - Preserve everything possible
 - Waste nothing
-page
+\page
 
 - Share when others have none
 - Remember who helped during lean times

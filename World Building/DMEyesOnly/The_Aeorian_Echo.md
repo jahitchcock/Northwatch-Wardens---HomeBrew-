@@ -22,7 +22,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-page
+\page
 
 ## Historical Background
 
@@ -106,7 +106,7 @@ page
 
 ---
 
-page
+\page
 
 ## The Reactivation: What's Happening and Why
 
@@ -189,7 +189,7 @@ page
 - The entity revealing itself
 - Existential threat to Northreach
 
-page
+\page
 
 ---
 
@@ -372,7 +372,7 @@ page
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
-page
+\page
 
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
@@ -449,7 +449,7 @@ page
 **Dangers:**
 - Touch can transmit frigid woe or other plagues
 - Prolonged exposure causes corruption
-page
+\page
 
 - Can spread through organic contact
 - Difficult to safely contain or destroy
@@ -583,7 +583,7 @@ page
 - Northreach becomes holy site of new god
 
 **How to Stop:**
-page
+\page
 
 - Prevent network completion
 - Destroy critical ritual components
@@ -666,7 +666,7 @@ page
 - Knows exactly what it needs
 - Using criminals as expendable tools
 - Plans to eliminate them when done
-page
+\page
 
 - Has contingencies for failure
 
@@ -780,7 +780,7 @@ page
 
 **Mid Intervention:**
 - Shut down activated facilities
-page
+\page
 
 - Sever network connections
 - Deny ritual components
@@ -919,7 +919,7 @@ page
 - Visions contain actual information
 - Some people are "sensitive"
 
-page
+\page
 
 **Leads To:**
 - Direct communication with entity
@@ -1085,7 +1085,7 @@ page
 - Full scope of Aeorian plans
 - Choice about knowledge preservation
 - Cost of victory
-page
+\page
 
 
 **Stakes:**
@@ -1140,7 +1140,7 @@ page
 - Some facilities less critical than others
 
 **Alliance Building:**
-page
+\page
 
 - Who to trust with truth?
 - When to reveal full scope?
@@ -1196,7 +1196,7 @@ page
 - Could become enemy or turncoat
 - Might steal crucial information
 
-page
+\page
 
 **Mara's Past:**
 - Old organization arrives at wrong time
@@ -1235,7 +1235,7 @@ page
 - Pride before fall
 
 ### Community and Sacrifice
-page
+\page
 
 
 - Frontier depends on cooperation

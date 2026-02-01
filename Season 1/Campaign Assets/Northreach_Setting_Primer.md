@@ -43,7 +43,7 @@ Use this mental map when you place scenes, rumors, and travel.
 
 ---
 
-page
+\page
 
 ## Travel Logic (keep it consistent)
 
@@ -80,7 +80,7 @@ Use these anchors:
 - **Salsvault is why every other module is happening.** Make the “Aeorian Echo” feel like radiation: invisible, spreading, and causing secondary effects.
 - **The outpost / icefields are “beyond Palebank,” not a different world.** Use the names already present in your material, but frame them as seasonal camps and deadly terrain **north of Palebank on the same coastline**.
 
-page
+\page
 
 ---
 

@@ -1,6 +1,6 @@
 # Places of Northreach
 
-page
+\page
 
 ## Overview
 
@@ -180,7 +180,7 @@ Outlying farms like Westly's face constant challenges:
 - "Those wolves have been at his flock every few nights."
 - "He's too proud to ask for help, but he needs it."
 
-page
+\page
 
 ---
 
@@ -452,7 +452,7 @@ Multiple levels of threat:
 - "Salsvault killed Urgon Wenth."
 - "What's in that place should stay buried."
 - "Aeorian magic is too dangerous to mess with."
-page
+\page
 
 - "The desperate go to Salsvault. The smart stay away."
 
@@ -616,7 +616,7 @@ Unnamed cities and towns far to the south:
 ### Shadycreek Run
 A smuggling town mentioned in connection with criminal activity:
 - Known for black market trade
-page
+\page
 
 - Controlled by criminal families
 - Source of trouble occasionally reaching Northreach

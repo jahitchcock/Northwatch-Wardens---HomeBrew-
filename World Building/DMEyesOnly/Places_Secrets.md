@@ -1,6 +1,6 @@
 # Places of Northreach: DM Secrets
 
-page
+\page
 
 ## Overview
 
@@ -261,7 +261,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Contains clues about larger operation
 - Major adventure location for investigating wolf problem
 
-page
+\page
 
 ---
 
@@ -633,7 +633,7 @@ page
 - Will eventually reveal information
 - Concerned about sister Tulgi
 - Realizes operation is more dangerous than thought
-page
+\page
 
 - Might be convinced to cooperate
 
@@ -926,7 +926,7 @@ page
 
 **What He Can Provide:**
 - Translation of Aeorian text
-page
+\page
 
 - Maps of facilities
 - Protective magic against Aeorian effects
@@ -1152,7 +1152,7 @@ page
 - Limit scope of threat
 - Buy time for evacuation/preparation
 
-page
+\page
 
 **If Players Fully Succeed:**
 - Prevent complete activation

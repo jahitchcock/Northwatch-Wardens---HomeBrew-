@@ -1,6 +1,6 @@
 # People of Northreach
 
-page
+\page
 
 ## Overview
 
@@ -249,7 +249,7 @@ Northreach is shaped by its people—hardy folk who've chosen to make lives on t
 - Always knows more than he's saying
 - People trust him despite not quite trusting him
 
-page
+\page
 
 ---
 
@@ -472,7 +472,7 @@ People passing through—some seeking opportunities, others fleeing pasts. North
 Those drawn to Northreach by its mysteries and ruins. They're usually more interested in ancient history than current problems.
 
 ### Wardens and Guards
-page
+\page
 
 Professional protectors who handle the dangers that ordinary folk can't. They earn their reputation through actions, not titles.
 

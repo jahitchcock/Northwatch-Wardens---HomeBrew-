@@ -20,7 +20,7 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 
 ©2016 Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Manufactured by Hasbro SA, Rue Emile-Boéchat 31, 2800 Delémont, CH. Represented by Hasbro Europe, 4 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, UK.
 
-page
+\page
 
 # Part I: Innocents Lost
 
@@ -154,7 +154,7 @@ Following the trail through the woods for a mile leads to an opening to a small 
 
 After a curve in the trail, a DC 12 Passive perception check will signify movement around the corner. Turning the corner reveals two kobolds currently roasting a pig on a spit. They are currently eating so any attempt at stealth is successful. This encounter yields 50 XP divided amongst the party.
 
-page
+\page
 
 # Part II: Poisontip Cavern
 
@@ -208,7 +208,7 @@ This area contains an offering bowl, a large stone double door, and two lit torc
 | **Additional Information**   * To solve the puzzle, the players must poor a portion of their blood into the offering bowl, and light the blood on fire using one of the magical torches on the wall. * Emptying the bowl of gold and making a DC 10   Investigation check will reveal dried blood on either the gold or on the bowl. |
 
 Opening the door yields 50 XP divided amongst the party and reveals a pathway and staircase going up.
-page
+\page
 
 
 # Part III: Temple of the Dragonknights
@@ -269,7 +269,7 @@ Upon exiting up the stairs to this open area, the players find themselves in a c
 - As one of the players notice one is opened, the wyrmling will attack (unless the players noticed it previously.)  Clementine will hide in area 5.
 
 This encounter yields 450 XP divided amongst the party.
-page
+\page
 
 
 # Part IV: Loose Ends
