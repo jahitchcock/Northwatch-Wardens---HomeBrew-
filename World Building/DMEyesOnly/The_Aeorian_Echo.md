@@ -22,8 +22,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-\page
-
 ## Historical Background
 
 ### Aeor Before the Fall

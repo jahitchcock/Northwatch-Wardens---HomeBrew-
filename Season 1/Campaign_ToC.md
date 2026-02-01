@@ -1,5 +1,4 @@
 # Northwatch Wardens: Season One
-\page
 
 ## Campaign Table of Contents & Encounter Checklist
 

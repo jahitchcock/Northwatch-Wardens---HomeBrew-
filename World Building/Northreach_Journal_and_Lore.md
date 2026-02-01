@@ -118,8 +118,6 @@ Northreach is not a place where magic is commonplace.
 
 \page
 
-\page
-
 ## 1.5 Places of Northreach (Canonical)
 Below are the places people in the region would recognize by name. (Some are familiar, some are “heard-of,” and some are local legend.)
 
