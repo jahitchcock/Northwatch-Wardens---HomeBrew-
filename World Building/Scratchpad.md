@@ -35,4 +35,4 @@ Complete World Building directory documentation: [README.md](README.md)
 - Ideation transcript pointer: [Drafts/Transcripts/South_Cities_Ideation_Transcript.md](Drafts/Transcripts/South_Cities_Ideation_Transcript.md)
 
 ## Canon note
-Player-facing canonical Northreach lore primer: [Northreach_Journal_and_Lore.md](Northreach_Journal_and_Lore.md)
+Player-facing canonical Northreach lore primer: [Regions/Northreach/Northreach_Journal_and_Lore.md](Regions/Northreach/Northreach_Journal_and_Lore.md)

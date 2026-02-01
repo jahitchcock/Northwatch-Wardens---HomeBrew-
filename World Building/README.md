@@ -8,9 +8,9 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 ## Start Here
 
-- **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Northreach_Journal_and_Lore.md)
-- **Setting quick reference (DM + table-ready):** [Northreach_Setting_Primer.md](./Northreach_Setting_Primer.md)
-- **Music / audio guidance:** [SongsOfTheNorthreach.md](./SongsOfTheNorthreach.md)
+- **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Regions/Northreach/Northreach_Journal_and_Lore.md)
+- **Setting quick reference (DM + table-ready):** [Northreach_Setting_Primer.md](./Regions/Northreach/Northreach_Setting_Primer.md)
+- **Music / audio guidance:** [SongsOfTheNorthreach.md](./Regions/Northreach/SongsOfTheNorthreach.md)
 
 ---
 
@@ -35,7 +35,7 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 ### Assets
 
 - [Campaign Assets/](./Campaign%20Assets/) — Maps and other setting-level assets.
-- [SongsOfTheNorthreach/](./SongsOfTheNorthreach/) — Audio files / playlists.
+- [Regions/Northreach/SongsOfTheNorthreach/](./Regions/Northreach/SongsOfTheNorthreach/) — Audio files / playlists.
 
 ### Workbench
 
