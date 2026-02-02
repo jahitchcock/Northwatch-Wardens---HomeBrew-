@@ -20,12 +20,6 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 All content in World Building is safe for players, EXCEPT for files in [DMEyesOnly/](./DMEyesOnly/).
 
-**Core Player Handouts:**
-- [People_of_Northreach.md](./People_of_Northreach.md) — Notable NPCs and their public reputations.
-- [Places_of_Northreach.md](./Places_of_Northreach.md) — Key locations in Northreach.
-- [Cultures_of_Northreach.md](./Cultures_of_Northreach.md) — Cultural norms, traditions, and daily life.
-- [The_Far_North.md](./The_Far_North.md) — What is publicly known about the Far North.
-
 ### DM Content (Spoilers)
 
 - [DMEyesOnly/](./DMEyesOnly/) — The truth behind the setting: secrets, motivations, and the Aeorian Echo.
