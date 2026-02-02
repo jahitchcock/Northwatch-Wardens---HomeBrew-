@@ -6,6 +6,23 @@
 
 ---
 
+## Player-Safe Summary
+
+Deep beneath the mountains of central Aevoria lies the dwarven kingdom known as the Stonebound Depths—a vast subterranean realm carved around ancient crystalline formations and metallic structures the dwarves call the Deep Roots.
+
+To the Stonebound Dwarves, these formations are simply part of the world's natural foundation. They believe the earth itself carries a song—a deep, resonant hum that only dwarves have the patience and skill to hear. Their magic, their craft, and their culture all revolve around this belief.
+
+The Stonebound Depths are known for:
+- Monumental caverns lit by glowing crystal veins
+- Resonant forges where metal sings as it's shaped
+- Rune-singers who weave magic through vibration and sound
+- Deep-readers who interpret tremors as messages from the earth
+- A pragmatic, grounded worldview
+
+The dwarves are not isolationists, but they are deliberate. They move at the pace of stone—slow, steady, and unyielding.
+
+---
+
 ## Overview
 
 Deep beneath the mountains lies the realm of the Stonebound Dwarves, a people who believe the world's oldest truths are written in stone. They have built their entire civilization around massive crystalline formations and strange metallic structures they call "Deep Roots"—treating them as natural geological features rather than what they truly are.
@@ -16,13 +33,32 @@ Eclipse Day sent shockwaves through the Depths. The Heartstone—a massive artif
 
 ---
 
-## Geography
+## Geography & Climate
 
 ### Location
 **Position:** Mountain range between Northreach and Solaris  
 **Climate:** Subterranean (temperature stable, humid in lower depths)  
 **Terrain:** Massive cavern systems, underground rivers, mineral veins  
 **Access:** Surface entry points well-guarded; most of kingdom underground
+
+### Climate
+The climate underground is cool, dry, and stable—perfect for dwarven craftsmanship:
+- Temperature remains constant year-round (50-60°F in most areas)
+- Humidity varies by depth (dry in upper halls, humid near underground rivers)
+- No weather systems (protected from surface conditions)
+- Geothermal vents provide warmth in forges and lower levels
+- Air circulation through natural and engineered shafts
+- Stable conditions allow for precise metalwork and crystal cultivation
+
+### Key Features
+The Stonebound Depths stretch beneath the Ironspine Mountains, a jagged range dividing Solaris from the Emberlands.
+
+Notable locations within the Depths:
+- **The Heartstone Chamber** — A colossal cavern housing the largest Deep Root formation
+- **The Resonant Forges** — Workshops built around harmonic metal veins
+- **The Rune-Singers' Hall** — An amphitheater where dwarven mages shape magic through sound
+- **The Lower Veins** — Mining districts rich with rare metals and crystal
+- **The Echoing Roads** — Ancient tunnels that carry sound for miles
 
 ### The Mountain Range
 **Surface Features:**
@@ -87,15 +123,17 @@ Eclipse Day sent shockwaves through the Depths. The Heartstone—a massive artif
 
 \page
 
-## Khardûn-Tharum, the Deep Crown
+## Capital City: Khardûn-Tharum, the Deep Crown
 
 ### Overview
-The capital city, a monumental underground metropolis carved around a massive crystalline structure the dwarves call the **Heartstone**.
+The capital city, a monumental underground metropolis carved around a massive crystalline structure the dwarves call the **Heartstone**. Khardûn-Tharum is a breathtaking subterranean metropolis that feels ancient, monumental, and alive with subtle vibration.
 
 **Population:** ~45,000 (overwhelmingly dwarven)  
 **Age:** Over 3,000 years (on this site)  
 **Architecture:** Carved stone, precise geometric patterns, resonant design  
 **Atmosphere:** Echoing, monumental, ancient
+
+The city feels like walking through a living testament to craft and patience—every stone precisely placed, every hall designed for perfect acoustics, every forge positioned to sing in harmony with the mountain itself.
 
 
 ### The Heartstone
@@ -134,27 +172,29 @@ The centerpiece of dwarven civilization:
 - Dwarves excited, not alarmed
 - Interpreting as natural evolution
 
-### Major Districts
+### Notable Districts
 
-**The Heartstone Chamber**
-Cathedral-like cavern housing the core:
+**The Heartstone Plaza**
+The city's center, where the Heartstone's glow illuminates the cavern:
+- Cathedral-like chamber housing the core
 - Treated as sacred geological site
-- Public viewing areas
-- Research platforms built around it
+- Public viewing areas and promenade
+- Research platforms built around the Heartstone
 - Guard posts (protecting it from damage)
-- Meditation spaces
+- Meditation spaces for contemplation
 - Where Deep-Readers interpret vibrations
 - Now the busiest place in the city
 
 
-**The Resonant Forges**
-Workshops built around harmonic metal veins:
+**The Forge-Spiral**
+A descending ring of forges, each tuned to a different harmonic frequency:
 - Metalworking using sound and vibration
 - Forging produces subtle enchantments
 - Master crafters create resonant weapons
 - Armor that "sings" when struck
 - Tools that improve with use
 - Dwarven metalwork renowned worldwide
+- Each level produces different tones, creating a symphony of industry
 
 **The Rune-Singers' Hall**
 Amphitheater where magic is shaped through sound:
@@ -183,13 +223,24 @@ Mining districts for rare crystals and metals:
 - Growth accelerating near Heartstone
 - Some miners reporting strange finds
 
-**The Council Halls**
-Government seat for Stonebound Council:
+**The Stonebound Council Hall**
+Seat of dwarven governance:
 - Master artisans
 - Guild leaders
 - Geomancers
 - Deep-Readers
 - Military commanders
+- Currently in continuous session (Eclipse Day response)
+- Grand chamber with resonant stone benches
+
+**The Embergate**
+The main surface entrance, heavily fortified:
+- Massive gates of reinforced metal
+- Guard barracks and defensive positions
+- Trade inspection and customs
+- Surface world interface
+- Fortified against external threats
+- Now on heightened alert
 - Currently in continuous session (Eclipse Day response)
 
 
@@ -200,7 +251,20 @@ Government seat for Stonebound Council:
 
 ---
 
-## Culture and Society
+## Culture & Society
+
+Stonebound culture is built on three fundamental principles:
+
+**1. Resonance**  
+Dwarves believe the world has a "deep song"—a harmonic truth that can be heard in stone, metal, and crystal. This resonance is not metaphorical to them; it is literal. They train for decades to hear and interpret these vibrations, and their entire magical tradition stems from this belief.
+
+**2. Craft**  
+Every tool, weapon, and structure is a work of art. Craftsmanship is sacred—not merely practical, but spiritual. To create something well is to honor the materials, the maker's lineage, and the permanence of stone itself.
+
+**3. Memory**  
+Dwarves carve their history into stone, believing that written words fade but stone endures. Their records go back thousands of years, preserved in tablets that line the Deep-Readers' Archive. To forget is to dishonor; to remember is to honor.
+
+---
 
 ### The Stone Philosophy
 
@@ -338,6 +402,9 @@ The distinctive dwarven tradition:
 - **Communication:** Stone carries messages (slowly)
 - **Historical Reading:** Extracting memory from stone
 
+**Philosophy:**
+Dwarven magic is physical and grounded. They do not trust "flashy" magic—it feels unstable and undisciplined. To them, proper magic should be as permanent and reliable as the stone itself. Fireballs and lightning bolts are showy but temporary; a properly enchanted blade lasts generations.
+
 ### Rune-Singing
 The formal magical tradition:
 
@@ -403,12 +470,71 @@ They're reading Aeorian artifact network activity:
 
 ---
 
+## Religion
 
+The Stonebound revere three divine figures, each representing a fundamental aspect of their civilization:
 
+### The Deep Father
+**Domain:** Stone, memory, and endurance  
+**Symbolism:** Ancient mountain, unmoving foundation  
+**Teachings:** Patience, permanence, and honoring what came before
+
+The Deep Father is seen as the eternal foundation—the consciousness of stone itself. Dwarves pray to him when laying foundations, recording history, or seeking stability. His temples are carved from single pieces of bedrock, never adorned, only polished smooth by generations of reverent hands.
+
+**Clergy:** Deep-Priests who maintain historical records and perform ceremonies for births, deaths, and significant constructions.
+
+### The Forge-Mother
+**Domain:** Craft, fire, and creation  
+**Symbolism:** Eternal flame, hammer and anvil  
+**Teachings:** Excellence in craft, transformation through effort, creation as worship
+
+The Forge-Mother represents the act of making—the transformation of raw material into purpose. Every masterwork is dedicated to her. Her shrines sit in every forge, and master craftsmen are considered her blessed.
+
+**Clergy:** Forge-Priests who bless new forges, consecrate masterworks, and teach that perfect craft honors the divine.
+
+### The Resonant One
+**Domain:** The world's deep song, harmony, mystery  
+**Symbolism:** Vibrating crystal, perfect tone  
+**Teachings:** Listen to the stone's wisdom, seek harmony, embrace mystery
+
+The Resonant One is the most enigmatic of the three—representing the song they hear in stone, the patterns they read in tremors. This figure is neither fully god nor fully natural phenomenon. Rune-singers particularly revere the Resonant One, seeing their magic as communion with this presence.
+
+**Clergy:** Resonance-Keepers who interpret vibrations, lead ceremonial chants, and maintain the acoustic sanctuaries.
+
+### Religious Practice
+
+**Worship Style:**
+- Quiet, contemplative ceremonies
+- Harmonic chanting in specially carved chambers
+- Offerings of crafted items (tools, weapons, art)
+- Historical recitation
+- Meditation in resonant spaces
+
+**Sacred Sites:**
+- The Heartstone Chamber (considered most sacred)
+- Ancient temples carved into bedrock
+- The Rune-Singers' Hall (doubles as religious site)
+- Deep mines where the earth's song is strongest
+- Family shrines honoring ancestor craftsmen
+
+**Beliefs About Death:**
+- The body returns to stone
+- The soul joins the mountain's memory
+- Great works preserve the essence
+- Ancestors speak through resonance
+- History remembers the worthy
+
+**Since Eclipse Day:**
+Religious interpretations clash:
+- Traditionalists see a blessing from the Resonant One
+- Reformers sense warning from the Deep Father
+- Mystics claim the Forge-Mother is calling for adaptation
+- All agree something profound is occurring
+- Theological debates intensifying
 
 \page
 
-## Eclipse Day in the Depths
+## Eclipse Day in the Stonebound Depths
 
 ### The Event
 When Eclipse Day struck the surface, the Depths felt it immediately:
@@ -514,40 +640,44 @@ Months later:
 
 ### Relations with Other Regions
 
-**Solaris:**
-- Strong trade relationship
-- Dwarven metalwork highly valued
+**Solaris Dominion**  
+Respectful but wary.  
+- Strong trade relationship; dwarven metalwork highly valued
 - Cultural exchange (limited)
-- Mutual respect
+- Mutual respect but different temperaments
+- Solaris is too political, too emotional, too loud for dwarven tastes
 - Some dwarven performers in Solaris
 - Solarian scholars study dwarven runes
 
-**Northreach:**
+**Nullwood Expanse**  
+Mutual respect.  
+- Minimal contact
+- Philosophical differences
+- Dwarves find elves evasive and overly mystical
+- Elves find dwarves too focused on physical
+- Their philosophies clash but do not conflict
+- Some curiosity about magical silence
+- Little actual interaction but no hostility
+
+**Vharoxis**  
+Disdain.  
+- The dwarves see the outlaw city as a nest of thieves who mishandle relics
+- Public disdain but private commerce
+- Black market for dwarven weapons
+- Smuggled rare minerals
+- Spies seeking resonance magic secrets
+- Grudging acceptance of economic necessity
+
+**Northreach**  
+Interest.  
 - Distant but aware
 - Some dwarven prospectors in frontier
+- The Aeorian Echo's tremors match patterns in ancient dwarven records
 - Waystone Inn has dwarven-made furniture
 - Occasional trade caravans
 - Both experiencing "strange times"
 - Growing correlation recognized
-
-
-
-
-**Nullwood:**
-- Minimal contact
-- Philosophical differences
-- Dwarves find elves evasive
-- Elves find dwarves too focused on physical
-- Some curiosity about magical silence
-- Little actual interaction
-
-**Vharoxis:**
-- Public disdain
-- Private commerce
-- Black market for dwarven weapons
-- Smuggled rare minerals
-- Spies seeking resonance magic secrets
-- Grudging acceptance of necessity
+- Increasing concern and curiosity
 
 **Stonebound Outposts:**
 - Several in volcanic south (Emberlands)
@@ -589,14 +719,21 @@ Months later:
 
 ## Adventure Hooks
 
-### Mining Mysteries
+- A dwarven rune-singer seeks help investigating a new harmonic anomaly near the Heartstone.
+- A mining crew uncovers a Deep Root formation that begins to glow.
+- A Solaris scholar disappears after entering the Depths without permission.
+- A fragment smuggled from Vharoxis resonates with the Heartstone—dangerously.
+
+### Additional Adventure Seeds
+
+**Mining Mysteries**
 - Miners find strange artifacts in new veins
 - Sealed ancient level accidentally breached
 - Tremors in pattern matching Northreach seismic events
 - Crystal formation spelling out geometric code
 - Something alive in the Forgotten Deeps
 
-### Heartstone Investigation
+**Heartstone Investigation**
 - Deep-Readers need outside perspective
 - Patterns don't match any recorded
 - Request help from surface scholars
@@ -604,14 +741,14 @@ Months later:
 - Heartstone showing impossible readings
 - Some readers experiencing visions
 
-### Resonance Magic Gone Wrong
+**Resonance Magic Gone Wrong**
 - Rune-singer's spell catastrophically amplified
 - Wards failing in specific pattern
 - Ancient enchantments activating spontaneously
 - Forged items developing unexpected properties
 - Communication-stones receiving signals from unknown source
 
-### Political Intrigue
+**Political Intrigue**
 - Council divided over interpretation
 - Guild power struggle
 - Clan rivalries exploiting uncertainty
@@ -619,7 +756,7 @@ Months later:
 - Vharoxis attempting to steal secrets
 - Succession crisis if situation worsens
 
-### Geological Catastrophe
+**Geological Catastrophe**
 - Increased tremors threatening structural integrity
 - Underground river flooding
 - Toxic gas venting from deep levels
@@ -627,7 +764,7 @@ Months later:
 - Section of city must be evacuated
 - Ancient wards preventing modern solutions
 
-### Ancient Discoveries
+**Ancient Discoveries**
 - Map found showing unknown levels
 - Records suggesting dwarves didn't build first structures here
 - Evidence civilization existed before them
@@ -637,188 +774,21 @@ Months later:
 
 ---
 
+## DM-Only Information
 
+**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are located in:
 
-## Secrets and Revelations
+**`World Building/DMEyesOnly/StoneboundDepths.md`**
 
-### For the DM
-
-**The Core Truth:**
-- Heartstone is Aeorian artifact core
-- Entire city built around it unknowingly
-- Dwarven magic tradition developed from studying its emanations
-- All seismic readings are actually artifact network traffic
-- Eclipse Day was network-wide activation pulse
-- Heartstone is waking up
-- Eventually it will activate fully
-- Consequences: catastrophic or transformative depending on response
-
-**Specific Secrets:**
-- **Original Builders:** Dwarves found this site, didn't create it
-- **First Excavations:** Uncovered Aeorian structures, mistook for natural
-- **Ancient Records:** Some Deep-Readers' archives contain truth, not recognized
-- **Sealed Levels:** Contain more Aeorian technology
-- **Forgotten Deeps:** Things trapped down there, now stirring
-- **Network Connection:** Heartstone linked to Salsvault and all other nodes
-
-**NPC Secrets:**
-- **Deep-Reader Borin Stonescript:** Increasingly suspects truth; frightened
-- **Rune-Singer Thalia Deepchant:** Spells working differently; investigating why
-- **Forgemaster Grimnar Ironvein:** Found ancient non-dwarven tool; hiding it
-- **Commander Thorek Shieldbreaker:** Military prepared for structural failure
-- **Kara Gemcutter:** Miners reporting constructs in deepest veins
-
-**The Vibration Code:**
-Heartstone pulses encode information:
-- Instructions in Aeorian language
-- Network status reports
-- Activation sequences
-- If decoded: crucial intelligence
-- But: decoding would reveal truth
-- Truth might cause cultural collapse
-
-
-### Connection to Campaign
-
-**Early (Northreach-focused):**
-- Dwarven metalwork found in Northreach
-- Occasional dwarven NPC
-- Rumors of earthquakes in mountains
-- Distant concern
-
-**Mid (Regional awareness):**
-- Party learns dwarves experiencing similar phenomena
-- Seismic patterns correlate with Salsvault activity
-- Dwarven scholars request information exchange
-- Heartstone readings match Aeorian energy signatures
-
-**Late (Continental scope):**
-- Dwarves realize truth about Heartstone
-- Cultural crisis as foundation of beliefs shaken
-- Must decide: abandon city or adapt?
-- Resonance magic might counter artifact activation
-- Or might amplify it
-- Dwarven knowledge crucial to final confrontation
-
-**Epic (Final resolution):**
-- Heartstone could be weapon, shield, or bomb
-- Dwarven rune-singers essential to solution
-- But: using Heartstone risks entire city
-- Moral choice: sacrifice dwarven capital to save world?
-- Or: find way to deactivate without destroying?
-- Resonance magic vs. Aeorian technology
-
-### Revelation Timing
-
-**What Players Might Discover Early:**
-- Dwarves experiencing strange seismic activity
-- Heartstone behaving unusually
-- Some correlation with Northreach events
-
-**Mid-Campaign:**
-- Seismic patterns form code
-- Heartstone is artificial structure
-- Dwarven magic resonates with Aeorian technology
-- Entire city at risk
-
-**Late Campaign:**
-- Heartstone is artifact core
-- Network connection revealed
-- Dwarven civilization built on ancient site
-- Choices must be made
-
-
-
-
-\page
-
-
----
-
-## Running the Stonebound Depths
-
-### Atmosphere
-- Monumental and echoing
-- Ancient weight of stone
-- Everything built to last millennia
-- Constant background hum (usually subliminal)
-- Now: audible and unsettling
-- Pride mixed with growing unease
-
-### Key Themes
-- **Geological misinterpretation of technology**
-- **Civilization built on false foundation**
-- **Pride before revelation**
-- **Science vs. truth**
-- **Community facing existential threat**
-- **What survives when foundation cracks**
-
-### DM Tools
-
-**The Resonance:**
-Everything vibrates:
-- Describe the hum
-- NPCs pause to listen
-- Characters feel it in bones
-- Changes in intensity matter
-- Builds atmosphere
-- Foreshadows danger
-
-**Cultural Clash:**
-Dwarven practicality meets impossible truth:
-- "That's not how stone works"
-- "Our records go back 3000 years"
-- "Natural formations don't do that"
-- Cognitive dissonance is conflict
-
-**Time Pressure:**
-Heartstone awakening accelerating:
-- Each session: something new
-- Tremors increase
-- Dwarves running out of explanations
-- Eventually: choice can't be delayed
-
-**Moral Complexity:**
-No easy answers:
-- Revealing truth might cause panic
-- Hiding truth might doom them
-- Using Heartstone risks city
-- Not using it risks world
-- Dwarven stubbornness vs. survival
-
-
-### Using in Campaign
-
-**As Parallel:**
-Like elves, different response:
-- Elves fled and forgot
-- Dwarves stayed and misunderstood
-- Both facing same threat
-- Different cultural consequences
-
-**As Resource:**
-- Resonance magic might counter artifacts
-- Or amplify them
-- Dwarven crafting invaluable
-- Heartstone access could be crucial
-- But: comes with cost
-
-**As Tragedy:**
-Sympathetic civilization facing impossible choice:
-- They built everything here
-- Abandoning means cultural death
-- Staying might mean literal death
-- Players might find solution
-- Or might have to convince dwarves to flee
-
-**As Warning:**
-What happens when you ignore signs:
-- Dwarves misread evidence for millennia
-- Now paying price
-- But: they're not stupid, just wrong
-- Understandable mistake
-- Could happen to anyone
-- Including player civilization
+This file contains:
+- The hidden truth about the Deep Roots and Heartstone
+- Eclipse Day's real significance
+- Connection to the Aeorian Echo
+- NPC secrets and motivations
+- The Vibration Code
+- Campaign integration by level
+- Adventure seeds and revelation timing
+- Running guidance for this civilization's potential tragedy
 
 ---
 
@@ -826,8 +796,8 @@ What happens when you ignore signs:
 
 **Key Locations:**
 - Khardûn-Tharum (capital)
-- Heartstone Chamber (artifact core)
-- Resonant Forges (magical crafting)
+- Heartstone Plaza (artifact core chamber)
+- The Forge-Spiral (resonant forges)
 - Rune-Singers' Hall (magic amphitheater)
 - Deep-Readers' Archive (geological records)
 - Forgotten Deeps (sealed ancient levels)
@@ -853,8 +823,6 @@ What happens when you ignore signs:
 - Ancient levels awakening
 - Constructs stirring
 
-
-
 **Campaign Role:**
 - Unconscious witnesses to artifact network
 - Potential technology resource
@@ -864,9 +832,8 @@ What happens when you ignore signs:
 
 ---
 
-
 \page
 
-*"The dwarves have been reading the artifacts' instruction manual for three thousand years. They just thought it was geology."*
+*"The stone doesn't lie... but perhaps we've been asking it the wrong questions."*
 
-— Lorewarden Elric Vael, after decoding Heartstone vibrations
+— Deep-Reader Borin Stonescript, contemplating new seismic patterns
