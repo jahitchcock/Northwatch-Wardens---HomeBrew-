@@ -14,3 +14,6 @@ filter-branch-purge-pinebrook.log
 
 # PDFs / source material not meant for GitHub
 /Season 1/Source Material/Peril_in_Pinebrook_COMPLETE.pdf
+
+# Backup files
+*_OLD_BACKUP.md
