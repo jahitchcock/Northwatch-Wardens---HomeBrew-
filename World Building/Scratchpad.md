@@ -7,9 +7,10 @@ This file is an index. Draft material should live under `World Building/Drafts/`
 
 ## Player-Facing Lore (NEW - Feb 2026)
 Comprehensive lore documentation safe for player eyes:
-- People of Northreach: [PlayerFacing/People_of_Northreach.md](PlayerFacing/People_of_Northreach.md)
-- Places of Northreach: [PlayerFacing/Places_of_Northreach.md](PlayerFacing/Places_of_Northreach.md)
-- Cultures of Northreach: [PlayerFacing/Cultures_of_Northreach.md](PlayerFacing/Cultures_of_Northreach.md)
+- People of Northreach: [People_of_Northreach.md](People_of_Northreach.md)
+- Places of Northreach: [Places_of_Northreach.md](Places_of_Northreach.md)
+- Cultures of Northreach: [Cultures_of_Northreach.md](Cultures_of_Northreach.md)
+- The Far North: [The_Far_North.md](The_Far_North.md)
 
 ## DM Eyes Only (NEW - Feb 2026)
 Secret campaign information and hidden lore:
