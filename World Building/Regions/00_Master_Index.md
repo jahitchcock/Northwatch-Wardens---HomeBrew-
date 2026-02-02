@@ -75,7 +75,8 @@ The regions are organized in concentric rings of influence, with Northreach at t
 - **Theme:** Frozen wasteland, buried megastructures
 - **Tone:** Bleak, cosmic, dangerous
 - **Role:** Home of Salsvault; true origin of the Aeorian Echo; endgame region
-- **File:** `10_Far_North.md`
+- **Player-Facing File:** `../PlayerFacing/The_Far_North.md`
+- **DM-Only File:** `../DMEyesOnly/The_Far_North_Secrets.md`
 
 
 
