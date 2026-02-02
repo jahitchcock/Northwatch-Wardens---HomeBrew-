@@ -54,10 +54,11 @@ The regions are organized in concentric rings of influence, with Northreach at t
 - **File:** `06_Shattered_Coast.md`
 
 ### 7. **The Emberlands** (Volcanic South)
-- **Theme:** Fire magic, mineral wealth, unstable terrain
-- **Tone:** Harsh, molten, dangerous
+- **Theme:** Fire, rebirth, volcanic fury, primal magic
+- **Tone:** Harsh, dangerous, resilient, unpredictable
 - **Role:** The Echo manifests violently through eruptions
 - **File:** `07_Emberlands.md`
+- **DM-Only File:** `../DMEyesOnly/Emberlands.md`
 
 ### 8. **The Verdant Marches** (Beast-Haunted Wilds)
 - **Theme:** Primal magic, awakened beasts, druidic enclaves
