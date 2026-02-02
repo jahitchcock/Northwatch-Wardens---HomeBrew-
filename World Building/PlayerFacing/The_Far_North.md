@@ -4,7 +4,7 @@
 
 ## What It Is
 
-The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and ancient mysteries lie buried beneath glaciers.
+The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains.
 
 Few travel there by choice. Fewer return.
 
@@ -24,13 +24,13 @@ The Far North consists of several distinct but equally deadly regions:
 Vast frozen plains where visibility drops to nothing during storms. The ice groans and shifts, creating treacherous conditions. Experienced guides claim the safest paths, but paths have a way of vanishing in the North.
 
 **Shattered Glaciers**  
-Massive ice formations broken by ancient forces. The fracture patterns run deep—some say all the way to bedrock. Climbers report hearing sounds from within the ice: creaking, humming, sometimes voices.
+Massive ice formations broken long ago. The fracture patterns run deep—some say all the way to bedrock. Climbers report hearing sounds from within the ice: creaking, groaning, sometimes what might be wind.
 
 **Mountain Peaks**  
 Snow-capped mountains where the wind never stops. Sound behaves strangely here—echoes arrive hours late, or words carry impossibly far.
 
 **The Ruinfields**  
-Scattered fragments of ancient structures emerge from the ice during brief thaws. Metal towers, stone facades, crystalline formations. Most are buried, but enough shows through to prove something once existed here.
+Scattered fragments of old structures emerge from the ice during brief thaws. Metal towers, stone facades, strange formations. Most are buried, but enough shows through to prove something once existed here. Who built them and when is a matter of speculation.
 
 ---
 
@@ -90,12 +90,12 @@ Some travelers report stranger sightings:
 
 ### Salsvault
 
-The most infamous location in the Far North. An ancient Aeorian ruin that rises from the ice north of Palebank. It was once a research facility and is now a frozen tomb of dangerous secrets.
+The most infamous location in the Far North. An ancient ruin that rises from the ice north of Palebank. It was once something important and is now a frozen tomb of dangerous secrets.
 
 *(See: Places of Northreach - Salsvault for full details)*
 
 **What Everyone Knows:**
-- Aeorian ruins from before the Calamity
+- Ancient ruins from long ago
 - Extremely dangerous to explore
 - Source of the illness called Frigid Woe
 - Many explorers have died there
@@ -104,10 +104,10 @@ The most infamous location in the Far North. An ancient Aeorian ruin that rises 
 
 ### Other Ruins
 
-The Far North is scattered with fragments of ancient structures:
+The Far North is scattered with fragments of old structures:
 - Metal spires jutting from glaciers
 - Stone walls half-buried in ice
-- Crystalline formations that aren't natural
+- Strange formations
 - Entrance tunnels sealed by avalanches
 
 No comprehensive map exists. The nomads know of dozens of sites but share locations reluctantly. They consider most ruins cursed or forbidden.
@@ -121,16 +121,16 @@ No comprehensive map exists. The nomads know of dozens of sites but share locati
 Despite the danger, some venture into the Far North:
 
 **Scholars and Researchers**  
-Seeking knowledge from before the Calamity. Aeorian civilization achieved magical feats that modern mages can barely imagine. Even fragments of that knowledge are worth the risk.
+Seeking knowledge from the old ruins. Whatever civilization built those structures possessed knowledge that has been lost. Even fragments of that knowledge are worth the risk.
 
 **Artifact Hunters**  
-Aeorian artifacts command astronomical prices. A single intact device can fund a lifetime. Most hunters die in the attempt, but the desperate and greedy keep trying.
+Ancient artifacts command high prices. A single intact device can fund a lifetime. Most hunters die in the attempt, but the desperate and greedy keep trying.
 
 **The Desperate**  
 Those seeking cures for incurable diseases, answers to impossible questions, or power they can't find elsewhere. The Far North promises solutions—if you survive to claim them.
 
 **Northwatch Wardens**  
-Investigating the strange occurrences in Northreach. The magical disturbances, the awakened wolves, the illness in Palebank—all seem to originate from the Far North. Understanding the source might be the only way to stop the spread.
+Investigating the strange occurrences in Northreach. Some believe events in the frontier may be connected to something in the Far North. Understanding what's happening there might help protect the settlements.
 
 ---
 
@@ -145,10 +145,10 @@ Multiple threats make the Far North deadly:
 - **Isolation:** No rescue, no help, no way out if things go wrong
 
 ### Ruins
-- **Traps:** Aeorian defensive systems still function
-- **Guardians:** Ancient constructs that attack intruders
+- **Traps:** Old defensive systems that may still function
+- **Guardians:** Ancient mechanisms that attack intruders
 - **Unstable Magic:** Enchantments that behave unpredictably
-- **Hazardous Materials:** Preserved dangers from the Age of Arcanum
+- **Hazardous Materials:** Preserved dangers from long ago
 
 ### Unknown Threats
 - **Strange Phenomena:** Lights, sounds, visions without clear source
@@ -168,14 +168,14 @@ Multiple threats make the Far North deadly:
 
 **What Nomads Say:**
 - "The deep north is forbidden. Those who go there don't come back."
-- "The old places are waking up. We've seen lights we never saw before."
+- "The old places should stay buried. Nothing good comes from disturbing them."
 - "Follow the herds, avoid the ruins, and you might survive."
-- "There are things older than Aeor buried in the ice."
+- "There are things better left alone beneath the ice."
 
 **What Scholars Theorize:**
-- "The Far North contains the largest concentration of Aeorian ruins."
-- "Salsvault is one of dozens—perhaps hundreds—of buried facilities."
-- "The magical disturbances in Northreach may originate here."
+- "The Far North contains many old ruins from a lost civilization."
+- "Salsvault is one of many—perhaps dozens—of buried facilities."
+- "Strange occurrences elsewhere may have connections to this region."
 - "We're only beginning to understand what lies beneath the ice."
 
 ---
@@ -207,29 +207,27 @@ Multiple threats make the Far North deadly:
 
 ---
 
-## The Mystery
+## Strange Reports
 
-Something is happening in the Far North.
+Something unusual is happening in the Far North, according to those who travel there.
 
-The Aeorian Echo—the magical disturbance affecting Northreach—seems to originate from this region. The awakening of intelligence in animals, the spreading illness, the unpredictable magic... all trace back north.
+**What Travelers Report:**
+- Unusual lights and sounds
+- Wildlife behaving strangely
+- Ice patterns that seem unnatural
+- Ruins becoming more visible as ice shifts
 
-**What Is Known:**
-- Magical activity has increased in recent years
-- More ruins are becoming visible as ice shifts
-- Wildlife is changing in observable ways
-- The aurora patterns have altered
+**What Some Suspect:**
+- The region is changing somehow
+- Whatever is happening may be spreading
+- Old ruins may be connected to strange events elsewhere
+- The changes seem to be accelerating
 
-**What Is Suspected:**
-- Ancient Aeorian facilities are reactivating
-- Whatever is happening is spreading southward
-- The changes will likely accelerate
-- Understanding the source is critical to stopping the spread
-
-**What No One Knows:**
-- What triggered the reactivation
-- How many facilities exist
-- What they were originally designed to do
-- Whether the process can be stopped
+**What No One Can Prove:**
+- What's causing the changes
+- Whether it can be stopped
+- How far the effects might reach
+- If intervention is even possible
 
 ---
 
@@ -255,11 +253,11 @@ Traveling to the Far North requires extensive preparation:
 - Return alive with what you learned
 
 ### Potential Rewards
-- Aeorian artifacts and knowledge
-- Understanding of the Aeorian Echo
-- Answers to Northreach's problems
+- Ancient artifacts and knowledge
+- Understanding of strange phenomena
+- Answers to frontier problems
 - Fame (if you survive to tell the tale)
-- The satisfaction of solving ancient mysteries
+- The satisfaction of exploration and discovery
 
 ---
 
