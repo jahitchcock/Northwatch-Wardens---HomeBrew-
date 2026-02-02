@@ -8,9 +8,12 @@
 
 ## Overview
 
+{{descriptive
+##### The Heart of Song and Story
 Solaris is a vibrant metropolis known as the beating heart of music, storytelling, and bardic tradition. The city thrives on creativity, performance, and mythmaking—its plazas echo with tales and its streets feel like they are always mid-song.
 
 But beneath the artistic brilliance lies deep political tension. Three factions compete to define the city's soul, each offering a different vision of power, magic, and the future. Eclipse Day shattered the old certainties, and now Solaris stands at a crossroads between tradition, tolerance, and transformation.
+}}
 
 This is where news travels fastest, where secrets become songs, and where the Aeorian Echo manifests as social upheaval rather than physical corruption.
 
@@ -77,12 +80,14 @@ The warm climate supports outdoor performance culture:
 
 
 
-**Current State:**
-Since Eclipse Day, the Cord has become epicenter of cultural response:
+{{note
+##### Current State: Post-Eclipse Day
+Since Eclipse Day, the Cord has become the epicenter of cultural response:
 - Competing factions hold events here
-- New songs interpret the Eclipse
+- New songs interpret the Eclipse daily
 - Tensions occasionally flare but tradition holds
 - Neutral ground status tested but maintained
+}}
 
 ### Eldric's Monument
 **Location:** Outside the Tail Spinner's Cord  
@@ -829,3 +834,6 @@ Instead of pure Charisma checks:
 *"In Northreach, the Echo twists wolves into speakers. In Solaris, it twists speakers into prophets. Different symptoms, same disease."*
 
 — Lorewarden Elric Vael, after visiting Solaris
+
+{{pageNumber,auto}}
+{{footnote WORLD BUILDING | SOLARIS DOMINION}}
