@@ -168,9 +168,9 @@ All adventures connect to a spreading arcane phenomenon: magic from buried Aeori
 4. **Stat References:** Link to JSON files or XML entries
 5. **Preview Settings:** Use workspace settings from `.vscode/settings.json`
 
-#### \page Insertion Heuristics (Based on PlayerFacing Docs)
+#### \page Insertion Heuristics (Based on Player-Facing Docs)
 
-Use these rules-of-thumb to keep pagination consistent with `World Building/PlayerFacing/` reference documents:
+Use these rules-of-thumb to keep pagination consistent with `World Building/` player-facing reference documents:
 
 - **Default page chunk size:** insert `\page` at a natural boundary around **70–85 non-empty lines** or **450–550 words** since the last break.
 - **List- / header-heavy pages:** break earlier by words (**~330–420 words**) even if line count is high.

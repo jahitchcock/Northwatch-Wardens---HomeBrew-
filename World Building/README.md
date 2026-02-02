@@ -16,9 +16,9 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 ## Table of Contents
 
-### Player Content
+### Player-Safe Lore
 
-- [PlayerFacing/](./PlayerFacing/) — Handouts and lore safe for players (no spoilers).
+All content in World Building is safe for players, EXCEPT for files in [DMEyesOnly/](./DMEyesOnly/).
 
 ### DM Content (Spoilers)
 

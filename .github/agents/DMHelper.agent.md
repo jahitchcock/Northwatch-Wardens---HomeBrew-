@@ -423,7 +423,7 @@ When working with this agent:
 
 ## Markdown Pagination (\page)
 
-When editing player-facing or handout-style markdown intended for Homebrewery-like rendering, insert `\page` breaks using these empirically-derived heuristics from existing `World Building/PlayerFacing/` docs:
+When editing player-facing or handout-style markdown intended for Homebrewery-like rendering, insert `\page` breaks using these empirically-derived heuristics from existing `World Building/` player-facing docs:
 
 - **Default target per page chunk:** break at a natural boundary around **70–85 non-empty lines** or **450–550 words** since the last `\page`.
 - **List- / header-heavy sections:** break earlier by words (**~330–420 words**) even if line count is high.
