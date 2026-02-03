@@ -257,6 +257,26 @@ Check for outdated packages:
 npm outdated
 ```
 
+## GitHub Actions (Optional)
+
+An optional GitHub Actions workflow is provided at `.github/workflows/build-pdfs.yml` that can automatically build the PDFs in the cloud.
+
+### Manual Trigger
+
+By default, the workflow can be triggered manually:
+1. Go to the "Actions" tab in your GitHub repository
+2. Select "Build PDFs" workflow
+3. Click "Run workflow"
+4. Download the generated PDFs from the artifacts
+
+### Automatic Triggers
+
+To enable automatic builds, edit `.github/workflows/build-pdfs.yml` and uncomment the triggers:
+- `push: branches: [ main ]` - Build on every push to main
+- `pull_request: branches: [ main ]` - Build on pull requests
+
+The PDFs will be available as downloadable artifacts in the Actions tab for 30 days.
+
 ## File Locations
 
 ```

@@ -141,6 +141,8 @@ This will generate both PDF files in the `build/` directory.
 
 For detailed instructions, customization options, and troubleshooting, see:
 
+📄 **[QUICKSTART.md](./QUICKSTART.md)** — Quick reference guide
+
 📄 **[BUILD.md](./BUILD.md)** — Complete build system documentation
 
 ---
