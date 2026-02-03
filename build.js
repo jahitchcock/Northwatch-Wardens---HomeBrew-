@@ -221,6 +221,10 @@ function processHomebreweryMarkdown(content) {
     return `\n\n<div style="column-span: all;">\n\n${inner}\n\n</div>\n\n`;
   });
   
+  // Remove {{pageNumber}} and {{footnote}} markers (not supported in PDF generation)
+  content = content.replace(/\{\{pageNumber[^}]*\}\}/g, '');
+  content = content.replace(/\{\{footnote[^}]*\}\}/g, '');
+  
   return content;
 }
 
@@ -256,12 +260,18 @@ async function buildBook(tocFile, outputName) {
     if (section.subsections) {
       for (const subsection of section.subsections) {
         combinedMarkdown += `## ${subsection.title}\n\n`;
-        for (const file of subsection.files) {
+        for (let i = 0; i < subsection.files.length; i++) {
+          const file = subsection.files[i];
           const filePath = path.join(buildDir, file);
           if (await fs.pathExists(filePath)) {
             console.log(`    Adding: ${file}`);
             const content = await fs.readFile(filePath, 'utf-8');
             combinedMarkdown += content + '\n\n';
+            
+            // Add page break between files if this is not the last file in subsection
+            if (i < subsection.files.length - 1) {
+              combinedMarkdown += `\\page\n\n`;
+            }
           } else {
             console.warn(`    Warning: File not found: ${file}`);
           }
@@ -270,12 +280,19 @@ async function buildBook(tocFile, outputName) {
       }
     } else if (section.files) {
       // Regular files
-      for (const file of section.files) {
+      for (let i = 0; i < section.files.length; i++) {
+        const file = section.files[i];
         const filePath = path.join(buildDir, file);
         if (await fs.pathExists(filePath)) {
           console.log(`    Adding: ${file}`);
           const content = await fs.readFile(filePath, 'utf-8');
           combinedMarkdown += content + '\n\n';
+          
+          // Add page break between files if this is not the last file
+          // This prevents very long concatenated sections
+          if (i < section.files.length - 1) {
+            combinedMarkdown += `\\page\n\n`;
+          }
         } else {
           console.warn(`    Warning: File not found: ${file}`);
         }
