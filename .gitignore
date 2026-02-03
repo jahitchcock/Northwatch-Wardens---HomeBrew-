@@ -17,3 +17,10 @@ filter-branch-purge-pinebrook.log
 
 # Backup files
 *_OLD_BACKUP.md
+
+# Build system
+node_modules/
+package-lock.json
+build/*.md
+build/*.html
+build/*.pdf

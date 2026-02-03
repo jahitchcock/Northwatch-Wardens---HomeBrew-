@@ -123,6 +123,28 @@ These prevent the preview pane from jumping and avoid selection-hover effects th
 
 ---
 
+## Building the PDFs
+
+This repository includes a build system to convert all markdown content into two professionally-formatted, Homebrewery-styled PDF books:
+
+📘 **The Adventurer's Guide to Aevoria** — Player-facing materials including world lore, regions, organizations, and pre-made characters
+
+📕 **A DM's Guide to Aevoria** — Complete campaign materials including all adventures, DM resources, NPCs, and world secrets
+
+### Quick Start
+
+```bash
+./build.sh
+```
+
+This will generate both PDF files in the `build/` directory.
+
+For detailed instructions, customization options, and troubleshooting, see:
+
+📄 **[BUILD.md](./BUILD.md)** — Complete build system documentation
+
+---
+
 ## Content & Licensing
 
 - Markdown files are original or derived from licensed content
