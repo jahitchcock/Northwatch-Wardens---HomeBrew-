@@ -1,10 +1,14 @@
-**THE NORTHWATCH WARDENS**
+# The Northwatch Wardens
 
 ***Guild Charter***
 
+{{descriptive
 *Ratified in the Year of the Frostwane Moon, at the Waystone Inn, Northreach Frontier*
+}}
 
-**Article I — Purpose**
+::
+
+## Article I — Purpose
 
 The Northwatch Wardens exist to:
 
@@ -16,7 +20,7 @@ The Northwatch Wardens exist to:
 
 The Wardens are not a standing army, but a fellowship of capable individuals who volunteer their blades, spells, and skills for the good of the frontier.
 
-**Article II — Membership**
+## Article II — Membership
 
 Membership is open to any individual who:
 
@@ -27,20 +31,23 @@ Membership is open to any individual who:
 
 Members may come and go as their lives demand. Absence does not forfeit membership, but dereliction of duty may.
 
-**Article III — The Guild Code**
+## Article III — The Guild Code
+
+{{note
+##### The Six Tenets
 
 All Wardens shall:
 
-# 1. Protect the innocent
-# 2. Honor their contracts
-# 3. Share vital information with fellow Wardens
-# 4. Respect the frontier’s people, land, and traditions
-# 5. Stand against corruption, mortal or magical
-# 6. Never abandon a companion unless retreat is the only path to survival
+1. Protect the innocent
+2. Honor their contracts
+3. Share vital information with fellow Wardens
+4. Respect the frontier's people, land, and traditions
+5. Stand against corruption, mortal or magical
+6. Never abandon a companion unless retreat is the only path to survival
+}}
 
 Violation of the Code may result in suspension, exile, or—if necessary—judgment by the full council.
-
-**Article IV — Contracts & Duties**
+## Article IV — Contracts & Duties
 
 Wardens may accept contracts posted on the **Waystone Board**, including:
 
@@ -53,7 +60,7 @@ Wardens may accept contracts posted on the **Waystone Board**, including:
 
 Payment is distributed fairly among participating Wardens. A portion (10%) supports guild operations and emergency funds.
 
-**Article V — Leadership**
+## Article V — Leadership
 
 The Guild is overseen by a **Triad Council**, consisting of:
 
@@ -63,7 +70,7 @@ The Guild is overseen by a **Triad Council**, consisting of:
 
 Decisions require at least two signatures. In emergencies, any council member may issue a provisional order.
 
-**Article VI — Sanctuary**
+## Article VI — Sanctuary
 
 The Waystone Inn serves as:
 
@@ -79,42 +86,46 @@ All Wardens are entitled to:
 - basic medical attention
 - access to guild records
 
-**Article VII — Amendments**
+## Article VII — Amendments
 
 This charter may be amended by a majority vote of active Wardens present at a sanctioned gathering.
+:
 
+---
 
-**ROSTER**
+# Roster
 
-**Leadership**
+## Leadership
 
-- Marshal Brenna Thorne — Field Commander
-- Steward Mara Fenwick — Quartermaster
-- Lorewarden Elric Vael — Arcane Scholar
+- **Marshal Brenna Thorne** — Field Commander
+- **Steward Mara Fenwick** — Quartermaster
+- **Lorewarden Elric Vael** — Arcane Scholar
 
-**Trailwardens**
+## Trailwardens
 
 Corel • Bordel • Rowan • Mila
 
-**Lantern Guard**
+## Lantern Guard
 
 Takk • Galvena • Ariodh • Guz
 
-**Lorewatch**
+## Lorewatch
 
 Sera • Aurixean • Shinebright • Baleth
 
-**Hearthwardens**
+## Hearthwardens
 
 Father Merriksonn • Willen • Flynt • Joel (ally)
 
 \page
 
-
-**Wild Allies**
+## Wild Allies
 
 Bolt • Flame • Pack members
 
-**Affiliated Settlements**
+## Affiliated Settlements
 
 Welton • Palebank • Pinebrook
+
+{{pageNumber,auto}}
+{{footnote THE NORTHWATCH WARDENS | GUILD CHARTER}}

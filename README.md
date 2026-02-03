@@ -74,8 +74,16 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 This repository is set up to write and preview D&D content in a Homebrewery-style layout directly in VS Code.
 
 - **Extension**: *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
-- **Formatting**: Use `\page` for page breaks. (Note: `\columnbreak` is supported by Homebrewery itself, but may render as literal text in the VS Code preview.)
-- **Snippets**: Most Homebrewery-style snippets are available with the `brew` prefix (example: `brewStatBlock`).
+- **Formatting**: Use `\page` for page breaks, `{{note}}` for DM boxes, `{{descriptive}}` for read-aloud text
+- **Snippets**: Most Homebrewery-style snippets are available with the `brew` prefix (example: `brewStatBlock`)
+
+### Homebrewery Best Practices
+
+📖 **[Homebrewery Best Practices Guide](./.github/HOMEBREWERY_BEST_PRACTICES.md)** — Comprehensive guide to formatting D&D content with Homebrewery
+
+📝 **[Adventure Template](./.github/templates/adventure_template.md)** — Ready-to-use template for new adventures
+
+✨ **[Before/After Examples](./.github/FORMATTING_EXAMPLES.md)** — See how Homebrewery formatting improves content
 
 ### Commands
 
