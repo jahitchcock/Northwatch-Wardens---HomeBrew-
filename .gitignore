@@ -20,7 +20,6 @@ filter-branch-purge-pinebrook.log
 
 # Build system
 node_modules/
-package-lock.json
 build/*.md
 build/*.html
 build/*.pdf
