@@ -1,0 +1,89 @@
+{
+  "title": "A DM's Guide to Aevoria",
+  "subtitle": "Campaign Materials and World Secrets for Dungeon Masters",
+  "sections": [
+    {
+      "chapter": "Using This Guide",
+      "files": [
+        "../README.md"
+      ]
+    },
+    {
+      "chapter": "Campaign Overview",
+      "files": [
+        "../Season 1/README.md",
+        "../Season 1/Campaign_ToC.md",
+        "../Season 1/The_Story_So_Far.md"
+      ]
+    },
+    {
+      "chapter": "DM Resources",
+      "files": [
+        "../Season 1/DM_Resources/Session_Prep_Guide.md",
+        "../Season 1/DM_Resources/Campaign_Tracker.md",
+        "../Season 1/DM_Resources/DM Guild Roster.md",
+        "../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md",
+        "../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md"
+      ]
+    },
+    {
+      "chapter": "Adventures",
+      "subsections": [
+        {
+          "title": "Opening Adventures",
+          "files": [
+            "../Season 1/Adventures/Opening/Open Skirmish.md",
+            "../Season 1/Adventures/Opening/THE MORNING AFTER.md",
+            "../Season 1/Adventures/Opening/Wolves - Contract.md"
+          ]
+        },
+        {
+          "title": "Wolves of Welton",
+          "files": [
+            "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md"
+          ]
+        },
+        {
+          "title": "Frozen Sick",
+          "files": [
+            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md"
+          ]
+        },
+        {
+          "title": "The Wild Sheep Chase",
+          "files": [
+            "../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md"
+          ]
+        },
+        {
+          "title": "Peril in Pinebrook",
+          "files": [
+            "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md"
+          ]
+        },
+        {
+          "title": "Temple of the Dragonknights",
+          "files": [
+            "../Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "World Secrets",
+      "files": [
+        "../World Building/DMEyesOnly/The_Aeorian_Echo.md",
+        "../World Building/DMEyesOnly/People_Secrets.md",
+        "../World Building/DMEyesOnly/Places_Secrets.md",
+        "../World Building/DMEyesOnly/Nullwood_Secrets.md",
+        "../World Building/DMEyesOnly/The_Far_North_Secrets.md",
+        "../World Building/DMEyesOnly/Emberlands.md",
+        "../World Building/DMEyesOnly/ShatteredCoast.md",
+        "../World Building/DMEyesOnly/StoneboundDepths.md",
+        "../World Building/DMEyesOnly/SunkenDominion.md",
+        "../World Building/DMEyesOnly/VerdantMarches.md",
+        "../World Building/DMEyesOnly/Vharoxis.md"
+      ]
+    }
+  ]
+}

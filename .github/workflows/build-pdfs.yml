@@ -1,0 +1,59 @@
+name: Build PDFs
+
+# This workflow builds the Aevoria PDFs automatically
+# Uncomment the triggers below to enable automatic builds
+
+on:
+  # Uncomment to build on every push to main
+  # push:
+  #   branches: [ main ]
+  
+  # Uncomment to build on pull requests
+  # pull_request:
+  #   branches: [ main ]
+  
+  # Manual trigger - always enabled
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Build PDFs
+      run: ./build.sh
+    
+    - name: Upload Player's Guide
+      uses: actions/upload-artifact@v4
+      with:
+        name: The-adventurers-guide-to-aevoria
+        path: build/The-adventurers-guide-to-aevoria.pdf
+        retention-days: 30
+    
+    - name: Upload DM's Guide
+      uses: actions/upload-artifact@v4
+      with:
+        name: A-DMs-guide-to-aevoria
+        path: build/A-DMs-guide-to-aevoria.pdf
+        retention-days: 30
+    
+    - name: Display build info
+      run: |
+        echo "✓ Build complete!"
+        echo ""
+        echo "PDF sizes:"
+        ls -lh build/*.pdf
+        echo ""
+        echo "Download artifacts from the Actions tab above"
