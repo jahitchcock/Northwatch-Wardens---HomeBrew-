@@ -3,18 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const puppeteer = require('puppeteer');
-const { marked } = require('marked');
-
-// Configure marked with options suitable for D&D content
-marked.setOptions({
-  breaks: true,
-  gfm: true,
-  headerIds: true,
-  mangle: false,
-  pedantic: false,
-  smartLists: true,
-  smartypants: true,
-});
+const { render: renderHomebrewery } = require('./homebrewery-renderer');
 
 // Path to the downloaded Homebrewery CSS
 const HOMEBREWERY_CSS_PATH = path.join(__dirname, 'homebrewery-phb.css');
@@ -76,48 +65,6 @@ async function loadHomebreweryCss() {
       reject(err);
     });
   });
-}
-
-// Helper function to process markdown with Homebrewery syntax
-function processHomebreweryMarkdown(content) {
-  // Replace \page with page break marker
-  content = content.replace(/\\page\s*/g, '\n\n<div class="phb-page-break"></div>\n\n');
-  
-  // Replace \column with column break marker
-  content = content.replace(/\\column\s*/g, '\n\n<div class="phb-column-break"></div>\n\n');
-  
-  // Replace vertical spacing markers
-  content = content.replace(/\n:\s*\n/g, '\n\n<div class="phb-spacing"></div>\n\n');
-  content = content.replace(/\n::\s*\n/g, '\n\n<div class="phb-spacing-wide"></div>\n\n');
-  
-  // Process {{note}} blocks - make trailing newline optional for backward compatibility
-  content = content.replace(/\{\{note\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
-    return `\n\n<div class="phb-note-block">\n\n${inner}\n\n</div>\n\n`;
-  });
-  
-  // Process {{descriptive}} blocks - make trailing newline optional
-  content = content.replace(/\{\{descriptive\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
-    return `\n\n<div class="phb-descriptive-block">\n\n${inner}\n\n</div>\n\n`;
-  });
-  
-  // Process {{wide}} blocks (for tables spanning columns) - make trailing newline optional
-  content = content.replace(/\{\{wide\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
-    return `\n\n<div class="phb-wide-block">\n\n${inner}\n\n</div>\n\n`;
-  });
-  
-  // Process {{monster}} blocks - sanitize frame parameter and make trailing newline optional
-  content = content.replace(/\{\{monster,?\s*(.*?)\s*\n([\s\S]*?)\n?\}\}/g, (match, frame, inner) => {
-    // Sanitize frame to only allow alphanumeric, hyphens, and underscores
-    const sanitizedFrame = frame ? frame.replace(/[^a-zA-Z0-9_-]/g, '') : '';
-    const frameClass = sanitizedFrame ? ` phb-monster-${sanitizedFrame}` : '';
-    return `\n\n<div class="phb-monster-block${frameClass}">\n\n${inner}\n\n</div>\n\n`;
-  });
-  
-  // Remove {{pageNumber}} and {{footnote}} markers (not supported in PDF generation)
-  content = content.replace(/\{\{pageNumber[^}]{0,100}\}\}/g, '');
-  content = content.replace(/\{\{footnote[^}]{0,200}\}\}/g, '');
-  
-  return content;
 }
 
 // Helper function to process an array of files and add them to the markdown
@@ -187,11 +134,9 @@ async function buildBook(tocFile, outputName) {
   await fs.writeFile(mdPath, combinedMarkdown);
   console.log(`  Saved combined markdown: ${mdPath}`);
   
-  // Process Homebrewery syntax
-  const processedMarkdown = processHomebreweryMarkdown(combinedMarkdown);
-  
-  // Convert to HTML using marked
-  const htmlContent = marked(processedMarkdown);
+  // Render using Homebrewery renderer (which handles all special syntax)
+  console.log('  Rendering with Homebrewery markdown processor...');
+  const htmlContent = renderHomebrewery(combinedMarkdown);
   
   // Load official Homebrewery CSS
   console.log('  Loading Homebrewery stylesheet...');
@@ -200,51 +145,18 @@ async function buildBook(tocFile, outputName) {
   // Additional CSS to support our special classes and improve PDF rendering
   const additionalCss = `
 /* Additional styles for better PDF rendering */
-.phb-page-break {
+.pagebreak {
   page-break-before: always;
   break-before: page;
 }
 
-.phb-column-break {
+.columnSplit {
   break-after: column;
   column-span: none;
 }
 
-.phb-spacing {
-  height: 0.5em;
-}
-
-.phb-spacing-wide {
+.blank {
   height: 1em;
-}
-
-.phb-note-block {
-  background-color: #e0e5c1;
-  border: 2px solid #c0ad6a;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  break-inside: avoid;
-}
-
-.phb-descriptive-block {
-  background-color: #fdf1dc;
-  border: 1px solid #c0ad6a;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  font-style: italic;
-  break-inside: avoid;
-}
-
-.phb-wide-block {
-  column-span: all;
-}
-
-.phb-monster-block {
-  background-color: #fdf1dc;
-  border: 1px solid #c0ad6a;
-  padding: 0.5em;
-  margin: 1em 0;
-  break-inside: avoid;
 }
 
 /* Cover page styling */
