@@ -43,10 +43,44 @@ This will generate both PDF files in the `build/` directory.
 
 The first time you run the build script, it will automatically install the required dependencies:
 - `puppeteer` - For PDF generation
-- `markdown-it` - For markdown parsing
-- `fs-extra` - For file operations
+- `marked` - Markdown parsing engine (matching Homebrewery version 15.0.12)
+- `marked-*` extensions - All official Homebrewery markdown extensions
+- `lodash` - Utility functions
+- `fs-extra` - File operations
 
 This installation only needs to happen once.
+
+## What's New: Authentic Homebrewery Rendering
+
+The build system now uses **authentic Homebrewery markdown rendering** with the official extensions from [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery). This ensures your content is rendered exactly as it would appear on the Homebrewery website.
+
+### Supported Features
+
+**Mustache Syntax** (for blocks and inline styles):
+- `{{note}}...{{}}` - Note/callout boxes
+- `{{descriptive}}...{{}}` - Read-aloud text boxes  
+- `{{wide}}...{{}}` - Full-width content spanning columns
+- `{{monster}}...{{}}` - Monster stat blocks
+- `{{monster,frame}}...{{}}` - Monster stat blocks with frame styling
+- Inline styling with `{{class1,class2}}text{{}}` 
+- Block styling with attributes and CSS properties
+
+**Page Layout**:
+- `\page` - Page break
+- `\column` - Column break
+- `:` - Small vertical space
+- `::` - Larger vertical space
+
+**Markdown Extensions**:
+- Extended tables with custom formatting
+- Definition lists
+- Aligned paragraphs
+- Non-breaking spaces
+- Superscript and subscript text
+- Variables and page numbers
+- Smart typography (smart quotes, em dashes, etc.)
+- GitHub-style heading IDs
+- Emoji support
 
 ## Output Files
 
@@ -103,11 +137,26 @@ The build script (`build.js`) performs the following steps:
 
 1. **Read TOC files** - Loads the JSON configuration for each book
 2. **Concatenate markdown** - Combines all markdown files in the specified order
-3. **Process Homebrewery syntax** - Converts special syntax like `\page`, `{{note}}`, etc.
+3. **Render with Homebrewery** - Uses authentic Homebrewery markdown processor with all official extensions:
+   - Mustache syntax for blocks and spans ({{note}}, {{monster}}, etc.)
+   - Column and page breaks
+   - Extended tables, definition lists, aligned paragraphs
+   - Smart typography, superscript/subscript
+   - Variables and heading IDs
 4. **Generate HTML** - Converts markdown to HTML with D&D-themed styling
 5. **Create PDF** - Uses Puppeteer to render HTML to PDF with proper formatting
 
-### 4. Homebrewery Styling
+### 4. Homebrewery Rendering Engine
+
+The build system uses `homebrewery-renderer.js`, which is adapted from the official [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery) markdown processor. This ensures 100% compatibility with Homebrewery syntax.
+
+**Key Components**:
+- **Custom Renderer**: Handles HTML blocks, paragraphs, links, and images
+- **Custom Tokenizer**: Disables conflicting features
+- **Mustache Extensions**: Processes {{block}} and {{inline}} syntax
+- **Marked Extensions**: All official Homebrewery extensions included
+
+### 5. Homebrewery Styling
 
 The build system uses the **official Homebrewery PHB stylesheet** from the [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery) project, providing authentic D&D 5e Player's Handbook styling:
 - Two-column layout with authentic PHB formatting
@@ -121,18 +170,37 @@ The build system uses the **official Homebrewery PHB stylesheet** from the [natu
 
 The stylesheet (`homebrewery-phb.css`) is included in the repository. If it's missing, the build system will automatically download it from the official Homebrewery repository.
 
-### 5. Special Syntax Support
+### 6. Special Syntax Support
 
-The following Homebrewery syntax is supported:
+The following Homebrewery syntax is fully supported through the authentic renderer:
 
+**Layout Control**:
 - `\page` - Page break
 - `\column` - Column break
-- `:` - Small vertical space
-- `::` - Larger vertical space
+- `:` - Small vertical space (blank div)
+- `::` - Larger vertical space (two blank divs)
+
+**Block Styles** (mustache divs):
 - `{{note}}...{{}}` - Note/callout boxes
 - `{{descriptive}}...{{}}` - Read-aloud text boxes
 - `{{wide}}...{{}}` - Full-width content (spanning columns)
 - `{{monster}}...{{}}` - Monster stat blocks
+- `{{monster,frame}}...{{}}` - Monster with custom frame class
+
+**Inline Styles** (mustache spans):
+- `{{class1,class2}}text{{}}` - Apply classes to inline text
+- `{{#id,class}}text{{}}` - Apply ID and class
+- `{{width:100%}}text{{}}` - Apply CSS properties
+
+**Advanced Features**:
+- Extended tables with colspan/rowspan
+- Definition lists
+- Aligned paragraphs (left, center, right, justify)
+- Smart quotes and typography
+- Superscript `^text^` and subscript `~text~`
+- Non-breaking spaces
+- GitHub-style heading IDs
+- Variable substitution
 
 ## Customizing the Build
 
