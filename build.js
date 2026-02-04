@@ -31,15 +31,48 @@ async function loadHomebreweryCss() {
   
   return new Promise((resolve, reject) => {
     https.get('https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css', (response) => {
+      // Check for redirect or non-200 status
+      if (response.statusCode === 302 || response.statusCode === 301) {
+        // Follow redirect
+        https.get(response.headers.location, (redirectResponse) => {
+          if (redirectResponse.statusCode !== 200) {
+            reject(new Error(`Failed to download stylesheet: HTTP ${redirectResponse.statusCode}`));
+            return;
+          }
+          let css = '';
+          redirectResponse.on('data', (chunk) => css += chunk);
+          redirectResponse.on('end', async () => {
+            if (css.length < 1000) {
+              reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
+              return;
+            }
+            await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
+            console.log('  ✓ Homebrewery stylesheet downloaded');
+            resolve(css);
+          });
+        }).on('error', reject);
+        return;
+      }
+      
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to download stylesheet: HTTP ${response.statusCode}`));
+        return;
+      }
+      
       let css = '';
       response.on('data', (chunk) => css += chunk);
       response.on('end', async () => {
+        if (css.length < 1000) {
+          reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
+          return;
+        }
         await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
         console.log('  ✓ Homebrewery stylesheet downloaded');
         resolve(css);
       });
     }).on('error', (err) => {
       console.error('  ✗ Failed to download stylesheet:', err.message);
+      console.error('  ✗ Please manually download from https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css');
       reject(err);
     });
   });
@@ -57,24 +90,26 @@ function processHomebreweryMarkdown(content) {
   content = content.replace(/\n:\s*\n/g, '\n\n<div class="phb-spacing"></div>\n\n');
   content = content.replace(/\n::\s*\n/g, '\n\n<div class="phb-spacing-wide"></div>\n\n');
   
-  // Process {{note}} blocks
-  content = content.replace(/\{\{note\s*\n([\s\S]*?)\n\}\}/g, (match, inner) => {
+  // Process {{note}} blocks - make trailing newline optional for backward compatibility
+  content = content.replace(/\{\{note\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
     return `\n\n<div class="phb-note-block">\n\n${inner}\n\n</div>\n\n`;
   });
   
-  // Process {{descriptive}} blocks
-  content = content.replace(/\{\{descriptive\s*\n([\s\S]*?)\n\}\}/g, (match, inner) => {
+  // Process {{descriptive}} blocks - make trailing newline optional
+  content = content.replace(/\{\{descriptive\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
     return `\n\n<div class="phb-descriptive-block">\n\n${inner}\n\n</div>\n\n`;
   });
   
-  // Process {{wide}} blocks (for tables spanning columns)
-  content = content.replace(/\{\{wide\s*\n([\s\S]*?)\n\}\}/g, (match, inner) => {
+  // Process {{wide}} blocks (for tables spanning columns) - make trailing newline optional
+  content = content.replace(/\{\{wide\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
     return `\n\n<div class="phb-wide-block">\n\n${inner}\n\n</div>\n\n`;
   });
   
-  // Process {{monster}} blocks
-  content = content.replace(/\{\{monster,?\s*(.*?)\s*\n([\s\S]*?)\n\}\}/g, (match, frame, inner) => {
-    const frameClass = frame ? ` phb-monster-${frame}` : '';
+  // Process {{monster}} blocks - sanitize frame parameter and make trailing newline optional
+  content = content.replace(/\{\{monster,?\s*(.*?)\s*\n([\s\S]*?)\n?\}\}/g, (match, frame, inner) => {
+    // Sanitize frame to only allow alphanumeric, hyphens, and underscores
+    const sanitizedFrame = frame ? frame.replace(/[^a-zA-Z0-9_-]/g, '') : '';
+    const frameClass = sanitizedFrame ? ` phb-monster-${sanitizedFrame}` : '';
     return `\n\n<div class="phb-monster-block${frameClass}">\n\n${inner}\n\n</div>\n\n`;
   });
   
@@ -156,7 +191,7 @@ async function buildBook(tocFile, outputName) {
   const processedMarkdown = processHomebreweryMarkdown(combinedMarkdown);
   
   // Convert to HTML using marked
-  const htmlContent = await marked(processedMarkdown);
+  const htmlContent = marked(processedMarkdown);
   
   // Load official Homebrewery CSS
   console.log('  Loading Homebrewery stylesheet...');
