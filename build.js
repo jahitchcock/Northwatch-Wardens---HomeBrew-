@@ -195,7 +195,9 @@ ${additionalCss}
     <h1>${toc.title}</h1>
     <div class="subtitle">${toc.subtitle}</div>
   </div>
+  <div class="phb">
 ${htmlContent}
+  </div>
 </body>
 </html>
   `;
