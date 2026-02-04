@@ -221,7 +221,34 @@ function processHomebreweryMarkdown(content) {
     return `\n\n<div style="column-span: all;">\n\n${inner}\n\n</div>\n\n`;
   });
   
+  // Remove {{pageNumber}} and {{footnote}} markers (not supported in PDF generation)
+  // Limit match length to prevent performance issues with malformed input
+  content = content.replace(/\{\{pageNumber[^}]{0,100}\}\}/g, '');
+  content = content.replace(/\{\{footnote[^}]{0,200}\}\}/g, '');
+  
   return content;
+}
+
+// Helper function to process an array of files and add them to the markdown
+async function processFiles(files, buildDir, combinedMarkdown) {
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+    const filePath = path.join(buildDir, file);
+    if (await fs.pathExists(filePath)) {
+      console.log(`    Adding: ${file}`);
+      const content = await fs.readFile(filePath, 'utf-8');
+      combinedMarkdown += content + '\n\n';
+      
+      // Add page break between files if this is not the last file
+      // This prevents very long concatenated sections
+      if (i < files.length - 1) {
+        combinedMarkdown += `\\page\n\n`;
+      }
+    } else {
+      console.warn(`    Warning: File not found: ${file}`);
+    }
+  }
+  return combinedMarkdown;
 }
 
 // Function to read and concatenate markdown files
@@ -256,30 +283,12 @@ async function buildBook(tocFile, outputName) {
     if (section.subsections) {
       for (const subsection of section.subsections) {
         combinedMarkdown += `## ${subsection.title}\n\n`;
-        for (const file of subsection.files) {
-          const filePath = path.join(buildDir, file);
-          if (await fs.pathExists(filePath)) {
-            console.log(`    Adding: ${file}`);
-            const content = await fs.readFile(filePath, 'utf-8');
-            combinedMarkdown += content + '\n\n';
-          } else {
-            console.warn(`    Warning: File not found: ${file}`);
-          }
-        }
+        combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
         combinedMarkdown += `\\page\n\n`;
       }
     } else if (section.files) {
       // Regular files
-      for (const file of section.files) {
-        const filePath = path.join(buildDir, file);
-        if (await fs.pathExists(filePath)) {
-          console.log(`    Adding: ${file}`);
-          const content = await fs.readFile(filePath, 'utf-8');
-          combinedMarkdown += content + '\n\n';
-        } else {
-          console.warn(`    Warning: File not found: ${file}`);
-        }
-      }
+      combinedMarkdown = await processFiles(section.files, buildDir, combinedMarkdown);
     }
   }
   
