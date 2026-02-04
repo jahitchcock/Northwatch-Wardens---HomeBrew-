@@ -191,11 +191,11 @@ ${additionalCss}
   </style>
 </head>
 <body>
-  <div class="phb-cover">
-    <h1>${toc.title}</h1>
-    <div class="subtitle">${toc.subtitle}</div>
-  </div>
   <div class="phb">
+    <div class="phb-cover">
+      <h1>${toc.title}</h1>
+      <div class="subtitle">${toc.subtitle}</div>
+    </div>
 ${htmlContent}
   </div>
 </body>
