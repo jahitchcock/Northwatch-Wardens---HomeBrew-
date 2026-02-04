@@ -257,7 +257,7 @@ const forcedParagraphBreaks = {
 		}
 	},
 	renderer(token) {
-		return `<div class='blank'></div>\n`.repeat(token.length);
+		return `<div class="blank"></div>\n`.repeat(token.length);
 	}
 };
 
@@ -323,10 +323,10 @@ Marked.use(
  */
 function render(rawBrewText) {
 	// Process \column breaks
-	rawBrewText = rawBrewText.replace(/^\\column(?:break)?$/gm, `\n<div class='columnSplit'></div>\n`);
+	rawBrewText = rawBrewText.replace(/^\\column(?:break)?$/gm, `\n<div class="columnSplit"></div>\n`);
 	
 	// Process \page breaks  
-	rawBrewText = rawBrewText.replace(/^\\page$/gm, `\n<div class='pagebreak'></div>\n`);
+	rawBrewText = rawBrewText.replace(/^\\page$/gm, `\n<div class="pagebreak"></div>\n`);
 
 	const opts = Marked.defaults;
 	
