@@ -47,15 +47,17 @@ This implementation provides a complete solution for converting markdown files i
 
 ### 3. Homebrewery Styling
 
-**Embedded CSS Features:**
-- Authentic D&D 5e appearance
-- Two-column layout (letter size)
-- D&D-style fonts and colors
-- Parchment-style background (#EEE5CE)
-- Styled headers with decorative borders
-- Note boxes and descriptive text boxes
+**Official Homebrewery PHB Stylesheet:**
+The build system now uses the authentic, official PHB stylesheet from [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery):
+- File: `homebrewery-phb.css` (637KB with embedded fonts)
+- Authentic D&D 5e Player's Handbook appearance
+- Includes embedded Bookinsanity font data (base64-encoded)
+- Two-column layout optimized for letter-size pages
+- Authentic PHB colors (#EEE5CE parchment, #58180D headers, #C0AD6A borders)
+- Professional typography and spacing
+- Complete stat block formatting
+- Monster stat blocks with optional frames
 - Properly formatted tables
-- Stat block styling
 - Page break and column break support
 
 **Supported Syntax:**
@@ -66,6 +68,7 @@ This implementation provides a complete solution for converting markdown files i
 - `{{note}}...{{}}` - Note/callout boxes
 - `{{descriptive}}...{{}}` - Read-aloud text boxes
 - `{{wide}}...{{}}` - Full-width content spanning columns
+- `{{monster}}...{{}}` - Monster stat blocks
 
 ### 4. Documentation
 
@@ -151,11 +154,13 @@ This implementation provides a complete solution for converting markdown files i
 - Handles complex CSS layouts
 - Supports embedded images
 
-**markdown-it** (v14.0.0+):
-- Fast markdown parser
-- Extensible plugin system
+**marked** (v17.0.0+):
+- Fast, modern markdown parser
+- Extensible with custom renderers
 - HTML output with proper structure
 - Standard CommonMark compliant
+- Better performance than markdown-it
+- Active maintenance and support
 
 **fs-extra** (v11.2.0+):
 - Enhanced file system operations

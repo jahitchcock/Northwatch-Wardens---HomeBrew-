@@ -1,15 +1,16 @@
 {
   "name": "northwatch-wardens-build",
   "version": "1.0.0",
-  "description": "Build system for Northwatch Wardens PDFs",
+  "description": "Build system for Northwatch Wardens PDFs with official Homebrewery styling",
   "scripts": {
     "build": "node build.js",
     "build:players": "node build.js --players",
     "build:dms": "node build.js --dms"
   },
   "dependencies": {
-    "puppeteer": "^22.0.0",
+    "fs-extra": "^11.2.0",
     "markdown-it": "^14.0.0",
-    "fs-extra": "^11.2.0"
+    "marked": "^17.0.1",
+    "puppeteer": "^22.0.0"
   }
 }

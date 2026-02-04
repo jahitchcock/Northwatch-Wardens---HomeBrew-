@@ -3,226 +3,117 @@
 const fs = require('fs-extra');
 const path = require('path');
 const puppeteer = require('puppeteer');
-const MarkdownIt = require('markdown-it');
+const { marked } = require('marked');
 
-// Initialize markdown parser
-const md = new MarkdownIt({
-  html: true,
+// Configure marked with options suitable for D&D content
+marked.setOptions({
   breaks: true,
-  linkify: true
+  gfm: true,
+  headerIds: true,
+  mangle: false,
+  pedantic: false,
+  smartLists: true,
+  smartypants: true,
 });
 
-// Homebrewery CSS (embedded version)
-const HOMEBREWERY_CSS = `
-/* Homebrewery-inspired styling for D&D 5e content */
-@page {
-  size: letter;
-  margin: 1.27cm 1.9cm;
-}
+// Path to the downloaded Homebrewery CSS
+const HOMEBREWERY_CSS_PATH = path.join(__dirname, 'homebrewery-phb.css');
 
-body {
-  font-family: 'Bookinsanity', 'Book Antiqua', serif;
-  font-size: 10.5pt;
-  color: #000;
-  background-color: #EEE5CE;
-  column-count: 2;
-  column-gap: 1cm;
-  column-fill: auto;
-  text-align: justify;
-  line-height: 1.3;
+// Helper function to load CSS
+async function loadHomebreweryCss() {
+  if (await fs.pathExists(HOMEBREWERY_CSS_PATH)) {
+    return await fs.readFile(HOMEBREWERY_CSS_PATH, 'utf-8');
+  }
+  
+  // Fallback: Download it if not present
+  console.log('  Downloading official Homebrewery stylesheet...');
+  const https = require('https');
+  
+  return new Promise((resolve, reject) => {
+    https.get('https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css', (response) => {
+      // Check for redirect or non-200 status
+      if (response.statusCode === 302 || response.statusCode === 301) {
+        // Follow redirect
+        https.get(response.headers.location, (redirectResponse) => {
+          if (redirectResponse.statusCode !== 200) {
+            reject(new Error(`Failed to download stylesheet: HTTP ${redirectResponse.statusCode}`));
+            return;
+          }
+          let css = '';
+          redirectResponse.on('data', (chunk) => css += chunk);
+          redirectResponse.on('end', async () => {
+            if (css.length < 1000) {
+              reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
+              return;
+            }
+            await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
+            console.log('  ✓ Homebrewery stylesheet downloaded');
+            resolve(css);
+          });
+        }).on('error', reject);
+        return;
+      }
+      
+      if (response.statusCode !== 200) {
+        reject(new Error(`Failed to download stylesheet: HTTP ${response.statusCode}`));
+        return;
+      }
+      
+      let css = '';
+      response.on('data', (chunk) => css += chunk);
+      response.on('end', async () => {
+        if (css.length < 1000) {
+          reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
+          return;
+        }
+        await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
+        console.log('  ✓ Homebrewery stylesheet downloaded');
+        resolve(css);
+      });
+    }).on('error', (err) => {
+      console.error('  ✗ Failed to download stylesheet:', err.message);
+      console.error('  ✗ Please manually download from https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css');
+      reject(err);
+    });
+  });
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mr Eaves Small Caps', 'Times New Roman', serif;
-  font-weight: bold;
-  color: #58180D;
-  break-after: avoid;
-  margin-top: 0.5em;
-  margin-bottom: 0.3em;
-}
-
-h1 {
-  font-size: 32pt;
-  column-span: all;
-  text-align: center;
-  margin-bottom: 0.3em;
-  border-bottom: 2px solid #C0AD6A;
-  padding-bottom: 0.2em;
-}
-
-h2 {
-  font-size: 22pt;
-  margin-top: 0.5em;
-}
-
-h3 {
-  font-size: 18pt;
-  border-bottom: 1px solid #C0AD6A;
-}
-
-h4 {
-  font-size: 14pt;
-}
-
-h5 {
-  font-size: 12pt;
-}
-
-p {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  text-indent: 1em;
-}
-
-p + p {
-  text-indent: 1em;
-}
-
-blockquote {
-  background-color: #E0E5C1;
-  border-left: 4px solid #C0AD6A;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  font-style: italic;
-  break-inside: avoid;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-  break-inside: avoid;
-}
-
-table th {
-  background-color: #C0AD6A;
-  color: #58180D;
-  padding: 0.3em;
-  font-weight: bold;
-  text-align: left;
-}
-
-table td {
-  border-bottom: 1px solid #C0AD6A;
-  padding: 0.3em;
-}
-
-ul, ol {
-  margin: 0.5em 0;
-  padding-left: 1.5em;
-}
-
-li {
-  margin: 0.2em 0;
-}
-
-code {
-  font-family: 'Courier New', monospace;
-  background-color: #E0E5C1;
-  padding: 0.1em 0.3em;
-  border-radius: 3px;
-}
-
-pre {
-  background-color: #E0E5C1;
-  padding: 0.5em;
-  border-left: 4px solid #C0AD6A;
-  overflow-x: auto;
-  break-inside: avoid;
-}
-
-.page-break {
-  page-break-before: always;
-  column-span: all;
-  break-before: page;
-}
-
-.column-break {
-  column-span: all;
-  break-after: column;
-}
-
-.note-box {
-  background-color: #E0E5C1;
-  border: 2px solid #C0AD6A;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  break-inside: avoid;
-}
-
-.descriptive-box {
-  background-color: #FDF1DC;
-  border: 1px solid #C0AD6A;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  font-style: italic;
-  break-inside: avoid;
-}
-
-.stat-block {
-  background-color: #FDF1DC;
-  border: 1px solid #C0AD6A;
-  padding: 0.5em;
-  margin: 1em 0;
-  break-inside: avoid;
-  font-size: 9pt;
-}
-
-.cover-page {
-  column-span: all;
-  text-align: center;
-  page-break-after: always;
-}
-
-.cover-page h1 {
-  font-size: 48pt;
-  margin-top: 3in;
-  margin-bottom: 0.2em;
-  border: none;
-}
-
-.cover-page .subtitle {
-  font-size: 18pt;
-  color: #58180D;
-  font-style: italic;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  break-inside: avoid;
-}
-`;
 
 // Helper function to process markdown with Homebrewery syntax
 function processHomebreweryMarkdown(content) {
   // Replace \page with page break marker
-  content = content.replace(/\\page/g, '\n\n<div class="page-break"></div>\n\n');
+  content = content.replace(/\\page\s*/g, '\n\n<div class="phb-page-break"></div>\n\n');
   
   // Replace \column with column break marker
-  content = content.replace(/\\column/g, '\n\n<div class="column-break"></div>\n\n');
+  content = content.replace(/\\column\s*/g, '\n\n<div class="phb-column-break"></div>\n\n');
   
-  // Replace : spacing markers
-  content = content.replace(/\n:\n/g, '\n\n<div style="height: 0.5em;"></div>\n\n');
-  content = content.replace(/\n::\n/g, '\n\n<div style="height: 1em;"></div>\n\n');
+  // Replace vertical spacing markers
+  content = content.replace(/\n:\s*\n/g, '\n\n<div class="phb-spacing"></div>\n\n');
+  content = content.replace(/\n::\s*\n/g, '\n\n<div class="phb-spacing-wide"></div>\n\n');
   
-  // Process {{note}} blocks
-  content = content.replace(/\{\{note\s*\n([\s\S]*?)\}\}/g, (match, inner) => {
-    return `\n\n<div class="note-box">\n\n${inner}\n\n</div>\n\n`;
+  // Process {{note}} blocks - make trailing newline optional for backward compatibility
+  content = content.replace(/\{\{note\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
+    return `\n\n<div class="phb-note-block">\n\n${inner}\n\n</div>\n\n`;
   });
   
-  // Process {{descriptive}} blocks
-  content = content.replace(/\{\{descriptive\s*\n([\s\S]*?)\}\}/g, (match, inner) => {
-    return `\n\n<div class="descriptive-box">\n\n${inner}\n\n</div>\n\n`;
+  // Process {{descriptive}} blocks - make trailing newline optional
+  content = content.replace(/\{\{descriptive\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
+    return `\n\n<div class="phb-descriptive-block">\n\n${inner}\n\n</div>\n\n`;
   });
   
-  // Process {{wide}} blocks (for tables spanning columns)
-  content = content.replace(/\{\{wide\s*\n([\s\S]*?)\}\}/g, (match, inner) => {
-    return `\n\n<div style="column-span: all;">\n\n${inner}\n\n</div>\n\n`;
+  // Process {{wide}} blocks (for tables spanning columns) - make trailing newline optional
+  content = content.replace(/\{\{wide\s*\n([\s\S]*?)\n?\}\}/g, (match, inner) => {
+    return `\n\n<div class="phb-wide-block">\n\n${inner}\n\n</div>\n\n`;
+  });
+  
+  // Process {{monster}} blocks - sanitize frame parameter and make trailing newline optional
+  content = content.replace(/\{\{monster,?\s*(.*?)\s*\n([\s\S]*?)\n?\}\}/g, (match, frame, inner) => {
+    // Sanitize frame to only allow alphanumeric, hyphens, and underscores
+    const sanitizedFrame = frame ? frame.replace(/[^a-zA-Z0-9_-]/g, '') : '';
+    const frameClass = sanitizedFrame ? ` phb-monster-${sanitizedFrame}` : '';
+    return `\n\n<div class="phb-monster-block${frameClass}">\n\n${inner}\n\n</div>\n\n`;
   });
   
   // Remove {{pageNumber}} and {{footnote}} markers (not supported in PDF generation)
-  // Limit match length to prevent performance issues with malformed input
   content = content.replace(/\{\{pageNumber[^}]{0,100}\}\}/g, '');
   content = content.replace(/\{\{footnote[^}]{0,200}\}\}/g, '');
   
@@ -240,7 +131,6 @@ async function processFiles(files, buildDir, combinedMarkdown) {
       combinedMarkdown += content + '\n\n';
       
       // Add page break between files if this is not the last file
-      // This prevents very long concatenated sections
       if (i < files.length - 1) {
         combinedMarkdown += `\\page\n\n`;
       }
@@ -300,9 +190,83 @@ async function buildBook(tocFile, outputName) {
   // Process Homebrewery syntax
   const processedMarkdown = processHomebreweryMarkdown(combinedMarkdown);
   
-  // Convert to HTML
-  const htmlContent = md.render(processedMarkdown);
+  // Convert to HTML using marked
+  const htmlContent = marked(processedMarkdown);
   
+  // Load official Homebrewery CSS
+  console.log('  Loading Homebrewery stylesheet...');
+  const homebreweryCss = await loadHomebreweryCss();
+  
+  // Additional CSS to support our special classes and improve PDF rendering
+  const additionalCss = `
+/* Additional styles for better PDF rendering */
+.phb-page-break {
+  page-break-before: always;
+  break-before: page;
+}
+
+.phb-column-break {
+  break-after: column;
+  column-span: none;
+}
+
+.phb-spacing {
+  height: 0.5em;
+}
+
+.phb-spacing-wide {
+  height: 1em;
+}
+
+.phb-note-block {
+  background-color: #e0e5c1;
+  border: 2px solid #c0ad6a;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  break-inside: avoid;
+}
+
+.phb-descriptive-block {
+  background-color: #fdf1dc;
+  border: 1px solid #c0ad6a;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-style: italic;
+  break-inside: avoid;
+}
+
+.phb-wide-block {
+  column-span: all;
+}
+
+.phb-monster-block {
+  background-color: #fdf1dc;
+  border: 1px solid #c0ad6a;
+  padding: 0.5em;
+  margin: 1em 0;
+  break-inside: avoid;
+}
+
+/* Cover page styling */
+.phb-cover {
+  column-span: all;
+  text-align: center;
+  page-break-after: always;
+}
+
+.phb-cover h1 {
+  font-size: 48pt;
+  margin-top: 3in;
+  margin-bottom: 0.2em;
+  border: none;
+}
+
+.phb-cover .subtitle {
+  font-size: 18pt;
+  font-style: italic;
+}
+`;
+
   const fullHtml = `
 <!DOCTYPE html>
 <html>
@@ -310,11 +274,12 @@ async function buildBook(tocFile, outputName) {
   <meta charset="utf-8">
   <title>${toc.title}</title>
   <style>
-${HOMEBREWERY_CSS}
+${homebreweryCss}
+${additionalCss}
   </style>
 </head>
 <body>
-  <div class="cover-page">
+  <div class="phb-cover">
     <h1>${toc.title}</h1>
     <div class="subtitle">${toc.subtitle}</div>
   </div>
@@ -328,7 +293,7 @@ ${htmlContent}
   console.log(`  Saved HTML: ${htmlPath}`);
   
   // Convert to PDF using Puppeteer
-  console.log(`  Generating PDF...`);
+  console.log(`  Generating PDF with Homebrewery styling...`);
   const browser = await puppeteer.launch({
     headless: 'new',
     args: ['--no-sandbox', '--disable-setuid-sandbox']
@@ -380,7 +345,7 @@ async function main() {
       );
     }
     
-    console.log('\n✓ Build complete!');
+    console.log('\n✓ Build complete! PDFs now use official Homebrewery styling.');
   } catch (error) {
     console.error('Build failed:', error);
     process.exit(1);
