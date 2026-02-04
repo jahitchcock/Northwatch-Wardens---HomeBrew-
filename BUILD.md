@@ -109,13 +109,17 @@ The build script (`build.js`) performs the following steps:
 
 ### 4. Homebrewery Styling
 
-The build system includes embedded CSS that provides D&D 5e-style formatting:
-- Two-column layout
-- D&D-style fonts and colors
+The build system uses the **official Homebrewery PHB stylesheet** from the [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery) project, providing authentic D&D 5e Player's Handbook styling:
+- Two-column layout with authentic PHB formatting
+- D&D-style fonts including Bookinsanity (with embedded font data)
+- Authentic PHB colors and parchment background
 - Proper page breaks and column breaks
 - Styled note boxes and descriptive text
-- Table formatting
+- Table formatting matching the PHB
 - Stat block styling
+- Monster stat blocks with frames
+
+The stylesheet (`homebrewery-phb.css`) is included in the repository. If it's missing, the build system will automatically download it from the official Homebrewery repository.
 
 ### 5. Special Syntax Support
 
@@ -128,6 +132,7 @@ The following Homebrewery syntax is supported:
 - `{{note}}...{{}}` - Note/callout boxes
 - `{{descriptive}}...{{}}` - Read-aloud text boxes
 - `{{wide}}...{{}}` - Full-width content (spanning columns)
+- `{{monster}}...{{}}` - Monster stat blocks
 
 ## Customizing the Build
 
@@ -159,12 +164,14 @@ Simply rearrange the sections and files in the TOC JSON files.
 
 ### Modifying Styling
 
-The CSS styling is embedded in `build.js` in the `HOMEBREWERY_CSS` constant. You can modify:
-- Fonts and font sizes
-- Colors
-- Margins and spacing
-- Layout (column count, column gap)
-- Page size and margins
+The official Homebrewery PHB stylesheet is loaded from `homebrewery-phb.css`. This file contains the authentic Player's Handbook styling from [naturalcrit/homebrewery](https://github.com/naturalcrit/homebrewery).
+
+If you need to add custom styles without modifying the official stylesheet:
+1. Edit the `additionalCss` section in `build.js`
+2. Add your custom CSS rules there
+3. These will be applied after the official Homebrewery styles
+
+**Note**: Modifying the official `homebrewery-phb.css` directly is not recommended, as it will be overwritten if the build system re-downloads it.
 
 ## Troubleshooting
 
