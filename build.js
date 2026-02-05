@@ -244,22 +244,24 @@ ${htmlContent}
   
   // Wait additional time for the browser to fully render and calculate layout
   // This is especially important for large documents with complex CSS like Homebrewery
+  // A fixed delay is used since the document size varies greatly (100-250+ pages)
+  // and waiting for specific elements would be unreliable across different content
   console.log(`  Waiting for page layout to complete...`);
-  await new Promise(resolve => setTimeout(resolve, 5000));  // Wait 5 seconds for rendering to complete
+  await new Promise(resolve => setTimeout(resolve, 5000));  // 5 seconds for layout stabilization
   
   const pdfPath = path.join(buildDir, `${outputName}.pdf`);
   await page.pdf({
     path: pdfPath,
     format: 'Letter',
     printBackground: true,
-    preferCSSPageSize: false,  // Use the format option instead of CSS @page
+    preferCSSPageSize: false,  // Use format option to avoid conflicts with Homebrewery @page rules
     margin: {
       top: '0.5in',
       right: '0.75in',
       bottom: '0.5in',
       left: '0.75in'
     },
-    timeout: 120000  // 2 minute timeout for PDF generation
+    timeout: 120000  // 2 minute timeout for PDF generation of large documents
   });
   
   await browser.close();
