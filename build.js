@@ -177,6 +177,21 @@ async function buildBook(tocFile, outputName) {
   font-size: 18pt;
   font-style: italic;
 }
+
+/* Critical fix for Puppeteer PDF generation with Homebrewery multi-column layouts
+ * The Homebrewery .phb class uses column-fill:auto which causes Puppeteer to 
+ * stop rendering after a few pages. Disable columns completely for PDF.
+ * Apply directly without @media print since Puppeteer may not respect it.
+ * Also fix overflow:hidden and height constraints that clip content.
+ */
+.phb {
+  column-count: 1 !important;
+  -webkit-column-count: 1 !important;
+  -moz-column-count: 1 !important;
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
 `;
 
   const fullHtml = `
@@ -214,19 +229,37 @@ ${htmlContent}
   });
   
   const page = await browser.newPage();
-  await page.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
+  
+  // Set a larger viewport to ensure proper layout calculation
+  await page.setViewport({ width: 1200, height: 1600 });
+  
+  // Emulate print media to ensure CSS @media print rules are applied
+  await page.emulateMediaType('print');
+  
+  // Increase timeout for large documents and wait for network to be idle
+  await page.goto(`file://${htmlPath}`, { 
+    waitUntil: 'networkidle0',
+    timeout: 60000  // 60 second timeout for large documents
+  });
+  
+  // Wait additional time for the browser to fully render and calculate layout
+  // This is especially important for large documents with complex CSS like Homebrewery
+  console.log(`  Waiting for page layout to complete...`);
+  await new Promise(resolve => setTimeout(resolve, 5000));  // Wait 5 seconds for rendering to complete
   
   const pdfPath = path.join(buildDir, `${outputName}.pdf`);
   await page.pdf({
     path: pdfPath,
     format: 'Letter',
     printBackground: true,
+    preferCSSPageSize: false,  // Use the format option instead of CSS @page
     margin: {
       top: '0.5in',
       right: '0.75in',
       bottom: '0.5in',
       left: '0.75in'
-    }
+    },
+    timeout: 120000  // 2 minute timeout for PDF generation
   });
   
   await browser.close();
