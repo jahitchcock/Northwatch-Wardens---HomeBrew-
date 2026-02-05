@@ -68,7 +68,7 @@ async function loadHomebreweryCss() {
 }
 
 // Helper function to normalize page breaks at the end of content
-// Ensures exactly one \page at the end, removing any duplicates
+// Removes any \page directives at the end to prevent duplicates
 function normalizePageBreak(content) {
   // Trim trailing whitespace
   let normalized = content.trimEnd();
@@ -79,9 +79,6 @@ function normalizePageBreak(content) {
   
   // Trim again after removing page breaks
   normalized = normalized.trimEnd();
-  
-  // Add exactly one \page at the end
-  normalized += '\n\n\\page';
   
   return normalized;
 }
@@ -95,10 +92,15 @@ async function processFiles(files, buildDir, combinedMarkdown) {
       console.log(`    Adding: ${file}`);
       let content = await fs.readFile(filePath, 'utf-8');
       
-      // Normalize the content to ensure exactly one \page at the end
+      // Normalize the content to remove any trailing \page directives
       content = normalizePageBreak(content);
       
       combinedMarkdown += content + '\n\n';
+      
+      // Add page break between files (except after the last file)
+      if (i < files.length - 1) {
+        combinedMarkdown += `\\page\n\n`;
+      }
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -142,10 +144,15 @@ async function buildBook(tocFile, outputName) {
     
     // Handle subsections if present
     if (section.subsections) {
-      for (const subsection of section.subsections) {
+      for (let j = 0; j < section.subsections.length; j++) {
+        const subsection = section.subsections[j];
         combinedMarkdown += `## ${subsection.title}\n\n`;
         combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
-        // No need to add \page here - processFiles ensures each file ends with \page
+        
+        // Add page break between subsections (except after the last one)
+        if (j < section.subsections.length - 1) {
+          combinedMarkdown += `\\page\n\n`;
+        }
       }
     } else if (section.files) {
       // Regular files
