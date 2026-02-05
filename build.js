@@ -207,6 +207,7 @@ async function buildBook(tocFile, outputName) {
   margin-top: 3in;
   margin-bottom: 0.2em;
   border: none;
+  page-break-before: auto;
 }
 
 .phb-cover .subtitle {
@@ -216,8 +217,8 @@ async function buildBook(tocFile, outputName) {
 
 /* Fix for Puppeteer PDF generation with Homebrewery styling
  * Remove the overflow:hidden constraint that clips content
- * Keep the height auto for proper page flow in PDF
- * The page breaks will be controlled by .pagebreak divs
+ * Keep height auto for proper page flow in PDF
+ * Page breaks are controlled by .pagebreak divs
  */
 .phb {
   overflow: visible !important;
@@ -225,12 +226,7 @@ async function buildBook(tocFile, outputName) {
   max-height: none !important;
 }
 
-/* Ensure content respects page breaks */
-.phb > * {
-  page-break-inside: avoid;
-}
-
-/* Headings should stay with following content */
+/* Headings should stay with following content when possible */
 h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
   break-after: avoid-page;
@@ -244,62 +240,8 @@ h1, h2, h3, h4, h5, h6 {
   <meta charset="utf-8">
   <title>${toc.title}</title>
   <style>
-/* Minimal CSS for testing - Homebrewery CSS removed temporarily */
-@page {
-  size: Letter;
-  margin: 0.5in;
-}
-
-body {
-  font-family: "Times New Roman", serif;
-  font-size: 12pt;
-  line-height: 1.6;
-}
-
-.pagebreak {
-  page-break-before: always !important;
-  break-before: page !important;
-  display: block;
-  height: 0;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: 24pt;
-  margin-top: 12pt;
-  margin-bottom: 6pt;
-  page-break-before: always;
-}
-
-h2 {
-  font-size: 18pt;
-  margin-top: 10pt;
-  margin-bottom: 5pt;
-}
-
-h3 {
-  font-size: 14pt;
-  margin-top: 8pt;
-  margin-bottom: 4pt;
-}
-
-.phb-cover {
-  text-align: center;
-  page-break-after: always;
-}
-
-.phb-cover h1 {
-  font-size: 36pt;
-  margin-top: 200pt;
-  margin-bottom: 10pt;
-  page-break-before: auto;
-}
-
-.phb-cover .subtitle {
-  font-size: 16pt;
-  font-style: italic;
-}
+${homebreweryCss}
+${additionalCss}
   </style>
 </head>
 <body class="phb">
