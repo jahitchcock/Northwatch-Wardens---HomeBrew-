@@ -178,16 +178,12 @@ async function buildBook(tocFile, outputName) {
   font-style: italic;
 }
 
-/* Critical fix for Puppeteer PDF generation with Homebrewery multi-column layouts
- * The Homebrewery .phb class uses column-fill:auto which causes Puppeteer to 
- * stop rendering after a few pages. Disable columns completely for PDF.
- * Apply directly without @media print since Puppeteer may not respect it.
- * Also fix overflow:hidden and height constraints that clip content.
+/* Critical fix for Puppeteer PDF generation with Homebrewery styling
+ * The Homebrewery .phb class uses overflow:hidden and fixed height which clips
+ * content in Puppeteer's PDF rendering. Override these properties while keeping
+ * the 2-column layout to maintain the D&D look and feel.
  */
 .phb {
-  column-count: 1 !important;
-  -webkit-column-count: 1 !important;
-  -moz-column-count: 1 !important;
   overflow: visible !important;
   height: auto !important;
   max-height: none !important;
