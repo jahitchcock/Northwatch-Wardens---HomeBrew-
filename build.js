@@ -74,7 +74,7 @@ function normalizePageBreak(content) {
   let normalized = content.trimEnd();
   
   // Remove any existing \page directives at the end (including duplicates)
-  // This regex matches one or more \page followed by optional whitespace at the end
+  // The + quantifier handles multiple consecutive page breaks (e.g., \page\n\page\n\page)
   normalized = normalized.replace(/(\\page\s*)+$/, '');
   
   // Trim again after removing page breaks

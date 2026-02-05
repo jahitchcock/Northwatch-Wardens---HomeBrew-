@@ -37,13 +37,13 @@ async function verifyBuild(mdFile) {
           if (lines[j].trim() === '') continue; // Skip empty lines
           if (lines[j].trim() === '\\page') {
             console.error(`  Lines ${i+1}-${j+1}: Duplicate found`);
-            console.error(`    ${i}: ${lines[i-1] || '(start)'}`);
+            console.error(`    ${i}: ${i > 0 ? lines[i-1] : '(start)'}`);
             console.error(`    ${i+1}: ${lines[i]}`);
             for (let k = i+1; k < j; k++) {
               console.error(`    ${k+1}: ${lines[k]}`);
             }
             console.error(`    ${j+1}: ${lines[j]}`);
-            console.error(`    ${j+2}: ${lines[j+1] || '(end)'}`);
+            console.error(`    ${j+2}: ${j+1 < lines.length ? lines[j+1] : '(end)'}`);
             foundCount++;
             break;
           } else {
