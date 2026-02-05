@@ -170,10 +170,20 @@ async function buildBook(tocFile, outputName) {
   
   // Additional CSS to support our special classes and improve PDF rendering
   const additionalCss = `
+/* @page rules for PDF generation */
+@page {
+  size: Letter;
+  margin: 0;
+}
+
 /* Additional styles for better PDF rendering */
 .pagebreak {
-  page-break-before: always;
-  break-before: page;
+  page-break-before: always !important;
+  break-before: page !important;
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .columnSplit {
@@ -204,15 +214,26 @@ async function buildBook(tocFile, outputName) {
   font-style: italic;
 }
 
-/* Critical fix for Puppeteer PDF generation with Homebrewery styling
- * The Homebrewery .phb class uses overflow:hidden and fixed height which clips
- * content in Puppeteer's PDF rendering. Override these properties while keeping
- * the 2-column layout to maintain the D&D look and feel.
+/* Fix for Puppeteer PDF generation with Homebrewery styling
+ * Remove the overflow:hidden constraint that clips content
+ * Keep the height auto for proper page flow in PDF
+ * The page breaks will be controlled by .pagebreak divs
  */
 .phb {
   overflow: visible !important;
   height: auto !important;
   max-height: none !important;
+}
+
+/* Ensure content respects page breaks */
+.phb > * {
+  page-break-inside: avoid;
+}
+
+/* Headings should stay with following content */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+  break-after: avoid-page;
 }
 `;
 
@@ -223,18 +244,70 @@ async function buildBook(tocFile, outputName) {
   <meta charset="utf-8">
   <title>${toc.title}</title>
   <style>
-${homebreweryCss}
-${additionalCss}
+/* Minimal CSS for testing - Homebrewery CSS removed temporarily */
+@page {
+  size: Letter;
+  margin: 0.5in;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.6;
+}
+
+.pagebreak {
+  page-break-before: always !important;
+  break-before: page !important;
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  margin-top: 12pt;
+  margin-bottom: 6pt;
+  page-break-before: always;
+}
+
+h2 {
+  font-size: 18pt;
+  margin-top: 10pt;
+  margin-bottom: 5pt;
+}
+
+h3 {
+  font-size: 14pt;
+  margin-top: 8pt;
+  margin-bottom: 4pt;
+}
+
+.phb-cover {
+  text-align: center;
+  page-break-after: always;
+}
+
+.phb-cover h1 {
+  font-size: 36pt;
+  margin-top: 200pt;
+  margin-bottom: 10pt;
+  page-break-before: auto;
+}
+
+.phb-cover .subtitle {
+  font-size: 16pt;
+  font-style: italic;
+}
   </style>
 </head>
-<body>
-  <div class="phb">
+<body class="phb">
     <div class="phb-cover">
       <h1>${toc.title}</h1>
       <div class="subtitle">${toc.subtitle}</div>
     </div>
 ${htmlContent}
-  </div>
 </body>
 </html>
   `;
