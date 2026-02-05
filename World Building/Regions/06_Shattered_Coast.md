@@ -1,12 +1,13 @@
-# 🌊 THE SHATTERED COAST — MARITIME FRONTIER OF WRECKS AND WHISPERS
+# THE SHATTERED COAST 
 
-**Theme:** Shipwrecks, maritime trade, artifact trafficking  
-**Tone:** Treacherous, mysterious, profitable  
-**Role in the World:** Primary distribution point for oceanic artifact fragments
+Maritime Frontier of Wrecks & Whispers
+
+::**Theme:** Shipwrecks, maritime trade, artifact trafficking  
+::**Tone:** Treacherous, mysterious, profitable  
 
 ---
 
-## Player-Safe Summary
+## Summary
 
 The Shattered Coast is a treacherous stretch of shoreline along Aevoria's western edge, where jagged reefs, unpredictable tides, and storm-torn cliffs have claimed countless ships. Sailors say the coast is cursed — that the sea itself hungers for vessels, dragging them into the depths to join the graveyard of wrecks below.
 
@@ -24,8 +25,6 @@ Those who don't rarely return.
 
 ---
 
-\page
-
 ## Geography & Climate
 
 The Shattered Coast spans hundreds of miles of rugged shoreline.
@@ -33,19 +32,17 @@ The Shattered Coast spans hundreds of miles of rugged shoreline.
 ### Key Features
 
 **The Razor Reefs**  
-A maze of stone spires just beneath the waves. These jagged formations have shredded countless hulls. Navigating them requires local knowledge — or luck.
-
+A maze of stone spires just beneath the waves. These jagged formations have shredded countless hulls. Navigating them requires local knowledge — or luck.  
 **Stormfall Cliffs**  
-Towering cliffs battered by constant storms. The cliffs are home to seabird colonies and hidden smuggler caves. Legends speak of ancient fortresses carved into the rock face.
-
+Towering cliffs battered by constant storms. The cliffs are home to seabird colonies and hidden smuggler caves. Legends speak of ancient fortresses carved into the rock face.  
 **The Drowned Forest**  
-A coastal woodland half-submerged by rising tides. Dead trees stand like skeletal sentinels in the shallows. Strange lights are sometimes seen flickering between the trunks at night.
-
-**The Gravewater Trench**  
-A deep ocean rift filled with shipwrecks. Divers speak of impossible structures far below — geometric shapes that don't match any known architecture.
-
+A coastal woodland half-submerged by rising tides. Dead trees stand like skeletal sentinels in the shallows. Strange lights are sometimes seen flickering between the trunks at night.  
+**The Gravewater Trench**    
+A deep ocean rift filled with shipwrecks. Divers speak of impossible structures far below — geometric shapes that don't match any known architecture.  
 **The Lantern Isles**  
 Scattered islands used by smugglers and pirates. Each island has its own reputation: some are safe havens, others are death traps.
+
+\column
 
 ### Climate
 
@@ -53,60 +50,53 @@ The climate is stormy year-round, with violent squalls that appear without warni
 
 ---
 
-\page
-
 ## Major Settlements
 
 ### 1. Breakwater Haven
 
-A fortified port town built atop an ancient breakwater.
-
+A fortified port town built atop an ancient breakwater.  
 **Known for:**
 - Master shipwrights who can repair any vessel  
 - Salvage guilds that organize deep-water expeditions  
 - Storm-priests who offer blessings for safe passage  
 - A thriving black-market dockside where anything can be bought  
 
-Breakwater Haven is the safest place to resupply — and the most dangerous place to ask the wrong questions.
-
+Breakwater Haven is the safest place to resupply — and the most dangerous place to ask the wrong questions.  
 **Population:** ~2,500  
 **Government:** Council of Harbor Masters  
 **Defenses:** Stone walls, harbor chain, militia
 
 ### 2. Tide's Rest
 
-A fishing village perched on stilts above the shallows.
-
+A fishing village perched on stilts above the shallows.  
 **Known for:**
 - Reclusive druids who commune with the sea  
 - Eerie tide-chants sung at dawn and dusk  
 - Uncanny ability to predict storms days in advance  
 
-Locals claim the sea "speaks" to them. Outsiders aren't sure whether to believe them — but the village has never lost a boat to unexpected weather.
-
+Locals claim the sea "speaks" to them. Outsiders aren't sure whether to believe them — but the village has never lost a boat to unexpected weather.  
 **Population:** ~400  
 **Government:** Elder Circle  
 **Atmosphere:** Isolated, spiritual, wary of outsiders
 
+\page
+
 ### 3. Corsair's Refuge
 
-A hidden pirate port used by the Blackwake Corsairs of Vharoxis.
-
+A hidden pirate port used by the Blackwake Corsairs of Vharoxis.  
 **Known for:**
 - Complete lawlessness outside Corsair-enforced rules  
 - Ship refits and repairs at competitive prices  
 - Smuggled relics and contraband from across the world  
 - Taverns where sailors gamble with secrets instead of coin  
 
-The Refuge is the beating heart of the coast's criminal underbelly. If you need something illegal, dangerous, or forbidden — this is where you find it.
-
+The Refuge is the beating heart of the coast's criminal underbelly. If you need something illegal, dangerous, or forbidden — this is where you find it.  
 **Population:** ~800 (fluctuates with ship traffic)  
 **Government:** Captain's Council (Corsair leadership)  
 **Entry:** Invitation only or Corsair escort required
 
 ---
-
-\page
+::
 
 ## Culture & Society
 
@@ -144,7 +134,7 @@ Salvage is a way of life. Every storm brings new opportunities — and new horro
 
 ---
 
-\page
+\column
 
 ## Magic
 
@@ -217,7 +207,7 @@ Sailors are divided:
 
 ---
 
-\page
+::
 
 ## Relations with Other Regions
 
@@ -225,8 +215,7 @@ Sailors are divided:
 
 **Status:** Trade partners with growing concerns
 
-Solaris relies on coastal shipping for luxury goods and international trade. The increasing dangers threaten their economy.
-
+Solaris relies on coastal shipping for luxury goods and international trade. The increasing dangers threaten their economy.  
 **Current Actions:**
 - Sending naval patrols to protect merchant vessels  
 - Offering bounties for investigating anomalies  
@@ -237,8 +226,7 @@ Solaris relies on coastal shipping for luxury goods and international trade. The
 
 **Status:** Deeply entangled
 
-The coast is the primary smuggling route into the outlaw city. The Blackwake Corsairs serve as Vharoxis's de facto navy.
-
+The coast is the primary smuggling route into the outlaw city. The Blackwake Corsairs serve as Vharoxis's de facto navy.  
 **Current Actions:**
 - Artifact trafficking booming  
 - Salvage operations expanding  
@@ -249,8 +237,7 @@ The coast is the primary smuggling route into the outlaw city. The Blackwake Cor
 
 **Status:** Distant
 
-Elves avoid the coast's chaotic magic. They view the ocean as fundamentally incompatible with their forest-based traditions.
-
+Elves avoid the coast's chaotic magic. They view the ocean as fundamentally incompatible with their forest-based traditions.  
 **Current Actions:**
 - Minimal contact  
 - Occasional envoys seeking information  
@@ -260,8 +247,7 @@ Elves avoid the coast's chaotic magic. They view the ocean as fundamentally inco
 
 **Status:** Minimal contact
 
-Dwarves distrust the sea. They prefer mountains and stone to unpredictable waters.
-
+Dwarves distrust the sea. They prefer mountains and stone to unpredictable waters.  
 **Current Actions:**
 - Trade limited to land routes  
 - Some interest in underwater mineral deposits  
@@ -269,8 +255,7 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 
 ### Northreach
 
-**Status:** Connected by northern shipping lanes — now increasingly dangerous
-
+**Status:** Connected by northern shipping lanes — now increasingly dangerous  
 **Current Actions:**
 - Trade disrupted by storms and anomalies  
 - Scholars comparing coastal phenomena to Salsvault events  
@@ -279,40 +264,3 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 
 ---
 
-\page
-
-## Adventure Hooks
-
-### A Relic from the Deep
-
-A shipwreck washes ashore carrying a relic that hums with Echo-energy. Multiple factions want it — Solaris scholars, Vharoxis smugglers, the Blackwake Corsairs, and Tide's Rest druids. The party must decide who gets it — or keep it themselves.
-
-### The Glowing Currents
-
-A storm-priest hires the party to investigate glowing currents beneath the waves. The expedition reveals structures far below — ancient, active, and aware of intruders.
-
-### Diplomatic Disaster
-
-Pirates seize a Solaris diplomat traveling by sea. Multiple factions want them rescued… or silenced. The party must navigate political intrigue while racing against time.
-
-### The Missing Salvage Crew
-
-A salvage crew disappears near the Gravewater Trench. Their last message spoke of "singing" from below. The party is hired to investigate — and discovers something down there is calling to people.
-
-### The Sea Remembers
-
-Tide's Rest druids claim the sea is "remembering something." They hire the party to investigate a specific coastal location where the memories are strongest. What they find suggests the ocean itself has a history — and an agenda.
-
-### Corsair Complications
-
-The party needs passage along the coast. Only the Blackwake Corsairs are willing to sail these dangerous waters — for a price. The price involves a job that's far more dangerous than advertised.
-
-### The Lighthouse Mystery
-
-A lighthouse keeper goes missing, but the light continues to function. Investigation reveals the keeper's journal documenting strange underwater phenomena — and suggestions that something is watching from below.
-
----
-
-*"The sea doesn't forgive. It doesn't forget. And lately, it doesn't sleep."*
-
-— Storm-Priest Veyara of Breakwater Haven

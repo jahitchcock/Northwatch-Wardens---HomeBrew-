@@ -15,9 +15,10 @@ These are the skyline‑temples: big, old, and influential.
 - **Selûne, the Moonmaiden** — Moon, Navigation, Protection, Hope
 - **Lathander, the Morninglord** — Renewal, Birth, Creativity
 
-
->- Pelor and Lathander are often allied in civic rituals (oaths at dawn, renewal after tragedy).
->- Tyr sets the legal tone; Moradin equips the orders; Selûne is the city’s “mercy door” (refuge, repentance, lost travelers).
+{{note
+- Pelor and Lathander are often allied in civic rituals (oaths at dawn, renewal after tragedy).
+- Tyr sets the legal tone; Moradin equips the orders; Selûne is the city’s “mercy door” (refuge, repentance, lost travelers).
+}}
 
 ## 2) The Beacon Triad (local patron gods)
 

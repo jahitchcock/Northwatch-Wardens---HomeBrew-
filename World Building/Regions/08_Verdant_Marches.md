@@ -1,6 +1,6 @@
 # The Verdant Marches
-### Awakened Wilds of Green and Fury
 
+Awakened Wilds of Green and Fury   
 *Where ancient forests breathe and the land speaks in whispers*
 
 ---
@@ -32,7 +32,6 @@ Travelers speak of a land that feels alive in a way it never did before.
 **Key Conflict:** The Green Stirring and its implications for civilization  
 **Aeorian Connection:** Biological resonance field
 
-\page
 
 ## Geography & Climate
 
@@ -46,6 +45,8 @@ An ancient woodland where trees grow impossibly tall, their trunks as wide as ho
 **Terrain:** Dense old-growth forest  
 **Travel:** Difficult terrain; 1 mile per hour  
 **Hazards:** Disorientation, awakened predators, unstable footing
+
+\column
 
 #### The Briarflow Swamps
 Wetlands filled with glowing insects and carnivorous plants, where the boundary between water and land becomes uncertain. At night, the swamps light up with bioluminescent life, creating an ethereal and dangerous beauty.
@@ -68,7 +69,6 @@ Dense brush where voices echo strangely and sounds carry in unnatural ways. Trav
 **Travel:** Difficult terrain  
 **Phenomenon:** Acoustic anomalies, echo effects, voice distortion
 
-\page
 
 #### The Wildheart Basin
 A massive valley believed to be the source of the Green Stirring. The basin is a riot of life—plants grow visibly, animals behave with uncanny coordination, and the very air seems to pulse with primal energy. Druids make pilgrimages here but few venture into its depths.
@@ -86,6 +86,8 @@ The Marches experience warm, rainy conditions year-round—perfect for life to f
 - **Growing Conditions:** Ideal for plant life; everything grows faster here
 
 ---
+
+\page
 
 ## Major Settlements
 
@@ -110,8 +112,6 @@ A fortified frontier town built to keep the wilds at bay. Thornwall's thick wood
 - **The Warning Bell:** Tower that sounds alerts for threats
 
 **Current Status:** The first to feel the Marches' changes; increased wildlife incidents have the town on edge. Hunter patrols report animals acting "too smart."
-
-\page
 
 ### 2. Greenwatch Enclave
 **Population:** ~150 (human, half-elf, firbolg, druid-focused)  
@@ -202,7 +202,6 @@ Primal magic is more common here than anywhere else in Aevoria except perhaps th
 
 This magic is instinctive, emotional, and deeply tied to the land itself. It cannot be learned from books—only through experience and relationship with nature.
 
-\page
 
 ---
 
@@ -288,7 +287,6 @@ Solaris values the Marches for their rare herbs, timber, and exotic beasts, but 
 **Trade Goods:** Rare herbs, alchemical components, trained animals, exotic lumber  
 **Points of Conflict:** Resource exploitation, land rights, treatment of awakened animals
 
-\page
 
 ### Nullwood Expanse
 **Status:** Philosophical kinship but different approaches
@@ -323,66 +321,4 @@ The Aeorian Echo's effects in Northreach feel familiar to Marches druids—the i
 **Cooperation:** Knowledge sharing about the Echo's effects  
 **Concern:** The Green Stirring and the Echo may be linked
 
-\page
-
 ---
-
-## Adventure Hooks
-
-### For Levels 4-5
-1. **Awakened Attacks:** A pack of awakened beasts begins coordinating attacks on Thornwall's outlying farms. Are they organizing for survival, revenge, or something else?
-
-2. **The Speaking Grove:** A Vharoxian poacher is captured trying to sell Echo-touched animals to collectors. He claims to know where they come from—deep in the Briarflow Swamps.
-
-3. **Missing Hunters:** Thornwall's best tracking party vanished while pursuing a creature that "thinks like a person and moves like smoke." Find them before it's too late.
-
-### For Levels 5-6
-4. **The Wildheart Investigation:** The Circle of Elders at Greenwatch seeks aid investigating a new "heartbeat" they sense beneath the Wildheart Basin. What lies under the ground?
-
-5. **Glowing Stones:** A stone circle on the Greenrise Plateau begins glowing after Eclipse Day, and something stirs beneath it. Druids fear to approach but need answers.
-
-6. **Trade Wars:** Mediate between Solaris merchants demanding access to rare timber and Marches druids who claim the trees are now aware enough to be considered people.
-
-### For Levels 6-7
-7. **The Basin Expedition:** Mount a full expedition into the Wildheart Basin to discover the source of the roar heard on Eclipse Day. Prepare for coordinated wildlife resistance.
-
-8. **Mossbarrow's Breach:** Something intelligent and methodical is tunneling toward Mossbarrow from below. The halflings need help before their entire village is compromised.
-
-9. **The First Beast Returns:** Legends speak of the First Beast shaping the land. Some believe it's returning—or that something is using its legend to manipulate the Marches.
-
-\page
-
----
-
-## Using the Verdant Marches in Your Campaign
-
-### Campaign Integration
-The Verdant Marches serve as a mid-tier region where the themes of awakening and transformation explored in Northreach (Wolves of Welton, Frozen Sick) reach a larger scale. While Northreach deals with isolated incidents, the Marches face regional transformation.
-
-### Escalation Path
-- **Early Rumors:** Players hear about strange occurrences in the southern wilderness
-- **First Contact:** Encounter refugees or traders with stories of the Green Stirring
-- **Direct Mission:** Sent to investigate by the Northwatch Wardens or hired by concerned parties
-- **Long-term Involvement:** Return multiple times as the situation evolves
-
-### Thematic Resonance
-The Marches ask fundamental questions:
-- What happens when nature gains intelligence?
-- How do we relate to a land that can think?
-- What rights do awakened animals have?
-- Can civilization and primal wilderness coexist?
-- What is the relationship between the Green Stirring and the Aeorian Echo?
-
-### Tone and Atmosphere
-- **Beauty and danger intertwined**
-- **Primal vitality and uncanny intelligence**
-- **Ancient mysteries surfacing**
-- **Escalating transformation**
-- **Moral ambiguity** (no clear villains or heroes)
-- **Wonder and caution balanced**
-
----
-
-*"The forest is alive. It always was. But now it's waking up—and we don't know if it will recognize us as friends, strangers, or prey."*
-
-— Archdruid Mora Greenleaf of Greenwatch Enclave

@@ -653,3 +653,128 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 *"The stone doesn't lie. But apparently, it doesn't tell the whole truth either."*
 
 — Deep-Reader Borin Stonescript, after his world changed forever
+
+
+\page
+
+
+## Adventure Hooks
+
+- A dwarven rune-singer seeks help investigating a new harmonic anomaly near the Heartstone.
+- A mining crew uncovers a Deep Root formation that begins to glow.
+- A Solaris scholar disappears after entering the Depths without permission.
+- A fragment smuggled from Vharoxis resonates with the Heartstone—dangerously.
+
+### Additional Adventure Seeds
+
+**Mining Mysteries**
+- Miners find strange artifacts in new veins
+- Sealed ancient level accidentally breached
+- Tremors in pattern matching Northreach seismic events
+- Crystal formation spelling out geometric code
+- Something alive in the Forgotten Deeps
+
+**Heartstone Investigation**
+- Deep-Readers need outside perspective
+- Patterns don't match any recorded
+- Request help from surface scholars
+- Foreign powers want access
+- Heartstone showing impossible readings
+- Some readers experiencing visions
+
+**Resonance Magic Gone Wrong**
+- Rune-singer's spell catastrophically amplified
+- Wards failing in specific pattern
+- Ancient enchantments activating spontaneously
+- Forged items developing unexpected properties
+- Communication-stones receiving signals from unknown source
+
+**Political Intrigue**
+- Council divided over interpretation
+- Guild power struggle
+- Clan rivalries exploiting uncertainty
+- Foreign spies infiltrating
+- Vharoxis attempting to steal secrets
+- Succession crisis if situation worsens
+
+**Geological Catastrophe**
+- Increased tremors threatening structural integrity
+- Underground river flooding
+- Toxic gas venting from deep levels
+- Crystal growth becoming dangerous
+- Section of city must be evacuated
+- Ancient wards preventing modern solutions
+
+**Ancient Discoveries**
+- Map found showing unknown levels
+- Records suggesting dwarves didn't build first structures here
+- Evidence civilization existed before them
+- Sealed chamber with impossible contents
+- Truth about "Deep Roots" emerging
+
+
+---
+
+## DM-Only Information
+
+**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are located in:
+
+**`World Building/DMEyesOnly/StoneboundDepths.md`**
+
+This file contains:
+- The hidden truth about the Deep Roots and Heartstone
+- Eclipse Day's real significance
+- Connection to the Aeorian Echo
+- NPC secrets and motivations
+- The Vibration Code
+- Campaign integration by level
+- Adventure seeds and revelation timing
+- Running guidance for this civilization's potential tragedy
+
+---
+
+## Quick Reference
+
+**Key Locations:**
+- Khardûn-Tharum (capital)
+- Heartstone Plaza (artifact core chamber)
+- The Forge-Spiral (resonant forges)
+- Rune-Singers' Hall (magic amphitheater)
+- Deep-Readers' Archive (geological records)
+- Forgotten Deeps (sealed ancient levels)
+
+**Major NPCs:**
+- Forgemaster Grimnar Ironvein (traditionalist leader)
+- Rune-Singer Thalia Deepchant (open-minded mage)
+- Deep-Reader Borin Stonescript (troubled interpreter)
+- Mining Guildmaster Kara Gemcutter (pragmatic)
+- Commander Thorek Shieldbreaker (military)
+
+**Central Conflicts:**
+- Geological interpretation vs. truth
+- Tradition vs. survival
+- Pride vs. adaptation
+- Community vs. evacuation
+- Using Heartstone vs. abandoning it
+
+**Echo Manifestation:**
+- Seismic activity (artifact network)
+- Heartstone humming (core activation)
+- Resonance magic amplified
+- Ancient levels awakening
+- Constructs stirring
+
+**Campaign Role:**
+- Unconscious witnesses to artifact network
+- Potential technology resource
+- Sympathetic civilization at risk
+- Moral complexity of sacrifice
+- Alternative approach to Echo threat
+
+---
+
+\page
+
+*"The stone doesn't lie... but perhaps we've been asking it the wrong questions."*
+
+— Deep-Reader Borin Stonescript, contemplating new seismic patterns

@@ -1,8 +1,9 @@
-# The Emberlands — The Volcanic South
+# The Emberlands 
 
-**Theme:** Fire, rebirth, volcanic fury, primal magic  
-**Tone:** Harsh, dangerous, resilient, unpredictable  
-**Role in the World:** The region where ancient magic manifests as elemental chaos
+T*he Volcanic South*  
+::**Theme:** Fire, rebirth, volcanic fury, primal magic  
+::**Tone:** Harsh, dangerous, resilient, unpredictable  
+::**Role in the World:** The region where ancient magic manifests as elemental chaos
 
 ---
 
@@ -28,19 +29,21 @@ The Emberlands are defined by extremes.
 
 ### Key Features
 
-**Mount Kharzun**  
+##### *Mount Kharzun*
 The largest active volcano in Aevoria, constantly rumbling. Its eruptions shape the region's geography and influence weather patterns across southern Aevoria.
 
-**The Ashen Plains**  
+##### *The Ashen Plains*
 Vast fields of black sand and drifting ash that stretch for hundreds of miles. Visibility is often reduced to mere feet, and navigation requires specialized knowledge or magic.
 
-**The Molten Veins**  
+##### *The Molten Veins*
 Rivers of slow-moving lava that glow at night, creating an eerie orange light across the landscape. Some claim the flows pulse in rhythmic patterns.
 
-**The Emberdeep Canyons**  
+##### *The Emberdeep Canyons*  
 Labyrinthine ravines filled with geothermal vents, hot springs, and toxic gases. Home to unique ecosystems adapted to extreme heat.
 
-**The Fireglass Coast**  
+\column
+
+##### *The Fireglass Coast*  
 Beaches of obsidian and shimmering volcanic glass where the Emberlands meet the sea. The glass formations create haunting musical tones when the wind blows across them.
 
 ### Climate
@@ -51,8 +54,6 @@ The climate is hot, dry, and volatile:
 - Sudden volcanic eruptions alter terrain overnight
 - Toxic gas pockets require constant vigilance
 - The sky often glows red or orange from reflected volcanic light
-
-\page
 
 ---
 
@@ -80,6 +81,8 @@ Cindermarch is a place of constant industry. The sound of hammers on anvils echo
 - **The Obsidian Market** — Trading hub for volcanic goods and rare minerals
 - **The Flame Guard Barracks** — Military headquarters defending against threats
 - **The Endurance Hall** — Cultural center celebrating Emberlands traditions
+
+\page
 
 ### 2. Ashfall Hold
 
@@ -118,8 +121,6 @@ Embertrail is the heart of the region's spiritual life. They maintain ancient tr
 
 **Mobility:**  
 The caravan consists of hundreds of wagons, animals, and portable structures. They follow established routes marked by ancient stone cairns, avoiding the most dangerous zones while accessing resource-rich areas.
-
-\page
 
 ---
 
@@ -160,6 +161,8 @@ Emberlands society values:
 
 ---
 
+\page
+
 ## Magic
 
 Emberlands magic is primal and volatile.
@@ -198,8 +201,6 @@ All Emberlands magic is dangerous:
 - Geomancy can trigger eruptions if mishandled
 - The line between control and catastrophe is thin
 - Since Eclipse Day, magic has become more unpredictable
-
-\page
 
 ---
 
@@ -346,77 +347,3 @@ The Emberlands and Northreach are geographically distant, but rumors of the Aeor
 - Both are investigating unusual magical patterns
 - Potential for collaborative research if contact increases
 
-\page
-
----
-
-## Adventure Hooks
-
-### 1. The Crystal Fissure
-
-**Level:** 5-8  
-**Type:** Investigation, exploration
-
-A new fissure opens in the Ashen Plains, revealing glowing crystals that hum with strange energy. Multiple factions want samples, but the fissure is unstable and guarded by awakened elementals.
-
-**Complications:**
-- The crystals' energy signature resembles reports from Northreach
-- Cultists claim the crystals are "sacred"
-- Taking samples may cause the fissure to collapse
-- The crystals seem to respond to the presence of magic
-
-### 2. The Awakened Flame-Mother
-
-**Level:** 7-10  
-**Type:** Investigation, social conflict
-
-A powerful cult in Cindermarch claims the Flame-Mother has "awakened" and speaks to them. They're gaining followers rapidly and disrupting civic order. The Fire Council hires the party to investigate—are the cultists frauds, genuinely touched by divine power, or something else entirely?
-
-**Complications:**
-- Some cult claims can be verified
-- The cult leader displays genuine magical power
-- Shutting them down could trigger riots
-- They may have information about Eclipse Day events
-
-### 3. Lost in the Deep
-
-**Level:** 8-12  
-**Type:** Rescue, dungeon exploration
-
-A dwarven research team disappeared inside Mount Kharzun's deep tunnels three weeks ago. Ashfall Hold offers substantial payment for their rescue. The party must navigate unstable passages, avoid magma flows, and discover what the researchers found that prevented their return.
-
-**Complications:**
-- The researchers uncovered something they shouldn't have
-- Sections of the mountain are exhibiting impossible geometry
-- Elemental creatures have become unusually aggressive
-- Time is running out before the rescue becomes a recovery
-
-### 4. Embertrail Under Siege
-
-**Level:** 6-9  
-**Type:** Combat, defense
-
-Fire-touched beasts—animals corrupted by volcanic magic—are attacking Embertrail's caravan. The assault is organized and relentless, unlike normal wildlife behavior. The party must defend the caravan, discover what's driving the beasts, and find a solution before Embertrail is destroyed.
-
-**Complications:**
-- The beasts were once normal animals
-- Something is corrupting wildlife across the region
-- Killing the beasts may not address the root cause
-- The phenomenon is spreading
-
-### 5. Ruin in the Lava
-
-**Level:** 10-14  
-**Type:** Exploration, discovery
-
-A major volcanic eruption uncovers ruins of unknown origin buried beneath layers of cooled lava. The architecture doesn't match any known civilization, and the artifacts within radiate powerful magic. Multiple factions race to claim whatever lies within.
-
-**Complications:**
-- The ruin's age predates known history
-- Its design resembles descriptions of Aeorian architecture
-- The magic within is still active—and dangerous
-- Whatever buried the ruin may still be present
-
----
-
-*The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*

@@ -510,3 +510,78 @@ Ultimate outcomes depend on player choices across the campaign:
 ---
 
 *The Emberlands burn because something beneath the stone is waking—and it remembers a world that no longer exists.*
+
+\page
+
+---
+
+## Adventure Hooks
+
+### 1. The Crystal Fissure
+
+**Level:** 5-8  
+**Type:** Investigation, exploration
+
+A new fissure opens in the Ashen Plains, revealing glowing crystals that hum with strange energy. Multiple factions want samples, but the fissure is unstable and guarded by awakened elementals.
+
+**Complications:**
+- The crystals' energy signature resembles reports from Northreach
+- Cultists claim the crystals are "sacred"
+- Taking samples may cause the fissure to collapse
+- The crystals seem to respond to the presence of magic
+
+### 2. The Awakened Flame-Mother
+
+**Level:** 7-10  
+**Type:** Investigation, social conflict
+
+A powerful cult in Cindermarch claims the Flame-Mother has "awakened" and speaks to them. They're gaining followers rapidly and disrupting civic order. The Fire Council hires the party to investigate—are the cultists frauds, genuinely touched by divine power, or something else entirely?
+
+**Complications:**
+- Some cult claims can be verified
+- The cult leader displays genuine magical power
+- Shutting them down could trigger riots
+- They may have information about Eclipse Day events
+
+### 3. Lost in the Deep
+
+**Level:** 8-12  
+**Type:** Rescue, dungeon exploration
+
+A dwarven research team disappeared inside Mount Kharzun's deep tunnels three weeks ago. Ashfall Hold offers substantial payment for their rescue. The party must navigate unstable passages, avoid magma flows, and discover what the researchers found that prevented their return.
+
+**Complications:**
+- The researchers uncovered something they shouldn't have
+- Sections of the mountain are exhibiting impossible geometry
+- Elemental creatures have become unusually aggressive
+- Time is running out before the rescue becomes a recovery
+
+### 4. Embertrail Under Siege
+
+**Level:** 6-9  
+**Type:** Combat, defense
+
+Fire-touched beasts—animals corrupted by volcanic magic—are attacking Embertrail's caravan. The assault is organized and relentless, unlike normal wildlife behavior. The party must defend the caravan, discover what's driving the beasts, and find a solution before Embertrail is destroyed.
+
+**Complications:**
+- The beasts were once normal animals
+- Something is corrupting wildlife across the region
+- Killing the beasts may not address the root cause
+- The phenomenon is spreading
+
+### 5. Ruin in the Lava
+
+**Level:** 10-14  
+**Type:** Exploration, discovery
+
+A major volcanic eruption uncovers ruins of unknown origin buried beneath layers of cooled lava. The architecture doesn't match any known civilization, and the artifacts within radiate powerful magic. Multiple factions race to claim whatever lies within.
+
+**Complications:**
+- The ruin's age predates known history
+- Its design resembles descriptions of Aeorian architecture
+- The magic within is still active—and dangerous
+- Whatever buried the ruin may still be present
+
+---
+
+*The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*

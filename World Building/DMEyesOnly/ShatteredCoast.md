@@ -349,3 +349,42 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 *"The sea remembers. The sea awakens. And the sea has plans we do not understand."*
 
 — Elder Torwin of Tide's Rest, to the Northwatch Wardens
+
+
+\page
+
+## Adventure Hooks
+
+### A Relic from the Deep
+
+A shipwreck washes ashore carrying a relic that hums with Echo-energy. Multiple factions want it — Solaris scholars, Vharoxis smugglers, the Blackwake Corsairs, and Tide's Rest druids. The party must decide who gets it — or keep it themselves.
+
+### The Glowing Currents
+
+A storm-priest hires the party to investigate glowing currents beneath the waves. The expedition reveals structures far below — ancient, active, and aware of intruders.
+
+### Diplomatic Disaster
+
+Pirates seize a Solaris diplomat traveling by sea. Multiple factions want them rescued… or silenced. The party must navigate political intrigue while racing against time.
+
+### The Missing Salvage Crew
+
+A salvage crew disappears near the Gravewater Trench. Their last message spoke of "singing" from below. The party is hired to investigate — and discovers something down there is calling to people.
+
+### The Sea Remembers
+
+Tide's Rest druids claim the sea is "remembering something." They hire the party to investigate a specific coastal location where the memories are strongest. What they find suggests the ocean itself has a history — and an agenda.
+
+### Corsair Complications
+
+The party needs passage along the coast. Only the Blackwake Corsairs are willing to sail these dangerous waters — for a price. The price involves a job that's far more dangerous than advertised.
+
+### The Lighthouse Mystery
+
+A lighthouse keeper goes missing, but the light continues to function. Investigation reveals the keeper's journal documenting strange underwater phenomena — and suggestions that something is watching from below.
+
+---
+
+*"The sea doesn't forgive. It doesn't forget. And lately, it doesn't sleep."*
+
+— Storm-Priest Veyara of Breakwater Haven

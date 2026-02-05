@@ -1,18 +1,19 @@
-# The Nullwood Expanse — The Elven Kingdom
+# The Nullwood Expanse 
 
-**Theme:** Magical silence, curated memory, ancient fear  
+The Elven Kingdom
+
+::**Theme:** Magical silence, curated memory, ancient fear  
 **Tone:** Serene, introspective, unsettling  
-**Role in the World:** The world's forgotten memory; ancient refuge from a danger no longer remembered
 
 ---
 
-## Player-Safe Summary
+## Summary
 
 The Nullwood Expanse is an ancient elven kingdom hidden within a vast forest where magic feels strangely muted. Travelers describe the region as unnervingly quiet—not lifeless, but calm, as if the land itself is holding its breath.
 
 The elves who dwell here, known as the Nullwood Elves, are a people shaped by caution, memory, and an old fear they no longer fully understand. Their magic is subtle and disciplined, their architecture grown rather than built, and their society structured around emotional balance and the preservation of harmony.
 
-**The Nullwood is known for:**
+::**The Nullwood is known for:**
 - Forests where sound seems softened
 - Shimmering, pale-barked trees that sway without wind
 - Elven cities grown from living wood
@@ -35,22 +36,23 @@ The Nullwood spans a massive temperate forest in central Aevoria, bordered by So
 
 ### Key Features
 
-**The Quiet Canopy**  
+::**The Quiet Canopy**  
 Towering trees whose leaves absorb sound, creating an atmosphere of perpetual calm.
 
-**The Stillgrove**  
+::**The Stillgrove**  
 A region where magic feels dampened, even suppressed. Spells still work, but with muted intensity.
 
-**The Silverflow River**  
+::**The Silverflow River**  
 A slow, reflective river that winds through the kingdom, its surface like polished glass.
 
-**The Veilwood Border**  
+::**The Veilwood Border**
 Patrolled by elven scouts who monitor magical disturbances and watch for threats from beyond the forest.
+
 ---
+:::
+## Capital City: 
 
-\page
-
-## Capital City: Vaeltharyn, the Quiet Crown
+#### Vaeltharyn, the Quiet Crown
 
 Vaeltharyn is a breathtaking city grown from the living forest itself. Its structures are shaped over decades through careful magic and botanical guidance.
 
@@ -61,19 +63,20 @@ Vaeltharyn is a breathtaking city grown from the living forest itself. Its struc
 
 ### Notable Districts
 
-**The Whispering Canopy**  
+::**The Whispering Canopy**  
 Elevated walkways and homes woven through the treetops. Gardens suspended in air, with soft natural light filtering through leaves.
 
-**The Stillwater Mirror**  
+::**The Stillwater Mirror**  
 A perfectly calm lake at the city's heart. It never ripples except in great disturbance and reflects the sky with unsettling clarity. Site of memory rituals sacred to elven culture.
 
-**The Memory Courts**  
+::**The Memory Courts**  
 Plazas where elves perform emotional and mnemonic rituals. Circular stone clearings used for ceremonies that maintain cultural clarity.
 
-**The Veilwatch Spires**  
+::**The Veilwatch Spires**  
 Towers used to monitor magical disturbances beyond the Nullwood. Scouts stationed here log distant events they don't fully understand.
 
 The city feels serene, timeless, and faintly melancholic.
+
 ---
 
 \page
@@ -91,37 +94,41 @@ The elves maintain curated histories, pruning memories they believe harmful or d
 ### 3. Caution
 They avoid ancient ruins, relics, and magical anomalies with near-religious seriousness.
 
+:::
+
 ### Social Structure
 
-**The Silent Regents**  
+::**The Silent Regents**  
 Elder council maintaining equilibrium, led by Regent Althaea Moonwhisper. Seven members, each 500+ years old, who govern through consensus and preserve tradition.
 
-**Memory Keepers**  
+::**Memory Keepers**  
 Specialized caste managing rituals, training in mnemonic techniques, and leading communal ceremonies to maintain cultural harmony.
 
-**Veilwatchers**  
+::**Veilwatchers**  
 Scouts monitoring beyond the forest, tracking magical disturbances, and reporting to the Regents without intervening.
 
-**Common Citizens**  
+::**Common Citizens**  
 Artisans, cultivators, artists who live quietly, participate in rituals, and accept cultural norms.
+
+:::
 
 ### Daily Life
 
-**Values:**
+::**Values:**
 - Patience above urgency
 - Calm above passion
 - Subtlety above display
 - Memory curation above raw experience
 - Community harmony above individual expression
 
-**Arts:**
+::**Arts:**
 - Music (quiet, complex, haunting)
 - Poetry (emphasizing silence between words)
 - Weaving and growing-craft
 - Memory-sculpture (ephemeral art)
 - Dance (slow, ritualistic)
 
-**Taboos:**
+::**Taboos:**
 - Loud voices
 - Emotional outbursts
 - Unregulated magic
@@ -130,13 +137,11 @@ Artisans, cultivators, artists who live quietly, participate in rituals, and acc
 - Disturbing the Stillwater Mirror
 ---
 
-\page
-
 ## Magic in the Nullwood
 
 Nullwood magic is subtle and disciplined:
 
-**Specialties:**
+::**Specialties:**
 - Illusions
 - Emotional resonance
 - Memory shaping
@@ -156,20 +161,23 @@ The Nullwood occupies a region where magical effects are subtly suppressed:
 The elves believe this is natural—a blessed place untouched by "the world's noise."
 
 ---
+::
 
 ## Religion
 
 The Nullwood Elves revere:
 
-**The Quiet Triad**  
+#### The Quiet Triad  
 Three deities representing memory, balance, and stillness.
 
-**The First Refuge**  
+#### The First Refuge
 A mythic sanctuary where their ancestors found peace after fleeing ancient chaos.
 
 Their faith emphasizes restraint and introspection over grand displays of devotion.
 
 ---
+
+\page
 
 ## Eclipse Day in the Nullwood
 
@@ -182,7 +190,7 @@ The Silent Regents have forbidden discussion of these visions, but whispers pers
 
 ---
 
-\page
+\column
 
 ## Relations with Other Regions
 
@@ -199,45 +207,3 @@ Distrust. The city of masks traffics in relics the elves fear.
 Concern. The Aeorian Echo feels like an old wound reopening, though the elves don't quite know why.
 
 ---
-
-## Adventure Hooks
-
-- A Nullwood scout seeks help investigating a magical disturbance near the border
-- A Solaris scholar disappears after entering the Stillgrove
-- A relic smuggled from Vharoxis ends up in Vaeltharyn—and the elves panic
-- A young elf begins remembering things no one should remember
-- The Stillwater Mirror shows impossible reflections
-- Memory rituals are failing; the past refuses to stay buried
-
----
-
-## Quick Reference
-
-**Key Locations:**
-- Vaeltharyn (capital city)
-- Stillwater Mirror (sacred lake)
-- Memory Courts (ritual sites)
-- Veilwatch Spires (observation posts)
-
-**Major NPCs:**
-- Regent Althaea Moonwhisper (leader of Silent Regents)
-- Memory Keeper Sylvari Duskmantle (ritual specialist)
-- Veilwatch Captain Theron Starwatch (scout commander)
-
-**Central Conflicts:**
-- Truth vs. protection
-- Tradition vs. change
-- Memory vs. forgetting
-- Safety vs. understanding
-
-**Echo Manifestation:**
-- Ancient fears resurface
-- Memory breakthroughs
-- Dampening flickering
-- Old anxieties without context
-
----
-
-*"The elves of the Nullwood are not calm. They are controlled. There's a difference, and it's terrifying."*
-
-— Lorewarden Elric Vael, after failed diplomatic mission

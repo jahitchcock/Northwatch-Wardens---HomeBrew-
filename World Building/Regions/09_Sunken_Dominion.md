@@ -1,12 +1,12 @@
-# The Sunken Dominion — Drowned Civilization of the Deep
+# The Sunken Dominion
 
+Drowned Civilization of the Deep  
 **Theme:** Lost magic, drowned cities, deep-sea artifacts  
 **Tone:** Haunting, alien, submerged  
-**Role in the World:** The Echo reactivates submerged artifact nodes; relics wash ashore
 
 ---
 
-## Player-Safe Summary
+## Summary
 
 Far beneath the waves of Aevoria's western and southern seas lies the Sunken Dominion, a drowned civilization whose ruins stretch across the ocean floor. Sailors speak of shattered towers glimpsed through clear water, glowing currents that pulse like veins, and strange shapes moving in the deep.
 
@@ -43,6 +43,8 @@ A maze of living coral grown around ancient structures. The coral formations see
 **The Drowned Gate**  
 A colossal archway half-buried in silt, made of an unknown metal that doesn't rust or corrode. Strange symbols cover its surface. Since Eclipse Day, the symbols occasionally glow.
 
+\column
+
 ### The Waters Above
 
 The waters above the Dominion are prone to:
@@ -52,7 +54,7 @@ The waters above the Dominion are prone to:
 - Currents that flow in impossible directions
 - Unexplained temperature changes
 
-\page
+
 
 ---
 
@@ -75,6 +77,8 @@ Tidebreaker Point is the safest place to observe the Dominion—from a distance.
 - **The Lighthouse of Memory:** A tall tower where divers report their findings (and are checked for mental stability)
 - **The Drowned Archive:** A library dedicated to cataloging every relic and report from the Dominion
 - **The Diver's Rest:** A tavern where salvage crews gather to trade stories (and warnings)
+
+\page
 
 ### 2. The Lantern Shoals
 
@@ -111,11 +115,10 @@ The tower's lower levels are flooded and dangerous. Some say there are chambers 
 - **The Tide Pools:** Artificial pools that fill and drain with the tides, showing strange visions
 - **The Sealed Archives:** Locked chambers said to contain pre-cataclysm knowledge
 
-\page
-
 ---
 
-## Culture & Society (Modern)
+
+## Culture & Society Today
 
 There is no living civilization in the Sunken Dominion—only those who come to exploit, study, or worship it.
 
@@ -149,11 +152,8 @@ None of these theories fully explain the evidence.
 
 **Philosophy:** See the Dominion as a wound in the world  
 **Methods:** Observation, ritual, protection  
-**Concerns:** The awakening is wrong; the sea is in pain
-
+**Concerns:** 
 Druidic tide-watchers believe the Dominion is unnatural. They claim the sea rejects it, that it shouldn't be there. Since Eclipse Day, they've been performing rituals to "calm the waters," but nothing seems to work.
-
-Some druids have begun calling for the Dominion to be sealed away—somehow—before it wakes fully.
 
 ### The Cults
 
@@ -183,9 +183,8 @@ Their involvement has complicated every attempt to regulate salvage operations.
 
 Eclipse Day triggered unprecedented activity in the Dominion.
 
-### The Awakening
 
-**What Happened:**
+### **What Happened:**
 - Glowing currents rose from the trenches, visible from shore
 - A deep, resonant pulse felt by every diver in the water
 - Sea creatures migrated in coordinated patterns toward the ruins
@@ -193,7 +192,7 @@ Eclipse Day triggered unprecedented activity in the Dominion.
 - The Glassspire Ruins lit up simultaneously for exactly three minutes
 - The water temperature dropped by fifteen degrees, then returned to normal
 
-**The Aftermath:**
+### **The Aftermath:**
 - Every compass within fifty miles stopped working for a day
 - Tidal patterns became erratic and remain unpredictable
 - The glowing currents have persisted, growing brighter
@@ -206,6 +205,7 @@ Sailors call it **The Day the Sea Woke**.
 Since then, diving operations have become more dangerous. The ruins themselves seem more active. And the Drowned Gate's symbols now glow every night.
 
 ---
+\column
 
 ## Relations with Other Regions
 
@@ -229,124 +229,3 @@ Since then, diving operations have become more dangerous. The ruins themselves s
 **Relationship:** Mysterious connection  
 **Impact:** The Dominion's deepest structures share architectural patterns with northern megastructures. Scholars note similarities that shouldn't exist between ruins separated by thousands of miles.
 
-\page
-
----
-
-## Adventure Hooks
-
-### Immediate Threats
-
-**The Humming Relic**  
-A glowing relic washes ashore in a frontier village. It begins to hum at night, growing louder. Villagers report strange dreams. The party must decide what to do with it—destroy it, study it, or return it to the deep.
-
-**The Lost Salvage Crew**  
-A salvage crew disappears near the Luminous Trenches. Their ship is found intact, but empty. Equipment is still running. Food is on the table. No signs of struggle. Just... gone.
-
-**The Opening Gate**  
-A cult claims the Drowned Gate is "opening" and that something will emerge. They're performing rituals along the coast. Are they delusional, or do they know something others don't?
-
-### Long-Term Mysteries
-
-**The Solaris Expedition**  
-Solaris scholars hire the party to explore a newly revealed ruin section. They want maps, samples, and documentation. But they're not the only ones interested. Competition is deadly.
-
-**The Crystal Creature**  
-A sea creature with crystalline growths attacks Tidebreaker Point. It seems drawn to something in the settlement. Investigation reveals the growths match material from the Glassspire Ruins.
-
-**The Whispering Fragment**  
-A diver returns with a fragment that whispers in their sleep. They become obsessed with returning it to the ruins. The party must decide whether to help them, stop them, or follow them into the deep.
-
-### Campaign Integration
-
-**The Aeorian Connection**  
-Relics from the Dominion match patterns found in the Far North. Someone is collecting fragments from both regions. Why? What are they building? And what happens when they succeed?
-
----
-
-## Climate and Environmental Details
-
-### Water Conditions
-- **Temperature:** Varies dramatically and unpredictably
-- **Clarity:** Usually excellent above ruins (eerily so)
-- **Currents:** Strong, unpredictable, sometimes impossible
-- **Tides:** No longer follow lunar patterns consistently
-
-### Weather Patterns
-- **Storms:** Sudden, violent, localized
-- **Fog:** Dense banks that appear without warning
-- **Lightning:** Unusually frequent, sometimes strikes underwater
-- **Calm periods:** Unnaturally still, unsettling
-
-### Marine Life
-- **Normal species:** Present but behaving strangely
-- **New species:** Creatures never documented before
-- **Bioluminescence:** Increasing in frequency and intensity
-- **Coordinated behavior:** Schools moving in geometric patterns
-
-\page
-
----
-
-## Notable NPCs and Organizations
-
-### Captain Mira Saltwind
-**Role:** Lead salvager, Tidebreaker Point  
-**Reputation:** Best diver on the coast; survived more dives than anyone  
-**Secret:** Addicted to diving; dreams of the ruins every night
-
-Mira knows the Dominion better than anyone living. She's mapped sections no one else has seen. But her obsession is growing dangerous. She dives deeper, stays longer, and comes back... different each time.
-
-### Lorewarden Thaddeus Varn
-**Role:** Chief scholar, The Drowned Archive  
-**Organization:** Solaris Academy  
-**Goal:** Understand the Dominion before it's too late
-
-Thaddeus has spent twenty years studying the Dominion. He believes it holds the key to understanding the Eclipse and the magical upheaval. His archive contains the most comprehensive collection of Dominion knowledge in the world.
-
-He's also increasingly certain that time is running out.
-
-### Sister Morana
-**Role:** Druidic tide-watcher  
-**Circle:** The Deep Watchers  
-**Warning:** "The sea rejects it. We should too."
-
-Sister Morana leads a circle of druids who monitor the Dominion. They perform rituals to calm the waters and protect coastal settlements. Since Eclipse Day, their rituals have become more desperate.
-
-She believes something terrible is waking beneath the waves.
-
-### The Collector
-**Role:** Vharoxis agent  
-**Identity:** Unknown  
-**Network:** Extensive
-
-The Collector buys any artifact from the Dominion, no questions asked. They pay well, provide safe transport, and guarantee anonymity. No one knows who they work for or where the relics go.
-
-They've been buying more aggressively since Eclipse Day.
-
----
-
-## Secrets & Mysteries
-
-**For DM Use:** See `World Building/DMEyesOnly/SunkenDominion.md` for the hidden truth about the Dominion's true nature.
-
-### Surface-Level Mysteries
-- What civilization built the Dominion?
-- How was it destroyed?
-- Why is it waking now?
-- What is the Drowned Gate?
-
-### Deeper Questions
-- Why do the ruins share patterns with the Far North?
-- What powers the glowing currents?
-- What causes the rhythmic humming?
-- What happened to all the missing divers?
-
-### The Ultimate Mystery
-The truth about the Dominion is more alien than anyone suspects. It was never a civilization at all.
-
----
-
-*"The sea keeps its secrets well. But secrets don't stay buried forever."*
-
-— Captain Mira Saltwind

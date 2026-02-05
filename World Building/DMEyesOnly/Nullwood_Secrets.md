@@ -652,3 +652,47 @@ The Nullwood embodies campaign themes:
 *"They chose to forget to survive. Now they must remember to survive. The cruelty is that both choices might destroy them."*
 
 — Lorewarden Elric Vael, private journal
+
+
+
+## Adventure Hooks
+
+- A Nullwood scout seeks help investigating a magical disturbance near the border
+- A Solaris scholar disappears after entering the Stillgrove
+- A relic smuggled from Vharoxis ends up in Vaeltharyn—and the elves panic
+- A young elf begins remembering things no one should remember
+- The Stillwater Mirror shows impossible reflections
+- Memory rituals are failing; the past refuses to stay buried
+
+---
+
+## Quick Reference
+
+**Key Locations:**
+- Vaeltharyn (capital city)
+- Stillwater Mirror (sacred lake)
+- Memory Courts (ritual sites)
+- Veilwatch Spires (observation posts)
+
+**Major NPCs:**
+- Regent Althaea Moonwhisper (leader of Silent Regents)
+- Memory Keeper Sylvari Duskmantle (ritual specialist)
+- Veilwatch Captain Theron Starwatch (scout commander)
+
+**Central Conflicts:**
+- Truth vs. protection
+- Tradition vs. change
+- Memory vs. forgetting
+- Safety vs. understanding
+
+**Echo Manifestation:**
+- Ancient fears resurface
+- Memory breakthroughs
+- Dampening flickering
+- Old anxieties without context
+
+---
+
+*"The elves of the Nullwood are not calm. They are controlled. There's a difference, and it's terrifying."*
+
+— Lorewarden Elric Vael, after failed diplomatic mission

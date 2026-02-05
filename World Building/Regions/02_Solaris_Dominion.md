@@ -1,5 +1,6 @@
-# Solaris Dominion — The Cultural Capital
+# Solaris Dominion
 
+The Cultural Capital  
 **Theme:** Art, politics, bardic tradition, factional tension  
 **Tone:** Vibrant, dramatic, culturally rich  
 **Role in the World:** The political and cultural powerhouse where rumors of the Echo spread fastest
@@ -9,10 +10,12 @@
 ## Overview
 
 {{descriptive
+
 ##### The Heart of Song and Story
 Solaris is a vibrant metropolis known as the beating heart of music, storytelling, and bardic tradition. The city thrives on creativity, performance, and mythmaking—its plazas echo with tales and its streets feel like they are always mid-song.
 
 But beneath the artistic brilliance lies deep political tension. Three factions compete to define the city's soul, each offering a different vision of power, magic, and the future. Eclipse Day shattered the old certainties, and now Solaris stands at a crossroads between tradition, tolerance, and transformation.
+
 }}
 
 This is where news travels fastest, where secrets become songs, and where the Aeorian Echo manifests as social upheaval rather than physical corruption.
@@ -89,10 +92,10 @@ Since Eclipse Day, the Cord has become the epicenter of cultural response:
 - Neutral ground status tested but maintained
 }}
 
+\page
+
 ### Eldric's Monument
 **Location:** Outside the Tail Spinner's Cord  
-
-\page
 
 **Form:** Life-sized bronze statue
 
@@ -121,6 +124,7 @@ Since Eclipse Day, the Cord has become the epicenter of cultural response:
 Some scholars claim Eldric's "Ballad of the Guiding Stars" contains veiled prophecy about cosmic alignment. Lines like *"when shadow eats the sun, the old songs wake again"* are now debated endlessly.
 
 ---
+::
 
 ## The Three Factions
 
@@ -171,6 +175,8 @@ Strictly opposed; pacts are dangerous shortcuts inviting corruption. They advoca
 - Patrol for "dangerous magic"
 - Promote historical continuity
 - Resist radical change
+
+\page
 
 ### 2. The Veilbound Circle
 **Philosophy:** Magic is personal journey; diversity is strength  
@@ -259,11 +265,7 @@ Neutral to welcoming; pacts are one of many paths. They're more interested in co
 - Meditation and prophecy circles
 - Synthesis of magical traditions
 
-
-
-
 \page
-
 
 ## Eclipse Day
 
@@ -305,6 +307,8 @@ A cosmic event that changed Solaris forever.
 **Chorus of Eclipse:** Cosmic message; the world entering new era  
 **Scholars:** Natural phenomenon with unusual magical resonance  
 **Common Folk:** Omen requiring interpretation
+
+\column
 
 ### The Visions
 Most Solarians experienced brief visions during totality. Common themes:
@@ -353,9 +357,6 @@ Months later, Eclipse Day continues to shape Solaris:
 - But also: shared experience bonds city
 
 ---
-
-
-
 
 \page
 
@@ -446,8 +447,6 @@ Many citizens know at least one Eldric tale by heart:
 - Living tradition that adapts
 
 ---
-
-
 
 
 \page
@@ -551,12 +550,8 @@ The event changed magical practice:
 - Natural magical cycle
 - Divine intervention
 - Cosmic alignment
-- Ancient artifact activation (closer to truth than they know)
+- Ancient artifact activation
 - Reality shift
-
-
-
-
 
 \page
 
@@ -596,38 +591,30 @@ Information flows faster through Solaris than anywhere:
 - Word of mouth in taverns
 - Official announcements
 
-**This means:**
-- Solaris hears about Northreach events (delayed)
-- Patterns recognized by scholars
-- Rumors amplified and distorted
-- Information weaponized by factions
-- But also: genuine knowledge sharing
-
 ### Diplomatic Relations
 
-**With Northreach:**
+::**With Northreach:**
 - Distant frontier viewed as romantic/dangerous
 - Scholars interested in Aeorian reports
 - Some Wardens have Solarian backgrounds
 - Trade limited but present
 - News arrives weeks late
 
-**With Vharoxis:**
+::**With Vharoxis:**
 - Public condemnation
 - Private connections
 - Black market flows
 - Smuggling networks
 - Necessary evil
 
-
-**With Nullwood:**
+::**With Nullwood:**
 - Respectful but distant
 - Elven performers rare but celebrated
 - Ancient lore exchanges
 - Mutual caution
 - Cultural differences
 
-**With Stonebound:**
+::**With Stonebound:**
 - Strong trade relationships
 - Dwarven crafts highly valued
 - Mining rights negotiations
@@ -635,205 +622,3 @@ Information flows faster through Solaris than anywhere:
 - Recent seismic reports creating concern
 
 ---
-
-## Adventure Hooks
-
-### Political Intrigue
-- Faction leaders hire investigators to expose rivals
-- Performance sabotage at critical events
-- Assassination attempts disguised as accidents
-- Warlock registration database theft
-- Election manipulation through songs
-
-### Cultural Mysteries
-- Eldric's lost compositions surface
-- Prophecies in old songs suddenly relevant
-- Magical performances with unexpected effects
-- Disappearing performers leaving strange clues
-- Ancient instruments with unusual properties
-
-### Eclipse Day Aftermath
-- Vision-sharers forming cult
-- Magical anomalies in specific districts
-- Scholars seeking Northreach comparisons
-- Artifacts appearing in black market
-- Children born during Eclipse showing abilities
-
-### Warlock Conflicts
-- Hunted warlock seeks sanctuary
-- Patron demands causing public incidents
-- Luminary enforcers overstepping authority
-- Veilbound sanctuary infiltrated
-- Warlock child custody battle
-
-### International Complications
-- Vharoxis spies exposed
-- Northreach Wardens request assistance
-- Stonebound refugees fleeing earthquakes
-- Nullwood scouts with dire warnings
-- Foreign powers exploiting divisions
-
-
-
-
-
-\page
-
-## Secrets and Revelations
-
-### For the DM
-
-**Hidden Truths:**
-- Eclipse Day visions included accurate Aeorian imagery
-- Some Solarians showing Echo sensitivity
-- Vharoxis has agents in all three factions
-- Eldric was subtle prophet; some songs are literal warnings
-- A dormant Aeorian facility exists beneath Twilight Gardens
-- Chorus leader Starfall is unwitting artifact conduit
-- Some "new" warlock patrons are Aeorian intelligences
-
-**Faction Secrets:**
-- **Luminary:** High Luminary is warlock; hypocrite or infiltrator?
-- **Veilbound:** Accepts Vharoxis funding; compromise or pragmatism?
-- **Chorus:** Some members receiving coordinated visions; manipulation?
-
-**The Echo Connection:**
-Eclipse Day was Aeorian network activation ripple:
-- Salsvault awakened
-- Energy pulse hit Solaris
-- Similar events everywhere (differently manifested)
-- City's musical magic amplified response
-- Ongoing effects will worsen
-- Eventually Solaris must face source
-
-### Revelation Timing
-
-**Early Campaign (Northreach focus):**
-- Solaris is distant rumor
-- Eclipse Day mentioned as context
-- Songs arrive with travelers
-
-**Mid Campaign (Regional awareness):**
-- Players visit or contact Solaris
-- Recognize parallel events
-- Compare Echo effects
-- Realize continental scope
-
-**Late Campaign (Epic scope):**
-- Solaris scholars critical allies
-- Cultural resources mobilized
-- Political power necessary
-- Final confrontation requires coordination
-
-
----
-
-## Running Solaris
-
-### Atmosphere
-- Vibrant, energetic, always performing
-- Beautiful but politically fraught
-- Creative brilliance masking deep tensions
-- Every interaction can be performance
-- Optimism fighting with anxiety
-
-### Key Themes
-- **Art and politics intertwined**
-- **Information as power**
-- **Freedom vs. control**
-- **Tradition vs. transformation**
-- **Public performance vs. private truth**
-
-### DM Tools
-
-**Performance Challenges:**
-Instead of pure Charisma checks:
-- Knowledge (appropriate songs/stories)
-- Performance quality (dice + roleplay)
-- Political awareness (right message for audience)
-- Improvisation (adapting to unexpected)
-
-**Rumor Mongering:**
-- Everything becomes a song
-- Multiple versions compete
-- Truth buried in metaphor
-- Players can spread their own rumors
-- Consequences ripple
-
-**Factional Navigation:**
-- Every NPC has allegiances
-- Public stance may differ from private belief
-- Helping one faction angers another
-- Neutral ground rare and valuable
-- Long-term relationships matter
-
-### Using Solaris in Campaign
-
-**As Information Hub:**
-- Players learn about wider world
-- Connect Northreach events to patterns
-- Access scholarly research
-- Recruit allies and resources
-
-**As Political Challenge:**
-- Navigate factional conflicts
-- Build alliances carefully
-- Use social skills over combat
-- Understand power dynamics
-
-**As Cultural Touchstone:**
-- Experience contrast to Northreach
-- Appreciate different responses to Echo
-- See civilization under different stress
-- Recognize shared threats
-
-
-
-
-\page
-
----
-
-## Quick Reference
-
-**Key Locations:**
-- Tail Spinner's Cord (tavern)
-- Eldric's Monument (landmark)
-- Heart Plaza (central square)
-- Faction headquarters (three locations)
-
-**Major NPCs:**
-- High Luminary Cassian Brightvow (Luminary)
-- Archmage Sienna Veilwyn (Veilbound)
-- Seer Dominic Starfall (Chorus)
-- Various bards, scholars, politicians
-
-**Central Conflicts:**
-- Warlock persecution vs. protection
-- Traditional authority vs. change
-- Eclipse Day interpretations
-- Information control
-- Cultural identity
-
-**Echo Manifestation:**
-- Social upheaval (not physical corruption)
-- Magical anomalies
-- Vision-sharing
-- Amplified sensitivity
-- Growing instability
-
-**Campaign Roles:**
-- Information center
-- Political complications
-- Cultural contrast
-- Resource hub
-- Allied civilization facing same threat
-
----
-
-*"In Northreach, the Echo twists wolves into speakers. In Solaris, it twists speakers into prophets. Different symptoms, same disease."*
-
-— Lorewarden Elric Vael, after visiting Solaris
-
-{{pageNumber,auto}}
-{{footnote WORLD BUILDING | SOLARIS DOMINION}}

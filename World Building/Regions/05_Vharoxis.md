@@ -1,12 +1,13 @@
-# 🎭 VHAROXIS — THE CITY OF MASKS
-**Outlaw Capital of Aevoria**
+# VHAROXIS 
+
+The City of Masks  
+*Outlaw Capital of Aevoria*
 
 ---
 
-## Player-Safe Summary
+## Summary
 
-Vharoxis is the infamous outlaw city where smugglers, assassins, thieves, spies, and exiles gather beneath a thousand shifting banners. Built on a jagged peninsula surrounded by treacherous reefs, the city is nearly impossible to approach without local knowledge — and that's exactly how its rulers like it.
-
+Vharoxis is the infamous outlaw city where smugglers, assassins, thieves, spies, and exiles gather beneath a thousand shifting banners. Built on a jagged peninsula surrounded by treacherous reefs, the city is nearly impossible to approach without local knowledge — and that's exactly how its rulers like it.  
 **Vharoxis is known for:**
 - The Masked Market, where secrets are traded like coin  
 - Shifting faction control, with alliances changing weekly  
@@ -14,8 +15,7 @@ Vharoxis is the infamous outlaw city where smugglers, assassins, thieves, spies,
 - Neutral ground for spies and diplomats who can't meet openly  
 - A culture of anonymity, where masks are worn as often as faces  
 
-The city has no king, no council, and no laws beyond those enforced by the syndicates that rule its districts. Outsiders call it dangerous. Locals call it opportunity.
-
+The city has no king, no council, and no laws beyond those enforced by the syndicates that rule its districts. Outsiders call it dangerous. Locals call it opportunity.  
 **Vharoxis thrives on chaos — and profits from it.**
 
 ---
@@ -45,7 +45,7 @@ The city itself is a labyrinth of:
 
 ---
 
-\page
+\column
 
 ## Districts of Vharoxis
 
@@ -88,6 +88,8 @@ The mercenary district. Arena pits, training halls, and the Ironbound Syndicate'
 - Weapon shops  
 - Entertainment and violence for profit  
 
+\page
+
 ### 5. The Whispered Vaults
 Underground banking houses run by the Whispered Coin. Vaults carved into bedrock where fortunes are stored—and debts are recorded.
 
@@ -110,7 +112,7 @@ Crumbling towers now used as safehouses, sniper nests, and meeting places for sp
 
 ---
 
-\page
+::
 
 ## The Five Syndicates
 
@@ -143,6 +145,8 @@ Vharoxis is ruled by five major factions. None can dominate the city alone — t
 - Maritime trade intelligence  
 
 **Leadership:** Captain Mara Bloodtide (infamous pirate queen)
+
+\column
 
 ### 3. The Ember Veil
 **Specialty:** Arsonists, saboteurs, chaos-dealers
@@ -246,6 +250,7 @@ Power is temporary. Secrets are currency. Debt is a weapon.
 - **Survival:** First, last, and only real goal  
 
 ---
+\column
 
 ## Eclipse Day in Vharoxis
 
@@ -319,6 +324,9 @@ Maritime partnership.
 - Smuggling networks overlap  
 - Sunken artifact recovery  
 
+\column
+
+:::::
 ### Emberlands
 Revolution financing and volcanic materials trade.
 
@@ -342,137 +350,3 @@ Extreme expeditions financed from here.
 
 ---
 
-\page
-
-## Adventure Hooks
-
-### Criminal Contracts
-A syndicate hires the party for a specific job—then a rival syndicate offers a counter-contract. Both jobs converge on the same target. A double-cross is inevitable.
-
-### Information Brokerage
-The party has information someone wants—or needs information themselves. They must navigate the Masked Market, bid for secrets, and avoid being sold out.
-
-### Artifact Trafficking
-A relic stolen from the Wardens appears in the Masked Market. Multiple factions want it. The party must race to acquire it—or prevent its acquisition.
-
-### Syndicate Politics
-A faction leader approaches the party with a job: weaken a rival. Actually, they're pawns in a larger game. They must navigate shifting alliances and avoid becoming collateral damage.
-
-### Moral Compromises
-The only way to obtain crucial information or an item is through Vharoxis. The party must deal with criminals. Prices include gold, services, or their souls. How far will they go?
-
-### Eclipse Day Consequences
-An artifact from Vharoxis is causing problems elsewhere. The party must trace it back to its source, navigate the criminal underworld, find the supplier, and discover a larger network with implications for the continental threat.
-
-### Hunt and Hunted
-A party member has a price on their head—or the party is hired to collect a bounty. They must navigate neutral ground rules in a city where everyone is for sale. Who can they trust?
-
-### The Masked Noble
-A Solaris noble disappears in Vharoxis. Multiple factions want the body found… or hidden. The party is caught between syndicate warfare.
-
-### The Humming Relic
-A smuggler offers the party a relic that hums faintly with Echo-energy. Acquiring it draws the attention of multiple factions—and something worse.
-
----
-
-## Magic in Vharoxis
-
-### Diverse and Illegal
-No restrictions, no regulations:
-
-**Popular Schools:**
-- **Warlock Pacts:** Openly practiced; multiple patrons represented  
-- **Shadow Magic:** Darkness and deception specialists  
-- **Divination:** Essential for spying; scrying networks  
-- **Necromancy:** Legal (unlike most places); corpses are plentiful  
-- **Enchantment:** Memory modification and mind reading  
-- **Alchemy:** Poisons, drugs, explosives, and transmutation  
-
-### The Magic Market
-Anything magical is for sale:
-
-**Common:**
-- Spell scrolls  
-- Minor enchanted items  
-- Potions and poisons  
-- Components (rare and illegal)  
-
-**Rare:**
-- Powerful magic items  
-- Cursed artifacts (buyer beware)  
-- Spellbooks from famous wizards  
-- Ancient relics  
-
-**Forbidden:**
-- Items that should be destroyed  
-- Knowledge that corrupts  
-- Artifacts from sealed sites  
-
-**Post-Eclipse Day:**
-- Surge in "awakened" items  
-- Artifacts from Aeorian sites  
-- Fragments with unknown properties  
-- Maps to ruin locations  
-
----
-
-\page
-
-## Running Vharoxis
-
-### Atmosphere
-Dangerous and seductive. Everything for sale, including people. Paranoia is justified. Beautiful and corrupt. Freedom through amorality. Exciting and terrifying.
-
-### Key Themes
-- **Moral compromise**  
-- **Price of information**  
-- **Necessary evil**  
-- **Corruption as system**  
-- **Survival through amorality**  
-- **Where does pragmatism end?**  
-
-### Using in Campaign
-
-**As Necessary Evil:**
-The only source for certain information. The party must engage with the system. They can't stay clean. How they handle it defines their characters.
-
-**As Mirror:**
-What Northreach could become. What happens when order breaks. An alternative to legitimate society. Not an endorsement, but a reality.
-
-**As Resource:**
-Information unavailable elsewhere. Services no one else offers. Access to forbidden knowledge. But everything has a price. How much will the party pay?
-
-**As Threat:**
-Criminal networks spreading corruption. Artifact trafficking endangering everyone. Might need to be stopped—or controlled. Can't be destroyed (too useful).
-
----
-
-## Quick Reference
-
-**Key Locations:**
-- The Masked Market (auction house for secrets)  
-- Blackwake Harbor (smuggler's haven)  
-- Ember Warrens (arsonist slums)  
-- Ironbound Row (mercenary district)  
-- Whispered Vaults (banking and debt)  
-- High Spires (spy safehouses)  
-
-**Major NPCs:**
-- The Curator (Gilded Knives, information broker)  
-- Captain Mara Bloodtide (Blackwake Corsairs, pirate queen)  
-- The Pyrekeeper (Ember Veil, chaos merchant)  
-- Warmaster Krusk Ironjaw (Ironbound, mercenary leader)  
-- The Accountant (Whispered Coin, master of debt)  
-
-**Central Conflicts:**
-- Syndicate power balance  
-- Artifact trafficking  
-- Information control  
-- Moral compromise  
-- Necessary evil vs. corruption  
-
----
-
-*"In Vharoxis, everything and everyone is for sale. The question is: what are you willing to pay?"*
-
-— Lorewarden Elric Vael, Northwatch Wardens

@@ -464,7 +464,10 @@ If you can ONLY print the absolute essentials:
 ## 📦 FILE ORGANIZATION TIP
 
 Organize your STL files into folders:
-```
+
+![Diagram: 📦 FILE ORGANIZATION TIP](../../World%20Building/Campaign%20Assets/Diagrams/3d-printing-shopping-list-file-organization-tip-l467-2245ab6f.svg)
+
+<!-- ASCII diagram source (converted to SVG):
 /Northwatch_Wardens_STLs/
   /PCs/
   /Wolves/ (all variants)
@@ -481,7 +484,7 @@ Organize your STL files into folders:
     /Ice/
   /Furniture/
   /Scatter/
-```
+-->
 
 ---
 

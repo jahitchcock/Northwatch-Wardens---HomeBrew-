@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="624" height="358" viewBox="0 0 624 358" role="img" aria-label="Geographic Relationships">
+  <defs>
+    <style>
+      .bg { fill: #fbf4e6; }
+      .title { font: 600 18px 'Georgia', 'Times New Roman', serif; fill: #5a3b1e; }
+      .mono { font: 14px 'Courier New', monospace; fill: #1f1a14; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="624" height="358"/>
+  <text class="title" x="20" y="30">Geographic Relationships</text>
+  <text class="mono" xml:space="preserve">
+      <tspan x="20" y="46"></tspan>
+      <tspan x="20" y="64">                          /----------- The Far North -----------\</tspan>
+      <tspan x="20" y="82">                         /                  |                    \</tspan>
+      <tspan x="20" y="100">                        /                   |                     \</tspan>
+      <tspan x="20" y="118">              Shattered Coast &lt;----------&gt; Northreach</tspan>
+      <tspan x="20" y="136">                    |  \</tspan>
+      <tspan x="20" y="154">                    |   \</tspan>
+      <tspan x="20" y="172">                    |    \     Nullwood Expanse     Stonebound Depths</tspan>
+      <tspan x="20" y="190">                    |     \          |                  /</tspan>
+      <tspan x="20" y="208">                    |      \         |                 /</tspan>
+      <tspan x="20" y="226">               Vharoxis &lt;-----&gt; Solaris &lt;----------&gt; Verdant Marches</tspan>
+      <tspan x="20" y="244">                                |</tspan>
+      <tspan x="20" y="262">                                |</tspan>
+      <tspan x="20" y="280">                            Emberlands</tspan>
+      <tspan x="20" y="298"></tspan>
+      <tspan x="20" y="316">                    ----- Sunken Dominion (western &amp; southern seas) -----</tspan>
+  </text>
+</svg>

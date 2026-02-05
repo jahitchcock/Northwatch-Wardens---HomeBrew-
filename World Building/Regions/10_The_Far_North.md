@@ -1,12 +1,11 @@
 # The Far North
 
+The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains. Few travel there by choice. Fewer return.
+
+{{note
 *"Where the world ends, and something older begins."*
+}}
 
-## What It Is
-
-The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains.
-
-Few travel there by choice. Fewer return.
 
 ---
 
@@ -50,8 +49,6 @@ Scattered fragments of old structures emerge from the ice during brief thaws. Me
 
 ---
 
-\page
-
 ## What Lives There
 
 ### The Nomads
@@ -85,6 +82,7 @@ Some travelers report stranger sightings:
 - Things moving beneath the ice
 
 ---
+\page
 
 ## Known Locations
 
@@ -114,7 +112,6 @@ No comprehensive map exists. The nomads know of dozens of sites but share locati
 
 ---
 
-\page
 
 ## Why People Go There
 
@@ -230,6 +227,7 @@ Something unusual is happening in the Far North, according to those who travel t
 - If intervention is even possible
 
 ---
+\column
 
 ## For Adventurers
 
