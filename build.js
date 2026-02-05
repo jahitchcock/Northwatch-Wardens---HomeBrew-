@@ -68,7 +68,7 @@ async function loadHomebreweryCss() {
 }
 
 // Helper function to normalize page breaks at the end of content
-// Removes any \page directives at the end to prevent duplicates
+// Ensures exactly one \page at the end of each file
 function normalizePageBreak(content) {
   // Trim trailing whitespace
   let normalized = content.trimEnd();
@@ -80,6 +80,9 @@ function normalizePageBreak(content) {
   
   // Trim again after removing page breaks
   normalized = normalized.trimEnd();
+  
+  // Add exactly one \page at the end
+  normalized += '\n\n\\page';
   
   return normalized;
 }
@@ -93,15 +96,12 @@ async function processFiles(files, buildDir, combinedMarkdown) {
       console.log(`    Adding: ${file}`);
       let content = await fs.readFile(filePath, 'utf-8');
       
-      // Normalize the content to remove any trailing \page directives
+      // Normalize the content to ensure exactly one \page at the end
       content = normalizePageBreak(content);
       
       combinedMarkdown += content + '\n\n';
       
-      // Add page break between files (except after the last file)
-      if (i < files.length - 1) {
-        combinedMarkdown += `\\page\n\n`;
-      }
+      // No need to add \page between files - each file already ends with \page
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -136,10 +136,7 @@ async function buildBook(tocFile, outputName) {
     const section = toc.sections[i];
     console.log(`  Processing: ${section.chapter}`);
     
-    // Add page break before section (except the first one, which already has one after TOC)
-    if (i > 0) {
-      combinedMarkdown += `\\page\n\n`;
-    }
+    // No need to add \page before sections - previous section's last file already ends with \page
     
     combinedMarkdown += `# ${section.chapter}\n\n`;
     
@@ -150,10 +147,7 @@ async function buildBook(tocFile, outputName) {
         combinedMarkdown += `## ${subsection.title}\n\n`;
         combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
         
-        // Add page break between subsections (except after the last one)
-        if (j < section.subsections.length - 1) {
-          combinedMarkdown += `\\page\n\n`;
-        }
+        // No need to add \page between subsections - each file already ends with \page
       }
     } else if (section.files) {
       // Regular files
