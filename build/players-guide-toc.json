@@ -5,13 +5,28 @@
   "includeTextOnCover": false,
   "sections": [
     {
-      "chapter": "The World of Aevoria",
+      "chapter": "Welcome to Aevoria",
       "files": [
         "../World Building/Regions/00_Master_Index.md"
       ]
     },
     {
-      "chapter": "Regions of the Known World",
+      "chapter": "Northreach: Your Starting Point",
+      "files": [
+        "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
+        "../World Building/Regions/Northreach/Places_of_Northreach.md",
+        "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
+        "../World Building/Regions/Northreach/People_of_Northreach.md"
+      ]
+    },
+    {
+      "chapter": "The Northwatch Wardens",
+      "files": [
+        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
+      ]
+    },
+    {
+      "chapter": "The Wider World of Aevoria",
       "files": [
         "../World Building/Regions/01_Northreach.md",
         "../World Building/Regions/02_Solaris_Dominion.md",
@@ -26,35 +41,20 @@
       ]
     },
     {
-      "chapter": "Northreach: The Frontier",
-      "files": [
-        "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
-        "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
-        "../World Building/Regions/Northreach/Places_of_Northreach.md",
-        "../World Building/Regions/Northreach/People_of_Northreach.md"
-      ]
-    },
-    {
-      "chapter": "Organizations",
-      "files": [
-        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
-      ]
-    },
-    {
-      "chapter": "Religion and Pantheon",
+      "chapter": "Gods and Religion",
       "files": [
         "../World Building/Religion/Divinitys_Beacon_Pantheon.md"
       ]
     },
     {
-      "chapter": "Notable Locations",
+      "chapter": "Places of Legend",
       "files": [
         "../World Building/Locations/Divinitys_Beacon.md",
         "../World Building/Locations/Solace_Nexus.md"
       ]
     },
     {
-      "chapter": "Appendix:",
+      "chapter": "Appendix",
       "files": [
         "../World Building/Regions/Northreach/SongsOfTheNorthreach.md",
         "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
