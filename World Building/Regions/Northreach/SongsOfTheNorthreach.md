@@ -1,130 +1,62 @@
 # Songs of the Northreach
 A Frontier Songbook for Season One of the Northwatch Wardens
 
-======================================================================
-AUDIO LIBRARY — YOUTUBE MUSIC UPLOAD NAMES
-======================================================================
-
-This section is a complete index of the MP3 tracks in the folder (including all **(Reprise)** files), written to match the exact upload names in YouTube Music.
-
 ---
-
-## Waystone Inn & Wardens (Waystone Inn / HQ / tavern / downtime)
+::::::
+## Waystone Inn & Wardens 
 
 - Lanterns at the Waystone
-- Lanterns at the Waystone (Reprise)
 - Wardens tavern chant
-- Wardens tavern chant (Reprise)
 - By Lantern and by Oath
-- By Lantern and by Oath (Reprise)
 - Tomorrow’s Tune
-- Tomorrow’s Tune (Reprise)
 - The Patron’s Whisper
-- The Patron’s Whisper (Reprise)
 - The Candle That Won’t Go Out
-- The Candle That Won’t Go Out (Reprise)
 
-## Road & Northreach Ambience (travel / weather / exploration)
+## Road & Ambience 
 
 - Northreach background
-- Northreach background (Reprise)
 - Northreach forests
-- Northreach forests (Reprise)
 - Northreach encounters
-- Northreach encounters (Reprise)
 - Where the White Roots Wind
-- Where the White Roots Wind (Reprise)
 - Snow on the Harbor Road
-- Snow on the Harbor Road (Reprise)
 - Tracks in the Snow That Never Fade
-- Tracks in the Snow That Never Fade (Reprise)
 - Turn the Field Again
-- Turn the Field Again (Reprise)
 - danger lurking
-- danger lurking (Reprise)
 
-## Wolves & Woodlands (Welton / Wolves of Welton / hunts / wolves)
+## Wolves & Woodlands
 
 - breath of the pack
 - Ash Beneath the Pines
-- Ash Beneath the Pines (Reprise)
 - The Fire in the Winter Pack
-- The Fire in the Winter Pack (Reprise)
 - The Wind That Wouldn’t Sleep
-- The Wind That Wouldn’t Sleep (Reprise)
 - The Shepherd Who Heard Too Much
-- The Shepherd Who Heard Too Much (Reprise)
 - The Shepherd Who Heard the Hills Speak
-- The Shepherd Who Heard the Hills Speak (Reprise)
 - the hunter who returned alone
-- the hunter who returned alone (Reprise)
 
-## Character Themes (spotlight / confession / tension)
+## Regional History
 
 - The Woman With Two Shadows
-- The Woman With Two Shadows (Reprise)
 - The Wolf Who Walked Like a Man
-- The Wolf Who Walked Like a Man (Reprise)
 - The Girl Who Feared the Moonlit Pines
-- The Girl Who Feared the Moonlit Pines (Reprise)
 - The Girl With the Dawn in Her Hands
-- The Girl With the Dawn in Her Hands (Reprise)
-
-## Mystery & Arcana (Palebank Village / Frozen Sick vibes / omens / research)
-
 - The Apprentice and the Broken Star
-- The Apprentice and the Broken Star (Reprise)
 - The Sleepless Scholar
-- The Sleepless Scholar (Reprise)
 - The Quiet Road of Guz
-- The Quiet Road of Guz (Reprise)
 - Ash on the Shrine
-- Ash on the Shrine (Reprise)
 - The Barkeep of Frostfall Lane
-- The Barkeep of Frostfall Lane (Reprise)
-
-## Dragonknights & Cult (Temple of the Dragonknights / revelations / danger)
-
-- Dragon Cultists
-- Dragon Cultists (Reprise)
 - The Dragonknight’s Last Vigil
-- The Dragonknight’s Last Vigil (Reprise)
 - The Master Who Walked Into Winter
-- The Master Who Walked Into Winter (Reprise)
 - The Last Ember of the Oaksplitters
-- The Last Ember of the Oaksplitters (Reprise)
 - The Fire That Trembles
-- The Fire That Trembles (Reprise)
-
-## Comic Relief (Wild Sheep Chase)
-
 - The Ballad of Baa‑thur the Bewoolded
 
----
+\page
 
-## Suggested YouTube Music playlists (not “original then reprise”)
+# THE FRONTIER BREATHES
 
-The point of the **(Reprise)** tracks is to feel like callbacks, not immediate repeats.
+### LANTERNS AT THE WAYSTONE  
 
-- Full listenable “soundtrack” order (all tracks): see `SongsOfTheNorthreach/SongsOfTheNorthreach_PlaylistOrder_SoundtrackMix.txt`
-- Table-play mix (shorter, scene-forward): see `SongsOfTheNorthreach/SongsOfTheNorthreach_PlaylistOrder_GameplayMix.txt`
-
-======================================================================
-PROLOGUE — THE FRONTIER BREATHES
-======================================================================
-
-1. SLOW DREAD, DANGER LURKING (Instrumental)
-
-(No lyrics — instrumental atmosphere.)
-
----
-
-2. LANTERNS AT THE WAYSTONE  
-(Original Version)
-
-"Lanterns at the Waystone"
-
-Verse 1
+#### Verse 1
 There’s a lantern at the Waystone Inn
 That never seems to fade.
 Through winter storms and drifting snows,
@@ -134,7 +66,7 @@ No matter how winds roar—
 And the road feels shorter somehow
 When you’re walking toward its door.
 
-Chorus
+#### Chorus
 Lanterns at the Waystone,
 Shining through the night.
 Guiding weary footsteps
@@ -144,7 +76,7 @@ Soft against the cold—
 A quiet place on a long, long road,
 Where stories rest untold.
 
-Verse 2
+#### Verse 2
 Some swear the air grows calmer there,
 As if the world exhales.
 Others say the shadows fall
@@ -154,7 +86,7 @@ And no one asks for signs—
 They simply take their comfort
 In the warmth the inn provides.
 
-Chorus
+#### Chorus
 Lanterns at the Waystone,
 Shining through the night.
 Guiding weary footsteps
@@ -164,13 +96,13 @@ Soft against the cold—
 A quiet place on a long, long road,
 Where stories rest untold.
 
-Bridge
+#### Bridge
 Maybe it’s the timber,
 Maybe it’s the stone—
 Maybe it’s the feeling
 Of never being quite alone.
 
-Final Chorus
+#### Final Chorus
 Lanterns at the Waystone,
 Shining through the night.
 Guiding weary footsteps
@@ -180,79 +112,11 @@ Soft against the cold—
 A quiet place on a long, long road,
 Where stories rest untold.
 
----
+\column
 
-3. LANTERNS AT THE WAYSTONE  
-(Wardens Version)
+### THE HUNTER WHO RETURNED ALONE  
 
-"Lanterns at the Waystone"
-
-Verse 1
-There’s a lantern at the Waystone Inn
-That never seems to fade.
-Through winter storms and drifting snows,
-Its golden light is laid.
-The Wardens come from far and wide,
-Their cloaks still lined with frost—
-But the hearth restores the weary
-Who’ve walked the wild and crossed.
-
-Chorus
-Lanterns at the Waystone,
-Shining through the night.
-Guiding weary footsteps
-By their gentle, steady light.
-Lanterns at the Waystone,
-Soft against the cold—
-A quiet place on a long, long road,
-Where stories rest untold.
-
-Verse 2
-Some say the Wardens linger there
-Before the mountain climbs—
-Sharing maps and whispered news
-Of troubled northern times.
-But no one presses questions,
-And no one seeks their aim—
-For the Waystone keeps its silences,
-And honors every name.
-
-Chorus
-Lanterns at the Waystone,
-Shining through the night.
-Guiding weary footsteps
-By their gentle, steady light.
-Lanterns at the Waystone,
-Soft against the cold—
-A quiet place on a long, long road,
-Where stories rest untold.
-
-Bridge
-Maybe it’s the timber,
-Maybe it’s the stone—
-Maybe it’s the Wardens’ boots
-That make the place feel like a home.
-
-Final Chorus
-Lanterns at the Waystone,
-Shining through the night.
-Guiding weary footsteps
-By their gentle, steady light.
-Lanterns at the Waystone,
-Soft against the cold—
-A quiet place on a long, long road,
-Where stories rest untold.
-
-======================================================================
-ACT I — THE WARDENS GATHER
-======================================================================
-
-4. THE HUNTER WHO RETURNED ALONE  
-(Marshal Brenna Thorne)
-
-"The Hunter Who Returned Alone"
-
-Verse 1
+#### Verse 1
 They say the snows were higher then,
 The winds a sharper blade.
 The hunters marched at winter’s call
@@ -262,7 +126,7 @@ Her bowstring stiff with frost—
 And no one asked what met them there,
 Or what the others lost.
 
-Chorus
+#### Chorus
 Oh the winter keeps its secrets,
 And the pines, they never tell.
 Some roads lead home in silence,
@@ -272,7 +136,7 @@ Still walks the northern stone—
 And the wind that follows at her heels
 Is colder than the bone.
 
-Verse 2
+#### Verse 2
 She never speaks of what she saw,
 Nor names the ones she led.
 But when the moon is thin and pale,
@@ -282,7 +146,7 @@ Her voice that does not shake—
 But none can read the quiet grief
 That winter will not break.
 
-Chorus
+#### Chorus
 Oh the winter keeps its secrets,
 And the pines, they never tell.
 Some roads lead home in silence,
@@ -292,13 +156,13 @@ Still walks the northern stone—
 And the wind that follows at her heels
 Is colder than the bone.
 
-Bridge
+#### Bridge
 Some say the storm remembers,
 Some say the night does too—
 But she just keeps on walking,
 As all true hunters do.
 
-Final Chorus
+#### Final Chorus
 Oh the winter keeps its secrets,
 And the pines, they never tell.
 Some roads lead home in silence,
@@ -309,13 +173,11 @@ And the wind that follows at her heels
 Is colder than the bone.
 
 ---
+\page
 
-5. THE WOMAN WITH TWO SHADOWS  
-(Steward Mara Fenwick)
+### THE WOMAN WITH TWO SHADOWS  
 
-"The Woman With Two Shadows"
-
-Verse 1
+#### Verse 1
 There’s a tale they tell in market towns
 Of a woman quick and bright—
 Who walks as if she listens
@@ -325,7 +187,7 @@ Her smile warm and wide—
 But some swear when the lanterns dim,
 A second shadow walks beside.
 
-Chorus
+#### Chorus
 Oh the woman with two shadows,
 She moves like shifting sand.
 One rooted in the daylight,
@@ -335,7 +197,7 @@ No one speaks her name—
 But the woman with two shadows
 Walks faster than her shame.
 
-Verse 2
+#### Verse 2
 She bargains fair with merchants,
 She laughs with honest folk—
 But travelers whisper softly
@@ -345,7 +207,7 @@ Her eyes still scan the door—
 As if she fears a knocking
 From a life she knew before.
 
-Chorus
+#### Chorus
 Oh the woman with two shadows,
 She moves like shifting sand.
 One rooted in the daylight,
@@ -355,13 +217,14 @@ No one speaks her name—
 But the woman with two shadows
 Walks faster than her shame.
 
-Bridge
+#### Bridge
 Some say she fled the winter,
 Some say she fled the knife—
 But all agree her shadows
 Have followed all her life.
 
-Final Chorus
+
+#### Final Chorus
 Oh the woman with two shadows,
 She moves like shifting sand.
 One rooted in the daylight,
@@ -372,13 +235,10 @@ But the woman with two shadows
 Walks faster than her shame.
 
 ---
+\column
+### THE SLEEPLESS SCHOLAR  
 
-6. THE SLEEPLESS SCHOLAR  
-(Lorewarden Elric Vael)
-
-"The Sleepless Scholar"
-
-Verse 1
+#### Verse 1
 There’s a candle in the tower
 That burns through every night.
 A scholar keeps his vigil there
@@ -388,7 +248,7 @@ Of stars that shift their place—
 And though he speaks in gentle tones,
 There’s worry in his face.
 
-Chorus
+#### Chorus
 Oh the sleepless scholar watches
 While the northern shadows grow.
 He listens to the quiet
@@ -398,7 +258,7 @@ And though his smile is mild—
 The sleepless scholar knows too much
 To ever sleep like a child.
 
-Verse 2
+#### Verse 2
 Some say he dreams with open eyes,
 Of frost beneath the stone—
 Of something stirring far away
@@ -408,7 +268,7 @@ He never names the signs—
 But he keeps his quill at ready
 When the winter moon declines.
 
-Chorus
+#### Chorus
 Oh the sleepless scholar watches
 While the northern shadows grow.
 He listens to the quiet
@@ -418,13 +278,13 @@ And though his smile is mild—
 The sleepless scholar knows too much
 To ever sleep like a child.
 
-Bridge
+#### Bridge
 The Wardens trust his wisdom,
 Though they do not know its cost—
 For every night he studies
 Is another morning lost.
 
-Final Chorus
+#### Final Chorus
 Oh the sleepless scholar watches
 While the northern shadows grow.
 He listens to the quiet
@@ -434,16 +294,11 @@ And though his smile is mild—
 The sleepless scholar knows too much
 To ever sleep like a child.
 
-======================================================================
-ACT II — WOLVES OF WELTON
-======================================================================
+\page
 
-7. THE SHEPHERD WHO HEARD THE HILLS SPEAK  
-(Corel)
+### THE SHEPHERD WHO HEARD THE HILLS SPEAK  
 
-"The Shepherd Who Heard the Hills Speak"
-
-Verse 1
+#### Verse 1
 They say he walks the Welton fields
 Before the break of day,
 Listening to the quiet earth
@@ -453,7 +308,7 @@ The turns the foxes choose—
 And he can read the winter wind
 Like others read the news.
 
-Chorus
+#### Chorus
 Oh the hills speak softly
 To the ones who walk alone.
 Their whispers ride the morning frost,
@@ -463,7 +318,7 @@ And though he never seeks—
 The shepherd of the Welton fields
 Once heard the hillside speak.
 
-Verse 2
+#### Verse 2
 Some claim he knows the wolves by name,
 And they know him in kind.
 He walks the borders unafraid
@@ -473,7 +328,7 @@ And shadows stretch and creep—
 He pauses, as if listening
 To something in the deep.
 
-Chorus
+#### Chorus
 Oh the hills speak softly
 To the ones who walk alone.
 Their whispers ride the morning frost,
@@ -483,13 +338,13 @@ And though he never seeks—
 The shepherd of the Welton fields
 Once heard the hillside speak.
 
-Bridge
+#### Bridge
 A dream can be a warning,
 A dream can be a guide—
 But some dreams stay unspoken,
 Kept quietly inside.
 
-Final Chorus
+#### Final Chorus
 Oh the hills speak softly
 To the ones who walk alone.
 Their whispers ride the morning frost,
@@ -500,13 +355,11 @@ The shepherd of the Welton fields
 Once heard the hillside speak.
 
 ---
+\column
 
-8. TRACKS IN THE SNOW THAT NEVER FADE  
-(Bordel Barleywind)
+### TRACKS IN THE SNOW THAT NEVER FADE  
 
-"Tracks in the Snow That Never Fade"
-
-Verse 1
+#### Verse 1
 There’s a tale the rangers whisper
 When the winter nights grow long—
 Of a man who walks the northern trails
@@ -516,7 +369,7 @@ Each ridge and frozen glade—
 But he avoids a certain hollow
 Where old tracks never fade.
 
-Chorus
+#### Chorus
 Oh the snow remembers footsteps,
 And the wind recalls the cries.
 Some paths are marked by shadows,
@@ -526,7 +379,7 @@ His heart is heavy‑laid—
 For he has seen the kind of tracks
 That never truly fade.
 
-Verse 2
+#### Verse 2
 He keeps his stories close at hand,
 His memories even closer.
 He speaks of wolves with reverence,
@@ -536,7 +389,7 @@ And talk begins to stray—
 He stares into the embers
 As if they pull him far away.
 
-Chorus
+#### Chorus
 Oh the snow remembers footsteps,
 And the wind recalls the cries.
 Some paths are marked by shadows,
@@ -546,13 +399,13 @@ His heart is heavy‑laid—
 For he has seen the kind of tracks
 That never truly fade.
 
-Bridge
+#### Bridge
 Some say he guards a secret,
 Some say he guards a friend—
 But all agree the northern trails
 Will follow him to end.
 
-Final Chorus
+#### Final Chorus
 Oh the snow remembers footsteps,
 And the wind recalls the cries.
 Some paths are marked by shadows,
@@ -563,13 +416,11 @@ For he has seen the kind of tracks
 That never truly fade.
 
 ---
+\page
 
-9. THE GIRL WHO FEARED THE MOONLIT PINES  
-(Mila Teno)
+### THE GIRL WHO FEARED THE MOONLIT PINES
 
-"The Girl Who Feared the Moonlit Pines"
-
-Verse 1
+#### Verse 1
 She walks with steady footsteps
 And her armor gleams like dawn—
 But when the night wind stirs the pines,
@@ -579,7 +430,7 @@ Where the silver moonlight spills,
 She hears a distant memory
 That time has never stilled.
 
-Chorus
+#### Chorus
 Oh the moonlit pines remember,
 And the winter winds recall—
 The cries that fade in darkness,
@@ -589,7 +440,7 @@ When danger draws its lines—
 Her heartbeat quickens softly
 Near the moonlit, whispering pines.
 
-Verse 2
+#### Verse 2
 She trains with blade and discipline,
 Her stance both sharp and true—
 But when the wolves begin to howl,
@@ -599,7 +450,7 @@ She hides it from herself—
 But fear can linger quietly
 Like a book upon a shelf.
 
-Chorus
+#### Chorus
 Oh the moonlit pines remember,
 And the winter winds recall—
 The cries that fade in darkness,
@@ -609,13 +460,13 @@ When danger draws its lines—
 Her heartbeat quickens softly
 Near the moonlit, whispering pines.
 
-Bridge
+#### Bridge
 Some wounds are carved in silence,
 Some griefs are never named—
 But still she walks the northern trails,
 Determined, unashamed.
 
-Final Chorus
+#### Final Chorus
 Oh the moonlit pines remember,
 And the winter winds recall—
 The cries that fade in darkness,
@@ -626,13 +477,12 @@ Her heartbeat quickens softly
 Near the moonlit, whispering pines.
 
 ---
+\column
 
-10. THE SHEPHERD WHO HEARD TOO MUCH  
-(Willen Featherock)
+### THE SHEPHERD WHO HEARD TOO MUCH  
 
-"The Shepherd Who Heard Too Much"
 
-Verse 1
+#### Verse 1
 He walks the fields at sunrise
 With a tremble in his stride—
 A shepherd born to quiet work,
@@ -642,7 +492,7 @@ Has left him pale and worn—
 A whisper carried on the wind
 From one cold winter morn.
 
-Chorus
+#### Chorus
 Oh the shepherd who heard too much,
 Oh the voice that chilled his bone—
 Some truths are meant for moonlight,
@@ -652,7 +502,7 @@ The shaking in his touch—
 The hills remember clearly
 What the shepherd heard too much.
 
-Verse 2
+#### Verse 2
 He flinches at the nighttime,
 At the rustle in the grass—
 At distant howls that echo
@@ -662,7 +512,7 @@ He never speaks the sound—
 But fear has left its footprints
 Where his courage once was found.
 
-Chorus
+#### Chorus
 Oh the shepherd who heard too much,
 Oh the voice that chilled his bone—
 Some truths are meant for moonlight,
@@ -672,13 +522,13 @@ The shaking in his touch—
 The hills remember clearly
 What the shepherd heard too much.
 
-Bridge
+#### Bridge
 Some nights he wakes in silence,
 Some nights he wakes in cries—
 But always with the memory
 Of something wise… and wild.
 
-Final Chorus
+#### Final Chorus
 Oh the shepherd who heard too much,
 Oh the voice that chilled his bone—
 Some truths are meant for moonlight,
@@ -689,13 +539,11 @@ The hills remember clearly
 What the shepherd heard too much.
 
 ---
+\page
 
-11. THE WOLF WHO WALKED LIKE A MAN  
-(Bolt)
+### THE WOLF WHO WALKED LIKE A MAN  
 
-"The Wolf Who Walked Like a Man"
-
-Verse 1
+#### Verse 1
 They whisper of a silver wolf
 Who walks the forest floor—
 Not prowling like his kinfolk,
@@ -705,7 +553,7 @@ His steps both sure and slow—
 As if he bears a question
 That no creature ought to know.
 
-Chorus
+#### Chorus
 Oh the wolf who walked like a man,
 With a mind both wild and wise—
 A shadow born of winter,
@@ -715,7 +563,7 @@ And though he hides his fear—
 The wolf who walked like a man
 Knows something waking near.
 
-Verse 2
+#### Verse 2
 He watches from the treeline
 When the moon is thin and pale—
 A sentinel of secrets
@@ -725,7 +573,7 @@ Some say he dreams in fire—
 But all agree his quiet gaze
 Is older than desire.
 
-Chorus
+#### Chorus
 Oh the wolf who walked like a man,
 With a mind both wild and wise—
 A shadow born of winter,
@@ -735,13 +583,13 @@ And though he hides his fear—
 The wolf who walked like a man
 Knows something waking near.
 
-Bridge
+#### Bridge
 Some gifts are born unwanted,
 Some gifts are born of dread—
 But still he guards the forest
 Where the ancient paths are led.
 
-Final Chorus
+#### Final Chorus
 Oh the wolf who walked like a man,
 With a mind both wild and wise—
 A shadow born of winter,
@@ -752,13 +600,11 @@ The wolf who walked like a man
 Knows something waking near.
 
 ---
+\column
 
-12. THE FIRE IN THE WINTER PACK  
-(Flame)
+### THE FIRE IN THE WINTER PACK  
 
-"The Fire in the Winter Pack"
-
-Verse 1
+#### Verse 1
 They tell of one with burning eyes
 Who stalks the frozen glen—
 A wolf whose growl is thunder,
@@ -768,7 +614,7 @@ A storm behind his stride—
 And every step he takes declares
 A challenge to the wild.
 
-Chorus
+#### Chorus
 Oh the fire in the winter pack,
 Oh the fury in his breath—
 A blaze that cuts through silence
@@ -778,7 +624,7 @@ And though the shadows track—
 The fire in the winter pack
 Will never turn his back.
 
-Verse 2
+#### Verse 2
 Some say he dreams of kingdoms,
 Of forests bowed in awe—
 Of wolves who rise like sovereigns
@@ -788,7 +634,7 @@ When the moon is sharp and bright—
 A silhouette of hunger
 Against the northern night.
 
-Chorus
+#### Chorus
 Oh the fire in the winter pack,
 Oh the fury in his breath—
 A blaze that cuts through silence
@@ -798,13 +644,13 @@ And though the shadows track—
 The fire in the winter pack
 Will never turn his back.
 
-Bridge
+#### Bridge
 Some flames are born of anger,
 Some flames are born of pride—
 But his was born of something
 That stirs the world outside.
 
-Final Chorus
+#### Final Chorus
 Oh the fire in the winter pack,
 Oh the fury in his breath—
 A blaze that cuts through silence
@@ -814,16 +660,12 @@ And though the shadows track—
 The fire in the winter pack
 Will never turn his back.
 
-======================================================================
-ACT III — THE ECHO SPREADS
-======================================================================
+\page
 
-13. THE WIND THAT WOULDN’T SLEEP  
-(Rowan Fairweather)
+### THE WIND THAT WOULDN’T SLEEP  
 
-"The Wind That Wouldn’t Sleep"
 
-Verse 1
+#### Verse 1
 There’s a whisper in the treeline
 When the dusk begins to fall—
 A restless kind of murmuring
@@ -833,7 +675,7 @@ A voice beneath the deep—
 A wind that wanders day and night
 Because it cannot sleep.
 
-Chorus
+#### Chorus
 Oh the wind that wouldn’t slumber,
 Oh the wind that wouldn’t rest—
 It circles through the forest
@@ -843,7 +685,7 @@ With calm in every breath—
 She feels the stirring underfoot
 Of something not at rest.
 
-Verse 2
+#### Verse 2
 She listens to the trembling leaves,
 The shifting of the loam.
 She knows the forest’s every sigh,
@@ -853,7 +695,7 @@ A pulse beneath the stone—
 As if the roots remember
 Something ancient and unknown.
 
-Chorus
+#### Chorus
 Oh the wind that wouldn’t slumber,
 Oh the wind that wouldn’t rest—
 It circles through the forest
@@ -863,13 +705,13 @@ With calm in every breath—
 She feels the stirring underfoot
 Of something not at rest.
 
-Bridge
+#### Bridge
 Some say she dreams in colors,
 Some say she dreams in sound—
 But she just keeps on listening
 To the murmurs underground.
 
-Final Chorus
+#### Final Chorus
 Oh the wind that wouldn’t slumber,
 Oh the wind that wouldn’t rest—
 It circles through the forest
@@ -880,13 +722,12 @@ She feels the stirring underfoot
 Of something not at rest.
 
 ---
+\column
 
-14. TOMORROW’S TUNE  
-(Flynt Wymblen)
+### TOMORROW’S TUNE  
 
-"Tomorrow’s Tune"
 
-Verse 1
+#### Verse 1
 He strums a lively melody
 In taverns warm and bright—
 A gnome with jokes and jests to spare,
@@ -896,7 +737,7 @@ A strange refrain appears—
 A line that feels like memory
 From days not yet near.
 
-Chorus
+#### Chorus
 Oh tomorrow’s tune is playing
 In the corner of his mind—
 A song that runs ahead of him,
@@ -906,7 +747,7 @@ And though he plays it soon—
 There’s something oddly familiar
 In the notes of tomorrow’s tune.
 
-Verse 2
+#### Verse 2
 He claims it’s just coincidence,
 A trick of bardic flair—
 But some who hear his verses
@@ -916,7 +757,7 @@ A chorus soft and low—
 That hints at things unspoken,
 At paths he shouldn’t know.
 
-Chorus
+#### Chorus
 Oh tomorrow’s tune is playing
 In the corner of his mind—
 A song that runs ahead of him,
@@ -926,13 +767,13 @@ And though he plays it soon—
 There’s something oddly familiar
 In the notes of tomorrow’s tune.
 
-Bridge
+#### Bridge
 Some songs are born of stories,
 Some songs are born of fate—
 But his seem born of moments
 That haven’t happened yet.
 
-Final Chorus
+#### Final Chorus
 Oh tomorrow’s tune is playing
 In the corner of his mind—
 A song that runs ahead of him,
@@ -943,13 +784,11 @@ There’s something oddly familiar
 In the notes of tomorrow’s tune.
 
 ---
+\page
 
-15. THE APPRENTICE AND THE BROKEN STAR  
-(Sera Gelanadel)
+### THE APPRENTICE AND THE BROKEN STAR  
 
-"The Apprentice and the Broken Star"
-
-Verse 1
+#### Verse 1
 She studies by the lantern’s glow,
 Her quill a restless spark—
 A mind too bright for quiet nights,
@@ -959,7 +798,7 @@ Of patterns in the sky—
 And though her hands may tremble,
 There’s fire in her eye.
 
-Chorus
+#### Chorus
 Oh the apprentice and the broken star,
 Oh the questions without end—
 She chases truths that flicker
@@ -969,7 +808,7 @@ And though the signs are far—
 She keeps her gaze unshaken
 On the path of the broken star.
 
-Verse 2
+#### Verse 2
 She laughs at her own missteps,
 She blushes at her fears—
 But still she reads the shifting winds
@@ -979,7 +818,7 @@ Some say she’s in too deep—
 But she alone sees constellations
 Where others only sleep.
 
-Chorus
+#### Chorus
 Oh the apprentice and the broken star,
 Oh the questions without end—
 She chases truths that flicker
@@ -989,13 +828,13 @@ And though the signs are far—
 She keeps her gaze unshaken
 On the path of the broken star.
 
-Bridge
+#### Bridge
 Some lights fall for a reason,
 Some lights fall without aim—
 But she will follow every spark
 Until she learns its name.
 
-Final Chorus
+#### Final Chorus
 Oh the apprentice and the broken star,
 Oh the questions without end—
 She chases truths that flicker
@@ -1005,16 +844,12 @@ And though the signs are far—
 She keeps her gaze unshaken
 On the path of the broken star.
 
-======================================================================
-ACT IV — FROZEN SICK
-======================================================================
+\column
 
-16. THE CANDLE THAT WON’T GO OUT  
-(Father Merriksonn)
+### THE CANDLE THAT WON’T GO OUT  
 
-"The Candle That Won’t Go Out"
 
-Verse 1
+#### Verse 1
 He keeps a single candle
 Burning through the night—
 A beacon for the weary,
@@ -1024,7 +859,7 @@ He guards it with a prayer—
 And though his smile is gentle,
 There’s sorrow settled there.
 
-Chorus
+#### Chorus
 Oh the candle that won’t go out,
 Though winter howls and cries—
 A flame that stands against the dark,
@@ -1034,7 +869,7 @@ And though he walks in doubt—
 He keeps his vigil faithfully
 With the candle that won’t go out.
 
-Verse 2
+#### Verse 2
 He listens to confession,
 He comforts those in pain—
 But when the chapel empties,
@@ -1044,7 +879,7 @@ Some losses have no name—
 Yet still he lights the lantern
 And tends the fragile flame.
 
-Chorus
+#### Chorus
 Oh the candle that won’t go out,
 Though winter howls and cries—
 A flame that stands against the dark,
@@ -1054,13 +889,13 @@ And though he walks in doubt—
 He keeps his vigil faithfully
 With the candle that won’t go out.
 
-Bridge
+#### Bridge
 Some prayers are made in silence,
 Some griefs are held alone—
 But still he lights the candle
 For the ones who won’t come home.
 
-Final Chorus
+#### Final Chorus
 Oh the candle that won’t go out,
 Though winter howls and cries—
 A flame that stands against the dark,
@@ -1071,13 +906,11 @@ He keeps his vigil faithfully
 With the candle that won’t go out.
 
 ---
+\page
 
-17. THE MASTER WHO WALKED INTO WINTER  
-(Ariodh Highwhirl)
+### THE MASTER WHO WALKED INTO WINTER  
 
-"The Master Who Walked Into Winter"
-
-Verse 1
+#### Verse 1
 They say he trained in silence,
 Where the frost meets morning’s breath—
 A student of the stillness,
@@ -1087,7 +920,7 @@ A shadow fills his eyes—
 For one who walked before him
 Never made the return rise.
 
-Chorus
+#### Chorus
 Oh the master lost to winter,
 Oh the path that fades to white—
 Some journeys end in daylight,
@@ -1097,7 +930,7 @@ And though his heart is clear—
 The master lost to winter
 Still whispers in his ear.
 
-Verse 2
+#### Verse 2
 He listens to the snowfall
 As if it holds a clue—
 A secret in the quiet
@@ -1107,7 +940,7 @@ He never names the cost—
 But every time the cold wind stirs,
 He mourns what he has lost.
 
-Chorus
+#### Chorus
 Oh the master lost to winter,
 Oh the path that fades to white—
 Some journeys end in daylight,
@@ -1117,13 +950,13 @@ And though his heart is clear—
 The master lost to winter
 Still whispers in his ear.
 
-Bridge
+#### Bridge
 Some truths are found in stillness,
 Some truths are found in pain—
 But he keeps walking forward,
 Through frost and wind and rain.
 
-Final Chorus
+#### Final Chorus
 Oh the master lost to winter,
 Oh the path that fades to white—
 Some journeys end in daylight,
@@ -1134,13 +967,11 @@ The master lost to winter
 Still whispers in his ear.
 
 ---
+\column
 
-18. THE QUIET ROAD OF GUZ  
-(Guz)
+### THE QUIET ROAD OF GUZ  
 
-"The Quiet Road of Guz"
-
-Verse 1
+#### Verse 1
 He walks with heavy footsteps,
 But his heart is gentle‑made—
 A man who’s learned the weight of wrongs,
@@ -1150,7 +981,7 @@ His temper held in check—
 But sometimes in the silent hours,
 Old whispers brush his neck.
 
-Chorus
+#### Chorus
 Oh the quiet road he follows,
 Oh the burdens that he bears—
 A path of slow redemption
@@ -1160,7 +991,7 @@ And though he strives to choose—
 The quiet road grows longer
 For a man once known as Guz.
 
-Verse 2
+#### Verse 2
 He flinches at the flicker
 Of magic in the air—
 Not fear of spell or sorcery,
@@ -1170,7 +1001,7 @@ He tries to walk them down—
 But shadows cling to those who’ve worn
 A darker, older crown.
 
-Chorus
+#### Chorus
 Oh the quiet road he follows,
 Oh the burdens that he bears—
 A path of slow redemption
@@ -1180,13 +1011,13 @@ And though he strives to choose—
 The quiet road grows longer
 For a man once known as Guz.
 
-Bridge
+#### Bridge
 Some voices fade with distance,
 Some linger in the bone—
 But he keeps walking forward,
 Determined and alone.
 
-Final Chorus
+#### Final Chorus
 Oh the quiet road he follows,
 Oh the burdens that he bears—
 A path of slow redemption
@@ -1196,16 +1027,11 @@ And though he strives to choose—
 The quiet road grows longer
 For a man once known as Guz.
 
-======================================================================
-ACT V — TEMPLE OF THE DRAGONKNIGHTS
-======================================================================
+\page
 
-19. ASH ON THE SHRINE  
-(Galvena Aballon)
+### ASH ON THE SHRINE  
 
-"Ash on the Shrine"
-
-Verse 1
+#### Verse 1
 They found her in the ruins
 Where the sacred candles lay—
 Their wax still warm with memory,
@@ -1215,7 +1041,7 @@ Her armor scorched and torn—
 And though she spoke no vow aloud,
 A fiercer oath was born.
 
-Chorus
+#### Chorus
 Oh the ash upon the shrine
 Still clings to her like fate.
 A promise forged in silence,
@@ -1225,7 +1051,7 @@ And though her steps align—
 There burns a quiet fury
 In the ash upon the shrine.
 
-Verse 2
+#### Verse 2
 She walks with holy purpose,
 Her gaze both calm and clear—
 But something in her shadow
@@ -1235,7 +1061,7 @@ Not fear of tooth or scale—
 But fear of failing those she served,
 Of letting justice fail.
 
-Chorus
+#### Chorus
 Oh the ash upon the shrine
 Still clings to her like fate.
 A promise forged in silence,
@@ -1245,13 +1071,13 @@ And though her steps align—
 There burns a quiet fury
 In the ash upon the shrine.
 
-Bridge
+#### Bridge
 Some wounds are made of fire,
 Some vows are made of stone—
 But hers was made of both at once,
 And she bears it all alone.
 
-Final Chorus
+#### Final Chorus
 Oh the ash upon the shrine
 Still clings to her like fate.
 A promise forged in silence,
@@ -1262,13 +1088,12 @@ There burns a quiet fury
 In the ash upon the shrine.
 
 ---
+\column
 
-20. THE FIRE THAT TREMBLES  
-(Aurixean Valignaak)
+### THE FIRE THAT TREMBLES  
 
-"The Fire That Trembles"
 
-Verse 1
+#### Verse 1
 They say his flame burns steady,
 A torch against the cold—
 A dragonborn of noble line,
@@ -1278,7 +1103,7 @@ And winter grips the air—
 His breath comes sharp and ragged,
 As if something stirs elsewhere.
 
-Chorus
+#### Chorus
 Oh the fire that trembles,
 Oh the flame that knows its kin—
 A spark that flares in warning
@@ -1288,7 +1113,7 @@ And though his pride is true—
 The fire that trembles in his chest
 Knows more than he can view.
 
-Verse 2
+#### Verse 2
 He speaks of ancient stories,
 Of wings that split the sky—
 Of battles carved in memory
@@ -1298,7 +1123,7 @@ Or shadows coil and climb—
 He stiffens, as if hearing
 A call from some old rhyme.
 
-Chorus
+#### Chorus
 Oh the fire that trembles,
 Oh the flame that knows its kin—
 A spark that flares in warning
@@ -1308,13 +1133,13 @@ And though his pride is true—
 The fire that trembles in his chest
 Knows more than he can view.
 
-Bridge
+#### Bridge
 Some blood remembers battles,
 Some blood remembers flame—
 And his remembers something
 That will not speak its name.
 
-Final Chorus
+#### Final Chorus
 Oh the fire that trembles,
 Oh the flame that knows its kin—
 A spark that flares in warning
@@ -1324,14 +1149,13 @@ And though his pride is true—
 The fire that trembles in his chest
 Knows more than he can view.
 
+\page
+
 ---
 
-21. THE PATRON’S WHISPER  
-(Baleth Cindermoon)
+### THE PATRON’S WHISPER  
 
-"The Patron’s Whisper"
-
-Verse 1
+#### Verse 1
 He walks with silver laughter,
 A shadow at his heel—
 A tiefling with a wandering smile
@@ -1341,7 +1165,7 @@ He dazzles every hall—
 But sometimes when the candles dim,
 He listens for a call.
 
-Chorus
+#### Chorus
 Oh the patron’s whisper,
 Soft as falling snow—
 A voice that curls around him
@@ -1351,7 +1175,7 @@ And though his grin is wide—
 The patron’s whisper lingers
 Like a shadow at his side.
 
-Verse 2
+#### Verse 2
 He speaks in clever riddles,
 He dances through the night—
 But when the moon grows heavy,
@@ -1361,7 +1185,7 @@ Reminds him who he serves—
 A presence cold and patient,
 A pull he can’t unnerve.
 
-Chorus
+#### Chorus
 Oh the patron’s whisper,
 Soft as falling snow—
 A voice that curls around him
@@ -1371,13 +1195,13 @@ And though his grin is wide—
 The patron’s whisper lingers
 Like a shadow at his side.
 
-Bridge
+#### Bridge
 Some bargains leave a mark,
 Some promises a chain—
 But he still walks in elegance
 Through snowfall and through rain.
 
-Final Chorus
+#### Final Chorus
 Oh the patron’s whisper,
 Soft as falling snow—
 A voice that curls around him
@@ -1388,13 +1212,11 @@ The patron’s whisper lingers
 Like a shadow at his side.
 
 ---
+\column
 
-22. THE GIRL WITH THE DAWN IN HER HANDS  
-(Joel Andersmith)
+### THE GIRL WITH THE DAWN IN HER HANDS
 
-"The Girl With the Dawn in Her Hands"
-
-Verse 1
+#### Verse 1
 He speaks of her in whispers,
 As if the dawn might hear—
 A girl with eyes like morning light,
@@ -1404,7 +1226,7 @@ He keeps her story warm—
 A fragile spark of sunlight
 Preserved against the storm.
 
-Chorus
+#### Chorus
 Oh the girl with the dawn in her hands,
 Oh the hope she used to bring—
 A promise wrapped in laughter,
@@ -1414,7 +1236,7 @@ And though he understands—
 He still sees her in the sunrise,
 With the dawn held in her hands.
 
-Verse 2
+#### Verse 2
 He walks the fields at daybreak,
 Where she once used to roam—
 And every golden shimmer
@@ -1424,7 +1246,7 @@ He never names the ache—
 But grief can bloom in silence
 Like frost upon a lake.
 
-Chorus
+#### Chorus
 Oh the girl with the dawn in her hands,
 Oh the hope she used to bring—
 A promise wrapped in laughter,
@@ -1434,13 +1256,13 @@ And though he understands—
 He still sees her in the sunrise,
 With the dawn held in her hands.
 
-Bridge
+#### Bridge
 Some lights are gone too early,
 Some lights are never gone—
 For morning keeps their memory
 In every breaking dawn.
 
-Final Chorus
+#### Final Chorus
 Oh the girl with the dawn in her hands,
 Oh the hope she used to bring—
 A promise wrapped in laughter,
@@ -1449,23 +1271,3 @@ And though the world grew colder,
 And though he understands—
 He still sees her in the sunrise,
 With the dawn held in her hands.
-
-======================================================================
-ACT VI — THE WILD SHEEP CHASE
-======================================================================
-
-(Uses reprises of “Tomorrow’s Tune” and “The Apprentice and the Broken Star” — no new lyrics.)
-
-======================================================================
-ACT VII — PERIL IN PINEBROOK
-======================================================================
-
-(Uses reprises of “Lanterns at the Waystone” and “The Wind That Wouldn’t Sleep” — no new lyrics.)
-
-======================================================================
-EPILOGUE — THE AEORIAN THREAD
-======================================================================
-
-27. THE WIND THAT REMEMBERS  
-(Optional closer — unwritten placeholder)
-

@@ -2,106 +2,84 @@
 
 const fs = require('fs-extra');
 const path = require('path');
+const { pathToFileURL } = require('url');
 const puppeteer = require('puppeteer');
 const { render: renderHomebrewery } = require('./homebrewery-renderer');
 
-// Path to the downloaded Homebrewery CSS
-const HOMEBREWERY_CSS_PATH = path.join(__dirname, 'homebrewery-phb.css');
+// DungeonsAndMarkdown (VS Code extension) style HTML wrapper.
+// Mirrors their page-based DOM structure so saved HTML looks like the VS Code preview
+// and prints cleanly to PDF.
+const DNM_TEMPLATE_HTML = `
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
+    <link href='https://assets.dungeonsandmarkdown.spjak.com/bundle.css' rel='stylesheet' />
+    <base target="_blank">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div>
+      <div class="frame-content">
+        <div class="brewRenderer">
+          <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css" rel="stylesheet">
+          <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css" rel="stylesheet">
+          <style>
+            .page p { color: black }
+            .page li { color: black }
+            .page table { color: black }
+            .page h5 { color: black }
+            .page h6 { color: black }
+            .page dl { color: black }
+            .page .monster hr:last-of-type~:is(dl,p) { color: black }
+            .page { padding-bottom: 1.1cm }
+            .page { position: relative }
+            /* Default image behavior: constrain to column width unless explicitly styled */
+            .page img { max-width: 100%; height: auto; }
+            .page p > img { display: block; }
+            .page .watermark { z-index: -500; }
+          </style>
+          <div class="pages">
+            {{ body }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+`;
 
-// Helper function to load CSS
-async function loadHomebreweryCss() {
-  if (await fs.pathExists(HOMEBREWERY_CSS_PATH)) {
-    return await fs.readFile(HOMEBREWERY_CSS_PATH, 'utf-8');
-  }
-  
-  // Fallback: Download it if not present
-  console.log('  Downloading official Homebrewery stylesheet...');
-  const https = require('https');
-  
-  return new Promise((resolve, reject) => {
-    https.get('https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css', (response) => {
-      // Check for redirect or non-200 status
-      if (response.statusCode === 302 || response.statusCode === 301) {
-        // Follow redirect
-        https.get(response.headers.location, (redirectResponse) => {
-          if (redirectResponse.statusCode !== 200) {
-            reject(new Error(`Failed to download stylesheet: HTTP ${redirectResponse.statusCode}`));
-            return;
-          }
-          let css = '';
-          redirectResponse.on('data', (chunk) => css += chunk);
-          redirectResponse.on('end', async () => {
-            if (css.length < 1000) {
-              reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
-              return;
-            }
-            await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
-            console.log('  ✓ Homebrewery stylesheet downloaded');
-            resolve(css);
-          });
-        }).on('error', reject);
-        return;
-      }
-      
-      if (response.statusCode !== 200) {
-        reject(new Error(`Failed to download stylesheet: HTTP ${response.statusCode}`));
-        return;
-      }
-      
-      let css = '';
-      response.on('data', (chunk) => css += chunk);
-      response.on('end', async () => {
-        if (css.length < 1000) {
-          reject(new Error('Downloaded stylesheet appears to be empty or invalid'));
-          return;
-        }
-        await fs.writeFile(HOMEBREWERY_CSS_PATH, css);
-        console.log('  ✓ Homebrewery stylesheet downloaded');
-        resolve(css);
-      });
-    }).on('error', (err) => {
-      console.error('  ✗ Failed to download stylesheet:', err.message);
-      console.error('  ✗ Please manually download from https://github.com/naturalcrit/homebrewery/raw/master/phb.standalone.css');
-      reject(err);
-    });
-  });
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
-// Helper function to normalize page breaks at the end of content
-// Ensures exactly one \page at the end of each file
+// Ensures exactly one \\page at the end of each file.
 function normalizePageBreak(content) {
-  // Trim trailing whitespace
-  let normalized = content.trimEnd();
-  
-  // Remove any existing \page directives at the end (including duplicates)
-  // The + quantifier handles multiple consecutive page breaks with any whitespace between them
-  // Examples: "\page\n\page", "\page  \n  \page", "\page\n\n\page"
-  normalized = normalized.replace(/(\\page\s*)+$/, '');
-  
-  // Trim again after removing page breaks
+  let normalized = String(content).trimEnd();
+  // Remove trailing page directives. Accept either "\page" (correct)
+  // or "\\page" (accidentally double-escaped) so we can self-heal.
+  normalized = normalized.replace(/((?:\\page|\\\\page)\s*)+$/, '');
   normalized = normalized.trimEnd();
-  
-  // Add exactly one \page at the end
+  // Append exactly one correct page directive (single backslash in markdown).
   normalized += '\n\n\\page';
-  
   return normalized;
 }
 
-// Helper function to process an array of files and add them to the markdown
 async function processFiles(files, buildDir, combinedMarkdown) {
-  for (let i = 0; i < files.length; i++) {
-    const file = files[i];
+  for (const file of files) {
     const filePath = path.join(buildDir, file);
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
       let content = await fs.readFile(filePath, 'utf-8');
-      
-      // Normalize the content to ensure exactly one \page at the end
       content = normalizePageBreak(content);
-      
       combinedMarkdown += content + '\n\n';
-      
-      // No need to add \page between files - each file already ends with \page
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -109,213 +87,139 @@ async function processFiles(files, buildDir, combinedMarkdown) {
   return combinedMarkdown;
 }
 
-// Function to read and concatenate markdown files
+function renderDungeonsAndMarkdownPages(rawMarkdown) {
+  // Split on lines that are just "\page" (allowing trailing whitespace).
+  // Also accept "\\page" in case any content was double-escaped.
+  const pages = String(rawMarkdown).split(/^(?:\\page|\\\\page)\s*$/gm);
+  let outputHtml = '';
+
+  for (let i = 0, pageIndex = 0; i < pages.length; i++) {
+    const pageText = pages[i] ?? '';
+
+    // Drop a trailing empty page (common when source ends with \page)
+    if (i === pages.length - 1 && pageText.trim() === '') {
+      continue;
+    }
+
+    // Match DungeonsAndMarkdown: ensure a second column exists by adding a column break.
+    // Use &nbsp; so Marked produces a minimal visible token.
+      // IMPORTANT: Homebrewery directives use a single backslash in markdown.
+      // In a JS string literal, that is written as "\\column".
+      const paddedText = `${pageText}\n\n&nbsp;\n\\column\n&nbsp;`;
+    const rendered = renderHomebrewery(paddedText);
+
+    outputHtml += `\n<div class="page" id="p${pageIndex + 1}" key="${pageIndex}">\n  <div class="columnWrapper">${rendered}</div>\n</div>\n`;
+    pageIndex++;
+  }
+
+  return outputHtml;
+}
+
 async function buildBook(tocFile, outputName) {
   console.log(`Building ${outputName}...`);
-  
+
   const buildDir = path.dirname(tocFile);
   const toc = await fs.readJSON(tocFile);
-  
-  let combinedMarkdown = `# ${toc.title}\n\n`;
-  combinedMarkdown += `### ${toc.subtitle}\n\n`;
+
+  let combinedMarkdown = '';
+  combinedMarkdown = `{{partCover}}\n\n`;
+  if (toc.includeTextOnCover == true) {
+    combinedMarkdown += `# ${toc.title}\n\n`;
+    combinedMarkdown += `### ${toc.subtitle}\n\n`;
+  }
+  combinedMarkdown +=`{{imageMaskEdge6,--offset:10cm,--rotation:180
+  ![Background image](${toc.coverImage}){position:absolute,bottom:0,left:0,height:100%}
+}}\n\n`;
   combinedMarkdown += `\\page\n\n`;
-  
+  combinedMarkdown += `{{wide \n\n`;
   // Add table of contents
-  combinedMarkdown += `# Table of Contents\n\n`;
+  if (toc.includeTextOnCover == false) {
+        combinedMarkdown += `# ${toc.title}\n\n`;
+        combinedMarkdown += `### ${toc.subtitle}\n\n::::\n\n`;
+  }
+  combinedMarkdown += `## Table of Contents\n\n::::\n\n`;
   let tocNumber = 1;
-  
+
   for (const section of toc.sections) {
-    combinedMarkdown += `## ${tocNumber}. ${section.chapter}\n\n`;
+    combinedMarkdown += `### ${tocNumber}. ${section.chapter}\n\n`;
     tocNumber++;
   }
-  
+  combinedMarkdown += `}}\n\n`;
   combinedMarkdown += `\\page\n\n`;
-  
+
   // Process each section
-  for (let i = 0; i < toc.sections.length; i++) {
-    const section = toc.sections[i];
+  for (const section of toc.sections) {
     console.log(`  Processing: ${section.chapter}`);
-    
-    // No need to add \page before sections - previous section's last file already ends with \page
-    
     combinedMarkdown += `# ${section.chapter}\n\n`;
-    
-    // Handle subsections if present
+
     if (section.subsections) {
-      for (let j = 0; j < section.subsections.length; j++) {
-        const subsection = section.subsections[j];
+      for (const subsection of section.subsections) {
         combinedMarkdown += `## ${subsection.title}\n\n`;
         combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
-        
-        // No need to add \page between subsections - each file already ends with \page
       }
     } else if (section.files) {
-      // Regular files
       combinedMarkdown = await processFiles(section.files, buildDir, combinedMarkdown);
     }
   }
-  
+
   // Save combined markdown
   const mdPath = path.join(buildDir, `${outputName}.md`);
   await fs.writeFile(mdPath, combinedMarkdown);
   console.log(`  Saved combined markdown: ${mdPath}`);
-  
-  // Render using Homebrewery renderer (which handles all special syntax)
-  console.log('  Rendering with Homebrewery markdown processor...');
-  const htmlContent = renderHomebrewery(combinedMarkdown);
-  
-  // Load official Homebrewery CSS
-  console.log('  Loading Homebrewery stylesheet...');
-  const homebreweryCss = await loadHomebreweryCss();
-  
-  // Additional CSS to support our special classes and improve PDF rendering
-  const additionalCss = `
-/* @page rules for PDF generation */
-@page {
-  size: Letter;
-  margin: 0;
-}
 
-/* Additional styles for better PDF rendering */
-.pagebreak {
-  page-break-before: always !important;
-  break-before: page !important;
-  display: block;
-  height: 0;
-  margin: 0;
-  padding: 0;
-}
+  // Render to DungeonsAndMarkdown-style HTML
+  console.log('  Rendering to DungeonsAndMarkdown-style paged HTML...');
+  const bodyHtml = renderDungeonsAndMarkdownPages(combinedMarkdown);
+  const fullHtml = DNM_TEMPLATE_HTML
+    .replace('{{ title }}', escapeHtml(toc.title || outputName))
+    .replace('{{ body }}', bodyHtml);
 
-.columnSplit {
-  break-after: column;
-  column-span: none;
-}
-
-.blank {
-  height: 1em;
-}
-
-/* Cover page styling */
-.phb-cover {
-  column-span: all;
-  text-align: center;
-  page-break-after: always;
-}
-
-.phb-cover h1 {
-  font-size: 48pt;
-  margin-top: 3in;
-  margin-bottom: 0.2em;
-  border: none;
-  page-break-before: auto;
-}
-
-.phb-cover .subtitle {
-  font-size: 18pt;
-  font-style: italic;
-}
-
-/* Fix for Puppeteer PDF generation with Homebrewery styling
- * Remove the overflow:hidden constraint that clips content
- * Keep height auto for proper page flow in PDF
- * Page breaks are controlled by .pagebreak divs
- */
-.phb {
-  overflow: visible !important;
-  height: auto !important;
-  max-height: none !important;
-}
-
-/* Headings should stay with following content when possible */
-h1, h2, h3, h4, h5, h6 {
-  page-break-after: avoid;
-  break-after: avoid-page;
-}
-`;
-
-  const fullHtml = `
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>${toc.title}</title>
-  <style>
-${homebreweryCss}
-${additionalCss}
-  </style>
-</head>
-<body class="phb">
-    <div class="phb-cover">
-      <h1>${toc.title}</h1>
-      <div class="subtitle">${toc.subtitle}</div>
-    </div>
-${htmlContent}
-</body>
-</html>
-  `;
-  
   const htmlPath = path.join(buildDir, `${outputName}.html`);
   await fs.writeFile(htmlPath, fullHtml);
   console.log(`  Saved HTML: ${htmlPath}`);
-  
+
   // Convert to PDF using Puppeteer
-  console.log(`  Generating PDF with Homebrewery styling...`);
+  console.log('  Generating PDF...');
   const browser = await puppeteer.launch({
     headless: 'new',
+    protocolTimeout: 600000,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
-  
+
   const page = await browser.newPage();
-  
-  // Set a larger viewport to ensure proper layout calculation
+  page.setDefaultNavigationTimeout(180000);
   await page.setViewport({ width: 1200, height: 1600 });
-  
-  // Emulate print media to ensure CSS @media print rules are applied
-  await page.emulateMediaType('print');
-  
-  // Increase timeout for large documents and wait for network to be idle
-  await page.goto(`file://${htmlPath}`, { 
-    waitUntil: 'networkidle0',
-    timeout: 60000  // 60 second timeout for large documents
-  });
-  
-  // Wait additional time for the browser to fully render and calculate layout
-  // This is especially important for large documents with complex CSS like Homebrewery
-  // A fixed delay is used since the document size varies greatly (100-250+ pages)
-  // and waiting for specific elements would be unreliable across different content
-  console.log(`  Waiting for page layout to complete...`);
-  await new Promise(resolve => setTimeout(resolve, 5000));  // 5 seconds for layout stabilization
-  
+  await page.emulateMediaType('screen');
+
+  const fileUrl = pathToFileURL(htmlPath).href;
+  await page.goto(fileUrl, { waitUntil: 'networkidle0', timeout: 180000 });
+
+  console.log('  Waiting for page layout to complete...');
+  await new Promise(resolve => setTimeout(resolve, 5000));
+
   const pdfPath = path.join(buildDir, `${outputName}.pdf`);
   await page.pdf({
     path: pdfPath,
-    format: 'Letter',
     printBackground: true,
-    preferCSSPageSize: false,  // Use format option to avoid conflicts with Homebrewery @page rules
-    margin: {
-      top: '0.5in',
-      right: '0.75in',
-      bottom: '0.5in',
-      left: '0.75in'
-    },
-    timeout: 120000  // 2 minute timeout for PDF generation of large documents
+    preferCSSPageSize: true,
+    margin: { top: 0, right: 0, bottom: 0, left: 0 },
+    timeout: 180000
   });
-  
+
   await browser.close();
   console.log(`  ✓ PDF generated: ${pdfPath}`);
-  
+
   return pdfPath;
 }
 
-// Main execution
 async function main() {
   const args = process.argv.slice(2);
   const buildPlayers = args.includes('--players') || args.length === 0;
   const buildDMs = args.includes('--dms') || args.length === 0;
-  
+
   const buildDir = path.join(__dirname, 'build');
   await fs.ensureDir(buildDir);
-  
+
   try {
     if (buildPlayers) {
       await buildBook(
@@ -323,15 +227,15 @@ async function main() {
         'The-adventurers-guide-to-aevoria'
       );
     }
-    
+
     if (buildDMs) {
       await buildBook(
         path.join(buildDir, 'dms-guide-toc.json'),
         'A-DMs-guide-to-aevoria'
       );
     }
-    
-    console.log('\n✓ Build complete! PDFs now use official Homebrewery styling.');
+
+    console.log('\n✓ Build complete! HTML/PDF now mirror DungeonsAndMarkdown page rendering.');
   } catch (error) {
     console.error('Build failed:', error);
     process.exit(1);

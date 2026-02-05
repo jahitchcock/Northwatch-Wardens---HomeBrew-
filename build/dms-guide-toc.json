@@ -1,6 +1,8 @@
 {
   "title": "A DM's Guide to Aevoria",
   "subtitle": "Campaign Materials and World Secrets for Dungeon Masters",
+  "coverImage": "https://i.imgur.com/3z7yO3J.png",
+  "includeTextOnCover": false,
   "sections": [
     {
       "chapter": "Using This Guide",

@@ -32,6 +32,7 @@ Snow-capped mountains where the wind never stops. Sound behaves strangely here�
 Scattered fragments of old structures emerge from the ice during brief thaws. Metal towers, stone facades, strange formations. Most are buried, but enough shows through to prove something once existed here. Who built them and when is a matter of speculation.
 
 ---
+\column
 
 ## Climate
 
@@ -95,8 +96,6 @@ The most infamous location in the Far North. An ancient ruin that rises from the
 **What Everyone Knows:**
 - Ancient ruins from long ago
 - Extremely dangerous to explore
-- Source of the illness called Frigid Woe
-- Many explorers have died there
 
 ---
 
@@ -141,6 +140,8 @@ Multiple threats make the Far North deadly:
 - **Ice:** Crevasses hidden under snow, unstable surfaces
 - **Isolation:** No rescue, no help, no way out if things go wrong
 
+\column
+
 ### Ruins
 - **Traps:** Old defensive systems that may still function
 - **Guardians:** Ancient mechanisms that attack intruders
@@ -172,7 +173,6 @@ Multiple threats make the Far North deadly:
 **What Scholars Theorize:**
 - "The Far North contains many old ruins from a lost civilization."
 - "Salsvault is one of many—perhaps dozens—of buried facilities."
-- "Strange occurrences elsewhere may have connections to this region."
 - "We're only beginning to understand what lies beneath the ice."
 
 ---
@@ -217,8 +217,6 @@ Something unusual is happening in the Far North, according to those who travel t
 **What Some Suspect:**
 - The region is changing somehow
 - Whatever is happening may be spreading
-- Old ruins may be connected to strange events elsewhere
-- The changes seem to be accelerating
 
 **What No One Can Prove:**
 - What's causing the changes
@@ -246,8 +244,6 @@ Traveling to the Far North requires extensive preparation:
 - Navigate without roads or landmarks
 - Endure multi-day blizzards
 - Explore dangerous ruins
-- Contend with ancient guardians
-- Solve mysteries with incomplete information
 - Return alive with what you learned
 
 ### Potential Rewards

@@ -1,0 +1,808 @@
+{
+  "timestamp": "2026-02-05T16:53:21.088425+00:00",
+  "apply": true,
+  "root": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)",
+  "markdown_files_scanned": 58,
+  "references_found": 256,
+  "unique_local_images_referenced": 197,
+  "imgur_urls_input": 40,
+  "imgur_assets": [
+    {
+      "original_url": "https://i.imgur.com/euDwslIundefined.png",
+      "sanitized_url": "https://i.imgur.com/euDwslI.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3253119,
+      "sha256": "e2420835b4d76b7fdb5cb6b446014b8526174f538c5c982a1bc967ef1de17f8b",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\01_euDwslI.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/FyxJWvtundefined.png",
+      "sanitized_url": "https://i.imgur.com/FyxJWvt.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2843692,
+      "sha256": "f4294f3018c8e3374e43f6a11305a618297d0c097fd995b608ccb61f97310d48",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\02_FyxJWvt.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/81oYw9fundefined.png",
+      "sanitized_url": "https://i.imgur.com/81oYw9f.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3581712,
+      "sha256": "61ab6ec0519ea9e36db8d82ebcdaa510b71f23139af746e41c37e80391de9a39",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\03_81oYw9f.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/jOsvoOZundefined.png",
+      "sanitized_url": "https://i.imgur.com/jOsvoOZ.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3537531,
+      "sha256": "b24a2391769be704d398066cc326b1f1d3aa023ac8108c940496aa88cdc77808",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\04_jOsvoOZ.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/xCNcelgundefined.png",
+      "sanitized_url": "https://i.imgur.com/xCNcelg.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2392810,
+      "sha256": "3571b17e30628343572add0965404ed138520d21f944aa2f0f88da1c78bffb4c",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\05_xCNcelg.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/q0t6X9Gundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/q0t6X9G.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 588949,
+      "sha256": "04dee4143c7b4b0ce0bf3a644358c4bbee17691d699c6baaa91779cde6aaa610",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\06_q0t6X9G.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/yxGZKlqundefined.png",
+      "sanitized_url": "https://i.imgur.com/yxGZKlq.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3049208,
+      "sha256": "14875b729cf5220b2750ab521a4c38fa9dfef4c94e585d751a2faa623cc8fbda",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\07_yxGZKlq.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/J4lh2Bsundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/J4lh2Bs.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 463568,
+      "sha256": "26d6971b95f6218e01f0f5aff7b2cdf72583bccb6409c12875758dc0dda25c16",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\08_J4lh2Bs.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/kaLHuR3undefined.jpg",
+      "sanitized_url": "https://i.imgur.com/kaLHuR3.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 501737,
+      "sha256": "982edd2bc4c87bd770b000d66eb549566ff3d8de9d8376652405750891b9bae5",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\09_kaLHuR3.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/l0McAF7undefined.png",
+      "sanitized_url": "https://i.imgur.com/l0McAF7.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2486740,
+      "sha256": "3e6594e3822588772a03902b91528ef15837f22573e3458365ac824adaaad16a",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\10_l0McAF7.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/gxsZ6Qhundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/gxsZ6Qh.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 568780,
+      "sha256": "2662bffacac236c59a215d9fa98544585394689f1c4c4c71d0fc95ddd80ca7a6",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\11_gxsZ6Qh.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/BSNEKgTundefined.png",
+      "sanitized_url": "https://i.imgur.com/BSNEKgT.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2924364,
+      "sha256": "92af9692f53eff09699d4ffa41ba326ec90e340ddc9dce186230a6702e639dae",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\12_BSNEKgT.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/0K66wmOundefined.png",
+      "sanitized_url": "https://i.imgur.com/0K66wmO.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2680827,
+      "sha256": "aaef7e641a13118f9c44b680daf84a3a5963ef0230792127910c62bea31df2dd",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\13_0K66wmO.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/7zDKfWXundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/7zDKfWX.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 416850,
+      "sha256": "9f360c6d365a13caf2ae2cd1afedc8251eb10ee8bb53b1883c08e0352a9a0d24",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\14_7zDKfWX.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/Jd3rjFUundefined.png",
+      "sanitized_url": "https://i.imgur.com/Jd3rjFU.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3184781,
+      "sha256": "63fdcb0ea815ca771cfd0adebfb0003dc418329a198b556ac36b13ff9cafc18a",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\15_Jd3rjFU.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/MKGXal6undefined.png",
+      "sanitized_url": "https://i.imgur.com/MKGXal6.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3746078,
+      "sha256": "63f06b9bce822e0361d34604e59229b0f9c097c54b8db355054fee1c607a6235",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\16_MKGXal6.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/duyvslNundefined.png",
+      "sanitized_url": "https://i.imgur.com/duyvslN.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3202320,
+      "sha256": "1e7e916f9c2e63164d388f17b57b0242b9ed73044620216cf60a7605e01620d7",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\17_duyvslN.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/phlmuRaundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/phlmuRa.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 530335,
+      "sha256": "343c72c2901e7632de0f5a7ce18900a4323ecba1d76a0bfcd2cc6bd0e6d4588f",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\18_phlmuRa.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/RDbpNzDundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/RDbpNzD.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 530208,
+      "sha256": "9fa3a4aa3ef3c25b1130cffd26ef595b47cd88baf277e73e4cd9433c2c204314",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\19_RDbpNzD.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/nujs23rundefined.png",
+      "sanitized_url": "https://i.imgur.com/nujs23r.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2911959,
+      "sha256": "f8e2f250aa12ae1a28cf18d4574661d0d881bbc181f399fe42646aa009c498b2",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\20_nujs23r.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/lwDmJHhundefined.png",
+      "sanitized_url": "https://i.imgur.com/lwDmJHh.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3115846,
+      "sha256": "a3c20fce7e8ad14d0cc061d74ec294cc8d2b2325e4e06a6efd8a538beb9232a9",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\21_lwDmJHh.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/iltxa3wundefined.png",
+      "sanitized_url": "https://i.imgur.com/iltxa3w.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 3040981,
+      "sha256": "847def1a69831c846f0a9fa376f2bcc90af9ce8332c7a049117293ef9a962af0",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\22_iltxa3w.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/CF8vnZ6undefined.jpg",
+      "sanitized_url": "https://i.imgur.com/CF8vnZ6.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 547431,
+      "sha256": "9ddfad65c9f3fb3905c371136654f862ec44c69b40b556ab86adf888df37bdf8",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\23_CF8vnZ6.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/UiQtsusundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/UiQtsus.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 527479,
+      "sha256": "187aa4b647250bae905b91c63dd29f125ddff0890aed91cb2f150765764d7a49",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\24_UiQtsus.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/DC56B5kundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/DC56B5k.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 519415,
+      "sha256": "30dbb7a899a266ec43506de838529eefe310c13697328977a53c3c4d6b071fd1",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\25_DC56B5k.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/khdkxXUundefined.png",
+      "sanitized_url": "https://i.imgur.com/khdkxXU.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2971845,
+      "sha256": "5a42fea25c0c86f668f16d023f6bf214cad4fe61eb79d3479b2b670d86938dd4",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\26_khdkxXU.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/fUWF9C0undefined.png",
+      "sanitized_url": "https://i.imgur.com/fUWF9C0.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2814602,
+      "sha256": "ac2091cd2a2df4d26b535371ce463018382d8481d8dac0fb1589c27cda1c3720",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\27_fUWF9C0.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/4oD3lBFundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/4oD3lBF.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 534405,
+      "sha256": "bc2015c4a1e6993b0421d4b75bda54c9b9a70faaa88899fe83d5f9d443e8f157",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\28_4oD3lBF.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/EI33MV8undefined.jpg",
+      "sanitized_url": "https://i.imgur.com/EI33MV8.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 535033,
+      "sha256": "430f1f6306b2616fb5cf0be03407f0ae8866dc61d19973a2ae71f0b766cc84dd",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\29_EI33MV8.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/gqfEDrTundefined.png",
+      "sanitized_url": "https://i.imgur.com/gqfEDrT.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2912856,
+      "sha256": "c4e79d9bc5161236f750609d6fc17c73126fff3f82cb4c9cdcc6b07c28e6a21b",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\30_gqfEDrT.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/1fiVcFEundefined.png",
+      "sanitized_url": "https://i.imgur.com/1fiVcFE.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2938231,
+      "sha256": "ec5e8afd83f49877324f576f47468022f828c8c0340dd5f39fb6521e4a493c2c",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\31_1fiVcFE.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/nx7gShDundefined.png",
+      "sanitized_url": "https://i.imgur.com/nx7gShD.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2401218,
+      "sha256": "a3283da08528618e48f188c97a6ac72617c7b18e2ec202df895ff1262d0a2460",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\32_nx7gShD.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/frpcU8iundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/frpcU8i.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 598869,
+      "sha256": "0a4f0ab792e0e045043714c0000aaa6e6a57bb412c6e135b39934ebdc535abf8",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\33_frpcU8i.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/UUuiBcgundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/UUuiBcg.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 516839,
+      "sha256": "c5ed0eb35fa918f47e99c8269a81927359e5be3b22943ffbd498fbdafd962db6",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\34_UUuiBcg.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/dY6aoPzundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/dY6aoPz.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 485259,
+      "sha256": "286c9865421952f862995f41e9b8c31edc2806f79e57f6e2ca7a31f314018d78",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\35_dY6aoPz.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/GJBMEOhundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/GJBMEOh.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 524230,
+      "sha256": "e7b16f1e5c8bb340162b5351e62f8664eed52518980bd2d5eb1f832771ef1049",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\36_GJBMEOh.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/fFRwVUyundefined.png",
+      "sanitized_url": "https://i.imgur.com/fFRwVUy.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2486985,
+      "sha256": "5ae6f3c3aac64abf5963cecd980caeceef53222fb84136a054aadf841b008672",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\37_fFRwVUy.png"
+    },
+    {
+      "original_url": "https://i.imgur.com/OOBoXARundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/OOBoXAR.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 457181,
+      "sha256": "dd68ea8c5bd762ec29022859fbc0ebec692d23ea546730349a89342819a1a7c2",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\38_OOBoXAR.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/XRPU9yLundefined.jpg",
+      "sanitized_url": "https://i.imgur.com/XRPU9yL.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "byte_count": 554959,
+      "sha256": "e0608147a274fcc791cdc5f54b342cb930738b0d311703664dcd911f1d018ec8",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\39_XRPU9yL.jpg"
+    },
+    {
+      "original_url": "https://i.imgur.com/h0kcFqOundefined.png",
+      "sanitized_url": "https://i.imgur.com/h0kcFqO.png",
+      "status": 200,
+      "content_type": "image/png",
+      "byte_count": 2247456,
+      "sha256": "cb5c51c7428f086356ee7814142a017ed3157c33ec895188047712ba1af57adc",
+      "error": null,
+      "file_path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\.tmp\\imgur_downloads\\40_h0kcFqO.png"
+    }
+  ],
+  "imgur_download_errors": [],
+  "imgur_non_image": [],
+  "local_images_hashed": 197,
+  "local_to_imgur_mapped": 59,
+  "perceptual_matches": {
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\MarshalBrennaThorne.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\MarshalBrennaThorne.jpg",
+      "imgur": "https://i.imgur.com/DC56B5k.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\StewardMaraFenwick.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\StewardMaraFenwick.jpg",
+      "imgur": "https://i.imgur.com/7zDKfWX.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\LorewardenElricVael.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\LorewardenElricVael.jpg",
+      "imgur": "https://i.imgur.com/OOBoXAR.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Corel.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Corel.jpg",
+      "imgur": "https://i.imgur.com/UiQtsus.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BordelBarleywind.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BordelBarleywind.png",
+      "imgur": "https://i.imgur.com/nujs23r.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\RowanFairweather.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\RowanFairweather.png",
+      "imgur": "https://i.imgur.com/duyvslN.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\MilaTeno.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\MilaTeno.png",
+      "imgur": "https://i.imgur.com/iltxa3w.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\TakkOaksplitter.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\TakkOaksplitter.png",
+      "imgur": "https://i.imgur.com/FyxJWvt.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\GalvenaAballon.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\GalvenaAballon.png",
+      "imgur": "https://i.imgur.com/BSNEKgT.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AriodhHighwhirl.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AriodhHighwhirl.png",
+      "imgur": "https://i.imgur.com/1fiVcFE.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Guz.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Guz.png",
+      "imgur": "https://i.imgur.com/0K66wmO.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\SeraGelanadel.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\SeraGelanadel.png",
+      "imgur": "https://i.imgur.com/yxGZKlq.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AurixeanValignaak.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AurixeanValignaak.png",
+      "imgur": "https://i.imgur.com/fUWF9C0.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Shinebright.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Shinebright.png",
+      "imgur": "https://i.imgur.com/l0McAF7.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BalethCindermoon.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BalethCindermoon.png",
+      "imgur": "https://i.imgur.com/nx7gShD.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FatherJohanMerriksonn.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FatherJohanMerriksonn.jpg",
+      "imgur": "https://i.imgur.com/RDbpNzD.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\WillenFeatherock.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\WillenFeatherock.jpg",
+      "imgur": "https://i.imgur.com/q0t6X9G.jpg",
+      "dhash_distance": 1,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FlyntWymblen.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FlyntWymblen.jpg",
+      "imgur": "https://i.imgur.com/gxsZ6Qh.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\JoelAndersmith.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\JoelAndersmith.png",
+      "imgur": "https://i.imgur.com/gqfEDrT.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Bolt.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Bolt.jpg",
+      "imgur": "https://i.imgur.com/4oD3lBF.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Flame.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Flame.jpg",
+      "imgur": "https://i.imgur.com/J4lh2Bs.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\WaystoneWolf.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\WaystoneWolf.png",
+      "imgur": "https://i.imgur.com/xCNcelg.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AlexiMerriksonn.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\AlexiMerriksonn.jpg",
+      "imgur": "https://i.imgur.com/UUuiBcg.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\TillusMerrion.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\TillusMerrion.png",
+      "imgur": "https://i.imgur.com/jOsvoOZ.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\LeanorSlatebeard.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\LeanorSlatebeard.png",
+      "imgur": "https://i.imgur.com/khdkxXU.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BantethSlatebeard.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\BantethSlatebeard.jpg",
+      "imgur": "https://i.imgur.com/EI33MV8.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\IrvenLiel.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\IrvenLiel.jpg",
+      "imgur": "https://i.imgur.com/XRPU9yL.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\ArlBortock.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\ArlBortock.jpg",
+      "imgur": "https://i.imgur.com/frpcU8i.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FentonTethwick.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\FentonTethwick.jpg",
+      "imgur": "https://i.imgur.com/phlmuRa.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\CaptainEmmajeenKole.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\CaptainEmmajeenKole.png",
+      "imgur": "https://i.imgur.com/lwDmJHh.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Wyrmling(BabyDragon).png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Wyrmling(BabyDragon).png",
+      "imgur": "https://i.imgur.com/euDwslI.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Rorn(SilverDragonMother).png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Rorn(SilverDragonMother).png",
+      "imgur": "https://i.imgur.com/MKGXal6.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\ElroAldataur.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\ElroAldataur.png",
+      "imgur": "https://i.imgur.com/Jd3rjFU.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\VerlaPelc.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\VerlaPelc.jpg",
+      "imgur": "https://i.imgur.com/kaLHuR3.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\UrgonWenth.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\UrgonWenth.png",
+      "imgur": "https://i.imgur.com/81oYw9f.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Guz'sWolf.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\Guz'sWolf.jpg",
+      "imgur": "https://i.imgur.com/dY6aoPz.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\PolymorphedBear.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\Campaign Assets\\Images\\PolymorphedBear.jpg",
+      "imgur": "https://i.imgur.com/CF8vnZ6.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\cover-nww.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\cover-nww.png",
+      "imgur": "https://i.imgur.com/h0kcFqO.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\NorthreachMap.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\NorthreachMap.png",
+      "imgur": "https://i.imgur.com/GJBMEOh.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\MarshalBrennaThorne.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\MarshalBrennaThorne.jpg",
+      "imgur": "https://i.imgur.com/DC56B5k.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\StewardMaraFenwick.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\StewardMaraFenwick.jpg",
+      "imgur": "https://i.imgur.com/7zDKfWX.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\LorewardenElricVael.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\LorewardenElricVael.jpg",
+      "imgur": "https://i.imgur.com/OOBoXAR.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Corel.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Corel.jpg",
+      "imgur": "https://i.imgur.com/UiQtsus.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\BordelBarleywind.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\BordelBarleywind.png",
+      "imgur": "https://i.imgur.com/nujs23r.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\RowanFairweather.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\RowanFairweather.png",
+      "imgur": "https://i.imgur.com/duyvslN.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\MilaTeno.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\MilaTeno.png",
+      "imgur": "https://i.imgur.com/iltxa3w.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\TakkOaksplitter.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\TakkOaksplitter.png",
+      "imgur": "https://i.imgur.com/FyxJWvt.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\GalvenaAballon.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\GalvenaAballon.png",
+      "imgur": "https://i.imgur.com/BSNEKgT.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\AriodhHighwhirl.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\AriodhHighwhirl.png",
+      "imgur": "https://i.imgur.com/1fiVcFE.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Guz.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Guz.png",
+      "imgur": "https://i.imgur.com/0K66wmO.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\SeraGelanadel.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\SeraGelanadel.png",
+      "imgur": "https://i.imgur.com/yxGZKlq.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\AurixeanValignaak.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\AurixeanValignaak.png",
+      "imgur": "https://i.imgur.com/fUWF9C0.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Shinebright.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\Shinebright.png",
+      "imgur": "https://i.imgur.com/l0McAF7.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\BalethCindermoon.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\BalethCindermoon.png",
+      "imgur": "https://i.imgur.com/nx7gShD.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\FatherJohanMerriksonn.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\FatherJohanMerriksonn.jpg",
+      "imgur": "https://i.imgur.com/RDbpNzD.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\WillenFeatherock.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\WillenFeatherock.jpg",
+      "imgur": "https://i.imgur.com/q0t6X9G.jpg",
+      "dhash_distance": 1,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\FlyntWymblen.jpg": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\FlyntWymblen.jpg",
+      "imgur": "https://i.imgur.com/gxsZ6Qh.jpg",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\JoelAndersmith.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\Images\\JoelAndersmith.png",
+      "imgur": "https://i.imgur.com/gqfEDrT.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\NW2.png": {
+      "local": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Campaign Assets\\NW2.png",
+      "imgur": "https://i.imgur.com/fFRwVUy.png",
+      "dhash_distance": 0,
+      "ahash_distance": 0
+    }
+  },
+  "hash_collisions": {},
+  "files_modified": {
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\DM_Resources\\DM Guild Roster.md": {
+      "replacements": 21,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\DM_Resources\\NPC Roster \u2014 By Location & Adventure (DM).md": {
+      "replacements": 75,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Regions\\Northreach\\Northreach_Journal_and_Lore.md": {
+      "replacements": 21,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Regions\\Northreach\\Northreach_Setting_Primer.md": {
+      "replacements": 1,
+      "skipped": 0
+    }
+  },
+  "files_touched": {
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\DM_Resources\\DM Guild Roster.md": {
+      "replacements": 21,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\Season 1\\DM_Resources\\NPC Roster \u2014 By Location & Adventure (DM).md": {
+      "replacements": 75,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Regions\\Northreach\\Northreach_Journal_and_Lore.md": {
+      "replacements": 21,
+      "skipped": 0
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\World Building\\Regions\\Northreach\\Northreach_Setting_Primer.md": {
+      "replacements": 1,
+      "skipped": 0
+    }
+  }
+}

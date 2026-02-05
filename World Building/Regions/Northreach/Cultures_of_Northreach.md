@@ -7,7 +7,7 @@ Northreach isn't defined by a single culture but by the practical blending of pe
 
 ---
 
-## The Frontier Culture (Common Across Groups)
+## The Frontier Culture
 
 ### Shared Values
 
@@ -46,6 +46,8 @@ Nature commands respect:
 - Learn to read weather, tracks, and seasons
 - Listen to those with more experience
 
+\column
+
 ### Common Frontier Sayings
 
 **About Work:**
@@ -69,6 +71,8 @@ Nature commands respect:
 - "Fool me once, and I'll remember. Fool me twice, and everyone will."
 
 ---
+
+\page
 
 ## Human Frontier Culture
 
@@ -98,8 +102,6 @@ Most humans in Northreach came from southern regions:
 - Create traditions quickly
 - Celebrate community achievements
 
-\page
-
 ### Typical Occupations
 - Farmers and homesteaders
 - Laborers and general workers
@@ -123,9 +125,6 @@ Humans in Northreach celebrate:
 ---
 
 ## Dwarven Communities
-
-\page
-
 
 ### Origins
 Dwarves in Northreach come from two main sources:
@@ -165,6 +164,8 @@ Dwarves in Northreach come from two main sources:
 - Brewers and distillers
 - Engineers and problem-solvers
 
+\page
+
 ### Dwarven Contributions to Northreach
 - Sturdy construction techniques
 - Quality metalwork and tools
@@ -203,8 +204,6 @@ Elves in Northreach represent diverse backgrounds:
 - Studying frontier ecosystems
 - Escaping social constraints of elven society
 - Attracted by ancient mysteries
-
-\page
 
 ### Cultural Traits
 **Patience:** Long perspective:
@@ -253,11 +252,9 @@ Elves face unique frontier difficulties:
 - Balancing isolation preference with community need
 
 ---
-
-## Halfling Communities
-
 \page
 
+## Halfling Communities
 
 ### Origins
 Halflings in Northreach are primarily:
@@ -321,8 +318,6 @@ Halflings often serve as social connectors:
 
 ---
 
-\page
-
 ## Other Peoples
 
 ### Gnomes
@@ -361,6 +356,7 @@ Occasionally found in Northreach:
 - Appreciate frontier's focus on competence over background
 
 ---
+\page
 
 ## Intercultural Dynamics
 
@@ -401,9 +397,6 @@ Children of frontier settlers often:
 
 ## Religious Practice
 
-\page
-
-
 ### Diverse Pantheons
 No single religious tradition dominates:
 - Moradin (dwarven deity) widely respected
@@ -411,6 +404,8 @@ No single religious tradition dominates:
 - Human pantheons represented
 - Various nature deities (especially among wood elves)
 - Some syncretism emerging
+
+\column
 
 ### Practical Faith
 Religion in Northreach is functional:
@@ -435,8 +430,6 @@ Religious sites are modest:
 - Natural locations (groves, springs) marked as holy
 - Ancestor memorials
 - The Waystone (debated religious significance)
-
-\page
 
 ### Death Customs
 Frontier death practices blend traditions:
@@ -464,6 +457,8 @@ Maintained to varying degrees:
 - Halfling (private family conversations)
 - Others as appropriate
 - Second-generation speakers less fluent
+
+\page
 
 ### Written Communication
 Literacy varies:
@@ -518,6 +513,7 @@ Community gatherings vital:
 - Any excuse to gather and share warmth
 
 ---
+\column
 
 ## Food Culture
 
@@ -546,7 +542,7 @@ Food sharing is sacred:
 - Community feasts on special occasions
 - Even enemies are fed before being judged
 
-\page
+
 
 ### Scarcity Management
 Hard winters teach lessons:
@@ -558,11 +554,9 @@ Hard winters teach lessons:
 - Plan for next winter starting in spring
 
 ---
-
-## Clothing and Practical Gear
-
 \page
 
+## Clothing and Practical Gear
 
 ### Climate-Appropriate Dress
 Function over fashion:
@@ -607,6 +601,8 @@ First settlers vs children:
 - Third generation (rare) is truly Northreach
 - Traditions evolve to fit environment
 - Pride in being from "here"
+
+\column
 
 ### Reputation Markers
 How you're known:
@@ -686,9 +682,9 @@ What brings people together:
 - Personal relationships (mind your business)
 
 ---
+{{descriptive
 
-*"We didn't all come from the same place, but we all chose to stay. That means something."*  
-
-\page
-
-— Common frontier saying
+"We didn't all come from the same place, but we all chose to stay. That means something."
+  
+  — Common frontier saying
+}}

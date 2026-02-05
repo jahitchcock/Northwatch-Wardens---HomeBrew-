@@ -261,6 +261,8 @@ Flames that moved against the wind, changed color without cause, and left unusua
 **Pulsing Magma Flows**  
 Lava rivers that flowed in rhythmic intervals, as if responding to a heartbeat deep below.
 
+\page
+
 ### Cultural Interpretation
 
 Emberlands communities interpreted these events differently:
@@ -280,7 +282,6 @@ Emberlands communities interpreted these events differently:
 - Claim the world must be purified by fire
 - Attempt to amplify the phenomenon
 
-\page
 
 ---
 
@@ -311,6 +312,8 @@ The dwarven kingdoms maintain multiple outposts in the Emberlands, with Ashfall 
 - Collaborative mining operations
 
 **Tension:** Since Eclipse Day, some traditional dwarven methods have stopped working, causing friction between conservative and progressive factions.
+
+\column
 
 ### Nullwood Expanse
 

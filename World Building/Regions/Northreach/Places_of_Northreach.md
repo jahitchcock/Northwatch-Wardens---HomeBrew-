@@ -30,6 +30,8 @@ The inn maintains a careful balance:
 - Professionally neutral ground for those seeking help
 - Quietly watchful of those who bring trouble
 
+\column
+
 ### Notable Features
 - **The Contract Board:** Posted contracts available for wardens to accept
 - **The Common Room:** Where news, rumors, and stories circulate
@@ -64,6 +66,8 @@ A farming and herding village built on good soil and stubborn determination. Wel
 - **Terrain:** Fertile valley with gentle hills, bordered by forests to the north and west
 - **Climate:** Cold winters, short growing seasons, reliable rainfall
 
+\page
+
 ### The Settlement
 Welton is organized around its main square:
 - **Village Square:** Market area and community gathering space
@@ -78,8 +82,6 @@ Welton is organized around its main square:
 - Limited vegetable gardens (short season)
 - Wool production
 - Seasonal trading with other settlements
-
-\page
 
 ### Population
 About 120 permanent residents:
@@ -135,9 +137,6 @@ Village council of five elected members who rotate leadership:
 
 ## Westly's Farm (West of Welton)
 
-\page
-
-
 ### What It Is
 An outlying sheep farm that represents the isolated homesteads common on the frontier. Westly's Farm sits at the edge of Welton's protected area, closer to the wild forests than most residents prefer.
 
@@ -152,6 +151,8 @@ An outlying sheep farm that represents the isolated homesteads common on the fro
 - **Barn:** For hay storage and shelter during harsh weather
 - **Well:** Deep and reliable
 - **Fields:** Open grazing land bordered by forest
+
+\page
 
 ### Daily Life
 Westly manages the farm with occasional hired help during shearing season:
@@ -178,8 +179,6 @@ Outlying farms like Westly's face constant challenges:
 - Livestock losses
 - Strange behavior from the wolves (too organized, too persistent)
 - Growing fear that something is deliberately targeting the farm
-
-\page
 
 ### Local Knowledge
 - "Westly's a hard worker, but he farms hard land."
@@ -236,6 +235,8 @@ About 90 permanent residents, plus floating population of travelers:
 - Disputes settled by arbitration (fees charged)
 - Maintains armed watch to protect trade goods
 
+\page
+
 ### Notable Locations Within Pinebrook
 
 #### The Pine Lodge
@@ -276,11 +277,7 @@ About 90 permanent residents, plus floating population of travelers:
 
 ---
 
-\page
-
 ## Palebank Village (Northeast Coast)
-
-\page
 
 
 ### What It Is
@@ -319,6 +316,8 @@ About 200 permanent residents:
 - Militia service is mandatory (the Glassblades)
 - Everyone contributes to community survival
 
+\page
+
 ### Daily Life in Palebank
 Life here is hard but honest:
 - Work begins at dawn and continues until exhaustion
@@ -354,14 +353,6 @@ Life here is hard but honest:
 - **Character:** Fiercely independent, distrustful
 - **Reputation:** Skilled trapper, avoids community events
 
-
-### The Eiselcross Connection
-Palebank is the last stop before Eiselcross:
-- Explorers resupply here before heading north
-- Successful expeditions bring back relics (and stories)
-- Failed expeditions are remembered in community mourning
-- Local children grow up hearing tales of ice and ruins
-
 ### Cultural Notes
 - Complaining about the cold marks you as weak
 - Sharing warmth and food is expected
@@ -374,59 +365,17 @@ Palebank is the last stop before Eiselcross:
 - Some residents showing symptoms of the same disease
 - Community is looking to outsiders for help
 
-\page
-
 ### Local Knowledge
 - "The sea provides—until it takes."
 - "If you can survive a winter here, you can survive anything."
-- "Don't touch things brought back from Eiselcross."
 - "Palebank folk don't abandon their own."
-
----
-
-## Croaker Cave (North of Palebank)
-
-\page
-
-
-### What It Is
-A cave complex north of Palebank Village, known locally as a shelter and occasionally used by trappers. Recently, it's become something more dangerous.
-
-### Geography
-- **Location:** About two hours' walk north of Palebank
-- **Terrain:** Rocky hills transitioning to tundra
-- **Access:** Visible from the coast road, easy to find
-
-### The Cave System
-- **Entrance:** Wide enough for several people
-- **Interior:** Multiple chambers connected by natural passages
-- **Features:** Fresh water source, natural shelter from wind
-- **Historic Use:** Emergency shelter for hunters and trappers
-
-### Current Occupants
-The cave has been taken over by outside forces:
-- Used as a hideout by criminals
-- Storage location for stolen goods
-- Base of operations for smuggling
-
-### Why It Matters
-- Close enough to Palebank to threaten the village
-- Defensible position with multiple exits
-- Known to locals, making it easy for outsiders to find
-- Connected to recent troubles in the village
-
-### Local Knowledge
-- "Croaker Cave gets its name from the frogs in the spring melt."
-- "Trappers used to stay there regularly."
-- "Something's using it now, and it isn't trappers."
-- "Stay away unless you're looking for trouble."
-
+  
 ---
 
 ## Salsvault (Far North of Palebank)
 
 ### What It Is
-An ancient ruin rising from the ice—a fragment of Aeor, the flying city-state that crashed during the Calamity. Salsvault was once a magical laboratory and now serves as a frozen tomb of dangerous secrets.
+An ancient ruin rising from the ice
 
 ### Geography
 - **Location:** Far north of Palebank, requiring boat travel and ice hiking
@@ -441,36 +390,9 @@ What can be seen from outside:
 - Entrance partially buried, requiring excavation
 
 ### What Explorers Know
-- Inside contains Aeorian technology and magic
-- Extremely dangerous—traps, guardians, unstable magic
-- Rich in artifacts and relics
 - Many who explore it don't return
-
-### What Historians Know
-- Salsvault was an Aeorian research facility
-- Focused on magical diseases and biological warfare
-- Contained vaults of experimental substances
-- Sealed after Aeor's fall but not destroyed
-
-### Why People Risk It
-- Aeorian artifacts are valuable
-- Knowledge from before the Calamity is rare
-- Some seek cures for otherwise incurable conditions
-- Glory and reputation await successful explorers
-
-### The Danger
-Multiple levels of threat:
-- Environmental (cold, ice, isolation)
-- Magical (active wards, unstable enchantments)
-- Physical (traps, guardians, structural collapse)
-- Biological (ancient plagues still viable)
-
-### Local Knowledge
-- "Salsvault killed Urgon Wenth."
-- "What's in that place should stay buried."
-- "Aeorian magic is too dangerous to mess with."
-
-- "The desperate go to Salsvault. The smart stay away."
+::
+      "The desperate go to Salsvault. The smart stay away."
 
 ---
 
@@ -478,23 +400,13 @@ Multiple levels of threat:
 
 ## Temple of the Dragonknights (Northwest Mountains)
 
-\page
-
-
 ### What It Is
-A remote mountain temple dedicated to an ancient order of warriors who once defended the region. The temple is both a monument to past heroes and a warning about what they fought.
+A remote mountain temple dedicated to an ancient order of warriors who once defended the region. The temple is both a monument to past heroes and a warning about what they fought. An impressive complex carved into the mountainside.
 
 ### Geography
 - **Location:** High in the northwest mountains, several days' difficult travel
 - **Terrain:** Alpine peaks, narrow passes, treacherous trails
 - **Altitude:** High enough that breathing is labored
-
-### The Structure
-An impressive complex carved into the mountainside:
-- **Main Temple:** Grand entrance with dragon motifs
-- **Courtyards:** Open spaces for training (now abandoned)
-- **Inner Sanctum:** Sealed chambers deeper in the mountain
-- **Catacombs:** Burial places of fallen Dragonknights
 
 ### Historical Significance
 The Dragonknights were legendary protectors:
@@ -512,7 +424,6 @@ The Dragonknights were legendary protectors:
 ### What Draws People Here
 - Legends of Dragonknight treasure
 - Historical significance
-- Rumors that something is stirring in the depths
 - The challenge of reaching it
 
 ### The Warning
@@ -528,6 +439,8 @@ Local stories emphasize danger:
 - "The temple guards itself."
 
 ---
+\column
+
 
 ## Noke's Tower (West of Waystone)
 
@@ -551,7 +464,6 @@ The tower's owner:
 - Gnome wizard of considerable power
 - Known for creative and dangerous magical experiments
 - Surprisingly reasonable when approached respectfully
-- Prone to absent-minded catastrophes
 
 ### Notable Incidents
 Stories about Noke's Tower:
@@ -559,6 +471,8 @@ Stories about Noke's Tower:
 - The incident with the animated furniture
 - When Shinebright accidentally polymorphed a bandit into a sheep
 - The mysterious lights that appear during storms
+
+\page
 
 ### Local Attitude
 People treat the tower with wary respect:
@@ -574,12 +488,8 @@ People treat the tower with wary respect:
 - "If you see lights where there shouldn't be lights—leave."
 
 ---
-\page
 
 ## The Wilderness Between
-
-\page
-
 
 ### The Roads
 Northreach is stitched together by imperfect roads:
@@ -604,6 +514,8 @@ Common wisdom for travelers:
 - Don't investigate strange lights or sounds
 - If wildlife behaves oddly, increase vigilance
 
+\column
+
 ### Known Hazards
 What travelers watch for:
 - Predators (natural and otherwise)
@@ -619,32 +531,6 @@ Features that help navigation:
 - The Old Bridge (Roman-style stone bridge, origin unknown)
 - Three Sisters Pines (trio of ancient trees visible for miles)
 - Raven's Watch (hilltop with view of multiple routes)
-
----
-
-## Places Mentioned But Distant
-
-### Eiselcross
-A frozen archipelago north of Palebank:
-- Source of dangerous artifacts
-- Contains ruins of the flying city Aeor
-- Extremely hostile environment
-- Draws desperate explorers
-
-### Southern Settlements
-Unnamed cities and towns far to the south:
-- Source of manufactured goods
-- Where some Northreach residents originally came from
-- Involved in wars and politics that don't reach this far north
-- Trade partners but distant
-
-### Shadycreek Run
-A smuggling town mentioned in connection with criminal activity:
-- Known for black market trade
-
-- Controlled by criminal families
-- Source of trouble occasionally reaching Northreach
-- Place refugees sometimes flee from
 
 ---
 
@@ -676,6 +562,3 @@ Some can't endure frontier life:
 ---
 
 *"Northreach doesn't announce itself with walls and banners—it reveals itself mile by mile, earned step by earned step."*
-
-\page
-

@@ -8,7 +8,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Marshal Brenna Thorne — Field Commander**
 
-<img src="../Campaign%20Assets/Images/MarshalBrennaThorne.jpg" width="90" alt="Marshal Brenna Thorne" style="display: block;" />
+<img src="https://i.imgur.com/DC56B5k.jpg" width="90" alt="Marshal Brenna Thorne" style="display: block;" />
 
 **Public Face:** A hardened ranger who has spent decades patrolling the Northreach frontier.
 **Private Truth:** Brenna once served alongside **Corel of Welton** during the “Greywinter Hunts,” a brutal season when wolves, undead, and worse spilled out of the northern woods. She carries guilt for losing half her squad—including her younger brother—to a creature she never identified.
@@ -23,7 +23,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Steward Mara Fenwick — Quartermaster**
 
-<img src="../Campaign%20Assets/Images/StewardMaraFenwick.jpg" width="90" alt="Steward Mara Fenwick" style="display: block;" />
+<img src="https://i.imgur.com/7zDKfWX.jpg" width="90" alt="Steward Mara Fenwick" style="display: block;" />
 
 **Public Face:** A cheerful, meticulous human woman who runs supplies, finances, and logistics.
 **Private Truth:** Mara is a former smuggler from Shadycreek Run who fled after crossing the Uttolot family. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
@@ -38,7 +38,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Lorewarden Elric Vael — Arcane Scholar**
 
-<img src="../Campaign%20Assets/Images/LorewardenElricVael.jpg" width="90" alt="Lorewarden Elric Vael" style="display: block;" />
+<img src="https://i.imgur.com/OOBoXAR.jpg" width="90" alt="Lorewarden Elric Vael" style="display: block;" />
 
 **Public Face:** A soft‑spoken elven mage who catalogues threats, magical anomalies, and frontier lore.
 **Private Truth:** Elric is secretly investigating a pattern of magical disturbances stretching from Pinebrook to Welton to Palebank. He believes they are connected to a single source—an ancient arcane engine buried beneath the Northreach.
@@ -61,7 +61,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Corel — Senior Shepherd of Welton**
 
-<img src="../Campaign%20Assets/Images/Corel.jpg" width="90" alt="Corel" style="display: block;" />
+<img src="https://i.imgur.com/UiQtsus.jpg" width="90" alt="Corel" style="display: block;" />
 
 **Public Face:** A gruff but kind halfling who knows every hill, trail, and wolf den in the region.
 **Private Truth:** Corel is the *only* survivor of the Greywinter Hunts besides Brenna. He has a deep, instinctive understanding of wolf behavior—and he knows the current attacks are unnatural.
@@ -76,7 +76,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Bordel Barleywind — Human Ranger**
 
-<img src="../Campaign%20Assets/Images/BordelBarleywind.png" width="90" alt="Bordel Barleywind" style="display: block;" />
+<img src="https://i.imgur.com/nujs23r.png" width="90" alt="Bordel Barleywind" style="display: block;" />
 
 **Public Face:** A quiet, competent ranger who prefers the company of animals.
 **Private Truth:** Bordel was once part of a mercenary band hired to clear the woods near Welton. They were ambushed by wolves—*the same pack the party will meet*. He fled, ashamed.
@@ -91,7 +91,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Rowan Fairweather — Half‑Elf Druid**
 
-<img src="../Campaign%20Assets/Images/RowanFairweather.png" width="90" alt="Rowan Fairweather" style="display: block;" />
+<img src="https://i.imgur.com/duyvslN.png" width="90" alt="Rowan Fairweather" style="display: block;" />
 
 **Public Face:** Gentle, curious, and deeply attuned to nature.
 **Private Truth:** Rowan senses a “disturbance” in the natural balance stretching across the frontier. She believes something ancient is awakening.
@@ -106,7 +106,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Mila Teno — Glassblade Rookie**
 
-<img src="../Campaign%20Assets/Images/MilaTeno.png" width="90" alt="Mila Teno" style="display: block;" />
+<img src="https://i.imgur.com/iltxa3w.png" width="90" alt="Mila Teno" style="display: block;" />
 
 **Public Face:** A bright‑eyed, eager young elf who wants to prove herself.
 **Private Truth:** Mila is secretly terrified of wolves after losing a sibling to a pack years ago.
@@ -129,7 +129,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Takk Oaksplitter — Half‑Orc Barbarian**
 
-<img src="../Campaign%20Assets/Images/TakkOaksplitter.png" width="90" alt="Takk Oaksplitter" style="display: block;" />
+<img src="https://i.imgur.com/FyxJWvt.png" width="90" alt="Takk Oaksplitter" style="display: block;" />
 
 **Public Face:** Loud, friendly, and always ready for a fight.
 **Private Truth:** Takk’s tribe was wiped out by a corrupted beast—possibly related to the same magic affecting the wolves.
@@ -144,7 +144,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Galvena Aballon — Human Paladin**
 
-<img src="../Campaign%20Assets/Images/GalvenaAballon.png" width="90" alt="Galvena Aballon" style="display: block;" />
+<img src="https://i.imgur.com/BSNEKgT.png" width="90" alt="Galvena Aballon" style="display: block;" />
 
 **Public Face:** Devout, disciplined, and unwavering.
 **Private Truth:** Galvena has sworn a private oath to hunt down Venomfang after the dragon destroyed a shrine she once served.
@@ -159,7 +159,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Ariodh Highwhirl — Human Monk**
 
-<img src="../Campaign%20Assets/Images/AriodhHighwhirl.png" width="90" alt="Ariodh Highwhirl" style="display: block;" />
+<img src="https://i.imgur.com/1fiVcFE.png" width="90" alt="Ariodh Highwhirl" style="display: block;" />
 
 **Public Face:** Calm, focused, and philosophical.
 **Private Truth:** Ariodh once trained under a master who vanished investigating Aeorian ruins.
@@ -174,7 +174,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Guz — Half‑Orc (Reformed)**
 
-<img src="../Campaign%20Assets/Images/Guz.png" width="90" alt="Guz" style="display: block;" />
+<img src="https://i.imgur.com/0K66wmO.png" width="90" alt="Guz" style="display: block;" />
 
 **Public Face:** Gruff, awkward, trying his best.
 **Private Truth:** After the events of *Wild Sheep Chase*, Guz seeks redemption and has joined the Wardens.
@@ -193,7 +193,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Sera Gelanadel — Apprentice Wizard**
 
-<img src="../Campaign%20Assets/Images/SeraGelanadel.png" width="90" alt="Sera Gelanadel" style="display: block;" />
+<img src="https://i.imgur.com/yxGZKlq.png" width="90" alt="Sera Gelanadel" style="display: block;" />
 
 **Public Face:** Brilliant, curious, and slightly overwhelmed.
 **Private Truth:** Sera is investigating a surge of magical anomalies across the frontier.
@@ -208,7 +208,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 
 **Aurixean Valignaak — Dragonborn Sorcerer**
 
-<img src="../Campaign%20Assets/Images/AurixeanValignaak.png" width="90" alt="Aurixean Valignaak" style="display: block;" />
+<img src="https://i.imgur.com/fUWF9C0.png" width="90" alt="Aurixean Valignaak" style="display: block;" />
 
 **Public Face:** Proud, charismatic, and dramatic.
 **Private Truth:** Aurixean’s draconic bloodline resonates painfully whenever Venomfang is near.
@@ -226,7 +226,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 \page
 
 
-<img src="../Campaign%20Assets/Images/Shinebright.png" width="90" alt="Shinebright" style="display: block;" />
+<img src="https://i.imgur.com/l0McAF7.png" width="90" alt="Shinebright" style="display: block;" />
 
 **Public Face:** A sheep.
 **Private Truth:** A *very annoyed* sheep.
@@ -236,7 +236,7 @@ You already know this one — he’s the chaos engine.
 
 **Baleth Cindermoon — Tiefling Warlock**
 
-<img src="../Campaign%20Assets/Images/BalethCindermoon.png" width="90" alt="Baleth Cindermoon" style="display: block;" />
+<img src="https://i.imgur.com/nx7gShD.png" width="90" alt="Baleth Cindermoon" style="display: block;" />
 
 **Public Face:** Charming, mysterious, and theatrical.
 **Private Truth:** Baleth’s patron is deeply interested in the magical disturbances across the frontier.
@@ -255,7 +255,7 @@ You already know this one — he’s the chaos engine.
 
 **Father Merriksonn — Village Priest**
 
-<img src="../Campaign%20Assets/Images/FatherJohanMerriksonn.jpg" width="90" alt="Father Merriksonn" style="display: block;" />
+<img src="https://i.imgur.com/RDbpNzD.jpg" width="90" alt="Father Merriksonn" style="display: block;" />
 
 **Public Face:** Kind, weary, and devoted.
 **Private Truth:** His brother Alexi is the missing sorcerer from *Wolves of Welton*.
@@ -270,7 +270,7 @@ You already know this one — he’s the chaos engine.
 
 **Willen Featherock — Halfling Shepherd**
 
-<img src="../Campaign%20Assets/Images/WillenFeatherock.jpg" width="90" alt="Willen Featherock" style="display: block;" />
+<img src="https://i.imgur.com/q0t6X9G.jpg" width="90" alt="Willen Featherock" style="display: block;" />
 
 **Public Face:** Nervous, traumatized, recovering.
 **Private Truth:** Willen heard the wolves speak—and he wasn’t hallucinating.
@@ -285,7 +285,7 @@ You already know this one — he’s the chaos engine.
 
 **Flynt Wymblen — Gnome Bard**
 
-<img src="../Campaign%20Assets/Images/FlyntWymblen.jpg" width="90" alt="Flynt Wymblen" style="display: block;" />
+<img src="https://i.imgur.com/gxsZ6Qh.jpg" width="90" alt="Flynt Wymblen" style="display: block;" />
 
 **Public Face:** Cheerful, musical, and nosy.
 **Private Truth:** Flynt is secretly writing an epic ballad about the Wardens.
@@ -300,7 +300,7 @@ You already know this one — he’s the chaos engine.
 
 **Joel Andersmith — Farmer (Ally)**
 
-<img src="../Campaign%20Assets/Images/JoelAndersmith.png" width="90" alt="Joel Andersmith" style="display: block;" />
+<img src="https://i.imgur.com/gqfEDrT.png" width="90" alt="Joel Andersmith" style="display: block;" />
 
 **Public Face:** Grieving father.
 **Private Truth:** Joel’s daughter Clementine is destined to become a powerful mage.
@@ -318,14 +318,14 @@ You already know this one — he’s the chaos engine.
 
 **Bolt — Alpha Wolf (Awakened)**
 
-<img src="../Campaign%20Assets/Images/Bolt.jpg" width="90" alt="Bolt" style="display: block;" />
+<img src="https://i.imgur.com/4oD3lBF.jpg" width="90" alt="Bolt" style="display: block;" />
 
 **Public Face:** Calm, intelligent, diplomatic.
 **Private Truth:** Bolt is terrified of what awakened him.
 
 **Flame — Alpha Wolf (Awakened)**
 
-<img src="../Campaign%20Assets/Images/Flame.jpg" width="90" alt="Flame" style="display: block;" />
+<img src="https://i.imgur.com/J4lh2Bs.jpg" width="90" alt="Flame" style="display: block;" />
 
 \page
 

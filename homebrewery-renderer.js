@@ -94,6 +94,55 @@ renderer.image = function (token) {
 	return out;
 };
 
+function parseTrailingCurlyStyles(styleText) {
+	const raw = String(styleText || '').trim();
+	if(!raw) return '';
+
+	const boolStyleMap = {
+		wrapRight : 'float:right;',
+		wrapLeft  : 'float:left;'
+	};
+
+	const parts = raw.split(',').map((p)=>p.trim()).filter(Boolean);
+	let out = '';
+	for(const part of parts) {
+		if(boolStyleMap[part]) {
+			out += boolStyleMap[part];
+			continue;
+		}
+		const idx = part.indexOf(':');
+		if(idx === -1) continue;
+		const key = part.substring(0, idx).trim();
+		const value = part.substring(idx + 1).trim();
+		if(!key || !value) continue;
+		out += `${key}:${value};`;
+	}
+	return out;
+}
+
+function applyImageCurlyStyles(html) {
+	// Homebrewery syntax: ![](url){position:absolute,...}
+	// Marked renders the image, but leaves `{...}` as plain text.
+	// Convert it into real inline styles on the <img>.
+	return String(html).replace(
+		/(<img\b[^>]*?)(\/?>)\s*\{([^}]+)\}/g,
+		(_match, imgOpen, imgClose, styleText)=>{
+			const additional = parseTrailingCurlyStyles(styleText);
+			if(!additional) return `${imgOpen}${imgClose}`;
+
+			const styleAttr = /\sstyle="([^"]*)"/i;
+			if(styleAttr.test(imgOpen)) {
+				return `${imgOpen.replace(styleAttr, (_m, existing)=>{
+					const merged = `${existing || ''}${existing && !String(existing).trim().endsWith(';') ? ';' : ''}${additional}`;
+					return ` style="${merged}"`;
+				})}${imgClose}`;
+			}
+
+			return `${imgOpen} style="${additional}"${imgClose}`;
+		}
+	);
+}
+
 // Disable default reflink behavior, as it steps on our variables extension
 tokenizer.def = function () {
 	return undefined;
@@ -338,8 +387,8 @@ function render(rawBrewText) {
 	}
 	
 	const html = Marked.parser(tokens, opts);
-	
-	return html;
+
+	return applyImageCurlyStyles(html);
 }
 
 module.exports = {
