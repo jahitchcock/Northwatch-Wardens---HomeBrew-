@@ -67,6 +67,26 @@ async function loadHomebreweryCss() {
   });
 }
 
+// Helper function to normalize page breaks at the end of content
+// Ensures exactly one \page at the end of each file
+function normalizePageBreak(content) {
+  // Trim trailing whitespace
+  let normalized = content.trimEnd();
+  
+  // Remove any existing \page directives at the end (including duplicates)
+  // The + quantifier handles multiple consecutive page breaks with any whitespace between them
+  // Examples: "\page\n\page", "\page  \n  \page", "\page\n\n\page"
+  normalized = normalized.replace(/(\\page\s*)+$/, '');
+  
+  // Trim again after removing page breaks
+  normalized = normalized.trimEnd();
+  
+  // Add exactly one \page at the end
+  normalized += '\n\n\\page';
+  
+  return normalized;
+}
+
 // Helper function to process an array of files and add them to the markdown
 async function processFiles(files, buildDir, combinedMarkdown) {
   for (let i = 0; i < files.length; i++) {
@@ -74,13 +94,14 @@ async function processFiles(files, buildDir, combinedMarkdown) {
     const filePath = path.join(buildDir, file);
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
-      const content = await fs.readFile(filePath, 'utf-8');
+      let content = await fs.readFile(filePath, 'utf-8');
+      
+      // Normalize the content to ensure exactly one \page at the end
+      content = normalizePageBreak(content);
+      
       combinedMarkdown += content + '\n\n';
       
-      // Add page break between files if this is not the last file
-      if (i < files.length - 1) {
-        combinedMarkdown += `\\page\n\n`;
-      }
+      // No need to add \page between files - each file already ends with \page
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -111,17 +132,22 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += `\\page\n\n`;
   
   // Process each section
-  for (const section of toc.sections) {
+  for (let i = 0; i < toc.sections.length; i++) {
+    const section = toc.sections[i];
     console.log(`  Processing: ${section.chapter}`);
-    combinedMarkdown += `\\page\n\n`;
+    
+    // No need to add \page before sections - previous section's last file already ends with \page
+    
     combinedMarkdown += `# ${section.chapter}\n\n`;
     
     // Handle subsections if present
     if (section.subsections) {
-      for (const subsection of section.subsections) {
+      for (let j = 0; j < section.subsections.length; j++) {
+        const subsection = section.subsections[j];
         combinedMarkdown += `## ${subsection.title}\n\n`;
         combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
-        combinedMarkdown += `\\page\n\n`;
+        
+        // No need to add \page between subsections - each file already ends with \page
       }
     } else if (section.files) {
       // Regular files
