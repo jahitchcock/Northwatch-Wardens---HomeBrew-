@@ -170,10 +170,20 @@ async function buildBook(tocFile, outputName) {
   
   // Additional CSS to support our special classes and improve PDF rendering
   const additionalCss = `
+/* @page rules for PDF generation */
+@page {
+  size: Letter;
+  margin: 0;
+}
+
 /* Additional styles for better PDF rendering */
 .pagebreak {
-  page-break-before: always;
-  break-before: page;
+  page-break-before: always !important;
+  break-before: page !important;
+  display: block;
+  height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .columnSplit {
@@ -197,6 +207,7 @@ async function buildBook(tocFile, outputName) {
   margin-top: 3in;
   margin-bottom: 0.2em;
   border: none;
+  page-break-before: auto;
 }
 
 .phb-cover .subtitle {
@@ -204,15 +215,21 @@ async function buildBook(tocFile, outputName) {
   font-style: italic;
 }
 
-/* Critical fix for Puppeteer PDF generation with Homebrewery styling
- * The Homebrewery .phb class uses overflow:hidden and fixed height which clips
- * content in Puppeteer's PDF rendering. Override these properties while keeping
- * the 2-column layout to maintain the D&D look and feel.
+/* Fix for Puppeteer PDF generation with Homebrewery styling
+ * Remove the overflow:hidden constraint that clips content
+ * Keep height auto for proper page flow in PDF
+ * Page breaks are controlled by .pagebreak divs
  */
 .phb {
   overflow: visible !important;
   height: auto !important;
   max-height: none !important;
+}
+
+/* Headings should stay with following content when possible */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+  break-after: avoid-page;
 }
 `;
 
@@ -227,14 +244,12 @@ ${homebreweryCss}
 ${additionalCss}
   </style>
 </head>
-<body>
-  <div class="phb">
+<body class="phb">
     <div class="phb-cover">
       <h1>${toc.title}</h1>
       <div class="subtitle">${toc.subtitle}</div>
     </div>
 ${htmlContent}
-  </div>
 </body>
 </html>
   `;
