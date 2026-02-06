@@ -5,9 +5,9 @@
   "includeTextOnCover": false,
   "sections": [
     {
-      "chapter": "Welcome to Aevoria",
+      "chapter": "The Northwatch Wardens",
       "files": [
-        "../World Building/Regions/00_Master_Index.md"
+        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
       ]
     },
     {
@@ -20,14 +20,9 @@
       ]
     },
     {
-      "chapter": "The Northwatch Wardens",
-      "files": [
-        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
-      ]
-    },
-    {
       "chapter": "The Wider World of Aevoria",
       "files": [
+        "../World Building/Regions/00_Master_Index.md",
         "../World Building/Regions/01_Northreach.md",
         "../World Building/Regions/02_Solaris_Dominion.md",
         "../World Building/Regions/03_Nullwood_Expanse.md",
