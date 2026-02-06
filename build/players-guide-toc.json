@@ -5,10 +5,9 @@
   "includeTextOnCover": false,
   "sections": [
     {
-      "chapter": "Welcome to Northreach",
+      "chapter": "Welcome to Aevoria",
       "files": [
-        "../World Building/Introduction/How_To_Use_This_Book.md",
-        "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
+        "../World Building/Introduction/How_To_Use_This_Book.md"
       ]
     },
     {
@@ -20,47 +19,26 @@
       ]
     },
     {
-      "chapter": "Northreach: The Frontier Region",
+      "chapter": "Northreach: Your Starting Point",
       "files": [
         "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
         "../World Building/Regions/Northreach/Places_of_Northreach.md",
         "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
-        "../World Building/Regions/Northreach/People_of_Northreach.md",
-        "../World Building/Regions/01_Northreach.md"
+        "../World Building/Regions/Northreach/People_of_Northreach.md"
       ]
     },
     {
       "chapter": "The Northwatch Wardens",
       "files": [
-        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
-      ]
-    },
-    {
-      "chapter": "Creating Your Character",
-      "files": [
-        "../World Building/Character_Creation/Creating_Your_Character.md"
-      ]
-    },
-    {
-      "chapter": "Creating Your Warden",
-      "files": [
+        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md",
         "../World Building/Player_Resources/Creating_Your_Warden.md"
       ]
     },
     {
-      "chapter": "Northreach: The Frontier Region",
-      "files": [
-        "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
-        "../World Building/Regions/Northreach/Places_of_Northreach.md",
-        "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
-        "../World Building/Regions/Northreach/People_of_Northreach.md",
-        "../World Building/Regions/01_Northreach.md"
-      ]
-    },
-    {
-      "chapter": "Beyond Northreach: The Wider World of Aevoria",
+      "chapter": "The Wider World of Aevoria",
       "files": [
         "../World Building/Regions/00_Master_Index.md",
+        "../World Building/Regions/01_Northreach.md",
         "../World Building/Regions/02_Solaris_Dominion.md",
         "../World Building/Regions/03_Nullwood_Expanse.md",
         "../World Building/Regions/04_Stonebound_Depths.md",
@@ -86,9 +64,17 @@
       ]
     },
     {
+      "chapter": "Practical Information",
+      "files": [
+        "../World Building/Player_Quick_Reference.md",
+        "../World Building/Practical/Currency_and_Trade.md"
+      ]
+    },
+    {
       "chapter": "Appendix",
       "files": [
-        "../World Building/Regions/Northreach/SongsOfTheNorthreach.md"
+        "../World Building/Regions/Northreach/SongsOfTheNorthreach.md",
+        "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
       ]
     }
   ]
