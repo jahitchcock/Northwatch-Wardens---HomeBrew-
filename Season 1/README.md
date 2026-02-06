@@ -2,7 +2,9 @@
 
 ## 🚀 New DM? Start Here!
 
-**📖 [SESSION 0 QUICK START GUIDE](./SESSION_0_QUICK_START.md)** — Everything you need to prep and run Session 0 in under 1 hour.
+**📖 [SESSION 0 QUICK START GUIDE](./SESSION_0_QUICK_START.md)** — Prep and run Session 0 in under 1 hour
+
+**🎯 [GENERAL DM QUICK START](../DM_QUICKSTART.md)** — Run your first adventure session with minimal prep
 
 ---
 
@@ -421,6 +423,10 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 ---
 
 ## Ready to Play
+
+**First-time DMs:** Start with the **[DM Quick Start Guide](../DM_QUICKSTART.md)** — a step-by-step guide to run your first session with minimal prep.
+
+**Experienced DMs:**
 
 1. **Pick an adventure** — Start with Opening + Wolves of Welton, or jump to any adventure
 2. **Gather your 2–5 players** — Variable attendance welcomed

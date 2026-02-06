@@ -67,9 +67,9 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 
 
-**🚀 New DM?** [Session 0 Quick Start Guide](./Season%201/SESSION_0_QUICK_START.md) — Prep and run Session 0 in under 1 hour
+**🚀 New DM?** Start with [Session 0 Quick Start](./Season%201/SESSION_0_QUICK_START.md) or [General DM Quick Start](./DM_QUICKSTART.md)
 
-**[Start your adventure →](./Season%201/)**
+**[Complete Campaign Guide →](./Season%201/)**
 
 
 
@@ -149,7 +149,7 @@ This repository carefully separates **player-safe content** from **DM-only secre
 
 ### ✅ Safe for Players
 - `World Building/Regions/` — Regional lore
-- `World Building/Organizations/` — Faction information  
+- `World Building/Organizations/` — Faction information
 - `World Building/Locations/` — Place descriptions
 - `Premade PCs/` and `Characters/` — Character resources
 
@@ -286,6 +286,7 @@ Whether you're a player seeking to explore Northreach or a Dungeon Master crafti
 
 **Choose your path:**
 
+- 🎯 **[New DMs: Quick Start Guides](./DM_QUICKSTART.md)** — Session 0 or first adventure guides
 - 🎲 **[Start in Northreach](./World%20Building/Regions/Northreach/)** — Learn the frontier first
 - 🛡️ **[Join the Northwatch Wardens](./Season%201/)** — Begin your campaign
 - 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests
