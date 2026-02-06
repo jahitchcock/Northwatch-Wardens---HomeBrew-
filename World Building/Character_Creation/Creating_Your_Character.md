@@ -74,12 +74,12 @@ Common throughout Northreach, often serving as mediators between human and elven
 
 **Typical Roles:** Bards, Rangers, Rogues, diplomats
 
+### Uncommon Ancestries
+
 #### Halflings
-Rare but present, usually as traders, innkeepers, or traveling merchants. Known for bringing cheer to the cold frontier.
+Present but not numerous, usually as traders, innkeepers, or traveling merchants. Known for bringing cheer to the cold frontier.
 
 **Typical Roles:** Rogues, Bards, Clerics
-
-### Uncommon Ancestries
 
 #### Elves
 Most elves stay in the **Nullwood Expanse**, their ancient forest kingdom. Those who come to Northreach are usually scouts, exiles, or scholars investigating the awakening magic.
@@ -231,14 +231,10 @@ Roll for starting gold based on your class and purchase equipment:
 | Class | Starting Gold |
 |-------|---------------|
 | Barbarian, Druid | 2d4 × 10 gp |
-| Bard, Fighter | 5d4 × 10 gp |
-| Cleric | 5d4 × 10 gp |
-| Monk, Ranger | 5d4 × 10 gp |
-| Paladin | 5d4 × 10 gp |
-| Rogue | 4d4 × 10 gp |
-| Sorcerer, Wizard | 3d4 × 10 gp |
-| Warlock | 4d4 × 10 gp |
-| Artificer | 5d4 × 10 gp |
+| Sorcerer | 3d4 × 10 gp |
+| Rogue, Warlock, Wizard | 4d4 × 10 gp |
+| Monk | 5d4 gp |
+| Bard, Cleric, Fighter, Paladin, Ranger, Artificer | 5d4 × 10 gp |
 
 ### Recommended Frontier Gear
 
