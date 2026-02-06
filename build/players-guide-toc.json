@@ -7,7 +7,17 @@
     {
       "chapter": "Welcome to Northreach",
       "files": [
+        "../World Building/Introduction/How_To_Use_This_Book.md",
+        "../World Building/Regions/00_Master_Index.md"
         "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
+      ]
+    },
+    {
+      "chapter": "Character Creation",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md",
+        "../World Building/Character_Creation/Regional_Origins.md",
+        "../World Building/Character_Creation/Languages_and_Culture.md"
       ]
     },
     {
@@ -30,6 +40,12 @@
       "chapter": "Creating Your Character",
       "files": [
         "../World Building/Character_Creation/Creating_Your_Character.md"
+      ]
+    },
+    {
+      "chapter": "Creating Your Warden",
+      "files": [
+        "../World Building/Player_Resources/Creating_Your_Warden.md"
       ]
     },
     {
