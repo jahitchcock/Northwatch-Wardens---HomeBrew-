@@ -22,14 +22,6 @@ A fourth/fifth level adventure for D&D 5E
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 \page
 
 # DM Notes: The Wild Sheep Chase
@@ -486,13 +478,6 @@ After restoring Shinebright and debriefing with Elric:
 This reinforces the Aeorian Echo mystery and sets up future adventures.
 
 \page
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> remotes/origin/main
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 # Summary
 
 The party’s attempt to grab a rare afternoon of downtime is interrupted by a frantic sheep equipped with a Scroll of Speak to Animals and a fierce determination to get their attention. This is no mere beast, however, but a wizard fallen victim to an embittered apprentice wielding a Wand of True Polymorph

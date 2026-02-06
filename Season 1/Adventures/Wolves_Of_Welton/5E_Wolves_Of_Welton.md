@@ -19,14 +19,6 @@
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 \page
 
 # DM Notes: Wolves of Welton
@@ -337,13 +329,6 @@ When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
 This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
 
 \page
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> remotes/origin/main
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
-=======
->>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 # Scene 1: Welcome to the Welton Wolfpack
 
 The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.
