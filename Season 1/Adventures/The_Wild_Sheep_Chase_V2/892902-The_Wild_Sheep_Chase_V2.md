@@ -24,7 +24,10 @@ A fourth/fifth level adventure for D&D 5E
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 =======
 >>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 \page
@@ -484,7 +487,10 @@ This reinforces the Aeorian Echo mystery and sets up future adventures.
 
 \page
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> remotes/origin/main
+=======
+>>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 =======
 >>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 # Summary

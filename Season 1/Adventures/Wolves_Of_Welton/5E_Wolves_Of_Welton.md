@@ -21,7 +21,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 =======
 >>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 \page
@@ -335,7 +338,10 @@ This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces th
 
 \page
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> remotes/origin/main
+=======
+>>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 =======
 >>>>>>> 73bab54fac4e6e12a01306b79792178ac688228d
 # Scene 1: Welcome to the Welton Wolfpack
