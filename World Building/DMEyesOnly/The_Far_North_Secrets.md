@@ -1,6 +1,14 @@
-# The Far North: DM Secrets
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
-**THIS DOCUMENT CONTAINS MAJOR CAMPAIGN SPOILERS**
+**MAJOR CAMPAIGN SPOILERS: Far North Secrets**
+
+This document contains the truth about the Far North and the origin of the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/10_The_Far_North.md`
+}}
+
+# The Far North: DM Secrets
 
 Do not share this information with players unless they discover it through gameplay.
 

@@ -1,5 +1,17 @@
 # Northwatch Wardens — Drop-In Guild Campaign
 
+{{note
+##### ⚠️ SPOILER WARNING FOR PLAYERS
+
+**This README contains campaign overview information that may spoil mysteries for players.**
+
+**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, see:
+- `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
+- `World Building/Regions/Northreach/` for regional information
+
+**DMs:** For complete campaign secrets, see `Season 1/DM_Resources/`
+}}
+
 ## Overview
 **Northwatch Wardens** is a **modular, drop-in guild campaign** for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session**, it emphasizes **contract-based adventure** unified by a single overarching mystery: the **Aeorian Echo**, a spreading wave of arcane disturbance awakening magic and corruption across the frontier.
 

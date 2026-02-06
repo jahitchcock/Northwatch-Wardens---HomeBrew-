@@ -169,6 +169,25 @@ These prevent the preview pane from jumping and avoid selection-hover effects th
 
 
 
+## Player vs DM Content
+
+This repository carefully separates **player-safe content** from **DM-only secrets**:
+
+### ✅ Safe for Players
+- `World Building/Regions/` — Regional lore
+- `World Building/Organizations/` — Faction information  
+- `World Building/Locations/` — Place descriptions
+- `Premade PCs/` and `Characters/` — Character resources
+
+### 🚫 DMs Only (Contains Spoilers)
+- `World Building/DMEyesOnly/` — Campaign secrets and mysteries
+- `Season 1/DM_Resources/` — NPC secrets, campaign arc
+- `Season 1/Adventures/` — Adventures contain DM notes
+
+**Contributors:** See [Player vs DM Content Guidelines](./.github/PLAYER_DM_CONTENT_GUIDE.md) for how to maintain this separation.
+
+---
+
 ## Repository Structure
 
 

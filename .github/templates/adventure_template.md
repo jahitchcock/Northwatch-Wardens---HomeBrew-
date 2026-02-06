@@ -1,3 +1,16 @@
+{{note
+##### 📖 ADVENTURE TEMPLATE
+
+**For DMs Creating New Adventures**
+
+This template shows best practices for formatting adventures with clear separation between:
+- `{{descriptive}}` blocks — Read-aloud text for players
+- `{{note}}` blocks — DM-only information, secrets, and tactical notes
+- Regular text — DM context and guidance
+
+See `.github/PLAYER_DM_CONTENT_GUIDE.md` for complete guidelines.
+}}
+
 # Adventure Title
 
 **Level Range:** 1-3  

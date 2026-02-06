@@ -1,18 +1,18 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Location Secrets**
+
+This document contains hidden location features, dark histories, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe location information**, see `World Building/Regions/Northreach/Places_of_Northreach.md`
+}}
+
 # Places of Northreach: DM Secrets
-
-
-
-
 
 ## Overview
 
-
-
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
-
-
-
-**DO NOT share this information with players unless they discover it through gameplay.**
 
 
 

@@ -1,8 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Stonebound Depths Secrets**
+
+This document contains DM-only secrets about the Stonebound Dwarves. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/04_Stonebound_Depths.md`
+}}
+
 # The Stonebound Depths: DM-Only Secrets
-
-**DO NOT share this information with players unless they discover it through gameplay.**
-
----
 
 ## The Hidden Truth
 

@@ -1,3 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Northreach Regional Secrets**
+
+This document contains DM-only information about Northreach and the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/01_Northreach.md` and `World Building/Regions/Northreach/`
+}}
+
+# Northreach: DM Secrets
 
 ## The Aeorian Echo
 
