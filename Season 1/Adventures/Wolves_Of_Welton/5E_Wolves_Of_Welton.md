@@ -1,5 +1,24 @@
 ![A painted cover page showing a lone wolf howling atop a jagged mountain peak against a dramatic, glowing orange‑pink sky. Dark, fluttering birds surround the peak and the scene uses moody purples, blues and warm backlight in a textured, painterly style. The lower half is a parchment‑textured layout with the large serif title "The Wolves of Welton" and the subtitle "A 2nd–3rd Level Adventure for Dungeons & Dragons 5E — Produced by Winghorn Press." Two columns of text beneath the title are labeled "Summary" and "Adventure Hooks," and a small page number (~ 1 ~) sits at the bottom. The page has a torn paper transition between the illustration and the parchment area.](./5E_Wolves_Of_Welton_images/image_001.png)
 
+## Northwatch Wardens Integration (DM)
+
+**Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Welton: Dark Undercurrents" section
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+
+**Key Secrets:**
+- The wolves' intelligence awakening is caused by Aeorian facility beneath Westly's Farm
+- Alexi Merriksonn was exposed to the Aeorian Echo; his magical discharge awakened the wolves
+- This is a **test run** for larger Aeorian operations
+- The Old Woods north of Welton contain a partially buried Aeorian research station
+
+**Player Discovery:** Characters should discover strange magical anomalies but not necessarily the full Aeorian connection yet. This is the campaign's **inciting incident**.
+
+---
+
 \page
 
 # DM Notes: Wolves of Welton
@@ -310,7 +329,6 @@ When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
 This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
 
 \page
-
 # Scene 1: Welcome to the Welton Wolfpack
 
 The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.

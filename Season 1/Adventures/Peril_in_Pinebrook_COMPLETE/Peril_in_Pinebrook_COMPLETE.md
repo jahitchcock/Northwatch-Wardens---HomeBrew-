@@ -36,6 +36,26 @@ Welcome to Dungeons & Dragons:
 
 # Peril in Pinebrook
 
+## Northwatch Wardens Integration (DM)
+
+**Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Pinebrook: Commerce and Conspiracy" section
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+
+**Key Secrets:**
+- Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
+- Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
+- The market square contains **dead drop locations** for conspirators
+- An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
+- This is a **smuggling hub** moving dangerous artifacts through the frontier
+
+**Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+
+---
+
 Welcome to the adventure of a lifetime!
 
 Peril in Pinebrook is an introductory Dungeons & Dragons (also known as D&D) adventure designed for younger players, but it can be enjoyed by players of all ages! Peril in Pinebrook contains four ready-to-play characters that you can use to run your first D&D game. The simplified rules allow a Dungeon Master (also known as the DM) to easily run the game without needing other rules materials or rules knowledge.

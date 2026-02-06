@@ -1,6 +1,25 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Campaign Arc & Mystery Structure**
+
+This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `Season 1/README.md`
+}}
+
 **NORTHWATCH WARDENS: High‑Level Campaign Arc**
 
 ***A modular frontier campaign about awakening magic, corrupted legacies, and the consequences of power unleashed.***
+
+**📚 DM Resources**
+
+For deeper secrets and campaign mechanics, see:
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
+- **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific secrets
+
+---
 
 **🌑 THE CORE THROUGHLINE**
 

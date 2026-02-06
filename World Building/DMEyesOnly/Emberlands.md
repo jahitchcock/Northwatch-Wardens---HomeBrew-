@@ -1,10 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Emberlands Secrets**
+
+This document contains major campaign spoilers about the Emberlands. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/07_Emberlands.md`
+}}
+
 # The Emberlands: DM Secrets
-
-**THIS DOCUMENT CONTAINS MAJOR CAMPAIGN SPOILERS**
-
-Do not share this information with players unless they discover it through gameplay.
-
----
 
 ## The Hidden Truth
 

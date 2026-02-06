@@ -425,9 +425,27 @@ This sets up Temple of the Dragonknights as the next adventure.
 
 ## Northreach Integration (DM)
 
+**Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Far_North_Secrets.md](../../../World%20Building/DMEyesOnly/The_Far_North_Secrets.md)** - Salsvault details
+
+**Key Secrets:**
+- Salsvault is an **active Aeorian facility** leaking magical energy into the region
+- The frigid woe spores are Aeorian bioweapons designed to bypass divine healing
+- Salsvault's malfunctioning systems are the **primary source of the Aeorian Echo**
+- The facility is attempting to reactivate other sites across Northreach
+- This adventure provides the **first major revelation** about the campaign's central threat
+
+**Player Discovery:** Characters should learn that Aeor is real, its ruins are active, and its magic is leaking into the world. This is the campaign's pivotal moment of understanding.
+
+### Setting Integration Notes
+
 This adventure text includes setting-specific names from its original source. For Northwatch Wardens, you have two clean options:
 
-### Option A: Exandria/Wildemount-compatible (keep the names)
+#### Option A: Exandria/Wildemount-compatible (keep the names)
 
 - **Northreach** is a homebrew frontier region.
 - **Palebank Village** is a Northreach member settlement on the northeast coast.

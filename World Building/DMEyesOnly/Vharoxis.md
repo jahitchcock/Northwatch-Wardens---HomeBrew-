@@ -1,3 +1,13 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Vharoxis Secrets**
+
+This document contains the hidden truth about the City of Masks. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/05_Vharoxis.md`
+}}
+
 # 🎭 VHAROXIS — DM SECRETS
 **The Hidden Truth About the City of Masks**
 

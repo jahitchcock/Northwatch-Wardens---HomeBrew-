@@ -1,5 +1,26 @@
 **Temple of the Dragonknights**
 
+## Northwatch Wardens Integration (DM)
+
+**Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Temple of the Dragonknights: Heroic Tomb" section
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+
+**Key Secrets:**
+- The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
+- The "Dragonknights" actually fought post-Calamity Aeorian threats
+- Each tomb is a **ward anchor**; desecration weakens the seals
+- The Aeorian facility below is responding to the Echo and attempting to break free
+- The cult's rituals are only possible because magic is destabilizing
+- The facility contains **dragon-killing bioweapons** that threaten all dragons if reactivated
+
+**Player Discovery:** Characters should sense that the cult is more powerful than expected and that the temple has deeper significance. The connection to ancient Aeorian magic can be hinted at through symbols, architecture, or magical effects.
+
+---
+
 ![- A long, narrow horizontal strip/band centered on a white background. - Color: olive to muted green with slight mottling/texture. - Edges: irregular, jagged top and bottom with a thin black outline. - Appearance: resembles a painted brush stroke, torn paper ribbon, or decorative divider.](./Temple_of_the_Dragonknights_images/image_001.png)
 
 *A Simple Adventure Module*
