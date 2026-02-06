@@ -1,3 +1,13 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Campaign Arc & Mystery Structure**
+
+This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `Season 1/README.md`
+}}
+
 **NORTHWATCH WARDENS: High‑Level Campaign Arc**
 
 ***A modular frontier campaign about awakening magic, corrupted legacies, and the consequences of power unleashed.***

@@ -1,3 +1,13 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**MAJOR CAMPAIGN SPOILERS AHEAD**
+
+This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see the main World Building and Season 1 folders (excluding DM_Resources).
+}}
+
 # The Aeorian Echo: Campaign Master Document
 
 ## Overview

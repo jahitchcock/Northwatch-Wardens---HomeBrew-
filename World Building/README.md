@@ -6,6 +6,22 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 ---
 
+## ⚠️ Player vs DM Content
+
+### ✅ PLAYER-SAFE FOLDERS
+All content in these folders is safe for players to read:
+- `Regions/` — Regional lore and gazetteer entries
+- `Organizations/` — Factions, guilds, and institutions
+- `Locations/` — Canonical location descriptions
+- `Religion/` — Pantheons and faiths
+- `Campaign Assets/` — Maps and visual resources
+
+### 🚫 DM-ONLY FOLDERS
+**SPOILER WARNING:** These folders contain campaign secrets and plot reveals:
+- `DMEyesOnly/` — **DO NOT SHARE WITH PLAYERS** - Contains the truth behind the setting, NPC secrets, and the Aeorian Echo mystery
+
+---
+
 ## Start Here
 
 - **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Regions/Northreach/Northreach_Journal_and_Lore.md)
