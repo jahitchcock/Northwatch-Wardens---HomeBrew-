@@ -26,14 +26,17 @@ The first time you run `./build.sh`, it will automatically install dependencies 
 ## What Gets Included?
 
 ### Player's Guide Contains:
-- Welcome to Aevoria
-- World overview and all regions
-- Northreach setting details
-- Northwatch Wardens charter
-- Character creation guide for new players
-- Religion and pantheon
-- Notable locations
-- Campaign overview
+- Welcome to Northreach (immersive introduction)
+- Northreach: The Frontier Region (comprehensive local lore)
+  - Setting primer
+  - Places, cultures, and people
+  - Regional details
+- The Northwatch Wardens charter
+- Beyond Northreach: The Wider World of Aevoria
+  - World overview and all regions
+  - Religion and pantheon
+  - Notable off-map locations
+- Appendix (songs and additional resources)
 
 ### DM's Guide Contains:
 - All campaign materials

@@ -1,3 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Solaris Dominion Secrets**
+
+This document contains DM-only secrets about the Solaris Dominion. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/02_Solaris_Dominion.md`
+}}
+
+# Solaris Dominion: DM Secrets
 
 ## Adventure Hooks
 
