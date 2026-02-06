@@ -283,7 +283,31 @@ World Building/
 - **Charter (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
 - **NPC Secrets**: `Season 1/Campaign Assets/DM Guild Roster.md`
 - **Mystery Framework**: `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md`
+- **Adventure Secrets Quick Reference**: `Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md` ← **NEW!**
 - **Stat Blocks**: JSON files in each adventure folder
+
+---
+
+## DM Resources & World Secrets
+
+**NEW: Adventure Secrets Quick Reference**
+
+For quick navigation between adventures and their hidden lore, see:
+- **[Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md](./DM_Resources/Adventure_Secrets_Quick_Reference.md)**
+
+This document provides:
+- Direct links from each adventure to its relevant world secrets
+- Reverse links from secret files back to adventures
+- Key secrets summary for each location
+- Player discovery guidelines
+- Navigation tips for session prep
+
+**World Secrets (DM Eyes Only):**
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
+- **[World Building/DMEyesOnly/Northreach.md](../World%20Building/DMEyesOnly/Northreach.md)** - Regional secrets & adventure integration
+- **[World Building/DMEyesOnly/Places_Secrets.md](../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific hidden truths
+
+Each adventure file now includes a "Northwatch Wardens Integration (DM)" section at the top with links to relevant secrets.
 
 ---
 
@@ -291,16 +315,18 @@ World Building/
 
 ### Before Each Session
 1. **Pick an adventure** — Choose based on party level or let players select from posted contracts
-2. **Review the NPC secrets** — Check `DM Guild Roster.md` for relevant character motivations
-3. **Note the mystery clue** — Each adventure hints at the Aeorian Echo; decide what party discovers
-4. **Scale for party size** — 2 players = tighter encounters; 5 players = add reinforcements
-5. **Prepare battle maps** — Use markdown descriptions or generate tactical maps externally
+2. **Review adventure secrets** — Check `Adventure_Secrets_Quick_Reference.md` for relevant world secrets
+3. **Review the NPC secrets** — Check `DM Guild Roster.md` for relevant character motivations
+4. **Note the mystery clue** — Each adventure hints at the Aeorian Echo; decide what party discovers
+5. **Scale for party size** — 2 players = tighter encounters; 5 players = add reinforcements
+6. **Prepare battle maps** — Use markdown descriptions or generate tactical maps externally
 
 ### Before Campaign Start
 1. **Read the Campaign Arc** — Understand how adventures interlock (`NORTHWATCH WARDENS - Campaign Arc.md`)
-2. **Familiarize yourself** — Review charter, leadership, and NPCs
-3. **Decide play order** — Adventures are order-independent; many DMs start with Wolves of Welton
-4. **Import or reference** — Load XML into GM5e or use markdown + JSON files directly
+2. **Review Adventure Secrets** — Familiarize with the connection system (`Adventure_Secrets_Quick_Reference.md`)
+3. **Familiarize yourself** — Review charter, leadership, and NPCs
+4. **Decide play order** — Adventures are order-independent; many DMs start with Wolves of Welton
+5. **Import or reference** — Load XML into GM5e or use markdown + JSON files directly
 
 ---
 

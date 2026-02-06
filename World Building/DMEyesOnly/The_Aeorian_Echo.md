@@ -1051,6 +1051,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Temple of the Dragonknights (Mid-Late Game)
 
+**Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
+
 **Location:** Northwest mountains
 
 **Enemies:**
