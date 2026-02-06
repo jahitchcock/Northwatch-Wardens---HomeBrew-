@@ -8,7 +8,6 @@
       "chapter": "Welcome to Northreach",
       "files": [
         "../World Building/Introduction/How_To_Use_This_Book.md",
-        "../World Building/Regions/00_Master_Index.md"
         "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
       ]
     },
@@ -46,6 +45,16 @@
       "chapter": "Creating Your Warden",
       "files": [
         "../World Building/Player_Resources/Creating_Your_Warden.md"
+      ]
+    },
+    {
+      "chapter": "Northreach: The Frontier Region",
+      "files": [
+        "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
+        "../World Building/Regions/Northreach/Places_of_Northreach.md",
+        "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
+        "../World Building/Regions/Northreach/People_of_Northreach.md",
+        "../World Building/Regions/01_Northreach.md"
       ]
     },
     {
