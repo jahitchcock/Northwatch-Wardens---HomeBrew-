@@ -30,6 +30,7 @@ The first time you run `./build.sh`, it will automatically install dependencies 
 - World overview and all regions
 - Northreach setting details
 - Northwatch Wardens charter
+- Character creation guide for new players
 - Religion and pantheon
 - Notable locations
 - Campaign overview
