@@ -8,6 +8,7 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 ## Start Here
 
+- **New to the campaign?** [How to Use This Book](./Introduction/How_To_Use_This_Book.md) — Guide for players on navigating the campaign materials
 - **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Regions/Northreach/Northreach_Journal_and_Lore.md)
 - **Setting quick reference (DM + table-ready):** [Northreach_Setting_Primer.md](./Regions/Northreach/Northreach_Setting_Primer.md)
 - **Music / audio guidance:** [SongsOfTheNorthreach.md](./Regions/Northreach/SongsOfTheNorthreach.md)
@@ -26,6 +27,7 @@ All content in World Building is safe for players, EXCEPT for files in [DMEyesOn
 
 ### World Reference (Reusable / Canon)
 
+- [Introduction/](./Introduction/) — Player guides and campaign navigation resources.
 - [Locations/](./Locations/) — Canonical location sheets (often off-map from Northreach).
 - [Regions/](./Regions/) — Macro-regions and “Known World” worldbook entries.
 - [Organizations/](./Organizations/) — Factions and institutions.
