@@ -2,6 +2,26 @@ The Wild Sheep Chase
 
 A fourth/fifth level adventure for D&D 5E
 
+## Northwatch Wardens Integration (DM)
+
+**Campaign Connection:** This adventure shows **magic destabilizing** across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Noke's Tower: The Wizard's Arsenal" section
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+
+**Key Secrets:**
+- **Shinebright (Finethir) is not who he appears to be**—he's a dedicated Aeorian researcher preparing countermeasures
+- The "accident" was actually a **deliberate test** of bio-transmutation magic
+- Shinebright knows the full truth about the Aeorian Echo and is working to stop it
+- His tower contains extensive Aeorian research in a hidden basement
+- If players earn his trust, he becomes a crucial ally with maps, translations, and protective magic
+
+**Player Discovery:** This should feel like comic relief at first, but perceptive players may notice Shinebright knows more than he admits. Successfully helping him is the first step toward earning his trust.
+
+---
+
 # Summary
 
 The party’s attempt to grab a rare afternoon of downtime is interrupted by a frantic sheep equipped with a Scroll of Speak to Animals and a fierce determination to get their attention. This is no mere beast, however, but a wizard fallen victim to an embittered apprentice wielding a Wand of True Polymorph

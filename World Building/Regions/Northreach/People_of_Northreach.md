@@ -1,5 +1,16 @@
-# People of Northreach
+{{descriptive
+##### 🌟 PLAYER-SAFE CONTENT
 
+**Public Knowledge: People of Northreach**
+
+This document contains information that is publicly known to residents and visitors of Northreach. Players can freely read this material.
+
+**DMs:** For NPC secrets and hidden motivations, see:
+- `Season 1/DM_Resources/DM Guild Roster.md`
+- `World Building/DMEyesOnly/People_Secrets.md`
+}}
+
+# People of Northreach
 
 ## Overview
 
