@@ -9,6 +9,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Temporary files
+.tmp/
+
 # One-off local logs
 filter-branch-purge-pinebrook.log
 
@@ -27,3 +30,6 @@ build/*.pdf
 # Test files
 test-*.js
 build/test-*.json
+
+# Office document backups (markdown is source of truth)
+/Season 1/Office Docs/*.docx
