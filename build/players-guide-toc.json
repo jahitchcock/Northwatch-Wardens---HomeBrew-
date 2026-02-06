@@ -13,7 +13,15 @@
       ]
     },
     {
-      "chapter": "Northreach: The Frontier Region",
+      "chapter": "Character Creation",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md",
+        "../World Building/Character_Creation/Regional_Origins.md",
+        "../World Building/Character_Creation/Languages_and_Culture.md"
+      ]
+    },
+    {
+      "chapter": "Northreach: Your Starting Point",
       "files": [
         "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
         "../World Building/Regions/Northreach/Places_of_Northreach.md",
