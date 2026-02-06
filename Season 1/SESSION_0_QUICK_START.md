@@ -171,18 +171,92 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 > *Reward:* 800 gp + provisions  
 > *Urgency:* High
 > 
-> *"A pack of unnaturally coordinated wolves has been attacking shepherds and stealing livestock. The council fears the wolves are acting with unnatural intelligence. Request immediate assistance from capable Wardens."*
+> *"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
 
 **Brenna's Briefing:**
 - "Welton's a half-day's ride south. Good people, hard winter."
-- "Wolves don't normally open barn doors or outmaneuver hunters. Something's wrong."
+- "Wolves have been hitting farms. Coordinated attacks, almost like they're being led."
 - "This is exactly what we're here for. You ready for your first contract?"
 
-**End Session:**
+**End Session (Choose One):**
+
+**Option A: End with Preparation**
 - Players accept the contract
 - Mara packs them supplies
 - "You prepare to leave at dawn."
 - **Next session starts with the journey to Welton**
+
+**Option B: Combat Encounter (Add 30-45 minutes)**
+- Players accept the contract
+- As night falls, wolves attack the inn (see "Session 0 Combat" below)
+- After defeating the wolves, notice strange blue veins in their fur
+- "Something's affecting the wildlife. We leave at dawn."
+- **Next session starts with the journey to Welton**
+
+---
+
+\page
+
+## Session 0 Combat (Optional)
+
+**Use this if you want to add a 30-45 minute combat encounter to Session 0.**
+
+### Wolves at the Waystone Inn
+
+**Setup:** After the charter signing, as dusk settles, hungry wolves attack the inn.
+
+**Read Aloud:**
+
+> *The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
+> 
+> *"Everyone quiet. Listen."*
+> 
+> *Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
+> 
+> *"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
+> 
+> *Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+
+### Encounter Details
+
+**Enemies:** 2 Wolves (CR 1/4 each)  
+**Party:** Level 1 characters (2-5 players)
+
+**Wolf Modifications (Echo Sickness):**
+- Normal wolf stats
+- Appearance: Gaunt, blue-tinged veins visible in fur
+- Behavior: More aggressive than normal, don't flee as readily
+- If reduced to 0 HP, body shows signs of arcane corruption (blue veins glow briefly before fading)
+
+**Terrain:**
+- **Waystone Inn common room** — tables, chairs, fireplace
+- **Half cover** — Behind tables and bar
+- **Difficult terrain** — Knocked-over chairs
+- **Hazard** — Fireplace (creatures pushed into it take 1d6 fire damage)
+
+**Tactics:**
+- Wolves prioritize nearest target
+- Use Pack Tactics if possible
+- Fight to the death (they're too sick/hungry to flee)
+
+### After Combat
+
+**Investigation (Optional):**
+- DC 12 Medicine check: "These wolves aren't just starving. Something's wrong with them."
+- DC 10 Arcana check: "Faint traces of magical energy, like residual spellwork."
+
+**NPC Reactions:**
+
+**Brenna:** "In twenty years on the frontier, I've never seen wolves attack a lit inn like that. Something drove them mad."
+
+**Elric:** (Examining a body) "Curious. These veins... arcane corruption. Minor, but present. The frontier's changing."
+
+**Mara:** "I'll get a healer's kit. Everyone alright?" (Provides free healing kit use if needed)
+
+**Connection to Campaign:**
+- First hint of the Aeorian Echo affecting wildlife
+- Shows that the frontier is becoming more dangerous
+- Makes the Wolves of Welton contract feel urgent and connected
 
 ---
 
@@ -276,7 +350,7 @@ A: No problem. They can join Session 1 as "new recruits" arriving at Waystone In
 *"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
 
 ### First Contract
-**Wolves of Welton** — 800 gp, half-day south, wolves acting with unnatural intelligence
+**Wolves of Welton** — 800 gp, half-day south, unusually aggressive wolves attacking farms
 
 ### Session Flow
 1. Welcome & pitch (15 min)

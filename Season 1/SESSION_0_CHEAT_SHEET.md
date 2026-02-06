@@ -56,11 +56,11 @@
 **Reward:** 800 gp + provisions  
 **Urgency:** High
 
-> *"A pack of unnaturally coordinated wolves has been attacking shepherds. The council fears the wolves are acting with unnatural intelligence. Request immediate assistance."*
+> *"A pack of unusually aggressive wolves has been attacking shepherds. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance."*
 
 **Brenna's Briefing:**
 - "Half-day's ride south. Good people, hard winter."
-- "Wolves don't normally open barn doors. Something's wrong."
+- "Wolves have been hitting farms. Coordinated attacks."
 - "This is exactly what we're here for. You ready?"
 
 ---
@@ -77,7 +77,23 @@
 | 1:30–1:45 | Meet the guild NPCs |
 | 1:45–2:00 | First contract reveal |
 
-**End:** Players accept contract, prepare to leave at dawn
+**End Option A:** Players accept contract, prepare to leave at dawn
+
+**End Option B:** Add 30-45 min combat with starving wolves (2 wolves, Echo-sick, blue veins)
+
+---
+
+## Optional: Session 0 Combat
+
+**Wolves at Waystone Inn** (if adding combat to Session 0)
+
+**Enemies:** 2 Wolves (CR 1/4), Echo-sick (blue veins, fight to death)  
+**Read Aloud:** *"Wolves burst through the door, gaunt and desperate, blue veins pulsing beneath their fur."*
+
+**After Combat:**
+- Brenna: "In twenty years, I've never seen wolves attack like that."
+- Elric: "These veins... arcane corruption. The frontier's changing."
+- First hint of Aeorian Echo affecting wildlife
 
 ---
 
@@ -106,7 +122,7 @@
 ## Troubleshooting
 
 **Players want combat now?**  
-→ Save for Session 1. Tease: "The wolves are out there. You'll face them soon."
+→ Use Option B: Session 0 Combat (wolves at inn with Echo sickness).
 
 **Only 2 players?**  
 → Perfect! Campaign scales for 2–5 players.
