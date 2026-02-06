@@ -26,6 +26,12 @@
       ]
     },
     {
+      "chapter": "Creating Your Character",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md"
+      ]
+    },
+    {
       "chapter": "The Wider World of Aevoria",
       "files": [
         "../World Building/Regions/01_Northreach.md",
