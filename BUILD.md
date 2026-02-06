@@ -109,14 +109,13 @@ The build system uses JSON configuration files to define the structure of each b
 
 #### Player's Guide Structure:
 1. Welcome to Aevoria
-2. The World of Aevoria
-3. Regions of the Known World
-4. Northreach: The Frontier
-5. Organizations
-6. Religion and Pantheon
-7. Notable Locations
-8. Pre-Made Player Characters
-9. Appendix: Campaign Overview
+2. Northreach: Your Starting Point
+3. The Northwatch Wardens
+4. Creating Your Warden (Character Creation Guide)
+5. The Wider World of Aevoria
+6. Gods and Religion
+7. Places of Legend
+8. Appendix
 
 #### DM's Guide Structure:
 1. Using This Guide

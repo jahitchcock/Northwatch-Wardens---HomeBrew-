@@ -1,3 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Northreach Regional Secrets**
+
+This document contains DM-only information about Northreach and the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/01_Northreach.md` and `World Building/Regions/Northreach/`
+}}
+
+# Northreach: DM Secrets
 
 ## The Aeorian Echo
 
@@ -58,6 +69,7 @@ No matter which adventures players complete first, they accumulate pieces of the
 ### Core Adventures (Season One)
 
 **Wolves of Welton** (Levels 1-3)
+- **Adventure File:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../../../Season%201/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md)
 - **Location:** Welton village, western woods
 - **Hook:** Livestock attacks, shepherd injuries
 - **Discovery:** Wolves are intelligent, speaking
@@ -66,6 +78,7 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Impact:** First undeniable evidence of unnatural change
 
 **Frozen Sick** (Levels 2-4)
+- **Adventure File:** [Season 1/Adventures/Frozen Sick/Frozen Sick.md](../../../Season%201/Adventures/Frozen%20Sick/Frozen%20Sick.md)
 - **Location:** Palebank Village, Croaker Cave, Salsvault
 - **Hook:** Mysterious illness spreading
 - **Discovery:** Aeorian spores from active ruins
@@ -74,6 +87,7 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Impact:** Identifies Salsvault as origin point
 
 **Temple of the Dragonknights** (Levels 4-5)
+- **Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
 - **Location:** Northwest mountains
 - **Hook:** Cult activity threatening settlements
 - **Discovery:** Factions exploiting awakening magic
@@ -82,6 +96,7 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Impact:** Reveals organized exploitation of magical surge
 
 **The Wild Sheep Chase** (Levels 1-2)
+- **Adventure File:** [Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md](../../../Season%201/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md)
 - **Location:** Noke's Tower, countryside
 - **Hook:** Wizard transformed into sheep
 - **Discovery:** Wand malfunction from magical instability
@@ -90,6 +105,7 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Impact:** Comic relief showing pervasive magical disruption
 
 **Peril in Pinebrook** (Levels 1-3)
+- **Adventure File:** [Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md](../../../Season%201/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md)
 - **Location:** Pinebrook village
 - **Hook:** Crime, corruption, community crisis
 - **Discovery:** All settlements are vulnerable

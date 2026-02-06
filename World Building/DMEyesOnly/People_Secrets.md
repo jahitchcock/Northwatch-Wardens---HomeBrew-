@@ -1,18 +1,18 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: NPC Secrets**
+
+This document contains hidden NPC motivations, secret backgrounds, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+}}
+
 # People of Northreach: DM Secrets
-
-
-
-
 
 ## Overview
 
-
-
 This document contains secret information about NPCs in the Northwatch Wardens campaign. This includes hidden motivations, connections to the Aeorian Echo plotline, secret backgrounds, and information that would spoil player discoveries.
-
-
-
-**DO NOT share this information with players unless they discover it through gameplay.**
 
 
 

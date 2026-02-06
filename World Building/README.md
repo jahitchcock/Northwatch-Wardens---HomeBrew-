@@ -6,11 +6,28 @@ It’s organized so you can keep **player-safe lore** separate from **DM-only tr
 
 ---
 
+## ⚠️ Player vs DM Content
+
+### ✅ PLAYER-SAFE FOLDERS
+All content in these folders is safe for players to read:
+- `Regions/` — Regional lore and gazetteer entries
+- `Organizations/` — Factions, guilds, and institutions
+- `Locations/` — Canonical location descriptions
+- `Religion/` — Pantheons and faiths
+- `Campaign Assets/` — Maps and visual resources
+
+### 🚫 DM-ONLY FOLDERS
+**SPOILER WARNING:** These folders contain campaign secrets and plot reveals:
+- `DMEyesOnly/` — **DO NOT SHARE WITH PLAYERS** - Contains the truth behind the setting, NPC secrets, and the Aeorian Echo mystery
+
+---
+
 ## Start Here
 
 - **New to the campaign?** [How to Use This Book](./Introduction/How_To_Use_This_Book.md) — Guide for players on navigating the campaign materials
 - **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Regions/Northreach/Northreach_Journal_and_Lore.md)
 - **Setting quick reference (DM + table-ready):** [Northreach_Setting_Primer.md](./Regions/Northreach/Northreach_Setting_Primer.md)
+- **Player quick reference (costs & travel):** [Player_Quick_Reference.md](./Player_Quick_Reference.md)
 - **Music / audio guidance:** [SongsOfTheNorthreach.md](./Regions/Northreach/SongsOfTheNorthreach.md)
 
 ---
