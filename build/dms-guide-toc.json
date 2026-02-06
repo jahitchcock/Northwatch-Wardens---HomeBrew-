@@ -5,27 +5,38 @@
   "includeTextOnCover": false,
   "sections": [
     {
-      "chapter": "Using This Guide",
+      "chapter": "Getting Started",
       "files": [
-        "../README.md"
+        "../Season 1/DM_Resources/DM_Quick_Start.md",
+        "../Season 1/DM_Resources/Campaign_At_A_Glance.md",
+        "../Season 1/DM_Resources/First_Session_Guide.md"
       ]
     },
     {
-      "chapter": "Campaign Overview",
+      "chapter": "Campaign Framework",
       "files": [
-        "../Season 1/README.md",
-        "../Season 1/Campaign_ToC.md",
-        "../Season 1/The_Story_So_Far.md"
+        "../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md",
+        "../Season 1/DM_Resources/Mystery_Revelation_Guide.md",
+        "../Season 1/DM_Resources/Adventure_Sequencing.md",
+        "../Season 1/DM_Resources/Milestone_Leveling.md"
       ]
     },
     {
-      "chapter": "DM Resources",
+      "chapter": "Running the Game",
       "files": [
         "../Season 1/DM_Resources/Session_Prep_Guide.md",
-        "../Season 1/DM_Resources/Campaign_Tracker.md",
-        "../Season 1/DM_Resources/DM Guild Roster.md",
+        "../Season 1/DM_Resources/Session_Opening_Templates.md",
+        "../Season 1/DM_Resources/Encounter_Scaling_Guide.md",
+        "../Season 1/DM_Resources/Improvisation_Toolkit.md"
+      ]
+    },
+    {
+      "chapter": "NPCs and Factions",
+      "files": [
         "../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md",
-        "../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md"
+        "../Season 1/DM_Resources/DM Guild Roster.md",
+        "../Season 1/DM_Resources/NPC_Roleplay_Guide.md",
+        "../Season 1/DM_Resources/Faction_Tracker.md"
       ]
     },
     {
@@ -34,6 +45,7 @@
         {
           "title": "Opening Adventures",
           "files": [
+            "../Season 1/Adventures/Opening/Adventure_Overview.md",
             "../Season 1/Adventures/Opening/Open Skirmish.md",
             "../Season 1/Adventures/Opening/THE MORNING AFTER.md",
             "../Season 1/Adventures/Opening/Wolves - Contract.md"
@@ -42,49 +54,79 @@
         {
           "title": "Wolves of Welton",
           "files": [
+            "../Season 1/Adventures/Wolves_Of_Welton/DM_Notes.md",
             "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md"
           ]
         },
         {
           "title": "Frozen Sick",
           "files": [
+            "../Season 1/Adventures/Frozen Sick/DM_Notes.md",
             "../Season 1/Adventures/Frozen Sick/Frozen Sick.md"
           ]
         },
         {
           "title": "The Wild Sheep Chase",
           "files": [
+            "../Season 1/Adventures/The_Wild_Sheep_Chase_V2/DM_Notes.md",
             "../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md"
           ]
         },
         {
           "title": "Peril in Pinebrook",
           "files": [
+            "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/DM_Notes.md",
             "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md"
           ]
         },
         {
           "title": "Temple of the Dragonknights",
           "files": [
+            "../Season 1/Adventures/Temple_of_the_Dragonknights/DM_Notes.md",
             "../Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md"
           ]
         }
       ]
     },
     {
-      "chapter": "World Secrets",
+      "chapter": "World Secrets: Northreach",
       "files": [
+        "../World Building/DMEyesOnly/Northreach_Secrets_Overview.md",
         "../World Building/DMEyesOnly/The_Aeorian_Echo.md",
         "../World Building/DMEyesOnly/People_Secrets.md",
         "../World Building/DMEyesOnly/Places_Secrets.md",
+        "../World Building/DMEyesOnly/The_Far_North_Secrets.md"
+      ]
+    },
+    {
+      "chapter": "World Secrets: The Known World",
+      "files": [
+        "../World Building/DMEyesOnly/World_Secrets_Overview.md",
         "../World Building/DMEyesOnly/Nullwood_Secrets.md",
-        "../World Building/DMEyesOnly/The_Far_North_Secrets.md",
-        "../World Building/DMEyesOnly/Emberlands.md",
-        "../World Building/DMEyesOnly/ShatteredCoast.md",
         "../World Building/DMEyesOnly/StoneboundDepths.md",
-        "../World Building/DMEyesOnly/SunkenDominion.md",
+        "../World Building/DMEyesOnly/Vharoxis.md",
+        "../World Building/DMEyesOnly/ShatteredCoast.md",
+        "../World Building/DMEyesOnly/Emberlands.md",
         "../World Building/DMEyesOnly/VerdantMarches.md",
-        "../World Building/DMEyesOnly/Vharoxis.md"
+        "../World Building/DMEyesOnly/SunkenDominion.md"
+      ]
+    },
+    {
+      "chapter": "DM Reference",
+      "files": [
+        "../Season 1/DM_Resources/Campaign_Tracker.md",
+        "../Season 1/DM_Resources/Reward_Guidelines.md",
+        "../Season 1/DM_Resources/Random_Tables.md",
+        "../Season 1/DM_Resources/Troubleshooting_Guide.md"
+      ]
+    },
+    {
+      "chapter": "Appendix",
+      "files": [
+        "../Season 1/DM_Resources/Campaign_Tracker_BLANK.md",
+        "../Season 1/Campaign_ToC.md",
+        "../Season 1/The_Story_So_Far.md",
+        "../README.md"
       ]
     }
   ]
