@@ -7,6 +7,7 @@
     {
       "chapter": "Welcome to Aevoria",
       "files": [
+        "../World Building/Introduction/How_To_Use_This_Book.md",
         "../World Building/Regions/00_Master_Index.md"
       ]
     },
