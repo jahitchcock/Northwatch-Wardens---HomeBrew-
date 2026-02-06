@@ -11,6 +11,12 @@
       ]
     },
     {
+      "chapter": "Quick Start",
+      "files": [
+        "../Season 1/SESSION_0_QUICK_START.md"
+      ]
+    },
+    {
       "chapter": "Campaign Overview",
       "files": [
         "../Season 1/README.md",

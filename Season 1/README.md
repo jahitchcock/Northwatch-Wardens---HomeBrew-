@@ -1,5 +1,11 @@
 # Northwatch Wardens — Drop-In Guild Campaign
 
+## 🚀 New DM? Start Here!
+
+**📖 [SESSION 0 QUICK START GUIDE](./SESSION_0_QUICK_START.md)** — Everything you need to prep and run Session 0 in under 1 hour.
+
+---
+
 {{note
 ##### ⚠️ SPOILER WARNING FOR PLAYERS
 

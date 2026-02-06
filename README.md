@@ -67,6 +67,8 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 
 
+**🚀 New DM?** [Session 0 Quick Start Guide](./Season%201/SESSION_0_QUICK_START.md) — Prep and run Session 0 in under 1 hour
+
 **[Start your adventure →](./Season%201/)**
 
 
