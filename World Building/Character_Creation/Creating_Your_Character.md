@@ -162,6 +162,8 @@ All D&D 5e classes work in the Northwatch Wardens campaign, but some fit the fro
 {{note
 ##### Multiclassing
 Multiclassing is allowed with DM approval. The frontier rewards versatility, and many Wardens develop diverse skills over time.
+
+Remember that multiclassing requires meeting ability score prerequisites (13 or higher in specific abilities for each class). See the Player's Handbook for full multiclassing rules.
 }}
 
 ---
