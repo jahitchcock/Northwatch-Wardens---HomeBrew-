@@ -95,7 +95,9 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 
 
-**[Start your adventure →](./Season%201/)**
+**New DMs:** 🎲 **[Quick Start: Run Your First Session Tonight →](./DM_QUICKSTART.md)**
+
+**Campaign Details:** 📖 **[Complete Campaign Guide →](./Season%201/)**
 
 
 
@@ -293,7 +295,9 @@ Whether you're a player seeking to explore the mysteries of Aevoria or a Dungeon
 
 **Choose your path:**
 
-- 🎲 **[Join the Northwatch Wardens](./Season%201/)** — Start your frontier adventure
+- 🎯 **[First-Time DMs: Quick Start Guide](./DM_QUICKSTART.md)** — Run your first session tonight
+
+- 🎲 **[Join the Northwatch Wardens](./Season%201/)** — Complete campaign guide
 
 - 🌍 **[Explore the World](./World%20Building/)** — Discover the regions of Aevoria
 

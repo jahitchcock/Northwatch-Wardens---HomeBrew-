@@ -1,5 +1,7 @@
 # Northwatch Wardens — Drop-In Guild Campaign
 
+> **🎯 First-time DM?** Skip to the **[DM Quick Start Guide](../DM_QUICKSTART.md)** to run your first session tonight!
+
 ## Overview
 **Northwatch Wardens** is a **modular, drop-in guild campaign** for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session**, it emphasizes **contract-based adventure** unified by a single overarching mystery: the **Aeorian Echo**, a spreading wave of arcane disturbance awakening magic and corruption across the frontier.
 
@@ -376,6 +378,10 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 ---
 
 ## Ready to Play
+
+**First-time DMs:** Start with the **[DM Quick Start Guide](../DM_QUICKSTART.md)** — a step-by-step guide to run your first session with minimal prep.
+
+**Experienced DMs:**
 
 1. **Pick an adventure** — Start with Opening + Wolves of Welton, or jump to any adventure
 2. **Gather your 2–5 players** — Variable attendance welcomed
