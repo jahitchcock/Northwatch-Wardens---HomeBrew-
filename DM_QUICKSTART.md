@@ -153,7 +153,7 @@ Your players will interact with these three guild leaders at Waystone Inn:
 ## Common First-Time DM Questions
 
 **Q: What if players refuse the contract?**  
-**A:** Brenna says, "That's fine. These are other contracts." Show them 2–3 other options (point to different adventures).
+**A:** Brenna says, "That's fine. There are other contracts." Show them 2–3 other options (point to different adventures).
 
 **Q: What if I mess up the rules?**  
 **A:** That's fine! Make a ruling, keep the game moving, look it up later. Players care more about story than perfect mechanics.
