@@ -332,7 +332,9 @@
 
 ### Seasonal Variations
 
-#### Winter (6 months: Late Fall through Early Spring)
+Northreach experiences harsh seasonal changes that affect travel, prices, and services.
+
+#### Winter (Late Fall through Early Spring — ~6 months)
 
 - **Travel Times:** +50% due to snow and ice
 - **Food Prices:** +25% (limited fresh produce)
@@ -340,18 +342,18 @@
 - **Road Conditions:** Poor to impassable
 - **Services:** Limited; many craftsmen stay indoors
 
-#### Summer (4 months: Late Spring through Early Fall)
+#### Summer (Late Spring through Early Fall — ~4 months)
 
 - **Travel Times:** Standard
 - **Food Prices:** Standard to –10% (harvest season)
 - **Road Conditions:** Fair to good
 - **Services:** Widely available
 
-#### Shoulder Seasons (2 months total)
+#### Mud Season (Spring & Fall Transitions — ~2 months total)
 
-- **Travel:** Variable; mud season can be worse than winter
+- **Travel:** Variable; roads can be worse than winter
 - **Prices:** Standard
-- **Services:** Preparing for next season
+- **Services:** Preparing for next season; inconsistent availability
 
 \page
 
