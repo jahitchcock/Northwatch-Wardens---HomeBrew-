@@ -35,7 +35,7 @@ From the cold frontier regions of the north to sun-drenched southern lands, from
 - **Vharoxis** — The city of masks, where intrigue rules
 - **The Shattered Coast** — Storm-tossed maritime frontier
 - **The Emberlands** — Volcanic south of fire magic
-- **The Verdant Marches** — Beast-haunted druadic wilds
+- **The Verdant Marches** — Beast-haunted druidic wilds
 - **The Sunken Dominion** — Drowned cities and deep-sea mysteries
 - **The Far North** — Frozen wasteland of buried secrets
 
