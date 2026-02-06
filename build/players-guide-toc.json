@@ -12,9 +12,33 @@
       ]
     },
     {
+      "chapter": "Character Creation",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md",
+        "../World Building/Character_Creation/Regional_Origins.md",
+        "../World Building/Character_Creation/Languages_and_Culture.md"
+      ]
+    },
+    {
+      "chapter": "Northreach: The Frontier Region",
+      "files": [
+        "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
+        "../World Building/Regions/Northreach/Places_of_Northreach.md",
+        "../World Building/Regions/Northreach/Cultures_of_Northreach.md",
+        "../World Building/Regions/Northreach/People_of_Northreach.md",
+        "../World Building/Regions/01_Northreach.md"
+      ]
+    },
+    {
       "chapter": "The Northwatch Wardens",
       "files": [
         "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
+      ]
+    },
+    {
+      "chapter": "Creating Your Character",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md"
       ]
     },
     {

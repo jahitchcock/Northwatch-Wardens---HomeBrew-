@@ -149,7 +149,7 @@ This repository carefully separates **player-safe content** from **DM-only secre
 
 ### ✅ Safe for Players
 - `World Building/Regions/` — Regional lore
-- `World Building/Organizations/` — Faction information
+- `World Building/Organizations/` — Faction information  
 - `World Building/Locations/` — Place descriptions
 - `Premade PCs/` and `Characters/` — Character resources
 
