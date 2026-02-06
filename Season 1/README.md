@@ -9,6 +9,7 @@ The campaign is **order-independent** — each adventure stands alone while buil
 - **Campaign Hub**: Waystone Inn (guild headquarters)
 - **Leadership**: Marshal Brenna Thorne, Steward Mara Fenwick, Lorewarden Elric Vael
 - **Playstyle**: Contract posting → investigation → resolution → cryptic lore revealed
+- **Quick Reference**: [Player Quick Reference Guide](../World%20Building/Player_Quick_Reference.md) — Costs, travel times, and essential info
 
 ## How It Works
 **Each session:**

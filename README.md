@@ -299,6 +299,8 @@ Whether you're a player seeking to explore the mysteries of Aevoria or a Dungeon
 
 - 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests and contracts
 
+- 📋 **[Quick Reference Guide](./World%20Building/Player_Quick_Reference.md)** — Costs, travel times, and essential info
+
 
 
 ---
