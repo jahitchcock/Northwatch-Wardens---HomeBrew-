@@ -21,7 +21,7 @@
       ]
     },
     {
-      "chapter": "Northreach: Your Starting Point",
+      "chapter": "Northreach: The Frontier Region",
       "files": [
         "../World Building/Regions/Northreach/Northreach_Setting_Primer.md",
         "../World Building/Regions/Northreach/Places_of_Northreach.md",
@@ -34,6 +34,12 @@
       "chapter": "The Northwatch Wardens",
       "files": [
         "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
+      ]
+    },
+    {
+      "chapter": "Creating Your Character",
+      "files": [
+        "../World Building/Character_Creation/Creating_Your_Character.md"
       ]
     },
     {
