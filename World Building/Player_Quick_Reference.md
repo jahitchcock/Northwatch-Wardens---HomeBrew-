@@ -24,9 +24,7 @@
 | **Pinebrook** (Southeast) | ~45 miles | 2–3 days | Fair; trade route |
 | **Noke's Tower** (West) | ~8 miles | ½–1 day | Good; river path |
 | **Palebank Village** (Northeast) | ~60 miles | 3–5 days | Poor; coastal trail |
-| **Croaker Cave** (North of Palebank) | ~70 miles | 4–6 days | Poor; wilderness |
 | **Temple of the Dragonknights** (Northwest) | ~80 miles | 5–7 days | Poor; mountain trail |
-| **Salsvault Ruins** (Far North) | ~120 miles | 8–12 days | Treacherous; ice fields |
 
 ### Travel Modifiers
 
