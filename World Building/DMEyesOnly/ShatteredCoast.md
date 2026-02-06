@@ -1,9 +1,17 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Shattered Coast Secrets**
+
+This document contains the hidden truth about the maritime frontier. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/06_Shattered_Coast.md`
+}}
+
 # 🌊 THE SHATTERED COAST — DM SECRETS
 **The Hidden Truth About the Maritime Frontier**
 
 ---
-
-## ⚠️ DM ONLY — DO NOT SHARE WITH PLAYERS ⚠️
 
 This document contains secrets about the Shattered Coast that should be revealed gradually through play. The information here is not known to most NPCs — and discovering it could change the course of the campaign.
 

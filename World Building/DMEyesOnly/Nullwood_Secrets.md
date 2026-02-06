@@ -1,6 +1,14 @@
-# The Nullwood Expanse — DM Eyes Only
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
-**⚠️ THIS DOCUMENT CONTAINS MAJOR CAMPAIGN SPOILERS ⚠️**
+**MAJOR CAMPAIGN SPOILERS: Nullwood Expanse Secrets**
+
+This document contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/03_Nullwood_Expanse.md`
+}}
+
+# The Nullwood Expanse — DM Eyes Only
 
 This file contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. This information should be revealed gradually throughout the campaign.
 
