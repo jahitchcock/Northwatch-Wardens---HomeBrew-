@@ -1,5 +1,34 @@
 # Player's Guide 2.0 - Sub-Issues to Create
 
+**Last Updated:** 2026-02-06
+
+## 🎯 Progress Summary
+
+**Overall Status:** 39% Complete (7 of 18 issues)
+
+### ✅ Completed Issues (7)
+- Issue #1.1: Update players-guide-toc.json ✅
+- Issue #2.1: Creating_Your_Character.md ✅
+- Issue #2.2: Regional_Origins.md ✅
+- Issue #2.3: Languages_and_Culture.md ✅
+- Issue #2.4: Add Character Creation Chapter ✅
+- Issue #3.1: Currency_and_Trade.md ✅
+- Issue #4.1: How_To_Use_This_Book.md ✅
+
+### ⚠️ Under Review (2)
+- Issue #3.2: Travel_and_Distance.md (may duplicate Quick Reference)
+- Issue #4.2: Common_Goods_and_Services.md (may duplicate Quick Reference)
+
+### 🔨 Remaining Work (9 issues)
+- 3 Priority 2 files to create
+- 1 Priority 3 file to create
+- 3 Content review issues
+- 2 Testing/validation issues
+
+**See PLAYER_GUIDE_2.0_STATUS.md for detailed status report**
+
+---
+
 This document outlines all the sub-issues that need to be created in GitHub for the Player's Guide 2.0 reorganization project. Each sub-issue is structured with title, description, labels, and acceptance criteria.
 
 ---
@@ -11,9 +40,51 @@ This document outlines all the sub-issues that need to be created in GitHub for 
 
 ---
 
-## Phase 2: Character Creation Content (Priority 1)
+## Phase 2: Character Creation Content (Priority 1) ✅
 
-### Issue #2.1: Create Character Creation Guide
+### ✅ Issue #2.1: Create Character Creation Guide
+**Status**: COMPLETE (file exists with 1,405 lines)
+
+**Title**: Create Creating_Your_Character.md with step-by-step character creation guide
+
+**Location**: `World Building/Character_Creation/Creating_Your_Character.md`
+
+✅ File exists and is included in Player's Guide TOC
+
+---
+
+### ✅ Issue #2.2: Create Regional Origins Guide
+**Status**: COMPLETE (file exists with 1,653 lines)
+
+**Title**: Create Regional_Origins.md with background variants for each region
+
+**Location**: `World Building/Character_Creation/Regional_Origins.md`
+
+✅ File exists and is included in Player's Guide TOC
+
+---
+
+### ✅ Issue #2.3: Create Languages and Culture Guide
+**Status**: COMPLETE (file exists with 1,689 lines)
+
+**Title**: Create Languages_and_Culture.md with cultural practices for gameplay
+
+**Location**: `World Building/Character_Creation/Languages_and_Culture.md`
+
+✅ File exists and is included in Player's Guide TOC
+
+---
+
+### ✅ Issue #2.4: Add Character Creation Chapter to TOC
+**Status**: COMPLETE
+
+✅ Character Creation chapter added to `players-guide-toc.json` with all three files
+
+---
+
+## Phase 2: Character Creation Content (Priority 1) - ORIGINAL SPECIFICATIONS
+
+### Issue #2.1: Create Character Creation Guide (FOR REFERENCE ONLY - ALREADY COMPLETE)
 **Title**: Create Creating_Your_Character.md with step-by-step character creation guide
 
 **Description**:
@@ -247,7 +318,36 @@ Create a practical reference for currency, trade, and typical costs across Aevor
 
 ---
 
-### Issue #3.2: Create Travel and Distance Guide
+## Phase 3: Practical Gameplay Information (Priority 2)
+
+### ✅ Issue #3.1: Create Currency and Trade Guide
+**Status**: COMPLETE (file exists with 793 lines)
+
+**Title**: Create Currency_and_Trade.md with money systems and costs
+
+**Location**: `World Building/Practical/Currency_and_Trade.md`
+
+✅ File exists and is included in Player's Guide TOC under "Practical Information" chapter
+
+---
+
+### ⚠️ Issue #3.2: Create Travel and Distance Guide
+**Status**: POSSIBLY UNNECESSARY - Recommend evaluation
+
+**Title**: Create Travel_and_Distance.md with travel times and methods
+
+**Location**: `World Building/Practical/Travel_and_Distance.md`
+
+⚠️ **RECOMMENDATION**: Review `Player_Quick_Reference.md` (435 lines) before creating this file. The Quick Reference already includes comprehensive travel times, distances, costs, and modifiers. Creating a separate file may duplicate content.
+
+**Next Steps**: 
+1. Review Player_Quick_Reference.md for completeness
+2. If gaps exist, add to Quick Reference rather than creating new file
+3. If Travel_and_Distance.md is created, ensure no duplication
+
+---
+
+### Issue #3.2 ORIGINAL SPECIFICATION (FOR REFERENCE IF NEEDED)
 **Title**: Create Travel_and_Distance.md with travel times and methods
 
 **Description**:
@@ -508,7 +608,36 @@ Create an introduction that explains how to use the player's guide, distinguishi
 
 ---
 
-### Issue #4.2: Create Common Goods and Services Guide
+## Phase 4: Reference Materials (Priority 3)
+
+### ✅ Issue #4.1: Create How To Use This Book Guide
+**Status**: COMPLETE (file exists with 177 lines)
+
+**Title**: Create How_To_Use_This_Book.md with navigation and usage guide
+
+**Location**: `World Building/Introduction/How_To_Use_This_Book.md`
+
+✅ File exists and is included in Player's Guide TOC as first file in "Welcome to Aevoria" chapter
+
+---
+
+### ⚠️ Issue #4.2: Create Common Goods and Services Guide
+**Status**: POSSIBLY UNNECESSARY - Recommend evaluation
+
+**Title**: Create Common_Goods_and_Services.md with shopping reference
+
+**Location**: `World Building/Practical/Common_Goods_and_Services.md`
+
+⚠️ **RECOMMENDATION**: Review `Player_Quick_Reference.md` (435 lines) before creating this file. The Quick Reference already includes sections on lodging, meals, common goods, equipment, mounts, and services. Creating a separate file may duplicate content.
+
+**Next Steps**:
+1. Review Player_Quick_Reference.md for completeness
+2. If gaps exist, add to Quick Reference rather than creating new file
+3. If Common_Goods_and_Services.md is created, ensure no duplication
+
+---
+
+### Issue #4.2 ORIGINAL SPECIFICATION (FOR REFERENCE IF NEEDED)
 **Title**: Create Common_Goods_and_Services.md with shopping reference
 
 **Description**:
