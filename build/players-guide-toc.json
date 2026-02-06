@@ -7,6 +7,8 @@
     {
       "chapter": "Welcome to Northreach",
       "files": [
+        "../World Building/Introduction/How_To_Use_This_Book.md",
+        "../World Building/Regions/00_Master_Index.md"
         "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
       ]
     },
