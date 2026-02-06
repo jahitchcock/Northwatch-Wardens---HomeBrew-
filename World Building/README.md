@@ -26,6 +26,7 @@ All content in these folders is safe for players to read:
 
 - **Player-facing primer (core):** [Northreach_Journal_and_Lore.md](./Regions/Northreach/Northreach_Journal_and_Lore.md)
 - **Setting quick reference (DM + table-ready):** [Northreach_Setting_Primer.md](./Regions/Northreach/Northreach_Setting_Primer.md)
+- **Player quick reference (costs & travel):** [Player_Quick_Reference.md](./Player_Quick_Reference.md)
 - **Music / audio guidance:** [SongsOfTheNorthreach.md](./Regions/Northreach/SongsOfTheNorthreach.md)
 
 ---
