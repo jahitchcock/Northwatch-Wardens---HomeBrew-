@@ -1,8 +1,503 @@
 **Temple of the Dragonknights**
 
+## Northwatch Wardens Integration (DM)
+
+**Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Temple of the Dragonknights: Heroic Tomb" section
+- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
+- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+
+**Key Secrets:**
+- The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
+- The "Dragonknights" actually fought post-Calamity Aeorian threats
+- Each tomb is a **ward anchor**; desecration weakens the seals
+- The Aeorian facility below is responding to the Echo and attempting to break free
+- The cult's rituals are only possible because magic is destabilizing
+- The facility contains **dragon-killing bioweapons** that threaten all dragons if reactivated
+
+**Player Discovery:** Characters should sense that the cult is more powerful than expected and that the temple has deeper significance. The connection to ancient Aeorian magic can be hinted at through symbols, architecture, or magical effects.
+
+---
+
 ![- A long, narrow horizontal strip/band centered on a white background. - Color: olive to muted green with slight mottling/texture. - Edges: irregular, jagged top and bottom with a thin black outline. - Appearance: resembles a painted brush stroke, torn paper ribbon, or decorative divider.](./Temple_of_the_Dragonknights_images/image_001.png)
 
 *A Simple Adventure Module*
+
+\page
+
+# DM Notes: Temple of the Dragonknights
+
+## Adventure Overview
+
+**Theme:** Ambition, corruption, and the exploitation of rising magic — a young dragon and cult seek power from magical disturbances
+
+**Core Tension:** Venomfang (young green dragon) and her kobold cult are drawn to the Temple ruins by the Aeorian Echo. Are they a genuine threat or opportunistic scavengers?
+
+**Level Range:** 3-5 (campaign climax adventure)
+
+**Expected Duration:** 4-6 hours (single or two-session adventure)
+
+**Key NPCs/Enemies:**
+- **Venomfang** — Young green dragon (clever, ambitious, not mindlessly evil)
+- **Kobold Cult** — Dragon-worshipping minions (organized, fanatical)
+- **Joel Andersmith** — Farmer, initial quest giver (injured by kobolds)
+- **Northcrest Locals** — Guards, blacksmith, innkeepers (provide support)
+
+## Central Mystery (Aeorian Echo Connection)
+
+**This is the CONVERGENCE adventure** — Other factions are responding to the Aeorian Echo.
+
+**The Setup:**
+- Venomfang sensed magical power radiating from the Temple of the Dragonknights
+- The temple itself is a *confluence point* — ancient ley lines intersect here, amplified by Salsvault's reactivation
+- Kobolds worship Venomfang and seek to establish a power base
+- The cult is *exploiting* the Aeorian Echo, not causing it
+- If Venomfang succeeds, she becomes a regional power; if she's stopped, the Echo continues elsewhere
+
+**What Players Should Learn:**
+1. The Aeorian Echo is attracting predators and opportunists (dragons, cults, intelligent creatures)
+2. Salsvault's activation created "ripples" of magical energy across Northreach
+3. The temple is a *symptom* of the Echo, not its source (that's Salsvault)
+4. More factions will mobilize if the Echo isn't contained
+
+**What Remains Hidden (for future campaigns):**
+- How to actually *stop* the Aeorian Echo (requires returning to Salsvault or finding other solutions)
+- Whether Venomfang is working alone or has allies
+- Other creatures drawn to magical convergence points
+
+## Common DM Pitfalls
+
+### 1. Venomfang as a Pure Villain
+**Problem:** If Venomfang is played as a mindless monster, players miss the moral complexity.
+
+**Solution:** Venomfang is *ambitious*, not evil. She wants:
+- Power and territory (reasonable dragon goal)
+- To avoid direct conflict with strong opponents (pragmatic)
+- To use kobolds as expendable minions (ruthless but logical)
+
+**If confronted, she can negotiate:**
+- "Why die for peasants who mean nothing to you? I offer gold, magic, *alliance*."
+- "Kill my kobolds if you must. I'll find more. But attack *me*, and you'll regret it."
+
+**She's a **Level 3-5 boss** — deadly in direct combat. Negotiation or clever tactics (poison gas, collapsing temple) are valid strategies.**
+
+### 2. Kobolds as Cannon Fodder
+**Problem:** Kobolds feel like XP pinatas with no personality.
+
+**Solution:**
+- Kobolds are *fanatical* worshippers — they believe Venomfang will ascend to godhood
+- They use traps and Pack Tactics (advantage via flanking)
+- If half the kobolds die, the rest surrender OR flee to warn Venomfang
+- Captured kobolds reveal temple layout, Venomfang's lair location, and cult goals
+
+### 3. Temple Feels Like a Linear Dungeon Crawl
+**Problem:** "Clear room, fight enemies, repeat" becomes monotonous.
+
+**Solution:**
+- **Environmental hazards:** Crumbling ruins, trapped corridors, flooded chambers
+- **Multiple entry points:** Kobolds guard the front, but ruins have a back entrance (Stealth check)
+- **Roleplay opportunities:** Captured kobolds, dragon negotiations, ancient lore inscriptions
+- **Time pressure:** Kobolds are preparing a ritual to "awaken" the temple's ley line energy
+
+### 4. Venomfang Fight Is Too Easy or Too Hard
+**Problem:** Young green dragon (CR 8) can TPK a Level 3-4 party, or die in 2 rounds if ambushed.
+
+**Solution:**
+- **She's smart:** Uses Poison Breath, then flies away to recover
+- **She has escape plans:** If reduced to 50% HP, she offers terms OR flees
+- **Environment matters:** Temple has collapsed pillars (cover), acid pools (hazards), high ceilings (she can fly out of melee reach)
+- **Adjust on the fly:** If party is struggling, Venomfang toys with them. If party is dominating, kobold reinforcements arrive.
+
+**Alternative Victory Conditions:**
+- Drive Venomfang away (she flees when bloodied)
+- Collapse the temple (bury her lair, force relocation)
+- Negotiate a truce (she leaves Northreach in exchange for treasure/safety)
+
+## Resolution Outcomes
+
+### Path A: Kill Venomfang and Destroy Cult
+**Result:**
+- Northcrest is saved; kobolds scatter
+- Party earns dragon hoard (1,500 gp + magic items)
+- **Aeorian Echo outcome:** Temple remains a convergence point; another creature may claim it later
+- **Reputation:** Heroes of Northreach; Lorewarden Elric requests debrief
+
+### Path B: Drive Venomfang Away (Non-Lethal Victory)
+**Result:**
+- Venomfang retreats, wounded and humiliated
+- Kobolds abandon temple without their dragon leader
+- Treasure partially looted (dragon takes most of hoard)
+- **Aeorian Echo outcome:** Same as Path A (temple still radiates magic)
+- **Future hook:** Venomfang may return in later campaigns
+
+### Path C: Negotiate with Venomfang
+**Result:**
+- Dragon agrees to leave Northreach in exchange for tribute (500 gp + magic item)
+- OR dragon agrees to non-aggression pact (won't raid settlements, party won't hunt her)
+- Kobolds follow Venomfang elsewhere
+- **Aeorian Echo outcome:** Temple remains unclaimed but monitored
+- **Reputation:** Controversial — some see party as pragmatic, others as cowards
+- **Future hook:** Venomfang may become an ally (or betray party later)
+
+### Path D: Destroy or Seal the Temple
+**Result:**
+- Collapse temple to deny access to magical convergence point
+- Venomfang escapes but loses her power base
+- **Aeorian Echo outcome:** Magical energy disperses (reduces regional instability)
+- **Lorewarden Elric's reaction:** Impressed ("You addressed the root problem, not just the symptom")
+
+## Tactical Notes
+
+### Combat Encounter Scaling
+
+**Part I: Kobolds vs. Guards (Northcrest)**
+- **2-3 players:** 4 kobolds
+- **4-5 players:** 6 kobolds
+- **Scaling:** Guards help players; if guards die, kobolds flee
+
+**Part II: Andersmith Farm Investigation**
+- **Exploration-focused** — no combat unless players trigger kobold scouts
+- **If combat:** 2-3 kobolds (scouts)
+
+**Part III: Temple Approach**
+- **Outer Ruins:** 6-8 kobolds (guards)
+- **Trapped Corridor:** Spiked pit traps (DC 13 Perception to detect, DC 12 Dex save to avoid, 2d6 piercing damage)
+
+**Part IV: Temple Interior**
+- **Main Chamber:** 8-10 kobolds + 1 kobold inventor (CR 1/4, uses improvised explosives)
+- **Venomfang's Lair:** Venomfang (Young Green Dragon, CR 8) + 2-4 kobold guards
+
+**Environmental Hazards:**
+- **Poison Gas Pools:** 10 ft radius, DC 12 Con save or poisoned for 1 minute
+- **Crumbling Pillars:** Can be knocked over (Athletics check) to create cover or crush enemies
+- **Flooded Chambers:** Difficult terrain, Venomfang can swim freely
+
+### Venomfang's Combat Tactics
+
+1. **Round 1:** Poison Breath (recharge 5-6), then fly to high perch
+2. **Round 2-3:** Fly-by attacks (Bite and claw), stay out of melee reach
+3. **Round 4+:** Use lair actions (if applicable) — rockfall, poison cloud
+4. **If bloodied (50% HP):** Attempt to flee OR offer negotiation
+5. **If cornered:** Fight to the death (Frightful Presence to scatter weak PCs)
+
+**Lair Actions (Optional):**
+- **Rockfall:** DC 13 Dex save or take 2d10 bludgeoning damage
+- **Poison Fog:** 20 ft radius cloud, DC 12 Con save or poisoned
+
+### Non-Combat Challenges
+
+**Investigation (Andersmith Farm):**
+- DC 10 Survival: Track kobolds back to temple ruins (northwest mountains)
+- DC 12 Investigation: Find cult symbols (dragon claw marks, stolen supplies)
+- DC 10 Medicine: Stabilize Joel Andersmith (he provides clues)
+
+**Stealth (Temple Approach):**
+- DC 13 Stealth: Avoid kobold sentries (bypass outer guards)
+- DC 15 Stealth: Infiltrate temple via collapsed back entrance
+
+**Negotiation (Venomfang):**
+- DC 15 Persuasion: Convince her to leave peacefully
+- DC 13 Intimidation: Threaten her with superior force (must demonstrate combat prowess first)
+- DC 12 Deception: Trick her into believing party has dragon-slaying weapons
+
+## Improvisation Toolkit
+
+### If Players Get Stuck (Investigation Phase)
+
+1. **Joel Andersmith provides clear directions:** "The kobolds came from the northwest mountains. There's an old temple up there — ruins from before the Calamity."
+2. **Northcrest guards offer to scout:** "We'll mark the trail for you. Just deal with whatever's up there."
+3. **Venomfang sends a kobold emissary:** "Our great master wishes to speak with you. Come to the temple. She promises safe passage." (This is a lie — ambush.)
+
+### If Players Avoid the Temple
+
+- Kobold raids escalate (attack Northcrest directly)
+- Venomfang personally attacks the town (forces confrontation)
+- Lorewarden Elric sends urgent message: "The temple is a magical convergence point. You must investigate."
+
+### If Players Attack Venomfang Immediately
+
+- She's surprised but uses Poison Breath immediately
+- Kobolds swarm party (reinforcements arrive)
+- If party is winning, she flees
+- If party is losing, she offers terms: "Enough. You fight well. Leave now, and I'll let you live."
+
+### If Players Are Dying
+
+- Kobolds focus on capture, not killing (want to sacrifice prisoners)
+- Northcrest guards arrive as reinforcements (late but helpful)
+- Venomfang decides party isn't worth the effort and flies away (insult: "Not even worth eating")
+
+## Rewards & Aftermath
+
+### Standard Rewards
+- **Northcrest Gratitude:** 500 gp + free supplies
+- **Venomfang's Hoard (if killed):** 1,500 gp, 2d4 gems (100 gp each), 1d4 magic items
+- **Cult Treasure:** 200 gp, kobold-made traps and tools
+
+### Magic Items (Venomfang's Hoard Examples)
+- **+1 Longsword** (dragon-slaying history, inscribed with Dragonknights' oath)
+- **Cloak of Elvenkind** (looted from previous victim)
+- **Potion of Greater Healing** x3
+- **Ring of Protection** OR **Amulet of Health** (rare item, if party did exceptionally well)
+
+### XP Awards (Milestone)
+- Completing temple investigation: Party reaches **Level 4**
+- Defeating/driving away Venomfang: Party reaches **Level 5**
+
+### Reputation Changes
+- **Northcrest:** Heroes (permanent discount at shops)
+- **Northreach Wardens:** Elite status (Brenna promotes party to senior Wardens)
+- **Lorewarden Elric:** Fascinated by temple's ley line convergence (requests report)
+
+## Aeorian Echo Foreshadowing
+
+**Revelations to drop during the adventure:**
+
+1. **Temple's Magical Resonance:**
+   > "The temple radiates magical energy — not from the ruins themselves, but from *beneath* them. Ley lines converge here, amplified by something far away."
+
+2. **Venomfang's Motivation (if negotiated):**
+   > "I sensed power here. Power that called to me. Something is waking the old magic, and I intend to claim it before others do. Why should gods and wizards hoard such strength?"
+
+3. **Kobold Cult Beliefs:**
+   > "The Great Venomfang will ascend! The old magic rises, and she will become a GOD! We are her chosen!"
+
+4. **Temple Inscriptions (if investigated):**
+   > "The Dragonknights swore an oath: 'We guard the sleeping things, that they may never wake.' Beneath the temple are carved warnings in Draconic: 'Sealed by divine will. Do not disturb.'"
+
+5. **Lorewarden Elric's Debrief (when party returns to Waystone Inn):**
+   > "A dragon drawn to a ley line convergence? Troubling. The Aeorian Echo isn't just reactivating ruins — it's creating *beacons* across Northreach. Every creature with magical sensitivity can feel it. Venomfang was just the first. We need to find a way to stop this before worse things arrive."
+
+\page
+
+# DM Prep Checklist: Temple of the Dragonknights
+
+## One Week Before Session
+
+- [ ] Read entire adventure (shorter adventure — 30-45 minutes)
+- [ ] Review DM Notes section for themes and combat tactics
+- [ ] Familiarize yourself with Young Green Dragon stat block (MM p94-95)
+- [ ] Review kobold stat block (MM p195) and Pack Tactics ability
+- [ ] Decide on Venomfang's personality voice — clever, ambitious, condescending
+- [ ] Decide if Venomfang will negotiate OR fight to the death
+- [ ] Mark key revelation moments (temple is a ley line convergence point)
+
+## Day Before Session
+
+- [ ] Print/bookmark stat blocks:
+  - [ ] Young Green Dragon (MM p94-95) — **PRIMARY BOSS**
+  - [ ] Kobold (MM p195)
+  - [ ] Kobold Inventor (Volo's Guide p166 OR use kobold with improvised bombs)
+- [ ] Print/bookmark NPC summaries (Joel Andersmith, Northcrest guards)
+- [ ] Review temple map (if using) or plan theater-of-mind layout
+- [ ] Prepare Venomfang's lair description (collapsed temple chamber, acid pools, high ceiling)
+- [ ] Prepare kobold trap descriptions (spiked pits, tripwires, alarm bells)
+- [ ] Decide on Venomfang's hoard contents (treasure + magic items)
+- [ ] Review lair actions (optional) — rockfall, poison fog
+
+## Props & Materials
+
+- [ ] Index card with Venomfang's dialogue quotes (negotiation, threats, gloating)
+- [ ] Index card with temple key locations (outer ruins, main chamber, lair)
+- [ ] Map of temple (sketch or theater of mind)
+- [ ] Dragon miniature or token (Venomfang)
+- [ ] Kobold miniatures or tokens (10-12 recommended)
+- [ ] Hazard markers (poison pools, crumbling pillars, traps)
+
+## Session Zero / Player Prep
+
+- [ ] Confirm party level (3-5 recommended; this is a tough adventure)
+- [ ] Brief players: This adventure culminates with a dragon fight (CR 8)
+- [ ] Set expectations: Combat, exploration, and potential negotiation
+- [ ] Ask players: "How does your character feel about dragons? Kobolds? Negotiating with enemies?"
+- [ ] Clarify: Venomfang is intelligent and may negotiate — killing her isn't the only solution
+- [ ] Warn: Young green dragon is **deadly** — party should consider tactics, environment, and creative solutions
+
+## Quick Reference During Play
+
+### Key DC Checks
+
+**Northcrest Investigation:**
+- DC 10 Medicine: Stabilize Joel Andersmith
+- DC 12 Insight: Joel is genuinely terrified (not lying)
+- DC 10 Survival: Track kobolds to temple ruins
+
+**Temple Approach:**
+- DC 13 Perception: Detect kobold sentries
+- DC 13 Stealth: Bypass outer guards
+- DC 15 Stealth: Infiltrate via collapsed back entrance
+- DC 12 Investigation: Find cult symbols and stolen supplies
+
+**Temple Interior:**
+- DC 13 Perception: Detect spiked pit traps
+- DC 12 Dex save: Avoid falling into pit (2d6 piercing damage)
+- DC 13 Arcana: Identify ley line convergence (magical energy beneath temple)
+- DC 10 History: Recognize Dragonknights' oath inscriptions
+
+**Negotiation with Venomfang:**
+- DC 15 Persuasion: Convince her to leave peacefully
+- DC 13 Intimidation: Threaten her (requires demonstration of power)
+- DC 12 Deception: Trick her into believing party has advantages (dragon-slaying weapons, etc.)
+
+### Encounter Scaling Quick Reference
+
+**2-3 Players:**
+- Kobolds vs. Guards: 4 kobolds
+- Temple Outer Ruins: 6 kobolds
+- Main Chamber: 8 kobolds + 1 kobold inventor
+- Venomfang's Lair: Venomfang + 2 kobold guards
+
+**4-5 Players:**
+- Kobolds vs. Guards: 6 kobolds
+- Temple Outer Ruins: 8 kobolds
+- Main Chamber: 10 kobolds + 1 kobold inventor
+- Venomfang's Lair: Venomfang + 4 kobold guards
+
+**Adjust Venomfang's Difficulty:**
+- If party is Level 3: Use half HP (60 HP instead of 136)
+- If party is Level 4-5: Use full stats
+- If party is struggling: Venomfang flees at 50% HP
+
+### Venomfang Quick Stats (Young Green Dragon)
+
+- **AC:** 18 (natural armor)
+- **HP:** 136 (16d10 + 48)
+- **Speed:** 40 ft., fly 80 ft., swim 40 ft.
+- **Attacks:** Bite (+7 to hit, 2d10+4 piercing + 2d6 poison), Claw (+7 to hit, 2d6+4 slashing)
+- **Poison Breath (Recharge 5-6):** 30 ft cone, DC 14 Con save, 12d6 poison damage (half on save)
+- **Skills:** Deception +4, Insight +4, Perception +6, Stealth +4
+- **Condition Immunities:** Poisoned
+- **Senses:** Blindsight 30 ft., Darkvision 120 ft., Passive Perception 16
+- **Languages:** Common, Draconic
+- **CR:** 8 (3,900 XP)
+
+**Tactical Notes:**
+- Starts with Poison Breath, then flies to high perch
+- Uses Bite and Claw from the air (flyby attacks)
+- Flees at 50% HP OR offers negotiation
+- If cornered, uses Frightful Presence (if you add this ability)
+
+### Temple Key Locations (Quick Map)
+
+1. **Outer Ruins:** Kobold sentries (6-8), trapped entrance
+2. **Main Hall:** Collapsed pillars, cult symbols, kobold camp (8-10)
+3. **Ritual Chamber:** Kobold inventor preparing ritual (ley line activation)
+4. **Venomfang's Lair:** Dragon's hoard, acid pools, high vaulted ceiling
+5. **Back Entrance:** Collapsed wall (Stealth approach, bypasses guards)
+
+### Pacing Guide (4-6 Hour Session)
+
+**Hour 1: Northcrest Investigation**
+- Kobolds attack, guards respond, party assists
+- Joel Andersmith provides quest info
+- Party gathers supplies, talks to locals
+
+**Hour 2: Journey to Temple**
+- Travel through mountains (Survival checks, random encounters optional)
+- Scout temple exterior, plan approach
+
+**Hour 3: Temple Infiltration**
+- Outer ruins combat (kobold guards)
+- Navigate traps and hazards
+- Reach main chamber
+
+**Hour 4: Main Chamber Combat**
+- Large kobold force (8-10 + inventor)
+- Environmental combat (pillars, debris)
+
+**Hour 5: Venomfang Confrontation**
+- Dragon encounter (combat OR negotiation)
+- Lair hazards (acid pools, high ceiling)
+
+**Hour 6: Resolution & Return**
+- Loot hoard, explore temple
+- Return to Northcrest, celebration
+- Debrief with Lorewarden Elric
+
+### Important Names
+
+- **Venomfang:** Young green dragon (ambitious, clever, opportunistic)
+- **Joel Andersmith:** Farmer (injured by kobolds, quest giver)
+- **Richard & Lauraine Brown:** Innkeepers at Flowing Mug Inn
+- **Dorn Stoutheart:** Blacksmith (provides equipment)
+- **Northcrest Guards:** Town militia (assist in opening encounter)
+
+### Quick Treasure
+
+- **Northcrest Reward:** 500 gp + free supplies
+- **Venomfang's Hoard:** 1,500 gp, 2d4 gems (100 gp each), 1d4 magic items
+- **Kobold Loot:** 200 gp, traps, tools
+- **Magic Items:** +1 Longsword, Cloak of Elvenkind, Potions of Greater Healing x3, 1 rare item (DM choice)
+
+### Venomfang's Opening Dialogue (if party enters lair)
+
+> *A sleek green dragon lies coiled atop a pile of gold and bones. Her eyes gleam with intelligence as she regards you.*
+>
+> "Adventurers. How... expected. You've slaughtered my servants, disturbed my lair, and now you stand before me. Brave? Or foolish? Perhaps both. What do you want here?"
+
+### Venomfang's Negotiation Offer (if party is strong)
+
+> "You fight well. Better than the so-called 'Dragonknights' who built this tomb. I have a proposition: I will leave this region. In exchange, you will give me one magic item from your possession, and you will not pursue me. Refuse, and I will kill you where you stand. Choose quickly."
+
+### Venomfang's Threat (if party refuses negotiation)
+
+> *The dragon rises, wings unfurling.*
+>
+> "So be it. I will feast on your corpses and add your treasures to my hoard. Know this: I am Venomfang, and I will be remembered as the dragon who **broke** the heroes of Northreach!"
+
+### Venomfang's Retreat (if bloodied)
+
+> *The dragon snarls, blood dripping from her wounds.*
+>
+> "This isn't over. I will remember your faces. One day, you will regret sparing me — or not killing me fast enough."
+
+*She flies away through a collapsed section of ceiling, escaping into the mountains.*
+
+### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
+
+> *Elric listens intently to your report, his face grave.*
+>
+> "A young dragon drawn to the temple. Kobolds worshipping her as a god. And beneath it all, ley lines converging, amplified by... Salsvault, I presume. The Aeorian Echo is creating magical beacons. Venomfang was opportunistic, but she won't be the last. We need to find a way to stop the Echo at its source. But first, rest. You've earned it."
+
+## Post-Session Tasks
+
+- [ ] Update Campaign Tracker: Temple of Dragonknights completed
+- [ ] Note if Venomfang was killed, driven away, or negotiated with
+- [ ] Record party's reputation in Northcrest (Heroes status)
+- [ ] Track magic items acquired from Venomfang's hoard
+- [ ] Award XP or milestone level-up (Party → Level 4 or 5)
+- [ ] Note party's reaction to Aeorian Echo revelations
+- [ ] Prepare Elric's follow-up hooks (investigate other convergence points? Return to Salsvault?)
+- [ ] If Venomfang escaped, note potential future encounter
+
+## Troubleshooting Common Issues
+
+### "Venomfang killed our entire party in one round!"
+→ If TPK occurs, have Venomfang decide party is "worth more alive" — capture them for ransom to Northcrest. Players escape (skill challenge) and get second chance.
+
+### "We want to negotiate before even entering the temple!"
+→ Allow it. Venomfang sends a kobold emissary. Negotiate terms: tribute, territory concessions, non-aggression pact. This is a valid (and clever) resolution.
+
+### "We want to collapse the entire temple to kill Venomfang!"
+→ Excellent creative solution. Require Engineering checks (DC 15) to rig collapse safely. Venomfang escapes (flying) but loses her hoard and power base.
+
+### "The kobolds are too weak; they die in one hit!"
+→ Kobolds should use Pack Tactics (advantage via flanking) and traps. If party steamrolls them, add reinforcements or have them flee to warn Venomfang.
+
+### "We refuse to fight a CR 8 dragon; we're only Level 3!"
+→ Validate their concern. Emphasize negotiation, environmental tactics (collapse temple, poison gas, etc.), or fleeing as viable options. Venomfang doesn't fight to the death if she can avoid it.
+
+## Next Session Hook
+
+After defeating/driving away Venomfang and debriefing with Elric:
+
+> "The Aeorian Echo is attracting predators. Venomfang was clever and ambitious, but others may be less... negotiable. We need to understand the Echo's full extent. I've marked three potential convergence points on my map. Which will you investigate next?"
+
+This sets up potential future adventures or allows party to pursue other goals in Northreach.
+
+\page
 
 **Introduction**: Venomfang, a young green dragon, has recently perched herself in the burial ground of an ancient group of dragon slayers
 

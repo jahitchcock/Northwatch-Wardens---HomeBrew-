@@ -1,3 +1,13 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**MAJOR CAMPAIGN SPOILERS AHEAD**
+
+This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see the main World Building and Season 1 folders (excluding DM_Resources).
+}}
+
 # The Aeorian Echo: Campaign Master Document
 
 ## Overview
@@ -1040,6 +1050,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ### Temple of the Dragonknights (Mid-Late Game)
+
+**Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
 
 **Location:** Northwest mountains
 

@@ -1,3 +1,13 @@
+{{note
+##### 📋 DUNGEON MASTER RESOURCE
+
+**DM Session Preparation Guide**
+
+This document contains DM tools and guidance for running Northwatch Wardens sessions. Some sections reference campaign secrets.
+
+**For campaign spoilers**, see `Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md`
+}}
+
 # Northwatch Wardens: DM Session Prep Guide
 
 
@@ -123,6 +133,8 @@ CHOICE POINT:
 ---
 
 ## Session Zero: Critical Setup
+
+> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **[SESSION 0 QUICK START GUIDE](../SESSION_0_QUICK_START.md)** (30-minute prep time). This section provides additional advanced tips for Session Zero.
 
 ### Player Character Ties to Waystone Inn
 
