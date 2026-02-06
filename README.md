@@ -10,64 +10,36 @@
 
 
 
-## The World of Aevoria
+## Your Story Begins in Northreach
 
+**Northreach** is a cold frontier region where settlements are few, the wilderness is vast, and every community depends on grit, cooperation, and the willingness to face danger head-on. This is where your adventure begins—not in grand capitals or ancient kingdoms, but in a land where survival is earned daily and where small acts of courage ripple outward.
 
+The **Northwatch Wardens** make their stand here at the Waystone Inn, a guild of professionals who handle the problems too dangerous, too strange, or too urgent for local militias. You'll learn the frontier's rhythm: the weight of responsibility, the value of your word, and the hard truth that not every problem has a clean solution.
 
-**Aevoria** is a rich fantasy world of diverse cultures, ancient histories, and emerging mysteries. From the cold frontier regions of the north to the sun-drenched lands of the south, from elven forests to dwarven mountain kingdoms, Aevoria is a world where heroes forge their own legends.
+**Start here. Learn the land. Know your neighbors.**
 
-
-
-The name **Aevoria** carries different meanings to different peoples:
-
-
-
-- The **Solaris Dominion** claims it means "the land blessed by dawn" — a poetic flourish from their earliest poets
-
-- The **Nullwood Elves** call it the "Quiet Age," the era after the world's great noise faded
-
-- The **Stonebound Dwarves** use their own name — *Tharundor*, "the Stone That Remembers"
-
-- In **Vharoxis**, they say Aevoria is whatever it needs to be; a name is just another mask
-
-
-
-Each culture has its own interpretation, its own history, its own truth. Together, they form the tapestry of this world.
-
-
+Only when Northreach feels like home will the wider world truly matter.
 
 ---
 
+## The Wider World of Aevoria
 
+Beyond Northreach lies **Aevoria**—a rich fantasy world of diverse cultures, ancient histories, and emerging mysteries. The name carries different meanings to different peoples: the Solaris Dominion calls it "the land blessed by dawn," the Nullwood Elves name it the "Quiet Age," and the Stonebound Dwarves call it *Tharundor*, "the Stone That Remembers."
 
-## Exploring Aevoria
+From the cold frontier regions of the north to sun-drenched southern lands, from elven forests to dwarven mountain kingdoms, Aevoria is a world where heroes forge their own legends. Each region offers unique adventures, cultures, and mysteries:
 
-This book contains campaign materials, world lore, and adventures set across Aevoria. 
----
+- **Northreach** — Cold frontier, home of the Wardens *(your starting point)*
+- **Solaris Dominion** — Human cultural capital of art and politics
+- **The Nullwood Expanse** — Ancient elven kingdom shrouded in silence
+- **The Stonebound Depths** — Mighty dwarven halls carved in stone
+- **Vharoxis** — The city of masks, where intrigue rules
+- **The Shattered Coast** — Storm-tossed maritime frontier
+- **The Emberlands** — Volcanic south of fire magic
+- **The Verdant Marches** — Beast-haunted druidic wilds
+- **The Sunken Dominion** — Drowned cities and deep-sea mysteries
+- **The Far North** — Frozen wasteland of buried secrets
 
-## The Regions of Aevoria
-
-The known world spans from frozen northern wastes to volcanic southern lands, each with its own character and culture:
-
-- **Northreach** — The cold frontier where the Northwatch Wardens make their stand
-
-- **Solaris Dominion** — Human cultural capital of art, politics, and bardic tradition
-
-- **The Nullwood Expanse** — Ancient elven kingdom shrouded in magical silence
-
-- **The Stonebound Depths** — Mighty dwarven halls carved deep into living stone
-
-- **Vharoxis** — The city of masks, where intrigue and crime rule
-
-- **The Shattered Coast** — Storm-tossed maritime frontier of shipwrecks and mystery
-
-- **The Emberlands** — Volcanic south of fire magic and mineral wealth
-
-- **The Verdant Marches** — Beast-haunted wilds where druids maintain ancient pacts
-
-- **The Far North** — Frozen wasteland of buried secrets and harsh beauty
-
-Each region offers unique adventures, cultures, and mysteries waiting to be discovered.
+These distant lands will become relevant as your story unfolds, but first—**master the frontier**.
 
 
 
@@ -170,6 +142,25 @@ These prevent the preview pane from jumping and avoid selection-hover effects th
 ---
 
 
+
+## Player vs DM Content
+
+This repository carefully separates **player-safe content** from **DM-only secrets**:
+
+### ✅ Safe for Players
+- `World Building/Regions/` — Regional lore
+- `World Building/Organizations/` — Faction information  
+- `World Building/Locations/` — Place descriptions
+- `Premade PCs/` and `Characters/` — Character resources
+
+### 🚫 DMs Only (Contains Spoilers)
+- `World Building/DMEyesOnly/` — Campaign secrets and mysteries
+- `Season 1/DM_Resources/` — NPC secrets, campaign arc
+- `Season 1/Adventures/` — Adventures contain DM notes
+
+**Contributors:** See [Player vs DM Content Guidelines](./.github/PLAYER_DM_CONTENT_GUIDE.md) for how to maintain this separation.
+
+---
 
 ## Repository Structure
 
@@ -289,17 +280,18 @@ For detailed instructions, customization options, and troubleshooting, see:
 
 
 
-Whether you're a player seeking to explore the mysteries of Aevoria or a Dungeon Master crafting epic campaigns, this repository provides the tools and lore you need.
+Whether you're a player seeking to explore Northreach or a Dungeon Master crafting epic campaigns, this repository provides the tools and lore you need.
 
 
 
 **Choose your path:**
 
-- 🎲 **[Join the Northwatch Wardens](./Season%201/)** — Start your frontier adventure
+- 🎲 **[Start in Northreach](./World%20Building/Regions/Northreach/)** — Learn the frontier first
+- 🛡️ **[Join the Northwatch Wardens](./Season%201/)** — Begin your campaign
+- 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests
+- 🌍 **[Explore the Wider World](./World%20Building/)** — Discover Aevoria's regions *(after mastering Northreach)*
 
-- 🌍 **[Explore the World](./World%20Building/)** — Discover the regions of Aevoria
-
-- 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests and contracts
+- 📋 **[Quick Reference Guide](./World%20Building/Player_Quick_Reference.md)** — Costs, travel times, and essential info
 
 
 

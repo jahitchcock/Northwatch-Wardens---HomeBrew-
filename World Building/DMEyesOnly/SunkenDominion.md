@@ -1,8 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Sunken Dominion Secrets**
+
+This document contains DM-only secrets about the Sunken Dominion. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/09_Sunken_Dominion.md`
+}}
+
 # The Sunken Dominion: DM-Only Secrets
-
-**DO NOT share this information with players unless they discover it through gameplay.**
-
----
 
 ## The Hidden Truth
 

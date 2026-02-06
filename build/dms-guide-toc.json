@@ -20,17 +20,16 @@
       "chapter": "Campaign Overview",
       "files": [
         "../Season 1/README.md",
-        "../Season 1/Campaign_ToC.md",
-        "../Season 1/The_Story_So_Far.md"
+        "../Season 1/Campaign_ToC.md"
       ]
     },
     {
       "chapter": "DM Resources",
       "files": [
-        "../Season 1/DM_Resources/Session_Prep_Guide.md",
         "../Season 1/DM_Resources/Campaign_Tracker.md",
+        "../Season 1/DM_Resources/Campaign_Tracker_BLANK.md",
+        "../Season 1/DM_Resources/3D_Printing_Shopping_List.md",
         "../Season 1/DM_Resources/DM Guild Roster.md",
-        "../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md",
         "../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md"
       ]
     },
@@ -91,6 +90,14 @@
         "../World Building/DMEyesOnly/SunkenDominion.md",
         "../World Building/DMEyesOnly/VerdantMarches.md",
         "../World Building/DMEyesOnly/Vharoxis.md"
+      ]
+    },
+    {
+      "chapter": "Appendix: Reference Materials",
+      "files": [
+        "../Season 1/The_Story_So_Far.md",
+        "../Season 1/DM_Resources/Session_Prep_Guide.md",
+        "../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md"
       ]
     }
   ]
