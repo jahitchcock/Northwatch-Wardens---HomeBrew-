@@ -32,4 +32,4 @@ test-*.js
 build/test-*.json
 
 # Office document backups (markdown is source of truth)
-/Season 1/Office Docs/*.docx
+/Season 1/Office Docs/**/*.docx
