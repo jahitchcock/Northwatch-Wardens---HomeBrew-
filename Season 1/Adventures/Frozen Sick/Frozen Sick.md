@@ -1,5 +1,428 @@
 # Frozen Sick
 
+\page
+
+# DM Notes: Frozen Sick
+
+## Adventure Overview
+
+**Theme:** Ancient magic resurfacing with deadly consequences — the Aeorian Echo's source is discovered
+
+**Core Tension:** A deadly disease (frigid woe) is killing villagers, and the only cure lies in dangerous Aeorian ruins. Time is running out.
+
+**Level Range:** 2-4 (mid-campaign adventure)
+
+**Expected Duration:** 8-12 hours (2-3 sessions recommended)
+
+**Key NPCs:**
+- **Elro Aldataur** — Village leader, retired ranger, hires the party
+- **Tulgi Lutan** — Infected dwarf trapper, suspicious of authority
+- **Urgon Wenth** — Deceased explorer (turned to ice), source of outbreak
+- **Verla Pelc** — Deceased elf collector (also turned to ice)
+- **Irven Liel** — Infected merchant, family at risk
+- **Morgo** — Uthodurn guide at Syrinlya outpost
+
+## Central Mystery (Aeorian Echo Connection)
+
+**THIS IS THE REVELATION ADVENTURE** — Players discover the source of all magical disturbances across Northreach.
+
+**The Truth:**
+- **Salsvault** is a buried Aeorian laboratory that recently reactivated
+- Aeorian spores (blue, magical, deadly) are leaking from the ruins
+- These spores caused frigid woe AND triggered magical phenomena across the region
+- Salsvault's activation killed Alexi Merriksonn (Wolves of Welton connection) via magical feedback
+- The ruins are **still active** and will continue causing problems
+
+**What Players Should Learn:**
+1. Salsvault is an ancient Aeorian ruin that suddenly activated 2-3 months ago
+2. It contains both deadly weapons (frigid woe) and powerful artifacts
+3. The reactivation is spreading magical corruption across Northreach (Aeorian Echo)
+4. Someone or something triggered the ruins — but who, and why?
+
+**What Remains Hidden (for future campaigns):**
+- *Why* Salsvault activated (potential: deep magic, ancient failsafe, or intentional trigger)
+- Whether other Aeorian ruins exist in the region
+- The full extent of Aeor's magical arsenal
+
+## Common DM Pitfalls
+
+### 1. Plague Timeline Too Forgiving
+**Problem:** If players take too long, infected NPCs should die — but DMs hesitate to kill NPCs.
+
+**Solution:** Use the disease mechanics strictly:
+- Urgon and Verla are *already dead* (ice statues)
+- Tulgi has ~7 days left (symptoms visible)
+- Irven's family has ~10 days (just infected)
+- PCs infected during adventure have 1d4 days before symptoms appear
+
+**Be clear:** "You have about a week before more people die. Every delay costs lives."
+
+### 2. Croaker Cave Feels Like Filler
+**Problem:** Bandit hideout can feel like a side quest distraction.
+
+**Solution:** Emphasize the urgency — bandits *stole* the vials, making them part of the outbreak's spread. Recovering the vials prevents further infections. This isn't a detour; it's critical.
+
+### 3. Salsvault Feels Like a Dungeon Crawl
+**Problem:** Final section becomes "clear rooms, fight monsters" with no tension.
+
+**Solution:**
+- Emphasize environmental hazards (cold, magical traps, unstable magic)
+- Remind players of the ticking clock (infected people dying)
+- Show evidence of Aeor's fall — this was a weapons lab during a god-war
+- Let players feel the *wrongness* of Aeorian magic (unnatural, cold, blue glow)
+
+### 4. Antidote Location Is Unclear
+**Problem:** Players get lost in Salsvault looking for gold vials (the cure).
+
+**Solution:** 
+- Drop hints early: "Urgon's notes mention 'gold vials in the preservation chamber'"
+- Use Investigation checks to find labs, storage areas
+- Morgo can provide a rough map or directions (if players ask at Syrinlya)
+- Gold vials glow faintly with warm (non-threatening) magic — contrast with blue (dangerous) spores
+
+## Resolution Outcomes
+
+### Path A: Retrieve Antidote, Cure Everyone
+**Result:**
+- Irven's family saved; Tulgi survives
+- Palebank Village celebrates party as heroes
+- Elro pays 300 gp (200 gp base + 100 gp bonus for saving Tulgi)
+- **Aeorian Echo revelation:** Party now knows Salsvault is the source
+- **Future hook:** Salsvault is still active; more threats will emerge
+
+### Path B: Retrieve Antidote, Selective Curing
+**Result:**
+- Party chooses who gets cured (limited vials)
+- Moral weight: Who deserves to live? Tulgi (gruff loner) or Irven's kids (innocent)?
+- Village reaction depends on choice
+- **Aeorian Echo revelation:** Same as Path A, but with darker tone
+
+### Path C: Fail to Retrieve Antidote in Time
+**Result:**
+- Infected NPCs die (turn to ice statues)
+- Palebank becomes a ghost town (survivors flee)
+- Party may contract frigid woe themselves (Constitution saves)
+- **Aeorian Echo revelation:** Partial — players learn Salsvault exists but not its full significance
+- **Future hook:** Party must return to Salsvault to cure themselves
+
+### Path D: Destroy or Seal Salsvault
+**Result:**
+- Advanced option: If players try to collapse/seal the ruins
+- Prevents future outbreaks but destroys valuable Aeorian knowledge
+- Lorewarden Elric is disappointed (lost research opportunity)
+- Salsvault's magic is contained but not understood
+
+## Tactical Notes
+
+### Combat Encounter Scaling
+
+**Croaker Cave (Bandits):**
+- **2-3 players:** 4 bandits + 1 bandit captain
+- **4-5 players:** 6 bandits + 1 bandit captain + 1 thug
+
+**Salsvault (Aeorian Constructs):**
+- **2-3 players:** Use animated armor + 2 flying swords per encounter
+- **4-5 players:** Use helmed horror + animated armor + 3 flying swords per encounter
+
+**Environmental Hazards:**
+- **Frigid Cold:** Unprotected PCs take 1d4 cold damage per hour in Salsvault
+- **Magical Traps:** Blue spore clouds (DC 11 Con save or contract frigid woe)
+- **Unstable Magic:** Random magical surges (use Wild Magic table for flavor)
+
+### Non-Combat Challenges
+
+**Investigation (Palebank Village):**
+- Urgon's cabin: DC 12 Investigation reveals footprints (Tulgi searched here)
+- Pelc's Curiosities: DC 10 Investigation finds receipt linking to Urgon
+- Tulgi's cabin: DC 15 Persuasion to get her to talk (she's dying and scared)
+
+**Survival (Journey to Salsvault):**
+- DC 12 Survival to navigate ice floes safely
+- DC 15 Survival to avoid blizzards (failure = exhaustion level)
+- Random encounters: ice mephits, saber-toothed tigers (1d4)
+
+**Arcana (Salsvault):**
+- DC 13 Arcana to identify Aeorian magical signatures (pre-Calamity, god-killing weapons)
+- DC 15 Arcana to safely handle artifacts (failure = magical backlash)
+- DC 10 Arcana to recognize gold vials as antidote (warm glow vs. cold blue spores)
+
+## Improvisation Toolkit
+
+### If Players Get Stuck (Investigation Phase)
+
+1. **Elro provides new lead:** "Mila (Glassblade guard) saw Tulgi near Urgon's cabin last night. Maybe she knows something?"
+2. **Pelc's Curiosities shopkeeper (if alive) remembers:** "Urgon sold me strange blue vials. So beautiful... then they were stolen."
+3. **Tulgi breaks down:** "I'm dying! I searched Urgon's cabin for clues. I need HELP!"
+
+### If Players Avoid Croaker Cave
+
+- Bandits attack party on the road (ambush encounter)
+- Vials are dropped during combat (found on bandit leader's body)
+- Alternative: Elro's scouts locate the hideout and inform party
+
+### If Players Rush to Salsvault Without Prep
+
+- Morgo at Syrinlya warns them: "You'll need cold-weather gear, rations, and climbing equipment. The icefields are deadly."
+- Allow them to buy supplies (or borrow from Uthodurn expedition)
+- Random encounter on ice shows consequences of being unprepared (frozen corpse of explorer)
+
+### If Players Are Dying in Salsvault
+
+- Constructs are defending, not hunting — if party retreats, they don't pursue beyond certain rooms
+- Hidden healing potions in Aeorian storage (2d4 potions of healing)
+- Morgo can follow party (1 day behind) and provide emergency rescue
+
+## Rewards & Aftermath
+
+### Standard Rewards
+- 200 gp from Elro (base payment)
+- +100 gp bonus if Tulgi is saved
+- Aeorian artifacts (1d4 minor magical items from Salsvault)
+- Free supplies from grateful Palebank villagers
+
+### Aeorian Artifacts (Examples)
+- **Aeorian Absorber** — Wondrous item, absorbs 1 spell/day (reflects back at caster)
+- **Frigid Woe Antidote** — 1d6 gold vials (can cure disease or sell for 100 gp each)
+- **Aeorian Translation Tome** — Advantage on Arcana checks related to ancient magic
+- **Icewalker Boots** — Ignore difficult terrain from ice/snow
+
+### XP Awards (Milestone)
+- Completing Palebank investigation: Party reaches **Level 3**
+- Completing Salsvault: Party reaches **Level 4** (if not already)
+
+### Reputation Changes
+- **Palebank Village:** Friendly (saved from plague)
+- **Uthodurn Explorers:** Interested (party has Aeorian expertise)
+- **Lorewarden Elric:** Extremely interested (requests full debrief on Salsvault)
+
+## Aeorian Echo Foreshadowing
+
+**Revelations to drop during the adventure:**
+
+1. **Salsvault's Activation:**
+   > "The ruins weren't always active. Something *woke them up* about 2-3 months ago. Urgon was just unlucky enough to be there when it happened."
+
+2. **Aeorian Magic Description:**
+   > "The blue glow is unnatural. It's cold, wrong, anti-life. This isn't normal magic — it's weaponized divinity, designed to kill gods themselves."
+
+3. **Geographical Implications:**
+   > "If Salsvault is active, other Aeorian ruins might be waking too. And they could be anywhere beneath Northreach's soil."
+
+4. **Morgo's Warning (at Syrinlya):**
+   > "We've had three expeditions disappear in Eiselcross this year. More than usual. Something's changing out there on the ice."
+
+5. **Elric's Debrief (when party returns to Waystone Inn):**
+   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Calamity, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
+
+\page
+
+# DM Prep Checklist: Frozen Sick
+
+## One Week Before Session
+
+- [ ] Read entire adventure (longer adventure — budget 1 hour)
+- [ ] Review DM Notes section for themes and pitfalls
+- [ ] Familiarize yourself with frigid woe disease mechanics (pg 1 of adventure)
+- [ ] Review Salsvault map (if using) or plan theater-of-mind descriptions
+- [ ] Prepare NPC voices: Elro (gruff ranger), Tulgi (suspicious, dying), Morgo (helpful guide)
+- [ ] Decide if using Option A (keep Wildemount names) or Option B (generic names)
+- [ ] Mark key revelation moments (Salsvault is source of Aeorian Echo)
+
+## Day Before Session
+
+- [ ] Print/bookmark stat blocks:
+  - [ ] Bandit (MM p343)
+  - [ ] Bandit Captain (MM p344)
+  - [ ] Animated Armor (MM p19)
+  - [ ] Flying Sword (MM p20)
+  - [ ] Helmed Horror (MM p183) — optional for larger parties
+- [ ] Print/bookmark NPC summaries (Elro, Tulgi, Urgon's backstory)
+- [ ] Prepare frigid woe tracking sheet (list infected NPCs and days remaining)
+- [ ] Review Croaker Cave encounter (bandit motivations, treasure)
+- [ ] Review Salsvault key locations (preservation chamber = antidote location)
+- [ ] Prepare Aeorian artifact descriptions (gold vials, minor magic items)
+- [ ] Decide environmental hazard frequency (cold damage, magical traps)
+
+## Props & Materials
+
+- [ ] Index card with frigid woe disease progression timeline
+- [ ] Index card with Salsvault key rooms (if theater of mind)
+- [ ] Notecard listing infected NPCs and countdown
+- [ ] Map of Palebank Village (sketch or theater of mind)
+- [ ] Blue tokens/markers (represent Aeorian spores/magic)
+- [ ] Gold tokens (represent antidote vials)
+- [ ] Cold-weather survival gear list (for player reference)
+
+## Session Zero / Player Prep
+
+- [ ] Confirm party level (2-4 recommended; can start at Level 2)
+- [ ] Brief players: This is a time-sensitive adventure (people are dying)
+- [ ] Set expectations: Exploration, investigation, and dungeon crawl blend
+- [ ] Ask players: "How does your character feel about deadly diseases? Ancient ruins? Moral choices about who to save?"
+- [ ] Clarify: This adventure reveals major campaign lore (Aeorian Echo source)
+- [ ] Remind players to track rations, supplies for arctic travel
+
+## Quick Reference During Play
+
+### Frigid Woe Disease Mechanics (Copy This!)
+
+**Transmission:** Contact with blue Aeorian spores (DC 11 Con save to resist)
+
+**Incubation:** 1d4 days before symptoms appear
+
+**Symptoms:**
+- Fatigue, chills, visible blue veins
+- Speed reduced by 5 ft
+- Every 10 days: DC 11 Con save or speed reduced by another 5 ft
+- If speed reaches 0: Creature dies and turns into ice statue
+
+**Cure:** Drinking Aeorian antidote (golden vials) — ends all symptoms instantly
+
+**Current Infected NPCs (at adventure start):**
+- Urgon Wenth: DEAD (ice statue)
+- Verla Pelc: DEAD (ice statue)
+- Tulgi Lutan: ~7 days remaining (symptoms visible)
+- Irven Liel + family: ~10 days remaining (just exposed)
+
+### Key Investigation DCs
+
+**Palebank Village:**
+- DC 12 Investigation (Urgon's cabin): Find Tulgi's footprints
+- DC 10 Investigation (Pelc's Curiosities): Find receipt linking Urgon to vials
+- DC 15 Persuasion (Tulgi): Convince her to reveal what she knows
+- DC 10 Insight (Elro): Realize he's genuinely desperate, not hiding anything
+
+**Croaker Cave:**
+- DC 13 Stealth (approach): Surprise bandits
+- DC 12 Intimidation: Force bandits to surrender
+- DC 10 Investigation (hideout): Find stolen vials in leader's chest
+
+**Salsvault:**
+- DC 13 Arcana: Identify Aeorian magical signatures
+- DC 15 Arcana: Safely handle unstable artifacts
+- DC 10 Perception: Notice gold vials glowing warmly (vs. blue spores)
+- DC 12 Survival: Navigate icy passages without falling
+
+### Encounter Scaling Quick Reference
+
+**2-3 Players:**
+- Croaker Cave: 4 bandits + 1 bandit captain
+- Salsvault encounters: 2 animated armor OR 1 animated armor + 3 flying swords
+
+**4-5 Players:**
+- Croaker Cave: 6 bandits + 1 bandit captain + 1 thug
+- Salsvault encounters: 1 helmed horror + 1 animated armor + 3 flying swords
+
+**Environmental Hazards (All Party Sizes):**
+- Frigid cold: 1d4 cold damage/hour without protection
+- Blue spore clouds: DC 11 Con save or contract frigid woe
+- Unstable magic zones: Random magical effects (DM discretion)
+
+### Salsvault Key Locations (Quick Map)
+
+1. **Entrance Hall:** Ice-covered, Aeorian glyphs glowing blue
+2. **Research Labs:** Broken equipment, blue spore clouds (contaminated)
+3. **Preservation Chamber:** ANTIDOTE LOCATION — gold vials on shelves
+4. **Construct Storage:** Animated armor/flying swords activate if disturbed
+5. **Central Vault:** Optional boss encounter (helmed horror guardian)
+
+### Pacing Guide (2-3 Sessions)
+
+**Session 1: Palebank Investigation (3-4 hours)**
+- Hour 1: Urgon's funeral, Elro's request, cabin investigation
+- Hour 2: Meet Tulgi, visit Pelc's Curiosities, gather leads
+- Hour 3: Track bandits to Croaker Cave
+- Hour 4: Assault Croaker Cave, recover vials, return to village
+
+**Session 2: Journey to Salsvault (3-4 hours)**
+- Hour 1: Prepare for journey, travel to Syrinlya, meet Morgo
+- Hour 2: Travel across ice floes, random encounters
+- Hour 3: Arrive at Salsvault, explore entrance
+- Hour 4: Navigate Salsvault, environmental hazards
+
+**Session 3: Salsvault Climax (2-4 hours)**
+- Hour 1: Combat encounters (constructs)
+- Hour 2: Find preservation chamber, retrieve antidote
+- Hour 3: Return journey, cure infected NPCs
+- Hour 4: Debrief with Elro, Lorewarden Elric revelation, rewards
+
+### Important Names
+
+- **Elro Aldataur:** Retired ranger, village leader (hires party)
+- **Urgon Wenth:** Deceased dwarf explorer (turned to ice)
+- **Tulgi Lutan:** Infected dwarf trapper (suspicious, dying)
+- **Verla Pelc:** Deceased elf collector (owned Pelc's Curiosities)
+- **Irven Liel:** Infected merchant (family at risk)
+- **Mila Teno:** Glassblade guard (helpful NPC)
+- **Morgo:** Guide at Syrinlya outpost (Uthodurn explorer)
+- **Salsvault:** Aeorian laboratory ruin (source of frigid woe)
+
+### Quick Treasure
+
+- 200 gp from Elro (base payment)
+- +100 gp bonus (if Tulgi saved)
+- 1d6 gold vials (antidote) — can sell for 100 gp each or keep
+- 1d4 Aeorian artifacts (minor magic items)
+- Bandit loot: 50 gp, assorted gear
+
+### Elro's Hiring Speech
+
+> "Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
+
+### Tulgi's Confession (if persuaded)
+
+> *The dwarf trapper coughs, blue veins visible on her face.*
+>
+> "Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
+
+### Morgo's Warning (at Syrinlya)
+
+> "Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
+
+### Lorewarden Elric's Revelation (when party returns to Waystone Inn)
+
+> *Elric's face pales as you describe Salsvault.*
+>
+> "An active Aeorian ruin. Gods help us. Aeor fell during the Calamity — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+
+## Post-Session Tasks
+
+- [ ] Update Campaign Tracker: Frozen Sick completed, Salsvault discovered
+- [ ] Track which NPCs survived (Tulgi? Irven's family?)
+- [ ] Note party's reaction to Aeorian Echo revelation
+- [ ] Record any Aeorian artifacts party acquired
+- [ ] Update Palebank Village reputation (Friendly if plague cured)
+- [ ] Award XP or milestone level-up (Party → Level 3 or 4)
+- [ ] Prepare Elric's follow-up quest hooks (more Aeorian sites? Temple of Dragonknights?)
+- [ ] Note if any PCs contracted frigid woe (track disease progression)
+
+## Troubleshooting Common Issues
+
+### "We want to stay in Palebank and not go to Salsvault!"
+→ Elro explains: "The vials came from there. If there's a cure, it's in Salsvault. Tulgi has days, not weeks. Please."
+
+### "Can we cure frigid woe with *lesser restoration* or *remove curse*?"
+→ No. Emphasize: "This disease was designed by Aeorian mages to counter divine magic. Normal healing doesn't work."
+
+### "We're lost in Salsvault and can't find the antidote!"
+→ Have a surviving construct (damaged, non-hostile) point the way, OR let party find Urgon's journal (describes preservation chamber location).
+
+### "We want to destroy Salsvault to prevent future outbreaks!"
+→ Allow it, but make consequences clear: Collapsing the ruins risks triggering magical backlash (everyone rolls DC 15 Dex save or take 4d10 force damage). Also, Elric is disappointed ("You destroyed invaluable knowledge!").
+
+### "We want to take EVERYTHING from Salsvault!"
+→ Most artifacts are inert or broken. Allow 1d4 minor magic items. Warn: "Taking too much risks triggering security constructs." If they persist, additional combat encounters.
+
+## Next Session Hook
+
+After curing the plague and debriefing with Elric:
+
+> "You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
+
+This sets up Temple of the Dragonknights as the next adventure.
+
+\page
+
 ## Northreach Integration (DM)
 
 This adventure text includes setting-specific names from its original source. For Northwatch Wardens, you have two clean options:
