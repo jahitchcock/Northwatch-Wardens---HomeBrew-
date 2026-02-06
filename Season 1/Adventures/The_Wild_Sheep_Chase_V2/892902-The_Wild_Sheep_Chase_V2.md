@@ -2,6 +2,463 @@ The Wild Sheep Chase
 
 A fourth/fifth level adventure for D&D 5E
 
+\page
+
+# DM Notes: The Wild Sheep Chase
+
+## Adventure Overview
+
+**Theme:** Magic behaving unpredictably — the Aeorian Echo is destabilizing artifacts and spells
+
+**Core Tension:** A wizard has been polymorphed into a sheep by his rogue apprentice wielding an unstable Wand of True Polymorph. Can the party restore him before he's eaten or permanently transformed?
+
+**Level Range:** 1-2 (or 4-5 in original version; easily scalable)
+
+**Expected Duration:** 3-4 hours (excellent one-shot or palate cleanser)
+
+**Key NPCs:**
+- **Finethir Shinebright (The Sheep)** — Polymorphed wizard, cultured and desperate
+- **Ahmed Noke** — Evil apprentice, wielding unstable wand, power-hungry
+- **Guz** — Half-orc enforcer, loyal but dim-witted
+- **Polymorphed Assassins** — Wolves and bear (transformed humans hunting Shinebright)
+
+## Central Mystery (Aeorian Echo Connection)
+
+**This is the DESTABILIZATION adventure** — Magic itself is becoming unreliable.
+
+**The Setup:**
+- Noke's Wand of True Polymorph **malfunctioned** due to Aeorian Echo interference
+- The wand now causes *unpredictable* transformations (intended effect: kill Shinebright; actual effect: turn him into sheep)
+- Noke has been experimenting with the wand's instability, creating an army of polymorphed minions
+- The wand is increasingly unstable and may explode or cause wild transformations
+- This is happening **everywhere** — magical items across Northreach are misbehaving
+
+**What Players Should Learn:**
+1. Magical artifacts are destabilizing (not just awakening creatures or spreading disease)
+2. Even "safe" magic (like polymorph wands) can malfunction catastrophically
+3. The Aeorian Echo's effects are unpredictable and varied
+4. Wizards and artificers are in danger if their tools turn against them
+
+**What Remains Hidden (for future campaigns):**
+- Why the Echo destabilizes magic (interference from Aeorian anti-divine frequencies)
+- How widespread the magical malfunctions are (it's worse than anyone knows)
+- Whether this can be reversed or only mitigated
+
+## Common DM Pitfalls
+
+### 1. Taking It Too Seriously
+**Problem:** This is a **comedy adventure**. If played too darkly, it loses charm.
+
+**Solution:**
+- Emphasize absurdity: a sheep carrying a scroll, polymorphed assassins, wizard tower chaos
+- Use silly voices: Shinebright bleats mid-sentence, Guz speaks in grunts, Noke is hammy villain
+- Let players embrace the ridiculousness: "We're rescuing a sheep-wizard from a bear-man and wolf-people!"
+- Reward creative solutions: Distract enemies with actual sheep, polymorph Noke back, etc.
+
+### 2. Shinebright Is Too Helpless
+**Problem:** If Shinebright is just cargo, players lose engagement.
+
+**Solution:**
+- Give him personality: snobbish, complains about hooves, insists on being called "Master Shinebright"
+- He can cast cantrips (minor illusion, mage hand) even as a sheep
+- He provides tactical advice during combat
+- He's cowardly but intelligent — hides behind party, shouts warnings
+
+### 3. Noke's Tower Feels Empty
+**Problem:** Tower dungeon becomes a slog without personality.
+
+**Solution:**
+- **Environmental Comedy:** Magical traps backfire (turns intruder into a chicken instead of stone), animated objects argue with each other, rooms rearrange randomly
+- **Polymorphed Staff:** Noke's servants are also transformed (butler is now a cat, maid is a squirrel) — they can help party if freed
+- **Chaos Escalates:** Every time wand is used, roll on Wild Magic table for side effects
+
+### 4. Wand Feels Like MacGuffin
+**Problem:** Players just grab wand and leave without tension.
+
+**Solution:**
+- Noke uses it defensively (polymorphs objects into barriers, party members into harmless creatures temporarily)
+- Wand is unstable: Each use risks explosion (Dex save or take force damage, everyone nearby transforms)
+- Noke is paranoid: Wand is trapped, guarded, or hidden in tower
+- Alternative: Wand is attuned to Noke — party must defeat him to break attunement before using it
+
+## Resolution Outcomes
+
+### Path A: Restore Shinebright, Defeat Noke
+**Result:**
+- Shinebright restored to elf form
+- Noke defeated (captured OR killed OR polymorphed into sheep as ironic punishment)
+- Wand retrieved (unstable — Shinebright wants to study it, Lorewarden Elric wants it destroyed)
+- **Aeorian Echo outcome:** Proof that magic items are destabilizing
+- **Reward:** Shinebright's gratitude, access to his tower for future study
+
+### Path B: Restore Shinebright, Negotiate with Noke
+**Result:**
+- Noke agrees to reverse polymorph (under duress)
+- Party takes wand in exchange for sparing Noke's life
+- Noke becomes recurring villain (grudge against party)
+- **Aeorian Echo outcome:** Same as Path A, but Noke remains threat
+
+### Path C: Permanent Sheep Form
+**Result:**
+- If party fails to get wand in time (e.g., 24-hour limit), Shinebright is permanently a sheep
+- Shinebright accepts fate, uses *speak with animals* scrolls to communicate
+- He becomes a sage-sheep NPC (comic relief in future sessions)
+- **Aeorian Echo outcome:** Partial — party learns magic is unstable, but can't prove it conclusively
+
+### Path D: Wand Explodes
+**Result:**
+- If wand is used too many times OR critically fails, it explodes
+- Everyone nearby makes DC 15 Dex save or transforms randomly (1d8: 1-sheep, 2-wolf, 3-bear, 4-cat, 5-chicken, 6-frog, 7-unchanged, 8-temporarily gain wings)
+- Chaos ensues; requires *greater restoration* or *dispel magic* to fix
+- **Aeorian Echo outcome:** Dramatic proof of magical instability
+
+## Tactical Notes
+
+### Combat Encounter Scaling
+
+**Scene 1: Guz's Ambush (Street/Inn)**
+- **2-3 players (Level 1-2):** Guz + 2 wolves
+- **4-5 players (Level 1-2):** Guz + 3 wolves + 1 polymorphed bear
+- **Scaling for higher levels:** Add additional polymorphed enemies (tigers, giant apes)
+
+**Scene 2: Noke's Tower Guards**
+- **Animated Objects:** Flying swords (1d4), animated armor (1-2)
+- **Polymorphed Guards:** Use beast stat blocks (MM), but they surrender if Noke falls
+
+**Scene 3: Noke Final Encounter**
+- **Noke (Solo Boss):** Use **Mage** stat block (MM p347) with Wand of True Polymorph
+- **Wand Special Actions:**
+  - **Polymorph Ray (Recharge 5-6):** Ranged spell attack (+6), DC 15 Wis save or polymorphed into sheep/frog/chicken (1 minute, *concentration*)
+  - **Wild Transformation:** Noke can polymorph objects into barriers (stone wall, iron bars, etc.)
+  - **Unstable Backlash:** On a roll of 1 on d20, wand backfires (Noke transforms himself OR random target)
+
+### Non-Combat Challenges
+
+**Chase Scene (if Guz captures Shinebright):**
+- Use Chase rules (DMG p252) OR simple skill challenge
+- DC 12 Athletics/Acrobatics to keep pace
+- DC 10 Perception to track Guz through streets
+- Obstacles: Market stalls, narrow alleys, guard patrols (allies OR enemies depending on party's reputation)
+
+**Infiltrating Noke's Tower:**
+- DC 13 Stealth to avoid animated guards
+- DC 15 Arcana to disable magical traps (or trigger comedic transformations)
+- DC 10 Persuasion to convince polymorphed staff to help
+
+**Restoring Shinebright:**
+- **Option 1:** Use Noke's wand (requires defeating him first)
+- **Option 2:** Cast *dispel magic* (DC 15 to break True Polymorph)
+- **Option 3:** Find Noke's spellbook and cast ritual reversal (1 hour)
+
+## Improvisation Toolkit
+
+### If Players Get Stuck
+
+1. **Shinebright provides clue:** "Noke's tower is west of town! The wand is in his study on the third floor!"
+2. **Local NPC approaches:** "You're looking for that wretched Noke? His tower is cursed, I tell you! Strange lights, screams at night. Nobody goes near it."
+3. **Guz returns with reinforcements:** "Master Noke is very disappointed! He sends me back to collect the sheep... and punish you."
+
+### If Players Avoid the Adventure
+
+- Shinebright follows them, bleating pitifully
+- Guz's attacks escalate (burns down inn, threatens innocents)
+- Lorewarden Elric sends message: "A wizard named Shinebright sent a distress signal. Investigate immediately."
+
+### If Combat Is Too Easy
+
+- Noke summons additional animated objects (brooms, chairs, books)
+- Wand malfunctions and transforms random party members (1 round duration)
+- Noke flees to higher tower levels, forces running battle
+
+### If Combat Is Too Hard
+
+- Polymorphed staff rebel against Noke (attack him instead)
+- Wand backfires on Noke (transforms him into sheep, ironic reversal)
+- Shinebright casts *sleep* or *charm person* to disable one enemy
+
+## Rewards & Aftermath
+
+### Standard Rewards
+- **Shinebright's Gratitude:** 300 gp + 1 uncommon magic item from his collection
+- **Noke's Tower Loot:** 500 gp in coins/gems, spell scrolls (1d4), component pouch
+- **Unstable Wand of True Polymorph:** (See below)
+
+### Unstable Wand of True Polymorph (Cursed Artifact)
+
+**Wand, Very Rare (requires attunement)**
+
+- **Charges:** 3/day
+- **Effect:** Cast *polymorph* (DC 15 Wis save) on target within 60 ft
+- **Curse:** On a roll of 1-3 on d20, wand backfires (caster OR random ally within 30 ft transforms instead)
+- **Aeorian Instability:** Each use after first in 24 hours requires DC 12 Arcana check or triggers Wild Magic surge
+
+**DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful).
+
+### XP Awards (Milestone)
+- Completing adventure: Party gains **+500 XP each** (or milestone toward next level)
+- Restoring Shinebright without killing him: **+100 XP bonus**
+
+### Reputation Changes
+- **Local Town:** Friendly (if they fought Guz publicly)
+- **Shinebright:** Ally (can call upon him for magical research, identifying items)
+- **Lorewarden Elric:** Very interested (wants to study wand's instability)
+
+## Aeorian Echo Foreshadowing
+
+**Revelations to drop during the adventure:**
+
+1. **Shinebright's Explanation:**
+   > "Noke's wand was supposed to petrify me. Instead, I became this ridiculous ovine form. The magic is *wrong*, destabilized. I've felt it in my own spells too — cantrips misfiring, rituals producing unexpected results."
+
+2. **Noke's Mad Rambling (if captured):**
+   > "The old magic is waking! I felt it! My wand — it was dormant for years, then suddenly, POWER! Unstable, yes, but POWER! I could reshape reality itself!"
+
+3. **Examining the Wand (DC 15 Arcana):**
+   > "This wand's enchantment matrix is corrupted. There's an external magical frequency interfering with its function — something ancient, cold, and impossibly powerful."
+
+4. **Polymorphed Minions (if interrogated):**
+   > "Master Noke promised us power. He said his wand could make us into anything — warriors, beasts, immortals. But the transformations... they hurt. They're *wrong*. We can't change back on our own."
+
+5. **Lorewarden Elric's Debrief (when party returns to Waystone Inn):**
+   > *Elric examines the wand, his face pale.*
+   >
+   > "This confirms my worst fears. The Aeorian Echo isn't just awakening creatures or spreading disease — it's corrupting *all* magic. If artifacts across Northreach are destabilizing like this... gods help us. We need to find the source and shut it down before every wizard's wand becomes a ticking time bomb."
+
+\page
+
+# DM Prep Checklist: The Wild Sheep Chase
+
+## One Week Before Session
+
+- [ ] Read entire adventure (short adventure — 20-30 minutes)
+- [ ] Review DM Notes section for tone guidance (COMEDY!)
+- [ ] Familiarize yourself with polymorph rules (PHB p266)
+- [ ] Decide on Shinebright's personality voice — snobbish elf with bleats
+- [ ] Decide on Guz's personality voice — dim-witted thug, loyal to Noke
+- [ ] Decide on Noke's personality voice — hammy villain, overconfident
+- [ ] Mark key comedy moments (sheep with scroll, bear reveal, wand backfires)
+
+## Day Before Session
+
+- [ ] Print/bookmark stat blocks:
+  - [ ] Guz (use Thug MM p350 with greatsword)
+  - [ ] Wolves (MM p341) — polymorphed assassins
+  - [ ] Brown Bear (MM p319) — polymorphed enforcer
+  - [ ] Mage (MM p347) — Noke stats
+  - [ ] Flying Sword (MM p20) — tower guards
+  - [ ] Animated Armor (MM p19) — tower guards
+- [ ] Print/bookmark Finethir Shinebright stats (use Pony MM p325, INT/WIS 18/14)
+- [ ] Prepare Noke's wand effects (polymorph ray, wild transformation, unstable backlash)
+- [ ] Review chase scene rules (DMG p252) OR prepare skill challenge
+- [ ] Decide on tower layout (3 floors: entry, study, Noke's lab)
+- [ ] Prepare Wild Magic table (optional, for wand malfunctions)
+
+## Props & Materials
+
+- [ ] Index card with Shinebright's key dialogue (complaints, tactical advice)
+- [ ] Index card with Noke's villain monologue and threats
+- [ ] Index card with polymorph transformation options (sheep, frog, chicken, wolf, bear)
+- [ ] Map of Noke's tower (sketch or theater of mind)
+- [ ] Sheep miniature or token (Shinebright)
+- [ ] Wolf and bear miniatures/tokens (polymorphed enemies)
+- [ ] Wand prop (chopstick, pencil, etc.) for visual reference
+
+## Session Zero / Player Prep
+
+- [ ] Confirm party level (1-2 OR 4-5; easily scalable)
+- [ ] Brief players: This is a **comedy adventure** (lighthearted, absurd, fun)
+- [ ] Set expectations: Fast-paced, with chase scenes and magical chaos
+- [ ] Ask players: "How does your character feel about talking sheep? Evil wizards? Polymorph magic?"
+- [ ] Clarify: This adventure is thematically significant but tonally different from others
+- [ ] Encourage creative solutions: "Think outside the box! Polymorph is weird and wild."
+
+## Quick Reference During Play
+
+### Key DC Checks
+
+**Initial Encounter (Guz's Ambush):**
+- DC 12 Insight: Guz is lying about "sentimental value"
+- DC 10 Intimidation: Scare Guz into revealing Noke's location (unlikely to work, but funny if it does)
+- DC 13 Persuasion: Convince bystanders to help (mob chases Guz away)
+
+**Chase Scene (if Guz captures Shinebright):**
+- DC 12 Athletics/Acrobatics: Keep pace with Guz
+- DC 10 Perception: Track Guz through streets
+- DC 13 Stealth: Cut through alleys to intercept
+
+**Infiltrating Noke's Tower:**
+- DC 13 Stealth: Avoid animated guards
+- DC 15 Arcana: Disable magical traps (or trigger comedy transformation)
+- DC 12 Investigation: Find wand's hiding place (study, locked chest)
+
+**Final Confrontation (Noke):**
+- DC 15 Persuasion: Convince Noke to surrender (he's paranoid, unlikely)
+- DC 13 Intimidation: Frighten Noke into using wand recklessly (backfires on him)
+- DC 15 Arcana: Identify wand's instability (predict malfunctions)
+
+### Encounter Scaling Quick Reference
+
+**2-3 Players (Level 1-2):**
+- Guz's Ambush: Guz + 2 wolves
+- Tower Guards: 2 flying swords + 1 animated armor
+- Noke Fight: Noke (solo, half HP if needed)
+
+**4-5 Players (Level 1-2):**
+- Guz's Ambush: Guz + 3 wolves + 1 brown bear
+- Tower Guards: 4 flying swords + 2 animated armor
+- Noke Fight: Noke + 2 animated armor
+
+**Higher Levels (4-5):**
+- Add polymorphed tigers (use tiger MM p339)
+- Noke gets legendary actions (Move, Cantrip, Polymorph Ray)
+
+### Polymorph Quick Rules
+
+**True Polymorph (Noke's Wand):**
+- Target becomes beast of CR equal to or less than target's level
+- Retains INT/WIS scores (polymorphed assassins are intelligent)
+- Can't cast spells or use equipment while polymorphed
+- HP becomes beast's HP; reverting restores original HP
+- Lasts until dispelled OR caster drops concentration
+
+**Reversing Polymorph:**
+- *Dispel Magic* (DC 15 to break True Polymorph)
+- Noke's wand (he can reverse it willingly OR if party attunes and succeeds DC 12 Arcana check)
+- *Greater Restoration* (5th level spell, removes curse)
+
+### Noke's Tower Layout (Quick Map)
+
+**Floor 1 (Entry Hall):**
+- Animated armor guards (2)
+- Flying swords patrol (2-4)
+- Staircase to Floor 2
+
+**Floor 2 (Study & Library):**
+- Polymorphed staff (cat butler, squirrel maid) — can help if freed
+- Noke's spellbook (locked chest, DC 13 Thieves' Tools)
+- Magical traps (glyph of warding, polymorph triggers)
+
+**Floor 3 (Noke's Laboratory):**
+- Noke (final boss)
+- Wand of True Polymorph (on pedestal OR in Noke's hand)
+- Alchemical equipment (hazards: explosive potions, acid vials)
+
+### Pacing Guide (3-4 Hour Session)
+
+**Hour 1: The Sheep Arrives**
+- Meet Shinebright, hear his story
+- Guz's ambush (combat encounter)
+- Chase scene OR negotiate with Guz
+
+**Hour 2: Journey to Noke's Tower**
+- Locate tower (investigation, locals provide rumors)
+- Plan approach (stealth OR frontal assault)
+- Infiltrate ground floor (animated guards)
+
+**Hour 3: Ascending the Tower**
+- Combat on Floor 2 (guards, traps)
+- Free polymorphed staff (optional allies)
+- Reach Floor 3 (Noke's lab)
+
+**Hour 4: Final Confrontation**
+- Battle with Noke (or negotiate)
+- Wand malfunctions (wild magic chaos)
+- Restore Shinebright, loot tower, return to town
+
+### Important Names
+
+- **Finethir Shinebright:** Polymorphed elf wizard (sheep form, cultured accent)
+- **Ahmed Noke:** Evil apprentice (mage stats, wields unstable wand)
+- **Guz:** Half-orc enforcer (thug stats, loyal but dim)
+- **Polymorphed Assassins:** Wolves and bear (intelligent, follow Guz)
+
+### Quick Treasure
+
+- **Shinebright's Reward:** 300 gp + 1 uncommon magic item
+- **Noke's Tower:** 500 gp, 2d4 spell scrolls, component pouch
+- **Unstable Wand of True Polymorph:** Cursed artifact (party's choice to keep or destroy)
+- **Noke's Spellbook:** Contains *polymorph*, *fly*, *detect magic*, *identify*
+
+### Shinebright's Introduction (Sheep Form)
+
+> *The sheep bleats frantically, waving a scroll at you. Once you activate the Scroll of Speak with Animals, the bleating becomes cultured, elven-accented Common.*
+>
+> "Thank the gods! Adventurers! I am Finethir Shinebright, Master Wizard of the Third Circle, and I have been most GRIEVOUSLY transformed by my vile apprentice, Ahmed Noke! He wields a Wand of True Polymorph and has turned me into this... this ABSURD ovine form! I require your aid to reclaim the wand and restore my proper body. Will you help me?"
+
+*Shinebright is polite but snobbish, occasionally bleats mid-sentence, and complains about hooves.*
+
+### Guz's Demand (Street Encounter)
+
+> *The half-orc strides forward, hand on greatsword hilt.*
+>
+> "That sheep is Master Noke's property. He wants it back. NOW. Give it to me, or I take it by force. Master Noke is very powerful. You don't want him angry. Trust me."
+
+*Guz is dim-witted but intimidating. He doesn't believe Shinebright is really a wizard.*
+
+### Noke's Villain Monologue (Tower Confrontation)
+
+> *A thin elf in elaborate robes stands at the far end of the lab, holding a shimmering wand.*
+>
+> "Ah, my former master! And you've brought... friends. How delightful. Did you come to beg for mercy? To plead for restoration? TOO LATE! I have claimed the wand, and with it, POWER! Shinebright, you are obsolete! And you, adventurers — you are obstacles. Obstacles I will REMOVE!"
+
+*Noke is over-the-top theatrical, overconfident, and prone to evil laughter.*
+
+### Noke's Wand Backfire (Comedy Moment)
+
+> *Noke points the wand at you dramatically, but it sparks and fizzles. A beam of light shoots backward, striking HIM instead.*
+>
+> Roll on polymorph table:
+> 1-2: Noke becomes a chicken (clucks angrily)
+> 3-4: Noke becomes a frog (croaks in rage)
+> 5-6: Noke becomes a sheep (ironic justice!)
+
+*This is the perfect comedy payoff. Players can decide whether to capture him or restore him.*
+
+### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
+
+> *Elric examines the unstable wand, his expression grave.*
+>
+> "This is deeply troubling. The wand's enchantment matrix has been corrupted by external magical interference — the Aeorian Echo, I suspect. If artifacts across Northreach are destabilizing like this, every wizard, artificer, and magic user is in danger. We need to understand the Echo's source and find a way to contain it. Thank you for bringing this to my attention. And... please, destroy that wand. It's too dangerous to exist."
+
+## Post-Session Tasks
+
+- [ ] Update Campaign Tracker: Wild Sheep Chase completed
+- [ ] Note if Shinebright was restored (and whether he's now an ally)
+- [ ] Record if party kept or destroyed the unstable wand
+- [ ] Track Noke's fate (dead, captured, polymorphed, escaped)
+- [ ] Note party's reaction to magical instability revelations
+- [ ] Award XP or milestone progress (500 XP each OR partial level progress)
+- [ ] Prepare Elric's follow-up hooks (investigate other artifact malfunctions?)
+
+## Troubleshooting Common Issues
+
+### "This adventure feels too silly compared to the rest of the campaign!"
+→ Acknowledge the tonal shift. Say: "This is a palate cleanser — comic relief that still matters thematically. Enjoy the absurdity!"
+
+### "We want to kill Shinebright and keep the wand!"
+→ Allow it, but consequences: Shinebright's allies (other wizards) hunt party down. Noke escapes and becomes recurring villain. Wand eventually backfires catastrophically (TPK risk).
+
+### "Guz captured Shinebright and we can't catch him!"
+→ Introduce helpful NPC (town guard, friendly wizard) who knows a shortcut. OR Shinebright casts *message* cantrip to guide party. OR Guz stops to gloat, giving party a chance.
+
+### "Noke is too strong; he's killing us!"
+→ Wand backfires on Noke (polymorph himself into harmless creature). Polymorphed staff rebel and attack Noke. Shinebright reveals he hid a *scroll of dispel magic* in his tower (party finds it mid-battle).
+
+### "We want to negotiate with Noke instead of fighting!"
+→ Great! Noke is paranoid but might agree to truce: Party leaves tower, he keeps wand, everyone goes their separate ways. (Note: He'll become recurring villain, but that's a valid player choice.)
+
+## Next Session Hook
+
+After restoring Shinebright and debriefing with Elric:
+
+> *Shinebright adjusts his newly restored robes and nods gratefully.*
+>
+> "Thank you, my friends. I owe you a great debt. If you ever need magical consultation or research assistance, you need only ask. As for the wand... Elric is right. Destroy it. The instability is too dangerous. But know this: If my wand malfunctioned, others will too. Every wizard in Northreach is at risk. Someone must find the source of this magical corruption."
+
+This reinforces the Aeorian Echo mystery and sets up future adventures.
+
+\page
+
 # Summary
 
 The party’s attempt to grab a rare afternoon of downtime is interrupted by a frantic sheep equipped with a Scroll of Speak to Animals and a fierce determination to get their attention. This is no mere beast, however, but a wizard fallen victim to an embittered apprentice wielding a Wand of True Polymorph

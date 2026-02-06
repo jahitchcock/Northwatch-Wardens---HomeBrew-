@@ -12,6 +12,28 @@
 
 Welcome to Dungeons & Dragons:
 
+\page
+
+# DM Notes: Peril in Pinebrook
+
+## Adventure Overview
+
+**Theme:** Frontier communities caught in the crossfire of rising magic
+
+**Level Range:** 1-3 (excellent introductory adventure)
+
+**Expected Duration:** 2-3 hours (designed for new players)
+
+## DM Prep Checklist
+
+- [ ] Read entire adventure (45-60 minutes)
+- [ ] Familiarize yourself with Silver Dragon Wyrmling stats (MM p118)
+- [ ] Decide on Rorn's corruption level
+- [ ] Mark key revelation moments (Aeorian artifact, restoration option)
+
+\page
+
+
 # Peril in Pinebrook
 
 Welcome to the adventure of a lifetime!
