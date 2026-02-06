@@ -1,3 +1,13 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: NPC Secrets & Campaign Connections**
+
+This document contains NPC secrets, hidden motivations, and campaign tie-ins. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+}}
+
 **🛡️ THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
 
 *Internal Guild Notes — For the Eyes of the Lorewarden Only*

@@ -1,18 +1,18 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Location Secrets**
+
+This document contains hidden location features, dark histories, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe location information**, see `World Building/Regions/Northreach/Places_of_Northreach.md`
+}}
+
 # Places of Northreach: DM Secrets
-
-
-
-
 
 ## Overview
 
-
-
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
-
-
-
-**DO NOT share this information with players unless they discover it through gameplay.**
 
 
 
@@ -280,7 +280,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Welton: Dark Undercurrents
 
-
+**Related Adventure:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../../../Season%201/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md) - "Wolves of Welton"
 
 ### The Wolf Problem's True Nature
 
@@ -542,7 +542,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Pinebrook: Commerce and Conspiracy
 
-
+**Related Adventure:** [Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md](../../../Season%201/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md) - "Peril in Pinebrook"
 
 ### The Trading Post's Hidden Business
 
@@ -1554,13 +1554,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Temple of the Dragonknights: Heroic Tomb
 
-
+**Related Adventure:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md) - "Temple of the Dragonknights"
 
 \page
-
-
-
-
 
 ### The Historical Truth
 
@@ -1696,7 +1692,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Noke's Tower: The Wizard's Arsenal
 
-
+**Related Adventure:** [Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md](../../../Season%201/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md) - "The Wild Sheep Chase"
 
 ### Shinebright's True Purpose
 

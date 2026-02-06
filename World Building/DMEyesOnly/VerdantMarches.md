@@ -1,10 +1,14 @@
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**MAJOR CAMPAIGN SPOILERS: Verdant Marches Secrets**
+
+This document contains the hidden truth about the Verdant Marches and their role in the Aeorian Echo mystery. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see `World Building/Regions/08_Verdant_Marches.md`
+}}
+
 # The Verdant Marches — DM-Only Secrets
-
-**⚠️ STRICTLY DM EYES ONLY — MAJOR CAMPAIGN SPOILERS ⚠️**
-
-This document contains the hidden truth about the Verdant Marches and their role in the Aeorian Echo mystery. Do not share with players.
-
----
 
 ## The Hidden Truth
 
