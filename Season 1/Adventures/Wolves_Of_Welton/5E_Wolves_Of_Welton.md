@@ -19,6 +19,319 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+\page
+
+# DM Notes: Wolves of Welton
+
+## Adventure Overview
+
+**Theme:** Intelligence awakening where it shouldn't — wolves have become sapient through magical corruption (the Aeorian Echo)
+
+**Core Tension:** The wolves aren't evil, just desperate and newly intelligent. Killing them is easy; negotiating with them reveals the deeper mystery.
+
+**Level Range:** 1-3 (excellent starter adventure)
+
+**Expected Duration:** 4-6 hours (single or two-session adventure)
+
+**Key NPCs:**
+- **Bolt** (awakened alpha wolf) — reasonable, pragmatic, wants peace
+- **Flame** (ambitious wolf) — aggressive, challenges Bolt's leadership
+- **Father Merriksonn** — village priest, his brother Alexi disappeared when wolves awakened
+- **Tillus Merrion** — halfling council member, distrusts outsiders
+- **Leanor Slatebeard** — dwarven innkeeper, provides shelter and gossip
+
+## Central Mystery (Aeorian Echo Connection)
+
+The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorcerer was killed by magical feedback when Salsvault (buried Aeorian ruins, 100+ miles north) suddenly activated. His death released a burst of transformative magic that awakened the wolves.
+
+**Clues Players Should Discover:**
+1. The wolf attacks started exactly when Alexi disappeared
+2. Wolves demonstrate sapient intelligence (planning, speech, morality)
+3. Something *magical* caused this; it wasn't natural evolution
+4. This is a symptom of a larger phenomenon spreading across Northreach
+
+**What to Reveal:** The wolves' awakening is a *symptom*, not the cause. The true source remains hidden until later adventures (Frozen Sick).
+
+## Common DM Pitfalls
+
+### 1. Making Wolves Too Evil
+**Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
+
+**Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
+
+### 2. Railroading the Negotiation
+**Problem:** Players may not think to negotiate; forcing it feels artificial.
+
+**Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
+
+### 3. Council Vote Feeling Pre-Scripted
+**Problem:** Players feel their arguments don't matter; vote seems rigged.
+
+**Solution:** Track player arguments. Give concrete benefits:
+- Good Nature/History checks about wolves → +1 swing vote
+- Mentioning Alexi's magic → Father Merriksonn passion increases (already YES, but emphasizes to others)
+- Proposing practical solutions (wolves move to specific territory) → +1 swing vote
+- Intimidation or threats → -1 swing vote
+
+**Remember:** Father Merriksonn and Corel are *guaranteed* YES votes if party negotiates. Players need only **1 more vote** out of 5 remaining council members.
+
+### 4. Underplaying Flame's Threat
+**Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+
+**Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
+
+## Resolution Outcomes
+
+### Path A: Total Extermination
+**Result:**
+- Village celebrates; 800 gp reward paid immediately
+- Father Merriksonn is quietly disappointed (his brother's magic caused this)
+- Wolves eliminated; mystery remains unsolved
+- **Aeorian Echo clue:** Elric later notes "Whatever awakened them is still out there."
+
+### Path B: Negotiated Peace
+**Result:**
+- Council votes (4 YES / 3 NO if players argue well)
+- Wolves relocate to agreed hunting grounds
+- 800 gp reward paid after probationary period
+- Father Merriksonn is grateful and becomes ally
+- **Aeorian Echo clue:** Bolt says "We did not ask for this. Something *changed* us. We do not know what."
+
+### Path C: Deception (Claim Victory, Wolves Survive)
+**Result:**
+- Village pays 800 gp believing wolves dead
+- Secret alliance with Bolt established
+- Long-term: Wolves raid more carefully; village suspicious
+- Future complication: Truth may emerge in later sessions
+- **Aeorian Echo clue:** Bolt shares his experience of "waking up" — sudden, magical, terrifying
+
+### Path D: Flame's Coup
+**Result:**
+- If Bolt is killed or discredited, Flame takes over
+- Attacks escalate; village suffers
+- Party may be called back to finish the job
+- **Note:** This is a *failure* outcome; use sparingly
+
+## Tactical Notes
+
+### Combat Encounter Scaling
+**For 2 players (Level 1-2):**
+- Scene 1 (road): 4 wolves
+- Flame's den: Flame + 2 wolves
+
+**For 3-4 players (Level 1-2):**
+- Scene 1 (road): 6-8 wolves (as written)
+- Flame's den: Flame + 4 wolves
+
+**For 5+ players (Level 2-3):**
+- Scene 1 (road): 10 wolves
+- Flame's den: Flame + 6 wolves + 1 dire wolf
+
+### Wolves Use Tactics
+- **Pack Tactics:** Always try to get advantage via flanking
+- **Hit and Run:** Attack, then Disengage if bloodied
+- **Protect the Pack:** Wolves defend injured packmates
+
+### Bolt's Den (Non-Combat)
+- Bolt will NOT fight unless attacked
+- He sends messengers (wolves) to request parley
+- Meeting place: neutral ground outside den
+
+## Improvisation Toolkit
+
+### If Players Get Stuck
+1. **Father Merriksonn approaches privately:** "I know you may think I'm mad, but... could the wolves be *intelligent*? My brother studied transformation magic before he vanished."
+2. **Willen Featherock (traumatized victim) reveals:** He heard wolves *talking* during his capture. (He's considered crazy, but he's telling the truth.)
+3. **Leanor Slatebeard (innkeeper) suggests:** "Maybe ask the wolves what *they* want? Stranger things have happened."
+
+### If Players Attack Bolt Immediately
+- Bolt yields after losing 50% HP
+- Other wolves flee rather than die
+- Bolt: "You have proven you can kill us. But can you *listen*? We do not want war."
+
+### If Council Vote Is Tied (3-3)
+- **Father Merriksonn makes impassioned speech:** His brother's death may have caused this; villagers owe it to Alexi's memory to try peace
+- **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
+- **Future hook:** Tillus remains hostile; may cause problems later
+
+## Rewards & Aftermath
+
+### Standard Rewards
+- 800 gp (split among party)
+- Warden reputation boost (+1 in Northreach region)
+- Free lodging at Shepherd's Crook (indefinitely)
+
+### Bonus Rewards (Negotiation Path)
+- Father Merriksonn's *Blessing of Corellon* (1/day reroll for each PC)
+- Bolt's pack as future allies (can call on them once for aid)
+- Alexi's spellbook (found in Father Merriksonn's possession) — contains *detect magic*, *identify*, *comprehend languages* (relevant for future mysteries)
+
+### XP Awards (Milestone)
+- Completing adventure: Party reaches **Level 2**
+- (If using XP tracking: 300 XP per player for completion)
+
+## Aeorian Echo Foreshadowing
+
+**Subtle hints to drop during the adventure:**
+
+1. **Bolt's Description of Awakening:**
+   > "One moment I was hunting. The next... I could *think*. Not like before. I understood pack, family, future, *death*. It was like being born and dying at once."
+
+2. **Father Merriksonn's Grief:**
+   > "Alexi was studying something he called 'the old magic stirring.' He said the land itself was waking up. He went north to investigate and never returned."
+
+3. **Willen Featherock's Ravings (if players talk to him):**
+   > "Blue lights in the darkness... cold that burns... the wolves were *glowing* when they spoke to me... unnatural, I tell you!"
+
+4. **Elric's Follow-Up (when party returns to Waystone Inn):**
+   > "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
+
+\page
+
+# DM Prep Checklist: Wolves of Welton
+
+## One Week Before Session
+
+- [ ] Read entire adventure once through (30-45 minutes)
+- [ ] Review DM Notes section (above) for key themes and pitfalls
+- [ ] Decide on Bolt's personality voice — calm, pragmatic, slightly formal (newly learned speech)
+- [ ] Decide on Flame's personality voice — aggressive, impulsive, contemptuous of "weak" pack
+- [ ] Note which council members are swing votes (Tillus leans NO, Corel leans YES)
+- [ ] Mark pages/sections for quick reference during play
+
+## Day Before Session
+
+- [ ] Print or bookmark wolf stat block (MM p241 OR Party Roster)
+- [ ] Print or bookmark NPC summaries (Father Merriksonn, Tillus, Leanor)
+- [ ] Review council voting mechanics (3 votes needed, Father Merriksonn + Corel = 2 guaranteed)
+- [ ] Prepare Bolt's opening speech (3-4 sentences establishing sapience and desperation)
+- [ ] Prepare random wolf names if players ask (e.g., Ash, Scar, Grey-Ear, Swift)
+- [ ] Review Scene 1 (road encounter) combat setup — 150 ft starting distance
+- [ ] Decide if you'll use battle map or theater of mind
+
+## Props & Materials (Optional but Helpful)
+
+- [ ] Index card with Bolt's key dialogue quotes
+- [ ] Index card with council member voting tendencies
+- [ ] Map of Welton (if available) OR sketch simple village layout
+- [ ] Notecard for tracking player arguments during council scene (tally good points)
+- [ ] Wolf miniatures or tokens (if using grid combat)
+- [ ] Dice for wolves (to speed up combat)
+
+## Session Zero / Player Prep
+
+- [ ] Confirm party knows they're responding to Contract W-17 (posted at Waystone Inn)
+- [ ] Brief players on Northreach setting: rural frontier, low-magic, isolated villages
+- [ ] Set expectations: This adventure rewards creative problem-solving and negotiation
+- [ ] Clarify: Combat is *one* solution, not the *only* solution
+- [ ] Ask players: "How does your character feel about animals? Monsters? Talking creatures?"
+
+## Quick Reference During Play
+
+### Key DC Checks
+- **DC 10 Nature:** Wolves are acting with unusual intelligence (opening doors, coordinated tactics)
+- **DC 12 Arcana:** This level of intelligence is magical, not natural evolution
+- **DC 15 Investigation (Urgon's cabin):** Find evidence of magical disturbance around time Alexi vanished
+- **DC 10 Persuasion (Council):** Gain +1 swing vote with good argument
+- **DC 15 Intimidation (Council):** Lose -1 swing vote (threatens council, backfires)
+
+### Council Voting Tiers
+**GUARANTEED YES (if negotiation attempted):**
+- Father Merriksonn (brother's magic caused this)
+- Corel (believes in coexistence)
+
+**SWING VOTES (need 1+ of these):**
+- Tillus Merrion: Leans NO, persuadable with strong economic argument
+- Other council members: Neutral, persuadable with good roleplay/checks
+
+**GUARANTEED NO:**
+- 2 council members whose families lost livestock (can be persuaded with reparations)
+
+### Bolt vs. Flame Breakdown
+**Bolt (Alpha, Negotiator):**
+- Wants: Safety, territory, recognition as people
+- Fears: Extermination, starvation, pack infighting
+- Offers: Relocation, ceasefire, mutual defense pact
+
+**Flame (Challenger, Warmonger):**
+- Wants: Dominance, to prove strength through raids
+- Fears: Appearing weak, losing status
+- Triggers combat if: Bolt negotiates with "prey"
+
+### Adventure Pacing (4-Hour Session)
+- **Hour 1:** Travel to Welton, Scene 1 (road encounter), arrive at village
+- **Hour 2:** Gather information, meet NPCs, council meeting
+- **Hour 3:** Investigate wolf den, meet Bolt, Flame confrontation
+- **Hour 4:** Resolution (combat OR council vote), return to Waystone Inn
+
+### Important Names
+- **Bolt:** Alpha wolf, negotiator, awakened intelligence
+- **Flame:** Rival wolf, ambitious, aggressive
+- **Father Merriksonn:** Village priest, Alexi's brother
+- **Alexi Merriksonn:** Missing sorcerer (DECEASED — players don't know this yet)
+- **Tillus Merrion:** Halfling council member, distrusts outsiders
+- **Leanor Slatebeard:** Dwarven innkeeper (Shepherd's Crook)
+- **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
+
+### Quick Treasure
+- 800 gp reward (from village council)
+- Healing potions x2 (can be purchased at Shepherd's Crook, 50 gp each)
+- Alexi's spellbook (if negotiation successful, gift from Father Merriksonn)
+
+### Bolt's Opening Speech (if players negotiate)
+> *The alpha wolf steps forward. Its eyes are not those of a beast — they are thoughtful, weary, almost human.*
+>
+> "You understand me. I see it in your eyes. Good. We are not monsters. We were animals once. Then... something changed us. We woke up. We think now. We feel fear. We know death. We have cubs who will starve if we do not hunt. Your people call us thieves. What choice did we have? Would you starve to preserve a stranger's peace?"
+
+### Flame's Challenge (if combat starts)
+> *A scarred wolf with ember-colored eyes snarls.*
+>
+> "You are WEAK, Bolt! Talking to prey! We are WOLVES! We TAKE what we need! If they hunt us, we hunt THEM!"
+
+### Father Merriksonn's Reaction (if peaceful resolution)
+> *The priest's eyes glisten with tears.*
+>
+> "Thank you. My brother... Alexi studied magic, forbidden magic perhaps. I believe his death caused this. These wolves did not choose their fate. You have given them a chance my brother never had."
+
+## Post-Session Tasks
+
+- [ ] Update Campaign Tracker: Note if wolves were killed or negotiated with
+- [ ] Track Father Merriksonn's relationship status (Grateful OR Neutral/Disappointed)
+- [ ] Note if Tillus Merrion is hostile (future plot hook)
+- [ ] Record if Bolt's pack is now an ally (can be called upon in future)
+- [ ] Award XP or milestone level-up (Party → Level 2)
+- [ ] Note any Aeorian Echo clues players seemed interested in
+- [ ] Prepare Lorewarden Elric's debrief for next session (connects to larger mystery)
+
+## Troubleshooting Common Issues
+
+### "We attack Bolt during negotiations!"
+→ Bolt yields immediately, begs for mercy, other wolves flee. Give players chance to reconsider.
+
+### "We want to talk to the wolves, but how?"
+→ Bolt sends a wolf messenger with a crude message (stick drawing or crudely spoken Common).
+
+### "The council vote is taking too long."
+→ Call for a recess. Have Father Merriksonn speak with party privately about what arguments will work.
+
+### "We want to kill ALL the wolves, including cubs."
+→ Allow it, but make consequences clear: Father Merriksonn is horrified, village reputation suffers (-1 future reaction rolls), Lorewarden Elric notes "You destroyed evidence of the magical phenomenon."
+
+### "We tell the village we killed the wolves, but let them live."
+→ Excellent deception path! Require Deception checks. Consequences emerge later (wolves seen near village again, party must maintain lie or come clean).
+
+## Next Session Hook
+
+When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
+
+> "Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident involving a polymorphed sheep. Something is waking the old magic. I need you to investigate further."
+
+This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
+
+\page
+>>>>>>> remotes/origin/main
 # Scene 1: Welcome to the Welton Wolfpack
 
 The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.
