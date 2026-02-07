@@ -40,6 +40,9 @@
 - **Mounted Party:** –20% travel time on good roads
 - **With Wagons:** +50% travel time; poor roads may be impassable
 
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
+
 \page
 
 ## Lodging & Meals
@@ -116,6 +119,9 @@
 - Cold and isolated; fewer amenities
 - Prices can spike during bad weather
 
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
+
 \page
 
 ## Common Goods & Services
@@ -160,6 +166,9 @@
 | **Message Delivery** | 1 sp/10 miles | Reliable within settlements |
 | **Message (Urgent)** | 5 sp/10 miles | Priority delivery |
 
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
+
 \page
 
 ## Equipment & Gear
@@ -202,6 +211,9 @@
 | **Thieves' Tools** | 25 gp | 1 lb | Rare (illegal in most places) |
 | **Navigator's Tools** | 25 gp | 2 lb | Uncommon |
 | **Cartographer's Tools** | 15 gp | 6 lb | Rare |
+
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
 
 \page
 
@@ -248,6 +260,9 @@
 | **Feed & Water** (per day) | 5 cp | If not stabled |
 | **Grooming** | 1 sp | Improved mount morale |
 | **Veterinary Care** | 5 sp–2 gp | Basic to advanced treatment |
+
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
 
 \page
 
@@ -296,6 +311,9 @@
 - Quality uncertain
 - May attract unwanted attention
 - DM discretion on availability
+
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
 
 \page
 
@@ -352,6 +370,9 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 - **Travel:** Variable; roads can be worse than winter
 - **Prices:** Standard
 - **Services:** Preparing for next season; inconsistent availability
+
+{{pageNumber,auto}}
+{{footnote PLAYER QUICK REFERENCE GUIDE}}
 
 \page
 

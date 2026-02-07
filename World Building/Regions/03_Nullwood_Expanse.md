@@ -79,6 +79,9 @@ The city feels serene, timeless, and faintly melancholic.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote THE NULLWOOD EXPANSE}}
+
 \page
 
 ## Culture & Society
@@ -177,6 +180,9 @@ Their faith emphasizes restraint and introspection over grand displays of devoti
 
 ---
 
+{{pageNumber,auto}}
+{{footnote THE NULLWOOD EXPANSE}}
+
 \page
 
 ## Eclipse Day in the Nullwood
@@ -204,6 +210,6 @@ Respect mixed with unease. Dwarves dig too close to things the elves instinctive
 Distrust. The city of masks traffics in relics the elves fear.
 
 **Northreach**  
-Concern. The Aeorian Echo feels like an old wound reopening, though the elves don't quite know why.
+Growing concern. Reports of strange magic in the frontier unsettle the elves, though they struggle to explain why it feels disturbingly familiar.
 
 ---

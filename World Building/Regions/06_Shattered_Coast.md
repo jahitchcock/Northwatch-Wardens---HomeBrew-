@@ -18,7 +18,7 @@ Despite the danger, the region is a bustling hub of:
 - pirate activity  
 - coastal settlements clinging to survival  
 
-The Shattered Coast is the lifeline between Solaris, Vharoxis, and the northern seas. It is also the place where strange things wash ashore — glowing stones, humming metal fragments, and creatures touched by the Aeorian Echo.
+The Shattered Coast is the lifeline between Solaris, Vharoxis, and the northern seas. It is also the place where strange things wash ashore — glowing stones, humming metal fragments, and creatures that behave... wrongly.
 
 Most people avoid the deeper waters.  
 Those who don't rarely return.
@@ -78,6 +78,9 @@ Locals claim the sea "speaks" to them. Outsiders aren't sure whether to believe 
 **Population:** ~400  
 **Government:** Elder Circle  
 **Atmosphere:** Isolated, spiritual, wary of outsiders
+
+{{pageNumber,auto}}
+{{footnote THE SHATTERED COAST}}
 
 \page
 
@@ -175,6 +178,9 @@ Capturing wind in sails, bottles, or enchanted objects:
 **Note:** Coastal magic is less refined than Solaris magic, but more instinctive and adaptable.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE SHATTERED COAST}}
 
 \page
 

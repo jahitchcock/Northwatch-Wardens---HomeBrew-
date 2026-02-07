@@ -88,6 +88,9 @@ The mercenary district. Arena pits, training halls, and the Ironbound Syndicate'
 - Weapon shops  
 - Entertainment and violence for profit  
 
+{{pageNumber,auto}}
+{{footnote VHAROXIS}}
+
 \page
 
 ### 5. The Whispered Vaults
@@ -206,6 +209,9 @@ These factions constantly spy, sabotage, bribe, assassinate, and betray each oth
 
 ---
 
+{{pageNumber,auto}}
+{{footnote VHAROXIS}}
+
 \page
 
 ## Culture & Society
@@ -280,6 +286,9 @@ Every syndicate believes the Eclipse was a sign — but each interprets it diffe
 The city has been more volatile than ever since.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote VHAROXIS}}
 
 \page
 

@@ -80,6 +80,47 @@ This repository contains **Northwatch Wardens: Season One**, a modular, drop-in 
 - Include both `<atk>` and `<dmg>` in attack blocks
 - Use reference IDs for abilities, skills, and spell schools
 
+## Player-Facing Content Guidelines
+
+**CRITICAL FOR PRINTED OUTPUT:** Player-facing content in `World Building/` is compiled into a PDF guide that will be printed and distributed. These documents must NOT contain:
+
+### ❌ Never Use in Player Content:
+- **Markdown file links**: `[text](../path/file.md)` — Won't work in printed PDF
+- **Folder/directory references**: `Premade PCs/` or `Season 1/Adventures/` — Repository structure is meaningless to players
+- **Repository-specific paths**: Any reference to file system organization
+- **GitHub-specific content**: Issues, pull requests, repository navigation
+
+### ✅ Always Use Instead:
+- **Chapter references**: "See **Chapter 4: The Northwatch Wardens**"
+- **Section references**: "See the **Appendix**" or "See **Practical Information**"
+- **Generic DM references**: "Available from your DM" or "Your DM has additional resources"
+- **Within-guide navigation**: "Earlier in this chapter..." or "See the Glossary..."
+
+### Examples of Correct References:
+
+**BAD (file reference):**
+```markdown
+Read the [Northwatch Wardens Charter](../Organizations/Northwatch_Wardens/THE%20NORTHWATCH%20WARDENS%20-%20Charter.md) for guild rules.
+```
+
+**GOOD (chapter reference):**
+```markdown
+Read **Chapter 4: The Northwatch Wardens** for the guild charter and rules.
+```
+
+**BAD (folder reference):**
+```markdown
+You can use pre-made characters from the `Premade PCs/` folder.
+```
+
+**GOOD (DM reference):**
+```markdown
+Pre-made characters are available from your DM.
+```
+
+### Files Included in Player's Guide Build:
+Check `build/players-guide-toc.json` to see which files compile into the player PDF. Only these files need to follow the above guidelines. DM-facing files (`Season 1/`, `DMEyesOnly/`, etc.) can use repository-specific references.
+
 ## Canonical Geography
 
 **IMPORTANT:** Never invent new locations unless directed to explicitly do so. Always use these established locations:

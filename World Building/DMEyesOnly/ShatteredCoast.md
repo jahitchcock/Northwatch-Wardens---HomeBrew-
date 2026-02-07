@@ -44,6 +44,9 @@ These fragments are:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## The Gravewater Trench
@@ -77,6 +80,9 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Eclipse Day — The Hidden Truth
@@ -108,6 +114,9 @@ The vessel found on shore was:
 The party could potentially rescue them — if they can reach the depths and navigate the reactivating systems. The crew has learned things down there. Things about what the facility was built to do.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -148,6 +157,9 @@ The Shattered Coast could become:
 **The ocean represents a frontier the party cannot ignore.**
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -196,6 +208,9 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 - Must be addressed or world changes forever  
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -253,6 +268,9 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 **Secret:** The druids of Tide's Rest have been serving as unknowing caretakers for the underwater facility. Their rituals have actually been maintaining dormant systems. Now those systems are reactivating — and the druids' magic is being drained to fuel them.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -358,6 +376,9 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 
 — Elder Torwin of Tide's Rest, to the Northwatch Wardens
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

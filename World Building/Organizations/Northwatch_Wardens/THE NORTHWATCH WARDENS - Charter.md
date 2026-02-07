@@ -117,6 +117,9 @@ Sera • Aurixean • Shinebright • Baleth
 
 Father Merriksonn • Willen • Flynt • Joel (ally)
 
+{{pageNumber,auto}}
+{{footnote ROSTER}}
+
 \page
 
 ## Wild Allies

@@ -12,11 +12,11 @@ This guide is designed to help you navigate the world of Aevoria and the Northwa
 
 If you're new to the campaign, start here:
 
-1. **Read the Charter** — The Northwatch Wardens operate by a code. Familiarize yourself with [The Northwatch Wardens Charter](../Organizations/Northwatch_Wardens/THE%20NORTHWATCH%20WARDENS%20-%20Charter.md) to understand what it means to be a Warden.
+1. **Read the Charter** — The Northwatch Wardens operate by a code. Familiarize yourself with **Chapter 4: The Northwatch Wardens** to understand what it means to be a Warden.
 
-2. **Learn About Northreach** — Your adventures begin in the cold frontier. The [Northreach Setting Primer](../Regions/Northreach/Northreach_Setting_Primer.md) gives you everything you need to know in one page.
+2. **Learn About Northreach** — Your adventures begin in the cold frontier. **Chapter 3: Northreach: Your Starting Point** gives you everything you need to know.
 
-3. **Choose or Create a Character** — You can use one of the pre-made characters from the `Premade PCs/` folder, or create your own using standard D&D 5e rules.
+3. **Choose or Create a Character** — You can use one of the pre-made characters available from your DM, or create your own using standard D&D 5e rules.
 
 4. **Arrive at the Waystone Inn** — Your adventure begins at the guild headquarters, where contracts are posted and Wardens gather.
 
@@ -29,13 +29,13 @@ Don't worry about reading everything before your first session. The most importa
 
 Keep your adventure alive between game nights:
 
-- **Update Your Journal** — The [Northreach Journal](../Regions/Northreach/Northreach_Journal_and_Lore.md) is designed as a player-facing reference. Use it to track names, locations, and discoveries.
+- **Update Your Journal** — The Northreach Journal (see **Appendix**) is designed as a player-facing reference. Use it to track names, locations, and discoveries.
 
 - **Review Your Contracts** — Each adventure is structured as a contract. Re-read the mission briefing and think about your approach.
 
-- **Explore the Lore** — The "Wider World of Aevoria" section contains setting information about regions beyond Northreach. Your character might have come from one of these places.
+- **Explore the Lore** — **Chapter 5: The Wider World of Aevoria** contains setting information about regions beyond Northreach. Your character might have come from one of these places.
 
-\page
+\column
 
 ## Understanding the Structure
 
@@ -46,26 +46,35 @@ This guide is organized into several major sections:
 #### 1. Welcome to Aevoria
 An overview of the world and its regions. This section sets the stage and provides context for where Northreach fits in the larger world.
 
-#### 2. Northreach: Your Starting Point
+#### 2. Character Creation
+Guidelines for creating your character, including regional origins, languages, and cultural backgrounds.
+
+#### 3. Northreach: Your Starting Point
 Everything you need to know about the frontier region where your adventures take place:
 - Setting overview and key locations
 - Local cultures and communities
 - Important NPCs and organizations
 
-#### 3. The Northwatch Wardens
+#### 4. The Northwatch Wardens
 The guild charter, code of conduct, and organizational structure. Read this to understand what it means to be a Warden.
 
-#### 4. The Wider World of Aevoria
+#### 5. The Wider World of Aevoria
 Detailed descriptions of the ten major regions beyond Northreach. Your character might have ties to these places, or you may travel there in future adventures.
 
-#### 5. Gods and Religion
+#### 6. Gods and Religion
 The divine pantheon and religious practices of Aevoria. Faith plays a meaningful role in this world.
 
-#### 6. Places of Legend
+#### 7. Places of Legend
 Legendary locations that feature in world history and lore.
 
-#### 7. Appendix
-Additional resources including music recommendations, the extended journal, and reference materials.
+#### 8. Practical Information
+Quick reference guide for travel, costs, goods, and services throughout Aevoria.
+
+#### 9. Appendix
+Additional resources including the glossary, music recommendations, the extended journal, and reference materials.
+
+{{pageNumber,auto}}
+{{footnote HOW TO USE THIS BOOK}}
 
 \page
 
@@ -97,7 +106,7 @@ Each adventure follows a standard structure:
 
 There isn't always a "right" answer. The frontier is complicated, and perfect solutions are rare.
 
-\page
+\column
 
 ## Player Safety and Expectations
 
@@ -122,6 +131,9 @@ Good communication makes for better games:
 - **Talk to Your DM** — If something isn't working for you, speak up. The campaign is meant to be fun.
 - **Work Together** — The Wardens are a team. Look for ways to help each other succeed.
 - **Embrace Failure** — Not every plan works. Some of the best stories come from setbacks and complications.
+
+{{pageNumber,auto}}
+{{footnote HOW TO USE THIS BOOK}}
 
 \page
 
@@ -157,13 +169,13 @@ Small details become important later:
 - **Track Locations** — Note places you've been and what happened there.
 - **Record Discoveries** — Clues about the larger mystery are scattered throughout the adventures. Keep notes.
 
-\page
+\column
 
 ## Additional Resources
 
 ### Music and Atmosphere
 
-The [Songs of the Northreach](../Regions/Northreach/SongsOfTheNorthreach.md) document provides curated playlists to set the mood for different situations. Consider listening during sessions or while preparing your character.
+The **Songs of the Northreach** (see **Appendix**) provides curated playlists to set the mood for different situations. Consider listening during sessions or while preparing your character.
 
 ### Character Creation Guidelines
 
@@ -181,18 +193,29 @@ Most adventures are designed for characters starting at level 1-2. Your DM will 
 
 ### Where to Find Things
 
-**In This Repository:**
-- Adventures → `Season 1/Adventures/`
-- NPC Details → `Season 1/Campaign Assets/DM Guild Roster.md` (DM access)
-- World Lore → `World Building/` (various subdirectories)
-- Pre-made Characters → `Premade PCs/`
+**In This Guide:**
+- **Character Creation** → Chapter 2
+- **Northreach Information** → Chapter 3
+- **Guild Charter** → Chapter 4
+- **World Regions** → Chapter 5
+- **Gods and Faith** → Chapter 6
+- **Quick Reference** → Chapter 8
+- **Glossary** → Chapter 9
 
-**At the Table:**
-- Your DM has access to additional resources and secrets
-- Not everything in the repository is player-facing—let your DM guide you
-- The `DMEyesOnly/` folder contains spoilers—avoid reading if you're a player!
+**From Your DM:**
+- Adventures and contracts
+- NPC details and secrets
+- Pre-made characters (if desired)
+- Additional world lore and campaign-specific information
 
-\page
+{{note
+
+**The frontier is vast. The mysteries are deep. The adventure awaits.** --
+*Welcome to the Northwatch Wardens.*
+
+}}
+
+{{wide
 
 ## Final Thoughts
 
@@ -200,12 +223,5 @@ This book is a tool, not a textbook. You don't need to memorize everything or re
 
 The best adventures come from curiosity, courage, and characters who care about the world around them. The Northwatch Wardens need people who will show up when it matters, make hard choices when necessary, and stand by their commitments even when it's difficult.
 
-{{wide
-
-**The frontier is vast. The mysteries are deep. The adventure awaits.**
-
-*Welcome to the Northwatch Wardens.*
 
 }}
-
-\page

@@ -56,6 +56,9 @@ These are influential but don’t outrank the Great Temples or the Triad. They o
 - **Domains/themes:** Grave, Nature, Renewal; the lawful end; respectful burial; seasons turning.
 - **Role in city:** funerary rites, cemetery gardens, anti‑undeath doctrine.
 
+{{pageNumber,auto}}
+{{footnote DIVINITY’S BEACON — PANTHEON}}
+
 \page
 
 ### Eirathene, the Crystal Bloom

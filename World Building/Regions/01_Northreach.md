@@ -87,6 +87,9 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - **Religious leaders:** Priests offer guidance but limited authority
 - **Adventurers:** Wardens and travelers treated with cautious respect
 
+{{pageNumber,auto}}
+{{footnote NORTHREACH}}
+
 \page
 
 ### Daily Life

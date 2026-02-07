@@ -661,6 +661,9 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 — Deep-Reader Borin Stonescript, after his world changed forever
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -778,6 +781,9 @@ This file contains:
 - Alternative approach to Echo threat
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

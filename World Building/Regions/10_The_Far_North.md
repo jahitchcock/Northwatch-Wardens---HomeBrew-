@@ -83,6 +83,10 @@ Some travelers report stranger sightings:
 - Things moving beneath the ice
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FAR NORTH}}
+
 \page
 
 ## Known Locations
@@ -176,6 +180,9 @@ Multiple threats make the Far North deadly:
 - "We're only beginning to understand what lies beneath the ice."
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FAR NORTH}}
 
 \page
 

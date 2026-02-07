@@ -43,6 +43,9 @@ Standard rates apply:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
 \page
 
 ## The Practical Economy
@@ -114,6 +117,9 @@ Standard rates apply:
 - Communities rely on stored goods
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 
@@ -198,6 +204,9 @@ Standard rates apply:
 - More flexible on payment terms
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 
@@ -286,6 +295,9 @@ In Northreach, pure currency transactions are often impractical:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
 \page
 
 ## Guild Contracts and Payment
@@ -361,6 +373,9 @@ In Northreach, pure currency transactions are often impractical:
 - Recovery from guild funds if client defaults
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 
@@ -444,6 +459,9 @@ In Northreach, pure currency transactions are often impractical:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
 \page
 
 ## Economic Challenges
@@ -521,6 +539,9 @@ In Northreach, pure currency transactions are often impractical:
 - Trade routes become dangerous
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 
@@ -605,6 +626,9 @@ In Northreach, pure currency transactions are often impractical:
 - "You can't eat gold, but it buys what you can."
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 
@@ -705,6 +729,9 @@ In Northreach, pure currency transactions are often impractical:
 - Recent victims of misfortune
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
 

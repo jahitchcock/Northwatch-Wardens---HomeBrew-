@@ -327,6 +327,26 @@ When working with this campaign:
 - **Don't leave attack blocks incomplete** – Both `<atk>` and `<dmg>` are required
 - **Don't omit stat block fields** – AC, HP, abilities, etc. are mandatory  
 
+### 📄 Player-Facing Content (Markdown)
+
+When creating or editing **player-facing markdown content** (files in `World Building/` that compile to the player's guide PDF):
+
+**✅ DO:**
+- **Use chapter references**: "See **Chapter 4: The Northwatch Wardens**"
+- **Use section references**: "See the **Appendix**" or "See **Practical Information**"
+- **Reference DM generically**: "Available from your DM" or "Pre-made characters from your DM"
+- **Use within-guide navigation**: "Earlier in this chapter..." or "See the Glossary..."
+
+**❌ DO NOT:**
+- **Use markdown file links**: `[text](../path/file.md)` ← Won't work in printed PDF
+- **Reference folders/directories**: `Premade PCs/` or `Season 1/Adventures/` ← Repository structure meaningless to players
+- **Use repository paths**: Any file system organization references
+- **Reference GitHub structure**: Issues, pull requests, repo navigation
+
+**Why:** The player's guide compiles to a physical printed PDF. File links and folder references are meaningless in print. Always reference chapter names, section headers, or direct the player to ask their DM.
+
+**Files Affected:** Check `build/players-guide-toc.json` to see which files are player-facing. DM-only files (adventures, rosters, secrets) can use repository references.
+
 ---
 
 ## Adventures to Generate

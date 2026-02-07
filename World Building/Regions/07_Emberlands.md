@@ -82,6 +82,9 @@ Cindermarch is a place of constant industry. The sound of hammers on anvils echo
 - **The Flame Guard Barracks** — Military headquarters defending against threats
 - **The Endurance Hall** — Cultural center celebrating Emberlands traditions
 
+{{pageNumber,auto}}
+{{footnote THE EMBERLANDS}}
+
 \page
 
 ### 2. Ashfall Hold
@@ -160,6 +163,9 @@ Emberlands society values:
 - **Practical skills** — Craftsmanship, navigation, survival techniques
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE EMBERLANDS}}
 
 \page
 
@@ -260,6 +266,9 @@ Flames that moved against the wind, changed color without cause, and left unusua
 
 **Pulsing Magma Flows**  
 Lava rivers that flowed in rhythmic intervals, as if responding to a heartbeat deep below.
+
+{{pageNumber,auto}}
+{{footnote THE EMBERLANDS}}
 
 \page
 

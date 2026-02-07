@@ -87,6 +87,9 @@ The Marches experience warm, rainy conditions year-round—perfect for life to f
 
 ---
 
+{{pageNumber,auto}}
+{{footnote THE VERDANT MARCHES}}
+
 \page
 
 ## Major Settlements
@@ -156,6 +159,9 @@ A village built into the earth itself, with homes carved into hillsides and conn
 - **The Earthsinger's Shrine:** Small temple to earth spirits
 
 **Current Status:** Peaceful but increasingly nervous. Strange wildlife has been spotted near the village, and some burrows have been breached by unusually clever burrowing creatures.
+
+{{pageNumber,auto}}
+{{footnote THE VERDANT MARCHES}}
 
 \page
 
@@ -243,6 +249,9 @@ Faith in the Marches is fluid, oral, and tied to natural cycles:
 - Stories and songs preserve teaching
 - Each community adapts practices to local conditions
 
+{{pageNumber,auto}}
+{{footnote THE VERDANT MARCHES}}
+
 \page
 
 ---
@@ -315,9 +324,9 @@ Poachers, smugglers, and exotic beast traders from Vharoxis exploit the Marches,
 ### Northreach
 **Status:** Connected through druidic networks
 
-The Aeorian Echo's effects in Northreach feel familiar to Marches druids—the intelligence awakening, the change in natural patterns, the sense of something ancient stirring. Information flows both ways through druidic messengers and ranger contacts.
+Reports from Northreach trouble Marches druids—animals behaving strangely, plants growing unnaturally, the feeling that something ancient is stirring beneath the world. Old stories speak of such times, though the endings are rarely written down. Information flows through druidic messengers and ranger contacts, though no one yet understands the full picture.
 
-**Connection:** Similar awakening phenomena  
+**Connection:** Similar phenomena, unknown cause  
 **Cooperation:** Knowledge sharing about the Echo's effects  
 **Concern:** The Green Stirring and the Echo may be linked
 

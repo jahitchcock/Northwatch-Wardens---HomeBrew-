@@ -66,6 +66,9 @@ A farming and herding village built on good soil and stubborn determination. Wel
 - **Terrain:** Fertile valley with gentle hills, bordered by forests to the north and west
 - **Climate:** Cold winters, short growing seasons, reliable rainfall
 
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
+
 \page
 
 ### The Settlement
@@ -152,6 +155,9 @@ An outlying sheep farm that represents the isolated homesteads common on the fro
 - **Well:** Deep and reliable
 - **Fields:** Open grazing land bordered by forest
 
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
+
 \page
 
 ### Daily Life
@@ -235,6 +241,9 @@ About 90 permanent residents, plus floating population of travelers:
 - Disputes settled by arbitration (fees charged)
 - Maintains armed watch to protect trade goods
 
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
+
 \page
 
 ### Notable Locations Within Pinebrook
@@ -316,6 +325,9 @@ About 200 permanent residents:
 - Militia service is mandatory (the Glassblades)
 - Everyone contributes to community survival
 
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
+
 \page
 
 ### Daily Life in Palebank
@@ -396,6 +408,9 @@ What can be seen from outside:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
+
 \page
 
 ## Temple of the Dragonknights (Northwest Mountains)
@@ -471,6 +486,9 @@ Stories about Noke's Tower:
 - The incident with the animated furniture
 - When Shinebright accidentally polymorphed a bandit into a sheep
 - The mysterious lights that appear during storms
+
+{{pageNumber,auto}}
+{{footnote PLACES OF NORTHREACH}}
 
 \page
 

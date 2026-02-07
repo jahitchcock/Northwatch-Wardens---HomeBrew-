@@ -220,6 +220,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -389,6 +392,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ### Rowan Fairweather (Trailwarden)
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -561,6 +567,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ### Ariodh Highwhirl (Lantern Guard)
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -754,6 +763,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -883,6 +895,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -1100,6 +1115,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -1316,6 +1334,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -1525,6 +1546,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ## The Larger Pattern: What NPCs Know Collectively
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -1803,6 +1827,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ## Campaign Integration Notes
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

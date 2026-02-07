@@ -3,6 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const { pathToFileURL } = require('url');
+const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 const { render: renderHomebrewery } = require('./homebrewery-renderer');
 
@@ -221,6 +222,18 @@ async function main() {
   await fs.ensureDir(buildDir);
 
   try {
+    // Update page footers in markdown files before building
+    console.log('Updating page footers...');
+    try {
+      execSync('python add_page_footers.py', { 
+        stdio: 'inherit',
+        cwd: __dirname 
+      });
+    } catch (error) {
+      console.warn('Warning: Failed to update page footers. Continuing with build...');
+    }
+    console.log('');
+
     if (buildPlayers) {
       await buildBook(
         path.join(buildDir, 'players-guide-toc.json'),

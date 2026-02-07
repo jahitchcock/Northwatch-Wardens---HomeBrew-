@@ -12,4 +12,4 @@ A major holy city that welcomes all good-aligned gods (no single state religion)
 - Wizards/warlocks may be viewed with suspicion depending on patron, methods, and past deeds.
 
 ## See also
-- Pantheon notes: [../Religion/Divinitys_Beacon_Pantheon.md](../Religion/Divinitys_Beacon_Pantheon.md)
+- Pantheon details: See **Chapter 6: Gods and Religion**

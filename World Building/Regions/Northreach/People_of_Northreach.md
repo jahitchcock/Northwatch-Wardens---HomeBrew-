@@ -5,9 +5,7 @@
 
 This document contains information that is publicly known to residents and visitors of Northreach. Players can freely read this material.
 
-**DMs:** For NPC secrets and hidden motivations, see:
-- `Season 1/DM_Resources/DM Guild Roster.md`
-- `World Building/DMEyesOnly/People_Secrets.md`
+**DMs:** For NPC secrets, hidden motivations, and campaign-specific details, see your DM resources and campaign notes.
 }}
 
 # People of Northreach
@@ -70,6 +68,10 @@ Efficient and no-nonsense. Mara knows exactly what's in the guild's stores at an
     -"She's the reason the guild hasn't gone bankrupt."
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 
@@ -133,6 +135,10 @@ Quiet and observant. Bordel prefers to watch and wait rather than rush in, which
     -Has an uncanny sense for impending danger
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ### Rowan Fairweather
@@ -203,6 +209,10 @@ Serious and steadfast. Galvena takes her oaths literally and holds others to the
     -Will stand between danger and innocents without hesitation
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ### Ariodh Highwhirl
@@ -276,6 +286,9 @@ Dramatic and confident. Aurixean treats every mission like a performance and ins
 
 ---
 
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ### Finethir Shinebright
@@ -346,6 +359,9 @@ Nervous but earnest. Willen struggles with confidence but pushes through fear wh
     -Tries harder than anyone to be brave
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
 
 \page
 
@@ -432,6 +448,9 @@ Gruff and self-sufficient. Tulgi doesn't ask for help and doesn't offer it unles
 
 ---
 
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ### Urgon Wenth (Palebank Village)
@@ -493,6 +512,10 @@ Hardworking and isolated. Westly manages his farm with minimal help and deals wi
     -Recently had trouble with wolves
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ## Cultural Figures and Legends
@@ -553,6 +576,10 @@ Those drawn to Northreach by its mysteries and ruins. They're usually more inter
 Professional protectors who handle the dangers that ordinary folk can't. They earn their reputation through actions, not titles.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
 \page
 
 ## Social Customs and Etiquette

@@ -1,7 +1,12 @@
+{{wide
+
 # Regional Origins Guide
+
 ## Where You Come From Shapes Who You Are
 
+}}
 {{descriptive
+
 ##### The Ten Regions of Aevoria
 
 From the frozen wastes of the Far North to the sun-drenched plazas of Solaris, Aevoria spans a vast and diverse world. Each region shapes its people in distinctive ways—through climate, culture, history, and the values passed down through generations.
@@ -30,6 +35,8 @@ Your regional origin affects:
 **Roleplay:** How you speak, act, and approach problems  
 **Story hooks:** What rumors, threats, or opportunities interest you
 
+\column
+
 ### Using Regional Origins
 
 1. **Choose your region** based on the character concept that excites you
@@ -43,6 +50,9 @@ Your regional origin affects:
 
 All player characters begin in Northreach, either as locals or newcomers. If you're from another region, you need a reason for traveling to the frontier and joining the Northwatch Wardens. Each regional section includes common motivations for making this journey.
 }}
+
+{{pageNumber,auto}}
+{{footnote REGIONAL ORIGINS GUIDE}}
 
 \page
 
@@ -58,23 +68,23 @@ Where winter bites and wolves prowl, where communities cling to survival through
 
 Northreach is a cold, sparsely settled frontier region where survival depends on self-reliance, practical competence, and community cooperation. Most inhabitants know only local concerns—wolves, bandits, missing hunters, and the ever-present threat of winter. This is the starting region for the campaign and home to the Northwatch Wardens.
 
-**Climate:** Cold temperate to subarctic  
-**Population:** Scattered villages, isolated farmsteads  
-**Government:** Local councils, guild influence  
-**Economy:** Subsistence farming, trapping, logging
+- **Climate:** Cold temperate to subarctic  
+- **Population:** Scattered villages, isolated farmsteads  
+- **Government:** Local councils, guild influence  
+- **Economy:** Subsistence farming, trapping, logging
 
 ### Common Backgrounds
 
-**Folk Hero**  
+- **Folk Hero**  
 You defended your village from wolves, bandits, or worse. The frontier breeds heroes out of necessity—those who stand when others can't.
 
-**Outlander**  
+- **Outlander**  
 The most natural choice for Northreach natives. You know the woods, the weather, and the dangers. You were born to this life.
 
-**Soldier**  
+- **Soldier**  
 Perhaps you served with a militia defending villages, or you're a veteran who sought peace on the frontier (and found new conflicts instead).
 
-**Hermit**  
+- **Hermit**  
 The frontier has plenty of isolated places for those seeking solitude. But even hermits eventually need to return to civilization—or defend it.
 
 ### Cultural Traits
@@ -115,16 +125,16 @@ The frontier has plenty of isolated places for those seeking solitude. But even 
 
 ### Sample Character Concepts
 
-**Mira Blackwood, Human Ranger (Hunter)**  
+- **Mira Blackwood, Human Ranger (Hunter)**  
 Lost her parents to wolves as a child; raised by village hunters. Joined the Wardens to ensure no other child faces the same fate. Specializes in tracking predators and protecting settlements.
 
-**Thoren Ironfoot, Dwarf Fighter (Battle Master)**  
+- **Thoren Ironfoot, Dwarf Fighter (Battle Master)**  
 Former soldier from the Stonebound Depths who settled in Northreach seeking peace. Found the frontier needed defenders as much as anywhere else. Brings tactical experience to contract operations.
 
-**Ash, Half-Elf Druid (Circle of the Land - Arctic)**  
+- **Ash, Half-Elf Druid (Circle of the Land - Arctic)**  
 Born during a blizzard in a frontier cabin. Speaks little but understands the land deeply. Joined the Wardens because civilization and wilderness must coexist for either to survive.
 
-\page
+
 
 ### Character Tie-In Questions
 
@@ -136,6 +146,10 @@ Answer 2-3 of these to develop your backstory:
 4. **What do you miss most about the "civilized" south?** (Or do you prefer the frontier?)
 5. **Have you ever been lost in the wilderness?** What happened?
 
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 ---
 
 ## 2. Solaris Dominion — The Cultural Capital
@@ -148,25 +162,32 @@ Where songs echo through sunlit plazas and every tale has three versions. Solari
 
 Solaris is a vibrant metropolis known as the beating heart of music, storytelling, and bardic tradition. The city thrives on creativity, performance, and mythmaking—its plazas echo with tales and its streets feel like they're always mid-song. Three political factions compete to define the city's soul, making Solaris equal parts cultural paradise and political powder keg.
 
-**Climate:** Temperate Mediterranean; mild and pleasant  
-**Population:** ~50,000 (diverse, cosmopolitan)  
-**Government:** Factional (Harmonists, Veilbound, Chorus)  
-**Economy:** Arts, culture, trade, scholarship
+- **Climate:** Temperate Mediterranean; mild and pleasant  
+- **Population:** ~50,000 (diverse, cosmopolitan)  
+- **Government:** Factional (Harmonists, Veilbound, Chorus)  
+- **Economy:** Arts, culture, trade, scholarship
 
-### Common Backgrounds
+#### Common Backgrounds
 
-**Entertainer**  
+- **Entertainer**  
 The natural choice for Solarians. You're a performer, storyteller, musician, or actor trained in a city that invented half the songs sung in taverns across Aevoria.
 
-**Noble**  
+- **Noble**  
 Solaris' elite families wield cultural rather than military power. You understand politics, patronage, and the performance of status.
 
-**Sage**  
+- **Sage**  
 Solaris hosts libraries, colleges, and scholarly institutions where knowledge is currency and information flows like wine.
 
-**Charlatan**  
+- **Charlatan**  
 In a city built on performance, the line between artist and con artist is paper-thin. You learned to read crowds, tell people what they want to hear, and disappear before questions get uncomfortable.
 
+#### Character Tie-In Questions
+
+1. **Which faction do you lean toward—or do you reject them all?**
+2. **What performance, scandal, or event made you memorable in Solaris?**
+3. **Why did you leave the cultural capital for the frozen frontier?**
+4. **Who in Solaris would want to hear from you—or want you to stay silent?**
+5. **What story are you trying to tell about your time in Northreach?**
 \column
 
 ### Cultural Traits
@@ -212,20 +233,16 @@ Rising star at the Tail Spinner's Cord who grew disillusioned with factional man
 **Marcus Vael, Human Wizard (Divination)**  
 Scholar from a Veilbound family researching magical anomalies. Eclipse Day pointed him toward Northreach. His family expects regular reports—and results.
 
-\page
+
 
 **Senna Darkwater, Tiefling Rogue (Inquisitive)**  
 Former spy for the Chorus who saw too much and fled north. Excellent at gathering information and reading people. Never quite stops looking over her shoulder.
 
-### Character Tie-In Questions
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
 
-1. **Which faction do you lean toward—or do you reject them all?**
-2. **What performance, scandal, or event made you memorable in Solaris?**
-3. **Why did you leave the cultural capital for the frozen frontier?**
-4. **Who in Solaris would want to hear from you—or want you to stay silent?**
-5. **What story are you trying to tell about your time in Northreach?**
+\page
 
----
 
 ## 3. Nullwood Expanse — The Silent Kingdom
 
@@ -237,26 +254,35 @@ Where magic whispers rather than roars, where pale trees sway without wind, and 
 
 The Nullwood Expanse is an ancient elven kingdom hidden within a vast forest where magic feels strangely muted and sound seems softened. The Nullwood Elves are a people shaped by caution, memory, and an old fear they no longer fully understand. Their magic is subtle and disciplined, their architecture grown rather than built, and their society structured around emotional balance and preservation of harmony.
 
-**Climate:** Mild temperate; cool summers, misty winters  
-**Population:** ~12,000 (overwhelmingly elven)  
-**Government:** Memory Courts (elven councils)  
-**Economy:** Self-sufficient; limited external trade
+- **Climate:** Mild temperate; cool summers, misty winters  
+- **Population:** ~12,000 (overwhelmingly elven)  
+- **Government:** Memory Courts (elven councils)  
+- **Economy:** Self-sufficient; limited external trade
 
 ### Common Backgrounds
 
-**Sage**  
+- **Sage**  
 The Nullwood values memory preservation and historical study. You're trained in recording, cataloging, and maintaining clarity of past events.
 
-**Hermit**  
+- **Hermit**  
 The quiet forests suit those seeking introspection. Many Nullwood elves spend years in isolated contemplation, emerging with deep insights.
 
-**Outlander**  
+- **Outlander**  
 Scouts and rangers patrol the borders, monitoring threats and watching for magical disturbances from the wider world.
 
-\column
-
-**Acolyte**  
+- **Acolyte**  
 Nullwood spirituality centers on memory rituals and emotional balance rather than traditional gods. You're trained in these practices.
+
+
+### Character Tie-In Questions
+
+1. **What memory do you hold most clearly—and why?**
+2. **Why did you leave the Nullwood's peaceful silence?**
+3. **Do you perform memory rituals privately, or have you abandoned them?**
+4. **What about Nullwood culture do you miss—or reject?**
+5. **Have you seen anything in Northreach that the Memory Courts should know?**
+   
+\column
 
 ### Cultural Traits
 
@@ -295,26 +321,19 @@ Nullwood spirituality centers on memory rituals and emotional balance rather tha
 
 ### Sample Character Concepts
 
-**Elara Stillwater, Wood Elf Druid (Circle of the Moon)**  
+- **Elara Stillwater, Wood Elf Druid (Circle of the Moon)**  
 Veilwatch scout who witnessed strange stirrings in the Verdant Marches. Sent north to investigate whether similar patterns emerge in Northreach. Uncomfortable in settlements but adapting.
 
-**Thaelan Silverleaf, High Elf Wizard (Abjuration)**  
+- **Thaelan Silverleaf, High Elf Wizard (Abjuration)**  
 Memory Court scholar researching why magic behaves strangely in certain regions. Northreach's frontier anomalies match historical patterns he's trying to understand. Takes meticulous notes.
 
-\page
-
-**Whisper, Wood Elf Ranger (Gloom Stalker)**  
+- **Whisper, Wood Elf Ranger (Gloom Stalker)**  
 Refused the memory rituals and emotional curation. Left the Nullwood seeking "real" experiences—raw, unfiltered, and honest. Found exactly that in Northreach.
 
-### Character Tie-In Questions
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
 
-1. **What memory do you hold most clearly—and why?**
-2. **Why did you leave the Nullwood's peaceful silence?**
-3. **Do you perform memory rituals privately, or have you abandoned them?**
-4. **What about Nullwood culture do you miss—or reject?**
-5. **Have you seen anything in Northreach that the Memory Courts should know?**
-
----
+\page
 
 ## 4. Stonebound Depths — The Deep Kingdom
 
@@ -326,28 +345,36 @@ Where stone sings and metal hums, where dwarves carve cities from living rock an
 
 Deep beneath the mountains lies the dwarven kingdom known as the Stonebound Depths—a vast subterranean realm built around massive crystalline formations and metallic structures the dwarves call "Deep Roots." The Stonebound Dwarves believe these are natural geological features, not understanding their true Aeorian origin. Their culture revolves around geomancy, resonance magic, and the deep patience of stone.
 
-**Climate:** Stable subterranean (cool, dry)  
-**Population:** ~40,000 (majority dwarven)  
-**Government:** The Resonant Council (master crafters)  
-**Economy:** Mining, metalwork, geomancy, runecraft
+- **Climate:** Stable subterranean (cool, dry)  
+- **Population:** ~40,000 (majority dwarven)  
+- **Government:** The Resonant Council (master crafters)  
+- **Economy:** Mining, metalwork, geomancy, runecraft
 
-### Common Backgrounds
+#### Common Backgrounds
 
-**Guild Artisan**  
+- **Guild Artisan**  
 The natural choice for Stonebound dwarves. You're trained in smithing, stonework, gemcutting, or other crafts the Depths perfected.
 
-**Soldier**  
+- **Soldier**  
 The Depths maintain organized defense forces protecting the entrances and patrolling the deep tunnels where things stir in the dark.
 
-**Acolyte**  
+- **Acolyte**  
 Rune-singers and deep-readers serve as spiritual leaders, interpreting the "song of stone" and maintaining harmonic rituals.
+
+- **Sage**  
+Scholars study geological patterns, resonance theory, and the properties of the Deep Roots. You understand what the earth "says."
+
+#### Character Tie-In Questions
+
+1. **What was your greatest craft—or greatest failure—before leaving?**
+2. **How do you feel about the sky and open spaces?**
+3. **Do you still perform resonance rituals, or have you adapted?**
+4. **What debt, oath, or obligation drove you to the surface?**
+5. **Have you found anything in Northreach that resonates with the Depths?**
 
 \column
 
-**Sage**  
-Scholars study geological patterns, resonance theory, and the properties of the Deep Roots. You understand what the earth "says."
-
-### Cultural Traits
+#### Cultural Traits
 
 - **Patience of stone:** Rushing is foolish; quality takes time
 - **Resonant magic:** Power flows through vibration and harmony
@@ -382,28 +409,21 @@ Scholars study geological patterns, resonance theory, and the properties of the 
 - Studying geological patterns connected to the Depths
 }}
 
-### Sample Character Concepts
+#### Sample Character Concepts
 
-**Borin Deepstrider, Mountain Dwarf Cleric (Forge Domain)**  
+- **Borin Deepstrider, Mountain Dwarf Cleric (Forge Domain)**  
 Rune-singer studying surface forges and their inferior resonance. Came to Northreach because "if you can make a blade sing in winter wind, you've mastered the craft."
 
-**Kara Stoneheart, Shield Dwarf Fighter (Eldritch Knight)**  
+- **Kara Stoneheart, Shield Dwarf Fighter (Eldritch Knight)**  
 Former Depths guard who wanted to see the sun. Found surface life chaotic but exhilarating. Applies underground tactical thinking to surface combat.
 
-\page
-
-**Rurik Ironvein, Dwarf Wizard (War Magic)**  
+- **Rurik Ironvein, Dwarf Wizard (War Magic)**  
 Deep-reader who sensed disturbances in the earth pointing north. Sent to investigate whether surface anomalies connect to changes in the Depths. Doesn't like being cold.
 
-### Character Tie-In Questions
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
 
-1. **What was your greatest craft—or greatest failure—before leaving?**
-2. **How do you feel about the sky and open spaces?**
-3. **Do you still perform resonance rituals, or have you adapted?**
-4. **What debt, oath, or obligation drove you to the surface?**
-5. **Have you found anything in Northreach that resonates with the Depths?**
-
----
+\page
 
 ## 5. Vharoxis — The City of Masks
 
@@ -415,25 +435,33 @@ Where smugglers trade in broad daylight, where masks hide more than faces, and w
 
 Vharoxis is the infamous outlaw city where laws are suggestions, factions shift weekly, and everyone wears at least one mask. Built on a jagged peninsula surrounded by treacherous reefs, the city thrives on smuggling, espionage, black-market trade, and controlled chaos. There's no king, no council—only the syndicates that rule the districts and the understanding that business continues regardless.
 
-**Climate:** Coastal Mediterranean; foggy and temperate  
-**Population:** ~15,000 (diverse, transient)  
-**Government:** Syndicate rule (shifting)  
-**Economy:** Smuggling, contraband, assassination, information
+- **Climate:** Coastal Mediterranean; foggy and temperate  
+- **Population:** ~15,000 (diverse, transient)  
+- **Government:** Syndicate rule (shifting)  
+- **Economy:** Smuggling, contraband, assassination, information
 
 ### Common Backgrounds
 
-**Criminal**  
+- **Criminal**  
 The obvious choice. You're a thief, smuggler, fence, or con artist trained in a city where crime is the only real industry.
 
-**Charlatan**  
+- **Charlatan**  
 Masks aren't just fashion—they're business tools. You've learned to be whoever you need to be.
 
-**Spy**  
+- **Spy**  
 Vharoxis hosts more spies per capita than any city in Aevoria. You gathered secrets for someone—or sold them to the highest bidder.
 
-**Urchin**  
+- **Urchin**  
 You grew up in the Ember Warrens or other slums, surviving through cunning, speed, and knowing which alleys lead where.
 
+### Character Tie-In Questions
+
+1. **Which syndicate did you work for—or betray?**
+2. **What's the worst deal you ever made, and what were the consequences?**
+3. **Do you still wear masks, or have you left that behind?**
+4. **Who in Vharoxis wants you dead, captured, or returned?**
+5. **What's the one job you refused to take—and why?**
+   
 \column
 
 ### Cultural Traits
@@ -473,26 +501,23 @@ You grew up in the Ember Warrens or other slums, surviving through cunning, spee
 
 ### Sample Character Concepts
 
-**Raven (not her real name), Human Rogue (Assassin)**  
+- **Raven (not her real name), Human Rogue (Assassin)**  
 Former Ember Veil operative who completed one job too many. Disappeared to Northreach where no one knows her face. Wears different personas like clothing.
 
-**Dante Blackwater, Tiefling Warlock (Hexblade)**  
+- **Dante Blackwater, Tiefling Warlock (Hexblade)**  
 Masked Market dealer in magical contraband who crossed the wrong people. His pact weapon and frontier expertise make him valuable to the Wardens—and dangerous.
 
-\page
-
-**Silva Thorngage, Half-Elf Ranger (Monster Slayer)**  
+- **Silva Thorngage, Half-Elf Ranger (Monster Slayer)**  
 Grew up in Vharoxis slums hunting rats and worse. Came north because frontier monsters are more honest than city predators. Direct in a way that unsettles people expecting masks.
 
-### Character Tie-In Questions
 
-1. **Which syndicate did you work for—or betray?**
-2. **What's the worst deal you ever made, and what were the consequences?**
-3. **Do you still wear masks, or have you left that behind?**
-4. **Who in Vharoxis wants you dead, captured, or returned?**
-5. **What's the one job you refused to take—and why?**
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 
 ## 6. The Shattered Coast — Maritime Frontier
 
@@ -504,26 +529,24 @@ Where ships meet their doom on razor reefs, where salvagers grow rich on wrecks,
 
 The Shattered Coast is a treacherous stretch of shoreline along Aevoria's western edge where jagged reefs and unpredictable tides have created a graveyard of ships—and opportunities for those willing to risk the waters. Despite the danger, the coast is a vital trade route and hub for maritime commerce, smuggling, and salvage operations. Strange things wash ashore here, and stranger things lurk beneath the waves.
 
-**Climate:** Stormy coastal; unpredictable weather  
-**Population:** ~8,000 (spread across settlements)  
-**Government:** Harbor councils, loose alliances  
-**Economy:** Trade, smuggling, salvage, fishing
+- **Climate:** Stormy coastal; unpredictable weather  
+- **Population:** ~8,000 (spread across settlements)  
+- **Government:** Harbor councils, loose alliances  
+- **Economy:** Trade, smuggling, salvage, fishing
 
 ### Common Backgrounds
 
-**Sailor**  
+- **Sailor**  
 You know ships, tides, navigation, and the hundred ways the sea can kill you. Coastal life is in your blood.
 
-**Pirate (Sailor variant)**  
+- **Pirate (Sailor variant)**  
 The Shattered Coast hosts more pirates than any region outside Vharoxis. Some call it freedom; others call it theft with extra steps.
 
-**Fisher (Folk Hero variant)**  
+- **Fisher (Folk Hero variant)**  
 You've spent your life pulling food from the sea while avoiding the things that pull back.
 
-**Smuggler (Criminal variant)**  
+- **Smuggler (Criminal variant)**  
 The coast's maze of reefs and coves makes it perfect for moving contraband. You know the safe channels—and you're not sharing.
-
-\column
 
 ### Cultural Traits
 
@@ -533,6 +556,8 @@ The coast's maze of reefs and coves makes it perfect for moving contraband. You 
 - **Storm-reading:** Weather prediction is survival; watch the sky constantly
 - **Coastal solidarity:** Different crews compete, but everyone helps during disasters
 - **Secret-keeping:** Some wrecks are cursed; some catches shouldn't be examined
+
+\column
 
 {{note
 ##### If You're From the Shattered Coast...
@@ -562,15 +587,13 @@ The coast's maze of reefs and coves makes it perfect for moving contraband. You 
 
 ### Sample Character Concepts
 
-**Captain Mira Stormcrow, Human Fighter (Battle Master)**  
+- **Captain Mira Stormcrow, Human Fighter (Battle Master)**  
 Former merchant captain whose ship met the reefs. Crew scattered, but she survived with her tactical mind intact. Leads Warden teams like a ship's crew.
 
-**Finn Tidecaller, Water Genasi Druid (Circle of the Land - Coast)**  
+- **Finn Tidecaller, Water Genasi Druid (Circle of the Land - Coast)**  
 Tide-priest from a fishing village who sensed wrongness in the waters. Came north following patterns in the storms, seeking their source.
 
-\page
-
-**"Lucky" Jack Kelver, Halfling Rogue (Swashbuckler)**  
+- **"Lucky" Jack Kelver, Halfling Rogue (Swashbuckler)**  
 Salvage diver who pulled up one relic too many from the Gravewater Trench. Got out before whatever was awakening down there fully noticed him. Mostly.
 
 ### Character Tie-In Questions
@@ -580,6 +603,11 @@ Salvage diver who pulled up one relic too many from the Gravewater Trench. Got o
 3. **Do you miss the water, or are you glad to be inland?**
 4. **What superstition or ritual do you still observe?**
 5. **Who or what are you running from on the coast?**
+
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 
 ---
 
@@ -593,28 +621,26 @@ Where fire carves the landscape and ash paints the sky, where the earth itself b
 
 The Emberlands are a harsh volcanic region in southern Aevoria where rivers of magma flow, ash storms sweep across blackened plains, and the land seems to breathe with primal power. Despite the danger, the region hosts resilient communities, valuable mineral deposits, and ancient traditions tied to fire, transformation, and the raw strength of the earth. Those who survive here are forged by adversity into something stronger.
 
-**Climate:** Hot, dry, volcanic; ash storms frequent  
-**Population:** ~10,000 (scattered settlements)  
-**Government:** Fire Councils (forge-master oligarchies)  
-**Economy:** Mining, metalwork, obsidian craft, fire-gems
+- **Climate:** Hot, dry, volcanic; ash storms frequent  
+- **Population:** ~10,000 (scattered settlements)  
+- **Government:** Fire Councils (forge-master oligarchies)  
+- **Economy:** Mining, metalwork, obsidian craft, fire-gems
 
-### Common Backgrounds
+#### Common Backgrounds
 
-**Guild Artisan (Fire-Forge)**  
+- **Guild Artisan (Fire-Forge)**  
 You're trained in the legendary fire-forges of Cindermarch, where volcanic heat creates unmatched metalwork.
 
-**Outlander**  
+- **Outlander**  
 Nomadic tribes follow the rhythms of the volcanic land, moving with the flows and storms. You know how to survive in impossible conditions.
 
-**Hermit**  
+- **Hermit**  
 The Emberlands attract those seeking isolation, transformation, or penance. Fire has a way of burning away everything but truth.
 
-**Soldier**  
+- **Soldier**  
 You served in the defense forces protecting mining operations, settlements, or caravans from fire-touched creatures and rival clans.
 
-\column
-
-### Cultural Traits
+#### Cultural Traits
 
 - **Endurance pride:** Surviving here proves your worth; weakness is culled by the land
 - **Fire reverence:** Destruction and creation are one; fire transforms
@@ -622,6 +648,8 @@ You served in the defense forces protecting mining operations, settlements, or c
 - **Resource scarcity:** Water is precious; waste is unforgivable
 - **Crafting excellence:** If you make something, make it to last
 - **Rebirth belief:** What burns away reveals truth beneath
+
+\column
 
 {{note
 ##### If You're From the Emberlands...
@@ -651,15 +679,13 @@ You served in the defense forces protecting mining operations, settlements, or c
 
 ### Sample Character Concepts
 
-**Kael Ashwalker, Human Monk (Way of the Four Elements)**  
+- **Kael Ashwalker, Human Monk (Way of the Four Elements)**  
 Raised in a fire-cult that worships transformation through heat. Came north to test whether fire-discipline works in ice. Finding interesting parallels.
 
-**Magna Emberforge, Fire Genasi Artificer (Artillerist)**  
+- **Magna Emberforge, Fire Genasi Artificer (Artillerist)**  
 Master fire-forge artisan studying how extreme cold affects her designs. Brought her portable forge to Northreach. Constantly complains about the temperature.
 
-\page
-
-**Scar, Half-Orc Barbarian (Path of the Ancestral Guardian)**  
+- **Scar, Half-Orc Barbarian (Path of the Ancestral Guardian)**  
 Sole survivor of a tribe consumed by volcanic eruption. Came north carrying their ashes and memories. Rage burns as hot as the homeland she lost.
 
 ### Character Tie-In Questions
@@ -669,8 +695,12 @@ Sole survivor of a tribe consumed by volcanic eruption. Came north carrying thei
 3. **What did you forge, create, or craft in the Emberlands?**
 4. **Why did you leave a land that shaped you so completely?**
 5. **Do you believe the land is "reawakening," as some claim?**
+6. 
 
----
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 
 ## 8. The Verdant Marches — The Green Stirring
 
@@ -682,28 +712,26 @@ Where ancient forests breathe and the land speaks in whispers, where life grows 
 
 The Verdant Marches are a vast stretch of untamed wilderness where ancient forests, rolling meadows, and tangled swamps blend into a living tapestry. In recent years, the land has begun to change—animals show unusual intelligence, plants react to emotion, and druids speak of whispers from the earth. Locals call it the "Green Stirring," and no one fully understands what it means.
 
-**Climate:** Lush temperate; humid and vibrant  
-**Population:** ~6,000 (nomadic and village-based)  
-**Government:** Druidic circles, clan elders  
-**Economy:** Hunting, gathering, herbal trade, beast-taming
+- **Climate:** Lush temperate; humid and vibrant  
+- **Population:** ~6,000 (nomadic and village-based)  
+- **Government:** Druidic circles, clan elders  
+- **Economy:** Hunting, gathering, herbal trade, beast-taming
 
-### Common Backgrounds
+#### Common Backgrounds
 
-**Outlander**  
+- **Outlander**  
 You're from one of the nomadic clans or isolated villages living in harmony with the ever-changing wilderness.
 
-**Hermit**  
+- **Hermit**  
 The Marches offer profound isolation for those seeking communion with nature. You lived among the whispers long before others noticed them.
 
-**Folk Hero**  
+- **Folk Hero**  
 You defended your community from awakened predators, guided lost travelers through shifting forests, or discovered the truth about the Green Stirring.
 
-**Acolyte**  
+- **Acolyte**  
 Druidic circles serve as spiritual leaders. You're trained in reading the land, performing rituals, and interpreting what the wilderness is trying to say.
 
-\column
-
-### Cultural Traits
+#### Cultural Traits
 
 - **Land-listening:** The wilderness communicates; wise people listen
 - **Adaptive living:** The forest changes; you change with it
@@ -711,6 +739,9 @@ Druidic circles serve as spiritual leaders. You're trained in reading the land, 
 - **Circle authority:** Druids interpret the land's will
 - **Minimal footprint:** Take only what you need; leave no lasting scars
 - **Stirring awareness:** Something is waking, and everyone feels it
+\column
+
+
 
 {{note
 ##### If You're From the Verdant Marches...
@@ -740,15 +771,13 @@ Druidic circles serve as spiritual leaders. You're trained in reading the land, 
 
 ### Sample Character Concepts
 
-**Rowan Greencloak, Human Ranger (Beast Master)**  
+- **Rowan Greencloak, Human Ranger (Beast Master)**  
 Clan hunter whose animal companion began speaking in dreams. Came north following patterns the wilderness showed him through his wolf's eyes.
 
-**Thistledown, Firbolg Druid (Circle of Dreams)**  
+- **Thistledown, Firbolg Druid (Circle of Dreams)**  
 Wandering druid who experienced visions during the Green Stirring. Sent north by her circle to observe how the awakening manifests in different environments.
 
-\page
-
-**Moss, Half-Elf Rogue (Scout)**  
+- **Moss, Half-Elf Rogue (Scout)**  
 Grew up in a Marches village before the Stirring. Left because the forest she knew became something she didn't recognize. Homesick for a place that no longer exists.
 
 ### Character Tie-In Questions
@@ -759,7 +788,10 @@ Grew up in a Marches village before the Stirring. Left because the forest she kn
 4. **Do you see the Stirring as dangerous, wonderful, or both?**
 5. **What druidic circle or clan do you still answer to?**
 
----
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 
 ## 9. The Sunken Dominion — Drowned Mysteries
 
@@ -771,28 +803,26 @@ Where crystalline towers rise from the seabed, where currents glow with ancient 
 
 Far beneath the waves lies the Sunken Dominion, a drowned civilization whose ruins stretch across the ocean floor. Strange relics wash ashore, glowing currents appear without warning, and sea creatures behave unnaturally. Most believe it was a coastal empire swallowed by cataclysm; others claim it was always a realm of the deep. Either way, the Dominion is awakening—and not everyone who studies it remains unchanged.
 
-**Climate:** Coastal and maritime  
-**Population:** Coastal settlements ~3,000  
-**Government:** Loose harbor councils, diving guilds  
-**Economy:** Salvage, deep-diving, relic trade, fishing
+- **Climate:** Coastal and maritime  
+- **Population:** Coastal settlements ~3,000  
+- **Government:** Loose harbor councils, diving guilds  
+- **Economy:** Salvage, deep-diving, relic trade, fishing
 
-### Common Backgrounds
+#### Common Backgrounds
 
-**Sailor (Deep Diver variant)**  
+- **Sailor (Deep Diver variant)**  
 You're trained in the dangerous art of deep-water salvage, recovering relics from the drowned ruins below.
 
-**Sage (Marine Scholar)**  
+- **Sage (Marine Scholar)**  
 You study the Dominion's artifacts, architecture, and anomalies, trying to understand what it was and why it calls.
 
-**Hermit**  
+- **Hermit**  
 You lived in isolation near the water, drawn to the whispers from below. Some say you spent too long listening.
 
-**Haunted One (CoS variant)**  
+- **Haunted One (CoS variant)**  
 You dove too deep, saw too much, or brought back something that won't let you go. The Dominion marked you.
 
-\column
-
-### Cultural Traits
+#### Cultural Traits
 
 - **Ocean reverence:** The sea gives and takes; respect both
 - **Relic caution:** Dominion artifacts are valuable and dangerous
@@ -800,6 +830,8 @@ You dove too deep, saw too much, or brought back something that won't let you go
 - **Changed acceptance:** The deep changes people; it's expected
 - **Secret burden:** Some discoveries shouldn't be shared
 - **Depth fear:** Even experienced divers know there are limits
+
+\column
 
 {{note
 ##### If You're From the Sunken Dominion...
@@ -829,15 +861,13 @@ You dove too deep, saw too much, or brought back something that won't let you go
 
 ### Sample Character Concepts
 
-**Marina Deepcaller, Water Genasi Warlock (Fathomless)**  
+- **Marina Deepcaller, Water Genasi Warlock (Fathomless)**  
 Deep diver who formed a pact with something in the Luminous Trenches. It taught her power in exchange for service she's still fulfilling. Came north because "it" wanted her to.
 
-**Coral (birth name forgotten), Triton Paladin (Oath of Redemption)**  
+- **Coral (birth name forgotten), Triton Paladin (Oath of Redemption)**  
 Former salvager who recovered a relic that showed her terrible visions. Swore an oath to prevent others from waking what sleeps below. Hunts Dominion artifacts.
 
-\page
-
-**Jonas Tiderunner, Human Wizard (School of Illusion)**  
+- **Jonas Tiderunner, Human Wizard (School of Illusion)**  
 Marine scholar who studied Glassspire geometry until it started appearing in his waking vision. Fled north to study "safer" magic. The patterns followed him.
 
 ### Character Tie-In Questions
@@ -848,7 +878,10 @@ Marine scholar who studied Glassspire geometry until it started appearing in his
 4. **Who did you lose to the Dominion's ruins?**
 5. **Do the glowing currents appear in your dreams?**
 
----
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
+
+\page
 
 ## 10. The Far North — Where the World Ends
 
@@ -860,26 +893,24 @@ Where blizzards rage without end, where ice stretches to the horizon, and where 
 
 The Far North is a frozen wasteland beyond Palebank Village, one of the most inhospitable regions in the known world. It's a place where survival is measured in hours without proper preparation, where nomadic groups eke out existence on the edges, and where ancient ruins emerge from the ice during brief thaws. Few travel there by choice. Fewer return unchanged.
 
-**Climate:** Subarctic to arctic; perpetual winter  
-**Population:** ~800 (nomadic and isolated)  
-**Government:** Clan elders, survival hierarchy  
-**Economy:** Hunting, ice fishing, limited scavenging
+- **Climate:** Subarctic to arctic; perpetual winter  
+- **Population:** ~800 (nomadic and isolated)  
+- **Government:** Clan elders, survival hierarchy  
+- **Economy:** Hunting, ice fishing, limited scavenging
 
 ### Common Backgrounds
 
-**Outlander**  
+- **Outlander**  
 You're from one of the nomadic reindeer-herding or ice-fisher clans that follow the herds and seasons across the frozen waste.
 
-**Hermit**  
+- **Hermit**  
 You sought ultimate isolation in the world's harshest environment. Perhaps you found enlightenment—or just frostbite and madness.
 
-**Folk Hero**  
+- **Folk Hero**  
 You saved your clan from a blizzard, discovered a safe route, or defended against ice-touched predators. Your people remember.
 
-**Soldier (Survivor variant)**  
+- **Soldier (Survivor variant)**  
 You served in a failed expedition, refugee group, or research mission. You survived when others didn't.
-
-\column
 
 ### Cultural Traits
 
@@ -889,6 +920,8 @@ You served in a failed expedition, refugee group, or research mission. You survi
 - **Oral tradition:** Stories are survival guides passed through generations
 - **Minimal possessions:** Own only what you can carry when moving
 - **Silent endurance:** Complaints waste breath and energy
+
+\column
 
 {{note
 ##### If You're From the Far North...
@@ -918,15 +951,13 @@ You served in a failed expedition, refugee group, or research mission. You survi
 
 ### Sample Character Concepts
 
-**Eira Frostborn, Human Barbarian (Path of the Totem Warrior - Bear)**  
+- **Eira Frostborn, Human Barbarian (Path of the Totem Warrior - Bear)**  
 Last survivor of a clan lost to an unexpected deep freeze. Came south with their story and determination to ensure others remember. Rage is grief given voice.
 
-**Njal Icecaller, Goliath Ranger (Monster Slayer)**  
+- **Njal Icecaller, Goliath Ranger (Monster Slayer)**  
 Former expedition guide who encountered something in the Far North ruins that shouldn't exist. Hunts creatures touched by ancient cold. Doesn't talk about what he saw.
 
-\page
-
-**Frost, Kalashtar Monk (Way of the Long Death)**  
+- **Frost, Kalashtar Monk (Way of the Long Death)**  
 Hermit who meditated in ice caves until something spoke back. Emerged with uncanny cold resistance and fragments of memory that aren't his own. Seeking answers.
 
 ### Character Tie-In Questions
@@ -937,8 +968,11 @@ Hermit who meditated in ice caves until something spoke back. Emerged with uncan
 4. **What did you see in the ruins that made you leave?**
 5. **Do you ever want to return—or would death be preferable?**
 
-\page
+{{pageNumber,auto}}
+{{footnote THE TEN REGIONS}}
 
+\page
+{{wide
 # Cross-Regional Tensions
 
 Understanding how different regions view each other enriches roleplay and creates natural character conflicts—not hostile, but the friction of different worldviews meeting.
@@ -956,70 +990,45 @@ Understanding how different regions view each other enriches roleplay and create
 | | Verdant Marches | Strange but competent; trust them in wilderness |
 | | Sunken Dominion | Obsessed and possibly touched; watch closely |
 | | Far North | Grim but capable; survived worse than here |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Solaris** | Northreach | Rustic but honest; authentic stories here |
 | | Nullwood | Elegant but emotionally repressed |
 | | Stonebound | Master crafters; lack artistic vision |
 | | Vharoxis | Kindred spirits in performance; morally questionable |
 | | Others | Exotic material for stories and songs |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Nullwood** | Solaris | Chaotic and loud; exhausting to be around |
 | | Northreach | Practical but crude; potential for balance |
 | | Stonebound | Patient like us; understand deep time |
 | | Verdant Marches | Concerning; change without discipline |
 | | Others | Too quick to act; insufficient contemplation |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Stonebound** | Solaris | All flash, no foundation |
 | | Northreach | Respect their frontier forges; rough but capable |
 | | Nullwood | Patient but passive |
 | | Emberlands | Appreciate fire-craft; too volatile |
 | | Others | Surface-dwellers; lack deep understanding |
-
-\column
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Vharoxis** | All regions | Potential clients, marks, or threats |
 | | Northreach | Honest to a fault; exploitable |
 | | Solaris | Competition in deception |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Shattered Coast** | Northreach | Landlocked but understand harsh environments |
 | | Solaris | Land-safe and naive |
 | | Sunken Dominion | Too curious; don't respect the depths |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Emberlands** | Northreach | Soft; haven't been properly tested |
 | | Verdant Marches | Too gentle; growth without strength |
 | | Far North | Respect; different hardship, equal strength |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Verdant Marches** | Northreach | Balanced; frontier between wild and tame |
 | | Solaris | Cut off from nature |
 | | Nullwood | Lost their wildness; over-controlled |
 | | Stonebound | Carved too deep; wounded the earth |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Sunken Dominion** | Shattered Coast | Surface-skimmers; don't understand depth |
 | | Others | Dry-landers; can't hear what water teaches |
-
-| Your Origin | View of... | Common Perception |
-|------------|------------|-------------------|
 | **Far North** | Northreach | Mild climate; "cold" here is autumn there |
 | | Solaris | Wasteful and soft |
 | | All Warm Regions | Complaining about nothing |
+}}
 
----
+{{pageNumber,auto}}
+{{footnote CROSS-REGIONAL TENSIONS}}
+
+\page
 
 ## Common Points of Friction
 
@@ -1035,7 +1044,7 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 - Nullwood emotional control vs Vharoxis performance
 - Far North silence vs everyone else
 
-\page
+
 
 **Resource Use**
 - Emberlands/Far North conservation vs Solaris comfort
@@ -1053,6 +1062,7 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 - Sunken Dominion artifacts vs everyone's caution
 
 ---
+\column
 
 ## Roleplaying Regional Tensions
 
@@ -1096,6 +1106,9 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 Regional tensions should enhance roleplay, not hinder it. If friction between characters stops being fun or constructive, address it out-of-game. The goal is interesting character dynamics, not party splits.
 }}
 
+{{pageNumber,auto}}
+{{footnote CROSS-REGIONAL TENSIONS}}
+
 \page
 
 # Creating Your Regional Background
@@ -1110,121 +1123,129 @@ Many backgrounds include a **feature** (like Sailor's "Ship's Passage" or Soldie
 
 #### Northreach Variants
 
-**Frontier Network (Folk Hero/Outlander)**  
+- **Frontier Network (Folk Hero/Outlander)**  
 Northreach communities remember those who help them. You can find shelter, information, and basic aid from frontier settlements. People recognize you as someone who understands their struggles.
 
-**Warden Reputation (Soldier/Guard)**  
+- **Warden Reputation (Soldier/Guard)**  
 If you've done contract work successfully, settlements in Northreach know your name. You gain advantage on Charisma checks when dealing with frontier communities who've heard of the Wardens' work.
 
-**Winter Survivor (Outlander)**  
+- **Winter Survivor (Outlander)**  
 You know how to find shelter, preserve food, and survive conditions that would kill softer folk. Other survivors recognize this competence and respect it.
 
 #### Solaris Variants
 
-**Cultural Currency (Entertainer/Noble)**  
+- **Cultural Currency (Entertainer/Noble)**  
 You know Solaris' current stories, songs, and social dynamics. In any major city, you can leverage this knowledge to gain audiences, information, or temporary prestige.
 
-**Faction Contact (Sage/Acolyte)**  
+- **Faction Contact (Sage/Acolyte)**  
 You maintain connection to a Solarian faction (Harmonist, Veilbound, or Chorus). Once per city, you can contact them for information, resources, or temporary sanctuary—though favors may be expected in return.
 
-**Performance Perfection (Entertainer)**  
+- **Performance Perfection (Entertainer)**  
 Trained in Solaris' legendary venues, your performances are technically flawless. You gain advantage on Performance checks in professional settings and can command higher fees.
-
-#### Nullwood Variants
-
-**Memory Keeper (Sage/Acolyte)**  
-You're trained in Nullwood memory techniques. You can perfectly recall information you've specifically memorized, and other Nullwood elves recognize you as educated.
-
-**Silent Movement (Outlander/Hermit)**  
-Nullwood training teaches supernatural quiet. You have advantage on Stealth checks in natural environments and can move through wilderness leaving minimal trace.
 
 \column
 
-**Emotional Discipline (Any)**  
+#### Nullwood Variants
+
+- **Memory Keeper (Sage/Acolyte)**  
+You're trained in Nullwood memory techniques. You can perfectly recall information you've specifically memorized, and other Nullwood elves recognize you as educated.
+
+- **Silent Movement (Outlander/Hermit)**  
+Nullwood training teaches supernatural quiet. You have advantage on Stealth checks in natural environments and can move through wilderness leaving minimal trace.
+
+- **Emotional Discipline (Any)**  
 Nullwood emotional training grants advantage on saving throws against being frightened or charmed. Others see you as unusually calm under pressure.
 
 #### Stonebound Variants
 
-**Craftmaster's Mark (Guild Artisan)**  
+- **Craftmaster's Mark (Guild Artisan)**  
 You bear a maker's mark from the Stonebound Depths. Other crafters recognize quality work, and dwarven communities offer professional courtesy and discounted services.
 
-**Stone Sense (Outlander/Soldier)**  
+- **Stone Sense (Outlander/Soldier)**  
 Underground experience grants you advantage on Investigation checks related to stonework, architecture, and underground navigation. You can detect unstable structures by touch.
 
-**Resonance Training (Acolyte/Sage)**  
+- **Resonance Training (Acolyte/Sage)**  
 You can sense subtle vibrations in earth and metal. This grants advantage on Perception checks to detect tremors, underground movement, or hidden mechanisms.
 
 #### Vharoxis Variants
 
-**Black Market Access (Criminal/Charlatan)**  
+- **Black Market Access (Criminal/Charlatan)**  
 You know how to find and navigate underground markets. In any city, you can locate fences, forgers, and smugglers within a day.
 
-**Mask Culture (Any)**  
+- **Mask Culture (Any)**  
 You're trained in reading people despite disguises. You have advantage on Insight checks to determine if someone is hiding their identity or true intentions.
 
-**Syndicate Debt (Criminal)**  
+- **Syndicate Debt (Criminal)**  
 A Vharoxis syndicate owes you a favor—one. You can call it in for significant aid, but afterwards the debt is cleared (and you'd better not owe them anything).
 
-#### Shattered Coast Variants
-
-**Storm Sense (Sailor/Outlander)**  
-Coastal training lets you predict weather with uncanny accuracy. You have advantage on Survival checks related to weather prediction and can sense major storms hours in advance.
-
-**Salvager's Eye (Criminal/Sailor)**  
-You can assess wreckage, ruins, or disaster sites and determine what's valuable and what's dangerous. Gain advantage on Investigation checks in such locations.
-
-**Sea Superstition (Sailor)**  
-Your superstitious rituals actually work—or coincidentally align with danger. Once per day, you can reroll a failed saving throw if you performed an appropriate ritual that morning.
+{{pageNumber,auto}}
+{{footnote CREATING YOUR REGIONAL BACKGROUND}}
 
 \page
 
+#### Shattered Coast Variants
+
+- **Storm Sense (Sailor/Outlander)**  
+Coastal training lets you predict weather with uncanny accuracy. You have advantage on Survival checks related to weather prediction and can sense major storms hours in advance.
+
+- **Salvager's Eye (Criminal/Sailor)**  
+You can assess wreckage, ruins, or disaster sites and determine what's valuable and what's dangerous. Gain advantage on Investigation checks in such locations.
+
+- **Sea Superstition (Sailor)**  
+Your superstitious rituals actually work—or coincidentally align with danger. Once per day, you can reroll a failed saving throw if you performed an appropriate ritual that morning.
+
 #### Emberlands Variants
 
-**Fire Resistance (Guild Artisan/Outlander)**  
+- **Fire Resistance (Guild Artisan/Outlander)**  
 Exposure to volcanic heat grants you resistance to extreme temperatures. You have advantage on saves against environmental heat and can work comfortably in conditions that would exhaust others.
 
-**Volcanic Crafting (Guild Artisan)**  
+- **Volcanic Crafting (Guild Artisan)**  
 You know techniques for working with volcanic materials. You can identify rare minerals by sight and can craft items using geothermal heat when available.
 
-**Endurance Pride (Soldier/Outlander)**  
+- **Endurance Pride (Soldier/Outlander)**  
 Emberlands culture values toughness. You can push through exhaustion—once per long rest, you can ignore one level of exhaustion for 1 hour.
 
 #### Verdant Marches Variants
 
-**Green Whispers (Outlander/Hermit)**  
+- **Green Whispers (Outlander/Hermit)**  
 The land speaks to you—sometimes. Once per day, you can ask the DM one yes/no question about the local environment, and receive an intuitive answer.
 
-**Beast Tongue (Outlander/Acolyte)**  
+- **Beast Tongue (Outlander/Acolyte)**  
 You've learned to communicate basic concepts with natural animals. This isn't magic, just deep understanding of behavior and body language.
 
-**Herbal Expertise (Outlander/Hermit)**  
+- **Herbal Expertise (Outlander/Hermit)**  
 Marches training makes you an expert in plants. You have advantage on Nature checks related to plants, and can always find basic healing herbs in natural environments.
+
+\column
 
 #### Sunken Dominion Variants
 
-**Deep Diver (Sailor)**  
+- **Deep Diver (Sailor)**  
 You can hold your breath for twice as long as normal and have advantage on Athletics checks related to swimming. You're comfortable at depths that terrify others.
 
-**Relic Sense (Sage/Hermit)**  
+- **Relic Sense (Sage/Hermit)**  
 Exposure to Dominion artifacts gives you intuition about ancient magic. You can sense when an object is magically significant, though not its specific properties.
 
-**Changed by the Deep (Any)**  
+- **Changed by the Deep (Any)**  
 The ocean marked you. Choose one minor aquatic feature: gills (can breathe underwater for 10 minutes per day), webbed fingers (swim speed +10 ft), or bioluminescent marks (can produce dim light 5 ft for 1 hour per day).
 
 #### Far North Variants
 
-**Ice Reader (Outlander)**  
+- **Ice Reader (Outlander)**  
 You can assess ice safety, predict blizzards, and navigate by stars even in white-out conditions. You have advantage on Survival checks in arctic environments.
 
-**Cold Endurance (Outlander/Soldier)**  
+- **Cold Endurance (Outlander/Soldier)**  
 Far North exposure grants you resistance to extreme cold. You can function normally in conditions that would give others exhaustion.
 
-\column
-
-**Ruin Knowledge (Sage/Hermit)**  
+- **Ruin Knowledge (Sage/Hermit)**  
 You've explored Far North ruins and survived. You recognize Aeorian architectural patterns and can identify similar structures elsewhere. This knowledge unsettles you.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CREATING YOUR REGIONAL BACKGROUND}}
+
+\page
 
 ## Languages by Region
 
@@ -1244,6 +1265,7 @@ While Common is universal, regions have linguistic peculiarities:
 | **Far North** | Giant, Primordial (ice), various clan dialects |
 
 ---
+\column
 
 ## Tool Proficiencies by Region
 
@@ -1266,12 +1288,15 @@ Consider regional tool proficiencies that replace or supplement background tools
 With DM approval, you can replace one background tool proficiency with a regional tool that better fits your character concept. The mechanical benefit remains the same, but the narrative flavor changes.
 }}
 
+{{pageNumber,auto}}
+{{footnote CREATING YOUR REGIONAL BACKGROUND}}
+
 \page
 
 # Final Thoughts: Your Place in the World
 
 ## Making Origins Matter
-
+{{wide
 Your regional origin should influence your character consistently:
 
 ### In Roleplay
@@ -1297,6 +1322,7 @@ Your regional origin should influence your character consistently:
 ## Regional Origin Questionnaire
 
 Answer these questions to ground your character in their region:
+}}
 
 ### Identity
 1. What do you miss most about home?
@@ -1312,14 +1338,14 @@ Answer these questions to ground your character in their region:
 4. How has your regional upbringing proven useful here?
 5. What regional value do you hold that others don't share?
 
+\column
+
 ### Connections
 1. Who from home would you like to see again?
 2. Who are you avoiding or running from?
 3. What news from home would make you drop everything?
 4. Does anyone from your region know where you are?
 5. What do you owe to people back home?
-
-\column
 
 ### Future
 1. Why did you join the Wardens instead of going elsewhere?
@@ -1329,6 +1355,11 @@ Answer these questions to ground your character in their region:
 5. Where do you see yourself in five years?
 
 ---
+
+{{pageNumber,auto}}
+{{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
+
+\page
 
 ## Working With Your DM
 
@@ -1356,6 +1387,7 @@ Your regional origin should inspire your character, not constrain them. You're s
 }}
 
 ---
+\column
 
 ## Conclusion
 
@@ -1365,6 +1397,7 @@ Whether you're a Northreach native defending your home, a Solarian bard seeking 
 
 The frontier awaits. Bring your heritage with you, but don't be surprised when Northreach changes you as much as you change it.
 
-**Welcome to the Northwatch Wardens.**
-**Your story begins here.**
-
+{{descriptive
+#### **Welcome to the Northwatch Wardens.**
+*Your story begins here.*
+}}

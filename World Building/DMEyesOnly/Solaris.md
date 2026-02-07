@@ -51,6 +51,9 @@ This document contains DM-only secrets about the Solaris Dominion. **DO NOT shar
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Secrets and Revelations
@@ -163,6 +166,9 @@ Instead of pure Charisma checks:
 
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

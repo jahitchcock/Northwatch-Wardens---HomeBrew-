@@ -22,6 +22,9 @@ This journal is your record of what you’ve seen and what you’ve chosen: the 
 
 ![Wardens Logo](https://i.imgur.com/h0kcFqO_d.png){width:250px,border:"2px solid",border-radius:10px,float:"left",margin:"2px"}
 
+{{pageNumber,auto}}
+{{footnote WELCOME TO NORTHREACH}}
+
 \page
 
 
@@ -83,6 +86,9 @@ The Northwatch Wardens are a contract-based guild headquartered at the **Wayston
 - Bandits and opportunists
 - Sudden weather shifts
 - “Old places” in the wilds that sensible folk avoid
+
+{{pageNumber,auto}}
+{{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
 \page
 
@@ -152,8 +158,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 ### Palebank rumors
 - A strange illness has people worried.
 
-
-
+{{pageNumber,auto}}
+{{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
 \page
 
@@ -172,6 +178,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 }}
 
+{{pageNumber,auto}}
+{{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
 \page
 
@@ -185,6 +193,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 | <img src="https://i.imgur.com/yxGZKlq.png" width="90" alt="Sera Gelanadel" /> | Sera Gelanadel | Waystone Inn | Lorewatch | Apprentice wizard; often around the library and noticeboard. |  |
 
 }}
+
+{{pageNumber,auto}}
+{{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
 \page
 
@@ -202,6 +213,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 |  |  |  |  |  |  |
 
 }}
+
+{{pageNumber,auto}}
+{{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
 \page
 
@@ -259,6 +273,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 }}
 
+{{pageNumber,auto}}
+{{footnote 2) CAMPAIGN JOURNAL}}
+
 \page
 {{wide
 ## 2.4 Places (location index)
@@ -309,6 +326,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 
 }}
+
+{{pageNumber,auto}}
+{{footnote 2) CAMPAIGN JOURNAL}}
 
 \page
 {{wide

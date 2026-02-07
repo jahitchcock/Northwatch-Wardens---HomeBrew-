@@ -67,6 +67,9 @@ Since Eclipse Day:
 - Connects Emberlands phenomena to the broader Aeorian Echo mystery
 - Raises questions about how many other "natural" features hide ancient technology
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ---
@@ -166,6 +169,9 @@ Cult prophecies contain distorted fragments of truth:
 - Cult visions can provide clues—if decoded correctly
 - Infiltrating cults may reveal network activity patterns
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ---
@@ -252,6 +258,9 @@ Information players should eventually discover (through investigation and explor
 - Options for resolving the crisis
 - The price of each solution
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ---
@@ -327,6 +336,9 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 - Source of Echo-touched materials
 - Could be accessed and controlled—if discovered
 - Potential bargaining chip between factions
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -514,6 +526,9 @@ Ultimate outcomes depend on player choices across the campaign:
 ---
 
 *The Emberlands burn because something beneath the stone is waking—and it remembers a world that no longer exists.*
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

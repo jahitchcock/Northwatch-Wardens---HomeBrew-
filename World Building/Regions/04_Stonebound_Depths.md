@@ -62,6 +62,9 @@ Notable locations within the Depths:
 - **The Lower Veins** — Mining districts rich with rare metals and crystal
 - **The Echoing Roads** — Ancient tunnels that carry sound for miles
 
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
+
 \page
 
 ### The Mountain Range
@@ -165,6 +168,9 @@ The centerpiece of dwarven civilization:
 - Dwarves excited, not alarmed
 - Interpreting as natural evolution
 
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
+
 \page
 
 ### Notable Districts
@@ -256,6 +262,10 @@ Stonebound culture is built on three fundamental principles:
 ::Dwarves carve their history into stone, believing that written words fade but stone endures. Their records go back thousands of years, preserved in tablets that line the Deep-Readers' Archive. To forget is to dishonor; to remember is to honor.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
+
 \page
 
 ### The Stone Philosophy
@@ -359,6 +369,9 @@ Relatively high:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
+
 \page
 
 ## Magic in the Depths
@@ -461,6 +474,9 @@ The Deep Father is seen as the eternal foundation—the consciousness of stone i
 }}
 **Clergy:** Deep-Priests who maintain historical records and perform ceremonies for births, deaths, and significant constructions.
 
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
+
 \page
 
 ### The Forge-Mother
@@ -553,6 +569,9 @@ Deep-Readers declared: "A new verse in the world's song has begun."
 - Opportunity (more minerals will form)
 - Prophecy fulfilled (debatable)
 - Requires study but not fear
+
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
 
 \page
 
@@ -647,7 +666,7 @@ Disdain.
 Interest.  
 - Distant but aware
 - Some dwarven prospectors in frontier
-- The Aeorian Echo's tremors match patterns in ancient dwarven records
+- Recent seismic tremors match patterns described in fragmentary ancient records—a fact that deeply unsettles dwarven elders
 - Waystone Inn has dwarven-made furniture
 - Occasional trade caravans
 - Both experiencing "strange times"
@@ -660,6 +679,9 @@ Interest.
 - Studying volcanic resonance
 - Reports of increased activity correlate with Eclipse Day
 - Concern growing
+
+{{pageNumber,auto}}
+{{footnote THE STONEBOUND DEPTHS}}
 
 \page
 

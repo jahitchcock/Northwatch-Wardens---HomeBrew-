@@ -72,6 +72,9 @@ Nature commands respect:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ## Human Frontier Culture
@@ -164,6 +167,9 @@ Dwarves in Northreach come from two main sources:
 - Brewers and distillers
 - Engineers and problem-solvers
 
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ### Dwarven Contributions to Northreach
@@ -252,6 +258,10 @@ Elves face unique frontier difficulties:
 - Balancing isolation preference with community need
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ## Halfling Communities
@@ -356,6 +366,10 @@ Occasionally found in Northreach:
 - Appreciate frontier's focus on competence over background
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ## Intercultural Dynamics
@@ -458,6 +472,9 @@ Maintained to varying degrees:
 - Others as appropriate
 - Second-generation speakers less fluent
 
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ### Written Communication
@@ -554,6 +571,10 @@ Hard winters teach lessons:
 - Plan for next winter starting in spring
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
+
 \page
 
 ## Clothing and Practical Gear
@@ -649,6 +670,9 @@ What brings people together:
 - Pride in frontier accomplishment
 
 ---
+
+{{pageNumber,auto}}
+{{footnote CULTURES OF NORTHREACH}}
 
 \page
 

@@ -78,6 +78,9 @@ Tidebreaker Point is the safest place to observe the Dominion—from a distance.
 - **The Drowned Archive:** A library dedicated to cataloging every relic and report from the Dominion
 - **The Diver's Rest:** A tavern where salvage crews gather to trade stories (and warnings)
 
+{{pageNumber,auto}}
+{{footnote THE SUNKEN DOMINION}}
+
 \page
 
 ### 2. The Lantern Shoals
@@ -174,6 +177,9 @@ Since Eclipse Day, cult activity has intensified. Ritual sites have appeared alo
 Vharoxis has established extensive smuggling networks for Dominion relics. They move artifacts to collectors, researchers, and anyone willing to pay. No questions asked. No records kept.
 
 Their involvement has complicated every attempt to regulate salvage operations.
+
+{{pageNumber,auto}}
+{{footnote THE SUNKEN DOMINION}}
 
 \page
 

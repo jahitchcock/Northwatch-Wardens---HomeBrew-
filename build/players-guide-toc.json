@@ -30,8 +30,7 @@
     {
       "chapter": "The Northwatch Wardens",
       "files": [
-        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md",
-        "../World Building/Player_Resources/Creating_Your_Warden.md"
+        "../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md"
       ]
     },
     {
@@ -47,13 +46,15 @@
         "../World Building/Regions/07_Emberlands.md",
         "../World Building/Regions/08_Verdant_Marches.md",
         "../World Building/Regions/09_Sunken_Dominion.md",
-        "../World Building/Regions/10_The_Far_North.md"
+        "../World Building/Regions/10_The_Far_North.md",
+        "../World Building/Organizations/Organizations_Overview.md"
       ]
     },
     {
       "chapter": "Gods and Religion",
       "files": [
-        "../World Building/Religion/Divinitys_Beacon_Pantheon.md"
+        "../World Building/Religion/Divinitys_Beacon_Pantheon.md",
+        "../World Building/Religion/Religious_Practices.md"
       ]
     },
     {
@@ -67,12 +68,15 @@
       "chapter": "Practical Information",
       "files": [
         "../World Building/Player_Quick_Reference.md",
-        "../World Building/Practical/Currency_and_Trade.md"
+        "../World Building/Practical/Currency_and_Trade.md",
+        "../World Building/Practical/Common_Goods_and_Services.md",
+        "../World Building/Practical/Travel_and_Distance.md"
       ]
     },
     {
       "chapter": "Appendix",
       "files": [
+        "../World Building/Appendix/Glossary.md",
         "../World Building/Regions/Northreach/SongsOfTheNorthreach.md",
         "../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md"
       ]

@@ -607,6 +607,9 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 - **Bioluminescence:** Increasing in frequency and intensity
 - **Coordinated behavior:** Schools moving in geometric patterns
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ---

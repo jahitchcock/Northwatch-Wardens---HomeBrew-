@@ -1,4 +1,5 @@
 # Languages and Culture of Aevoria
+{{wide
 ## A Player's Guide to Communication and Customs
 
 {{descriptive
@@ -18,7 +19,7 @@ Whether you're a frontier native learning to navigate wider Aevoria or a travele
 ---
 
 ## Why Languages and Culture Matter
-
+}}
 ### In Gameplay
 
 Understanding languages and culture creates real advantages:
@@ -57,48 +58,48 @@ Choose languages that fit your character's story and will be useful in the campa
 }}
 
 ---
-
-## How to Use This Guide
-
-This guide is organized into sections:
-
-**Languages (pages 2-4):** Detailed information about each language—who speaks it, where it's common, and what it's useful for
-
-**Cultural Practices (pages 5-8):** General customs that apply across multiple regions—greetings, dining, gifts, hospitality, and trade
-
-**Regional Customs (pages 9-14):** Specific practices, taboos, and etiquette for each of Aevoria's ten regions
-
-**Superstitions and Beliefs (pages 15-16):** Common folk beliefs, omens, and life-milestone customs
-
-**Conflict Resolution (page 17):** How different cultures handle disputes, honor, and justice
-
-**Practical Gameplay (pages 18-19):** Examples and mechanics for using language and culture at the table
-
-**Quick Reference (page 20):** Tables for fast lookup during play
+{{pageNumber,auto}}
+{{footnote LANGUAGES AND CULTURE OF AEVORIA}}
 
 \page
+{{wide
+## How to Use This Chapter
+
+- **Languages:** Detailed information about each language—who speaks it, where it's common, and what it's useful for
+
+- **Cultural Practices:** General customs that apply—greetings, dining, gifts, hospitality, and trade
+
+- **Regional Customs:** Specific practices, taboos, and etiquette for each of Aevoria's ten regions
+
+- **Superstitions and Beliefs:** Common folk beliefs, omens, and life-milestone customs
+
+- **Conflict Resolution:** How different cultures handle disputes, honor, and justice
+
+- **Practical Gameplay:** Examples and mechanics for using language and culture at the table
+
+- **Quick Reference:** Tables for fast lookup during play
 
 # Languages of Aevoria
 
 ## Standard Languages
 
 These languages are relatively common and accessible to player characters.
-
+}}
 ### Common
-**Script:** Common alphabet  
-**Speakers:** Nearly universal  
-**Rarity:** Universal
+- **Script:** Common alphabet  
+- **Speakers:** Nearly universal  
+- **Rarity:** Universal
 
-**Who Speaks It:**
+#### **Who Speaks It:**
 Common is the trade language of Aevoria, spoken by humans, half-elves, halflings, and as a second language by most other races. It's the language of commerce, diplomacy, and everyday interaction across the world.
 
-**Where It's Used:**
+#### **Where It's Used:**
 Everywhere. From the frozen frontier of Northreach to the sun-drenched plazas of Solaris, Common is understood by merchants, soldiers, travelers, and townsfolk. Even isolated communities usually have someone who speaks Common.
 
-**Written Form:**
+#### **Written Form:**
 The Common alphabet is simple and practical, consisting of 26 letters. Literacy in Common is moderate—perhaps 40-50% of the population can read and write it, with higher rates in cities and lower rates in rural areas.
 
-**Practical Uses:**
+#### **Practical Uses:**
 - Default language for most communication
 - Reading contracts, notices, and general documents
 - Trade and commerce across all regions
@@ -117,31 +118,35 @@ Common has regional accents but remains mutually intelligible:
 \column
 
 ### Dwarvish
-**Script:** Dwarvish runes (angular, geometric)  
-**Speakers:** Dwarves, some miners and craftspeople  
-**Rarity:** Common in mountains, uncommon elsewhere
+- **Script:** Dwarvish runes (angular, geometric)  
+- **Speakers:** Dwarves, some miners and craftspeople  
+- **Rarity:** Common in mountains, uncommon elsewhere
 
 **Who Speaks It:**
 Native to dwarves of the Stonebound Depths, Dwarvish is the language of stone, metal, and deep earth. It's a precise language with extensive technical vocabulary for crafts, minerals, and construction.
 
-**Where It's Used:**
+#### **Where It's Used:**
 - **Stonebound Depths:** Primary language
 - **Northreach:** Uncommon (some craftspeople)
 - **Emberlands:** Spoken at Ashfall Hold research outpost
 - **Mining communities:** Technical discussions
 
-**Written Form:**
+#### **Written Form:**
 Dwarvish runes are carved, not written. They're designed to be chiseled into stone and remain legible for centuries. The script is angular and geometric, reflecting dwarven aesthetic values.
 
-**Practical Uses:**
+#### **Practical Uses:**
 - Reading runes on ancient stonework
 - Communicating with dwarven merchants and craftspeople
 - Understanding geomantic and resonance terminology
 - Deciphering mining records and craft guild documentation
 
-**Cultural Notes:**
+#### **Cultural Notes:**
 Dwarves appreciate non-dwarves who learn their language—it shows respect for their culture and craft traditions. Speaking Dwarvish in trade negotiations with dwarves often grants favorable terms.
 
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
+
+\page
 
 ### Elvish
 **Script:** Flowing script (curved, elegant)  
@@ -214,6 +219,10 @@ Gnomish is a fast-paced, technical language filled with compound words and creat
 - Communicating with gnome merchants
 - Deciphering technical documentation
 
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
+
+\page
 
 ### Goblin
 **Script:** Dwarvish runes (crude)  
@@ -279,6 +288,9 @@ Orcish is powerful and direct, emphasizing strength, honor, and prowess. It has 
 
 **Cultural Notes:**
 Speaking Orc with proper inflection shows respect. The language values directness—flowery speech is seen as weakness or deception.
+
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
 
 \page
 
@@ -359,7 +371,6 @@ Ancient and powerful, Draconic is the language of dragons and arcane magic. Many
 **Cultural Notes:**
 Dragons consider their language sacred. Speaking Draconic commands their attention—whether that attention is favorable or hostile depends on your conduct.
 
-\column
 
 ### Deep Speech
 **Script:** None (telepathic/symbolic)  
@@ -386,6 +397,11 @@ The "language" of aberrations from the deep places of the world—and possibly b
 
 Prolonged exposure to Deep Speech can cause mental strain. Your DM may require Wisdom saving throws after extended use. This language marks you as someone who has encountered things best left forgotten.
 }}
+
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
+
+\page
 
 ### Infernal
 **Script:** Infernal script (precise)  
@@ -431,6 +447,8 @@ The language of the elemental planes, Primordial encompasses four dialects: Aqua
 - Understanding natural phenomena (in a magical sense)
 - Accessing elemental magic traditions
 
+\column
+
 ### Sylvan
 **Script:** Elvish script (nature-touched)  
 **Speakers:** Fey, druids, forest creatures  
@@ -454,7 +472,6 @@ The language of the fey and natural magic, Sylvan is whimsical and unpredictable
 **Cultural Notes:**
 Sylvan speakers are often druids, rangers, or those with fey heritage. The language is playful and metaphorical—literal translations rarely capture true meaning.
 
-\column
 
 ### Undercommon
 **Script:** Elvish script (corrupted)  
@@ -479,8 +496,12 @@ The trade language of the Underdark, Undercommon is a blend of corrupted Elvish,
 **Cultural Notes:**
 Speaking Undercommon marks you as someone familiar with the underground—literally and figuratively. Surface dwellers who know it are often assumed to have criminal connections.
 
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
+
 \page
 
+{{wide
 ## Language Distribution by Region
 
 This table shows which languages are commonly heard in each region:
@@ -518,14 +539,18 @@ Recommended languages based on common character backgrounds:
 | **Soldier** | Goblin, Orc | Enemy communications, military context |
 | **Urchin** | Thieves' Cant, Goblin | Street survival, underground |
 
+}}
+{{pageNumber,auto}}
+{{footnote LANGUAGES OF AEVORIA}}
+
 \page
 
 # Cultural Practices
-
+{{wide
 ## Greetings and Social Etiquette
 
 How you greet someone—and how they greet you—sets the tone for every interaction. Different regions have different expectations.
-
+}}
 ### Formal Greetings
 
 **Northreach:**
@@ -610,60 +635,76 @@ Using the wrong greeting or title can impose disadvantage on Charisma checks. Yo
 - Using real names in Vharoxis marks you as an outsider
 }}
 
+{{pageNumber,auto}}
+{{footnote CULTURAL PRACTICES}}
 
 \page
-
+{{wide
 ## Dining Customs
 
 Breaking bread—or refusing it—carries deep cultural meaning.
-
+}}
 ### Meal Structure
 
-**Northreach:**
+#### **Northreach:**
 - Two main meals: morning (hearty) and evening (communal)
 - Midday snacks (portable food for workers)
 - Nothing is wasted; clean your plate or save leftovers
 - Meals are practical fuel, not performances
 
-**Solaris:**
+#### **Solaris:**
 - Three elaborate meals: breakfast (light), lunch (social), dinner (grand)
 - Multiple courses expected in formal settings
 - Presentation matters as much as taste
 - Dining is performance and social maneuvering
 
-**Nullwood:**
+#### **Nullwood:**
 - Quiet, contemplative eating
 - Food blessed before consumption
 - Minimal meat (vegetarian-leaning)
 - Meals are meditative, not rushed
 
-**Stonebound:**
+#### **Stonebound:**
 - Two heavy meals: mid-morning and evening
 - Food served in courses, each announced
 - Ale or mead accompanies every meal
 - Eating is communal bonding
 
-**Emberlands:**
+#### **Emberlands:**
 - Whenever food is available (irregular)
 - Communal cooking over open fires
 - Spicy, heavily seasoned food
 - Sharing food is sacred
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - Grazing culture (many small meals)
 - Fresh food preferred (little preservation)
 - Meals outdoors when possible
 - Food blessed with druidic prayers
 
+{{note
+#### Food Taboos
+
+Breaking food taboos can cause genuine offense:
+
+- **Nullwood:** Refusing blessed food insults the preparer
+- **Stonebound:** Wasting food is deeply disrespectful
+- **Emberlands:** Eating alone when others are hungry is shameful
+- **Verdant Marches:** Killing animals needlessly or wasting meat
+- **Northreach:** Complaining about food insults survival efforts
+}}
+
+\column
+
 ### Table Manners
 
-**Universal:**
+#### **Universal:**
 - Wait for host to begin eating
 - Don't reach across others
 - Offer dishes to neighbors before serving yourself
 - Thank the cook/host
 
-**Regional Differences:**
+#### **Regional Differences:**
 - **Northreach:** Elbows on table acceptable; talking with mouth full tolerated
 - **Solaris:** Perfect posture; small bites; constant conversation
 - **Nullwood:** Silence preferred; chewing quietly essential
@@ -672,32 +713,18 @@ Breaking bread—or refusing it—carries deep cultural meaning.
 - **Emberlands:** Eating with hands common; licking fingers acceptable
 - **Verdant Marches:** Relaxed; bare feet common; casual atmosphere
 
-\column
 
-### Food Taboos
-
-{{note
-##### Serious Offenses
-
-Breaking food taboos can cause genuine offense:
-
-**Nullwood:** Refusing blessed food insults the preparer
-**Stonebound:** Wasting food is deeply disrespectful
-**Emberlands:** Eating alone when others are hungry is shameful
-**Verdant Marches:** Killing animals needlessly or wasting meat
-**Northreach:** Complaining about food insults survival efforts
-}}
 
 ### Drinking Customs
 
-**Toasts:**
+#### **Toasts:**
 - Northreach: "To those who aren't here" (remembering the dead/absent)
 - Solaris: Elaborate poetic toasts; first toast to host
 - Stonebound: "Stone and steel!" or "To the mountain!"
 - Emberlands: "May the fire within never die!"
 - Verdant Marches: "To the land and its bounty"
 
-**Alcohol:**
+#### **Alcohol:**
 - Refusing the first drink can be insulting
 - After the first, you can decline without offense
 - Dwarves will challenge drinking capacity (friendly competition)
@@ -705,15 +732,20 @@ Breaking food taboos can cause genuine offense:
 - Solaris: Wine preferred; know your varieties
 - Northreach: Ale and spirits; practical drinks
 
+{{pageNumber,auto}}
+{{footnote CULTURAL PRACTICES}}
+
 \page
 
+{{wide
 ## Gift-Giving Traditions
 
 Gifts carry meaning beyond their material value.
 
 ### When Gifts Are Appropriate
+}}
 
-**Common Occasions:**
+#### **Common Occasions:**
 - First meeting with important NPCs
 - Accepting hospitality
 - Formal diplomatic exchanges
@@ -721,7 +753,7 @@ Gifts carry meaning beyond their material value.
 - Celebrations and festivals
 - Apologies and reconciliation
 
-**Timing Matters:**
+#### **Timing Matters:**
 - Northreach: Gifts after services rendered, not before (seems like bribery)
 - Solaris: Elaborate gift presentation during formal events
 - Stonebound: Gifts when accepting hospitality
@@ -744,7 +776,7 @@ Gifts carry meaning beyond their material value.
 
 ### Gift-Giving Protocol
 
-**Presentation:**
+#### **Presentation:**
 - Northreach: Simple, direct, no ceremony
 - Solaris: Elaborate presentation, public acknowledgment
 - Nullwood: Private, quiet, no expectation of immediate reciprocation
@@ -752,7 +784,7 @@ Gifts carry meaning beyond their material value.
 - Vharoxis: Discrete exchange, no public display
 - Emberlands: Dramatic presentation, physical strength sometimes involved
 
-**Receiving Gifts:**
+#### **Receiving Gifts:**
 - Always accept first offer (refusing is insulting)
 - Express gratitude appropriate to culture
 - Reciprocity expected but timeline varies
@@ -761,29 +793,34 @@ Gifts carry meaning beyond their material value.
 - Northreach: "Appreciated" or "Won't forget it"
 
 {{note
-##### Gift Obligations
 
-Some cultures view gifts as creating obligations:
+##### Some cultures view gifts as creating obligations:
 
-**Stonebound:** Every gift must eventually be repaid (stone remembers debts)
-**Vharoxis:** Gifts always have strings attached; accepting means owing
-**Nullwood:** Gifts are freely given; expecting return is rude
-**Solaris:** Public gifts require public reciprocation
+- **Stonebound:** Every gift must eventually be repaid (stone remembers debts)
+- **Vharoxis:** Gifts always have strings attached; accepting means owing
+- **Nullwood:** Gifts are freely given; expecting return is rude
+- **Solaris:** Public gifts require public reciprocation
 }}
 
+{{pageNumber,auto}}
+{{footnote CULTURAL PRACTICES}}
+
+\page
+{{wide
 ## Hospitality Expectations
 
 The customs of host and guest govern much of frontier life.
+}}
 
 ### Guest Rights
 
-**Universal Principles:**
+#### **Universal Principles:**
 - Guests are under host's protection
 - Violence against guests is grave offense
 - Guests must not harm host or property
 - Both parties bound by honor
 
-**Duration:**
+#### **Duration:**
 - Northreach: "Three days and three nights" (traditional)
 - Solaris: Until host offers departure gifts
 - Stonebound: "Stone holds" (essentially permanent until guest leaves)
@@ -793,13 +830,13 @@ The customs of host and guest govern much of frontier life.
 
 ### Host Duties
 
-**Minimum Expected:**
+#### **Minimum Expected:**
 - Shelter from elements
 - Food and drink
 - Safe place to sleep
 - Information about local dangers
 
-**Regional Variations:**
+#### **Regional Variations:**
 - **Northreach:** Practical accommodations; you might share quarters
 - **Solaris:** Guest quarters prepared; entertainment provided
 - **Stonebound:** Best accommodations offered; ale flows freely
@@ -810,17 +847,19 @@ The customs of host and guest govern much of frontier life.
 
 ### Guest Duties
 
-**Minimum Expected:**
+#### **Minimum Expected:**
 - Respect host's property and customs
 - Contribute to household (offer labor or payment)
 - Defend household if attacked
 - Leave no worse than you found it
 
-**Contributions:**
+#### **Contributions:**
 - Northreach: Chop wood, repair items, share news
 - Solaris: Entertain, share stories, bring prestige
 - Stonebound: Craft work, manual labor, songs/stories
 - Verdant Marches: Help with harvest, tend animals
+
+\column
 
 {{note
 ##### Breaking Hospitality
@@ -835,56 +874,61 @@ Violating guest-host customs is one of the most serious social offenses:
 These violations follow you. In Northreach, a broken hearth-oath is remembered for generations.
 }}
 
-\column
-
 ### Payment vs. Free Lodging
 
-**When to Pay:**
+#### **When to Pay:**
 - Inns and taverns (always)
 - Professional lodging houses
 - Cities and large towns
 - When explicitly asked
 
-**When Payment Is Insult:**
+#### **When Payment Is Insult:**
 - Invited into someone's home
 - Offered shelter during emergency
 - Among friends and allies
 - After establishing guest-right
 
-**Appropriate Reciprocation:**
+#### **Appropriate Reciprocation:**
 - Services (repair, guard duty, storytelling)
 - Gifts (see gift-giving section)
 - Future hospitality (return the favor)
 - Public praise (especially in Solaris)
 
+
+{{pageNumber,auto}}
+{{footnote CULTURAL PRACTICES}}
+\page
+
+{{wide
 ## Business and Trade Practices
 
 Commerce follows different rules in different places.
+}}
 
 ### Negotiation Styles
 
-**Northreach:**
+#### **Northreach:**
 - Direct, honest, practical
 - Haggling is moderate (not aggressive)
 - Price reflects fair value plus reasonable profit
 - Handshake seals deals
 - Breaking contracts destroys reputation
 
-**Solaris:**
+#### **Solaris:**
 - Theatrical, relationship-based
 - Extensive haggling expected (part of the performance)
 - Initial prices inflated 30-50%
 - Written contracts for anything significant
 - Witnesses for important deals
 
-**Stonebound:**
+#### **Stonebound:**
 - Straightforward, formal
 - Quality and craftsmanship emphasized
 - Less haggling (dwarves know their value)
 - Written contracts in runes
 - Contracts are sacred; breaking one is unthinkable
 
-**Vharoxis:**
+#### **Vharoxis:**
 - Everything is negotiable
 - Never accept first offer
 - Hidden costs assumed
@@ -898,41 +942,6 @@ Commerce follows different rules in different places.
 - Oral agreements honored
 - Druidic elders mediate disputes
 
-
-### Contract and Oath Customs
-
-**Binding Force:**
-
-Oaths and contracts carry different weight:
-
-**Northreach:** Spoken oaths are binding; breaking them destroys reputation. Written contracts for significant transactions.
-
-**Solaris:** Everything in writing, multiple copies, witnesses. Oral agreements are "preliminary discussions."
-
-**Stonebound:** Oaths sworn on stone or steel are absolutely binding. Breaking such an oath is cultural anathema.
-
-**Nullwood:** Oaths sworn before Memory Keepers are magically and culturally binding. Memory itself holds you accountable.
-
-**Vharoxis:** Written contracts only; spoken promises mean nothing. Even written contracts have exploitable loopholes.
-
-**Emberlands:** Fire oaths (sworn while touching flame) are unbreakable. Lesser oaths are flexible.
-
-**Verdant Marches:** Oaths sworn before druids or nature spirits are binding. The land itself witnesses.
-
-### Merchant Guilds
-
-**Guild Membership:**
-- Guarantees standards and quality
-- Provides connections and protection
-- Sets prices and trading terms
-- Mediates disputes
-
-**Notable Guilds:**
-- **Waystone Merchants' Alliance** (Northreach): Fair trade, reliable goods
-- **Solaris Artisan Consortium:** Luxury goods, artistic items
-- **Deepforge Crafters** (Stonebound): Metalwork, stonework, quality tools
-- **Verdant Trade Circle:** Natural goods, fair exchange emphasis
-
 ### Haggling vs. Fixed Prices
 
 | Region | Haggling? | Expected Range | Notes |
@@ -943,59 +952,93 @@ Oaths and contracts carry different weight:
 | Vharoxis | Aggressive | 20-60% off | Everything negotiable |
 | Verdant Marches | Rare | Barter-based | Fair exchange preferred |
 
+\column
+
+### Contract and Oath Customs
+
+#### **Binding Force:**
+
+Oaths and contracts carry different weight:
+
+- **Northreach:** Spoken oaths are binding; breaking them destroys reputation. Written contracts for significant transactions.
+
+- **Solaris:** Everything in writing, multiple copies, witnesses. Oral agreements are "preliminary discussions."
+
+- **Stonebound:** Oaths sworn on stone or steel are absolutely binding. Breaking such an oath is cultural anathema.
+
+- **Nullwood:** Oaths sworn before Memory Keepers are magically and culturally binding. Memory itself holds you accountable.
+
+- **Vharoxis:** Written contracts only; spoken promises mean nothing. Even written contracts have exploitable loopholes.
+
+- **Emberlands:** Fire oaths (sworn while touching flame) are unbreakable. Lesser oaths are flexible.
+
+- **Verdant Marches:** Oaths sworn before druids or nature spirits are binding. The land itself witnesses.
+
+### Merchant Guilds
+
+#### **Guild Membership:**
+- Guarantees standards and quality
+- Provides connections and protection
+- Sets prices and trading terms
+- Mediates disputes
+
+#### **Notable Guilds:**
+- **Waystone Merchants' Alliance** (Northreach): Fair trade, reliable goods
+- **Solaris Artisan Consortium:** Luxury goods, artistic items
+- **Deepforge Crafters** (Stonebound): Metalwork, stonework, quality tools
+- **Verdant Trade Circle:** Natural goods, fair exchange emphasis
+
+
+
+{{pageNumber,auto}}
+{{footnote CULTURAL PRACTICES}}
+
 \page
 
 # Regional Customs and Taboos
-
+{{wide
 ## Northreach — The Frozen Frontier
 
 {{descriptive
 Northreach values practical competence, keeping your word, mutual aid, and self-reliance. Frontier life is hard; people who make it harder through incompetence or dishonesty are remembered unfavorably.
 }}
-
+}}
 ### Things Considered Polite
 
-✓ **Offering help during emergencies:** Community survival depends on mutual aid
-
-✓ **Maintaining your tools and property:** Shows competence and respect for resources
-
-✓ **Sharing warnings about dangers:** Wolves, bandits, bad weather—warn your neighbors
-
-✓ **Keeping your promises:** Your word is your reputation
-
-✓ **Being direct and honest:** Flowery speech is suspicious; say what you mean
-
-✓ **Respecting the winter:** Take cold seriously; prepare properly
+- **Offering help during emergencies:** Community survival depends on mutual aid
+- **Maintaining your tools and property:** Shows competence and respect for resources
+- **Sharing warnings about dangers:** Wolves, bandits, bad weather—warn your neighbors
+- **Keeping your promises:** Your word is your reputation
+- **Being direct and honest:** Flowery speech is suspicious; say what you mean
+- **Respecting the winter:** Take cold seriously; prepare properly
 
 ### Things Considered Rude
 
-✗ **Idle bragging without skills to back it up:** Actions matter, not words
+- **Idle bragging without skills to back it up:** Actions matter, not words
+- **Refusing to help during genuine emergencies:** Marks you as selfish
+- **Wasting resources (especially food or fuel):** Disrespectful to everyone's survival
+- **Being a constant burden:** Ask for help when needed, but don't make it a habit
+- **Excessive formality or pretension:** "City manners" seem fake and suspicious
+- **Breaking promises or contracts:** Destroys your reputation permanently
 
-✗ **Refusing to help during genuine emergencies:** Marks you as selfish
-
-✗ **Wasting resources (especially food or fuel):** Disrespectful to everyone's survival
-
-✗ **Being a constant burden:** Ask for help when needed, but don't make it a habit
-
-✗ **Excessive formality or pretension:** "City manners" seem fake and suspicious
-
-✗ **Breaking promises or contracts:** Destroys your reputation permanently
-
-\column
-
-### Major Cultural Taboos
 
 {{note
-##### Serious Offenses in Northreach
+#### Serious Offenses in Northreach
 
-**Breaking Hearth-Oath:** Violating guest-host customs or sworn promises. Marks you as oath-breaker; reputation destroyed across the frontier.
+##### **Breaking Hearth-Oath:** 
+Violating guest-host customs or sworn promises. Marks you as oath-breaker; reputation destroyed across the frontier.
 
-**Deliberately Endangering the Community:** Through incompetence, sabotage, or selfishness. May result in exile or worse.
+##### **Deliberately Endangering the Community:** 
+Through incompetence, sabotage, or selfishness. May result in exile or worse.
 
-**Abandoning Others in Danger:** Especially during winter or wilderness emergencies. Considered cowardice and betrayal.
+##### **Abandoning Others in Danger:** 
+Especially during winter or wilderness emergencies. Considered cowardice and betrayal.
 
-**Desecrating the Dead:** The frontier kills enough people; disrespecting the dead is unforgivable.
+##### **Desecrating the Dead:** 
+The frontier kills enough people; disrespecting the dead is unforgivable.
 }}
+
+\column
 
 ### Religious Observances
 
@@ -1008,81 +1051,78 @@ Northreach values practical competence, keeping your word, mutual aid, and self-
 
 Northreach society tracks reputation carefully:
 
-**Good Reputation:**
+#### **Good Reputation:**
 - Trusted with responsibilities
 - Offered opportunities and partnerships
 - Given benefit of doubt
 - Welcomed into communities
 
-**Bad Reputation:**
+#### **Bad Reputation:**
 - Doors close
 - Prices increase
 - Information withheld
 - May be refused service or shelter
 
-**Recovery:** Possible through consistent actions over time, but takes years. "Fool me once, and I'll remember. Fool me twice, and everyone will."
+#### **Recovery:** 
+Possible through consistent actions over time, but takes years. "Fool me once, and I'll remember. Fool me twice, and everyone will."
 
+{{pageNumber,auto}}
+{{footnote REGIONAL CUSTOMS AND TABOOS}}
 
 \page
 
+{{wide
 ## Solaris Dominion — The Cultural Capital
 
 {{descriptive
 Solaris values artistic expression, social performance, political awareness, and cultural sophistication. Everything is a story; how you present yourself matters as much as what you accomplish.
 }}
 
+}}
 ### Things Considered Polite
 
-✓ **Elaborate greetings and farewells:** Social grace expected
-
-✓ **Appreciating art, music, and performance:** Shows cultural sophistication
-
-✓ **Using proper titles and forms of address:** Respect for social hierarchy
-
-✓ **Telling engaging stories:** Solaris runs on narrative
-
-✓ **Supporting local artists and performers:** Cultural patronage is valued
-
-✓ **Participating in public discourse:** Engagement shows citizenship
+- **Elaborate greetings and farewells:** Social grace expected
+- **Appreciating art, music, and performance:** Shows cultural sophistication
+- **Using proper titles and forms of address:** Respect for social hierarchy
+- **Telling engaging stories:** Solaris runs on narrative
+- **Supporting local artists and performers:** Cultural patronage is valued
+- **Participating in public discourse:** Engagement shows citizenship
 
 ### Things Considered Rude
 
-✗ **Being too direct or blunt:** Lacks social grace
-
-✗ **Ignoring artistic performances:** Insults the artist and culture
-
-✗ **Using crude language in formal settings:** Shows lack of refinement
-
-✗ **Dismissing faction politics:** Seems naive or deliberately obtuse
-
-✗ **Wearing obviously practical/unfashionable clothing:** Social statement matters
-
-✗ **Refusing to engage with stories and culture:** Why are you in Solaris?
-
-### Major Cultural Taboos
+- **Being too direct or blunt:** Lacks social grace
+- **Ignoring artistic performances:** Insults the artist and culture
+- **Using crude language in formal settings:** Shows lack of refinement
+- **Dismissing faction politics:** Seems naive or deliberately obtuse
+- **Wearing obviously practical/unfashionable clothing:** Social statement matters
+- **Refusing to engage with stories and culture:** Why are you in Solaris?
 
 {{note
 ##### Serious Offenses in Solaris
 
-**Plagiarizing Art or Songs:** Stealing credit for creative work. Career-ending scandal; may face legal action.
+##### **Plagiarizing Art or Songs:** 
+Stealing credit for creative work. Career-ending scandal; may face legal action.
 
-**Breaking Performance Etiquette:** Interrupting performances, heckling artists. Shows profound disrespect; audiences will turn against you.
+##### **Breaking Performance Etiquette:** 
+Interrupting performances, heckling artists. Shows profound disrespect; audiences will turn against you.
 
-**Publicly Insulting the Arts:** Declaring art "useless" or dismissing cultural traditions. Marks you as barbarian.
+##### **Publicly Insulting the Arts:** 
+Declaring art "useless" or dismissing cultural traditions. Marks you as barbarian.
 
-**Factional Violence in Cultural Spaces:** The Tail Spinner's Cord and similar venues are neutral ground. Violence there is unforgivable.
+##### **Factional Violence in Cultural Spaces:** 
+The Tail Spinner's Cord and similar venues are neutral ground. Violence there is unforgivable.
 }}
 
 \column
 
 ### Religious Observances
 
-**Multi-factional:**
+#### **Multi-factional:**
 - **Luminary Concord:** Divine law, order, traditional faith
 - **Veilbound Assembly:** Tolerance, balance, measured acceptance
 - **Eclipse Chorus:** Change, transformation, new possibilities
 
-**Daily Impact:**
+#### **Daily Impact:**
 - Temples are gathering spaces
 - Religious debates are entertainment
 - Eclipse Day is commemorated monthly
@@ -1090,67 +1130,66 @@ Solaris values artistic expression, social performance, political awareness, and
 
 ### Social Navigation
 
-**Key Skills:**
+#### **Key Skills:**
 - Know which faction you're perceived as supporting
 - Attend performances and cultural events
 - Maintain social connections
 - Tell good stories
 - Dress appropriately for context
 
-**Social Fumbles:**
+#### **Social Fumbles:**
 - Getting faction allegiances wrong
 - Being unable to discuss current songs/stories
 - Wearing wrong clothes to wrong events
 - Boring people with lack of narrative flair
 
+{{pageNumber,auto}}
+{{footnote REGIONAL CUSTOMS AND TABOOS}}
+\page
+
+{{wide
 ## The Nullwood Expanse — The Elven Kingdom
 
 {{descriptive
 The Nullwood values silence, memory, emotional balance, and caution. Life is long; rushing is foolish. Everything should be considered, preserved, and approached with care.
 }}
-
+}}
 ### Things Considered Polite
 
-✓ **Speaking softly and moving gracefully:** Respect for the quiet
-
-✓ **Emotional restraint and balance:** Outbursts are uncomfortable
-
-✓ **Patience and deliberation:** Don't rush decisions
-
-✓ **Respecting memory rituals:** Central to culture
-
-✓ **Asking permission before entering spaces:** Privacy and boundaries matter
-
-✓ **Appreciating subtlety and nuance:** Direct approach lacks sophistication
+- **Speaking softly and moving gracefully:** Respect for the quiet
+- **Emotional restraint and balance:** Outbursts are uncomfortable
+- **Patience and deliberation:** Don't rush decisions
+- **Respecting memory rituals:** Central to culture
+- **Asking permission before entering spaces:** Privacy and boundaries matter
+- **Appreciating subtlety and nuance:** Direct approach lacks sophistication
 
 
 ### Things Considered Rude
 
-✗ **Being loud or boisterous:** Disturbs the peace
-
-✗ **Emotional outbursts (anger, excessive joy):** Shows lack of control
-
-✗ **Rushing or demanding quick answers:** Disrespects deliberation
-
-✗ **Dismissing memory customs as "dwelling on the past":** Insults core values
-
-✗ **Flashy or destructive magic:** Shows dangerous lack of restraint
-
-✗ **Questioning the silence-wards:** Core cultural practice
-
-### Major Cultural Taboos
+- **Being loud or boisterous:** Disturbs the peace
+- **Emotional outbursts (anger, excessive joy):** Shows lack of control
+- **Rushing or demanding quick answers:** Disrespects deliberation
+- **Dismissing memory customs as "dwelling on the past":** Insults core values
+- **Flashy or destructive magic:** Shows dangerous lack of restraint
+- **Questioning the silence-wards:** Core cultural practice
 
 {{note
-##### Serious Offenses in Nullwood
+#### Serious Offenses in Nullwood
 
-**Approaching Ancient Ruins Without Permission:** Elves have cultural aversion to old sites for reasons they don't fully articulate. Ignoring this is deeply unsettling.
+##### **Approaching Ancient Ruins Without Permission:** 
+Elves have cultural aversion to old sites for reasons they don't fully articulate. Ignoring this is deeply unsettling.
 
-**Disrupting Memory Rituals:** Sacred ceremonies at the Stillwater Mirror and Memory Courts. Interruption is profound violation.
+##### **Disrupting Memory Rituals:** 
+Sacred ceremonies at the Stillwater Mirror and Memory Courts. Interruption is profound violation.
 
-**Uncontrolled Magic:** Using loud, flashy, or destructive magic without need. Shows dangerous lack of discipline.
+##### **Uncontrolled Magic:** 
+Using loud, flashy, or destructive magic without need. Shows dangerous lack of discipline.
 
-**Disturbing the Stillwater Mirror:** The lake at Vaeltharyn's heart. Causing ripples deliberately is grave offense.
+##### **Disturbing the Stillwater Mirror:** 
+The lake at Vaeltharyn's heart. Causing ripples deliberately is grave offense.
 }}
+
+\column
 
 ### Religious Observances
 
@@ -1161,21 +1200,23 @@ The Nullwood values silence, memory, emotional balance, and caution. Life is lon
 
 ### Interaction Tips
 
-**Do:**
+#### **Do:**
 - Speak quietly
 - Take your time
 - Show emotional restraint
 - Ask about memory customs (they'll explain)
 - Appreciate silence (it's not awkward)
 
-**Don't:**
+#### **Don't:**
 - Rush conversations
 - Demand immediate answers
 - Show excessive emotion
 - Question why they avoid ruins
 - Cast flashy spells unnecessarily
 
-\column
+{{pageNumber,auto}}
+{{footnote REGIONAL CUSTOMS AND TABOOS}}
+\page
 
 ## The Stonebound Depths — The Dwarven Kingdom
 
@@ -1183,73 +1224,42 @@ The Nullwood values silence, memory, emotional balance, and caution. Life is lon
 The Stonebound value craftsmanship, resonance, patience, strength, and keeping your word. Stone endures; so must we. Quality work, given time, speaks for itself.
 }}
 
+
 ### Things Considered Polite
 
-✓ **Admiring quality craftsmanship:** Shows understanding and respect
-
-✓ **Strong, firm handshakes:** Confidence and strength
-
-✓ **Keeping oaths and contracts:** Absolutely essential
-
-✓ **Taking time to do things right:** "Done well" beats "done fast"
-
-✓ **Offering and accepting hospitality:** "My hearth is yours"
-
-✓ **Singing, storytelling, and loud celebration:** Dwarven joy is boisterous
+- **Admiring quality craftsmanship:** Shows understanding and respect
+- **Strong, firm handshakes:** Confidence and strength
+- **Keeping oaths and contracts:** Absolutely essential
+- **Taking time to do things right:** "Done well" beats "done fast"
+- **Offering and accepting hospitality:** "My hearth is yours"
+- **Singing, storytelling, and loud celebration:** Dwarven joy is boisterous
 
 ### Things Considered Rude
-
-✗ **Praising shoddy workmanship:** Shows ignorance
-
-✗ **Rushing or cutting corners:** Disrespects the craft
-
-✗ **Refusing hospitality without good reason:** Insults host
-
-✗ **Weak or limp handshakes:** Suggests untrustworthiness
-
-✗ **Breaking promises or contracts:** Unforgivable
-
-✗ **Wasting food, drink, or materials:** Disrespectful
-
-### Major Cultural Taboos
+- **Praising shoddy workmanship:** Shows ignorance
+- **Rushing or cutting corners:** Disrespects the craft
+- **Refusing hospitality without good reason:** Insults host
+- **Weak or limp handshakes:** Suggests untrustworthiness
+- **Breaking promises or contracts:** Unforgivable
+- **Wasting food, drink, or materials:** Disrespectful
 
 {{note
-##### Serious Offenses in Stonebound Culture
+#### Serious Offenses in Stonebound Culture
 
-**Breaking an Oath Sworn on Stone:** Absolutely unforgivable. Marks you as oath-breaker permanently. May face exile or blood price.
+##### **Breaking an Oath Sworn on Stone:** 
+Absolutely unforgivable. Marks you as oath-breaker permanently. May face exile or blood price.
 
-**Destroying Quality Craftsmanship:** Vandalism of good work is deeply offensive. Shows disrespect for effort, skill, and time invested.
+##### **Destroying Quality Craftsmanship:** 
+Vandalism of good work is deeply offensive. Shows disrespect for effort, skill, and time invested.
 
-**Insulting a Dwarf's Craft:** Calling quality work "adequate" or "good enough" is serious insult. Questioning someone's craftsmanship attacks their honor.
+##### **Insulting a Dwarf's Craft:** 
+Calling quality work "adequate" or "good enough" is serious insult. Questioning someone's craftsmanship attacks their honor.
 
-**Disrespecting the Heartstone:** The sacred crystal formation at Khardûn-Tharum's heart. Treating it as "just rock" is culturally offensive.
+##### **Disrespecting the Heartstone:** 
+The sacred crystal formation at Khardûn-Tharum's heart. Treating it as "just rock" is culturally offensive.
 }}
-
-
-### Major Cultural Taboos
-
-{{note
-##### Serious Offenses on the Coast
-
-**Whistling on Ships:** Summons storms (superstition, but taken deadly seriously). Crew may throw you overboard.
-
-**Stealing Salvage:** What you pull from the deep is yours by right. Theft of salvage may result in death.
-
-**Abandoning Crew:** Leaving shipmates in danger. You'll never crew again; reputation destroyed.
-
-**Disrespecting the Drowned:** The sea takes many. Speaking ill of the lost invites their return.
-}}
-
-### Sea Superstitions
-
-- **Never whistle on ships**
-- **Black cats are good luck**
-- **Red sky at night, sailor's delight; red sky at morning, sailors take warning**
-- **No women on ships** (old superstition, mostly ignored now)
-- **Don't rename ships** (offends previous identity)
-- **Pour one out for the drowned** (first drink goes to sea)
 
 \column
+
 
 ## The Emberlands — Volcanic South
 
@@ -1259,44 +1269,36 @@ The Emberlands value strength, endurance, adaptability, communal bonds, and resp
 
 ### Things Considered Polite
 
-✓ **Demonstrating strength (physical or mental):** Respect earned through prowess
-
-✓ **Sharing resources in hardship:** Community survival matters
-
-✓ **Direct, honest communication:** No time for games
-
-✓ **Accepting challenges:** Shows confidence
-
-✓ **Respecting fire rituals:** Central to culture
-
-✓ **Rebuilding after destruction:** Shows resilience
+- **Demonstrating strength (physical or mental):** Respect earned through prowess
+- **Sharing resources in hardship:** Community survival matters
+- **Direct, honest communication:** No time for games
+- **Accepting challenges:** Shows confidence
+- **Respecting fire rituals:** Central to culture
+- **Rebuilding after destruction:** Shows resilience
 
 ### Things Considered Rude
 
-✗ **Showing weakness unnecessarily:** Invite exploitation
-
-✗ **Hoarding resources during crisis:** Shameful selfishness
-
-✗ **Backing down from challenges without reason:** Cowardice
-
-✗ **Complaining about heat or hardship:** Everyone suffers; deal with it
-
-✗ **Refusing fire-blessed food:** Insults ritual
-
-✗ **Excessive caution or fear:** Life is dangerous; accept it
-
-### Major Cultural Taboos
+- **Showing weakness unnecessarily:** Invite exploitation
+- **Hoarding resources during crisis:** Shameful selfishness
+- **Backing down from challenges without reason:** Cowardice
+- **Complaining about heat or hardship:** Everyone suffers; deal with it
+- **Refusing fire-blessed food:** Insults ritual
+- **Excessive caution or fear:** Life is dangerous; accept it
 
 {{note
-##### Serious Offenses in Emberlands
+#### Serious Offenses in Emberlands
 
-**Breaking Fire Oaths:** Oaths sworn while touching flame are absolutely binding. Breaking them invites volcanic wrath (they believe).
+##### **Breaking Fire Oaths:** 
+Oaths sworn while touching flame are absolutely binding. Breaking them invites volcanic wrath (they believe).
 
-**Eating Alone When Others Starve:** Selfish hoarding during hardship. May result in exile or worse.
+##### **Eating Alone When Others Starve:** 
+Selfish hoarding during hardship. May result in exile or worse.
 
-**Refusing to Rebuild:** After destruction, everyone helps rebuild. Refusing marks you as useless to community.
+##### **Refusing to Rebuild:** 
+After destruction, everyone helps rebuild. Refusing marks you as useless to community.
 
-**Extinguishing Sacred Flames:** Fire-shrines and ceremonial flames must never be intentionally put out. Grave spiritual offense.
+##### **Extinguishing Sacred Flames:** 
+Fire-shrines and ceremonial flames must never be intentionally put out. Grave spiritual offense.
 }}
 
 ### Religious Observances
@@ -1307,7 +1309,8 @@ The Emberlands value strength, endurance, adaptability, communal bonds, and resp
 - **Volcanic festivals:** Celebrating eruptions as renewal
 - **Fire dances:** Spiritual and social practice
 
-
+{{pageNumber,auto}}
+{{footnote REGIONAL CUSTOMS AND TABOOS}}
 \page
 
 ## The Verdant Marches — Beast-Haunted Wilds
@@ -1318,44 +1321,36 @@ The Marches value harmony with nature, community cooperation, druidic wisdom, an
 
 ### Things Considered Polite
 
-✓ **Respecting nature and wildlife:** Central philosophy
-
-✓ **Sharing food and resources:** Community focus
-
-✓ **Consulting druids about land use:** Their guidance matters
-
-✓ **Minimal environmental impact:** Leave no trace
-
-✓ **Participating in communal efforts:** Everyone contributes
-
-✓ **Listening to the land:** Observing natural signs
+- **Respecting nature and wildlife:** Central philosophy
+- **Sharing food and resources:** Community focus
+- **Consulting druids about land use:** Their guidance matters
+- **Minimal environmental impact:** Leave no trace
+- **Participating in communal efforts:** Everyone contributes
+- **Listening to the land:** Observing natural signs
 
 ### Things Considered Rude
 
-✗ **Unnecessary killing of animals:** Hunt for need, not sport
-
-✗ **Wasting natural resources:** Disrespectful
-
-✗ **Ignoring druidic warnings:** Dangerous and foolish
-
-✗ **Damaging plants without reason:** The land notices
-
-✗ **Excessive greed or hoarding:** Community comes first
-
-✗ **Dismissing the Green Stirring:** Willful ignorance
-
-### Major Cultural Taboos
+- **Unnecessary killing of animals:** Hunt for need, not sport
+- **Wasting natural resources:** Disrespectful
+- **Ignoring druidic warnings:** Dangerous and foolish
+- **Damaging plants without reason:** The land notices
+- **Excessive greed or hoarding:** Community comes first
+- **Dismissing the Green Stirring:** Willful ignorance
 
 {{note
-##### Serious Offenses in the Marches
+#### Serious Offenses in the Marches
 
-**Defiling Sacred Groves:** Ancient forests and stone circles are holy ground. Desecration invites druidic retribution—and the land's wrath.
+##### **Defiling Sacred Groves:** 
+Ancient forests and stone circles are holy ground. Desecration invites druidic retribution—and the land's wrath.
 
-**Poisoning Water or Land:** Deliberate environmental destruction. Exiled from all communities; druids will hunt you.
+##### **Poisoning Water or Land:** 
+Deliberate environmental destruction. Exiled from all communities; druids will hunt you.
 
-**Breaking Oaths Sworn Before Druids:** The land witnesses; the land remembers. Breaking such oaths causes tangible consequences.
+##### **Breaking Oaths Sworn Before Druids:** 
+The land witnesses; the land remembers. Breaking such oaths causes tangible consequences.
 
-**Killing Awakened Creatures:** Animals touched by the Green Stirring are sacred. Killing them is murder, not hunting.
+##### **Killing Awakened Creatures:** 
+Animals touched by the Green Stirring are sacred. Killing them is murder, not hunting.
 }}
 
 ### Religious Observances
@@ -1376,30 +1371,48 @@ The Dominion has no living culture—but approaching its ruins carries expectati
 
 ### Coastal Community Customs
 
-✓ **Reporting strange findings from the deep:** Safety measure
-
-✓ **Respecting diving claims:** Salvage rights matter
-
-✓ **Quarantining potentially dangerous artifacts:** Precaution
-
-✓ **Supporting divers' families:** Dangerous work
-
-✓ **Heeding lighthouse warnings:** Lives depend on it
-
-### Taboos Around the Deep
+- **Reporting strange findings from the deep:** Safety measure
+- **Respecting diving claims:** Salvage rights matter
+- **Quarantining potentially dangerous artifacts:** Precaution
+- **Supporting divers' families:** Dangerous work
+- **Heeding lighthouse warnings:** Lives depend on it
 
 {{note
-##### Dangers of the Dominion
-
-**Diving Without Reporting:** Settlements require divers to log their dives. Going down alone means no rescue if things go wrong.
-
-**Bringing Up Glowing Artifacts Unexamined:** Strange relics can be dangerous. Lighthouse of Memory checks all finds.
-
-**Disturbing Certain Ruins:** Some places are clearly marked as forbidden. Ignoring warnings invites disaster.
-
-**Obsession with the Deep:** Divers who become obsessed with the ruins are watched carefully. Many never return—or return changed.
+#### Serious Offenses on the Coast
+- **Whistling on Ships:** 
+Summons storms (superstition, but taken deadly seriously). Crew may throw you overboard.
+- **Stealing Salvage:** 
+What you pull from the deep is yours by right. Theft of salvage may result in death.
+- **Abandoning Crew:** 
+Leaving shipmates in danger. You'll never crew again; reputation destroyed.
+- **Disrespecting the Drowned:** 
+The sea takes many. Speaking ill of the lost invites their return.
+- **Diving Without Reporting:** 
+Settlements require divers to log their dives. Going down alone means no rescue if things go wrong.
+- **Bringing Up Glowing Artifacts Unexamined:** 
+Strange relics can be dangerous. Lighthouse of Memory checks all finds.
+- **Disturbing Certain Ruins:** 
+Some places are clearly marked as forbidden. Ignoring warnings invites disaster.
+- **Obsession with the Deep:** 
+Divers who become obsessed with the ruins are watched carefully. Many never return—or return changed.
 }}
 
+### Sea Superstitions
+
+- **Never whistle on ships**
+- **Black cats are good luck**
+- **Red sky at night, sailor's delight; red sky at morning, sailors take warning**
+- **No women on ships** (old superstition, mostly ignored now)
+- **Don't rename ships** (offends previous identity)
+- **Pour one out for the drowned** (first drink goes to sea)
+
+
+{{pageNumber,auto}}
+{{footnote REGIONAL CUSTOMS AND TABOOS}}
+
+\page
+
+{{wide
 ## The Far North — Frozen Wasteland
 
 {{descriptive
@@ -1408,44 +1421,36 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 ### Nomad Customs
 
-✓ **Sharing warmth and food:** Survival necessity
+- **Sharing warmth and food:** Survival necessity
+- **Respecting ice-fisher knowledge:** They know safe routes
+- **Trading fairly:** Resources are scarce
+- **Warning of dangers:** Ice, storms, things in the ruins
+- **Not questioning what people fled from:** Everyone has reasons
 
-✓ **Respecting ice-fisher knowledge:** They know safe routes
 
-✓ **Trading fairly:** Resources are scarce
-
-✓ **Warning of dangers:** Ice, storms, things in the ruins
-
-✓ **Not questioning what people fled from:** Everyone has reasons
-
-### Taboos
 
 {{note
 ##### Far North Dangers
 
-**Approaching Salsvault Unprepared:** The ancient ruin is deadly. Going without preparation is suicide.
-
-**Ignoring Weather Signs:** The North kills the careless. Dismissing warnings is fatal.
-
-**Disturbing the Ice:** Some things are frozen for good reason. Don't dig too deep.
+- **Approaching Salsvault Unprepared:** The ancient ruin is deadly. Going without preparation is suicide.
+- **Ignoring Weather Signs:** The North kills the careless. Dismissing warnings is fatal.
+- **Disturbing the Ice:** Some things are frozen for good reason. Don't dig too deep.
+}}
 }}
 
-
-\page
-
 # Superstitions and Common Beliefs
-
+{{wide
 ## Omens and Portents
-
+}}
 ### Good Luck Signs
 
-**Universal:**
+#### **Universal:**
 - Rainbows after storms
 - Finding rare flowers
 - Animals approaching peacefully
 - Successful first catches/harvests
 
-**Regional:**
+#### **Regional:**
 - **Northreach:** Three crows flying together; clear skies after red dawn
 - **Solaris:** Seeing shooting stars during performances; finding forgotten coins
 - **Nullwood:** Perfect silence; finding unblemished white stones
@@ -1454,15 +1459,17 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - **Emberlands:** Volcanic eruptions (rebirth); fire that burns blue
 - **Verdant Marches:** Animals leading you to water; flowering out of season
 
+\column
+
 ### Bad Luck Signs
 
-**Universal:**
+#### **Universal:**
 - Blood moons
 - Animals fleeing en masse
 - Sudden temperature drops
 - Unusual silence
 
-**Regional:**
+#### **Regional:**
 - **Northreach:** Wolves howling at noon; snow in summer
 - **Solaris:** Broken instruments; songs that won't end
 - **Nullwood:** Ripples on the Stillwater Mirror; uncontrolled memories surfacing
@@ -1472,80 +1479,37 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - **Emberlands:** Fire refusing to catch; cold ash where flame should be
 - **Verdant Marches:** Plants dying overnight; animals acting wrong
 
-\column
+{{pageNumber,auto}}
+{{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+
+\page
 
 ## Weather Superstitions
 
-**Northreach:**
+#### **Northreach:**
 - "Red sky at morning, winter's warning"
 - "When wolves are silent, the storm is violent"
 - "Ice that sings will break in spring"
 
-**Shattered Coast:**
+#### **Shattered Coast:**
 - "Red sky at night, sailor's delight"
 - "Seabirds flying inland, storm's at hand"
 - "When the fog speaks, death seeks"
 
-**Emberlands:**
+#### **Emberlands:**
 - "Ash falls soft, fire comes swift"
 - "When the mountain rumbles, the wise man humbles"
 - "Cold wind from the peak means the volcano's not asleep"
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - "When trees bow low, the storm will blow"
 - "Animals hiding, storm's residing"
 - "Green lightning strikes, nature fights"
-
-## Death and Mourning Customs
-
-### Funeral Practices
-
-**Northreach:**
-- Body burned (practical in frozen ground)
-- Ashes scattered in meaningful place
-- Wake with stories and drinking
-- "To those who aren't here" (toast)
-- Three days of mourning
-
-**Solaris:**
-- Elaborate funeral ceremonies
-- Songs composed for the deceased
-- Public mourning displays
-- Artists commissioned to capture memory
-- Month-long memorial period
-
-**Nullwood:**
-- Body returned to forest (natural burial)
-- Memory ceremony to preserve important moments
-- Quiet mourning (loud grief inappropriate)
-- Memory-stones carved
-- Centuries-long remembrance
-
-**Stonebound:**
-- Entombed in stone
-- Name and craft carved in runes
-- Clan ceremonies lasting weeks
-- Tools buried with the dead
-- "Stone holds them now"
-
-
-**Emberlands:**
-- Funeral pyre (fire returns all)
-- Possessions burned with body
-- Dancing and celebration (life honored)
-- Ashes mixed with volcanic soil
-- Rebirth philosophy
-
-**Verdant Marches:**
-- Sky burial (nature reclaims)
-- Druidic ceremonies
-- Body left in sacred groves
-- Seeds planted in their honor
-- Life continues in new forms
-
+::::::::::
+{{note
 ### Grieving Expectations
 
-**How Long:**
+#### **How Long:**
 - Northreach: 3 days formal, then back to work
 - Solaris: 1 month public mourning
 - Nullwood: Lifelong quiet remembrance
@@ -1553,24 +1517,76 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Emberlands: 1 week, then celebration of life
 - Verdant Marches: Until the body is reclaimed by nature
 
-**Public vs. Private:**
+#### **Public vs. Private:**
 - Solaris: Public displays expected
 - Nullwood: Private grief preferred
 - Others: Moderate public acknowledgment
-
+}}
 \column
+
+## Death and Mourning Customs
+
+### Funeral Practices
+
+#### **Northreach:**
+- Body burned (practical in frozen ground)
+- Ashes scattered in meaningful place
+- Wake with stories and drinking
+- "To those who aren't here" (toast)
+- Three days of mourning
+
+#### **Solaris:**
+- Elaborate funeral ceremonies
+- Songs composed for the deceased
+- Public mourning displays
+- Artists commissioned to capture memory
+- Month-long memorial period
+
+#### **Nullwood:**
+- Body returned to forest (natural burial)
+- Memory ceremony to preserve important moments
+- Quiet mourning (loud grief inappropriate)
+- Memory-stones carved
+- Centuries-long remembrance
+
+#### **Stonebound:**
+- Entombed in stone
+- Name and craft carved in runes
+- Clan ceremonies lasting weeks
+- Tools buried with the dead
+- "Stone holds them now"
+
+
+#### **Emberlands:**
+- Funeral pyre (fire returns all)
+- Possessions burned with body
+- Dancing and celebration (life honored)
+- Ashes mixed with volcanic soil
+- Rebirth philosophy
+
+#### **Verdant Marches:**
+- Sky burial (nature reclaims)
+- Druidic ceremonies
+- Body left in sacred groves
+- Seeds planted in their honor
+- Life continues in new forms
+
+
+{{pageNumber,auto}}
+{{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+\page
 
 ## Birth and Naming Traditions
 
 ### Childbirth Customs
 
-**Universal:**
+####   **Universal:**
 - Midwives or healers attend
 - Celebrations after successful birth
 - Community support for new parents
 - Protection rituals (vary by region)
 
-**Regional Specifics:**
+#### **Regional Specifics:**
 - **Northreach:** Practical support (meals, childcare help)
 - **Solaris:** Elaborate naming ceremonies, public announcements
 - **Nullwood:** Quiet welcome, memory ceremony to record first moments
@@ -1580,106 +1596,108 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 ### Naming Practices
 
-**Northreach:**
+#### **Northreach:**
 - Simple, practical names
 - Family names matter (reputation)
 - Nicknames earned through deeds
 
-**Solaris:**
+#### **Solaris:**
 - Multiple names (given, family, earned titles)
 - Names chosen for sound and meaning
 - Stage names for performers
 
-**Nullwood:**
+#### **Nullwood:**
 - Names given in infancy, confirmed at maturity
 - Names reflect qualities or hopes
 - Secret "true names" known only to close family
 
-**Stonebound:**
+#### **Stonebound:**
 - Personal name + clan name
 - Craft name earned through mastery
 - Formal name carved in stone
 
-**Emberlands:**
+#### **Emberlands:**
 - Birth names often changed
 - Earned names reflect deeds
 - Fire-names (given during trials)
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - Nature-inspired names
 - Names can change with seasons or life stages
 - Some have multiple names for different contexts
 
-\page
+\column
 
 ## Marriage and Bonding Customs
 
 ### Engagement Practices
 
-**Northreach:**
+#### **Northreach:**
 - Simple proposal, often practical ("We work well together")
 - Engagement period moderate (few months)
 - Public announcement at gathering
 - Shared projects (building, planning)
 
-**Solaris:**
+#### **Solaris:**
 - Elaborate courtship rituals
 - Public declarations and performances
 - Engagement can last years
 - Songs composed for beloveds
 
-**Nullwood:**
+#### **Nullwood:**
 - Quiet, private proposals
 - Long contemplation period (decades acceptable)
 - Memory ceremonies to evaluate compatibility
 - Shared silence as courtship
 
-**Stonebound:**
+#### **Stonebound:**
 - Formal proposal with crafted gift
 - Craft-exchange (each makes something for other)
 - Clan approval required
 - Stone-oath engagement
 
+{{pageNumber,auto}}
+{{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+\page
+
 ### Wedding Ceremonies
 
-**Northreach:**
+#### **Northreach:**
 - Community gathering
 - Practical vows (support, survive together)
 - Shared work after ceremony (building home)
 - Feast with toasts
 - Handfast tradition (binding hands with rope)
 
-**Solaris:**
+#### **Solaris:**
 - Theatrical public ceremonies
 - Multiple-day celebrations
 - Artistic performances
 - Elaborate vows (often poetic)
 - Public record keeping
 
-**Nullwood:**
+#### **Nullwood:**
 - Private, intimate ceremonies
 - Memory-bond ritual (sharing important memories)
 - Before the Stillwater Mirror
 - No loud celebrations
 - Eternal commitment (elves live centuries)
 
-**Stonebound:**
+#### **Stonebound:**
 - Forge ceremony (bonds sealed before flame)
 - Exchanging crafted rings or items
 - Clan witnesses required
 - Stone-carved names joined
 - Weeklong celebration
 
-\column
-
-**Emberlands:**
+#### **Emberlands:**
 - Fire ceremony (couple walks through flame)
 - Community witnesses
 - Shared feast
 - Physical trials (proving strength together)
 - Dancing until dawn
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - Outdoor ceremonies in sacred groves
 - Druidic blessings
 - Handfasting with living vines
@@ -1688,13 +1706,15 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 ### Divorce/Separation
 
-**Allowed?**
+#### **Allowed?**
 - Northreach: Yes, but uncommon (reputation impact)
 - Solaris: Yes, often dramatic and public
 - Nullwood: Rare (centuries together, careful choices)
 - Stonebound: Possible but shameful (broken oath)
 - Emberlands: Yes, through ritual release
 - Verdant Marches: Yes, druids mediate
+
+\column
 
 ## Coming-of-Age Rituals
 
@@ -1708,129 +1728,151 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 ### Rites of Passage
 
-**Northreach:**
+#### **Northreach:**
 - First successful solo hunt
 - Surviving winter alone
 - Completing major project
 - Community recognition feast
 
-**Solaris:**
+#### **Solaris:**
 - First public performance
 - Presenting masterwork to community
 - Faction affiliation declaration
 - Elaborate coming-of-age celebrations
 
-**Nullwood:**
+#### **Nullwood:**
 - Memory ceremony (choosing which memories to keep)
 - Confirmation of adult name
 - Private ritual before elders
 - Decades-long process
 
-**Stonebound:**
+#### **Stonebound:**
 - Creating journeyman-piece
 - Clan trial (specific to clan)
 - Carving adult name in stone
 - Forge ceremony
 
-**Emberlands:**
+#### **Emberlands:**
 - Trial by fire (literal or metaphorical)
 - Solo survival test
 - Earning warrior-name
 - Community feast and dancing
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - Vision quest in wilderness
 - Druidic evaluation
 - Receiving adult responsibilities
 - Naming ceremony
 
+{{pageNumber,auto}}
+{{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
 \page
 
 # Conflict Resolution Customs
-
+{{wide
 ## Formal Dueling Practices
+}}
 
 ### Northreach Duels
 
 **When Used:** Personal honor disputes, serious accusations  
-**Process:**
+#### **Process:**
 1. Challenge issued publicly
 2. Witnesses appointed
 3. Terms negotiated (first blood, yield, or death)
 4. Combat conducted fairly
 
-**Rules:**
+#### **Rules:**
 - No magic beyond personal abilities
 - Equal weapons (usually)
 - Seconds stand by to intervene
 - Community enforces outcome
-
-**Cultural Note:** Duels are rare but respected. Refusing valid challenge damages reputation.
+  
+{{note
+##### **Cultural Note:** 
+Duels are rare but respected. Refusing valid challenge damages reputation.
+}}
 
 ### Solaris Duels
 
 **When Used:** Artistic disputes, honor challenges, political positioning  
-**Process:**
+#### **Process:**
 1. Dramatic public challenge
 2. Choice of duel type (combat, artistic, debate)
 3. Elaborate preparation
 4. Public spectacle
 
-**Types:**
+#### **Types:**
 - **Blade duels:** First blood usually
 - **Bardic duels:** Performance competition
 - **Wit duels:** Verbal sparring with judges
 
-**Cultural Note:** More theater than combat. Style matters as much as outcome.
+{{note
+##### **Cultural Note:** 
+More theater than combat. Style matters as much as outcome.
+}}
+
+\column
 
 ### Stonebound Duels
 
 **When Used:** Craft disputes, serious honor violations  
-**Process:**
+#### **Process:**
 1. Challenge before clan
 2. Terms carved in stone
 3. Chosen representatives (if needed)
 4. Combat with traditional weapons
 
-**Rules:**
+#### **Rules:**
 - Ancient laws govern
 - Death is rare (first yield acceptable)
 - Clan enforces outcome
 - Result carved in stone permanently
 
-**Cultural Note:** Extremely serious. Stone remembers.
+{{note
+##### **Cultural Note:** 
+Extremely serious. Stone remembers.
+}}
 
-\column
 
 ### Emberlands Duels
 
 **When Used:** Common for most disputes  
-**Process:**
+#### **Process:**
 1. Challenge issued (often immediate)
 2. Brief terms stated
 3. Combat begins quickly
 4. Community watches
 
-**Rules:**
+#### **Rules:**
 - Few restrictions
 - Until yield or unconsciousness
 - Death is risk but not goal
 - Winner's position vindicated
+ 
+{{note
+##### 
+**Cultural Note:** 
+Frequent. Strength proves rightness.
+}}
 
-**Cultural Note:** Frequent. Strength proves rightness.
+{{pageNumber,auto}}
+{{footnote CONFLICT RESOLUTION CUSTOMS}}
+
+\page
 
 ## Mediation and Arbitration
 
 ### When Mediation Is Preferred
 
-**Instead of Violence:**
+#### **Instead of Violence:**
 - Trade disputes
 - Property boundaries
 - Contract disagreements
 - Community tensions
 
-**Who Mediates:**
+#### **Who Mediates:**
 - **Northreach:** Respected elders, guild officials
 - **Solaris:** Appointed arbitrators, faction representatives
 - **Nullwood:** Memory Keepers, Silent Regents
@@ -1840,105 +1882,116 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 ### Mediation Process
 
-**Common Elements:**
+#### **Common Elements:**
 1. Both parties agree to mediate
 2. Neutral third party selected
 3. Each side presents case
 4. Mediator proposes solution
 5. Parties accept or escalate
 
-**Binding Force:**
+#### **Binding Force:**
 - Reputation pressure (most places)
 - Legal enforcement (cities)
 - Cultural obligation (Stonebound, Nullwood)
 - Practical necessity (Northreach)
 
-
+\column
+::
 ## Honor Satisfaction
 
 ### What Satisfies Honor
 
-**Northreach:**
+#### **Northreach:**
 - Public apology
 - Making restitution
 - Performing service
 - Accepting punishment
 - (Rarely) Duel
 
-**Solaris:**
+#### **Solaris:**
 - Public performance of apology
 - Artistic tribute
 - Public recognition of wrong
 - Elaborate compensation
 - (Sometimes) Duel
 
-**Nullwood:**
+#### **Nullwood:**
 - Private acknowledgment
 - Memory ceremony (acknowledging fault)
 - Restoration of balance
 - Time and demonstrated change
 - (Rarely) Exile
 
-**Stonebound:**
+
+#### **Stonebound:**
 - Formal apology before clan
 - Craft-work restitution
 - Stone-carved acknowledgment
 - Blood price (serious offenses)
 - (Sometimes) Duel
 
-**Vharoxis:**
+#### **Vharoxis:**
 - Payment or service
 - Favor owed
 - Information traded
 - (Often) Nothing—revenge instead
 - Business solutions
 
-**Emberlands:**
+#### **Emberlands:**
 - Trial by combat
 - Shared ordeal (proving strength together)
 - Fire ceremony
 - (Usually) Duel
 
-\column
 
+{{pageNumber,auto}}
+{{footnote CONFLICT RESOLUTION CUSTOMS}}
+
+\page
+{{wide
 ## Blood Price and Compensation
 
 ### When Blood Price Applies
 
-**Serious Crimes:**
+#### **Serious Crimes:**
 - Murder
 - Severe injury
 - Breaking sacred oaths
 - Destroying livelihoods
-
+}}
 ### How It Works
 
-**Northreach:**
+#### **Northreach:**
 - Victim's family sets reasonable price
 - Community validates fairness
 - Exile if unpaid
 - Payment expected within year
 
-**Stonebound:**
+#### **Stonebound:**
 - Clan council determines price
 - Often requires both coin and service
 - Price carved in stone
 - Unpaid debt follows generations
 
-**Emberlands:**
+#### **Emberlands:**
 - Combat or compensation
 - Trial determines appropriate response
 - Honor satisfied through strength or payment
 
-**Verdant Marches:**
+#### **Verdant Marches:**
 - Druids mediate
 - Restoration required
 - Service to community
 - Natural restitution preferred
 
+\column
+
 ### Modern Complications
 
 In cities with formal legal systems, blood price conflicts with state law. Traditional communities still honor it; cosmopolitan areas consider it barbaric.
+
+{{pageNumber,auto}}
+{{footnote CONFLICT RESOLUTION CUSTOMS}}
 
 \page
 
@@ -1948,73 +2001,65 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 
 ### Common Scenarios
 
-**1. Overhearing Conversations**
-
-*Scenario:* Nullwood scouts are discussing something in Elvish. Do you understand?
-
-**Mechanical Impact:**
+#### Overhearing Conversations
+- **Scenario:** Nullwood scouts are discussing something in Elvish. Do you understand?
 - **Speak Elvish:** You understand; gain information advantage
 - **Don't Speak Elvish:** DM gives you basic tone/emotion, but not content
 - **Possible Solution:** Comprehend Languages spell, another PC translates, context clues
 
-**2. Reading Ancient Inscriptions**
+#### Reading Ancient Inscriptions
 
-*Scenario:* You find runes carved into stone in the Stonebound Depths.
-
-**Mechanical Impact:**
+- **Scenario:** You find runes carved into stone in the Stonebound Depths.
 - **Read Dwarvish:** Instant understanding; possible advantage on related checks
 - **Don't Read Dwarvish:** Must find translator or use magic
 - **Partial Solution:** History check might give general context; other PCs might help
 
-**3. Negotiating with Non-Common Speakers**
+#### Negotiating with Non-Common Speakers
 
-*Scenario:* You meet a giant who only speaks Giant.
-
-**Mechanical Impact:**
+- **Scenario:** You meet a giant who only speaks Giant.
 - **Speak Giant:** Normal social interaction; Charisma checks as usual
 - **Don't Speak Giant:** Communication via gestures; disadvantage on Charisma checks, or impossible without magic
 - **Solutions:** Tongues spell, translator NPC, creative pantomime
 
 ### DM Guidance for Language Barriers
 
-**Make It Meaningful:**
+#### **Make It Meaningful:**
 - Don't use language barriers to frustrate; use them to create opportunities
 - Reward players who chose useful languages
 - Provide workarounds (NPCs who translate, magic items, spells)
 
-**Balance:**
+#### **Balance:**
 - Language barriers shouldn't block critical plot progress
 - They should create interesting challenges and choices
 - Social encounters can become skill challenges or puzzles
 
 \column
 
-## How Cultural Knowledge Affects Checks
+## Cultural Knowledge Affects Checks
 
-### Advantage from Cultural Respect
+### Advantage from Respect
 
-**Examples:**
+#### **Examples:**
 
-**Scenario 1: Negotiating with Dwarf Merchant**
+##### Negotiating with Dwarf Merchant
 - **Action:** You compliment the craftsmanship of their wares (specific details) and speak a few words of Dwarvish
 - **DM Ruling:** Advantage on Persuasion check
 - **Reason:** You've shown respect for their culture and craft
-
-**Scenario 2: Seeking Help in Nullwood**
+#####  Seeking Help in Nullwood
 - **Action:** You speak quietly, show patience, and don't rush the conversation
 - **DM Ruling:** Lower DC for social checks or advantage
 - **Reason:** You've demonstrated understanding of their values
 
-**Scenario 3: Asking Favors in Northreach**
+##### Asking Favors in Northreach
 - **Action:** You offer to help with chores first, demonstrating practical competence
 - **DM Ruling:** Advantage on Persuasion, or NPC simply agrees
 - **Reason:** You've proven you're not just a "taker"
 
-### Disadvantage from Cultural Mistakes
+### Disadvantage from Mistakes
 
-**Examples:**
+#### **Examples:**
 
-**Scenario 1: Insulting Stonebound Craft**
+##### Insulting Stonebound Craft
 - **Action:** "This sword is good enough, I guess"
 - **DM Ruling:** Disadvantage on all Charisma checks with this dwarf
 - **Reason:** Grave insult to their craftsmanship
@@ -2045,6 +2090,8 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 - Adapt to cultural expectations: DC 13-18
 - Convincingly follow unfamiliar customs: DC 15-20
 
+{{pageNumber,auto}}
+{{footnote PRACTICAL GAMEPLAY IMPACT}}
 
 \page
 
@@ -2165,6 +2212,9 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 **DC 20 (Hard):** Intimidate Northreach veteran (frontier folk are tough)
 
 **DC 25 (Very Hard):** Intimidate Stonebound clan elder (stone doesn't fear)
+
+{{pageNumber,auto}}
+{{footnote PRACTICAL GAMEPLAY IMPACT}}
 
 \page
 

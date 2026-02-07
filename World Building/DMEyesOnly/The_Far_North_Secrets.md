@@ -40,6 +40,9 @@ The Far North is actively changing:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Major Secret Locations
@@ -126,6 +129,9 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 - Decode transmissions to understand the network's purpose
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -215,6 +221,9 @@ The stones generate a warmth field—originally for traveler comfort. This still
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Inhabitants: The Secret Truth
@@ -292,6 +301,9 @@ Not all constructs are active. They're waking in stages as the network powers up
 **Timeline:** With each Heart of Winter pulse, more constructs come online. At current rate, full activation occurs in 6-12 months.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -376,6 +388,9 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 - May become antagonist if players don't intervene
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -485,6 +500,9 @@ After the initial pulse:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Adventure Hooks by Campaign Tier
@@ -588,6 +606,9 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 - Temptation to misuse
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

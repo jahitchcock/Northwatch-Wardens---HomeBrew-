@@ -18,7 +18,7 @@ But beneath the artistic brilliance lies deep political tension. Three factions 
 
 }}
 
-This is where news travels fastest, where secrets become songs, and where the Aeorian Echo manifests as social upheaval rather than physical corruption.
+This is where news travels fastest, where secrets become songs, and where political tensions rise alongside troubling reports from the northern frontier.
 
 ---
 
@@ -91,6 +91,9 @@ Since Eclipse Day, the Cord has become the epicenter of cultural response:
 - Tensions occasionally flare but tradition holds
 - Neutral ground status tested but maintained
 }}
+
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
 
 \page
 
@@ -175,6 +178,9 @@ Strictly opposed; pacts are dangerous shortcuts inviting corruption. They advoca
 - Patrol for "dangerous magic"
 - Promote historical continuity
 - Resist radical change
+
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
 
 \page
 
@@ -264,6 +270,9 @@ Neutral to welcoming; pacts are one of many paths. They're more interested in co
 - Cosmic-themed performances
 - Meditation and prophecy circles
 - Synthesis of magical traditions
+
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
 
 \page
 
@@ -358,6 +367,9 @@ Months later, Eclipse Day continues to shape Solaris:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
+
 \page
 
 ## Culture and Society
@@ -448,6 +460,8 @@ Many citizens know at least one Eldric tale by heart:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
 
 \page
 
@@ -552,6 +566,9 @@ The event changed magical practice:
 - Cosmic alignment
 - Ancient artifact activation
 - Reality shift
+
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
 
 \page
 

@@ -50,6 +50,9 @@ A Frontier Songbook for Season One of the Northwatch Wardens
 - The Fire That Trembles
 - The Ballad of Baa‑thur the Bewoolded
 
+{{pageNumber,auto}}
+{{footnote SONGS OF THE NORTHREACH}}
+
 \page
 
 # THE FRONTIER BREATHES
@@ -173,6 +176,10 @@ And the wind that follows at her heels
 Is colder than the bone.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
+
 \page
 
 ### THE WOMAN WITH TWO SHADOWS  
@@ -293,6 +300,9 @@ And though his words are measured,
 And though his smile is mild—
 The sleepless scholar knows too much
 To ever sleep like a child.
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
 
 \page
 
@@ -416,6 +426,10 @@ For he has seen the kind of tracks
 That never truly fade.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
+
 \page
 
 ### THE GIRL WHO FEARED THE MOONLIT PINES
@@ -539,6 +553,10 @@ The hills remember clearly
 What the shepherd heard too much.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
+
 \page
 
 ### THE WOLF WHO WALKED LIKE A MAN  
@@ -659,6 +677,9 @@ And though the night grows colder,
 And though the shadows track—
 The fire in the winter pack
 Will never turn his back.
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
 
 \page
 
@@ -784,6 +805,10 @@ There’s something oddly familiar
 In the notes of tomorrow’s tune.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
+
 \page
 
 ### THE APPRENTICE AND THE BROKEN STAR  
@@ -906,6 +931,10 @@ He keeps his vigil faithfully
 With the candle that won’t go out.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
+
 \page
 
 ### THE MASTER WHO WALKED INTO WINTER  
@@ -1026,6 +1055,9 @@ And though he stands with courage,
 And though he strives to choose—
 The quiet road grows longer
 For a man once known as Guz.
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
 
 \page
 
@@ -1148,6 +1180,9 @@ And though he stands unshaken,
 And though his pride is true—
 The fire that trembles in his chest
 Knows more than he can view.
+
+{{pageNumber,auto}}
+{{footnote THE FRONTIER BREATHES}}
 
 \page
 

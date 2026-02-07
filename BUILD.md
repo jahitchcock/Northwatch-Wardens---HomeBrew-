@@ -134,16 +134,17 @@ The build system uses JSON configuration files to define the structure of each b
 
 The build script (`build.js`) performs the following steps:
 
-1. **Read TOC files** - Loads the JSON configuration for each book
-2. **Concatenate markdown** - Combines all markdown files in the specified order
-3. **Render with Homebrewery** - Uses authentic Homebrewery markdown processor with all official extensions:
+1. **Update page footers** - Runs `add_page_footers.py` to ensure all `\page` breaks have proper page numbers and section footnotes
+2. **Read TOC files** - Loads the JSON configuration for each book
+3. **Concatenate markdown** - Combines all markdown files in the specified order
+4. **Render with Homebrewery** - Uses authentic Homebrewery markdown processor with all official extensions:
    - Mustache syntax for blocks and spans ({{note}}, {{monster}}, etc.)
    - Column and page breaks
    - Extended tables, definition lists, aligned paragraphs
    - Smart typography, superscript/subscript
    - Variables and heading IDs
-4. **Generate HTML** - Converts markdown to HTML with D&D-themed styling
-5. **Create PDF** - Uses Puppeteer to render HTML to PDF with proper formatting
+5. **Generate HTML** - Converts markdown to HTML with D&D-themed styling
+6. **Create PDF** - Uses Puppeteer to render HTML to PDF with proper formatting
 
 ### 4. Homebrewery Rendering Engine
 
@@ -169,7 +170,44 @@ The build system uses the **official Homebrewery PHB stylesheet** from the [natu
 
 The stylesheet (`homebrewery-phb.css`) is included in the repository. If it's missing, the build system will automatically download it from the official Homebrewery repository.
 
-### 6. Special Syntax Support
+### 6. Page Footer System
+
+The build system includes an automated page footer generator (`add_page_footers.py`) that runs before each build. This script:
+
+**What It Does:**
+- Scans all markdown files in `World Building/` (excluding `DMEyesOnly/`)
+- Finds every `\page` break
+- Adds page numbers and section footers before each break
+- Updates existing footers if section headings change
+
+**Footer Format:**
+```markdown
+{{pageNumber,auto}}
+{{footnote SECTION NAME}}
+
+\page
+```
+
+**How It Works:**
+1. Tracks the last `# heading` (level 1) in each file
+2. Converts heading text to uppercase (e.g., "Creating Your Character" → "CREATING YOUR CHARACTER")
+3. Inserts or updates footer before each `\page` break
+4. Preserves formatting and removes any old/placeholder footers
+
+**Benefits:**
+- Consistent page numbers across the entire guide
+- Section names automatically match headings
+- Reduces manual maintenance when reorganizing content
+- Idempotent - safe to run multiple times
+
+**Manual Usage:**
+```bash
+python add_page_footers.py
+```
+
+The script runs automatically as part of the build pipeline, so you typically don't need to run it manually.
+
+### 7. Special Syntax Support
 
 The following Homebrewery syntax is fully supported through the authentic renderer:
 

@@ -218,6 +218,9 @@ Organizations from other regions notice Northreach:
 ---
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Secrets and Revelations
@@ -360,6 +363,9 @@ Each region document includes:
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Campaign Escalation
@@ -428,6 +434,9 @@ Each region document includes:
 
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

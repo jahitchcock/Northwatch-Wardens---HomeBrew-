@@ -232,6 +232,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -469,6 +472,9 @@ This document contains secret information about locations in the Northwatch Ward
 ### The Old Woods North of Welton
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -728,6 +734,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 
@@ -971,6 +980,9 @@ This document contains secret information about locations in the Northwatch Ward
 ### Tulgi's Cabin: The Spy's Evidence
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -1253,6 +1265,9 @@ This document contains secret information about locations in the Northwatch Ward
 ### Hulil's Knowledge
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -1556,6 +1571,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Related Adventure:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md) - "Temple of the Dragonknights"
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ### The Historical Truth
@@ -1851,6 +1869,9 @@ This document contains secret information about locations in the Northwatch Ward
 ### Potential Alliance
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -2169,6 +2190,9 @@ This document contains secret information about locations in the Northwatch Ward
 ## Regional Threats and Connections
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -2505,6 +2529,9 @@ This document contains secret information about locations in the Northwatch Ward
 ## Campaign Integration
 
 
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 

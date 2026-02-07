@@ -64,6 +64,9 @@ The city becomes a battleground:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Eclipse Day — The Hidden Truth
@@ -198,6 +201,9 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 
 ---
 
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Major NPCs with Secrets
@@ -285,6 +291,9 @@ Reassemble itself. The fragments are guiding their own recovery through human pr
 Unwitting accomplices. The best distribution system the fragments could ask for.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
@@ -446,6 +455,9 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 *"The syndicates don't know they're serving the Echo. That's what makes them so dangerous—and so useful."*
 
 — Confidential Warden intelligence report
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
+
 \page
 
 ## Adventure Hooks
@@ -519,6 +531,9 @@ Anything magical is for sale:
 - Maps to ruin locations  
 
 ---
+
+{{pageNumber,auto}}
+{{footnote [MarkdownFirstLevelHeading]}}
 
 \page
 
