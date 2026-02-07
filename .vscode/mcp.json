@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "dnd": {
+      "type": "stdio",
+      "command": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\_AITools\\dnd-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\_AITools\\dnd_mcp_wrapper.py"
+      ],
+      "description": "D&D Knowledge Navigator - Provides access to D&D 5e API data including spells, monsters, equipment, classes, and races"
+    }
+  }
+}
