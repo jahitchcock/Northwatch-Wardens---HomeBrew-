@@ -1,27 +1,6 @@
 ---
 description: 'Generate and maintain Game Master 5e XML campaign content for Northwatch Wardens: Season One'
-tools: [
-  'runCommands',
-  'runTasks',
-  'edit',
-  'runNotebooks',
-  'search',
-  'new',
-  'Copilot Container Tools/*',
-  'pylance mcp server/*',
-  'extensions',
-  'todos',
-  'runSubagent',
-  'runTests',
-  'usages',
-  'vscodeAPI',
-  'problems',
-  'changes',
-  'testFailure',
-  'openSimpleBrowser',
-  'fetch',
-  'githubRepo'
-]
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'dnd/*', 'pylance-mcp-server/*', 'ms-python.python/getPythonEnvironmentInfo', 'ms-python.python/getPythonExecutableCommand', 'ms-python.python/installPythonPackage', 'ms-python.python/configurePythonEnvironment', 'todo']
 ---
 
 # Northwatch Wardens — DMHelper Copilot Agent

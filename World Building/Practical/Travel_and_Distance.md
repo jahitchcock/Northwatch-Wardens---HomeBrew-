@@ -41,7 +41,6 @@ The following times assume **good weather, daylight travel, and a party on foot*
 **Wagon:** 15 miles (roads only), impassable in mountains or deep forest
 }}
 
-
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 

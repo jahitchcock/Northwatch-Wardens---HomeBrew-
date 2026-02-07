@@ -41,6 +41,7 @@
 					}
 				}
 			]
-		}
+		},
+		"markdown.validate.enabled": true
 	}
 }

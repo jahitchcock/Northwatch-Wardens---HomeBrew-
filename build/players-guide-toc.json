@@ -3,6 +3,11 @@
   "subtitle": "A Player's Guide to the World of Northwatch Wardens",
   "coverImage": "https://i.imgur.com/e2me5Tq.png",
   "includeTextOnCover": false,
+  "enableBanner": true,
+  "bannerText": "New 5e world setting",
+  "enableFootnote": true,
+  "footnoteText": "A New World of Adventure Awaits",
+  "coverImagePosition": "absolute,bottom:0,left:50px,height:100%",
   "sections": [
     {
       "chapter": "Welcome to Aevoria",

@@ -42,7 +42,7 @@ Language choices during character creation matter:
 
 **From Your Background:** Backgrounds often grant 1-2 additional languages of your choice
 
-**From Your Class:** Some classes (like clerics, druids, and rogues) grant special language benefits
+**From Your Class:** Some classes grant secret languages (druids gain Druidic, rogues gain Thieves' Cant)
 
 **From Your Region:** Where you're from determines which languages are most useful and which you're likely to know
 
@@ -58,6 +58,7 @@ Choose languages that fit your character's story and will be useful in the campa
 }}
 
 ---
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES AND CULTURE OF AEVORIA}}
 
@@ -540,6 +541,7 @@ Recommended languages based on common character backgrounds:
 | **Urchin** | Thieves' Cant, Goblin | Street survival, underground |
 
 }}
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
@@ -894,9 +896,9 @@ These violations follow you. In Northreach, a broken hearth-oath is remembered f
 - Future hospitality (return the favor)
 - Public praise (especially in Solaris)
 
-
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
+
 \page
 
 {{wide
@@ -987,8 +989,6 @@ Oaths and contracts carry different weight:
 - **Solaris Artisan Consortium:** Luxury goods, artistic items
 - **Deepforge Crafters** (Stonebound): Metalwork, stonework, quality tools
 - **Verdant Trade Circle:** Natural goods, fair exchange emphasis
-
-
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
@@ -1145,6 +1145,7 @@ The Tail Spinner's Cord and similar venues are neutral ground. Violence there is
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
+
 \page
 
 {{wide
@@ -1216,6 +1217,7 @@ The lake at Vaeltharyn's heart. Causing ripples deliberately is grave offense.
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
+
 \page
 
 ## The Stonebound Depths — The Dwarven Kingdom
@@ -1311,6 +1313,7 @@ Fire-shrines and ceremonial flames must never be intentionally put out. Grave sp
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
+
 \page
 
 ## The Verdant Marches — Beast-Haunted Wilds
@@ -1405,7 +1408,6 @@ Divers who become obsessed with the ruins are watched carefully. Many never retu
 - **No women on ships** (old superstition, mostly ignored now)
 - **Don't rename ships** (offends previous identity)
 - **Pour one out for the drowned** (first drink goes to sea)
-
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
@@ -1505,7 +1507,11 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - "When trees bow low, the storm will blow"
 - "Animals hiding, storm's residing"
 - "Green lightning strikes, nature fights"
-::::::::::
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
 {{note
 ### Grieving Expectations
 
@@ -1522,6 +1528,7 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Nullwood: Private grief preferred
 - Others: Moderate public acknowledgment
 }}
+
 \column
 
 ## Death and Mourning Customs
@@ -1571,9 +1578,9 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Seeds planted in their honor
 - Life continues in new forms
 
-
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+
 \page
 
 ## Birth and Naming Traditions
@@ -1658,6 +1665,7 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+
 \page
 
 ### Wedding Ceremonies
@@ -1943,7 +1951,6 @@ Frequent. Strength proves rightness.
 - Fire ceremony
 - (Usually) Duel
 
-
 {{pageNumber,auto}}
 {{footnote CONFLICT RESOLUTION CUSTOMS}}
 
@@ -2064,116 +2071,121 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 - **DM Ruling:** Disadvantage on all Charisma checks with this dwarf
 - **Reason:** Grave insult to their craftsmanship
 
-**Scenario 2: Being Loud in Nullwood**
+##### Being Loud in Nullwood
 - **Action:** Shouting, laughing loudly, making unnecessary noise
 - **DM Ruling:** Disadvantage on social interactions; NPCs may refuse to engage
 - **Reason:** Cultural violation of core value
 
-**Scenario 3: Refusing Hospitality**
+##### Refusing Hospitality
 - **Action:** Declining offered food/shelter without good reason
 - **DM Ruling:** Disadvantage on Persuasion; NPC becomes suspicious
 - **Reason:** Insult to host; suggests distrust
-
-### DM Tools for Cultural Checks
-
-**Intelligence (History):**
-- Recall cultural customs: DC 10-15
-- Remember specific taboos: DC 15-20
-- Understand obscure traditions: DC 20+
-
-**Wisdom (Insight):**
-- Read social cues: DC 12-18
-- Detect cultural mistake: DC 15
-- Understand unspoken rules: DC 18+
-
-**Charisma (Performance):**
-- Adapt to cultural expectations: DC 13-18
-- Convincingly follow unfamiliar customs: DC 15-20
 
 {{pageNumber,auto}}
 {{footnote PRACTICAL GAMEPLAY IMPACT}}
 
 \page
 
+### DM Tools for Cultural Checks
+
+#### **Intelligence (History):**
+- Recall cultural customs: DC 10-15
+- Remember specific taboos: DC 15-20
+- Understand obscure traditions: DC 20+
+
+#### **Wisdom (Insight):**
+- Read social cues: DC 12-18
+- Detect cultural mistake: DC 15
+- Understand unspoken rules: DC 18+
+
+#### **Charisma (Performance):**
+- Adapt to cultural expectations: DC 13-18
+- Convincingly follow unfamiliar customs: DC 15-20
+
 ## Regional Reputation and Prejudices
 
 ### Stereotypes (Often Wrong)
 
-**How Northreachers Are Seen:**
+#### **How Northreachers Are Seen:**
 - **Solaris:** Uncultured barbarians, practical but boring
 - **Nullwood:** Too loud, too impulsive, interesting but exhausting
 - **Stonebound:** Capable but unrefined
 - **Vharoxis:** Easy marks, too trusting
 
-**How Solarians Are Seen:**
+#### **How Solarians Are Seen:**
 - **Northreach:** Pretentious, useless in crisis, "all talk"
 - **Nullwood:** Too loud, too performative
 - **Stonebound:** Shallow, lacking substance
 - **Vharoxis:** Perfect targets (wealth + naivety)
 
-**How Nullwood Elves Are Seen:**
+#### **How Nullwood Elves Are Seen:**
 - **Northreach:** Mysterious, helpful but strange
 - **Solaris:** Exotic, fascinating, sources of ancient knowledge
 - **Stonebound:** Too quiet, too slow to decide
 - **Vharoxis:** Rich with secrets (valuable targets)
 
-**How Stonebound Dwarves Are Seen:**
+#### **How Stonebound Dwarves Are Seen:**
 - **Northreach:** Skilled, reliable, respected
 - **Solaris:** Stubborn, inflexible, but masterful
 - **Nullwood:** Too loud, but patient in their way
 - **Vharoxis:** Wealthy, bound by honor (exploitable)
 
-**How Vharoxans Are Seen:**
+#### **How Vharoxans Are Seen:**
 - **Everyone:** Untrustworthy, dangerous, criminals
 - **Reality:** Varies wildly; not everyone there is evil
 
+\column
+
 ### Overcoming Prejudice
 
-**Roleplay Opportunities:**
+#### **Roleplay Opportunities:**
 - Prove stereotypes wrong through actions
 - Use prejudice to your advantage (lower expectations)
 - Call out unfair assumptions
 - Find allies who see past origin
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Initial Charisma checks might have higher DC
 - Proving yourself grants reputation bonuses
 - Some NPCs refuse service based on origin
 - Others offer special opportunities
 
-\column
-
 ## Using Culture for Roleplay Advantages
 
 ### Playing to Cultural Strengths
 
-**Example 1: The Solaris Bard**
+#### The Solaris Bard
 - **Situation:** Gathering information in a tavern
 - **Cultural Advantage:** Solarians are expected to tell stories and perform
 - **Action:** Offer to perform in exchange for information
 - **Result:** Natural fit; NPCs open up, DM rewards creativity
 
-**Example 2: The Stonebound Cleric**
+#### The Stonebound Cleric
 - **Situation:** Need to convince merchant to extend credit
 - **Cultural Advantage:** Dwarven oaths are taken seriously
 - **Action:** Swear formal stone-oath to repay
 - **Result:** Merchant trusts oath; DM might not require Persuasion check
 
-**Example 3: The Northreach Ranger**
+#### The Northreach Ranger
 - **Situation:** Frontier village facing wolf attacks
 - **Cultural Advantage:** Northreach natives understand wolves
 - **Action:** Share practical knowledge, offer to track
 - **Result:** Village trusts your expertise; immediate acceptance
 
+{{pageNumber,auto}}
+{{footnote PRACTICAL GAMEPLAY IMPACT}}
+
+\page
+
 ### Creating Cultural Hooks
 
-**Backstory Integration:**
+#### **Backstory Integration:**
 - Your Solaris bard is seeking rumors of Eclipse Day
 - Your dwarf is tracking stolen clan heirloom
 - Your elf is studying memory-magic anomalies
 - Your Northreach native is defending home
 
-**Cultural Motivations:**
+#### **Cultural Motivations:**
 - Solaris: Seeking truth/stories, advancing faction goals
 - Nullwood: Investigating ancient sites (cautiously), preserving memory
 - Stonebound: Pursuing quality craft, honoring clan
@@ -2185,40 +2197,29 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 
 ### Persuasion Examples
 
-**DC 10 (Easy):** Convince Northreach villager to share local rumors (you're polite and respectful)
-
-**DC 15 (Moderate):** Persuade Solaris merchant to lower prices (requires cultural knowledge or good argument)
-
-**DC 20 (Hard):** Convince Stonebound clan to break tradition (nearly impossible without compelling reason)
-
-**DC 25 (Very Hard):** Persuade Vharoxan syndicate to trust you (requires leverage, information, or reputation)
+- **DC 10 (Easy):** Convince Northreach villager to share local rumors (you're polite and respectful)
+- **DC 15 (Moderate):** Persuade Solaris merchant to lower prices (requires cultural knowledge or good argument)
+- **DC 20 (Hard):** Convince Stonebound clan to break tradition (nearly impossible without compelling reason)
+- **DC 25 (Very Hard):** Persuade Vharoxan syndicate to trust you (requires leverage, information, or reputation)
 
 ### Deception Examples
 
-**DC 12 (Easy):** Lie about minor details in Vharoxis (everyone lies there)
+- **DC 12 (Easy):** Lie about minor details in Vharoxis (everyone lies there)
 
-**DC 15 (Moderate):** Conceal your true purpose in Northreach (they're wary but not paranoid)
-
-**DC 20 (Hard):** Deceive Nullwood Memory Keeper (they sense emotional truth)
-
-**DC 25 (Very Hard):** Trick Stonebound dwarf into breaking oath (honor runs deep)
+- **DC 15 (Moderate):** Conceal your true purpose in Northreach (they're wary but not paranoid)
+- **DC 20 (Hard):** Deceive Nullwood Memory Keeper (they sense emotional truth)
+- **DC 25 (Very Hard):** Trick Stonebound dwarf into breaking oath (honor runs deep)
 
 ### Intimidation Examples
 
-**DC 12 (Easy):** Intimidate Vharoxis street thug (shows of force work)
+- **DC 12 (Easy):** Intimidate Vharoxis street thug (shows of force work)
+- **DC 15 (Moderate):** Intimidate Emberlands warrior (they respect strength but aren't easily cowed)
+- **DC 20 (Hard):** Intimidate Northreach veteran (frontier folk are tough)
+- **DC 25 (Very Hard):** Intimidate Stonebound clan elder (stone doesn't fear)
 
-**DC 15 (Moderate):** Intimidate Emberlands warrior (they respect strength but aren't easily cowed)
+\column
 
-**DC 20 (Hard):** Intimidate Northreach veteran (frontier folk are tough)
-
-**DC 25 (Very Hard):** Intimidate Stonebound clan elder (stone doesn't fear)
-
-{{pageNumber,auto}}
-{{footnote PRACTICAL GAMEPLAY IMPACT}}
-
-\page
-
-# Quick Reference Tables
+## Quick Reference Tables
 
 ## Languages by Character Race
 
@@ -2262,94 +2263,53 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 | **Emberlands** | Show strength, share resources, be direct | Show weakness, hoard, refuse challenges |
 | **Verdant Marches** | Respect nature, share food, consult druids | Waste meat, damage land, ignore warnings |
 
+{{pageNumber,auto}}
+{{footnote PRACTICAL GAMEPLAY IMPACT}}
+
+\page
 
 ## Formal Greetings in Different Languages
 
 ### Common Phrases to Know
 
-**Common (Universal):**
+#### **Common (Universal):**
 - Greeting: "Well met" / "Good day"
 - Farewell: "Safe travels" / "Fare you well"
 - Thanks: "I'm grateful" / "Much obliged"
 
-**Dwarvish (Stonebound):**
+#### **Dwarvish (Stonebound):**
 - Greeting: *"Tharum-kal"* (Stone endures)
 - Farewell: *"Dûm-marak"* (May the mountain hold you)
 - Thanks: *"Khaz-dun"* (Honored)
 
-**Elvish (Nullwood):**
+#### **Elvish (Nullwood):**
 - Greeting: *"Sîla en ómënte"* (Peace in memory)
 - Farewell: *"Alae en tempte"* (Until the silence calls again)
 - Thanks: *"Hantalë"* (With gratitude)
 
-**Giant (Far North):**
+#### **Giant (Far North):**
 - Greeting: *"Hraak!"* (Stand strong!)
 - Farewell: *"Grum-skal"* (Ice holds)
 - Thanks: *"Drak"* (Respect)
 
-**Draconic (Vharoxis/Academic):**
+#### **Draconic (Vharoxis/Academic):**
 - Greeting: *"Thrae-vor"* (I acknowledge your power)
 - Farewell: *"Vur-shakal"* (Until the flames meet again)
 - Thanks: *"Vor-darastrix"* (Honor to the mighty)
 
-**Orc (Emberlands/Tribal):**
+#### **Orc (Emberlands/Tribal):**
 - Greeting: *"Ghar-uk!"* (Blood and honor!)
 - Farewell: *"Krag-morok"* (Fight well)
 - Thanks: *"Thraka"* (Strength recognized)
 
-**Sylvan (Verdant Marches):**
+#### **Sylvan (Verdant Marches):**
 - Greeting: *"Lathil en'tempre"* (Leaf and branch)
 - Farewell: *"Aman en'sulta"* (Walk with the green)
 - Thanks: *"Sulta'mae"* (The land remembers)
 
-\column
 
-## Using This Guide at the Table
-
-### For Players
-
-**During Character Creation:**
-1. Choose languages that fit your backstory
-2. Consider campaign setting (Northreach frontier)
-3. Coordinate with party (cover multiple languages)
-4. Think about what your choices say about your character
-
-**During Play:**
-1. Note when NPCs speak other languages
-2. Use cultural knowledge for roleplay advantages
-3. Respect cultural customs in-character
-4. Ask DM about cultural context when uncertain
-
-**Cultural Roleplay:**
-1. Incorporate region-appropriate greetings
-2. React to customs appropriately
-3. Show respect (or deliberate disrespect) for traditions
-4. Use culture to define your character's worldview
-
-### For DMs
-
-**Rewarding Language Choices:**
-- Give meaningful opportunities to use each language
-- Provide clues in multiple languages (choice matters)
-- NPCs appreciate being addressed in native tongues
-- Language skill can replace or augment social checks
-
-**Using Culture in Play:**
-- Describe regional customs as part of setting
-- Let cultural knowledge provide mechanical benefits
-- Make cultural fumbles have consequences (not fatal, but awkward)
-- Use stereotypes as starting points, not absolute truths
-
-**When to Hand-Wave:**
-- Don't let language barriers halt story progression
-- Provide NPC translators when needed
-- Assume Common is understood in most settlements
-- Focus on cultural interesting-ness, not frustration
-
----
-
-{{descriptive
-##### Final Thoughts
+{{note
+# Final Thoughts
 
 Culture and language are tools for immersion and storytelling. They shouldn't be obstacles that prevent fun—they should be opportunities that create depth. Use this guide to enhance your character's personality, navigate social situations, and engage with the rich diversity of Aevoria.
 
@@ -2357,4 +2317,52 @@ Remember: Your character's background shapes how they see the world, but it does
 
 Welcome to Aevoria. May your words be well-chosen and your customs respected.
 }}
+\column
+
+## Using This Guide at the Table
+
+### For Players
+
+#### **During Character Creation:**
+1. Choose languages that fit your backstory
+2. Consider campaign setting (Northreach frontier)
+3. Coordinate with party (cover multiple languages)
+4. Think about what your choices say about your character
+
+#### **During Play:**
+1. Note when NPCs speak other languages
+2. Use cultural knowledge for roleplay advantages
+3. Respect cultural customs in-character
+4. Ask DM about cultural context when uncertain
+
+#### **Cultural Roleplay:**
+1. Incorporate region-appropriate greetings
+2. React to customs appropriately
+3. Show respect (or deliberate disrespect) for traditions
+4. Use culture to define your character's worldview
+
+### For DMs
+
+#### **Rewarding Language Choices:**
+- Give meaningful opportunities to use each language
+- Provide clues in multiple languages (choice matters)
+- NPCs appreciate being addressed in native tongues
+- Language skill can replace or augment social checks
+
+#### **Using Culture in Play:**
+- Describe regional customs as part of setting
+- Let cultural knowledge provide mechanical benefits
+- Make cultural fumbles have consequences (not fatal, but awkward)
+- Use stereotypes as starting points, not absolute truths
+
+{{note
+#### **When to Hand-Wave:**
+- Don't let language barriers halt story progression
+- Provide NPC translators when needed
+- Assume Common is understood in most settlements
+- Focus on cultural interesting-ness, not frustration
+}}
+
+
+
 

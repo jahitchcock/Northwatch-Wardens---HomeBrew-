@@ -16,6 +16,12 @@
 
   // Enable semantic highlighting for Dungeons & Markdown syntax
   "editor.semanticHighlighting.enabled": true,
+
+  // Force enable syntax highlighting
+  "[markdown]": {
+    "editor.semanticHighlighting.enabled": false,
+    "editor.wordWrap": "on"
+  },
   
   // Custom token colors for Homebrewery/D&D Markdown syntax highlighting
   // These match the scopes defined in the Dungeons & Markdown extension

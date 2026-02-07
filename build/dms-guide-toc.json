@@ -3,6 +3,11 @@
   "subtitle": "Campaign Materials and World Secrets for Dungeon Masters",
   "coverImage": "https://i.imgur.com/3z7yO3J.png",
   "includeTextOnCover": false,
+  "enableBanner": false,
+  "bannerText": "",
+  "enableFootnote": false,
+  "footnoteText": "",
+  "coverImagePosition": "absolute,bottom:0,left:0,height:100%",
   "sections": [
     {
       "chapter": "Using This Guide",

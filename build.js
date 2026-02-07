@@ -28,6 +28,124 @@ const DNM_TEMPLATE_HTML = `
           <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css" rel="stylesheet">
           <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css" rel="stylesheet">
           <style>
+            /* ============================================
+               TRUE FULL-BLEED PRINT (NO SHRINKING)
+               ============================================ */
+            @page {
+              size: 8.5in 11in;
+              margin: 0; /* absolutely required for no white borders */
+            }
+
+            /* ============================================
+               SCREEN VIEW
+               ============================================ */
+            @media screen {
+              html, body { 
+                margin: 0; 
+                padding: 0; 
+                width: 100%;
+                height: 100%;
+              }
+              body {
+                overflow-y: auto;
+                overflow-x: hidden;
+              }
+              .pages { 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding: 20px 0;
+              }
+            }
+            
+            /* ============================================
+               PRINT RULES
+               ============================================ */
+            @media print {
+              /* Remove browser auto-shrink behavior */
+              html, body {
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                overflow: visible !important;
+              }
+
+              body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+              }
+
+              /* Force content to fill the printable area */
+              body > * {
+                width: 100% !important;
+                max-width: 100% !important;
+              }
+
+              /* Prevent scrollbars */
+              * {
+                overflow: visible !important;
+              }
+
+              /* Two-column layout */
+              .two-column {
+                column-count: 2;
+                column-gap: 1cm;
+                width: 100% !important;
+              }
+
+              /* Full-width banners */
+              .full-width {
+                column-span: all;
+                width: 100% !important;
+              }
+
+              /* Prevent elements from splitting across pages */
+              h1, h2, h3, h4, h5, h6,
+              img,
+              table,
+              .no-break {
+                page-break-inside: avoid;
+                break-inside: avoid;
+              }
+
+              /* Page breaks */
+              .page-break {
+                break-before: page;
+              }
+
+              .pages {
+                display: block;
+              }
+              
+              .page {
+                page-break-after: always;
+                page-break-inside: avoid;
+                break-after: page;
+                break-inside: avoid;
+                margin: 0;
+                overflow: visible !important;
+              }
+              
+              .page:last-child {
+                page-break-after: auto;
+              }
+            }
+            
+            /* ============================================
+               PAGE CONTAINER
+               ============================================ */
+            .sheet {
+              width: 100%;
+              padding: 0.5in;
+              box-sizing: border-box;
+              break-after: page;
+            }
+            
+            /* ============================================
+               COMMON STYLES
+               ============================================ */
             .page p { color: black }
             .page li { color: black }
             .page table { color: black }
@@ -123,16 +241,52 @@ async function buildBook(tocFile, outputName) {
   const toc = await fs.readJSON(tocFile);
 
   let combinedMarkdown = '';
-  combinedMarkdown = `{{partCover}}\n\n`;
-  if (toc.includeTextOnCover == true) {
-    combinedMarkdown += `# ${toc.title}\n\n`;
-    combinedMarkdown += `### ${toc.subtitle}\n\n`;
+  
+  // Homebrewery metadata block
+  combinedMarkdown = '```metadata\n';
+  combinedMarkdown += `title: ${toc.title}\n`;
+  combinedMarkdown += `description: '${toc.subtitle || ''}'\n`;
+  combinedMarkdown += 'tags: []\n';
+  combinedMarkdown += 'systems:\n';
+  combinedMarkdown += '  - 5e\n';
+  combinedMarkdown += 'renderer: V3\n';
+  combinedMarkdown += 'theme: 5ePHB\n';
+  combinedMarkdown += 'snippets:\n';
+  combinedMarkdown += '  - name: brew_snippets\n';
+  combinedMarkdown += '    subsnippets:\n';
+  combinedMarkdown += '      - name: example snippet\n';
+  combinedMarkdown += '        gen: >\n\n';
+  combinedMarkdown += '          The text between `\\snippet title` lines will become a snippet of name\n';
+  combinedMarkdown += '          `title` as this example provides.\n\n\n';
+  combinedMarkdown += '          This snippet is accessible in the brew tab, and will be inherited if\n';
+  combinedMarkdown += '          the brew is used as a theme.\n\n';
+  combinedMarkdown += '```\n\n';
+  combinedMarkdown += '```css\n';
+  combinedMarkdown += '.page #example + table td {\n';
+  combinedMarkdown += '\tborder:1px dashed #00000030;\n';
+  combinedMarkdown += '}\n';
+  combinedMarkdown += '.page {\n';
+  combinedMarkdown += '\tpadding-bottom : 1.1cm;\n';
+  combinedMarkdown += '}\n';
+  combinedMarkdown += '```\n\n';
+  
+  // Front cover with optional banner and footnote
+  combinedMarkdown += '{{frontCover}}\n';
+  
+  if (toc.enableBanner && toc.bannerText) {
+    combinedMarkdown += '{{banner ' + toc.bannerText + '}}\n';
   }
-  combinedMarkdown +=`{{imageMaskEdge6,--offset:10cm,--rotation:180
-  ![Background image](${toc.coverImage}){position:absolute,bottom:0,left:0,height:100%}
-}}\n\n`;
-  combinedMarkdown += `\\page\n\n`;
-  combinedMarkdown += `{{wide \n\n`;
+  
+  if (toc.enableFootnote && toc.footnoteText) {
+    combinedMarkdown += '{{footnote\n  ' + toc.footnoteText + '\n}}\n';
+  }
+  
+  // Cover image with configurable positioning
+  const imagePosition = toc.coverImagePosition || 'absolute,bottom:0,left:0,height:100%';
+  combinedMarkdown += `![background image](${toc.coverImage}){position:${imagePosition}}\n\n`;
+  
+  combinedMarkdown += '\\page\n\n';
+  combinedMarkdown += '{{wide \n\n';
   // Add table of contents
   if (toc.includeTextOnCover == false) {
         combinedMarkdown += `# ${toc.title}\n\n`;
@@ -145,8 +299,8 @@ async function buildBook(tocFile, outputName) {
     combinedMarkdown += `### ${tocNumber}. ${section.chapter}\n\n`;
     tocNumber++;
   }
-  combinedMarkdown += `}}\n\n`;
-  combinedMarkdown += `\\page\n\n`;
+  combinedMarkdown += '}}\n\n';
+  combinedMarkdown += '\\page\n\n';
 
   // Process each section
   for (const section of toc.sections) {
@@ -168,6 +322,11 @@ async function buildBook(tocFile, outputName) {
   await fs.writeFile(mdPath, combinedMarkdown);
   console.log(`  Saved combined markdown: ${mdPath}`);
 
+  // Save Homebrewery-compatible .txt version
+  const txtPath = path.join(buildDir, `${outputName}.txt`);
+  await fs.writeFile(txtPath, combinedMarkdown);
+  console.log(`  Saved Homebrewery .txt: ${txtPath}`);
+
   // Render to DungeonsAndMarkdown-style HTML
   console.log('  Rendering to DungeonsAndMarkdown-style paged HTML...');
   const bodyHtml = renderDungeonsAndMarkdownPages(combinedMarkdown);
@@ -179,38 +338,10 @@ async function buildBook(tocFile, outputName) {
   await fs.writeFile(htmlPath, fullHtml);
   console.log(`  Saved HTML: ${htmlPath}`);
 
-  // Convert to PDF using Puppeteer
-  console.log('  Generating PDF...');
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    protocolTimeout: 600000,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
+  // PDF generation skipped - use .txt file for Homebrewery upload
+  console.log('  ✓ Build complete! Upload .txt file to homebrewery.naturalcrit.com');
 
-  const page = await browser.newPage();
-  page.setDefaultNavigationTimeout(180000);
-  await page.setViewport({ width: 1200, height: 1600 });
-  await page.emulateMediaType('screen');
-
-  const fileUrl = pathToFileURL(htmlPath).href;
-  await page.goto(fileUrl, { waitUntil: 'networkidle0', timeout: 180000 });
-
-  console.log('  Waiting for page layout to complete...');
-  await new Promise(resolve => setTimeout(resolve, 5000));
-
-  const pdfPath = path.join(buildDir, `${outputName}.pdf`);
-  await page.pdf({
-    path: pdfPath,
-    printBackground: true,
-    preferCSSPageSize: true,
-    margin: { top: 0, right: 0, bottom: 0, left: 0 },
-    timeout: 180000
-  });
-
-  await browser.close();
-  console.log(`  ✓ PDF generated: ${pdfPath}`);
-
-  return pdfPath;
+  return htmlPath;
 }
 
 async function main() {
