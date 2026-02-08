@@ -2363,7 +2363,6 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 - Focus on cultural interesting-ness, not frustration
 }}
 
-
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS}}
 

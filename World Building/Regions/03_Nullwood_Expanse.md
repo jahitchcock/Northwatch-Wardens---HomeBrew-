@@ -214,7 +214,6 @@ Growing concern. Reports of strange magic in the frontier unsettle the elves, th
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
 

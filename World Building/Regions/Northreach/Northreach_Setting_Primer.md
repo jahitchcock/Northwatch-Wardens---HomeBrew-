@@ -425,7 +425,6 @@ The frontier rewards the bold, the clever, and the prepared. But it punishes the
 **— Marshal Brenna Thorne, Northwatch Wardens**
 }}
 
-
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 

@@ -104,22 +104,8 @@ Northreach's geography follows a practical travel network centered on **Waystone
 ## Factions and Organizations
 
 ### The Northwatch Wardens (Player Organization)
-**Type:** Guild/mercenary company  
-**Purpose:** Protect frontier settlements through contract work  
-**Size:** ~20-30 active members (variable)  
-**Structure:** Loose, drop-in friendly, mission-based
 
-**Leadership Philosophy:**
-- Marshal Thorne: "Solve problems, protect people"
-- Steward Fenwick: "Stay equipped, stay fed, stay alive"
-- Lorewarden Vael: "Understand what we're fighting"
-
-**Services Provided:**
-- Monster elimination
-- Investigation
-- Escort and protection
-- Artifact recovery
-- Dispute resolution
+A frontier protection guild based at Waystone Inn, taking contracts to protect settlements and investigate threats. *(See Chapter 4 for complete charter, roster, and membership details.)*
 
 ### Local Governance
 **Village Councils:**
@@ -132,7 +118,6 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - Growers' Association (farmers)
 - Fleecers' Guild (shepherds)
 - Tradespeople (limited specialization)
-
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH}}

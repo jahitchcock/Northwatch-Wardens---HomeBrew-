@@ -1307,7 +1307,6 @@ And though he understands—
 He still sees her in the sunrise,
 With the dawn held in her hands.
 
-
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 

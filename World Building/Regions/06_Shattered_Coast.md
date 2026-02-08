@@ -270,7 +270,6 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
 

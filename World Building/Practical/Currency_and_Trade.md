@@ -819,7 +819,6 @@ In Northreach, pure currency transactions are often impractical:
   — Steward Mara Fenwick, Northwatch Wardens
 }}
 
-
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 

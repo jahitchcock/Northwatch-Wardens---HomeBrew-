@@ -131,7 +131,7 @@ Bolt • Flame • Pack members
 Welton • Palebank • Pinebrook
 
 {{pageNumber,auto}}
-{{footnote THE NORTHWATCH WARDENS}}
+{{footnote ROSTER}}
 
 \page
 
@@ -193,7 +193,7 @@ The Northwatch Wardens are overseen by three leaders, each responsible for a cri
 **Working With Him:** Elric appreciates curiosity, careful observation, and respect for knowledge. Bring him interesting information—particularly about magical phenomena, ancient ruins, or unusual creatures—and he'll gladly share what he knows. Ask intelligent questions and he'll teach willingly. Protect books and records, and he'll consider you a kindred spirit. Most importantly: if you encounter something strange, document it carefully and report honestly. That information might save lives.
 
 {{pageNumber,auto}}
-{{footnote THE NORTHWATCH WARDENS}}
+{{footnote THE TRIAD: GUILD LEADERSHIP}}
 
 \page
 
@@ -329,7 +329,7 @@ The Hearthwardens focus on community support, healing, diplomacy, and maintainin
 - Not formally part of the roster but recognized presences
 
 {{pageNumber,auto}}
-{{footnote THE NORTHWATCH WARDENS}}
+{{footnote FIELD MEMBERS}}
 
 \page
 
@@ -478,6 +478,6 @@ If accepted, you take the oath in Waystone Inn's common room:
 The Wardens believe in second chances for honest mistakes, but not for betrayal of trust. Marshal Thorne decides standing questions, with input from the full Triad for serious cases.
 
 {{pageNumber,auto}}
-{{footnote THE NORTHWATCH WARDENS}}
+{{footnote GUILD OPERATIONS}}
 
 \page

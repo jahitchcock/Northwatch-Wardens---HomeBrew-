@@ -1402,7 +1402,6 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 *Your story begins here.*
 }}
 
-
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
 
