@@ -216,3 +216,5 @@ In practice, that can mean:
 - Keep Solace Nexus useful as a **hub**: information, components, licenses, patrons, and politics.
 - Let the city feel safe until it suddenly isn’t; the tension is “civilization held together by chalk and etiquette.”
 - The shadow layer works best when it’s *plausible*—pacts aren’t everywhere, but they’re always an option.
+
+\page

@@ -213,3 +213,9 @@ Distrust. The city of masks traffics in relics the elves fear.
 Growing concern. Reports of strange magic in the frontier unsettle the elves, though they struggle to explain why it feels disturbingly familiar.
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote THE NULLWOOD EXPANSE}}
+
+\page

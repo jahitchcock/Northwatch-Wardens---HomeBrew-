@@ -35,6 +35,12 @@ Keep your adventure alive between game nights:
 
 - **Explore the Lore** — **Chapter 5: The Wider World of Aevoria** contains setting information about regions beyond Northreach. Your character might have come from one of these places.
 
+{{imageMaskCorner23,--offsetX:-80%,--offsetY:-70%,--rotation:80
+  ![](https://i.imgur.com/mOSsZOE.png){position:absolute,height:210px,left:90px,bottom:20px}
+}}
+
+
+
 \column
 
 ## Understanding the Structure
@@ -132,6 +138,16 @@ Good communication makes for better games:
 - **Work Together** — The Wardens are a team. Look for ways to help each other succeed.
 - **Embrace Failure** — Not every plan works. Some of the best stories come from setbacks and complications.
 
+{{wide
+{{imageMaskCenter8,--offsetX:0%,--offsetY:-10cm,--rotation:10
+  ![](https://i.imgur.com/7w5CkTP.png){height:35%,bottom:-30px,left:100px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift it up or down
+     Use --rotation to angle the mask -->
+
+}}
+
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
 
@@ -225,3 +241,9 @@ The best adventures come from curiosity, courage, and characters who care about 
 
 
 }}
+
+
+{{pageNumber,auto}}
+{{footnote HOW TO USE THIS BOOK}}
+
+\page

@@ -132,3 +132,9 @@ Northreach's geography follows a practical travel network centered on **Waystone
 - Growers' Association (farmers)
 - Fleecers' Guild (shepherds)
 - Tradespeople (limited specialization)
+
+
+{{pageNumber,auto}}
+{{footnote NORTHREACH}}
+
+\page

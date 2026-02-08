@@ -397,3 +397,9 @@ Your DM may expand on these organizations or introduce additional factions. The 
 *For detailed information about the Northwatch Wardens, see the dedicated chapter in this guide.*
 
 *For information about the gods and their religious institutions, see the Gods and Religion chapter.*
+
+
+{{pageNumber,auto}}
+{{footnote ORGANIZATIONS OF AEVORIA}}
+
+\page

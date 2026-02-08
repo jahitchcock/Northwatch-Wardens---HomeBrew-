@@ -618,6 +618,8 @@ It asks only one question:
 {{note
 **Welcome to Northreach.** *There's work to be done.*
 }}
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
+\page

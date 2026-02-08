@@ -370,3 +370,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 #### Downtime notes & Next session aim:
 
 }}
+
+
+{{pageNumber,auto}}
+{{footnote 2) CAMPAIGN JOURNAL}}
+
+\page

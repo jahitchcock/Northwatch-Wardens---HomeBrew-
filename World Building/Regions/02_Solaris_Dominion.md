@@ -639,3 +639,9 @@ Information flows faster through Solaris than anywhere:
 - Recent seismic reports creating concern
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote SOLARIS DOMINION}}
+
+\page

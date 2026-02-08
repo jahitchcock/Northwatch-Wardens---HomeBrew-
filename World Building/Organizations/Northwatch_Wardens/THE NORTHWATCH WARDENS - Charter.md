@@ -131,4 +131,6 @@ Bolt • Flame • Pack members
 Welton • Palebank • Pinebrook
 
 {{pageNumber,auto}}
-{{footnote THE NORTHWATCH WARDENS | GUILD CHARTER}}
+{{footnote ROSTER}}
+
+\page

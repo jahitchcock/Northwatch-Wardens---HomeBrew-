@@ -52,6 +52,9 @@ Most manufactured goods cost **1.5× standard PHB prices** in Northreach settlem
 - Transport: Not available
 - Firewood: 5× normal price
 
+{{pageNumber,auto}}
+{{footnote COMMON GOODS AND SERVICES}}
+
 \page
 
 ## Room and Board
@@ -932,3 +935,5 @@ When supplies are critically low or danger is immediate, prices skyrocket:
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+\page

@@ -250,3 +250,9 @@ This guide contains common knowledge—things your character might reasonably kn
 
 The best stories aren't the ones you read—they're the ones you live.
 }}
+
+
+{{pageNumber,auto}}
+{{footnote WELCOME TO AEVORIA}}
+
+\page

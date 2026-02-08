@@ -604,3 +604,9 @@ Even if you're not a cleric or paladin:
 *For detailed information about specific deities, see the Gods and Religion chapter.*
 
 *For information about the Covenant of the Silent Vigil, see the Organizations chapter.*
+
+
+{{pageNumber,auto}}
+{{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+
+\page

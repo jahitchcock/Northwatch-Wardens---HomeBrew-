@@ -359,3 +359,8 @@ Extreme expeditions financed from here.
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote VHAROXIS}}
+
+\page

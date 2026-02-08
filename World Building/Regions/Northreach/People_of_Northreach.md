@@ -633,3 +633,9 @@ In a frontier region, your reputation is built through actions:
 {{wide
     Out here, you're measured by what you do when no one's watching and what you don't do when everyone is.    — Common frontier saying
 }}
+
+
+{{pageNumber,auto}}
+{{footnote PEOPLE OF NORTHREACH}}
+
+\page

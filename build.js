@@ -196,9 +196,12 @@ async function processFiles(files, buildDir, combinedMarkdown) {
     const filePath = path.join(buildDir, file);
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
+      // Add file marker for unbuild sync
+      combinedMarkdown += `<!-- FILE_START: ${file} -->\n`;
       let content = await fs.readFile(filePath, 'utf-8');
       content = normalizePageBreak(content);
-      combinedMarkdown += content + '\n\n';
+      combinedMarkdown += content + '\n';
+      combinedMarkdown += `<!-- FILE_END: ${file} -->\n\n`;
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -252,14 +255,6 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += 'renderer: V3\n';
   combinedMarkdown += 'theme: 5ePHB\n';
   combinedMarkdown += 'snippets:\n';
-  combinedMarkdown += '  - name: brew_snippets\n';
-  combinedMarkdown += '    subsnippets:\n';
-  combinedMarkdown += '      - name: example snippet\n';
-  combinedMarkdown += '        gen: >\n\n';
-  combinedMarkdown += '          The text between `\\snippet title` lines will become a snippet of name\n';
-  combinedMarkdown += '          `title` as this example provides.\n\n\n';
-  combinedMarkdown += '          This snippet is accessible in the brew tab, and will be inherited if\n';
-  combinedMarkdown += '          the brew is used as a theme.\n\n';
   combinedMarkdown += '```\n\n';
   combinedMarkdown += '```css\n';
   combinedMarkdown += '.page #example + table td {\n';
@@ -267,7 +262,7 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += '}\n';
   combinedMarkdown += '.page {\n';
   combinedMarkdown += '\tpadding-bottom : 1.1cm;\n';
-  combinedMarkdown += '}\n';
+  combinedMarkdown += '}\n\n\n\n\n';
   combinedMarkdown += '```\n\n';
   
   // Front cover with optional banner and footnote
@@ -278,29 +273,26 @@ async function buildBook(tocFile, outputName) {
   }
   
   if (toc.enableFootnote && toc.footnoteText) {
-    combinedMarkdown += '{{footnote\n  ' + toc.footnoteText + '\n}}\n';
+    combinedMarkdown += '{{footnote\n  \n';
+    combinedMarkdown += '##### ' + toc.footnoteText + '\n';
+    combinedMarkdown += '}}\n';
   }
   
   // Cover image with configurable positioning
   const imagePosition = toc.coverImagePosition || 'absolute,bottom:0,left:0,height:100%';
-  combinedMarkdown += `![background image](${toc.coverImage}){position:${imagePosition}}\n\n`;
+  combinedMarkdown += `![background image](${toc.coverImage}){position:${imagePosition}}\n`;
+  
+  combinedMarkdown += '\\page\n';
+  combinedMarkdown += '\n\n\n\n\n\n';
+  
+  // Use Homebrewery's auto-TOC feature
+  combinedMarkdown += '{{toc,wide\n';
+  combinedMarkdown += `# ${toc.title}\n`;
+  combinedMarkdown += '# Contents\n';
+  combinedMarkdown += '}}\n\n\n\n\n\n';
   
   combinedMarkdown += '\\page\n\n';
-  combinedMarkdown += '{{wide \n\n';
-  // Add table of contents
-  if (toc.includeTextOnCover == false) {
-        combinedMarkdown += `# ${toc.title}\n\n`;
-        combinedMarkdown += `### ${toc.subtitle}\n\n::::\n\n`;
-  }
-  combinedMarkdown += `## Table of Contents\n\n::::\n\n`;
-  let tocNumber = 1;
-
-  for (const section of toc.sections) {
-    combinedMarkdown += `### ${tocNumber}. ${section.chapter}\n\n`;
-    tocNumber++;
-  }
-  combinedMarkdown += '}}\n\n';
-  combinedMarkdown += '\\page\n\n';
+  combinedMarkdown += '{{resetCounting}}\n';
 
   // Process each section
   for (const section of toc.sections) {

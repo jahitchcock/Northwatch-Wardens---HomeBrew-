@@ -94,3 +94,9 @@ Divinity’s Beacon is not anti‑wizard by default; it is anti‑**unaccountabl
 - A Myrraline funeral rite fails—someone is preventing a soul from “reclaiming,” and the city panics about undeath.
 - A Varrun hearthpost is burned; the neighborhood believes it’s a declaration of war.
 - An embassy from Solace Nexus arrives asking for sanctuary for a mage accused of pact‑work.
+
+
+{{pageNumber,auto}}
+{{footnote DIVINITY’S BEACON — PANTHEON}}
+
+\page

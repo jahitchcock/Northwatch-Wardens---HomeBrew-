@@ -331,3 +331,9 @@ Reports from Northreach trouble Marches druids—animals behaving strangely, pla
 **Concern:** The Green Stirring and the Echo may be linked
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote THE VERDANT MARCHES}}
+
+\page

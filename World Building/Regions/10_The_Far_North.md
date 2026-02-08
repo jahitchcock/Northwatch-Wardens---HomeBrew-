@@ -265,3 +265,9 @@ Traveling to the Far North requires extensive preparation:
 *"The Far North keeps its secrets. Some die trying to uncover them. Others wish they had."*
 
 — Darvin Crook, Shepherd's Crook Inn, Welton
+
+
+{{pageNumber,auto}}
+{{footnote THE FAR NORTH}}
+
+\page

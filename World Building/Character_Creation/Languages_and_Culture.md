@@ -2364,5 +2364,7 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 }}
 
 
+{{pageNumber,auto}}
+{{footnote FINAL THOUGHTS}}
 
-
+\page
