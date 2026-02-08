@@ -713,7 +713,6 @@ What brings people together:
   — Common frontier saying
 }}
 
-
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 

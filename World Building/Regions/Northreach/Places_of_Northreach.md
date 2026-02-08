@@ -581,7 +581,6 @@ Some can't endure frontier life:
 
 *"Northreach doesn't announce itself with walls and banners—it reveals itself mile by mile, earned step by earned step."*
 
-
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 

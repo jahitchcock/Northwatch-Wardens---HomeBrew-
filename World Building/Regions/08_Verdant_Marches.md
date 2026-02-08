@@ -332,7 +332,6 @@ Reports from Northreach trouble Marches druids—animals behaving strangely, pla
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 

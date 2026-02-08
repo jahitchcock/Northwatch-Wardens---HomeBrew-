@@ -640,7 +640,6 @@ Information flows faster through Solaris than anywhere:
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 

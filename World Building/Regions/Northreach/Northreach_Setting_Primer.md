@@ -60,22 +60,11 @@ Northreach is a cold, sparsely settled frontier where survival depends on commun
 
 ### The Northwatch Wardens
 
-**What Everyone Knows:**
+The Wardens are Northreach's frontier protection guild, operating from Waystone Inn. When communities face threats beyond their capability—awakened wolves, bandits, strange magical events—they post contracts for the Wardens to handle.
 
-The Northwatch Wardens are a guild operating from Waystone Inn. They take contracts to protect settlements, investigate dangers, and handle problems beyond the capability of ordinary folk. The guild is run by:
+**Leadership:** Marshal Brenna Thorne (field operations), Steward Mara Fenwick (logistics and supplies), Lorewarden Elric Vael (research and arcane threats).
 
-- **Marshal Brenna Thorne** — Tactical leader; assigns contracts
-- **Steward Mara Fenwick** — Quartermaster; manages supplies and finances
-- **Lorewarden Elric Vael** — Scholar; researches threats and maintains records
-
-**How It Works:**
-- Contracts are posted at Waystone Inn
-- Payment varies: sometimes coin, sometimes trade goods, sometimes just food and shelter
-- Wardens are expected to be competent, professional, and discrete
-- Reputation matters more than rules; betray the guild's trust and you're out
-- The guild doesn't take sides in local politics unless a contract specifically requires it
-
-**Recent Shift:** Lately, more contracts involve "strange occurrences" rather than straightforward problems. Wolves acting with unnatural intelligence, unexplained magical effects, objects behaving strangely. The Wardens are investigating, but so far no one has a full explanation.
+**→ For the complete charter, guild code, roster, and membership details, see Chapter 4: The Northwatch Wardens.**
 
 ### Money and Trade
 
@@ -435,7 +424,6 @@ The frontier rewards the bold, the clever, and the prepared. But it punishes the
 
 **— Marshal Brenna Thorne, Northwatch Wardens**
 }}
-
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}

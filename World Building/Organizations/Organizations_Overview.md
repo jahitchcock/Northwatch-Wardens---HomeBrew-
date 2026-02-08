@@ -9,30 +9,7 @@ This guide covers what most people know about the major factions operating in Ae
 
 ## The Northwatch Wardens
 
-**Type:** Frontier Guild | **Headquarters:** Waystone Inn, Northreach | **Public Reputation:** Reliable, Fair, Protective
-
-The Northwatch Wardens are a relatively young guild operating primarily in the Northreach frontier. Founded fifteen years ago by Marshal Brenna Thorne, the Wardens have built a reputation for accepting contracts that others won't—protecting isolated settlements, investigating strange occurrences, and dealing with threats that lie beyond the reach of established authorities.
-
-### What People Know
-
-- **Contract-Based Work:** The Wardens accept jobs ranging from escort missions to monster hunting to investigation work
-- **Fair Pay:** They're known for paying their members reliably and dealing honestly with clients
-- **Flexible Membership:** The guild welcomes those with varied backgrounds and doesn't ask too many questions about your past
-- **Frontier Focus:** Most of their work centers on Northreach and the surrounding wilderness
-
-### How to Interact
-
-- **Join:** Visit the Waystone Inn and speak with Marshal Thorne or Steward Fenwick
-- **Hire:** Post a contract with the guild; they'll assign capable members to your job
-- **Reputation:** Completing contracts successfully builds standing within the organization
-
-### Known Leaders
-
-- **Marshal Brenna Thorne** — Guild leader and tactical commander
-- **Steward Mara Fenwick** — Quartermaster and logistics coordinator
-- **Lorewarden Elric Vael** — Scholar and arcane advisor
-
-*For complete details about the Northwatch Wardens, see the dedicated chapter in this guide.*
+**The Northwatch Wardens** operate from Waystone Inn in Northreach as a frontier protection guild. *(See Chapter 4 for complete charter, roster, and membership details.)*
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
@@ -397,7 +374,6 @@ Your DM may expand on these organizations or introduce additional factions. The 
 *For detailed information about the Northwatch Wardens, see the dedicated chapter in this guide.*
 
 *For information about the gods and their religious institutions, see the Gods and Religion chapter.*
-
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}

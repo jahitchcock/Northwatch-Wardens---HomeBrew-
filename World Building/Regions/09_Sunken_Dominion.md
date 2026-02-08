@@ -235,7 +235,6 @@ Since then, diving operations have become more dangerous. The ruins themselves s
 **Relationship:** Mysterious connection  
 **Impact:** The Dominion's deepest structures share architectural patterns with northern megastructures. Scholars note similarities that shouldn't exist between ruins separated by thousands of miles.
 
-
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
 

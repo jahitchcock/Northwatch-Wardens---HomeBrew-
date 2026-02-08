@@ -242,7 +242,6 @@ The best adventures come from curiosity, courage, and characters who care about 
 
 }}
 
-
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
 

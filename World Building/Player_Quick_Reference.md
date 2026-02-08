@@ -455,7 +455,6 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 *"The frontier rewards preparation and punishes carelessness. Know your limits. Know your route. Know when to retreat."*  
 — **Marshal Brenna Thorne**, Northwatch Wardens
 
-
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 

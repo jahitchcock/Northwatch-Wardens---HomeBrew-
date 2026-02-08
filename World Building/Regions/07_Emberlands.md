@@ -359,7 +359,6 @@ The Emberlands and Northreach are geographically distant, but rumors of the Aeor
 - Both are investigating unusual magical patterns
 - Potential for collaborative research if contact increases
 
-
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
 

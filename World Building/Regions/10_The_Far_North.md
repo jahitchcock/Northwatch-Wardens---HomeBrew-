@@ -266,7 +266,6 @@ Traveling to the Far North requires extensive preparation:
 
 — Darvin Crook, Shepherd's Crook Inn, Welton
 
-
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
 

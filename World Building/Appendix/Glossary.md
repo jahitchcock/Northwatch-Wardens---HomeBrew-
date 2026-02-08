@@ -489,7 +489,6 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 
 *This glossary focuses on player knowledge only. DM-only information is intentionally excluded.*
 
-
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
