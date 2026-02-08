@@ -17637,17 +17637,11 @@ Trouble comes with the territory, and everyone knows it. Most dangers are ordina
 
 ## 1.1 The Northwatch Wardens (The Guild)
 
-The Northwatch Wardens are a contract-based guild headquartered at the **Waystone Inn**.
+The Northwatch Wardens are a contract-based guild headquartered at the **Waystone Inn**, handling problems too dangerous or strange for town militias.
 
-#### What most locals believe about Wardens:
-- They handle problems that are too dangerous, too strange, or too urgent for town militias.
-- They’re not nobles, not soldiers, and not priests—just professionals with a code.
-- They can be hired, but they’re expected to protect innocents and keep their word.
+**Guild leadership:** Marshal Brenna Thorne (field operations), Steward Mara Fenwick (logistics), and Lorewarden Elric Vael (research and records).
 
-#### Guild leadership:
-- **Marshal Brenna Thorne** — the public face and final call on field matters.
-- **Steward Mara Fenwick** — logistics, supplies, pay, and the contract board.
-- **Lorewarden Elric Vael** — records, reports, and “what we know so far.”
+*(For complete charter, roster, and membership details, see Chapter 4.)*
 
 ## 1.2 Daily life on the frontier
 
