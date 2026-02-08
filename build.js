@@ -208,10 +208,26 @@ async function processFiles(files, buildDir, combinedMarkdown) {
   return combinedMarkdown;
 }
 
+function stripFrontMatter(markdown) {
+  // Strip front matter blocks wrapped in ``` at the start of the document
+  // This removes ```metadata...``` and ```css...``` blocks
+  let cleaned = String(markdown);
+  
+  // Remove leading front matter blocks (metadata and css)
+  // Match ``` followed by optional language, then content, then closing ```
+  // Do this multiple times to catch both metadata and css blocks
+  cleaned = cleaned.replace(/^```(?:metadata|css)\s*\n[\s\S]*?\n```\s*\n*/gm, '');
+  
+  return cleaned;
+}
+
 function renderDungeonsAndMarkdownPages(rawMarkdown) {
+  // Strip front matter before rendering
+  const cleanedMarkdown = stripFrontMatter(rawMarkdown);
+  
   // Split on lines that are just "\page" (allowing trailing whitespace).
   // Also accept "\\page" in case any content was double-escaped.
-  const pages = String(rawMarkdown).split(/^(?:\\page|\\\\page)\s*$/gm);
+  const pages = String(cleanedMarkdown).split(/^(?:\\page|\\\\page)\s*$/gm);
   let outputHtml = '';
 
   for (let i = 0, pageIndex = 0; i < pages.length; i++) {
@@ -335,6 +351,259 @@ async function buildBook(tocFile, outputName) {
   return htmlPath;
 }
 
+async function createLandingPage(buildDir) {
+  console.log('Creating landing page...');
+  
+  const landingPageHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Northwatch Wardens - Guides to Aevoria</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #e4e4e4;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 3rem;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      color: #f0a500;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .tagline {
+      font-size: 1.2rem;
+      color: #c0c0c0;
+      font-style: italic;
+      margin-top: 1rem;
+    }
+    
+    .world-description {
+      background: rgba(255, 255, 255, 0.05);
+      border-left: 4px solid #f0a500;
+      padding: 1.5rem;
+      margin-bottom: 3rem;
+      border-radius: 4px;
+    }
+    
+    .world-description h2 {
+      color: #f0a500;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    
+    .world-description p {
+      margin-bottom: 0.8rem;
+    }
+    
+    .guides {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+    .guide-card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .guide-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(240, 165, 0, 0.3);
+    }
+    
+    .guide-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+    
+    .guide-content {
+      padding: 1.5rem;
+    }
+    
+    .guide-content h2 {
+      color: #f0a500;
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+    
+    .guide-content .subtitle {
+      color: #a0a0a0;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+    
+    .guide-content p {
+      margin-bottom: 1rem;
+      color: #d0d0d0;
+    }
+    
+    .guide-content ul {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+    
+    .guide-content li {
+      padding: 0.3rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: #d0d0d0;
+    }
+    
+    .guide-content li:before {
+      content: "⚔";
+      position: absolute;
+      left: 0;
+      color: #f0a500;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background: linear-gradient(135deg, #f0a500 0%, #d68910 100%);
+      color: #1a1a2e;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background: linear-gradient(135deg, #d68910 0%, #f0a500 100%);
+      box-shadow: 0 4px 15px rgba(240, 165, 0, 0.4);
+      transform: translateY(-2px);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+      margin-top: 3rem;
+      color: #a0a0a0;
+    }
+    
+    footer a {
+      color: #f0a500;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .guides {
+        grid-template-columns: 1fr;
+      }
+      
+      .guide-image {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚔️ Northwatch Wardens ⚔️</h1>
+      <p class="tagline">Guides to the World of Aevoria</p>
+    </header>
+    
+    <div class="world-description">
+      <h2>Welcome to Aevoria</h2>
+      <p><em>A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.</em></p>
+      <p><strong>Northreach</strong> is a cold frontier region where settlements are few, the wilderness is vast, and every community depends on grit, cooperation, and the willingness to face danger head-on. This is where your adventure begins—not in grand capitals or ancient kingdoms, but in a land where survival is earned daily and where small acts of courage ripple outward.</p>
+      <p>The <strong>Northwatch Wardens</strong> make their stand here at the Waystone Inn, a guild of professionals who handle the problems too dangerous, too strange, or too urgent for local militias.</p>
+    </div>
+    
+    <div class="guides">
+      <div class="guide-card">
+        <img src="https://i.imgur.com/e2me5Tq.png" alt="The Adventurer's Guide to Aevoria" class="guide-image">
+        <div class="guide-content">
+          <h2>The Adventurer's Guide to Aevoria</h2>
+          <p class="subtitle">A Player's Guide to the World of Northwatch Wardens</p>
+          <p>Everything players need to create characters and explore Aevoria:</p>
+          <ul>
+            <li>Character creation and regional origins</li>
+            <li>Detailed guide to Northreach and its settlements</li>
+            <li>The Northwatch Wardens guild charter</li>
+            <li>Wider world of Aevoria with its diverse regions</li>
+            <li>Gods, religion, and legendary places</li>
+            <li>Practical information for adventurers</li>
+          </ul>
+          <a href="The-adventurers-guide-to-aevoria.html" class="btn">View Player's Guide</a>
+        </div>
+      </div>
+      
+      <div class="guide-card">
+        <img src="https://i.imgur.com/3z7yO3J.png" alt="A DM's Guide to Aevoria" class="guide-image">
+        <div class="guide-content">
+          <h2>A DM's Guide to Aevoria</h2>
+          <p class="subtitle">Campaign Materials and World Secrets for Dungeon Masters</p>
+          <p>Everything DMs need to run the Northwatch Wardens campaign:</p>
+          <ul>
+            <li>Complete Season 1 campaign overview</li>
+            <li>Modular, drop-in adventures for 2-5 players</li>
+            <li>DM resources and session prep guides</li>
+            <li>NPC rosters and guild secrets</li>
+            <li>World secrets and the Aeorian Echo mystery</li>
+            <li>Adventure modules: Wolves of Welton, Frozen Sick, and more</li>
+          </ul>
+          <a href="A-DMs-guide-to-aevoria.html" class="btn">View DM's Guide</a>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Built with ❤️ for D&D 5e | <a href="https://github.com/jahitchcock/Northwatch-Wardens---HomeBrew-" target="_blank">View on GitHub</a></p>
+    </footer>
+  </div>
+</body>
+</html>`;
+
+  const indexPath = path.join(buildDir, 'index.html');
+  await fs.writeFile(indexPath, landingPageHtml);
+  console.log(`  Created landing page: ${indexPath}`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const buildPlayers = args.includes('--players') || args.length === 0;
@@ -369,6 +638,9 @@ async function main() {
         'A-DMs-guide-to-aevoria'
       );
     }
+
+    // Create landing page
+    await createLandingPage(buildDir);
 
     console.log('\n✓ Build complete! HTML/PDF now mirror DungeonsAndMarkdown page rendering.');
   } catch (error) {
