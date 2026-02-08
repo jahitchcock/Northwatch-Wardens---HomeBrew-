@@ -4,7 +4,6 @@ const fs = require('fs-extra');
 const path = require('path');
 const { pathToFileURL } = require('url');
 const { execSync } = require('child_process');
-const puppeteer = require('puppeteer');
 const { render: renderHomebrewery } = require('./homebrewery-renderer');
 
 // DungeonsAndMarkdown (VS Code extension) style HTML wrapper.

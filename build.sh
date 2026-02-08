@@ -1,10 +1,10 @@
 #!/bin/bash
-# Build script for Northwatch Wardens PDFs
+# Build script for Northwatch Wardens Guides
 
 set -e
 
 echo "==================================="
-echo "Northwatch Wardens PDF Build System"
+echo "Northwatch Wardens Build System"
 echo "==================================="
 echo ""
 
@@ -32,6 +32,10 @@ echo "==================================="
 echo "Build complete!"
 echo ""
 echo "Output files:"
-echo "  - build/The-adventurers-guide-to-aevoria.pdf"
-echo "  - build/A-DMs-guide-to-aevoria.pdf"
-echo "==================================="
+echo "  - build/The-adventurers-guide-to-aevoria.md"
+echo "  - build/The-adventurers-guide-to-aevoria.txt"
+echo "  - build/The-adventurers-guide-to-aevoria.html"
+echo "  - build/A-DMs-guide-to-aevoria.md"
+echo "  - build/A-DMs-guide-to-aevoria.txt"
+echo "  - build/A-DMs-guide-to-aevoria.html"
+echo "=================================="

@@ -20,8 +20,6 @@ filter-branch-purge-pinebrook.log
 
 # Build system
 node_modules/
-build/*.md
-build/*.html
 build/*.pdf
 
 # Test files

@@ -1,6 +1,6 @@
-# Building the Northwatch Wardens PDFs
+# Building the Northwatch Wardens Guides
 
-This document explains how to build the two PDF books from the markdown content in this repository:
+This document explains how to build the combined markdown, text, and HTML files from the content in this repository:
 
 1. **The Adventurer's Guide to Aevoria** - Player-facing materials
 2. **A DM's Guide to Aevoria** - DM-facing materials, campaigns, and adventures
@@ -42,7 +42,6 @@ This will generate both PDF files in the `build/` directory.
 ## First-Time Setup
 
 The first time you run the build script, it will automatically install the required dependencies:
-- `puppeteer` - For PDF generation
 - `marked` - Markdown parsing engine (matching Homebrewery version 15.0.12)
 - `marked-*` extensions - All official Homebrewery markdown extensions
 - `lodash` - Utility functions
@@ -86,15 +85,15 @@ The build system now uses **authentic Homebrewery markdown rendering** with the 
 
 After building, you'll find the following files in the `build/` directory:
 
-### PDF Files (Final Output)
-- `The-adventurers-guide-to-aevoria.pdf` - Player's guide
-- `A-DMs-guide-to-aevoria.pdf` - DM's guide
+### Final Output Files
+- `The-adventurers-guide-to-aevoria.md` - Combined markdown (Player's guide)
+- `The-adventurers-guide-to-aevoria.txt` - Copy of markdown with .txt extension for Homebrewery upload
+- `The-adventurers-guide-to-aevoria.html` - Styled HTML for viewing (Player's guide)
+- `A-DMs-guide-to-aevoria.md` - Combined markdown (DM's guide)
+- `A-DMs-guide-to-aevoria.txt` - Copy of markdown with .txt extension for Homebrewery upload
+- `A-DMs-guide-to-aevoria.html` - Styled HTML for viewing (DM's guide)
 
-### Intermediate Files
-- `The-adventurers-guide-to-aevoria.md` - Combined markdown
-- `The-adventurers-guide-to-aevoria.html` - Styled HTML
-- `A-DMs-guide-to-aevoria.md` - Combined markdown
-- `A-DMs-guide-to-aevoria.html` - Styled HTML
+The HTML files are automatically deployed to GitHub Pages for easy viewing and sharing.
 
 ## How It Works
 
@@ -144,7 +143,7 @@ The build script (`build.js`) performs the following steps:
    - Smart typography, superscript/subscript
    - Variables and heading IDs
 5. **Generate HTML** - Converts markdown to HTML with D&D-themed styling
-6. **Create PDF** - Uses Puppeteer to render HTML to PDF with proper formatting
+6. **Save all output** - Saves combined .md, .txt (for Homebrewery), and .html files
 
 ### 4. Homebrewery Rendering Engine
 
@@ -294,19 +293,6 @@ brew install node
 # Download installer from nodejs.org
 ```
 
-### PDF Generation Fails
-
-Puppeteer requires certain system libraries. On Linux:
-```bash
-# Ubuntu/Debian
-sudo apt-get install -y \
-  libnss3 \
-  libxss1 \
-  libasound2 \
-  libatk-bridge2.0-0 \
-  libgtk-3-0
-```
-
 ### File Not Found Warnings
 
 If you see warnings like "Warning: File not found:", check:
@@ -354,8 +340,9 @@ await buildBook('build/players-guide-toc.json', 'custom-output-name');
 
 When you update markdown files in the repository:
 1. Make your changes to the markdown files
-2. Run the build script again
-3. New PDFs will be generated with your updates
+2. Commit and push to the `main` branch
+3. The GitHub Actions workflow will automatically rebuild and redeploy to GitHub Pages
+4. Or run the build script locally: `./build.sh`
 
 ### Keeping Dependencies Updated
 
@@ -369,25 +356,39 @@ Check for outdated packages:
 npm outdated
 ```
 
-## GitHub Actions (Optional)
+## GitHub Actions and GitHub Pages
 
-An optional GitHub Actions workflow is provided at `.github/workflows/build-pdfs.yml` that can automatically build the PDFs in the cloud.
+A GitHub Actions workflow is provided at `.github/workflows/build-pdfs.yml` that automatically builds and deploys the guides to GitHub Pages.
+
+### Automatic Deployment
+
+The workflow is configured to:
+1. **Automatically build** on every push to the `main` branch
+2. **Generate all outputs** - Combined markdown (.md), text (.txt), and HTML (.html) files
+3. **Deploy to GitHub Pages** - HTML files are automatically published to your repository's GitHub Pages site
+4. **Archive artifacts** - All generated files are available as downloadable artifacts for 90 days
+
+### Accessing the Guides
+
+After deployment, the guides are available at:
+- **Player's Guide**: `https://<username>.github.io/<repository>/The-adventurers-guide-to-aevoria.html`
+- **DM's Guide**: `https://<username>.github.io/<repository>/A-DMs-guide-to-aevoria.html`
 
 ### Manual Trigger
 
-By default, the workflow can be triggered manually:
+You can also trigger the workflow manually:
 1. Go to the "Actions" tab in your GitHub repository
-2. Select "Build PDFs" workflow
+2. Select "Build and Deploy to GitHub Pages" workflow
 3. Click "Run workflow"
-4. Download the generated PDFs from the artifacts
+4. Download the generated files from the artifacts or view them on GitHub Pages
 
-### Automatic Triggers
+### Setting Up GitHub Pages
 
-To enable automatic builds, edit `.github/workflows/build-pdfs.yml` and uncomment the triggers:
-- `push: branches: [ main ]` - Build on every push to main
-- `pull_request: branches: [ main ]` - Build on pull requests
-
-The PDFs will be available as downloadable artifacts in the Actions tab for 30 days.
+If this is your first time using GitHub Pages for this repository:
+1. Go to your repository's Settings
+2. Navigate to "Pages" in the left sidebar
+3. Under "Build and deployment", select "GitHub Actions" as the source
+4. The workflow will handle the rest automatically
 
 ## File Locations
 
@@ -400,9 +401,9 @@ The PDFs will be available as downloadable artifacts in the Actions tab for 30 d
 ├── build/                            # Build directory
 │   ├── players-guide-toc.json       # Player's guide structure
 │   ├── dms-guide-toc.json           # DM's guide structure
-│   ├── *.pdf                        # Generated PDFs
-│   ├── *.html                       # Intermediate HTML
-│   └── *.md                         # Combined markdown
+│   ├── *.md                         # Combined markdown files
+│   ├── *.txt                        # Homebrewery-compatible copies
+│   └── *.html                       # HTML files (deployed to GitHub Pages)
 └── [content directories...]          # Source markdown files
 ```
 
