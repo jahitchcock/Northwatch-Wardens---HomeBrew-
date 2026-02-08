@@ -48,25 +48,6 @@ jobs:
         cp build/*.html _site/
         cp build/*.md _site/
         cp build/*.txt _site/
-        # Create an index.html that redirects to the player's guide
-        cat > _site/index.html << 'EOF'
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <meta charset="utf-8">
-          <meta http-equiv="refresh" content="0; url=The-adventurers-guide-to-aevoria.html">
-          <title>Northwatch Wardens Guides</title>
-        </head>
-        <body>
-          <h1>Northwatch Wardens Guides</h1>
-          <ul>
-            <li><a href="The-adventurers-guide-to-aevoria.html">The Adventurer's Guide to Aevoria (Player's Guide)</a></li>
-            <li><a href="A-DMs-guide-to-aevoria.html">A DM's Guide to Aevoria (DM's Guide)</a></li>
-          </ul>
-          <p>Redirecting to Player's Guide...</p>
-        </body>
-        </html>
-        EOF
     
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
