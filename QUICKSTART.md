@@ -1,9 +1,9 @@
-# Quick Reference: Building PDFs
+# Quick Reference: Building the Guides
 
 ## Simple Commands
 
 ```bash
-# Build both PDFs
+# Build both guides
 ./build.sh
 
 # Build only player's guide
@@ -15,9 +15,19 @@
 
 ## Output Files
 
-After running the build, find your PDFs in the `build/` directory:
-- `The-adventurers-guide-to-aevoria.pdf` (Player-facing content)
-- `A-DMs-guide-to-aevoria.pdf` (DM content)
+After running the build, find your files in the `build/` directory:
+- `The-adventurers-guide-to-aevoria.md` (Combined markdown - Player's guide)
+- `The-adventurers-guide-to-aevoria.txt` (For Homebrewery upload - Player's guide)
+- `The-adventurers-guide-to-aevoria.html` (Styled HTML - Player's guide)
+- `A-DMs-guide-to-aevoria.md` (Combined markdown - DM's guide)
+- `A-DMs-guide-to-aevoria.txt` (For Homebrewery upload - DM's guide)
+- `A-DMs-guide-to-aevoria.html` (Styled HTML - DM's guide)
+
+## View Online
+
+The HTML guides are automatically deployed to GitHub Pages:
+- **[Player's Guide](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/The-adventurers-guide-to-aevoria.html)**
+- **[DM's Guide](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/A-DMs-guide-to-aevoria.html)**
 
 ## First Time Setup
 
