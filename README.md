@@ -210,11 +210,11 @@ This repository carefully separates **player-safe content** from **DM-only secre
 
 
 
-## Building the PDFs
+## Accessing the Guides
 
 
 
-This repository includes a build system to convert all markdown content into two professionally-formatted, Homebrewery-styled PDF books:
+This repository includes a build system to convert all markdown content into two professionally-formatted, Homebrewery-styled guides available as HTML, markdown, and text files:
 
 
 
@@ -226,7 +226,14 @@ This repository includes a build system to convert all markdown content into two
 
 
 
-### Quick Start
+### View Online (GitHub Pages)
+
+The guides are automatically built and deployed to GitHub Pages on every commit to main:
+
+- **[Player's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/The-adventurers-guide-to-aevoria.html)**
+- **[DM's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/A-DMs-guide-to-aevoria.html)**
+
+### Build Locally
 
 
 
@@ -238,7 +245,7 @@ This repository includes a build system to convert all markdown content into two
 
 
 
-This will generate both PDF files in the `build/` directory.
+This will generate combined markdown (.md), text (.txt for Homebrewery upload), and HTML (.html) files in the `build/` directory.
 
 
 

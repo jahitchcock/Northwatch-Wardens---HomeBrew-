@@ -358,7 +358,7 @@ npm outdated
 
 ## GitHub Actions and GitHub Pages
 
-A GitHub Actions workflow is provided at `.github/workflows/build-pdfs.yml` that automatically builds and deploys the guides to GitHub Pages.
+A GitHub Actions workflow is provided at `.github/workflows/build-and-deploy.yml` that automatically builds and deploys the guides to GitHub Pages.
 
 ### Automatic Deployment
 
