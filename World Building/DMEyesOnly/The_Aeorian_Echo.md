@@ -34,6 +34,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ## Historical Background
 
+{{note
+**Cross-World Context:** Aeor originated in Exandria (Wildemount), but fragments fell through a dimensional rift into Aevoria during the Calamity. See **The_Dimensional_Rift.md** for the complete explanation of how Aeorian ruins exist in multiple worlds. This document describes both the original fall (Exandria) and the current reactivation (Aevoria's Far North).
+}}
+
 ### Aeor Before the Fall
 
 **What It Was:**
@@ -84,7 +88,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### Why Here?
 
 **Geological Reality:**
-- Northreach region lies directly south of main Eiselcross crash site
+- Northreach region lies directly south of The Far North crash site
 - Multiple Aeorian fragments impacted in the area
 - Underground connections still exist between facilities
 - Magical ley lines connect the sites
@@ -126,7 +130,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### The Trigger
 
 **Primary Cause:**
-- Recent increase in Eiselcross exploration
+- Recent increase in Far North exploration
 - Artifacts removed and transported south
 - Disturbance of sealed facilities
 - Magical interference with dormant systems
@@ -626,7 +630,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Collection:**
 - Uttolot operatives positioned in multiple settlements
-- Prioritize items from Eiselcross expeditions
+- Prioritize items from Far North expeditions
 - Specific instructions on what to acquire
 - Pay premium for biological samples
 
@@ -717,7 +721,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **The Calamity:**
 - Gods unite to destroy Aeor
 - City shattered mid-flight
-- Crashes into Eiselcross and surrounding regions
+- Crashes into Eiselcross (Exandria); fragments fall through dimensional rift into Aevoria's Far North
 - Most inhabitants killed
 - Some systems survive in stasis
 
@@ -728,7 +732,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Magical resonance slowly builds
 
 **Recent Years:**
-- Eiselcross exploration increases
+- Far North exploration increases
 - Artifacts removed and transported
 - First major disturbances in centuries
 - Entity begins awakening
@@ -748,7 +752,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Echo becomes detectable to sensitive individuals
 
 **Two Months Ago:**
-- Urgon returns from Eiselcross
+- Urgon returns from The Far North
 - Urgon's artifacts stolen
 - Frigid woe released in Palebank
 - Welton wolves behavior escalates
@@ -1069,7 +1073,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Temple of the Dragonknights (Mid-Late Game)
 
-**Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
+**Adventure Module:** See **Chapter 5: Temple of the Dragonknights**
 
 **Location:** Northwest mountains
 

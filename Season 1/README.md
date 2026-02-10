@@ -2,9 +2,7 @@
 
 ## 🚀 New DM? Start Here!
 
-**📖 [SESSION 0 QUICK START GUIDE](./SESSION_0_QUICK_START.md)** — Prep and run Session 0 in under 1 hour
-
-**🎯 [GENERAL DM QUICK START](../DM_QUICKSTART.md)** — Run your first adventure session with minimal prep
+**📖 SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
 
 ---
 
@@ -13,11 +11,9 @@
 
 **This README contains campaign overview information that may spoil mysteries for players.**
 
-**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, see:
-- `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- `World Building/Regions/Northreach/` for regional information
+**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, consult *The Adventurer's Guide to Aevoria* (the player-facing companion to this book).
 
-**DMs:** For complete campaign secrets, see `Season 1/DM_Resources/`
+**DMs:** For complete campaign secrets, see **Chapter 6: World Secrets**
 }}
 
 ## Overview
@@ -29,7 +25,7 @@ The campaign is **order-independent** — each adventure stands alone while buil
 - **Campaign Hub**: Waystone Inn (guild headquarters)
 - **Leadership**: Marshal Brenna Thorne, Steward Mara Fenwick, Lorewarden Elric Vael
 - **Playstyle**: Contract posting → investigation → resolution → cryptic lore revealed
-- **Quick Reference**: [Player Quick Reference Guide](../World%20Building/Player_Quick_Reference.md) — Costs, travel times, and essential info
+- **Quick Reference**: See **Chapter 7: Appendix** — Costs, travel times, and essential info
 
 ## How It Works
 **Each session:**
@@ -70,7 +66,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
   - Deception: claim wolves eliminated; short-term success, long-term complications
 - **Council Mechanics**: 7 members, 3 votes needed; Father Merriksonn and Corel guaranteed YES
 - **Rewards**: 800 gp + Warden credit
-- **Files**: `Season 1/Adventures/Wolves_Of_Welton/`
+- **Adventure Module**: See **Chapter 5: Wolves of Welton**
 
 \page
 
@@ -82,7 +78,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Aeorian spores are the source of all disturbances; ruins are actively destabilizing
 - **Outcomes**: Evacuate, cleanse the source, or exploit it for power
 - **Reward**: Variable (loot, political favor, or dangerous knowledge)
-- **Files**: `Season 1/Adventures/Frozen Sick/`
+- **Adventure Module**: See **Chapter 5: Frozen Sick**
 
 ### 🐉 Temple of the Dragonknights (Levels 4–5)
 - **Theme**: Ambition, corruption, and misused awakening magic
@@ -92,7 +88,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Intelligent predators and cults are mobilizing to exploit rising magic
 - **Outcomes**: Destroy the cult, expose Venomfang, or broker fragile truce
 - **Reward**: Artifacts, regional reputation shift
-- **Files**: `Season 1/Adventures/Temple_of_the_Dragonknights/`
+- **Adventure Module**: See **Chapter 5: Temple of the Dragonknights**
 
 ### 🐑 The Wild Sheep Chase (Levels 1–2, Comic Relief)
 - **Theme**: Magic behaving unpredictably
@@ -102,7 +98,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Artifacts are becoming unreliable; magic is destabilizing everywhere
 - **Tone**: Lighthearted but thematically significant; excellent palate-cleanser
 - **Reward**: Loot + memorable story
-- **Files**: `Season 1/Adventures/The_Wild_Sheep_Chase_V2/`
+- **Adventure Module**: See **Chapter 5: The Wild Sheep Chase**
 
 ### 🌲 Peril in Pinebrook (Levels 1–3, Side Trek)
 - **Theme**: Small communities caught in the crossfire of rising magic
@@ -112,7 +108,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Every settlement is vulnerable; the frontier is changing faster than anyone can respond
 - **Outcomes**: Solve the mystery, aid the community, recruit allies
 - **Reward**: Political favor, future allies
-- **Files**: `Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/`
+- **Adventure Module**: See **Chapter 5: Peril in Pinebrook**
 
 ---
 
@@ -122,19 +118,19 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Level**: 1–2
 - **Encounter**: 2 desperate wolves attack party on road
 - **Purpose**: Create immediate party cohesion through shared combat
-- **File**: `Season 1/Adventures/Opening/Open Skirmish.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - Open Skirmish**
 
 ### The Morning After (Social)
 - **Level**: Any
 - **Encounter**: Formal swearing-in, charter signing, leadership intros
 - **Purpose**: Establish guild identity and structure
-- **File**: `Season 1/Adventures/Opening/THE MORNING AFTER.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - The Morning After**
 
 ### Wolves - Contract (Briefing)
 - **Level**: Any
 - **Encounter**: Contract W-17 posted and explained
 - **Purpose**: Deliver party to Welton for first adventure
-- **File**: `Season 1/Adventures/Opening/Wolves - Contract.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - Wolves Contract**
 
 ---
 
@@ -205,7 +201,7 @@ All Wardens shall:
 **Marshal Brenna Thorne** — Field Commander
 - **Public Role**: Contract assignment, combat readiness, tactical decisions
 - **Background**: Decades of frontier patrol; hardened ranger
-- **Secret**: Survivor of Greywinter Hunts (creature attack that killed half her squad, including her brother); carries guilt and obsession with thorough investigation; has sealed letter from Uthodurn warning of arcane disturbances
+- **Secret**: Survivor of Greywinter Hunts (creature attack that killed half her squad, including her brother); carries guilt and obsession with thorough investigation; has sealed letter from northern contact warning of arcane disturbances
 
 **Steward Mara Fenwick** — Quartermaster
 - **Public Role**: Supplies, finances, logistics, reimbursements
@@ -219,7 +215,7 @@ All Wardens shall:
 
 \page
 
-### Field Roster (See `Season 1/Campaign Assets/DM Guild Roster.md` for full details)
+### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
 
 **Trailwardens** (scouts, wilderness specialists):
 - **Corel** — Senior Shepherd of Welton (halfling); only other Greywinter Hunts survivor
@@ -289,34 +285,29 @@ World Building/
 \page
 
 ### Key Files
-- **Charter (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- **NPC Secrets**: `Season 1/Campaign Assets/DM Guild Roster.md`
-- **Mystery Framework**: `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md`
-- **Adventure Secrets Quick Reference**: `Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md` ← **NEW!**
+- **Charter**: See the Northwatch Wardens charter earlier in this book
+- **NPC Secrets**: See **Chapter 4: DM Guild Roster**
+- **Mystery Framework**: See **Chapter 4: Campaign Arc**
 - **Stat Blocks**: JSON files in each adventure folder
 
 ---
 
 ## DM Resources & World Secrets
 
-**NEW: Adventure Secrets Quick Reference**
+**Quick Navigation:**
 
-For quick navigation between adventures and their hidden lore, see:
-- **[Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md](./DM_Resources/Adventure_Secrets_Quick_Reference.md)**
-
-This document provides:
-- Direct links from each adventure to its relevant world secrets
-- Reverse links from secret files back to adventures
+For quick navigation between adventures and their hidden lore, this guide provides:
+- Direct cross-references from each adventure to relevant world secrets
 - Key secrets summary for each location
 - Player discovery guidelines
 - Navigation tips for session prep
 
 **World Secrets (DM Eyes Only):**
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../World%20Building/DMEyesOnly/Northreach.md)** - Regional secrets & adventure integration
-- **[World Building/DMEyesOnly/Places_Secrets.md](../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific hidden truths
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Regional secrets and adventure integration
+- **Chapter 6: Places Secrets** — Location-specific hidden truths
 
-Each adventure file now includes a "Northwatch Wardens Integration (DM)" section at the top with links to relevant secrets.
+Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" section with cross-references to relevant secrets.
 
 ---
 
@@ -415,16 +406,16 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ## Resources
 
-- **Charter Text (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- **NPC Secrets & Campaign Ties**: `Season 1/Campaign Assets/DM Guild Roster.md`
-- **Mystery Framework & Adventure Interlock**: `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md`
+- **Charter**: See the Northwatch Wardens charter earlier in this guide
+- **NPC Secrets & Campaign Ties**: See **Chapter 4: DM Guild Roster**
+- **Mystery Framework & Adventure Interlock**: See **Chapter 4: Campaign Arc**
 - **Stat Blocks** (parseable): JSON files in each adventure folder
 
 ---
 
 ## Ready to Play
 
-**First-time DMs:** Start with the **[DM Quick Start Guide](../DM_QUICKSTART.md)** — a step-by-step guide to run your first session with minimal prep.
+**First-time DMs:** Start with **Chapter 2: Quick Start** for a step-by-step guide to run your first session with minimal prep.
 
 **Experienced DMs:**
 

@@ -88,7 +88,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Has a contact in Palebank who reports unusual findings
 
-- Corresponds with someone in Uthodurn about Eiselcross
+- Corresponds with a northern contact about The Far North
 
 
 
@@ -148,7 +148,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Her old contacts occasionally provide useful (and dangerous) information
 
-- Recognizes Uttolot family connection to Eiselcross smuggling
+- Recognizes Uttolot family connection to Far North smuggling
 
 
 
@@ -190,7 +190,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (But Hasn't Shared):**
 
-- Uttolot family has been increasing Eiselcross operations
+- Uttolot family has been increasing Far North operations
 
 - Several Aeorian artifacts have been sold through specific channels
 
@@ -291,7 +291,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Occasionally corresponds with Cobalt Soul contacts (risky)
 
-- Has a contact at Uthodurn who provides Eiselcross findings
+- Has a northern contact who provides Far North findings
 
 
 
@@ -299,7 +299,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Aeor was developing biological weapons that couldn't be cured by divine magic
 
-- Multiple Aeorian facilities crashed in the Northreach/Eiselcross area
+- Multiple Aeorian facilities crashed in the Northreach/Far North region
 
 - The "Aeorian Echo" suggests something is reactivating ancient systems
 
@@ -1246,7 +1246,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Works for Uttolot criminal family
 
-- Stationed in Palebank to steal Eiselcross artifacts
+- Stationed in Palebank to steal Far North artifacts
 
 - Didn't know what she was stealing or why
 

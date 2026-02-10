@@ -214,6 +214,8 @@ A fourth/fifth level adventure for D&D 5E
 
 **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful).
 
+\page
+
 ### XP Awards (Milestone)
 - Completing adventure: Party gains **+500 XP each** (or milestone toward next level)
 - Restoring Shinebright without killing him: **+100 XP bonus**
@@ -222,6 +224,8 @@ A fourth/fifth level adventure for D&D 5E
 - **Local Town:** Friendly (if they fought Guz publicly)
 - **Shinebright:** Ally (can call upon him for magical research, identifying items)
 - **Lorewarden Elric:** Very interested (wants to study wand's instability)
+
+\page
 
 ## Aeorian Echo Foreshadowing
 

@@ -20,7 +20,7 @@
 - **Urgon Wenth** — Deceased explorer (turned to ice), source of outbreak
 - **Verla Pelc** — Deceased elf collector (also turned to ice)
 - **Irven Liel** — Infected merchant, family at risk
-- **Morgo** — Uthodurn guide at Syrinlya outpost
+- **Morgo** — southern cities guide at Syrinlya outpost
 
 ## Central Mystery (Aeorian Echo Connection)
 
@@ -142,7 +142,7 @@
 - Random encounters: ice mephits, saber-toothed tigers (1d4)
 
 **Arcana (Salsvault):**
-- DC 13 Arcana to identify Aeorian magical signatures (pre-Calamity, god-killing weapons)
+- DC 13 Arcana to identify Aeorian magical signatures (pre-Godsfall, god-killing weapons)
 - DC 15 Arcana to safely handle artifacts (failure = magical backlash)
 - DC 10 Arcana to recognize gold vials as antidote (warm glow vs. cold blue spores)
 
@@ -163,7 +163,7 @@
 ### If Players Rush to Salsvault Without Prep
 
 - Morgo at Syrinlya warns them: "You'll need cold-weather gear, rations, and climbing equipment. The icefields are deadly."
-- Allow them to buy supplies (or borrow from Uthodurn expedition)
+- Allow them to buy supplies (or borrow from southern cities expedition)
 - Random encounter on ice shows consequences of being unprepared (frozen corpse of explorer)
 
 ### If Players Are Dying in Salsvault
@@ -192,7 +192,7 @@
 
 ### Reputation Changes
 - **Palebank Village:** Friendly (saved from plague)
-- **Uthodurn Explorers:** Interested (party has Aeorian expertise)
+- **southern cities Explorers:** Interested (party has Aeorian expertise)
 - **Lorewarden Elric:** Extremely interested (requests full debrief on Salsvault)
 
 ## Aeorian Echo Foreshadowing
@@ -209,10 +209,10 @@
    > "If Salsvault is active, other Aeorian ruins might be waking too. And they could be anywhere beneath Northreach's soil."
 
 4. **Morgo's Warning (at Syrinlya):**
-   > "We've had three expeditions disappear in Eiselcross this year. More than usual. Something's changing out there on the ice."
+   > "We've had three expeditions disappear in The Far North this year. More than usual. Something's changing out there on the ice."
 
 5. **Elric's Debrief (when party returns to Waystone Inn):**
-   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Calamity, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
+   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Godsfall, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
 
 \page
 
@@ -225,7 +225,7 @@
 - [ ] Familiarize yourself with frigid woe disease mechanics (pg 1 of adventure)
 - [ ] Review Salsvault map (if using) or plan theater-of-mind descriptions
 - [ ] Prepare NPC voices: Elro (gruff ranger), Tulgi (suspicious, dying), Morgo (helpful guide)
-- [ ] Decide if using Option A (keep Wildemount names) or Option B (generic names)
+- [ ] Decide if using Option A (keep Aevoria names) or Option B (generic names)
 - [ ] Mark key revelation moments (Salsvault is source of Aeorian Echo)
 
 ## Day Before Session
@@ -354,7 +354,7 @@
 - **Verla Pelc:** Deceased elf collector (owned Pelc's Curiosities)
 - **Irven Liel:** Infected merchant (family at risk)
 - **Mila Teno:** Glassblade guard (helpful NPC)
-- **Morgo:** Guide at Syrinlya outpost (Uthodurn explorer)
+- **Morgo:** Guide at Syrinlya outpost (southern cities explorer)
 - **Salsvault:** Aeorian laboratory ruin (source of frigid woe)
 
 ### Quick Treasure
@@ -383,7 +383,7 @@
 
 > *Elric's face pales as you describe Salsvault.*
 >
-> "An active Aeorian ruin. Gods help us. Aeor fell during the Calamity — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+> "An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
 
 ## Post-Session Tasks
 
@@ -445,36 +445,36 @@ This sets up Temple of the Dragonknights as the next adventure.
 
 This adventure text includes setting-specific names from its original source. For Northwatch Wardens, you have two clean options:
 
-#### Option A: Exandria/Wildemount-compatible (keep the names)
+#### Option A: Aevoria/Aevoria-compatible (keep the names)
 
 - **Northreach** is a homebrew frontier region.
 - **Palebank Village** is a Northreach member settlement on the northeast coast.
 - The **unlabeled cave icon** on the player map is **Croaker Cave**.
 - The **unlabeled mountain/fortress icon** on the player map is **Salsvault**.
-- Names like **Eiselcross**, **Uthodurn**, and **Shadycreek Run** exist “off-screen” as distant places referenced in backstory/trade.
+- Names like **The Far North**, **southern cities**, and **Port Morrow** exist “off-screen” as distant places referenced in backstory/trade.
 
 ### Option B: Northreach-standalone (use plain-language substitutes at the table)
 
-- **Wildemount** → “the wider world” / “southern trade routes”
-- **Uthodurn** → “a southern dwarven-elf holdfast”
-- **Dwendalian Empire** → “a southern empire”
-- **Shadycreek Run** → “a distant smuggling town”
-- **Eiselcross / Foren** → “the icefields north of Palebank” / “the largest ice island”
+- **Aevoria** → “the wider world” / “southern trade routes”
+- **southern cities** → “a southern dwarven-elf holdfast”
+- **southern kingdoms** → “a southern empire”
+- **Port Morrow** → “a distant smuggling town”
+- **The Far North / Foren** → “the icefields north of Palebank” / “the largest ice island”
 
 Either way, the only locations the players need on-map are: **Palebank Village**, **Croaker Cave**, and **Salsvault**.
 
-Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and Eiselcross.
+Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and The Far North.
 
-If your players are using the heroic chronicle to create their characters (see chapter 4 in the Explorer's Guide to Wildemount), work with them to decide how they made their way to Palebank Village. Are they citizens of Uthodurn now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
+If your players are using the heroic chronicle to create their characters (see chapter 4 in the this adventure), work with them to decide how they made their way to Palebank Village. Are they explorers from the south now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
 
 Story Overview
-Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of Eiselcross for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of Eiselcross’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Shadycreek Run, and sold again to an unsuspecting merchant.
+Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of The Far North for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of The Far North’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Port Morrow, and sold again to an unsuspecting merchant.
 
-In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount.
+In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “The Far North” section of chapter 3 of this adventure.
 
 Frigid Woe
 
-Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in Eiselcross’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
+Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in The Far North’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
 The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
 
@@ -484,12 +484,12 @@ The disease is transmitted by breathing in blue spores that Aeor’s mages creat
 A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
 
 Adventure Summary
-While the characters are in Palebank Village, community leader Elro Aldataur asks for their help figuring out who or what has killed Urgon Wenth. An explorer recently returned from Eiselcross, Urgon was afflicted by a strange malady that turned him into an ice statue, and which has since shown up in another of the village’s residents. The characters investigate the mystery while contending with the forces of the Uttolots, one of the criminal families that control Shadycreek Run. More infected locals are discovered, including one more already dead, before the characters clear Uttolot thugs out of a local cavern complex called Croaker Cave. In the end, the vials of frigid woe are reclaimed, but merchant Irven Liel and his family are infected and will be the next to die without a cure. Moreover, the characters might well be infected with the disease themselves.
+While the characters are in Palebank Village, community leader Elro Aldataur asks for their help figuring out who or what has killed Urgon Wenth. An explorer recently returned from The Far North, Urgon was afflicted by a strange malady that turned him into an ice statue, and which has since shown up in another of the village’s residents. The characters investigate the mystery while contending with the forces of the Uttolots, one of the criminal families that control Port Morrow. More infected locals are discovered, including one more already dead, before the characters clear Uttolot thugs out of a local cavern complex called Croaker Cave. In the end, the vials of frigid woe are reclaimed, but merchant Irven Liel and his family are infected and will be the next to die without a cure. Moreover, the characters might well be infected with the disease themselves.
 
-Elro asks the characters to travel to Eiselcross to seek a cure for frigid woe. The characters take a boat to Syrinlya, the Uthodurnian outpost on Foren, and retrace Urgon Wenth’s path to the ruin of Salsvault. This magic laboratory was once a part of Aeor, an ancient flying city-state that crashed into Eiselcross during the Calamity. Only by braving Salsvault’s defenses and deadly guardians can the adventurers find the antidote they need.
+Elro asks the characters to travel to The Far North to seek a cure for frigid woe. The characters take a boat to Syrinlya, the Aevorian research outpost on Foren, and retrace Urgon Wenth’s path to the ruin of Salsvault. This magic laboratory was once a part of Aeor, an ancient flying city-state that crashed into The Far North during the Godsfall. Only by braving Salsvault’s defenses and deadly guardians can the adventurers find the antidote they need.
 
 Setup and Starting Points
-Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of Explorer's Guide to Wildemount.
+Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of this adventure.
 
 Before the adventure begins is also the time to figure out if the characters already know each other or if this adventure is the first time they’ve met.
 
@@ -497,7 +497,7 @@ Before the adventure begins is also the time to figure out if the characters alr
 Mystery in Palebank Village
 The adventure begins in Palebank Village, with the characters drawn immediately into the drama of death in an isolated settlement. Once the players are ready to begin, read or paraphrase the following to set the scene:
 
-Snow gently falls from the sky and wind bites your cheeks as you stand in the graveyard of Palebank Village, a fishing outpost of Uthodurn that is home to several hundred dwarves and elves. The sun is low in the sky, sinking behind the fresh grave of Urgon Wenth, an old dwarf who caught a curse or disease that turned him into an ice statue. The folk of the village have gathered to pay their final respects to Urgon’s frozen remains.
+Snow gently falls from the sky and wind bites your cheeks as you stand in the graveyard of Palebank Village, a fishing outpost of southern cities that is home to several hundred dwarves and elves. The sun is low in the sky, sinking behind the fresh grave of Urgon Wenth, an old dwarf who caught a curse or disease that turned him into an ice statue. The folk of the village have gathered to pay their final respects to Urgon’s frozen remains.
 
 As part of their characters’ backstories, the players can decide whether any of them knew Urgon or whether they’ve come to the funeral simply to show respect to the folk of the community. Either way, continue by reading the following:
 
@@ -505,12 +505,12 @@ A gruff voice speaks softly from behind you. “Thank you for attending Urgon’
 
 Whether the characters are known in the village as neophyte adventurers or simply look the part, Elro (a neutral good, male wood elf veteran) hopes that they’re the sort of people not afraid to step up to help folks in need. Use the following points to help guide the conversation as he explains his concerns to the characters:
 
-Two months ago, Urgon Wenth returned home after exploring Eiselcross for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
+Two months ago, Urgon Wenth returned home after exploring The Far North for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
 
 \page
 
 The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
-Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring Eiselcross. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
+Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring The Far North. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
 Alarmed, Elro tried to talk to Tulgi about it, but she pushed him away, asking that he let her die in peace.
 Elro’s Request
 If the characters are willing, Elro wants them to find out what caused Urgon and Tulgi’s affliction. He’s worried that it could spread, but Tulgi refuses to talk to him, and the Glassblades in the village are better known for their combat skills than their ability to glean the truth in a complicated situation. Moreover, Tulgi is extremely distrustful of the authorities.
@@ -528,10 +528,10 @@ Adventuring Equipment
 Urgon’s adventuring equipment consists of a silvered maul; a suit of splint armor sized for a dwarf; bulky, fur-lined clothing sized for a dwarf; a grappling hook; and a hooded lantern.
 
 Mounted Head
-A character who succeeds on a DC 15 Intelligence (Nature) check recognizes that the head mounted above the mantle belonged to a yeti, a monstrosity found in Eiselcross.
+A character who succeeds on a DC 15 Intelligence (Nature) check recognizes that the head mounted above the mantle belonged to a yeti, a monstrosity found in The Far North.
 
 Strange Receipt
-A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in Eiselcross to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
+A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in The Far North to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
 
 Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
 
@@ -568,12 +568,12 @@ Tulgi is gruff and to the point, and tries to compensate for her illness with bl
 
 A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check convinces Tulgi to reveal the following information:
 
-Tulgi came to Palebank Village a few years back from Shadycreek Run with her sister, Hulil. Both work for the Uttolot family.
+Tulgi came to Palebank Village a few years back from Port Morrow with her sister, Hulil. Both work for the Uttolot family.
 
 \page
 
-The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from Eiselcross—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from Uthodurn or the Dwendalian Empire.
-When Urgon Wenth returned to Palebank Village with treasures from Eiselcross, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
+The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from The Far North—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from southern cities or the southern kingdoms.
+When Urgon Wenth returned to Palebank Village with treasures from The Far North, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
 Tulgi gave most of Urgon’s relics to Hulil, but kept one for herself—an ornate dagger. She grudgingly gives this weapon to the characters if asked (see “Treasure” below). Hulil has the other items in a site north of the village known as Croaker Cave.
 Tulgi was the one who searched Urgon’s cabin, convinced that the dead dwarf must have had magic or other secrets stored away there.
 Treasure
@@ -583,7 +583,7 @@ Development
 The characters have no trouble finding either Croaker Cave or Pelc’s Curiosities if either of those locations is their next destination. If things went bad with Tulgi and she died before revealing any information, the characters might find notes or instructions from Hulil revealing some of the information above.
 
 Pelc’s Curiosities
-Pelc’s Curiosities is an antique shop run by an introverted elf named Verla Pelc. Verla keeps to herself, opening her shop only when the mood strikes her. She trades any and all objects that interest her, shipping them across Wildemount. Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago. If the characters are recent arrivals to the village, anyone they ask about the shop mentions the robbery.
+Pelc’s Curiosities is an antique shop run by an introverted elf named Verla Pelc. Verla keeps to herself, opening her shop only when the mood strikes her. She trades any and all objects that interest her, shipping them across Aevoria. Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago. If the characters are recent arrivals to the village, anyone they ask about the shop mentions the robbery.
 
 Pelc’s Curiosities is a one-story, two-room log cabin. The windows are shuttered and locked from inside, leaving the interior dark. The only entrance is the front door, but characters can force open one of the shutters around the back with a successful DC 12 Strength (Athletics) check, granting access to Verla’s quarters (see that section below).
 
@@ -605,7 +605,7 @@ This area is difficult terrain thanks to the debris covering it. The five elves 
 
 The bandits attack as soon as they notice the characters, fighting until only one remains. That survivor then surrenders. If a captive bandit is questioned, a character who succeeds on a DC 10 Charisma (Intimidation) check can learn the following information:
 
-The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Shadycreek Run.
+The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Port Morrow.
 Hulil’s sister, Tulgi, robbed Pelc’s Curiosities two months ago.
 Hulil is sick or cursed with some affliction that causes her to move slowly and is turning her veins blue.
 Hulil ordered the bandits to trash Pelc’s Curiosities in search of potions, scrolls, or other items that might help cure her. Despite their thorough search, the bandits found nothing useful. Hulil is hiding out with more bandits in Croaker Cave.
@@ -643,7 +643,7 @@ The bandits sent out with Hulil by the Uttolot family are all dwarves and elves.
 Uttolot bandits attack any intruders on sight. Each fights until reduced to half its hit points or fewer, then flees the caves. If the characters capture an Uttolot bandit, they can learn the following information with a successful DC 10 Charisma (Intimidation) check:
 
 Hulil is sick with the same malady that killed Urgon Wenth.
-She plans on setting out for Shadycreek Run soon, hoping that trading the items her sister Tulgi stole from Pelc’s Curiosities allows her to pay for healing that will cure her.
+She plans on setting out for Port Morrow soon, hoping that trading the items her sister Tulgi stole from Pelc’s Curiosities allows her to pay for healing that will cure her.
 Croaker Cave Features
 The caverns and tunnels of the Croaker Cave complex are shown on map 5.9. Unless otherwise noted in an area’s description, the following features are common throughout all areas of Croaker Cave.
 
@@ -700,7 +700,7 @@ Ten empty bedrolls are arranged in a circle around a cold fire pit at the center
 One of the bedrolls covers the opening of a 10-foot-deep pit trap. The trap can be spotted with a DC 10 Wisdom (Perception) check. If not spotted, anyone walking across the bedroll falls into the pit, taking 3 (1d6) bludgeoning damage and landing prone. A creature that falls into the pit makes enough noise that the bandits in area C2 investigate.
 
 Treasure
-Searching all the bedrolls reveals that one contains an unopened bottle of Bald Dwarf Whisky (worth 25 gp), an alcohol made by elves in Uthodurn.
+Searching all the bedrolls reveals that one contains an unopened bottle of Bald Dwarf Whisky (worth 25 gp), an alcohol made by elves in southern cities.
 
 C5. Old Croaker’s Pool
 Water dripping down from stalactites in the ceiling fills a dark pool that completely covers the floor of this cavern.
@@ -727,13 +727,13 @@ Any creature that enters the area of the fire for the first time on its turn, or
 What Hulil Knows
 If the characters convince Hulil that they are her allies, or if they capture her or Raegrin and succeed on a DC 14 Charisma (Intimidation) check, they can learn the following information:
 
-Hulil believes she has a disease called frigid woe. Though she doesn’t know any more about the disease than its symptoms, she’s heard rumors that explorers in Eiselcross sometimes succumb to it.
+Hulil believes she has a disease called frigid woe. Though she doesn’t know any more about the disease than its symptoms, she’s heard rumors that explorers in The Far North sometimes succumb to it.
 Hulil has guessed that her affliction was caused by one of the blue vials Tulgi stole from Pelc’s Curiosities, originally sold by Urgon Wenth. The vial was cracked, revealing that its lovely color was the result of a dark blue dust clinging to the interior.
-She is desperate to get to Shadycreek Run before the malady runs its course, hoping that she can trade the goods stolen by Tulgi for a cure.
-Hulil used one of the vials to trap the chest containing the other stolen items (see “Stone Chest” below). Needing quick cash for the trip, she sold the other vial to Irven Liel, a human merchant staying at the Jolly Dwarf inn in Palebank Village while traveling with his family to Uthodurn.
+She is desperate to get to Port Morrow before the malady runs its course, hoping that she can trade the goods stolen by Tulgi for a cure.
+Hulil used one of the vials to trap the chest containing the other stolen items (see “Stone Chest” below). Needing quick cash for the trip, she sold the other vial to Irven Liel, a human merchant staying at the Jolly Dwarf inn in Palebank Village while traveling with his family to southern cities.
 
 Stone Chest
-The stone chest’s outer lid is carved with the face of a dragon. A character who examines the chest and succeeds on a DC 12 Wisdom (Perception) check finds pin-sized openings in the dragon’s mouth that contain a blue powder. The powder can be removed with a successful DC 15 Dexterity check using thieves’ tools. A character who fails this check must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount).
+The stone chest’s outer lid is carved with the face of a dragon. A character who examines the chest and succeeds on a DC 12 Wisdom (Perception) check finds pin-sized openings in the dragon’s mouth that contain a blue powder. The powder can be removed with a successful DC 15 Dexterity check using thieves’ tools. A character who fails this check must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
 
 A detect magic spell reveals that the chest radiates an aura of evocation magic. When a creature touches the chest without speaking a prayer to Tiamat, a gust of wind escapes the dragon’s mouth. If the blue powder is still in the dragon’s mouth, it forms a cloud that fills a 15-foot cube in front of the chest. Each creature within the area must succeed on a DC 11 Constitution saving throw or contract frigid woe.
 
@@ -753,7 +753,7 @@ The downstairs of this inn features a large taproom. A gray-haired dwarf behind 
 
 Arl Bortock (a neutral good, male, mountain dwarf veteran) works behind the bar. If the characters ask for Irven Liel, the dwarf points them toward the laughing family.
 
-Irven Liel, his husband Fenton Tethwick (both neutral good, male Dwendalian human commoners), and their adopted daughters Honor and Magic (both tiefling noncombatants) are friendly and invite the characters to join them. Irven and Fenton are traveling booksellers. If asked about the vial, Irven explains that they met Hulil Lutan on the road to Palebank Village. She said she was moving and needed to shed some possessions, so she offered him a chance to buy the Aeorian relic at a great price. He plans to sell the item for a profit in Uthodurn.
+Irven Liel, his husband Fenton Tethwick (both neutral good, male Dwendalian human commoners), and their adopted daughters Honor and Magic (both tiefling noncombatants) are friendly and invite the characters to join them. Irven and Fenton are traveling booksellers. If asked about the vial, Irven explains that they met Hulil Lutan on the road to Palebank Village. She said she was moving and needed to shed some possessions, so she offered him a chance to buy the Aeorian relic at a great price. He plans to sell the item for a profit in southern cities.
 
 If the characters tell Irven the truth about the vial, he panics, saying that everyone in his family has touched the object. Fenton gives the vial to the characters, handing it to them wrapped up in a cloth. Any character who touches the vial directly must succeed on a DC 11 Constitution saving throw or contract frigid woe.
 
@@ -762,31 +762,31 @@ Once the characters have the cracked vial, they can report back to Elro Aldataur
 
 The next morning, Elro comes to the characters with somber news. Irven, Fenton, Honor, and Magic are all afflicted with frigid woe. Seeing the blue powder in the vial has allowed Elro to consult old lore and learn a few things about the disease. (If the characters didn’t learn the name of the affliction from Hulil, Elro is the source of that name as well.)
 
-Elro knows that frigid woe is said to have only one cure—a milky liquid the Aeorians stored in gold vials. He hopes that the cure might be found in the same place Urgon found the vials of frigid woe in Eiselcross. The retired ranger asks the characters to travel to the islands of Eiselcross and retrace Urgon’s path, hoping they can find the cure. He offers the party 200 gp for the task, and reminds them that time is of the essence for Irven and his family—not to mention for any characters infected with frigid woe. If the characters accept, Elro gives them a day to prepare and tells them to find him at the village docks when they’re ready to set sail.
+Elro knows that frigid woe is said to have only one cure—a milky liquid the Aeorians stored in gold vials. He hopes that the cure might be found in the same place Urgon found the vials of frigid woe in The Far North. The retired ranger asks the characters to travel to the northern icefields and retrace Urgon’s path, hoping they can find the cure. He offers the party 200 gp for the task, and reminds them that time is of the essence for Irven and his family—not to mention for any characters infected with frigid woe. If the characters accept, Elro gives them a day to prepare and tells them to find him at the village docks when they’re ready to set sail.
 
 VIALS OF FRIGID WOE
 
-As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount).
+As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
 
 If a character has contracted frigid woe, track the number of days that have passed so you can inform the player when their character’s symptoms appear and when they need to make Constitution saving throws.
 
 
 Character Advancement
-The characters advance to 2nd level before traveling to Eiselcross.
+The characters advance to 2nd level before traveling north to the icefields.
 
-Traveling to Eiselcross
-When the characters are ready to leave for Eiselcross, Elro Aldataur provides them with the following information:
+traveling north to the icefields
+When the characters are ready to leave for The Far North, Elro Aldataur provides them with the following information:
 
 \page
 
 
-Elro has arranged passage to Eiselcross for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
-The characters will be taken to Syrinlya, an Uthodurnian outpost on Foren, Eiselcross’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of Eiselcross with Urgon Wenth.
+Elro has arranged passage to The Far North for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
+The characters will be taken to Syrinlya, an Aevorian research outpost on Foren, The Far North’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of The Far North with Urgon Wenth.
 Once the characters have found the cure, they should use whatever they need for themselves, then give the rest to an elf in Syrinlya who goes by the name “the Buyer.” They can tell the Buyer to teleport the cure to Elro in Palebank Village.
-The islands of Eiselcross are covered in ice and snow, and are always well below freezing. Characters who don’t already have cold weather gear will want to purchase it, or they will be subject to extreme cold (see chapter 5 of the Dungeon Master’s Guide).
+the northern icefields are covered in ice and snow, and are always well below freezing. Characters who don’t already have cold weather gear will want to purchase it, or they will be subject to extreme cold (see chapter 5 of the Dungeon Master’s Guide).
 
 
-Sailing to Eiselcross
+Sailing to The Far North
 NPCs Infected with Frozen Woe
 The characters are in a race against time to cure Irven and his family (and possibly Hulil and Tulgi Lutan, if the characters are feeling merciful toward those two hardened criminals). Irven and his family have at least sixty days before any of them might die, Hulil has at least thirty days, and Tulgi has at least twenty days. You can make saving throws for these NPCs against the disease every ten days, or you can just decide their final fates.
 
@@ -797,9 +797,9 @@ When the ship reaches Syrinlya, read:
 
 The temperature has steadily dropped since you left Palebank Village, yet it seems to grow colder still as you step off the ramp of the Remorhaz onto Foren. Through windy snow, you can see fur-lined tents and yurts arranged in a large camp. Campfires are whipped by the wind, with dwarves and elves huddled close to the flames.
 
-“Don’t worry! It’ll cool down here eventually!” a joking voice bellows over the snow. A female dwarf with a shaggy mane of unkempt hair bows to you. “Morgo Delwur at your service. Welcome to Eiselcross!”
+“Don’t worry! It’ll cool down here eventually!” a joking voice bellows over the snow. A female dwarf with a shaggy mane of unkempt hair bows to you. “Morgo Delwur at your service. Welcome to The Far North!”
 
-Morgo Delwur (a neutral good, female mountain dwarf werebear) has lived in Syrinlya for years. She can show the characters around and answer any questions they have about the settlement, providing any of the details found in chapter 3 of Explorer's Guide to Wildemount. If the characters ask about Orvo Mustave or the Buyer, Morgo points out where both live. Though Morgo never adventured with Urgon Wenth and wasn’t a close friend, she is sad to hear of the dwarf’s passing.
+Morgo Delwur (a neutral good, female mountain dwarf werebear) has lived in Syrinlya for years. She can show the characters around and answer any questions they have about the settlement, providing any of the details found in chapter 3 of this adventure. If the characters ask about Orvo Mustave or the Buyer, Morgo points out where both live. Though Morgo never adventured with Urgon Wenth and wasn’t a close friend, she is sad to hear of the dwarf’s passing.
 
 Morgo and the other explorers in Syrinlya know about frigid woe and the disease’s terrible effects. If the characters have any unanswered questions about the disease, the explorers share what they know.
 
@@ -822,21 +822,21 @@ Once the characters are settled, Morgo wishes them luck and leaves to prepare fo
 
 CAN YOU HELP US?
 
-If the characters feel as though they need help traveling the wilds of Foren, they can try to convince other explorers in Syrinlya to travel with them to recover the cure. Although most of Syrinlya’s explorers are willing to help others in need, those explorers already have an important mission. An expedition led by Professor Gulrim Shalebrow (see “The Diarchy of Uthodurn” in chapter 2 of Explorer's Guide to Wildemount) went to search for the origin of the strange magic in the region of Mutalos months ago and has not returned. The explorers at the camp are preparing a search and rescue mission to bring back Gulrim’s party. If the characters survive their quest into Salsvault, this story could serve as a hook for another adventure.
+If the characters feel as though they need help traveling the wilds of Foren, they can try to convince other explorers in Syrinlya to travel with them to recover the cure. Although most of Syrinlya’s explorers are willing to help others in need, those explorers already have an important mission. An expedition led by Professor Gulrim Shalebrow (see “The Diarchy of southern cities” in chapter 2 of this adventure) went to search for the origin of the strange magic in the region of Mutalos months ago and has not returned. The explorers at the camp are preparing a search and rescue mission to bring back Gulrim’s party. If the characters survive their quest into Salsvault, this story could serve as a hook for another adventure.
 
 The Buyer
 Morgo Delwur or any other resident of Syrinlya can point out the Buyer’s hut to the characters. It is Syrinlya’s largest yurt. When the characters enter, read:
 
 The pungent scent of incense fills this yurt, whose walls are painted with glowing arcane runes. A brass brazier burns brightly at the center of the floor, around which are set a few plush chairs, a bed, and a large stone chest. On one of those chairs sits an elf reading a book. A small dragon with green butterfly wings is curled in the elf’s lap.
 
-The Buyer (lawful neutral, nonbinary, high elf mage) is a mysterious elf who purchases Aeorian relics in Syrinlya for the Uthodurnian government. See the “Syrinlya” section of chapter 3 of Explorer's Guide to Wildemount for more information about the Buyer and their business. The green faerie dragon is Dew, the elf’s familiar.
+The Buyer (lawful neutral, nonbinary, high elf mage) is a mysterious elf who purchases Aeorian relics in Syrinlya for the Aevorian government. See the “Syrinlya” section of chapter 3 of this adventure for more information about the Buyer and their business. The green faerie dragon is Dew, the elf’s familiar.
 
 The Buyer has been in Syrinlya since the day the outpost was founded. They can answer any questions the characters might have about the outpost’s history, the island of Foren, or frigid woe. If the characters want to confirm that the Buyer is able to quickly send the cure for frigid woe to Palebank Village, the elf tells them that the stone chest in the yurt has the magical capability to teleport objects on command.
 
 In addition to the aid they provide in getting the cure back to Palebank Village, the Buyer offers to purchase any Aeorian relics the characters want to sell.
 
 Stone Chest
-A detect magic spell reveals that the chest radiates an aura of conjuration magic. When an item is placed in the chest, the Buyer can teleport it to secret locations in Uthodurn or its outpost of Palebank Village, with those locations known only to the authorities of those settlements.
+A detect magic spell reveals that the chest radiates an aura of conjuration magic. When an item is placed in the chest, the Buyer can teleport it to secret locations in southern cities or its outpost of Palebank Village, with those locations known only to the authorities of those settlements.
 
 Orvo Mustave
 Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
@@ -846,7 +846,7 @@ A campfire burns in front of this small tent, whose flaps are open. Inside the t
 \page
 
 
-Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of Eiselcross as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
+Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of The Far North as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
 
 Orvo’s Story
 Orvo is grief-stricken to hear about the demise of his friend Urgon Wenth. If the characters ask Orvo about the blue vials that brought disease to Palebank Village, Orvo shares the following information:
@@ -857,7 +857,7 @@ Salsvault appears to have been an Aeorian lab. Orvo and Urgon explored only thre
 The dwarves didn’t know what the vials contained.
 Orvo sold his share of the treasure from Salsvault to the Buyer. Urgon decided to hang onto his share until he returned home to Palebank Village.
 Into the Wilds
-After speaking with Orvo, the characters can make whatever preparations they need before heading into the wilds of Eiselcross. If they wish to obtain more supplies before setting out, there are no shops in Syrinlya, but many of the explorers at the camp are willing to trade goods and equipment.
+After speaking with Orvo, the characters can make whatever preparations they need before heading into the wilds of The Far North. If they wish to obtain more supplies before setting out, there are no shops in Syrinlya, but many of the explorers at the camp are willing to trade goods and equipment.
 
 Overland Travel
 The characters must travel two hundred miles over ice and snow to reach Salsvault, the ruin where Urgon Wenth found the vials of frigid woe. It’s up to the characters whether they want to move at a fast, medium, or slow pace (see “Movement” in chapter 8 of the Player’s Handbook). If any character has a walking speed of less than 25 feet because of a frigid woe infection, use the Reduced Travel Speeds table to determine how far the party can travel in a day.
@@ -866,9 +866,9 @@ Reduced Travel Speeds
 Slowest Character Speed	Slow Pace	Medium Pace	Fast Pace
 15–20 ft.	12 miles	18 miles	24 miles
 5–10 ft.	6 miles	12 miles	18 miles
-As the characters travel, use the Encounters in Eiselcross section to generate random encounters.
+As the characters travel, use the Encounters in The Far North section to generate random encounters.
 
-Eiselcross Encounters: Levels 1–4
+The Far North Encounters: Levels 1–4
 d6	Encounter
 1	The characters encounter 1d4 wildfolk scouts hunting a saber-toothed tiger. The scouts are out of arrows and willing to trade equipment and information to replenish their ammunition.
 2	The characters encounter a lost Cerberus Assembly mage trying to return to Balenpost. The rest of the mage's team died in the ruins of Aeor, and there is a 50 percent chance the mage carries a recently recovered Aeorian item.
@@ -1059,7 +1059,7 @@ This room is in immaculate condition, apparently having been cleaned up after th
 \page
 
 
-Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into Eiselcross.
+Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into The Far North.
 
 Chest
 The chest contains Ferol’s treasure (see below), along with a swarm of undead snakes that attacks any creature that opens the chest. The swarm uses the stat block for a swarm of poisonous snakes, with these changes:
@@ -1139,7 +1139,7 @@ Six long stone tables are set with steel and glass laboratory equipment in this 
 The undead Ferol Sal has worked tirelessly in the laboratory for centuries, obsessed with crafting a disease that can kill the gods. Despite having made no progress in all that time, he keeps working. Ferol is a wight with an Intelligence of 16 (+3).
 
 Roleplaying Ferol
-Ferol knows nothing of Exandria’s history since Aeor’s crash, and his memory of the distant past is almost as hazy. His transformation into a wight and the centuries of solitude since have driven him quite mad. He cares only about taking revenge on the gods—who he incorrectly assumes are still active in Exandria. As a resident of Aeor, Ferol doesn’t speak Common, though he can communicate in the archaic Draconic of Aeor, as well as an archaic form of Elven. Characters who speak Draconic or Elven can communicate with him, albeit slowly.
+Ferol knows nothing of Aevoria’s history since Aeor’s crash, and his memory of the distant past is almost as hazy. His transformation into a wight and the centuries of solitude since have driven him quite mad. He cares only about taking revenge on the gods—who he incorrectly assumes are still active in Aevoria. As a resident of Aeor, Ferol doesn’t speak Common, though he can communicate in the archaic Draconic of Aeor, as well as an archaic form of Elven. Characters who speak Draconic or Elven can communicate with him, albeit slowly.
 
 When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
 
@@ -1171,12 +1171,14 @@ Kelp
 The kelp counts as difficult terrain.
 
 Treasure
-The chest is packed with fine sand and contains twenty doses of frigid woe antidote (see “Eiselcross” in chapter 3 of Explorer's Guide to Wildemount) and an ersatz eye (see chapter 6 of Explorer's Guide to Wildemount).
+The chest is packed with fine sand and contains twenty doses of frigid woe antidote (see “The Far North” in chapter 3 of this adventure) and an ersatz eye (see chapter 6 of this adventure).
 
 Concluding the Adventure
-You can roll for random encounters on the way back to Syrinlya (see “Encounters in Eiselcross”), or you can allow the characters an uneventful trip as reward for a job well done. When the characters arrive in Syrinlya, they can arrange for the Buyer to teleport the antidote for frigid woe to Palebank Village. After doing so, the elf pays out the 200 gp reward on behalf of Elro Aldataur.
+You can roll for random encounters on the way back to Syrinlya (see “Encounters in The Far North”), or you can allow the characters an uneventful trip as reward for a job well done. When the characters arrive in Syrinlya, they can arrange for the Buyer to teleport the antidote for frigid woe to Palebank Village. After doing so, the elf pays out the 200 gp reward on behalf of Elro Aldataur.
 
 If the characters don’t successfully recover the frigid woe antidote in time to save Irven and his family, all four family members succumb to the disease. If the characters are successful, they have the thanks of Elro Aldataur, Irven and his family, the people of Palebank Village, and the explorers of Syrinlya.
 
 Character Advancement
-At the end of this adventure, the characters reach 3rd level. This might mark the beginning of a campaign in the Biting North. In particular, the Buyer suggests that the characters could easily find their fortunes exploring Eiselcross. Alternatively, their success in this mission might inspire the characters to seek out new realms and new adventures elsewhere in Wildemount.
+At the end of this adventure, the characters reach 3rd level. This might mark the beginning of a campaign in the Biting North. In particular, the Buyer suggests that the characters could easily find their fortunes exploring The Far North. Alternatively, their success in this mission might inspire the characters to seek out new realms and new adventures elsewhere in Aevoria.
+
+

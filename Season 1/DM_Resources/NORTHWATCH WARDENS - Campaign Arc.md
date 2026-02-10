@@ -5,7 +5,7 @@
 
 This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `Season 1/README.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (the player companion to this book)
 }}
 
 **NORTHWATCH WARDENS: High‑Level Campaign Arc**
@@ -15,9 +15,10 @@ This document contains the complete campaign structure and mystery reveals. **DO
 **📚 DM Resources**
 
 For deeper secrets and campaign mechanics, see:
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific secrets
+- **Chapter 6: The Dimensional Rift** — How Aeorian ruins reached Aevoria (foundational lore)
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: Places Secrets** — Location-specific secrets
 
 ---
 
@@ -28,12 +29,15 @@ Each adventure the players take is a *symptom* of a deeper, spreading disturbanc
 
 **The Aeorian Echo**
 
-A ripple of unstable arcane energy — originating from the buried ruins of Aeor (Frozen Sick) — has begun to:
+A ripple of unstable arcane energy — originating from the buried ruins of **Salsvault** deep beneath The Far North — has begun to:
 
 - mutate beasts (Wolves of Welton)
 - destabilize magical artifacts (Wild Sheep Chase)
 - empower cults and dragons (Temple of the Dragonknights)
 - stir old spirits and forgotten guardians (Peril in Pinebrook)
+
+**What the Wardens Don't Know Yet:**
+Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aeor** from another world (Wildemount/Exandria), displaced across dimensions during Aeor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
 
 The Wardens don’t know this yet.
 But every contract they take is another puzzle piece.
@@ -75,8 +79,7 @@ The Wardens discover:
 - Its magic is leaking into the world.
 
 This is the campaign’s *first revelation*.
-
-
+\page
 **🐉 3. Temple of the Dragonknights — Corruption Takes Root**
 
 **Theme:** Ambition, corruption, and the misuse of awakening magic.
@@ -179,6 +182,8 @@ The guild structure is the glue that makes the modular format work.
 
 This keeps the campaign cohesive even when the cast changes week to week.
 
+\page
+
 **🔮 THE LONG GAME: Where This Is All Going**
 
 As the Wardens complete contracts, they uncover:
@@ -210,8 +215,8 @@ A containment breach?
 
 **5. The finale (when you want it):**
 
-A multi‑session arc returning to Eiselcross to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
+A multi‑session arc returning to **The Far North** to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
 
 **🎯 In One Sentence**
 
-**The campaign is about a frontier guild discovering that ancient Aeorian magic is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
+**The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**

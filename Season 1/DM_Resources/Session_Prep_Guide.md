@@ -134,7 +134,7 @@ CHOICE POINT:
 
 ## Session Zero: Critical Setup
 
-> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **[SESSION 0 QUICK START GUIDE](../SESSION_0_QUICK_START.md)** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
 
 ### Player Character Ties to Waystone Inn
 

@@ -49,9 +49,11 @@ This repository contains **Northwatch Wardens: Season One**, a modular, drop-in 
 ### 1. Markdown Files (Adventure Guides)
 
 - Use **Homebrewery-style markdown** for D&D content
-- Page breaks: `\page`
+- Page breaks: `\page` (or `\pagebreak`)
 - Snippets: Use `brew` prefix (e.g., `brewStatBlock`)
 - Preview: VS Code extension *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
+
+**📘 Formatting Reference:** See `.github/HOMEBREWERY_V3_GUIDE.md` for comprehensive V3 syntax (single source of truth).
 
 **Important Conventions:**
 - Keep formatting consistent with existing adventure files
@@ -201,6 +203,8 @@ All adventures connect to a spreading arcane phenomenon: magic from buried Aeori
 4. **CDATA for Long Text:** Use CDATA blocks to preserve formatting
 5. **Complete Stat Blocks:** Include all required fields (AC, HP, abilities, etc.)
 
+**Note:** For detailed XML structure specifications and examples, see `.github/agents/DMHelper.agent.md` > **XML Format Requirements**.
+
 ### When Working with Markdown
 
 1. **Homebrewery Compatibility:** Use `\page` for breaks, avoid incompatible syntax
@@ -208,6 +212,42 @@ All adventures connect to a spreading arcane phenomenon: magic from buried Aeori
 3. **Tactical Notes:** Include DM guidance for encounters
 4. **Stat References:** Link to JSON files or XML entries
 5. **Preview Settings:** Use workspace settings from `.vscode/settings.json`
+6. **Monster Stat Blocks:** Use Homebrewery `{{monster,frame}}` format (see HOMEBREWERY_V3_GUIDE.md)
+
+#### Quick Homebrewery Monster Stat Block Example
+
+**Full V3 syntax and options:** See `.github/HOMEBREWERY_V3_GUIDE.md` > **Monster Stat Blocks**
+
+**Basic structure:**
+```markdown
+{{monster,frame
+## Monster Name
+*Type, alignment*
+___
+**Armor Class** :: AC (armor type)
+**Hit Points**  :: HP (Hit Dice)
+**Speed**       :: movement speed
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|score (+mod)|score (+mod)|score (+mod)|score (+mod)|score (+mod)|score (+mod)|
+___
+**Senses** :: perception and senses
+**Languages** :: languages
+**Challenge** :: CR (XP) {{bonus **Proficiency Bonus** +#}}
+___
+***Trait Name.*** Trait description and mechanics.
+:
+### Actions
+***Attack Name.*** *Melee Weapon Attack:* +# to hit, reach 5 ft., one target. *Hit:* XdY (+#) damage type.
+}}
+```
+
+**Key conventions:**
+- Use `:` to separate traits/actions
+- Use `___` for horizontal rules
+- Use `###` for section headers (Actions, Legendary Actions, etc.)
+- Other blocks: `{{note}}`, `{{descriptive}}`, `{{quote}}`, `{{wide}}`, etc.
 
 #### \page Insertion Heuristics (Based on Player-Facing Docs)
 
@@ -223,22 +263,23 @@ Use these rules-of-thumb to keep pagination consistent with `World Building/` pl
 
 ### DMHelper Agent
 
-**Purpose:** Generate and maintain Game Master 5e XML campaign content
+**Specialized Agent for:** XML campaign files, markdown adventures with stat blocks, D&D 5e API integration
 
-**Use for:**
-- Creating new adventures and encounters
-- Expanding NPC stat blocks
-- Adding magic items and treasure
-- Validating XML structure
-- Campaign lore expansion
+**When to Use:**
+- Need to generate Game Master 5e XML campaign content
+- Creating markdown adventures with Homebrewery stat blocks
+- Querying D&D 5e API for monsters, spells, items
+- Converting official D&D stat blocks to Homebrewery format
 
 **Location:** `.github/agents/DMHelper.agent.md`
 
 **Key Capabilities:**
-- Understands Game Master 5e XML format (version 5)
-- Maintains canonical geography and lore
-- Creates properly nested adventure/encounter structures
-- Generates complete stat blocks with proper IDs
+- Game Master 5e XML (v5) generation with proper nesting and UIDs
+- Homebrewery `{{monster,frame}}` markdown stat block creation
+- D&D 5e MCP server integration for official content lookup
+- Campaign lore expansion with canonical geography adherence
+
+**For Detailed Documentation:** See `.github/agents/DMHelper.agent.md` for XML structure, Homebrewery formatting, MCP server queries, and agent-specific best practices.
 
 ## Git Practices
 
@@ -340,13 +381,14 @@ Use these rules-of-thumb to keep pagination consistent with `World Building/` pl
 - **Homebrewery** — D&D content formatting
 - **Game Master 5e** — Campaign tracking and XML import
 - **VS Code Extension** — Homebrewery Markdown Preview
+HOMEBREWERY_V3_GUIDE.md` — Complete Homebrewery V3 formatting reference (single source of truth)
+- `.github/templates/CampaignTemplate.md` — XML format reference (if exists)
+- Individual adventure folders — Examples of structure and style
 
-## Questions and Troubleshooting
-
-### XML Issues
-- **Problem:** Invalid XML structure
-- **Solution:** Reference DMHelper agent or CampaignTemplate.md for correct nesting
-
+### External Tools
+- **Homebrewery** — D&D content formatting (https://homebrewery.naturalcrit.com/)
+- **Game Master 5e** — Campaign tracking and XML import
+- **VS Code Extension** — Homebrewery Markdown Preview (`officerhalf.homebrewery-vscode`)
 ### Content Consistency
 - **Problem:** New location doesn't fit
 - **Solution:** Check canonical geography table; use established locations only

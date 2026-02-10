@@ -81,7 +81,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 - [x] **1x Inn building** (Shepherd's Crook Inn)
 - [ ] **Print Priority:** MEDIUM-HIGH
 
----
+\page
 
 ## ⭐ NICE TO HAVE
 
@@ -242,7 +242,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 ### Vehicles & Mounts
 - [ ] **2-3x Horses** (for travel scenes)
 - [x] **1x Cart/Wagon**
-- [ ] **1x Sled** (Eiselcross travel)
+- [ ] **1x Sled** (Far North travel)
 - [ ] **Print Priority:** OPTIONAL
 
 ### Environmental Hazards
@@ -252,7 +252,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 - [ ] **Magical rune circles**
 - [ ] **Print Priority:** OPTIONAL
 
----
+\page
 
 ## 📊 PRINTING SUMMARY BY ADVENTURE
 
@@ -352,7 +352,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 - [ ] Crossroads terrain piece
 - [ ] Trading post details
 
----
+\page
 
 ## 🛠️ RECOMMENDED PRINT ORDER
 
@@ -395,7 +395,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 4. [ ] **Environmental hazards**
 5. [ ] **Vehicles and mounts**
 
----
+\page
 
 ## 💡 MONEY-SAVING TIPS
 
@@ -420,7 +420,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 - **Printable Scenery:** Free sample packs
 - **Heroforge-style generators:** For unique NPCs
 
----
+\page
 
 ## 📏 SCALE & BASE SIZES
 
@@ -434,7 +434,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 - **Large (Young Dragon, Bears, Constructs):** 50mm round or 2x2 inch square
 - **Furniture & Terrain:** Scale appropriately (table = ~25mm x 40mm)
 
----
+\page
 
 ## 🎲 FINAL MINIMUM SHOPPING LIST
 
@@ -459,7 +459,7 @@ If you can ONLY print the absolute essentials:
 
 **Total Critical Miniature Count: ~65-75 pieces** (or ~50-60 with smart reuse)
 
----
+\page
 
 ## 📦 FILE ORGANIZATION TIP
 
@@ -486,7 +486,7 @@ Organize your STL files into folders:
   /Scatter/
 -->
 
----
+\page
 
 ## 🗂️ Your Existing STL Candidates (From `E:\downloads` + `C:\Users\joshu\OneDrive\3dfiles`)
 

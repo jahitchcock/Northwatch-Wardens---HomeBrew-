@@ -1,5 +1,9 @@
 **🐺 OPENING SCENE: “Wolves at the Waystone Inn”**
+{{wide
+A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
+}}
 
+\page
 **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
 **Goal:** Introduce the characters naturally through a shared threat.
 
@@ -39,6 +43,8 @@ Use the stat block from your open tab (CR 1/4 wolves) — they’re perfect for 
 - Wolves target the closest moving creature
 
 This spacing forces the characters to notice each other and converge.
+
+\page
 
 **🧠 3. How to Introduce the Characters Naturally**
 

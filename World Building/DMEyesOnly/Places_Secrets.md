@@ -283,7 +283,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Welton: Dark Undercurrents
 
-**Related Adventure:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../../../Season%201/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md) - "Wolves of Welton"
+**Related Adventure:** See **Chapter 5: Wolves of Welton**
 
 ### The Wolf Problem's True Nature
 
@@ -548,7 +548,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Pinebrook: Commerce and Conspiracy
 
-**Related Adventure:** [Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md](../../../Season%201/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md) - "Peril in Pinebrook"
+**Related Adventure:** See **Chapter 5: Peril in Pinebrook**
 
 ### The Trading Post's Hidden Business
 
@@ -809,13 +809,13 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
-### The Eiselcross Connection
+### The Far North Connection
 
 
 
 **Public Knowledge:**
 
-- Palebank is waypoint for Eiselcross expeditions
+- Palebank is waypoint for Far North expeditions
 
 - Explorers bring back artifacts
 
@@ -825,7 +825,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden Reality:**
 
-- SOMEONE is specifically targeting Eiselcross relics
+- SOMEONE is specifically targeting Far North relics
 
 - Using Palebank as collection point
 
@@ -877,7 +877,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Map with suspected crash sites marked
 
-- Unsent letter to Uthodurn scholar
+- Unsent letter to northern scholar
 
 
 
@@ -1569,7 +1569,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Temple of the Dragonknights: Heroic Tomb
 
-**Related Adventure:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md) - "Temple of the Dragonknights"
+**Related Adventure:** See **Chapter 5: Temple of the Dragonknights**
 
 {{pageNumber,auto}}
 {{footnote [MarkdownFirstLevelHeading]}}
@@ -1710,7 +1710,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Noke's Tower: The Wizard's Arsenal
 
-**Related Adventure:** [Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md](../../../Season%201/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md) - "The Wild Sheep Chase"
+**Related Adventure:** See **Chapter 5: The Wild Sheep Chase**
 
 ### Shinebright's True Purpose
 

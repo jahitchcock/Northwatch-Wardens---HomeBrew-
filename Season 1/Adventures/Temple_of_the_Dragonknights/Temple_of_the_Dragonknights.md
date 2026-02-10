@@ -141,12 +141,16 @@
 - **Reputation:** Controversial — some see party as pragmatic, others as cowards
 - **Future hook:** Venomfang may become an ally (or betray party later)
 
+\page
+
 ### Path D: Destroy or Seal the Temple
 **Result:**
 - Collapse temple to deny access to magical convergence point
 - Venomfang escapes but loses her power base
 - **Aeorian Echo outcome:** Magical energy disperses (reduces regional instability)
 - **Lorewarden Elric's reaction:** Impressed ("You addressed the root problem, not just the symptom")
+
+\page
 
 ## Tactical Notes
 
@@ -202,6 +206,8 @@
 - DC 13 Intimidation: Threaten her with superior force (must demonstrate combat prowess first)
 - DC 12 Deception: Trick her into believing party has dragon-slaying weapons
 
+\page
+
 ## Improvisation Toolkit
 
 ### If Players Get Stuck (Investigation Phase)
@@ -228,6 +234,8 @@
 - Kobolds focus on capture, not killing (want to sacrifice prisoners)
 - Northcrest guards arrive as reinforcements (late but helpful)
 - Venomfang decides party isn't worth the effort and flies away (insult: "Not even worth eating")
+
+\page
 
 ## Rewards & Aftermath
 

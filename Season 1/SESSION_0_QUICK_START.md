@@ -24,9 +24,9 @@ Session 0 is your campaign's foundation:
 You're doing it! Everything you need is here.
 
 ### ☐ Print or Bookmark (5 minutes)
-- [ ] **Charter Text** (page 3 below, or see `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`)
-- [ ] **First Contract** (page 4 below)
-- [ ] **Premade Characters** (optional: `Premade PCs/` folder has PDFs)
+- [ ] **Charter Text** (see below on page 3, or printed separately from the Northwatch Wardens charter)
+- [ ] **First Contract** (see below on page 4)  
+- [ ] **Premade Characters** (optional: your DM may provide pre-made character sheets)
 
 ### ☐ Prepare Your Opening Scene (5 minutes)
 Read the "Running Session 0" section below and imagine your opening.
@@ -121,7 +121,7 @@ Read the "Running Session 0" section below and imagine your opening.
   - Variable attendance is fine (characters can rotate between contracts)
   
 **0:15–0:45 — Character Creation**
-- **Option A:** Use premade characters (`Premade PCs/` folder)
+- **Option A:** Use premade characters (your DM may have pre-made character sheets available)
 - **Option B:** Build characters together (Standard Array or Point Buy)
 - **Option C:** Players bring their own level 1 characters
 
@@ -159,6 +159,8 @@ Introduce the three NPCs briefly (use descriptions on page 2).
 - Elric mentions "strange disturbances" in the frontier
 - Brenna says "We have work already"
 
+\page
+
 **1:45–2:00 — The First Contract**
 
 Brenna gestures to the contract board. One parchment is pinned there with a wolf-tooth charm.
@@ -192,8 +194,6 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - After defeating the wolves, notice strange blue veins in their fur
 - "Something's affecting the wildlife. We leave at dawn."
 - **Next session starts with the journey to Welton**
-
----
 
 \page
 
@@ -257,8 +257,6 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - First hint of the Aeorian Echo affecting wildlife
 - Shows that the frontier is becoming more dangerous
 - Makes the Wolves of Welton contract feel urgent and connected
-
----
 
 \page
 
@@ -337,7 +335,7 @@ A: Perfect! This campaign scales for 2–5 players. Smaller parties get tighter,
 **Q: Players miss Session 0?**  
 A: No problem. They can join Session 1 as "new recruits" arriving at Waystone Inn. Give them the 30-second pitch and hand them a badge.
 
----
+\page
 
 ## Your Session 0 Cheat Sheet (Cut & Keep at Table)
 

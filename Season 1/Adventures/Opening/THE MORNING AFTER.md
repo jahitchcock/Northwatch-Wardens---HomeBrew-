@@ -1,6 +1,10 @@
-**THE MORNING AFTER: “A Warden’s First Duty”**
+# The Morning After: A Warden's First Duty
 
-***A narrative tie‑in to launch Wolves of Welton as Contract #1***
+{{wide
+A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
+}}
+
+\page
 
 **1. Morning at the Waystone Inn — Read-Aloud**
 
@@ -64,6 +68,8 @@ Take this contract. Show Northreach what the Wardens can do.”
 
 She hands them a sealed letter for the Welton Council—official recognition that the Northwatch Wardens are now operating in the region.
 
+\page
+
 **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
 
 **If you want Frozen Sick to connect later:**
@@ -81,6 +87,8 @@ One of the Pinebrook premade NPCs (Flynt, Rowan, etc.) is at the inn and says:
 “Welton’s shepherds trade through Pinebrook sometimes. Haven’t seen them in weeks. If the wolves are blocking the roads, it’ll hurt more than one village.”
 
 This makes the contract feel like it matters to the whole region.
+
+\page
 
 **🎯 Final Tie-In Summary**
 

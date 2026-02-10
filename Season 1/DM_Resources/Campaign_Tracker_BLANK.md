@@ -90,7 +90,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ### ☐ Peril in Pinebrook
 - **Captain Emmajeen Kole:** ☐ Met ☐ Allied ☐ Hostile
@@ -125,7 +125,7 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
----
+\page
 
 ## Aeorian Echo: Clue Tracker
 
@@ -143,7 +143,7 @@ _____________________________________________________________
 
 ☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
 
-☐ **Brenna's Letter:** Uthodurn contact warns of "arcane disturbances" spreading
+☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
 
 ☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
 
@@ -153,7 +153,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ## NPC Roster & Status
 
@@ -177,7 +177,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ## Promises & Unfinished Business
 
@@ -210,7 +210,7 @@ _____________________________________________________________
 **Party Gold:** _____ gp  
 **Stored at Waystone:** _____ gp
 
----
+\page
 
 ## Session Log
 

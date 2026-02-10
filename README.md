@@ -67,244 +67,77 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 
 
-**🚀 New DM?** Start with [Session 0 Quick Start](./Season%201/SESSION_0_QUICK_START.md) or [General DM Quick Start](./DM_QUICKSTART.md)
+**🚀 New DM?** See **Chapter 2: Quick Start** to prep and run Session 0 in under 1 hour.
 
-**[Complete Campaign Guide →](./Season%201/)**
+\page
 
+## Using This Guide
 
+This guide is organized into chapters covering everything you need to run the Northwatch Wardens campaign:
 
----
+- **Chapter 1: Introduction** — Campaign overview and the world of Aevoria
+- **Chapter 2: Quick Start** — Session 0 prep and first adventure guide
+- **Chapter 3: Campaign Overview** — How the campaign works, adventures, and mystery structure  
+- **Chapter 4: DM Resources** — Session trackers, NPC rosters, and prep tools
+- **Chapter 5: Adventures** — Complete adventure modules ready to run
+- **Chapter 6: World Secrets** — Campaign mysteries and DM-only lore
+- **Chapter 7: Appendix** — Quick reference materials and NPC index
 
+### Content Organization
 
+This guide separates **player-safe content** from **DM-only secrets**:
 
-## Editing in VS Code (Homebrewery Preview)
+**✅ Safe for Players:**
+- Regional lore and faction information
+- The Northwatch Wardens charter  
+- Costs, travel times, and practical information
 
+**🚫 DMs Only (Contains Spoilers):**
+- Campaign mysteries and secrets (Chapter 6)
+- NPC secrets and motivations (Chapter 4)
+- Adventure modules with tactical notes (Chapter 5)
 
+\page
 
-This repository is set up to write and preview D&D content in a Homebrewery-style layout directly in VS Code.
+## How to Use This Book
 
+### For New DMs
 
+1. **Read Chapter 2: Quick Start** — Prep Session 0 in 30 minutes
+2. **Skim Chapter 3: Campaign Overview** — Understand the adventure structure
+3. **Choose your first adventure** — Start with Opening Adventures (Chapter 5)
+4. **Reference Chapter 4** as needed for NPC details and campaign tracking
 
-- **Extension**: *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
+### For Experienced DMs
 
-- **Formatting**: Use `\page` for page breaks, `{{note}}` for DM boxes, `{{descriptive}}` for read-aloud text
+- **Jump to Chapter 5** for adventure modules
+- **Consult Chapter 6** for campaign mysteries and the Aeorian Echo
+- **Use Chapter 4** for session prep tools and NPC rosters
 
-- **Snippets**: Most Homebrewery-style snippets are available with the `brew` prefix (example: `brewStatBlock`)
+### Running the Campaign
 
+The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
+1. Party gathers at the guild headquarters
+2. Reviews available contracts
+3. Takes a mission
+4. Returns with findings and rewards
+5. Discovers clues to the larger mystery
 
-### Homebrewery Best Practices
+**Adventures are modular** — run them in any order with 2–5 players per session. Perfect for variable attendance and flexible scheduling.
 
-
-
-📖 **[Homebrewery Best Practices Guide](./.github/HOMEBREWERY_BEST_PRACTICES.md)** — Comprehensive guide to formatting D&D content with Homebrewery
-
-
-
-📝 **[Adventure Template](./.github/templates/adventure_template.md)** — Ready-to-use template for new adventures
-
-
-
-✨ **[Before/After Examples](./.github/FORMATTING_EXAMPLES.md)** — See how Homebrewery formatting improves content
-
-
-
-### Commands
-
-
-
-- `homebrewery.toggle` — toggles `homebrewery.enabled`
-
-- `homebrewery.brew` — prints/exports to HTML
-
-
-
-### Recommended preview settings
-
-
-
-For best results, the workspace includes the following settings in `.vscode/settings.json`:
-
-
-
-- `markdown.preview.scrollEditorWithPreview`: `false`
-
-- `markdown.preview.scrollPreviewWithEditor`: `false`
-
-- `markdown.preview.markEditorSelection`: `false`
-
-
-
-These prevent the preview pane from jumping and avoid selection-hover effects that can disrupt the Homebrewery-style layout.
-
-
-
----
-
-
-
-## Player vs DM Content
-
-This repository carefully separates **player-safe content** from **DM-only secrets**:
-
-### ✅ Safe for Players
-- `World Building/Regions/` — Regional lore
-- `World Building/Organizations/` — Faction information  
-- `World Building/Locations/` — Place descriptions
-- `Premade PCs/` and `Characters/` — Character resources
-
-### 🚫 DMs Only (Contains Spoilers)
-- `World Building/DMEyesOnly/` — Campaign secrets and mysteries
-- `Season 1/DM_Resources/` — NPC secrets, campaign arc
-- `Season 1/Adventures/` — Adventures contain DM notes
-
-**Contributors:** See [Player vs DM Content Guidelines](./.github/PLAYER_DM_CONTENT_GUIDE.md) for how to maintain this separation.
-
----
-
-## Repository Structure
-
-
-
-
-
-![Diagram: Repository Structure](World%20Building/Campaign%20Assets/Diagrams/readme-repository-structure-l107-9cd76eff.svg)
-
-
-
-<!-- ASCII diagram source (converted to SVG):
-
-/
-
-├── Season 1/              # Complete Northwatch Wardens campaign
-
-│   ├── Adventures/        # Modular adventure modules
-
-│   ├── Campaign Assets/   # Charter, NPCs, campaign arc
-
-│   └── DM_Resources/      # Session tools and rosters
-
-├── World Building/        # Setting bible and world lore
-
-│   ├── Regions/           # Major regions of Aevoria
-
-│   ├── Organizations/     # Factions and guilds
-
-│   ├── Locations/         # Canonical location sheets
-
-│   ├── Religion/          # Pantheons and faiths
-
-│   └── DMEyesOnly/        # Secrets and spoilers (DMs only!)
-
-├── Premade PCs/           # Pre-generated characters
-
-├── Characters/            # Character sheets and builds
-
-└── LionsdenGameFiles/     # Game Master 5e XML files
-
--->
-
-
-
----
-
-
-
-## Accessing the Guides
-
-
-
-This repository includes a build system to convert all markdown content into two professionally-formatted, Homebrewery-styled guides available as HTML, markdown, and text files:
-
-
-
-📘 **The Adventurer's Guide to Aevoria** — Player-facing materials including world lore, regions, organizations, and pre-made characters
-
-
-
-📕 **A DM's Guide to Aevoria** — Complete campaign materials including all adventures, DM resources, NPCs, and world secrets
-
-
-
-### View Online (GitHub Pages)
-
-The guides are automatically built and deployed to GitHub Pages on every commit to main:
-
-- **[Player's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/The-adventurers-guide-to-aevoria.html)**
-- **[DM's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/A-DMs-guide-to-aevoria.html)**
-
-### Build Locally
-
-
-
-```bash
-
-./build.sh
-
-```
-
-
-
-This will generate combined markdown (.md), text (.txt for Homebrewery upload), and HTML (.html) files in the `build/` directory.
-
-
-
-For detailed instructions, customization options, and troubleshooting, see:
-
-
-
-📄 **[QUICKSTART.md](./QUICKSTART.md)** — Quick reference guide
-
-
-
-📄 **[BUILD.md](./BUILD.md)** — Complete build system documentation
-
-
-
----
-
-
-
-## Content & Licensing
-
-
-
-- Markdown files are original or derived from licensed content
-
-- Do not redistribute third-party stat blocks or descriptions verbatim
-
-- Use as personal campaign material
-
-- Compile your own D&D Beyond purchases into the XML
-
-
-
----
-
-
+\page
 
 ## Ready to Adventure?
 
-
-
-Whether you're a player seeking to explore Northreach or a Dungeon Master crafting epic campaigns, this repository provides the tools and lore you need.
-
-
-
 **Choose your path:**
 
-- 🎯 **[New DMs: Quick Start Guides](./DM_QUICKSTART.md)** — Session 0 or first adventure guides
-- 🎲 **[Start in Northreach](./World%20Building/Regions/Northreach/)** — Learn the frontier first
-- 🛡️ **[Join the Northwatch Wardens](./Season%201/)** — Begin your campaign
-- 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests
-- 🌍 **[Explore the Wider World](./World%20Building/)** — Discover Aevoria's regions *(after mastering Northreach)*
-
-- 📋 **[Quick Reference Guide](./World%20Building/Player_Quick_Reference.md)** — Costs, travel times, and essential info
-
-
+- ⭐ **New DMs:** Turn to **Chapter 2: Quick Start** for Session 0 prep
+- 🎲 **Jump into action:** See **Chapter 5: Adventures** for ready-to-run quests  
+- 🛡️ **Understand the campaign:** Read **Chapter 3: Campaign Overview**
+- 🌍 **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
+- 📋 **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
 
 ---
-
-
 
 *The world is vast. The mysteries are deep. The adventure awaits.*

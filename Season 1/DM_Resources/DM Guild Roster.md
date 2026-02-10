@@ -5,7 +5,7 @@
 
 This document contains NPC secrets, hidden motivations, and campaign tie-ins. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 **🛡️ THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
@@ -29,7 +29,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 - Frozen Sick: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
 - Wild Sheep Chase: Brenna once met Shinebright decades ago; she remembers him as brilliant but arrogant. She will be deeply suspicious of any magical mishap involving him.
 
-**Secret:** Brenna has a sealed letter from an Uthodurn contact warning of “arcane disturbances” across the frontier. This is your campaign‑wide foreshadowing.
+**Secret:** Brenna has a sealed letter from a northern contact warning of "arcane disturbances" across the frontier. This is your campaign‑wide foreshadowing.
 
 **Steward Mara Fenwick — Quartermaster**
 
@@ -303,7 +303,7 @@ You already know this one — he’s the chaos engine.
 **Campaign Tie‑ins:**
 
 - Wolves of Welton: Flynt will accompany the party if invited.
-- Frozen Sick: Flynt knows a sailor who can get them to Eiselcross.
+- Frozen Sick: Flynt knows a sailor who can get them to The Far North.
 - Wild Sheep Chase: Flynt loves Shinebright’s story.
 
 **Secret:** Flynt’s songs sometimes predict the future.

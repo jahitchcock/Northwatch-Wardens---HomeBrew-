@@ -142,13 +142,13 @@
 
 9. ✅ **Journey to Syrinlya** (uid: 2228)
    - Boat travel, magical storm skill challenge
-   - 3-day journey to Eiselcross coast
+   - 3-day journey to the northern coast
 
 10. ✅ **Syrinlya Outpost** (uid: 2229)
-    - Uthodurnian base, Commander Morgo Delwur
+    - Aevorian research base, Commander Morgo Delwur
     - Supplies, Irven Liel guide recruitment
 
-11. ✅ **Eiselcross - Winter Wolf Ambush** (uid: 2235)
+11. ✅ **The Far North - Winter Wolf Ambush** (uid: 2235)
     - **COMBAT:** 2 Winter Wolves | **XP:** 1,400
     - Night watch encounter, breath weapons
 

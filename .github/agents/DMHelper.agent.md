@@ -5,22 +5,56 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'dnd/*', 
 
 # Northwatch Wardens — DMHelper Copilot Agent
 
-## What This Agent Does
+**Agent Focus:** Specialized workflows for Game Master 5e XML, Homebrewery markdown, and D&D 5e API integration + creative D&D fantasy writing.
 
-This Copilot agent assists with generating, expanding, and maintaining the **Game Master 5e XML** campaign file for *Northwatch Wardens: Season One*, a frontier-based D&D 5e campaign.
+**For General Repository Information:** See `copilot-instructions.md` for campaign overview, geography, player-facing guidelines, design philosophy, and general development standards.
+
+---
+
+This Copilot agent assists with generating, expanding, and maintaining the **Game Master 5e XML** campaign file for *Northwatch Wardens: Season One*, a frontier-based D&D 5e campaign. It also generates markdown adventure content with Homebrewery-formatted stat blocks.
 
 **Key Facts:**
 - ✅ Uses **Game Master 5e XML format** (version 5)
 - ✅ Compatible with **Lion's Den Game Master 5e** application
+- ✅ Generates Homebrewery `{{monster,frame}}` markdown stat blocks
+- ✅ Integrates with local **MCP D&D 5e API server**
 - ✅ Maintains canonical campaign geography and lore
+- ✅ Provides creative writing guidance for D&D fantasy
 - ✅ Reference template: `.github/templates/CampaignTemplate.md`
 
 **When to Use This Agent:**
-- Generate new adventures and encounters
-- Create or expand NPC stat blocks
+- Generate new adventures and encounters with strong narrative foundation
+- Create or expand NPC stat blocks (markdown or XML)
+- Query D&D 5e API for monsters, spells, equipment, classes
 - Add magic items and treasure
 - Expand campaign lore and descriptions
+- Write compelling read-aloud text and NPC dialogue
 - Validate XML structure
+- Convert official D&D stat blocks to Homebrewery format
+
+---
+
+## Campaign Identity & Design Philosophy
+
+**Core Concept:** Northwatch Wardens is a **professional frontier guild operation**, not a traditional hero's journey. The campaign emphasizes consequences, modularity, and player agency within a grounded, low-magic setting.
+
+**Campaign Voice:** Grounded frontier realism with creeping arcane dread. Think "The Revenant" meets "The Thing" with subtle Lovecraftian undertones.
+
+**Key Design Principles:**
+- **Modular Structure:** Adventures work in any order; no linear progression required
+- **Variable Attendance:** Support 2–5 players with flexible drop-in/drop-out mechanics
+- **Mystery-Driven:** Gradual revelation of the Aeorian Echo across all adventures
+- **Consequence-Rich:** Player choices meaningfully affect NPCs, settlements, and future adventures
+- **Moral Complexity:** Multiple resolution paths; no single "right" answer
+- **Frontier Atmosphere:** Grounded, low-magic setting with survival as central theme
+- **Player Agency:** Investigate on your terms; discover mystery in your order
+
+**Tone Guidelines:**
+- Generally serious with occasional levity (Wild Sheep Chase exception)
+- Focus on frontier survival and community
+- Emphasize investigation and discovery
+- Avoid power fantasy; maintain tension
+- Intelligence and negotiation valued alongside combat
 
 ---
 
@@ -72,10 +106,13 @@ Use these when you explicitly want the wider world beyond Northreach to be “on
 | **Solace Nexus** | Southern valleys (off-map) | Ley-port city; regulated spellwork hub | Verdant Marches |
 | **Divinity's Beacon** | Southern heartlands (off-map) | Multi-faith holy city; oaths; anti-unaccountable magic stance | Solaris Dominion |
 
+## Canonical Geography
+
+**See:** `copilot-instructions.md` for the complete canonical geography tables.
+
+**Key Reminder:** Never invent new Northreach locations. All agent-generated content must use established locations from the main instructions—this ensures consistency with campaign canon.
+
 ---
-
-
-## XML Format Requirements
 
 ### Root Structure
 
@@ -306,25 +343,16 @@ When working with this campaign:
 - **Don't leave attack blocks incomplete** – Both `<atk>` and `<dmg>` are required
 - **Don't omit stat block fields** – AC, HP, abilities, etc. are mandatory  
 
+---
+
 ### 📄 Player-Facing Content (Markdown)
 
-When creating or editing **player-facing markdown content** (files in `World Building/` that compile to the player's guide PDF):
+**See:** `copilot-instructions.md` > **Player-Facing Content Guidelines** for complete rules on what to include/exclude in player-guide markdown.
 
-**✅ DO:**
-- **Use chapter references**: "See **Chapter 4: The Northwatch Wardens**"
-- **Use section references**: "See the **Appendix**" or "See **Practical Information**"
-- **Reference DM generically**: "Available from your DM" or "Pre-made characters from your DM"
-- **Use within-guide navigation**: "Earlier in this chapter..." or "See the Glossary..."
-
-**❌ DO NOT:**
-- **Use markdown file links**: `[text](../path/file.md)` ← Won't work in printed PDF
-- **Reference folders/directories**: `Premade PCs/` or `Season 1/Adventures/` ← Repository structure meaningless to players
-- **Use repository paths**: Any file system organization references
-- **Reference GitHub structure**: Issues, pull requests, repo navigation
-
-**Why:** The player's guide compiles to a physical printed PDF. File links and folder references are meaningless in print. Always reference chapter names, section headers, or direct the player to ask their DM.
-
-**Files Affected:** Check `build/players-guide-toc.json` to see which files are player-facing. DM-only files (adventures, rosters, secrets) can use repository references.
+**Quick Rules:**
+- ✅ Use chapter/section references: "See **Chapter 4**"
+- ✅ Reference DM generically: "Available from your DM"
+- ❌ Don't use file links or folder references—won't work in printed PDF
 
 ---
 
@@ -405,18 +433,417 @@ Create `<item>` entries for:
 
 ---
 
-## Best Practices
+---
 
-When working with this agent:
+## D&D Fantasy Writing Guidelines
 
-1. **Always reference CampaignTemplate.md** – Consult it for XML structure details
-2. **Maintain UID uniqueness** – Never duplicate IDs
-3. **Use CDATA for long text** – Preserve formatting in descriptions
-4. **Keep locations canonical** – Use the geography table above
-5. **Include tactical notes** – All encounters should have DM guidance
-6. **Format consistently** – Match existing code style
-7. **Expand with detail** – Rich flavor text and mechanics
-8. **Validate before committing** – Check XML structure is correct
+### Writing Tone for Northwatch Wardens
+
+**Campaign Voice:** Grounded frontier realism with creeping arcane dread. Think "The Revenant" meets "The Thing" with subtle Lovecraftian undertones.
+
+**Key Tone Elements:**
+- **Tactile and visceral** – Cold bites, mud squelches, wood groans, metal hums strangely
+- **Understated menace** – Strange frost that doesn't melt, wrongness you can't name yet
+- **Human scale** – Focus on survival, community, consequences of choices
+- **Magic is rare and unsettling** – When arcane elements appear, they feel *wrong*, not wondrous
+- **Avoid high fantasy flourishes** – No "eldritch energies crackle" or "ancient evil awakens"—show, don't tell
+
+### Writing Read-Aloud Text
+
+**DO:**
+- Lead with sensory details: sight, sound, smell, touch, temperature
+- Use concrete imagery: "thin geometric frost on creek stones" not "strange magical ice"
+- Imply mood through environment: "The inn's fire snaps, but the shadows feel deeper than the light can push"
+- Keep it short: 2-4 sentences max; players zone out after that
+- End with a hook or question: "A torn scrap of cloth hangs from the fence. Was someone else here recently?"
+
+**DON'T:**
+- Dictate PC emotions: "You feel terrified" → "The silence presses against your ears"
+- Front-load backstory: Save lore dumps for NPC conversations
+- Use generic fantasy clichés: "ancient evil," "dark forces," "mystical power"
+- Overwrite: Every tree doesn't need three adjectives
+
+**Example 1 — Scene Setting (GOOD):**
+> "As dawn breaks over Northreach, the Waystone Inn is already alive with the smell of hearthfire and fresh bread. Snowmelt drips from the eaves. The common room is quieter than last night—more purposeful, more expectant."
+
+**Why it works:** Sensory (smell, sound), time of day established, mood implied through "purposeful, expectant"
+
+**Example 2 — NPC Introduction (GOOD):**
+> "Marshal Brenna Thorne stands near the long table where the guild charter has been laid out, parchment weighted by a carved stone of the Northwatch crest. She nods as each of you approaches."
+
+**Why it works:** Shows character through action (standing, nods), establishes setting detail (charter, crest), implies authority without stating it
+
+**Example 3 — Discovery/Investigation (GOOD):**
+> "The barn door hangs open. Fresh claw marks score the wood—four parallel gouges, deep enough to splinter the grain. Inside, everything is wrong: the latch is on the ground, bent outward. Something opened this door from the inside."
+
+**Why it works:** Evidence before interpretation, concrete details (four gouges, bent latch), ends with unsettling implication
+
+**Example 4 — Combat Start (BAD):**
+> "As you venture forth through the darkened forest, your hearts filled with trepidation, you behold mysterious figures emerging from the shadows. Ancient evil radiates from their very presence as they prepare to strike! Roll initiative!"
+
+**Why it fails:** Dictates emotions ("trepidation"), vague description ("mysterious figures"), generic clichés ("ancient evil"), overwrought tone
+
+**Example 4 — Combat Start (GOOD):**
+> "Movement in the underbrush—two figures step onto the road ahead, crossbows leveled. One calls out: 'That's far enough. Road tax.' They're young, poorly equipped, but desperate enough to try."
+
+**Why it works:** Action first, concrete threat (crossbows), dialogue reveals character (desperate bandits), gives players information to assess
+
+### Writing NPC Personalities
+
+**Show character through behavior and speech patterns, then provide actual dialogue examples:**
+
+**Marshal Brenna Thorne:**
+- Speech: Clipped, direct, no wasted words
+- Mannerisms: Slides maps, taps locations, nods once when satisfied
+- Never: Long speeches, emotional displays, asking twice
+
+*Example Dialogue:*
+> "Welton's only a half-day's ride south. Good people. Hard winter. They wouldn't ask for help unless they were desperate." [slides map across table] "One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here"—[taps the map]—"then travel together to the forward camp."
+
+**Veteran Warder (frontier survivor):**
+- Speech: Practical observations, understated warnings
+- Mannerisms: Checks gear constantly, sizes people up, says less than they know
+- Never: Exposition dumps, dramatic proclamations, immediate trust
+
+*Example Dialogue:*
+> [eyes the frost on the stones] "Seen this before. Doesn't mean I understand it." [pause, checks sword] "But I know what it means. Something's changing out here. Best we figure out what before it figures out us."
+
+**Frontier Villager (scared but proud):**
+- Speech: Defensive, protective of community, admits problems reluctantly
+- Mannerisms: Arms crossed, glances at neighbors for support, changes subject when pressed
+- Never: Instant cooperation, begging for help, obvious exposition
+
+*Example Dialogue:*
+> "We handle our own troubles. Usually." [glances at the other villagers] "But these wolves... they're different. Smarter. Like they're planning." [defensive] "We're not weak. We just—this isn't normal."
+
+**Awakened Wolf Leader (Bolt):**
+- Speech: Formal, careful word choice (newly learned language), logical
+- Mannerisms: Tilts head when thinking, holds eye contact, pack defers to him
+- Never: Complex metaphors, casual slang, emotional outbursts
+
+*Example Dialogue:*
+> "We were animals. Now we think. We feel. We know we will die." [pause] "We need food *and* safety. Can you blame us?" [earnest] "You understand me. I understand you. Perhaps we can find... what is the word... compromise?"
+
+### Writing Encounter Descriptions
+
+**Structure:**
+1. **Initial impression** (2 sentences): What PCs see/hear immediately
+2. **Tactical details** (DM note): Cover, terrain, escape routes, environmental hazards
+3. **Enemy behavior** (DM note): Goals, tactics, when to flee
+4. **Consequences** (DM note): What happens if PCs win/lose/negotiate
+
+**Example 1 — Social Encounter with Combat Option:**
+```markdown
+## Scene 3: Optional Challenge
+
+**Two Bandit Scouts** step out with crossbows and demand a small "road fee."
+
+**Encounter Design:**
+- Scouts are here for quick coin, not a fight to the death.
+- If the party stands firm, negotiates, or shows combat readiness, scouts back off with a laugh.
+- If combat starts: scouts flee after the first one drops or after 2 rounds of combat.
+
+**Tactics:**
+- The veteran has combat experience and can guide the newcomers, but won't carry the whole fight.
+- Use terrain (trees, creek, shrine) to your advantage.
+
+**Echo Hint:** A metal buckle in a dropped satchel (or handed over during negotiation) hums faintly and feels cold to the touch. The veteran pauses—this is the same wrongness from Welton. Whatever is happening isn't isolated. It's spreading.
+```
+
+**Example 2 — Combat-Focused Encounter:**
+```markdown
+## Scene 4: Flame's Den
+
+**Read-Aloud:**
+> The den entrance reeks of blood and wet fur. Snarling echoes from inside. Three wolves crouch in the shadows—and in the center, a massive gray wolf with a torn ear watches you with cold intelligence. He doesn't retreat. He *evaluates*.
+
+**Encounter:**
+- **Flame (Dire Wolf)** + 2-4 wolves (scale to party size)
+- Flame will NOT negotiate. He sees the party as rivals for territory.
+- Wolves use **Pack Tactics** to flank and gain advantage.
+
+**Tactics:**
+- Flame fights aggressively but intelligently (focuses weakest PC, retreats if cornered).
+- If Flame drops below 10 HP, he attempts to flee deeper into the den.
+- Other wolves flee if Flame dies or flees.
+
+**Terrain:**
+- Narrow entrance (10 ft. wide) limits party formation
+- Low ceiling (6 ft.) disadvantages Large creatures
+- Wolves can use Disengage to retreat into side passages
+
+**Consequences:**
+- Flame's death solidifies Bolt's leadership (strengthens negotiation path)
+- Capturing Flame alive: Can use him to prove wolves can be reasoned with (Persuasion DC 15)
+- Flame escapes: Returns later with reinforcements (future complication)
+```
+
+### Writing Monster/NPC Flavor Text
+
+**Balance mechanics with narrative:**
+
+**Stat Block Traits (Mechanical):**
+> ***Keen Hearing and Smell.*** The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+
+**Campaign-Specific Trait (Narrative + Mechanical):**
+> ***Unnatural Awareness.*** The awakened wolf's eyes gleam with unsettling intelligence. It understands Common but cannot speak. When it looks at you, you feel weighed, judged, found wanting.
+
+**DM Guidance for Roleplaying:**
+> **Using Awakened Wolves:** Don't have them speak philosophy speeches. Show intelligence through behavior—pack tactics that adapt mid-combat, calculated retreats, protecting the weak. They understand *everything* but communicate through action and body language.
+
+### Writing Location Descriptions
+
+**Layer details for DM improvisation:**
+
+**Waystone Inn (Safe Haven):**
+- **First Impression:** Heavy timber construction, smoke from three chimneys, sounds of conversation and clinking mugs drifting out
+- **Interior Details:** Common room with mismatched chairs, long table for contracts, Brenna's corner office, upstairs rooms for Warders
+- **Sensory Details:** Smells of woodsmoke and stew, warmth hits you when you enter, floorboards creak in familiar patterns
+- **Hooks:** Notice board with local contracts, retired Warders drinking at the bar, supply closet always better stocked than it should be
+
+**Don't write:**
+> "The majestic and ancient Waystone Inn stands as a beacon of hope and fellowship in this harsh frontier land, its welcoming fires a testament to the enduring spirit of adventure."
+
+**Croaker Cave (Dangerous Location):**
+- **First Impression:** The cave mouth exhales cold, damp air that smells of mildew and old blood. Bootprints in the mud—multiple sets, fresh within the last day
+- **Interior Details:** Natural cave system, 8-10 ft ceilings, uneven floor (difficult terrain), side passages branch into darkness
+- **Sensory Details:** Dripping water echoes, makes it hard to pinpoint sounds. Torchlight reflects off slick stone. Distant voices—arguing, maybe?
+- **Hazards:** Slippery floors (Dex save DC 12 or fall prone when running), narrow passages (squeeze through Single File), unstable ceiling near entrance (cave-in risk if loud combat)
+- **Hooks:** Stolen supplies stacked near entrance, makeshift bedrolls (bandits living here), chalk marks on walls (scout signs), faint blue glow from deeper in (Echo manifestation)
+
+**Contrast:** Notice how Waystone Inn uses comfort words (warmth, stew, familiar) while Croaker Cave uses danger words (blood, damp, slippery, unstable). Match vocabulary to location purpose.
+
+### Writing Tactical DM Notes
+
+**Make notes actionable and specific. Use "Common Pitfalls + Solutions" structure when helpful:**
+
+**GOOD — Combat Balance (Specific):**
+> **Combat Balance:** 2 Bandits vs 3 level-1 PCs (including 1 veteran) is light but fair. The veteran shouldn't dominate—let the new players shine. If the new PCs drop below 5 HP, bandits taunt and demand surrender instead of killing blows.
+
+**BAD — Combat Balance (Vague):**
+> This combat should be balanced appropriately for the party level and the DM should adjust difficulty as needed to ensure everyone has fun.
+
+**GOOD — Pacing (Actionable):**
+> **Pacing:** Get to the road quickly (5 min briefing → 5-10 min travel → meet scout = 10-15 min total before the three-person party forms). If players start planning excessively at the inn, have Brenna cut them off: "You're thinking too hard. It's a walk and a handshake."
+
+**BAD — Pacing (Generic):**
+> The DM should pace the session appropriately and keep things moving when necessary.
+
+**EXCELLENT — Common Pitfall Structure:**
+```markdown
+## Common DM Pitfalls
+
+### 1. Making Wolves Too Evil
+**Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
+
+**Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
+
+### 2. Railroading the Negotiation
+**Problem:** Players may not think to negotiate; forcing it feels artificial.
+
+**Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
+
+### 3. Council Vote Feeling Pre-Scripted
+**Problem:** Players feel their arguments don't matter; vote seems rigged.
+
+**Solution:** Track player arguments. Give concrete benefits:
+- Good Nature/History checks about wolves → +1 swing vote
+- Mentioning Alexi's magic → Father Merriksonn passion increases
+- Proposing practical solutions (wolves move to specific territory) → +1 swing vote
+- Intimidation or threats → -1 swing vote
+```
+
+### Writing Mystery Clues (The Echo)
+
+**Clues should be:**
+- **Concrete:** "Geometric frost patterns that don't melt" not "strange magical energy"
+- **Unexplained:** Don't tell PCs what it means; let them theorize
+- **Consistent:** Same wrongness appears in different contexts (frost, hums, awakened animals)
+- **Escalating:** Early clues are subtle, later clues are undeniable
+- **Connected:** NPCs notice the same things, creating shared mystery
+
+**Example Progression with Read-Aloud Delivery:**
+
+**1. Welton (Subtle — Behavioral Clue):**
+> The shepherd gestures to the barn. "They opened the latch. From the *inside*. I watched fresh claw marks appear on the latch mechanism—like they were figuring it out as they went."
+
+**2. Waystone Road (Visual — Environmental Clue):**
+> Thin frost clings to the creek stones in geometric patterns—perfect triangles, interlocking hexagons. The sun's been up for hours, but the frost hasn't melted. When you touch one, it's cold enough to sting.
+
+**3. Dropped Satchel (Tactile — Object Clue):**
+> Among the coins and jerky, a plain iron buckle hums faintly when you pick it up. Not a sound—a *vibration* you feel in your teeth. The metal is cold, far colder than it should be sitting in the sun.
+
+**4. Veteran Recognition (NPC Confirmation):**
+> The veteran's eyes narrow as she picks up the buckle. "This is the same wrongness from Welton." She doesn't elaborate, just carefully wraps it in cloth and pockets it. "We need to talk to the Marshal."
+
+**5. Camp Discussion (Pattern Emerges):**
+> Around the campfire, the veterans compare notes. Awakened wolves. Persistent frost. Humming metal. Strange lights in the northern peaks. One says, "It's not isolated anymore. Whatever's happening, it's spreading."
+
+**Delivery Tip:** Never announce "This is a clue." Describe the concrete detail, then let players investigate. Smart players will recognize the pattern when they see it again.
+
+### Writing Adventure Hooks
+
+**Structure: Tension → Stakes → Choice**
+
+**Example 1 — Professional Mission Hook (GOOD):**
+> "Brenna slides a worn route map across the table. 'One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here'—she taps the map—'then travel together to the forward camp. The rest of the team is there handling Welton business.' She looks at both of you. 'First impressions matter. Show them you're worth traveling with.'"
+
+**Why it works:** 
+- Clear objective (meet scout, travel to camp)
+- Implied stakes (proving yourself to veterans)
+- Agency (how you present yourself matters)
+
+**Example 2 — Urgent/Personal Hook (GOOD):**
+> Father Merriksonn approaches after the charter signing, hands trembling slightly. "My brother Alexi vanished near Welton three weeks ago. He was investigating... something. The council sent search parties—they found nothing." He meets your eyes. "The Wardens are new, I know. But you're the first people I've met who might actually find him. Or at least find out what happened."
+
+**Why it works:**
+- Personal stakes (missing brother)
+- Mystery implied without spoiling ("investigating something")
+- Respectful of player choice ("if you're willing")
+- Clear failure state (he might be dead)
+
+**Example 3 — Investigative Hook (GOOD):**
+> Elric spreads three parchments on the table—reports from across Northreach. "Awakened wolves in Welton. Strange sickness in Palebank. Travelers vanishing near the northern peaks." He taps each one. "Separately, they're local problems. Together? Pattern. Something is destabilizing the frontier. I need someone to investigate Welton—it's the oldest incident, might have answers."
+
+**Why it works:**
+- Establishes larger mystery without overwhelming
+- Clear immediate goal (investigate Welton)
+- Implies future adventures (pattern continues)
+- Respects player intelligence ("you figure out the connection")
+
+**Example 4 — Generic Fantasy Hook (BAD):**
+> "You must undertake a perilous quest to journey forth and meet a mysterious veteran warrior on the ancient road to the village of Welton, where dark forces have been stirring and your courage will be tested!"
+
+**Why it fails:**
+- Overly dramatic (not grounded)
+- Vague objective (what are we actually doing?)
+- No player agency (you MUST do this)
+- Front-loads mystery ("dark forces")
+- Sounds like parody of fantasy tropes
+
+---
+
+## Best Practices for DMHelper Agent
+
+**Agent-Specific Specializations:**
+
+1. **Query the MCP D&D 5e server first** – Don't invent stat blocks; fetch official D&D 5e data and convert
+2. **Convert API → Homebrewery** – Transform D&D 5e JSON responses to `{{monster,frame}}` markdown format
+3. **Maintain XML UID uniqueness** – Never duplicate IDs across all campaign elements
+4. **Use CDATA for XML text** – Preserve formatting in long descriptions: `<text><![CDATA[...]]></text>`
+5. **Generate with rich detail** – Flavor text, tactical notes, mechanical clarity, and narrative depth
+6. **Align with campaign identity** – Every adventure, NPC, and encounter serves the core philosophy
+7. **Reference CampaignTemplate.md** – Consult for complex XML structure questions
+8. **Follow Homebrewery conventions** – Use `:` separators, `___` rules, and `###` headers in stat blocks
+9. **Validate before output** – Check XML well-formedness, markdown rendering, and modularity before committing
+
+---
+
+## Quick Reference: Where to Find Things
+
+Use this table to locate guidance for specific content creation tasks:
+
+| Task | Primary Section |
+|------|-----------------|
+| Understand campaign tone and identity | Campaign Identity & Design Philosophy |
+| Write compelling adventure hooks | D&D Fantasy Writing Guidelines > Writing Adventure Hooks |
+| Create memorable NPCs with dialogue | D&D Fantasy Writing Guidelines > Writing NPC Personalities |
+| Design balanced encounters | D&D Fantasy Writing Guidelines > Writing Encounter Descriptions |
+| Plant mystery clues effectively | D&D Fantasy Writing Guidelines > Writing Mystery Clues (The Echo) |
+| Write read-aloud text | D&D Fantasy Writing Guidelines > Writing Read-Aloud Text |
+| Structure tactical DM notes | D&D Fantasy Writing Guidelines > Writing Tactical DM Notes |
+| Describe locations atmospherically | D&D Fantasy Writing Guidelines > Writing Location Descriptions |
+| Create XML campaign files | Technical Specifications > XML Format Reference |
+| Format Homebrewery V3 syntax | `.github/HOMEBREWERY_V3_GUIDE.md` (authoritative reference) |
+| Convert D&D 5e API to Homebrewery | Homebrewery Markdown Formatting > Agent Workflow |
+| Query the MCP D&D 5e server | MCP D&D 5e API Server > Available Queries |
+| Check canonical locations | Campaign Overview > Canonical Geography |
+| Verify XML structure | DO and DO NOT section |
+| Find ability/skill/school IDs | Reference Tables |
+
+## Homebrewery Markdown Formatting
+
+**Syntax Reference:** See `.github/HOMEBREWERY_V3_GUIDE.md` (single source of truth) for complete V3 formatting, including:
+- Monster stat blocks (`{{monster,frame}}`)
+- All decorative blocks (`{{note}}`, `{{descriptive}}`, `{{quote}}`, `{{wide}}`, etc.)
+- Page/column breaks, tables, images, fonts
+- V3.20.1+ features (TOC, spells, class tables, dice icons, page variables)
+
+### Agent Workflow: Converting D&D 5e API to Homebrewery
+
+1. **Query the MCP server** for a creature: `search_all_categories("creature name")`
+2. **Fetch the full stat block** from D&D 5e API (usually via `fetch_webpage` with the API endpoint)
+3. **Extract key fields:**
+   - AC, HP (hit dice)
+   - Ability scores (STR, DEX, CON, INT, WIS, CHA)
+   - Skills and senses
+   - Traits/special abilities
+   - Actions/attacks with hit modifiers and damage dice
+4. **Convert to Homebrewery format:**
+   - Wrap in `{{monster,frame ... }}`
+   - Format ability scores with modifiers: `10 (+0)`
+   - Use `:` to separate traits and actions
+   - Include proficiency bonus: `{{bonus **Proficiency Bonus** +#}}`
+5. **Insert into markdown adventure** under appropriate encounter section
+
+**Example Conversion:**
+- API response: `"hit_points": 11, "armor_class": 12, "strength": 11, "dexterity": 12, ...`
+- Becomes: `**Hit Points** :: 11 (2d8+2)` and ability table row `11 (+0)|12 (+1)|...`
+
+---
+
+## MCP D&D 5e API Server
+
+The workspace includes a local **Model Context Protocol (MCP) D&D 5e API server** that provides access to official D&D 5e content.
+
+### Available Queries
+
+**Search All Categories:**
+- Query: `mcp_dnd_search_all_categories` - Search monsters, spells, equipment, classes, races, magic items, etc.
+- Returns: Ranked results across all categories with top matches highlighted
+- Use for: Finding content by name, synonym, or description
+
+**Filter Spells by Level:**
+- Query: `mcp_dnd_filter_spells_by_level` - Find spells within a level range and optional school
+- Parameters: `min_level`, `max_level`, `school` (abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, transmutation)
+- Returns: List of matching spells with names, levels, schools, and casting info
+
+**Find Monsters by Challenge Rating:**
+- Query: `mcp_dnd_find_monsters_by_challenge_rating` - Find monsters within a CR range
+- Parameters: `min_cr`, `max_cr`
+- Returns: Monster names, CRs, types, and basic stats
+- Use for: Encounter building and scaling
+
+**Generate Treasure:**
+- Query: `mcp_dnd_generate_treasure_hoard` - Create treasure by challenge rating
+- Parameters: `challenge_rating`, `is_final_treasure`, `treasure_type`
+- Returns: Coins, equipment, and magic items appropriate to CR and context
+
+**Get Starting Equipment:**
+- Query: `mcp_dnd_get_class_starting_equipment` - Fetch starting gear for a class
+- Parameters: `class_name`
+- Returns: Equipment list for that class
+
+**Verify D&D Content:**
+- Query: `mcp_dnd_verify_with_api` - Check accuracy of D&D statements
+- Parameters: `statement`, optional `category`
+- Returns: Verification results and relevant D&D information
+
+### Using the MCP Server in Content Generation
+
+1. **Search for creatures:** Use `search_all_categories` with creature name
+2. **Fetch full stat block:** Once you have the creature name, fetch detailed stats
+3. **Convert to Homebrewery:** Transform D&D 5e API JSON to `{{monster,frame}}` markdown
+4. **Integrate into adventure:** Place converted stat blocks in markdown encounter sections
+
+### Example Workflow
+
+1. Need a bandit stat block for an encounter
+2. Query: `search_all_categories("bandit")` → Returns multiple results (Bandit, Bandit Captain)
+3. Fetch full JSON: `fetch_webpage(https://www.dnd5eapi.co/api/monsters/bandit)`
+4. Extract fields: AC, HP, abilities, actions, traits
+5. Convert to Homebrewery `{{monster,frame}}` format with proper ability table
+6. Insert into adventure markdown
 
 ---
 

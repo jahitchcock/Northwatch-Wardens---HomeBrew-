@@ -46,6 +46,7 @@
           "files": [
             "../Season 1/Adventures/Opening/Open Skirmish.md",
             "../Season 1/Adventures/Opening/THE MORNING AFTER.md",
+            "../Season 1/Adventures/Opening/Return_to_Waystone_Session0.md",
             "../Season 1/Adventures/Opening/Wolves - Contract.md"
           ]
         },
@@ -58,7 +59,8 @@
         {
           "title": "Frozen Sick",
           "files": [
-            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md"
+            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md",
+            "../Season 1/Adventures/Frozen Sick/Frozen_Sick_Stat_Blocks.md"
           ]
         },
         {
@@ -85,6 +87,7 @@
       "chapter": "World Secrets",
       "files": [
         "../World Building/DMEyesOnly/The_Aeorian_Echo.md",
+        "../World Building/DMEyesOnly/The_Dimensional_Rift.md",
         "../World Building/DMEyesOnly/People_Secrets.md",
         "../World Building/DMEyesOnly/Places_Secrets.md",
         "../World Building/DMEyesOnly/Nullwood_Secrets.md",

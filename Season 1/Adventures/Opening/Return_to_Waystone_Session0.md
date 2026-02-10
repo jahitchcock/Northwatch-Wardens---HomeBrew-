@@ -4,6 +4,8 @@
 A short onboarding mission where two new Warders meet a veteran scout on the road and journey together to the team's forward camp. Travel, discovery, and light optional combat shape first bonds. Subtle Echo hints with no spoilers.
 }}
 
+\page
+
 ## Quick Setup
 
 **Premise:** Two newly sworn Warders are sent to rendezvous with a veteran Warder who's been scouting the roads near Welton. Once they meet up, the three will return together to the forward camp where the rest of the team is stationed. Tonight is about first impressions and building trust on the road.
@@ -82,6 +84,8 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 **Closing Note:**
 "The fire crackles. Someone passes around a flask. The cold settles in, but the camp feels warmer with more bodies. Tomorrow, you'll head back to Waystone together and report to Brenna. Tonight, you rest. You're Warders now—all of you."
 
+\page
+
 ## NPCs
 
 ### Marshal Brenna Thorne
@@ -103,6 +107,8 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 - **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
 - **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
 - **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
+
+\page
 
 ## Monster Stat Blocks
 

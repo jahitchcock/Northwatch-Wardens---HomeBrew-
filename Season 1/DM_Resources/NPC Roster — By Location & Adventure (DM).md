@@ -5,7 +5,7 @@
 
 This document contains NPCs organized by location with some secret details. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Northwatch Wardens
