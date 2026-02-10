@@ -51,6 +51,10 @@ Your regional origin affects:
 All player characters begin in Northreach, either as locals or newcomers. If you're from another region, you need a reason for traveling to the frontier and joining the Northwatch Wardens. Each regional section includes common motivations for making this journey.
 }}
 
+![cat warrior](https://i.imgur.com/uf2fnvc.jpeg) {width:325px,border:"4px solid #5a4632",border-radius:15px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
+
+{{watercolor9,top:520px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote REGIONAL ORIGINS GUIDE}}
 
@@ -146,6 +150,8 @@ Answer 2-3 of these to develop your backstory:
 4. **What do you miss most about the "civilized" south?** (Or do you prefer the frontier?)
 5. **Have you ever been lost in the wilderness?** What happened?
 
+{{watercolor15,top:240px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -237,6 +243,8 @@ Scholar from a Veilbound family researching magical anomalies. Eclipse Day point
 
 **Senna Darkwater, Tiefling Rogue (Inquisitive)**  
 Former spy for the Chorus who saw too much and fled north. Excellent at gathering information and reading people. Never quite stops looking over her shoulder.
+
+{{watercolor2,top:420px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -330,6 +338,8 @@ Memory Court scholar researching why magic behaves strangely in certain regions.
 - **Whisper, Wood Elf Ranger (Gloom Stalker)**  
 Refused the memory rituals and emotional curation. Left the Nullwood seeking "real" experiences—raw, unfiltered, and honest. Found exactly that in Northreach.
 
+{{watercolor4,top:500px,left:123px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -419,6 +429,8 @@ Former Depths guard who wanted to see the sun. Found surface life chaotic but ex
 
 - **Rurik Ironvein, Dwarf Wizard (War Magic)**  
 Deep-reader who sensed disturbances in the earth pointing north. Sent to investigate whether surface anomalies connect to changes in the Depths. Doesn't like being cold.
+
+{{watercolor8,top:230px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -512,7 +524,7 @@ Grew up in Vharoxis slums hunting rats and worse. Came north because frontier mo
 
 
 
----
+{{watercolor3,top:620px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -603,6 +615,8 @@ Salvage diver who pulled up one relic too many from the Gravewater Trench. Got o
 3. **Do you miss the water, or are you glad to be inland?**
 4. **What superstition or ritual do you still observe?**
 5. **Who or what are you running from on the coast?**
+
+{{watercolor9,top:580px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -697,6 +711,8 @@ Sole survivor of a tribe consumed by volcanic eruption. Came north carrying thei
 5. **Do you believe the land is "reawakening," as some claim?**
 6. 
 
+{{watercolor2,top:420px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -788,6 +804,9 @@ Grew up in a Marches village before the Stirring. Left because the forest she kn
 4. **Do you see the Stirring as dangerous, wonderful, or both?**
 5. **What druidic circle or clan do you still answer to?**
 
+
+{{watercolor6,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -877,6 +896,8 @@ Marine scholar who studied Glassspire geometry until it started appearing in his
 3. **What changed in you after diving too deep?**
 4. **Who did you lose to the Dominion's ruins?**
 5. **Do the glowing currents appear in your dreams?**
+
+{{watercolor4,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -968,6 +989,8 @@ Hermit who meditated in ice caves until something spoke back. Emerged with uncan
 4. **What did you see in the ruins that made you leave?**
 5. **Do you ever want to return—or would death be preferable?**
 
+{{watercolor9,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1025,6 +1048,7 @@ Understanding how different regions view each other enriches roleplay and create
 | | All Warm Regions | Complaining about nothing |
 }}
 
+
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
 
@@ -1061,7 +1085,14 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 - Solaris scholarship vs Northreach superstition
 - Sunken Dominion artifacts vs everyone's caution
 
----
+{{imageMaskCorner6,--offsetX:-54%,--offsetY:-33%,--rotation:0
+  ![](https://i.imgur.com/h1m9cN8.jpeg){height:45%}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
 \column
 
 ## Roleplaying Regional Tensions
@@ -1105,6 +1136,8 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 
 Regional tensions should enhance roleplay, not hinder it. If friction between characters stops being fun or constructive, address it out-of-game. The goal is interesting character dynamics, not party splits.
 }}
+
+{{watercolor8,top:690px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
@@ -1240,7 +1273,7 @@ Far North exposure grants you resistance to extreme cold. You can function norma
 - **Ruin Knowledge (Sage/Hermit)**  
 You've explored Far North ruins and survived. You recognize Aeorian architectural patterns and can identify similar structures elsewhere. This knowledge unsettles you.
 
----
+![cat warrior](https://i.imgur.com/VMmZ0MC.jpeg) {width:355px,mix-blend-mode:multiply,position:absolute,right:0px,bottom:-100px,transform:"scaleX(-1)"}
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
@@ -1287,6 +1320,12 @@ Consider regional tool proficiencies that replace or supplement background tools
 
 With DM approval, you can replace one background tool proficiency with a regional tool that better fits your character concept. The mechanical benefit remains the same, but the narrative flavor changes.
 }}
+
+{{imageMaskEdge1,--offset:10%,--rotation:10
+  ![](https://i.imgur.com/U6SXmX6.jpeg){width:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
@@ -1354,7 +1393,8 @@ Answer these questions to ground your character in their region:
 4. What regional expertise makes you valuable to the guild?
 5. Where do you see yourself in five years?
 
----
+
+![book](https://i.imgur.com/2hHyal8.jpeg) {width:355px,mix-blend-mode:multiply,position:absolute,right:240px}
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
@@ -1401,6 +1441,8 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 #### **Welcome to the Northwatch Wardens.**
 *Your story begins here.*
 }}
+
+![cat warrior](https://i.imgur.com/Nyu4tVp.jpeg) {width:500px,mix-blend-mode:multiply,position:absolute,bottom:20px,right:50px}
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}

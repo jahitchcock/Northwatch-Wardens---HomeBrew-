@@ -2,7 +2,11 @@
 
 {{wide
 
-![Northreach player map](https://i.imgur.com/GJBMEOh.jpg)
+![Northreach player map](https://i.imgur.com/GJBMEOh.jpg){width:100%}
+
+## Northreach in One Paragraph
+
+Northreach is a cold, sparsely settled frontier where survival depends on community, preparation, and the protection provided by organizations like the Northwatch Wardens. **Waystone Inn** sits at the practical center of travel and trade—a safe hearth between small settlements, logging roads, and old ruins. Most people here concern themselves with local problems: wolves, bandits, missing hunters, and weather. But recently, strange reports have been filtering in from across the region, making even seasoned frontiersmen uneasy.
 
 }}
 
@@ -11,9 +15,6 @@
 
 \page
 
-## Northreach in One Paragraph
-
-Northreach is a cold, sparsely settled frontier where survival depends on community, preparation, and the protection provided by organizations like the Northwatch Wardens. **Waystone Inn** sits at the practical center of travel and trade—a safe hearth between small settlements, logging roads, and old ruins. Most people here concern themselves with local problems: wolves, bandits, missing hunters, and weather. But recently, strange reports have been filtering in from across the region, making even seasoned frontiersmen uneasy.
 
 ---
 
@@ -53,10 +54,7 @@ Northreach is a cold, sparsely settled frontier where survival depends on commun
 - Stock supplies before winter; resupply may be impossible for months
 - Learn to read weather signs or hire someone who can
 
-{{pageNumber,auto}}
-{{footnote NORTHREACH: YOUR FRONTIER HOME}}
-
-\page
+\column
 
 ### The Northwatch Wardens
 

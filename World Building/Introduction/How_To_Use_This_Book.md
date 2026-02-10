@@ -36,7 +36,7 @@ Keep your adventure alive between game nights:
 - **Explore the Lore** — **Chapter 5: The Wider World of Aevoria** contains setting information about regions beyond Northreach. Your character might have come from one of these places.
 
 {{imageMaskCorner23,--offsetX:-80%,--offsetY:-70%,--rotation:80
-  ![](https://i.imgur.com/mOSsZOE.png){position:absolute,height:210px,left:90px,bottom:20px}
+  ![](https://i.imgur.com/mOSsZOE.png){position:absolute,height:210px,left:90px,bottom:0px}
 }}
 
 

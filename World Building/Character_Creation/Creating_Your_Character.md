@@ -67,6 +67,13 @@ Choose **one** of the following:
 - See Player's Handbook page 13 for costs
 - Allows precise customization
 
+{{imageMaskCorner25,--offsetX:52%,--offsetY:-80%,--rotation:10
+  ![](https://i.imgur.com/bOEKa8M.jpeg){height:23%,right:-60px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -156,6 +163,8 @@ All Player's Handbook classes work in this campaign, but some fit the frontier t
 
 **Rogue** — Sneaking, scouting, and solving problems with cunning are as important as brute force. *Recommended Archetypes: Scout, Inquisitive*
 
+{{watercolor6,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -241,6 +250,15 @@ Your background represents your life before joining the Northwatch Wardens.
 ### Other Backgrounds
 
 **Acolyte, Charlatan, Entertainer, Noble, Sailor, Urchin** — All work with appropriate backstory. A noble might be a disgraced heir seeking redemption; a sailor could be a shipwreck survivor; an urchin grew up in a settlement.
+
+{{watercolor9,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{imageMaskCorner24,--offsetX:73%,--offsetY:-78%,--rotation:0
+  ![](https://i.imgur.com/9YkyBxS.png){height:40%,right:-55px,bottom:-40px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
@@ -328,6 +346,7 @@ Your character needs a reason to join or be interested in the guild. Consider th
 **Redemption** — You're trying to make up for past mistakes by helping others.
 
 **Justice** — Someone or something wronged you or someone you care about. The Wardens give you the means to act.
+{{watercolor7,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
@@ -443,6 +462,8 @@ If building from gold, prioritize:
 - **Cold weather outfit** — Winter gear (5 gp)
 - **Healer's Kit** — Basic medical supplies
 
+{{watercolor2,top:660px,left:500px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -537,6 +558,8 @@ Need inspiration? Here are concepts that fit the campaign:
 *These are starting points, not rigid templates. Mix, modify, and make them your own. The best character is one that excites you to play and contributes to the group's story.*
 }}
 
+{{watercolor1,top:650px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -618,6 +641,8 @@ It asks only one question:
 {{note
 **Welcome to Northreach.** *There's work to be done.*
 }}
+
+![warrior](https://i.imgur.com/jnBCR13.png) {width:260px,position:absolute,right:100px,border:"4px solid #5a4632",border-radius:15px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}

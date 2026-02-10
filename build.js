@@ -221,6 +221,126 @@ function stripFrontMatter(markdown) {
   return cleaned;
 }
 
+function escapeRegExp(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function normalizeBlankLinesAfter(markdown, marker, blankCount) {
+  const flexibleMarker = escapeRegExp(marker).replace(/\\n/g, '[ \\t]*\\n');
+  const pattern = new RegExp(flexibleMarker + '(?:\\s*\\n)*', 'g');
+  const replacement = marker + '\n' + '\n'.repeat(blankCount);
+  return markdown.replace(pattern, replacement);
+}
+
+function applyBlankLineOverrides(markdown) {
+  let normalized = markdown.replace(/\r\n/g, '\n');
+
+  const watercolorBlankLines = new Map([
+    ['{{watercolor6,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor9,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 1],
+    ['{{watercolor7,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 2],
+    ['{{watercolor2,top:660px,left:500px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor1,top:650px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor9,top:520px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor15,top:240px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 2],
+    ['{{watercolor2,top:420px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor4,top:500px,left:123px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor8,top:230px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor3,top:620px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 1],
+    ['{{watercolor9,top:580px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor6,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}', 2],
+    ['{{watercolor4,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}', 2],
+    ['{{watercolor9,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor8,top:690px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor11,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 2],
+    ['{{watercolor4,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor6,top:240px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor8,top:250px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor2,top:20px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor7,top:620px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}', 3],
+    ['{{watercolor6,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}', 3]
+  ]);
+
+  for (const [tag, blanks] of watercolorBlankLines) {
+    normalized = normalizeBlankLinesAfter(normalized, tag, blanks);
+  }
+
+  normalized = normalizeBlankLinesAfter(
+    normalized,
+    'A Vharoxis syndicate owes you a favor—one. You can call it in for significant aid, but afterwards the debt is cleared (and you\'d better not owe them anything).',
+    2
+  );
+
+  const maskBlocks = [
+    {
+      marker: '{{imageMaskCorner25,--offsetX:52%,--offsetY:-80%,--rotation:10\n' +
+        '  ![](https://i.imgur.com/bOEKa8M.jpeg){height:23%,right:-60px}\n' +
+        '}}\n' +
+        '<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)\n' +
+        '     Use --offsetY to shift the mask up or down\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 6
+    },
+    {
+      marker: '{{imageMaskCorner24,--offsetX:73%,--offsetY:-78%,--rotation:0\n' +
+        '  ![](https://i.imgur.com/9YkyBxS.png){height:40%,right:-55px,bottom:-40px}\n' +
+        '}}\n' +
+        '<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)\n' +
+        '     Use --offsetY to shift the mask up or down\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 3
+    },
+    {
+      marker: '{{imageMaskCorner6,--offsetX:-54%,--offsetY:-33%,--rotation:0\n' +
+        '  ![](https://i.imgur.com/h1m9cN8.jpeg){height:45%}\n' +
+        '}}\n' +
+        '<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)\n' +
+        '     Use --offsetY to shift the mask up or down\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 2
+    },
+    {
+      marker: '{{imageMaskEdge1,--offset:10%,--rotation:10\n' +
+        '  ![](https://i.imgur.com/U6SXmX6.jpeg){width:100%}\n' +
+        '}}\n' +
+        '<!-- Use --offset to shift the mask away from page center (can use cm instead of %)\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 3
+    },
+    {
+      marker: '{{imageMaskCorner20,--offsetX:50%,--offsetY:-42%,--rotation:0\n' +
+        '  ![](https://i.imgur.com/Ob8C4jl.jpeg){position:absolute,bottom:0px,right:0px,width:400px}\n' +
+        '}}\n' +
+        '<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)\n' +
+        '     Use --offsetY to shift the mask up or down\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 3
+    },
+    {
+      marker: '{{imageMaskEdge6,--offset:20%,--rotation:180\n' +
+        '  ![](https://i.imgur.com/oKbv7i1.jpeg){position:absolute,top:-60px,left:0px,width:100%}\n' +
+        '}}\n' +
+        '<!-- Use --offset to shift the mask away from page center (can use cm instead of %)\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 3
+    },
+    {
+      marker: '{{imageMaskEdge4,--offset:18%,--rotation:0\n' +
+        '  ![](https://i.imgur.com/fLnZj0J.jpeg){width:100%,position:absolute,bottom:-100px}\n' +
+        '}}\n' +
+        '<!-- Use --offset to shift the mask away from page center (can use cm instead of %)\n' +
+        '     Use --rotation to set rotation angle in degrees. -->',
+      blanks: 3
+    }
+  ];
+
+  for (const { marker, blanks } of maskBlocks) {
+    normalized = normalizeBlankLinesAfter(normalized, marker, blanks);
+  }
+
+  return normalized;
+}
+
 function renderDungeonsAndMarkdownPages(rawMarkdown) {
   // Strip front matter before rendering
   const cleanedMarkdown = stripFrontMatter(rawMarkdown);
@@ -262,7 +382,9 @@ async function buildBook(tocFile, outputName) {
   
   // Homebrewery metadata block
   combinedMarkdown = '```metadata\n';
-  combinedMarkdown += `title: ${toc.title}\n`;
+  // Remove "The " from title for metadata, but keep it for TOC later
+  const metadataTitle = toc.title.replace(/^The /, '');
+  combinedMarkdown += `title: ${metadataTitle}\n`;
   combinedMarkdown += `description: '${toc.subtitle || ''}'\n`;
   combinedMarkdown += 'tags: []\n';
   combinedMarkdown += 'systems:\n';
@@ -270,6 +392,18 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += 'renderer: V3\n';
   combinedMarkdown += 'theme: 5ePHB\n';
   combinedMarkdown += 'snippets:\n';
+  combinedMarkdown += '  - name: brew_snippets\n';
+  combinedMarkdown += '    subsnippets:\n';
+  combinedMarkdown += '      - name: example snippet\n';
+  combinedMarkdown += '        gen: >-\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '          The text between `\\snippet title` lines will become a snippet of name\n';
+  combinedMarkdown += '          `title` as this example provides.\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '          This snippet is accessible in the brew tab, and will be inherited if\n';
+  combinedMarkdown += '          the brew is used as a theme.\n';
+  combinedMarkdown += '\n';
   combinedMarkdown += '```\n\n';
   combinedMarkdown += '```css\n';
   combinedMarkdown += '.page #example + table td {\n';
@@ -277,8 +411,8 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += '}\n';
   combinedMarkdown += '.page {\n';
   combinedMarkdown += '\tpadding-bottom : 1.1cm;\n';
-  combinedMarkdown += '}\n\n\n\n\n';
-  combinedMarkdown += '```\n\n';
+  combinedMarkdown += '}\n\n\n\n\n\n\n\n\n\n';
+  combinedMarkdown += '```\n\n\n\n';
   
   // Front cover with optional banner and footnote
   combinedMarkdown += '{{frontCover}}\n';
@@ -312,7 +446,9 @@ async function buildBook(tocFile, outputName) {
   // Process each section
   for (const section of toc.sections) {
     console.log(`  Processing: ${section.chapter}`);
-    combinedMarkdown += `# ${section.chapter}\n\n`;
+    if (section.chapter !== 'Northreach: Your Starting Point') {
+      combinedMarkdown += `# ${section.chapter}\n\n`;
+    }
 
     if (section.subsections) {
       for (const subsection of section.subsections) {
@@ -323,6 +459,8 @@ async function buildBook(tocFile, outputName) {
       combinedMarkdown = await processFiles(section.files, buildDir, combinedMarkdown);
     }
   }
+
+  combinedMarkdown = applyBlankLineOverrides(combinedMarkdown);
 
   // Save combined markdown
   const mdPath = path.join(buildDir, `${outputName}.md`);

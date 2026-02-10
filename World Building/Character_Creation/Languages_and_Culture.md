@@ -57,7 +57,7 @@ Most player characters know **2-3 languages** at 1st level:
 Choose languages that fit your character's story and will be useful in the campaign.
 }}
 
----
+![cat warrior](https://i.imgur.com/jEhTjMv.jpegg) {width:450px,mix-blend-mode:multiply,position:absolute,left:25px,bottom:-140px}
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES AND CULTURE OF AEVORIA}}
@@ -174,6 +174,8 @@ Elvish script flows like water, with curved lines and connected characters. It's
 
 **Cultural Notes:**
 Elvish speakers value precision and emotional resonance. Direct translation often misses nuance—context and tone matter as much as words. Elves appreciate when non-elves attempt to speak their language but may gently correct pronunciation.
+:
+![cat warrior](https://i.imgur.com/GST0sIx.jpeg) {width:265px,,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
 
 \column
 
@@ -219,6 +221,7 @@ Gnomish is a fast-paced, technical language filled with compound words and creat
 - Reading inventor schematics
 - Communicating with gnome merchants
 - Deciphering technical documentation
+{{watercolor11,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
@@ -289,6 +292,13 @@ Orcish is powerful and direct, emphasizing strength, honor, and prowess. It has 
 
 **Cultural Notes:**
 Speaking Orc with proper inflection shows respect. The language values directness—flowery speech is seen as weakness or deception.
+
+{{imageMaskCorner20,--offsetX:50%,--offsetY:-42%,--rotation:0
+  ![](https://i.imgur.com/Ob8C4jl.jpeg){position:absolute,bottom:0px,right:0px,width:400px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
@@ -399,6 +409,8 @@ The "language" of aberrations from the deep places of the world—and possibly b
 Prolonged exposure to Deep Speech can cause mental strain. Your DM may require Wisdom saving throws after extended use. This language marks you as someone who has encountered things best left forgotten.
 }}
 
+{{watercolor4,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
@@ -497,12 +509,23 @@ The trade language of the Underdark, Undercommon is a blend of corrupted Elvish,
 **Cultural Notes:**
 Speaking Undercommon marks you as someone familiar with the underground—literally and figuratively. Surface dwellers who know it are often assumed to have criminal connections.
 
+{{watercolor6,top:240px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
 \page
 
+{{imageMaskEdge6,--offset:20%,--rotation:180
+  ![](https://i.imgur.com/oKbv7i1.jpeg){position:absolute,top:-60px,left:0px,width:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
 {{wide
+::::::::::::::::::::::::::
 ## Language Distribution by Region
 
 This table shows which languages are commonly heard in each region:
@@ -637,6 +660,8 @@ Using the wrong greeting or title can impose disadvantage on Charisma checks. Yo
 - Using real names in Vharoxis marks you as an outsider
 }}
 
+{{watercolor8,top:250px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -734,6 +759,8 @@ Breaking food taboos can cause genuine offense:
 - Solaris: Wine preferred; know your varieties
 - Northreach: Ale and spirits; practical drinks
 
+{{watercolor2,top:20px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -803,6 +830,12 @@ Gifts carry meaning beyond their material value.
 - **Nullwood:** Gifts are freely given; expecting return is rude
 - **Solaris:** Public gifts require public reciprocation
 }}
+
+{{imageMaskEdge4,--offset:18%,--rotation:0
+  ![](https://i.imgur.com/fLnZj0J.jpeg){width:100%,position:absolute,bottom:-100px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
@@ -895,6 +928,8 @@ These violations follow you. In Northreach, a broken hearth-oath is remembered f
 - Gifts (see gift-giving section)
 - Future hospitality (return the favor)
 - Public praise (especially in Solaris)
+
+![cat warrior](https://i.imgur.com/h1Se0cA.jpeg) {width:255px,mix-blend-mode:multiply,opacity:.5}
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
@@ -990,6 +1025,8 @@ Oaths and contracts carry different weight:
 - **Deepforge Crafters** (Stonebound): Metalwork, stonework, quality tools
 - **Verdant Trade Circle:** Natural goods, fair exchange emphasis
 
+{{watercolor7,top:620px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -1065,6 +1102,8 @@ Northreach society tracks reputation carefully:
 
 #### **Recovery:** 
 Possible through consistent actions over time, but takes years. "Fool me once, and I'll remember. Fool me twice, and everyone will."
+
+![Bard](https://i.imgur.com/gnvxX0l.png) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
@@ -1142,6 +1181,8 @@ The Tail Spinner's Cord and similar venues are neutral ground. Violence there is
 - Being unable to discuss current songs/stories
 - Wearing wrong clothes to wrong events
 - Boring people with lack of narrative flair
+
+![Bard](https://i.imgur.com/w14k8M2.jpeg) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
@@ -1259,6 +1300,8 @@ Calling quality work "adequate" or "good enough" is serious insult. Questioning 
 ##### **Disrespecting the Heartstone:** 
 The sacred crystal formation at Khardûn-Tharum's heart. Treating it as "just rock" is culturally offensive.
 }}
+
+![Bard](https://i.imgur.com/Dy9vAdY.jpeg) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 \column
 
@@ -1578,6 +1621,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Seeds planted in their honor
 - Life continues in new forms
 
+{{watercolor6,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
@@ -1662,6 +1707,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Craft-exchange (each makes something for other)
 - Clan approval required
 - Stone-oath engagement
+
+![Bard](https://i.imgur.com/Mj61izT.jpeg) {width:325px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}

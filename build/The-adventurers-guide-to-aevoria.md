@@ -1,12 +1,24 @@
 ```metadata
-title: The Adventurer's Guide to Aevoria
-description: 'A Player's Guide to the World of Northwatch Wardens'
+title: Adventurer's Guide to Aevoria
+description: ''
 tags: []
 systems:
   - 5e
 renderer: V3
 theme: 5ePHB
 snippets:
+  - name: brew_snippets
+    subsnippets:
+      - name: example snippet
+        gen: >-
+
+          The text between `\snippet title` lines will become a snippet of name
+          `title` as this example provides.
+
+
+          This snippet is accessible in the brew tab, and will be inherited if
+          the brew is used as a theme.
+
 ```
 
 ```css
@@ -20,7 +32,14 @@ snippets:
 
 
 
+
+
+
+
+
 ```
+
+
 
 {{frontCover}}
 {{banner New 5e world setting}}
@@ -89,7 +108,7 @@ Keep your adventure alive between game nights:
 - **Explore the Lore** — **Chapter 5: The Wider World of Aevoria** contains setting information about regions beyond Northreach. Your character might have come from one of these places.
 
 {{imageMaskCorner23,--offsetX:-80%,--offsetY:-70%,--rotation:80
-  ![](https://i.imgur.com/mOSsZOE.png){position:absolute,height:210px,left:90px,bottom:20px}
+  ![](https://i.imgur.com/mOSsZOE.png){position:absolute,height:210px,left:90px,bottom:0px}
 }}
 
 
@@ -373,6 +392,18 @@ Choose **one** of the following:
 - See Player's Handbook page 13 for costs
 - Allows precise customization
 
+{{imageMaskCorner25,--offsetX:52%,--offsetY:-80%,--rotation:10
+  ![](https://i.imgur.com/bOEKa8M.jpeg){height:23%,right:-60px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
+
+
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -462,6 +493,10 @@ All Player's Handbook classes work in this campaign, but some fit the frontier t
 
 **Rogue** — Sneaking, scouting, and solving problems with cunning are as important as brute force. *Recommended Archetypes: Scout, Inquisitive*
 
+{{watercolor6,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -547,6 +582,17 @@ Your background represents your life before joining the Northwatch Wardens.
 ### Other Backgrounds
 
 **Acolyte, Charlatan, Entertainer, Noble, Sailor, Urchin** — All work with appropriate backstory. A noble might be a disgraced heir seeking redemption; a sailor could be a shipwreck survivor; an urchin grew up in a settlement.
+
+{{watercolor9,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{imageMaskCorner24,--offsetX:73%,--offsetY:-78%,--rotation:0
+  ![](https://i.imgur.com/9YkyBxS.png){height:40%,right:-55px,bottom:-40px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
@@ -634,6 +680,8 @@ Your character needs a reason to join or be interested in the guild. Consider th
 **Redemption** — You're trying to make up for past mistakes by helping others.
 
 **Justice** — Someone or something wronged you or someone you care about. The Wardens give you the means to act.
+{{watercolor7,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
@@ -749,6 +797,10 @@ If building from gold, prioritize:
 - **Cold weather outfit** — Winter gear (5 gp)
 - **Healer's Kit** — Basic medical supplies
 
+{{watercolor2,top:660px,left:500px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -843,6 +895,10 @@ Need inspiration? Here are concepts that fit the campaign:
 *These are starting points, not rigid templates. Mix, modify, and make them your own. The best character is one that excites you to play and contributes to the group's story.*
 }}
 
+{{watercolor1,top:650px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -925,6 +981,8 @@ It asks only one question:
 **Welcome to Northreach.** *There's work to be done.*
 }}
 
+![warrior](https://i.imgur.com/jnBCR13.png) {width:260px,position:absolute,right:100px,border:"4px solid #5a4632",border-radius:15px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
@@ -984,6 +1042,12 @@ Your regional origin affects:
 
 All player characters begin in Northreach, either as locals or newcomers. If you're from another region, you need a reason for traveling to the frontier and joining the Northwatch Wardens. Each regional section includes common motivations for making this journey.
 }}
+
+![cat warrior](https://i.imgur.com/uf2fnvc.jpeg) {width:325px,border:"4px solid #5a4632",border-radius:15px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
+
+{{watercolor9,top:520px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 
 {{pageNumber,auto}}
 {{footnote REGIONAL ORIGINS GUIDE}}
@@ -1080,6 +1144,9 @@ Answer 2-3 of these to develop your backstory:
 4. **What do you miss most about the "civilized" south?** (Or do you prefer the frontier?)
 5. **Have you ever been lost in the wilderness?** What happened?
 
+{{watercolor15,top:240px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1171,6 +1238,10 @@ Scholar from a Veilbound family researching magical anomalies. Eclipse Day point
 
 **Senna Darkwater, Tiefling Rogue (Inquisitive)**  
 Former spy for the Chorus who saw too much and fled north. Excellent at gathering information and reading people. Never quite stops looking over her shoulder.
+
+{{watercolor2,top:420px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -1264,6 +1335,10 @@ Memory Court scholar researching why magic behaves strangely in certain regions.
 - **Whisper, Wood Elf Ranger (Gloom Stalker)**  
 Refused the memory rituals and emotional curation. Left the Nullwood seeking "real" experiences—raw, unfiltered, and honest. Found exactly that in Northreach.
 
+{{watercolor4,top:500px,left:123px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1353,6 +1428,10 @@ Former Depths guard who wanted to see the sun. Found surface life chaotic but ex
 
 - **Rurik Ironvein, Dwarf Wizard (War Magic)**  
 Deep-reader who sensed disturbances in the earth pointing north. Sent to investigate whether surface anomalies connect to changes in the Depths. Doesn't like being cold.
+
+{{watercolor8,top:230px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -1446,7 +1525,7 @@ Grew up in Vharoxis slums hunting rats and worse. Came north because frontier mo
 
 
 
----
+{{watercolor3,top:620px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -1537,6 +1616,10 @@ Salvage diver who pulled up one relic too many from the Gravewater Trench. Got o
 3. **Do you miss the water, or are you glad to be inland?**
 4. **What superstition or ritual do you still observe?**
 5. **Who or what are you running from on the coast?**
+
+{{watercolor9,top:580px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -1631,6 +1714,10 @@ Sole survivor of a tribe consumed by volcanic eruption. Came north carrying thei
 5. **Do you believe the land is "reawakening," as some claim?**
 6. 
 
+{{watercolor2,top:420px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1722,6 +1809,10 @@ Grew up in a Marches village before the Stirring. Left because the forest she kn
 4. **Do you see the Stirring as dangerous, wonderful, or both?**
 5. **What druidic circle or clan do you still answer to?**
 
+
+{{watercolor6,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1811,6 +1902,9 @@ Marine scholar who studied Glassspire geometry until it started appearing in his
 3. **What changed in you after diving too deep?**
 4. **Who did you lose to the Dominion's ruins?**
 5. **Do the glowing currents appear in your dreams?**
+
+{{watercolor4,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
@@ -1902,6 +1996,10 @@ Hermit who meditated in ice caves until something spoke back. Emerged with uncan
 4. **What did you see in the ruins that made you leave?**
 5. **Do you ever want to return—or would death be preferable?**
 
+{{watercolor9,top:420px,left:230px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote THE TEN REGIONS}}
 
@@ -1959,6 +2057,7 @@ Understanding how different regions view each other enriches roleplay and create
 | | All Warm Regions | Complaining about nothing |
 }}
 
+
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
 
@@ -1995,7 +2094,14 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 - Solaris scholarship vs Northreach superstition
 - Sunken Dominion artifacts vs everyone's caution
 
----
+{{imageMaskCorner6,--offsetX:-54%,--offsetY:-33%,--rotation:0
+  ![](https://i.imgur.com/h1m9cN8.jpeg){height:45%}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
 \column
 
 ## Roleplaying Regional Tensions
@@ -2039,6 +2145,10 @@ These aren't hostile conflicts, but natural tensions that create interesting rol
 
 Regional tensions should enhance roleplay, not hinder it. If friction between characters stops being fun or constructive, address it out-of-game. The goal is interesting character dynamics, not party splits.
 }}
+
+{{watercolor8,top:690px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
 
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
@@ -2112,6 +2222,7 @@ You're trained in reading people despite disguises. You have advantage on Insigh
 - **Syndicate Debt (Criminal)**  
 A Vharoxis syndicate owes you a favor—one. You can call it in for significant aid, but afterwards the debt is cleared (and you'd better not owe them anything).
 
+
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
 
@@ -2174,7 +2285,7 @@ Far North exposure grants you resistance to extreme cold. You can function norma
 - **Ruin Knowledge (Sage/Hermit)**  
 You've explored Far North ruins and survived. You recognize Aeorian architectural patterns and can identify similar structures elsewhere. This knowledge unsettles you.
 
----
+![cat warrior](https://i.imgur.com/VMmZ0MC.jpeg) {width:355px,mix-blend-mode:multiply,position:absolute,right:0px,bottom:-100px,transform:"scaleX(-1)"}
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
@@ -2221,6 +2332,14 @@ Consider regional tool proficiencies that replace or supplement background tools
 
 With DM approval, you can replace one background tool proficiency with a regional tool that better fits your character concept. The mechanical benefit remains the same, but the narrative flavor changes.
 }}
+
+{{imageMaskEdge1,--offset:10%,--rotation:10
+  ![](https://i.imgur.com/U6SXmX6.jpeg){width:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
@@ -2288,7 +2407,8 @@ Answer these questions to ground your character in their region:
 4. What regional expertise makes you valuable to the guild?
 5. Where do you see yourself in five years?
 
----
+
+![book](https://i.imgur.com/2hHyal8.jpeg) {width:355px,mix-blend-mode:multiply,position:absolute,right:240px}
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
@@ -2335,6 +2455,8 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 #### **Welcome to the Northwatch Wardens.**
 *Your story begins here.*
 }}
+
+![cat warrior](https://i.imgur.com/Nyu4tVp.jpeg) {width:500px,mix-blend-mode:multiply,position:absolute,bottom:20px,right:50px}
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
@@ -2402,7 +2524,7 @@ Most player characters know **2-3 languages** at 1st level:
 Choose languages that fit your character's story and will be useful in the campaign.
 }}
 
----
+![cat warrior](https://i.imgur.com/jEhTjMv.jpegg) {width:450px,mix-blend-mode:multiply,position:absolute,left:25px,bottom:-140px}
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES AND CULTURE OF AEVORIA}}
@@ -2519,6 +2641,8 @@ Elvish script flows like water, with curved lines and connected characters. It's
 
 **Cultural Notes:**
 Elvish speakers value precision and emotional resonance. Direct translation often misses nuance—context and tone matter as much as words. Elves appreciate when non-elves attempt to speak their language but may gently correct pronunciation.
+:
+![cat warrior](https://i.imgur.com/GST0sIx.jpeg) {width:265px,,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px rgba(0,0,0,0.35)"}
 
 \column
 
@@ -2564,6 +2688,8 @@ Gnomish is a fast-paced, technical language filled with compound words and creat
 - Reading inventor schematics
 - Communicating with gnome merchants
 - Deciphering technical documentation
+{{watercolor11,top:620px,right:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
@@ -2634,6 +2760,15 @@ Orcish is powerful and direct, emphasizing strength, honor, and prowess. It has 
 
 **Cultural Notes:**
 Speaking Orc with proper inflection shows respect. The language values directness—flowery speech is seen as weakness or deception.
+
+{{imageMaskCorner20,--offsetX:50%,--offsetY:-42%,--rotation:0
+  ![](https://i.imgur.com/Ob8C4jl.jpeg){position:absolute,bottom:0px,right:0px,width:400px}
+}}
+<!-- Use --offsetX to shift the mask left or right (can use cm instead of %)
+     Use --offsetY to shift the mask up or down
+     Use --rotation to set rotation angle in degrees. -->
+
+
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
@@ -2744,6 +2879,10 @@ The "language" of aberrations from the deep places of the world—and possibly b
 Prolonged exposure to Deep Speech can cause mental strain. Your DM may require Wisdom saving throws after extended use. This language marks you as someone who has encountered things best left forgotten.
 }}
 
+{{watercolor4,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
@@ -2842,12 +2981,25 @@ The trade language of the Underdark, Undercommon is a blend of corrupted Elvish,
 **Cultural Notes:**
 Speaking Undercommon marks you as someone familiar with the underground—literally and figuratively. Surface dwellers who know it are often assumed to have criminal connections.
 
+{{watercolor6,top:240px,left:330px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
 \page
 
+{{imageMaskEdge6,--offset:20%,--rotation:180
+  ![](https://i.imgur.com/oKbv7i1.jpeg){position:absolute,top:-60px,left:0px,width:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+
 {{wide
+::::::::::::::::::::::::::
 ## Language Distribution by Region
 
 This table shows which languages are commonly heard in each region:
@@ -2982,6 +3134,10 @@ Using the wrong greeting or title can impose disadvantage on Charisma checks. Yo
 - Using real names in Vharoxis marks you as an outsider
 }}
 
+{{watercolor8,top:250px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -3079,6 +3235,10 @@ Breaking food taboos can cause genuine offense:
 - Solaris: Wine preferred; know your varieties
 - Northreach: Ale and spirits; practical drinks
 
+{{watercolor2,top:20px,left:340px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -3148,6 +3308,14 @@ Gifts carry meaning beyond their material value.
 - **Nullwood:** Gifts are freely given; expecting return is rude
 - **Solaris:** Public gifts require public reciprocation
 }}
+
+{{imageMaskEdge4,--offset:18%,--rotation:0
+  ![](https://i.imgur.com/fLnZj0J.jpeg){width:100%,position:absolute,bottom:-100px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
@@ -3240,6 +3408,8 @@ These violations follow you. In Northreach, a broken hearth-oath is remembered f
 - Gifts (see gift-giving section)
 - Future hospitality (return the favor)
 - Public praise (especially in Solaris)
+
+![cat warrior](https://i.imgur.com/h1Se0cA.jpeg) {width:255px,mix-blend-mode:multiply,opacity:.5}
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
@@ -3335,6 +3505,10 @@ Oaths and contracts carry different weight:
 - **Deepforge Crafters** (Stonebound): Metalwork, stonework, quality tools
 - **Verdant Trade Circle:** Natural goods, fair exchange emphasis
 
+{{watercolor7,top:620px,left:430px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
@@ -3410,6 +3584,8 @@ Northreach society tracks reputation carefully:
 
 #### **Recovery:** 
 Possible through consistent actions over time, but takes years. "Fool me once, and I'll remember. Fool me twice, and everyone will."
+
+![Bard](https://i.imgur.com/gnvxX0l.png) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
@@ -3487,6 +3663,8 @@ The Tail Spinner's Cord and similar venues are neutral ground. Violence there is
 - Being unable to discuss current songs/stories
 - Wearing wrong clothes to wrong events
 - Boring people with lack of narrative flair
+
+![Bard](https://i.imgur.com/w14k8M2.jpeg) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
@@ -3604,6 +3782,8 @@ Calling quality work "adequate" or "good enough" is serious insult. Questioning 
 ##### **Disrespecting the Heartstone:** 
 The sacred crystal formation at Khardûn-Tharum's heart. Treating it as "just rock" is culturally offensive.
 }}
+
+![Bard](https://i.imgur.com/Dy9vAdY.jpeg) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 \column
 
@@ -3923,6 +4103,10 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Seeds planted in their honor
 - Life continues in new forms
 
+{{watercolor6,top:20px,left:30px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+
+
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
@@ -4007,6 +4191,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 - Craft-exchange (each makes something for other)
 - Clan approval required
 - Stone-oath engagement
+
+![Bard](https://i.imgur.com/Mj61izT.jpeg) {width:325px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
@@ -4714,14 +4900,16 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 \page
 <!-- FILE_END: ../World Building/Character_Creation/Languages_and_Culture.md -->
 
-# Northreach: Your Starting Point
-
 <!-- FILE_START: ../World Building/Regions/Northreach/Northreach_Setting_Primer.md -->
 # Northreach: Your Frontier Home
 
 {{wide
 
-![Northreach player map](https://i.imgur.com/GJBMEOh.jpg)
+![Northreach player map](https://i.imgur.com/GJBMEOh.jpg){width:100%}
+
+## Northreach in One Paragraph
+
+Northreach is a cold, sparsely settled frontier where survival depends on community, preparation, and the protection provided by organizations like the Northwatch Wardens. **Waystone Inn** sits at the practical center of travel and trade—a safe hearth between small settlements, logging roads, and old ruins. Most people here concern themselves with local problems: wolves, bandits, missing hunters, and weather. But recently, strange reports have been filtering in from across the region, making even seasoned frontiersmen uneasy.
 
 }}
 
@@ -4730,9 +4918,6 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 
 \page
 
-## Northreach in One Paragraph
-
-Northreach is a cold, sparsely settled frontier where survival depends on community, preparation, and the protection provided by organizations like the Northwatch Wardens. **Waystone Inn** sits at the practical center of travel and trade—a safe hearth between small settlements, logging roads, and old ruins. Most people here concern themselves with local problems: wolves, bandits, missing hunters, and weather. But recently, strange reports have been filtering in from across the region, making even seasoned frontiersmen uneasy.
 
 ---
 
@@ -4772,10 +4957,7 @@ Northreach is a cold, sparsely settled frontier where survival depends on commun
 - Stock supplies before winter; resupply may be impossible for months
 - Learn to read weather signs or hire someone who can
 
-{{pageNumber,auto}}
-{{footnote NORTHREACH: YOUR FRONTIER HOME}}
-
-\page
+\column
 
 ### The Northwatch Wardens
 
