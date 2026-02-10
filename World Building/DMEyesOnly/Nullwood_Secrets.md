@@ -5,7 +5,7 @@
 
 This document contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/03_Nullwood_Expanse.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Nullwood Expanse — DM Eyes Only

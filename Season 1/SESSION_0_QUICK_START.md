@@ -288,14 +288,14 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 ## After Session 0: What's Next?
 
 ### Before Session 1:
-- [ ] Read **Wolves of Welton** adventure (`Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md`)
+- [ ] Read **Wolves of Welton** adventure (Chapter 5)
 - [ ] Review encounter locations and NPCs
 - [ ] Prepare battle maps (or use theater of the mind)
 
 ### Optional Deeper Prep (After Session 0):
-- Read `Season 1/README.md` for full campaign overview
-- Read `Season 1/DM_Resources/Session_Prep_Guide.md` for advanced DM tips
-- Review `Season 1/DM_Resources/DM Guild Roster.md` for NPC secrets
+- Read **Chapter 3: Campaign Overview** for the full campaign overview
+- Read **Chapter 4: DM Resources** for advanced DM tips
+- Review **Chapter 4: DM Guild Roster** for NPC secrets
 
 ### Running Future Sessions:
 Every session follows this pattern:
@@ -382,6 +382,6 @@ Welcome to the Northwatch Wardens. The frontier needs you.
 ---
 
 *For more detailed prep and advanced DM resources, see:*
-- `Season 1/README.md` — Full campaign overview
-- `Season 1/DM_Resources/Session_Prep_Guide.md` — Advanced session running tips
-- `Season 1/DM_Resources/DM Guild Roster.md` — Complete NPC roster with secrets
+- **Chapter 3: Campaign Overview** — Full campaign overview
+- **Chapter 4: DM Resources** — Advanced session running tips
+- **Chapter 4: DM Guild Roster** — Complete NPC roster with secrets

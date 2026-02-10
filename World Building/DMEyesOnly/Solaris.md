@@ -5,7 +5,7 @@
 
 This document contains DM-only secrets about the Solaris Dominion. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/02_Solaris_Dominion.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Solaris Dominion: DM Secrets

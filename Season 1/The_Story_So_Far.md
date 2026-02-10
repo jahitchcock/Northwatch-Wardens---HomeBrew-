@@ -4,10 +4,9 @@ Use this as the living continuity log for actual play. Update it after each sess
 
 
 ## Quick Links
-- [Campaign Table of Contents](Campaign_ToC.md)
-- [Session Prep Guide](DM_Resources/Session_Prep_Guide.md)
-- [Campaign Tracker (blank)](DM_Resources/Campaign_Tracker_BLANK.md)
-- [Campaign Tracker (filled)](DM_Resources/Campaign_Tracker.md)
+- **Chapter 3: Campaign Overview** — Core structure and flow
+- **Chapter 4: DM Resources** — Session prep guidance and tools
+- **Chapter 4: Campaign Tracker** — Use the blank or filled tracker in this chapter
 
 ---
 

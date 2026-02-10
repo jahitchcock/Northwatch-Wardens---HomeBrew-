@@ -4,12 +4,22 @@ A fourth/fifth level adventure for D&D 5E
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐ (Significant — Magical Destabilization Pattern)
+
+**Campaign Arc:** Rising Chaos — Magic Misbehaving
+
 **Campaign Connection:** This adventure shows **magic destabilizing** across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
 
+**Prerequisite Adventures:** Enhanced if players have completed Wolves of Welton (recognizes transformation theme)
+
+**Leads To:**
+- **Frozen Sick** (theme: magic behaving unpredictably has a source)
+- **Temple of Dragonknights** (magical convergence points attract power)
+
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Noke's Tower: The Wizard's Arsenal" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Noke's Tower: The Wizard's Arsenal" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - **Shinebright (Finethir) is not who he appears to be**—he's a dedicated Aeorian researcher preparing countermeasures
@@ -19,6 +29,45 @@ A fourth/fifth level adventure for D&D 5E
 - If players earn his trust, he becomes a crucial ally with maps, translations, and protective magic
 
 **Player Discovery:** This should feel like comic relief at first, but perceptive players may notice Shinebright knows more than he admits. Successfully helping him is the first step toward earning his trust.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Magical Item Malfunction:**
+- The Wand of True Polymorph is behaving unpredictably (intended to kill, instead transformed to sheep)
+- **Discovery Method:** Shinebright's explanation, examination of wand effects
+- **Investigation DC 13 (Arcana):** "This wand should be stable — something is interfering with its magic"
+- **Connects to:** Wolves of Welton (transformation theme), Frozen Sick (source of interference)
+
+**Secondary Clue — Widespread Magical Instability:**
+- Noke's tower contains multiple malfunctioning items: animated objects arguing, traps backfiring, rooms rearranging
+- **Discovery Method:** Exploring tower, observing environmental effects
+- **Investigation DC 14 (Arcana):** "This isn't one item failing — the entire tower's enchantments are destabilizing"
+- **Connects to:** All Echo adventures (regional magical instability)
+
+**Tertiary Clue — Shinebright's Secret Knowledge:**
+- If players earn Shinebright's trust (save him, act honorably), he admits he's been researching "strange magical phenomena"
+- **Discovery Method:** Social interaction, Insight DC 15 reveals he knows more than he says
+- **High Trust Revelation:** Shinebright shares that he's documented similar malfunctions across Northreach and suspects an ancient source
+- **Connects to:** Frozen Sick (he can provide research notes or guidance), future allies
+
+**Hidden Clue — Tower Basement (Optional):**
+- If players thoroughly explore after defeating Noke, they find Shinebright's hidden research library
+- **Discovery Method:** Investigation DC 16, or Shinebright grants access if trust is maximum
+- **Discovery:** Maps marking magical anomaly sites, sketches of Aeorian symbols, notes mentioning "Salsvault" and "pre-Calamity magic"
+- **Connects to:** Direct foreshadowing of Frozen Sick, establishes Shinebright as expert ally
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. Magical items and enchantments across Northreach are malfunctioning
+2. The destabilization is regional, not isolated to one location or item
+3. The pattern suggests external interference, not random failure
+4. At least one expert (Shinebright) is aware and researching the phenomenon
+
+**Questions left unanswered (for future adventures):**
+- What is causing magical destabilization? (Answered in: Frozen Sick)
+- Are wizards and artificers in danger? (Yes, ongoing theme)
+- Can magic be trusted? (Campaign-wide tension)
 
 ---
 

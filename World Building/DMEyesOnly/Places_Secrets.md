@@ -5,7 +5,7 @@
 
 This document contains hidden location features, dark histories, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe location information**, see `World Building/Regions/Northreach/Places_of_Northreach.md`
+**For player-safe location information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Places of Northreach: DM Secrets

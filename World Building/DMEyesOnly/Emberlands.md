@@ -5,7 +5,7 @@
 
 This document contains major campaign spoilers about the Emberlands. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/07_Emberlands.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Emberlands: DM Secrets

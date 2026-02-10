@@ -1048,7 +1048,6 @@ Understanding how different regions view each other enriches roleplay and create
 | | All Warm Regions | Complaining about nothing |
 }}
 
-
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
 

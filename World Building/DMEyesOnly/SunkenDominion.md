@@ -5,7 +5,7 @@
 
 This document contains DM-only secrets about the Sunken Dominion. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/09_Sunken_Dominion.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Sunken Dominion: DM-Only Secrets
@@ -654,7 +654,7 @@ They've been buying more aggressively since Eclipse Day.
 
 ## Secrets & Mysteries
 
-**For DM Use:** See `World Building/DMEyesOnly/SunkenDominion.md` for the hidden truth about the Dominion's true nature.
+**For DM Use:** The following section contains the hidden truth about the Dominion's true nature.
 
 ### Surface-Level Mysteries
 - What civilization built the Dominion?

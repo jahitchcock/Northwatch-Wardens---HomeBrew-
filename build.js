@@ -195,12 +195,9 @@ async function processFiles(files, buildDir, combinedMarkdown) {
     const filePath = path.join(buildDir, file);
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
-      // Add file marker for unbuild sync
-      combinedMarkdown += `<!-- FILE_START: ${file} -->\n`;
       let content = await fs.readFile(filePath, 'utf-8');
       content = normalizePageBreak(content);
       combinedMarkdown += content + '\n';
-      combinedMarkdown += `<!-- FILE_END: ${file} -->\n\n`;
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
@@ -391,19 +388,6 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += '  - 5e\n';
   combinedMarkdown += 'renderer: V3\n';
   combinedMarkdown += 'theme: 5ePHB\n';
-  combinedMarkdown += 'snippets:\n';
-  combinedMarkdown += '  - name: brew_snippets\n';
-  combinedMarkdown += '    subsnippets:\n';
-  combinedMarkdown += '      - name: example snippet\n';
-  combinedMarkdown += '        gen: >-\n';
-  combinedMarkdown += '\n';
-  combinedMarkdown += '          The text between `\\snippet title` lines will become a snippet of name\n';
-  combinedMarkdown += '          `title` as this example provides.\n';
-  combinedMarkdown += '\n';
-  combinedMarkdown += '\n';
-  combinedMarkdown += '          This snippet is accessible in the brew tab, and will be inherited if\n';
-  combinedMarkdown += '          the brew is used as a theme.\n';
-  combinedMarkdown += '\n';
   combinedMarkdown += '```\n\n';
   combinedMarkdown += '```css\n';
   combinedMarkdown += '.page #example + table td {\n';

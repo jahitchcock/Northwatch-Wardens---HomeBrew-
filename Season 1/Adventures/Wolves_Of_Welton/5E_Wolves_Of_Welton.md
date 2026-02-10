@@ -2,12 +2,23 @@
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+
+**Campaign Arc:** Opening Mystery — The First Sign
+
 **Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
 
+**Prerequisite Adventures:** None (campaign opener)
+
+**Leads To:** 
+- **Frozen Sick** (direct connection via Salsvault activation)
+- **Wild Sheep Chase** (magical destabilization theme)
+- All other adventures (establishes the Echo as ongoing threat)
+
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Welton: Dark Undercurrents" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Welton: Dark Undercurrents" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - The wolves' intelligence awakening is caused by Aeorian facility beneath Westly's Farm
@@ -16,6 +27,45 @@
 - The Old Woods north of Welton contain a partially buried Aeorian research station
 
 **Player Discovery:** Characters should discover strange magical anomalies but not necessarily the full Aeorian connection yet. This is the campaign's **inciting incident**.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Unnatural Intelligence:**
+- The wolves demonstrate sapient behavior: opening latches, using tactics, communicating with purpose
+- **Discovery Method:** Direct observation, NPC testimony (Westly, village council)
+- **Investigation DC 12 (Nature):** "This isn't learned behavior — something *changed* them at a fundamental level"
+- **Connects to:** Frozen Sick (similar magical transformation), Wild Sheep Chase (magical destabilization)
+
+**Secondary Clue — Timing of Awakening:**
+- Wolf intelligence appeared suddenly 2-3 weeks ago, coinciding with Alexi Merriksonn's disappearance
+- **Discovery Method:** Father Merriksonn's testimony, village timeline questioning
+- **Investigation DC 14 (Arcana):** "Sudden mass transformation suggests external magical event, not gradual evolution"
+- **Connects to:** Frozen Sick (Salsvault activation timeline matches)
+
+**Tertiary Clue — Magical Residue:**
+- If party has *detect magic*, faint transmutation aura lingers on the awakened wolves
+- **Discovery Method:** Spellcasting or magical expertise
+- **Investigation DC 15 (Arcana):** "This magic feels... *old*. Not like modern wizardry"
+- **Connects to:** All Echo adventures (signature Aeorian transmutation magic)
+
+**Hidden Clue — The Old Woods:**
+- If players explore north of Welton, they find geometric frost patterns and buried metallic structures
+- **Discovery Method:** Active exploration, following wolf tracks to lair
+- **Investigation DC 16 (History/Arcana):** "These symbols match pre-Calamity Aeorian designs"
+- **Connects to:** Frozen Sick revelation (Aeorian facilities exist throughout region)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. Something magical is causing impossible transformations across Northreach
+2. The effect appeared suddenly and simultaneously (not gradual)
+3. The source is unknown but likely ancient and powerful
+4. This may not be an isolated incident
+
+**Questions left unanswered (for future adventures):**
+- What caused the awakening? (Answered in: Frozen Sick)
+- Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
+- Can this be reversed or contained? (Campaign-wide question)
 
 ---
 

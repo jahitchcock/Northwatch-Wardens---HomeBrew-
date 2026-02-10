@@ -2,12 +2,24 @@
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐⭐ (High — Faction Response & Convergence)
+
+**Campaign Arc:** Escalation — Predators Gathering
+
 **Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
 
+**Prerequisite Adventures:**
+- Best played AFTER Frozen Sick (players recognize magical convergence patterns)
+- Enhanced if Wolves of Welton completed (understands predator attraction to magic)
+
+**Leads To:**
+- Future faction conflicts (dragons, cults, and opportunists responding to the Echo)
+- Establishes pattern: magical power attracts dangerous creatures
+
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Temple of the Dragonknights: Heroic Tomb" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Temple of the Dragonknights: Heroic Tomb" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
@@ -18,6 +30,53 @@
 - The facility contains **dragon-killing bioweapons** that threaten all dragons if reactivated
 
 **Player Discovery:** Characters should sense that the cult is more powerful than expected and that the temple has deeper significance. The connection to ancient Aeorian magic can be hinted at through symbols, architecture, or magical effects.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Magical Convergence Point:**
+- The Temple of the Dragonknights sits atop intersecting ley lines, amplified by Salsvault's reactivation
+- **Discovery Method:** Detect magic, Arcana DC 13 examining temple architecture
+- **Discovery:** "This temple channels incredible magical energy — more than it should naturally"
+- **Connects to:** Frozen Sick (Salsvault's activation is amplifying regional magic nodes)
+
+**Secondary Clue — Predator Attraction:**
+- Venomfang (young dragon) sensed the magical power and came to claim it
+- **Discovery Method:** Interrogating captured kobolds, Insight DC 14 reading Venomfang's behavior
+- **Discovery:** "Venomfang arrived only recently — she was *drawn* here by the magic"
+- **Connects to:** Campaign pattern — powerful creatures respond to the Echo
+
+**Tertiary Clue — Cult Empowerment:**
+- Kobold cult rituals are more effective than normal due to amplified magical energy
+- **Discovery Method:** Observing ritual sites, Arcana DC 15 analyzing spell effects
+- **Discovery:** "These kobolds shouldn't be capable of this level of spellwork — something is enhancing them"
+- **Connects to:** Magical instability theme (Wild Sheep Chase), shows Echo can empower enemies
+
+**Hidden Clue — Aeorian Facility Below:**
+- If players thoroughly explore temple catacombs, they find sealed passages with Aeorian symbols
+- **Discovery Method:** Investigation DC 16, stonework or engineering expertise
+- **Discovery:** "The temple was built *over* something older — pre-Calamity construction, deliberately sealed"
+- **Connects to:** Frozen Sick revelation (Aeorian facilities networked across region), future deep-dive adventures
+
+**Critical Clue — Ward Weakening:**
+- Each desecrated tomb weakens ancient seals keeping the Aeorian facility contained
+- **Discovery Method:** Arcana DC 17, Religion DC 15 examining disturbed tombs
+- **Discovery:** "These tombs aren't just memorials — they're ward anchors. Desecration is breaking centuries-old containment magic"
+- **Connects to:** Long-term campaign stakes (if seals break fully, Aeorian weapons activate)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. The Aeorian Echo is creating magical "convergence points" across Northreach
+2. Powerful creatures (dragons, etc.) are attracted to and empowered by these points
+3. Stopping individual threats (Venomfang) doesn't address root cause (Salsvault still active)
+4. Ancient seals and wards are weakening as the Echo escalates
+5. The problem will attract more predators unless the source is addressed
+
+**Questions left unanswered:**
+- How many convergence points exist? (Multiple across region)
+- What happens if all seals break? (Catastrophic Aeorian weapon activation)
+- Can the Echo be contained, or only its symptoms managed? (Campaign-defining question)
+- Who else is responding to the magical surges? (Future faction conflicts)
 
 ---
 

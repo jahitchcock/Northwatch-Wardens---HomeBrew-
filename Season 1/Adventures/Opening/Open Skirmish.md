@@ -1,4 +1,5 @@
 **🐺 OPENING SCENE: “Wolves at the Waystone Inn”**
+**Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
 {{wide
 A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
 }}

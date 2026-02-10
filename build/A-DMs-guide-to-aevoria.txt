@@ -6,7 +6,6 @@ systems:
   - 5e
 renderer: V3
 theme: 5ePHB
-snippets:
 ```
 
 ```css
@@ -20,7 +19,14 @@ snippets:
 
 
 
+
+
+
+
+
 ```
+
+
 
 {{frontCover}}
 ![background image](https://i.imgur.com/3z7yO3J.png){position:absolute,bottom:0,left:0,height:100%}
@@ -45,7 +51,6 @@ snippets:
 {{resetCounting}}
 # Using This Guide
 
-<!-- FILE_START: ../README.md -->
 # Welcome to Aevoria
 
 
@@ -115,254 +120,84 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 
 
-**🚀 New DM?** Start with [Session 0 Quick Start](./Season%201/SESSION_0_QUICK_START.md) or [General DM Quick Start](./DM_QUICKSTART.md)
+**🚀 New DM?** See **Chapter 2: Quick Start** to prep and run Session 0 in under 1 hour.
 
-**[Complete Campaign Guide →](./Season%201/)**
+\page
 
+## Using This Guide
 
+This guide is organized into chapters covering everything you need to run the Northwatch Wardens campaign:
 
----
+- **Chapter 1: Introduction** — Campaign overview and the world of Aevoria
+- **Chapter 2: Quick Start** — Session 0 prep and first adventure guide
+- **Chapter 3: Campaign Overview** — How the campaign works, adventures, and mystery structure  
+- **Chapter 4: DM Resources** — Session trackers, NPC rosters, and prep tools
+- **Chapter 5: Adventures** — Complete adventure modules ready to run
+- **Chapter 6: World Secrets** — Campaign mysteries and DM-only lore
+- **Chapter 7: Appendix** — Quick reference materials and NPC index
 
+### Content Organization
 
+This guide separates **player-safe content** from **DM-only secrets**:
 
-## Editing in VS Code (Homebrewery Preview)
+**✅ Safe for Players:**
+- Regional lore and faction information
+- The Northwatch Wardens charter  
+- Costs, travel times, and practical information
 
+**🚫 DMs Only (Contains Spoilers):**
+- Campaign mysteries and secrets (Chapter 6)
+- NPC secrets and motivations (Chapter 4)
+- Adventure modules with tactical notes (Chapter 5)
 
+\page
 
-This repository is set up to write and preview D&D content in a Homebrewery-style layout directly in VS Code.
+## How to Use This Book
 
+### For New DMs
 
+1. **Read Chapter 2: Quick Start** — Prep Session 0 in 30 minutes
+2. **Skim Chapter 3: Campaign Overview** — Understand the adventure structure
+3. **Choose your first adventure** — Start with Opening Adventures (Chapter 5)
+4. **Reference Chapter 4** as needed for NPC details and campaign tracking
 
-- **Extension**: *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
+### For Experienced DMs
 
-- **Formatting**: Use `\page` for page breaks, `{{note}}` for DM boxes, `{{descriptive}}` for read-aloud text
+- **Jump to Chapter 5** for adventure modules
+- **Consult Chapter 6** for campaign mysteries and the Aeorian Echo
+- **Use Chapter 4** for session prep tools and NPC rosters
 
-- **Snippets**: Most Homebrewery-style snippets are available with the `brew` prefix (example: `brewStatBlock`)
+### Running the Campaign
 
+The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
+1. Party gathers at the guild headquarters
+2. Reviews available contracts
+3. Takes a mission
+4. Returns with findings and rewards
+5. Discovers clues to the larger mystery
 
-### Homebrewery Best Practices
+**Adventures are modular** — run them in any order with 2–5 players per session. Perfect for variable attendance and flexible scheduling.
 
-
-
-📖 **[Homebrewery Best Practices Guide](./.github/HOMEBREWERY_BEST_PRACTICES.md)** — Comprehensive guide to formatting D&D content with Homebrewery
-
-
-
-📝 **[Adventure Template](./.github/templates/adventure_template.md)** — Ready-to-use template for new adventures
-
-
-
-✨ **[Before/After Examples](./.github/FORMATTING_EXAMPLES.md)** — See how Homebrewery formatting improves content
-
-
-
-### Commands
-
-
-
-- `homebrewery.toggle` — toggles `homebrewery.enabled`
-
-- `homebrewery.brew` — prints/exports to HTML
-
-
-
-### Recommended preview settings
-
-
-
-For best results, the workspace includes the following settings in `.vscode/settings.json`:
-
-
-
-- `markdown.preview.scrollEditorWithPreview`: `false`
-
-- `markdown.preview.scrollPreviewWithEditor`: `false`
-
-- `markdown.preview.markEditorSelection`: `false`
-
-
-
-These prevent the preview pane from jumping and avoid selection-hover effects that can disrupt the Homebrewery-style layout.
-
-
-
----
-
-
-
-## Player vs DM Content
-
-This repository carefully separates **player-safe content** from **DM-only secrets**:
-
-### ✅ Safe for Players
-- `World Building/Regions/` — Regional lore
-- `World Building/Organizations/` — Faction information  
-- `World Building/Locations/` — Place descriptions
-- `Premade PCs/` and `Characters/` — Character resources
-
-### 🚫 DMs Only (Contains Spoilers)
-- `World Building/DMEyesOnly/` — Campaign secrets and mysteries
-- `Season 1/DM_Resources/` — NPC secrets, campaign arc
-- `Season 1/Adventures/` — Adventures contain DM notes
-
-**Contributors:** See [Player vs DM Content Guidelines](./.github/PLAYER_DM_CONTENT_GUIDE.md) for how to maintain this separation.
-
----
-
-## Repository Structure
-
-
-
-
-
-![Diagram: Repository Structure](World%20Building/Campaign%20Assets/Diagrams/readme-repository-structure-l107-9cd76eff.svg)
-
-
-
-<!-- ASCII diagram source (converted to SVG):
-
-/
-
-├── Season 1/              # Complete Northwatch Wardens campaign
-
-│   ├── Adventures/        # Modular adventure modules
-
-│   ├── Campaign Assets/   # Charter, NPCs, campaign arc
-
-│   └── DM_Resources/      # Session tools and rosters
-
-├── World Building/        # Setting bible and world lore
-
-│   ├── Regions/           # Major regions of Aevoria
-
-│   ├── Organizations/     # Factions and guilds
-
-│   ├── Locations/         # Canonical location sheets
-
-│   ├── Religion/          # Pantheons and faiths
-
-│   └── DMEyesOnly/        # Secrets and spoilers (DMs only!)
-
-├── Premade PCs/           # Pre-generated characters
-
-├── Characters/            # Character sheets and builds
-
-└── LionsdenGameFiles/     # Game Master 5e XML files
-
--->
-
-
-
----
-
-
-
-## Accessing the Guides
-
-
-
-This repository includes a build system to convert all markdown content into two professionally-formatted, Homebrewery-styled guides available as HTML, markdown, and text files:
-
-
-
-📘 **The Adventurer's Guide to Aevoria** — Player-facing materials including world lore, regions, organizations, and pre-made characters
-
-
-
-📕 **A DM's Guide to Aevoria** — Complete campaign materials including all adventures, DM resources, NPCs, and world secrets
-
-
-
-### View Online (GitHub Pages)
-
-The guides are automatically built and deployed to GitHub Pages on every commit to main:
-
-- **[Player's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/The-adventurers-guide-to-aevoria.html)**
-- **[DM's Guide (HTML)](https://jahitchcock.github.io/Northwatch-Wardens---HomeBrew-/A-DMs-guide-to-aevoria.html)**
-
-### Build Locally
-
-
-
-```bash
-
-./build.sh
-
-```
-
-
-
-This will generate combined markdown (.md), text (.txt for Homebrewery upload), and HTML (.html) files in the `build/` directory.
-
-
-
-For detailed instructions, customization options, and troubleshooting, see:
-
-
-
-📄 **[QUICKSTART.md](./QUICKSTART.md)** — Quick reference guide
-
-
-
-📄 **[BUILD.md](./BUILD.md)** — Complete build system documentation
-
-
-
----
-
-
-
-## Content & Licensing
-
-
-
-- Markdown files are original or derived from licensed content
-
-- Do not redistribute third-party stat blocks or descriptions verbatim
-
-- Use as personal campaign material
-
-- Compile your own D&D Beyond purchases into the XML
-
-
-
----
-
-
+\page
 
 ## Ready to Adventure?
 
-
-
-Whether you're a player seeking to explore Northreach or a Dungeon Master crafting epic campaigns, this repository provides the tools and lore you need.
-
-
-
 **Choose your path:**
 
-- 🎯 **[New DMs: Quick Start Guides](./DM_QUICKSTART.md)** — Session 0 or first adventure guides
-- 🎲 **[Start in Northreach](./World%20Building/Regions/Northreach/)** — Learn the frontier first
-- 🛡️ **[Join the Northwatch Wardens](./Season%201/)** — Begin your campaign
-- 📖 **[Browse Adventures](./Season%201/Adventures/)** — See available quests
-- 🌍 **[Explore the Wider World](./World%20Building/)** — Discover Aevoria's regions *(after mastering Northreach)*
-
-- 📋 **[Quick Reference Guide](./World%20Building/Player_Quick_Reference.md)** — Costs, travel times, and essential info
-
-
+- ⭐ **New DMs:** Turn to **Chapter 2: Quick Start** for Session 0 prep
+- 🎲 **Jump into action:** See **Chapter 5: Adventures** for ready-to-run quests  
+- 🛡️ **Understand the campaign:** Read **Chapter 3: Campaign Overview**
+- 🌍 **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
+- 📋 **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
 
 ---
-
-
 
 *The world is vast. The mysteries are deep. The adventure awaits.*
 
 \page
-<!-- FILE_END: ../README.md -->
-
 # Quick Start
 
-<!-- FILE_START: ../Season 1/SESSION_0_QUICK_START.md -->
 # Session 0 Quick Start Guide
 ## Prep Time: 30 Minutes → Run Session 0 in 2 Hours
 
@@ -389,9 +224,9 @@ Session 0 is your campaign's foundation:
 You're doing it! Everything you need is here.
 
 ### ☐ Print or Bookmark (5 minutes)
-- [ ] **Charter Text** (page 3 below, or see `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`)
-- [ ] **First Contract** (page 4 below)
-- [ ] **Premade Characters** (optional: `Premade PCs/` folder has PDFs)
+- [ ] **Charter Text** (see below on page 3, or printed separately from the Northwatch Wardens charter)
+- [ ] **First Contract** (see below on page 4)  
+- [ ] **Premade Characters** (optional: your DM may provide pre-made character sheets)
 
 ### ☐ Prepare Your Opening Scene (5 minutes)
 Read the "Running Session 0" section below and imagine your opening.
@@ -486,7 +321,7 @@ Read the "Running Session 0" section below and imagine your opening.
   - Variable attendance is fine (characters can rotate between contracts)
   
 **0:15–0:45 — Character Creation**
-- **Option A:** Use premade characters (`Premade PCs/` folder)
+- **Option A:** Use premade characters (your DM may have pre-made character sheets available)
 - **Option B:** Build characters together (Standard Array or Point Buy)
 - **Option C:** Players bring their own level 1 characters
 
@@ -524,6 +359,8 @@ Introduce the three NPCs briefly (use descriptions on page 2).
 - Elric mentions "strange disturbances" in the frontier
 - Brenna says "We have work already"
 
+\page
+
 **1:45–2:00 — The First Contract**
 
 Brenna gestures to the contract board. One parchment is pinned there with a wolf-tooth charm.
@@ -557,8 +394,6 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - After defeating the wolves, notice strange blue veins in their fur
 - "Something's affecting the wildlife. We leave at dawn."
 - **Next session starts with the journey to Welton**
-
----
 
 \page
 
@@ -623,8 +458,6 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - Shows that the frontier is becoming more dangerous
 - Makes the Wolves of Welton contract feel urgent and connected
 
----
-
 \page
 
 ## Player Character Creation Tips
@@ -655,14 +488,14 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 ## After Session 0: What's Next?
 
 ### Before Session 1:
-- [ ] Read **Wolves of Welton** adventure (`Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md`)
+- [ ] Read **Wolves of Welton** adventure (Chapter 5)
 - [ ] Review encounter locations and NPCs
 - [ ] Prepare battle maps (or use theater of the mind)
 
 ### Optional Deeper Prep (After Session 0):
-- Read `Season 1/README.md` for full campaign overview
-- Read `Season 1/DM_Resources/Session_Prep_Guide.md` for advanced DM tips
-- Review `Season 1/DM_Resources/DM Guild Roster.md` for NPC secrets
+- Read **Chapter 3: Campaign Overview** for the full campaign overview
+- Read **Chapter 4: DM Resources** for advanced DM tips
+- Review **Chapter 4: DM Guild Roster** for NPC secrets
 
 ### Running Future Sessions:
 Every session follows this pattern:
@@ -702,7 +535,7 @@ A: Perfect! This campaign scales for 2–5 players. Smaller parties get tighter,
 **Q: Players miss Session 0?**  
 A: No problem. They can join Session 1 as "new recruits" arriving at Waystone Inn. Give them the 30-second pitch and hand them a badge.
 
----
+\page
 
 ## Your Session 0 Cheat Sheet (Cut & Keep at Table)
 
@@ -749,23 +582,18 @@ Welcome to the Northwatch Wardens. The frontier needs you.
 ---
 
 *For more detailed prep and advanced DM resources, see:*
-- `Season 1/README.md` — Full campaign overview
-- `Season 1/DM_Resources/Session_Prep_Guide.md` — Advanced session running tips
-- `Season 1/DM_Resources/DM Guild Roster.md` — Complete NPC roster with secrets
+- **Chapter 3: Campaign Overview** — Full campaign overview
+- **Chapter 4: DM Resources** — Advanced session running tips
+- **Chapter 4: DM Guild Roster** — Complete NPC roster with secrets
 
 \page
-<!-- FILE_END: ../Season 1/SESSION_0_QUICK_START.md -->
-
 # Campaign Overview
 
-<!-- FILE_START: ../Season 1/README.md -->
 # Northwatch Wardens — Drop-In Guild Campaign
 
 ## 🚀 New DM? Start Here!
 
-**📖 [SESSION 0 QUICK START GUIDE](./SESSION_0_QUICK_START.md)** — Prep and run Session 0 in under 1 hour
-
-**🎯 [GENERAL DM QUICK START](../DM_QUICKSTART.md)** — Run your first adventure session with minimal prep
+**📖 SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
 
 ---
 
@@ -774,11 +602,9 @@ Welcome to the Northwatch Wardens. The frontier needs you.
 
 **This README contains campaign overview information that may spoil mysteries for players.**
 
-**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, see:
-- `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- `World Building/Regions/Northreach/` for regional information
+**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, consult *The Adventurer's Guide to Aevoria* (the player-facing companion to this book).
 
-**DMs:** For complete campaign secrets, see `Season 1/DM_Resources/`
+**DMs:** For complete campaign secrets, see **Chapter 6: World Secrets**
 }}
 
 ## Overview
@@ -790,7 +616,7 @@ The campaign is **order-independent** — each adventure stands alone while buil
 - **Campaign Hub**: Waystone Inn (guild headquarters)
 - **Leadership**: Marshal Brenna Thorne, Steward Mara Fenwick, Lorewarden Elric Vael
 - **Playstyle**: Contract posting → investigation → resolution → cryptic lore revealed
-- **Quick Reference**: [Player Quick Reference Guide](../World%20Building/Player_Quick_Reference.md) — Costs, travel times, and essential info
+- **Quick Reference**: See **Chapter 7: Appendix** — Costs, travel times, and essential info
 
 ## How It Works
 **Each session:**
@@ -831,7 +657,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
   - Deception: claim wolves eliminated; short-term success, long-term complications
 - **Council Mechanics**: 7 members, 3 votes needed; Father Merriksonn and Corel guaranteed YES
 - **Rewards**: 800 gp + Warden credit
-- **Files**: `Season 1/Adventures/Wolves_Of_Welton/`
+- **Adventure Module**: See **Chapter 5: Wolves of Welton**
 
 \page
 
@@ -843,7 +669,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Aeorian spores are the source of all disturbances; ruins are actively destabilizing
 - **Outcomes**: Evacuate, cleanse the source, or exploit it for power
 - **Reward**: Variable (loot, political favor, or dangerous knowledge)
-- **Files**: `Season 1/Adventures/Frozen Sick/`
+- **Adventure Module**: See **Chapter 5: Frozen Sick**
 
 ### 🐉 Temple of the Dragonknights (Levels 4–5)
 - **Theme**: Ambition, corruption, and misused awakening magic
@@ -853,7 +679,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Intelligent predators and cults are mobilizing to exploit rising magic
 - **Outcomes**: Destroy the cult, expose Venomfang, or broker fragile truce
 - **Reward**: Artifacts, regional reputation shift
-- **Files**: `Season 1/Adventures/Temple_of_the_Dragonknights/`
+- **Adventure Module**: See **Chapter 5: Temple of the Dragonknights**
 
 ### 🐑 The Wild Sheep Chase (Levels 1–2, Comic Relief)
 - **Theme**: Magic behaving unpredictably
@@ -863,7 +689,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Artifacts are becoming unreliable; magic is destabilizing everywhere
 - **Tone**: Lighthearted but thematically significant; excellent palate-cleanser
 - **Reward**: Loot + memorable story
-- **Files**: `Season 1/Adventures/The_Wild_Sheep_Chase_V2/`
+- **Adventure Module**: See **Chapter 5: The Wild Sheep Chase**
 
 ### 🌲 Peril in Pinebrook (Levels 1–3, Side Trek)
 - **Theme**: Small communities caught in the crossfire of rising magic
@@ -873,7 +699,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Key Discovery**: Every settlement is vulnerable; the frontier is changing faster than anyone can respond
 - **Outcomes**: Solve the mystery, aid the community, recruit allies
 - **Reward**: Political favor, future allies
-- **Files**: `Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/`
+- **Adventure Module**: See **Chapter 5: Peril in Pinebrook**
 
 ---
 
@@ -883,19 +709,19 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Level**: 1–2
 - **Encounter**: 2 desperate wolves attack party on road
 - **Purpose**: Create immediate party cohesion through shared combat
-- **File**: `Season 1/Adventures/Opening/Open Skirmish.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - Open Skirmish**
 
 ### The Morning After (Social)
 - **Level**: Any
 - **Encounter**: Formal swearing-in, charter signing, leadership intros
 - **Purpose**: Establish guild identity and structure
-- **File**: `Season 1/Adventures/Opening/THE MORNING AFTER.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - The Morning After**
 
 ### Wolves - Contract (Briefing)
 - **Level**: Any
 - **Encounter**: Contract W-17 posted and explained
 - **Purpose**: Deliver party to Welton for first adventure
-- **File**: `Season 1/Adventures/Opening/Wolves - Contract.md`
+- **Adventure Module**: See **Chapter 5: Opening Adventures - Wolves Contract**
 
 ---
 
@@ -966,7 +792,7 @@ All Wardens shall:
 **Marshal Brenna Thorne** — Field Commander
 - **Public Role**: Contract assignment, combat readiness, tactical decisions
 - **Background**: Decades of frontier patrol; hardened ranger
-- **Secret**: Survivor of Greywinter Hunts (creature attack that killed half her squad, including her brother); carries guilt and obsession with thorough investigation; has sealed letter from Uthodurn warning of arcane disturbances
+- **Secret**: Survivor of Greywinter Hunts (creature attack that killed half her squad, including her brother); carries guilt and obsession with thorough investigation; has sealed letter from northern contact warning of arcane disturbances
 
 **Steward Mara Fenwick** — Quartermaster
 - **Public Role**: Supplies, finances, logistics, reimbursements
@@ -980,7 +806,7 @@ All Wardens shall:
 
 \page
 
-### Field Roster (See `Season 1/Campaign Assets/DM Guild Roster.md` for full details)
+### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
 
 **Trailwardens** (scouts, wilderness specialists):
 - **Corel** — Senior Shepherd of Welton (halfling); only other Greywinter Hunts survivor
@@ -1003,81 +829,41 @@ All Wardens shall:
 
 ---
 
-## Campaign Assets & Files
+## Campaign Assets
 
-### Structure
-```
-Season 1/
-├── Northwatch_Wardens.xml          (GM5e compendium, import-ready)
-├── Adventures/
-│   ├── Opening/
-│   │   ├── Open Skirmish.md
-│   │   ├── THE MORNING AFTER.md
-│   │   └── Wolves - Contract.md
-│   ├── Wolves_Of_Welton/
-│   │   ├── 5E_Wolves_Of_Welton.md
-│   │   ├── 5E_Wolves_Of_Welton.json
-│   │   ├── Wolves_Of_Welton_Printer_Friendly.md
-│   │   └── 5E_Wolves_Of_Welton_images/
-│   ├── Frozen Sick/
-│   │   ├── Frozen Sick.md
-│   │   └── images/
-│   ├── Temple_of_the_Dragonknights/
-│   │   ├── Temple_of_the_Dragonknights.md
-│   │   ├── Temple_of_the_Dragonknights.json
-│   │   └── images/
-│   ├── The_Wild_Sheep_Chase_V2/
-│   │   ├── 892902-The_Wild_Sheep_Chase_V2.md
-│   │   ├── 892902-The_Wild_Sheep_Chase_V2.json
-│   │   └── images/
-│   └── Peril_in_Pinebrook_COMPLETE/
-│       ├── Peril_in_Pinebrook_COMPLETE.md
-│       ├── Peril_in_Pinebrook_COMPLETE.json
-│       └── Peril_in_Pinebrook_COMPLETE_images/
-└── Campaign Assets/
-  ├── THE NORTHWATCH WARDENS - Charter.md     (pointer to canonical charter)
-  ├── THE NORTHWATCH WARDENS - Charter.json   (pointer to canonical charter)
-    ├── DM Guild Roster.md                      (NPC secrets & campaign ties)
-    └── NORTHWATCH WARDENS - Campaign Arc.md    (how adventures interlock)
+This campaign includes adventure modules, DM resources, and world secrets organized into chapters in this guide. Core assets include:
 
-World Building/
-└── Organizations/
-  └── Northwatch_Wardens/
-    ├── THE NORTHWATCH WARDENS - Charter.md     (canonical charter source)
-    └── THE NORTHWATCH WARDENS - Charter.json   (canonical charter source)
-```
+- The Northwatch Wardens charter (earlier in this book)
+- The DM Guild Roster and Campaign Arc (Chapter 4)
+- Adventure modules and stat blocks (Chapter 5)
+- World secrets and mystery framework (Chapter 6)
 
 \page
 
-### Key Files
-- **Charter (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- **NPC Secrets**: `Season 1/Campaign Assets/DM Guild Roster.md`
-- **Mystery Framework**: `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md`
-- **Adventure Secrets Quick Reference**: `Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md` ← **NEW!**
-- **Stat Blocks**: JSON files in each adventure folder
+### Key References
+- **Charter**: See the Northwatch Wardens charter earlier in this book
+- **NPC Secrets**: See **Chapter 4: DM Guild Roster**
+- **Mystery Framework**: See **Chapter 4: Campaign Arc**
+- **Stat Blocks**: Included within each adventure in **Chapter 5**
 
 ---
 
 ## DM Resources & World Secrets
 
-**NEW: Adventure Secrets Quick Reference**
+**Quick Navigation:**
 
-For quick navigation between adventures and their hidden lore, see:
-- **[Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md](./DM_Resources/Adventure_Secrets_Quick_Reference.md)**
-
-This document provides:
-- Direct links from each adventure to its relevant world secrets
-- Reverse links from secret files back to adventures
+For quick navigation between adventures and their hidden lore, this guide provides:
+- Direct cross-references from each adventure to relevant world secrets
 - Key secrets summary for each location
 - Player discovery guidelines
 - Navigation tips for session prep
 
 **World Secrets (DM Eyes Only):**
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../World%20Building/DMEyesOnly/Northreach.md)** - Regional secrets & adventure integration
-- **[World Building/DMEyesOnly/Places_Secrets.md](../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific hidden truths
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Regional secrets and adventure integration
+- **Chapter 6: Places Secrets** — Location-specific hidden truths
 
-Each adventure file now includes a "Northwatch Wardens Integration (DM)" section at the top with links to relevant secrets.
+Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" section with cross-references to relevant secrets.
 
 ---
 
@@ -1085,18 +871,18 @@ Each adventure file now includes a "Northwatch Wardens Integration (DM)" section
 
 ### Before Each Session
 1. **Pick an adventure** — Choose based on party level or let players select from posted contracts
-2. **Review adventure secrets** — Check `Adventure_Secrets_Quick_Reference.md` for relevant world secrets
-3. **Review the NPC secrets** — Check `DM Guild Roster.md` for relevant character motivations
+2. **Review adventure secrets** — See **Chapter 6: World Secrets** for relevant clues
+3. **Review NPC secrets** — See **Chapter 4: DM Guild Roster** for motivations
 4. **Note the mystery clue** — Each adventure hints at the Aeorian Echo; decide what party discovers
 5. **Scale for party size** — 2 players = tighter encounters; 5 players = add reinforcements
 6. **Prepare battle maps** — Use markdown descriptions or generate tactical maps externally
 
 ### Before Campaign Start
-1. **Read the Campaign Arc** — Understand how adventures interlock (`NORTHWATCH WARDENS - Campaign Arc.md`)
-2. **Review Adventure Secrets** — Familiarize with the connection system (`Adventure_Secrets_Quick_Reference.md`)
+1. **Read the Campaign Arc** — Understand how adventures interlock (Chapter 4)
+2. **Review Adventure Secrets** — Familiarize with the connection system (Chapter 6)
 3. **Familiarize yourself** — Review charter, leadership, and NPCs
 4. **Decide play order** — Adventures are order-independent; many DMs start with Wolves of Welton
-5. **Import or reference** — Load XML into GM5e or use markdown + JSON files directly
+5. **Prepare your materials** — Print key maps and handouts you plan to use
 
 ---
 
@@ -1158,7 +944,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ### Scalable Encounters
 - Each adventure includes guidance for adjusting CR and encounter size
-- JSON stat blocks note "minion" variants for swarms
+- Stat blocks note "minion" variants for swarms
 - Recommended: Add 1 extra monster per additional PC beyond 3
 
 ---
@@ -1167,7 +953,6 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ## Content & Licensing
 
-- Compile your own D&D Beyond purchases into the XML
 - Markdown files are original or derived from your licensed content
 - Do not redistribute third-party stat blocks or descriptions verbatim
 - Use as personal campaign material
@@ -1176,16 +961,16 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ## Resources
 
-- **Charter Text (canonical)**: `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md`
-- **NPC Secrets & Campaign Ties**: `Season 1/Campaign Assets/DM Guild Roster.md`
-- **Mystery Framework & Adventure Interlock**: `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md`
-- **Stat Blocks** (parseable): JSON files in each adventure folder
+- **Charter**: See the Northwatch Wardens charter earlier in this guide
+- **NPC Secrets & Campaign Ties**: See **Chapter 4: DM Guild Roster**
+- **Mystery Framework & Adventure Interlock**: See **Chapter 4: Campaign Arc**
+- **Stat Blocks**: Included within each adventure in **Chapter 5**
 
 ---
 
 ## Ready to Play
 
-**First-time DMs:** Start with the **[DM Quick Start Guide](../DM_QUICKSTART.md)** — a step-by-step guide to run your first session with minimal prep.
+**First-time DMs:** Start with **Chapter 2: Quick Start** for a step-by-step guide to run your first session with minimal prep.
 
 **Experienced DMs:**
 
@@ -1197,466 +982,8 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 The frontier awaits. The Northwatch Wardens have work to do.
 
 \page
-<!-- FILE_END: ../Season 1/README.md -->
-
-<!-- FILE_START: ../Season 1/Campaign_ToC.md -->
-# Northwatch Wardens: Season One
-
-## Campaign Table of Contents & Encounter Checklist
-
-**Campaign Name:** Northwatch Wardens: Season One  
-**System:** D&D 5e (GM5e XML v5)  
-**Level Range:** 1-5  
-**Theme:** Frontier mystery, Aeorian Echo, low-magic grounded adventure  
-**Combat Encounters:** 12 encounters with full stat blocks (45 combatants, 18,175 XP total)
-
-## Quick Links
-
-- [The Story So Far](The_Story_So_Far.md)
-- [Northreach Setting Primer](../World%20Building/Regions/Northreach/Northreach_Setting_Primer.md)
-- [Session Prep Guide](DM_Resources/Session_Prep_Guide.md)
-- [Campaign Tracker (blank)](DM_Resources/Campaign_Tracker_BLANK.md)
-
-
----
-
-## Adventure Structure
-
-### 0. Campaign Setup (uid: 2015)
-**Campaign Overview: Northwatch Wardens**
-- Introduction to Waystone Inn and Northreach region
-- Charter signing and Warden oath
-- No combat encounters
-
-### 1. Opening Skirmish (uid: 2012) **[NEW!]**
-**Wolves at the Waystone Inn**
-- Party formation encounter (strangers arriving at inn)
-- Natural character introductions through combat
-- **COMBAT:** 2 Starving Wolves | **XP:** 100
-
-#### Encounter:
-1. ✅ **Opening Skirmish: Desperate Wolves** (uid: 2190)
-   - 2 wolves attack outside inn at dusk
-   - Party formation through shared danger
-   - Establishes frontier tone
-   - Transitions to morning ceremony
-
-**Status:** ✅ Complete (1 encounter)
-
----
-
-### 2. Opening Session (uid: 2013)
-**The Morning After: Ceremony and First Contract**
-- Charter signing ceremony (references previous night's fight)
-- First contract assignment (Wolves of Welton)
-- No combat encounters
-
----
-
-### 3. Wolves of Welton (uid: 2016)
-**Levels:** 1-3  
-**Type:** Investigation with multiple resolution paths  
-**Theme:** Intelligent wolves, moral choices, village politics
-
-#### Encounters:
-1. ✅ **Scene 1: Welcome to the Welton Wolfpack** (uid: 2180)
-   - Road ambush, 8 wolves attacking shepherds
-   - Party starts 150ft away
-   - **Combatants:** 8 Wolves | **XP:** 1,600
-
-2. ✅ **Scene 2: Village People** (uid: 2183)
-   - Social/investigation scene
-   - Shepherd's Crook Inn, Council Meeting
-   - Featherock's testimony, village exploration
-
-3. ✅ **Scene 3: Plan of Attack** (uid: 2184)
-   - Planning and travel through Western Woods
-   - Optional bait strategy (6 wolves)
-   - Tracking, environmental challenges, approach to den
-
-4. ✅ **Scene 4: The Owlbear's Picnic** (uid: 2181)
-   - Optional encounter
-   - Injured owlbear (HP 40/59)
-   - **Combatants:** 1 Owlbear | **XP:** 700
-
-5. ✅ **Scene 5: The Wolf Den Battle** (uid: 2182)
-   - Main den combat
-   - Flame, Bolt, and wolf pack
-   - Moral choices with wolf pups
-   - **Combatants:** Flame, Bolt, 4 Armored Wolves, 6 Wolves | **XP:** 3,100
-
-6. ✅ **Welton Council Clash** (uid: 2102)
-   - Negotiation encounter (optional combat if Flame betrays)
-   - **Combatants:** Bolt, Flame, Willen, Father Merriksonn | **XP:** 900
-
-5. ✅ **Scene 5: The Wolf Den Battle** (uid: 2182)
-   - Main den combat
-   - Flame, Bolt, and wolf pack
-   - Moral choices with wolf pups
-
-6. ✅ **Welton Council Clash** (uid: 2102)
-   - Flame's betrayal scene
-   - Political resolution/negotiation
-
-**Status:** ✅ Complete (6 encounters)
-
----
-
-### 4. Frozen Sick (uid: 2017)
-
-\page
-
-**Levels:** 1-3  
-**Type:** Survival adventure, plague investigation, Aeorian ruins  
-**Theme:** Disease mystery, harsh environment, ancient magic
-
-#### Encounters:
-1. ✅ **Urgon's Funeral and Investigation** (uid: 2221)
-   - Urgon's funeral, Elro's request
-   - Investigation phase, disease mechanics
-
-2. ✅ **Urgon's Cabin Search** (uid: 2222)
-   - Clue gathering, Mila Teno interaction
-   - Aeorian connection discovered
-
-3. ✅ **Tulgi's Cabin Interview** (uid: 2223)
-   - Social encounter, Tulgi's confession
-   - Disease information, Croaker Cave location
-
-4. ✅ **Pelc's Curiosities Investigation** (uid: 2224)
-   - **COMBAT:** 5 Elf Bandits | **XP:** 625
-   - Verla's death confirmed, journal evidence
-
-5. ✅ **Frozen Sick: Croaker Cave Ambush** (uid: 2103)
-   - **COMBAT:** 3 Giant Ice Frogs | **XP:** 1,350
-   - Cave entrance, stealth options
-
-6. ✅ **Croaker Cave - Entrance & Giant Ice Frogs** (uid: 2225)
-   - Cave navigation encounter (non-combat)
-
-7. ✅ **Croaker Cave - Bandit Hideout** (uid: 2226)
-   - 6 Bandits (optional combat)
-   - Uttolot family revealed, interrogation
-
-8. ✅ **Croaker Cave - Hulil's Lair** (uid: 2227)
-   - **COMBAT:** Hulil Lutan + Raegrin Mau | **XP:** 650
-   - Priestess of Tiamat, moral choices, vial discovery
-
-9. ✅ **Journey to Syrinlya** (uid: 2228)
-   - Boat travel, magical storm skill challenge
-   - 3-day journey to Eiselcross coast
-
-10. ✅ **Syrinlya Outpost** (uid: 2229)
-    - Uthodurnian base, Commander Morgo Delwur
-    - Supplies, Irven Liel guide recruitment
-
-11. ✅ **Eiselcross - Winter Wolf Ambush** (uid: 2235)
-    - **COMBAT:** 2 Winter Wolves | **XP:** 1,400
-    - Night watch encounter, breath weapons
-
-12. ✅ **Trek to Salsvault** (uid: 2230)
-    - Wilderness survival, environmental hazards
-    - Crevasse traps, frozen forest, yeti avoidance
-
-13. ✅ **Salsvault - Security Construct Ambush** (uid: 2236)
-    - **COMBAT:** 1 Aeorian Security Construct | **XP:** 450
-    - Pre-Calamity security, Freeze Ray attacks
-
-14. ✅ **Salsvault - Entrance Hall** (uid: 2231)
-    - Facility introduction, keycard discovery
-
-15. ✅ **Salsvault - Laboratory Wing** (uid: 2232)
-    - Lab investigation, containment breaches
-
-16. ✅ **Salsvault - Research Chambers** (uid: 2233)
-    - Archives, authorization code discovery (3-8-15)
-
-17. ✅ **Salsvault - Containment Vault** (uid: 2234)
-    - ANTIDOTE secured, Locker 7
-
-18. ✅ **Salsvault - Arcane Engine** (uid: 2235)
-    - Engine shutdown decision, optional encounter
-
-19. ✅ **Resolution and Return to Palebank** (uid: 2237)
-    - Cure distribution, moral choices
-    - Village celebration, epilogue hooks
-
-**Frozen Sick Combat:** 5 encounters (13 combatants, 4,475 XP)  
-**Status:** ✅ Complete (19 encounters)
-
----
-
-### 5. Temple of the Dragonknights (uid: 2018)
-**Levels:** 3-5  
-**Type:** Capstone adventure, cult investigation, dragon confrontation  
-**Theme:** Cult activity, ancient temple, moral complexity
-
-#### Encounters:
-1. ✅ **Kobolds vs. Guards** (uid: 2170)
-   - Town combat, Joel Andersmith introduction
-
-2. ✅ **Andersmith Farm Investigation** (uid: 2171)
-   - Murder scene, tracking clues
-
-3. ✅ **The Trail to Poisontip Cavern** (uid: 2172)
-   - Creek crossing, quippers, cave approach
-
-4. ✅ **Poisontip Cavern Area 1** (uid: 2173)
-   - Winged kobold, rope bridge
-
-5. ✅ **Poisontip Cavern Area 2** (uid: 2174)
-   - Sleeping kobolds, puzzle clue, secret door
-
-6. ✅ **Poisontip Cavern Area 3: The Bridge** (uid: 2175)
-   - Rickety bridge skill challenge
-
-7. ✅ **Poisontip Cavern Area 4: Piercer Trap** (uid: 2176)
-   - Ceiling trap, treasure chest (25gp)
-
-8. ✅ **Poisontip Cavern Area 5: Blood Offering Puzzle** (uid: 2177)
-   - Dragonknight door puzzle
-
-9. ✅ **Temple Guardian Constructs: The Ascending Hall** (uid: 2185)
-   - 2 Animated Armor sentinels
-   - Narrow staircase combat
-
-10. ✅ **Temple Courtyard Sentinels** (uid: 2186)
-    - 2 Helmed Horrors (avoidable via diplomacy)
-    - Multiple resolution paths
-
-11. ✅ **Temple Areas 1-3: Undead, Rescue, and Shadow** (uid: 2178)
-    - Zombies, Sera Gelanadel rescue, shadow ambush
-
-12. ✅ **Temple Area 4: The Ritual Chamber** (uid: 2179)
-    - Ritual chamber, 5 cultists, Clementine suspended
-
-13. ✅ **Temple of the Dragonknights: Final Ritual** (uid: 2104)
-    - Venomfang encounter, final confrontation
-
-**Status:** ✅ Complete (13 encounters)
-
----
-
-\page
-
-
-### 6. The Wild Sheep Chase (uid: 2019)
-**Levels:** 2-4  
-**Type:** Comedy one-shot, magical chaos  
-**Theme:** Whimsy, polymorphed animals, unstable magic
-
-#### Encounters:
-1. ✅ **Baaaa-d News: The Sheep Introduction** (uid: 2160)
-   - Shinebright (sheep form), Scroll of Speak with Animals
-
-2. ✅ **Shepherds, Crooks: Guz and the Polymorphed Guards** (uid: 2161)
-   - Guz (CR 2), 3 Wolves, 1 Brown Bear
-
-3. ✅ **The House in the Woods: Noke's Tower** (uid: 2162)
-   - Living oak tower infiltration
-   - Noke stats and Modified Wand lore
-
-4. ✅ **Noke's Polymorphed Guard Compound** (uid: 2187)
-   - 3 Apes with greatswords, 1 Brown Bear
-   - Multiple resolution paths, moral choices
-
-5. ✅ **Wild Sheep Chase: Tower Skirmish** (uid: 2105)
-   - Noke (7th level Wizard)
-   - Bed Dragon Wyrmling finale
-
-**Status:** ✅ Complete (5 encounters)
-
----
-
-### 7. Peril in Pinebrook (uid: 2020)
-**Levels:** 1-3  
-**Type:** Side trek, investigation, community crisis  
-**Theme:** Dragon egg theft, silver dragon alliance, ice troll threat
-
-#### Encounters:
-1. ✅ **Pinebrook Investigation: Troll Tracks and Missing Patrols** (uid: 2188)
-   - 4-location investigation encounter
-   - Track missing patrol, discover evidence of ice trolls and egg snatchers
-   - Multiple skill checks, decision point (pursue/retreat/split)
-   - Estimated Time: 30-45 minutes
-   - **XP:** 200 (investigation reward)
-
-2. ✅ **Pinebrook Investigation: The Baby Dragon Discovery** (uid: 2189)
-   - Find and care for lost silver dragon wyrmling
-   - Captain Kole provides dragon lore and Draconic language page
-   - Bonding mechanics, emotional hook
-   - Estimated Time: 15-20 minutes
-   - **XP:** 100 (investigation reward)
-
-3. ✅ **Pinebrook: Living Icicles at Cave Entrance** (uid: 2150) **[NEW!]**
-   - **COMBAT:** 5 Living Icicles (CR 1/4 constructs)
-   - Guard dragon lair entrance, created by ice trolls
-   - Vulnerable to fire, immune to cold
-   - Terrain: snow drifts, ice patches, stalagmites, rockfall hazard
-   - Estimated Time: 10-15 minutes
-   - **XP:** 125 (25 XP per icicle)
-
-4. ✅ **Pinebrook: Egg Snatchers in Hatching Chamber** (uid: 2151) **[NEW!]**
-   - **COMBAT:** 3 Egg Snatchers (CR 1 monstrosities)
-   - Amphibious creatures trained by ice trolls to steal dragon eggs
-   - Pack tactics, standing leap (30 ft), grapple mechanics
-   - Objective: Protect 2 unhatched silver dragon eggs
-   - Mother dragon arrives after combat ends
-   - Estimated Time: 15-20 minutes
-   - **XP:** 600 (200 XP per snatcher)
-
-**Status:** ✅ Complete (4 encounters, 8 combatants, 725 XP)
-
-**Adventure Summary:**
-- Investigation phase introduces mystery and characters (Captain Kole, missing patrol, baby dragon)
-- Combat phase tests party skills against magical guardians and trained monsters
-- Emotional payoff: reunite baby with mother, secure dragon alliance for campaign
-- Connects to larger campaign: ice trolls are spreading threat across frontier
-
----
-
-## UID Range Allocation
-
-| Adventure | UID Range | Status |
-|-----------|-----------|--------|
-| Campaign Setup | 2015 | ✅ |
-
-\page
-
-| Opening Session | 2013 | ✅ |
-| Wolves of Welton | 2016, 2102, 2180-2184 | ✅ |
-| Frozen Sick | 2017, 2103, 2221-2236 | ✅ |
-| Temple of Dragonknights | 2018, 2104, 2170-2179, 2185-2186 | ✅ |
-| Wild Sheep Chase | 2019, 2105, 2160-2162, 2187 | ✅ |
-| Peril in Pinebrook | 2020, 2150-2157, 2188-2189 | ✅ |
-
----
-
-## Campaign Progress Summary
-
-### ✅ Complete Adventures (7/7):
-- Opening Skirmish: 1 encounter (2 combatants, 100 XP)
-- The Morning After: No combat encounters (ceremony)
-- Wolves of Welton: 6 encounters (25 combatants, 6,300 XP)
-- Frozen Sick: 19 encounters (13 combatants, 4,475 XP)
-- Temple of Dragonknights: 13 encounters (3 combatants, 5,900 XP)
-- Wild Sheep Chase: 5 encounters (2 combatants, 1,400 XP)
-- Peril in Pinebrook: 4 encounters (8 combatants, 725 XP)
-
-**Total Campaign Stats:**
-- **14 combat encounters** with full stat blocks
-- **53 total combatants**
-- **18,900 XP** available
-
-### 🎉 Campaign Status: **100% COMPLETE with Enhancements!**
-
-
----
-
-## Next Steps / Todo List
-
-### ✅ Priority 1: Complete Frozen Sick Encounters - **DONE!**
-- [x] Create uid 2221: Funeral and Investigation
-- [x] Create uid 2222: Urgon's Cabin Search
-- [x] Create uid 2223: Tulgi's Cabin Interview
-- [x] Create uid 2224: Pelc's Curiosities Investigation
-- [x] Create uid 2225: Croaker Cave - Entrance & Giant Ice Frogs
-- [x] Create uid 2226: Croaker Cave - Bandit Hideout
-- [x] Create uid 2227: Croaker Cave - Hulil's Lair
-- [x] Create uid 2228: Journey to Syrinlya
-- [x] Create uid 2229: Syrinlya Outpost
-- [x] Create uid 2230: Trek to Salsvault
-- [x] Create uid 2231: Salsvault - Entrance Hall
-- [x] Create uid 2232: Salsvault - Laboratory Wing
-- [x] Create uid 2233: Salsvault - Research Chambers
-- [x] Create uid 2234: Salsvault - Containment Vault
-- [x] Create uid 2235: Salsvault - Arcane Engine
-- [x] Create uid 2236: Resolution and Return
-
-### ✅ Priority 2: Optional Enhancements - **DONE!**
-- [x] Add optional scene encounters for Wolves of Welton (Scene 2, Scene 3)
-- [x] Expand Temple guardian constructs as separate encounters
-- [x] Add polymorphed animals encounters for Wild Sheep Chase
-- [x] Create specific Pinebrook investigation encounters (uid 2188-2189)
-
-### ✅ Priority 3: Quality Assurance - **COMPLETE!**
-- [x] Verify all encounter UIDs are unique
-- [x] Ensure all stat blocks are complete
-- [x] Cross-reference markdown sources with XML
-- [x] Validate encounter balance for party size
-- [x] Validate XML format and special character escaping
-
-**QA Results:**
-- ✅ 42 unique UIDs validated (NPCs, adventures, encounters)
-- ✅ All stat blocks complete (NPCs properly referenced in encounters)
-- ✅ 5 source markdown files cross-referenced successfully
-- ✅ 4 combat encounters balanced for intended party levels
-- ✅ 39 investigation/social encounters with rich content
-- ✅ XML validation passed: Fixed 11 ampersands & 2 mathematical operators
-  - **Structure:** 9 NPCs, 7 Adventures, 43 Encounters
-  - **Format:** Game Master 5e XML v5 (5,562 lines)
-  - **Status:** File loads successfully in Game Master 5e
-
----
-
-## Notes
-
-\page
-
-
-### Design Philosophy
-- **Grounded low-magic**: Encounters feel dangerous and realistic
-- **Moral choices**: Many encounters have non-combat resolutions
-- **Interconnected lore**: Aeorian Echo connects all adventures
-- **Frontier theme**: Survival, isolation, community stakes
-
-### Encounter Design Standards
-- Include complete stat blocks
-- Provide tactical notes for DM
-- Offer multiple resolution paths where appropriate
-- Scale for 2-5 players
-- Include XP rewards and treasure
-
-### UID Conventions
-- 2010-2020: Adventure UIDs
-- 2100-2199: Special/legacy encounters
-- 2150-2189: Adventure-specific encounter ranges
-- 2180-2189: Priority 2 enhancement encounters
-- 2221-2236: Frozen Sick encounters (reserved)
-- 3000+: NPC UIDs
-
----
-
-**Last Updated:** December 30, 2025  
-**Version:** 2.7  
-**Campaign Status:** 🎉 **ENHANCED & COMPLETE!** (53 encounters across 6 adventures)
-
----
-
-## DM Resources Created
-
-### Session Management
-- **Session_Prep_Guide.md** - Complete DM workflow, pacing, and improvisation toolkit
-- **Campaign_Tracker_BLANK.md** - Fillable tracker for choices, NPCs, and continuity
-
-### Campaign Flow
-- ✅ Strong narrative thread (Aeorian Echo connects all adventures)
-- ✅ Natural session structure (Guild hub at Waystone Inn)
-- ✅ Player-led recaps work naturally (Guild briefings create recap moments)
-- ✅ West Marches compatible (episodic structure handles flexible schedules)
-
-### Cohesion Assessment
-- **Recurring themes:** Frontier survival, magical corruption, moral complexity
-- **Inter-adventure connections:** All link through Aeorian Echo
-- **NPC continuity:** 9 recurring NPCs with campaign-wide relevance
-- **Geographic consistency:** 6 locations all referenced from Waystone Inn hub
-
-\page
-<!-- FILE_END: ../Season 1/Campaign_ToC.md -->
-
 # DM Resources
 
-<!-- FILE_START: ../Season 1/DM_Resources/Campaign_Tracker.md -->
 {{note
 ##### 📋 DUNGEON MASTER RESOURCE
 
@@ -1758,7 +1085,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ### ☐ Peril in Pinebrook
 - **Captain Emmajeen Kole:** ☐ Met ☐ Allied ☐ Hostile
@@ -1793,7 +1120,7 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
----
+\page
 
 ## Aeorian Echo: Clue Tracker
 
@@ -1811,7 +1138,7 @@ _____________________________________________________________
 
 ☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
 
-☐ **Brenna's Letter:** Uthodurn contact warns of "arcane disturbances" spreading
+☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
 
 ☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
 
@@ -1821,7 +1148,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ## NPC Roster & Status
 
@@ -1845,7 +1172,7 @@ _____________________________________________________________
 - Tillus Merrion (Welton council member)
 - Alexi (note author; magical shorthand)
 
----
+\page
 
 ## Promises & Unfinished Business
 
@@ -1876,7 +1203,7 @@ _____________________________________________________________
 **Party Gold:** 2 gp (unassigned)  
 **Stored at Waystone:** _____ gp
 
----
+\page
 
 ## Session Log
 
@@ -1959,9 +1286,6 @@ _____________________________________________________________
 _____________________________________________________________
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/Campaign_Tracker.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/Campaign_Tracker_BLANK.md -->
 # Campaign Tracker: Northwatch Wardens Season One
 
 **Campaign Start Date:** _____________  
@@ -2054,7 +1378,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ### ☐ Peril in Pinebrook
 - **Captain Emmajeen Kole:** ☐ Met ☐ Allied ☐ Hostile
@@ -2089,7 +1413,7 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
----
+\page
 
 ## Aeorian Echo: Clue Tracker
 
@@ -2107,7 +1431,7 @@ _____________________________________________________________
 
 ☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
 
-☐ **Brenna's Letter:** Uthodurn contact warns of "arcane disturbances" spreading
+☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
 
 ☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
 
@@ -2117,7 +1441,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ## NPC Roster & Status
 
@@ -2141,7 +1465,7 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
----
+\page
 
 ## Promises & Unfinished Business
 
@@ -2174,7 +1498,7 @@ _____________________________________________________________
 **Party Gold:** _____ gp  
 **Stored at Waystone:** _____ gp
 
----
+\page
 
 ## Session Log
 
@@ -2257,581 +1581,6 @@ _____________________________________________________________
 _____________________________________________________________
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/Campaign_Tracker_BLANK.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/3D_Printing_Shopping_List.md -->
-# Northwatch Wardens Season 1
-## 3D Printing Shopping List for Tabletop Miniatures
-
-This guide covers everything needed to run the **Northwatch Wardens: Season One** campaign using physical miniatures, terrain, and accessories. Organized by priority level for budget-conscious printing.
-
-## 🧪 Resin vs 🧱 FDM (Quick Rule)
-
-- **Resin**: character + creature miniatures (PCs, wolves, kobolds, bandits/cultists, undead, etc.)
-- **FDM**: terrain + buildings + scatter (inns, walls, trees, dungeon tiles, furniture)
-- **FDM (Large Monsters)**: big centerpiece monsters (e.g., **Young Green Dragon / Venomfang**) for durability and scale
-
----
-
-## 🎯 ABSOLUTE REQUIRED
-
-### Player Character Miniatures (Resin)
-**Quantity: 4-6 figures**
-- [x] Generic adventurer miniatures (fighter, wizard, rogue, cleric archetypes)
-- [x] Alternatively: Use tokens or coins if players bring their own minis
-- [x] **Print Priority:** HIGH
-
-### Core Enemy Miniatures (Resin)
-
-#### Wolves (CRITICAL - appears in 3 adventures)
-- [x] **8x Regular Wolves** (CR 0.25) - max needed in single encounter
-- [x] **4x Armored Wolves** (CR 0.5) - Wolves of Welton
-- [x] **3x Intelligent Wolves** (CR 0.25) - Wild Sheep Chase
-- [x] **1x Awakened Wolf** (CR 0) - Wolves of Welton
-- [x] **1x Awakened Wolf Alpha** (CR 2) - Wolves of Welton boss
-- [x] **1x Corrupted Wolf** (CR -1) - Frozen Sick (can proxy with regular wolf)
-- [x] **2x Winter Wolves** (CR 3) - Frozen Sick
-- [x] **Print Priority:** CRITICAL (20 max at once, but you can print 12-15 regular wolves and reuse)
-
-#### Kobolds (Temple of the Dragonknights)
-- [x] **6x Green-Scaled Kobolds** (CR 0.125) - max needed in single encounter
-- [x] **1x Winged Kobold** (CR 0.25)
-- [x] **1x Kobold Cultist Variant** (CR 0.5)
-- [x] **Print Priority:** HIGH (8 max at once, spread across multiple encounters)
-
-#### Human Enemies
-- [x] **5x Elf Bandits** (CR 0.125) - Frozen Sick (all in one encounter)
-- [x] **5x Dragon Cultists** (CR 0.5) - Temple of the Dragonknights (all in one encounter)
-- [x] **2x Cult Fanatics** (CR 2) - Temple of the Dragonknights
-- [x] **2x Bandits** (CR -1) - Frozen Sick (can proxy with elf bandits)
-- [x] **1x Infected Priestess** (CR 2) - Frozen Sick
-- [x] **1x Cultist of Tiamat** (CR 0.125) - Frozen Sick
-- [x] **Print Priority:** HIGH (15 max at once, but 10 if you reuse cultist models)
-
-### Boss Monsters (FDM for large centerpiece, Resin if you prefer)
-
-#### Young Green Dragon (Venomfang)
-- [x] **1x Young Green Dragon** (CR 8)
-- [x] THE climactic capstone encounter for Temple of the Dragonknights
-- [x] Large-sized creature (10ft x 10ft base)
-- [x] **Print Priority:** CRITICAL
-
-#### Transmutation Wizard (Noke)
-- [ ] **1x Evil Wizard** (CR 6) - Wild Sheep Chase boss
-- [ ] **Print Priority:** HIGH
-
-### Essential Terrain (FDM)
-
-#### Waystone Inn (Guild Headquarters)
-- [x] Central location for campaign
-- [x] **Recommended:** Modular inn building with:
-  - [x] Common room with hearth
-  - [x] Bar/counter
-  - [x] 4-6 tables with chairs
-  - [x] Stairs to second floor (optional)
-- [x] **Alternative:** Use cardstock tiles or foam core
-- [x] **Print Priority:** HIGH
-
-#### Forest Terrain (Multiple Adventures)
-- [ ] **8-12x Trees** (various sizes)
-- [ ] **4-6x Forest scatter** (logs, stumps, rocks, bushes)
-- [ ] Used in: Wolves of Welton, Wild Sheep Chase, Peril in Pinebrook
-- [ ] **Print Priority:** HIGH
-
-#### Village Buildings (Welton & Palebank)
-- [ ] **2-3x Small cottages/cabins**
-- [x] **1x Inn building** (Shepherd's Crook Inn)
-- [ ] **Print Priority:** MEDIUM-HIGH
-
----
-
-## ⭐ NICE TO HAVE
-
-### Additional Enemy Miniatures (Resin)
-
-#### Constructs & Monsters
-- [ ] **5x Ice Constructs** (CR 0.25) - Peril in Pinebrook
-- [ ] **1x Aeorian Security Construct** (CR 2) - Frozen Sick
-- [ ] **3x Amphibious Monstrosities** (CR 1) - Peril in Pinebrook (use owlbear/bulette proxies)
-- [ ] **Print Priority:** MEDIUM
-
-#### Undead
-- [x] **4x Zombies** (CR 0.25) - Temple of the Dragonknights
-- [ ] **1x Shadow** (CR 0.5) - Temple of the Dragonknights
-- [ ] **Print Priority:** MEDIUM
-
-#### Wild Sheep Chase Creatures
-- [ ] **3x Apes with Greatswords** (CR 0.5) - polymorphed furniture
-- [ ] **2x Intelligent Brown Bears** (CR 1)
-- [ ] **1x Half-Orc Bruiser** (CR 2)
-- [ ] **1x Polymorphed Furniture Dragon** (CR 4) - bed wyrmling
-- [ ] **Print Priority:** MEDIUM (can be skipped if not running Wild Sheep Chase)
-
-#### Aquatic
-- [ ] **4x Quippers** (CR 0) - Temple of the Dragonknights
-- [ ] **Print Priority:** LOW (small encounter, can use tokens)
-
-#### Cave Creatures
-- [ ] **1x Piercer** (CR 0.5) - Temple of the Dragonknights
-- [ ] **Print Priority:** LOW
-
-### NPC Miniatures (Resin)
-
-#### Guild Leadership
-- [x] **Marshal Brenna Thorne** (Female Human Fighter)
-- [x] **Steward Mara Fenwick** (Female Human Rogue/Merchant)
-- [x] **Lorewarden Elric Vael** (Male Elf Wizard)
-- [ ] **Print Priority:** MEDIUM
-
-#### Welton NPCs
-- [x] **Westly** (Male Shepherd with crook)
-- [x] **Leanor Slatebeard** (Female Dwarf Tracker)
-- [x] **Tillus Merrion** (Male Human Council Leader)
-- [x] **Print Priority:** LOW (can use generic townsfolk)
-
-#### Palebank NPCs
-- [x] **Urgon Wenth** (Male Dwarf Blacksmith - appears as corpse)
-- [ ] **Tulgi** (Female Healer)
-- [x] **Elro Aldataur** (Male Half-Elf Scholar)
-- [ ] **Print Priority:** LOW
-
-### Enhanced Terrain (FDM)
-
-#### Temple of the Dragonknights
-- [ ] **1x Ruined temple entrance**
-- [ ] **Cave/cavern tiles or modular pieces**
-- [ ] **Underground chamber tiles**
-- [ ] **Poison pool terrain piece**
-- [ ] **Print Priority:** MEDIUM
-
-#### Frozen Sick Locations
-- [ ] **1x Frozen tundra village** (Palebank)
-- [ ] **1x Cave entrance** (Croaker Cave)
-- [ ] **1x Aeorian ruin structure** (Salsvault)
-- [ ] **Ice/snow scatter terrain**
-- [ ] **Print Priority:** MEDIUM
-
-#### Welton Specific
-- [ ] **Westly's Farm** - simple farmstead with fence
-- [ ] **Shepherd's Crook Inn** - interior tavern details
-- [ ] **Town square** with gallows/meeting area
-- [ ] **Print Priority:** LOW-MEDIUM
-
-#### Pinebrook Village
-- [ ] **Small trading post buildings**
-- [ ] **Crossroads terrain piece**
-- [ ] **Print Priority:** LOW
-
-### Furniture & Details (FDM)
-
-#### Interior Scatter
-- [x] **8-12x Tables** (various sizes)
-- [x] **16-24x Chairs/Stools**
-- [ ] **4-6x Beds**
-- [x] **2-3x Bookshelves**
-- [x] **2-3x Chests/Crates**
-- [x] **1x Bar counter**
-- [x] **Fireplace/hearth**
-- [ ] **Print Priority:** MEDIUM
-
-#### Outdoor Scatter
-- [x] **Barrels, crates, sacks** (12-16 pieces)
-- [x] **Wells, wagons, fences** (4-6 pieces)
-- [x] **Campfire/fire pit**
-- [ ] **Print Priority:** LOW-MEDIUM
-
-### Condition/Status Markers
-- [ ] **8-10x Prone markers**
-- [ ] **6-8x Concentrating markers**
-- [ ] **6-8x Poisoned/Diseased markers**
-- [ ] **4-6x Grappled markers**
-- [ ] **Print Priority:** MEDIUM
-
----
-
-## 🎨 COMPLETELY OPTIONAL (Enhancement)
-
-### Specialty Miniatures (Resin)
-
-#### Wild Sheep Chase Special
-- [ ] **1x Finethir Shinebright as Sheep** - polymorphed wizard
-- [ ] **1x Giraffe** (mentioned in spell chaos)
-- [ ] **1x Bed Mimic** (furniture dragon alternate form)
-- [ ] **Print Priority:** OPTIONAL (fun but unnecessary)
-
-#### Ambient NPCs
-- [x] **6-8x Commoners/Townsfolk** (villagers, merchants)
-- [x] **4-6x Guards** (village militia)
-- [x] **2-3x Farmers** (Welton area)
-- [x] **Print Priority:** OPTIONAL
-
-### Deluxe Terrain (FDM)
-
-#### Waystone Inn Expansion
-- **Second floor with bedrooms**
-- [ ] **Exterior courtyard with stable**
-- [ ] **Guild notice board**
-- [ ] **Training yard**
-- [ ] **Print Priority:** OPTIONAL
-
-#### Temple Complex Full Build
-- [ ] **Multi-level dungeon tiles**
-- [ ] **Trapped corridor sections**
-- [ ] **Dragon's lair chamber** (large open space)
-- [ ] **Underground river/stream**
-- [ ] **Print Priority:** OPTIONAL
-
-#### Frozen Wasteland Set
-- [ ] **Glacier terrain pieces**
-- [ ] **Ice pillars/formations**
-- [ ] **Frozen lake sections**
-- [ ] **Snow-covered pine trees**
-- [ ] **Aeorian technology pillars**
-- [ ] **Print Priority:** OPTIONAL
-
-#### Noke's Tower (Wild Sheep Chase)
-- [x] **Multi-story wizard tower**
-- [ ] **Laboratory interior**
-- [ ] **Magical workshop details**
-- [ ] **Print Priority:** OPTIONAL
-
-### Magical Effects
-- [ ] **Spell effect markers** (fireball, lightning, etc.)
-- [ ] **Area effect templates** (20ft radius, 30ft cone, etc.)
-- [ ] **Magical energy swirls/auras**
-- [ ] **Print Priority:** OPTIONAL
-
-### Vehicles & Mounts
-- [ ] **2-3x Horses** (for travel scenes)
-- [x] **1x Cart/Wagon**
-- [ ] **1x Sled** (Eiselcross travel)
-- [ ] **Print Priority:** OPTIONAL
-
-### Environmental Hazards
-- [ ] **Pit trap pieces**
-- [ ] **Spike trap sections**
-- [ ] **Tripwire markers**
-- [ ] **Magical rune circles**
-- [ ] **Print Priority:** OPTIONAL
-
----
-
-## 📊 PRINTING SUMMARY BY ADVENTURE
-
-### Opening Skirmish (Adventure 2012)
-**Required:**
-- [x] 2x Wolves
-- [x] Waystone Inn interior
-- [x] 4-6 PC miniatures
-
-### Morning After (Adventure 2013)
-**Required:**
-- [x] Guild NPCs (3 figures)
-- [x] Waystone Inn common room
-- [x] Tables and chairs
-
-### Wolves of Welton (Adventure 2016) - LONGEST ADVENTURE
-**Required:**
-- [x] 8x Regular wolves (max in single encounter: "Welcome to Welton Wolfpack")
-- [x] 4x Armored wolves (all appear in "Wolf Den Battle")
-- [x] 1x Awakened wolf
-- [x] 1x Alpha wolf (appears with 6 regular + 4 armored in "Wolf Den Battle")
-- [ ] Welton village buildings (3-4 structures)
-- [ ] Westly's farm
-- [ ] Forest terrain
-- [x] Shepherd's Crook Inn interior
-- [x] **Note:** Largest single encounter needs 11 wolves total (6 regular + 4 armored + 1 alpha)
-
-**Nice to Have:**
-- [x] Welton NPC figures (Westly, Leanor, Tillus)
-- [x] Sheep miniatures (for farm atmosphere)
-
-### Frozen Sick (Adventure 2017)
-**Required:**
-- [x] 2x Bandits
-- [x] 5x Elf bandits
-- [x] 1x Corrupted wolf
-- [x] 2x Winter wolves
-- [ ] 1x Aeorian construct
-- [x] 1x Infected priestess
-- [x] 1x Cultist
-- [x] Palebank village buildings
-- [ ] Cave entrance (Croaker Cave)
-- [ ] Salsvault ruin pieces
-- [ ] Snow/ice terrain
-
-**Nice to Have:**
-- [x] Palebank NPCs (Urgon, Tulgi, Elro)
-- [ ] Sled for travel
-- [ ] Frozen wasteland terrain
-
-### Temple of the Dragonknights (Adventure 2018) - BOSS ADVENTURE
-**Required:**
-- [x] 1x Young Green Dragon (CRITICAL)
-- [x] 6x Green kobolds (max at once; there are more across the full adventure)
-- [x] 1x Winged kobold
-- [x] 1x Kobold cultist
-- [x] 5x Dragon cultists
-- [x] 2x Cult fanatics
-- [x] 4x Zombies
-- [ ] 1x Shadow
-- [ ] 4x Quippers
-- [ ] 1x Piercer
-- [ ] Temple ruin exterior
-- [ ] Cave/cavern tiles
-- [ ] Underground chamber
-
-**Nice to Have:**
-- [ ] Multi-level dungeon tiles
-- [ ] Dragon's lair centerpiece
-- [ ] Poison pool terrain
-- [ ] Temple altar/shrine
-
-### Wild Sheep Chase (Adventure 2019) - COMEDY ONE-SHOT
-**Required:**
-- [ ] 1x Transmutation wizard (Noke)
-- [ ] 1x Polymorphed dragon (bed wyrmling)
-- [ ] 3x Intelligent wolves
-- [ ] 3x Apes with greatswords
-- [ ] 2x Intelligent brown bears
-- [ ] 1x Half-orc bruiser
-- [ ] Wizard tower (can be simplified)
-
-**Nice to Have:**
-- [ ] Finethir as sheep miniature
-- [ ] Laboratory interior details
-- [ ] Polymorphed furniture pieces
-- [ ] Noke's Tower full build
-
-### Peril in Pinebrook (Adventure 2020)
-**Required:**
-- [ ] 5x Ice constructs
-- [ ] 3x Amphibious monstrosities
-- [ ] Pinebrook village buildings
-- [ ] Forest terrain
-
-**Nice to Have:**
-- [ ] Crossroads terrain piece
-- [ ] Trading post details
-
----
-
-## 🛠️ RECOMMENDED PRINT ORDER
-
-### Phase 1: Campaign Essentials (Print First)
-1. [x] **4-6 PC miniatures**
-2. [x] **8-12x Regular wolves** (most common enemy, reuse across encounters)
-3. [x] **Young Green Dragon** (campaign boss)
-4. [x] **Waystone Inn** (modular or simplified)
-5. [ ] **8-10 trees** (used in multiple adventures)
-
-### Phase 2: Core Enemies (Print Second)
-1. [x] **Armored wolves (4x)** + **Wolf alpha (1x)** + **Awakened wolf (1x)**
-2. [x] **8x Kobolds** (6 green-scaled + 1 winged + 1 cultist variant)
-3. [x] **Human enemies** (10-15 total: 5 elf bandits, 5 dragon cultists, 2 cult fanatics, others)
-4. [x] **Winter wolves (2x)**
-
-### Phase 3: Adventure Locations (Print Third)
-1. [ ] **Welton village** (3-4 buildings)
-2. [ ] **Palebank village** (2-3 buildings)
-3. [ ] **Temple entrance/ruins**
-4. [ ] **Cave terrain pieces**
-
-### Phase 4: Boss/Special Encounters (Print Fourth)
-1. [ ] **Transmutation Wizard** (Noke)
-2. [ ] **Polymorphed dragon** (bed wyrmling)
-3. [ ] **Wild Sheep Chase creatures** (apes, bears, bruiser)
-4. [ ] **Ice constructs (5x)**
-5. [ ] **Aeorian construct (1x)**
-
-### Phase 5: NPCs & Details (Print Fifth)
-1. [x] **Guild NPCs** (Marshal, Steward, Lorewarden)
-2. [ ] **Furniture sets** (tables, chairs, beds)
-3. [ ] **Scatter terrain** (barrels, crates, fences)
-4. [ ] **Condition markers**
-
-### Phase 6: Enhancement (Print Last)
-1. [ ] **Additional NPCs** (townsfolk, guards)
-2. [ ] **Deluxe terrain** (multi-story buildings, full dungeons)
-3. [ ] **Magical effects**
-4. [ ] **Environmental hazards**
-5. [ ] **Vehicles and mounts**
-
----
-
-## 💡 MONEY-SAVING TIPS
-
-### Budget Alternatives
-1. **Use Tokens Instead of NPCs:** Print paper tokens for non-combat NPCs rather than full miniatures
-2. **Modular Buildings:** Print one modular building system that can represent inn, house, or shop
-3. **Double-Duty Minis:** Regular wolves can proxy for intelligent/corrupted wolves with different bases
-4. **Reuse Between Encounters:** Print 8-12 regular wolves and reuse them across different adventures (max 8 in one fight)
-5. **Foam Core Terrain:** Use printed miniatures but craft buildings from foam core
-6. **2D Standees:** Print miniatures as 2D standees instead of full 3D models (saves resin/filament)
-
-### Proxy Recommendations
-- **Amphibious Monstrosities:** Use owlbear, ankheg, or bulette miniatures
-- **Piercer:** Use stalactite marker or cone-shaped object
-- **Quippers:** Use small fish tokens or blue glass beads
-- **Ice Constructs:** Use skeleton or zombie minis painted blue/white
-- **Aeorian Construct:** Use any construct/golem miniature
-
-### Free STL Resources
-- **Thingiverse:** Search for "D&D tavern," "fantasy wolf," "kobold," "green dragon"
-- **MyMiniFactory:** D&D section has many free models
-- **Printable Scenery:** Free sample packs
-- **Heroforge-style generators:** For unique NPCs
-
----
-
-## 📏 SCALE & BASE SIZES
-
-### Standard D&D Scale
-- **28mm scale** (1 inch = 5 feet in-game)
-- **1 inch grid** for battle mat
-
-### Base Sizes by Creature
-- **Small (Kobolds, Quippers):** 20mm round base
-- **Medium (PCs, Humanoids, Wolves):** 25mm round base
-- **Large (Young Dragon, Bears, Constructs):** 50mm round or 2x2 inch square
-- **Furniture & Terrain:** Scale appropriately (table = ~25mm x 40mm)
-
----
-
-## 🎲 FINAL MINIMUM SHOPPING LIST
-
-If you can ONLY print the absolute essentials:
-
-1. [x] **4-6 PC miniatures**
-2. [x] **20 wolf miniatures maximum** (all variants, or 12-15 regular wolves reused as proxies)
-   - 8-12x Regular wolves
-   - 4x Armored wolves
-   - 3x Intelligent wolves (or reuse regular)
-   - 2x Winter wolves
-   - 1x Alpha wolf
-   - 1x Awakened wolf
-3. [x] **1 Young Green Dragon**
-4. [x] **8 Kobolds** (6 green-scaled, 1 winged, 1 cultist variant)
-5. [x] **10-15 Human enemies** (5 elf bandits, 5 dragon cultists, 2 cult fanatics, others)
-6. [ ] **1 Evil Wizard** (Noke)
-7. [ ] **Waystone Inn** (simplified single-story)
-8. [ ] **8 trees**
-9. [x] **3 village buildings** (can reuse for multiple locations)
-10. [x] **Basic furniture set** (6 tables, 12 chairs)
-
-**Total Critical Miniature Count: ~65-75 pieces** (or ~50-60 with smart reuse)
-
----
-
-## 📦 FILE ORGANIZATION TIP
-
-Organize your STL files into folders:
-
-![Diagram: 📦 FILE ORGANIZATION TIP](../../World%20Building/Campaign%20Assets/Diagrams/3d-printing-shopping-list-file-organization-tip-l467-2245ab6f.svg)
-
-<!-- ASCII diagram source (converted to SVG):
-/Northwatch_Wardens_STLs/
-  /PCs/
-  /Wolves/ (all variants)
-  /Kobolds/
-  /Humanoids/
-  /Bosses/ (Dragon, Noke, etc.)
-  /Buildings/
-    /Waystone_Inn/
-    /Welton_Village/
-    /Palebank_Village/
-  /Terrain/
-    /Forest/
-    /Cave/
-    /Ice/
-  /Furniture/
-  /Scatter/
--->
-
----
-
-## 🗂️ Your Existing STL Candidates (From `E:\downloads` + `C:\Users\joshu\OneDrive\3dfiles`)
-
-These are **likely-good matches already on disk** (based on filename/path keywords). Full categorized report is in `3d_candidate_report_v2.txt`.
-
-### Resin Candidates (Miniatures)
-
-**Wolves / Winter Wolves**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Familiars and Beast Pre-Supported\Core Set\Wolf\Wolf Action\Wolf Action STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Familiars and Beast Pre-Supported\Core Set\Wolf\Wolf Casual\Wolf Casual STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Animals\Wolf\Wolf.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Beast\Winter Wolf STL.stl`
-
-**Kobolds**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Kobolds\Kobold_archer\Kobold_archer.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Kobolds\Kobold_spear\Kobold_spear.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Hopless Cavern\Kobold Witch Doctor.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Hopless Cavern\Kobold Wizard.stl`
-
-**Bandits / Cultists (Humanoid enemies)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit_axe.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit2_archer.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit2_swordsman.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistA.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistB.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistC.stl`
-
-**Young Green Dragon (Venomfang proxy)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\Your Neighbor Knight\May 2022\Green_Dragon by YNK Minis\Green Dragon.stl`
-
-### FDM Candidates (Terrain + Buildings + Big Pieces)
-
-**Tavern / Inn / Buildings**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-floor_01lh.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-roof.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-floor_no-doors.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\dwarverninnbuilding\Dwarven Inn Building\Building.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\dwarverninnbuilding\Dwarven Inn Building\Roof.stl`
-
-**Trees / Forest scatter**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Tree Straight STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Tree Leaning STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Large Bush STL - Supportless.stl`
-
-**Wizard Tower stand-in (Noke's Tower)**
-- `C:\Users\joshu\OneDrive\3dfiles\606df4f71f663_fates-end-dice-tower-free-wizard-tower\wizard-dice-v5-4.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\606df4f71f663_fates-end-dice-tower-free-wizard-tower\wizard-dice-roof-v5-4.stl`
-
-**Cult scene props (FDM-friendly)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\cultistsroom\Cultists Room - Done\Summoning Circle.stl`
-
----
-
-## ✅ Miniatures We *Didn’t* Find Files For (Local STL Audit)
-
-These were searched by filename keywords across `E:\downloads` and `C:\Users\joshu\OneDrive\3dfiles`.
-
-### Missing (no obvious local STL match)
-- **Piercer** (Temple of the Dragonknights)
-- **Giraffe** (Wild Sheep Chase spell chaos)
-
-### Proxy-only (local STLs exist, but not the exact sculpt)
-- **Armored Wolves / Intelligent Wolves / Awakened Wolf / Awakened Wolf Alpha / Corrupted Wolf** (use your wolf/dire wolf/winter wolf sculpts)
-- **Winged Kobold** (likely needs a dedicated winged kobold; otherwise proxy with any small winged creature)
-- **Kobold Cultist Variant** (proxy with a kobold caster or small cultist)
-- **Elf Bandits** / **Bandits** (proxy with generic bandits/rogues)
-- **Dragon Cultists / Cult Fanatics / Cultist of Tiamat** (proxy with generic cultists/acolytes)
-- **Infected Priestess** (proxy with priest/priestess)
-- **Aeorian Security Construct** (proxy with any golem/construct)
-- **Amphibious Monstrosities** (proxy with frog/toad/ankheg/owlbear/bulette)
-- **Apes with Greatswords** (if you don’t already have an ape/gorilla mini, you’ll likely want a proxy or a new STL)
-- **Polymorphed Furniture Dragon** (proxy with mimic/bed mimic or a wyrmling)
-- **Quippers** (proxy with fish/swarm tokens if you don’t want tiny prints)
-- **Guild + Village NPCs** (you have strong *role-based* matches like “Female Fighter”, “Human Merchant/Rogue”, “Elf Wizard”, etc.; only “missing” if you want exact named sculpts)
-
----
-
-Good luck with your printing! May your layers adhere and your supports come off cleanly! 🎲🐺🐉
-
-\page
-<!-- FILE_END: ../Season 1/DM_Resources/3D_Printing_Shopping_List.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/DM Guild Roster.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -2839,7 +1588,7 @@ Good luck with your printing! May your layers adhere and your supports come off 
 
 This document contains NPC secrets, hidden motivations, and campaign tie-ins. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 **🛡️ THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
@@ -2863,7 +1612,7 @@ Below is the *true* roster, including histories, secrets, and how each NPC ties 
 - Frozen Sick: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
 - Wild Sheep Chase: Brenna once met Shinebright decades ago; she remembers him as brilliant but arrogant. She will be deeply suspicious of any magical mishap involving him.
 
-**Secret:** Brenna has a sealed letter from an Uthodurn contact warning of “arcane disturbances” across the frontier. This is your campaign‑wide foreshadowing.
+**Secret:** Brenna has a sealed letter from a northern contact warning of "arcane disturbances" across the frontier. This is your campaign‑wide foreshadowing.
 
 **Steward Mara Fenwick — Quartermaster**
 
@@ -3137,7 +1886,7 @@ You already know this one — he’s the chaos engine.
 **Campaign Tie‑ins:**
 
 - Wolves of Welton: Flynt will accompany the party if invited.
-- Frozen Sick: Flynt knows a sailor who can get them to Eiselcross.
+- Frozen Sick: Flynt knows a sailor who can get them to The Far North.
 - Wild Sheep Chase: Flynt loves Shinebright’s story.
 
 **Secret:** Flynt’s songs sometimes predict the future.
@@ -3189,9 +1938,6 @@ The awakened wolves become a recurring faction — sometimes allies, sometimes r
 These settlements form the “Northreach Triangle,” the region the Wardens protect.
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/DM Guild Roster.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -3199,7 +1945,7 @@ These settlements form the “Northreach Triangle,” the region the Wardens pro
 
 This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `Season 1/README.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (the player companion to this book)
 }}
 
 **NORTHWATCH WARDENS: High‑Level Campaign Arc**
@@ -3209,9 +1955,10 @@ This document contains the complete campaign structure and mystery reveals. **DO
 **📚 DM Resources**
 
 For deeper secrets and campaign mechanics, see:
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - Location-specific secrets
+- **Chapter 6: The Dimensional Rift** — How Aeorian ruins reached Aevoria (foundational lore)
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: Places Secrets** — Location-specific secrets
 
 ---
 
@@ -3222,12 +1969,15 @@ Each adventure the players take is a *symptom* of a deeper, spreading disturbanc
 
 **The Aeorian Echo**
 
-A ripple of unstable arcane energy — originating from the buried ruins of Aeor (Frozen Sick) — has begun to:
+A ripple of unstable arcane energy — originating from the buried ruins of **Salsvault** deep beneath The Far North — has begun to:
 
 - mutate beasts (Wolves of Welton)
 - destabilize magical artifacts (Wild Sheep Chase)
 - empower cults and dragons (Temple of the Dragonknights)
 - stir old spirits and forgotten guardians (Peril in Pinebrook)
+
+**What the Wardens Don't Know Yet:**
+Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aeor** from another world (Wildemount/Exandria), displaced across dimensions during Aeor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
 
 The Wardens don’t know this yet.
 But every contract they take is another puzzle piece.
@@ -3269,8 +2019,7 @@ The Wardens discover:
 - Its magic is leaking into the world.
 
 This is the campaign’s *first revelation*.
-
-
+\page
 **🐉 3. Temple of the Dragonknights — Corruption Takes Root**
 
 **Theme:** Ambition, corruption, and the misuse of awakening magic.
@@ -3373,6 +2122,8 @@ The guild structure is the glue that makes the modular format work.
 
 This keeps the campaign cohesive even when the cast changes week to week.
 
+\page
+
 **🔮 THE LONG GAME: Where This Is All Going**
 
 As the Wardens complete contracts, they uncover:
@@ -3404,22 +2155,23 @@ A containment breach?
 
 **5. The finale (when you want it):**
 
-A multi‑session arc returning to Eiselcross to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
+A multi‑session arc returning to **The Far North** to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
 
 **🎯 In One Sentence**
 
-**The campaign is about a frontier guild discovering that ancient Aeorian magic is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
+**The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md -->
-
 # Adventures
 
 ## Opening Adventures
 
-<!-- FILE_START: ../Season 1/Adventures/Opening/Open Skirmish.md -->
 **🐺 OPENING SCENE: “Wolves at the Waystone Inn”**
+{{wide
+A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
+}}
 
+\page
 **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
 **Goal:** Introduce the characters naturally through a shared threat.
 
@@ -3459,6 +2211,8 @@ Use the stat block from your open tab (CR 1/4 wolves) — they’re perfect for 
 - Wolves target the closest moving creature
 
 This spacing forces the characters to notice each other and converge.
+
+\page
 
 **🧠 3. How to Introduce the Characters Naturally**
 
@@ -3530,12 +2284,13 @@ Use one or more:
 All of these create cohesion without forcing roleplay.
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Opening/Open Skirmish.md -->
+# The Morning After: A Warden's First Duty
 
-<!-- FILE_START: ../Season 1/Adventures/Opening/THE MORNING AFTER.md -->
-**THE MORNING AFTER: “A Warden’s First Duty”**
+{{wide
+A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
+}}
 
-***A narrative tie‑in to launch Wolves of Welton as Contract #1***
+\page
 
 **1. Morning at the Waystone Inn — Read-Aloud**
 
@@ -3599,6 +2354,8 @@ Take this contract. Show Northreach what the Wardens can do.”
 
 She hands them a sealed letter for the Welton Council—official recognition that the Northwatch Wardens are now operating in the region.
 
+\page
+
 **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
 
 **If you want Frozen Sick to connect later:**
@@ -3617,6 +2374,8 @@ One of the Pinebrook premade NPCs (Flynt, Rowan, etc.) is at the inn and says:
 
 This makes the contract feel like it matters to the whole region.
 
+\page
+
 **🎯 Final Tie-In Summary**
 
 - The players sign the charter.
@@ -3628,9 +2387,175 @@ This makes the contract feel like it matters to the whole region.
 This gives them a **clean, heroic launch** into the Wolves of Welton while grounding everything in the Northwatch Wardens’ identity.
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Opening/THE MORNING AFTER.md -->
+# Return to Waystone (Session 0)
 
-<!-- FILE_START: ../Season 1/Adventures/Opening/Wolves - Contract.md -->
+{{wide
+A short onboarding mission where two new Warders meet a veteran scout on the road and journey together to the team's forward camp. Travel, discovery, and light optional combat shape first bonds. Subtle Echo hints with no spoilers.
+}}
+
+\page
+
+## Quick Setup
+
+**Premise:** Two newly sworn Warders are sent to rendezvous with a veteran Warder who's been scouting the roads near Welton. Once they meet up, the three will return together to the forward camp where the rest of the team is stationed. Tonight is about first impressions and building trust on the road.
+
+**Tone:** Cold frontier travel, first bonds forming. Low stakes, intimate party dynamics.
+
+**Locations Used:** Waystone Inn (departure), road toward Welton, creek shrine waypoint (meet-up), forward camp near Westly's Farm (destination).
+
+**Party Size:** 3 players total (2 new Warders + 1 veteran scout).
+
+## Opening Briefing (10 min)
+
+Marshal Brenna Thorne assigns a straightforward mission. One of the veteran Warders has been scouting the roads near Welton and is due to check in at a known waypoint. The two new Warders will meet the scout, introduce themselves, and travel together back to the team's forward camp.
+
+**Read Aloud (Waystone Inn):**
+"Brenna slides a worn route map across the table. 'One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here'—she taps the map—'then travel together to the forward camp. The rest of the team is there handling Welton business.' She looks at both of you. 'First impressions matter. Show them you're worth traveling with. Watch each other's backs. That's how Warders work—trust on the road first, reputation after.'"
+
+## Scene 1: The Meet-Up
+
+**Location:** A small roadside shrine near a creek crossing, about an hour's walk from Waystone.
+
+- The veteran scout is already waiting, checking the area. Let the returning player roleplay their character's first meeting with the newcomers.
+- Introductions happen naturally. The veteran sizes up the new Warders—are they worth traveling with?
+- The two new players get their first look at what a Warder looks like after a week on the frontier.
+- A torn scrap of contract pouch hangs from a fence post (small curiosity—was someone else here recently?).
+
+**Echo Hint:** The creek stones show thin geometric frost that does not melt in sunlight. All three of you notice it. The veteran has seen strange things in Welton, but this feels different—older, quieter, wrong in a way they can't name yet.
+
+## Scene 2: The Road Block
+
+On the journey toward the camp, a fallen tree blocks the road. Give the three of you a quick choice: clear it, detour, or climb.
+
+- **Clearing it** takes effort but avoids exposure; the veteran watches how the new Warders work together and offer help.
+- **Detour** adds time and a chance for a short complication (deep snow, unstable ground, something minor).
+- **Climb** over the tree is risky; a misstep could mean supplies lost or injury.
+
+This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
+
+## Scene 3: Optional Challenge
+
+**Two Bandit Scouts** step out with crossbows and demand a small "road fee."
+
+**Encounter Design:**
+- For 3 players, run 2 Bandits (balanced challenge for a mixed group).
+- Scouts are here for quick coin, not a fight to the death.
+- If the party stands firm, negotiates, or shows combat readiness, scouts back off with a laugh.
+- If combat starts: scouts flee after the first one drops or after 2 rounds of combat.
+- This is NOT a death trap—it's a test of how you three react under pressure. Do you trust each other? Can you communicate in the moment?
+
+**Tactics:**
+- The veteran has combat experience and can guide the newcomers, but won't carry the whole fight.
+- Use terrain (trees, creek, shrine) to your advantage.
+- If negotiations happen, the veteran can read the situation and advise.
+
+After combat or negotiation:
+- If you defeat a scout: examine the dropped satchel.
+- If you negotiate: ask what the scouts tell you about the road ahead.
+
+**Echo Hint:** A metal buckle in a dropped satchel (or handed over during negotiation) hums faintly and feels cold to the touch. The veteran pauses—this is the same wrongness from Welton. Whatever is happening isn't isolated. It's spreading.
+
+## Scene 4: Arrival at Camp
+
+The three of you arrive at the forward camp near Westly's Farm. Smoke rises from a small fire. The other two veterans are here—resting, maintaining gear, discussing next steps.
+
+**Read Aloud (Camp Arrival):**
+"Through the trees, you see firelight and hear low voices. The forward camp is small but well-organized—two bedrolls, supplies stacked carefully, a small fire crackling. Two figures turn as you approach. The other Warders. Your scout nods to them. 'Found our new recruits. They handled themselves well.'"
+
+**The Meeting:**
+- Introductions happen here. The two new Warders meet the rest of the veteran team.
+- Let the existing players roleplay their characters' reactions to the newcomers.
+- This is where the full party truly forms—but it's brief. Tonight was about the road, not the camp.
+
+**Echo Discussion (Optional):**
+If the party brought up the strange frost or humming buckle, the veterans exchange glances. One of them has seen something similar. Another heard a rumor from Welton. This is the moment the mystery becomes *shared*—everyone knows something is wrong, but no one knows what yet.
+
+**Closing Note:**
+"The fire crackles. Someone passes around a flask. The cold settles in, but the camp feels warmer with more bodies. Tomorrow, you'll head back to Waystone together and report to Brenna. Tonight, you rest. You're Warders now—all of you."
+
+\page
+
+## NPCs
+
+### Marshal Brenna Thorne
+- **Role:** Field commander, assignment brief and debrief.
+- **Personality:** Direct, measured, expects competence.
+- **Hook:** Quietly asks if anything on the road felt "off." If asked, she has no answer yet.
+
+### Steward Mara Fenwick
+- **Role:** Quartermaster, issues supplies and token.
+- **Personality:** Practical, dry humor, sharp on details.
+- **Hook:** Notes missing supply counts from Welton routes and tracks them.
+
+### The Veteran Scout (Returning Player)
+- **Role:** Out scouting roads, meets the new Warders at the waypoint, guides them back to camp.
+- **Use:** Let the returning player roleplay their character's first impressions of the newcomers and how they present themselves after a week on the frontier.
+- **Character Note:** This veteran has survived Welton, knows something is wrong with magic, and is sizing up whether these two new Warders are worth trusting. By the time you reach camp, they should have an opinion.
+
+### The Forward Camp Veterans (Brief Appearance)
+- **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
+- **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
+- **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
+
+\page
+
+## Monster Stat Blocks
+
+{{monster,frame
+## Bandit
+*Medium humanoid (any race), any non-lawful*
+___
+**Armor Class** :: 12 (leather armor)
+**Hit Points**  :: 11 (2d8+2)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|11 (+0)|12 (+1)|12 (+1)|10 (+0)|10 (+0)|10 (+0)|
+___
+**Senses**               :: passive Perception 10
+**Languages**            :: any one language (usually Common)
+**Challenge**            :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage.
+:
+***Light Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 5 (1d8 + 1) piercing damage.
+}}
+
+{{monster,frame
+## Mastiff
+*Medium beast, unaligned*
+___
+**Armor Class** :: 12
+**Hit Points**  :: 5 (1d8+1)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|14 (+2)|12 (+1)|3 (-4)|12 (+1)|7 (-2)|
+___
+**Skills**               :: Perception +3
+**Senses**               :: passive Perception 13
+**Languages**            :: —
+**Challenge**            :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.*** The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+}}
+
+## DM Notes
+
+- **Pacing:** Get to the road quickly (5 min briefing → 5-10 min travel → meet scout = 10-15 min total before the three-person party forms).
+- **Party Dynamics:** The road from waypoint to camp is where trust forms. The veteran has the experience, the newcomers have fresh eyes. Watch how they interact.
+- **Combat Balance:** 2 Bandits vs 3 level-1 PCs (including 1 veteran) is light but fair. The veteran shouldn't dominate—let the new players shine.
+- **Optional Combat:** Do NOT force the bandit encounter. If the party negotiates or intimidates the scouts away, that's excellent play. The real test is mutual trust and communication under pressure.
+- **Echo Hints:** Drop them casually. The veteran recognizing the wrongness from Welton is the key moment—this isn't an isolated event. The Echo is everywhere.
+- **End at Camp:** Tonight ends with the full party together but not yet "tested" as a group. That's next session. This session is about introductions, first bonds, and the road itself.
+- **Session Length:** This should run 60-90 minutes total (briefing, travel to waypoint, meet scout, obstacle, optional combat, arrive at camp, meet full party).
+
+\page
 **Contract: W‑17 — Disturbance Near Welton**
 
 **Issuing Party:**
@@ -3668,11 +2593,8 @@ Marshal Brenna Thorne, Northwatch Wardens
 Attested by Steward Mara Fenwick
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Opening/Wolves - Contract.md -->
-
 ## Wolves of Welton
 
-<!-- FILE_START: ../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md -->
 ![A painted cover page showing a lone wolf howling atop a jagged mountain peak against a dramatic, glowing orange‑pink sky. Dark, fluttering birds surround the peak and the scene uses moody purples, blues and warm backlight in a textured, painterly style. The lower half is a parchment‑textured layout with the large serif title "The Wolves of Welton" and the subtitle "A 2nd–3rd Level Adventure for Dungeons & Dragons 5E — Produced by Winghorn Press." Two columns of text beneath the title are labeled "Summary" and "Adventure Hooks," and a small page number (~ 1 ~) sits at the bottom. The page has a torn paper transition between the illustration and the parchment area.](./5E_Wolves_Of_Welton_images/image_001.png)
 
 ## Northwatch Wardens Integration (DM)
@@ -3680,9 +2602,9 @@ Attested by Steward Mara Fenwick
 **Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Welton: Dark Undercurrents" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Welton: Dark Undercurrents" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - The wolves' intelligence awakening is caused by Aeorian facility beneath Westly's Farm
@@ -4590,11 +3512,8 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 *If you want to get in touch, send feedback or take part in playtest sessions on Roll20.com, please send a message to winghornpress@gmail.com, or to u/therainydaze on Reddit.*
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md -->
-
 ## Frozen Sick
 
-<!-- FILE_START: ../Season 1/Adventures/Frozen Sick/Frozen Sick.md -->
 # Frozen Sick
 
 \page
@@ -4617,7 +3536,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 - **Urgon Wenth** — Deceased explorer (turned to ice), source of outbreak
 - **Verla Pelc** — Deceased elf collector (also turned to ice)
 - **Irven Liel** — Infected merchant, family at risk
-- **Morgo** — Uthodurn guide at Syrinlya outpost
+- **Morgo** — southern cities guide at Syrinlya outpost
 
 ## Central Mystery (Aeorian Echo Connection)
 
@@ -4739,7 +3658,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 - Random encounters: ice mephits, saber-toothed tigers (1d4)
 
 **Arcana (Salsvault):**
-- DC 13 Arcana to identify Aeorian magical signatures (pre-Calamity, god-killing weapons)
+- DC 13 Arcana to identify Aeorian magical signatures (pre-Godsfall, god-killing weapons)
 - DC 15 Arcana to safely handle artifacts (failure = magical backlash)
 - DC 10 Arcana to recognize gold vials as antidote (warm glow vs. cold blue spores)
 
@@ -4760,7 +3679,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 ### If Players Rush to Salsvault Without Prep
 
 - Morgo at Syrinlya warns them: "You'll need cold-weather gear, rations, and climbing equipment. The icefields are deadly."
-- Allow them to buy supplies (or borrow from Uthodurn expedition)
+- Allow them to buy supplies (or borrow from southern cities expedition)
 - Random encounter on ice shows consequences of being unprepared (frozen corpse of explorer)
 
 ### If Players Are Dying in Salsvault
@@ -4789,7 +3708,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 
 ### Reputation Changes
 - **Palebank Village:** Friendly (saved from plague)
-- **Uthodurn Explorers:** Interested (party has Aeorian expertise)
+- **southern cities Explorers:** Interested (party has Aeorian expertise)
 - **Lorewarden Elric:** Extremely interested (requests full debrief on Salsvault)
 
 ## Aeorian Echo Foreshadowing
@@ -4806,10 +3725,10 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
    > "If Salsvault is active, other Aeorian ruins might be waking too. And they could be anywhere beneath Northreach's soil."
 
 4. **Morgo's Warning (at Syrinlya):**
-   > "We've had three expeditions disappear in Eiselcross this year. More than usual. Something's changing out there on the ice."
+   > "We've had three expeditions disappear in The Far North this year. More than usual. Something's changing out there on the ice."
 
 5. **Elric's Debrief (when party returns to Waystone Inn):**
-   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Calamity, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
+   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Godsfall, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
 
 \page
 
@@ -4822,7 +3741,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 - [ ] Familiarize yourself with frigid woe disease mechanics (pg 1 of adventure)
 - [ ] Review Salsvault map (if using) or plan theater-of-mind descriptions
 - [ ] Prepare NPC voices: Elro (gruff ranger), Tulgi (suspicious, dying), Morgo (helpful guide)
-- [ ] Decide if using Option A (keep Wildemount names) or Option B (generic names)
+- [ ] Decide if using Option A (keep Aevoria names) or Option B (generic names)
 - [ ] Mark key revelation moments (Salsvault is source of Aeorian Echo)
 
 ## Day Before Session
@@ -4951,7 +3870,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 - **Verla Pelc:** Deceased elf collector (owned Pelc's Curiosities)
 - **Irven Liel:** Infected merchant (family at risk)
 - **Mila Teno:** Glassblade guard (helpful NPC)
-- **Morgo:** Guide at Syrinlya outpost (Uthodurn explorer)
+- **Morgo:** Guide at Syrinlya outpost (southern cities explorer)
 - **Salsvault:** Aeorian laboratory ruin (source of frigid woe)
 
 ### Quick Treasure
@@ -4980,7 +3899,7 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 
 > *Elric's face pales as you describe Salsvault.*
 >
-> "An active Aeorian ruin. Gods help us. Aeor fell during the Calamity — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+> "An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
 
 ## Post-Session Tasks
 
@@ -5025,9 +3944,9 @@ This sets up Temple of the Dragonknights as the next adventure.
 **Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Far_North_Secrets.md](../../../World%20Building/DMEyesOnly/The_Far_North_Secrets.md)** - Salsvault details
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Far North Secrets** — Salsvault details
 
 **Key Secrets:**
 - Salsvault is an **active Aeorian facility** leaking magical energy into the region
@@ -5042,36 +3961,36 @@ This sets up Temple of the Dragonknights as the next adventure.
 
 This adventure text includes setting-specific names from its original source. For Northwatch Wardens, you have two clean options:
 
-#### Option A: Exandria/Wildemount-compatible (keep the names)
+#### Option A: Aevoria/Aevoria-compatible (keep the names)
 
 - **Northreach** is a homebrew frontier region.
 - **Palebank Village** is a Northreach member settlement on the northeast coast.
 - The **unlabeled cave icon** on the player map is **Croaker Cave**.
 - The **unlabeled mountain/fortress icon** on the player map is **Salsvault**.
-- Names like **Eiselcross**, **Uthodurn**, and **Shadycreek Run** exist “off-screen” as distant places referenced in backstory/trade.
+- Names like **The Far North**, **southern cities**, and **Port Morrow** exist “off-screen” as distant places referenced in backstory/trade.
 
 ### Option B: Northreach-standalone (use plain-language substitutes at the table)
 
-- **Wildemount** → “the wider world” / “southern trade routes”
-- **Uthodurn** → “a southern dwarven-elf holdfast”
-- **Dwendalian Empire** → “a southern empire”
-- **Shadycreek Run** → “a distant smuggling town”
-- **Eiselcross / Foren** → “the icefields north of Palebank” / “the largest ice island”
+- **Aevoria** → “the wider world” / “southern trade routes”
+- **southern cities** → “a southern dwarven-elf holdfast”
+- **southern kingdoms** → “a southern empire”
+- **Port Morrow** → “a distant smuggling town”
+- **The Far North / Foren** → “the icefields north of Palebank” / “the largest ice island”
 
 Either way, the only locations the players need on-map are: **Palebank Village**, **Croaker Cave**, and **Salsvault**.
 
-Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and Eiselcross.
+Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and The Far North.
 
-If your players are using the heroic chronicle to create their characters (see chapter 4 in the Explorer's Guide to Wildemount), work with them to decide how they made their way to Palebank Village. Are they citizens of Uthodurn now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
+If your players are using the heroic chronicle to create their characters (see chapter 4 in the this adventure), work with them to decide how they made their way to Palebank Village. Are they explorers from the south now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
 
 Story Overview
-Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of Eiselcross for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of Eiselcross’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Shadycreek Run, and sold again to an unsuspecting merchant.
+Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of The Far North for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of The Far North’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Port Morrow, and sold again to an unsuspecting merchant.
 
-In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount.
+In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “The Far North” section of chapter 3 of this adventure.
 
 Frigid Woe
 
-Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in Eiselcross’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
+Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in The Far North’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
 The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
 
@@ -5081,12 +4000,12 @@ The disease is transmitted by breathing in blue spores that Aeor’s mages creat
 A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
 
 Adventure Summary
-While the characters are in Palebank Village, community leader Elro Aldataur asks for their help figuring out who or what has killed Urgon Wenth. An explorer recently returned from Eiselcross, Urgon was afflicted by a strange malady that turned him into an ice statue, and which has since shown up in another of the village’s residents. The characters investigate the mystery while contending with the forces of the Uttolots, one of the criminal families that control Shadycreek Run. More infected locals are discovered, including one more already dead, before the characters clear Uttolot thugs out of a local cavern complex called Croaker Cave. In the end, the vials of frigid woe are reclaimed, but merchant Irven Liel and his family are infected and will be the next to die without a cure. Moreover, the characters might well be infected with the disease themselves.
+While the characters are in Palebank Village, community leader Elro Aldataur asks for their help figuring out who or what has killed Urgon Wenth. An explorer recently returned from The Far North, Urgon was afflicted by a strange malady that turned him into an ice statue, and which has since shown up in another of the village’s residents. The characters investigate the mystery while contending with the forces of the Uttolots, one of the criminal families that control Port Morrow. More infected locals are discovered, including one more already dead, before the characters clear Uttolot thugs out of a local cavern complex called Croaker Cave. In the end, the vials of frigid woe are reclaimed, but merchant Irven Liel and his family are infected and will be the next to die without a cure. Moreover, the characters might well be infected with the disease themselves.
 
-Elro asks the characters to travel to Eiselcross to seek a cure for frigid woe. The characters take a boat to Syrinlya, the Uthodurnian outpost on Foren, and retrace Urgon Wenth’s path to the ruin of Salsvault. This magic laboratory was once a part of Aeor, an ancient flying city-state that crashed into Eiselcross during the Calamity. Only by braving Salsvault’s defenses and deadly guardians can the adventurers find the antidote they need.
+Elro asks the characters to travel to The Far North to seek a cure for frigid woe. The characters take a boat to Syrinlya, the Aevorian research outpost on Foren, and retrace Urgon Wenth’s path to the ruin of Salsvault. This magic laboratory was once a part of Aeor, an ancient flying city-state that crashed into The Far North during the Godsfall. Only by braving Salsvault’s defenses and deadly guardians can the adventurers find the antidote they need.
 
 Setup and Starting Points
-Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of Explorer's Guide to Wildemount.
+Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of this adventure.
 
 Before the adventure begins is also the time to figure out if the characters already know each other or if this adventure is the first time they’ve met.
 
@@ -5094,7 +4013,7 @@ Before the adventure begins is also the time to figure out if the characters alr
 Mystery in Palebank Village
 The adventure begins in Palebank Village, with the characters drawn immediately into the drama of death in an isolated settlement. Once the players are ready to begin, read or paraphrase the following to set the scene:
 
-Snow gently falls from the sky and wind bites your cheeks as you stand in the graveyard of Palebank Village, a fishing outpost of Uthodurn that is home to several hundred dwarves and elves. The sun is low in the sky, sinking behind the fresh grave of Urgon Wenth, an old dwarf who caught a curse or disease that turned him into an ice statue. The folk of the village have gathered to pay their final respects to Urgon’s frozen remains.
+Snow gently falls from the sky and wind bites your cheeks as you stand in the graveyard of Palebank Village, a fishing outpost of southern cities that is home to several hundred dwarves and elves. The sun is low in the sky, sinking behind the fresh grave of Urgon Wenth, an old dwarf who caught a curse or disease that turned him into an ice statue. The folk of the village have gathered to pay their final respects to Urgon’s frozen remains.
 
 As part of their characters’ backstories, the players can decide whether any of them knew Urgon or whether they’ve come to the funeral simply to show respect to the folk of the community. Either way, continue by reading the following:
 
@@ -5102,12 +4021,12 @@ A gruff voice speaks softly from behind you. “Thank you for attending Urgon’
 
 Whether the characters are known in the village as neophyte adventurers or simply look the part, Elro (a neutral good, male wood elf veteran) hopes that they’re the sort of people not afraid to step up to help folks in need. Use the following points to help guide the conversation as he explains his concerns to the characters:
 
-Two months ago, Urgon Wenth returned home after exploring Eiselcross for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
+Two months ago, Urgon Wenth returned home after exploring The Far North for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
 
 \page
 
 The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
-Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring Eiselcross. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
+Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring The Far North. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
 Alarmed, Elro tried to talk to Tulgi about it, but she pushed him away, asking that he let her die in peace.
 Elro’s Request
 If the characters are willing, Elro wants them to find out what caused Urgon and Tulgi’s affliction. He’s worried that it could spread, but Tulgi refuses to talk to him, and the Glassblades in the village are better known for their combat skills than their ability to glean the truth in a complicated situation. Moreover, Tulgi is extremely distrustful of the authorities.
@@ -5125,10 +4044,10 @@ Adventuring Equipment
 Urgon’s adventuring equipment consists of a silvered maul; a suit of splint armor sized for a dwarf; bulky, fur-lined clothing sized for a dwarf; a grappling hook; and a hooded lantern.
 
 Mounted Head
-A character who succeeds on a DC 15 Intelligence (Nature) check recognizes that the head mounted above the mantle belonged to a yeti, a monstrosity found in Eiselcross.
+A character who succeeds on a DC 15 Intelligence (Nature) check recognizes that the head mounted above the mantle belonged to a yeti, a monstrosity found in The Far North.
 
 Strange Receipt
-A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in Eiselcross to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
+A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in The Far North to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
 
 Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
 
@@ -5165,12 +4084,12 @@ Tulgi is gruff and to the point, and tries to compensate for her illness with bl
 
 A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check convinces Tulgi to reveal the following information:
 
-Tulgi came to Palebank Village a few years back from Shadycreek Run with her sister, Hulil. Both work for the Uttolot family.
+Tulgi came to Palebank Village a few years back from Port Morrow with her sister, Hulil. Both work for the Uttolot family.
 
 \page
 
-The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from Eiselcross—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from Uthodurn or the Dwendalian Empire.
-When Urgon Wenth returned to Palebank Village with treasures from Eiselcross, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
+The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from The Far North—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from southern cities or the southern kingdoms.
+When Urgon Wenth returned to Palebank Village with treasures from The Far North, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
 Tulgi gave most of Urgon’s relics to Hulil, but kept one for herself—an ornate dagger. She grudgingly gives this weapon to the characters if asked (see “Treasure” below). Hulil has the other items in a site north of the village known as Croaker Cave.
 Tulgi was the one who searched Urgon’s cabin, convinced that the dead dwarf must have had magic or other secrets stored away there.
 Treasure
@@ -5180,7 +4099,7 @@ Development
 The characters have no trouble finding either Croaker Cave or Pelc’s Curiosities if either of those locations is their next destination. If things went bad with Tulgi and she died before revealing any information, the characters might find notes or instructions from Hulil revealing some of the information above.
 
 Pelc’s Curiosities
-Pelc’s Curiosities is an antique shop run by an introverted elf named Verla Pelc. Verla keeps to herself, opening her shop only when the mood strikes her. She trades any and all objects that interest her, shipping them across Wildemount. Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago. If the characters are recent arrivals to the village, anyone they ask about the shop mentions the robbery.
+Pelc’s Curiosities is an antique shop run by an introverted elf named Verla Pelc. Verla keeps to herself, opening her shop only when the mood strikes her. She trades any and all objects that interest her, shipping them across Aevoria. Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago. If the characters are recent arrivals to the village, anyone they ask about the shop mentions the robbery.
 
 Pelc’s Curiosities is a one-story, two-room log cabin. The windows are shuttered and locked from inside, leaving the interior dark. The only entrance is the front door, but characters can force open one of the shutters around the back with a successful DC 12 Strength (Athletics) check, granting access to Verla’s quarters (see that section below).
 
@@ -5202,7 +4121,7 @@ This area is difficult terrain thanks to the debris covering it. The five elves 
 
 The bandits attack as soon as they notice the characters, fighting until only one remains. That survivor then surrenders. If a captive bandit is questioned, a character who succeeds on a DC 10 Charisma (Intimidation) check can learn the following information:
 
-The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Shadycreek Run.
+The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Port Morrow.
 Hulil’s sister, Tulgi, robbed Pelc’s Curiosities two months ago.
 Hulil is sick or cursed with some affliction that causes her to move slowly and is turning her veins blue.
 Hulil ordered the bandits to trash Pelc’s Curiosities in search of potions, scrolls, or other items that might help cure her. Despite their thorough search, the bandits found nothing useful. Hulil is hiding out with more bandits in Croaker Cave.
@@ -5240,7 +4159,7 @@ The bandits sent out with Hulil by the Uttolot family are all dwarves and elves.
 Uttolot bandits attack any intruders on sight. Each fights until reduced to half its hit points or fewer, then flees the caves. If the characters capture an Uttolot bandit, they can learn the following information with a successful DC 10 Charisma (Intimidation) check:
 
 Hulil is sick with the same malady that killed Urgon Wenth.
-She plans on setting out for Shadycreek Run soon, hoping that trading the items her sister Tulgi stole from Pelc’s Curiosities allows her to pay for healing that will cure her.
+She plans on setting out for Port Morrow soon, hoping that trading the items her sister Tulgi stole from Pelc’s Curiosities allows her to pay for healing that will cure her.
 Croaker Cave Features
 The caverns and tunnels of the Croaker Cave complex are shown on map 5.9. Unless otherwise noted in an area’s description, the following features are common throughout all areas of Croaker Cave.
 
@@ -5297,7 +4216,7 @@ Ten empty bedrolls are arranged in a circle around a cold fire pit at the center
 One of the bedrolls covers the opening of a 10-foot-deep pit trap. The trap can be spotted with a DC 10 Wisdom (Perception) check. If not spotted, anyone walking across the bedroll falls into the pit, taking 3 (1d6) bludgeoning damage and landing prone. A creature that falls into the pit makes enough noise that the bandits in area C2 investigate.
 
 Treasure
-Searching all the bedrolls reveals that one contains an unopened bottle of Bald Dwarf Whisky (worth 25 gp), an alcohol made by elves in Uthodurn.
+Searching all the bedrolls reveals that one contains an unopened bottle of Bald Dwarf Whisky (worth 25 gp), an alcohol made by elves in southern cities.
 
 C5. Old Croaker’s Pool
 Water dripping down from stalactites in the ceiling fills a dark pool that completely covers the floor of this cavern.
@@ -5324,13 +4243,13 @@ Any creature that enters the area of the fire for the first time on its turn, or
 What Hulil Knows
 If the characters convince Hulil that they are her allies, or if they capture her or Raegrin and succeed on a DC 14 Charisma (Intimidation) check, they can learn the following information:
 
-Hulil believes she has a disease called frigid woe. Though she doesn’t know any more about the disease than its symptoms, she’s heard rumors that explorers in Eiselcross sometimes succumb to it.
+Hulil believes she has a disease called frigid woe. Though she doesn’t know any more about the disease than its symptoms, she’s heard rumors that explorers in The Far North sometimes succumb to it.
 Hulil has guessed that her affliction was caused by one of the blue vials Tulgi stole from Pelc’s Curiosities, originally sold by Urgon Wenth. The vial was cracked, revealing that its lovely color was the result of a dark blue dust clinging to the interior.
-She is desperate to get to Shadycreek Run before the malady runs its course, hoping that she can trade the goods stolen by Tulgi for a cure.
-Hulil used one of the vials to trap the chest containing the other stolen items (see “Stone Chest” below). Needing quick cash for the trip, she sold the other vial to Irven Liel, a human merchant staying at the Jolly Dwarf inn in Palebank Village while traveling with his family to Uthodurn.
+She is desperate to get to Port Morrow before the malady runs its course, hoping that she can trade the goods stolen by Tulgi for a cure.
+Hulil used one of the vials to trap the chest containing the other stolen items (see “Stone Chest” below). Needing quick cash for the trip, she sold the other vial to Irven Liel, a human merchant staying at the Jolly Dwarf inn in Palebank Village while traveling with his family to southern cities.
 
 Stone Chest
-The stone chest’s outer lid is carved with the face of a dragon. A character who examines the chest and succeeds on a DC 12 Wisdom (Perception) check finds pin-sized openings in the dragon’s mouth that contain a blue powder. The powder can be removed with a successful DC 15 Dexterity check using thieves’ tools. A character who fails this check must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount).
+The stone chest’s outer lid is carved with the face of a dragon. A character who examines the chest and succeeds on a DC 12 Wisdom (Perception) check finds pin-sized openings in the dragon’s mouth that contain a blue powder. The powder can be removed with a successful DC 15 Dexterity check using thieves’ tools. A character who fails this check must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
 
 A detect magic spell reveals that the chest radiates an aura of evocation magic. When a creature touches the chest without speaking a prayer to Tiamat, a gust of wind escapes the dragon’s mouth. If the blue powder is still in the dragon’s mouth, it forms a cloud that fills a 15-foot cube in front of the chest. Each creature within the area must succeed on a DC 11 Constitution saving throw or contract frigid woe.
 
@@ -5350,7 +4269,7 @@ The downstairs of this inn features a large taproom. A gray-haired dwarf behind 
 
 Arl Bortock (a neutral good, male, mountain dwarf veteran) works behind the bar. If the characters ask for Irven Liel, the dwarf points them toward the laughing family.
 
-Irven Liel, his husband Fenton Tethwick (both neutral good, male Dwendalian human commoners), and their adopted daughters Honor and Magic (both tiefling noncombatants) are friendly and invite the characters to join them. Irven and Fenton are traveling booksellers. If asked about the vial, Irven explains that they met Hulil Lutan on the road to Palebank Village. She said she was moving and needed to shed some possessions, so she offered him a chance to buy the Aeorian relic at a great price. He plans to sell the item for a profit in Uthodurn.
+Irven Liel, his husband Fenton Tethwick (both neutral good, male Dwendalian human commoners), and their adopted daughters Honor and Magic (both tiefling noncombatants) are friendly and invite the characters to join them. Irven and Fenton are traveling booksellers. If asked about the vial, Irven explains that they met Hulil Lutan on the road to Palebank Village. She said she was moving and needed to shed some possessions, so she offered him a chance to buy the Aeorian relic at a great price. He plans to sell the item for a profit in southern cities.
 
 If the characters tell Irven the truth about the vial, he panics, saying that everyone in his family has touched the object. Fenton gives the vial to the characters, handing it to them wrapped up in a cloth. Any character who touches the vial directly must succeed on a DC 11 Constitution saving throw or contract frigid woe.
 
@@ -5359,31 +4278,31 @@ Once the characters have the cracked vial, they can report back to Elro Aldataur
 
 The next morning, Elro comes to the characters with somber news. Irven, Fenton, Honor, and Magic are all afflicted with frigid woe. Seeing the blue powder in the vial has allowed Elro to consult old lore and learn a few things about the disease. (If the characters didn’t learn the name of the affliction from Hulil, Elro is the source of that name as well.)
 
-Elro knows that frigid woe is said to have only one cure—a milky liquid the Aeorians stored in gold vials. He hopes that the cure might be found in the same place Urgon found the vials of frigid woe in Eiselcross. The retired ranger asks the characters to travel to the islands of Eiselcross and retrace Urgon’s path, hoping they can find the cure. He offers the party 200 gp for the task, and reminds them that time is of the essence for Irven and his family—not to mention for any characters infected with frigid woe. If the characters accept, Elro gives them a day to prepare and tells them to find him at the village docks when they’re ready to set sail.
+Elro knows that frigid woe is said to have only one cure—a milky liquid the Aeorians stored in gold vials. He hopes that the cure might be found in the same place Urgon found the vials of frigid woe in The Far North. The retired ranger asks the characters to travel to the northern icefields and retrace Urgon’s path, hoping they can find the cure. He offers the party 200 gp for the task, and reminds them that time is of the essence for Irven and his family—not to mention for any characters infected with frigid woe. If the characters accept, Elro gives them a day to prepare and tells them to find him at the village docks when they’re ready to set sail.
 
 VIALS OF FRIGID WOE
 
-As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “Eiselcross” section of chapter 3 of Explorer's Guide to Wildemount).
+As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
 
 If a character has contracted frigid woe, track the number of days that have passed so you can inform the player when their character’s symptoms appear and when they need to make Constitution saving throws.
 
 
 Character Advancement
-The characters advance to 2nd level before traveling to Eiselcross.
+The characters advance to 2nd level before traveling north to the icefields.
 
-Traveling to Eiselcross
-When the characters are ready to leave for Eiselcross, Elro Aldataur provides them with the following information:
+traveling north to the icefields
+When the characters are ready to leave for The Far North, Elro Aldataur provides them with the following information:
 
 \page
 
 
-Elro has arranged passage to Eiselcross for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
-The characters will be taken to Syrinlya, an Uthodurnian outpost on Foren, Eiselcross’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of Eiselcross with Urgon Wenth.
+Elro has arranged passage to The Far North for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
+The characters will be taken to Syrinlya, an Aevorian research outpost on Foren, The Far North’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of The Far North with Urgon Wenth.
 Once the characters have found the cure, they should use whatever they need for themselves, then give the rest to an elf in Syrinlya who goes by the name “the Buyer.” They can tell the Buyer to teleport the cure to Elro in Palebank Village.
-The islands of Eiselcross are covered in ice and snow, and are always well below freezing. Characters who don’t already have cold weather gear will want to purchase it, or they will be subject to extreme cold (see chapter 5 of the Dungeon Master’s Guide).
+the northern icefields are covered in ice and snow, and are always well below freezing. Characters who don’t already have cold weather gear will want to purchase it, or they will be subject to extreme cold (see chapter 5 of the Dungeon Master’s Guide).
 
 
-Sailing to Eiselcross
+Sailing to The Far North
 NPCs Infected with Frozen Woe
 The characters are in a race against time to cure Irven and his family (and possibly Hulil and Tulgi Lutan, if the characters are feeling merciful toward those two hardened criminals). Irven and his family have at least sixty days before any of them might die, Hulil has at least thirty days, and Tulgi has at least twenty days. You can make saving throws for these NPCs against the disease every ten days, or you can just decide their final fates.
 
@@ -5394,9 +4313,9 @@ When the ship reaches Syrinlya, read:
 
 The temperature has steadily dropped since you left Palebank Village, yet it seems to grow colder still as you step off the ramp of the Remorhaz onto Foren. Through windy snow, you can see fur-lined tents and yurts arranged in a large camp. Campfires are whipped by the wind, with dwarves and elves huddled close to the flames.
 
-“Don’t worry! It’ll cool down here eventually!” a joking voice bellows over the snow. A female dwarf with a shaggy mane of unkempt hair bows to you. “Morgo Delwur at your service. Welcome to Eiselcross!”
+“Don’t worry! It’ll cool down here eventually!” a joking voice bellows over the snow. A female dwarf with a shaggy mane of unkempt hair bows to you. “Morgo Delwur at your service. Welcome to The Far North!”
 
-Morgo Delwur (a neutral good, female mountain dwarf werebear) has lived in Syrinlya for years. She can show the characters around and answer any questions they have about the settlement, providing any of the details found in chapter 3 of Explorer's Guide to Wildemount. If the characters ask about Orvo Mustave or the Buyer, Morgo points out where both live. Though Morgo never adventured with Urgon Wenth and wasn’t a close friend, she is sad to hear of the dwarf’s passing.
+Morgo Delwur (a neutral good, female mountain dwarf werebear) has lived in Syrinlya for years. She can show the characters around and answer any questions they have about the settlement, providing any of the details found in chapter 3 of this adventure. If the characters ask about Orvo Mustave or the Buyer, Morgo points out where both live. Though Morgo never adventured with Urgon Wenth and wasn’t a close friend, she is sad to hear of the dwarf’s passing.
 
 Morgo and the other explorers in Syrinlya know about frigid woe and the disease’s terrible effects. If the characters have any unanswered questions about the disease, the explorers share what they know.
 
@@ -5419,21 +4338,21 @@ Once the characters are settled, Morgo wishes them luck and leaves to prepare fo
 
 CAN YOU HELP US?
 
-If the characters feel as though they need help traveling the wilds of Foren, they can try to convince other explorers in Syrinlya to travel with them to recover the cure. Although most of Syrinlya’s explorers are willing to help others in need, those explorers already have an important mission. An expedition led by Professor Gulrim Shalebrow (see “The Diarchy of Uthodurn” in chapter 2 of Explorer's Guide to Wildemount) went to search for the origin of the strange magic in the region of Mutalos months ago and has not returned. The explorers at the camp are preparing a search and rescue mission to bring back Gulrim’s party. If the characters survive their quest into Salsvault, this story could serve as a hook for another adventure.
+If the characters feel as though they need help traveling the wilds of Foren, they can try to convince other explorers in Syrinlya to travel with them to recover the cure. Although most of Syrinlya’s explorers are willing to help others in need, those explorers already have an important mission. An expedition led by Professor Gulrim Shalebrow (see “The Diarchy of southern cities” in chapter 2 of this adventure) went to search for the origin of the strange magic in the region of Mutalos months ago and has not returned. The explorers at the camp are preparing a search and rescue mission to bring back Gulrim’s party. If the characters survive their quest into Salsvault, this story could serve as a hook for another adventure.
 
 The Buyer
 Morgo Delwur or any other resident of Syrinlya can point out the Buyer’s hut to the characters. It is Syrinlya’s largest yurt. When the characters enter, read:
 
 The pungent scent of incense fills this yurt, whose walls are painted with glowing arcane runes. A brass brazier burns brightly at the center of the floor, around which are set a few plush chairs, a bed, and a large stone chest. On one of those chairs sits an elf reading a book. A small dragon with green butterfly wings is curled in the elf’s lap.
 
-The Buyer (lawful neutral, nonbinary, high elf mage) is a mysterious elf who purchases Aeorian relics in Syrinlya for the Uthodurnian government. See the “Syrinlya” section of chapter 3 of Explorer's Guide to Wildemount for more information about the Buyer and their business. The green faerie dragon is Dew, the elf’s familiar.
+The Buyer (lawful neutral, nonbinary, high elf mage) is a mysterious elf who purchases Aeorian relics in Syrinlya for the Aevorian government. See the “Syrinlya” section of chapter 3 of this adventure for more information about the Buyer and their business. The green faerie dragon is Dew, the elf’s familiar.
 
 The Buyer has been in Syrinlya since the day the outpost was founded. They can answer any questions the characters might have about the outpost’s history, the island of Foren, or frigid woe. If the characters want to confirm that the Buyer is able to quickly send the cure for frigid woe to Palebank Village, the elf tells them that the stone chest in the yurt has the magical capability to teleport objects on command.
 
 In addition to the aid they provide in getting the cure back to Palebank Village, the Buyer offers to purchase any Aeorian relics the characters want to sell.
 
 Stone Chest
-A detect magic spell reveals that the chest radiates an aura of conjuration magic. When an item is placed in the chest, the Buyer can teleport it to secret locations in Uthodurn or its outpost of Palebank Village, with those locations known only to the authorities of those settlements.
+A detect magic spell reveals that the chest radiates an aura of conjuration magic. When an item is placed in the chest, the Buyer can teleport it to secret locations in southern cities or its outpost of Palebank Village, with those locations known only to the authorities of those settlements.
 
 Orvo Mustave
 Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
@@ -5443,7 +4362,7 @@ A campfire burns in front of this small tent, whose flaps are open. Inside the t
 \page
 
 
-Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of Eiselcross as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
+Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of The Far North as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
 
 Orvo’s Story
 Orvo is grief-stricken to hear about the demise of his friend Urgon Wenth. If the characters ask Orvo about the blue vials that brought disease to Palebank Village, Orvo shares the following information:
@@ -5454,7 +4373,7 @@ Salsvault appears to have been an Aeorian lab. Orvo and Urgon explored only thre
 The dwarves didn’t know what the vials contained.
 Orvo sold his share of the treasure from Salsvault to the Buyer. Urgon decided to hang onto his share until he returned home to Palebank Village.
 Into the Wilds
-After speaking with Orvo, the characters can make whatever preparations they need before heading into the wilds of Eiselcross. If they wish to obtain more supplies before setting out, there are no shops in Syrinlya, but many of the explorers at the camp are willing to trade goods and equipment.
+After speaking with Orvo, the characters can make whatever preparations they need before heading into the wilds of The Far North. If they wish to obtain more supplies before setting out, there are no shops in Syrinlya, but many of the explorers at the camp are willing to trade goods and equipment.
 
 Overland Travel
 The characters must travel two hundred miles over ice and snow to reach Salsvault, the ruin where Urgon Wenth found the vials of frigid woe. It’s up to the characters whether they want to move at a fast, medium, or slow pace (see “Movement” in chapter 8 of the Player’s Handbook). If any character has a walking speed of less than 25 feet because of a frigid woe infection, use the Reduced Travel Speeds table to determine how far the party can travel in a day.
@@ -5463,9 +4382,9 @@ Reduced Travel Speeds
 Slowest Character Speed	Slow Pace	Medium Pace	Fast Pace
 15–20 ft.	12 miles	18 miles	24 miles
 5–10 ft.	6 miles	12 miles	18 miles
-As the characters travel, use the Encounters in Eiselcross section to generate random encounters.
+As the characters travel, use the Encounters in The Far North section to generate random encounters.
 
-Eiselcross Encounters: Levels 1–4
+The Far North Encounters: Levels 1–4
 d6	Encounter
 1	The characters encounter 1d4 wildfolk scouts hunting a saber-toothed tiger. The scouts are out of arrows and willing to trade equipment and information to replenish their ammunition.
 2	The characters encounter a lost Cerberus Assembly mage trying to return to Balenpost. The rest of the mage's team died in the ruins of Aeor, and there is a 50 percent chance the mage carries a recently recovered Aeorian item.
@@ -5656,7 +4575,7 @@ This room is in immaculate condition, apparently having been cleaned up after th
 \page
 
 
-Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into Eiselcross.
+Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into The Far North.
 
 Chest
 The chest contains Ferol’s treasure (see below), along with a swarm of undead snakes that attacks any creature that opens the chest. The swarm uses the stat block for a swarm of poisonous snakes, with these changes:
@@ -5736,7 +4655,7 @@ Six long stone tables are set with steel and glass laboratory equipment in this 
 The undead Ferol Sal has worked tirelessly in the laboratory for centuries, obsessed with crafting a disease that can kill the gods. Despite having made no progress in all that time, he keeps working. Ferol is a wight with an Intelligence of 16 (+3).
 
 Roleplaying Ferol
-Ferol knows nothing of Exandria’s history since Aeor’s crash, and his memory of the distant past is almost as hazy. His transformation into a wight and the centuries of solitude since have driven him quite mad. He cares only about taking revenge on the gods—who he incorrectly assumes are still active in Exandria. As a resident of Aeor, Ferol doesn’t speak Common, though he can communicate in the archaic Draconic of Aeor, as well as an archaic form of Elven. Characters who speak Draconic or Elven can communicate with him, albeit slowly.
+Ferol knows nothing of Aevoria’s history since Aeor’s crash, and his memory of the distant past is almost as hazy. His transformation into a wight and the centuries of solitude since have driven him quite mad. He cares only about taking revenge on the gods—who he incorrectly assumes are still active in Aevoria. As a resident of Aeor, Ferol doesn’t speak Common, though he can communicate in the archaic Draconic of Aeor, as well as an archaic form of Elven. Characters who speak Draconic or Elven can communicate with him, albeit slowly.
 
 When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
 
@@ -5768,22 +4687,220 @@ Kelp
 The kelp counts as difficult terrain.
 
 Treasure
-The chest is packed with fine sand and contains twenty doses of frigid woe antidote (see “Eiselcross” in chapter 3 of Explorer's Guide to Wildemount) and an ersatz eye (see chapter 6 of Explorer's Guide to Wildemount).
+The chest is packed with fine sand and contains twenty doses of frigid woe antidote (see “The Far North” in chapter 3 of this adventure) and an ersatz eye (see chapter 6 of this adventure).
 
 Concluding the Adventure
-You can roll for random encounters on the way back to Syrinlya (see “Encounters in Eiselcross”), or you can allow the characters an uneventful trip as reward for a job well done. When the characters arrive in Syrinlya, they can arrange for the Buyer to teleport the antidote for frigid woe to Palebank Village. After doing so, the elf pays out the 200 gp reward on behalf of Elro Aldataur.
+You can roll for random encounters on the way back to Syrinlya (see “Encounters in The Far North”), or you can allow the characters an uneventful trip as reward for a job well done. When the characters arrive in Syrinlya, they can arrange for the Buyer to teleport the antidote for frigid woe to Palebank Village. After doing so, the elf pays out the 200 gp reward on behalf of Elro Aldataur.
 
 If the characters don’t successfully recover the frigid woe antidote in time to save Irven and his family, all four family members succumb to the disease. If the characters are successful, they have the thanks of Elro Aldataur, Irven and his family, the people of Palebank Village, and the explorers of Syrinlya.
 
 Character Advancement
-At the end of this adventure, the characters reach 3rd level. This might mark the beginning of a campaign in the Biting North. In particular, the Buyer suggests that the characters could easily find their fortunes exploring Eiselcross. Alternatively, their success in this mission might inspire the characters to seek out new realms and new adventures elsewhere in Wildemount.
+At the end of this adventure, the characters reach 3rd level. This might mark the beginning of a campaign in the Biting North. In particular, the Buyer suggests that the characters could easily find their fortunes exploring The Far North. Alternatively, their success in this mission might inspire the characters to seek out new realms and new adventures elsewhere in Aevoria.
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Frozen Sick/Frozen Sick.md -->
+# Frozen Sick — Monster Stat Blocks
 
+This document contains Homebrewery-formatted stat blocks for creatures in Frozen Sick. These can be copy-pasted into the adventure file or reference during play.
+
+---
+
+## Bandit
+
+{{monster,frame
+## Bandit
+*Medium humanoid (any race), any non-lawful alignment*
+___
+**Armor Class** :: 12 (leather armor)
+**Hit Points**  :: 11 (2d8+2)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|11 (+0)|12 (+1)|12 (+1)|10 (+0)|10 (+0)|10 (+0)|
+___
+**Senses** :: passive Perception 10
+**Languages** :: any one language (usually Common)
+**Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6+1) slashing damage.
+:
+***Light Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 5 (1d8+1) piercing damage.
+}}
+
+**Bandits** rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.
+
+---
+
+\page
+
+## Bandit Captain
+
+{{monster,frame
+## Bandit Captain
+*Medium humanoid (any race), any non-lawful alignment*
+___
+**Armor Class** :: 15 (studded leather)
+**Hit Points**  :: 65 (10d8+20)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|16 (+3)|14 (+2)|14 (+2)|11 (+0)|14 (+2)|
+___
+**Saving Throws** :: Str +4, Dex +5, Wis +2
+**Skills** :: Athletics +4, Deception +4
+**Senses** :: passive Perception 10
+**Languages** :: any two languages
+**Challenge** :: 2 (450 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Multiattack.*** The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
+:
+***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.
+:
+***Dagger.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4+3) piercing damage.
+:
+### Reactions
+***Parry.*** The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
+}}
+
+It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. More than treasure, a bandit captain craves infamy.
+
+---
+
+\page
+
+## Animated Armor
+
+{{monster,frame
+## Animated Armor
+*Medium construct, unaligned*
+___
+**Armor Class** :: 18 (natural armor)
+**Hit Points**  :: 33 (6d8+6)
+**Speed**       :: 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|11 (+0)|13 (+1)|1 (−5)|3 (−4)|1 (−5)|
+___
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 6
+**Languages** :: —
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Antimagic Susceptibility.*** The armor is incapacitated while in the area of an *antimagic field*. If targeted by *dispel magic*, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
+:
+***False Appearance.*** While the armor remains motionless, it is indistinguishable from a normal suit of armor.
+:
+### Actions
+***Multiattack.*** The armor makes two melee attacks.
+:
+***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) bludgeoning damage.
+}}
+
+This empty steel shell clanks as it moves, heavy plates banging and grinding against one another. Animated armors are often found guarding ancient tombs and ruins left by long-dead wizards.
+
+---
+
+\page
+
+## Flying Sword
+
+{{monster,frame
+## Flying Sword
+*Small construct, unaligned*
+___
+**Armor Class** :: 17 (natural armor)
+**Hit Points**  :: 17 (5d6)
+**Speed**       :: 0 ft., fly 50 ft. (hover)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|12 (+1)|15 (+2)|11 (+0)|1 (−5)|5 (−3)|1 (−5)|
+___
+**Saving Throws** :: Dex +4
+**Damage Immunities** :: poison, psychic
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 7
+**Languages** :: —
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Antimagic Susceptibility.*** The sword is incapacitated while in the area of an *antimagic field*. If targeted by *dispel magic*, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
+:
+***False Appearance.*** While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword.
+:
+### Actions
+***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8+1) slashing damage.
+}}
+
+A **flying sword** dances through the air, fighting with the confidence of a warrior that can't be injured. Swords are the most common weapons animated with magic. Axes, clubs, daggers, maces, spears, and even self-loading crossbows are also known to exist in animated object form.
+
+---
+
+## Winter Wolf
+
+**Note:** Winter wolf stats can be found in the Monster Manual (MM p340) or SRD. Key details:
+- **CR 3** (700 XP)
+- Large monstrosity
+- **AC** 13 (natural armor)
+- **HP** 75 (10d10+20)
+- **Speed** 50 ft.
+- **Cold Breath** (Recharge 5-6): 15-ft. cone, DC 12 Dex save, 18 (4d8) cold damage
+- **Cold Immunity**
+- **Pack Tactics**
+- **Snow Camouflage**
+
+---
+
+## Yeti
+
+**Note:** Yeti stats can be found in the Monster Manual (MM p305) or SRD. Key details:
+- **CR 3** (700 XP)
+- Large monstrosity
+- **AC** 12 (natural armor)
+- **HP** 51 (6d10+18)
+- **Speed** 40 ft., climb 40 ft.
+- **Cold Chilling Gaze** (DC 13 Con save or 10 (3d6) cold damage + 1 level exhaustion)
+- **Cold Immunity**
+- **Fear of Fire**
+- **Snow Camouflage**
+
+---
+
+## Ice Mephit
+
+**Note:** Ice mephit stats can be found in the Monster Manual (MM p215) or SRD. Key details:
+- **CR 1/2** (100 XP)
+- Small elemental
+- **AC** 11
+- **HP** 21 (6d6)
+- **Speed** 30 ft., fly 30 ft.
+- **Frost Breath** (Recharge 6): 15-ft. cone, DC 10 Dex save, 5 (2d4) cold damage
+- **Death Burst** (10-ft. radius, DC 10 Dex save, 4 (1d8) cold damage)
+- **Cold Immunity, Fire Vulnerability**
+- **False Appearance** (as ice chunk)
+
+---
+
+## Saber-Toothed Tiger
+
+**Note:** Saber-toothed tiger stats can be found in the Monster Manual (MM p336) or SRD. Key details:
+- **CR 2** (450 XP)
+- Large beast
+- **AC** 12
+- **HP** 52 (7d10+14)
+- **Speed** 40 ft.
+- **Pounce** (DC 14 Str save or knocked prone, bonus bite if pounce succeeds)
+- **Keen Smell**
+- **Bite** +5 to hit, 10 (1d10+5) piercing damage
+- **Claw** +5 to hit, 12 (2d6+5) slashing damage
+
+\page
 ## The Wild Sheep Chase
 
-<!-- FILE_START: ../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md -->
 The Wild Sheep Chase
 
 A fourth/fifth level adventure for D&D 5E
@@ -5793,9 +4910,9 @@ A fourth/fifth level adventure for D&D 5E
 **Campaign Connection:** This adventure shows **magic destabilizing** across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Noke's Tower: The Wizard's Arsenal" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Noke's Tower: The Wizard's Arsenal" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - **Shinebright (Finethir) is not who he appears to be**—he's a dedicated Aeorian researcher preparing countermeasures
@@ -6000,6 +5117,8 @@ A fourth/fifth level adventure for D&D 5E
 
 **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful).
 
+\page
+
 ### XP Awards (Milestone)
 - Completing adventure: Party gains **+500 XP each** (or milestone toward next level)
 - Restoring Shinebright without killing him: **+100 XP bonus**
@@ -6008,6 +5127,8 @@ A fourth/fifth level adventure for D&D 5E
 - **Local Town:** Friendly (if they fought Guz publicly)
 - **Shinebright:** Ally (can call upon him for magical research, identifying items)
 - **Lorewarden Elric:** Very interested (wants to study wand's instability)
+
+\page
 
 ## Aeorian Echo Foreshadowing
 
@@ -6672,11 +5793,8 @@ Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast produ
 This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild. All other original material in this work is copyright 201 6 by Richard Jansen-Parkes and published under the Community Content Agreement for Dungeon Masters Guild.
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md -->
-
 ## Peril in Pinebrook
 
-<!-- FILE_START: ../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md -->
 ![A large, metallic silver dragon soars over a snow-covered mountain valley at sunrise or sunset. Its outstretched wings catch the light, creating lens-flare–like highlights, and its scaled body, spines, and hooked talons are rendered with detailed, reflective texture. Below, a herd of deer or elk scatters across snow, leaving trails behind them as the dragon casts a long shadow. The scene uses cool blues and purples for the snow and distant peaks, with warm pink and gold tones in the sky and on the dragon where the light hits. Key visual elements: - Silver, armored dragon with pronounced scales, spines, and a horned head - Large translucent wings with bright reflections and lens-flare effects - Snowy mountain landscape with pink-tinged trees and distant peaks - Herd of ungulates (deer/elk) running beneath, kicking up snow - Dramatic contrast of warm sunlight and cool, icy colors](./Peril_in_Pinebrook_COMPLETE_images/image_001.png)
 
 **PERIL**
@@ -6720,9 +5838,9 @@ Welcome to Dungeons & Dragons:
 **Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Pinebrook: Commerce and Conspiracy" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
@@ -8047,11 +7165,8 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 ![- A single blank sheet with a pale, icy-blue wash. - Subtle paper texture/grain visible across the surface. - Slightly darker blue vignette along the edges; no text, objects, or distinct features.](./Peril_in_Pinebrook_COMPLETE_images/image_134.png)
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md -->
-
 ## Temple of the Dragonknights
 
-<!-- FILE_START: ../Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md -->
 **Temple of the Dragonknights**
 
 ## Northwatch Wardens Integration (DM)
@@ -8059,9 +7174,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 **Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Temple of the Dragonknights: Heroic Tomb" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Temple of the Dragonknights: Heroic Tomb" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
@@ -8195,12 +7310,16 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - **Reputation:** Controversial — some see party as pragmatic, others as cowards
 - **Future hook:** Venomfang may become an ally (or betray party later)
 
+\page
+
 ### Path D: Destroy or Seal the Temple
 **Result:**
 - Collapse temple to deny access to magical convergence point
 - Venomfang escapes but loses her power base
 - **Aeorian Echo outcome:** Magical energy disperses (reduces regional instability)
 - **Lorewarden Elric's reaction:** Impressed ("You addressed the root problem, not just the symptom")
+
+\page
 
 ## Tactical Notes
 
@@ -8256,6 +7375,8 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - DC 13 Intimidation: Threaten her with superior force (must demonstrate combat prowess first)
 - DC 12 Deception: Trick her into believing party has dragon-slaying weapons
 
+\page
+
 ## Improvisation Toolkit
 
 ### If Players Get Stuck (Investigation Phase)
@@ -8282,6 +7403,8 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - Kobolds focus on capture, not killing (want to sacrifice prisoners)
 - Northcrest guards arrive as reinforcements (late but helpful)
 - Venomfang decides party isn't worth the effort and flies away (insult: "Not even worth eating")
+
+\page
 
 ## Rewards & Aftermath
 
@@ -8863,11 +7986,8 @@ Venomfang returns to her lair to find it in ruin, and one of her children is mis
 Sera returns to her home city of Waterdeep to report to Archmage Vysellon on the strange goings-on in the Dragonknight Temple.
 
 \page
-<!-- FILE_END: ../Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md -->
-
 # World Secrets
 
-<!-- FILE_START: ../World Building/DMEyesOnly/The_Aeorian_Echo.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -8875,7 +7995,7 @@ Sera returns to her home city of Waterdeep to report to Archmage Vysellon on the
 
 This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see the main World Building and Season 1 folders (excluding DM_Resources).
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book).
 }}
 
 # The Aeorian Echo: Campaign Master Document
@@ -8903,6 +8023,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ---
 
 ## Historical Background
+
+{{note
+**Cross-World Context:** Aeor originated in Exandria (Wildemount), but fragments fell through a dimensional rift into Aevoria during the Calamity. See **Chapter 6: The Dimensional Rift** for the complete explanation of how Aeorian ruins exist in multiple worlds. This document describes both the original fall (Exandria) and the current reactivation (Aevoria's Far North).
+}}
 
 ### Aeor Before the Fall
 
@@ -8954,7 +8078,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### Why Here?
 
 **Geological Reality:**
-- Northreach region lies directly south of main Eiselcross crash site
+- Northreach region lies directly south of The Far North crash site
 - Multiple Aeorian fragments impacted in the area
 - Underground connections still exist between facilities
 - Magical ley lines connect the sites
@@ -8996,7 +8120,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### The Trigger
 
 **Primary Cause:**
-- Recent increase in Eiselcross exploration
+- Recent increase in Far North exploration
 - Artifacts removed and transported south
 - Disturbance of sealed facilities
 - Magical interference with dormant systems
@@ -9496,7 +8620,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Collection:**
 - Uttolot operatives positioned in multiple settlements
-- Prioritize items from Eiselcross expeditions
+- Prioritize items from Far North expeditions
 - Specific instructions on what to acquire
 - Pay premium for biological samples
 
@@ -9587,7 +8711,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **The Calamity:**
 - Gods unite to destroy Aeor
 - City shattered mid-flight
-- Crashes into Eiselcross and surrounding regions
+- Crashes into Eiselcross (Exandria); fragments fall through dimensional rift into Aevoria's Far North
 - Most inhabitants killed
 - Some systems survive in stasis
 
@@ -9598,7 +8722,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Magical resonance slowly builds
 
 **Recent Years:**
-- Eiselcross exploration increases
+- Far North exploration increases
 - Artifacts removed and transported
 - First major disturbances in centuries
 - Entity begins awakening
@@ -9618,7 +8742,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Echo becomes detectable to sensitive individuals
 
 **Two Months Ago:**
-- Urgon returns from Eiselcross
+- Urgon returns from The Far North
 - Urgon's artifacts stolen
 - Frigid woe released in Palebank
 - Welton wolves behavior escalates
@@ -9939,7 +9063,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Temple of the Dragonknights (Mid-Late Game)
 
-**Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
+**Adventure Module:** See **Chapter 5: Temple of the Dragonknights**
 
 **Location:** Northwest mountains
 
@@ -10273,9 +9397,206 @@ Whatever happens, the players will have shaped Northreach's future through their
 — Lorewarden Elric Vael (private journal)
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/The_Aeorian_Echo.md -->
+# The Dimensional Rift: Aeor's Fall Across Worlds
 
-<!-- FILE_START: ../World Building/DMEyesOnly/People_Secrets.md -->
+**DM EYES ONLY — Campaign Lore Foundation**
+
+---
+
+## Overview
+
+**The Truth:** Aeorian technology and ruins in Aevoria are NOT native to this world. They are dimensional echoes from the fall of Aeor in Wildemount (Exandria), displaced across the planes during the city's catastrophic destruction.
+
+**In-World Framing:** No one in Aevoria knows this. To them, "Aeor" is simply an ancient civilization that existed in The Far North before some cataclysmic event buried it beneath the ice.
+
+---
+
+## What Actually Happened (The Rift Event)
+
+### The Fall of Aeor (Wildemount, Age of Arcanum)
+
+In Exandria's distant past, the flying city-state of **Aeor** challenged the gods themselves with weapons designed to kill divinity. The gods responded by casting down Aeor into the frozen wastes of Eiselcross, shattering the city into countless fragments.
+
+**But the destruction was so violent, so infused with divine and arcane power, that it ripped holes in the fabric of reality itself.**
+
+### The Dimensional Cascade
+
+As Aeor fell:
+- Massive arcane engines exploded mid-descent
+- Divine retribution collided with Aeorian anti-god weapons
+- The resulting magical shockwave created **dimensional rifts**—tears in the boundaries between worlds
+
+**Fragments of Aeor didn't just crash into Eiselcross. They crashed into MULTIPLE realities simultaneously.**
+
+One of those fragments—a massive section containing the research laboratory **Salsvault**—fell through a rift and landed in **The Far North of Aevoria**, hundreds or even thousands of years ago (the exact time is unclear; time flows differently between planes).
+
+### Why It Stayed Hidden
+
+The fragment that became Salsvault in Aevoria:
+- Landed deep beneath glaciers and permafrost
+- Was magically sealed/dormant for centuries
+- Had no supporting civilization or context (Aeor existed in Exandria, not Aevoria)
+- Appeared as strange, inexplicable ruins to anyone who found fragments
+
+**Until recently, when something triggered its reactivation.**
+
+---
+
+## The Aeorian Echo in Context
+
+### What IS the Aeorian Echo?
+
+The **Aeorian Echo** is the destabilization event caused by Salsvault's sudden reactivation ~2-3 months ago.
+
+When Salsvault's dormant systems powered back on:
+- Ancient arcane reactors restarted
+- Magical containment fields failed
+- Aeorian spores (frigid woe) leaked into the environment
+- A pulse of unstable arcane energy radiated outward across Northreach
+
+This pulse is the Echo—a cascading magical disturbance that affects:
+- Wildlife (Wolves of Welton: intelligence awakening)
+- Magical artifacts (Wild Sheep Chase: polymorph wand instability)
+- Ambient magic (Temple of Dragonknights: empowered rituals)
+- Spirits and guardians (Peril in Pinebrook: awakening of old protectors)
+
+### Why Did It Activate Now?
+
+**The trigger is unknown** (and can remain a mystery for future campaigns). Possible explanations:
+1. **Natural decay:** Containment seals finally failed after centuries
+2. **External trigger:** Someone or something intentionally activated it
+3. **Planar resonance:** A magical event in Exandria (Wildemount) resonated across the dimensional rift
+4. **Aeorian failsafe:** A pre-programmed reactivation sequence (Aeor's last revenge)
+
+**For Season One:** The "why" matters less than the "what now"—the Echo is spreading, and the Wardens must deal with its consequences.
+
+---
+
+## How This Explains Campaign Continuity
+
+### Overlap Between Worlds
+
+**Canonical Wildemount Content:** Adventures like *Frozen Sick* reference places and history from Exandria/Wildemount because they were WRITTEN for that setting.
+
+**Aevoria Adaptation:** Those references now make sense as **dimensional echoes**:
+- Names like "Aeor," "Uthodurn," and "Eiselcross" exist in legends and ancient texts found in Salsvault
+- Researchers in Aevoria (like Lorewarden Elric) have no context for these names—they're treating them as ancient languages or lost civilizations
+- Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
+
+### Major Differences Explained
+
+**Why Aevoria ≠ Exandria:**
+- Different continents, nations, pantheons, cultures
+- No Dwendalian Empire, no Kryn Dynasty, no Mighty Nein
+- The gods in Aevoria have different names and relationships
+- Magic works similarly but has different cultural contexts
+
+**But:** A fragment of Aeor exists in both worlds because it fell through the rift during its destruction.
+
+---
+
+## What Players Might Discover
+
+### Tier 1-2 (Season One): Surface Clues
+
+Players won't understand the dimensional aspect yet. They'll learn:
+- Salsvault is an ancient ruin of a civilization called "Aeor"
+- Aeor was destroyed in some cataclysm (the Calamity? A god-war? Unknown in Aevoria)
+- Aeorian magic is dangerous, advanced, and god-defying
+- The ruins are leaking magical contamination (the Aeorian Echo)
+
+**Key Item:** Players might find ancient texts or inscriptions in Salsvault that reference places like "Eiselcross" or "Uthodurn"—names that mean nothing to anyone in Aevoria. This creates mystery: *Where did this civilization come from?*
+
+### Tier 3-4 (Season Two+): Deeper Truths
+
+If campaigns continue:
+- Researchers (Lorewarden Elric, mages) might theorize about "planar displacement" or "dimensional echoes"
+- High-level divination magic could reveal glimpses of Aeor's fall in Exandria
+- Players could discover OTHER Aeorian fragments scattered across Aevoria (more ruins, more echoes)
+- The dimensional rift might still be unstable—could Aevoria be pulled into Exandria's conflicts?
+
+### Tier 5 (Epic Campaign): The Rift Itself
+
+If campaigns reach epic levels:
+- Players might discover the actual dimensional rift beneath The Far North
+- They could choose to **seal it** (preventing further contamination) or **stabilize it** (allowing controlled access to both worlds)
+- This opens the possibility of traveling between Aevoria and Exandria
+- Epic antagonists: Someone trying to weaponize the rift or summon Aeorian technology intentionally
+
+---
+
+## DM Guidance: Using This Lore
+
+### What to Reveal, When
+
+**Session 0-5 (Early Campaign):**
+- "Aeor" is just a name—ancient civilization, unknown origins
+- Salsvault is a ruin with dangerous magic
+- The Echo is a magical disturbance spreading across the region
+
+**Session 6-12 (Mid Campaign):**
+- Salsvault contains technology far beyond current Aevorian magic
+- Inscriptions reference places that don't exist in known geography
+- Some researchers theorize Aeor wasn't FROM Aevoria originally
+
+**Session 13+ (Late Campaign / Future Seasons):**
+- Evidence of dimensional displacement (planar residue, rift signatures)
+- Discovery of the actual rift site
+- Choice point: What do the Wardens do with this knowledge?
+
+### Improvisation Tips
+
+**If players ask "Where did Aeor come from?"**
+- Early campaign: "No one knows—it's lost to history."
+- Mid campaign: "The texts reference places that don't match any known maps."
+- Late campaign: "There are theories about planar displacement or dimensional rifts, but no proof."
+
+**If players try to research "Uthodurn" or "Eiselcross" in Aevoria:**
+- No libraries have records of these places
+- They sound like ancient names, possibly from Aeor's own language
+- Lorewarden Elric might theorize they're locations in Aeor's original homeland (wherever that was)
+
+**If players use high-level divination (Legend Lore, True Seeing, etc.):**
+- They might glimpse Aeor falling through the sky in a DIFFERENT world (snow-covered mountains, twin moons, etc.)
+- This creates mystery without giving away the full answer
+
+---
+
+## Why This Design Works
+
+### 1. Respects Source Material
+Published adventures like *Frozen Sick* remain usable without heavy rewrites—we're just recontextualizing the setting.
+
+### 2. Creates Mystery
+Players can engage with Aeorian ruins without knowing the full dimensional truth, making discoveries feel earned.
+
+### 3. Allows Flexibility
+DMs can:
+- Keep Aeor purely historical (never reveal the rift)
+- Make the rift a late-campaign reveal
+- Use the rift as a gateway to Exandria crossovers (optional)
+
+### 4. Explains Inconsistencies
+Any Wildemount-specific references in published material can be hand-waved as "ancient texts from Aeor's original world."
+
+---
+
+## Campaign Integration Checklist
+
+- [ ] Update *Frozen Sick* to use "The Far North" instead of "Eiselcross"
+- [ ] Replace "Uthodurn" references with "Syrinlya" (an Aevorian outpost)
+- [ ] Treat "Aeor" as an ancient, mysterious civilization (don't explain the rift yet)
+- [ ] Add inscriptions/texts in Salsvault referencing unfamiliar places
+- [ ] Have Lorewarden Elric express confusion about Aeorian geography ("These maps don't match anything we know")
+- [ ] Keep the rift itself a mystery for now—hint at it through evidence, but don't reveal it explicitly
+
+---
+
+**Last Updated:** February 10, 2026  
+**Campaign Status:** Foundational lore for Season One and beyond  
+**Player Knowledge:** None (this is DM-only background)
+
+\page
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -10283,7 +9604,7 @@ Whatever happens, the players will have shaped Northreach's future through their
 
 This document contains hidden NPC motivations, secret backgrounds, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # People of Northreach: DM Secrets
@@ -10366,7 +9687,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Has a contact in Palebank who reports unusual findings
 
-- Corresponds with someone in Uthodurn about Eiselcross
+- Corresponds with a northern contact about The Far North
 
 
 
@@ -10426,7 +9747,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Her old contacts occasionally provide useful (and dangerous) information
 
-- Recognizes Uttolot family connection to Eiselcross smuggling
+- Recognizes Uttolot family connection to Far North smuggling
 
 
 
@@ -10468,7 +9789,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (But Hasn't Shared):**
 
-- Uttolot family has been increasing Eiselcross operations
+- Uttolot family has been increasing Far North operations
 
 - Several Aeorian artifacts have been sold through specific channels
 
@@ -10569,7 +9890,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Occasionally corresponds with Cobalt Soul contacts (risky)
 
-- Has a contact at Uthodurn who provides Eiselcross findings
+- Has a northern contact who provides Far North findings
 
 
 
@@ -10577,7 +9898,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Aeor was developing biological weapons that couldn't be cured by divine magic
 
-- Multiple Aeorian facilities crashed in the Northreach/Eiselcross area
+- Multiple Aeorian facilities crashed in the Northreach/Far North region
 
 - The "Aeorian Echo" suggests something is reactivating ancient systems
 
@@ -11524,7 +10845,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Works for Uttolot criminal family
 
-- Stationed in Palebank to steal Eiselcross artifacts
+- Stationed in Palebank to steal Far North artifacts
 
 - Didn't know what she was stealing or why
 
@@ -12164,9 +11485,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 *Remember: These secrets should enhance the story, not overshadow the players. Reveal information at dramatically appropriate moments.*
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/People_Secrets.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/Places_Secrets.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -12174,7 +11492,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 This document contains hidden location features, dark histories, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe location information**, see `World Building/Regions/Northreach/Places_of_Northreach.md`
+**For player-safe location information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Places of Northreach: DM Secrets
@@ -12452,7 +11770,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Welton: Dark Undercurrents
 
-**Related Adventure:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../../../Season%201/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md) - "Wolves of Welton"
+**Related Adventure:** See **Chapter 5: Wolves of Welton**
 
 ### The Wolf Problem's True Nature
 
@@ -12717,7 +12035,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Pinebrook: Commerce and Conspiracy
 
-**Related Adventure:** [Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md](../../../Season%201/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md) - "Peril in Pinebrook"
+**Related Adventure:** See **Chapter 5: Peril in Pinebrook**
 
 ### The Trading Post's Hidden Business
 
@@ -12978,13 +12296,13 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
-### The Eiselcross Connection
+### The Far North Connection
 
 
 
 **Public Knowledge:**
 
-- Palebank is waypoint for Eiselcross expeditions
+- Palebank is waypoint for Far North expeditions
 
 - Explorers bring back artifacts
 
@@ -12994,7 +12312,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden Reality:**
 
-- SOMEONE is specifically targeting Eiselcross relics
+- SOMEONE is specifically targeting Far North relics
 
 - Using Palebank as collection point
 
@@ -13046,7 +12364,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Map with suspected crash sites marked
 
-- Unsent letter to Uthodurn scholar
+- Unsent letter to northern scholar
 
 
 
@@ -13738,7 +13056,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Temple of the Dragonknights: Heroic Tomb
 
-**Related Adventure:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../../../Season%201/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md) - "Temple of the Dragonknights"
+**Related Adventure:** See **Chapter 5: Temple of the Dragonknights**
 
 {{pageNumber,auto}}
 {{footnote [MarkdownFirstLevelHeading]}}
@@ -13879,7 +13197,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Noke's Tower: The Wizard's Arsenal
 
-**Related Adventure:** [Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md](../../../Season%201/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md) - "The Wild Sheep Chase"
+**Related Adventure:** See **Chapter 5: The Wild Sheep Chase**
 
 ### Shinebright's True Purpose
 
@@ -14785,9 +14103,6 @@ This document contains secret information about locations in the Northwatch Ward
 *Remember: Reveal these secrets gradually, rewarding player investigation and creativity. The full picture should emerge piece by piece, building to the dramatic conclusion.*
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/Places_Secrets.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/Nullwood_Secrets.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -14795,7 +14110,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 This document contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/03_Nullwood_Expanse.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Nullwood Expanse — DM Eyes Only
@@ -15496,9 +14811,6 @@ The Nullwood embodies campaign themes:
 — Lorewarden Elric Vael, after failed diplomatic mission
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/Nullwood_Secrets.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/The_Far_North_Secrets.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -15506,7 +14818,7 @@ The Nullwood embodies campaign themes:
 
 This document contains the truth about the Far North and the origin of the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/10_The_Far_North.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Far North: DM Secrets
@@ -16216,9 +15528,6 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 — Lorewarden Elric Vael (from his private journal)
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/The_Far_North_Secrets.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/Emberlands.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -16226,7 +15535,7 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 
 This document contains major campaign spoilers about the Emberlands. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/07_Emberlands.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Emberlands: DM Secrets
@@ -16827,9 +16136,6 @@ A major volcanic eruption uncovers ruins of unknown origin buried beneath layers
 *The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/Emberlands.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/ShatteredCoast.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -16837,7 +16143,7 @@ A major volcanic eruption uncovers ruins of unknown origin buried beneath layers
 
 This document contains the hidden truth about the maritime frontier. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/06_Shattered_Coast.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # 🌊 THE SHATTERED COAST — DM SECRETS
@@ -17251,9 +16557,6 @@ A lighthouse keeper goes missing, but the light continues to function. Investiga
 — Storm-Priest Veyara of Breakwater Haven
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/ShatteredCoast.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/StoneboundDepths.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -17261,7 +16564,7 @@ A lighthouse keeper goes missing, but the light continues to function. Investiga
 
 This document contains DM-only secrets about the Stonebound Dwarves. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/04_Stonebound_Depths.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Stonebound Depths: DM-Only Secrets
@@ -17982,11 +17285,9 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 ## DM-Only Information
 
-**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are located in:
+**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are provided below.
 
-**`World Building/DMEyesOnly/StoneboundDepths.md`**
-
-This file contains:
+This section contains:
 - The hidden truth about the Deep Roots and Heartstone
 - Eclipse Day's real significance
 - Connection to the Aeorian Echo
@@ -18048,9 +17349,6 @@ This file contains:
 — Deep-Reader Borin Stonescript, contemplating new seismic patterns
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/StoneboundDepths.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/SunkenDominion.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -18058,7 +17356,7 @@ This file contains:
 
 This document contains DM-only secrets about the Sunken Dominion. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/09_Sunken_Dominion.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Sunken Dominion: DM-Only Secrets
@@ -18707,7 +18005,7 @@ They've been buying more aggressively since Eclipse Day.
 
 ## Secrets & Mysteries
 
-**For DM Use:** See `World Building/DMEyesOnly/SunkenDominion.md` for the hidden truth about the Dominion's true nature.
+**For DM Use:** The following section contains the hidden truth about the Dominion's true nature.
 
 ### Surface-Level Mysteries
 - What civilization built the Dominion?
@@ -18731,9 +18029,6 @@ The truth about the Dominion is more alien than anyone suspects. It was never a 
 — Captain Mira Saltwind
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/SunkenDominion.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/VerdantMarches.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -18741,7 +18036,7 @@ The truth about the Dominion is more alien than anyone suspects. It was never a 
 
 This document contains the hidden truth about the Verdant Marches and their role in the Aeorian Echo mystery. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/08_Verdant_Marches.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Verdant Marches — DM-Only Secrets
@@ -19253,9 +18548,6 @@ The Marches ask fundamental questions:
 — Archdruid Mora Greenleaf of Greenwatch Enclave
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/VerdantMarches.md -->
-
-<!-- FILE_START: ../World Building/DMEyesOnly/Vharoxis.md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -19263,7 +18555,7 @@ The Marches ask fundamental questions:
 
 This document contains the hidden truth about the City of Masks. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/05_Vharoxis.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # 🎭 VHAROXIS — DM SECRETS
@@ -19855,21 +19147,17 @@ Criminal networks spreading corruption. Artifact trafficking endangering everyon
 — Lorewarden Elric Vael, Northwatch Wardens
 
 \page
-<!-- FILE_END: ../World Building/DMEyesOnly/Vharoxis.md -->
-
 # Appendix: Reference Materials
 
-<!-- FILE_START: ../Season 1/The_Story_So_Far.md -->
 # Northwatch Wardens: Season One — The Story So Far
 
 Use this as the living continuity log for actual play. Update it after each session.
 
 
 ## Quick Links
-- [Campaign Table of Contents](Campaign_ToC.md)
-- [Session Prep Guide](DM_Resources/Session_Prep_Guide.md)
-- [Campaign Tracker (blank)](DM_Resources/Campaign_Tracker_BLANK.md)
-- [Campaign Tracker (filled)](DM_Resources/Campaign_Tracker.md)
+- **Chapter 3: Campaign Overview** — Core structure and flow
+- **Chapter 4: DM Resources** — Session prep guidance and tools
+- **Chapter 4: Campaign Tracker** — Use the blank or filled tracker in this chapter
 
 ---
 
@@ -20018,9 +19306,6 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
 
 \page
-<!-- FILE_END: ../Season 1/The_Story_So_Far.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/Session_Prep_Guide.md -->
 {{note
 ##### 📋 DUNGEON MASTER RESOURCE
 
@@ -20028,7 +19313,7 @@ Use this section as a quick reference for what the prepared material covers. Rep
 
 This document contains DM tools and guidance for running Northwatch Wardens sessions. Some sections reference campaign secrets.
 
-**For campaign spoilers**, see `Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md`
+**For campaign spoilers**, see **Chapter 4: Campaign Arc**
 }}
 
 # Northwatch Wardens: DM Session Prep Guide
@@ -20157,7 +19442,7 @@ CHOICE POINT:
 
 ## Session Zero: Critical Setup
 
-> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **[SESSION 0 QUICK START GUIDE](../SESSION_0_QUICK_START.md)** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
 
 ### Player Character Ties to Waystone Inn
 
@@ -20464,9 +19749,6 @@ CHOICE POINT:
 The campaign will flow naturally. Trust your prep, let players drive choices, and enjoy the frontier!
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/Session_Prep_Guide.md -->
-
-<!-- FILE_START: ../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md -->
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 
@@ -20474,7 +19756,7 @@ The campaign will flow naturally. Trust your prep, let players drive choices, an
 
 This document contains NPCs organized by location with some secret details. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe NPC information**, see `World Building/Regions/Northreach/People_of_Northreach.md`
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Northwatch Wardens
@@ -20488,7 +19770,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 ### Notes
 
 - Synthesized from your campaign XML + DM roster notes; summaries are intentionally **original**.
-- Portraits are shown when available in `Season 1/Campaign Assets/Images`.
+- Portraits are shown when available.
 
 \page
 
@@ -20908,5 +20190,3 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 - Ferol Sal, Venomfang, Old Croaker, constructs/undead, polymorphed animals, etc.
 
 \page
-<!-- FILE_END: ../Season 1/DM_Resources/NPC Roster — By Location & Adventure (DM).md -->
-

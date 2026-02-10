@@ -5,7 +5,7 @@
 
 This document contains the hidden truth about the Verdant Marches and their role in the Aeorian Echo mystery. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/08_Verdant_Marches.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Verdant Marches — DM-Only Secrets

@@ -238,57 +238,22 @@ All Wardens shall:
 
 ---
 
-## Campaign Assets & Files
+## Campaign Assets
 
-### Structure
-```
-Season 1/
-├── Northwatch_Wardens.xml          (GM5e compendium, import-ready)
-├── Adventures/
-│   ├── Opening/
-│   │   ├── Open Skirmish.md
-│   │   ├── THE MORNING AFTER.md
-│   │   └── Wolves - Contract.md
-│   ├── Wolves_Of_Welton/
-│   │   ├── 5E_Wolves_Of_Welton.md
-│   │   ├── 5E_Wolves_Of_Welton.json
-│   │   ├── Wolves_Of_Welton_Printer_Friendly.md
-│   │   └── 5E_Wolves_Of_Welton_images/
-│   ├── Frozen Sick/
-│   │   ├── Frozen Sick.md
-│   │   └── images/
-│   ├── Temple_of_the_Dragonknights/
-│   │   ├── Temple_of_the_Dragonknights.md
-│   │   ├── Temple_of_the_Dragonknights.json
-│   │   └── images/
-│   ├── The_Wild_Sheep_Chase_V2/
-│   │   ├── 892902-The_Wild_Sheep_Chase_V2.md
-│   │   ├── 892902-The_Wild_Sheep_Chase_V2.json
-│   │   └── images/
-│   └── Peril_in_Pinebrook_COMPLETE/
-│       ├── Peril_in_Pinebrook_COMPLETE.md
-│       ├── Peril_in_Pinebrook_COMPLETE.json
-│       └── Peril_in_Pinebrook_COMPLETE_images/
-└── Campaign Assets/
-  ├── THE NORTHWATCH WARDENS - Charter.md     (pointer to canonical charter)
-  ├── THE NORTHWATCH WARDENS - Charter.json   (pointer to canonical charter)
-    ├── DM Guild Roster.md                      (NPC secrets & campaign ties)
-    └── NORTHWATCH WARDENS - Campaign Arc.md    (how adventures interlock)
+This campaign includes adventure modules, DM resources, and world secrets organized into chapters in this guide. Core assets include:
 
-World Building/
-└── Organizations/
-  └── Northwatch_Wardens/
-    ├── THE NORTHWATCH WARDENS - Charter.md     (canonical charter source)
-    └── THE NORTHWATCH WARDENS - Charter.json   (canonical charter source)
-```
+- The Northwatch Wardens charter (earlier in this book)
+- The DM Guild Roster and Campaign Arc (Chapter 4)
+- Adventure modules and stat blocks (Chapter 5)
+- World secrets and mystery framework (Chapter 6)
 
 \page
 
-### Key Files
+### Key References
 - **Charter**: See the Northwatch Wardens charter earlier in this book
 - **NPC Secrets**: See **Chapter 4: DM Guild Roster**
 - **Mystery Framework**: See **Chapter 4: Campaign Arc**
-- **Stat Blocks**: JSON files in each adventure folder
+- **Stat Blocks**: Included within each adventure in **Chapter 5**
 
 ---
 
@@ -315,18 +280,18 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 
 ### Before Each Session
 1. **Pick an adventure** — Choose based on party level or let players select from posted contracts
-2. **Review adventure secrets** — Check `Adventure_Secrets_Quick_Reference.md` for relevant world secrets
-3. **Review the NPC secrets** — Check `DM Guild Roster.md` for relevant character motivations
+2. **Review adventure secrets** — See **Chapter 6: World Secrets** for relevant clues
+3. **Review NPC secrets** — See **Chapter 4: DM Guild Roster** for motivations
 4. **Note the mystery clue** — Each adventure hints at the Aeorian Echo; decide what party discovers
 5. **Scale for party size** — 2 players = tighter encounters; 5 players = add reinforcements
 6. **Prepare battle maps** — Use markdown descriptions or generate tactical maps externally
 
 ### Before Campaign Start
-1. **Read the Campaign Arc** — Understand how adventures interlock (`NORTHWATCH WARDENS - Campaign Arc.md`)
-2. **Review Adventure Secrets** — Familiarize with the connection system (`Adventure_Secrets_Quick_Reference.md`)
+1. **Read the Campaign Arc** — Understand how adventures interlock (Chapter 4)
+2. **Review Adventure Secrets** — Familiarize with the connection system (Chapter 6)
 3. **Familiarize yourself** — Review charter, leadership, and NPCs
 4. **Decide play order** — Adventures are order-independent; many DMs start with Wolves of Welton
-5. **Import or reference** — Load XML into GM5e or use markdown + JSON files directly
+5. **Prepare your materials** — Print key maps and handouts you plan to use
 
 ---
 
@@ -388,7 +353,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ### Scalable Encounters
 - Each adventure includes guidance for adjusting CR and encounter size
-- JSON stat blocks note "minion" variants for swarms
+- Stat blocks note "minion" variants for swarms
 - Recommended: Add 1 extra monster per additional PC beyond 3
 
 ---
@@ -397,7 +362,6 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ## Content & Licensing
 
-- Compile your own D&D Beyond purchases into the XML
 - Markdown files are original or derived from your licensed content
 - Do not redistribute third-party stat blocks or descriptions verbatim
 - Use as personal campaign material
@@ -409,7 +373,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 - **Charter**: See the Northwatch Wardens charter earlier in this guide
 - **NPC Secrets & Campaign Ties**: See **Chapter 4: DM Guild Roster**
 - **Mystery Framework & Adventure Interlock**: See **Chapter 4: Campaign Arc**
-- **Stat Blocks** (parseable): JSON files in each adventure folder
+- **Stat Blocks**: Included within each adventure in **Chapter 5**
 
 ---
 

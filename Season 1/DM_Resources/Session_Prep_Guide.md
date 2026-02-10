@@ -5,7 +5,7 @@
 
 This document contains DM tools and guidance for running Northwatch Wardens sessions. Some sections reference campaign secrets.
 
-**For campaign spoilers**, see `Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md`
+**For campaign spoilers**, see **Chapter 4: Campaign Arc**
 }}
 
 # Northwatch Wardens: DM Session Prep Guide

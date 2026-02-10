@@ -38,12 +38,22 @@ Welcome to Dungeons & Dragons:
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐ (Secondary — Human Cost & Smuggling)
+
+**Campaign Arc:** Frontier Consequences — The Ripple Effects
+
 **Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
+**Prerequisite Adventures:** None (works as standalone or side quest)
+
+**Leads To:**
+- **Future campaigns:** Artifact smuggling networks (Uttolot family conspiracy)
+- Demonstrates that every settlement is vulnerable to Echo effects
+
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/Places_Secrets.md](../../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Pinebrook: Commerce and Conspiracy" section
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
 
 **Key Secrets:**
 - Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
@@ -53,6 +63,39 @@ Welcome to Dungeons & Dragons:
 - This is a **smuggling hub** moving dangerous artifacts through the frontier
 
 **Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Frontier Vulnerability:**
+- Even "safe" settlements like Pinebrook are affected by rising tensions and instability
+- **Discovery Method:** Observing town dynamics, NPC conversations, crime investigation
+- **Investigation DC 12 (Insight):** "People are more desperate, more frightened than usual — something has changed"
+- **Connects to:** Campaign theme — no place is truly safe from the Echo's effects
+
+**Secondary Clue — Artifact Smuggling (Optional):**
+- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
+- **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
+- **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
+- **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
+
+**Tertiary Clue — Information Brokering:**
+- Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
+- **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
+- **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
+- **Connects to:** Black market networks responding to Aeorian discoveries
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. The Aeorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
+2. Opportunists are exploiting the chaos (smuggling, profiteering, corruption)
+3. Frontier settlements lack resources to handle escalating problems
+4. The Northwatch Wardens' role is vital for maintaining stability
+
+**Questions left unanswered:**
+- Who is coordinating the artifact smuggling? (Uttolot family, future campaigns)
+- Where are the artifacts going? (Collectors, factions, researchers)
+- How widespread is the black market? (Regional scale)
 
 ---
 

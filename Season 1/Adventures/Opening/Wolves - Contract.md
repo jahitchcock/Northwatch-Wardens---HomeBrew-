@@ -1,5 +1,7 @@
 **Contract: W‑17 — Disturbance Near Welton**
 
+**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. See [5E_Wolves_Of_Welton.md](../Wolves_Of_Welton/5E_Wolves_Of_Welton.md) for full adventure details and mystery integration.
+
 **Issuing Party:**
 Welton Village Council, Northreach Frontier
 

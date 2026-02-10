@@ -5,7 +5,7 @@
 
 This document contains the truth about the Far North and the origin of the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/10_The_Far_North.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Far North: DM Secrets

@@ -1,5 +1,7 @@
 # The Morning After: A Warden's First Duty
 
+**Campaign Note (DM):** This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
+
 {{wide
 A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
 }}

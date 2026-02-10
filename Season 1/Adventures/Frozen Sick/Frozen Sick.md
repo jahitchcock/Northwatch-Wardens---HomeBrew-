@@ -2,6 +2,85 @@
 
 \page
 
+## Northwatch Wardens Integration (DM)
+
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Revelation Adventure)
+
+**Campaign Arc:** The Hidden Truth — Discovering Salsvault
+
+**Campaign Connection:** This is the **revelation adventure** where players discover the source of all magical disturbances. Salsvault, a buried Aeorian laboratory, has reactivated and is leaking deadly spores and transformative magic.
+
+**Prerequisite Adventures:** 
+- Enhanced if players completed Wolves of Welton (recognize connection to Alexi's death)
+- Enhanced if players completed Wild Sheep Chase (Shinebright can provide research assistance)
+
+**Leads To:**
+- **Temple of Dragonknights** (magical convergence points attract predators)
+- All future adventures (Salsvault remains active, continuing threat)
+
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **Chapter 6: Places Secrets** — "Salsvault: The Frozen Laboratory" section
+- **Chapter 6: The Far North Secrets** — Regional context
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
+
+**Key Secrets:**
+- Salsvault's activation killed Alexi Merriksonn via magical feedback (Wolves of Welton connection)
+- The reactivation was NOT accidental — someone or something triggered it deliberately
+- Aeorian spores are both deadly (frigid woe) and transformative (wolf awakening)
+- Salsvault is still operational and will continue causing problems
+- The ruins contain both weapons and potential solutions to the Echo
+
+**Player Discovery:** This adventure should feel like pieces clicking into place — the wolves, Alexi, the magical instability, all trace back to Salsvault. The mystery shifts from "what is happening?" to "why did it activate, and how do we stop it?"
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Salsvault Is the Source:**
+- Urgon and Verla died from frigid woe contracted at Salsvault ruins
+- **Discovery Method:** Elro's briefing, Urgon's journal, physical evidence
+- **Investigation DC 10 (Medicine):** "This disease is magical in origin, not natural"
+- **Connects to:** ALL previous adventures — this is the answer to "what caused it?"
+
+**Secondary Clue — Activation Timeline:**
+- Salsvault became active 2-3 months ago, matching Alexi's death and wolf awakening
+- **Discovery Method:** NPC testimony, journal entries, magical residue dating
+- **Investigation DC 14 (Arcana/History):** "Something triggered this facility to wake after centuries dormant"
+- **Connects to:** Wolves of Welton (direct causal link established)
+
+**Tertiary Clue — Aeorian Weapons Lab:**
+- Salsvault was a bio-weapons research facility during the Age of Arcanum
+- **Discovery Method:** Exploring ruins, inscriptions, laboratory equipment
+- **Investigation DC 15 (History):** "Aeor created this to fight the gods — it's designed to kill immortals"
+- **Connects to:** Campaign-wide implications (dangerous artifacts exist, factions want them)
+
+**Critical Clue — Deliberate Activation:**
+- Evidence in Salsvault suggests the facility didn't reactivate randomly — it was *triggered*
+- **Discovery Method:** Investigation DC 16 in control rooms, Arcana DC 17 to analyze activation sequence
+- **Discovery:** "The startup sequence was initiated manually — someone knew what they were doing"
+- **Connects to:** Future campaigns (WHO triggered it, and WHY?)
+
+**Hidden Clue — Other Aeorian Sites:**
+- Maps or logs in Salsvault reference other Aeorian facilities across Northreach and beyond
+- **Discovery Method:** Thorough exploration, language comprehension (Celestial/Draconic for old inscriptions)
+- **Discovery:** "Salsvault is one of dozens of research stations — and they're all networked"
+- **Connects to:** Campaign scope expansion (the problem is bigger than one ruin)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. ✅ **MYSTERY SOLVED:** Salsvault reactivation caused all magical disturbances
+2. ✅ Wolf awakening, Alexi's death, frigid woe, magical instability — all connected to Salsvault
+3. ⚠️ **NEW MYSTERY:** Salsvault didn't wake randomly — someone triggered it deliberately
+4. ⚠️ **ESCALATION:** Salsvault is still active and will continue causing problems
+5. ⚠️ **SCOPE:** Other Aeorian facilities exist and may be similarly dangerous
+
+**Questions left unanswered (campaign-wide implications):**
+- Who triggered Salsvault, and why? (Long-term mystery)
+- How can Salsvault be deactivated? (Requires specialized knowledge/power)
+- What are the other Aeorian facilities, and are they active? (Future adventures)
+- What was Aeor really trying to accomplish? (Lore deep-dive)
+
+---
+
 # DM Notes: Frozen Sick
 
 ## Adventure Overview
@@ -428,9 +507,9 @@ This sets up Temple of the Dragonknights as the next adventure.
 **Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
 
 **DM Secret Resources:** For the truth behind this adventure, see:
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
-- **[World Building/DMEyesOnly/Northreach.md](../../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Far_North_Secrets.md](../../../World%20Building/DMEyesOnly/The_Far_North_Secrets.md)** - Salsvault details
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Far North Secrets** — Salsvault details
 
 **Key Secrets:**
 - Salsvault is an **active Aeorian facility** leaking magical energy into the region

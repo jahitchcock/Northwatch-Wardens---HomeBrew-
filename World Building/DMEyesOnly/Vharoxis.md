@@ -5,7 +5,7 @@
 
 This document contains the hidden truth about the City of Masks. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/05_Vharoxis.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # 🎭 VHAROXIS — DM SECRETS

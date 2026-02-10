@@ -5,7 +5,7 @@
 
 This document contains DM-only secrets about the Stonebound Dwarves. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see `World Building/Regions/04_Stonebound_Depths.md`
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Stonebound Depths: DM-Only Secrets
@@ -726,11 +726,9 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 ## DM-Only Information
 
-**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are located in:
+**For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are provided below.
 
-**`World Building/DMEyesOnly/StoneboundDepths.md`**
-
-This file contains:
+This section contains:
 - The hidden truth about the Deep Roots and Heartstone
 - Eclipse Day's real significance
 - Connection to the Aeorian Echo

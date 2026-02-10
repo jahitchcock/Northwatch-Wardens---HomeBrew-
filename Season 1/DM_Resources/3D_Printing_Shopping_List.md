@@ -488,79 +488,45 @@ Organize your STL files into folders:
 
 \page
 
-## 🗂️ Your Existing STL Candidates (From `E:\downloads` + `C:\Users\joshu\OneDrive\3dfiles`)
+## 🗂️ STL Inventory Check (Optional)
 
-These are **likely-good matches already on disk** (based on filename/path keywords). Full categorized report is in `3d_candidate_report_v2.txt`.
+If you already have a personal STL library, search it by keywords before buying anything new. Suggested categories:
 
-### Resin Candidates (Miniatures)
+### Miniatures
 
-**Wolves / Winter Wolves**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Familiars and Beast Pre-Supported\Core Set\Wolf\Wolf Action\Wolf Action STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Familiars and Beast Pre-Supported\Core Set\Wolf\Wolf Casual\Wolf Casual STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Animals\Wolf\Wolf.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Beast\Winter Wolf STL.stl`
+- **Wolves / Winter Wolves**
+- **Kobolds** (archer, spear, caster)
+- **Bandits / Cultists**
+- **Young Green Dragon** (Venomfang proxy)
 
-**Kobolds**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Kobolds\Kobold_archer\Kobold_archer.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Kobolds\Kobold_spear\Kobold_spear.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Hopless Cavern\Kobold Witch Doctor.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Hopless Cavern\Kobold Wizard.stl`
+### Terrain and Big Pieces
 
-**Bandits / Cultists (Humanoid enemies)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit_axe.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit2_archer.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\BriteMini\older STLs\Human soldiers\bandits\bandit2_swordsman.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistA.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistB.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Miniatures\Kingdoms of Hell Miniatures\CultistC.stl`
-
-**Young Green Dragon (Venomfang proxy)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\Your Neighbor Knight\May 2022\Green_Dragon by YNK Minis\Green Dragon.stl`
-
-### FDM Candidates (Terrain + Buildings + Big Pieces)
-
-**Tavern / Inn / Buildings**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-floor_01lh.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-roof.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Tavern\tavern-floor_no-doors.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\dwarverninnbuilding\Dwarven Inn Building\Building.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\dwarverninnbuilding\Dwarven Inn Building\Roof.stl`
-
-**Trees / Forest scatter**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Tree Straight STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Tree Leaning STL.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\MiaKay\PRE-SUPPORTED STLs\Scatter Terrain - Complete Collection\Stretch Goals\Large Bush STL - Supportless.stl`
-
-**Wizard Tower stand-in (Noke's Tower)**
-- `C:\Users\joshu\OneDrive\3dfiles\606df4f71f663_fates-end-dice-tower-free-wizard-tower\wizard-dice-v5-4.stl`
-- `C:\Users\joshu\OneDrive\3dfiles\606df4f71f663_fates-end-dice-tower-free-wizard-tower\wizard-dice-roof-v5-4.stl`
-
-**Cult scene props (FDM-friendly)**
-- `C:\Users\joshu\OneDrive\3dfiles\Games\RPG\Patreon\Hayland Dungeons And Monsters 3\cultistsroom\Cultists Room - Done\Summoning Circle.stl`
+- **Tavern / Inn buildings**
+- **Trees / forest scatter**
+- **Wizard tower stand-in**
+- **Cult scene props**
 
 ---
 
-## ✅ Miniatures We *Didn’t* Find Files For (Local STL Audit)
+## ✅ Common Minis That Often Need Proxies
 
-These were searched by filename keywords across `E:\downloads` and `C:\Users\joshu\OneDrive\3dfiles`.
-
-### Missing (no obvious local STL match)
+### Missing or Rare
 - **Piercer** (Temple of the Dragonknights)
 - **Giraffe** (Wild Sheep Chase spell chaos)
 
-### Proxy-only (local STLs exist, but not the exact sculpt)
-- **Armored Wolves / Intelligent Wolves / Awakened Wolf / Awakened Wolf Alpha / Corrupted Wolf** (use your wolf/dire wolf/winter wolf sculpts)
-- **Winged Kobold** (likely needs a dedicated winged kobold; otherwise proxy with any small winged creature)
-- **Kobold Cultist Variant** (proxy with a kobold caster or small cultist)
-- **Elf Bandits** / **Bandits** (proxy with generic bandits/rogues)
-- **Dragon Cultists / Cult Fanatics / Cultist of Tiamat** (proxy with generic cultists/acolytes)
+### Proxy-Friendly
+- **Armored Wolves / Intelligent Wolves / Awakened Wolf Alpha** (use wolf/dire wolf/winter wolf sculpts)
+- **Winged Kobold** (proxy with any small winged creature)
+- **Kobold Cultist Variant** (proxy with kobold caster or small cultist)
+- **Elf Bandits / Bandits** (proxy with generic bandits/rogues)
+- **Dragon Cultists / Cult Fanatics** (proxy with generic cultists/acolytes)
 - **Infected Priestess** (proxy with priest/priestess)
 - **Aeorian Security Construct** (proxy with any golem/construct)
 - **Amphibious Monstrosities** (proxy with frog/toad/ankheg/owlbear/bulette)
-- **Apes with Greatswords** (if you don’t already have an ape/gorilla mini, you’ll likely want a proxy or a new STL)
+- **Apes with Greatswords** (proxy with ape/gorilla)
 - **Polymorphed Furniture Dragon** (proxy with mimic/bed mimic or a wyrmling)
-- **Quippers** (proxy with fish/swarm tokens if you don’t want tiny prints)
-- **Guild + Village NPCs** (you have strong *role-based* matches like “Female Fighter”, “Human Merchant/Rogue”, “Elf Wizard”, etc.; only “missing” if you want exact named sculpts)
+- **Quippers** (proxy with fish/swarm tokens)
+- **Guild + Village NPCs** (use role-based humanoid minis)
 
 ---
 

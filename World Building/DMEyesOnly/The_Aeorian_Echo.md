@@ -5,7 +5,7 @@
 
 This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
 
-**For player-safe content**, see the main World Building and Season 1 folders (excluding DM_Resources).
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book).
 }}
 
 # The Aeorian Echo: Campaign Master Document
@@ -35,7 +35,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## Historical Background
 
 {{note
-**Cross-World Context:** Aeor originated in Exandria (Wildemount), but fragments fell through a dimensional rift into Aevoria during the Calamity. See **The_Dimensional_Rift.md** for the complete explanation of how Aeorian ruins exist in multiple worlds. This document describes both the original fall (Exandria) and the current reactivation (Aevoria's Far North).
+**Cross-World Context:** Aeor originated in Exandria (Wildemount), but fragments fell through a dimensional rift into Aevoria during the Calamity. See **Chapter 6: The Dimensional Rift** for the complete explanation of how Aeorian ruins exist in multiple worlds. This document describes both the original fall (Exandria) and the current reactivation (Aevoria's Far North).
 }}
 
 ### Aeor Before the Fall

@@ -19,7 +19,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 ### Notes
 
 - Synthesized from your campaign XML + DM roster notes; summaries are intentionally **original**.
-- Portraits are shown when available in `Season 1/Campaign Assets/Images`.
+- Portraits are shown when available.
 
 \page
 
