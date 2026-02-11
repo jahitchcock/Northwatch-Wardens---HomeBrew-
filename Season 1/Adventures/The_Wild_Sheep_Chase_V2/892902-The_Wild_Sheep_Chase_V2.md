@@ -6,7 +6,11 @@ A fourth/fifth level adventure for D&D 5E
 
 **Mystery Rating:** ⭐⭐⭐ (Significant — Magical Destabilization Pattern)
 
-**Campaign Arc:** Rising Chaos — Magic Misbehaving
+**Campaign Arc:** Arc 2: Revelation — The Hidden Truth
+
+**Arc Position:** Part 2 of 2 in Arc 2
+
+**Arc Progress Notes:** This adventure demonstrates that the Aeorian Echo's effects extend beyond biological transformations to magical items and spellwork. Combined with Frozen Sick, players complete Arc 2 understanding that Salsvault's activation is causing widespread magical instability. The discovery of Shinebright (Finethir) as a potential ally closes the arc with both answers and new questions, setting up Arc 3's faction conflicts.
 
 **Campaign Connection:** This adventure shows **magic destabilizing** across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
 

@@ -4,7 +4,11 @@
 
 **Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
 
-**Campaign Arc:** Opening Mystery — The First Sign
+**Campaign Arc:** Arc 1: First Signs — Learning the Land
+
+**Arc Position:** Part 1 of 2 in Arc 1
+
+**Arc Progress Notes:** This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
 
 **Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
 

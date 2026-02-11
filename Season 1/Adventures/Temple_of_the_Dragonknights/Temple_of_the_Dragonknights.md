@@ -4,7 +4,11 @@
 
 **Mystery Rating:** ⭐⭐⭐⭐ (High — Faction Response & Convergence)
 
-**Campaign Arc:** Escalation — Predators Gathering
+**Campaign Arc:** Arc 3: Convergence — Rising Threats
+
+**Arc Position:** Part 1 of 1 in Arc 3 (Season 1 capstone)
+
+**Arc Progress Notes:** This adventure demonstrates that dangerous factions (dragons, cults, ambitious wizards) are now aware of and exploiting the Aeorian Echo. Players complete Arc 3 understanding that the frontier has become a battleground where multiple forces converge to claim ancient power. The Wardens' role evolves from investigators to protectors who must decide how to handle the growing threat. This sets up future seasons where the mystery shifts from "what is it?" to "who controls it?"
 
 **Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
 
