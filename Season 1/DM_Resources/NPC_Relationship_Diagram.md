@@ -8,222 +8,99 @@ This document shows the web of relationships between NPCs across Season One. **D
 
 # NPC Relationship Web — Season One
 
-This diagram shows the major relationships and connections between NPCs in the Northwatch Wardens campaign. Use this to understand how NPCs know each other and create dynamic interactions.
+This document maps the major relationships and connections between NPCs in the Northwatch Wardens campaign. Use this to understand how NPCs know each other and create dynamic interactions.
 
-## Visual Diagram
+\page
 
-```mermaid
-graph TB
-    %% Guild Leadership
-    Brenna[Marshal Brenna Thorne<br/>Field Commander]
-    Mara[Steward Mara Fenwick<br/>Quartermaster]
-    Elric[Lorewarden Elric Vael<br/>Arcane Scholar]
-    
-    %% Wardens - Trailwardens
-    Corel[Corel<br/>Senior Shepherd]
-    Bordel[Bordel Barleywind<br/>Ranger]
-    Rowan[Rowan Fairweather<br/>Druid]
-    Mila[Mila Teno<br/>Rookie Scout]
-    
-    %% Wardens - Lantern Guard
-    Takk[Takk Oaksplitter<br/>Barbarian]
-    Galvena[Galvena Aballon<br/>Paladin]
-    Ariodh[Ariodh Highwhirl<br/>Monk]
-    Guz[Guz<br/>Reformed Thug]
-    
-    %% Wardens - Lorewatch
-    Sera[Sera Gelanadel<br/>Apprentice Wizard]
-    Aurixean[Aurixean Valignaak<br/>Dragonborn Sorcerer]
-    Shinebright[Finethir Shinebright<br/>Polymorphed Wizard]
-    Baleth[Baleth Cindermoon<br/>Tiefling Warlock]
-    
-    %% Wardens - Hearthwardens
-    Flynt[Flynt Wymblen<br/>Gnome Bard]
-    
-    %% Welton NPCs
-    Johan[Father Johan Merriksonn<br/>Village Priest]
-    Alexi[Alexi Merriksonn<br/>Missing Sorcerer]
-    Willen[Willen Featherock<br/>Traumatized Shepherd]
-    Tillus[Tillus Merrion<br/>Council Member]
-    Leanor[Leanor Slatebeard<br/>Innkeeper]
-    Banteth[Banteth Slatebeard<br/>Innkeeper]
-    
-    %% Awakened Wolves
-    Bolt[Bolt<br/>Alpha Wolf - Diplomatic]
-    Flame[Flame<br/>Alpha Wolf - Aggressive]
-    
-    %% Pinebrook NPCs
-    Emmajeen[Captain Emmajeen Kole<br/>Guard Captain]
-    Rorn[Hysvearorn "Rorn"<br/>Adult Silver Dragon]
-    
-    %% Palebank NPCs
-    Elro[Elro Aldataur<br/>Village Leader]
-    Verla[Verla Pelc<br/>Merchant]
-    Urgon[Urgon<br/>Blacksmith - Deceased]
-    Tulgi[Tulgi<br/>Healer]
-    
-    %% Croaker Cave NPCs
-    Hulil[Hulil Lutan<br/>Cult Operative]
-    Raegrin[Raegrin Mau<br/>Cult Lieutenant]
-    
-    %% Salsvault NPCs
-    Morgo[Morgo Delwur<br/>Guide]
-    Orvo[Orvo Mustave<br/>Survivor]
-    Buyer[The Buyer<br/>Relic Broker]
-    
-    %% Noke's Tower NPCs
-    Noke[Ahmed Noke<br/>Antagonist Wizard]
-    
-    %% Temple NPCs
-    Joel[Joel Andersmith<br/>Grieving Father]
-    Clementine[Clementine Andersmith<br/>Kidnapped Child]
-    Venomfang[Venomfang<br/>Green Dragon]
-    
-    %% Leadership Connections
-    Brenna ---|Command Structure| Mara
-    Brenna ---|Command Structure| Elric
-    Mara ---|Command Structure| Elric
-    
-    %% Brenna's Connections
-    Brenna ---|Former Comrades - Greywinter Hunts| Corel
-    Brenna ---|Knows - Decades Ago| Shinebright
-    Brenna ---|Suspects Magic| Bolt
-    
-    %% Mara's Connections
-    Mara ---|Criminal Past - Uttolot Family| Verla
-    Mara ---|Trading Contact| Emmajeen
-    
-    %% Elric's Connections
-    Elric ---|Studies Anomalies| Sera
-    Elric ---|Prophetic Dreams| Venomfang
-    Elric ---|Recognizes Relics| Buyer
-    Elric ---|Fascinated By| Shinebright
-    
-    %% Corel's Connections
-    Corel ---|Respects| Willen
-    Corel ---|Diplomatic Contact| Bolt
-    Corel ---|Cousin in Palebank| Elro
-    Corel ---|Trading Partner| Emmajeen
-    
-    %% Bordel's Connections
-    Bordel ---|Ashamed Past| Bolt
-    Bordel ---|Guides to Caves| Hulil
-    
-    %% Rowan's Connections
-    Rowan ---|Senses Intelligence| Bolt
-    Rowan ---|Visited Sacred Grove| Emmajeen
-    
-    %% Mila's Connections
-    Mila ---|Knows| Verla
-    Mila ---|Brother Taken By| Venomfang
-    
-    %% Takk's Connections
-    Takk ---|Respects| Bolt
-    Takk ---|Recognizes Symptoms| Urgon
-    
-    %% Galvena's Connections
-    Galvena ---|Sworn Enemy| Venomfang
-    Galvena ---|Divine Visions Corrupted| Elric
-    
-    %% Ariodh's Connections
-    Ariodh ---|Master Trapped in| Buyer
-    Ariodh ---|Recognizes Symbols| Elric
-    
-    %% Guz's Connections
-    Guz ---|Reformed After| Noke
-    Guz ---|Hears in Dreams| Noke
-    Guz ---|Respects| Bolt
-    
-    %% Sera's Connections
-    Sera ---|Apprentice Studies| Elric
-    Sera ---|Mentor Connected To| Shinebright
-    Sera ---|Can Translate| Buyer
-    
-    %% Aurixean's Connections
-    Aurixean ---|Ancestor Served| Venomfang
-    Aurixean ---|Resonates With| Venomfang
-    Aurixean ---|Respects| Bolt
-    
-    %% Baleth's Connections
-    Baleth ---|Patron Interested In| Buyer
-    Baleth ---|Fascinated By| Bolt
-    
-    %% Flynt's Connections
-    Flynt ---|Writing Ballad About| Brenna
-    Flynt ---|Loves Story Of| Shinebright
-    Flynt ---|Knows Sailor| Elro
-    
-    %% Welton Connections
-    Johan ---|Brother| Alexi
-    Johan ---|Ministers To| Willen
-    Corel ---|Shepherd Mentor| Willen
-    Leanor ---|Spouse| Banteth
-    Leanor ---|Knows Everyone| Tillus
-    Alexi ---|Spirit Lingers| Bolt
-    
-    %% Wolf Connections
-    Bolt ---|Alpha Rivalry| Flame
-    Bolt ---|Awakened By| Alexi
-    Flame ---|Awakened By| Alexi
-    
-    %% Palebank Connections
-    Elro ---|Pushes Party| Tulgi
-    Verla ---|Dangerous Connections| Hulil
-    Tulgi ---|Defensive About| Urgon
-    
-    %% Cult Connections
-    Hulil ---|Commands| Raegrin
-    Hulil ---|Deals With| Buyer
-    
-    %% Salsvault Connections
-    Morgo ---|Guides| Orvo
-    Buyer ---|Brokers| Elric
-    
-    %% Temple Connections
-    Joel ---|Father Of| Clementine
-    Clementine ---|Kidnapped By| Venomfang
-    Venomfang ---|Uses| Clementine
-    
-    %% Guild Assignments
-    Brenna -.Assigns Missions.-> Sera
-    Brenna -.Assigns Missions.-> Bordel
-    Brenna -.Assigns Missions.-> Rowan
-    Brenna -.Assigns Missions.-> Mila
-    Brenna -.Assigns Missions.-> Takk
-    Brenna -.Assigns Missions.-> Galvena
-    Brenna -.Assigns Missions.-> Ariodh
-    
-    %% Styling
-    classDef leadership fill:#8b0000,stroke:#fff,stroke-width:2px,color:#fff
-    classDef warden fill:#2e5090,stroke:#fff,stroke-width:2px,color:#fff
-    classDef ally fill:#228b22,stroke:#fff,stroke-width:2px,color:#fff
-    classDef neutral fill:#b8860b,stroke:#fff,stroke-width:2px,color:#fff
-    classDef enemy fill:#8b0000,stroke:#fff,stroke-width:2px,color:#fff
-    classDef mystery fill:#4b0082,stroke:#fff,stroke-width:2px,color:#fff
-    
-    class Brenna,Mara,Elric leadership
-    class Corel,Bordel,Rowan,Mila,Takk,Galvena,Ariodh,Guz,Sera,Aurixean,Shinebright,Baleth,Flynt warden
-    class Johan,Willen,Leanor,Banteth,Elro,Tulgi,Morgo,Orvo,Joel,Emmajeen ally
-    class Tillus,Verla,Rorn neutral
-    class Hulil,Raegrin,Noke,Venomfang enemy
-    class Alexi,Bolt,Flame,Buyer mystery
-```
+## NPC Relationship Overview
 
-## Relationship Legend
+### Guild Leadership
 
-### Connection Types
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Marshal Brenna Thorne** | Field Commander | Former comrade of Corel (Greywinter Hunts); knows Shinebright from decades ago; suspicious of magical anomalies |
+| **Steward Mara Fenwick** | Quartermaster | Criminal past with Uttolot family; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
+| **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aeorian relics; connected to The Buyer; fascinated by Shinebright's magic |
+}}
 
-- **Solid Lines**: Direct relationships (family, allies, enemies, contacts)
-- **Dashed Lines**: Organizational connections (command structure, assignments)
+### Wardens — Trailwardens
 
-### Color Coding
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Corel** | Senior Shepherd | Former comrade of Brenna (Greywinter Hunts); mentor to Willen; diplomatic contact with Bolt; cousin in Palebank (Elro) |
+| **Bordel Barleywind** | Ranger | Ashamed past with Bolt's pack; guides to Croaker Cave; recognizes kobold tracks from Temple |
+| **Rowan Fairweather** | Druid | Senses Bolt's intelligence; visited Pinebrook's sacred grove; horrified by Aeorian disease origins |
+| **Mila Teno** | Rookie Scout | Brother Teris taken by Venomfang's kobolds; knows Verla Pelc; traumatized by wolf attacks |
+}}
 
-- **Dark Red**: Guild Leadership
-- **Blue**: Wardens (Guild Members)
-- **Green**: Allies & Friendly NPCs
-- **Gold**: Neutral/Complicated NPCs
-- **Red**: Antagonists & Enemies
-- **Purple**: Mystery-Connected (Aeorian Echo related)
+### Wardens — Lantern Guard
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Takk Oaksplitter** | Barbarian | Respects awakened wolves; recognizes Frozen Sick symptoms from tribe; finds Shinebright hilarious |
+| **Galvena Aballon** | Paladin | Sworn enemy of Venomfang (destroyed her shrine); divine visions corrupting; pushes for justice |
+| **Ariodh Highwhirl** | Monk | Master trapped in Salsvault; recognizes Aeorian symbols; attempts diplomacy with wolves |
+| **Guz** | Reformed Thug | Reformed after Wild Sheep Chase; respects Bolt and Flame; haunted by Noke's voice |
+}}
+
+### Wardens — Lorewatch
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Sera Gelanadel** | Apprentice Wizard | Studies under Elric; mentor rivals Shinebright; can translate Aeorian script; connected to The Buyer |
+| **Aurixean Valignaak** | Dragonborn Sorcerer | Ancestor served Dragonknights (then betrayed them); bloodline resonates with Venomfang; respects Bolt |
+| **Finethir Shinebright** | Polymorphed Wizard | Known to Brenna (decades ago); rivals Sera's mentor; studied by Elric after restoration |
+| **Baleth Cindermoon** | Tiefling Warlock | Patron interested in Aeorian magic (possibly Aeorian consciousness); fascinated by awakened wolves |
+}}
+
+\page
+
+### Welton NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Father Johan Merriksonn** | Village Priest | Brother is Alexi (missing sorcerer); ministers to Willen; distrusts wizards deeply |
+| **Alexi Merriksonn** | Missing Sorcerer (Spirit) | Johan's brother; spirit lingers near wolves' den; accidentally awakened Bolt and Flame |
+| **Willen Featherock** | Traumatized Shepherd | Mentored by Corel; heard wolves speak; childhood friend of Alexi |
+| **Leanor & Banteth Slatebeard** | Innkeepers | Married couple; know everyone's business in Welton |
+}}
+
+### Awakened Wolves & Key Faction NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Bolt** | Awakened Alpha (Diplomatic) | Awakened by Alexi; alpha rivalry with Flame; respected by many Wardens; terrified of awakening cause |
+| **Flame** | Awakened Alpha (Aggressive) | Awakened by Alexi; alpha rivalry with Bolt; tempted by domination |
+| **Venomfang** | Green Dragon (Antagonist) | Destroyed Galvena's shrine; Aurixean's ancestor betrayed to dragon's predecessor; kidnapped Clementine; took Mila's brother |
+| **The Buyer** | Relic Broker (Mystery) | Collects Aeorian relics; connected to Elric and Sera; deals with Hulil (cult); possibly knows where Ariodh's master is |
+}}
+
+### Palebank Village NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Elro Aldataur** | Village Leader | Corel's cousin; pushes party to investigate Salsvault |
+| **Verla Pelc** | Merchant | Dangerous Uttolot connections; known to Mara and Mila |
+| **Tulgi** | Healer | Defensive about Urgon's death; ally or suspect |
+}}
+
+### Antagonists & Cult
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Uttolot connections |
+| **Ahmed Noke** | Antagonist Wizard | Haunts Guz's dreams; misused magic in Wild Sheep Chase |
+}}
+
+\page
 
 ## Key Relationship Networks
 
@@ -275,6 +152,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 \page
 
+# NPC Adventure Appearances
 # NPC Adventure Appearances
 
 ## Guild Leadership
