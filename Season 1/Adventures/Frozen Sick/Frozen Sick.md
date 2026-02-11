@@ -6,7 +6,11 @@
 
 **Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Revelation Adventure)
 
-**Campaign Arc:** The Hidden Truth — Discovering Salsvault
+**Campaign Arc:** Arc 2: Revelation — The Hidden Truth
+
+**Arc Position:** Part 1 of 2 in Arc 2
+
+**Arc Progress Notes:** This is the **revelation adventure** where the mystery's core is uncovered. Players discover Salsvault as the source of all magical disturbances, learn it's Aeorian in origin, and realize it was deliberately activated. This shifts the campaign from "what's happening?" to "who triggered it and why?" By completing this adventure, players understand they're dealing with ancient, powerful magic and that the problem is far bigger than initially realized.
 
 **Campaign Connection:** This is the **revelation adventure** where players discover the source of all magical disturbances. Salsvault, a buried Aeorian laboratory, has reactivated and is leaking deadly spores and transformative magic.
 

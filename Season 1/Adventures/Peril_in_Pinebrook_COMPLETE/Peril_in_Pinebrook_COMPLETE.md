@@ -40,7 +40,11 @@ Welcome to Dungeons & Dragons:
 
 **Mystery Rating:** ⭐⭐ (Secondary — Human Cost & Smuggling)
 
-**Campaign Arc:** Frontier Consequences — The Ripple Effects
+**Campaign Arc:** Arc 1: First Signs — Learning the Land
+
+**Arc Position:** Part 2 of 2 in Arc 1
+
+**Arc Progress Notes:** This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
 
 **Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
