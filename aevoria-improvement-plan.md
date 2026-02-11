@@ -655,18 +655,20 @@ Connection: Links to "Salt & Silver" through shared Aeorian artifact signature
 
 If you want immediate improvements with minimal effort:
 
-### Week 1: Mystery Tags
-- Go through each adventure
-- Add "Mystery Rating" (1-5 stars)
-- Write 2 specific clues per adventure
-- Note which later adventures these connect to
+### Week 1: Mystery Tags ✅ COMPLETE
+- ✅ Go through each adventure
+- ✅ Add "Mystery Rating" (1-5 stars)
+- ✅ Write 2 specific clues per adventure
+- ✅ Note which later adventures these connect to
 - **Time:** 4-6 hours
+- **Status:** Completed - All major adventures have Mystery Ratings and clues integrated.
 
-### Week 2: NPC Web
-- Create visual diagram of NPC relationships
-- Add "appears in these adventures" notes
-- Define 2-3 secrets per major NPC
+### Week 2: NPC Web ✅ COMPLETE
+- ✅ Create visual diagram of NPC relationships
+- ✅ Add "appears in these adventures" notes
+- ✅ Define 2-3 secrets per major NPC
 - **Time:** 3-4 hours
+- **Status:** Completed - See `Season 1/DM_Resources/NPC_Relationship_Diagram.md` for visual diagram and adventure appearances. All major NPCs now have 2-3 detailed secrets in `DM Guild Roster.md`.
 
 ### Week 3: Arc Definitions
 - Group adventures into 3 arcs
