@@ -18,6 +18,7 @@
     {
       "chapter": "Quick Start",
       "files": [
+        "../Session_0_Character_Integration_Prompts.md",
         "../Season 1/SESSION_0_QUICK_START.md"
       ]
     },
@@ -35,11 +36,14 @@
         "../Season 1/DM_Resources/Foreshadowing_Database.md",
         "../Season 1/DM_Resources/DM Guild Roster.md",
         "../Season 1/DM_Resources/NPC_Relationship_Diagram.md",
+        "../Season 1/DM_Resources/Minor_NPC_Roster_Northreach.md",
         "../Season 1/DM_Resources/Faction_Response_Document.md",
         "../Season 1/DM_Resources/What_If_Quick_Guide.md",
         "../Season 1/DM_Resources/Warden_Rank_System.md",
         "../Season 1/DM_Resources/Seasonal_Event_Calendar.md",
         "../Season 1/DM_Resources/Travel_Encounter_Library.md",
+        "../Season 1/DM_Resources/Random_Encounter_Tables_Downtime.md",
+        "../Season 1/DM_Resources/Player_Handouts_By_Adventure.md",
         "../Season 1/DM_Resources/Campaign_Tracker.md",
         "../Season 1/DM_Resources/Campaign_Tracker_BLANK.md"
       ]

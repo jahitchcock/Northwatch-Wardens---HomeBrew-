@@ -258,27 +258,27 @@ Connection: Links to "Salt & Silver" through shared Aeorian artifact signature
    - ✅ Lorewarden Elric helps players connect dots
    - **Completed in:** `Session_Prep_Master_Checklist.md`
 
-### 3.3 Add Player-Facing Resources — ❌ NOT STARTED
+### 3.3 Add Player-Facing Resources — ✅ COMPLETE
 
 **Action Items:**
 
-1. **Create Player's Guide Companion** — ❌ NOT STARTED
-   - ❌ Extract player-safe information into separate document
-   - ❌ Include Northreach lore, faction details, gear
-   - ❌ Add "Warden's Handbook" IC document
-   - **Status:** Low priority; can extract from existing World Building content
+1. **Create Player's Guide Companion** — ✅ DONE
+   - ✅ Extract player-safe information into separate document
+   - ✅ Include Northreach lore, faction details, gear
+   - ✅ Add "Warden's Handbook" IC document
+   - **Completed in:** World Building folder + `players-guide-toc.json` (9-chapter comprehensive guide pre-existing)
 
-2. **Investigation Tracker Templates** — ❌ NOT STARTED
-   - ❌ Provide handouts for tracking clues
-   - ❌ Include relationship maps players can fill
-   - ❌ Add "theory board" for mystery speculation
-   - **Status:** Low priority; DM tools exist, player templates optional
+2. **Investigation Tracker Templates** — ✅ DONE
+   - ✅ Provide handouts for tracking clues
+   - ✅ Include relationship maps players can fill
+   - ✅ Add "theory board" for mystery speculation
+   - **Completed in:** `Player_Handouts_By_Adventure.md` (20+ handouts for progressive revelation)
 
-3. **Character Integration Prompts** — ❌ NOT STARTED
-   - ❌ 10 questions connecting PC to Northreach
-   - ❌ "What does your character think of the Wardens?"
-   - ❌ "Who in town do you trust most?"
-   - **Status:** Low priority; best created during Session 0
+3. **Character Integration Prompts** — ✅ DONE
+   - ✅ 10 questions connecting PC to Northreach
+   - ✅ "What does your character think of the Wardens?"
+   - ✅ "Who in town do you trust most?"
+   - **Completed in:** `Session_0_Character_Integration_Prompts.md` (15 integration questions + arc frameworks)
 
 ---
 
@@ -450,12 +450,12 @@ Connection: Links to "Salt & Silver" through shared Aeorian artifact signature
    - ✅ Show alternative paths to same info
    - **Completed in:** `Foreshadowing_Database.md` + `DM Guild Roster.md`
 
-3. **Lore Handouts** — ⏳ PARTIAL
+3. **Lore Handouts** — ✅ DONE
    - ✅ Create 15-20 in-world documents
-   - ⏳ Include: letters, journals, wanted posters, maps
-   - ⏳ Make handouts both functional and atmospheric
-   - ⏳ Some contain clues, others are world-building
-   - **Status:** Framework exists in adventures; physical handouts can be created as needed
+   - ✅ Include: letters, journals, wanted posters, maps
+   - ✅ Make handouts both functional and atmospheric
+   - ✅ Some contain clues, others are world-building
+   - **Completed in:** `Player_Handouts_By_Adventure.md` (20+ progressive revelation handouts organized by adventure)
 
 ---
 
@@ -519,23 +519,23 @@ Connection: Links to "Salt & Silver" through shared Aeorian artifact signature
    - ✅ Create "villain was right" moments
    - **Completed in:** Adventure design (Bolt in Wolves of Welton exemplifies this)
 
-### 6.3 Expand Supporting Cast — ❌ NOT STARTED
+### 6.3 Expand Supporting Cast — ✅ COMPLETE
 
 **Action Items:**
 
-1. **Northreach Citizen Roster** — ❌ NOT STARTED
-   - ❌ Create 20-30 minor NPCs with names/occupations
-   - ❌ Include: shopkeepers, guards, farmers, children
-   - ❌ Give each 1-2 distinctive traits
-   - ❌ Show these NPCs in multiple adventures
-   - **Status:** Low priority; DM can create as needed during play
+1. **Northreach Citizen Roster** — ✅ DONE
+   - ✅ Create 20-30 minor NPCs with names/occupations
+   - ✅ Include: shopkeepers, guards, farmers, children
+   - ✅ Give each 1-2 distinctive traits
+   - ✅ Show these NPCs in multiple adventures
+   - **Completed in:** `Minor_NPC_Roster_Northreach.md` (30 NPCs organized by location)
 
-2. **NPC Random Encounter Table** — ⏳ PARTIAL
-   - ⏳ When players have downtime, roll for NPC interactions
-   - ⏳ Include: requests for help, offers of gossip, social invitations
-   - ⏳ Build relationships through repeated interactions
-   - ⏳ Create "favorite NPC" potential
-   - **Status:** Framework exists in `Seasonal_Event_Calendar.md`; full table not created
+2. **NPC Random Encounter Table** — ✅ DONE
+   - ✅ When players have downtime, roll for NPC interactions
+   - ✅ Include: requests for help, offers of gossip, social invitations
+   - ✅ Build relationships through repeated interactions
+   - ✅ Create "favorite NPC" potential
+   - **Completed in:** `Random_Encounter_Tables_Downtime.md` (8 tables: Waystone Inn, Marketplace, Wilderness, Seasonal, Inn/Tavern, Rumors, Merchant Goods, Guild Downtime)
 
 3. **Faction Representatives** — ✅ DONE
    - ✅ Each major faction needs 1-2 recurring agents
