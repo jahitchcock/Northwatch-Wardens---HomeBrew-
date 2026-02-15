@@ -40,6 +40,8 @@ Use this as the living continuity log for actual play. Update it after each sess
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}
 
 \page
 
@@ -140,6 +142,9 @@ Use this as the living continuity log for actual play. Update it after each sess
 ---
 
 ## “As Written” Beats (from the Season 1 ToC)
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}
 
 \page
 

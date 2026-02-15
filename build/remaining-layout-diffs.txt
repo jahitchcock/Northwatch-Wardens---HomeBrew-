@@ -1,0 +1,92 @@
+﻿
+   40:  \page
+   56:  \page
+   53:  \page
+   69:  \page
+  331:  \page
+  345:  \page
+ 1034:  \page
+ 1051:  \page
+ 2641:  \page
+ 2662:  \page
+ 3808:  \column
+ 4013:  \column
+ 4036:  \column
+ 4243:  \column
+ 5137:  \page
+ 5159:  \page
+ 5583:  \page
+ 5609:  \page
+ 6180:  \page
+ 6209:  \page
+ 6901:  \page
+ 6933:  \page
+ 7591:  \page
+ 7626:  \page
+ 7805:  \column
+ 7839:  \page
+ 7913:  \column
+ 7946:  \page
+ 8060:  \column
+ 8096:  \page
+ 8137:  \column
+ 8118:  \page
+ 8181:  \page
+ 8429:  \page
+ 8495:  \page
+ 8558:  \page
+ 8627:  \page
+ 9213:  \page
+ 9285:  \page
+ 9447:  \page
+ 9522:  \page
+10190:  \page
+10268:  \page
+10561:  \page
+10642:  \page
+10856:  \page
+10940:  \page
+11243:  \page
+11330:  \page
+11611:  \page
+11701:  \page
+11875:  \page
+11968:  \page
+12163:  \page
+12259:  \page
+12577:  \page
+12676:  \page
+12692:  \page
+12794:  \page
+13204:  \column
+13258:  \column
+13370:  \column
+13309:  \page
+13419:  \page
+13329:  \page
+13442:  \page
+13529:  \page
+13596:  \page
+13635:  \column
+13657:  \page
+13559:  \page
+13684:  \page
+14023:  \page
+14151:  \page
+14850:  \page
+14981:  \page
+15128:  \page
+15271:  \page
+15805:  \page
+15942:  \page
+16493:  \page
+16367:  \page
+16650:  \column
+16552:  \page
+16712:  \page
+17147:  \page
+17310:  \page
+18460:  \page
+18626:  \page
+
+

@@ -290,6 +290,8 @@ Some factions or rich NPCs might offer to "sponsor" rank advancement, but this c
 
 Reward scaling provides mechanical benefit of advancing:
 
+{{wide
+
 | Rank | Standard Contract | Dangerous Contract | Lucrative Mission |
 |------|---|---|---|
 | Recruit | 50 gp | 75 gp | 150 gp |
@@ -297,6 +299,8 @@ Reward scaling provides mechanical benefit of advancing:
 | Senior | 200 gp | 300 gp | 600 gp |
 | Veteran | 300 gp | 500 gp | 1,000 gp |
 | Commander | 500 gp | 750 gp | 1,500 gp |
+
+}}
 
 *Plus: Standard XP awards + treasure from encounters*
 

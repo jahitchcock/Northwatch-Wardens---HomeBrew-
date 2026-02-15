@@ -15,6 +15,8 @@
 
 **Use When:** PCs spend downtime at guild headquarters
 
+{{wide
+
 | d20 | Encounter |
 |-----|-----------|
 | 1 | **Cooking Lesson:** Garth Ironfoot offers to teach frontier cooking. Learn to prepare trail rations that restore +1 HP per short rest (requires 1 hour and cooking supplies). |
@@ -37,6 +39,8 @@
 | 18 | **Celebration:** Wardens returned from successful contract. Festive atmosphere. PCs invited to join. Gain +1 guild reputation if participate. |
 | 19 | **Secret Meeting:** Elric requests private conversation. Shares sensitive information about [Echo phenomenon or cult activity]. Grants plot advancement. |
 | 20 | **Unexpected Visitor:** VIP arrives (regional official, foreign merchant, or mysterious traveler). Roll on VISITOR TABLE for identity and purpose. |
+
+}}
 
 ---
 

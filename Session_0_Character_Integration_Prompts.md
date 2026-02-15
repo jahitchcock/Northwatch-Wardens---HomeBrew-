@@ -22,6 +22,7 @@
 - Is this a new beginning or fulfilling an old obligation?
 - Do you plan to stay on the frontier or is this temporary?
 
+{{note
 **DM Notes:**
 Common answers:
 - **Escaping past:** Use echoes of that past as plot hooks (recurring nemesis, old debts)
@@ -29,10 +30,14 @@ Common answers:
 - **Fresh start:** Threaten it with complications from past catching up
 - **Family connection:** Introduce family NPCs (cousin in Welton, parent in Palebank)
 - **Curiosity/adventure:** Feed with mysteries and exploration opportunities
+}}
 
 **Example DM Response:**
-> *Player: "I came here to escape gambling debts in Solace Nexus."*  
-> **DM:** "Interesting. The moneylender Merrick Blackcoin operates in Northreach too. Do you think word of your debts has spread this far?"
+{{descriptive
+**Example DM Response:**
+*Player: "I came here to escape gambling debts in Solace Nexus."*
+**DM:** "Interesting. The moneylender Merrick Blackcoin operates in Northreach too. Do you think word of your debts has spread this far?"
+}}
 
 ---
 
@@ -45,6 +50,7 @@ Common answers:
 - Do you trust each other or is this alliance new/fragile?
 - What's one story from your shared past (funny, dangerous, or embarrassing)?
 
+{{note
 **DM Notes:**
 Suggested connections:
 - **Childhood friends:** From same region or settlement
@@ -52,12 +58,17 @@ Suggested connections:
 - **Saved each other:** One PC rescued other from danger; debt of honor
 - **Family ties:** Siblings, cousins, or found family
 - **Recent acquaintances:** Met on road to Northreach; bonded during hardship
+}}
 
 **Building Shared History:**
 Create ONE shared adventure before campaign:
-> "You two were escorting caravan when bandits attacked. What was the scariest moment? Who saved whom?"
+{{descriptive
+**Shared History Prompt:**
+"You two were escorting caravan when bandits attacked. What was the scariest moment? Who saved whom?"
+}}
 
 ---
+\column
 
 ### 3. What's Your First Memory of the Frontier?
 
@@ -68,16 +79,21 @@ Create ONE shared adventure before campaign:
 - Did that moment make you want to stay or leave?
 - Who helped you when you first arrived (potential NPC connection)?
 
+{{note
 **DM Notes:**
 Use answer to establish tone:
 - **Awe-inspiring:** "Endless forests, untouched wilderness" → They value exploration
 - **Harsh/dangerous:** "Cold, unforgiving, deadly" → They respect frontier's danger
 - **Welcoming:** "Waystone Inn's warm fire" → They value community/safety
 - **Lonely:** "Empty roads, few people" → May seek belonging
+}}
 
 **Example Integration:**
-> *Player: "The first night at Waystone Inn. Garth's stew after weeks of trail rations."*  
-> **DM:** "Garth the cook notices you across the common room and nods: 'Back for more, eh? Still remember how you cleaned three bowls that first night.'"
+{{descriptive
+**Example Integration:**
+*Player: "The first night at Waystone Inn. Garth's stew after weeks of trail rations."*
+**DM:** "Garth the cook notices you across the common room and nods: 'Back for more, eh? Still remember how you cleaned three bowls that first night.'"
+}}
 
 ---
 
@@ -90,6 +106,7 @@ Use answer to establish tone:
 - Do you see this as career or temporary employment?
 - What do you hope to gain (reputation, coin, purpose, belonging)?
 
+{{note
 **DM Notes:**
 Common motivations:
 - **Idealism:** "Protect the frontier!" → Test ideals with moral complexity
@@ -97,6 +114,7 @@ Common motivations:
 - **Reputation:** "Build name as hero." → Give opportunities for glory (and consequences of fame)
 - **Belonging:** "Looking for purpose/family." → Develop NPC relationships
 - **Penance:** "Atone for past mistakes." → Offer redemption arcs
+}}
 
 **Guild Connection Types:**
 - **Marshal Brenna recruited you:** She saw potential; don't disappoint her
@@ -105,6 +123,7 @@ Common motivations:
 - **Reputation preceded guild:** Heard stories, wanted to join
 
 ---
+\column
 
 ### 5. Who in Northreach Do You Already Know?
 
@@ -115,6 +134,7 @@ Common motivations:
 - Do they know you're joining the Wardens?
 - Is this relationship positive, complicated, or strained?
 
+{{note
 **DM Notes:**
 Assign connections from Minor NPC Roster:
 - **Family:** Distant cousin/relative who settled here
@@ -122,12 +142,16 @@ Assign connections from Minor NPC Roster:
 - **Mentor:** Someone who taught you skill (Marta for weapons, Elira for herbalism)
 - **Debtor/Creditor:** Owe them or they owe you
 - **Romantic:** Current, past, or potential love interest
+}}
 
 **Multiple PC Connections:**
 If multiple PCs know same NPC, create triangle:
-> PC 1 knows Sylra (barmaid) as childhood friend.  
-> PC 2 has crush on Sylra.  
-> Built-in party tension for roleplaying.
+{{note
+**Example Shared Connection:**
+PC 1 knows Sylra (barmaid) as childhood friend.
+PC 2 has crush on Sylra.
+Built-in party tension for roleplaying.
+}}
 
 ---
 
@@ -140,15 +164,20 @@ If multiple PCs know same NPC, create triangle:
 - Have you told anyone about this or is it secret?
 - Could it (or they) find you here?
 
+{{note
 **DM Notes:**
 Use answers to create complications:
 - **Person:** They arrive seeking PC (reconciliation, revenge, or need help)
 - **Place:** It's threatened; PC receives letter asking for help
 - **Possession:** It surfaces in Northreach (stolen goods, heirloom)
+}}
 
 **Emotional Stakes:**
-> *Player: "My younger sister. She begged to come but I left her in Solace for safety."*  
-> **DM:** (Later in campaign) Sister appears at Waystone Inn. She RAN AWAY to find PC. Now what?
+{{descriptive
+**Emotional Stakes Example:**
+*Player: "My younger sister. She begged to come but I left her in Solace for safety."*
+**DM:** (Later in campaign) Sister appears at Waystone Inn. She RAN AWAY to find PC. Now what?
+}}
 
 ---
 
@@ -161,10 +190,12 @@ Use answers to create complications:
 - Have you encountered this fear yet or are you dreading it?
 - What would you do if forced to face it?
 
+{{note
 **DM Notes:**
 Respect player boundaries:
 - **If phobia/trauma:** Avoid gratuitous use; handle sensitively if it appears
 - **If adventure fear:** This is theme to explore in game
+}}
 
 Common frontier fears:
 - **Isolation:** Being alone/abandoned in wilderness → Separation scenarios
@@ -175,7 +206,10 @@ Common frontier fears:
 
 **Using Fears:**
 Don't torment PCs, but create moments where they OVERCOME fear:
-> PC fears isolation. During adventure, separated from party in ruins. Must navigate alone. Success = character growth.
+{{note
+**Fear Example:**
+PC fears isolation. During adventure, separated from party in ruins. Must navigate alone. Success = character growth.
+}}
 
 ---
 
@@ -188,6 +222,7 @@ Don't torment PCs, but create moments where they OVERCOME fear:
 - Has it saved you (or gotten you into trouble)?
 - Do you want to teach others or keep it to yourself?
 
+{{note
 **DM Notes:**
 Create opportunities to showcase:
 - **Combat prowess:** Design encounters highlighting their tactics
@@ -195,10 +230,14 @@ Create opportunities to showcase:
 - **Knowledge:** Puzzles, lore discoveries, research opportunities
 - **Crafting/trade skills:** Opportunities to craft, repair, or create
 - **Performance:** Social events, festivals, entertaining crowds
+}}
 
 **Mentorship Opportunities:**
-> *Player: "I'm skilled at tracking."*  
-> **DM:** Young NPC (Kasira, Torbin, or Elara) asks to learn. PC becomes mentor.
+{{descriptive
+**Mentorship Example:**
+*Player: "I'm skilled at tracking."*
+**DM:** Young NPC (Kasira, Torbin, or Elara) asks to learn. PC becomes mentor.
+}}
 
 ---
 
@@ -211,12 +250,14 @@ Create opportunities to showcase:
 - If not, do you trust those who do?
 - Have you ever seen magic go wrong? How did it affect you?
 
+{{note
 **DM Notes:**
 PC attitudes toward magic inform roleplaying:
 - **Distrust/fear:** Hesitant around Elric, concerned about Echo, suspicious of Aeorian ruins
 - **Fascination:** Eager to investigate magical phenomena, study with Elric
 - **Utilitarian:** Magic is tool like any other, neither good nor evil
 - **Religious view:** Magic is divine gift or forbidden power
+}}
 
 **Echo Context:**
 The campaign revolves around awakening magic. PC attitudes will shape their approach:
@@ -225,8 +266,11 @@ The campaign revolves around awakening magic. PC attitudes will shape their appr
 - **Pragmatic PCs:** Want to control it
 
 **Example Hook:**
-> *Player: "I saw wild magic outbreak destroy my village. I don't trust unstable magic."*  
-> **DM:** When wolves awaken in Welton, PC recognizes similar magical "wrongness" from that childhood tragedy.
+{{descriptive
+**Example Hook:**
+*Player: "I saw wild magic outbreak destroy my village. I don't trust unstable magic."*
+**DM:** When wolves awaken in Welton, PC recognizes similar magical "wrongness" from that childhood tragedy.
+}}
 
 ---
 
@@ -239,18 +283,23 @@ The campaign revolves around awakening magic. PC attitudes will shape their appr
 - Do you have a home to return to or are you building one?
 - What would make Northreach feel like home?
 
+{{note
 **DM Notes:**
 Use to define character arc:
 - **Place-focused:** Threaten settlements they care about
 - **People-focused:** Develop NPC relationships and found family
 - **Feeling-focused:** Create moments of safety, belonging, purpose
+}}
 
 **Building Belonging:**
 As campaign progresses, ask: "Does this place feel like home yet?"
 
 **Arc Examples:**
-> PC starts: "Home is wherever I keep my gear. I don't put down roots."  
-> PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
+{{note
+**Arc Example:**
+PC starts: "Home is wherever I keep my gear. I don't put down roots."
+PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
+}}
 
 ---
 
@@ -292,7 +341,9 @@ As campaign progresses, ask: "Does this place feel like home yet?"
 
 **Purpose:** Establishes moral lines. Creates dilemmas that test boundaries.
 
+{{note
 **DM Note:** Don't cross this line as punishment; present CHOICE to cross it or find another way.
+}}
 
 ---
 
@@ -307,13 +358,16 @@ As campaign progresses, ask: "Does this place feel like home yet?"
 4. **Create NPC ties** by assigning existing NPCs from Roster
 
 **Example Synthesis:**
-> **PC 1 (Ranger):**  
-> "Former soldier escaping military past, joined Wardens for fresh start. Fears isolation. Knows Mira Frostborn (fellow hunter). Values community over glory."
->
-> **PC 2 (Wizard):**  
-> "Scholar fascinated by pre-Calamity magic, came to frontier to study Echo. Trusts magic implicitly. Knows Lorewarden Elric. Left behind research partner in Solace (complicated relationship)."
->
-> **Connection:** Both arrived same day. Ranger mistrusts Wizard's magical curiosity; Wizard admires Ranger's survival skills. Tension but growing respect.
+{{note
+**Example Synthesis:**
+**PC 1 (Ranger):**
+"Former soldier escaping military past, joined Wardens for fresh start. Fears isolation. Knows Mira Frostborn (fellow hunter). Values community over glory."
+
+**PC 2 (Wizard):**
+"Scholar fascinated by pre-Calamity magic, came to frontier to study Echo. Trusts magic implicitly. Knows Lorewarden Elric. Left behind research partner in Solace (complicated relationship)."
+
+**Connection:** Both arrived same day. Ranger mistrusts Wizard's magical curiosity; Wizard admires Ranger's survival skills. Tension but growing respect.
+}}
 
 ### Incorporating Answers into Adventures
 
@@ -335,13 +389,19 @@ As campaign progresses, ask: "Does this place feel like home yet?"
 ### Session Callbacks
 
 **Referencing Player Answers:**
-> **Player (Session 0):** "I left my hometown after failing to protect it from bandits."  
-> **DM (Session 8, during rescue):** "As you prepare to defend Welton, you remember your hometown. This time, you're ready. This time, you WON'T fail."
+{{descriptive
+**Session Callback Example:**
+**Player (Session 0):** "I left my hometown after failing to protect it from bandits."
+**DM (Session 8, during rescue):** "As you prepare to defend Welton, you remember your hometown. This time, you're ready. This time, you WON'T fail."
+}}
 
 **Character Growth Moments:**
-> **Player (Session 0):** "I don't trust magic."  
-> **Player (Session 15, studying Echo with Elric):** "I'm starting to see magic isn't the enemy—it's what people DO with it."  
-> **DM:** Notes character growth. Rewards with narrative significance.
+{{note
+**Character Growth Example:**
+**Player (Session 0):** "I don't trust magic."
+**Player (Session 15, studying Echo with Elric):** "I'm starting to see magic isn't the enemy—it's what people DO with it."
+**DM:** Notes character growth. Rewards with narrative significance.
+}}
 
 ---
 

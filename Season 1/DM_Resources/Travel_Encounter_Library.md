@@ -441,6 +441,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
+\column
+
 ## ROLEPLAY ENCOUNTERS (10)
 
 ### 11. LOST MERCHANT
@@ -729,6 +731,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Could be gateway to larger conspiracy
 
 ---
+
+\column
 
 ## DISCOVERY/INVESTIGATION ENCOUNTERS (10)
 
@@ -1097,6 +1101,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Become known message-reader (reputation)
 
 ---
+
+\column
 
 ## ENCOUNTER VARIANTS (Mixing & Matching)
 

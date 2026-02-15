@@ -35,7 +35,10 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ## Campaign Elevator Pitch (30 seconds)
 
-> **"Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface."**
+{{descriptive
+**Elevator Pitch:**
+"Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface."
+}}
 
 **Tone:** Grounded frontier survival with moral choices and arcane mysteries  
 **Playstyle:** Investigation, negotiation, and tactical combat  
@@ -53,22 +56,24 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ### The Leadership Triad (Your Key NPCs)
 
-**🛡️ Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
+**Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
 - **Role:** Assigns contracts, tactical decisions
 - **Personality:** Gruff, experienced, protective of her Wardens
 - **Quick Voice:** Direct and matter-of-fact — "This is the job. You ready?"
 
-**📦 Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
+**Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
 - **Role:** Supplies, finances, guild logistics
 - **Personality:** Cheerful, meticulous, keeps things running smoothly
 - **Quick Voice:** Warm and practical — "I'll pack you extra rations. Bring receipts!"
 
-**📖 Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
+**Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
 - **Role:** Investigation support, magical research, lore
 - **Personality:** Soft-spoken, curious, notices patterns others miss
 - **Quick Voice:** Thoughtful and precise — "Curious. This reminds me of something..."
 
+{{note
 **DM Tip:** You only need these three NPCs for Session 0. Everyone else can wait.
+}}
 
 ---
 
@@ -87,23 +92,28 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 ## The Northwatch Wardens Charter (Condensed)
 
 **Read this aloud during the signing ceremony:**
+{{descriptive
+"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.
 
-> *"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.*
-> 
-> *Membership is open to all competent individuals who take the oath. Contracts are posted at Waystone Inn and include monster suppression, escorts, investigations, and diplomacy.*
-> 
-> *We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone Inn serves as our guildhall and safehouse.*
-> 
-> *Sign below to become a Warden."*
+Membership is open to all competent individuals who take the oath. Contracts are posted at Waystone Inn and include monster suppression, escorts, investigations, and diplomacy.
+
+We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone Inn serves as our guildhall and safehouse.
+
+*Sign below to become a Warden."*
+}}
 
 **The Oath (Players Repeat After You):**
-
-> *"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+{{descriptive
+*"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+}}
 
 **After Signing:** Brenna hands each player a **Northwatch Wardens badge** (silver with a compass rose). "Welcome to the Wardens. Now let's get to work."
 
@@ -138,12 +148,15 @@ Read the "Running Session 0" section below and imagine your opening.
 **1:00–1:15 — Opening Scene**
 
 *Read aloud:*
+{{descriptive
+{{descriptive
+*"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
+}}
 
-> *"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
-> 
-> *Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
-> 
-> *This is where your story begins."*
+*Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
+
+*This is where your story begins."*
+}}
 
 Introduce the three NPCs briefly (use descriptions on page 2).
 
@@ -159,6 +172,9 @@ Introduce the three NPCs briefly (use descriptions on page 2).
 - Elric mentions "strange disturbances" in the frontier
 - Brenna says "We have work already"
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 **1:45–2:00 — The First Contract**
@@ -167,14 +183,15 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 
 *Read aloud:*
 
-> **CONTRACT W-17: "Wolves of Welton"**
-> 
-> *Client:* Welton Village Council  
-> *Reward:* 800 gp + provisions  
-> *Urgency:* High
-> 
-> *"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
+{{descriptive
+**CONTRACT W-17: "Wolves of Welton"**
 
+*Client:* Welton Village Council  
+*Reward:* 800 gp + provisions  
+*Urgency:* High
+
+*"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
+}}
 **Brenna's Briefing:**
 - "Welton's a half-day's ride south. Good people, hard winter."
 - "Wolves have been hitting farms. Coordinated attacks, almost like they're being led."
@@ -195,6 +212,9 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - "Something's affecting the wildlife. We leave at dawn."
 - **Next session starts with the journey to Welton**
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 ## Session 0 Combat (Optional)
@@ -207,16 +227,17 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 
 **Read Aloud:**
 
-> *The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
-> 
-> *"Everyone quiet. Listen."*
-> 
-> *Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
-> 
-> *"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
-> 
-> *Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+{{descriptive
+*The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
 
+*"Everyone quiet. Listen."*
+
+*Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
+
+*"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
+
+*Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+}}
 ### Encounter Details
 
 **Enemies:** 2 Wolves (CR 1/4 each)  
@@ -257,6 +278,33 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - First hint of the Aeorian Echo affecting wildlife
 - Shows that the frontier is becoming more dangerous
 - Makes the Wolves of Welton contract feel urgent and connected
+
+{{monster,frame
+## Wolf
+*Medium beast, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|12 (+1)|15 (+2)|12 (+1)|3 (-4)|12 (+1)|6 (-2)|
+___
+**Skills** :: Perception +3, Stealth +4
+**Senses** :: passive Perception 13
+**Languages** :: —
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+:
+***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+}}
+
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
 
 \page
 
@@ -334,6 +382,9 @@ A: Perfect! This campaign scales for 2–5 players. Smaller parties get tighter,
 
 **Q: Players miss Session 0?**  
 A: No problem. They can join Session 1 as "new recruits" arriving at Waystone Inn. Give them the 30-second pitch and hand them a badge.
+
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
 
 \page
 

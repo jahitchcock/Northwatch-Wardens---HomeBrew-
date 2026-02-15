@@ -26,11 +26,15 @@ This document maps all clues planted in Season 1 adventures to their eventual pa
 
 #### Clue Set 1: Predatory Intelligence
 
+{{wide
+
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
 | Wolves coordinate tactics against livestock | Westly's Farm, fence marks | Shepherds describe organized attacks; wolves don't scatter when humans appear | **Mystery A:** Intelligence is spreading | Any adventure (confirms pattern) |
 | Barn door opened from *inside* | Westly's Farm | Fresh claw marks, bent latch—wolf escaped its own pen rather than escaped a predator | **Mystery A+B:** These are intentional acts, not accidents | Frozen Sick (revelation) |
 | Pack treats wounded member with care | Welton outskirts, if tracked | Pack protects injured wolf, brings it food; not pack-abandonment behavior | **Mystery A+C:** Compassion and reasoning are awakening | Peril in Pinebrook (NPC consequences) |
+
+}}
 
 #### Clue Set 2: Origin Point
 

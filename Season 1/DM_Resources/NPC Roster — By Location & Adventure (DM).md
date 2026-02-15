@@ -21,6 +21,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 - Synthesized from your campaign XML + DM roster notes; summaries are intentionally **original**.
 - Portraits are shown when available.
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Waystone Inn (Guild HQ)
@@ -96,6 +99,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Welton (Wolves of Welton)
@@ -167,6 +173,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Pinebrook (Peril in Pinebrook)
@@ -193,6 +202,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Palebank Village (Frozen Sick)
@@ -217,6 +229,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Tulgi</strong> — healer; tense, defensive; knows more than she admits; ally or suspect depending on approach.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -243,6 +258,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Old Croaker</strong> — "boss" cave beast; play as a living hazard with habits, territory, and bargaining options.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -278,6 +296,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Noke's Tower (Wild Sheep Chase)
@@ -312,6 +333,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Temple of the Dragonknights (Capstone)
@@ -341,6 +365,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Venomfang</strong> — campaign-tier threat; intelligent predator; treats bargains as traps.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -373,6 +400,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 - Silver Dragon Wyrmling (baby)
 - Hysvearorn (Rorn)
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ### Portrait Gallery (Already in Images folder)
@@ -392,6 +422,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   <img src="https://i.imgur.com/jOsvoOZ.png" width="70" alt="Tillus Merrion" title="Tillus Merrion" />
   <img src="https://i.imgur.com/khdkxXU.png" width="70" alt="Leanor Slatebeard" title="Leanor Slatebeard" />
 </p>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -421,6 +454,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   <img src="https://i.imgur.com/euDwslI.png" width="70" alt="Silver Dragon Wyrmling (baby)" title="Silver Dragon Wyrmling (baby)" />
   <img src="https://i.imgur.com/MKGXal6.png" width="70" alt="Hysvearorn (Rorn)" title="Hysvearorn (Rorn)" />
 </p>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 

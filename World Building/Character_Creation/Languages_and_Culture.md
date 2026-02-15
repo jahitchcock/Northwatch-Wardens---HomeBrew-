@@ -1105,6 +1105,8 @@ Possible through consistent actions over time, but takes years. "Fool me once, a
 
 ![Bard](https://i.imgur.com/gnvxX0l.png) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
+\column
+
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
@@ -1528,6 +1530,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
 \page
+
+\column
 
 ## Weather Superstitions
 

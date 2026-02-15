@@ -1,6 +1,8 @@
 # Player Handouts by Adventure
 
+{{note
 **DM Note:** These are player-facing documents to be distributed during specific adventures. They contain no DM secrets and can be printed/shared directly with players when the appropriate moment arrives.
+}}
 
 ---
 

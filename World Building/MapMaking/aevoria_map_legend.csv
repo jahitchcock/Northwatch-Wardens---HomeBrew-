@@ -1,0 +1,16 @@
+Symbol,Name,Type
+~,Ocean/Sea,Water
+,River,Water
+.,Grassland,Terrain
+",",Farmland,Terrain
+,Dense Forest,Forest
+,Pine Forest,Forest
+^,Mountains,Mountains
+,Rocky Coast,Terrain
+,Volcanic,Special
+,Major City,Settlement
+,Outlaw City,Settlement
+,Holy Site,Landmark
+,Ruins,Landmark
+,Major Road,Infrastructure
+-,Local Road,Infrastructure

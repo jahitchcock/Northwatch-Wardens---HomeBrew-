@@ -217,4 +217,7 @@ In practice, that can mean:
 - Let the city feel safe until it suddenly isn’t; the tension is “civilization held together by chalk and etiquette.”
 - The shadow layer works best when it’s *plausible*—pacts aren’t everywhere, but they’re always an option.
 
+{{pageNumber,auto}}
+{{footnote SOLACE NEXUS — LEY-PORT CITY OF MAGIC}}
+
 \page

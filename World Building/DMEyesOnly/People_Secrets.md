@@ -218,10 +218,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Lorewarden Elric Vael
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -391,10 +389,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Rowan Fairweather (Trailwarden)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -566,10 +562,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Ariodh Highwhirl (Lantern Guard)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -761,10 +755,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Finethir Shinebright (Eccentric Wizard)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -892,12 +884,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1113,10 +1101,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## Local Leaders: Political Secrets
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1332,10 +1318,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Leanor Slatebeard (Welton Tracker)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1545,10 +1529,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## The Larger Pattern: What NPCs Know Collectively
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1826,10 +1808,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## Campaign Integration Notes
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 

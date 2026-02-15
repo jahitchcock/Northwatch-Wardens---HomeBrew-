@@ -41,7 +41,7 @@ The Far North is actively changing:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -75,7 +75,9 @@ The Heart was designed as the primary control node for the continental Aeorian n
 #### Its Reactivation
 Eclipse Day provided the astronomical alignment needed to restart the system. Someone or something used that moment to trigger reactivation. The Heart is now attempting to bring the entire network back online.
 
+{{note
 **DM Note:** The Heart is not malfunctioning—it's working exactly as designed. The problem is that the civilization it was built to serve is gone, and it doesn't understand that.
+}}
 
 #### What It Wants
 The Heart's programming seeks to:
@@ -131,7 +133,7 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -166,7 +168,9 @@ Evidence suggests the Aeorians discovered the White Maw and tried to study it:
 #### What Sleeps Below
 Something ancient and powerful is at the bottom of the White Maw. The Aeorians couldn't destroy it, so they tried to contain it. Their containment is failing as the artifact network reactivates.
 
+{{note
 **DM Note:** This is a Season Two hook. Whatever is in the White Maw is not the current threat—but the Aeorian reactivation will eventually wake it.
+}}
 
 #### Signs of Awakening
 - Tunnels previously sealed are opening
@@ -222,7 +226,7 @@ The stones generate a warmth field—originally for traveler comfort. This still
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -303,7 +307,7 @@ Not all constructs are active. They're waking in stages as the network powers up
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -390,7 +394,7 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -501,7 +505,7 @@ After the initial pulse:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -608,7 +612,7 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 

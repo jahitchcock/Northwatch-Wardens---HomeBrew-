@@ -660,9 +660,8 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 — Deep-Reader Borin Stonescript, after his world changed forever
 
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
 
 \page
 
@@ -781,7 +780,7 @@ This section contains:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
 
 \page
 

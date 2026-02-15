@@ -1,0 +1,1032 @@
+{{resetCounting}}
+# Using This Guide
+
+# Welcome to Aevoria
+
+
+
+> *A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
+
+
+
+---
+
+
+
+## Your Story Begins in Northreach
+
+**Northreach** is a cold frontier region where settlements are few, the wilderness is vast, and every community depends on grit, cooperation, and the willingness to face danger head-on. This is where your adventure begins—not in grand capitals or ancient kingdoms, but in a land where survival is earned daily and where small acts of courage ripple outward.
+
+The **Northwatch Wardens** make their stand here at the Waystone Inn, a guild of professionals who handle the problems too dangerous, too strange, or too urgent for local militias. You'll learn the frontier's rhythm: the weight of responsibility, the value of your word, and the hard truth that not every problem has a clean solution.
+
+**Start here. Learn the land. Know your neighbors.**
+
+Only when Northreach feels like home will the wider world truly matter.
+
+---
+\column
+
+## The Wider World of Aevoria
+
+Beyond Northreach lies **Aevoria**—a rich fantasy world of diverse cultures, ancient histories, and emerging mysteries. The name carries different meanings to different peoples: the Solaris Dominion calls it "the land blessed by dawn," the Nullwood Elves name it the "Quiet Age," and the Stonebound Dwarves call it *Tharundor*, "the Stone That Remembers."
+
+From the cold frontier regions of the north to sun-drenched southern lands, from elven forests to dwarven mountain kingdoms, Aevoria is a world where heroes forge their own legends. Each region offers unique adventures, cultures, and mysteries:
+
+- **Northreach** — Cold frontier, home of the Wardens *(your starting point)*
+- **Solaris Dominion** — Human cultural capital of art and politics
+- **The Nullwood Expanse** — Ancient elven kingdom shrouded in silence
+- **The Stonebound Depths** — Mighty dwarven halls carved in stone
+- **Vharoxis** — The city of masks, where intrigue rules
+- **The Shattered Coast** — Storm-tossed maritime frontier
+- **The Emberlands** — Volcanic south of fire magic
+- **The Verdant Marches** — Beast-haunted druidic wilds
+- **The Sunken Dominion** — Drowned cities and deep-sea mysteries
+- **The Far North** — Frozen wasteland of buried secrets
+
+These distant lands will become relevant as your story unfolds, but first—**master the frontier**.
+
+
+
+---
+
+
+
+## Campaigns in Aevoria
+
+
+
+### Season 1: Northwatch Wardens
+
+
+
+A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session** with flexible attendance and order-independent adventures.
+
+
+
+- **Campaign Hub:** Waystone Inn (guild headquarters)
+
+- **Format:** Contract-based missions with overarching mystery
+
+- **Style:** Investigation, moral choices, frontier survival
+
+
+
+**🚀 New DM?** See **Chapter 2: Quick Start** to prep and run Session 0 in under 1 hour.
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
+
+\page
+
+## Using This Guide
+
+This guide is organized into chapters covering everything you need to run the Northwatch Wardens campaign:
+
+- **Chapter 1: Introduction** — Campaign overview and the world of Aevoria
+- **Chapter 2: Quick Start** — Session 0 prep and first adventure guide
+- **Chapter 3: Campaign Overview** — How the campaign works, adventures, and mystery structure  
+- **Chapter 4: DM Resources** — Session trackers, NPC rosters, and prep tools
+- **Chapter 5: Adventures** — Complete adventure modules ready to run
+- **Chapter 6: World Secrets** — Campaign mysteries and DM-only lore
+- **Chapter 7: Appendix** — Quick reference materials and NPC index
+
+### Content Organization
+
+This guide separates **player-safe content** from **DM-only secrets**:
+
+**✅ Safe for Players:**
+- Regional lore and faction information
+- The Northwatch Wardens charter  
+- Costs, travel times, and practical information
+
+**🚫 DMs Only (Contains Spoilers):**
+- Campaign mysteries and secrets (Chapter 6)
+- NPC secrets and motivations (Chapter 4)
+- Adventure modules with tactical notes (Chapter 5)
+
+\column
+
+## How to Use This Book
+
+### For New DMs
+
+1. **Read Chapter 2: Quick Start** — Prep Session 0 in 30 minutes
+2. **Skim Chapter 3: Campaign Overview** — Understand the adventure structure
+3. **Choose your first adventure** — Start with Opening Adventures (Chapter 5)
+4. **Reference Chapter 4** as needed for NPC details and campaign tracking
+
+### For Experienced DMs
+
+- **Jump to Chapter 5** for adventure modules
+- **Consult Chapter 6** for campaign mysteries and the Aeorian Echo
+- **Use Chapter 4** for session prep tools and NPC rosters
+
+### Running the Campaign
+
+The campaign uses a **contract-based structure** centered on the Waystone Inn:
+
+1. Party gathers at the guild headquarters
+2. Reviews available contracts
+3. Takes a mission
+4. Returns with findings and rewards
+5. Discovers clues to the larger mystery
+
+**Adventures are modular** — run them in any order with 2–5 players per session. Perfect for variable attendance and flexible scheduling.
+
+{{wide
+
+## Ready to Adventure?
+
+**Choose your path:**
+
+- ⭐ **New DMs:** Turn to **Chapter 2: Quick Start** for Session 0 prep
+- 🎲 **Jump into action:** See **Chapter 5: Adventures** for ready-to-run quests  
+- 🛡️ **Understand the campaign:** Read **Chapter 3: Campaign Overview**
+- 🌍 **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
+- 📋 **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
+
+---
+
+*The world is vast. The mysteries are deep. The adventure awaits.*
+}}
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
+\page
+# Quick Start
+
+# Session 0: Character Integration Prompts
+
+**Purpose:** These questions help players connect their characters to Northreach, the Wardens, and the campaign setting. Use during Session 0 or character creation to establish meaningful ties to the world.
+
+**How to Use:**
+1. **Ask 3-5 questions per player** (don't overwhelm with all 10)
+2. **Listen and build on answers:** Players reveal what interests them
+3. **Note connections:** Reference player answers in adventures
+4. **Allow "I don't know yet":** Some answers can emerge through play
+5. **Connect PCs to each other:** Look for relationship opportunities between characters
+
+---
+
+## CORE INTEGRATION QUESTIONS
+
+### 1. Why Did You Come to Northreach?
+
+**Purpose:** Establishes PC motivation and connection to frontier setting.
+
+**Follow-Up Questions:**
+- What are you running FROM or running TOWARD?
+- Is this a new beginning or fulfilling an old obligation?
+- Do you plan to stay on the frontier or is this temporary?
+
+**DM Notes:**
+Common answers:
+- **Escaping past:** Use echoes of that past as plot hooks (recurring nemesis, old debts)
+- **Seeking fortune:** Offer lucrative but dangerous contracts
+- **Fresh start:** Threaten it with complications from past catching up
+- **Family connection:** Introduce family NPCs (cousin in Welton, parent in Palebank)
+- **Curiosity/adventure:** Feed with mysteries and exploration opportunities
+
+**Example DM Response:**
+> *Player: "I came here to escape gambling debts in Solace Nexus."*  
+> **DM:** "Interesting. The moneylender Merrick Blackcoin operates in Northreach too. Do you think word of your debts has spread this far?"
+
+---
+\column
+
+### 2. How Do You Know Another PC?
+
+**Purpose:** Creates party cohesion and shared history.
+
+**Follow-Up Questions:**
+- Did you travel here together or meet recently?
+- Do you trust each other or is this alliance new/fragile?
+- What's one story from your shared past (funny, dangerous, or embarrassing)?
+
+**DM Notes:**
+Suggested connections:
+- **Childhood friends:** From same region or settlement
+- **Former colleagues:** Served together (military, mercenary company, guild)
+- **Saved each other:** One PC rescued other from danger; debt of honor
+- **Family ties:** Siblings, cousins, or found family
+- **Recent acquaintances:** Met on road to Northreach; bonded during hardship
+
+**Building Shared History:**
+Create ONE shared adventure before campaign:
+> "You two were escorting caravan when bandits attacked. What was the scariest moment? Who saved whom?"
+
+---
+
+\page
+### 3. What's Your First Memory of the Frontier?
+
+**Purpose:** Grounds PC's relationship with Northreach's atmosphere.
+
+**Follow-Up Questions:**
+- Was it what you expected or surprising?
+- Did that moment make you want to stay or leave?
+- Who helped you when you first arrived (potential NPC connection)?
+
+**DM Notes:**
+Use answer to establish tone:
+- **Awe-inspiring:** "Endless forests, untouched wilderness" → They value exploration
+- **Harsh/dangerous:** "Cold, unforgiving, deadly" → They respect frontier's danger
+- **Welcoming:** "Waystone Inn's warm fire" → They value community/safety
+- **Lonely:** "Empty roads, few people" → May seek belonging
+
+**Example Integration:**
+> *Player: "The first night at Waystone Inn. Garth's stew after weeks of trail rations."*  
+> **DM:** "Garth the cook notices you across the common room and nods: 'Back for more, eh? Still remember how you cleaned three bowls that first night.'"
+
+---
+
+### 4. What Brought You to the Northwatch Wardens?
+
+**Purpose:** Establishes PC relationship with guild and motivation for joining.
+
+**Follow-Up Questions:**
+- Was joining your idea or someone else's suggestion?
+- Do you see this as career or temporary employment?
+- What do you hope to gain (reputation, coin, purpose, belonging)?
+
+**DM Notes:**
+Common motivations:
+- **Idealism:** "Protect the frontier!" → Test ideals with moral complexity
+- **Pragmatism:** "Need work, guild pays." → Offer contracts matching this
+- **Reputation:** "Build name as hero." → Give opportunities for glory (and consequences of fame)
+- **Belonging:** "Looking for purpose/family." → Develop NPC relationships
+- **Penance:** "Atone for past mistakes." → Offer redemption arcs
+
+\column
+
+**Guild Connection Types:**
+- **Marshal Brenna recruited you:** She saw potential; don't disappoint her
+- **Elric Vael intrigued you:** Mysteries and research drew you in
+- **Veteran Warden recommended it:** You met [minor NPC], they suggested guild
+- **Reputation preceded guild:** Heard stories, wanted to join
+
+---
+
+### 5. Who in Northreach Do You Already Know?
+
+**Purpose:** Creates immediate NPC connections and social web.
+
+**Follow-Up Questions:**
+- How did you meet them?
+- Do they know you're joining the Wardens?
+- Is this relationship positive, complicated, or strained?
+
+**DM Notes:**
+Assign connections from Minor NPC Roster:
+- **Family:** Distant cousin/relative who settled here
+- **Old friend:** Childhood friend or former colleague now living in Northreach
+- **Mentor:** Someone who taught you skill (Marta for weapons, Elira for herbalism)
+- **Debtor/Creditor:** Owe them or they owe you
+- **Romantic:** Current, past, or potential love interest
+
+**Multiple PC Connections:**
+If multiple PCs know same NPC, create triangle:
+> PC 1 knows Sylra (barmaid) as childhood friend.  
+> PC 2 has crush on Sylra.  
+> Built-in party tension for roleplaying.
+
+---
+
+\page
+
+### 6. What's Something You Left Behind (Person, Place, or Possession)?
+
+**Purpose:** Creates emotional stakes and potential plot hooks.
+
+**Follow-Up Questions:**
+- Do you regret leaving it or was it necessary?
+- Have you told anyone about this or is it secret?
+- Could it (or they) find you here?
+
+**DM Notes:**
+Use answers to create complications:
+- **Person:** They arrive seeking PC (reconciliation, revenge, or need help)
+- **Place:** It's threatened; PC receives letter asking for help
+- **Possession:** It surfaces in Northreach (stolen goods, heirloom)
+
+**Emotional Stakes:**
+> *Player: "My younger sister. She begged to come but I left her in Solace for safety."*  
+> **DM:** (Later in campaign) Sister appears at Waystone Inn. She RAN AWAY to find PC. Now what?
+
+---
+
+### 7. What Do You Fear Most About the Frontier?
+
+**Purpose:** Identifies player preferences for horror/tension elements and creates personal stakes.
+
+**Follow-Up Questions:**
+- Is this fear based on experience or stories you've heard?
+- Have you encountered this fear yet or are you dreading it?
+- What would you do if forced to face it?
+
+**DM Notes:**
+Respect player boundaries:
+- **If phobia/trauma:** Avoid gratuitous use; handle sensitively if it appears
+- **If adventure fear:** This is theme to explore in game
+
+\column
+
+Common frontier fears:
+- **Isolation:** Being alone/abandoned in wilderness → Separation scenarios
+- **Unknown:** Ancient magic, ruins, things we don't understand → Mystery elements
+- **Violence:** Combat, death, injury → Moral choices around violence
+- **Failure:** Letting people down, people dying on your watch → Rescue missions with stakes
+- **The Echo (if aware):** Magic destabilizing world → Central campaign theme
+
+**Using Fears:**
+Don't torment PCs, but create moments where they OVERCOME fear:
+> PC fears isolation. During adventure, separated from party in ruins. Must navigate alone. Success = character growth.
+
+---
+
+### 8. What's One Skill or Talent You're Proud Of?
+
+**Purpose:** Identifies player interests and creates spotlight opportunities.
+
+**Follow-Up Questions:**
+- How did you learn this skill?
+- Has it saved you (or gotten you into trouble)?
+- Do you want to teach others or keep it to yourself?
+
+**DM Notes:**
+Create opportunities to showcase:
+- **Combat prowess:** Design encounters highlighting their tactics
+- **Social skills:** Negotiation/investigation scenarios
+- **Knowledge:** Puzzles, lore discoveries, research opportunities
+- **Crafting/trade skills:** Opportunities to craft, repair, or create
+- **Performance:** Social events, festivals, entertaining crowds
+
+**Mentorship Opportunities:**
+> *Player: "I'm skilled at tracking."*  
+> **DM:** Young NPC (Kasira, Torbin, or Elara) asks to learn. PC becomes mentor.
+
+---
+\page
+
+### 9. What's Your Relationship with Magic?
+
+**Purpose:** Gauges PC attitude toward Echo mystery and magical themes.
+
+**Follow-Up Questions:**
+- Do you use magic yourself? If so, how did you learn?
+- If not, do you trust those who do?
+- Have you ever seen magic go wrong? How did it affect you?
+
+**DM Notes:**
+PC attitudes toward magic inform roleplaying:
+- **Distrust/fear:** Hesitant around Elric, concerned about Echo, suspicious of Aeorian ruins
+- **Fascination:** Eager to investigate magical phenomena, study with Elric
+- **Utilitarian:** Magic is tool like any other, neither good nor evil
+- **Religious view:** Magic is divine gift or forbidden power
+
+**Echo Context:**
+The campaign revolves around awakening magic. PC attitudes will shape their approach:
+- **Cautious PCs:** Want to contain/stop it
+- **Curious PCs:** Want to understand it
+- **Pragmatic PCs:** Want to control it
+
+**Example Hook:**
+> *Player: "I saw wild magic outbreak destroy my village. I don't trust unstable magic."*  
+> **DM:** When wolves awaken in Welton, PC recognizes similar magical "wrongness" from that childhood tragedy.
+
+---
+
+\column
+### 10. What Does "Home" Mean to You?
+
+**Purpose:** Establishes what PC values and what they're fighting to protect.
+
+**Follow-Up Questions:**
+- Is "home" a place, people, or feeling?
+- Do you have a home to return to or are you building one?
+- What would make Northreach feel like home?
+
+**DM Notes:**
+Use to define character arc:
+- **Place-focused:** Threaten settlements they care about
+- **People-focused:** Develop NPC relationships and found family
+- **Feeling-focused:** Create moments of safety, belonging, purpose
+
+**Building Belonging:**
+As campaign progresses, ask: "Does this place feel like home yet?"
+
+**Arc Examples:**
+> PC starts: "Home is wherever I keep my gear. I don't put down roots."  
+> PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
+
+---
+{{wide
+
+## SUPPLEMENTAL QUESTIONS (Use Sparingly)
+}}
+### 11. What's a Secret You're Keeping?
+
+**Purpose:** Creates intrigue and personal plot hooks.
+
+**Follow-Up:** PC shares with DM privately. Introduce complications later.
+
+---
+
+### 12. Who Would You Die to Protect?
+
+**Purpose:** Immediately establishes emotional stakes.
+
+**Follow-Up:** DM ensures that person/ideal gets threatened so heroics matter.
+
+---
+
+### 13. What's One Thing About You That Would Surprise Others?
+
+**Purpose:** Creates depth beyond stat block.
+
+**Example:** "Gruff fighter secretly writes poetry." Creates humanizing moments.
+
+---
+
+### 14. What's Your Definition of Success?
+
+**Purpose:** Defines character goals and end-game desires.
+
+**Follow-Up:** Track progress toward this. Offer opportunities to achieve it.
+
+---
+
+### 15. What Would You NEVER Do, No Matter the Stakes?
+
+**Purpose:** Establishes moral lines. Creates dilemmas that test boundaries.
+
+**DM Note:** Don't cross this line as punishment; present CHOICE to cross it or find another way.
+
+---
+
+\page
+
+## USING ANSWERS IN PLAY
+
+### Session 0 Synthesis
+
+**After Asking Questions:**
+1. **Summarize each PC** in one sentence using their answers
+2. **Identify connections** between PCs and to setting
+3. **Note dramatic opportunities** for future sessions
+4. **Create NPC ties** by assigning existing NPCs from Roster
+
+**Example Synthesis:**
+> **PC 1 (Ranger):**  
+> "Former soldier escaping military past, joined Wardens for fresh start. Fears isolation. Knows Mira Frostborn (fellow hunter). Values community over glory."
+>
+> **PC 2 (Wizard):**  
+> "Scholar fascinated by pre-Calamity magic, came to frontier to study Echo. Trusts magic implicitly. Knows Lorewarden Elric. Left behind research partner in Solace (complicated relationship)."
+>
+> **Connection:** Both arrived same day. Ranger mistrusts Wizard's magical curiosity; Wizard admires Ranger's survival skills. Tension but growing respect.
+
+### Incorporating Answers into Adventures
+
+**Wolves of Welton:**
+- PC who values community: Emphasize Welton villagers' fear
+- PC who fears magic: Awakened wolves trigger that fear
+- PC who left sibling behind: Kasira reminds them of younger sibling
+
+**Frozen Sick:**
+- PC with medical knowledge: Tulgi seeks their help
+- PC who fears isolation: Palebank's remoteness triggers fear
+- PC who lost someone to illness: Victims' suffering is personal
+
+**Temple of Dragonknights:**
+- PC seeking redemption: Stopping cult offers atonement
+- PC protecting "home": Temple threatens Northreach, now their home
+- PC who values belonging: Guild members become family worth fighting for
+
+\column
+
+### Session Callbacks
+
+**Referencing Player Answers:**
+> **Player (Session 0):** "I left my hometown after failing to protect it from bandits."  
+> **DM (Session 8, during rescue):** "As you prepare to defend Welton, you remember your hometown. This time, you're ready. This time, you WON'T fail."
+
+**Character Growth Moments:**
+> **Player (Session 0):** "I don't trust magic."  
+> **Player (Session 15, studying Echo with Elric):** "I'm starting to see magic isn't the enemy—it's what people DO with it."  
+> **DM:** Notes character growth. Rewards with narrative significance.
+
+---
+
+## DM PREP CHECKLIST: SESSION 0
+
+**Before Session:**
+- [ ] Review integration questions (choose 5 per player)
+- [ ] Print/prepare Minor NPC Roster for reference
+- [ ] Review campaign themes (Echo, frontier, community)
+
+**During Session:**
+- [ ] Ask 3-5 questions per PC (adjust based on time)
+- [ ] Encourage players to connect their characters
+- [ ] Take notes on answers for future reference
+- [ ] Assign 1-2 NPC connections per PC from Roster
+
+**After Session:**
+- [ ] Write one-sentence summary of each PC
+- [ ] Note dramatic opportunities to explore
+- [ ] Identify which adventures will resonate with which PCs
+- [ ] Add PC-specific hooks to Session Prep Master Checklist
+
+---
+
+\page
+
+## INTEGRATION PROMPT EXAMPLES BY CHARACTER TYPE
+
+### The Warrior
+**Key Questions:** 4 (Guild motivation), 6 (What left behind), 8 (Skill/talent)
+**Focus:** Honor, combat prowess, protecting others
+**Hook:** Someone they failed to protect in past; opportunity for redemption
+
+### The Mage
+**Key Questions:** 9 (Relationship with magic), 1 (Why Northreach), 5 (Who they know)
+**Focus:** Understanding Echo, knowledge, magical ethics
+**Hook:** Echo mystery directly relevant; Elric becomes mentor
+
+### The Rogue
+**Key Questions:** 1 (Why here), 11 (Secret), 6 (What left behind)
+**Focus:** Escape, fresh start, hidden past
+**Hook:** Past catches up; must choose between old life and new
+
+### The Healer
+**Key Questions:** 4 (Guild motivation), 10 (Definition of home), 12 (Who would they die for)
+**Focus:** Saving lives, community, belonging
+**Hook:** Epidemic/crisis where healing matters; someone they care about endangered
+
+### The Face
+**Key Questions:** 2 (How know other PC), 5 (Who they know), 3 (First memory)
+**Focus:** Relationships, social dynamics, diplomacy
+**Hook:** NPC network becomes crucial; negotiation opportunities with factions
+
+::
+{{note
+**Next Steps After Session 0:**
+1. Incorporate PC connections into Adventure 1
+2. Reference at least ONE player answer per session
+3. Build NPC relationships based on player interest
+4. Let character arcs emerge naturally through play
+}}
+\column
+## ADVANCED: CREATING PC-SPECIFIC ARCS
+
+Using integration answers, design personal story arcs:
+
+### Example Arc: The Redemption Seeker
+
+**Session 0 Answer:** "I failed to protect my village from bandits. Everyone died. I came to Northreach to learn to protect people properly."
+
+**Arc Structure:**
+- **Sessions 1-3:** PC overprotective, tries to prevent all harm (impossible)
+- **Session 5:** PC faces similar situation: village under threat
+- **Session 8:** PC must CHOOSE who to save (can't save everyone)
+- **Session 12:** PC ACCEPTS limitations; saves people by making hard choice
+- **Resolution:** PC realizes they're not god; they're protector who does their best
+
+**Mechanical Reward:** After arc completion, PC gains "Protector's Resolve" feature: Once per long rest, grant ally advantage on death save.
+
+---
+
+### Example Arc: The Found Family
+
+**Session 0 Answer:** "I have no family. Never learned what 'home' means."
+
+**Arc Structure:**
+- **Sessions 1-4:** PC keeps distance, doesn't invest in relationships
+- **Session 6:** NPC (Sylra, Garth, or minor NPC) explicitly befriends PC
+- **Session 9:** That NPC endangered; PC must decide if they care
+- **Session 14:** Multiple NPCs support PC during crisis
+- **Resolution:** PC realizes they HAVE family now—found family at Waystone
+
+**Mechanical Reward:** After arc completion, PC gains "Guild Bond": Once per long rest, call for backup (1d4 Wardens arrive in 1d4 rounds if within 1 mile).
+
+---
+{{wide
+## FINAL DM ADVICE
+
+**Listen More Than You Talk:**
+Players reveal what excites them through answers. Build campaign around their interests.
+
+**Don't Force Connections:**
+If player says "I don't know anyone here," that's valid. Create opportunities to MAKE connections.
+
+**Seeds Not Scripts:**
+Integration answers are seeds for stories, not rigid plot requirements. Let them grow organically.
+
+**Celebrate Growth:**
+When PC evolves beyond Session 0 answers, highlight it: "Remember when you said you'd never trust a mage? Look at you now, working with Elric!"
+
+**Player Agency:**
+These prompts create hooks, but PLAYERS decide how their characters respond. Never railroad based on Session 0 answers.
+
+---
+
+
+}}
+
+\page
+# Session 0 Quick Start Guide
+
+{{descriptive
+**Welcome, DM!** This guide gets you ready to run Session 0 for Northwatch Wardens in under 1 hour of prep time.
+:
+Prep Time: 30 Minutes → Run Session 0 in 2 Hours
+}}
+---
+
+## What is Session 0?
+
+Session 0 is your campaign's foundation:
+- **Introduce the setting** — Northreach frontier, the Northwatch Wardens guild
+- **Create characters** — Premades available or build together
+- **Sign the charter** — Make it official with a ceremony
+- **Set expectations** — Tone, playstyle, scheduling
+- **End with a hook** — First contract posted
+
+**Goal:** Players leave excited, with characters, and knowing what comes next.
+
+---
+
+### Your 30-Minute Prep Checklist
+
+#### ☐ Read This Guide (20 minutes)
+You're doing it! Everything you need is here.
+
+#### ☐ Print or Bookmark (5 minutes)
+- [ ] **Charter Text** (see below on page 3, or printed separately from the Northwatch Wardens charter)
+- [ ] **First Contract** (see below on page 4)  
+- [ ] **Premade Characters** (optional: your DM may provide pre-made character sheets)
+
+### ☐ Prepare Opening (5 minutes)
+Read the "Running Session 0" section below and imagine your opening.
+
+---
+
+### Campaig Pitch (30 seconds)
+
+{{note
+**Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface.**
+
+**Tone:** Grounded frontier survival with moral choices and arcane mysteries  
+**Playstyle:** Investigation, negotiation, and tactical combat  
+**Level Range:** 1–5 (Season 1)  
+**Party Size:** 2–5 players per session (flexible)
+}}
+\column
+---
+
+### The Northwatch Wardens:
+
+#### The Guild (Re-Founded 1 year ago)
+- **Headquarters:** Waystone Inn (a fortified roadhouse in the wilderness)
+- **Purpose:** Protect frontier settlements, investigate threats, take contracts
+- **Structure:** Small guild (~15 active members), led by a three-person council
+
+#### The Leadership Triad (Your Key NPCs)
+{{descriptive
+
+##### **Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
+- **Role:** Assigns contracts, tactical decisions
+- **Personality:** Gruff, experienced, protective of her Wardens
+- **Quick Voice:** Direct and matter-of-fact — "This is the job. You ready?"
+
+#####   **Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
+- **Role:** Supplies, finances, guild logistics
+- **Personality:** Cheerful, meticulous, keeps things running smoothly
+- **Quick Voice:** Warm and practical — "I'll pack you extra rations. Bring receipts!"
+
+#####  **Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
+- **Role:** Investigation support, magical research, lore
+- **Personality:** Soft-spoken, curious, notices patterns others miss
+- **Quick Voice:** Thoughtful and precise — "Curious. This reminds me of something..."
+}}
+
+**DM Tip:** *You only need these three NPCs for Session 0. Everyone else can wait.*
+
+---
+
+#### Waystone Inn: Your Guild Headquarters
+
+**Location:** In the wilderness between several frontier settlements  
+**Description:** A two-story stone inn with a watchtower, stable, and reinforced walls. The common room serves as the guild hall, with a contract board by the fireplace.
+
+**Key Features:**
+- **The Contract Board** — Where missions are posted
+- **The Long Table** — Where the charter will be signed
+- **Private Rooms** — Wardens get free lodging
+- **The Tower** — Elric's study and observation post
+{{note
+**Atmosphere:** Smells of woodsmoke and hearth bread, sounds of crackling fire and wind outside, feeling of safety in a dangerous wilderness.
+}}
+---
+
+\page
+
+## The Northwatch Wardens Charter (Condensed)
+
+**Read this aloud during the signing ceremony:**
+{{descriptive
+"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.
+
+Membership is open to all competent individuals who take the oath. Contracts are posted at Waystone Inn and include monster suppression, escorts, investigations, and diplomacy.
+
+We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone Inn serves as our guildhall and safehouse.
+
+*Sign below to become a Warden."*
+}}
+**The Oath (Players Repeat After You):**
+{{descriptive
+*"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+}}
+
+**After Signing:** Brenna hands each player a **Northwatch Wardens badge** (silver with a compass rose). "Welcome to the Wardens. Now let's get to work."
+
+---
+\column
+## Running Session 0 (2-Hour Timeline)
+
+### Hour 1: Setup & Characters (60 minutes)
+
+**0:00–0:15 — Welcome & Campaign Pitch**
+- Introduce yourself and the campaign (use elevator pitch above)
+- Set expectations:
+  - Modular adventures (can miss sessions without breaking story)
+  - Moral choices matter (not everything is solved by combat)
+  - Variable attendance is fine (characters can rotate between contracts)
+  
+**0:15–0:45 — Character Creation**
+- **Option A:** Use premade characters (your DM may have pre-made character sheets available)
+- **Option B:** Build characters together (Standard Array or Point Buy)
+- **Option C:** Players bring their own level 1 characters
+
+**Important:** Ask each player: *"Why did your character join the Northwatch Wardens?"*
+- Suggested answers: Hired for skill, seeking purpose, protecting home, fresh start, recommended by friend
+
+**0:45–1:00 — Ground Rules**
+- **Advancement:** Milestone leveling (level up after major adventures)
+- **Tone:** Grounded frontier, combat is dangerous, investigation matters
+- **Scheduling:** Confirm session frequency and handle absences
+
+\page
+### Hour 2: The First Session (60 minutes)
+
+**1:00–1:15 — Opening Scene**
+
+*Read aloud:*
+
+> *"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
+> 
+> *Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
+> 
+> *This is where your story begins."*
+
+Introduce the three NPCs briefly (use descriptions on page 2).
+
+**1:15–1:30 — Charter Signing Ceremony**
+- Brenna explains the guild's purpose (1 minute)
+- Players sign the charter (use text on page 3)
+- Players recite the oath together
+- Brenna hands out badges
+
+**1:30–1:45 — Meet the Guild**
+- Let players ask questions of the three NPCs
+- Mara gives them a tour (common room, bunks, tower)
+- Elric mentions "strange disturbances" in the frontier
+- Brenna says "We have work already"
+
+\column
+**1:45–2:00 — The First Contract**
+
+Brenna gestures to the contract board. One parchment is pinned there with a wolf-tooth charm.
+
+*Read aloud:*
+
+> **CONTRACT W-17: "Wolves of Welton"**
+> 
+> *Client:* Welton Village Council  
+> *Reward:* 800 gp + provisions  
+> *Urgency:* High
+> 
+> *"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
+
+**Brenna's Briefing:**
+- "Welton's a half-day's ride south. Good people, hard winter."
+- "Wolves have been hitting farms. Coordinated attacks, almost like they're being led."
+- "This is exactly what we're here for. You ready for your first contract?"
+
+**End Session (Choose One):**
+
+**Option A: End with Preparation**
+- Players accept the contract
+- Mara packs them supplies
+- "You prepare to leave at dawn."
+- **Next session starts with the journey to Welton**
+
+**Option B: Combat Encounter (Add 30-45 minutes)**
+- Players accept the contract
+- As night falls, wolves attack the inn (see "Session 0 Combat" below)
+- After defeating the wolves, notice strange blue veins in their fur
+- "Something's affecting the wildlife. We leave at dawn."
+- **Next session starts with the journey to Welton**
+
+\page
+
+## Session 0 Combat (Optional)
+
+**Use this if you want to add a 30-45 minute combat encounter to Session 0.**
+
+### Wolves at the Waystone Inn
+
+**Setup:** After the charter signing, as dusk settles, hungry wolves attack the inn.
+
+**Read Aloud:**
+
+> *The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
+> 
+> *"Everyone quiet. Listen."*
+> 
+> *Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
+> 
+> *"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
+> 
+> *Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+
+### Encounter Details
+
+**Enemies:** 2 Wolves (CR 1/4 each)  
+**Party:** Level 1 characters (2-5 players)
+
+**Wolf Modifications (Echo Sickness):**
+- Normal wolf stats
+- Appearance: Gaunt, blue-tinged veins visible in fur
+- Behavior: More aggressive than normal, don't flee as readily
+- If reduced to 0 HP, body shows signs of arcane corruption (blue veins glow briefly before fading)
+
+**Terrain:**
+- **Waystone Inn common room** — tables, chairs, fireplace
+- **Half cover** — Behind tables and bar
+- **Difficult terrain** — Knocked-over chairs
+- **Hazard** — Fireplace (creatures pushed into it take 1d6 fire damage)
+
+**Tactics:**
+- Wolves prioritize nearest target
+- Use Pack Tactics if possible
+- Fight to the death (they're too sick/hungry to flee)
+
+\column
+### After Combat
+
+**Investigation (Optional):**
+- DC 12 Medicine check: "These wolves aren't just starving. Something's wrong with them."
+- DC 10 Arcana check: "Faint traces of magical energy, like residual spellwork."
+
+**NPC Reactions:**
+
+**Brenna:** "In twenty years on the frontier, I've never seen wolves attack a lit inn like that. Something drove them mad."
+
+**Elric:** (Examining a body) "Curious. These veins... arcane corruption. Minor, but present. The frontier's changing."
+
+**Mara:** "I'll get a healer's kit. Everyone alright?" (Provides free healing kit use if needed)
+
+**Connection to Campaign:**
+- First hint of the Aeorian Echo affecting wildlife
+- Shows that the frontier is becoming more dangerous
+- Makes the Wolves of Welton contract feel urgent and connected
+
+\page
+
+## Player Character Creation Tips
+
+### Recommended Character Aspects
+
+**Backgrounds That Fit:**
+- Folk Hero, Outlander, Soldier, Guild Artisan, Sage, Acolyte
+
+**Motivations That Work:**
+- Protect your homeland
+- Seek purpose after tragedy
+- Earn coin for family
+- Investigate frontier mysteries
+- Atone for past mistakes
+
+**Party Composition (Suggested):**
+- At least 1 character with combat skills
+- At least 1 character with social skills (Persuasion, Insight)
+- At least 1 character with wilderness skills (Survival, Nature)
+
+**What to Avoid:**
+- Lone wolf characters who refuse to cooperate (this is a guild campaign)
+- Characters with no connection to the frontier (hard to justify joining)
+
+---
+
+## After Session 0: What's Next?
+
+### Before Session 1:
+- [ ] Read **Wolves of Welton** adventure (Chapter 5)
+- [ ] Review encounter locations and NPCs
+- [ ] Prepare battle maps (or use theater of the mind)
+
+### Optional Deeper Prep (After Session 0):
+- Read **Chapter 3: Campaign Overview** for the full campaign overview
+- Read **Chapter 4: DM Resources** for advanced DM tips
+- Review **Chapter 4: DM Guild Roster** for NPC secrets
+
+\column
+
+### Running Future Sessions:
+Every session follows this pattern:
+1. **Return to Waystone Inn** — Report contract results, get paid
+2. **Briefing** — New contract offered or players choose from board
+3. **Adventure** — Complete the contract
+4. **Return** — Repeat cycle
+
+---
+
+## Quick Reference: Key Locations
+
+| Location | Description | Used In |
+|----------|-------------|---------|
+| **Waystone Inn** | Guild HQ, mission hub | Every session |
+| **Welton** | Farming village, half-day south | First adventure |
+| **Pinebrook** | Trading village, southeast | Optional adventure |
+| **Palebank Village** | Seaside settlement, northeast | Optional adventure |
+| **Temple of Dragonknights** | Cult stronghold, northwest mountains | Capstone adventure |
+
+---
+
+### Troubleshooting Session 0
+
+- **Q: Players want to go straight to combat?**  
+- A: Save combat for Session 1. Session 0 is about setup. Tease danger: "The wolves are out there. You'll face them soon."
+
+- **Q: Players want detailed world lore?**  
+-  A: Keep it brief. "This is the cold frontier of Northreach. Civilization is thin. Threats are real. You'll learn more as you explore."
+
+- **Q: Players don't want to join a guild?**  
+- A: Explain this is a guild campaign — it's the structure. If they're uncomfortable, they can be "probationary members" for the first contract.
+
+- **Q: Only 2 players show up?**  
+A: Perfect! This campaign scales for 2–5 players. Smaller parties get tighter, more tactical encounters.
+
+- **Q: Players miss Session 0?**  
+- A: No problem. They can join Session 1 as "new recruits" arriving at Waystone Inn. Give them the 30-second pitch and hand them a badge.
+
+\page
+{{wide
+## Your Session 0 Cheat Sheet (Copy & Keep at Table)
+}}
+### NPCs
+- **Brenna** (Marshal) — Gruff ranger, assigns contracts
+- **Mara** (Steward) — Cheerful halfling, handles supplies
+- **Elric** (Lorewarden) — Elven mage, provides lore
+
+### The Oath
+*"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+
+### First Contract
+**Wolves of Welton** — 800 gp, half-day south, unusually aggressive wolves attacking farms
+
+### Session Flow
+1. Welcome & pitch (15 min)
+2. Character creation (30 min)
+3. Ground rules (15 min)
+4. Opening scene (15 min)
+5. Charter signing (15 min)
+6. Meet guild (15 min)
+7. First contract hook (15 min)
+
+---
+
+## You're Ready!
+
+**You now have everything you need to run Session 0:**
+- ✅ Campaign pitch
+- ✅ Three NPCs
+- ✅ Waystone Inn description
+- ✅ Charter ceremony
+- ✅ First contract hook
+- ✅ Session timeline
+
+**Total prep time:** 30 minutes  
+**Session runtime:** 2 hours  
+**Player excitement:** Maximum
+
+**Next step:** Run Session 0, then prep Wolves of Welton for Session 1.
+
+Welcome to the Northwatch Wardens. The frontier needs you.
+
+---
+
+*For more detailed prep and advanced DM resources, see:*
+- **Chapter 3: Campaign Overview** — Full campaign overview
+- **Chapter 4: DM Resources** — Advanced session running tips
+- **Chapter 4: DM Guild Roster** — Complete NPC roster with secrets

@@ -127,6 +127,8 @@ The caravan consists of hundreds of wagons, animals, and portable structures. Th
 
 ---
 
+\column
+
 ## Culture & Society
 
 Life in the Emberlands is shaped by three fundamental forces:

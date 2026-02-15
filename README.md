@@ -2,7 +2,10 @@
 
 
 
-> *A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
+{{descriptive
+**Tagline:**
+*A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
+}}
 
 
 
@@ -21,6 +24,7 @@ The **Northwatch Wardens** make their stand here at the Waystone Inn, a guild of
 Only when Northreach feels like home will the wider world truly matter.
 
 ---
+\column
 
 ## The Wider World of Aevoria
 
@@ -65,9 +69,8 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 - **Style:** Investigation, moral choices, frontier survival
 
-
-
-**🚀 New DM?** See **Chapter 2: Quick Start** to prep and run Session 0 in under 1 hour.
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
 
 \page
 
@@ -97,7 +100,12 @@ This guide separates **player-safe content** from **DM-only secrets**:
 - NPC secrets and motivations (Chapter 4)
 - Adventure modules with tactical notes (Chapter 5)
 
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
 \page
+
+\column
 
 ## How to Use This Book
 
@@ -126,7 +134,12 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
 **Adventures are modular** — run them in any order with 2–5 players per session. Perfect for variable attendance and flexible scheduling.
 
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
 \page
+
+{{wide
 
 ## Ready to Adventure?
 
@@ -134,10 +147,11 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
 - ⭐ **New DMs:** Turn to **Chapter 2: Quick Start** for Session 0 prep
 - 🎲 **Jump into action:** See **Chapter 5: Adventures** for ready-to-run quests  
-- 🛡️ **Understand the campaign:** Read **Chapter 3: Campaign Overview**
-- 🌍 **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
-- 📋 **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
+- **Understand the campaign:** Read **Chapter 3: Campaign Overview**
+- **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
+- **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
 
 ---
 
 *The world is vast. The mysteries are deep. The adventure awaits.*
+}}

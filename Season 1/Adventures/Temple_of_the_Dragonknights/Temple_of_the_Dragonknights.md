@@ -20,10 +20,12 @@
 - Future faction conflicts (dragons, cults, and opportunists responding to the Echo)
 - Establishes pattern: magical power attracts dangerous creatures
 
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Temple of the Dragonknights: Heroic Tomb" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
@@ -204,6 +206,9 @@
 - **Reputation:** Controversial — some see party as pragmatic, others as cowards
 - **Future hook:** Venomfang may become an ally (or betray party later)
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ### Path D: Destroy or Seal the Temple
@@ -212,6 +217,9 @@
 - Venomfang escapes but loses her power base
 - **Aeorian Echo outcome:** Magical energy disperses (reduces regional instability)
 - **Lorewarden Elric's reaction:** Impressed ("You addressed the root problem, not just the symptom")
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -269,6 +277,9 @@
 - DC 13 Intimidation: Threaten her with superior force (must demonstrate combat prowess first)
 - DC 12 Deception: Trick her into believing party has dragon-slaying weapons
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ## Improvisation Toolkit
@@ -297,6 +308,9 @@
 - Kobolds focus on capture, not killing (want to sacrifice prisoners)
 - Northcrest guards arrive as reinforcements (late but helpful)
 - Venomfang decides party isn't worth the effort and flies away (insult: "Not even worth eating")
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -340,6 +354,9 @@
 
 5. **Lorewarden Elric's Debrief (when party returns to Waystone Inn):**
    > "A dragon drawn to a ley line convergence? Troubling. The Aeorian Echo isn't just reactivating ruins — it's creating *beacons* across Northreach. Every creature with magical sensitivity can feel it. Venomfang was just the first. We need to find a way to stop this before worse things arrive."
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -504,33 +521,48 @@
 
 ### Venomfang's Opening Dialogue (if party enters lair)
 
-> *A sleek green dragon lies coiled atop a pile of gold and bones. Her eyes gleam with intelligence as she regards you.*
->
-> "Adventurers. How... expected. You've slaughtered my servants, disturbed my lair, and now you stand before me. Brave? Or foolish? Perhaps both. What do you want here?"
+{{descriptive
+**Venomfang's Opening Dialogue:**
+*A sleek green dragon lies coiled atop a pile of gold and bones. Her eyes gleam with intelligence as she regards you.*
+
+"Adventurers. How... expected. You've slaughtered my servants, disturbed my lair, and now you stand before me. Brave? Or foolish? Perhaps both. What do you want here?"
+}}
 
 ### Venomfang's Negotiation Offer (if party is strong)
 
-> "You fight well. Better than the so-called 'Dragonknights' who built this tomb. I have a proposition: I will leave this region. In exchange, you will give me one magic item from your possession, and you will not pursue me. Refuse, and I will kill you where you stand. Choose quickly."
+{{descriptive
+**Venomfang's Negotiation Offer:**
+"You fight well. Better than the so-called 'Dragonknights' who built this tomb. I have a proposition: I will leave this region. In exchange, you will give me one magic item from your possession, and you will not pursue me. Refuse, and I will kill you where you stand. Choose quickly."
+}}
 
 ### Venomfang's Threat (if party refuses negotiation)
 
-> *The dragon rises, wings unfurling.*
->
-> "So be it. I will feast on your corpses and add your treasures to my hoard. Know this: I am Venomfang, and I will be remembered as the dragon who **broke** the heroes of Northreach!"
+{{descriptive
+**Venomfang's Threat:**
+*The dragon rises, wings unfurling.*
+
+"So be it. I will feast on your corpses and add your treasures to my hoard. Know this: I am Venomfang, and I will be remembered as the dragon who **broke** the heroes of Northreach!"
+}}
 
 ### Venomfang's Retreat (if bloodied)
 
-> *The dragon snarls, blood dripping from her wounds.*
->
-> "This isn't over. I will remember your faces. One day, you will regret sparing me — or not killing me fast enough."
+{{descriptive
+**Venomfang's Retreat:**
+*The dragon snarls, blood dripping from her wounds.*
+
+"This isn't over. I will remember your faces. One day, you will regret sparing me — or not killing me fast enough."
+}}
 
 *She flies away through a collapsed section of ceiling, escaping into the mountains.*
 
 ### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
 
-> *Elric listens intently to your report, his face grave.*
->
-> "A young dragon drawn to the temple. Kobolds worshipping her as a god. And beneath it all, ley lines converging, amplified by... Salsvault, I presume. The Aeorian Echo is creating magical beacons. Venomfang was opportunistic, but she won't be the last. We need to find a way to stop the Echo at its source. But first, rest. You've earned it."
+{{descriptive
+**Elric's Debrief:**
+*Elric listens intently to your report, his face grave.*
+
+"A young dragon drawn to the temple. Kobolds worshipping her as a god. And beneath it all, ley lines converging, amplified by... Salsvault, I presume. The Aeorian Echo is creating magical beacons. Venomfang was opportunistic, but she won't be the last. We need to find a way to stop the Echo at its source. But first, rest. You've earned it."
+}}
 
 ## Post-Session Tasks
 
@@ -564,9 +596,15 @@
 
 After defeating/driving away Venomfang and debriefing with Elric:
 
-> "The Aeorian Echo is attracting predators. Venomfang was clever and ambitious, but others may be less... negotiable. We need to understand the Echo's full extent. I've marked three potential convergence points on my map. Which will you investigate next?"
+{{descriptive
+**Elric's Next Hook:**
+"The Aeorian Echo is attracting predators. Venomfang was clever and ambitious, but others may be less... negotiable. We need to understand the Echo's full extent. I've marked three potential convergence points on my map. Which will you investigate next?"
+}}
 
 This sets up potential future adventures or allows party to pursue other goals in Northreach.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Temple of the Dragonknights}}
 
 \page
 
@@ -586,11 +624,19 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 
 ©2016 Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Manufactured by Hasbro SA, Rue Emile-Boéchat 31, 2800 Delémont, CH. Represented by Hasbro Europe, 4 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, UK.
 
+{{pageNumber,auto}}
+{{footnote A four-hour adventure for two 1st-2nd level characters}}
+
+\page
+
+\column
 
 # Part I: Innocents Lost
 
 *In this part of the adventure, the players will encounter their first kobolds, investigate a small farmstead, and locate the source of the attacks…*
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
 
 \page
 
@@ -672,6 +718,9 @@ After this information is given, Joel will burst into tears over the loss of his
 
 ### Capturing a Kobold
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
+
 \page
 
 
@@ -711,6 +760,8 @@ Down the right hall there is a washroom to the left and another bedroom. In the 
 
 A DC 10 Survival check will reveal tracks that lead to the back side of the barn,
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
 
 \page
 
@@ -728,6 +779,12 @@ Following the trail through the woods for a mile leads to an opening to a small 
 
 After a curve in the trail, a DC 12 Passive perception check will signify movement around the corner. Turning the corner reveals two kobolds currently roasting a pig on a spit. They are currently eating so any attempt at stealth is successful. This encounter yields 50 XP divided amongst the party.
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
+
+\page
+
+\column
 
 # Part II: Poisontip Cavern
 
@@ -740,6 +797,9 @@ This section of the cavern is relatively straightforward. The players will immed
 |  |
 | --- |
 | This area involves crossing a rickety bridge over a lake full of stalagmites, and a trap.  **Puzzle Clue**    The parchment reads in Common: “Legends  are  born through blood and fire,  ”    and contains the  emblem of the  Dragonknight  s.    On the back it reads  in scribbled Draconic: “  We brought the girl to the  robed ones. Not sure why they wanted her, but  whatever it takes to please the master.”    **Additional**    **Information**        The emblem of the  Dragonknight  s appears as a snake  -  like  cre  ature wrapped around a sword.    **Area 3**   ![A pale green, hand-drawn dungeon/cave map on a square grid. Jagged cave walls outline interconnected tunnels and chambers; several areas are numbered 1–5. The drawing mixes natural cave features (wavy lines for water, small triangular stalagmite/stalactite marks) with constructed rooms and furnishings. Notable features - Large southern chamber labeled "1" reached by a single narrow approach. - Broad central band labeled "3" spanning the map, with water/feature marks inside the enclosed area. - Rectangular east complex labeled "2" with two hearth-like symbols and small rectangular furniture; a small side room at the far east contains stacked barrels or casks. - Northern small chamber labeled "5" with a long narrow corridor or causeway extending east from it. - A circled "T" on the western passage and an "S" adjacent to the east complex (both marked on the map). - Several narrow winding tunnels connecting chambers, plus short stair/ladder symbols in places. - Grid background for scale; overall style is schematic and suitable for tabletop RPG use.](./Temple_of_the_Dragonknights_images/image_003.png) **Crossing the Bridge** |
+
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
 
 \page
 
@@ -771,6 +831,8 @@ If any player falls in, roll a percentage. If the percentage is under 15% the pl
 
 Following the bridge, immediately after is a pressure triggered trap that is triggered by anyone over 120 lbs. If triggered, anyone in that 5x5 ft. square is pelted with rocks, suffering 1d6 bludgeoning damage. Disarming the trap yields 10 XP to the one who disarmed it.
 
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
 
 \page
 
@@ -788,6 +850,12 @@ This area contains an offering bowl, a large stone double door, and two lit torc
 
 Opening the door yields 50 XP divided amongst the party and reveals a pathway and staircase going up.
 
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
+
+\page
+
+\column
 
 # Part III: Temple of the Dragonknights
 
@@ -814,6 +882,9 @@ This room is drapped in torn and burnt banners of the Dragonknights, but within 
 ## Area 3
 
 This room contains a single brazier, and a massive stone carved frieze depicting an epic tale of dragonslaying. A DC 18 Investigation check will reveal a hidden groove in the stone that contains a single platinum ring (250 gp) inside.
+
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
 
 \page
 
@@ -851,9 +922,12 @@ Upon exiting up the stairs to this open area, the players find themselves in a c
 
 This encounter yields 450 XP divided amongst the party.
 
-
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
 
 \page
+
+\column
 
 # Part IV: Loose Ends
 

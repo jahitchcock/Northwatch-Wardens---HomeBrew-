@@ -1,16 +1,23 @@
 # The Morning After: A Warden's First Duty
 
+{{note
 **Campaign Note (DM):** This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
+}}
 
 {{wide
 A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
 }}
 
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
+
 \page
 
 **1. Morning at the Waystone Inn — Read-Aloud**
 
+{{descriptive
 As dawn breaks over Northreach, the Waystone Inn is already alive with the smell of hearthfire and fresh bread. Snowmelt drips from the eaves. The common room is quieter than last night—more purposeful, more expectant.
+}}
 
 Marshal Brenna Thorne stands near the long table where the guild charter has been laid out, parchment weighted by a carved stone of the Northwatch crest. She nods as each of you approaches.
 
@@ -22,7 +29,7 @@ After signatures are inked and hands are shaken, Brenna gestures toward the **Wa
 
 The board is mostly empty—this is a frontier guild just getting on its feet—but one posting stands out:
 
-**🗡️ CONTRACT: “Wolves of Welton”**
+**CONTRACT: "Wolves of Welton"**
 
 **Client:** Welton Village Council
 **Reward:** 800 gp + provisions
@@ -70,6 +77,9 @@ Take this contract. Show Northreach what the Wardens can do.”
 
 She hands them a sealed letter for the Welton Council—official recognition that the Northwatch Wardens are now operating in the region.
 
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
+
 \page
 
 **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
@@ -90,9 +100,12 @@ One of the Pinebrook premade NPCs (Flynt, Rowan, etc.) is at the inn and says:
 
 This makes the contract feel like it matters to the whole region.
 
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
+
 \page
 
-**🎯 Final Tie-In Summary**
+**Final Tie-In Summary**
 
 - The players sign the charter.
 - The guild immediately presents their first official contract.

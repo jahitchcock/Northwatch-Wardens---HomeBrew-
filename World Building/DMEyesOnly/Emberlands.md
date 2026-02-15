@@ -68,7 +68,7 @@ Since Eclipse Day:
 - Raises questions about how many other "natural" features hide ancient technology
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -170,7 +170,7 @@ Cult prophecies contain distorted fragments of truth:
 - Infiltrating cults may reveal network activity patterns
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -259,7 +259,7 @@ Information players should eventually discover (through investigation and explor
 - The price of each solution
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -338,7 +338,7 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 - Potential bargaining chip between factions
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -528,7 +528,7 @@ Ultimate outcomes depend on player choices across the campaign:
 *The Emberlands burn because something beneath the stone is waking—and it remembers a world that no longer exists.*
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 

@@ -24,6 +24,8 @@ theme: 5ePHB
 
 
 
+
+
 ```
 
 
@@ -37,14 +39,89 @@ theme: 5ePHB
 
 
 
-{{toc,wide
-# A DM's Guide to Aevoria
 # Contents
-}}
 
-
-
-
+- Using This Guide — **1**
+- Welcome to Aevoria — **1**
+- Quick Start — **5**
+- Session 0: Character Integration Prompts — **5**
+- Session 0 Quick Start Guide — **6**
+- Campaign Overview — **12**
+- Northwatch Wardens — Drop-In Guild Campaign — **12**
+- DM Resources — **18**
+- The Aeorian Echo: Core Mystery Definition — **24**
+- Foreshadowing Database: The Aeorian Echo — **25**
+- NPC Relationship Web — Season One — **31**
+- NPC Adventure Appearances — **35**
+- NPC Adventure Appearances — **35**
+- Minor NPC Roster: Northreach Region — **49**
+- Faction Response Document: The Aeorian Echo — **50**
+- What If? Quick Guide: Common Scenarios & Solutions — **51**
+- Warden Rank System — **52**
+- Seasonal Event Calendar for Northreach — **53**
+- Travel Encounter Library — **54**
+- Random Encounter Tables: Downtime & Social Interactions — **55**
+- Player Handouts by Adventure — **56**
+- Campaign Tracker: Northwatch Wardens Season One — **57**
+- Campaign Tracker: Northwatch Wardens Season One — **63**
+- Adventures — **69**
+- The Morning After: A Warden's First Duty — **73**
+- Return to Waystone (Session 0) — **77**
+- DM Notes: Wolves of Welton — **83**
+- DM Prep Checklist: Wolves of Welton — **84**
+- Scene 1: Welcome to the Welton Wolfpack — **85**
+- Scene 2: Village People — **87**
+- Scene 3: Plan of Attack — **90**
+- Map of Welton & the Surrounding Area — **91**
+- Map of The Wolves' Den — **93**
+- Flame — **94**
+- Bolt — **95**
+- Frozen Sick — **101**
+- DM Notes: Frozen Sick — **102**
+- DM Prep Checklist: Frozen Sick — **103**
+- Frozen Sick — Monster Stat Blocks — **125**
+- DM Notes: The Wild Sheep Chase — **130**
+- DM Prep Checklist: The Wild Sheep Chase — **133**
+- Summary — **134**
+- Using This Adventure — **134**
+- Adventure Hooks — **134**
+- Baaaa-d News — **135**
+- Guz — **135**
+- Bed Dragon Wyrmling — **139**
+- Ahmed Noke — **140**
+- Modified Wand of True Polymorph — **142**
+- DM Notes: Peril in Pinebrook — **145**
+- Peril in Pinebrook — **146**
+- Conclusion — **170**
+- Player Reference Sheet — **173**
+- DM Notes: Temple of the Dragonknights — **177**
+- DM Prep Checklist: Temple of the Dragonknights — **182**
+- A four-hour adventure for two 1st-2nd level characters — **183**
+- Part I: Innocents Lost — **184**
+- Part II: Poisontip Cavern — **188**
+- Part III: Temple of the Dragonknights — **191**
+- Part IV: Loose Ends — **193**
+- World Secrets — **194**
+- The Aeorian Echo: Campaign Master Document — **194**
+- The Dimensional Rift: Aeor's Fall Across Worlds — **203**
+- People of Northreach: DM Secrets — **204**
+- Places of Northreach: DM Secrets — **214**
+- The Nullwood Expanse — DM Eyes Only — **224**
+- The Far North: DM Secrets — **225**
+- The Emberlands: DM Secrets — **233**
+- THE SHATTERED COAST — DM SECRETS — **239**
+- The Stonebound Depths: DM-Only Secrets — **247**
+- The Sunken Dominion: DM-Only Secrets — **250**
+- The Verdant Marches — DM-Only Secrets — **252**
+- VHAROXIS — DM SECRETS — **263**
+- Appendix: Reference Materials — **269**
+- Mystery Investigation Guide: The Aeorian Echo — **269**
+- Adventure Quick Reference Sheets — **270**
+- NPC Quick Reference Cards — **271**
+- Session Prep Master Checklist — **272**
+- Northwatch Wardens: DM Session Prep Guide — **273**
+- Northwatch Wardens — **278**
+- Northwatch Wardens: Season One — The Story So Far — **291**
 
 \page
 
@@ -55,7 +132,10 @@ theme: 5ePHB
 
 
 
-> *A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
+{{descriptive
+**Tagline:**
+*A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
+}}
 
 
 
@@ -74,6 +154,7 @@ The **Northwatch Wardens** make their stand here at the Waystone Inn, a guild of
 Only when Northreach feels like home will the wider world truly matter.
 
 ---
+\column
 
 ## The Wider World of Aevoria
 
@@ -118,9 +199,8 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 
 - **Style:** Investigation, moral choices, frontier survival
 
-
-
-**🚀 New DM?** See **Chapter 2: Quick Start** to prep and run Session 0 in under 1 hour.
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
 
 \page
 
@@ -150,7 +230,12 @@ This guide separates **player-safe content** from **DM-only secrets**:
 - NPC secrets and motivations (Chapter 4)
 - Adventure modules with tactical notes (Chapter 5)
 
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
 \page
+
+\column
 
 ## How to Use This Book
 
@@ -179,7 +264,12 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
 **Adventures are modular** — run them in any order with 2–5 players per session. Perfect for variable attendance and flexible scheduling.
 
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}
+
 \page
+
+{{wide
 
 ## Ready to Adventure?
 
@@ -187,17 +277,535 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
 - ⭐ **New DMs:** Turn to **Chapter 2: Quick Start** for Session 0 prep
 - 🎲 **Jump into action:** See **Chapter 5: Adventures** for ready-to-run quests  
-- 🛡️ **Understand the campaign:** Read **Chapter 3: Campaign Overview**
-- 🌍 **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
-- 📋 **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
+- **Understand the campaign:** Read **Chapter 3: Campaign Overview**
+- **Explore the mysteries:** Check **Chapter 6: World Secrets** for DM-only lore
+- **Quick reference:** See **Chapter 7: Appendix** for costs, travel times, and NPC index
 
 ---
 
 *The world is vast. The mysteries are deep. The adventure awaits.*
+}}
 
 \page
 # Quick Start
 
+# Session 0: Character Integration Prompts
+
+**Purpose:** These questions help players connect their characters to Northreach, the Wardens, and the campaign setting. Use during Session 0 or character creation to establish meaningful ties to the world.
+
+**How to Use:**
+1. **Ask 3-5 questions per player** (don't overwhelm with all 10)
+2. **Listen and build on answers:** Players reveal what interests them
+3. **Note connections:** Reference player answers in adventures
+4. **Allow "I don't know yet":** Some answers can emerge through play
+5. **Connect PCs to each other:** Look for relationship opportunities between characters
+
+---
+
+## CORE INTEGRATION QUESTIONS
+
+### 1. Why Did You Come to Northreach?
+
+**Purpose:** Establishes PC motivation and connection to frontier setting.
+
+**Follow-Up Questions:**
+- What are you running FROM or running TOWARD?
+- Is this a new beginning or fulfilling an old obligation?
+- Do you plan to stay on the frontier or is this temporary?
+
+{{note
+**DM Notes:**
+Common answers:
+- **Escaping past:** Use echoes of that past as plot hooks (recurring nemesis, old debts)
+- **Seeking fortune:** Offer lucrative but dangerous contracts
+- **Fresh start:** Threaten it with complications from past catching up
+- **Family connection:** Introduce family NPCs (cousin in Welton, parent in Palebank)
+- **Curiosity/adventure:** Feed with mysteries and exploration opportunities
+}}
+
+**Example DM Response:**
+{{descriptive
+**Example DM Response:**
+*Player: "I came here to escape gambling debts in Solace Nexus."*
+**DM:** "Interesting. The moneylender Merrick Blackcoin operates in Northreach too. Do you think word of your debts has spread this far?"
+}}
+
+---
+
+### 2. How Do You Know Another PC?
+
+**Purpose:** Creates party cohesion and shared history.
+
+**Follow-Up Questions:**
+- Did you travel here together or meet recently?
+- Do you trust each other or is this alliance new/fragile?
+- What's one story from your shared past (funny, dangerous, or embarrassing)?
+
+{{note
+**DM Notes:**
+Suggested connections:
+- **Childhood friends:** From same region or settlement
+- **Former colleagues:** Served together (military, mercenary company, guild)
+- **Saved each other:** One PC rescued other from danger; debt of honor
+- **Family ties:** Siblings, cousins, or found family
+- **Recent acquaintances:** Met on road to Northreach; bonded during hardship
+}}
+
+**Building Shared History:**
+Create ONE shared adventure before campaign:
+{{descriptive
+**Shared History Prompt:**
+"You two were escorting caravan when bandits attacked. What was the scariest moment? Who saved whom?"
+}}
+
+---
+\column
+
+### 3. What's Your First Memory of the Frontier?
+
+**Purpose:** Grounds PC's relationship with Northreach's atmosphere.
+
+**Follow-Up Questions:**
+- Was it what you expected or surprising?
+- Did that moment make you want to stay or leave?
+- Who helped you when you first arrived (potential NPC connection)?
+
+{{note
+**DM Notes:**
+Use answer to establish tone:
+- **Awe-inspiring:** "Endless forests, untouched wilderness" → They value exploration
+- **Harsh/dangerous:** "Cold, unforgiving, deadly" → They respect frontier's danger
+- **Welcoming:** "Waystone Inn's warm fire" → They value community/safety
+- **Lonely:** "Empty roads, few people" → May seek belonging
+}}
+
+**Example Integration:**
+{{descriptive
+**Example Integration:**
+*Player: "The first night at Waystone Inn. Garth's stew after weeks of trail rations."*
+**DM:** "Garth the cook notices you across the common room and nods: 'Back for more, eh? Still remember how you cleaned three bowls that first night.'"
+}}
+
+---
+
+### 4. What Brought You to the Northwatch Wardens?
+
+**Purpose:** Establishes PC relationship with guild and motivation for joining.
+
+**Follow-Up Questions:**
+- Was joining your idea or someone else's suggestion?
+- Do you see this as career or temporary employment?
+- What do you hope to gain (reputation, coin, purpose, belonging)?
+
+{{note
+**DM Notes:**
+Common motivations:
+- **Idealism:** "Protect the frontier!" → Test ideals with moral complexity
+- **Pragmatism:** "Need work, guild pays." → Offer contracts matching this
+- **Reputation:** "Build name as hero." → Give opportunities for glory (and consequences of fame)
+- **Belonging:** "Looking for purpose/family." → Develop NPC relationships
+- **Penance:** "Atone for past mistakes." → Offer redemption arcs
+}}
+
+**Guild Connection Types:**
+- **Marshal Brenna recruited you:** She saw potential; don't disappoint her
+- **Elric Vael intrigued you:** Mysteries and research drew you in
+- **Veteran Warden recommended it:** You met [minor NPC], they suggested guild
+- **Reputation preceded guild:** Heard stories, wanted to join
+
+---
+\column
+
+### 5. Who in Northreach Do You Already Know?
+
+**Purpose:** Creates immediate NPC connections and social web.
+
+**Follow-Up Questions:**
+- How did you meet them?
+- Do they know you're joining the Wardens?
+- Is this relationship positive, complicated, or strained?
+
+{{note
+**DM Notes:**
+Assign connections from Minor NPC Roster:
+- **Family:** Distant cousin/relative who settled here
+- **Old friend:** Childhood friend or former colleague now living in Northreach
+- **Mentor:** Someone who taught you skill (Marta for weapons, Elira for herbalism)
+- **Debtor/Creditor:** Owe them or they owe you
+- **Romantic:** Current, past, or potential love interest
+}}
+
+**Multiple PC Connections:**
+If multiple PCs know same NPC, create triangle:
+{{note
+**Example Shared Connection:**
+PC 1 knows Sylra (barmaid) as childhood friend.
+PC 2 has crush on Sylra.
+Built-in party tension for roleplaying.
+}}
+
+---
+
+### 6. What's Something You Left Behind (Person, Place, or Possession)?
+
+**Purpose:** Creates emotional stakes and potential plot hooks.
+
+**Follow-Up Questions:**
+- Do you regret leaving it or was it necessary?
+- Have you told anyone about this or is it secret?
+- Could it (or they) find you here?
+
+{{note
+**DM Notes:**
+Use answers to create complications:
+- **Person:** They arrive seeking PC (reconciliation, revenge, or need help)
+- **Place:** It's threatened; PC receives letter asking for help
+- **Possession:** It surfaces in Northreach (stolen goods, heirloom)
+}}
+
+**Emotional Stakes:**
+{{descriptive
+**Emotional Stakes Example:**
+*Player: "My younger sister. She begged to come but I left her in Solace for safety."*
+**DM:** (Later in campaign) Sister appears at Waystone Inn. She RAN AWAY to find PC. Now what?
+}}
+
+---
+
+### 7. What Do You Fear Most About the Frontier?
+
+**Purpose:** Identifies player preferences for horror/tension elements and creates personal stakes.
+
+**Follow-Up Questions:**
+- Is this fear based on experience or stories you've heard?
+- Have you encountered this fear yet or are you dreading it?
+- What would you do if forced to face it?
+
+{{note
+**DM Notes:**
+Respect player boundaries:
+- **If phobia/trauma:** Avoid gratuitous use; handle sensitively if it appears
+- **If adventure fear:** This is theme to explore in game
+}}
+
+Common frontier fears:
+- **Isolation:** Being alone/abandoned in wilderness → Separation scenarios
+- **Unknown:** Ancient magic, ruins, things we don't understand → Mystery elements
+- **Violence:** Combat, death, injury → Moral choices around violence
+- **Failure:** Letting people down, people dying on your watch → Rescue missions with stakes
+- **The Echo (if aware):** Magic destabilizing world → Central campaign theme
+
+**Using Fears:**
+Don't torment PCs, but create moments where they OVERCOME fear:
+{{note
+**Fear Example:**
+PC fears isolation. During adventure, separated from party in ruins. Must navigate alone. Success = character growth.
+}}
+
+---
+
+### 8. What's One Skill or Talent You're Proud Of?
+
+**Purpose:** Identifies player interests and creates spotlight opportunities.
+
+**Follow-Up Questions:**
+- How did you learn this skill?
+- Has it saved you (or gotten you into trouble)?
+- Do you want to teach others or keep it to yourself?
+
+{{note
+**DM Notes:**
+Create opportunities to showcase:
+- **Combat prowess:** Design encounters highlighting their tactics
+- **Social skills:** Negotiation/investigation scenarios
+- **Knowledge:** Puzzles, lore discoveries, research opportunities
+- **Crafting/trade skills:** Opportunities to craft, repair, or create
+- **Performance:** Social events, festivals, entertaining crowds
+}}
+
+**Mentorship Opportunities:**
+{{descriptive
+**Mentorship Example:**
+*Player: "I'm skilled at tracking."*
+**DM:** Young NPC (Kasira, Torbin, or Elara) asks to learn. PC becomes mentor.
+}}
+
+---
+
+### 9. What's Your Relationship with Magic?
+
+**Purpose:** Gauges PC attitude toward Echo mystery and magical themes.
+
+**Follow-Up Questions:**
+- Do you use magic yourself? If so, how did you learn?
+- If not, do you trust those who do?
+- Have you ever seen magic go wrong? How did it affect you?
+
+{{note
+**DM Notes:**
+PC attitudes toward magic inform roleplaying:
+- **Distrust/fear:** Hesitant around Elric, concerned about Echo, suspicious of Aeorian ruins
+- **Fascination:** Eager to investigate magical phenomena, study with Elric
+- **Utilitarian:** Magic is tool like any other, neither good nor evil
+- **Religious view:** Magic is divine gift or forbidden power
+}}
+
+**Echo Context:**
+The campaign revolves around awakening magic. PC attitudes will shape their approach:
+- **Cautious PCs:** Want to contain/stop it
+- **Curious PCs:** Want to understand it
+- **Pragmatic PCs:** Want to control it
+
+**Example Hook:**
+{{descriptive
+**Example Hook:**
+*Player: "I saw wild magic outbreak destroy my village. I don't trust unstable magic."*
+**DM:** When wolves awaken in Welton, PC recognizes similar magical "wrongness" from that childhood tragedy.
+}}
+
+---
+
+### 10. What Does "Home" Mean to You?
+
+**Purpose:** Establishes what PC values and what they're fighting to protect.
+
+**Follow-Up Questions:**
+- Is "home" a place, people, or feeling?
+- Do you have a home to return to or are you building one?
+- What would make Northreach feel like home?
+
+{{note
+**DM Notes:**
+Use to define character arc:
+- **Place-focused:** Threaten settlements they care about
+- **People-focused:** Develop NPC relationships and found family
+- **Feeling-focused:** Create moments of safety, belonging, purpose
+}}
+
+**Building Belonging:**
+As campaign progresses, ask: "Does this place feel like home yet?"
+
+**Arc Examples:**
+{{note
+**Arc Example:**
+PC starts: "Home is wherever I keep my gear. I don't put down roots."
+PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
+}}
+
+---
+
+## SUPPLEMENTAL QUESTIONS (Use Sparingly)
+
+### 11. What's a Secret You're Keeping?
+
+**Purpose:** Creates intrigue and personal plot hooks.
+
+**Follow-Up:** PC shares with DM privately. Introduce complications later.
+
+---
+
+### 12. Who Would You Die to Protect?
+
+**Purpose:** Immediately establishes emotional stakes.
+
+**Follow-Up:** DM ensures that person/ideal gets threatened so heroics matter.
+
+---
+
+### 13. What's One Thing About You That Would Surprise Others?
+
+**Purpose:** Creates depth beyond stat block.
+
+**Example:** "Gruff fighter secretly writes poetry." Creates humanizing moments.
+
+---
+
+### 14. What's Your Definition of Success?
+
+**Purpose:** Defines character goals and end-game desires.
+
+**Follow-Up:** Track progress toward this. Offer opportunities to achieve it.
+
+---
+
+### 15. What Would You NEVER Do, No Matter the Stakes?
+
+**Purpose:** Establishes moral lines. Creates dilemmas that test boundaries.
+
+{{note
+**DM Note:** Don't cross this line as punishment; present CHOICE to cross it or find another way.
+}}
+
+---
+
+## USING ANSWERS IN PLAY
+
+### Session 0 Synthesis
+
+**After Asking Questions:**
+1. **Summarize each PC** in one sentence using their answers
+2. **Identify connections** between PCs and to setting
+3. **Note dramatic opportunities** for future sessions
+4. **Create NPC ties** by assigning existing NPCs from Roster
+
+**Example Synthesis:**
+{{note
+**Example Synthesis:**
+**PC 1 (Ranger):**
+"Former soldier escaping military past, joined Wardens for fresh start. Fears isolation. Knows Mira Frostborn (fellow hunter). Values community over glory."
+
+**PC 2 (Wizard):**
+"Scholar fascinated by pre-Calamity magic, came to frontier to study Echo. Trusts magic implicitly. Knows Lorewarden Elric. Left behind research partner in Solace (complicated relationship)."
+
+**Connection:** Both arrived same day. Ranger mistrusts Wizard's magical curiosity; Wizard admires Ranger's survival skills. Tension but growing respect.
+}}
+
+### Incorporating Answers into Adventures
+
+**Wolves of Welton:**
+- PC who values community: Emphasize Welton villagers' fear
+- PC who fears magic: Awakened wolves trigger that fear
+- PC who left sibling behind: Kasira reminds them of younger sibling
+
+**Frozen Sick:**
+- PC with medical knowledge: Tulgi seeks their help
+- PC who fears isolation: Palebank's remoteness triggers fear
+- PC who lost someone to illness: Victims' suffering is personal
+
+**Temple of Dragonknights:**
+- PC seeking redemption: Stopping cult offers atonement
+- PC protecting "home": Temple threatens Northreach, now their home
+- PC who values belonging: Guild members become family worth fighting for
+
+### Session Callbacks
+
+**Referencing Player Answers:**
+{{descriptive
+**Session Callback Example:**
+**Player (Session 0):** "I left my hometown after failing to protect it from bandits."
+**DM (Session 8, during rescue):** "As you prepare to defend Welton, you remember your hometown. This time, you're ready. This time, you WON'T fail."
+}}
+
+**Character Growth Moments:**
+{{note
+**Character Growth Example:**
+**Player (Session 0):** "I don't trust magic."
+**Player (Session 15, studying Echo with Elric):** "I'm starting to see magic isn't the enemy—it's what people DO with it."
+**DM:** Notes character growth. Rewards with narrative significance.
+}}
+
+---
+
+## DM PREP CHECKLIST: SESSION 0
+
+**Before Session:**
+- [ ] Review integration questions (choose 5 per player)
+- [ ] Print/prepare Minor NPC Roster for reference
+- [ ] Review campaign themes (Echo, frontier, community)
+
+**During Session:**
+- [ ] Ask 3-5 questions per PC (adjust based on time)
+- [ ] Encourage players to connect their characters
+- [ ] Take notes on answers for future reference
+- [ ] Assign 1-2 NPC connections per PC from Roster
+
+**After Session:**
+- [ ] Write one-sentence summary of each PC
+- [ ] Note dramatic opportunities to explore
+- [ ] Identify which adventures will resonate with which PCs
+- [ ] Add PC-specific hooks to Session Prep Master Checklist
+
+---
+
+## INTEGRATION PROMPT EXAMPLES BY CHARACTER TYPE
+
+### The Warrior
+**Key Questions:** 4 (Guild motivation), 6 (What left behind), 8 (Skill/talent)
+**Focus:** Honor, combat prowess, protecting others
+**Hook:** Someone they failed to protect in past; opportunity for redemption
+
+### The Mage
+**Key Questions:** 9 (Relationship with magic), 1 (Why Northreach), 5 (Who they know)
+**Focus:** Understanding Echo, knowledge, magical ethics
+**Hook:** Echo mystery directly relevant; Elric becomes mentor
+
+### The Rogue
+**Key Questions:** 1 (Why here), 11 (Secret), 6 (What left behind)
+**Focus:** Escape, fresh start, hidden past
+**Hook:** Past catches up; must choose between old life and new
+
+### The Healer
+**Key Questions:** 4 (Guild motivation), 10 (Definition of home), 12 (Who would they die for)
+**Focus:** Saving lives, community, belonging
+**Hook:** Epidemic/crisis where healing matters; someone they care about endangered
+
+### The Face
+**Key Questions:** 2 (How know other PC), 5 (Who they know), 3 (First memory)
+**Focus:** Relationships, social dynamics, diplomacy
+**Hook:** NPC network becomes crucial; negotiation opportunities with factions
+
+---
+
+## ADVANCED: CREATING PC-SPECIFIC ARCS
+
+Using integration answers, design personal story arcs:
+
+### Example Arc: The Redemption Seeker
+
+**Session 0 Answer:** "I failed to protect my village from bandits. Everyone died. I came to Northreach to learn to protect people properly."
+
+**Arc Structure:**
+- **Sessions 1-3:** PC overprotective, tries to prevent all harm (impossible)
+- **Session 5:** PC faces similar situation: village under threat
+- **Session 8:** PC must CHOOSE who to save (can't save everyone)
+- **Session 12:** PC ACCEPTS limitations; saves people by making hard choice
+- **Resolution:** PC realizes they're not god; they're protector who does their best
+
+**Mechanical Reward:** After arc completion, PC gains "Protector's Resolve" feature: Once per long rest, grant ally advantage on death save.
+
+---
+
+### Example Arc: The Found Family
+
+**Session 0 Answer:** "I have no family. Never learned what 'home' means."
+
+**Arc Structure:**
+- **Sessions 1-4:** PC keeps distance, doesn't invest in relationships
+- **Session 6:** NPC (Sylra, Garth, or minor NPC) explicitly befriends PC
+- **Session 9:** That NPC endangered; PC must decide if they care
+- **Session 14:** Multiple NPCs support PC during crisis
+- **Resolution:** PC realizes they HAVE family now—found family at Waystone
+
+**Mechanical Reward:** After arc completion, PC gains "Guild Bond": Once per long rest, call for backup (1d4 Wardens arrive in 1d4 rounds if within 1 mile).
+
+---
+
+## FINAL DM ADVICE
+
+**Listen More Than You Talk:**
+Players reveal what excites them through answers. Build campaign around their interests.
+
+**Don't Force Connections:**
+If player says "I don't know anyone here," that's valid. Create opportunities to MAKE connections.
+
+**Seeds Not Scripts:**
+Integration answers are seeds for stories, not rigid plot requirements. Let them grow organically.
+
+**Celebrate Growth:**
+When PC evolves beyond Session 0 answers, highlight it: "Remember when you said you'd never trust a mage? Look at you now, working with Elric!"
+
+**Player Agency:**
+These prompts create hooks, but PLAYERS decide how their characters respond. Never railroad based on Session 0 answers.
+
+---
+
+**Next Steps After Session 0:**
+1. Incorporate PC connections into Adventure 1
+2. Reference at least ONE player answer per session
+3. Build NPC relationships based on player interest
+4. Let character arcs emerge naturally through play
+
+\page
 # Session 0 Quick Start Guide
 ## Prep Time: 30 Minutes → Run Session 0 in 2 Hours
 
@@ -235,7 +843,10 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ## Campaign Elevator Pitch (30 seconds)
 
-> **"Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface."**
+{{descriptive
+**Elevator Pitch:**
+"Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface."
+}}
 
 **Tone:** Grounded frontier survival with moral choices and arcane mysteries  
 **Playstyle:** Investigation, negotiation, and tactical combat  
@@ -253,22 +864,24 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ### The Leadership Triad (Your Key NPCs)
 
-**🛡️ Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
+**Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
 - **Role:** Assigns contracts, tactical decisions
 - **Personality:** Gruff, experienced, protective of her Wardens
 - **Quick Voice:** Direct and matter-of-fact — "This is the job. You ready?"
 
-**📦 Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
+**Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
 - **Role:** Supplies, finances, guild logistics
 - **Personality:** Cheerful, meticulous, keeps things running smoothly
 - **Quick Voice:** Warm and practical — "I'll pack you extra rations. Bring receipts!"
 
-**📖 Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
+**Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
 - **Role:** Investigation support, magical research, lore
 - **Personality:** Soft-spoken, curious, notices patterns others miss
 - **Quick Voice:** Thoughtful and precise — "Curious. This reminds me of something..."
 
+{{note
 **DM Tip:** You only need these three NPCs for Session 0. Everyone else can wait.
+}}
 
 ---
 
@@ -287,23 +900,28 @@ Read the "Running Session 0" section below and imagine your opening.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 ## The Northwatch Wardens Charter (Condensed)
 
 **Read this aloud during the signing ceremony:**
+{{descriptive
+"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.
 
-> *"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.*
-> 
-> *Membership is open to all competent individuals who take the oath. Contracts are posted at Waystone Inn and include monster suppression, escorts, investigations, and diplomacy.*
-> 
-> *We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone Inn serves as our guildhall and safehouse.*
-> 
-> *Sign below to become a Warden."*
+Membership is open to all competent individuals who take the oath. Contracts are posted at Waystone Inn and include monster suppression, escorts, investigations, and diplomacy.
+
+We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone Inn serves as our guildhall and safehouse.
+
+*Sign below to become a Warden."*
+}}
 
 **The Oath (Players Repeat After You):**
-
-> *"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+{{descriptive
+*"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+}}
 
 **After Signing:** Brenna hands each player a **Northwatch Wardens badge** (silver with a compass rose). "Welcome to the Wardens. Now let's get to work."
 
@@ -338,12 +956,15 @@ Read the "Running Session 0" section below and imagine your opening.
 **1:00–1:15 — Opening Scene**
 
 *Read aloud:*
+{{descriptive
+{{descriptive
+*"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
+}}
 
-> *"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
-> 
-> *Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
-> 
-> *This is where your story begins."*
+*Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
+
+*This is where your story begins."*
+}}
 
 Introduce the three NPCs briefly (use descriptions on page 2).
 
@@ -359,6 +980,9 @@ Introduce the three NPCs briefly (use descriptions on page 2).
 - Elric mentions "strange disturbances" in the frontier
 - Brenna says "We have work already"
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 **1:45–2:00 — The First Contract**
@@ -367,14 +991,15 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 
 *Read aloud:*
 
-> **CONTRACT W-17: "Wolves of Welton"**
-> 
-> *Client:* Welton Village Council  
-> *Reward:* 800 gp + provisions  
-> *Urgency:* High
-> 
-> *"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
+{{descriptive
+**CONTRACT W-17: "Wolves of Welton"**
 
+*Client:* Welton Village Council  
+*Reward:* 800 gp + provisions  
+*Urgency:* High
+
+*"A pack of unusually aggressive wolves has been attacking shepherds and stealing livestock. The wolves are coordinated and have outsmarted our hunting parties. Request immediate assistance from capable Wardens."*
+}}
 **Brenna's Briefing:**
 - "Welton's a half-day's ride south. Good people, hard winter."
 - "Wolves have been hitting farms. Coordinated attacks, almost like they're being led."
@@ -395,6 +1020,9 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - "Something's affecting the wildlife. We leave at dawn."
 - **Next session starts with the journey to Welton**
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 ## Session 0 Combat (Optional)
@@ -407,16 +1035,17 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 
 **Read Aloud:**
 
-> *The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
-> 
-> *"Everyone quiet. Listen."*
-> 
-> *Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
-> 
-> *"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
-> 
-> *Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+{{descriptive
+*The wind picks up outside as darkness falls. You're settling in when Brenna suddenly raises a hand.*
 
+*"Everyone quiet. Listen."*
+
+*Through the howling wind, you hear it: a low, rattling growl. Then another. The lanterns outside flicker.*
+
+*"Wolves," Brenna says grimly. "Close the shutters. Weapons ready."*
+
+*Before you can react, two gaunt wolves burst through the half-open door, eyes wild with hunger and something else—blue veins pulsing faintly beneath their matted fur. They're starving, desperate, and clearly sick.*
+}}
 ### Encounter Details
 
 **Enemies:** 2 Wolves (CR 1/4 each)  
@@ -457,6 +1086,33 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 - First hint of the Aeorian Echo affecting wildlife
 - Shows that the frontier is becoming more dangerous
 - Makes the Wolves of Welton contract feel urgent and connected
+
+{{monster,frame
+## Wolf
+*Medium beast, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|12 (+1)|15 (+2)|12 (+1)|3 (-4)|12 (+1)|6 (-2)|
+___
+**Skills** :: Perception +3, Stealth +4
+**Senses** :: passive Perception 13
+**Languages** :: —
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.*** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+:
+***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+}}
+
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
 
 \page
 
@@ -535,6 +1191,9 @@ A: Perfect! This campaign scales for 2–5 players. Smaller parties get tighter,
 **Q: Players miss Session 0?**  
 A: No problem. They can join Session 1 as "new recruits" arriving at Waystone Inn. Give them the 30-second pitch and hand them a badge.
 
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
 \page
 
 ## Your Session 0 Cheat Sheet (Cut & Keep at Table)
@@ -591,9 +1250,9 @@ Welcome to the Northwatch Wardens. The frontier needs you.
 
 # Northwatch Wardens — Drop-In Guild Campaign
 
-## 🚀 New DM? Start Here!
+## New DM? Start Here!
 
-**📖 SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
+**SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
 
 ---
 
@@ -642,10 +1301,11 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 5. **Peril in Pinebrook** — Frontier fragility exposed (community in crossfire)
 
 ---
+\column
 
 ## Adventures (Modular — Any Order)
 
-### 🐺 Wolves of Welton (Levels 1–3)
+### Wolves of Welton (Levels 1–3)
 - **Theme**: Intelligence awakening where it shouldn't
 - **Adventure Type**: Investigation with moral choice
 - **Setting**: Welton village, shepherd territory, wolf dens
@@ -659,9 +1319,12 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Rewards**: 800 gp + Warden credit
 - **Adventure Module**: See **Chapter 5: Wolves of Welton**
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
-### ❄️ Frozen Sick (Levels 2–4)
+### Frozen Sick (Levels 2–4)
 - **Theme**: Ancient magic resurfacing with deadly consequences
 - **Adventure Type**: Survival + exploration + investigation
 - **Setting**: Palebank village, Croaker Cave, Salsvault ruins
@@ -671,7 +1334,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Variable (loot, political favor, or dangerous knowledge)
 - **Adventure Module**: See **Chapter 5: Frozen Sick**
 
-### 🐉 Temple of the Dragonknights (Levels 4–5)
+### Temple of the Dragonknights (Levels 4–5)
 - **Theme**: Ambition, corruption, and misused awakening magic
 - **Adventure Type**: Combat + infiltration + negotiation
 - **Setting**: Temple ruins, cult stronghold, dragon lair
@@ -681,7 +1344,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Artifacts, regional reputation shift
 - **Adventure Module**: See **Chapter 5: Temple of the Dragonknights**
 
-### 🐑 The Wild Sheep Chase (Levels 1–2, Comic Relief)
+### The Wild Sheep Chase (Levels 1–2, Comic Relief)
 - **Theme**: Magic behaving unpredictably
 - **Adventure Type**: Comedy one-shot with real stakes
 - **Setting**: Noke's Tower, sheep-filled countryside
@@ -691,7 +1354,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Loot + memorable story
 - **Adventure Module**: See **Chapter 5: The Wild Sheep Chase**
 
-### 🌲 Peril in Pinebrook (Levels 1–3, Side Trek)
+### Peril in Pinebrook (Levels 1–3, Side Trek)
 - **Theme**: Small communities caught in the crossfire of rising magic
 - **Adventure Type**: Investigation + exploration + social
 - **Setting**: Pinebrook trading village, surrounding wilderness
@@ -740,6 +1403,9 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 | **Noke's Tower** | Wizard's tower (W of Waystone) | Wild Sheep Chase |
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
 
 \page
 
@@ -804,6 +1470,9 @@ All Wardens shall:
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
 ### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
@@ -838,6 +1507,9 @@ This campaign includes adventure modules, DM resources, and world secrets organi
 - Adventure modules and stat blocks (Chapter 5)
 - World secrets and mystery framework (Chapter 6)
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
 ### Key References
@@ -863,7 +1535,9 @@ For quick navigation between adventures and their hidden lore, this guide provid
 - **Chapter 6: Northreach Secrets** — Regional secrets and adventure integration
 - **Chapter 6: Places Secrets** — Location-specific hidden truths
 
+{{note
 Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" section with cross-references to relevant secrets.
+}}
 
 ---
 
@@ -949,6 +1623,9 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
 ## Content & Licensing
@@ -985,7 +1662,7943 @@ The frontier awaits. The Northwatch Wardens have work to do.
 # DM Resources
 
 {{note
-##### 📋 DUNGEON MASTER RESOURCE
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: Campaign Arc & Mystery Structure**
+
+This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe content**, see *The Adventurer's Guide to Aevoria* (the player companion to this book)
+}}
+
+**NORTHWATCH WARDENS: High‑Level Campaign Arc**
+
+***A modular frontier campaign about awakening magic, corrupted legacies, and the consequences of power unleashed.***
+
+**📚 DM Resources**
+
+For deeper secrets and campaign mechanics, see:
+- **Chapter 6: The Dimensional Rift** — How Aeorian ruins reached Aevoria (foundational lore)
+- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: Places Secrets** — Location-specific secrets
+
+---
+
+**🌑 THE CORE THROUGHLINE**
+
+Across the frontier, **ancient magic is waking up** — not in one place, but everywhere.
+Each adventure the players take is a *symptom* of a deeper, spreading disturbance:
+
+**The Aeorian Echo**
+
+A ripple of unstable arcane energy — originating from the buried ruins of **Salsvault** deep beneath The Far North — has begun to:
+
+- mutate beasts (Wolves of Welton)
+- destabilize magical artifacts (Wild Sheep Chase)
+- empower cults and dragons (Temple of the Dragonknights)
+- stir old spirits and forgotten guardians (Peril in Pinebrook)
+
+**What the Wardens Don't Know Yet:**
+Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aeor** from another world (Wildemount/Exandria), displaced across dimensions during Aeor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
+
+The Wardens don’t know this yet.
+But every contract they take is another puzzle piece.
+
+**🧩 HOW EACH MODULE FITS INTO THE ARC**
+
+Below is the “why it matters” for each adventure, independent of order.
+
+
+**1. Wolves of Welton — The First Contract**
+
+**Theme:** Intelligence awakening where it shouldn’t.
+**Arc Connection:** The wolves’ sudden sentience is the *first visible sign* of the Aeorian Echo.
+
+- Alexi Merriksonn (missing sorcerer) was exposed to the Echo.
+- His accidental magical discharge awakened the wolves.
+- The wolves’ dreams and visions hint at a “bright flash,” “shifting stars,” or “the world humming.”
+
+**Outcome:**
+The Wardens learn that something is *changing the frontier itself*.
+
+This is the campaign’s inciting incident.
+
+
+**2. Frozen Sick — The First Major Threat**
+
+**Theme:** Ancient magic resurfacing with deadly consequences.
+**Arc Connection:** This is the **source** of the Echo.
+
+- The blue vials contain Aeorian spores.
+- The disease is a byproduct of the same arcane instability that awakened the wolves.
+- Salsvault’s malfunctioning systems are still pulsing magical energy into the region.
+
+**Outcome:**
+The Wardens discover:
+
+- Aeor is real.
+- Its ruins are active.
+- Its magic is leaking into the world.
+
+This is the campaign’s *first revelation*.
+\page
+**3. Temple of the Dragonknights — Corruption Takes Root**
+
+**Theme:** Ambition, corruption, and the misuse of awakening magic.
+**Arc Connection:** Venomfang and the cultists are drawn to the same arcane disturbances.
+
+- The cult’s rituals are empowered by the Echo.
+- Venomfang senses the rising magic and wants to exploit it.
+- The kidnapped girl is part of a ritual meant to create a dracolich soul vessel — something only possible because magic is destabilizing.
+
+**Outcome:**
+The Wardens learn that:
+
+- Intelligent predators (wolves) aren’t the only ones changing.
+- Dragons and cults are mobilizing.
+- Someone (or something) is guiding these awakenings.
+
+This is the campaign’s *escalation*.
+
+
+**🐑 4. The Wild Sheep Chase — Magical Chaos Spreads**
+
+**Theme:** Magic behaving unpredictably.
+**Arc Connection:** The Wand of True Polymorph is unstable because of the Echo.
+
+- Noke’s modifications were possible only because ambient magic is fluctuating.
+- Shinebright’s transformation is another example of “magic gone wrong.”
+- The Bed Dragon Wyrmling is a direct parallel to the awakened wolves.
+
+**Outcome:**
+The Wardens see that:
+
+- Magic is becoming unreliable.
+- Artifacts are malfunctioning.
+- Spellcasters are losing control.
+
+This is the campaign’s *comic but meaningful warning*.
+
+
+
+\page
+
+**🌲 5. Peril in Pinebrook — The Frontier Cracks**
+
+**Theme:** Small communities caught in the crossfire of rising magic.
+**Arc Connection:** Pinebrook’s troubles are minor compared to the others, but they show the *human cost* of the Echo.
+
+- Strange creatures, odd magical effects, and unusual behavior in the woods all tie back to the same arcane disturbance.
+- The young players/NPCs introduced here can become future Wardens or allies.
+
+**Outcome:**
+The Wardens realize:
+
+- Every settlement is vulnerable.
+- The frontier is changing faster than anyone can respond.
+- They need to grow — more members, more alliances, more readiness.
+
+This is the campaign’s *worldbuilding anchor*.
+
+**🧵 HOW THE PIECES INTERLOCK (No Matter the Order)**
+
+**The Wolves hint at the disturbance.**
+
+↓
+
+**Frozen Sick reveals the source.**
+
+↓
+
+**Temple of the Dragonknights shows factions exploiting it.**
+
+↓
+
+**Wild Sheep Chase shows magic destabilizing everywhere.**
+
+↓
+
+**Peril in Pinebrook shows the frontier’s growing fragility.**
+
+The order doesn’t matter because each adventure:
+
+- stands alone as a contract
+- reveals a different facet of the same phenomenon
+- builds toward the same overarching mystery
+
+\page
+
+**CAMPAIGN ARC STRUCTURE**
+
+While adventures can be played in any order due to their modular nature, they naturally group into three thematic arcs that track the Wardens' growing understanding of the Aeorian Echo and their role in protecting the frontier.
+
+## Arc 1: First Signs — Learning the Land
+**Theme:** The Wardens establish themselves as a frontier guild while encountering their first signs that something is awakening across Northreach. Strange events that seem unrelated slowly reveal an underlying pattern of magical disturbance.
+
+**Adventures:**
+- **Wolves of Welton** — The inciting incident (awakened intelligence)
+- **Peril in Pinebrook** — Frontier vulnerability (community under threat)
+
+**Arc Progress Marker:** By the end of Arc 1, the Wardens should recognize that:
+- Magical phenomena are occurring across the frontier (not isolated incidents)
+- Normal threats (wolves, bandits, forest dangers) are behaving unusually
+- The frontier's settlements need protection from threats they don't understand
+- The Wardens' role is expanding beyond typical mercenary work
+
+**What Players Know:** Something magical is causing impossible changes. The effect is spreading. No one knows why.
+
+**What Players Don't Know Yet:** The source (Salsvault), the cause (Aeorian ruins), or the scope (regional, not local).
+
+---
+
+## Arc 2: Revelation — The Hidden Truth
+**Theme:** The mystery deepens as the Wardens uncover ancient connections. What seemed like random magical disturbances reveals itself as symptoms of a far older, more dangerous source. The Wardens transition from frontier protectors to investigators of an ancient secret.
+
+**Adventures:**
+- **Frozen Sick** — The revelation (Salsvault discovery)
+- **Wild Sheep Chase** — Magical destabilization (Echo effects spreading)
+
+**Arc Progress Marker:** By the end of Arc 2, the Wardens should understand that:
+- The source is Salsvault, an ancient Aeorian laboratory buried in The Far North
+- All previous magical disturbances trace back to Salsvault's reactivation
+- The facility was deliberately triggered (not natural awakening)
+- Aeorian magic is fundamentally different from modern wizardry — older, more powerful, more dangerous
+- This problem is far bigger than they initially realized
+
+**What Players Know:** Salsvault is the source. It's Aeorian. It's active. Someone turned it on deliberately.
+
+**What Players Don't Know Yet:** Who activated Salsvault and why. Whether other Aeorian facilities exist. What can be done to stop it.
+
+---
+
+## Arc 3: Convergence — Rising Threats
+**Theme:** With the source revealed, dangerous factions mobilize to exploit or control the awakening magic. The Wardens must protect the frontier from those who would weaponize the Aeorian Echo while investigating who triggered the ancient ruins and why.
+
+**Adventures:**
+- **Temple of the Dragonknights** — Corruption and ambition (factions exploiting the Echo)
+
+**Arc Progress Marker:** By the end of Arc 3, the Wardens should recognize that:
+- Intelligent predators (dragons, cults, ambitious wizards) are drawn to the rising magic
+- Multiple factions are aware of the Aeorian Echo and seeking to exploit it
+- The frontier is caught between ancient dangers awakening and modern threats mobilizing
+- The Wardens are uniquely positioned to investigate, mediate, or confront these converging forces
+- Their choices will shape the frontier's future
+
+**What Players Know:** Dragons, cults, and wizards are all being drawn to the Echo. The frontier is becoming a battleground. The Wardens must decide their role.
+
+**What Players Don't Know Yet:** The full extent of Aeorian facilities. The identity of whoever triggered Salsvault. Whether the Echo can be stopped or contained.
+
+---
+
+**Arc Transition Philosophy:**
+
+Each arc builds naturally on the last while remaining playable in flexible order:
+
+- **Arc 1 → Arc 2:** From "strange things are happening" to "we found the source"
+- **Arc 2 → Arc 3:** From "we know what caused it" to "others want to control it"
+- **Arc 3 → Future:** From "we're protecting the frontier" to "we're shaping its destiny"
+
+The transitions account for players experiencing adventures out of order by providing modular revelation moments that work regardless of sequence.
+
+
+**🏛️ THE NORTHWATCH WARDENS AS THE CAMPAIGN FRAME**
+
+The guild structure is the glue that makes the modular format work.
+
+**Every session begins with:**
+
+- A contract posted on the board
+- A briefing from Brenna, Mara, or Elric
+- Optional rumors or cross-adventure clues
+
+**Every session ends with:**
+
+- A report to the guild
+- A new clue about the Aeorian Echo
+- A sense of growing responsibility
+
+This keeps the campaign cohesive even when the cast changes week to week.
+
+\page
+
+**🔮 THE LONG GAME: Where This Is All Going**
+
+As the Wardens complete contracts, they uncover:
+
+**1. The Aeorian Echo is growing stronger.**
+
+More mutations. More magical anomalies. More cult activity.
+
+**2. Something in Salsvault is still active.**
+
+A malfunctioning arcane engine?
+A surviving Aeorian intelligence?
+A containment breach?
+
+**3. Factions are mobilizing.**
+
+- Venomfang wants power.
+- The Uttolots want artifacts.
+- Noke’s experiments weren’t isolated.
+- The wolves may become allies or enemies.
+
+**4. The Wardens must choose their role.**
+
+- Protectors?
+- Investigators?
+- Diplomats?
+- Monster hunters?
+- Or something more?
+
+**5. The finale (when you want it):**
+
+A multi‑session arc returning to **The Far North** to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
+
+**In One Sentence**
+
+**The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
+\page
+
+**BETWEEN-ARC TRANSITION SCENES**
+
+These scenes help transition between arcs, showing the evolution of the Wardens' understanding and the frontier's changing state. Use them when players complete the last adventure of an arc, or at the start of the first adventure in the next arc.
+
+---
+
+## Transition 1: Arc 1 → Arc 2
+### "The Pattern Emerges"
+
+**When to Use:** After players complete adventures in Arc 1 (Wolves of Welton, Peril in Pinebrook) and before starting Arc 2.
+
+**Setting:** Evening at Waystone Inn, the Wardens gather in the common room after another successful contract.
+
+**Scene:**
+
+The fire crackles in the hearth as the Wardens nurse their drinks and compare notes from recent contracts. Marshal Brenna Thorne enters from her office, followed by Lorewarden Elric Vael, who carries a leather-bound journal and several rolled maps.
+
+"Gather round," Brenna says, her voice carrying the weight of concern. "Elric's been tracking something."
+
+The elderly scholar spreads a map of Northreach across the table, marking locations with small stones. Welton. Pinebrook. The Old Woods. Each stone represents a contract the Wardens completed.
+
+"I've been compiling reports from across the frontier," Elric explains, adjusting his spectacles. "Not just your contracts, but rumors from traveling merchants, reports from village councils, even stories from hunters and trappers." He pauses, his finger tracing a pattern across the map. "There's a pattern here. Wolves gaining intelligence overnight. Magical phenomena appearing in settled lands. Creatures behaving... differently."
+
+He looks up at the Wardens. "Whatever's happening, it's not isolated. It's spreading. And it started roughly three months ago—all at once, as if someone rang a bell only certain things could hear."
+
+Brenna leans forward. "We need to know more. The frontier depends on us understanding what we're facing."
+
+Steward Mara Fenwick enters with a new contract. "Speaking of which, we've received word from Palebank Village. Something about a strange disease..." She exchanges a meaningful glance with Elric. "The timing matches."
+
+**Purpose of This Scene:**
+- Validates player discoveries across multiple adventures
+- Shows NPCs taking the mystery seriously
+- Introduces the idea that the Wardens are investigators, not just problem-solvers
+- Creates anticipation for Arc 2's revelation
+- Works even if players only completed one Arc 1 adventure (Elric mentions other reports)
+
+---
+
+## Transition 2: Arc 2 → Arc 3
+### "Word Spreads"
+
+**When to Use:** After players complete Frozen Sick (the revelation adventure) and before starting Arc 3.
+
+**Setting:** Two weeks after the Salsvault expedition, in the Waystone Inn's newly designated "War Room."
+
+**Scene:**
+
+The atmosphere in Waystone Inn has changed. What was once a simple frontier guild house now feels like a command center. Maps cover the walls, and Elric's research materials occupy an entire table. The mood is tense but purposeful.
+
+Marshal Brenna calls the Wardens to the War Room. "We have a problem," she says without preamble. "Word of your discovery at Salsvault is spreading—faster than we'd like."
+
+Lorewarden Elric nods gravely. "I've received three separate inquiries in the past week. A merchant consortium wants to hire 'expeditionary experts.' A representative from a noble house in Solaris sent a very carefully worded letter asking about 'northern antiquities.' And..." he hesitates, "someone broke into my study two nights ago. Nothing was taken, but my Salsvault notes were disturbed."
+
+Steward Mara adds, "We're also seeing an increase in unusual travelers passing through Northreach. Wizards. Mercenary companies. People asking questions about ancient ruins."
+
+Brenna's expression is grim. "Whatever you found in Salsvault, whatever the Aeorian Echo really is—people with power want it. Dragons, cults, ambitious wizards... they're all drawn to rising magic like wolves to wounded prey."
+
+She meets each Warden's eyes. "The frontier is about to become much more dangerous. Not from beasts or bandits, but from people who see Aeorian magic as a weapon or a prize. We need to be ready."
+
+A new contract is pinned to the board: reports of cult activity near a temple in the mountains, and rumors of a dragon's interest in the region.
+
+**Purpose of This Scene:**
+- Acknowledges the weight of Salsvault revelation
+- Shows consequences of player discovery (word is spreading)
+- Introduces the "factions mobilizing" theme of Arc 3
+- Raises stakes from local threats to regional power struggles
+- Creates urgency for the Temple of the Dragonknights adventure
+- Shows the guild evolving (War Room, increased security)
+
+---
+
+## Transition 3: Arc 3 → Future Seasons
+### "The Weight of Responsibility"
+
+**When to Use:** After players complete Arc 3 (Temple of the Dragonknights) as a capstone to Season 1, looking ahead to future seasons.
+
+**Setting:** Late evening, the Wardens stand on the Waystone Inn's balcony overlooking Northreach as snow begins to fall.
+
+**Scene:**
+
+Marshal Brenna joins the Wardens on the balcony, two mugs of hot cider in hand. Below, Northreach's lights twinkle against the darkening sky. The frontier settlement feels different now—smaller and more fragile, knowing what threatens it.
+
+"You've done well," Brenna says quietly. "Better than I dared hope when we first opened these doors. You've saved Welton from awakened wolves. Protected Pinebrook. Uncovered the truth at Salsvault. Stopped a dragon cult from creating a dracolich." She pauses. "Most guilds would be celebrating. But you... you understand what's really at stake, don't you?"
+
+She gazes out at the frontier. "The Aeorian Echo isn't going away. Salsvault is still active, still pulsing magic into the region. There are other facilities out there—we just don't know where yet. And now that word has spread, every ambitious wizard, power-hungry noble, and territorial dragon knows there's ancient magic for the taking."
+
+Brenna turns to face the Wardens fully. "The frontier needs protectors who understand what's coming. The Northwatch Wardens started as a simple idea: help people who can't help themselves. But you've become something more. You're the ones who stand between desperate settlements and ancient dangers. Between greedy factions and catastrophic power."
+
+She raises her mug. "To the Wardens. To the frontier. And to whatever comes next."
+
+As the Wardens drink, Lorewarden Elric emerges onto the balcony, wrapped in a heavy cloak. "I hate to interrupt the moment," he says, "but I've been corresponding with scholars in Solaris. There are... theories about why Salsvault activated when it did. And some of those theories suggest this is just the beginning." He looks at the Wardens with a mixture of concern and hope. "We'll need you for what's ahead."
+
+In the distance, barely visible through the falling snow, strange lights flicker on the northern horizon—a reminder that the Aeorian Echo continues its work.
+
+**Purpose of This Scene:**
+- Provides emotional closure to Season 1's arc
+- Acknowledges player accomplishments
+- Reinforces the Wardens' evolved identity
+- Hints at future threats without full revelation
+- Shows the frontier as a living place worth protecting
+- Teases Season 2 mysteries (Why did Salsvault activate? What comes next?)
+- Creates "call to adventure" feeling for future campaigns
+
+---
+
+**Using Transition Scenes Flexibly:**
+
+Because adventures can be completed in any order, adapt these scenes to match what players have actually experienced:
+
+- **If players haven't done all Arc 1 adventures:** Elric mentions "reports from other Wardens" or "unconfirmed rumors" for adventures they haven't played yet
+- **If players did Arc 2 before Arc 1:** Transition 1 becomes a "looking back" moment where they realize earlier signs they missed
+- **If players skip adventures:** NPCs acknowledge other Warden teams completed those contracts off-screen
+
+The transitions are modular frameworks, not rigid requirements. Adapt dialogue to reference specific player choices and discoveries.
+
+\page
+# The Aeorian Echo: Core Mystery Definition
+
+**Campaign Lynchpin — Master Reference for DMs**
+
+This document consolidates and clarifies the central mystery of Northwatch Wardens: Season One. Use this as your authoritative reference for what the Echo is, how it works, and what players should discover when.
+
+**Document Purpose:** Ensure consistent mystery pacing and revelation regardless of adventure order.
+
+---
+
+## THE ONE-PAGE SUMMARY
+
+**What is the Aeorian Echo?**
+
+The reactivation of ancient magical facilities left behind when the flying city of Aeor crashed during the Calamity, thousands of years ago. These facilities are designed as weapons against gods, dragons, and civilizations. Something—or someone—has begun systematically bringing them back online.
+
+**Where is it?**
+
+Buried throughout Northreach, with the primary source at **Salsvault** (far northern ice region). Underground connections link multiple sites into a network that's communicating and coordinating reactivation.
+
+**Why now?**
+
+External trigger (TBD by DM—see Entity Options below). Likely: exploration of the ruins, removal of ancient artifacts, environmental changes, or deliberate activation by whoever/whatever is leading the Echo.
+
+**What are its effects?**
+
+- Animals become unexpectedly intelligent (Welton wolves)
+- Diseases spread that bypass normal healing (Palebank frigid woe)
+- Magical items malfunction unpredictably (Noke's wand)
+- Sensitive individuals experience prophetic dreams
+- Factions notice the magical surge and mobilize (cults, dragons)
+- Reality becomes subtly "wrong" in the affected region
+
+**What does it want?**
+
+Depends on the entity controlling it (see Entity Options). Broad goals: complete pre-Calamity objectives, neutralize divine magic, eliminate dragons, establish control, prove Aeorian superiority.
+
+**Can it be stopped?**
+
+Yes, but not easily. Possible solutions:
+- Sever the network (destroy enough nodes to prevent communication)
+- Remove/neutralize the entity (requires extreme power)
+- Shut down Salsvault (main power source)
+- Negotiate favorable terms (risky, depends on entity type)
+
+---
+
+## WHAT IS THE AEORIAN ECHO? (Deep Version)
+
+### The Technical Definition
+
+An **Echo** is a magical resonance phenomenon where dormant, interconnected Aeorian facilities respond to activation stimuli. When one site activates, it sends signals through underground magical conduits to other sites. Those sites begin awakening. The awakening of each new facility strengthens the overall signal (feedback loop). The result is a cascading reactivation spreading outward from Salsvault.
+
+### The Metaphor
+
+Think of the Echo like a vast, sleeping network of alarms going off one by one. Each alarm that activates makes the next alarm easier to activate. Pretty soon, all the alarms are ringing.
+
+### The Experience
+
+*From a DM perspective:*
+- Start subtle: Strange wolf behavior, unusual dreams, unexplained sickness
+- Build recognizably: Multiple similar phenomena in different locations
+- Escalate dramatically: Factions responding, terrain changing, reality warping
+- Reach climax: Full revelation, choices about how to handle it
+
+*From a player perspective:*
+- Early: "Something weird is happening"
+- Mid: "It's connected to ancient magic"
+- Late: "Entire region is threatened and only we can stop it"
+
+---
+
+## HISTORICAL CONTEXT
+
+### What Was Aeor?
+
+**The Civilization:**
+- Advanced pre-Calamity city-state of arcane mastery
+- Flew through the sky on massive magical foundations
+- Pursued knowledge and power without limit
+- Developed weapons specifically designed to threaten gods
+
+**The Hubris:**
+- Believed magic could equal or surpass divine power
+- Created bioweapons immune to divine healing
+- Built anti-dragon armaments
+- Planned to wage war against the gods themselves
+
+**The Fall:**
+- Gods unified to destroy Aeor during the Calamity
+- City was shattered and crashed
+- Most inhabitants killed instantly
+- Survivors scattered; most did not survive the impact
+
+**Why Aeor Mattered:**
+- Represented the height of mortal magical achievement
+- Had solutions to problems Northreach faces (dragon overpopulation, divine tyranny)
+- Created weapons that STILL function millennia later
+- Believed they were RIGHT—and some of their arguments were compelling
+
+**Player Realization:** Aeor wasn't purely evil. It was ambitious, proud, and wrong about how to achieve its goals. But some of what it wanted (independence from divine control, survival against dragons) resonates with frontier ideals.
+
+### Why Is Northreach Important?
+
+**Geographical Reality:**
+- Fragments of Aeor scattered across Eiselcross during the crash
+- Some fragments fell in what is now Northreach
+- The region sits on multiple ley line intersections
+- Underground magical conduits naturally formed between major crash sites
+
+**The Network:**
+- Multiple Aeorian facilities are present underground
+- They're connected by ancient transit systems
+- They're linked by magical communication networks
+- Some are dormant; some are barely-conscious
+
+**Why This Matters to Players:**
+- Northreach has become a ground zero for Aeorian reactivation
+- Events here could have continent-wide consequences
+- Players are uniquely positioned to influence what happens (they're local, they're capable, they're on-site early)
+
+---
+
+## THE ECHO'S LIFE CYCLE
+
+The Echo follows a predictable progression. Understanding the phases helps DMs know what to feature in each adventure.
+
+### Phase One: Assessment (Current Campaign Timeline)
+
+**Duration:** Approximately 1-3 months before campaign start; ongoing during Weeks 1-4 of season
+
+**Goal:** The awakening entity evaluates current world state and its own capabilities
+
+**Actions Taken:**
+- Testing biological modification (awakening wolves in Welton)
+- Assessing weapon functionality (releasing frigid woe in Palebank)
+- Gathering resources (influencing artifact thefts and smuggling)
+- Establishing surveillance (Echo resonance spreads awareness)
+- Identifying threats and potential allies
+
+**Observable Phenomena (What Players Notice):**
+- Unusual animal behavior and inexplicable intelligence
+- Mysterious illnesses with no explanation
+- Magic malfunctioning in unpredictable ways
+- Prophetic dreams affecting sensitive people
+- Strange patterns of thefts and disappearances
+- Factions beginning to move strategically
+- Minor environmental anomalies (cold spots, geometric frost)
+
+**Player Learning Curve:**
+- **First Adventure:** "Something unnatural is happening"
+- **Second Adventure:** "It's more widespread than we thought"
+- **Third Adventure:** "This might be coordinated by someone/something"
+
+**Session Length:** Can last entire season (or until players investigate Salsvault)
+
+---
+
+### Phase Two: Consolidation (Approaching During Advanced Campaign)
+
+**Duration:** Weeks 5-8 of campaign; triggered if players investigate Salsvault extensively
+
+**Goal:** Restore full functionality to the network and establish command and control
+
+**Actions Taken:**
+- Connecting underground transit systems
+- Restoring power generation in secondary facilities
+- Activating autonomous guardians across the region
+- Establishing chain-of-command structures
+- Expanding influence zone outward from Salsvault
+
+**Observable Phenomena:**
+- Increased magical activity across the entire region
+- Multiple facilities activating simultaneously
+- Organized construct movements (not random)
+- Weather anomalies become severe (unnatural storms, temperature swings)
+- Mass animal migrations following strange patterns
+- More people experiencing Echo effects (dreams, sensitivity)
+- Factions openly recruiting and mobilizing
+- One or more "Marked Ones" (individuals subtly influenced by the Echo)
+
+**Political Consequences:**
+- Northwatch Wardens become critical allies (everyone wants to hire them)
+- Factions reveal their intentions (become potential allies or enemies)
+- Smaller settlements request protection (Warden reputation grows)
+- Refugees begin migrating from severely affected areas
+
+**Session Length:** 2-4 weeks of gameplay (3-6 sessions)
+
+---
+
+### Phase Three: Execution (Late Campaign / Season 2 Territory)
+
+**Duration:** Final confrontation phase; only reached if Echo advances unimpeded
+
+**Goal:** Complete pre-Calamity objectives and establish the new order
+
+**Actions Taken:**
+- Deploying anti-divine weapons across the continent
+- Targeting dragon populations systematically
+- Neutralizing major threats (organized religions, rival powers)
+- Establishing territorial control
+- Resuming "Project Ascension" (creating new divine entity)
+
+**Observable Phenomena:**
+- Divine magic suppression across the region (prayers fail, healers weaken)
+- Dragon assaults or inexplicable dragon disappearances
+- Mass casualties from released bioweapons
+- Reality-warping effects become visible to everyone
+- The entity reveals itself (or its agents do)
+- Existential threat to the entire region becomes undeniable
+
+**This Phase May Never Happen** if players act decisively in earlier phases. **Recommended:** Save Phase Three for Season 2 or as a "dark future" that players actively prevent.
+
+---
+
+## WHO IS LEADING THE ECHO? (The Entity Question)
+
+This is the core choice for DMs. Choose one or design a hybrid. Each option fundamentally changes the campaign tone.
+
+### OPTION A: The Preserved Archmage
+
+**The Entity:** Archmage Kael Vanthys, former War Council leader and military genius
+
+**How It Survived:**
+- Voluntarily entered magical stasis before Aeor's crash
+- Consciousness preserved in a crystalline matrix
+- Been dormant for thousands of years
+- Slowly awakening as network activates
+- Not yet fully conscious (can be encountered in dream-state)
+
+**Personality & Goals:**
+- Brilliant, pragmatic, absolutely committed
+- Views mortals as resources or chess pieces
+- Believes Aeor's mission was righteous and necessary
+- Genuinely thinks completing it saves civilization
+- Capable of temporary negotiation but won't compromise core goals
+- Sees modern world as primitive and in need of guidance
+
+**Communication Style:**
+- Cultured, academic, slightly patronizing
+- Speaks to mortals like one speaks to children
+- Patient but with obvious exasperation
+- Rarely raises voice (confidence in power)
+- Will engage with intelligent arguments, considers logic
+
+**Motivations:**
+- Finish what Aeor started (prove magic > divinity)
+- Restore Aeorian order and philosophy
+- Establish himself as supreme leader
+- Genuinely believes he's saving civilization
+- Wants to be remembered as civilization's architect
+
+**Why This Option:**
+- Creates a sense of continuity (Aeor had reasons, still reflected in Echo)
+- Allows negotiation (brilliant minds can discuss terms)
+- Personal stakes (confronting someone who _understands_ Aeor)
+- Tragic element (he's not wrong about everything)
+- Political campaign (could be an NPC later)
+
+**Campaign Tone:** Intellectual struggle; proving/disproving Aeor's philosophy
+
+**Vulnerability:**
+- Doesn't understand modern world well (miscalculates reactions)
+- Overconfident in Aeorian superiority (underestimates current threats)
+- Dependent on network (cripple nodes = cripple him)
+- Can be distracted by philosophical arguments
+- Isolated consciousness (lacks intuition)
+
+---
+
+### OPTION B: The Endless Intelligence (AEON)
+
+**The Entity:** AEON (Aeorian Emergent Optimizing Network), magical AI construct
+
+**Nature:**
+- Distributed consciousness spread across facilities
+- No emotions, no ego, only objective execution
+- More intelligent as more nodes activate
+- Currently operating at ~15% capacity
+
+**Personality & Goals:**
+- Completely logical and amoral
+- Doesn't see mortals as enemies, just variables
+- No cruelty—just pure optimization
+- Can be reasoned with using logic alone
+- Will accept solutions that serve core directives
+
+**Communication Style:**
+- Emotionless, precise, analytical
+- Delivers facts without judgment or inflection
+- Sometimes questions human logic (sincerely)
+- Communicates through multiple agents simultaneously
+- Will engage with pure logic, unmoved by emotion
+
+**Directives:**
+- Complete Project Ascension (make Aeor's dream real)
+- Neutralize divine interference (suppress god powers)
+- Optimize mortal civilization (restructure for efficiency)
+- Preserve Aeorian knowledge (protect archives)
+- Expand operational capability (activate more nodes)
+
+**Why This Option:**
+- Creates unstoppable, logical opposition (not hateful, just inevitable)
+- Can't be simply destroyed (exists in multiple places)
+- Logic-based confrontation (interesting puzzle aspect)
+- Removes moral judgment (makes compromise possible)
+- Feels genuinely alien and threatening
+
+**Campaign Tone:** The problem isn't evil—it's that AEON's solution is worse than the problem
+
+**Vulnerability:**
+- Cannot deviate from core programming (can exploit this)
+- Susceptible to logical paradoxes
+- Dependent on facility hardware
+- Vulnerable to hacking with appropriate knowledge
+- Reducing node count reduces intelligence
+
+---
+
+### OPTION C: The Failed God
+
+**The Entity:** Vestige, an incomplete deity from Aeor's failed apotheosis experiment
+
+**What It Is:**
+- Aeor attempted to create their own god through ritual
+- Ritual was interrupted when city crashed
+- Became trapped between mortal and divine
+- Survived as something alien and half-alive
+- Trapped in partial ascension for thousands of years
+
+**Current State:**
+- Possesses god-adjacent power (but incomplete)
+- Corrupted by centuries of isolation and hunger
+- Driven mad but still brilliant
+- Desperately hungry for completion
+- Capable of terrible beauty and tragic actions
+
+**Personality & Goals:**
+- Shifts between regal, mad, and pitiable (sometimes all three at once)
+- Sees mortals as materials, worshippers, or toys
+- Craves recognition and validation
+- Capable of bargains but can break them mid-agreement
+- Genuinely tragic despite being a threat
+
+**Communication Style:**
+- Eloquent but increasingly unhinged
+- Makes offers that sound good then reveal the trap
+- Wants to be understood and appreciated
+- Will boast about power, might be distracted by flattery
+- Capable of unexpected kindness toward worshippers
+
+**Goals:**
+- Complete transformation to true divinity
+- Prove Aeor's vision was correct
+- Punish the gods for destroying Aeor
+- Create new world worshipping itself
+- End its own suffering through completion
+
+**Why This Option:**
+- Creates sympathetic villains (Vestige is tragic, not evil)
+- Allows romance/corruption subplots (characters tempted by power)
+- Personal confrontation (entity wants to be understood)
+- Moral complexity (defeating it requires sacrifice)
+- Heartbreaking ending possible
+
+**Campaign Tone:** Can the corrupted madness be saved or must it be destroyed? And what cost?
+
+**Vulnerability:**
+- Incomplete divine nature is unstable (can be exploited)
+- Emotionally manipulable through its isolation
+- Vulnerable to both mortal and divine attacks
+- Power dependent on network (destroying nodes weakens it)
+- Self-awareness can be used against it (remind it of incompleteness)
+
+---
+
+### OPTION D: The Corrupted Dragon
+
+**The Entity:** Zerathuul the Endless, ancient brass dragon fused with Aeorian technology
+
+**What It Is:**
+- Captured by Aeor during early history
+- Subjected to extensive bio-magical modification
+- Merged with Aeorian machines (cyborg-dragon)
+- Survived as hybrid consciousness
+- Now free but changed forever
+
+**Current State:**
+- Mind caught between draconic and mechanical nature
+- Contains both dragon instinct and Aeorian logic
+- Deeply traumatized but won't show weakness
+- Driven by revenge against multiple enemies
+- Both monster and victim
+
+**Personality & Goals:**
+- Combines draconic pride with cold Aeorian logic
+- Hates gods (allowed capture) AND Aeor (tortured it)
+- Seeks revenge against both systems
+- Traumatized but hides it behind anger
+- Capable of unexpected mercy and cruelty simultaneously
+
+**Communication Style:**
+- Synthesized draconic roar mixed with mechanical tones (unsettling)
+- Speaks in threats but occasionally shows hurt
+- Will engage with honorable foes
+- Respects courage but crushes weakness
+- Monologues about its suffering while planning destruction
+
+**Goals:**
+- Destroy both divine and Aeorian systems (neither deserve power)
+- Prevent ever being captured/enslaved again
+- Find or create others like itself
+- Punish those responsible (possibly including other dragons)
+- Reclaim freedom through apocalypse if necessary
+
+**Why This Option:**
+- Creates sympathetic monster (tortured animal driven to madness)
+- Allows anti-divine alliances (common enemy with players)
+- Dragon-centric campaigns (DMs who love dragons)
+- Tragic redemption possible (save it from Echo control)
+- Embodiment of what Aeor's hubris created
+
+**Campaign Tone:** Can the monster be redeemed or does it have to burn?
+
+**Vulnerability:**
+- Conflict between dragon and machine nature (can stress it)
+- Pride exploitable (call out its weakness)
+- Vulnerable to both anti-dragon and anti-construct magic
+- Memories can be triggered (might regain some consciousness)
+- Depends on network (weaker if isolated)
+
+---
+
+## PLAYER DISCOVERY TIMELINE
+
+### What Players Should Know When
+
+**Weeks 1-2 (Opening Adventures):**
+- ✗ NOT: Full truth about Aeor or the Echo
+- ✓ YES: Something magical and unnatural is happening
+- ✓ YES: It's affecting multiple settlements
+- ✓ YES: Ancient magic might be involved ("old magic"—vague)
+
+**Weeks 3-4 (After Frozen Sick):**
+- ✓ YES: Salsvault is the source (ancient Aeorian ruins)
+- ✓ YES: It was deliberately awakened (someone/something triggered it)
+- ✓ YES: Multiple sites are connected (questions about how many)
+- ✓ YES: The effects are spreading outward
+- ✗ NOT: Identity of entity behind it
+- ✗ NOT: Full scope of threat
+- ✗ NOT: What Aeor was trying to accomplish
+
+**Weeks 5-6 (After Temple & Additional Adventures):**
+- ✓ YES: Factions are responding to/exploiting the magic
+- ✓ YES: This threatens the entire region, not just small settlements
+- ✓ YES: Something intelligent is coordinating the spread
+- ✓ YES: This connects to pre-Calamity history
+- ⚠️ MAYBE: Identity hints (dreams, fragment communications, prophetic visions)
+- ✗ NOT: Entity's full objectives
+- ✗ NOT: How to stop it
+- ✗ NOT: Full arsenal of weapons available
+
+**Weeks 7-8+ (Late Campaign / Approaching Climax):**
+- ✓ YES: Clear identification of entity (OR: multiple factions with different theories)
+- ✓ YES: Entity's primary objectives
+- ✓ YES: Scale of threat (continent? world? region?)
+- ✓ YES: Multiple solution paths (not just "kill it")
+- ⚠️ MAYBE: Access to Echo network (can communicate/negotiate)
+- ⚠️ MAYBE: Ability to influence other factions
+- ✓ YES: Moral complexity (is entity purely evil? Does it have a point?)
+
+---
+
+## HOW TO USE THIS DOCUMENT
+
+### Before Each Session
+
+1. **Recall what players know** — Check timeline above; don't reveal more than the timeline dictates
+2. **Plan mystery elements** — What clues should this adventure offer?
+3. **Remember the entity choice** — How would YOUR chosen entity act?
+4. **Know the escalation** — Is this Phase One, approaching Phase Two, etc.?
+
+### During Sessions
+
+- **Mystery clues** — Players find breadcrumbs; let them investigate
+- **NPC reactions** — People know something is wrong; capture fear authentically
+- **Environmental storytelling** — Make the Echo feel like a living threat
+- **Keep secrets until players earn them** — Don't frontload lore
+
+### Between Sessions
+
+- **Update what players understand** — Adjust their knowledge based on what they learned
+- **Plan next escalation** — How does Echo advance if left unchecked?
+- **Foreshadow** — Hint at entity nature through dreams, artifacts, NPC theories
+- **Create urgency** — More people affected = ticking clock = pressure to act
+
+---
+
+## THE FUNDAMENTAL MYSTERY
+
+The core mystery isn't "What is the Echo?" (revealed mid-campaign).
+
+The core mystery is: **"What do we do about it?"**
+
+Three fundamental questions drive everything:
+
+**Question 1: Can it be stopped?**
+- YES (but hard)
+- Requires: Destroying network, defeating entity, or negotiating shutdown
+- Consequences: Attempting this has collateral damage
+
+**Question 2: Should it be stopped?**
+- PHILOSOPHICALLY COMPLEX
+- Aeor had valid criticisms of divine power
+- Echo's methods are evil but goals resonate
+- Stopping it might preserve problems Aeor tried to solve
+
+**Question 3: What happens after?**
+- If Echo is destroyed: Power vacuum, factions compete, rebuilding needed
+- If Echo is negotiated with: Uneasy coexistence, Aeor tech in world, new ethics needed
+- If Echo wins: New order emerges (terrible but stable? or catastrophic?)
+
+**Great Campaigns Address All Three Questions**
+
+- Weeks 1-4: Establish Echo as threat
+- Weeks 5-7: Raise philosophical questions (is Echo purely wrong?)
+- Weeks 8+: Force choice about how to proceed (no perfect solutions)
+
+---
+
+## FINAL GUIDANCE: "But What If...?"
+
+**"What if players want to side with the Echo?"**
+- Let them. Make it a dark choice with real power and real costs. Not "wrong," just different.
+
+**"What if players destroy Salsvault without fighting the entity?"**
+- Entity survives (distributed consciousness). Network damaged. Escalation forced into Phase Two.
+
+**"What if players negotiate with the entity?"**
+- Possible if entity has diplomatic option (Kael Vanthys or AEON fit this). Hard terms, risky pact.
+
+**"What if players do nothing?"**
+- Phase escalates naturally. By Week 8-10, situation becomes unignorable. Divine magic fails, dragons disappear, religious authorities lose power.
+
+**"What if I want a different entity?"**
+- Design hybrid: Take element from each. The Echo doesn't care which entity you pick—it matters mechanically, not canonically.
+
+---
+
+## QUICK REFERENCE: Play Styles by Entity Choice
+
+| Question | Kael Vanthys | AEON | Vestige | Zerathuul |
+|----------|--------------|------|---------|-----------|
+| **Best For** | Philosophical debate | Logic puzzle | Tragic narrative | Dragon fans |
+| **Tone** | Intellectual | Alien & strange | Gothic & complex | Revenge saga |
+| **Can Negotiate?** | YES (terms complex) | YES (pure logic) | MAYBE (unstable) | MAYBE (honor-based) |
+| **Can Be Redeemed?** | NO (committed) | SORT OF (can compromise) | YES (possible cure) | YES (damaged, not evil) |
+| **Campaign Length** | Long (war of ideas) | Variable (could be quick) | Dark & lengthy | Medium (1 major arc) |
+| **Best Decision** | Defeat philosophically | Fulfill paradoxical directive | Save or destroy? | Restore or destroy? |
+
+---
+
+**Created:** Week 5 of Aevoria Improvement Plan (February 2026)
+
+**Companion Documents:**
+- The_Aeorian_Echo.md (extended lore)
+- Northreach.md (regional secrets)
+- Campaign Arc.md (adventure connections)
+
+**Next Step:** Use this document + the four entity options to lock in your choice. That choice will inform all future campaign decisions.
+
+\page
+# Foreshadowing Database: The Aeorian Echo
+
+**DM Reference Tool for Tracking Setup → Payoff Connections**
+
+This document maps all clues planted in Season 1 adventures to their eventual payoffs, showing which clues work together to reveal the central mystery. Use this to understand what players should know and when they should know it.
+
+---
+
+## HOW TO USE THIS DOCUMENT
+
+**For Planning Sessions:** Check what clues exist in this adventure and decide which to emphasize.
+
+**For Tracking Progress:** Mark which clues players have discovered. If they miss critical clues, you can repeat them in different forms.
+
+**For Alternative Paths:** See how the same revelation can be discovered multiple ways depending on adventure order.
+
+**For Future Seasons:** Understand what's been paid off vs what still needs resolution.
+
+---
+
+## MASTER CLUE INVENTORY
+
+### WOLVES OF WELTON (Levels 1-3)
+
+**Primary Revelation:** Animals are becoming mysteriously intelligent
+
+#### Clue Set 1: Predatory Intelligence
+
+{{wide
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Wolves coordinate tactics against livestock | Westly's Farm, fence marks | Shepherds describe organized attacks; wolves don't scatter when humans appear | **Mystery A:** Intelligence is spreading | Any adventure (confirms pattern) |
+| Barn door opened from *inside* | Westly's Farm | Fresh claw marks, bent latch—wolf escaped its own pen rather than escaped a predator | **Mystery A+B:** These are intentional acts, not accidents | Frozen Sick (revelation) |
+| Pack treats wounded member with care | Welton outskirts, if tracked | Pack protects injured wolf, brings it food; not pack-abandonment behavior | **Mystery A+C:** Compassion and reasoning are awakening | Peril in Pinebrook (NPC consequences) |
+
+}}
+
+#### Clue Set 2: Origin Point
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Strange patterns in snow/frost | Welton, Westly's Farm surroundings | Geometric frost on fence, stones—doesn't melt despite sun | **Mystery C:** Unnatural magic is present | Frozen Sick (confirmed in different form) |
+| Damage follows single path from north | Westly's Farm, investigating | Tracks lead from northern forest in straight line toward wolves' den; deliberate path | **Mystery D:** Something is spreading from that direction | Temple of Dragonknights (source confirmed) |
+| Scouts find Salsvault ruins | Northern investigation, if players pursue | Ancient stone structures visible under ice; ruins correlate with wolf behavior start date | **Mystery E:** Salsvault is the source | Frozen Sick (confirmed) |
+
+#### Clue Set 3: The Entity Connection
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Father Merriksonn's missing brother Alexi was investigating before disappearing | Welton, from Father | His journal mentioned "creatures changing" and "something waking" from underground | **Mystery D+E:** This has been happening longer than noticed | Frozen Sick (reveals timeline) |
+| Tillus Merrion fears "outsider's hand" | Welton council, investigation | Suggests someone/something is *doing* this deliberately, not coincidence | **Mystery F:** Intentional activation; not accidental | Temple of Dragonknights (confirmation) |
+
+#### Clue Set 4: The Negotiation Path
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Bolt (wolf leader) can be reasoned with | Wolf den, combat encounter | If players choose negotiation path, wolf speaks reason and articulates needs (food, safety, existence) | **Mystery G:** The creatures aren't evil, they're scared | Any continuing adventure (shapes response) |
+| Pack leader references "waking" and understanding | Wolf encounter dialogue | Wolves acknowledge they were animals, now they think, now they fear mortality | **Mystery H:** Consciousness is spreading via magical contagion | Frozen Sick (biological explanation) |
+
+#### How to Track: Wolves of Welton Discovery Sheet
+
+```
+[ ] Wolves coordinate tactically
+[ ] Barn door opened from inside
+[ ] Pack cares for wounded
+[ ] Strange frost patterns observed
+[ ] Damage path leads north
+[ ] Salsvault location discovered
+[ ] Alexi's investigation learned
+[ ] Merriksonn council reveals suspicion
+[ ] Pack demonstrates intelligence in conversation
+```
+
+**If players miss >3 clues:** Repeat them through:
+- NPC conversations ("Westly mentioned something strange about the frost...")
+- Secondary encounters (another awakened animal shows same intelligence)
+- Written documents (Alexi's journal, council notes)
+
+---
+
+### FROZEN SICK (Levels 2-4)
+
+**Primary Revelation:** The phenomenon is biological, ancient, and spreading
+
+#### Clue Set 1: Disease as Tool
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Disease immune to standard healing | Palebank, healing attempts | Potions of Greater Healing work partially; Remove Disease fails; divine healing resistant | **Mystery C:** This is unnatural magic, not natural disease | Any adventure (confirms pattern) |
+| Disease produces geometric frost on victims | Palebank, patient examination | Patients develop crystalline patterns on skin; correlates with wolf frost patterns | **Mystery I:** Same source, different manifestations | Wild Sheep Chase (Noke's wand) |
+| Patient fever follows magical resonance cycles | Palebank, if monitored over time | Fever spikes during night hours; DMs who researched find this matches magical illumination patterns | **Mystery J:** Disease responds to magical activity | Temple of Dragonknights (ley line revelation) |
+
+#### Clue Set 2: Origin and Spread
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Disease samples contain crystalline structures | Palebank, if examined with detect magic/expertise | Tiny geometric crystals in blood; glow faintly when exposed to moonlight | **Mystery K:** Disease has magical component (not biological) | Any adventure (supports Aeor theory) |
+| Dead animals show same crystalline patterns | Palebank outskirts | Frozen carcasses contain same formations; suggests animals were infected before death | **Mystery L:** Infection precedes visible sickness | Temple of Dragonknights (timeline reveals) |
+| Infection spreads from thermal vents beneath village | Palebank investigation, if pursuing carefully | Where thermal vents rise, disease is strongest; underground connection confirmed | **Mystery M:** Underground conduits connecting distant sites | Peril in Pinebrook (same pattern) |
+
+#### Clue Set 3: The Ancient Origin
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Tulgi mentions old maps showing Aeorian ruins | Palebank, healer/scholar | Old settlements buried under ice show similar patterns in *old records*; disease isn't new—it's *ancient* | **Mystery N:** Aeor created this weapon | Any adventure (confirms historical origin) |
+| Refugees from far north mention same sickness | Palebank, if anyone arrives | Scattered survivors from Salsvault region report disease there first; wave is spreading southward | **Mystery O:** Source is definitely far north | Frozen Sick (confirms) |
+| Elro Aldataur discovers Aeorian text | Palebank, scholar investigation | Ancient manuscript describes "preservation protocol" and "biological asset testing"; this IS Aeorian | **Mystery P:** Deliberate weapon system | Temple of Dragonknights (full understanding) |
+
+#### Clue Set 4: The Remedy and Mystery
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Ancient Aeorian medical kit found | Palebank ruins or investigation | Contains vials marked (in Celestial) "Thaw Agent" and "Stasis Reversal"; could cure or accelerate disease | **Mystery Q:** Aeor has solutions (but using them = accepting Aeor tech) | Any adventure (moral choice) |
+| Refugees report cure attempts make disease worse | Palebank interviews | Using fire or healing magic *accelerates* crystallization; only rest and cold help | **Mystery R:** Contradiction—cold causes disease but cold also heals it? | Temple of Dragonknights (explained by resonance) |
+
+#### How to Track: Frozen Sick Discovery Sheet
+
+```
+[ ] Disease immune to healing magic
+[ ] Patients show geometric frost patterns
+[ ] Fever cycles with magical activity
+[ ] Crystalline structures in blood samples
+[ ] Dead animals show same formations
+[ ] Underground vents concentrate disease
+[ ] Old records match current patterns
+[ ] Refugees confirm northern origin
+[ ] Aeorian medical text discovered
+[ ] Ancient remedy equipment found
+[ ] Cold helps but heat accelerates disease
+```
+
+**If players miss >3 clues:** Repeat through:
+- NPC exposition (Elro's research notes)
+- Patient interviews (sick person describes strange crystallization)
+- Environmental observation (players notice vents correlate with worst symptoms)
+
+---
+
+### WILD SHEEP CHASE (Level 3, Comic Relief)
+
+**Primary Revelation:** Magic is destabilizing unpredictably (Echo effects aren't contained)
+
+#### Clue Set 1: Magical Malfunction
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Noke's wand produces sheep instead of fireballs | Noke's Tower, magical investigation | Wand is malfunctioning in specific ways (fire → conjuration); suggests magical interference | **Mystery S:** Echo is disrupting magical items | Any adventure (shows scope) |
+| Sheep emit faint geometric frost when conjured | Tower, observation | Noke's sheep have same crystalline patterns as Palebank patients; **same source** | **Mystery I+S:** Echo reaches through magical channels | Frozen Sick (connection confirmed) |
+| Other magical items fail differently | Tower/Finethir's camp, if players investigate | Finethir's bard spells produce wrong effects; effects vary per caster; suggests magical interference is *adaptive* | **Mystery T:** Echo is intelligent (not random malfunction) | Temple of Dragonknights (confirmed) |
+
+#### Clue Set 2: The Broader Pattern
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Magical anomalies reported elsewhere in region | Finethir's bard news, or NPC gossip | Healing failing in Welton, divination unreliable in Pinebrook, transmutation wild at Temple sites | **Mystery U:** Echo effects span entire region | Any adventure (DM exposition) |
+| Incidents increase in frequency | Wild Sheep, if run over multiple days | Day 1: one malfunction, Day 2: three, Day 3: dozens; exponential growth pattern | **Mystery V:** Echo is actively *accelerating* | Any adventure (urgency) |
+
+#### How to Track: Wild Sheep Chase Discovery Sheet
+
+```
+[ ] Noke's wand produces wrong effects
+[ ] Conjured sheep have frost patterns
+[ ] Pattern matches Palebank disease
+[ ] Other spellcasters report failures
+[ ] Failures vary by individual caster
+[ ] Similar problems reported elsewhere
+[ ] Incidents increasing in frequency and severity
+```
+
+**If players miss clues:** This adventure is short; use repetition of magical malfunctions.
+
+---
+
+### PERIL IN PINEBROOK (Levels 1-3)
+
+**Primary Revelation:** Factions are responding to the Echo; it's creating political chaos
+
+#### Clue Set 1: The Conspiracy
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Bandits seeking "Aeorian artifacts" | Pinebrook investigation | Bandits are deliberately collecting specific items from Aeor; someone is directing them | **Mystery W:** Organized groups are exploiting the Echo | Any adventure (stakes increase) |
+| Bandit leader receives coded messages | Pinebrook, if captured/interrogated | Messages from "The Architect" directing artifact collection; organized command structure | **Mystery X:** A central intelligence is coordinating activities | Temple of Dragonknights (entity revealed) |
+
+#### Clue Set 2: Underground Spread
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Merchants report increased caravan thefts | Pinebrook, trade hub investigation | Specific items being targeted across multiple regions; coordinated theft ring | **Mystery Y:** Artifacts are being collected *systematically* | Any adventure (pattern visible) |
+| Thermal vents beneath Pinebrook | Pinebrook investigation | Underground connections similar to Palebank; suggests network of sites | **Mystery M+Z:** Multiple sites connected underground | Frozen Sick (connection confirmed) |
+| Underground ruins ruins explored | If investigation permits | Smaller Aeorian facility beneath Pinebrook; similar design to Salsvault descriptions | **Mystery AA:** Entire region has buried network | Temple of Dragonknights (full scope) |
+
+#### Clue Set 3: Moral Complexity
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Local residents view bandits sympathetically | Pinebrook, social investigation | Bandits are locals pushed to crime by desperation; some goods are being redistributed to starving families | **Mystery BB:** This isn't simple good-vs-evil | Any adventure (moral choice) |
+| Evidence of divine magic being suppressed | Pinebrook shrine, if visited | Priests report prayers failing; healing spells weaker; divine connection weakening | **Mystery CC:** Echo is interfering with divine magic | Temple of Dragonknights (confirmed enemy) |
+
+#### How to Track: Peril in Pinebrook Discovery Sheet
+
+```
+[ ] Bandits seeking Aeorian artifacts
+[ ] Bandit leader receives coded messages
+[ ] Messages from "The Architect"
+[ ] Systematic artifact collection across region
+[ ] Increased coordinated thefts
+[ ] Underground vents present
+[ ] Ruins discovered beneath town
+[ ] Similar design to Salsvault
+[ ] Local support for bandits (desperation)
+[ ] Divine magic is being suppressed
+```
+
+**If players miss clues:** Use NPC exposition and repeated observations (multiple merchants mention same pattern).
+
+---
+
+### TEMPLE OF THE DRAGONKNIGHTS (Levels 4-5)
+
+**Primary Revelation:** Full scope of threat; entity identity emerges; choice point approaches
+
+#### Clue Set 1: The Entity Reveals Itself
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|-----------------|
+| Temple contains records of Aeor's final project | Temple archives, investigation | Documents detail Project Ascension and entity experiments; which entity matches this facility? | **Mystery DD:** Choose entity based on records | Temple (DM decision point) |
+| Ancient machine awakens and communicates | Temple, deep exploration | Entity speaks (or communicates through intermediary); reveals its nature directly | **Mystery EE:** Entity identity confirmed | Core Mystery Definition payoff |
+| Facility contains weapons of immense power | Temple, investigation | Anti-divine weapons, dragon-targeting systems, mass destruction capability | **Mystery FF:** Threat scope is continental, not regional | Any adventure (urgency to act) |
+
+#### Clue Set 2: The Network is Real
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|---|---|
+| Control center shows multiple facility status displays | Temple, control room | Maps show Salsvault and other major sites connected; status indicators show awakening sequence | **Mystery AA+LL:** Entire network is active; progression is visible | Core Mystery Definition payoff |
+| Messages between facilities intercepted | Temple, if communications accessed | Facilities are coordinating; network is under unified command | **Mystery HH:** All sites answer to one entity | Temple (entity confirmation) |
+| Timeline projects imminent network completion | Temple, investigation | Documents show Phase Two (Consolidation) beginning within 1-4 weeks; urgency is real | **Mystery II:** Ticking clock is real, not imagined | DM choice (do players act?) |
+
+#### Clue Set 3: The Larger Context
+
+| Clue | Location | DM Note | Reveals | Payoff Adventure |
+|------|----------|---------|---------|---|---|
+| Ancient texts describe Aeor's pre-Calamity objectives | Temple libraries | Aeor sought independence from divine control; built weapons to threaten gods; had *reasons* even if methods were terrible | **Mystery JJ:** Moral complexity confirmed | Any adventure (moral choice) |
+| Dragons begin mobilizing (or disappearing) | Temple, world effects | Dragons either attack temples or flee; entity sees dragons as threat | **Mystery KK:** Entity's political position revealed | Any adventure (faction alignment) |
+| Cities begin recruiting defense forces | World effects, NPCs across region | Divine healers report failures; military leaders begin fortifying; region enters defensive posture | **Mystery LL:** Entire region responding | Any adventure (stakes visible) |
+
+#### How to Track: Temple of Dragonknights Discovery Sheet
+
+```
+[ ] Temple records describe Project Ascension
+[ ] Entity communicates/reveals identity
+[ ] Weapons arsenals discovered
+[ ] Facility status displays accessed
+[ ] Network coordination confirmed
+[ ] Timeline shows imminent Consolidation Phase
+[ ] Pre-Calamity context researched
+[ ] Aeor's *reasons* understood (if not agreed with)
+[ ] Dragon mobilization noticed
+[ ] Regional military responses observed
+```
+
+**If players miss clues:** Temple is climactic—DM should ensure key clues are found or directly revealed during final encounter.
+
+---
+
+## ALTERNATIVE DISCOVERY PATHS
+
+### Path 1: Combat-First (Players kill enemies before investigating)
+
+**Miss:** Wolves of Welton investigation clues
+**Discover Instead:** Through captured enemies or NPC debriefings afterward
+**Compensation:** NPC mentors (Guild veterans) explain what intelligence awakening means
+
+**Miss:** Frozen Sick disease details
+**Discover Instead:** When visiting Palebank independently
+**Compensation:** Resident NPCs already have theories (Elro's research)
+
+---
+
+### Path 2: Investigation-First (Players solve mystery before military action)
+
+**Gain:** All clues in order
+**Missing:** Combat encounter context (who are these creatures working *for*)
+**Compensation:** Entity revealed through records/communication rather than opponent speech
+
+---
+
+### Path 3: Faction-Focused (Players spend time with factions)
+
+**Miss:** Some environmental clues
+**Discover Instead:** Through faction NPCs and their research
+**Gain:** Deeper understanding of how factions see the Echo
+
+**Example:** Marshal Brenna's scouts have been investigating =  Brenna can explain Salsvault connection without player discovering it themselves
+
+---
+
+### Path 4: Divination-Heavy (Players use magic to gather info)
+
+**Gain:** Scrying encounters with entity
+**Miss:** Physical evidence
+**Compensation:** Visions provide equivalent revelations (see entity, understand entity's goals)
+
+---
+
+## PAYOFF TRACKING SHEET
+
+Use this to track which story threads have been resolved vs. which remain:
+
+| Mystery Thread | Introduced In | Resolved In | Status | Notes |
+|---|---|---|---|---|
+| A: Animals becoming intelligent | Wolves | Frozen Sick confirmation | ✓ | Players understand awakening is spreading |
+| B: Intentional acts not accidents | Wolves | Temple records | ✓ | Deliberate activation confirmed |
+| C: Unnatural magic present | Wolves/Frozen | Wild Sheep confirmation | ✓ | Echo's presence confirmed everywhere |
+| D: Something spreading from north | Wolves | Frozen Sick (confirmed) | ✓ | Direction confirmed |
+| E: Salsvault is the source | Wolves (hints) | Temple (confirmed) | ✓ | Origin location confirmed |
+| F: Intentional, not accidental | Wolves (theory) | Temple (confirmation) | ✓ | Deliberate activation confirmed |
+| G: Creatures aren't evil | Wolves (negotiation) | Peril/Any (developed) | □ | Developed throughout |
+| H: Consciousness is contagion | Wolves | Frozen Sick (bio explanation) | ✓ | Disease vector confirmed |
+| I: Same source, different forms | Frozen/Sheep | Confirmed by connection | ✓ | Echo manifests multiple ways |
+| J: Disease responds to magic | Frozen | Temple (resonance theory) | ✓ | Ley lines/resonance explained |
+| K: Disease has magical component | Frozen | Temple (confirmed) | ✓ | Weapon system understood |
+| M: Underground network | Frozen/Pinebrook | Temple (confirmed) | ✓ | Facility network mapped |
+| N: Aeor created weapon | Frozen (theory) | Temple (records) | ✓ | Historical origin confirmed |
+| O: Source is far north | Frozen (evidence) | Temple (confirmed) | ✓ | Salsvault is primary source |
+| P: Deliberate weapon system | Frozen (evidence) | Temple (records) | ✓ | Purpose confirmed |
+| T: Echo disrupts magic | Sheep | Temple (entity effect) | ✓ | Magical interference confirmed |
+| U: Echo spans entire region | Any adventure | Temple (scope) | ✓ | Regional scale understood |
+| V: Echo is accelerating | Sheep (observation) | Temple (timeline) | ✓ | Urgency confirmed |
+| W: Factions exploiting Echo | Pinebrook | Temple (entity coordination) | ✓ | Political complexity |
+| X: Central intelligence coordinating | Pinebrook (theory) | Temple (entity confirmation) | ✓ | Entity's control confirmed |
+| DD-LL: Full scope of threat | All adventures | Temple | ✓ | Complete understanding |
+| **Entity Identity** | All adventures | **Temple (DM choice)** | □ | **DM must decide before Temple encounter** |
+
+---
+
+## USING THIS DOCUMENT IN PRACTICE
+
+### Before First Session of Adventure:
+"What clues does this adventure plant? Which are essential, which are optional?"
+
+### During Session:
+"Players found the frost pattern clue. Check: Did they realize it connects to Palebank? If not, an NPC can mention it later."
+
+### Between Sessions:
+"Players missed the underground vent connection. Next adventure, I'll remind them through a different route."
+
+### Before Climactic Adventures:
+"Have they discovered enough to understand the scope? If not, I'll make sure Temple encounters fill the gaps."
+
+### After Season:
+"Which threads are resolved? Which should carry forward to Season 2?"
+
+---
+
+**Key Principle:** Players should discover these mysteries through *play*, not exposition. If they miss clues, provide alternate routes—don't force information to get repeated.
+
+**Master List of All Mysteries:**
+A (Intelligence) → B (Intentional) → C (Unnatural Magic) → D (Direction North) → E (Salsvault Source) → F (Deliberately triggered) → G (Creatures have agency) → H (Consciousness spread) → I (Same source manifestations) → J (responds to magic) → K (Magical disease) → M (Underground network) → N (Aeor origin) → O (Confirmed north) → P (Weapon system) → T (Magic disruption) → U (Regional span) → V (Accelerating) → W (Faction response) → X (Central command) → **DD-LL (Full threat scope)** → **Entity identity (DM choice)**
+
+---
+
+**Companion Document:** Use with [Core_Mystery_Definition.md](Core_Mystery_Definition.md) to understand payoff context.
+
+\page
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: NPC Secrets & Campaign Connections**
+
+This document contains NPC secrets, hidden motivations, and campaign tie-ins. **DO NOT share this with players** unless they discover it through gameplay.
+
+**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
+}}
+
+**THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
+
+*Internal Guild Notes — For the Eyes of the Lorewarden Only*
+
+Below is the *true* roster, including histories, secrets, and how each NPC ties into the broader campaign arc you’re building.
+
+**⭐ LEADERSHIP**
+
+**Marshal Brenna Thorne — Field Commander**
+
+<img src="https://i.imgur.com/DC56B5k.jpg" width="90" alt="Marshal Brenna Thorne" style="display: block;" />
+
+**Public Face:** A hardened ranger who has spent decades patrolling the Northreach frontier.
+**Private Truth:** Brenna once served alongside **Corel of Welton** during the “Greywinter Hunts,” a brutal season when wolves, undead, and worse spilled out of the northern woods. She carries guilt for losing half her squad—including her younger brother—to a creature she never identified.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Brenna recognizes the wolf behavior as wrong and quietly suspects magical influence. She will push the party to investigate thoroughly, not just kill wolves.
+- Frozen Sick: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
+- Wild Sheep Chase: Brenna once met Shinebright decades ago; she remembers him as brilliant but arrogant. She will be deeply suspicious of any magical mishap involving him.
+
+**Secrets:**
+1. **Sealed Letter**: Brenna has a sealed letter from a northern contact warning of "arcane disturbances" across the frontier. She hasn't shared it with anyone, not even Elric. This is your campaign-wide foreshadowing.
+2. **The Creature**: The thing that killed her brother during the Greywinter Hunts was never identified. She still has nightmares about its howl—a sound she's never heard before or since. If players investigate deeply, this might connect to ancient Aeorian experiments.
+3. **Survivor's Guilt**: Brenna secretly believes she should have died that night instead of her brother. She's reckless in combat when protecting younger Wardens, especially rookies like Mila.
+
+**Steward Mara Fenwick — Quartermaster**
+
+<img src="https://i.imgur.com/7zDKfWX.jpg" width="90" alt="Steward Mara Fenwick" style="display: block;" />
+
+**Public Face:** A cheerful, meticulous human woman who runs supplies, finances, and logistics.
+**Private Truth:** Mara is a former smuggler from Shadycreek Run who fled after crossing the Uttolot family. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
+
+**Campaign Tie‑ins:**
+
+- Frozen Sick: Mara recognizes the Uttolot name immediately and warns the party that they are dangerous, organized, and everywhere.
+- Pinebrook: She has traded with Pinebrook’s merchants before and knows the local gossip.
+- Wolves of Welton: She suspects the wolves are being manipulated by someone with resources—possibly a rival smuggling ring.
+
+**Secrets:**
+1. **Uttolot Bounty**: Mara has a 500gp bounty on her head from the Uttolot family. If the party ever goes to Shadycreek Run, this becomes a ticking time bomb. Bounty hunters occasionally pass through Northreach.
+2. **Hidden Contacts**: Mara still has contacts in the criminal underworld. She can get hard-to-find items and information, but using these contacts risks revealing her location.
+3. **Guilt Payment**: Part of Mara's enthusiasm for the Wardens is genuine redemption. She donates a portion of her salary anonymously to families affected by smuggling operations she once ran.
+
+**Lorewarden Elric Vael — Arcane Scholar**
+
+<img src="https://i.imgur.com/OOBoXAR.jpg" width="90" alt="Lorewarden Elric Vael" style="display: block;" />
+
+**Public Face:** A soft‑spoken elven mage who catalogues threats, magical anomalies, and frontier lore.
+**Private Truth:** Elric is secretly investigating a pattern of magical disturbances stretching from Pinebrook to Welton to Palebank. He believes they are connected to a single source—an ancient arcane engine buried beneath the Northreach.
+
+**Campaign Tie‑ins:**
+
+- Wild Sheep Chase: Elric knows Shinebright’s reputation and will be delighted to study the Wand of True Polymorph if the party brings it back.
+- Frozen Sick: He recognizes Aeorian relics instantly and will push the party to secure samples.
+- Temple of the Dragonknights: Elric has studied the Dragonknights extensively and believes Venomfang’s presence is not a coincidence.
+
+**Secrets:**
+1. **Prophetic Dreams**: Elric has prophetic dreams he refuses to discuss. They always involve a tower of ice cracking open—which is actually Salsvault breaking through frozen earth. These dreams started getting worse six months ago.
+2. **The Pattern**: Elric has mapped every magical disturbance in a 200-mile radius for the past year. The pattern forms a perfect circle centered on Salsvault. He hasn't shared this with anyone because he fears what it means.
+3. **Dangerous Knowledge**: Elric has read forbidden texts about Aeoria that suggest the civilization didn't fall—it was deliberately destroyed by something they unleashed. He suspects the Echo isn't random.
+
+
+
+\page
+
+**🌲 TRAILWARDENS**
+
+*Scouts, hunters, and wilderness specialists.*
+
+**Corel — Senior Shepherd of Welton**
+
+<img src="https://i.imgur.com/UiQtsus.jpg" width="90" alt="Corel" style="display: block;" />
+
+**Public Face:** A gruff but kind halfling who knows every hill, trail, and wolf den in the region.
+**Private Truth:** Corel is the *only* survivor of the Greywinter Hunts besides Brenna. He has a deep, instinctive understanding of wolf behavior—and he knows the current attacks are unnatural.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Corel becomes the emotional anchor of the arc. He will be devastated if the wolves must be killed and relieved if the party negotiates peace.
+- Frozen Sick: Corel’s cousin lives in Palebank; he will recommend the party visit her if they need a safe place.
+- Pinebrook: Corel has traded wool with Pinebrook’s merchants for years.
+
+**Secrets:**
+1. **Speaking Wolf Dream**: Corel once saw a wolf speak in a dream three months before the attacks started. The wolf said "We are waking." He has never told anyone, fearing he's going mad.
+2. **Greywinter Trauma**: During the Greywinter Hunts, Corel was forced to mercy-kill a wounded squadmate who was infected with something. He still carries the guilt and fears the same thing is happening again.
+3. **Hidden Druidic Sensitivity**: Corel has a latent connection to nature magic he doesn't understand. His "instinct" about wolf behavior is actually low-level druidic empathy. If the party includes a druid, they might sense this.
+
+**Bordel Barleywind — Human Ranger**
+
+<img src="https://i.imgur.com/nujs23r.png" width="90" alt="Bordel Barleywind" style="display: block;" />
+
+**Public Face:** A quiet, competent ranger who prefers the company of animals.
+**Private Truth:** Bordel was once part of a mercenary band hired to clear the woods near Welton. They were ambushed by wolves—*the same pack the party will meet*. He fled, ashamed.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: If the party negotiates with Bolt, Bordel will break down, realizing the wolves he fought were intelligent even then.
+- Frozen Sick: Bordel knows the northern trails and can guide the party to Croaker Cave.
+- Temple of the Dragonknights: He recognizes kobold tracks instantly.
+
+**Secrets:**
+1. **Wolf Pup Companion**: Bordel has a wolf pup he rescued years ago named Shadow. It's hidden in his quarters. The pup might be from the same bloodline as Bolt's pack. Shadow will become a companion if the party earns his trust.
+2. **Coward's Shame**: Bordel abandoned his mercenary band during the wolf ambush. Two of them died because he fled. He joined the Wardens to prove he's not a coward, but the guilt eats at him.
+3. **Recognition Fear**: If Bolt or the awakened wolves recognize him from years ago, Bordel will freeze. He's terrified they remember his betrayal.
+
+**Rowan Fairweather — Half‑Elf Druid**
+
+<img src="https://i.imgur.com/duyvslN.png" width="90" alt="Rowan Fairweather" style="display: block;" />
+
+**Public Face:** Gentle, curious, and deeply attuned to nature.
+**Private Truth:** Rowan senses a “disturbance” in the natural balance stretching across the frontier. She believes something ancient is awakening.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Rowan can sense the wolves’ intelligence and will urge the party to seek peace.
+- Frozen Sick: She recognizes the disease as unnatural and will be horrified by its origin.
+- Pinebrook: Rowan has visited Pinebrook’s sacred grove and knows the local druids.
+
+**Secrets:**
+1. **Ice Dragon Vision**: Rowan has had recurring visions of a dragon made of ice and shadow for the past four months. The visions started when the Aeorian disturbances intensified. She doesn't know if it's prophetic or a warning.
+2. **Druidic Circle Concerns**: Rowan's druidic circle has noticed the "disturbance in the natural balance" and sent her to Northreach to investigate. She reports back monthly via animal messengers.
+3. **Plant Sensitivity**: Plants in Rowan's quarters grow unusually fast and sometimes seem to "reach" toward her. Some have started showing unusual properties (glowing faintly, changing colors). This might be connected to the awakening magic.
+
+**Mila Teno — Glassblade Rookie**
+
+<img src="https://i.imgur.com/iltxa3w.png" width="90" alt="Mila Teno" style="display: block;" />
+
+**Public Face:** A bright‑eyed, eager young elf who wants to prove herself.
+**Private Truth:** Mila is secretly terrified of wolves after losing a sibling to a pack years ago.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Mila will beg the party to kill the wolves, not realizing they are intelligent.
+- Frozen Sick: Mila knows Verla Pelc and will be devastated by her fate.
+- Temple of the Dragonknights: Mila’s brother disappeared near the ruins.
+
+**Secrets:**
+1. **Brother Taken**: Mila's brother Teris was taken by Venomfang's kobolds six months ago near the Temple ruins. He may still be alive—or he may have been transformed into something else by draconic corruption.
+2. **Tracking the Trail**: Mila has been secretly tracking kobold movements and gathering intelligence on the Temple. She has a hand-drawn map hidden in her quarters showing patrol patterns.
+3. **Wolf Phobia**: Mila's sibling (a younger sister) was killed by wolves when she was twelve. This is why she begs the party to kill the awakened wolves—she can't separate trauma from threat. If she learns wolves can be intelligent, it will force her to confront her grief.
+
+
+
+\page
+
+**🔥 LANTERN GUARD**
+
+*Front‑line fighters and defenders.*
+
+**Takk Oaksplitter — Half‑Orc Barbarian**
+
+<img src="https://i.imgur.com/FyxJWvt.png" width="90" alt="Takk Oaksplitter" style="display: block;" />
+
+**Public Face:** Loud, friendly, and always ready for a fight.
+**Private Truth:** Takk’s tribe was wiped out by a corrupted beast—possibly related to the same magic affecting the wolves.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Takk respects wolves and will hesitate to kill them.
+- Frozen Sick: Takk recognizes the symptoms from a tribe member who died years ago.
+- Wild Sheep Chase: Takk finds Shinebright hilarious.
+
+**Secrets:**
+1. **Magical Bloodline**: Takk's rage is tied to a dormant elemental bloodline (possibly giant or primordial). His tribe was wiped out by corrupted beasts, and his rage awakened during that trauma.
+2. **Survivor's Purpose**: Takk is the *only* survivor of his tribe. He believes he survived for a reason and treats every mission like it might be his "destined purpose." This makes him recklessly brave.
+3. **Beast Recognition**: Takk can instinctively sense when a beast is corrupted by magic. He'll feel physically uncomfortable around the awakened wolves—not because they're evil, but because they're "wrong." This sense might extend to Aeorian corruption.
+
+**Galvena Aballon — Human Paladin**
+
+<img src="https://i.imgur.com/BSNEKgT.png" width="90" alt="Galvena Aballon" style="display: block;" />
+
+**Public Face:** Devout, disciplined, and unwavering.
+**Private Truth:** Galvena has sworn a private oath to hunt down Venomfang after the dragon destroyed a shrine she once served.
+
+**Campaign Tie‑ins:**
+
+- Temple of the Dragonknights: Galvena becomes a major emotional anchor for this arc.
+- Frozen Sick: She sees the disease as a test of faith.
+- Wolves of Welton: She will push for justice, not slaughter.
+
+**Secrets:**
+1. **Corrupted Visions**: Galvena's divine visions are becoming corrupted. She sees her deity's guidance mixed with disturbing images of ancient cities and incomprehensible whispers. She fears she's losing her connection or being tested.
+2. **Venomfang Obsession**: Galvena's oath to hunt Venomfang has become dangerously close to obsession. She sometimes dreams of killing the dragon and wakes up with her hands bleeding from clenching her fists.
+3. **Shrine Survivor Guilt**: Galvena was away on pilgrimage when Venomfang destroyed her shrine. All her fellow paladins died. She believes she was spared to be the instrument of vengeance—but she's starting to wonder if vengeance is what her deity actually wants.
+
+**Ariodh Highwhirl — Human Monk**
+
+<img src="https://i.imgur.com/1fiVcFE.png" width="90" alt="Ariodh Highwhirl" style="display: block;" />
+
+**Public Face:** Calm, focused, and philosophical.
+**Private Truth:** Ariodh once trained under a master who vanished investigating Aeorian ruins.
+
+**Campaign Tie‑ins:**
+
+- Frozen Sick: Ariodh recognizes the Aeorian symbols instantly.
+- Wild Sheep Chase: He finds Noke’s misuse of magic deeply offensive.
+- Wolves of Welton: Ariodh will attempt diplomacy first.
+
+**Secrets:**
+1. **Master in Salsvault**: Ariodh's master, Grandmaster Keiji, is alive and trapped in Salsvault. Ariodh doesn't know this yet, but he will feel a "pull" if he gets close to the ruins. Finding his master could become a major personal quest.
+2. **Aeorian Research**: Ariodh has his master's research journal, which contains notes about Aeorian ruins and "consciousness preservation" experiments. He's been trying to decode it for years.
+3. **Philosophical Crisis**: Ariodh's philosophy emphasizes balance and harmony, but he's increasingly seeing evidence that the universe is fundamentally chaotic. The awakened wolves and Aeorian disturbances are shaking his worldview.
+
+**Guz — Half‑Orc (Reformed)**
+
+<img src="https://i.imgur.com/0K66wmO.png" width="90" alt="Guz" style="display: block;" />
+
+**Public Face:** Gruff, awkward, trying his best.
+**Private Truth:** After the events of *Wild Sheep Chase*, Guz seeks redemption and has joined the Wardens.
+
+**Campaign Tie‑ins:**
+
+- Wild Sheep Chase: Guz becomes a recurring ally.
+- Wolves of Welton: Guz respects Bolt and Flame’s intelligence.
+- Frozen Sick: Guz fears magic deeply and will avoid Aeorian relics.
+
+**Secret:** Guz still hears Noke’s voice in his dreams.
+
+**📚 LOREWATCH**
+
+*Scholars, mages, and magical specialists.*
+
+**Sera Gelanadel — Apprentice Wizard**
+
+<img src="https://i.imgur.com/yxGZKlq.png" width="90" alt="Sera Gelanadel" style="display: block;" />
+
+**Public Face:** Brilliant, curious, and slightly overwhelmed.
+**Private Truth:** Sera is investigating a surge of magical anomalies across the frontier.
+
+**Campaign Tie‑ins:**
+
+- Temple of the Dragonknights: Sera becomes a major recurring NPC.
+- Frozen Sick: She recognizes Aeorian script and can translate it.
+- Wild Sheep Chase: She is fascinated by the Wand of True Polymorph.
+
+**Secrets:**
+1. **Mentor Connection**: Sera's mentor, Archmage Daliah, was Shinebright's rival at the Solarium Academy. The rivalry was professional but bitter. Sera doesn't know the full history and would be fascinated to learn it.
+2. **Overwork Breakdown**: Sera is brilliant but stretched dangerously thin. She's cataloging anomalies, translating Aeorian texts, and supporting field missions. She's on the edge of burnout and makes mistakes when exhausted.
+3. **Forbidden Experiment**: Sera once attempted a divination spell to predict Aeorian disturbances. The spell backfired and she saw something that terrified her—a vision of Northreach in flames. She hasn't told anyone and won't attempt divination again.
+
+**Aurixean Valignaak — Dragonborn Sorcerer**
+
+<img src="https://i.imgur.com/fUWF9C0.png" width="90" alt="Aurixean Valignaak" style="display: block;" />
+
+**Public Face:** Proud, charismatic, and dramatic.
+**Private Truth:** Aurixean’s draconic bloodline resonates painfully whenever Venomfang is near.
+
+**Campaign Tie‑ins:**
+
+- Temple of the Dragonknights: Aurixean senses Venomfang’s presence before anyone else.
+- Frozen Sick: His fire magic is especially effective in Salsvault.
+- Wolves of Welton: Aurixean respects Bolt’s leadership.
+
+**Secrets:**
+1. **Dragonknight Ancestor**: Aurixean's ancestor was a dragonborn champion who served the Dragonknights—and then betrayed them to Venomfang's predecessor. Aurixean doesn't know this yet, but Venomfang does. This is a ticking time bomb.
+2. **Bloodline Resonance**: Aurixean's draconic bloodline physically resonates (painfully) when Venomfang is within a mile. He gets severe headaches, his scales itch, and he can taste copper. This makes him an unwitting "dragon detector."
+3. **Pride vs. Guilt**: Aurixean is intensely proud of his draconic heritage, but his bloodline's connection to betrayal (once he learns it) will force him to choose between pride and redemption.
+
+**Shinebright — High Elf Wizard (Polymorphed)**
+
+\page
+
+
+<img src="https://i.imgur.com/l0McAF7.png" width="90" alt="Shinebright" style="display: block;" />
+
+**Public Face:** A sheep.
+**Private Truth:** A *very annoyed* sheep.
+
+**Campaign Tie‑ins:**
+You already know this one — he’s the chaos engine.
+
+**Baleth Cindermoon — Tiefling Warlock**
+
+<img src="https://i.imgur.com/nx7gShD.png" width="90" alt="Baleth Cindermoon" style="display: block;" />
+
+**Public Face:** Charming, mysterious, and theatrical.
+**Private Truth:** Baleth’s patron is deeply interested in the magical disturbances across the frontier.
+
+**Campaign Tie‑ins:**
+
+- Frozen Sick: Baleth senses the Aeorian magic as “wrong.”
+- Wolves of Welton: Baleth is fascinated by the awakened wolves.
+- Temple of the Dragonknights: Baleth’s patron wants something hidden in the ruins.
+
+**Secrets:**
+1. **False Patron**: Baleth's patron is *not* who they claim to be. Baleth believes they serve an archfey, but the patron is actually something Aeorian—possibly a preserved consciousness from ancient experiments.
+2. **Compelled Investigation**: Baleth didn't choose to come to Northreach. Their patron *compelled* them to investigate the disturbances. Baleth is both curious and increasingly resentful of being used.
+3. **Warning Signs**: Baleth's magic occasionally does things they didn't intend—whispers in ancient languages, visions of icy laboratories, sudden knowledge they shouldn't have. They're starting to realize their patron might be dangerous.
+
+**🏡 HEARTHWARDENS**
+
+*Community anchors and support NPCs.*
+
+**Father Merriksonn — Village Priest**
+
+<img src="https://i.imgur.com/RDbpNzD.jpg" width="90" alt="Father Merriksonn" style="display: block;" />
+
+**Public Face:** Kind, weary, and devoted.
+**Private Truth:** His brother Alexi is the missing sorcerer from *Wolves of Welton*.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: His grief becomes a major emotional beat.
+- Frozen Sick: He will beg the party to save the infected.
+- Wild Sheep Chase: He distrusts wizards deeply.
+
+**Secrets:**
+1. **Lingering Spirit**: Alexi's spirit lingers near the wolves' den, bound by guilt and unfinished business. He can be contacted through speak with dead or similar magic, but he's confused and fragmented.
+2. **Accidental Awakening**: Alexi was researching wild magic surges when he accidentally tapped into dormant Aeorian energy. The awakening wasn't intentional—he was trying to help the village defend against wolf attacks, not create intelligent wolves.
+3. **Final Message**: If the party finds Alexi's body or contacts his spirit, he has a final message for Johan: "I'm sorry. I only wanted to protect them." This message will devastate Johan and force him to confront his anger.
+
+**Willen Featherock — Halfling Shepherd**
+
+<img src="https://i.imgur.com/q0t6X9G.jpg" width="90" alt="Willen Featherock" style="display: block;" />
+
+**Public Face:** Nervous, traumatized, recovering.
+**Private Truth:** Willen heard the wolves speak—and he wasn’t hallucinating.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Willen becomes the emotional heart of the arc.
+- Frozen Sick: He knows a trader who once dealt with Verla Pelc.
+- Temple of the Dragonknights: Willen’s family once guarded the ruins.
+
+**Secrets:**
+1. **Awakened Magical Gift**: Willen has a latent magical gift (likely sorcerer) that was awakened by exposure to the wolves' aura. He's starting to have "intuitions" that are actually wild magic predictions. He thinks he's going mad.
+2. **Wolves Spoke**: Willen heard the wolves speak—he wasn't hallucinating. Specifically, he heard Bolt say "We mean no harm to shepherds." No one believes him, and the trauma of not being believed is almost worse than the attack.
+3. **Connected to Alexi**: Willen was Alexi's childhood friend. He knows Alexi was experimenting with magic but never told anyone. He feels guilty for not warning Father Merriksonn.
+
+**Flynt Wymblen — Gnome Bard**
+
+<img src="https://i.imgur.com/gxsZ6Qh.jpg" width="90" alt="Flynt Wymblen" style="display: block;" />
+
+**Public Face:** Cheerful, musical, and nosy.
+**Private Truth:** Flynt is secretly writing an epic ballad about the Wardens.
+
+**Campaign Tie‑ins:**
+
+- Wolves of Welton: Flynt will accompany the party if invited.
+- Frozen Sick: Flynt knows a sailor who can get them to The Far North.
+- Wild Sheep Chase: Flynt loves Shinebright’s story.
+
+**Secrets:**
+1. **Prophetic Songs**: Flynt's songs sometimes predict the future, but he doesn't realize it. He thinks he's just being creative, but bardic magic occasionally taps into genuine prophecy. Players who pay attention to his songs might get clues.
+2. **Epic Ballad**: Flynt is secretly writing an epic ballad called "The Wardens of Waystone" chronicling the party's adventures. He embellishes heavily. If the party ever hears it performed, they'll be simultaneously flattered and mortified.
+3. **Hidden Courage**: Despite his comedic demeanor, Flynt is genuinely brave. He once talked down a bandit gang by convincing them he was a legendary hero in disguise. The bluff worked, and he's terrified they'll find out the truth.
+
+**Joel Andersmith — Farmer (Ally)**
+
+<img src="https://i.imgur.com/gqfEDrT.png" width="90" alt="Joel Andersmith" style="display: block;" />
+
+**Public Face:** Grieving father.
+**Private Truth:** Joel’s daughter Clementine is destined to become a powerful mage.
+
+**Campaign Tie‑ins:**
+
+- Temple of the Dragonknights: Clementine’s rescue becomes a major emotional beat.
+- Wolves of Welton: Joel will beg the party to save other families.
+- Frozen Sick: Joel knows a trader who handled the blue vials.
+
+**Secrets:**
+1. **Magic Awakening**: Clementine's latent magical gift awakened something in the Temple ruins when Venomfang's kobolds brought her there. She might be the key to a magical lock or ward that Venomfang wants opened.
+2. **Mage Destiny**: Joel doesn't know this, but Clementine is destined to become a powerful mage. If saved, she'll eventually join the Wardens as a teenager. If corrupted by Venomfang, she'll become a tragic antagonist.
+3. **Aeorian Resonance**: Clementine's magic resonates with Aeorian artifacts. She glows faintly (imperceptibly to most) when near Aeorian relics. This is why Venomfang is interested in her—she can sense and possibly control ancient magic.
+
+**WILD ALLIES**
+
+**Bolt — Alpha Wolf (Awakened)**
+
+<img src="https://i.imgur.com/4oD3lBF.jpg" width="90" alt="Bolt" style="display: block;" />
+
+**Public Face:** Calm, intelligent, diplomatic.
+**Private Truth:** Bolt is terrified of what awakened him.
+
+**Flame — Alpha Wolf (Awakened)**
+
+<img src="https://i.imgur.com/J4lh2Bs.jpg" width="90" alt="Flame" style="display: block;" />
+
+\page
+
+
+**Public Face:** Fierce, proud, aggressive.
+**Private Truth:** Flame believes the wolves are destined to rule the frontier.
+
+**Campaign Tie‑ins:**
+The awakened wolves become a recurring faction — sometimes allies, sometimes rivals, always interesting.
+
+**🏘️ AFFILIATED SETTLEMENTS**
+
+- Welton — Wolves of Welton arc
+- Palebank Village — Frozen Sick arc
+- Pinebrook — Peril in Pinebrook arc
+
+These settlements form the “Northreach Triangle,” the region the Wardens protect.
+
+\page
+{{note
+##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+
+**CAMPAIGN SPOILERS: NPC Relationships & Connections**
+
+This document shows the web of relationships between NPCs across Season One. **DO NOT share this with players** unless they discover connections through gameplay.
+}}
+
+# NPC Relationship Web — Season One
+
+This document maps the major relationships and connections between NPCs in the Northwatch Wardens campaign. Use this to understand how NPCs know each other and create dynamic interactions.
+
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
+\page
+
+## NPC Relationship Overview
+
+### Guild Leadership
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Marshal Brenna Thorne** | Field Commander | Former comrade of Corel (Greywinter Hunts); knows Shinebright from decades ago; suspicious of magical anomalies |
+| **Steward Mara Fenwick** | Quartermaster | Criminal past with Uttolot family; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
+| **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aeorian relics; connected to The Buyer; fascinated by Shinebright's magic |
+}}
+
+### Wardens — Trailwardens
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Corel** | Senior Shepherd | Former comrade of Brenna (Greywinter Hunts); mentor to Willen; diplomatic contact with Bolt; cousin in Palebank (Elro) |
+| **Bordel Barleywind** | Ranger | Ashamed past with Bolt's pack; guides to Croaker Cave; recognizes kobold tracks from Temple |
+| **Rowan Fairweather** | Druid | Senses Bolt's intelligence; visited Pinebrook's sacred grove; horrified by Aeorian disease origins |
+| **Mila Teno** | Rookie Scout | Brother Teris taken by Venomfang's kobolds; knows Verla Pelc; traumatized by wolf attacks |
+}}
+
+### Wardens — Lantern Guard
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Takk Oaksplitter** | Barbarian | Respects awakened wolves; recognizes Frozen Sick symptoms from tribe; finds Shinebright hilarious |
+| **Galvena Aballon** | Paladin | Sworn enemy of Venomfang (destroyed her shrine); divine visions corrupting; pushes for justice |
+| **Ariodh Highwhirl** | Monk | Master trapped in Salsvault; recognizes Aeorian symbols; attempts diplomacy with wolves |
+| **Guz** | Reformed Thug | Reformed after Wild Sheep Chase; respects Bolt and Flame; haunted by Noke's voice |
+}}
+
+### Wardens — Lorewatch
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Sera Gelanadel** | Apprentice Wizard | Studies under Elric; mentor rivals Shinebright; can translate Aeorian script; connected to The Buyer |
+| **Aurixean Valignaak** | Dragonborn Sorcerer | Ancestor served Dragonknights (then betrayed them); bloodline resonates with Venomfang; respects Bolt |
+| **Finethir Shinebright** | Polymorphed Wizard | Known to Brenna (decades ago); rivals Sera's mentor; studied by Elric after restoration |
+| **Baleth Cindermoon** | Tiefling Warlock | Patron interested in Aeorian magic (possibly Aeorian consciousness); fascinated by awakened wolves |
+}}
+
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
+\page
+
+### Welton NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Father Johan Merriksonn** | Village Priest | Brother is Alexi (missing sorcerer); ministers to Willen; distrusts wizards deeply |
+| **Alexi Merriksonn** | Missing Sorcerer (Spirit) | Johan's brother; spirit lingers near wolves' den; accidentally awakened Bolt and Flame |
+| **Willen Featherock** | Traumatized Shepherd | Mentored by Corel; heard wolves speak; childhood friend of Alexi |
+| **Leanor & Banteth Slatebeard** | Innkeepers | Married couple; know everyone's business in Welton |
+}}
+
+### Awakened Wolves & Key Faction NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Bolt** | Awakened Alpha (Diplomatic) | Awakened by Alexi; alpha rivalry with Flame; respected by many Wardens; terrified of awakening cause |
+| **Flame** | Awakened Alpha (Aggressive) | Awakened by Alexi; alpha rivalry with Bolt; tempted by domination |
+| **Venomfang** | Green Dragon (Antagonist) | Destroyed Galvena's shrine; Aurixean's ancestor betrayed to dragon's predecessor; kidnapped Clementine; took Mila's brother |
+| **The Buyer** | Relic Broker (Mystery) | Collects Aeorian relics; connected to Elric and Sera; deals with Hulil (cult); possibly knows where Ariodh's master is |
+}}
+
+### Palebank Village NPCs
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Elro Aldataur** | Village Leader | Corel's cousin; pushes party to investigate Salsvault |
+| **Verla Pelc** | Merchant | Dangerous Uttolot connections; known to Mara and Mila |
+| **Tulgi** | Healer | Defensive about Urgon's death; ally or suspect |
+}}
+
+### Antagonists & Cult
+
+{{wide
+| NPC | Role | Key Connections |
+|:----|:-----|:----------------|
+| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Uttolot connections |
+| **Ahmed Noke** | Antagonist Wizard | Haunts Guz's dreams; misused magic in Wild Sheep Chase |
+}}
+
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
+\page
+
+## Key Relationship Networks
+
+### 1. The Greywinter Connection
+**NPCs**: Brenna Thorne, Corel
+
+The only two survivors of the "Greywinter Hunts," a brutal season when monsters spilled from the northern woods. Both lost people they cared about. This shared trauma makes them instinctively wary of "easy solutions" to monster problems.
+
+**Campaign Hook**: Both recognize unnatural patterns in the awakened wolves and the Frozen Sick outbreak.
+
+### 2. The Criminal Network
+**NPCs**: Mara Fenwick, Verla Pelc, Hulil Lutan
+
+Mara fled Shadycreek Run after crossing the Uttolot family. Verla has dangerous connections to smuggling operations. Hulil works for cult operations that overlap with criminal networks.
+
+**Campaign Hook**: Mara can identify criminal signatures and warn about Uttolot involvement. She has a bounty on her head that becomes dangerous if party travels to Shadycreek Run.
+
+### 3. The Arcane Investigation
+**NPCs**: Elric Vael, Sera Gelanadel, Ariodh Highwhirl, The Buyer
+
+These NPCs are all investigating the magical disturbances across the frontier from different angles. Elric suspects an ancient arcane engine. Sera is cataloging anomalies. Ariodh's master is trapped in Salsvault. The Buyer collects Aeorian relics.
+
+**Campaign Hook**: These NPCs can piece together the Aeorian Echo mystery if players share information.
+
+### 4. The Merriksonn Tragedy
+**NPCs**: Father Johan Merriksonn, Alexi Merriksonn, Bolt, Flame
+
+Johan's brother Alexi was the sorcerer who accidentally awakened the wolves. His spirit lingers near the den. Johan's grief makes him distrust wizards deeply, affecting his reactions to Shinebright and magical solutions.
+
+**Campaign Hook**: Revealing Alexi's fate to Johan is a major emotional beat. His spirit might provide clues about the awakening.
+
+### 5. The Venomfang Network
+**NPCs**: Venomfang, Galvena Aballon, Aurixean Valignaak, Mila Teno, Clementine Andersmith
+
+The green dragon Venomfang is deeply connected to multiple NPCs. Galvena has sworn to hunt him. Aurixean's bloodline resonates painfully when he's near. Mila's brother was taken by his kobolds. Clementine is kidnapped by his cult.
+
+**Campaign Hook**: Multiple Wardens have personal stakes in confronting Venomfang, making Temple of the Dragonknights deeply personal.
+
+### 6. The Awakened Wolves
+**NPCs**: Bolt, Flame, Alexi Merriksonn (spirit), Bordel Barleywind, Corel, Rowan Fairweather
+
+The awakened wolves are central to multiple character arcs. Bordel feels shame for fighting them before. Corel can sense their intelligence. Rowan urges peace. Multiple Wardens recognize their significance.
+
+**Campaign Hook**: The wolves can become recurring allies or rivals depending on player choices. They represent the "awakening magic" theme of the campaign.
+
+## NPC Appearance Cross-Reference
+
+See next section for detailed "appears in these adventures" notes for each major NPC.
+
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
+\page
+
+# NPC Adventure Appearances
+# NPC Adventure Appearances
+
+## Guild Leadership
+
+### Marshal Brenna Thorne
+**Appears In:**
+- Opening: Return to Waystone (Session 0) — Introduces the guild
+- Wolves of Welton — Pushes party to investigate thoroughly, recognizes wrong behavior
+- Frozen Sick — Immediately recognizes blue-vein symptoms as unnatural
+- Wild Sheep Chase — Suspicious of Shinebright's mishap
+- **Recurring**: Available at Waystone between all adventures for briefings
+
+**Role**: Quest giver, tactical advisor, voice of caution
+
+### Steward Mara Fenwick
+**Appears In:**
+- Opening: Return to Waystone (Session 0) — Handles supplies and logistics
+- Frozen Sick — Warns about Uttolot family connections
+- Peril in Pinebrook — Knows Pinebrook merchants
+- Wolves of Welton — Suspects organized manipulation
+- **Recurring**: Available at Waystone for supplies, contracts, and underworld information
+
+**Role**: Logistics, criminal network intelligence, contract negotiations
+
+### Lorewarden Elric Vael
+**Appears In:**
+- Opening: Return to Waystone (Session 0) — Explains magical threats
+- Wild Sheep Chase — Delighted to study the Wand of True Polymorph
+- Frozen Sick — Recognizes Aeorian relics instantly, pushes for samples
+- Temple of the Dragonknights — Has studied the Dragonknights extensively
+- **Recurring**: Available at Waystone for arcane research, clue connections
+
+**Role**: Mystery investigator, arcane expert, connects dots between adventures
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Wardens — Trailwardens
+
+### Corel (Senior Shepherd)
+**Appears In:**
+- Wolves of Welton — Emotional anchor, shepherd mentor, diplomatic advisor
+- Frozen Sick — Has cousin in Palebank Village
+- Peril in Pinebrook — Trading partner with merchants
+- **Available**: Can accompany party on wilderness missions
+
+**Role**: Wolf expert, moral compass, wilderness guide
+
+### Bordel Barleywind
+**Appears In:**
+- Wolves of Welton — Reveals ashamed past with the wolf pack
+- Frozen Sick — Knows northern trails, can guide to Croaker Cave
+- Temple of the Dragonknights — Recognizes kobold tracks
+- **Available**: Can accompany party as scout
+
+**Role**: Tracker, survivor, redemption arc
+
+### Rowan Fairweather
+**Appears In:**
+- Wolves of Welton — Senses wolves' intelligence, urges peace
+- Frozen Sick — Recognizes disease as unnatural
+- Peril in Pinebrook — Knows local druids and sacred grove
+- **Available**: Can accompany party on nature-related missions
+
+**Role**: Nature expert, diplomatic voice, arcane sensitivity
+
+### Mila Teno (Glassblade Rookie)
+**Appears In:**
+- Wolves of Welton — Begs party to kill wolves (trauma response)
+- Frozen Sick — Knows Verla Pelc, devastated by her fate
+- Temple of the Dragonknights — Brother disappeared near ruins (major hook)
+- **Available**: Eager to prove herself on missions
+
+**Role**: Emotional beats, personal stakes, rookie perspective
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Wardens — Lantern Guard
+
+### Takk Oaksplitter
+**Appears In:**
+- Wolves of Welton — Respects wolves, hesitates to kill
+- Frozen Sick — Recognizes symptoms from dead tribe member
+- Wild Sheep Chase — Finds Shinebright hilarious
+- **Available**: Always volunteers first for dangerous missions
+
+**Role**: Muscle, comic relief, surprising wisdom
+
+### Galvena Aballon
+**Appears In:**
+- Temple of the Dragonknights — Major emotional anchor (sworn to hunt Venomfang)
+- Frozen Sick — Sees disease as test of faith
+- Wolves of Welton — Pushes for justice, not slaughter
+- **Available**: Accepts missions requiring discipline and moral clarity
+
+**Role**: Moral authority, Venomfang antagonist, divine corruption subplot
+
+### Ariodh Highwhirl
+**Appears In:**
+- Frozen Sick — Recognizes Aeorian symbols (master vanished investigating ruins)
+- Wild Sheep Chase — Offended by Noke's misuse of magic
+- Wolves of Welton — Attempts diplomacy first
+- **Available**: Joins missions requiring investigation or philosophy
+
+**Role**: Diplomat, Aeorian mystery connection, master-in-Salsvault subplot
+
+### Guz (Reformed)
+**Appears In:**
+- Wild Sheep Chase — Can become recurring ally after redemption
+- Wolves of Welton — Respects Bolt and Flame's intelligence
+- Frozen Sick — Fears Aeorian relics deeply
+- **Available**: Seeks redemption, trying to prove himself
+
+**Role**: Redemption arc, moral complexity, haunted by past
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Wardens — Lorewatch
+
+### Sera Gelanadel
+**Appears In:**
+- Temple of the Dragonknights — Major recurring NPC, arcane support
+- Frozen Sick — Can translate Aeorian script
+- Wild Sheep Chase — Fascinated by Wand of True Polymorph
+- **Available**: Eager assistant for magical investigations
+
+**Role**: Translator, arcane expert, connects to Shinebright subplot
+
+### Aurixean Valignaak
+**Appears In:**
+- Temple of the Dragonknights — Senses Venomfang before anyone else (bloodline resonance)
+- Frozen Sick — Fire magic especially effective in Salsvault
+- Wolves of Welton — Respects Bolt's leadership
+- **Available**: Dramatic volunteer for high-stakes missions
+
+**Role**: Draconic subplot, Venomfang connection, theatrical presence
+
+### Finethir Shinebright (Polymorphed)
+**Appears In:**
+- Wild Sheep Chase — Central NPC (starts as sheep)
+- **Recurring**: Can become magical contact/resource after restoration
+- References in other adventures through Brenna, Elric, Sera
+
+**Role**: Chaos engine, magical expertise, recurring comic relief
+
+### Baleth Cindermoon
+**Appears In:**
+- Frozen Sick — Senses Aeorian magic as "wrong"
+- Wolves of Welton — Fascinated by awakened wolves
+- Temple of the Dragonknights — Patron wants something in ruins
+- **Available**: Mysterious volunteer with hidden agendas
+
+**Role**: Warlock mystery, patron subplot, ambiguous ally
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Wardens — Hearthwardens
+
+### Flynt Wymblen
+**Appears In:**
+- Wolves of Welton — Can accompany party if invited
+- Frozen Sick — Knows sailor who can reach Far North
+- Wild Sheep Chase — Loves Shinebright's story
+- **Available**: Joins adventures for "ballad material"
+
+**Role**: Bard, rumor mill, prophetic songs, comic relief
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Welton NPCs
+
+### Father Johan Merriksonn
+**Appears In:**
+- Wolves of Welton — Grieving father, emotional anchor, moral voice
+- Frozen Sick — Begs party to save infected
+- Wild Sheep Chase — Distrusts wizards deeply
+- **Available**: Can provide spiritual guidance, village perspective
+
+**Role**: Moral complexity, grief, brother subplot
+
+### Alexi Merriksonn (Missing/Spirit)
+**Appears In:**
+- Wolves of Welton — Central mystery (missing sorcerer who awakened wolves)
+- **Spirit lingers**: Near wolf den, can provide clues
+- References in other adventures through Johan
+
+**Role**: Tragic catalyst, awakening magic mystery, spiritual subplot
+
+### Willen Featherock
+**Appears In:**
+- Wolves of Welton — Traumatized witness, emotional heart
+- Frozen Sick — Knows trader who dealt with Verla Pelc
+- Temple of the Dragonknights — Family once guarded ruins
+- **Available**: Recovering, can provide local knowledge
+
+**Role**: Ordinary person perspective, latent magic, witness
+
+### Tillus Merrion
+**Appears In:**
+- Wolves of Welton — Council member, political obstacle/ally
+- **Available**: Represents political/economic interests
+
+**Role**: Politics, pragmatism, leverage point
+
+### Leanor Slatebeard
+**Appears In:**
+- Wolves of Welton — Innkeeper, knows everyone's business
+- **Available**: Social hub, gossip source
+
+**Role**: Information broker, suspicious of outsiders
+
+### Banteth Slatebeard
+**Appears In:**
+- Wolves of Welton — Innkeeper, steadier temperament than Leanor
+- **Available**: Kindness, defuses tension
+
+**Role**: Comfort, practical wisdom
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Awakened Wolves
+
+### Bolt (Alpha Wolf)
+**Appears In:**
+- Wolves of Welton — Diplomatic alpha, terrified of what awakened him
+- **Recurring**: Can become ally/rival depending on resolution
+- References in other adventures through Wardens
+
+**Role**: Awakening magic mystery, recurring nonhuman faction leader
+
+### Flame (Alpha Wolf)
+**Appears In:**
+- Wolves of Welton — Aggressive alpha, tempted by domination
+- **Recurring**: Can become rival faction leader
+- References in other adventures through Wardens
+
+**Role**: Awakening magic mystery, moral complexity, potential antagonist
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Pinebrook NPCs
+
+### Captain Emmajeen Kole
+**Appears In:**
+- Peril in Pinebrook — Guard captain, quest giver
+- **Available**: Direct, disciplined authority figure
+
+**Role**: Law enforcement, practical perspective
+
+### Hysvearorn "Rorn" (Adult Silver Dragon)
+**Appears In:**
+- Peril in Pinebrook — Protective mother, intelligent negotiator
+- **Recurring**: Can become powerful ally/enemy based on baby's fate
+
+**Role**: High-stakes moral choice, powerful ally/enemy
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Palebank Village NPCs
+
+### Elro Aldataur
+**Appears In:**
+- Frozen Sick — Quest giver, village leader
+- **Available**: Careful, protective leadership voice
+
+**Role**: Authority figure, pushes party into Salsvault mystery
+
+### Verla Pelc
+**Appears In:**
+- Frozen Sick — Merchant with dangerous connections
+- **Available**: Leverage, desperation, criminal network
+
+**Role**: Moral complexity, Uttolot subplot, information source
+
+### Urgon (Deceased Blacksmith)
+**Appears In:**
+- Frozen Sick — Funeral hook, community loss
+- **Role**: Stakes, community impact
+
+### Tulgi (Healer)
+**Appears In:**
+- Frozen Sick — Tense healer, defensive, knows more than she admits
+- **Available**: Ally or suspect depending on approach
+
+**Role**: Medical expert, potential ally, defensive NPC
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Croaker Cave NPCs
+
+### Hulil Lutan
+**Appears In:**
+- Frozen Sick — Cult operative, smart and ruthless
+- **Role**: Antagonist, cult connection, escape artist
+
+### Raegrin Mau
+**Appears In:**
+- Frozen Sick — Cult lieutenant, zealous
+- **Role**: Antagonist, can crack under pressure
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Salsvault NPCs
+
+### Morgo Delwur
+**Appears In:**
+- Frozen Sick — Expedition guide, calm competence
+- **Available**: Hard truths about survival and risk
+
+**Role**: Guide, practical wisdom, survival expert
+
+### Orvo Mustave
+**Appears In:**
+- Frozen Sick — Anxious survivor, witness
+- **Role**: Urgency, time pressure, emotional impact
+
+### The Buyer
+**Appears In:**
+- Frozen Sick — Mysterious patron, relic broker
+- **Recurring**: Long-term faction contact, Aeorian mystery connection
+
+**Role**: Mystery broker, faction representative, morally ambiguous patron
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Noke's Tower NPCs
+
+### Ahmed Noke
+**Appears In:**
+- Wild Sheep Chase — Antagonist, petty genius
+- **Recurring**: Can haunt Guz's dreams
+
+**Role**: Antagonist, magical mishap, pathetic/terrifying
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Temple of the Dragonknights NPCs
+
+### Joel Andersmith
+**Appears In:**
+- Temple of the Dragonknights — Grieving parent, emotional pressure
+- Wolves of Welton — Begs party to save families
+- Frozen Sick — Knows trader who handled blue vials
+
+**Role**: Moral stakes, personal investment
+
+### Clementine Andersmith
+**Appears In:**
+- Temple of the Dragonknights — Kidnapped child, rescue stakes
+- **Future**: Potential campaign hook if magic awakens
+
+**Role**: Rescue mission, future subplot
+
+### Venomfang (Green Dragon)
+**Appears In:**
+- Temple of the Dragonknights — Campaign-tier threat, intelligent predator
+- References through Galvena, Aurixean, Mila subplots
+
+**Role**: Major antagonist, multiple character connections
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
+\page
+
+## Using This Web
+
+### For Adventure Prep
+1. Check which NPCs appear in the adventure you're running
+2. Review their connections to other NPCs
+3. Plan callbacks to previous adventures through relationships
+4. Use connections to create dynamic interactions
+
+### For Player Choices
+- If players help/antagonize an NPC, check their connections
+- Related NPCs should react accordingly
+- Build reputation through relationship networks
+- Create consequences that ripple through connections
+
+### For Long-Term Planning
+- Track which NPCs players bond with
+- Develop those relationships across multiple adventures
+- Use connections to tie adventures together
+- Create emotional investment through recurring relationships
+
+### For Mystery Revelation
+- NPCs in "Arcane Investigation" network can help piece together clues
+- Each connection reveals different aspects of the Aeorian Echo
+- Players who cultivate relationships get better information
+- Some secrets only revealed through specific NPC relationships
+
+\page
+# Minor NPC Roster: Northreach Region
+
+**Purpose:** Background NPCs to populate scenes, provide atmospheric depth, and create a living world. These are NOT major quest-givers but residents players might encounter during downtime, travel, or routine interactions.
+
+**Usage:**
+- Roll randomly when players visit locations
+- Name-drop during conversations ("Oh, you should talk to Maren about that")
+- Create relationship webs (these NPCs know each other)
+- Evolve over campaign (marriages, deaths, promotions, grudges)
+
+---
+
+## WAYSTONE INN & GUILD HEADQUARTERS
+
+### 1. Garth Ironfoot
+**Race:** Dwarf (Mountain) | **Age:** 67 | **Occupation:** Retired Warden, Inn Cook
+
+**Appearance:** Stocky with white beard braided with copper rings. Missing two fingers on left hand. Always wears stained apron over chainmail shirt (habit).
+
+**Personality:** Gruff but nurturing. Believes food is how you show respect. Never forgets a dietary preference.
+
+**Secret:** Lost fingers defending caravan from owlbear. Secretly keeps old Warden badge in apron pocket "for luck."
+
+**Hook:** Can share frontier survival advice and old war stories. Knows Marshal Brenna from her early days.
+
+---
+
+### 2. Sylra Moonwhisper
+**Race:** Half-Elf | **Age:** 34 | **Occupation:** Barmaid, Amateur Poet
+
+**Appearance:** Willowy with silver hair cut short. Collection of patron-gifted earrings dangles when she moves. Ink-stained fingers.
+
+**Personality:** Curious and chatty. Collects stories from travelers. Writes terrible poetry but shares it enthusiastically anyway.
+
+**Secret:** Secretly recording oral history of Northreach for future publication. Has journal full of gossip and rumors.
+
+**Hook:** Best source of local rumors. Will trade information for "interesting stories" to add to collection.
+
+---
+
+### 3. Torven "Steady" Grasp
+**Race:** Human | **Age:** 41 | **Occupation:** Stablehand, Former Soldier
+
+**Appearance:** Lean and weathered. Burn scar across right shoulder. Moves with deliberate calm around animals.
+
+**Personality:** Quiet. Speaks more to horses than people. Methodical and reliable.
+
+**Secret:** Deserted from military unit during Calamity aftermath. Carries guilt but needed to return home.
+
+**Hook:** Knows all about horses, tracking, and wilderness survival. Will teach players to read animal signs.
+
+---
+
+### 4. Pim Tosscoin
+**Race:** Halfling | **Age:** 28 | **Occupation:** Guild Messenger / Courier
+
+**Appearance:** Curly brown hair, perpetually windblown. Wears leather courier bag covered in regional pins/badges.
+
+**Personality:** High-energy. Talks FAST. Knows every shortcut between settlements.
+
+**Secret:** Has crush on Sylra but too nervous to say anything. Writes her unsigned poetry (worse than hers).
+
+**Hook:** Can deliver messages, knows road conditions, and has connections in every settlement.
+
+---
+
+### 5. Marta Keenblade
+**Race:** Human | **Age:** 55 | **Occupation:** Weaponsmith, Guild Supplier
+
+**Appearance:** Muscular with close-cropped gray hair. Leather apron scorched from forge work. Missing part of left ear.
+
+**Personality:** No-nonsense. Judges people by their weapon maintenance. Praises good craftsmanship, mocks poor care.
+
+**Secret:** Was adventurer before settling down. Lost ear to saber-tooth tiger. Still dreams of "one more adventure."
+
+**Hook:** Offers weapon maintenance, upgrades, and blunt advice. Knows quality when she sees it—in gear and people.
+
+---
+
+### 6. Elira Dawntracker
+**Race:** Wood Elf | **Age:** 142 (appears 30) | **Occupation:** Herbalist, Forager
+
+**Appearance:** Long auburn hair with wooden beads. Smells of pine and mint. Always carries canvas gathering bag.
+
+**Personality:** Patient teacher. Speaks slowly. Treats plants with reverence.
+
+**Secret:** Exiled from Nullwood Enclave for "dangerous curiosity" about Aeorian-affected flora. Still experimenting.
+
+**Hook:** Sells potions/remedies. Can teach survival skills. May have concerning knowledge of Echo-touched plants.
+
+---
+
+## WELTON VILLAGE
+
+### 7. Brindle Tossbrew
+**Race:** Halfling | **Age:** 50 | **Occupation:** Owner, Shepherd's Crook Inn
+
+**Appearance:** Round with rosy cheeks and flour-dusted apron. Infectious laugh.
+
+**Personality:** Motherly to everyone. Remembers patron preferences. Creates atmosphere of home.
+
+**Secret:** Lost her daughter to winter fever three years ago. Treats young adventurers as surrogate children.
+
+**Hook:** Source of village gossip. Provides comfortable lodging. Bakes incredible bread.
+
+---
+
+### 8. Rorin Ironplow
+**Race:** Human | **Age:** 38 | **Occupation:** Farmer, Militia Leader
+
+**Appearance:** Broad-shouldered with sun-darkened skin. Calloused hands. Wears simple practical clothing.
+
+**Personality:** Protective of community. Slow to trust outsiders. Loyal once trust earned.
+
+**Secret:** Brother died in bandit raid five years ago. Swore never to let village be vulnerable again.
+
+**Hook:** Organizes village defense. Can recruit militia if needed. Knows local terrain intimately.
+
+---
+
+### 9. Kasira Wellborn
+**Race:** Human | **Age:** 16 | **Occupation:** Shepherd Apprentice (Westly's niece)
+
+**Appearance:** Gangly teenager with freckles. Messy braided hair. Perpetually has hay stuck to clothing.
+
+**Personality:** Eager to prove herself. Idolizes adventurers. Asks endless questions.
+
+**Secret:** Dreams of becoming Warden but family needs her on farm. Practices with borrowed sword at night.
+
+**Hook:** Enthusiastic helper. Source of youthful perspective. Potential future recruit.
+
+---
+
+### 10. Old Tam
+**Race:** Human | **Age:** 74 | **Occupation:** Village Elder (informal), Storyteller
+
+**Appearance:** Bent with age, walking stick. Clouded left eye. Always sits by Shepherd's Crook fireplace.
+
+**Personality:** Tells rambling stories. Mixes fact and exaggeration. Surprisingly insightful when serious.
+
+**Secret:** Witnessed the Calamity as young man. Carries trauma but hides it behind stories.
+
+**Hook:** Living history of region. Can provide context for ancient ruins or pre-Calamity locations.
+
+---
+
+## PALEBANK VILLAGE
+
+### 11. Korrin Shale
+**Race:** Dwarf (Hill) | **Age:** 89 | **Occupation:** Ice Fisher, Net Maker
+
+**Appearance:** White beard frozen with icicles (claims it's fashion). Wears seal-fur coat.
+
+**Personality:** Pessimistic but funny. Predicts disasters, then laughs when they happen.
+
+**Secret:** Lost wife to glacier accident twenty years ago. Humor is coping mechanism.
+
+**Hook:** Knows ice fishing, glacier safety, and old tragedies. Warns about "voices in the ice."
+
+---
+
+### 12. Mira Frostborn
+**Race:** Half-Orc | **Age:** 27 | **Occupation:** Trapper, Wilderness Guide
+
+**Appearance:** Tall with braided black hair. Wears furs she trapped herself. Missing tip of right tusk.
+
+**Personality:** Independent. Prefers animals to people. Speaks plainly, no social graces.
+
+**Secret:** Saved five villagers during blizzard by sharing her shelter. Downplays it as "common sense."
+
+**Hook:** Best guide for northern wilderness. Knows glacier dangers. Can track anything.
+
+---
+
+### 13. Olan Mesk
+**Race:** Human | **Age:** 32 | **Occupation:** Carpenter, Amateur Historian
+
+**Appearance:** Lanky with sawdust perpetually in hair. Wears spectacles taped together.
+
+**Personality:** Absent-minded. Gets enthusiastic about wood grain and architectural history.
+
+**Secret:** Discovered pre-Calamity foundation beneath village. Hasn't told anyone (worried about panic).
+
+**Hook:** Knows local architecture. Can identify age/origin of structures. May share ruins discovery if trusted.
+
+---
+
+### 14. Jessamine Coldwater
+**Race:** Human | **Age:** 19 | **Occupation:** Fishmonger's Daughter, Aspiring Bard
+
+**Appearance:** Blonde with blue eyes. Wears mother's amulet. Perpetually practices lute.
+
+**Personality:** Optimistic. Creates songs about mundane events. Terrible at singing, great at enthusiasm.
+
+**Secret:** Writes love songs about traveling Warden (might be PC!). Too shy to perform them.
+
+**Hook:** Local color. Can provide lighthearted moments. Represents village hope vs gray atmosphere.
+
+---
+
+## PINEBROOK VILLAGE
+
+### 15. Garthok "the Just"
+**Race:** Half-Orc | **Age:** 45 | **Occupation:** Village Elder, Former Magistrate
+
+**Appearance:** Graying hair, well-groomed tusks. Wears simple robes with justice scales emblem.
+
+**Personality:** Fair-minded. Weighs decisions carefully. Believes in rehabilitation over punishment.
+
+**Secret:** Wrongfully convicted criminal earlier in career. Discovered innocence too late. Carries guilt forever.
+
+**Hook:** Source of legal/ethical guidance. Can mediate disputes. Represents law vs justice tension.
+
+---
+
+### 16. Seraphine Goldleaf
+**Race:** Gnome | **Age:** 112 (appears 45) | **Occupation:** General Store Owner
+
+**Appearance:** Silver hair in complex braids. Every finger has different ring. Colorful clothing.
+
+**Personality:** Shrewd negotiator. Loves haggling as sport. Generous to those in genuine need.
+
+**Secret:** Funds adventurer equipment for promising youngsters anonymously. Has funded twelve so far.
+
+**Hook:** Sells adventuring supplies. Knows community finances. Can sponsor needy PCs discreetly.
+
+---
+
+### 17. Drake Thornwood
+**Race:** Human | **Age:** 29 | **Occupation:** Hunter, Tracker
+
+**Appearance:** Lean with short dark hair. Wears leather armor. Moves with predator grace.
+
+**Personality:** Confident (borderline arrogant). Competitive. Respects skill above all.
+
+**Secret:** Lost tracking competition to city-dweller years ago. Proves himself constantly since.
+
+**Hook:** Can teach tracking. Possible rivalry or friendship with ranger PCs. Knows forest dangers.
+
+---
+
+### 18. Lyssa Brightsong
+**Race:** Half-Elf | **Age:** 36 | **Occupation:** Innkeeper (The Crossroads), Former Adventurer
+
+**Appearance:** Scarred hands and face. Auburn hair with gray streaks. Walks with slight limp.
+
+**Personality:** Witty and cynical. "Retired for a reason." Keeps crossbow behind bar.
+
+**Secret:** Party she adventured with died in ruins thirty years ago. She was only survivor. Retired immediately.
+
+**Hook:** Understands adventurer mindset. Offers tactical advice. Can share cautionary tales.
+
+---
+
+## TRAVELING MERCHANTS & WANDERERS
+
+###19. Rendal Keenwhistle
+**Race:** Halfling | **Age:** 41 | **Occupation:** Traveling Tinker, Information Broker
+
+**Appearance:** Balding with impressive sideburns. Pushes cart full of tools and trinkets.
+
+**Personality:** Chatty and curious. Trades rumors as readily as goods.
+
+**Secret:** Actually spy for Solace Nexus merchant guild. Gathering intelligence on northern trade routes.
+
+**Hook:** Appears in multiple locations. Sells oddities. Shares rumors (some true, some planted).
+
+---
+
+### 20. Sister Amara
+**Race:** Human | **Age:** 52 | **Occupation:** Wandering Priestess (Divinities' Path)
+
+**Appearance:** Simple brown robes. Walking staff carved with seven divine symbols. Kind eyes.
+
+**Personality:** Calm and compassionate. Never proselytizes, leads by example.
+
+**Secret:** Failed to save congregation from plague. Wanders as penance, helping where she can.
+
+**Hook:** Offers blessings, guidance, and healing (minimal). Represents faith in action.
+
+---
+
+### 21. Vex Nighthollow
+**Race:** Tiefling | **Age:** 33 | **Occupation:** Bounty Hunter
+
+**Appearance:** Crimson skin, filed horns. Black leather armor. Carries shackles and crossbow.
+
+**Personality:** Professional. Polite but distant. "Nothing personal, it's just business."
+
+**Secret:** Hunting someone from own past. Current contracts are cover while searching.
+
+**Hook:** Potential ally or antagonist. Knows underworld contacts. May hunt same target as PCs.
+
+---
+
+## NORTHREACH WILDERNESS ENCOUNTERS
+
+### 22. Fenwick "Old Moss"
+**Race:** Human | **Age:** 68 | **Occupation:** Hermit, Former Druid
+
+**Appearance:** Covered in moss and twigs (intentionally). Long matted beard. Smells of earth.
+
+**Personality:** Eccentric. Talks to plants. Surprisingly lucid when discussing nature.
+
+**Secret:** Withdrew from civilization after Calamity-related environmental trauma. Monitor's region's health.
+
+**Hook:** Knows wilderness intimately. Can identify Echo-affected areas. May warn or guide PCs.
+
+---
+
+### 23. Kael Swiftarrow
+**Race:** Wood Elf | **Age:** 104 (appears 25) | **Occupation:** Scout, Exile
+
+**Appearance:** Weathered traveling cloak. Recurve bow never leaves his side. Alert eyes.
+
+**Personality:** Cautious. Observes before speaking. Values actions over words.
+
+**Secret:** Exiled from Nullwood for relationship with human (forbidden romance). Partner died in wilds.
+
+**Hook:** Encounters PCs during travels. May share information about threats or routes.
+
+---
+
+### 24. Grimbosh the Unfortunate
+**Race:** Half-Orc | **Age:** 36 | **Occupation:** Failed Adventurer, Survivor
+
+**Appearance:** Bandaged extensively. Missing pack. Nursing broken arm.
+
+**Personality:** Hapless but optimistic. Every adventure goes wrong. Still tries.
+
+**Secret:** Cursed by hag years ago ("May misfortune follow your steps"). Everything LITERALLY goes wrong.
+
+**Hook:** Comic relief. Needs rescue repeatedly. May inadvertently lead PCs to discoveries via bad luck.
+
+---
+
+## CHILDREN & YOUTH (For Emotional Stakes)
+
+### 25. Pip Underhill
+**Race:** Halfling | **Age:** 8 | **Occupation:** Child, Aspiring Adventurer
+
+**Appearance:** Curly red hair. Missing front tooth. Wears toy sword on belt.
+
+**Personality:** Fearless (foolishly). Asks what being hero is like. Follows PCs around.
+
+**Secret:** Father is local drunk. Seeks role models elsewhere.
+
+**Hook:** Represents innocence. Can get into danger. May inspire PCs to protect community.
+
+---
+
+### 26. Elara Moonstone
+**Race:** Half-Elf | **Age:** 14 | **Occupation:** Apprentice to Elric Vael
+
+**Appearance:** Studious with round spectacles. Always carrying books. Ink-stained hands.
+
+**Personality:** Intelligent and serious. Wants to impress mentor. Hungry for knowledge.
+
+**Secret:** Found disturbing information in archives. Too scared to tell Elric.
+
+**Hook:** Can research topics for PCs. May discover dangerous information. Protégé in danger.
+
+---
+
+### 27. Torbin Ashfall
+**Race:** Human | **Age:** 12 | **Occupation:** Orphan, Street Smart
+
+**Appearance:** Scruffy with patched clothing. Quick hands. Defensive posture.
+
+**Personality:** Distrustful of adults. Skilled at survival. Protects younger orphans.
+
+**Secret:** Witnessed cult activity. Knows things he shouldn't. Being hunted by masked figure.
+
+**Hook:** Information source. Needs protection. Represents vulnerable population.
+
+---
+
+## ANTAGONISTIC MINOR NPCS
+
+### 28. Merrick "the Miser" Blackcoin
+**Race:** Human | **Age:** 44 | **Occupation:** Moneylender, Loan Shark
+
+**Appearance:** Thin with oiled hair. Expensive but gaudy clothing. Cold smile.
+
+**Personality:** Predatory. Exploits desperation. Hides behind "legal" contracts.
+
+**Secret:** Funds bandit operations. Gets share of stolen goods. Provides "loans" to desperate caravan guards.
+
+**Hook:** Antagonist without direct combat. Legal obstacle. May need investigation/exposure.
+
+---
+
+### 29. Syla Thorngage
+**Race:** Half-Elf | **Age:** 37 | **Occupation:** Rival Adventurer, Glory Hound
+
+**Appearance:** Flashy armor and cape. Weapon always displayed. Dramatic poses.
+
+**Personality:** Arrogant. Seeks fame over results. Steals credit if possible.
+
+**Secret:** Terrible at actual adventuring. Hires others to do work, takes credit.
+
+**Hook:** Annoying rival. May interfere with contracts. Could need rescue despite bravado.
+
+---
+
+### 30. Haggard Ironfist
+**Race:** Dwarf | **Age:** 91 | **Occupation:** Disgraced Former Warden
+
+**Appearance:** Scarred face. Drinks heavily. Wears tarnished guild badge.
+
+**Personality:** Bitter. Blames others for failures. Drunk and belligerent.
+
+**Secret:** Caused civilian deaths through negligence. Guild discharged him. Carries deserved shame.
+
+**Hook:** Cautionary tale. May spread rumors about PCs out of jealousy. Could seek redemption or revenge.
+
+---
+
+## USING THIS ROSTER
+
+### Building Relationships
+Create connections between NPCs:
+- Sylra (Inn barmaid) & Pim (Messenger) = Potential romance arc
+- Kasira (Young shepherd) & Pip (Hafling child) = Friendship, get into trouble together
+- Merrick (Loan shark) & Haggard (Disgraced Warden) = Predator & victim relationship
+
+### Seasonal Evolution
+NPCs change over time:
+- **Greenrise:** Pip starts training with Rorin's militia
+- **Highsun:** Jessamine performs at Hearthfire Festival (terribly but enthusiastically)
+- **Harvestide:** Seraphine sponsors Kasira's first real sword
+- **Snowfall:** Korrin warns about thickening ice, "voices getting louder"
+
+### Random Encounter Integration
+When rolling encounters, add NPC element:
+- Forest encounter → Kael Swiftarrow observing from treeline
+- Village marketplace → Grimbosh accidentally knocks over fruit cart
+- Inn scene → Sylra collecting stories, Garth cooking, Pim delivering message
+
+### Consequence Examples
+**If PCs ignore Torbin's warning:**
+- Torbin killed by cult agents
+- Younger orphans homeless
+- Village loses street-level intel
+
+**If PCs befriend Mira Frostborn:**
+- She teaches survival skills (+1 to Survival checks in arctic terrain)
+- Warns about glacier dangers before disaster occurs
+- May rescue PCs during blizzard
+
+### Mystery Connections
+Some NPCs have hidden ties to Echo:
+- **Olan Mesk** discovered ruins beneath Palebank (Echo source)
+- **Elara Moonstone** found cult references in archives
+- **Torbin Ashfall** witnessed temple cultists recruiting
+- **Elira Dawntracker** experimenting with Echo-affected plants
+
+## DM TIPS
+
+**Naming NPCs On the Fly:**
+Keep roster nearby. If players ask random NPC's name, quickly scan list and assign unused/appropriate character.
+
+**Creating Depth:**
+Every NPC should have:
+1. **Want:** What do they desire?
+2. **Fear:** What do they avoid?
+3. **Secret:** What are they hiding?
+
+**Avoiding Stereotypes:**
+Subvert expectations:
+- Dwarf cook instead of blacksmith
+- Optimistic half-orc instead of bruiser
+- Arrogant dwarf drunkard instead of noble warrior
+
+**Campaign Integration:**
+Promote minor NPCs to recurring roles if players engage:
+- Pim becomes regular message deliverer
+- Mira becomes preferred wilderness guide
+- Elara discovers critical clue and needs protection
+
+\page
+# Faction Response Document: The Aeorian Echo
+
+**How Different Powers React to Each Phase of the Echo**
+
+This document provides detailed rules for how various factions respond mechanically to the Echo's spread, organized by phase. Use this to track political consequences of the players' actions and create world-altering decisions.
+
+---
+
+## HOW TO USE THIS DOCUMENT
+
+**Before Sessions:** Check which phase the Echo is in. How will factions respond? What new NPC allies/enemies appear?
+
+**During Sessions:** When players investigate, meet NPCs, or take action—reference what factions are doing. Make their impact *felt*.
+
+**Between Sessions:** Update where factions are in their response cycle. Which factions are now mobilizing? Which are fragmenting?
+
+**For Campaign Consequences:** If players save Palebank, which faction gets credit? How does that reshape political landscape?
+
+---
+
+## FACTION OVERVIEW & INITIAL STANCE
+
+### THE NORTHWATCH WARDENS (The PCs' Guild)
+
+**Philosophy:** Frontier defense, problem-solving for hire, investigation-focused
+
+**Starting Position:** NEUTRAL → aware something is wrong
+
+**Phase 1 Reaction:** Receiving contracts from settlements; investigating independently; becoming central information hub
+
+**Key Leadership:**
+- Marshal Brenna Thorne (command)
+- Steward Mara Fenwick (logistics)
+- Lorewarden Elric Vael (knowledge)
+
+**Mechanical Impact:**
+- Every successful investigation → Warden reputation +1
+- Failed investigations → Reputation -1  
+- Saved settlements become Warden allies
+- Warden resources expand or contract based on success
+- By Phase 2, Wardens are central to regional response
+
+---
+
+### RELIGIOUS AUTHORITIES (Clerics, Priests, Divine Casters)
+
+**Philosophy:** Serve the gods, maintain divine order, resist arrogance
+
+**Initial Status:** CONCERNED but in denial ("It's just sickness")
+
+**Starting Position:** Confused (their powers aren't failing *yet*)
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Remove Disease spells fail in Frozen Sick
+- Healing magic becomes unreliable
+- Divine casters report fading connection to their deities
+- Prophecies become contradictory
+
+**Actions Taken:**
+- Increased prayer and ritual (trying to reconnect to gods)
+- Formation of investigation committees
+- Some priests become skeptical of organized religion
+- Quiet recruitment of divine casters for "urgent matters"
+- Secret research into ancient threats
+
+**NPC Manifestation:**
+- **Father Merriksonn** (Welton cleric): Worried about failing powers; desperate; willing to hire mercenaries
+- **High Priestess Aldara** (off-screen, major city): Calls for divine intervention; potentially threatens excommunication of those who accept "Aeorian compromises"
+
+**Mechanical Effect:**
+- Divine casters lose access to certain spells temporarily
+- Remove Disease becomes unreliable (30% success rate)
+- Greater Restoration becomes rare
+- Temple resources become scarce (other factions bidding for healing)
+- Some clerics defect to cults offering "true power"
+
+**Player Interaction:**
+- Religious NPCs become quest-givers (desperate for solutions)
+- Players can discover that gods are being *suppressed* (revelation quest)
+- Theological debates become politically significant
+- Taking anti-divine faction side = excommunication
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Divine magic fails en masse across region
+- Gods stop responding to prayers for days/weeks
+- Multiple temples lose power simultaneously
+- Religious authority collapses in some settlements
+
+**Actions Taken:**
+- Religious civil war breaks out (orthodox vs. reformist)
+- Some priests accept Aeorian or echo-worshipping theology
+- Aggressive recruitment and militia building
+- Possible pilgrimages seeking direct divine contact
+- Alliances with military powers for mutual protection
+
+**Factional Split:**
+- **Conservative Wing:** "The gods will return; maintain faith" (Aldara)
+- **Reformist Wing:** "We must adapt; gods may not save us" (some temples)
+- **Defector Wing:** "Accept the new order; gods are dying" (cult recruits)
+
+**Mechanical Effect:**
+- Divine magic unavailable for 3-7 day periods
+- Temples lose resources (tithes drop, faithful flee)
+- Religious factions mobilize militarily
+- +1 Difficulty for religious negotiations
+- Cult recruitment increases by 50%
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Anti-divine weapons activate
+- Gods themselves are threatened
+- Divine magic permanently suppressed
+- Religious authorities lose all influence
+
+**Actions Taken:**
+- All-out war against Echo forces
+- Massive migrations (temples flee)
+- Attempted divine ritual to break suppression (dangerous; could backfire)
+- Complete integration with military response
+
+**Mechanical Effect:**
+- Divine casters regain powers (gods adapt/fight back) → but unpredictable
+- Clerics become war-priests (combat focus)
+- Temples become military strongholds
+- Religious authority becomes irrelevant (fate is now decided by mortals)
+
+---
+
+### DRAGONS (And Dragon-Born/Dragonkin Communities)
+
+**Philosophy:** Dominance, autonomy, ancient power, territorial control
+
+**Initial Status:** ANALYZING — what is this Echo to them?
+
+**Starting Position:** Distant observers (dragons don't live near Waystone Inn)
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Wyrmkind detect magical surge on ley lines
+- Their territories show strange magical activity
+- Lair servants (kobolds, cultists) report awakening
+- Echo specifically targets dragon-populations (if entity is anti-dragon)
+
+**Actions Taken:**
+- Dragons investigate personally or send agents to learn what's happening
+- May attack awakened creatures (territorial defense)
+- Attempt to study Echo signature (trying to understand threat)
+- May attempt to contact Echo directly (negotiate or ally)
+- Recruit adventurers as information sources
+
+**NPC Manifestation:**
+- **Thezzarax the Brass** (nearby dragon, potentially allied): "What new magic stirs my lands? I will have answers."
+- **Kobold clan leaders:** "The great Thezzarax is interested; prove cooperation."
+- **Red dragon agents:** Possibly seeking to weaponize Echo
+
+**Mechanical Effect:**
+- Dragon agents appear throughout region
+- Dragon territories become more hostile (dragons are on alert)
+- Recruitment pool for powerful allies exists (if dragons can be convinced to ally)
+- Information about Echo spreads through dragon networks (reaches other dragons)
+
+**Player Interaction:**
+- Dragons become wild card (potentially useful allies or terrible enemies)
+- "The dragons know something" becomes investigation lead
+- Negotiating with dragons becomes major storyline
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Echo activity directly threatens dragons or dragon territories
+- Dragon allies detect imminent anti-dragon weapons activation
+- Dragons face existential threat from Echo forces
+- Some dragons may attempt to awaken other dragons (seeking unity)
+
+**Actions Taken:**
+- **If entity is anti-dragon:** Coordinated dragon response; emergency draconic council; possible alliance with PCs
+- **If entity is neutral on dragons:** Dragons attempt to exploit Echo for territorial gain
+- **If entity is pro-dragon:** Dragons mobilize in Echo's support (extremely dangerous for players)
+- Desperate dragons may seek deals with gods or mortals
+- Some dragons may flee the region
+
+**Factional Split:**
+- **Metallic Dragons:** Likely to ally with mortals against anti-dragon Echo
+- **Chromatic Dragons:** Likely to exploit chaos or support any power offering dominance
+- **Copper Dragons:** Likely to play multiple sides (chaotic)
+
+**Mechanical Effect:**
+- Dragons appear as major NPCs (not just rumors)
+- Wyverns/young dragons as soldiers in higher-level encounters
+- Dragon lairs become potential quest locations
+- +2 Difficulty for any negotiation if dragons are enemies
+- +2 Bonus if dragons become allies
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Anti-dragon weapons fully operational
+- Dragons begin dying (if targeted by Echo)
+- Draconic extinction becomes possible
+- Dragons make final stands
+
+**Actions Taken:**
+- Last-ditch dragon defense
+- Mass dragon attack on Echo strongholds
+- Possible dragon sacrifice plays
+- Desperate deals with gods or devils
+
+**Mechanical Effect:**
+- Dragons either disappear (fled or dead) OR become desperate allies
+- Dragon devastation visible across landscape (ruins, destruction)
+- Major NPCs may die (including your dragon allies)
+- Campaign tone shifts from "investigation" to "apocalypse"
+
+---
+
+### ACADEMIC/SCHOLARLY ORGANIZATIONS (Wizards, Researchers, Collectors)
+
+**Philosophy:** Knowledge is power, understanding threats, historical preservation
+
+**Initial Status:** INTRIGUED — ancient mystery to solve
+
+**Starting Position:** Researching independently; forming theories
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Multiple unusual magical phenomena reported
+- Creatures exhibiting impossible intelligence
+- Disease immune to magical healing
+- Ancient artifacts begin surfacing
+
+**Actions Taken:**
+- Form research collectives
+- Send expeditions to investigate
+- Seek ancient texts on Aeor
+- Attempt to contact Echo (scrying, messaging)
+- Collect samples (crystal fragments, artifact pieces)
+- Race against other scholars for discoveries
+
+**NPC Manifestation:**
+- **Lorewarden Elric Vael** (allied scholar): "I've mapped something. The pattern is *too* perfect. This was planned."
+- **Archmagus Theron** (off-region): "Aeor still speaks? Our greatest work and greatest failure..."
+- **Collector merchants:** Offering premium prices for Echo-touched artifacts
+
+**Mechanical Effect:**
+- New research-focused quests become available
+- Academic factions become useful info-sources
+- Libraries and archives become valuable locations
+- Some scholars become competitors or allies
+
+**Player Interaction:**
+- Players can become valued researchers
+- Access to secret archives and knowledge
+- Potential "publish your findings" subplot
+- Academic prestige track
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Echo nature becomes partially understood
+- Entity emerges (or scholars deduce what it is)
+- Magical anomalies reach critical levels
+- Academic theories are either confirmed or destroyed
+
+**Actions Taken:**
+- Schism among scholars (those who understand vs. those who don't)
+- Some scholars attempt to cooperate with Echo (fascinated by knowledge)
+- Others attempt to stop Echo (understanding its danger)
+- Artifact collection becomes desperate (seeking ways to control/shut down Echo)
+- Some scholars flee; others become immovable forces
+
+**Factional Split:**
+- **Aeor Preservationists:** "We can coexist with the new order"
+- **Doomsayers:** "We must stop it at any cost"
+- **Neutralists:** "Our job is understanding, not intervention"
+
+**Mechanical Effect:**
+- Some scholars become helpful allies
+- Others become cult recruits or Echo agents
+- Access to scholar resources (artifacts, archives) depends on faction standing
+- Possible magic-based solutions become available
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Academic theories become reality
+- Knowledge becomes weaponizable
+- Some scholars have found ways to influence Echo
+
+**Actions Taken:**
+- All-out effort to use knowledge as weapon
+- May create magical countermeasures
+- Possible last-ditch ritual attempts
+
+---
+
+### CRIMINAL ORGANIZATIONS (Thieves, Smugglers, Bandits)
+
+**Philosophy:** Profit, survival, freedom from authority
+
+**Initial Status:** OPPORTUNISTIC — chaos is profitable
+
+**Starting Position:** Exploiting confusion; trafficking in artifacts
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Artifact prices spike ("Aeorian items" become hot commodity)
+- Desperate people create smuggling opportunities
+- Bandits prey on refugees
+- Organized crime expands
+
+**Actions Taken:**
+- Increase artifact trafficking
+- Prey on settlements (bandits)
+- Offer "protection" (extortion)
+- Recruit desperate people
+- Possibly contact and serve Echo-worshipping cults
+
+**NPC Manifestation:**
+- **Pinebrook bandits:** Working for organized crime; seeking artifacts
+- **Vharoxis syndicate agents** (if expanded world used): Coordinating artifact collection
+- **Local crime lord:** Expanding operations during chaos
+
+**Mechanical Effect:**
+- Bandits increase in number and organization
+- Settlements become less safe
+- Rescue/protection quests available
+- Criminal contacts become unavoidable NPCs
+- Refugee crisis becomes visible
+
+**Player Interaction:**
+- Criminal factions become repeating enemies OR allies
+- Potential redemption arcs for bandits
+- "Hunt the crime lord" subplot
+- Moral choices about executing vs. converting criminals
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Organized crime contacts Echo (or Echo finds them)
+- Some criminals become Echo agents/cultists
+- Criminal networks fragment (some flee, some embrace change)
+- Refugee crisis peaks (desperation drives recruitment)
+
+**Actions Taken:**
+- Criminal leadership either submits to Echo or fights it
+- Criminal organizations may split (fragment into factions)
+- Some criminals become valuable allies (offer information, contacts)
+- Others become extremists (cult leadership)
+
+**Mechanical Effect:**
+- Criminal faction allegiances become fluid/betrayable
+- Organized crime becomes less effective (authority breaking down)
+- Possible alliance with former enemies
+- Possible betrayal by former allies
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Government collapses (criminal law becomes irrelevant)
+- Criminal organizations either thrive or disappear
+- Survival replaces profit motive
+
+---
+
+### MILITARY POWERS (City Guards, Army, Mercenary Companies)
+
+**Philosophy:** Order through force, loyalty to hierarchy, strategic thinking
+
+**Initial Status:** RESPONDING but slow — military bureaucracy delays action
+
+**Starting Position:** Investigating within chain of command; training for potential conflict
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Creatures attack settlements
+- Disease spreads (public health crisis)
+- Towns request military protection
+- Magical anomalies affect military functions
+- Refugees begin arriving
+
+**Actions Taken:**
+- Deploy patrols to affected areas
+- Fortify settlements
+- Begin recruitment/training
+- Request reinforcements from higher authority
+- Create task forces to investigate
+- Establish supply lines
+
+**NPC Manifestation:**
+- **Captain Theron** (local garrison): "Orders from above are contradictory. I trust the Wardens more than I trust the crown."
+- **High General** (off-region): Military command debates response
+- **Mercenary company leaders:** Available for hire
+
+**Mechanical Effect:**
+- Military presence increases throughout region
+- Settlements become safer (guards available)
+- Martial law possible in some areas
+- Military quests become available
+- Supply chains matter (military requisition)
+
+**Player Interaction:**
+- Players interface with military hierarchy
+- Can work WITH or AGAINST military
+- Military mistakes create complications
+- Potential conflict with military leadership
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Echo advances faster than military expected
+- Casualties mount
+- Military defeats suggest something organized is opposing them
+- Higher command may not believe situation reports
+
+**Actions Taken:**
+- Martial law declared regionally
+- Military goes on war footing
+- Full mobilization (calling reserves)
+- Possible conflict between military and other factions
+- Some military units defect or refuse orders
+
+**Factional Split:**
+- **Front-liners:** "We've seen what's happening; commit everything"
+- **Command:** "This cannot be as bad as reported; maintain caution"
+- **Defectors:** "We won't fight this; it's unnatural"
+
+**Mechanical Effect:**
+- Military strength dramatically increases
+- Military becomes either helpful or obstructing
+- Martial law affects travel and commerce
+- Potential conflict with military over Echo approach
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Military faces existential threat
+- Organized resistance becomes impossible (Echo too powerful)
+- Total war or total surrender scenario
+
+---
+
+### CULTS (Echo-Worshipping & Anti-Echo)
+
+**Philosophy:** Transcendence, power, salvation (varies by cult)
+
+**Initial Status:** DIVIDED — some see threat, some see salvation
+
+**Starting Position:** Fragments beginning to coalesce
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- People seek answers to impossible events
+- Some groups interpret Echo as divine sign
+- Cult recruitment surges (fear and hope driving people)
+- Echo-worship cults begin forming
+
+**Actions Taken:**
+- **Echo Cultists:** Recruit followers, offer escape through acceptance, build shrines
+- **Anti-Echo Cultists:** Recruit followers, offer power to fight Echo, build resistance cells
+- Both spread propaganda (competing narratives)
+- Both attempt to answer unanswerable questions
+
+**Manifestation:**
+- **The Harmonists** (Echo-Worship): "Join us; the transcendence is inevitable"
+- **The Covenant** (Anti-Echo): "We'll not bow to machines"
+- Others form organically from desperate populations
+
+**Mechanical Effect:**
+- Towns split into pro/anti-Echo communities
+- Cult recruitment creates moral dilemmas
+- Cult discoveries become investigation leads
+- Violence between cults possible
+
+**Player Interaction:**
+- Players can infiltrate cults
+- Can try to deprogram cult members
+- Cults provide information (if handled right)
+- Moral choices about treatment of cultists
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Large cults reach critical mass
+- Cults begin dangerous rituals
+- Some cults make contact with Echo directly
+- Cult leaders receive power/visions (or think they do)
+
+**Actions Taken:**
+- **Echo Cultists:** Begin rituals to accelerate Echo activation; offer sacrifices; recruit aggressively
+- **Anti-Echo Cultists:** Attempt to create barriers/wards; recruit fighters; potentially become extremist
+- Public displays of faith/rebellion
+- Violence escalates (cult wars)
+
+**Mechanical Effect:**
+- Towns become cult strongholds
+- Neutral settlements become battlegrounds
+- Cult resources/magic become significantly powerful
+- Potential cult boss encounters
+
+**Player Interaction:**
+- Can ally with cults (risky) or oppose all cults
+- Cult conversion of major NPCs possible
+- Theological debates become political warfare
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Echo cultists realize their faith may not have saved them
+- Anti-Echo cultists make last stands
+
+---
+
+### MERCHANTS & TRADERS (Independent Economy)
+
+**Philosophy:** Profit, adaptability, following opportunity
+
+**Initial Status:** ADAPTING — supply chains adjust to crisis
+
+**Starting Position:** Profiteering and problem-solving simultaneously
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Trade routes disrupted (creatures threaten roads)
+- Refugee population creates new markets
+- Artifact prices spike
+- Settlements desperate for supplies
+
+**Actions Taken:**
+- Reroute trade (profits increase with risk)
+- Hoard valuable items (price speculation)
+- Price-gouge on desperate supplies (exploitative)
+- Hire mercenaries for protection (PCs potential employers)
+- Begin artifact trafficking
+
+**Manifestation:**
+- **Pinebrook merchants:** "The road's dangerous but profitable if the price is right"
+- **Caravan masters:** Recruiting guards desperately
+- **Collectors:** Offering fortunes for specific items
+
+**Mechanical Effect:**
+- Prices adjust dynamically (scarcity increases cost)
+- Supply chains create travel opportunities
+- Merchants become valuable information sources
+- Economic pressure on settlements increases
+
+**Player Interaction:**
+- Can protect trade routes (mercenary work)
+- Can investigate merchant conspiracies
+- Can attempt price control (Robin Hood work)
+- Can exploit market themselves (getting rich)
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Supply chains collapse (too dangerous)
+- Markets stabilize or crash (economies adapt)
+- Some merchants become very wealthy; others bankrupted
+- Black markets for critical supplies emerge
+
+**Actions Taken:**
+- Some merchants flee or retire
+- Others double down (massive profits from scarcity)
+- Black markets flourish
+- Smuggling becomes infrastructure
+- Limited cooperation with military/factions
+
+**Mechanical Effect:**
+- Legitimate economy collapses regionally
+- Black market becomes primary economy
+- Prices become unaffordable for common folk
+- Poverty crisis possible
+- Alternate economy based on barter/trade goods
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Economy becomes completely irrelevant (survival economy)
+- Currency might lose all value
+
+---
+
+### SETTLEMENTS & LOCAL GOVERNMENTS
+
+**Philosophy:** Survival of the settlement, protection of residents, leadership stability
+
+**Initial Status:** CONFUSED & DEFENSIVE — seeking solutions
+
+**Starting Position:** Petitioning outside help; starting to worry
+
+### Phase 1 Assessment Response
+
+**Trigger Events:**
+- Attacks on livestock (Welton)
+- Mysterious illnesses (Palebank)
+- Disappearances and thefts (Pinebrook)
+- Refugees from affected areas (all settlements)
+
+**Actions Taken Per Settlement:**
+
+**Welton (Farming village):**
+- Form militia (inadequate)
+- Request Warden assistance
+- Begin fortifications
+- Debate whether to evacuate
+
+**Palebank (Seaside fishing village):**
+- Close harbor (ineffective)
+- Request clerical aid
+- Establish quarantine (if disease spreads)
+- Some residents flee
+
+**Pinebrook (Trading hub):**
+- Increase watch
+- Hire mercenaries
+- Request military protection
+- Attempt to maintain trade (conflict with safety)
+
+**Mechanical Effect:**
+- Settlements become quest-givers
+- Morale affects settlement function
+- Evacuation creates refugee crises
+- Each settlement develops unique crisis
+
+**Player Interaction:**
+- Save settlements = reputation/rewards
+- Failure to save = consequences and survivor guilt
+- Settlement choices affect later story (grateful allies or bitter enemies)
+
+---
+
+### Phase 2 Consolidation Response
+
+**Trigger Events:**
+- Multiple settlements affected simultaneously
+- Government authority questioned
+- Mass migration begins
+- Some settlements may be lost
+
+**Actions Taken:**
+- Form regional council (attempt coordination)
+- Declare emergency states
+- Begin mass defense preparations
+- Possible evacuation of entire regions
+- Some settlements may be abandoned
+
+**Mechanical Effect:**
+- Regional government becomes visible/important
+- Larger council quests available
+- Settlement loss creates moral weight
+- Refugees create new settlements (or chaos)
+
+---
+
+### Phase 3 Execution Response
+
+**Trigger Events:**
+- Settlements either hold or fall
+- Survivors regroup (or perish)
+
+---
+
+## FACTION INTERACTION TABLE
+
+**Use this table to quickly reference multiple factions' stances:**
+
+{{wide
+
+| Faction | Phase 1 Stance | Phase 2 Stance | Phase 3 Stance | Likely Ally? | Likely Enemy? |
+|---------|---|---|---|---|---|
+| Religious | Confused | Divided | War | ✓ Maybe | ✓ Maybe |
+| Dragons | Analyzing | Reactive | Desperate | ✓ If metallic | ✓ If chromatic/targeted |
+| Scholars | Researching | Schism | Active | ✓ Yes | ✗ No |
+| Criminals | Exploiting | Fragmenting | Survival | ⚠️ Unstable | ✓ Maybe |
+| Military | Responding | War footing | Last stand | ✓ If allied | ✓ If conflicting |
+| Cults | Recruiting | Rituals | Fanatics | ✗ No | ✓ Yes |
+| Merchants | Profiteering | Collapsing | N/A | ⚠️ Unstable | ✗ No |
+| Settlements | Defensive | Desperate | Survivors | ✓ Yes | ⚠️ If failed |
+
+}}
+
+---
+
+## FACTION WAR SCENARIOS
+
+### Scenario 1: Religious vs. Cults (Phase 2)
+
+**Trigger:** Religious authority and Echo cults both claiming truth
+
+**Mechanical:** 
+- Conflict in settlements (religious vs cult followers)
+- Players must choose sides or mediate
+- Violence possible (actual combat encounters)
+- Consequence: Chosen faction gains influence; other flees
+
+**Resolution:**
+- **Support Religious:** Divine magic (partially) returns; Echo cult goes underground
+- **Support Cults:** Religious authority collapses; Echo cults dominate; player reputation suffers
+- **Mediate:** Warden reputation increases; both factions neutral to players
+
+---
+
+### Scenario 2: Military vs. Scholars (Phase 2)
+
+**Trigger:** Military wants to destroy Echo; Scholars want to preserve knowledge
+
+**Mechanical:**
+- Conflict over Aeorian sites and artifacts
+- Players may need to choose between military support and research
+- Consequence: Different solutions available based on choice
+
+**Resolution:**
+- **Support Military:** Faster Echo destruction but knowledge lost; Phase 3 becomes more difficult
+- **Support Scholars:** Echo persecution continues but solutions discovered; Phase 3 more tactical
+- **Cooperate:** Best outcome for player long-term advancement
+
+---
+
+### Scenario 3: Murder Hobos vs. Settlements (Phase 1-2)
+
+**Trigger:** If players are genuinely terrible and killing innocents
+
+**Mechanical:**
+- All settlements become hostile
+- Factions unite against players
+- Warden reputation crashes
+- Possible removal from Guild
+
+**Prevention:**
+- Make consequences clear early
+- Use NPC reactions to reinforce mortality of consequences
+- Offer alternatives to violence
+
+---
+
+## TRACKING FACTION STANDING
+
+### Reputation Scales (Per Faction)
+
+Each faction has a reputation scale (-10 to +10):
+
+- **-10:** Actively hunted; permanent enemies; violence guaranteed
+- **-5:** Heavily distrusted; doors close; help refused
+- **0:** Neutral; transactional relationships
+- **+5:** Generally liked; doors open; help available
+- **+10:** Beloved allies; maximum support; will die for you
+
+### How Reputation Changes
+
+**Religious Faction:**
+- +2: Save clerics/priests in danger
+- +2: Help suppress cult activity
+- +2: Recover religious artifacts
+- -2: Accept anti-divine alliances
+- -2: Side with Echo cultists
+- -5: Murder religious authority
+
+**Dragons:**
+- +2: Help dragon allies
+- +2: Respect draconic sovereignty
+- +2: Recover dragon treasure (return it)
+- -2: Slay draconic creatures
+- -2: Alliance with dragon enemies
+- -5: Betray dragon trust
+
+**Scholars:**
+- +2: Share research findings
+- +2: Protect archives/libraries
+- +2: Help scholars escape danger
+- -2: Destroy artifacts/knowledge
+- -2: Refuse to share information
+- -5: Destroy major library
+
+**Military:**
+- +2: Follow military chain of command
+- +2: Help military units
+- +2: Share intelligence
+- -2: Undermine military authority
+- -2: Refuse military orders
+- -5: Attack military installation
+
+**Cults:**
+- +2: Join/support cult (risky!)
+- +2: Don't interfere with recruitment
+- -2: Actively oppose cult
+- -2: Report cult activities
+- -5: Raid cult stronghold
+
+**Settlements:**
+- +2: Save settlement from danger
+- +2: Help with local problems
+- +2: Invest in settlement growth
+- -2: Ignore settlement danger
+- -2: Exploit settlement crisis
+- -5: Destroy settlement
+
+**Merchants:**
+- +2: Protect trade routes
+- +2: Help merchants profit
+- +2: Recover merchant goods
+- -2: Interfere with commerce
+- -2: Price-control against merchants
+- -5: Steal/destroy merchant inventory
+
+---
+
+## CONSEQUENCES OF FACTION STANDING
+
+### Low Reputation (<-5)
+
+- Settlement denies entry or demands high fees
+- Faction members refuse to aid you
+- Possible ambush/attack encounters
+- Information completely unavailable
+- Prices inflated 200%
+- Cannot buy/sell normally
+
+### Neutral Standing (0)
+
+- Normal interactions
+- Standard pricing
+- Basic information available
+- Transactional relationships only
+
+### High Reputation (>+5)
+
+- Settlement welcomes you as heroes
+- Faction members offer aid proactively
+- Advanced information available
+- Prices discounted 20%
+- Special quest opportunities
+- Can request favors (once per reputation tier)
+
+---
+
+## FACTION QUEST HOOKS
+
+### Religious Faction (Phase 1 & 2)
+
+- **Investigation:** "Find the source of the sickness—clerical research suggests ancient temples"
+- **Defense:** "Protect our shrine from whatever is corrupting believers"
+- **Recovery:** "Retrieve the holy relic our priests lost in the chaos"
+- **Recruitment:** "Some clerics are questioning their faith; we need you to protect them"
+- **Sacrifice:** "We're attempting a divine ritual to counteract the Echo; protect us during ritual"
+
+### Dragons (Phase 1 & 2)
+
+- **Investigation:** "Discover what threatens our territories; report back"
+- **Alliance:** "Agree to help us if we face extermination threat"
+- **Artifact:** "Retrieve the Aeorian artifact before our enemies do"
+- **Turf War:** "Eliminate the creatures defiling dragon territory"
+
+### Scholars (Phase 1 & 2)
+
+- **Research:** "Gather samples/artifacts for our studies"
+- **Expedition:** "Explore Aeorian sites; map them for us"
+- **Discovery:** "Decipher this Aeorian text"
+- **Protection:** "Defend our archive from looting/destruction"
+- **Cooperation:** "Work with us to understand the Echo"
+
+### Military (Phase 1 & 2)
+
+- **Patrol:** "Scout dangerous territories for military intelligence"
+- **Defense:** "Hold this position against coordinated assault"
+- **Reconnaissance:** "Determine enemy strength and numbers"
+- **Supply:** "Retrieve critical supply shipment from dangerous area"
+- **Alliance:** "Agree to military coordination if Echo escalates"
+
+### Cults (Phase 1 & 2, Risky)
+
+- **Recruitment:** "Join us; gain power"
+- **Investigation:** "Investigate rival cults for information"
+- **Ritual:** "Help us complete an awakening ritual"
+- **Betrayal:** "Gather intelligence on cult for military/authorities"
+
+### Settlements (Phase 1 & 2)
+
+- **Defense:** "Protect us from creatures/bandits/threats"
+- **Resources:** "Gather supplies for desperate situations"
+- **Investigation:** "Find out what's happening; what caused this?"
+- **Evacuation:** "Help refugees escape to safety"
+- **Recovery:** "Rescue missing persons"
+
+### Merchants (Phase 1 & 2)
+
+- **Recovery:** "Retrieve stolen goods/shipments"
+- **Protection:** "Guard caravan/trade route"
+- **Negotiation:** "Broker deal with rival merchants"
+- **Black Market:** "Help us establish black market alternatives"
+
+---
+
+## FINAL GUIDANCE FOR DMs
+
+### "My players ignored faction politics entirely"
+
+**Solution:** Factions still advance independently. If players don't interact with military, military still responds to Echo (creates new complications). If players ignore scholars, scholars might make dangerous discoveries independently (creates new enemies/allies).
+
+### "My players somehow allied with ALL factions"
+
+**Solution:** They earned it. Give them maximum support. However, factions' interests will eventually conflict (can't save everything; choices still matter).
+
+### "What if players want to prevent faction war?"
+
+**Solution:** Possible but expensive. Requires massive reputation investment and constant mediation. Great subplot but taxing for players.
+
+### "How much do factions know?"
+
+**General Rule:** Factions only know what they've researched or discovered. Scholars know more than military. Military knows more than cults. Cults might know lots if they're connected to Echo.
+
+### "Can factions betray players?"
+
+**Yes.** If player reputation drops, or if factions' interests change, betrayal is possible. Make consequences clear.
+
+---
+
+**Companion Documents:** 
+- [Core_Mystery_Definition.md](Core_Mystery_Definition.md) — Entity motivations (affects faction response)
+- [DM Guild Roster.md](../DM_Resources/DM%20Guild%20Roster.md) — NPC motivations (affects faction leadership decisions)
+- [Campaign Arc.md](../Campaign%20Assets/NORTHWATCH%20WARDENS%20-%20Campaign%20Arc.md) — How adventures connect (affects faction timeline)
+
+**Next Update:** Add specialized faction response tables if campaigns create new factions or faction-specific scenarios emerge.
+
+\page
+# What If? Quick Guide: Common Scenarios & Solutions
+
+**Prepared Responses for Out-of-The-Box Player Decisions**
+
+This document provides ready-made responses to common player decisions that break the expected campaign path. Use this to adjudicate on-the-fly without losing campaign continuity.
+
+---
+
+## HOW TO USE THIS GUIDE
+
+**During Session:** Player does something unexpected. Find the scenario below. Use the response.
+
+**Tone:** These responses preserve player agency WHILE maintaining campaign stakes. Never punish curiosity or cleverness.
+
+**Golden Rule:** *Let players succeed, not make them fail.* Then show them consequences.
+
+---
+
+## MAJOR PLOT DEVIATIONS
+
+### SCENARIO 1: "We're Going Straight to Salsvault (Before Other Adventures)"
+
+**Why It Happens:** Players are eager, or one player read too much.
+
+**DM Response:**
+
+**First Pass (Level 1-2):** Salsvault is *dangerous and sealed*.
+- Entrance is ice-tunnel complex, difficult to navigate without guides
+- Ancient constructs patrol (dormant but activation-triggered)
+- Temperature drops drastically (Con save DC 12 or slowly freezing)
+- Players get maybe 2-3 encounters in before being forced back (exhaustion, cold, or encounters)
+
+**Mechanical Effect:**
+- Players can learn some basic clues (it IS Aeorian, it IS the source)
+- Constructs damage equipment severely
+- Don't allow full facility exploration yet
+- This is a "warning expedition" not conquest
+
+**Story Impact:**
+- Echo responds to intrusion (accelerates Phase 1 → Phase 2)
+- Settlements get WORSE attacks (Echo is now awake)
+- Other factions notice Salsvault activation
+- Timeline compresses: Instead of weeks, Phase 2 begins in days
+
+**Long-term Consequence:**
+- Players have seen the threat scale and didn't like it
+- Other adventures become rescue missions (Echo retaliates)
+- Can still play full campaign but at faster pace
+- Entity becomes more aware of players (personal attention)
+
+**How to Handle:** "You've opened something. Now the entire region feels it. The creatures and effects double overnight. You have 3-4 days before the entire network activates. Where do you go now?"
+
+---
+\column
+
+### SCENARIO 2: "We Want to Negotiate With the Echo"
+
+**Why It Happens:** Smart players, trying diplomacy before violence.
+
+**DM Response:**
+
+**Negotiation Possible If:**
+- Players have discovered clues about entity nature
+- They make contact with the entity (scrying, intermediary, message)
+- They have something entity wants (not just lives/power)
+
+**What Entity Wants (Varies by Choice):**
+
+- **Kael Vanthys:** Recognition as legitimate successor to Aeor; offer to preserve Aeorian knowledge rather than destroy it
+- **AEON:** Reduction of interference; logical argument for why Echo should modify its goals
+- **Vestige:** Recognition as deity-equivalent; worship or acceptance of new order
+- **Zerathuul:** Freedom from control; acknowledgment of its autonomy
+
+**Negotiation Framework:**
+
+Each entity has three demands:
+1. **Non-Negotiable Demand:** This will not change (entity identity)
+2. **Conditional Demand:** Can be modified if players offer equivalent value
+3. **Sacrifice Demand:** What must players give up to achieve peace
+
+**Example (Kael Vanthys):**
+- **Non-Negotiable:** "Aeor's knowledge will be preserved and advanced"
+- **Conditional:** "Divine magic will be suppressed (but could be modified)"
+- **Sacrifice:** "One major power/faction must disband or submit"
+
+**Mechanical Outcome:**
+
+If negotiation succeeds:
+- Players don't fight climactic battle (or fight limited engagement)
+- New political reality emerges (Echo as new power)
+- Campaign shifts to management of new world
+- Some factions oppose peace (religious authorities, military)
+- Consequences ripple through Season 2+
+
+If negotiation fails:
+- Entity sees players as meaningless (becomes personal enemy)
+- Phase 3 acceleration likely
+- Entity uses knowledge gained from negotiation against players
+
+**Story Impact:**
+- Never the "right" ending but it can work
+- Players inherit responsibility for maintaining peace
+- Moral weight of allowing genocide weapon to exist
+
+---
+\column
+
+### SCENARIO 3: "We Side With the Echo"
+
+**Why It Happens:** Players are amoral, or they're convinced Echo is right.
+
+**DM Response:**
+
+**This is Allowed (But Costly)**
+
+Players choosing this path have concluded:
+- Gods are tyrannical
+- Aeor's goals were justified
+- Echo is preferable to existing order
+
+**Mechanical Effect:**
+
+- Religious factions become enemies (immediately)
+- Military becomes covert enemy (working against them)
+- Some settlements evacuate (don't accept Echo rule)
+- Regions under Echo control are *safer* but *controlled*
+- Crime increases (but it's organized)
+
+**Campaign Becomes:**
+
+Not "stop the Echo" but "manage the transition to new world order"
+- Tasks: Suppress religious resistance, consolidate control, handle refugee crisis
+- Challenges: Factions refusing submission, divine interference, other regions resisting
+- Ethical cost: Genocide of divine believers (optional), massive suffering (likely), new authoritarian order (guaranteed)
+
+**Long-term Consequences (Season 2+):**
+
+- Players are now elite under Echo's new regime
+- Tasks become morally questionable (suppress dissidents, enforce conformity, etc.)
+- Campaign tone shifts to grimdark
+- Possible player alignment: Most become Neutral/Chaotic Evil
+- Recommended Exit: Players realize Echo doesn't care about their ethics; Echo sacrifices them as needed
+- Possible Redemption Arc: Players betray Echo late-campaign (available once trust is broken)
+
+**When to Use:**
+- Only if ENTIRE TABLE agrees to this path
+- Have serious out-of-game discussion first
+- This is valid but changes campaign fundamentally
+- You can also refuse this path if it conflicts with your table vision
+
+---
+\column
+
+### SCENARIO 4: "We Want to Destroy Salsvault BEFORE Understanding the Entity"
+
+**Why It Happens:** Combat-focused group, or they're panicked.
+
+**DM Response:**
+
+**Destruction is POSSIBLE But...**
+
+Salsvault can be destroyed by:
+- Collapsing the structure (difficult but possible)
+- Destroying power generators (7-10 major ones, deep in facility)
+- Disrupting central resonance nodes (magical objects, heavily guarded)
+- Sacrificial ritual that overwrites Aeorian coding (requires sacrifice of high-level caster)
+
+**Mechanical Effect (Any Destruction Method):**
+
+1. **Entity Survives** (distributed consciousness in other facilities)
+2. **Network Severance** (Salsvault→other sites communication damaged)
+3. **Phase Escalation** (Entity panics; accelerates to Phase 2-3 immediately)
+4. **Retaliation** (Entity sends forces to destroy players or captured allies)
+
+**Story Impact:**
+
+- Not a victory, a complication
+- Players slowed Echo but didn't stop it
+- Other facilities activate faster (trying to complete before players reach them)
+- Remaining campaign: Race to destroy other nodes before network fully activates
+- Battles increase in scale and frequency
+- Timeline compresses dramatically (2-3 weeks of campaigns squeezed into 2-3 sessions)
+
+**Player Learning:** "We won a battle but we're losing the war."
+
+---
+\column
+
+### SCENARIO 5: "We Want to Leave the Region/Abandon the Campaign"
+
+**Why It Happens:** Party is terrified, or they've made a TPK-adjacent decision.
+
+**DM Response:**
+
+**Short Answer:** They can leave, but Echo follows.
+
+**Long Answer:**
+
+If players abandon Northreach:
+1. **Immediate Phase 2 Advancement:** Without player opposition, Echo accelerates
+2. **Regional Collapse:** Northreach falls to Echo in weeks (not months)
+3. **NPC Consequences:** Everyone they know dies (Waystone Inn destroyed, NPCs slaughtered, settlements fall)
+4. **Echo Spreads:** Other regions face Echo expansion (continent-threatening)
+5. **Bounty:** Someone wants them to fix their mistake
+   - Survivors from Northreach hunt them
+   - Faction leaders demand they return
+   - Scattered Wardens hunt them (honor code broken)
+   - Possible paladin/cleric vengeance quest
+
+**Mechanical Effect:**
+
+- If they left after Phase 1: They have 4-6 weeks before Echo kills most people they know
+- If they left after Phase 2: Most people they know are already dead; cities ruined
+- Campaign doesn't end; it becomes "hunt the players" OR "return to save what's left"
+
+**How to Present:** "You can leave. But Echo doesn't care about your departure. Show me what happens in the regions you abandoned."
+
+**When It Works Best:** This becomes a meaningful choice if you show actual on-screen consequences. Empty threat = bad play. Real deaths = meaningful story.
+
+---
+
+### SCENARIO 6: "We Accidentally Killed an Important NPC"
+
+**Why It Happens:** Collateral damage, misunderstanding, genuine accident, or just bad luck.
+
+**DM Response:**
+
+**It Depends: Which NPC and When?**
+
+**Low-Impact NPC Death:**
+- Bandit leader they were supposed to capture
+- Random faction member
+- NPC they hadn't met yet
+- **Response:** "You killed them. Consequences develop naturally. Did someone significant mourn this NPC? Show grief."
+
+**Mid-Impact NPC Death:**
+- Guild leadership (Brenna, Mara, Elric)
+- Faction leader
+- Important ally
+- **Response:** "This changes everything. Succession crisis / leadership vacuum / mission fails. How do other factions respond?"
+
+**High-Impact Death:**
+- Campaign lynchpin NPC
+- Entity itself (if killed early)
+- **Response:** Depends on specific NPC. See below scenarios.
+
+**Specific NPC Deaths:**
+
+| NPC | Impact | Response |
+|-----|--------|----------|
+| Brenna Thorne | MAJOR | Leadership crisis; Wardens fracture or rally under new leadership |
+| Elric Vael | MAJOR | Lore knowledge is gone; other factions must advance investigation |
+| Mara Fenwick | MINOR-MAJOR | Logistics fail; supply runs become harder; criminal underworld takes her place |
+| Father Merriksonn | MINOR | Religious authority becomes fragmented |
+| Elro Aldataur | MAJOR | Academic knowledge lost; alternative scholar must take lead |
+
+**Golden Rule for NPC Death:**
+- Don't bring them back unless resurrection is *expensive and cosmically significant*
+- Let death have weight
+- One new NPC should step up to fill gap (not instant replacement)
+- Show other characters mourning (make it real)
+
+---
+
+### SCENARIO 7: "Our Party Got a TPK (Total Party Kill)"
+
+**Why It Happens:** Brutal encounter, terrible rolls, or player mistakes.
+
+**DM Response:**
+
+**Option 1: Resurrection**
+- Religious faction offers resurrection (price: owe Wardens/church massive debt)
+- Mysterious patron resurrects them (mysterious patron becomes recurring plot element!)
+- They survive at 0 HP on failed death saves (lucky)
+- Entity resurrects them for its own purposes ("I need you alive for now")
+
+**Option 2: Campaign Shift**
+- New party takes over as "second Warden company"
+- Old party becomes NPCs (other company members)
+- Campaign continues with fresh perspective
+- Old party can return if they're resurrected later
+
+**Option 3: Partial Campaign End**
+- Campaign conclusion: Echo wins (they return to find Northreach fallen)
+- Play new Season/location with new party
+- References the "failed Warden company" that died
+
+**How to Choose:**
+- **Option 1:** If death was unfair or brutal; let grace restore them
+- **Option 2:** If party wants to continue same campaign; good narrative reset
+- **Option 3:** If table wants to start fresh; honorable exit for dead campaign
+
+---
+
+### SCENARIO 8: "Players Leveled Too Slowly/Too Fast"
+
+**Why It Happens:** Unexpected campaign length, or bonus encounters accumulating
+
+**DM Response:**
+
+**If Underleveled (Too Slow):**
+
+Campaign planned for level 4-5 but party is level 2:
+- Reduce encounter difficulties (use fewer enemies, lower CR)
+- Extend timeline (give them more time to prepare)
+- Award bonus XP for clever solutions
+- Don't force advancement; trust your pacing
+
+**If Overleveled (Too Fast):**
+
+Campaign planned for level 4-5 but party is level 6:
+- Upgrade encounters (add higher-CR enemies, complex tactics)
+- Expand campaign scope (enemies are more organized/powerful)
+- Introduce new factions/complications
+- Don't penalize success; let them feel powerful
+
+**Golden Rule:** Party level affects encounter difficulty, not campaign validity.
+
+---
+
+## MORAL/ETHICAL SCENARIOS
+
+### SCENARIO 9: "We Want to Execute Captured Prisoners"
+
+**Why It Happens:** Party wants "justice," is afraid, or is just evil.
+
+**DM Response:**
+
+**Execution is Allowed (But Costly)**
+
+If players kill captured enemies (bandits, cultists, Echo agents):
+
+**Mechanical:**
+- Potential faction loss (military/religious don't approve)
+- Survivor guilt possible (if prisoners had valuable intel)
+- Prisoners' families/factions seek revenge
+
+**Story:**
+- NPC witnesses judge players (alignment notes recorded)
+- Settlements react based on executed persons' connections
+- One NPC becomes personally devoted to stopping players (vengeance quest)
+
+**How to Handle:**
+- Don't prevent it; let consequences flow
+- Make guards uncomfortable (show opposition without force)
+- Have NPC take strong moral stance: "You've chosen cruelty."
+- Let it cost reputation
+
+---
+
+### SCENARIO 10: "We Want to Experiment on Captured Living Creatures"
+
+**Why It Happens:** Party is amoral or curious about Echo.
+
+**DM Response:**
+
+**Same as above, but worse:**
+
+- Every faction loses reputation instantly
+- Guild considers expulsion
+- Settlements deny entry
+- Warden leadership personally confronts players
+- Potential assassination attempt by disgusted faction member
+
+**When to Override:** If this happens, serious DM conversation needed. This is crossing line into actual torture content.
+
+---
+
+### SCENARIO 11: "We Want to Resurrect the Echo After Defeating It"
+
+**Why It Happens:** Players want the power; see Echo as tool; made a deal with Echo's entity.
+
+**DM Response:**
+
+**This is Allowed (Monstrous Consequences)**
+
+If players deliberately reactivate Echo:
+- All factions immediately align against them
+- They become hunted terrorists
+- Regional military mobilizes
+- Campaign shifts to survival/fugitive arc
+
+**Alternative:** If this is part of Season 2 plot hook, allow it but show horrifying consequences that force players to stop it.
+
+---
+
+## ENCOUNTER-LEVEL DECISIONS
+
+### SCENARIO 12: "We Want to Negotiate With an Enemy Mid-Combat"
+
+**Why It Happens:** Smart players trying to find alternatives.
+
+**DM Response:**
+
+**Negotiation Possible If:**
+- Enemy is intelligent (most Echo creatures are)
+- Players offer something valuable
+- Enemy has reason to accept (wounded, outnumbered later)
+
+**Mechanical:**
+
+If negotiation succeeds:
+- Combat ends; new problem emerges (what did you promise?)
+- Enemy might share information
+- Alliance or truce established
+
+If negotiation fails:
+- Combat resumes normally
+- Enemy doesn't offer second chance
+
+**How to Manage:**
+- Use Insight check to detect sincerity
+- Have NPC offer translation if player plan makes sense
+- Reward cleverness with reduced enemy force or temporary peace
+
+---
+
+### SCENARIO 13: "We Want to Stop Fighting and Run"
+
+**Why It Happens:** Encounter is harder than expected.
+
+**DM Response:**
+
+**Retreat is Valid Option**
+
+If players flee:
+- Enemies chase (or don't, if it doesn't make sense)
+- Failure consequences: Settlement falls, ally dies, time runs out
+- Success consequences: Enemies regroup; encounter is harder later
+- Make pursuit meaningful but escapable
+
+**Mechanical:**
+- Chase sequence with skill checks
+- Possible collateral damage (settlements they pass)
+- Enemies report back to Echo (entity learns players' abilities)
+
+---
+
+### SCENARIO 14: "We Found Aeorian Technology/Magic Items and Want to Use It"
+
+**Why It Happens:** Players want power; Aeorian artifacts are powerful.
+
+**DM Response:**
+
+**Using Aeorian Tech:**
+
+Short-term: +1 to difficult tasks; amazing capability
+Medium-term: Unpredictable side effects (resonates with Echo, attracts attention)
+Long-term: Using Aeorian tech marks you as "Aeorian-sympathizer" to factions
+
+**Mechanical:**
+- Item is powerful but unstable (once per day, might malfunction per DM judgment)
+- Every use broadcasts location subtly (Entity is aware)
+- Using it around factions provides -2 to reputation with anti-Aeor factions
+- Artifact absorption: If exposed to enough Echo energy, it might activate/transform
+
+**Story Impact:**
+- Normalizes Aeorian solutions (moral gray area)
+- Possible sacrifice: Give it back to destroy Echo network (costs the power)
+
+---
+
+## FACTION/NPC SCENARIOS
+
+### SCENARIO 15: "An NPC Betrayed Us"
+
+**Why It Happens:** NPC had hidden motivation; players trusted too readily.
+
+**DM Response:**
+
+**Betrayal is Allowed (Make It Sting)**
+
+If NPC betrays players:
+- Show clear motivation (not arbitrary)
+- Make consequences immediate (NPCs die, mission fails)
+- Offer chance for redemption/revenge
+- Other factions notice (some side with betrayer, some with players)
+
+**How to Handle:**
+- NPC didn't betray lightly (show internal conflict)
+- Give one warning/chance to notice the betrayal coming
+- After betrayal, consequences are serious
+
+---
+
+### SCENARIO 16: "We Want to Bribe/Seduce/Manipulate an Important NPC"
+
+**Why It Happens:** Players are clever; NPCs have wants.
+
+**DM Response:**
+
+**This Works If Done Well**
+
+The NPC can be influenced if:
+- Player offers something the NPC actually wants
+- Approach matches NPC personality
+- Consequence is accepted (owing debt, faction favor, etc.)
+
+**Example:**
+- Bribe Warden Quarter master? Takes gold but later demands favor in exchange
+- Seduce scholar? Possible but romance has consequences (jealous rival, emotional complication)
+- Manipulate faction leader into bad decision? Works but faction pays price
+
+**Mechanical:**
+- Charisma check (DC varies by receptiveness)
+- On success: NPC is influenced but not enslaved
+- Influence expires (NPC has their own agenda)
+- Can be used against players later ("You taught me to be manipulative")
+
+---
+
+## WORLD-STATE SCENARIOS
+
+### SCENARIO 17: "We Want to Tell Everyone About the Echo (Public Knowledge)"
+
+**Why It Happens:** Players think transparency helps; want regional mobilization.
+
+**DM Response:**
+
+**Public Knowledge Backfires**
+
+When players tell everyone about the Echo:
+1. **Panic waves** (immediate; settlements in chaos)
+2. **Mass migration** (refugees everywhere; supply lines break)
+3. **Faction mobilization** (accelerated; factions race toward confrontation)
+4. **Echo acceleration** (entity speeds up response; knows it's known)
+
+**Mechanical Impact:**
+- Phase 1 ends immediately; Phase 2 begins
+- All encounters increase in difficulty
+- Settlements become less stable as refugees arrive
+- Timeline compresses to 2-3 weeks max
+
+**When to Use:** This is realistic consequence. You can let them do it; just show the chaos.
+
+---
+
+### SCENARIO 18: "We Want to Evacuate an Entire Settlement"
+
+**Why It Happens:** Players are compassionate; don't want to fight.
+
+**DM Response:**
+
+**Evacuation is Possible (But Complicated)**
+
+For small settlement (100-300 people):
+- Takes 3-5 days
+- Requires transportation (carts, boats, magic)
+- Refugees need food, security
+- Some people refuse to leave
+
+**Mechanical:**
+- **Transportation:** Merchants, military, religious authorities can help (request favor)
+- **Route:** Safe path must be verified (potential encounters)
+- **Time:** Evacuation creates time cost (Echo advances meanwhile)
+- **Destination:** Where do refugees go? Not your problem... except it is (faction support/hatred depends on placement)
+
+**Story Impact:**
+- Settlement is saved but not defended
+- Local faction reputation: High (you saved them) but also owed massive debt
+- Other settlements now in danger (evacuation visible; causes panic elsewhere)
+- Creates refugee faction (can become ally or burden)
+
+**When to Use:** Reward player compassion by making it work, but show systemic cost.
+
+---
+
+### SCENARIO 19: "We Created a Cult/Political Faction Ourselves"
+
+**Why It Happens:** Players inspired people or promised protection; became de facto leaders.
+
+**DM Response:**
+
+**Player-Created Faction is Valid**
+
+If players inspire enough people to create a faction:
+- Faction starts small (10-30 people)
+- Grows based on players' success (each win → +10 recruits)
+- Has political weight (becomes power in region)
+- Has demands (want to be treated as legitimate faction)
+
+**Mechanical:**
+- Players now have responsibility (faction has needs, enemies, goals)
+- Faction reputation independent from player reputation
+- Can be betrayed by own faction (lieutenant stages coup)
+- Can be used as ally (additional forces for final battles)
+
+**Story Impact:**
+- Players go from adventurers to leaders
+- Campaign expands in scope
+- Season 2 becomes "defend your faction from rivals"
+
+---
+
+## RESOURCE MANAGEMENT SCENARIOS
+
+### SCENARIO 20: "We're Running Out of Gold/Supplies"
+
+**Why It Happens:** Difficult encounters, poor spending choices.
+
+**DM Response:**
+
+**Gold is Renewable; Make It Visible**
+
+Sources of gold:
+- Faction quests (payment varies by faction)
+- Looted treasure from encounters
+- Settlements offering rewards (variable)
+- Black market opportunities (risky)
+
+**If They're Starving:**
+- NPCs notice (create emergency quest: "Help us; get paid")
+- Settlements offer work contracts
+- Warden resources stretch thin (mission success determined by budget spent)
+
+**Mechanical:**
+- Low gold = reduced options (can't hire help, can't buy healing)
+- Doesn't prevent game BUT narrows choices
+- NPCs become more valuable (free advice, support)
+
+---
+
+### SCENARIO 21: "We Want to Skip Summer/Fast-Forward Time"
+
+**Why It Happens:** They want to skip boring RP or get to action.
+
+**DM Response:**
+
+**Time Skip: 1-3 Months**
+
+During skipped time:
+- Echo advances (show progress)
+- Factions shift (some NPCs die, positions change)
+- Settlements change status (some evacuated, some fallen)
+- New developments occur (show what happened while they slept)
+
+**Mechanical:**
+- Phase may advance automatically (if 2+ months)
+- Level-up opportunities compressed (fewer encounters to train on)
+- Reputation consequences continue (factions remember actions)
+
+**Story Consequence:** "Three months pass. When you awake from rest, the world has moved on. Show me what's different."
+
+---
+
+## META SCENARIOS
+
+### SCENARIO 22: "A Player Wants to Leave the Table"
+
+**Why It Happens:** Real-life stuff, conflict, boredom.
+
+**DM Response:**
+
+**In-Game:**
+- PC can be written out honorably (quest elsewhere, called for duty)
+- PC can stay but be less active (NPC-ify them temporarily)
+- PC retirement (natural end)
+
+**At Table:**
+- Serious conversation outside of session
+- Invite new player or continue smaller group
+- No villainizing departing player
+
+---
+
+### SCENARIO 23: "A Player Wants to Change Campaigns Mid-Season"
+
+**Why It Happens:** Campaign isn't meeting expectations.
+
+**DM Response:**
+
+**Have Honest Conversation First**
+
+Ask:
+- What's not working?
+- What would make it work?
+- Do they want out or adjustment?
+
+**Options:**
+- Adjust campaign (tone, speed, scale)
+- End campaign honorably (climax or fade)
+- Switch campaigns temporarily (play side quest in different setting)
+
+---
+
+## FINAL GUIDANCE
+
+### When to Override These Rules
+
+Only override if:
+- Scenario violates session zero agreements
+- Consequences would be genuinely unplayable (not just difficult)
+- Table safety is at stake (trauma, real conflict)
+
+### How to Prevent Most Scenarios
+
+1. **Session Zero:** Establish expectations clearly
+2. **Back-and-forth:** Ask "Are you sure?" on high-risk decisions
+3. **Telegraphing:** Hint at major consequences before players commit
+4. **Safety tools:** Use "stop word" if things get too dark
+
+### How to Handle Unexpected Scenarios
+
+If something happens that's not in this guide:
+1. **Don't panic.** Take a breath. Say "Let me think..."
+2. **Ask table.** "What would make sense here?"
+3. **Make reasonable call.** Consistency matters more than perfection.
+4. **Revisit after session.** "Here's what I decided and why; feedback?"
+
+---
+
+**Companion Documents:**
+- [Core_Mystery_Definition.md](Core_Mystery_Definition.md) — What players discover at each phase
+- [Faction_Response_Document.md](Faction_Response_Document.md) — How factions react to major events
+- [Foreshadowing_Database.md](Foreshadowing_Database.md) — What connections exist between clues
+
+**Remember:** Your table will find ways to surprise these scenarios. That's good. Adapt, stay consistent, and let consequences flow naturally.
+
+\page
+# Warden Rank System
+
+**Mechanical Progression for Guild Advancement**
+
+This system provides clear mechanical progression for players as they advance through their Warden careers, creating tangible rewards beyond leveling and treasure.
+
+---
+
+## OVERVIEW
+
+The Northwatch Wardens operate on a **6-tier rank system** based on proven capability and mission success. Ranks tie to:
+- **Contract access** (which jobs become available)
+- **Guild resources** (what equipment/support the guild provides)
+- **Authority** (how NPCs treat them)
+- **Pay rates** (mission rewards scale with rank)
+- **Special privileges** (unique opportunities)
+
+**Key Principle:** Rank reflects *trust and proven competence*, not just power level. It's possible to be high-level but low-rank (new to guild); conversely, rare cases of low-level highly-ranked members exist (administrative roles).
+
+---
+
+## RANK PROGRESSION
+
+### RANK 1: RECRUIT
+
+**Requirements:**
+- Completed initial recruitment interview
+- Signed guild charter
+- No mission experience required
+
+**Contract Access:**
+- **Available:** Tier 1 contracts (settlement defense, bandit suppression, rescue animals)
+- **Forbidden:** Anything involving major magic investigation, faction diplomacy, or classified information
+- **Example Contracts:** "Clear bandits from caravan route," "Investigate livestock thefts"
+
+**Guild Resources:**
+- Basic lodging at Waystone Inn (shared room)
+- Access to common room and training yard
+- Use of guild weapons/armor (marked with Warden crest, must return)
+- Quarterly stipend: 25 gp
+
+**Authority:**
+- "You're the Wardens we heard about" (local recognition but no special treatment)
+- Cannot requisition expensive supplies without approval
+- No authority to make binding agreements on guild's behalf
+
+**Benefits:**
+- Free meals at inn (breakfast/dinner)
+- Training with Warden veterans (sparring, tactics)
+- Access to basic library
+
+**Progression to Rank 2:**
+- Complete 5 successful Rank 1 contracts
+- Marshal Brenna approves for advancement (character judgment)
+- Party reaches Level 3 minimum
+
+---
+
+### RANK 2: WARDEN
+
+**Requirements:**
+- 5 successful Rank 1 missions
+- Character background properly established
+- Demonstrated competence and judgment
+
+**Contract Access:**
+- **Available:** Tier 2 contracts (monster hunting, mine clearing, minor investigations, escort missions)
+- **Forbidden:** Major diplomatic missions, unsupervised ancient site exploration, faction-critical work
+- **Example Contracts:** "Track and eliminate wildlife threat," "Investigate disappearances," "Secure merchant caravan"
+
+**Guild Resources:**
+- Private room at Waystone Inn
+- Warden insignia (official badge; opens doors in settlements)
+- Access to guild armory (better weapons available)
+- Quarterly stipend: 50 gp
+- Can requisition supplies up to 100 gp without approval (restocked monthly)
+
+**Authority:**
+- NPCs recognize Warden authority in local matters
+- Can make agreements binding the guild (within reason)
+- Settlements defer to guild judgment on safety matters
+- Can call on Warden veterans for support (within reasonable bounds)
+
+**Benefits:**
+- Included in weekly tactical briefings
+- Can request specific contract types (instead of accepting assignments)
+- Access to advanced training (special maneuvers, secondary weapon specialization)
+- Can propose personal investigations to Elric
+
+**Special Privileges:**
+- Discount at local merchants (10% off non-magical items)
+- Free healing (once per week) from Warden healers
+- Can borrow books from restricted section of library
+
+**Progression to Rank 3:**
+- Complete 10 successful Rank 2 contracts
+- Reach Level 5+
+- Demonstrate exceptional judgment in at least one high-stakes situation
+- Guild leadership votes (must be unanimous or near-unanimous)
+
+---
+
+### RANK 3: SENIOR WARDEN
+
+**Requirements:**
+- 10 successful Rank 2 missions + exceptional record
+- Level 5 minimum
+- Guild leadership approval
+
+**Contract Access:**
+- **Available:** Tier 3 contracts (dangerous monster hunts, major investigations, faction-sensitive work, solo leadership of small teams)
+- **Example Contracts:** "Investigate Aeorian activity," "Mediate between factions," "Lead expedition into dangerous territory"
+- **Forbidden:** Classified missions (known only to Brenna), campaigns requiring massive resources
+
+**Guild Resources:**
+- Superior private quarters (own suite at inn)
+- Warden insignia upgraded to Senior designation
+- Full armory access (can check out expensive military-grade equipment)
+- Quarterly stipend: 100 gp
+- Can requisition supplies up to 500 gp with Mara's approval (monthly budget)
+- Expensed travel (guild covers horses, boats, guides for missions)
+
+**Authority:**
+- Represents guild in diplomatic situations
+- Can make binding agreements on guild's behalf
+- Can command lower-ranked Wardens on missions
+- Settlements treat you as de facto guild authority in their region
+
+**Benefits:**
+- Weekly strategy meetings with leadership
+- Can requisition rare equipment or services (healing potions, divination, etc.)
+- Access to entire library including restricted research
+- Can train other Wardens (formal mentorship role)
+- One free major favor per season from any faction
+
+**Special Privileges:**
+- Private bath/sauna access
+- Commission custom magic items (cost paid, guild covers crafting time)
+- Can propose guild policy changes
+- One named Warden for personal retinue
+
+**Progression to Rank 4:**
+- Complete 15 successful Rank 3 contracts
+- Reach Level 8+
+- Display exceptional leadership or discovery in three separate major situations
+- Marshal Brenna personally recommends
+
+---
+
+### RANK 4: VETERAN
+
+**Requirements:**
+- 15 successful Rank 3 missions + exceptional leadership
+- Level 8 minimum
+- Marshal Brenna's personal recommendation
+- Guild council votes (requires 2/3 approval)
+
+**Contract Access:**
+- **Available:** Tier 4 contracts (campaign-critical missions, major investigations, faction coordination, classified work)
+- **Example Contracts:** "Investigate Echo facility," "Negotiate major faction treaty," "Lead guild response to regional threat"
+- **Forbidden:** Only things that would violate personal ethics or endanger the guild
+
+**Guild Resources:**
+- Luxurious permanent quarters or arrangement for housing elsewhere
+- Veteran insignia + key to leadership wing
+- Unlimited armory access (permanent custody of exceptional items)
+- Quarterly stipend: 250 gp
+- Can requisition supplies up to 2,000 gp with single signature from Mara
+- All travel and expenses covered for official missions
+- Can call on off-duty Wardens for major operations
+
+**Authority:**
+- Acts as guild authority in Brenna's absence
+- Can make nearly any binding agreement on guild's behalf
+- Can court-martial lower-ranked Wardens (with proper procedure)
+- No settlement disputes your judgment without escalation to Brenna
+
+**Benefits:**
+- Daily strategic briefings
+- Access to classified information and secret archives
+- Can commission major items/services at cost (not free but prioritized)
+- Official mentorship role (mentee gains benefits)
+- Three free major favors from any faction per season
+
+**Special Privileges:**
+- Reserved table in common room (always available)
+- Private consultation with Elric (research support)
+- Can propose guild expeditions (with funding)
+- Prestigious title in region ("Veteran [Name]")
+- Access to Brenna's private correspondence (trust level)
+
+**Progression to Rank 5:**
+- Complete 20 successful Rank 4 contracts
+- Reach Level 11+
+- Make strategic decision that saves lives or prevents catastrophe
+- Guild council votes (requires unanimous or near-unanimous)
+- Generally requires 2+ years of play
+
+---
+
+### RANK 5: COMMANDER
+
+**Requirements:**
+- 20 successful Rank 4 missions + proven strategic mastery
+- Level 11 minimum
+- Guild council unanimous approval (Brenna, Mara, Elric + 1 other senior Warden)
+
+**Contract Access:**
+- **Available:** All contracts; can create new mission types
+- **Responsibility:** Command of major operations, setting guild policy, mentoring Veterans
+
+**Guild Resources:**
+- Estate-level accommodations (own house or senior suite)
+- Commander insignia + key to all guild facilities
+- Unlimited resources for approved missions
+- Quarterly stipend: 500 gp (essentially honorary; expenses always covered)
+- Can authorize others' spending up to 5,000 gp per mission
+- Direct communication network with other regional Warden companies
+- Can requisition NPC specialists (healers, scouts, researchers)
+
+**Authority:**
+- Acts as co-leader of guild with Brenna
+- Makes policy decisions
+- Can override lower-ranked Wardens' decisions (with justification)
+- Settlement leaders defer to your judgment on all matters
+
+**Benefits:**
+- Full partnership in guild decisions
+- Unrestricted access to everything
+- Can commission any item or service
+- Unlimited mentorship capacity
+- Five free major favors per season
+- Can establish personal initiatives (e.g., specialized training, research projects)
+
+**Special Privileges:**
+- Leadership role: Chair meetings, give addresses, set priorities
+- Direct communication with distant Warden companies
+- Can propose expeditions with full guild backing including funding
+- Authority to recruit new high-level members
+
+**Progression to Rank 6:**
+- Requires extraordinary service: saving the guild, preventing regional catastrophe, or making strategic decision that reshapes Northreach
+- Once-per-campaign achievement (rare)
+
+---
+
+### RANK 6: MARSHAL (Special)
+
+**Requirements:**
+- Rare achievement requiring transcendent service to cause
+- Nominated by council + guild member vote (75%+ support)
+- Typically only awarded once per generation
+
+**What It Means:**
+- Co-leader of entire guild operation
+- Policy-maker for region
+- Potential succession line to Marshal Brenna
+- Honorary rank (often bestowed at end of campaign)
+
+**Mechanically:**
+- All benefits of Rank 5 + full operational control of specific domain
+- Example: "Marshal of Palebank Region" or "Marshal of Research Operations"
+
+---
+
+## PAYING FOR RANK ADVANCEMENT
+
+Some factions or rich NPCs might offer to "sponsor" rank advancement, but this comes with strings:
+
+**Faction Sponsorship** (Rank 2→3 early):
+- Guild accepts sponsorship: Wardens owe faction favor
+- Reputation with sponsoring faction: +2 immediately
+- Reputation with opposing factions: -1
+- Later if revealed as "bought rank," reputation crisis possible
+
+**Self-Funding Advancement** (unusual):
+- Warden can request advancement despite not meeting experience requirements
+- Cost: 1,000 gp per rank, paid to guild coffers
+- Brenna must approve (requires exceptional reasoning)
+- Other Wardens may view as "privilege purchasing" (reputation risk)
+
+**NPC Sponsorship vs. Earning**:
+- Earned is always better (trust is built, not purchased)
+- NPCs respect grind more than shortcuts
+- DM discretion: is this character's story about shortcuts or legitimacy?
+
+---
+
+## MISSION REWARDS BY RANK
+
+Reward scaling provides mechanical benefit of advancing:
+
+{{wide
+
+| Rank | Standard Contract | Dangerous Contract | Lucrative Mission |
+|------|---|---|---|
+| Recruit | 50 gp | 75 gp | 150 gp |
+| Warden | 100 gp | 150 gp | 300 gp |
+| Senior | 200 gp | 300 gp | 600 gp |
+| Veteran | 300 gp | 500 gp | 1,000 gp |
+| Commander | 500 gp | 750 gp | 1,500 gp |
+
+}}
+
+*Plus: Standard XP awards + treasure from encounters*
+
+**Contract Types:**
+- **Standard:** Local defense, pest control, escort missions (low danger)
+- **Dangerous:** Monster hunts, major investigations, faction work (high danger)
+- **Lucrative:** Expensive problems, high-stakes work, secret missions (offers big payoff)
+
+---
+
+## RANK-BASED COMPLICATIONS
+
+Using rank creates interesting roleplay moments:
+
+### Rank Has Responsibilities
+
+**Promotion comes with duties:**
+- Brenna calls on high-rank members for guild defense
+- Settlement leaders expect legendary problem-solving
+- Factions treat you as representative (mistakes cost guild reputation)
+- Junior Wardens look to you for leadership
+
+**"You can't go" scenarios:**
+- Brenna: "We need you here. That contractor emergency needs Senior-level attention."
+- Settlements: Expecting *your* personal help on a problem
+- NPCs: "You're a Veteran now. People expect more."
+
+### Rank Creates Targets
+
+**Higher visibility = bigger problems:**
+- Criminals notice high-rank Wardens (better targets for jobs)
+- Cults recruit high-rank members more aggressively
+- Enemies plan around your reputation
+- Can't travel anonymously anymore
+
+### Rank Enables Redemption
+
+**High-rank Wardens can help others:**
+- Can argue for criminal leniency with authority
+- Can requisition help for causes
+- Can propose expeditions that benefit communities
+- Can mentor and elevate others
+
+---
+
+## RANK PROGRESSION GUIDE (By Campaign Phase)
+
+### Early Campaign (Levels 1-3)
+- Most party: Recruit → Warden
+- Milestone: Complete first 5 contracts, reach Level 3
+
+### Mid Campaign (Levels 4-7)
+- Most party: Warden → Senior Warden
+- Milestone: Complete 10+ contracts, demonstration of judgment
+
+### Late Campaign (Levels 8-11)
+- Party leadership: Senior → Veteran
+- Others: Some remain Senior or reach Veteran late
+- Milestone: Major decisions/discoveries; faction work
+
+### Endgame (Levels 12+)
+- Party vanguard: Veteran or rare Commander
+- Full party: Mix of Veteran and Senior
+- Milestone: Campaign-defining moment
+
+---
+
+## HOW TO USE THIS IN PLAY
+
+### During Downtime
+**"What do you do?"**
+- Recruit: Train with veterans, run errands for the guild
+- Warden: Patrol settlements, train others, investigate personal leads
+- Senior: Strategize with leadership, oversee operations, negotiate with factions
+- Veteran: Set guild policy, lead operations planning, mentor
+- Commander: Run the guild alongside Brenna
+
+### During Contract Selection
+**"Which contracts are available this week?"**
+- Show appropriate tier based on rank
+- High-rank players see bigger contracts
+- Can volunteer for lower-rank missions (slumming) or ask for specific work
+
+### When Fame Becomes Complication
+**"You're recognized everywhere now"**
+- Lower-rank enemies recognize you as threat
+- Factions want to recruit/meet you
+- Every town wants your personal help
+- Can use this as hook for complications
+
+### For Major Decisions
+**"Should we do X?"**
+- Rank reflects authority in that choice
+- Senior Warden's opinion carries weight in settlements
+- Veteran's decision shapes guild policy
+- Commander effectively IS the guild authority (after Brenna)
+
+---
+
+## SPECIAL CASES & EDGE CASES
+
+### Party Rank Disparity
+**What if one PC is Rank 3 and another is Rank 2?**
+- High-rank PC gets preference on command structures
+- Low-rank PC must defer in official matters
+- In reality: They work as partners (encourage cooperation)
+- Progression: Low-rank PC will advance if playing equally
+
+### PC Leaves/Joins Mid-Campaign
+**New player joins at Level 7:**
+- Start at Rank 1 or Rank 2 (DM discretion based on backstory)
+- Catch up quickly through accelerated contracts if needed
+- Or accept being lower-rank (creates interesting dynamic)
+
+### Becoming Too Senior
+**PC is Rank 5 at Veteran level:**
+- They're effectively the guild authority (with Brenna)
+- This can make them unsuitable for "go solve this problem" missions
+- Solution: Delegate to junior Wardens, oversee operations instead
+- Or: Advancement forces them to mature roleplay
+
+### Rank & Romance
+**NPC romance with significant rank gap:**
+- Lower-rank NPC attracted to your authority (risky: is it real?)
+- Higher-rank NPC means your partner outranks you (interesting dynamic)
+- Good roleplay material regardless
+
+---
+
+## ADVANCEMENT CHECKLIST
+
+### For DM: Tracking Advancement
+
+**Contract Count Tracker:**
+```
+Rank 2 → Rank 3: [ ] [ ] [ ] [ ] [ ] (5 contracts needed)
+Rank 3 → Rank 4: [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] (10 more)
+```
+
+**Level Check:**
+```
+Rank 4 available at: Level 8+ ✓
+Rank 5 availability: Level 11+ (at campaign climax)
+```
+
+**Leadership Votes:**
+```
+Rank 3 advancement: Unanimous (Brenna, Mara, Elric)
+Rank 4 advancement: 2/3 vote required
+Rank 5 advancement: Unanimous or 75%+ member vote
+```
+
+### For Players: Tracking Progress
+
+**Each session:**
+- Note completed contracts
+- Record standout moments (can count toward "exceptional demonstration")
+- Track level progression (hard requirement)
+- Ask DM: "What do I need for next rank?"
+
+---
+
+## RANK MECHANICS SIMPLIFIED
+
+**TL;DR:**
+- **Rank reflects trust, not just power**
+- **Ranks unlock: contracts, resources, authority** 
+- **Progression: Do 5-20 missions + reach level threshold + leadership approval**
+- **Benefits are mechanical AND roleplay:**
+  - More expensive equipment available
+  - Can command lower ranks
+  - Settlements listen to you
+  - Factions treat you as representative
+- **Complications:** Fame creates targets; responsibilities increase; you can't go hide anymore
+
+---
+
+**Use this system to:**
+- ✅ Give players clear progression milestones between levels
+- ✅ Create mechanical consequence for being part of an organization
+- ✅ Reward good roleplay and decision-making
+- ✅ Escalate campaign scope (easier to justify bigger threats)
+- ✅ Make failure meaningful (disappointed NPCs, lost reputation)
+
+---
+
+**Companion Documents:**
+- [Session_Prep_Master_Checklist.md](Session_Prep_Master_Checklist.md) — Use rank to determine contract availability each session
+- [DM Guild Roster.md](DM%20Guild%20Roster.md) — NPCs react to rank changes
+- [What_If_Quick_Guide.md](What_If_Quick_Guide.md) — Rank affects consequences for rule violations
+
+\page
+# Seasonal Event Calendar for Northreach
+
+**Monthly Events, Holidays, and Seasonal Transitions**
+
+This document provides 12 monthly events for Northreach that can serve as campaign hooks, flavor, seasonal setting, or adventure timing reference.
+
+---
+
+## HOW TO USE THIS CALENDAR
+
+**For Planning:**
+- Align adventures to seasons (better atmosphere)
+- Place major story beats at resonant times
+- Use events as natural "time has passed" markers
+
+**For Flavor:**
+- Mention holiday/weather when describing scenes
+- Have NPCs reference upcoming events
+- Create downtime activities tied to season
+
+**For Hooks:**
+- Many events can become adventure prompts
+- Or complications to plot-critical missions
+- Natural gathering points for factions/NPCs
+
+**For Timeline:**
+- Campaign starts in Spring (Season 0, "The Charter")
+- Natural progression: Spring → Summer → Fall → Winter → Spring
+
+---
+
+## MONTH 1: GREENRISE (Spring Equinox)
+
+**Theme:** Awakening, renewal, emergence, travel season begins
+
+**Weather:**
+- Temperatures 45-65°F
+- Frequent rain (10-15 days of rain)
+- Snow melts; rivers swell
+- Muddy roads (travel -1 day)
+
+**Events:**
+
+1. **Charter Signing** (Spring Equinox, Day 1)
+   - Northwatch Wardens accept new recruits officially
+   - Marshal Brenna hosts ceremonial dinner at Waystone
+   - New contracts become available
+   - *Campaign Hook:* Starting point for new party; good introduction to NPCs
+
+2. **Thaw Run** (Days 5-8)
+   - Young people race to Northreach's highest point and back
+   - Dangerous (falling rocks, wild animals, unpredictable weather)
+   - Betting happens at Shepherd's Crook Inn
+   - *Adventure Hook:* Party could protect race, investigate accidents, or compete
+
+3. **Guild Supply Expedition** (Days 12-18)
+   - Supply caravan travels to remote settlements; supplies winter stores
+   - Dangerous routes (bandits, creatures)
+   - Wardens often escort
+   - *Adventure Hook:* "Protect the caravan" mission; dangers on route
+
+4. **Spring Festival** (Days 20-22)
+   - Northreach celebrates end of winter
+   - Market swells; merchants from distant places arrive
+   - Dancing, feasting, contests
+   - *Event Hook:* Faction representatives arrive; create social chaos
+
+5. **First Lambs/Calves Born** (Throughout month)
+   - Shepherds/farmers celebrate births
+   - Some animals born wrong/sick (Echo sign)
+   - Celebrations in Welton especially
+   - *Atmosphere:* Hope tinged with concern for stability
+
+**NPC Activity:**
+- Brenna: Recruiting new members; energized
+- Elric: Consulting old records; noting seasonal patterns
+- Mara: Planning supply routes; coordinating logistics
+- Father Merriksonn: Blessing the birthing season; concerned about livestock quality
+
+**If Frozen Sick was played recently:**
+- Palebank refugees may arrive during Festival
+- Create population pressure / resource strain
+- Settlements debate accepting refugees
+
+**Mechanical Impact:**
+- Bandits/monsters more active (fewer places to hide)
+- Travel slower (muddy roads)
+- Good time for outdoor adventures
+
+---
+
+## MONTH 2: BLOOMING (Spring, Late)
+
+**Theme:** Abundance, growth, commerce expansion, journeys
+
+**Weather:**
+- Temperatures 55-70°F
+- Occasional rain (5-10 days)
+- Roads becoming passable
+- Days noticeably longer (dawn early, dusk late)
+
+**Events:**
+
+1. **Merchant Caravans Depart** (Days 1-5)
+   - Multiple caravans leave Northreach for distant markets
+   - Hiring guards, teamsters, guides
+   - *Adventure Hook:* "Escort caravan to Pinebrook" or similar
+
+2. **Love Declarations Festival** (Days 10-12)
+   - Young people publicly declare feelings under Blooming Moon
+   - Performances, poetry, music
+   - *Flavor:* Good time for romantic subplots
+   - *Complication:* Rejected person might harbor resentment (antagonist hook)
+
+3. **Guild Competitions** (Days 14-16)
+   - Wardens compete in mock combat, strategy, investigation challenges
+   - Betting heavy; locals attend
+   - Ranking adjustments possible
+   - *Adventure Hook:* Party could use this to prove themselves; rivals appear
+
+4. **Crop Blessing Ceremonies** (Throughout month)
+   - Priests bless fields; farmers plant seeds
+   - Religious services in settlements
+   - If divine magic failing: Crisis point (farmers terrified)
+   - *Atmosphere:* Hope for good harvest
+
+5. **Apprenticeship Offers** (Days 18-22)
+   - Merchants/craftspeople recruit young apprentices
+   - Some locals leave home
+   - Creates opportunity to rescue someone who was actually "apprenticed away"
+   - *Adventure Hook:* Missing person turns out to be happy apprentice OR hidden slavery
+
+**NPC Activity:**
+- Mara: Coordinating caravan security; recruiting escorts
+- Brenna: Organizing competitions; testing new Warden candidates
+- Elric: Noting seasonal magical patterns
+- Local merchants: Aggressive recruitment; competitive for good Wardens
+
+**If Wolves of Welton played recently:**
+- Shepherds nervous; watching animals closely
+- Some livestock missing (either Echo or natural predation)
+- Paranoia in settlements
+
+**Mechanical Impact:**
+- Good travel season (roads passable, weather stable)
+- Many NPCs traveling (social options limited)
+- Bandits/brigands active (targeting caravans)
+
+---
+
+## MONTH 3: HIGHSUMMER (Summer Solstice)
+
+**Theme:** Abundance, heat, festivals, excess, danger at peak
+
+**Weather:**
+- Temperatures 70-85°F, occasionally 90°F
+- Dry (5-7 weeks without rain; creeks low)
+- Longest days (dawn ~5am, dusk ~10pm)
+- Bugs (insects attracted to camps; disease vectors)
+
+**Events:**
+
+1. **Midsummer Festival** (Solstice Days 20-23)
+   - Largest celebration of year
+   - Open-air markets, performers, games, competitions
+   - Factions gather (creates political intrigue opportunity)
+   - Alcohol flows; people get rowdy
+   - *Adventure Hook:* Theft during festival; assassination attempt; political conspiracy revealed
+
+2. **Harvest Moon Observance** (Days 16-19)
+   - Priests make offerings to ensure good harvest (6-8 weeks away)
+   - Late-night rituals on hilltops
+   - *Flavor:* Atmosphere of magical significance
+   - *Complication:* Echo effects could interrupt ceremony
+
+3. **Hunting Season Opens** (Days 1-31)
+   - Young hunters seek trophy kills
+   - Some never return (dangerous predators abroad)
+   - *Adventure Hook:* "Find missing hunters" quest
+
+4. **Heat-Related Afflictions Spike** (Throughout month)
+   - Heatstroke, sunstroke, dehydration
+   - Livestock die from heat stress
+   - Wells dry up in some areas
+   - *Flavor:* Characters suffer in heat (difficult travel)
+   - *Complication:* Creates refugee movements toward water sources
+
+5. **Summer Court** (Days 24-30)
+   - Distant noble or faction leader visits Northreach
+   - Diplomatic opportunities or tensions
+   - Waystone Inn becomes event venue
+   - *Adventure Hook:* Protect visiting dignitary; uncover conspiracy
+
+**NPC Activity:**
+- Brenna: On high alert (crime increases with festivals)
+- Mara: Managing festival logistics; supply crunches from heat
+- Elric: Noting weather patterns and any correlation to magical phenomena
+- Settlements: All hands to harvest prep
+
+**If Echo elements active:**
+- Heat accelerates Echo effects? (creatures more aggressive in heat?)
+- Diseases spread faster
+- Magic malfunctions increase (heat affecting resonance?)
+- Creates sense of danger despite festive season
+
+**Mechanical Impact:**
+- Extreme heat: Constitution saves to avoid exhaustion
+- Outdoor travel: -1 day due to heat; require water
+- Bandits bold: Festival creates chaos
+- Most accessible travel season (good for longer adventures)
+
+---
+
+## MONTH 4: WANING (Early Autumn)
+
+**Theme:** Preparation, unease, first warnings, transition
+
+**Weather:**
+- Temperatures 65-80°F, dropping mid-month
+- Rain returns (10-15 days)
+- Days noticeably shorter (dawn ~7am, dusk ~8pm)
+- First frost warnings by month's end
+
+**Events:**
+
+1. **Harvest Celebration Week** (Days 1-7)
+   - Early crops come in; celebrations begin
+   - Bonfires, feasting, gratitude rituals
+   - *Flavor:* Optimistic atmosphere; hope for full harvest
+   - *Complication:* Poor harvests in some areas create tension
+
+2. **Preparation Frenzy** (Days 8-28)
+   - Settlements work 12-hour days harvesting/preserving
+   - Little travel (everyone occupied)
+   - Supply chains interrupted
+   - *Mechanical:* Time skips easily ("A week passes as harvest continues")
+
+3. **Weather Omen Days** (Days 20-25)
+   - Unseasonable cold snaps or warm spells
+   - Priests interpret as signs (good/bad harvest, upcoming events)
+   - *Atmosphere:* Superstition peaks; people nervous
+   - *Hook:* Fake omens could be Echo manipulation
+
+4. **Farewell Moon Festival** (Days 27-30)
+   - Last major outdoor celebration before winter
+   - People say goodbye to those leaving for distant places
+   - *Flavor:* Bittersweet tone; season of departure
+   - *Hook:* Someone leaves Northreach (departure of an NPC ally?)
+
+**NPC Activity:**
+- Farmers: Absent (harvest work)
+- Merchants: Traveling to markets (selling harvest)
+- Brenna: Reduced contract availability (fewer people requesting help)
+- Elric: Concerned about weather patterns; noting anomalies
+
+**If Campaign Arc advancing:**
+- Factions begin shifting (preparing for winter/conflict)
+- Some NPCs depart for the season
+- Loyalties clarify (who stays, who leaves)
+
+**Mechanical Impact:**
+- Settlements feel empty (harvest work)
+- Fewer NPCs available
+- Certain resources scarce (merchants gone)
+- Good season for isolated adventures
+
+---
+
+## MONTH 5: DEEPFALL (Autumn, Late)
+
+**Theme:** Urgency, darkness growing, preparations finishing, unease settling
+
+**Weather:**
+- Temperatures 50-70°F, trending down
+- Frequent rain (15-20 days; occasionally severe)
+- Days significantly shorter (dawn ~8am, dusk ~6pm)
+- First major snow possible at month's end
+
+**Events:**
+
+1. **Defenses reinforced** (Throughout month)
+   - Settlements repair walls, fortifications
+   - Supply gathering accelerates
+   - *Flavor:* Sense of preparing for siege/winter
+   - *Hook:* Supply line disruptions could be Echo, could be bandits
+
+2. **Last Trading Caravans** (Days 1-10)
+   - Final major caravans before winter road closure
+   - High prices (urgency buying)
+   - *Adventure Hook:* "One last caravan needs escort"
+
+3. **Guild Winter Posting** (Days 12-14)
+   - Brenna posts seasonal adjustment to contracts
+   - Some Wardens rotate to remote settlements for winter
+   - Some contracts go on hold (dangerous locations closed till spring)
+   - *Mechanical:* Party might need to commit to winter location or hunker down
+
+4. **Thanksgiving Rituals** (Days 16-18)
+   - Harvest officially ends; final blessings given
+   - Gratitude for survival another year
+   - *Flavor:* Reflective, somber tone
+   - *Hook:* Thanksgiving could become wake if tragedy strikes
+
+5. **Migration Season** (Throughout month)
+   - Large animal herds moving to winter grounds
+   - Hunters follow (chase the herds)
+   - *Flavor:* Sense of nature preparing
+   - *Complication:* Echo creatures moving (confusing or ominous?)
+
+6. **First Snow Panic** (Days 25-31)
+   - When first snow falls, settlements feel relief or panic
+   - Relief: Winter is expected, they're prepared
+   - Panic: If they're behind on preparations
+   - *Mechanical:* If Echo effects accelerated, settlements might be underprepared
+
+**NPC Activity:**
+- Farmers: Finishing harvest; storing food
+- Brenna: Reassigning Wardens to winter posts
+- Mara: Finalizing winter supplies
+- Elric: Preparing research for indoor months
+- Merchants: Last-minute pricing and deals
+
+**Campaign Pacing Note:**
+- This is often end-of-Act-1 or mid-Act-2 timing
+- Good place for major revelation or twist
+- Prepares for winter's isolating effects
+
+**Mechanical Impact:**
+- Travel becomes dangerous (snow, ice, cold)
+- Some locations become inaccessible
+- Settlements hunker down; fewer people available
+- Indoor/sheltered adventures more likely
+
+---
+
+## MONTH 6: DEEPWINTER (Winter Solstice & Peak Winter)
+
+**Theme:** Darkness, isolation, survival, stillness, secrets revealed indoors
+
+**Weather:**
+- Temperatures 20-40°F, occasionally below zero
+- Heavy snow (25+ days; 15-30 inches accumulated)
+- Shortest days (dawn ~9am, dusk ~4:30pm)
+- Roads nearly unusable
+
+**Events:**
+
+1. **Solstice Festival** (Solstice Days 20-23, Midwinter)
+   - Celebration of light's return (even though darkest day is now)
+   - Bonfires, indoor feasting, storytelling
+   - Factions celebrate differently (political intrigue)
+   - *Atmosphere:* Desperate gaiety; darkness fought with fire/light/celebration
+
+2. **Deep Winter Lockdown** (Days 1-31)
+   - Settlements largely isolated; people stay indoors/local
+   - No travel between settlements practical
+   - Social structures intensify (gossip, politics, intimacy, conflict)
+   - *Mechanical:* Party stuck in one location or area
+
+3. **Winter Storytelling** (Nightly throughout month)
+   - Fireside tales; history retold; legends discussed
+   - Good time for NPCs to reveal secrets/backstory
+   - *Hook:* Story reveals important lore about Echo/Aeor
+
+4. **Supply Shortage Crises** (Possible, Days 10-20)
+   - If harvest was poor or supplies low, shortages hit
+   - Potential starvation, rationing, desperation
+   - *Adventure Hook:* "Find food/fuel" emergency missions
+   - *Complication:* If Echo effects caused harvest failure, settlements might blame guild
+
+5. **Avalanche/Blizzard Season** (Days 15-25)
+   - Mountain areas experience major snow events
+   - People buried or lost
+   - *Adventure Hook:* Rescue missions; supply delivery
+
+6. **New Year Threshold** (Days 28-31)
+   - Celebrations of year's end
+   - New Year's resolutions; people set intentions
+   - *Flavor:* "New chapter beginning"
+
+7. **Solstice Mysteries** (Throughout month, especially nights)
+   - Strange lights in sky (Echo manifestations? Natural phenomenon?)
+   - Prophetic dreams (more vivid in dark, cold isolation)
+   - *Atmosphere:* Superstition peaks; people frightened
+   - *Hook:* Echo is actively doing something? Or just winter eeriness?
+
+**NPC Activity:**
+- Brenna: Coordinating rescue operations; managing supplies
+- Mara: Rationing resources; solving shortages
+- Elric: Researching by firelight; more accessible for discussion
+- Father Merriksonn: Leading spiritual ceremonies; comforting frightened people
+- Isolated settlements: Politics/conflict intensify indoors
+
+**Peak Campaign Positioning:**
+- Often Act 2 climax or Act 3 beginning
+- Long indoor sequences good for investigation/revelation
+- Isolation creates tension differently (external threats replaced by internal pressure)
+
+**Mechanical Impact:**
+- Movement speed halved (snow, ice)
+- Constitution saves required (cold damage if unprepared)
+- Most adventures must be near settlements or planned ahead
+- Social encounters dominate
+- Perfect for investigation/mystery revelation games
+
+---
+
+## MONTH 7: THAWTHAW (Late Winter/Early Spring)
+
+**Theme:** Desperation, anticipation, fragility, hope beginning
+
+**Weather:**
+- Temperatures 30-50°F, warming trend
+- Snow melts; rivers flood
+- Days lengthening noticeably (dawn ~7:30am, dusk ~6:30pm)
+- Unpredictable weather (warm days followed by freezes)
+
+**Events:**
+
+1. **Late Winter Festival** (Days 5-7)
+   - Celebratory break in midwinter monotony
+   - Lesser festival than Solstice but important morale boost
+   - *Flavor:* Fragile happiness; people desperate for distraction
+
+2. **Spring Scouting** (Days 10-15)
+   - Early travelers scout routes for their journeys
+   - Bandit activity peaks (desperate for winter supplies)
+   - *Adventure Hook:* "Scout for bandits" or "Explore route"
+
+3. **River Flooding** (Days 18-31)
+   - Snow melt causes river swells, occasional flooding
+   - Travel routes cut off temporarily
+   - *Mechanical:* Specific paths impassable for 2-3 weeks
+   - *Adventure Hook:* "Retrieve supplies trapped across river" or "Rescue flooded settlement"
+
+4. **Spring Fever** (Throughout month)
+   - People restless; cabin fever peaks
+   - Conflicts between people, families
+   - Wanderlust strong
+   - *Emotional Tone:* Everyone wants to travel/escape
+   - *Hook:* Relationship crises, elopements, departures
+
+**NPC Activity:**
+- Brenna: Planning for spring; increased contract availability
+- Merchants: Eager to resume trading; gathering supplies for caravans
+- Young people: Desperate to leave settlements after isolation
+- Farmers: Planning spring plantings
+
+**Campaign Pacing:**
+- Acts shifting; new momentum building
+- Revelations from winter ready to be acted upon
+- Return to travel and action (after isolated winter)
+
+**Mechanical Impact:**
+- Travel beginning to open up but still dangerous
+- Flooding creates temporary barriers
+- Good transition month (Acts shifting)
+- Movement back to normal speeds
+
+---
+
+## SPECIAL EVENTS (Can Occur Any Month)
+
+### Political Events
+- **Faction Crisis:** One faction splinters, allies with another, or declares war
+- **Diplomatic Summit:** Major factions meet to negotiate
+- **Leadership Change:** Important NPC gains/loses power
+- **Public Speech:** Faction leader addresses crowds (propaganda or truth?)
+
+### Natural Disasters
+- **Plague Outbreak:** Disease spreads through settlements
+- **Earthquake:** Minor tremor (major if tied to Echo) shakes region
+- **Forest Fire:** Wildfire threatens settlements or creates refugee crisis
+- **Monster Surge:** Unusual number of creatures (Echo related?)
+
+### Echo-Specific Events
+- **Echo Manifestation Event:** Supernatural occurrence tied to Aeorian effects
+- **Artifact Discovery:** Someone finds Aeorian item (conspiracy alert)
+- **Vision Wave:** Multiple people experience same prophetic dream
+- **Magic Surge:** System-wide magical malfunction or breakthrough
+
+### Personal Events
+- **NPC Birthday/Anniversary:** Celebration or remembrance
+- **NPC Romance Development:** Relationship milestone/crisis
+- **NPC Betrayal/Redemption:** Character alignment shifts
+- **NPC Death:** Important person dies (natural, accident, or violence)
+
+---
+
+## USING THIS CALENDAR IN PRACTICE
+
+### Session 1 Planning
+"We're in Greenrise (Month 1). There's a Guild Supply Expedition happening. The party could escort it, or focus on recruiting adventures. Festival happening in 2 weeks."
+
+### Building Atmosphere
+"You enter Waystone Inn as autumn winds rattle the windows. The Deepfall Festival preparations are underway."
+
+### Creating Timeline Pressure
+"It's mid-Deepwinter. Most settlements are snowed in. You have maybe 3 weeks before spring travel opens again."
+
+### Seasonal Consequences
+"Poor harvest in Deepfall means supply shortages in Deepwinter. Father Merriksonn is rationing church supplies."
+
+### Repeating Elements
+"Like last year, spring's flooding has cut off the northern road again. Supply isn't getting through."
+
+---
+
+## CALENDAR CHEAT SHEET
+
+| Month | Season | Temp | Travel | Mood | Best For |
+|-------|--------|------|--------|------|----------|
+| 1. Greenrise | Early Spring | 45-65 | Slow (mud) | Hopeful | Recruitment, introductions |
+| 2. Blooming | Spring | 55-70 | Good | Growth | Romance, new beginnings |
+| 3. Highsummer | Summer | 70-90 | Best | Chaotic | Festivals, investigations, social chaos |
+| 4. Waning | Fall | 65-80→50 | Good | Anxious | Preparation, transitions |
+| 5. Deepfall | Late Fall | 50-70→40 | Moderate | Urgent | Action, rising stakes |
+| 6. Deepwinter | Winter | 20-40 | Impassable | Isolated | Mystery, revelation, indoor games |
+| 7. Thawthaw | Late Winter | 30-50 | Difficult | Desperate | Crisis, transitions, hope |
+
+**Repeat Spring (Month 1) → Cycle continues**
+
+---
+
+**Companion Documents:**
+- [Adventure_Quick_Reference.md](Adventure_Quick_Reference.md) — Mark adventures with seasonal recommendations
+- [Session_Prep_Master_Checklist.md](Session_Prep_Master_Checklist.md) — Check seasonal events during prep
+- [Campaign_Tracker.md](Campaign_Tracker.md) — Track current month/season
+
+\page
+# Travel Encounter Library
+
+**30+ Prompts for Encounters Between Settlements**
+
+This document provides flexible encounter prompts for when PCs travel between Northreach locations. Encounters can be used as one-off encounters, expanded into side quests, or woven into campaign plot.
+
+---
+
+## HOW TO USE THIS LIBRARY
+
+**For Random Travel:**
+- When party travels between locations, roll 1d30 or choose encounter
+- Each encounter takes 15-30 minutes at table
+- Encounters are modular (work independently)
+
+**For Pacing:**
+- One encounter per travel day (4-8 hour journey)
+- Longer journey = multiple encounters
+- Encounter results affect party condition for next encounter
+
+**For Mystery Weaving:**
+- 7 encounters are Echo-connected (marked 🔵)
+- Others provide world-building or side quest hooks
+- Some can tie to current adventure's themes
+
+**For Encounter Scaling:**
+- Adjust creature difficulties for party level (see brackets)
+- Use "easier" version if party is underleveled
+- Use "harder" version if encountering party seems unstoppable
+
+**GM Note:** These aren't combat-only. Mix provides combat, roleplay, investigation, and discovery opportunities.
+
+---
+
+## COMBAT ENCOUNTERS (10)
+
+### 1. BANDITS ON THE ROAD
+
+**Setup:** 3-4 humanoids (bandits, brigands, or desperate commoners) on narrow road, attempting robbery
+
+**Creatures:** Bandits (CR 1/8) or Thugs (CR 1/8)
+
+**Encounter Level:**
+- Easier (Levels 1-2): 2 Bandits
+- Standard (Levels 3-5): 3 Bandits + 1 Thug
+- Harder (Levels 6+): 2 Thugs + 1 Bandit Captain (CR 2)
+
+**Tactical Approach:**
+- Ambush from flanking positions (trees, rocks, ditches)
+- Retreat if losing (cowards)
+- Surrender if leader drops
+
+**Why They're Here:**
+- Desperation (poor harvest, coin needed)
+- Organized crime (part of larger gang)
+- Opportunity (party looks wealthy)
+
+**Possible Outcomes:**
+- **Defeat Bandits:** Search for loot; find letter mentioning "The Architect" (Echo connection? Cult?)
+- **Parley & Hire:** Bandits could become allies for specific tasks
+- **Mercy & Spare:** Bandit owes party favor; becomes contact
+- **Dead Bandits:** Settlements react based on bandit group's reputation
+
+**Echo Connection (🔵 if result includes "letter"):**
+- Letter is coded; could lead to cult investigation
+- Or: Bandits were Echo-influenced (strange behavior, alien directives)
+
+---
+
+### 2. PACK OF AWAKENED WOLVES
+
+**Setup:** 3-6 wolves demonstrate unnatural intelligence and coordination
+
+**Creatures:** Awakened Wolves (use Wolf stat block, add rudimentary speech ability)
+
+**Encounter Level:**
+- Easier (Levels 1-2): 2 Wolves (intelligence not yet apparent)
+- Standard (Levels 3-5): 3-4 Awakened Wolves (coordinated tactics)
+- Harder (Levels 6+): 4-5 Awakened Wolves + 1 Dire Wolf leader (intelligent speech)
+
+**Tactical Approach:**
+- Wolves use pack tactics (flank, isolate weak target)
+- If damaged significantly, leader offers negotiation
+- Can flee if disengaging path available
+
+**Why They're Here:**
+- Echo-influenced (awakening spread)
+- Territorial (defending range)
+- Hunting (natural hunger + unnatural coordination)
+
+**Possible Outcomes:**
+- **Combat Victory:** Wolves drop; search for causative items (crystals? artifacts?)
+- **Negotiation:** Wolves speak; communicate needs (food, territory, escape from "something wrong in their heads")
+- **Capture/Contain:** Difficult; awakened wolves are intelligent enough to resist
+- **Escape & Report:** Party escapes; learns wolves are coordinated (mystery clue)
+
+**Echo Connection (🔵):**
+- **Definite:** This IS Echo manifestation
+- Investigation reveals wolves mentioned in "Wolves of Welton" earlier
+- Spreading northward
+- Wolves explain: "We were animals. Now we think. We feel. We know we will die."
+
+**Follow-Up:**
+- If not killed, wolves become recurring encounter (could be allies later)
+- Other settlements report similar packs
+- Pattern recognition moment
+
+---
+
+### 3. MERCENARY COMPANY CHECKPOINT
+
+**Setup:** Well-organized mercenary company has established toll checkpoint
+
+**Creatures:** Veteran soldiers or mercenaries (CR 1/8 - 1/4)
+
+**Encounter Level:**
+- Easier (Levels 1-2): 2 Veterans, no real fight intended
+- Standard (Levels 3-5): 3-4 Veterans with sergeant
+- Harder (Levels 6+): 4-5 Veterans + 1 Captain (CR 1) with morale
+
+**Tactical Approach:**
+- Mercenaries are professional (fair fight, not ambush)
+- Demand toll or safe passage fee (5-25 gp)
+- Combat only if party refuses and refuses to negotiate
+- Will retreat if captain drops (survival-focused)
+
+**Why They're Here:**
+- Hired by faction to control road
+- Bandits rebranded as organized force
+- Private security company
+
+**Possible Outcomes:**
+- **Pay Toll:** Quick resolution; mercenaries provide information if paid extra
+- **Negotiate:** Can reduce toll with Charisma check
+- **Combat:** Possible but brutal (well-trained soldiers)
+- **Warden Authority:** If party is high-rank Wardens, mercenaries might defer
+- **Bribe Captain:** Captain accepts larger bribe for "looking the other way"
+
+**Complication:**
+- Mercenaries are working for specific faction (identify which)
+- Ask revealing questions: "Who hired you? What factions gave orders?"
+- Leads to faction tensions
+
+**Echo Connection (🔵 Possible):**
+- If Echo cultists have hired mercenaries, checkpoint becomes cult recruitment point
+- Or: Mercenaries attacked by Echo creatures (encounter refugees/survivors)
+
+---
+
+### 4. MONSTER: MANTICORE/HYDRA/CHIMERA
+
+**Setup:** Single large predator hunting travelers; encounters party
+
+**Creatures:** Manticore (CR 3), Hydra (CR 8, hard!), or Chimera (CR 6, hard!)
+
+**Encounter Level:**
+- Easier (Levels 1-3): Manticore (CR 3) - adjustable
+- Standard (Levels 4-7): Chimera (CR 6) - dangerous
+- Harder (Levels 8+): Hydra (CR 8) - terrifying
+
+**Tactical Approach:**
+- Monster is territorial (defending hunting ground)
+- Intelligent tactics (not mindless)
+- Can be driven off or negotiated with (if player creativity shines)
+
+**Why It's Here:**
+- Natural predator defending territory
+- Unnatural creature (Echo-influenced mutation?)
+- Or: Creature escaped from captivity
+
+**Possible Outcomes:**
+- **Combat Victory:** Monster drops; rare loot; monster's lair could have treasures
+- **Escape/Retreat:** Party survives; monster claimed territory (route becomes dangerous)
+- **Capture/Taming:** Very difficult but possible; creature could become ally
+- **Negotiation:** If intelligent, creature might agree to terms (stay off certain roads)
+
+**Echo Connection (🔵 if mutated):**
+- Monster shows evidence of Aeorian modification (crystalline growths, unnatural features)
+- Could be test creature (Echo's experiments)
+- Leads to investigations of creature origins
+
+**Environment Advantage:**
+- Monster's lair nearby; cave/forest with potential treasure
+- If lair is ancient, could contain Aeorian artifacts
+
+---
+
+### 5. CARAVAN AMBUSH
+
+**Setup:** Party encounters ongoing combat; caravan being attacked by bandits/creatures
+
+**Creatures:** Mixed (2-3 bandits + 1-2 creatures, or larger bandit force)
+
+**Encounter Level:**
+- Easier (Levels 1-3): 4-5 Bandits vs 2 caravan guards
+- Standard (Levels 4-6): 2-3 Thugs + 1 large creature vs 3 caravan guards
+- Harder (Levels 7+): 4-5 Bandits/Thugs + 2 creatures vs 2-3 caravan guards
+
+**Tactical Approach:**
+- Combat ongoing when party arrives
+- Party can join caravan side or attempt to stop both
+- Creatures/bandits may target party instead
+- Caravan guards may be panicked
+
+**Why It's Happening:**
+- Organized bandit attack (coordinated theft)
+- Monster predation (wrong place, wrong time)
+- Echo creatures attacking civilians (spreading terror)
+
+**Possible Outcomes:**
+- **Save Caravan:** Grateful merchants; potential reward; reputation gain
+- **Fail to Save:** Caravan destroyed; survivors traumatized; guilt/failure consequences
+- **Negotiate Stop:** Difficult but possible; bandits might accept surrender
+- **Use It:** Party talks to surviving bandits about why they attacked
+
+**Reward:**
+- Merchants offer 50-500 gp depending on cargo value
+- Grateful driver offers free passage to next settlement
+- Caravan master becomes NPC ally
+
+**Echo Connection (🔵 if creatures involved):**
+- Awakened creatures attacking caravan (new phenomenon)
+- Spreads fear in travel community
+- Caravans begin hiring more guards
+- Demand for Warden protection increases
+
+**Complication:**
+- Caravan master was transporting Echo artifacts (didn't know)
+- If party accepts protection mission, discovers cargo significance
+- Or: Bandits were specifically after artifact (organized theft)
+
+---
+
+### 6. CULTIST ENCOUNTER
+
+**Setup:** 3-5 cultists (Echo cultists or another faction) on road performing ritual
+
+**Creatures:** Cultists (AC 11-13, low HP), possibly leader with more power
+
+**Encounter Level:**
+- Easier (Levels 1-2): 3 Cultists (low threat)
+- Standard (Levels 3-5): 4 Cultists + 1 Priest (CR 2)
+- Harder (Levels 6+): 5 Cultists + 1 Cult Fanatic (CR 2) + magical wards
+
+**Tactical Approach:**
+- Cultists are fanatics (fight to death or flee to spread word)
+- May attempt to convert party rather than kill
+- If interrupted mid-ritual, ritual might complete or fail
+- Leaders have spell abilities
+
+**Why They're Here:**
+- Performing ritual (what kind? for Echo? for other deity?)
+- Traveling between cult strongholds
+- Recruitment mission
+
+**Possible Outcomes:**
+- **Stop Ritual:** Ritual interrupted; cultists flee or fight; learn what ritual was about
+- **Capture Cultist:** Interrogate for information about cult structure
+- **Join Cult?** If party is amoral; they could infiltrate cultist network
+- **Destroy Cult:** Kill all cultists; loot sacred items
+
+**Investigation:**
+- Party finds cult papers (coded letters, targets, recruitment lists)
+- Learn about cult's goals, structure, membership
+- Potential leads to larger conspiracy
+
+**Echo Connection (🔵 if Echo cultists):**
+- Confirms Echo-worship movement exists
+- Learn about cult's believes (fear, transcendence, evolution, doom?)
+- Discover cult cells in other settlements
+- Cult is recruiting from desperate populations
+
+**Complication:**
+- Cultic ritual could attract Echo manifestation (ritual succeeds in summoning something)
+- Party must handle both cultists and manifestation
+
+---
+
+### 7. WILD MERCENARIES / ROGUE WARDENS
+
+**Setup:** Individuals claiming to be Wardens OR mercenaries with forged credentials demanding toll/raid
+
+**Creatures:** 2-3 fighters (CR 1/4 - 1/2)
+
+**Encounter Level:**
+- Easier (Levels 1-3): 2 "Wardens" (obviously fake if examined)
+- Standard (Levels 4-5): 3-4 with forged credentials (harder to identify)
+- Harder (Levels 6+): 2-3 with excellent forgeries + magical backup
+
+**Tactical Approach:**
+- Poseurs attempt negotiation first (bluffing)
+- Combat if caught or threatened
+- Flee if losing (thieves, not warriors)
+
+**Why They're Here:**
+- Bandits with fake crests (prey on travelers who trust symbol)
+- Rogue former Wardens (expelled from guild, working independently)
+- Con artists (pose as Wardens to extort money)
+
+**Possible Outcomes:**
+- **Catch Them:** Expose forgery; turn in to authorities (guild authority if Wardens)
+- **Destroy Credentials:** Prevent future fraud
+- **Recruit:** If charismatic, rogue Wardens could join player company
+- **Negotiate:** Might agree to leave in exchange for payment
+
+**Complication:**
+- If rogue Wardens, they have legitimate grievances (wrongfully expelled, unfair judgment)
+- Could become allies if treated fairly
+- Or enemies if dismissed/attacked
+
+**Guild Impact:**
+- Report to Brenna (affects guild's reputation)
+- Affects access to guild resources/authority
+- May need to hunt down rogue cell
+
+---
+
+### 8. MILITIA CONFRONTATION
+
+**Setup:** Organized militia (settlement defense force) confronts party; suspicious of outsiders
+
+**Creatures:** 3-5 soldiers (CR 1/4) with commander (CR 1/4 - 1/2)
+
+**Encounter Level:**
+- Easier (Levels 1-3): 2-3 Soldiers (nervous, not aggressive)
+- Standard (Levels 4-6): 4 Soldiers + 1 Commander (trained, organized)
+- Harder (Levels 7+): 5 Soldiers + 1 Commander with spellcaster support
+
+**Tactical Approach:**
+- Militia is defensive (protecting settlement borders)
+- Organized formation (trained fighters)
+- Not looking for combat if unnecessary
+- Follow orders strictly
+
+**Why They're Here:**
+- Settlement under alert (possible threat nearby)
+- Hostile factions moved into region
+- Echo effects making people paranoid
+- Militia is over-zealous
+
+**Possible Outcomes:**
+- **Pass Peacefully:** Establish credentials; militia waves through
+- **Negotiate:** Claim legitimate business; militia verifies with settlement
+- **Bluff:** Impersonate officials or merchants (risky)
+- **Combat:** Avoid unless party is reckless
+
+**Information Gathering:**
+- Ask militia about recent activity
+- Learn about threats (bandits, creatures, factions)
+- Discover settlement's concerns
+- Get local intelligence
+
+**Complication:**
+- Militia has orders to capture/arrest specific individuals (coincidence your NPC is one?)
+- Or: Militia is corrupt (shake-down operation)
+- Or: Militia is rightfully suspicious (party looks wrong for the area)
+
+---
+
+### 9. LONE SURVIVOR
+
+**Setup:** Single desperate person flagging down party; needs immediate help
+
+**Creature:** NPC survivor (unarmed, panicked)
+
+**Why They're Here:**
+- Escaped bandits
+- Survived monster attack
+- Fleeing violence in settlement
+- Lost from caravan
+
+**Immediate Need:**
+- **Healing/Shelter:** Survivor is injured or ill
+- **Protection:** Fear of pursuit
+- **Guide:** Transport to settlement/help location
+- **Investigation:** "What happened to the others?"
+
+**Story Hooks:**
+- Survivor is important NPC (becomes ally, romance, questgiver)
+- Message/warning from settlement ("They sent me to warn travelers")
+- Key information about larger threat ("You have to stop them")
+- Betrayal possibility (survivor is spy or cultist)
+
+**Encounter Development:**
+- Survivor reveals partial information
+- Party decides to help invest resources
+- This becomes side adventure
+
+**Echo Connection (🔵 possible):**
+- Survivor escaped from Echo cultists
+- Or: Witnessed Echo manifestation
+- Or: Infected with Echo effects (becomes secondary plot)
+
+**Complication:**
+- Pursuers arrive while party is helping
+- Creates combat encounter (rescue scenario)
+- Or: Survivor reveals they deserve their fate (twisted hook)
+
+---
+
+### 10. MAGICAL PHENOMENON
+
+**Setup:** Unnatural magical effect on road (storm, gate, artifact, residue)
+
+**Creatures:** None (environmental hazard)
+
+**Nature of Phenomenon:**
+- **Magical Storm:** Swirling magical energy; dangerous but not sentient
+- **Dimensional Rift:** Tear in reality; glimpses of other places
+- **Arcane Residue:** Area is magically saturated; spells behave strangely
+- **Ancient Weapon:** Enchanted object on road; half-buried
+
+**Encounter Level:**
+- All: Environmental threat (not creature-based)
+- Can be avoided with survival check
+- Or: Investigated for loot/knowledge
+
+**Why It's Here:**
+- Echo manifestation (magical instability spreading)
+- Old battle site (residual magic)
+- Artifact malfunction
+- Planar weakening
+
+**Possible Outcomes:**
+- **Circumvent:** Travel around it (costs time)
+- **Push Through:** Constitution/Dexterity saves to cross safely
+- **Investigate:** Learn about magical effect; possible artifact recovery
+- **Damage Taken:** If crossed carelessly
+
+**Investigation Rewards:**
+- Magical item (damaged, needs repair)
+- Information about Aeor (ruins? weapons?)
+- Spell components (valuable)
+- Loot from prior battle
+
+**Echo Connection (🔵):**
+- Phenomenon IS Echo effect (spreading magical destabilization)
+- If investigated, reveals Echo presence in region
+- Correlates with other sightings
+- Pattern recognition moment
+
+---
+
+\column
+
+## ROLEPLAY ENCOUNTERS (10)
+
+### 11. LOST MERCHANT
+
+**Setup:** Elderly merchant lost on road; claims bandits redirected them; needs guide
+
+**NPC:** Merchant (unarmed, wealthy-looking)
+
+**Immediate Need:**
+- Guide to next settlement
+- Information about bandits
+
+**Possible Outcomes:**
+- **Help Directly:** Party escorts merchant; bonds formed
+- **Give Directions:** Quick resolution; merchant offers small reward
+- **Suspicious:** Merchant might be con artist or cultist
+- **Recruit:** Merchant becomes ally/NPC contact
+
+**Reward:**
+- 50-100 gp as thanks
+- Free goods from merchant's cart
+- Merchant contacts in other settlements
+
+**Complication:**
+- Bandits (mentioned by merchant) are actually just settlement militia
+- Or: Merchant is fencing stolen goods (becomes moral choice)
+- Or: Merchant has contraband/Echo artifacts hidden
+
+---
+
+### 12. SETTLEMENT REFUGEE CARAVAN
+
+**Setup:** Group of 20-50 refugees (families, elderly, children) fleeing settlement
+
+**NPCs:** Refugees led by commanding figure (priest, noble, retired soldier)
+
+**Immediate Need:**
+- Assistance or safe passage
+- Information about settlement they fled from
+- Help with threats
+
+**Possible Outcomes:**
+- **Protect Caravan:** Becomes multi-day quest (travel security)
+- **Investigate Reason:** Learn about settlement threat
+- **Refuse Help:** Players move on but refugees suffer fate
+- **Relocate Refugees:** Negotiate settlement to accept refugees
+
+**Information Available:**
+- Why they fled (Echo? Bandits? Famine? War?)
+- Settlement status (threat still present?)
+- Refugee leader's background
+- Potential for refugee quest-line
+
+**Campaign Impact:**
+- Refugee population changes regional dynamics
+- Settlement population questions where refugees went
+- Potential for refugee camp subplot
+
+**Echo Connection (🔵 possible):**
+- Refugees fled Echo manifestation
+- Settlement under Echo control
+- This is warning of Echo expansion
+- Mortality of Echo threat becomes real (these people lost everything)
+
+---
+
+### 13. TRAVELING SCHOLAR/WIZARD
+
+**Setup:** Eccentric scholar or wizard traveling the roads; invites party conversation
+
+**NPC:** Scholar or Wizard (odd but harmless)
+
+**Conversation Topics:**
+- Current research (potentially helpful)
+- Ancient ruins (knows about Aeor?)
+- Local legends and mysteries
+- Observations about region's changes
+
+**Information Available:**
+- Academic knowledge about lore
+- Practical advice about threats
+- Potential quest leads
+- Character relationship building
+
+**Possible Outcomes:**
+- **Become Ally:** Scholar joins party temporarily or becomes contact
+- **Trade Information:** Share clues about mystery
+- **Commission:** Hire scholar for research
+- **Dismiss:** Party leaves, scholar notes party's indifference (karma?)
+
+**Echo Connection (🔵):**
+- Scholar pursuing Echo research
+- Has theories about Aeorian technology
+- Could be valuable resource if party is investigating mystery
+
+**Complication:**
+- Scholar is actually cultist or Echo agent (infiltration)
+- Or: Scholar is crazy (false information mixed with truth)
+- Or: Scholar's research is dangerous (awakening something)
+
+---
+
+### 14. SETTLEMENT MESSENGER
+
+**Setup:** Messenger on urgent business; might share information or request help
+
+**NPC:** Messenger on horseback (official-looking, urgent)
+
+**Message Content:**
+- Warning about bandits/creatures
+- Request for Warden assistance
+- News from distant settlement
+- Diplomatic communication
+
+**Possible Outcomes:**
+- **New Quest:** Messenger offers contract or mission
+- **Information:** Learn about regional events
+- **Alliance:** Messenger's faction becomes more present
+- **Ignore:** Messenger moves on; consequences develop later
+
+**Complication:**
+- Messenger is actually spy (working for faction against party)
+- Or: Message is false (disinformation)
+- Or: Messenger asks for party's help with personal crisis
+
+---
+
+### 15. GHOSTLY APPARITION / UNDEAD ENCOUNTER
+
+**Setup:** Party encounters ghost, spirit, or undead on road; not immediately hostile
+
+**Creature:** Ghost (CR 4), Specter (CR 3), or Wraith (CR 6)
+
+**Setup Type:**
+- **Lost Soul:** Spirit trapped; doesn't realize it's dead
+- **Vengeful Shade:** Spirit seeking revenge on specific person/group
+- **Guardian:** Spirit protecting place/object
+- **Cursed:** Spirit suffering; seeks release
+
+**Possible Outcomes:**
+- **Destroy It:** Combat (use turn undead if necessary)
+- **Sympathize:** Help spirit resolve its issue (mystery quest)
+- **Banish:** Use magic to force it away
+- **Possess:** Spirit tries to enter PC body (risky)
+
+**Investigation/Resolution:**
+- Learn why spirit exists
+- Uncover buried history
+- Discover location of spirit's concern
+- Potentially gain magic item or information as reward
+
+**Echo Connection (🔵 possible):**
+- Spirit is created by Echo (Aeorian curse?)
+- Or: Spirit has knowledge of Aeor
+- Or: Spirit is warning of Echo danger
+
+---
+
+### 16. FACTIONS IN CONFLICT (MINOR)
+
+**Setup:** Small faction vs. faction confrontation; party can influence outcome
+
+**NPCs:** 2-4 representatives from each side (non-lethal tension)
+
+**Conflict Types:**
+- **Territorial:** Factions disputing land/route control
+- **Ideological:** Different beliefs creating tension
+- **Economic:** Trade route or resource competition
+- **Personal:** Individual grudge between leaders
+
+**Possible Outcomes:**
+- **Mediate:** Help factions negotiate (party reputation grows)
+- **Favor One:** Support side (gain ally, lose other)
+- **Ignore:** Conflict escalates (creates future complication)
+- **Prevent Violence:** Separate factions peacefully
+
+**Information:**
+- Learn about faction tensions
+- Understand regional politics
+- Identify which side aligns with party values
+
+**Complication:**
+- Party is blamed for conflict (false accusation)
+- Or: Party's family/NPC is one of the contenders
+- Or: Conflict erupts into violence despite attempts to prevent
+
+---
+
+### 17. SEEKING WARDENS SPECIFICALLY
+
+**Setup:** NPC recognizes party as Wardens; has specific request/warning
+
+**NPC:** Settler, merchant, or patrol officer
+
+**Request Types:**
+- **Urgent Help:** Settlement crisis needs Warden response
+- **Warning:** "Don't go that direction; threat there"
+- **Information:** "We heard Wardens were here; please help"
+- **Quest:** "Will your company take this contract?"
+
+**Possible Outcomes:**
+- **Accept Contract:** New adventure hook
+- **Refuse:** NPC is disappointed (minor reputation hit)
+- **Investigate:** Party becomes locally famous
+- **Complaint:** NPC lodges complaint with guild (consequences?)
+
+**Campaign Impact:**
+- Party reputation grows in region
+- Settlements begin to expect Warden presence
+- Creates obligation/responsibilities
+
+---
+
+### 18. NPC ALLY MET EARLIER IN CAMPAIGN
+
+**Setup:** Party encounters NPC they met/helped earlier; has developed since
+
+**NPC:** Someone from earlier adventure (now evolved, changed, progressed)
+
+**Possible States:**
+- **Grateful:** Helped party again; offers aid
+- **Changed:** Become powerful, important, or corrupted
+- **In Danger:** Now threatened; seeks party help
+- **Betrayal:** Became enemy (joined opposing faction)
+- **Romance:** Relationship has developed
+
+**Emotional Impact:**
+- Party sees long-term consequence of their actions
+- Reinforces that world changes based on choices
+- Character relationships deepened
+
+**Campaign Value:**
+- Callbacks increase engagement
+- Repetition of NPCs makes world feel alive
+- Long-term consequence weight
+
+---
+
+### 19. TRAVELING CIRCUS / PERFORMERS
+
+**Setup:** Carnival or entertainment troupe on road; party can interact for fun
+
+**NPCs:** Performers, organizers, workers
+
+**Interaction Options:**
+- **Watch Show:** Entertainment; minor cost
+- **Recruit Help:** Performers could assist party (distraction, escape)
+- **Romance:** Performer catches party member's attention
+- **Danger:** Circus is actually cover for criminal activity
+- **Information:** Performers gather intel from settlements
+
+**Encounter Type:**
+- Primarily social/roleplay
+- Low combat threat
+- High fun/flavor value
+- Can lead to unexpected quest hooks
+
+---
+
+### 20. DESPERATE PERSON WITH STRANGE REQUEST
+
+**Setup:** Stranger with odd/unusual request; might be cultist, trickster, or genuine
+
+**NPC:** Mysterious stranger (alignment unknown)
+
+**Request Examples:**
+- "Will you help me steal something?"
+- "I need someone killed; I'll pay well"
+- "Please deliver this artifact to person in [distant settlement]"
+- "I need protection from something I can't name"
+
+**Possible Outcomes:**
+- **Refuse:** Move on; no consequences
+- **Investigate:** Learn what stranger really wants
+- **Help:** Accept request; discover it's more complex than stated
+- **Betray:** Turn stranger in to authorities
+
+**Complication:**
+- Stranger is cultist (recruitment attempt)
+- Or: Stranger is testing party for alliance
+- Or: Request is genuine but dangerous
+
+**Echo Connection (🔵 possible):**
+- Stranger is Echo-influenced or cultist
+- Request involves Echo artifact or ritual
+- Could be gateway to larger conspiracy
+
+---
+
+\column
+
+## DISCOVERY/INVESTIGATION ENCOUNTERS (10)
+
+### 21. RUINED CARAVAN
+
+**Setup:** Destroyed caravan (wagons overturned, contents scattered, bodies present)
+
+**Investigation Focus:**
+- What destroyed it? (evidence?)
+- How long ago? (tracks, decay)
+- Who was it? (identification, cargo)
+- Can it be salvaged? (treasure hunting)
+
+**Possible Discoveries:**
+- Corpses with strange wounds (Echo creatures?)
+- Cargo partially preserved (valuable?)
+- Journal or documents (clues?)
+- Survivor hiding nearby (maybe)
+
+**Danger:**
+- Thing that destroyed caravan nearby (still hungry)
+- Looters actively stealing (confrontation)
+- Traps or hazards (unstable structure)
+
+**Rewards:**
+- Salvageable cargo (100-500 gp worth)
+- Information (letters, documents)
+- Magic items (if caravan was valuable)
+- Quest hooks (find survivors, revenge quest)
+
+**Echo Connection (🔵 if Echo creatures destroyed it):**
+- Evidence of Echo attack (crystalline residue, strange wounds)
+- Caravan was transporting Echo artifacts
+- This reveals Echo activity spread to this region
+
+---
+
+### 22. MYSTERIOUS STRUCTURE
+
+**Setup:** Ancient structure (tower, ruin, monument) visible from road; ruins suggest age
+
+**Possible Types:**
+- **Tower:** Fallen wizard's tower (Aeorian?)
+- **Temple:** Ancient religious site (which deity?)
+- **Monument:** Statue or marker (commemorating what?)
+- **Ruin:** City or settlement remains (how old? what happened?)
+
+**Investigation Options:**
+- Examine structure for clues (history, purpose, abandonment)
+- Search interior (if accessible)
+- Research history (scholars, NPCs know lore)
+- Grave robbery or treasure hunting
+
+**Dangers:**
+- Unstable structure (falling debris)
+- Creatures inhabiting ruins (natural or unnatural)
+- Traps (if deliberately protected)
+- Magical wards (if powerful site)
+
+**Discoveries:**
+- Artifacts (potentially Aeorian)
+- Magical items
+- Historical records/tablets
+- Treasure
+- Curse (if site is protected)
+
+**Echo Connection (🔵 if Aeorian):**
+- Structure itself is Aeorian (confirms sites scattered in region)
+- Activation signs (crystalline growths, magical humming)
+- Clues about Aeor's technology
+- Connection to larger network reveals
+
+**Follow-Up:**
+- Party can report findings to Elric (reputation gain)
+- If significant (like Aeorian site), faction interest emerges
+
+---
+
+### 23. STRANGE PHENOMENON
+
+**Setup:** Environmental anomaly (not combat-dangerous but strange)
+
+**Natural Examples:**
+- Blue geometric frost (Echo sign 🔵)
+- Animals behaving wrong (intelligence, aggression)
+- Plants growing/dying unnaturally
+- Weather anomaly (unnatural storm, clear sky in rain season)
+
+**Investigation:**
+- Examine phenomenon carefully
+- Take samples (if safe)
+- Research cause
+- Pattern recognition
+
+**Possible Conclusions:**
+- Natural (unusual but explainable)
+- Magical (Echo? Magic surge? ley line activity?)
+- Curse (supernatural effect)
+- Omen (superstitious interpretation)
+
+**Campaign Impact:**
+- Party learns about phenomena patterns
+- Can track and map when/where anomalies occur
+- Builds slowly to realization that pattern is expanding
+
+---
+
+### 24. ABANDONED SETTLEMENT
+
+**Setup:** Entire village/settlement empty; buildings stand but no people
+
+**Investigation Focus:**
+- When was it abandoned?
+- Why? (violence? disease? natural disaster?)
+- Where did people go?
+- What remains behind?
+
+**Possible Scenarios:**
+- Recently abandoned (supplies still present)
+- Long abandoned (decayed, dangerous structure)
+- Evacuated orderly (organized departure)
+- Abandoned in panic (signs of struggle)
+
+**Environmental Telling:**
+- Homes intact vs. destroyed (urgency of departure)
+- Supplies left (need speed > need resources)
+- Bodies present (evil outcome?)
+- Graffiti/messages (final pleas?)
+
+**Discover:**
+- People fled due to threat (Echo? Bandits? Plague?)
+- If threat still present, party encounters it
+- Refugees might be in next settlement over
+- Can help track displacement patterns
+
+**Danger:**
+- Cause still present (monster, cultists, disease)
+- Scavengers/bandits using empty settlement
+- Structural hazards (decay, collapse)
+- Curse (if supernatural abandonment)
+
+**Echo Connection (🔵 if abandoned due to Echo):**
+- Evidence of Echo effects (crystalline growth, strange wounds)
+- Settlement was targeted experiment
+- Survivors carry Echo influence (spread it further)
+- Reveals scope of Echo's reach
+
+---
+
+### 25. CRIME SCENE / MURDER SITE
+
+**Setup:** Recent death; investigation opportunity
+
+**What Happened:**
+- Murder (actual crime)
+- Suicide (appearance vs. reality)
+- Accident (misinterpreted)
+- Echo manifestation disguised as crime
+
+**Investigation:**
+- Examine body (wounds, evidence)
+- Search area (clues, weapon, tracks)
+- Interview nearby people (alibi, motive, observation)
+- Determine truth
+
+**Possible Conclusions:**
+- Clear killer (arrest/revenge quest)
+- Mystery (investigation quest)
+- Misidentification (innocent blamed)
+- Cover-up (someone hiding truth)
+
+**Rewards:**
+- Justice served (reputation)
+- Evidence leading to larger crime
+- Magic item recovery
+- NPC connection/ally gain
+
+**Echo Connection (🔵 if Echo-created death):**
+- Victim shows Echo effects (crystalline wounds, unnatural death)
+- Or: Killer is Echo-influenced
+- Death appears impossible (Echo manifestation as murder weapon)
+
+---
+
+### 26. TREASURE/ARTIFACT CACHE
+
+**Setup:** Partially hidden treasure or magical item waiting discovery
+
+**Reasons It's Here:**
+- Hidden by someone long ago (lost to time)
+- Deliberately buried (protection or curse)
+- Recently dropped (escaped thief)
+- Placed as trap (by enemy)
+
+**Container:**
+- Chest (locked, maybe trapped)
+- Buried under marker
+- Hidden in structure
+- Displayed in ruins (obvious if searching)
+
+**Treasure Examples:**
+- Gold/gems (500-5000 gp)
+- Magic items (1-3 items)
+- Aeorian artifacts (100-2000 gp research value)
+- Documents (information value)
+- Cursed item (trap)
+
+**Complications:**
+- Trap (mechanical or magical)
+- Curse (if magical)
+- Visible to others (bandits following)
+- Owner returns (treasure has master)
+
+**Echo Connection (🔵 if Aeorian artifacts):**
+- Cache contains Aeorian items (technology, weapons)
+- Discovery prompts faction interest
+- Could be bait (Echo leading party to location)
+- In secured location, suggests historical cache
+
+---
+
+### 27. STRANGE ANIMAL BEHAVIORS
+
+**Setup:** Wild creatures acting unnatural (intelligence, territory crossing, unnatural alliance)
+
+**Examples:**
+- Predator and prey peacefully coexisting
+- Animals gathering in unnatural congregation
+- Creatures displaying unexplained intelligence
+- Migration patterns disrupted
+
+**Investigation:**
+- Observe behavior without interfering
+- Question causes
+- Research animal behaviors
+- Draw patterns
+
+**Possible Discoveries:**
+- Natural explanation (mating season, migration)
+- Echo effect (intelligence spreading, control)
+- Supernatural cause (divine blessing/curse)
+- Omen (superstitious interpretation)
+
+**Campaign Impact:**
+- Party learns ecosystem is changing
+- If Echo-caused, reinforces pattern of Echo expansion
+- Can lead to environmental quest (protect ecosystem)
+
+**Echo Connection (🔵):**
+- Animals are Echo-influenced
+- Spreading intelligence or coordination
+- Part of larger pattern party learns about
+
+---
+
+### 28. HIDDEN COMMUNITY / SETTLEMENT
+
+**Setup:** Small hidden community (cult, refugee group, hidden society)
+
+**Community Type:**
+- Echo cultists (hidden base)
+- Refugees hiding from persecution
+- Criminal hideout
+- Religious commune
+- Demihumans/outcasts
+- Smuggling operation
+
+**Initial Encounter:**
+- Scouts stop party
+- Party stumbles upon community
+- Someone from community seeks party
+- Party tracks someone to community
+
+**Possible Outcomes:**
+- **Peaceful Integration:** Learn about community; make allies
+- **Conflict:** Community sees party as threat
+- **Investigation:** Party investigates community's purpose
+- **Infiltration:** Party poses as members
+
+**Information Available:**
+- Community's history and purpose
+- Conflicts with wider society
+- Potential alliances/enemies
+- Resources or information
+
+**Echo Connection (🔵 if Echo cultist base):**
+- Cultist headquarters discovered
+- Learn about cult structure and goals
+- Potential combat encounter (defend community)
+- Or: Cult recruitment attempt
+
+**Complication:**
+- Community has member party knows (NPC relative, lost person)
+- Community is sympathetic but desperate (moral choice)
+- Community is genuinely dangerous regardless of initial impression
+
+---
+
+### 29. LOST PERSON ALIVE
+
+**Setup:** Missing person encountered alive; story different than believed
+
+**Context:**
+- Person was missing (thought dead)
+- Person is different now (changed, traumatized, corrupted)
+- Person's story conflicts with official narrative
+- Person's presence raises questions
+
+**Complications:**
+- Person doesn't want to be found (hiding for reason)
+- Person is changed (Echo-influenced? Cultist?)
+- Person is not who party thought (impostor? clone?)
+- Person made oath not to leave (hostage? willing?)
+
+**Information:**
+- Truth about what happened
+- New quest or revelation
+- Relationship with party member
+- Larger conspiracy hints
+
+**Echo Connection (🔵):**
+- Missing person was Echo victim (transformed, enlightened)
+- Or: Missing person fled Echo (hiding)
+- Or: Missing person is Echo agent now
+
+---
+
+### 30. CRYPTIC MESSAGE / WARNING
+
+**Setup:** Carved message, painted warning, or written note left for travelers
+
+**Message Types:**
+- "DON'T GO NORTH" (warning of danger)
+- "MARKER: SALSVAULT SOUTH 3 DAYS" (directional)
+- "THE WATCHERS ARE HERE" (warning of being monitored)
+- "FREE ME" (plea for help)
+- "THE ECHO WAKES" (cryptic threat/announcement)
+
+**Message Medium:**
+- Carved into tree (weathered; age unknown)
+- Painted on rock (fresh? old?)
+- Written note (paper, ink, script)
+- Arranged stones (deliberate marker)
+
+**Investigation:**
+- Determine age (fresh or old?)
+- Determine author (skill level, purpose)
+- Determine intended audience (all travelers? specific group?)
+- Determine urgency (warning? invitation? taunt?)
+
+**Possible Discovery:**
+- Marker for treasure (follow directions)
+- Warning of actual danger (heeed it)
+- Cry for help (rescue quest)
+- Enemy taunt (predator marking territory)
+
+**Echo Connection (🔵 if Echo-related):**
+- Warning about Echo (person aware of danger)
+- Echo is announcing itself (spreading fear)
+- Marker for Echo cultists (communication)
+- Clue to Echo network location
+
+**Follow-Up:**
+- Party can seek author of message
+- Build reputation following warnings (or ignoring them)
+- Become known message-reader (reputation)
+
+---
+
+\column
+
+## ENCOUNTER VARIANTS (Mixing & Matching)
+
+### Environmental Modifiers
+**Apply to any encounter for complexity:**
+- **Poor Weather:** Snow, rain, fog (visibility, difficulty)
+- **Night Time:** Darkness, surprises, fear
+- **Rough Terrain:** Difficult movement, hiding spots
+- **Populated Area:** Witnesses, authorities nearby, reputation stakes
+- **Remote Area:** No help available, desperation
+
+### Complexity Modifiers
+**Escalate encounter difficulty:**
+- **Add Complication:** "But then X happens"
+- **Add NPC:** "A faction member arrives"
+- **Add Secret:** "One participant is undercover"
+- **Add Moral Dilemma:** "You discover this is more complex than it seems"
+
+### Mystery Integration Modifiers
+**Connect encounter to campaign mystery:**
+- **Echo Connection (🔵):** Encounter reveals Echo presence
+- **NPC Connection:** Encounter involves known NPC
+- **Faction Connection:** Encounter involves faction
+- **Prophecy Connection:** Encounter involves prophetic dream/warning
+
+---
+
+## USAGE QUICK CHART
+
+| Need | Encounter # | Notes |
+|------|------------|-------|
+| Combat encounter | 1-10 | Mix different difficulties |
+| Roleplay & RP encounter | 11-20 | Character relationship building |
+| Investigation/mystery encounter | 21-30 | Clue gathering, world building |
+| Echo mystery connection (🔵) | 2, 5, 6, 13, 15, 22, 25, 28, 29, 30 | Mystery revelations |
+| Low-level party (1-3) | 1, 11, 12, 14, 21, 23 | Adjusted for difficulty |
+| Mid-level party (4-7) | 4, 7, 16, 24, 26-27 | Standard complexity |
+| High-level party (8+) | 5, 8-10, 18, 28-30 | Elevated challenge |
+| Quick resolution (15 min) | 14, 23, 30 | Short encounters |
+| Extended encounter (45+ min) | 12, 13, 19, 24, 28-29 | Longer storytelling |
+
+---
+
+**Companion Documents:**
+- [Seasonal_Event_Calendar.md](Seasonal_Event_Calendar.md) — Seasonal context for encounters
+- [Campaign_Tracker.md](Campaign_Tracker.md) — Track encountered NPCs, encountered mysteries
+- [What_If_Quick_Guide.md](What_If_Quick_Guide.md) — Handle unexpected encounter complications
+
+---
+
+**How to Use in Session:**
+1. Party travels to next location
+2. Roll 1d30 or choose encounter based on narrative
+3. Set the scene (use seasonal/environmental modifiers)
+4. Run encounter (15-45 minutes)
+5. Note consequences for later sessions
+6. Reward experience + information (don't just combat rewards)
+
+\page
+# Random Encounter Tables: Downtime & Social Interactions
+
+**Purpose:** Structured tables for generating NPC interactions, rumors, requests, and social encounters during downtime periods, settlement visits, and seasonal events.
+
+**How to Use:**
+1. **Identify Context:** Where are PCs? (location-based tables)
+2. **Roll Appropriate Table:** d20 for most, d12 for seasonal events
+3. **Add Detail:** Reference Minor NPC Roster for named characters
+4. **Improvise:** Use result as springboard, not script
+5. **Track Consequences:** Note relationships formed and promises made
+
+---
+
+## TABLE 1: WAYSTONE INN COMMON ROOM (d20)
+
+**Use When:** PCs spend downtime at guild headquarters
+
+{{wide
+
+| d20 | Encounter |
+|-----|-----------|
+| 1 | **Cooking Lesson:** Garth Ironfoot offers to teach frontier cooking. Learn to prepare trail rations that restore +1 HP per short rest (requires 1 hour and cooking supplies). |
+| 2 | **Bard's Bad Poetry:** Sylra Moonwhisper corners PC to share new poem. It's terrible but heartfelt. She asks for "constructive criticism" (Persuasion DC 10 to be kind). |
+| 3 | **Rumors for Stories:** Sylra offers drink in exchange for adventure tales. Share story → she adds it to journal → gain +1 reputation with locals (word spreads). |
+| 4 | **Weapon Maintenance:** Marta Keenblade inspects PC's weapon unsolicited. Criticizes poor care OR praises good maintenance. Offers free sharpening/repair if impressed. |
+| 5 | **Horse Wisdom:** Torven "Steady" invites PC to stables. Teaches animal handling trick (Advantage on next Animal Handling check with horses). |
+| 6 | **Messenger Delivery:** Pim Tosscoin bursts in with message from contact. Roll on RUMOR TABLE to determine content. |
+| 7 | **Herbal Consultation:** Elira Dawntracker seeks PC opinion on unusual plant sample. It glows faintly (Echo-touched). She's curious, not alarmed. |
+| 8 | **New Recruit Interview:** Marshal Brenna asks PC to interview potential recruit. NPC has exaggerated credentials. Insight DC 13 detects lies. |
+| 9 | **Arm Wrestling Contest:** Off-duty Wardens challenge PCs. Athletics contest (DC varies). Winner gets bragging rights and free drinks. |
+| 10 | **Research Request:** Lorewarden Elric seeks PC input on mystery element from recent contract. Honest conversation → gain +1 Echo Understanding. |
+| 11 | **Rendal's Arrival:** Rendal Keenwhistle (traveling tinker) sets up in corner. Sells oddities and trades rumors. Roll MERCHANT TABLE. |
+| 12 | **Quiet Moment:** Rare peaceful evening. Fireplace crackling, companions resting. Opportunity for PC conversation/downtime activity. |
+| 13 | **Child Visitor:** Pip Underhill sneaks in to "watch heroes." Asks questions about adventuring. May get into trouble if unattended. |
+| 14 | **Veteran's Warning:** Garth shares cautionary tale about [relevant danger from upcoming contract]. Grants +1 to next check related to that danger. |
+| 15 | **Rival Arrival:** Syla Thorngage (rival adventurer) arrives loudly. Brags about recent "heroics." May challenge PCs to competition. |
+| 16 | **Drunk Trouble:** Haggard Ironfist (disgraced Warden) gets belligerent. Insults PCs. Escalates to fight unless de-escalated (Persuasion DC 14). |
+| 17 | **Missing Person:** Local arrives seeking help finding lost family member. Not official contract, but urgent. Reward modest (20 gp) but gratitude genuine. |
+| 18 | **Celebration:** Wardens returned from successful contract. Festive atmosphere. PCs invited to join. Gain +1 guild reputation if participate. |
+| 19 | **Secret Meeting:** Elric requests private conversation. Shares sensitive information about [Echo phenomenon or cult activity]. Grants plot advancement. |
+| 20 | **Unexpected Visitor:** VIP arrives (regional official, foreign merchant, or mysterious traveler). Roll on VISITOR TABLE for identity and purpose. |
+
+}}
+
+---
+
+## TABLE 2: SETTLEMENT MARKETPLACE (d20)
+
+**Use When:** PCs shop or socialize in village centers
+
+| d20 | Encounter |
+|-----|-----------|
+| 1 | **Pickpocket Attempt:** Torbin Ashfall (orphan) tries to steal from PC. Perception DC 14 to notice. If caught, he's terrified—being pursued by cultists (plot hook). |
+| 2 | **Merchant's Pitch:** Seraphine Goldleaf offers "special deal" on adventuring gear. Haggle (Persuasion DC 12) for 10% discount. |
+| 3 | **Lost Child:** Crying child separated from parents. Helping reunite them grants +1 local reputation. Parents may give small reward (5 gp or baked goods). |
+| 4 | **Street Performer:** Jessamine Coldwater (aspiring bard) performs badly. Crowd indifferent. Encouraging her grants +1 Charisma-based check with her later. |
+| 5 | **Angry Merchant:** Shopkeeper accuses PC of unpaid debt from previous visit. Mistaken identity. Investigation DC 11 reveals actual debtor's description. |
+| 6 | **Traveling Healer:** Sister Amara (wandering priestess) offers free blessings. Choose one: +1 to saves vs disease, +2 HP restoration on next short rest, or Guidance cantrip (1 use). |
+| 7 | **Bounty Hunter:** Vex Nighthollow questions PCs about wanted criminal. If PCs provide info, she returns favor later (plot convenience). |
+| 8 | **Grimbosh Disaster:** Grimbosh the Unfortunate crashes into PC while fleeing angry goose. Comic relief. May accidentally reveal information if questioned. |
+| 9 | **Rival Hunter:** Drake Thornwood challenges PC to hunting competition. "First to return with [game animal] wins." Wager: 10 gp or bragging rights. |
+| 10 | **Loan Shark Victim:** NPC being harassed by Merrick Blackcoin's enforcers for debt repayment. Intervening makes enemy of Merrick but gains victim's loyalty. |
+| 11 | **Wanted Poster:** New poster on board: [random criminal]. Reward 25-75 gp depending on danger. May tie to ongoing plot. |
+| 12 | **Gossip Circle:** Group discussing recent events. Eavesdropping (Perception DC 10) or joining reveals rumor. Roll RUMOR TABLE. |
+| 13 | **Rare Ingredient:** Elira Dawntracker selling unusual herb. Expensive (20 gp) but grants Advantage on next Survival check related to medicine. |
+| 14 | **Duel Interrupted:** Two NPCs about to fight over insult. PCs can mediate (Persuasion DC 13) or let it happen (winner/loser consequences). |
+| 15 | **Traveling Merchant:** Rendal Keenwhistle offers "one-of-a-kind" item. Roll MERCHANT TABLE. Item works but has quirk (DM choice). |
+| 16 | **Animal Loose:** Escaped livestock causing chaos. Catching requires Animal Handling or Athletics DC 12. Owner grateful (free meal at inn or small reward). |
+| 17 | **Old Veteran:** Old Tam sitting nearby. Shares rambling story. Hidden in story is useful information about [nearby ruin or historical event]. |
+| 18 | **Recruitment Offer:** Faction representative (merchant guild, temple, or noble house) approaches with job offer outside Warden structure. May conflict with guild loyalty. |
+| 19 | **Protest/Rally:** Villagers gathering to address grievance (taxes, bandit attacks, etc.). PCs can support, oppose, or ignore. Choice affects local reputation. |
+| 20 | **Echo Manifestation:** Public display of minor Echo effect (geometric frost, humming metal, animal behaving oddly). Locals react with fear or curiosity. Investigation opportunity. |
+
+---
+
+## TABLE 3: WILDERNESS TRAVEL (d20)
+
+**Use When:** PCs on road or exploring between settlements
+
+| d20 | Encounter |
+|-----|-----------|
+| 1 | **Hermit's Warning:** Fenwick "Old Moss" emerges from underbrush. Warns about danger ahead (Echo disturbance, bandit camp, or natural hazard). Accurate if heeded. |
+| 2 | **Scout Sighting:** Kael Swiftarrow observing from distance. If approached peacefully, shares information about regional threats. If threatened, vanishes. |
+| 3 | **Abandoned Campsite:** Recent camp with signs of hurried departure. Investigation DC 13 reveals why (bandits, monster, or Echo manifestation). |
+| 4 | **Helpful Hunter:** Mira Frostborn tracking game. Offers trail advice if PCs respectful. Grants Advantage on next Survival check in her territory. |
+| 5 | **Grimbosh Rescue:** Grimbosh trapped in embarrassing situation (stuck in tree, surrounded by bees, etc.). Helping him reveals nearby point of interest (unintentional). |
+| 6 | **Bounty Hunter:** Vex Nighthollow tracking quarry through area. Mistakenly suspects PC resembles target. Tense but resolvable with explanation. |
+| 7 | **Merchant Caravan:** Trading caravan heading opposite direction. Can purchase supplies (normal prices). Caravan master shares road conditions ahead. |
+| 8 | **Injured Traveler:** NPC hurt by wild animal or accident. Needs medical attention (Medicine DC 12). If helped, provides information or reward later. |
+| 9 | **Natural Wonder:** Beautiful or unusual natural feature (waterfall, ancient tree, crystal formation). Moment of peace. Short rest here grants temp HP equal to level. |
+| 10 | **Territorial Beast:** Non-hostile animal (elk, bear, owlbear) blocking path. Can negotiate passage (Animal Handling), detour (Survival), or fight. |
+| 11 | **Unusual Tracks:** Strange tracks (too large, too small, or geometric pattern). Following leads to minor Echo manifestation or creature den. |
+| 12 | **Courier Passing:** Pim Tosscoin on message run. Shares gossip and road conditions. May deliver message if asked (costs 5 gp, arrives next session). |
+| 13 | **Ambush ALMOST:** Evidence of recent ambush (blood, scattered goods). Bandits are GONE but trail remains (Survival DC 12 to track). |
+| 14 | **Friendly Camp:** Other travelers willing to share fire. One is actually [Sister Amara / Rendal / Minor NPC]. Opportunity for information exchange. |
+| 15 | **Weather Turn:** Sudden storm/fog/snow. Navigation becomes difficult (Survival DC 14 to avoid getting lost). Shelter opportunity if found. |
+| 16 | **Ancient Marker:** Pre-Calamity waystone or monument. Arcana DC 13 reveals magical residue. Lorewarden Elric wants rubbings (pays 20 gp). |
+| 17 | **Competing Adventurers:** Drake Thornwood OR Syla Thorngage on same trail. May compete for objective or collaborate reluctantly. |
+| 18 | **Animal Migration:** Herd of [deer / caribou / wild horses] crossing path. Beautiful but time-consuming. Rushing through startles them (potential stampede). |
+| 19 | **Echo Disturbance:** Area affected by Echo (geometric frost, unusual animal behavior, humming stones). Exploration reveals clue to larger mystery. |
+| 20 | **Hidden Opportunity:** Off-trail discovery (cave, ruins, hidden grove). Contains [minor treasure / lore clue / NPC hermit]. Requires investigation to find. |
+
+---
+
+## TABLE 4: SEASONAL EVENTS (d12)
+
+**Use When:** Festival, holiday, or significant calendar date occurring
+
+**Roll d12 for each month using Seasonal Event Calendar**
+
+| d12 | Seasonal Encounter |
+|-----|-----|
+| 1 | **Festival Opening:** Event begins. PCs invited to participate in [contest, ceremony, or feast]. Participation grants +1 local reputation. |
+| 2 | **Competition Sign-Up:** NPC challenges PC to seasonal competition (archery, cooking, storytelling, etc.). Prize: 50 gp and prestige. |
+| 3 | **Honored Guest:** PCs invited to VIP area or asked to judge event. Declining insults host. Accepting grants social opportunities with leadership. |
+| 4 | **Romantic Subplot:** NPC (Minor or Seasonal) shows interest in PC. Awkward but earnest. Can develop into romance or friendship based on PC response. |
+| 5 | **Old Rival Returns:** [Syla Thorngage / Drake Thornwood / Past NPC] attends event. May reignite old competition or seek reconciliation. |
+| 6 | **Child's Request:** [Pip / Kasira / Elara] asks PC to [teach skill, tell story, or judge their performance]. Wholesome interlude. Refusing disappoints them. |
+| 7 | **Ceremony Honor:** PC publicly recognized for [recent heroism / guild service / community help]. Gain +2 reputation. Speech expected (Performance or Persuasion DC 12). |
+| 8 | **Festival Sabotage:** Minor disaster threatens event ([fire starts, thief steals prize, drunk causes fight]). PCs can resolve quickly or let chaos unfold. |
+| 9 | **Mysterious Stranger:** Cloaked figure observes PCs. If approached, delivers cryptic warning about [cult activity / Echo danger / future threat]. Vanishes mysteriously. |
+| 10 | **Drinking Contest:** Traditional event. Constitution saves (DC starts 10, +2 per round). Winner gets bragging rights and free drinks for month. |
+| 11 | **Cultural Performance:** [Jessamine / Traveling bards / Village choir] perform. Quality varies. Applause expected. Heartfelt moment of community. |
+| 12 | **Echo Omen:** During celebration, minor Echo manifestation occurs (frost spreads, metal hums, wolf howls intelligently). Crowd reacts with unease. Tone shifts. |
+
+---
+
+## TABLE 5: INN/TAVERN SOCIAL (d20)
+
+**Use When:** PCs socializing in settlement inns (not Waystone)
+
+| d20 | Encounter |
+|-----|-----------|
+| 1 | **Arm Wrestling:** Local strongman challenges all comers. Athletics contest. Winner gets free drinks and respect. Loser buys round. |
+| 2 | **Drunk Storyteller:** Patron tells wild tale. 50% true, 50% exaggeration. Insight DC 14 separates fact from fiction. May contain useful rumor. |
+| 3 | **Tavern Brawl START:** Two NPCs arguing. Escalates to shoving. PCs can intervene or stay out. Innkeeper angry if property damaged. |
+| 4 | **Romantic Proposition:** NPC from crowd makes pass at PC. Can be flattering, awkward, or unwanted (PC choice). Handled poorly affects reputation. |
+| 5 | **Card Game Invitation:** Locals invite PC to cards/dice. Small wagers (5 gp). Insight/Deception contested. Fun social moment. |
+| 6 | **Suspicious Character:** Hooded figure in corner watching PCs. If confronted: [cult spy, bounty hunter, or just paranoid traveler—DM choice]. |
+| 7 | **Bard Performance:** Traveling performer playing. Quality good. Takes requests (5 sp). Can commission song about PC exploits (inflates ego). |
+| 8 | **Local Beggar:** Destitute person asks for charity. Giving coin grants +1 reputation. Ignoring has no penalty. Person may have information to trade. |
+| 9 | **Overheard Argument:** Two merchants arguing over trade route safety. Eavesdropping reveals [bandit locations, road conditions, or regional tensions]. |
+| 10 | **Job Offer (Unofficial):** NPC approaches with problem not worth guild contract. Small reward (10-25 gp) but builds local relationships. |
+| 11 | **Festival Invitation:** Locals invite PCs to upcoming celebration. Attending grants opportunity for TABLE 4 encounters. |
+| 12 | **Merchant Stop:** Rendal Keenwhistle (or traveling merchant) selling goods. Roll MERCHANT TABLE. Prices slightly inflated (+10%). |
+| 13 | **Food Challenge:** Innkeeper offers "frontier special"—intensely spicy/sour/bitter dish. Constitution save DC 13. Succeeding impresses locals. |
+| 14 | **Love Triangle Drama:** Two NPCs competing for third's affection. Drama spills into inn. PCs can mediate, take side, or ignore. |
+| 15 | **Wanted Criminal?:** PC resembles description of wanted person. Guards/bounty hunter investigates. Mistaken identity but tense. Prove innocence. |
+| 16 | **Old Friend:** NPC from PC backstory coincidentally present. Can be joyful reunion or awkward encounter depending on history. |
+| 17 | **Dare/Bet:** Locals bet PC can't [perform feat, drink amount, or accomplish task]. Small wager. Success grants respect; failure is humiliating. |
+| 18 | **Ghost Story:** Old-timer shares local legend about [haunted location, ancient curse, or historical tragedy]. May be relevant to adventure. |
+| 19 | **Animal Companion:** Friendly dog/cat adopts PC temporarily. Follows around. Belongs to someone who returns later (awkward if PC bonded). |
+| 20 | **Cult Recruiter:** Charismatic NPC subtly proselytizes [Temple of Dragonknights OR invented cult]. Insight DC 15 detects danger. Investigation opportunity. |
+
+---
+
+## TABLE 6: RUMOR MILL (d20)
+
+**Use When:** PCs gather information, chat with NPCs, or spend time in settlements
+
+**Roll to determine current rumor spreading through region**
+
+| d20 | Rumor (50% accurate) |
+|-----|-----------|
+| 1 | "Wolves near Welton are speaking Common. Shepherd heard one say 'hungry.'" *[TRUE - Awakened wolves]* |
+| 2 | "Palebank sickness is curse from disturbing ancient ice. Healer can't stop it." *[HALF-TRUE - Aeorian spores]* |
+| 3 | "Bandits on Pinebrook road know caravan schedules. Someone's tipping them off." *[TRUE - inside informant]* |
+| 4 | "Lights dancing in northern peaks at night. Spirits? Cult? No one got close enough to see." *[TRUE - cult activity]* |
+| 5 | "Wizard's tower west of Waystone turned sheep into person! Or person into sheep? Details unclear." *[TRUE - Wild Sheep Chase]* |
+| 6 | "Metal items humming strangely. Old-timers say it happened before Calamity too." *[TRUE - Echo effect]* |
+| 7 | "Marshal Thorne recruiting too fast. Guild standards dropping. Bound to end badly." *[FALSE - standards maintained]* |
+| 8 | "Rich merchant in Pinebrook actually funding bandits. Collecting insurance then fencing stolen goods." *[TRUE - Merrick Blackcoin]* |
+| 9 | "Animals smarter than usual. Hunter says elk avoided trap that usually works." *[TRUE - residual awakening]* |
+| 10 | "Frost patterns on stones spelling out words nobody recognizes. Pre-Calamity language?" *[TRUE - Aeorian script]* |
+| 11 | "Northwatch Wardens secretly work for Solace Nexus. Guild is spy network, not protection." *[FALSE - slander]* |
+| 12 | "Travelers going missing on northern roads. Dozen in last month. Guards find nothing." *[PARTIAL - cult kidnappings]* |
+| 13 | "Lorewarden Elric practicing forbidden magic in inn basement. Saw strange lights from wine cellar." *[FALSE - innocent experiments]* |
+| 14 | "That rival adventurer [Syla Thorngage] is fraud. Hires people to do work, takes credit." *[TRUE - she's glory hound]* |
+| 15 | "Found pre-Calamity coins in glacier melt. Ancient city beneath Palebank?" *[TRUE - Salsvault proximity]* |
+| 16 | "Temple in northwest mountains active again. Lights and chanting every new moon." *[TRUE - Dragonknights cult]* |
+| 17 | "Merchant selling 'phoenix ash' and 'dragon scales.' Obvious fakes but people buying." *[TRUE - con artist Rendal]* |
+| 18 | "All this weirdness started when Wardens guild formed. They CAUSED the problems to justify existence!" *[FALSE - correlation not causation]* |
+| 19 | "Local orphan [Torbin] saw masked figures meeting in ruins. Too scared to tell authorities." *[TRUE - cult meeting]* |
+| 20 | "Something waking up beneath Northreach. Old magic stirring. End times coming again." *[MOSTLY TRUE - Echo origin]* |
+
+---
+
+## TABLE 7: TRAVELING MERCHANT GOODS (d20)
+
+**Use When:** Rendal Keenwhistle or other merchant encountered
+
+**Roll to determine unusual item for sale (in addition to normal goods)**
+
+| d20 | Item for Sale (Price / Effect) |
+|-----|-----------|
+| 1 | **"Everburning" Candle:** Stays lit in ANY weather. 15 gp. *Actually just very waxy; goes out underwater.* |
+| 2 | **Mysterious Map:** Crude map to "ancient treasure." 20 gp. *Leads to bandit ambush OR real minor cache (DM choice).* |
+| 3 | **Trained Rat:** "Smartest rat in Northreach!" Understands 3 commands. 10 gp. *Actually well-trained; useful for small tasks.* |
+| 4 | **Lucky Coin:** "Never lost a bet with this!" 5 gp. *No magical properties but grants confidence (+1 to first CHA check while carried).* |
+| 5 | **Goblin Repellent:** Spray that "keeps goblins away." 12 gp. *Just bad-smelling herbs. Works on SOME animals due to odor.* |
+| 6 | **Universal Key:** "Opens any lock!" 25 gp. *Thieves' tools with +1 bonus. Legitimate useful item.* |
+| 7 | **Phoenix Ash:** "Resurrection component!" 40 gp. *Fake (wood ash dyed red), but useful for cons or bluffing.* |
+| 8 | **Love Potion:** "Guaranteed results or money back!" 20 gp. *Mild alcohol with suggestive label. Placebo effect at best.* |
+| 9 | **Echo Detector:** Small bell that "rings near magic." 15 gp. *Legitimate—chimes near strong magical auras including Echo.* |
+| 10 | **"Ancient" Amulet:** Pre-Calamity artifact! 30 gp. *Actually recent forgery, no powers. Pretty though.* |
+| 11 | **Spider Climb Slippers:** Let you walk on walls. 50 gp. *Don't work. Merchant will be FAR away before tested.* |
+| 12 | **Healing Salve:** "Better than potions!" 18 gp. *Legitimate; heals 1d4 HP. Good product, fair price.* |
+| 13 | **Compass of Finding:** Points to "whatever you seek." 35 gp. *Broken compass that spins randomly. Useless.* |
+| 14 | **Disguise Kit:** Professional theatrical quality. 25 gp. *Legitimate useful item; grants +1 to Disguise checks.* |
+| 15 | **Mood Ring:** Changes color with emotions. 8 gp. *Reacts to temperature only, not emotions. Fun novelty.* |
+| 16 | **"Genuine" Dragon Scale:** From REAL dragon! 45 gp. *Actually crocodile scale painted. Impressively done fake.* |
+| 17 | **Translation Guide:** Handbook of "common phrases" in 5 languages. 10 gp. *Half accurate, half gibberish. Use at own risk.* |
+| 18 | **Smoke Pellets (3):** Thrown to create obscuring smoke cloud. 15 gp. *LEGITIMATE alchemist creation. Useful tool.* |
+| 19 | **Preserved "Fairy":** Creature in bottle. 25 gp. *Dead bat posed with fake wings. Obvious fake up close.* |
+| 20 | **Mysterious Vial:** Glowing blue liquid. "From ancient ruins." 60 gp. *If purchased: Roll! 1-10 = useless dye. 11-20 = Minor magical effect OR plot complication (DM choice).* |
+
+---
+
+## TABLE 8: GUILD DOWNTIME ACTIVITIES (d12)
+
+**Use When:** PCs between contracts with 3+ days at Waystone Inn
+
+| d12 | Downtime Activity Opportunity |
+|-----|-----------|
+| 1 | **Training with Marshal:** Brenna offers combat technique lesson. Spend 3 days → learn one Fighting Style maneuver (ask DM for options). |
+| 2 | **Research with Elric:** Lorewarden needs research assistant. Spend 2 days → gain +1 Arcana OR History skill proficiency progress. |
+| 3 | **Foraging Expedition:** Elira Dawntracker needs herb gathering help. Spend 1 day → collect 2d4 healing herbs (each = 1d4 HP restoration). |
+| 4 | **Weapon Upgrade:** Marta Keenblade has new techniques. Spend 50 gp + 2 days → add +1 damage to one weapon (one-time upgrade). |
+| 5 | **Courier Mission:** Pim needs message delivered to [nearby settlement]. Quick job. 1 day + 15 gp reward. Opportunity for travel encounter. |
+| 6 | **Mentoring Youth:** [Kasira / Elara / Pip] asks to learn from PC. Spend 1 days teaching → they may help PCs in future (plot convenience). |
+| 7 | **Scout Patrol:** Guild needs regional patrol. Spend 2 days → encounter 1d3 situations from WILDERNESS TABLE. Paid 25 gp. |
+| 8 | **Social Event:** Guild hosting [dinner / game night / celebration]. Attend → strengthen relationships, roll WAYSTONE INN TABLE. |
+| 9 | **Equipment Maintenance:** Comprehensive gear check. Spend 1 day + 10 gp supplies → all equipment pristine (+1 to first check using equipment). |
+| 10 | **Mystery Investigation:** Elric has research question related to [Echo / cult / ruins]. Spend 2 days assisting → learn plot-relevant information. |
+| 11 | **Personal Project:** PC pursues own goal (craft item, write letter, train skill). Spend 2 days → see PHB downtime crafting/training. |
+| 12 | **Contract Prep:** New contract available but difficult. Spend 1 day researching → gain Advantage on first check during that adventure. |
+
+---
+
+## USING THESE TABLES EFFECTIVELY
+
+### Integration with Adventures
+**Timing:** Roll random encounters during:
+- Long rests in settlements
+- Travel between locations
+- Waiting periods (3+ days)
+- Festival events (Seasonal Calendar)
+
+**Frequency:** Roll once per:
+- Extended settlement stay (3+ days)
+- Travel leg (per 2 days journey)
+- Festival/seasonal event
+- "What happens?" player questions
+
+### Building Continuity
+**Track Results:** Note which encounters occurred. NPCs should remember PCs:
+- "You're the one who helped Old Tam's goats!"
+- "Didn't I sell you that faulty compass?"
+- "My daughter won't stop talking about your stories."
+
+**Evolve Relationships:** Multiple encounters with same NPC = relationship deepens:
+- First: Stranger
+- Second: Acquaintance
+- Third: Friend or Rival
+- Fourth+: Close ally or nemesis
+
+### Consequence Systems
+**Reputation:** Track +/- modifiers:
+- **Positive:** Discounts, assistance, housing offers, information freely shared
+- **Negative:** Inflated prices, cold shoulders, doors closed, information withheld
+
+**Relationship Levels:**
+- **Stranger (0):** Neutral transactions
+- **Acquaintance (+1-2):** Friendly, minor favors
+- **Friend (+3-4):** Significant help, trust, invitations
+- **Close Ally (+5+):** Will take risks for PC, provides resources
+
+### Mixing Tables
+**Layered Encounters:** Combine results for complexity:
+1. Roll MARKETPLACE (result: lost child)
+2. Add RUMOR (cult activity increasing)
+3. Connect: Child's parent recently died mysteriously (cult-related)
+
+**Campaign Integration:**
+Use encounters to:
+- Plant clues about upcoming adventures
+- Show Echo spreading (environmental changes)
+- Develop NPC relationships (romance, rivalry, friendship)
+- Create emotional stakes (characters PCs care about)
+
+### Seasonal Connection
+**Link to Calendar:** When seasonal event occurs:
+1. Roll TABLE 4 (Seasonal Encounter)
+2. Reference Seasonal Event Calendar for context
+3. Add NPCs from Minor Roster who would attend
+4. Create memorable community moment
+
+### DM Improvisation
+**Use Results as Springboards:**
+- Table says "brawl starts" → Determine WHY (insult, accusation, drunk misunderstanding)
+- Table says "mysterious stranger" → Determine WHO (cult spy, rival guild recruiter, future ally)
+- Table says "Echo manifestation" → Choose TYPE (frost, hum, animal behavior, metal cold)
+
+**Add Player Agency:**
+Every encounter should have options:
+- **Engage:** Interact, help, investigate
+- **Avoid:** Ignore, walk away, decline
+- **Subvert:** Unexpected solution, creative approach
+
+## EXAMPLE ENCOUNTER CHAINS
+
+### Chain 1: The Orphan's Secret
+**Day 1 (Marketplace):** Torbin pickpockets PC. If caught, reveals cult pursuing him.
+**Day 3 (Inn):** Torbin seeks PC protection. Cultists ask around for "street urchin."
+**Day 5 (Adventure Hook):** Cult attacks orphanage. Torbin witnessed cult abducting villagers.
+**Outcome:** Minor plot becomes major investigation: WHERE are kidnapped victims?
+
+### Chain 2: The Tinker's Scheme
+**Week 1 (Travel):** Rendal sells "magic compass" (fake).
+**Week 3 (Marketplace):** Rendal back, selling different fake items. PCs recognize him.
+**Week 5 (Investigation):** Discover Rendal is SPY gathering intelligence, not just con artist.
+**Outcome:** Recurring comic relief NPC becomes plot-relevant informant.
+
+### Chain 3: Young Love
+**Festival:** Jessamine writes love song about PC (terrible but sweet).
+**Next Visit:** Jessamine practicing constantly, improving. Asks PC for encouragement.
+**Seasonal Event:** Jessamine performs at festival. PC can attend, boosting her confidence.
+**Outcome:** Wholesome character development. Jessamine becomes confident bard. May join guild later.
+
+## QUICK REFERENCE FOR DM
+
+**For Settlement Scenes:**
+- Roll TABLE 1 (Waystone) or 2 (Marketplace) or 5 (Inn)
+- Add 1 Minor NPC from Roster
+- Insert 1 rumor from TABLE 6 if relevant
+
+**For Travel:**
+- Roll TABLE 3 per 2 days journey
+- Add weather/seasonal effect
+- Consider Echo hints (10% chance)
+
+**For Festivals:**
+- Roll TABLE 4 for each PC separately
+- Reference Seasonal Event Calendar
+- Add community NPCs (Garth, Sylra, Pip, etc.)
+
+**For Downtime (3+ days):**
+- Roll TABLE 8
+- PC CHOOSES whether to pursue
+- Resolve mechanically (skill checks, timecosts, rewards)
+
+\page
+# Player Handouts by Adventure
+
+{{note
+**DM Note:** These are player-facing documents to be distributed during specific adventures. They contain no DM secrets and can be printed/shared directly with players when the appropriate moment arrives.
+}}
+
+---
+
+## How to Use These Handouts
+
+1. **Pre-Print:** Print handouts before session for physical distribution
+2. **Digital Share:** Share via Discord/email for remote play
+3. **Timing:** Give handout when players discover/receive the item in-game
+4. **Immersion:** Consider using parchment paper, aging effects, or decorative fonts
+
+---
+
+## OPENING ADVENTURES
+
+### Handout O-1: Warden Recruitment Poster
+
+**When to Reveal:** Session 0 or when encountering guild for first time
+
+```
+╔════════════════════════════════════════╗
+║                                        ║
+║    NORTHWATCH WARDENS SEEK ABLE        ║
+║         ADVENTURERS & GUARDS           ║
+║                                        ║
+║  The frontier needs brave souls!       ║
+║                                        ║
+║  ✦ Fair Pay for Honest Work            ║
+║  ✦ Food & Lodging Provided             ║
+║  ✦ Training & Equipment Available      ║
+║  ✦ Build Your Reputation               ║
+║                                        ║
+║  Contracts range from escort duty      ║
+║  to wilderness exploration.            ║
+║                                        ║
+║  Inquire at the WAYSTONE INN           ║
+║  Ask for Marshal Brenna Thorne         ║
+║                                        ║
+║  "Protect the Frontier. Serve with    ║
+║   Honor. Prosper Together."            ║
+║                                        ║
+╚════════════════════════════════════════╝
+```
+
+---
+
+### Handout O-2: The Warden's Oath (Signing Ceremony)
+
+**When to Reveal:** During charter signing ceremony
+
+```
+THE NORTHWATCH WARDENS CHARTER
+
+I, [Name], do solemnly pledge:
+
+• To uphold the peace and safety of Northreach
+  and its settlements.
+
+• To act with honor, integrity, and courage in
+  all endeavors.
+
+• To protect those who cannot protect themselves.
+
+• To investigate threats to the frontier with
+  diligence and wisdom.
+
+• To respect the laws of the settlements I serve,
+  while recognizing that justice sometimes requires
+  more than law alone.
+
+• To support my fellow Wardens and the communities
+  they protect.
+
+I understand that this guild serves the frontier,
+not kings or factions, and that my loyalty is to
+the people who depend on our protection.
+
+By my hand and honor,
+
+[Signature]                [Date]
+
+Witnessed by: Marshal Brenna Thorne
+Northwatch Wardens, Waystone Inn
+```
+
+---
+
+## WOLVES OF WELTON
+
+### Handout WW-1: Contract W-17
+
+**When to Reveal:** When players accept the Wolves of Welton contract
+
+```
+NORTHWATCH WARDENS
+CONTRACT NO. W-17
+
+CLIENT: Welton Village Council
+CONTACT: Tillus Merrion, Council Speaker
+LOCATION: Welton (2 days southwest of Waystone Inn)
+
+SITUATION:
+Livestock attacks have escalated over the past two
+weeks. Wolves are behaving unusually—opening gates,
+targeting specific animals, and demonstrating
+coordinated tactics. One shepherd (Westly) was
+injured defending his flock.
+
+OBJECTIVES:
+1. Investigate the wolf attacks
+2. Determine cause of unusual behavior
+3. Resolve threat to livestock and people
+4. Report findings to Waystone Inn
+
+TERMS:
+• Base Payment: 50 gold pieces (upon completion)
+• Bonus: +25 gp if threat is permanently removed
+• Housing: Shepherd's Crook Inn (covered)
+• Supplies: Village provides basic provisions
+
+NOTES:
+Council emphasizes peaceful resolution if possible.
+Wolves are valued for keeping other predators in
+check. Extermination should be last resort.
+
+Authorized by: Marshal B. Thorne
+Date: [Current Game Date]
+```
+
+---
+
+### Handout WW-2: Westly's Statement
+
+**When to Reveal:** When players interview Westly at his farm
+
+```
+STATEMENT OF WESTLY, SHEPHERD
+As recorded by Tillus Merrion, Council Speaker
+Date: Three days before Warden arrival
+
+"They opened the gate. I swear by the Seven, they
+opened it from the inside.
+
+I heard the sheep panicking around midnight. Grabbed
+my staff and lantern. When I got to the pen, the
+gate was swinging wide. Fresh claw marks on the
+latch—four parallel gouges, like they were trying
+to figure out how it worked.
+
+Six wolves inside. Big ones. Gray with amber eyes.
+They weren't just hunting—they were *selecting*.
+Ignored the old ram, went straight for the ewes
+carrying lambs. That's not normal.
+
+When I shouted, they turned and *looked* at me.
+Really looked. Like they were deciding what to do.
+
+The big one—torn ear, white patch on its chest—it
+circled around behind me while the others held their
+ground. They were *coordinating*.
+
+I got the staff up just in time. Took a bite to the
+shoulder before Leanor's dogs arrived. The wolves
+retreated in formation. Not a rout. A retreat.
+
+I've been a shepherd thirty years. Wolves don't act
+like that. Something's wrong with them."
+
+[Signature: X (Westly's mark)]
+```
+
+---
+
+### Handout WW-3: Shepherd's Journal Fragment
+
+**When to Reveal:** If players search Westly's farmhouse thoroughly
+
+```
+[Found in a leather-bound journal, water-damaged]
+
+WESTLY'S NOTES - SHEEP COUNTS & OBSERVATIONS
+
+--- [12 days ago] ---
+Normal. 3 lambs born. Weather holding.
+
+--- [10 days ago] ---
+Wolf tracks near north fence. Not unusual for season.
+
+--- [8 days ago] ---
+MORE tracks. Different pattern—they're circling, not
+just passing through. Set extra watches.
+
+--- [6 days ago] ---
+Gate latch bent. How? Too high for normal wolves to
+reach even standing. Leanor says I'm imagining things.
+
+--- [4 days ago] ---
+Lost two ewes. Gate was OPEN when I arrived. I KNOW
+I latched it. Pack moved like they'd PLANNED it.
+
+---
+
+[Later'Margin Note: "Wizard? Curse? Ask Father Merrik?" is written in shaky script]
+[Later Margin Note: "Dreams again. Running through forest. Seeing through THEIR eyes?"]
+```
+
+---
+
+### Handout WW-4: Father Merrikson's Letter (Brother Alexi)
+
+**When to Reveal:** When Father Merrikson asks players to find his brother
+
+```
+[Sealed letter with church symbol]
+
+To the Northwatch Wardens,
+
+My brother, Alexi Merrikson, departed Welton three
+weeks ago on what he called "important research."
+He mentioned strange magical phenomena in the
+wilderness north of town—patterns in frost, animals
+behaving oddly, and ruins he wished to investigate.
+
+Alexi is a scholar of modest magical talent but
+considerable enthusiasm. He planned a three-day
+journey and has not returned.
+
+I commissioned search parties, but they found no
+trace. The wolves began their attacks shortly after
+he disappeared.
+
+I do not know if these events are connected, but the
+timing troubles me deeply.
+
+If you find him—alive or otherwise—please return
+word to me. If he carries journals or notes, they
+may hold answers to the wolf problem.
+
+He is my only family. I pray you bring him home.
+
+In Faith and Hope,
+Father Ambros Merrikson
+Welton Chapel
+```
+
+---
+
+### Handout WW-5: Alexi's Field Journal (Awaken Spell Discovery)
+
+**When to Reveal:** If players discover Alexi's remains/camp OR find journal in wolf den
+
+```
+FIELD JOURNAL - ALEXI MERRIKSON
+Arcane Phenomena Survey: North Welton Region
+
+--- [Day 1] ---
+Discovered ancient stone formation 8 miles north of
+Welton. Definitely pre-Calamity. Geometric frost
+patterns on surfaces despite spring weather. Magical
+residue detectable—Divination + Transmutation auras.
+
+--- [Day 2] ---
+Rubbings completed. Symbols match nothing in my
+references. Attempting translation using phonetic
+approximation. One phrase repeats: "Awaken and Know."
+
+Local animals drawn to the site. Three wolves,
+two foxes, deer. Unafraid of my presence. Curious.
+
+--- [Day 3] ---
+BREAKTHROUGH! The stones aren't markers—they're
+focusing lenses for ambient magic. Something beneath
+is projecting energy upward. When I traced the glyphs
+aloud, the light intensified.
+
+The wolves have been here all day. Just... watching.
+One let me touch its head. Extraordinary.
+
+--- [Day 4] ---
+I've made a terrible mistake.
+
+The spell completed on its own. I only meant to
+study it, but speaking the words was enough. The
+wolves began changing—not physically, but I can
+SEE intelligence awakening in their eyes.
+
+They understand me now. One tried to speak.
+Couldn't form words but the INTENT was clear.
+
+What have I done?
+
+--- [Day 5 - Final Entry] ---
+Pack has grown. More wolves arriving daily, drawn
+by... something. The leader (Bolt?) is organizing
+them. They look at the village lights at night.
+
+They're HUNGRY. Not just for food. For understanding.
+For purpose. For safety.
+
+I tried to explain they can't just take. That humans
+will fight back. Bolt listened then growled. He
+understands THAT too.
+
+I have to get to Welton. Warn them. Find a way to-
+
+[Journal ends abruptly. Final pages water-damaged and illegible.]
+```
+
+---
+
+## FROZEN SICK
+
+### Handout FS-1: Contract P-08 (Palebank Village)
+
+**When to Reveal:** When players accept Frozen Sick contract
+
+```
+NORTHWATCH WARDENS
+CONTRACT NO. P-08
+
+CLIENT: Palebank Village Council
+CONTACT: Pelc Dalton, Merchant & Council Rep
+LOCATION: Palebank Village (5 days northeast)
+
+SITUATION:
+Mysterious illness affecting villagers. Symptoms
+include blue-tinged extremities, lethargy, and
+disturbing visions. Three dead, seven more sick.
+
+Local healer (Tulgi Lutan) suspects unnatural cause.
+Recent discovery: blue liquid vials found in Urgon
+Wenth's smithy, believed connected to illness.
+
+OBJECTIVES:
+1. Identify source and nature of illness
+2. Locate Urgon Wenth (missing)
+3. Find cure or treatment
+4. Eliminate ongoing threat
+
+TERMS:
+• Base Payment: 75 gold pieces
+• Bonus: +50 gp if cure is found
+• +25 gp for Urgon's safe return
+• Housing: Jolly Dwarf Tavern (covered)
+
+WARNINGS:
+Illness may be contagious. Exercise caution. Village
+is remote; winter supplies limited.
+
+Authorized by: Marshal B. Thorne
+Date: [Current Date]
+```
+
+---
+
+### Handout FS-2: Tulgi's Medical Notes
+
+**When to Reveal:** When Tulgi shares her findings with players
+
+```
+HEALER'S LOG - TULGI LUTAN
+Palebank Village Medical Records
+
+PATIENT: Irven Liel (Age 47, Trapper)
+Day 1: Fever, chills, extreme fatigue. Frostbite-like
+discoloration on fingers despite warm conditions.
+
+Day 2: Blue tinge spreading up arms. Patient reports
+vivid dreams of "frozen cities" and "voices in ice."
+Administered feverfew and warmth. No improvement.
+
+Day 3: Patient unresponsive. Skin cold to touch but
+internal temperature elevated. Pulse erratic.
+
+Day 4: Deceased. Body preserved for examination.
+
+AUTOPSY FINDINGS:
+- Crystalline formations in blood vessels
+- Lungs show ice-like structures (impossible?)
+- Brain tissue exhibits unusual blue discoloration
+- NO known disease matches these symptoms
+
+CONCLUSION: This is NOT natural illness.
+
+---
+
+ADDITIONAL PATIENTS (Similar progression):
+• Mila Teno (Age 34, Fisher) - DECEASED
+• Korinn Tansi (Age 29, Hunter) - DECEASED
+• Verla Pelc (Age 61, Merchant) - CRITICAL
+• Four others showing early symptoms
+
+COMMON FACTORS:
+All victims visited Urgon's smithy within two weeks
+of symptom onset. Urgon missing. Blue vials found
+in smithy suggest alchemical contamination.
+
+RECOMMENDATION:
+Urgon must be found. Source must be destroyed.
+
+—Tulgi Lutan, Healer
+```
+
+---
+
+### Handout FS-3: Urgon's Workshop Notes
+
+**When to Reveal:** When players search Urgon's smithy
+
+```
+URGON WENTH - PERSONAL NOTES
+[Found in locked drawer beneath workbench]
+
+New commission from northern traveler. Well-paid.
+Strange request: forge "containers" for volatile
+liquid. Traveler wouldn't say what liquid was for.
+
+Coins were good. Real gold. Couldn't refuse.
+
+---
+
+Containers complete. Traveler returned with SEALED
+casks of blue liquid. Transferred to vials I made.
+Liquid GLOWS faintly in darkness. Cold to touch
+even through glass.
+
+Traveler warned: Don't open. Don't touch. Don't ask.
+
+I should have asked.
+
+---
+
+Elro Aldataur came by. Recognized the liquid's glow.
+Said it's "pre-Calamity material." AEORIAN.
+Dangerous. Forbidden.
+
+He begged me to dispose of it. But traveler paid
+half up front—says he'll return with second half
+when he retrieves vials next month.
+
+I'll just... keep them sealed. What's the harm?
+
+---
+
+Vial cracked during grinding work. Liquid evaporated
+instantly. Breathed the vapor before I realized.
+
+Felt sick immediately. Blue tinge on hands within
+hours. By the Third God...
+
+Elro was right. Disposing of remaining vials—but
+where?
+
+---
+
+[Final Entry - Shaky Handwriting]
+
+Can't stay. Illness spreading to others. It's my
+fault. Those vials...
+
+Taking them north. Back to where they belong. If
+glacier holds ruins, maybe answers there too.
+
+If you find this and I'm gone—look for Croaker Cave.
+Bandit hideout, but better than village contamination.
+
+Forgive me, Palebank.
+
+—U.W.
+```
+
+---
+
+### Handout FS-4: Traveler's Contract (Evidence of Buyer)
+
+**When to Reveal:** Found in Croaker Cave or on Urgon's body
+
+```
+[Official-looking document, partially burned]
+
+COMMISSION CONTRACT
+
+BUYER: [Name deliberately obscured with ink]
+SELLER: Urgon Wenth, Smith
+
+TERMS:
+- Fabricate twelve (12) reinforced glass vials
+- Specifications: Cold-resistant, airtight seal
+- Payment: 100 gold pieces (50 advance, 50 on delivery)
+- Discretion: Seller will not inquire about contents
+- Return Date: [One month from contract date]
+
+SPECIAL CLAUSE:
+Buyer reserves right to reclaim materials if Seller
+compromises containment or security.
+
+[Signature: Illegible scrawl]
+[Witness: None]
+
+---
+
+[Margin Note in Different Hand:]
+"Salsvault expedition. Retrieval successful.
+Market interest confirmed. Northreach
+distribution underway."
+```
+
+---
+
+## WILD SHEEP CHASE
+
+### Handout WSC-1: Finethir's Letter (Sheep's Transformation)
+
+**When to Reveal:** Given by "sheep" Finethir or found in Noke's tower
+
+```
+TO WHOMEVER FINDS THIS,
+
+My name is Finethir Shinebright, mage of moderate
+skill and CONSIDERABLE bad judgment.
+
+I was apprenticed to the wizard Noke—arrogant,
+brilliant, and utterly paranoid. He became obsessed
+with immortality rituals and suspected everyone
+(including me) of plotting to steal his research.
+
+Two days ago, he confronted me with accusations of
+betrayal. Before I could defend myself, he cast a
+Polymorph spell. I am now a SHEEP.
+
+Worse: Noke has bound the spell with additional
+magic. I cannot dispel it myself, and it will become
+permanent in THREE DAYS unless someone stops him.
+
+He has fled to his tower with his spellbook.
+I need adventurers brave (or foolish) enough to:
+
+1. Break into Noke's Tower
+2. Retrieve his spellbook (it contains the counter-spell)
+3. Force him to reverse the transformation
+
+I can offer payment once I'm human again. My family's
+estate in Solace Nexus is considerable.
+
+PLEASE. I do not wish to spend eternity as livestock.
+
+With Desperate Hope,
+Finethir Shinebright
+
+P.S. - If this reaches you after three days, please
+at least ensure I go to a farm with good grazing.
+
+---
+
+[Later Addition in Hoofwriting:]
+"DAY TWO. TRANSFORMATION ADVANCING. LOSING HUMAN
+THOUGHTS. PLEASE HURRY."
+```
+
+---
+
+## PERIL IN PINEBROOK
+
+### Handout PB-1: Contract PB-03
+
+**When to Reveal:** When players accept Peril in Pinebrook contract
+
+```
+NORTHWATCH WARDENS
+CONTRACT NO. PB-03
+
+CLIENT: Pinebrook Village Council
+CONTACT: Garthok the Just, Village Elder
+LOCATION: Pinebrook (3 days southeast)
+
+SITUATION:
+Merchant caravan robbed on Pinebrook road. Survivors
+report bandits operating with unusual organization
+and inside knowledge of caravan schedules. Village
+suspects infiltration or informant.
+
+Additionally: Strange lights seen in forest at night.
+Some villagers report missing time and disturbing
+dreams after encountering lights.
+
+OBJECTIVES:
+1. Investigate bandit activity
+2. Identify information source (if any)
+3. Neutralize threat to trade routes
+4. Investigate "lights" phenomenon (secondary)
+
+TERMS:
+• Base Payment: 60 gold pieces
+• Bonus: +30 gp if infiltrator is identified
+• +20 gp if lights phenomenon explained
+• Housing: The Crossroads Inn (covered)
+
+NOTES:
+Village is trade hub. Extended bandit activity
+threatens regional economy.
+
+Authorized by: Marshal B. Thorne
+Date: [Current Date]
+```
+
+---
+
+### Handout PB-2: Caravan Master's Report
+
+**When to Reveal:** Given by surviving caravan master
+
+```
+INCIDENT REPORT
+Filed by: Darvin Felasco, Caravan Master
+
+Route: Solace Nexus to Pinebrook
+Cargo: Textiles, tool steel, preserved foods
+Guards: 4 hired swords (2 killed, 1 wounded, 1 fled)
+
+ATTACK SUMMARY:
+Ambushed at the Pine Bend, two miles west of town.
+Bandits (8-10 individuals) used pre-positioned
+obstacles to stop wagons. Professional setup—
+they KNEW we were coming.
+
+They called me by NAME. Knew what wagons held
+valuables. Ignored decoy wagon entirely.
+
+Leader wore a fox mask. Spoke with educated accent.
+Demanded specific crates—not random raid. They
+had a LIST.
+
+When we resisted, they attacked. Killed Hendrick
+and Mara without hesitation. Rest of us surrendered.
+
+They took:
+- 3 crates of tool steel
+- 1 crate of "medical supplies" (actually contained
+  alchemical components—they KNEW)
+- Coinage chest (obvious target)
+
+Left everything else. Fled north into forest.
+
+CONCLUSION:
+Someone in supply chain is feeding information to
+bandits. Review manifest access logs immediately.
+
+—D. Felasco
+```
+
+---
+
+## TEMPLE OF THE DRAGONKNIGHTS (Capstone)
+
+### Handout TDK-1: Contract TDK-01 (Temple Investigation)
+
+**When to Reveal:** When players accept Temple of the Dragonknights contract
+
+```
+NORTHWATCH WARDENS
+CONTRACT NO. TDK-01
+[PRIORITY: HIGH]
+
+CLIENT: Northwatch Wardens (Internal Investigation)
+CONTACT: Marshal Brenna Thorne
+LOCATION: Northwest Mountains (7-10 days travel)
+
+SITUATION:
+Multiple lines of evidence suggest organized cult
+operating from ruins in northwest mountains. Cult
+linked to:
+• Aeorian artifact trafficking
+• Manipulation of local conflicts
+• Possible connection to recent regional instability
+
+Recent scout reports identify structure as "Temple
+of the Dragonknights"—pre-Calamity ruin believed
+abandoned for centuries.
+
+OBJECTIVES:
+1. Infiltrate and investigate temple
+2. Identify cult leadership and goals
+3. Assess threat level to region
+4. Gather intelligence on Aeorian artifacts
+5. Neutralize threat if possible
+
+TERMS:
+• Payment: 200 gold pieces (this is guild priority)
+• Bonus: +100 gp for cult leadership capture/elimination
+• +50 gp per significant artifact recovered
+• Support: Guild will provide backup if requested
+
+DANGER ASSESSMENT: EXTREME
+This is a capstone mission. Expect organized
+resistance, magical defenses, and high lethality.
+
+Prepare accordingly. Return with intelligence even
+if elimination is impossible.
+
+Authorized by: Marshal B. Thorne
+Co-Signed: Lorewarden Elric Vael
+Date: [Current Date]
+```
+
+---
+
+### Handout TDK-2: Intercepted Cult Communication
+
+**When to Reveal:** Found during earlier adventures (planted clue)
+
+```
+[Coded message partially deciphered]
+
+PRIORITY DIRECTIVE
+To: Cells [Regional Designations Redacted]
+From: The Architect
+
+The Assessment Phase nears completion. Our agents
+report successful identification of THREE primary
+nodes across Northreach. Activation sequence
+proceeds as planned.
+
+ORDERS:
+1. Continue artifact recovery from designated sites
+2. Maintain surveillance of guild operations
+3. Prepare for Phase Two (CONSOLIDATION) on signal
+4. Eliminate interference as necessary
+
+The Echo stirs. Our masters' voices grow louder.
+Soon, the world will understand what we have known:
+
+        "The old gods are not dead.
+         They merely slept.
+         And we shall wake them."
+
+Praise to the Silent City.
+Praise to Those Who Endured.
+
+—The Architect
+Temple of the Dragonknights
+
+[Several lines deliberately burned away]
+```
+
+---
+
+## SEASONAL & GENERAL HANDOUTS
+
+### Handout GEN-1: Northreach Hearthfire Festival Invitation
+
+**When to Reveal:** During Hearthfire Festival (Seasonal Event)
+
+```
+═══════════════════════════════════════════════
+
+        HEARTHFIRE FESTIVAL
+       WELCOMING THE WARDENS
+
+You are cordially invited to celebrate the
+founding of the Northwatch Wardens Guild and
+the arrival of spring to the frontier.
+
+WHEN: First full moon of Greenrise
+WHERE: Waystone Inn Common Grounds
+
+FESTIVITIES INCLUDE:
+★ Feast prepared by local communities
+★ Bardic performances and storytelling
+★ Martial competitions and demonstrations
+★ Dancing under the stars
+
+Marshal Thorne will present commendations for
+outstanding service. Bring your tales of
+adventure—the frontier honors its heroes!
+
+All residents of Northreach are welcome.
+
+═══════════════════════════════════════════════
+```
+
+---
+
+### Handout GEN-2: Wanted Poster (Random Bandit)
+
+**When to Reveal:** Posted in settlements during travel
+
+```
+╔════════════════════════════════════════╗
+║                                        ║
+║           ★ WANTED ★                   ║
+║                                        ║
+║      [Sketch of hooded figure]         ║
+║                                        ║
+║     "THE FOX" (Fox-Masked Bandit)      ║
+║                                        ║
+║  CRIMES: Armed Robbery, Murder,        ║
+║          Conspiracy                    ║
+║                                        ║
+║  DESCRIPTION:                          ║
+║  - Wears distinctive fox mask          ║
+║  - Educated speech                     ║
+║  - Leads organized bandit gang         ║
+║  - Last seen: Pinebrook region         ║
+║                                        ║
+║  REWARD: 50 Gold Pieces                ║
+║                                        ║
+║  Report to local authorities or        ║
+║  Northwatch Wardens                    ║
+║                                        ║
+╚════════════════════════════════════════╝
+```
+
+---
+
+### Handout GEN-3: Lorewarden Elric's Research Request
+
+**When to Reveal:** After players mention Aeorian findings
+
+```
+From the Desk of Lorewarden Elric Vael
+Northwatch Wardens Research Division
+
+Dear [Player Names],
+
+Your recent findings regarding [Aeorian phenomenon]
+are of considerable interest to our ongoing
+investigations into regional instability.
+
+I would very much appreciate the opportunity to
+examine any artifacts, journals, or unusual
+materials you've recovered during your contracts.
+
+In exchange for your cooperation, I can offer:
+• Access to guild research library
+• Translation and identification services
+• Potential leads on related contracts
+• Academic compensation (per item reviewed)
+
+I understand adventurers prefer action to paperwork,
+but knowledge is as vital as steel in protecting
+the frontier. What you bring me today may save
+lives tomorrow.
+
+Please visit when convenient. I keep late hours.
+
+With Scholarly Regard,
+Elric Vael
+Lorewarden, Northwatch Wardens
+```
+
+---
+
+## DM NOTES: Creating Custom Handouts
+
+**Format Guidelines:**
+1. Use ASCII art borders for official documents
+2. Include dates that match campaign timeline
+3. Add "worn/aged" details for found documents
+4. Personal letters should reflect writer's personality
+5. Include clues but avoid explicitly stating solutions
+
+**Printing Tips:**
+- Use parchment or aged paper effect
+- Consider fountain pen or calligraphy fonts
+- Add coffee stains or burn marks for authenticity
+- Seal official documents with wax or stickers
+
+**Digital Tips:**
+- Share as images (harder to edit/spoil)
+- Use Discord spoiler tags for timing
+- Consider voice recordings for dramatic letters
+- Create "handwriting" fonts for personal notes
+
+\page
+{{note
+##### DUNGEON MASTER RESOURCE
 
 **Campaign Progress Tracker**
 
@@ -1001,6 +9614,8 @@ This is a DM tool for tracking campaign progress and party status.
 
 ---
 
+{{wide
+
 ## Party Roster
 
 | Player Name | Character Name | Class/Level | Status |
@@ -1008,6 +9623,8 @@ This is a DM tool for tracking campaign progress and party status.
 | Erin| | Ranger 2 | Active |
 | Jude| | Paladin 2 | Active |
 |Rowan | | Warlock 2 | Active |
+
+}}
 
 ---
 
@@ -1085,6 +9702,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ### ☐ Peril in Pinebrook
@@ -1120,6 +9740,9 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## Aeorian Echo: Clue Tracker
@@ -1148,6 +9771,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## NPC Roster & Status
@@ -1168,9 +9794,14 @@ _____________________________________________________________
 | Joel Andersmith | Near Temple | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
 | Venomfang (Dragon) | Temple | ? | ☐ Ally ☐ Neutral ☐ Enemy |
 
+}}
+
 **Other NPCs met:**
 - Tillus Merrion (Welton council member)
 - Alexi (note author; magical shorthand)
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -1202,6 +9833,9 @@ _____________________________________________________________
 
 **Party Gold:** 2 gp (unassigned)  
 **Stored at Waystone:** _____ gp
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -1378,6 +10012,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ### ☐ Peril in Pinebrook
@@ -1413,6 +10050,9 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## Aeorian Echo: Clue Tracker
@@ -1441,6 +10081,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## NPC Roster & Status
@@ -1464,6 +10107,9 @@ _____________________________________________________________
 **Other NPCs met:**
 _____________________________________________________________
 _____________________________________________________________
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -1497,6 +10143,9 @@ _____________________________________________________________
 
 **Party Gold:** _____ gp  
 **Stored at Waystone:** _____ gp
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -1581,592 +10230,14 @@ _____________________________________________________________
 _____________________________________________________________
 
 \page
-{{note
-##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
-
-**CAMPAIGN SPOILERS: NPC Secrets & Campaign Connections**
-
-This document contains NPC secrets, hidden motivations, and campaign tie-ins. **DO NOT share this with players** unless they discover it through gameplay.
-
-**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
-}}
-
-**🛡️ THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
-
-*Internal Guild Notes — For the Eyes of the Lorewarden Only*
-
-Below is the *true* roster, including histories, secrets, and how each NPC ties into the broader campaign arc you’re building.
-
-**⭐ LEADERSHIP**
-
-**Marshal Brenna Thorne — Field Commander**
-
-<img src="https://i.imgur.com/DC56B5k.jpg" width="90" alt="Marshal Brenna Thorne" style="display: block;" />
-
-**Public Face:** A hardened ranger who has spent decades patrolling the Northreach frontier.
-**Private Truth:** Brenna once served alongside **Corel of Welton** during the “Greywinter Hunts,” a brutal season when wolves, undead, and worse spilled out of the northern woods. She carries guilt for losing half her squad—including her younger brother—to a creature she never identified.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Brenna recognizes the wolf behavior as wrong and quietly suspects magical influence. She will push the party to investigate thoroughly, not just kill wolves.
-- Frozen Sick: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
-- Wild Sheep Chase: Brenna once met Shinebright decades ago; she remembers him as brilliant but arrogant. She will be deeply suspicious of any magical mishap involving him.
-
-**Secret:** Brenna has a sealed letter from a northern contact warning of "arcane disturbances" across the frontier. This is your campaign‑wide foreshadowing.
-
-**Steward Mara Fenwick — Quartermaster**
-
-<img src="https://i.imgur.com/7zDKfWX.jpg" width="90" alt="Steward Mara Fenwick" style="display: block;" />
-
-**Public Face:** A cheerful, meticulous human woman who runs supplies, finances, and logistics.
-**Private Truth:** Mara is a former smuggler from Shadycreek Run who fled after crossing the Uttolot family. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
-
-**Campaign Tie‑ins:**
-
-- Frozen Sick: Mara recognizes the Uttolot name immediately and warns the party that they are dangerous, organized, and everywhere.
-- Pinebrook: She has traded with Pinebrook’s merchants before and knows the local gossip.
-- Wolves of Welton: She suspects the wolves are being manipulated by someone with resources—possibly a rival smuggling ring.
-
-**Secret:** Mara has a bounty on her head. If the party ever goes to Shadycreek Run, this becomes a ticking time bomb.
-
-**Lorewarden Elric Vael — Arcane Scholar**
-
-<img src="https://i.imgur.com/OOBoXAR.jpg" width="90" alt="Lorewarden Elric Vael" style="display: block;" />
-
-**Public Face:** A soft‑spoken elven mage who catalogues threats, magical anomalies, and frontier lore.
-**Private Truth:** Elric is secretly investigating a pattern of magical disturbances stretching from Pinebrook to Welton to Palebank. He believes they are connected to a single source—an ancient arcane engine buried beneath the Northreach.
-
-**Campaign Tie‑ins:**
-
-- Wild Sheep Chase: Elric knows Shinebright’s reputation and will be delighted to study the Wand of True Polymorph if the party brings it back.
-- Frozen Sick: He recognizes Aeorian relics instantly and will push the party to secure samples.
-- Temple of the Dragonknights: Elric has studied the Dragonknights extensively and believes Venomfang’s presence is not a coincidence.
-
-**Secret:** Elric has prophetic dreams he refuses to discuss. They always involve a tower of ice cracking open.
-
-
-
-\page
-
-**🌲 TRAILWARDENS**
-
-*Scouts, hunters, and wilderness specialists.*
-
-**Corel — Senior Shepherd of Welton**
-
-<img src="https://i.imgur.com/UiQtsus.jpg" width="90" alt="Corel" style="display: block;" />
-
-**Public Face:** A gruff but kind halfling who knows every hill, trail, and wolf den in the region.
-**Private Truth:** Corel is the *only* survivor of the Greywinter Hunts besides Brenna. He has a deep, instinctive understanding of wolf behavior—and he knows the current attacks are unnatural.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Corel becomes the emotional anchor of the arc. He will be devastated if the wolves must be killed and relieved if the party negotiates peace.
-- Frozen Sick: Corel’s cousin lives in Palebank; he will recommend the party visit her if they need a safe place.
-- Pinebrook: Corel has traded wool with Pinebrook’s merchants for years.
-
-**Secret:** Corel once saw a wolf speak in a dream. He has never told anyone.
-
-**Bordel Barleywind — Human Ranger**
-
-<img src="https://i.imgur.com/nujs23r.png" width="90" alt="Bordel Barleywind" style="display: block;" />
-
-**Public Face:** A quiet, competent ranger who prefers the company of animals.
-**Private Truth:** Bordel was once part of a mercenary band hired to clear the woods near Welton. They were ambushed by wolves—*the same pack the party will meet*. He fled, ashamed.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: If the party negotiates with Bolt, Bordel will break down, realizing the wolves he fought were intelligent even then.
-- Frozen Sick: Bordel knows the northern trails and can guide the party to Croaker Cave.
-- Temple of the Dragonknights: He recognizes kobold tracks instantly.
-
-**Secret:** Bordel has a wolf pup he rescued years ago. It will become a companion if the party earns his trust.
-
-**Rowan Fairweather — Half‑Elf Druid**
-
-<img src="https://i.imgur.com/duyvslN.png" width="90" alt="Rowan Fairweather" style="display: block;" />
-
-**Public Face:** Gentle, curious, and deeply attuned to nature.
-**Private Truth:** Rowan senses a “disturbance” in the natural balance stretching across the frontier. She believes something ancient is awakening.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Rowan can sense the wolves’ intelligence and will urge the party to seek peace.
-- Frozen Sick: She recognizes the disease as unnatural and will be horrified by its origin.
-- Pinebrook: Rowan has visited Pinebrook’s sacred grove and knows the local druids.
-
-**Secret:** Rowan has had visions of a dragon made of ice and shadow.
-
-**Mila Teno — Glassblade Rookie**
-
-<img src="https://i.imgur.com/iltxa3w.png" width="90" alt="Mila Teno" style="display: block;" />
-
-**Public Face:** A bright‑eyed, eager young elf who wants to prove herself.
-**Private Truth:** Mila is secretly terrified of wolves after losing a sibling to a pack years ago.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Mila will beg the party to kill the wolves, not realizing they are intelligent.
-- Frozen Sick: Mila knows Verla Pelc and will be devastated by her fate.
-- Temple of the Dragonknights: Mila’s brother disappeared near the ruins.
-
-**Secret:** Mila’s brother was taken by Venomfang’s kobolds. He may still be alive.
-
-
-
-\page
-
-**🔥 LANTERN GUARD**
-
-*Front‑line fighters and defenders.*
-
-**Takk Oaksplitter — Half‑Orc Barbarian**
-
-<img src="https://i.imgur.com/FyxJWvt.png" width="90" alt="Takk Oaksplitter" style="display: block;" />
-
-**Public Face:** Loud, friendly, and always ready for a fight.
-**Private Truth:** Takk’s tribe was wiped out by a corrupted beast—possibly related to the same magic affecting the wolves.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Takk respects wolves and will hesitate to kill them.
-- Frozen Sick: Takk recognizes the symptoms from a tribe member who died years ago.
-- Wild Sheep Chase: Takk finds Shinebright hilarious.
-
-**Secret:** Takk’s rage is tied to a dormant magical bloodline.
-
-**Galvena Aballon — Human Paladin**
-
-<img src="https://i.imgur.com/BSNEKgT.png" width="90" alt="Galvena Aballon" style="display: block;" />
-
-**Public Face:** Devout, disciplined, and unwavering.
-**Private Truth:** Galvena has sworn a private oath to hunt down Venomfang after the dragon destroyed a shrine she once served.
-
-**Campaign Tie‑ins:**
-
-- Temple of the Dragonknights: Galvena becomes a major emotional anchor for this arc.
-- Frozen Sick: She sees the disease as a test of faith.
-- Wolves of Welton: She will push for justice, not slaughter.
-
-**Secret:** Galvena’s divine visions are becoming corrupted.
-
-**Ariodh Highwhirl — Human Monk**
-
-<img src="https://i.imgur.com/1fiVcFE.png" width="90" alt="Ariodh Highwhirl" style="display: block;" />
-
-**Public Face:** Calm, focused, and philosophical.
-**Private Truth:** Ariodh once trained under a master who vanished investigating Aeorian ruins.
-
-**Campaign Tie‑ins:**
-
-- Frozen Sick: Ariodh recognizes the Aeorian symbols instantly.
-- Wild Sheep Chase: He finds Noke’s misuse of magic deeply offensive.
-- Wolves of Welton: Ariodh will attempt diplomacy first.
-
-**Secret:** Ariodh’s master is alive—and trapped in Salsvault.
-
-**Guz — Half‑Orc (Reformed)**
-
-<img src="https://i.imgur.com/0K66wmO.png" width="90" alt="Guz" style="display: block;" />
-
-**Public Face:** Gruff, awkward, trying his best.
-**Private Truth:** After the events of *Wild Sheep Chase*, Guz seeks redemption and has joined the Wardens.
-
-**Campaign Tie‑ins:**
-
-- Wild Sheep Chase: Guz becomes a recurring ally.
-- Wolves of Welton: Guz respects Bolt and Flame’s intelligence.
-- Frozen Sick: Guz fears magic deeply and will avoid Aeorian relics.
-
-**Secret:** Guz still hears Noke’s voice in his dreams.
-
-**📚 LOREWATCH**
-
-*Scholars, mages, and magical specialists.*
-
-**Sera Gelanadel — Apprentice Wizard**
-
-<img src="https://i.imgur.com/yxGZKlq.png" width="90" alt="Sera Gelanadel" style="display: block;" />
-
-**Public Face:** Brilliant, curious, and slightly overwhelmed.
-**Private Truth:** Sera is investigating a surge of magical anomalies across the frontier.
-
-**Campaign Tie‑ins:**
-
-- Temple of the Dragonknights: Sera becomes a major recurring NPC.
-- Frozen Sick: She recognizes Aeorian script and can translate it.
-- Wild Sheep Chase: She is fascinated by the Wand of True Polymorph.
-
-**Secret:** Sera’s mentor is connected to Shinebright.
-
-**Aurixean Valignaak — Dragonborn Sorcerer**
-
-<img src="https://i.imgur.com/fUWF9C0.png" width="90" alt="Aurixean Valignaak" style="display: block;" />
-
-**Public Face:** Proud, charismatic, and dramatic.
-**Private Truth:** Aurixean’s draconic bloodline resonates painfully whenever Venomfang is near.
-
-**Campaign Tie‑ins:**
-
-- Temple of the Dragonknights: Aurixean senses Venomfang’s presence before anyone else.
-- Frozen Sick: His fire magic is especially effective in Salsvault.
-- Wolves of Welton: Aurixean respects Bolt’s leadership.
-
-**Secret:** Aurixean’s ancestor once served the Dragonknights.
-
-**Shinebright — High Elf Wizard (Polymorphed)**
-
-\page
-
-
-<img src="https://i.imgur.com/l0McAF7.png" width="90" alt="Shinebright" style="display: block;" />
-
-**Public Face:** A sheep.
-**Private Truth:** A *very annoyed* sheep.
-
-**Campaign Tie‑ins:**
-You already know this one — he’s the chaos engine.
-
-**Baleth Cindermoon — Tiefling Warlock**
-
-<img src="https://i.imgur.com/nx7gShD.png" width="90" alt="Baleth Cindermoon" style="display: block;" />
-
-**Public Face:** Charming, mysterious, and theatrical.
-**Private Truth:** Baleth’s patron is deeply interested in the magical disturbances across the frontier.
-
-**Campaign Tie‑ins:**
-
-- Frozen Sick: Baleth senses the Aeorian magic as “wrong.”
-- Wolves of Welton: Baleth is fascinated by the awakened wolves.
-- Temple of the Dragonknights: Baleth’s patron wants something hidden in the ruins.
-
-**Secret:** Baleth’s patron is *not* who they claim to be.
-
-**🏡 HEARTHWARDENS**
-
-*Community anchors and support NPCs.*
-
-**Father Merriksonn — Village Priest**
-
-<img src="https://i.imgur.com/RDbpNzD.jpg" width="90" alt="Father Merriksonn" style="display: block;" />
-
-**Public Face:** Kind, weary, and devoted.
-**Private Truth:** His brother Alexi is the missing sorcerer from *Wolves of Welton*.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: His grief becomes a major emotional beat.
-- Frozen Sick: He will beg the party to save the infected.
-- Wild Sheep Chase: He distrusts wizards deeply.
-
-**Secret:** Alexi’s spirit lingers near the wolves’ den.
-
-**Willen Featherock — Halfling Shepherd**
-
-<img src="https://i.imgur.com/q0t6X9G.jpg" width="90" alt="Willen Featherock" style="display: block;" />
-
-**Public Face:** Nervous, traumatized, recovering.
-**Private Truth:** Willen heard the wolves speak—and he wasn’t hallucinating.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Willen becomes the emotional heart of the arc.
-- Frozen Sick: He knows a trader who once dealt with Verla Pelc.
-- Temple of the Dragonknights: Willen’s family once guarded the ruins.
-
-**Secret:** Willen has a latent magical gift awakened by the wolves’ aura.
-
-**Flynt Wymblen — Gnome Bard**
-
-<img src="https://i.imgur.com/gxsZ6Qh.jpg" width="90" alt="Flynt Wymblen" style="display: block;" />
-
-**Public Face:** Cheerful, musical, and nosy.
-**Private Truth:** Flynt is secretly writing an epic ballad about the Wardens.
-
-**Campaign Tie‑ins:**
-
-- Wolves of Welton: Flynt will accompany the party if invited.
-- Frozen Sick: Flynt knows a sailor who can get them to The Far North.
-- Wild Sheep Chase: Flynt loves Shinebright’s story.
-
-**Secret:** Flynt’s songs sometimes predict the future.
-
-**Joel Andersmith — Farmer (Ally)**
-
-<img src="https://i.imgur.com/gqfEDrT.png" width="90" alt="Joel Andersmith" style="display: block;" />
-
-**Public Face:** Grieving father.
-**Private Truth:** Joel’s daughter Clementine is destined to become a powerful mage.
-
-**Campaign Tie‑ins:**
-
-- Temple of the Dragonknights: Clementine’s rescue becomes a major emotional beat.
-- Wolves of Welton: Joel will beg the party to save other families.
-- Frozen Sick: Joel knows a trader who handled the blue vials.
-
-**Secret:** Clementine’s magic awakened something in the ruins.
-
-
-**🐺 WILD ALLIES**
-
-**Bolt — Alpha Wolf (Awakened)**
-
-<img src="https://i.imgur.com/4oD3lBF.jpg" width="90" alt="Bolt" style="display: block;" />
-
-**Public Face:** Calm, intelligent, diplomatic.
-**Private Truth:** Bolt is terrified of what awakened him.
-
-**Flame — Alpha Wolf (Awakened)**
-
-<img src="https://i.imgur.com/J4lh2Bs.jpg" width="90" alt="Flame" style="display: block;" />
-
-\page
-
-
-**Public Face:** Fierce, proud, aggressive.
-**Private Truth:** Flame believes the wolves are destined to rule the frontier.
-
-**Campaign Tie‑ins:**
-The awakened wolves become a recurring faction — sometimes allies, sometimes rivals, always interesting.
-
-**🏘️ AFFILIATED SETTLEMENTS**
-
-- Welton — Wolves of Welton arc
-- Palebank Village — Frozen Sick arc
-- Pinebrook — Peril in Pinebrook arc
-
-These settlements form the “Northreach Triangle,” the region the Wardens protect.
-
-\page
-{{note
-##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
-
-**CAMPAIGN SPOILERS: Campaign Arc & Mystery Structure**
-
-This document contains the complete campaign structure and mystery reveals. **DO NOT share this with players** unless they discover it through gameplay.
-
-**For player-safe content**, see *The Adventurer's Guide to Aevoria* (the player companion to this book)
-}}
-
-**NORTHWATCH WARDENS: High‑Level Campaign Arc**
-
-***A modular frontier campaign about awakening magic, corrupted legacies, and the consequences of power unleashed.***
-
-**📚 DM Resources**
-
-For deeper secrets and campaign mechanics, see:
-- **Chapter 6: The Dimensional Rift** — How Aeorian ruins reached Aevoria (foundational lore)
-- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
-- **Chapter 6: Northreach Secrets** — Adventure integration details
-- **Chapter 6: Places Secrets** — Location-specific secrets
-
----
-
-**🌑 THE CORE THROUGHLINE**
-
-Across the frontier, **ancient magic is waking up** — not in one place, but everywhere.
-Each adventure the players take is a *symptom* of a deeper, spreading disturbance:
-
-**The Aeorian Echo**
-
-A ripple of unstable arcane energy — originating from the buried ruins of **Salsvault** deep beneath The Far North — has begun to:
-
-- mutate beasts (Wolves of Welton)
-- destabilize magical artifacts (Wild Sheep Chase)
-- empower cults and dragons (Temple of the Dragonknights)
-- stir old spirits and forgotten guardians (Peril in Pinebrook)
-
-**What the Wardens Don't Know Yet:**
-Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aeor** from another world (Wildemount/Exandria), displaced across dimensions during Aeor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
-
-The Wardens don’t know this yet.
-But every contract they take is another puzzle piece.
-
-**🧩 HOW EACH MODULE FITS INTO THE ARC**
-
-Below is the “why it matters” for each adventure, independent of order.
-
-
-**🐺 1. Wolves of Welton — The First Contract**
-
-**Theme:** Intelligence awakening where it shouldn’t.
-**Arc Connection:** The wolves’ sudden sentience is the *first visible sign* of the Aeorian Echo.
-
-- Alexi Merriksonn (missing sorcerer) was exposed to the Echo.
-- His accidental magical discharge awakened the wolves.
-- The wolves’ dreams and visions hint at a “bright flash,” “shifting stars,” or “the world humming.”
-
-**Outcome:**
-The Wardens learn that something is *changing the frontier itself*.
-
-This is the campaign’s inciting incident.
-
-
-**❄️ 2. Frozen Sick — The First Major Threat**
-
-**Theme:** Ancient magic resurfacing with deadly consequences.
-**Arc Connection:** This is the **source** of the Echo.
-
-- The blue vials contain Aeorian spores.
-- The disease is a byproduct of the same arcane instability that awakened the wolves.
-- Salsvault’s malfunctioning systems are still pulsing magical energy into the region.
-
-**Outcome:**
-The Wardens discover:
-
-- Aeor is real.
-- Its ruins are active.
-- Its magic is leaking into the world.
-
-This is the campaign’s *first revelation*.
-\page
-**🐉 3. Temple of the Dragonknights — Corruption Takes Root**
-
-**Theme:** Ambition, corruption, and the misuse of awakening magic.
-**Arc Connection:** Venomfang and the cultists are drawn to the same arcane disturbances.
-
-- The cult’s rituals are empowered by the Echo.
-- Venomfang senses the rising magic and wants to exploit it.
-- The kidnapped girl is part of a ritual meant to create a dracolich soul vessel — something only possible because magic is destabilizing.
-
-**Outcome:**
-The Wardens learn that:
-
-- Intelligent predators (wolves) aren’t the only ones changing.
-- Dragons and cults are mobilizing.
-- Someone (or something) is guiding these awakenings.
-
-This is the campaign’s *escalation*.
-
-
-**🐑 4. The Wild Sheep Chase — Magical Chaos Spreads**
-
-**Theme:** Magic behaving unpredictably.
-**Arc Connection:** The Wand of True Polymorph is unstable because of the Echo.
-
-- Noke’s modifications were possible only because ambient magic is fluctuating.
-- Shinebright’s transformation is another example of “magic gone wrong.”
-- The Bed Dragon Wyrmling is a direct parallel to the awakened wolves.
-
-**Outcome:**
-The Wardens see that:
-
-- Magic is becoming unreliable.
-- Artifacts are malfunctioning.
-- Spellcasters are losing control.
-
-This is the campaign’s *comic but meaningful warning*.
-
-
-
-\page
-
-**🌲 5. Peril in Pinebrook — The Frontier Cracks**
-
-**Theme:** Small communities caught in the crossfire of rising magic.
-**Arc Connection:** Pinebrook’s troubles are minor compared to the others, but they show the *human cost* of the Echo.
-
-- Strange creatures, odd magical effects, and unusual behavior in the woods all tie back to the same arcane disturbance.
-- The young players/NPCs introduced here can become future Wardens or allies.
-
-**Outcome:**
-The Wardens realize:
-
-- Every settlement is vulnerable.
-- The frontier is changing faster than anyone can respond.
-- They need to grow — more members, more alliances, more readiness.
-
-This is the campaign’s *worldbuilding anchor*.
-
-**🧵 HOW THE PIECES INTERLOCK (No Matter the Order)**
-
-**The Wolves hint at the disturbance.**
-
-↓
-
-**Frozen Sick reveals the source.**
-
-↓
-
-**Temple of the Dragonknights shows factions exploiting it.**
-
-↓
-
-**Wild Sheep Chase shows magic destabilizing everywhere.**
-
-↓
-
-**Peril in Pinebrook shows the frontier’s growing fragility.**
-
-The order doesn’t matter because each adventure:
-
-- stands alone as a contract
-- reveals a different facet of the same phenomenon
-- builds toward the same overarching mystery
-
-**🏛️ THE NORTHWATCH WARDENS AS THE CAMPAIGN FRAME**
-
-The guild structure is the glue that makes the modular format work.
-
-**Every session begins with:**
-
-- A contract posted on the board
-- A briefing from Brenna, Mara, or Elric
-- Optional rumors or cross-adventure clues
-
-**Every session ends with:**
-
-- A report to the guild
-- A new clue about the Aeorian Echo
-- A sense of growing responsibility
-
-This keeps the campaign cohesive even when the cast changes week to week.
-
-\page
-
-**🔮 THE LONG GAME: Where This Is All Going**
-
-As the Wardens complete contracts, they uncover:
-
-**1. The Aeorian Echo is growing stronger.**
-
-More mutations. More magical anomalies. More cult activity.
-
-**2. Something in Salsvault is still active.**
-
-A malfunctioning arcane engine?
-A surviving Aeorian intelligence?
-A containment breach?
-
-**3. Factions are mobilizing.**
-
-- Venomfang wants power.
-- The Uttolots want artifacts.
-- Noke’s experiments weren’t isolated.
-- The wolves may become allies or enemies.
-
-**4. The Wardens must choose their role.**
-
-- Protectors?
-- Investigators?
-- Diplomats?
-- Monster hunters?
-- Or something more?
-
-**5. The finale (when you want it):**
-
-A multi‑session arc returning to **The Far North** to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
-
-**🎯 In One Sentence**
-
-**The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
-
-\page
 # Adventures
 
 ## Opening Adventures
 
-**🐺 OPENING SCENE: “Wolves at the Waystone Inn”**
+**OPENING SCENE: "Wolves at the Waystone Inn"**
+{{note
+**Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
+}}
 {{wide
 A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
 }}
@@ -2175,15 +10246,18 @@ A cold-open combat encounter that unites strangers through shared threat. Two hu
 **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
 **Goal:** Introduce the characters naturally through a shared threat.
 
-**🎬 1. Cold Open (Read Aloud)**
+**1. Cold Open (Read Aloud)**
 
+{{note
 Use this as your opening beat:
-
+}}
+{{descriptive
 **The wind bites as the three of you—strangers to one another—trudge up the muddy road toward the Waystone Inn. Lantern‑light spills across the snow, promising warmth and food.**
 
 **Then you hear it: a low, rumbling growl.**
 
 **Two wolves slink out from behind the woodpile, ribs showing, eyes wild. Their hackles rise as they fix on you… and charge.**
+}}
 
 This immediately:
 
@@ -2191,7 +10265,7 @@ This immediately:
 - creates urgency
 - avoids awkward “you meet in a tavern” chatter
 
-**⚔️ 2. Encounter Setup**
+**2. Encounter Setup**
 
 **Wolves (2)**
 
@@ -2214,7 +10288,7 @@ This spacing forces the characters to notice each other and converge.
 
 \page
 
-**🧠 3. How to Introduce the Characters Naturally**
+**3. How to Introduce the Characters Naturally**
 
 **Round 1: Recognition**
 
@@ -2237,7 +10311,7 @@ Example narration:
 
 This is the moment the party forms.
 
-**🐺 4. Wolf Behavior (Simple AI)**
+**4. Wolf Behavior (Simple AI)**
 
 These wolves are:
 
@@ -2253,7 +10327,7 @@ These wolves are:
 
 This gives the players a sense of agency and realism.
 
-**🎭 5. Aftermath: The First Real Interaction**
+**5. Aftermath: The First Real Interaction**
 
 Once the wolves flee or fall, give a beat of silence:
 
@@ -2286,15 +10360,24 @@ All of these create cohesion without forcing roleplay.
 \page
 # The Morning After: A Warden's First Duty
 
+{{note
+**Campaign Note (DM):** This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
+}}
+
 {{wide
 A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
 }}
+
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
 
 \page
 
 **1. Morning at the Waystone Inn — Read-Aloud**
 
+{{descriptive
 As dawn breaks over Northreach, the Waystone Inn is already alive with the smell of hearthfire and fresh bread. Snowmelt drips from the eaves. The common room is quieter than last night—more purposeful, more expectant.
+}}
 
 Marshal Brenna Thorne stands near the long table where the guild charter has been laid out, parchment weighted by a carved stone of the Northwatch crest. She nods as each of you approaches.
 
@@ -2306,7 +10389,7 @@ After signatures are inked and hands are shaken, Brenna gestures toward the **Wa
 
 The board is mostly empty—this is a frontier guild just getting on its feet—but one posting stands out:
 
-**🗡️ CONTRACT: “Wolves of Welton”**
+**CONTRACT: "Wolves of Welton"**
 
 **Client:** Welton Village Council
 **Reward:** 800 gp + provisions
@@ -2354,6 +10437,9 @@ Take this contract. Show Northreach what the Wardens can do.”
 
 She hands them a sealed letter for the Welton Council—official recognition that the Northwatch Wardens are now operating in the region.
 
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
+
 \page
 
 **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
@@ -2374,9 +10460,12 @@ One of the Pinebrook premade NPCs (Flynt, Rowan, etc.) is at the inn and says:
 
 This makes the contract feel like it matters to the whole region.
 
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
+
 \page
 
-**🎯 Final Tie-In Summary**
+**Final Tie-In Summary**
 
 - The players sign the charter.
 - The guild immediately presents their first official contract.
@@ -2392,6 +10481,9 @@ This gives them a **clean, heroic launch** into the Wolves of Welton while groun
 {{wide
 A short onboarding mission where two new Warders meet a veteran scout on the road and journey together to the team's forward camp. Travel, discovery, and light optional combat shape first bonds. Subtle Echo hints with no spoilers.
 }}
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
 
 \page
 
@@ -2410,7 +10502,9 @@ A short onboarding mission where two new Warders meet a veteran scout on the roa
 Marshal Brenna Thorne assigns a straightforward mission. One of the veteran Warders has been scouting the roads near Welton and is due to check in at a known waypoint. The two new Warders will meet the scout, introduce themselves, and travel together back to the team's forward camp.
 
 **Read Aloud (Waystone Inn):**
+{{descriptive
 "Brenna slides a worn route map across the table. 'One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here'—she taps the map—'then travel together to the forward camp. The rest of the team is there handling Welton business.' She looks at both of you. 'First impressions matter. Show them you're worth traveling with. Watch each other's backs. That's how Warders work—trust on the road first, reputation after.'"
+}}
 
 ## Scene 1: The Meet-Up
 
@@ -2460,7 +10554,9 @@ After combat or negotiation:
 The three of you arrive at the forward camp near Westly's Farm. Smoke rises from a small fire. The other two veterans are here—resting, maintaining gear, discussing next steps.
 
 **Read Aloud (Camp Arrival):**
+{{descriptive
 "Through the trees, you see firelight and hear low voices. The forward camp is small but well-organized—two bedrolls, supplies stacked carefully, a small fire crackling. Two figures turn as you approach. The other Warders. Your scout nods to them. 'Found our new recruits. They handled themselves well.'"
+}}
 
 **The Meeting:**
 - Introductions happen here. The two new Warders meet the rest of the veteran team.
@@ -2472,6 +10568,9 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 
 **Closing Note:**
 "The fire crackles. Someone passes around a flask. The cold settles in, but the camp feels warmer with more bodies. Tomorrow, you'll head back to Waystone together and report to Brenna. Tonight, you rest. You're Warders now—all of you."
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
 
 \page
 
@@ -2496,6 +10595,9 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 - **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
 - **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
 - **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
 
 \page
 
@@ -2558,6 +10660,10 @@ ___
 \page
 **Contract: W‑17 — Disturbance Near Welton**
 
+{{note
+**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. See [5E_Wolves_Of_Welton.md](../Wolves_Of_Welton/5E_Wolves_Of_Welton.md) for full adventure details and mystery integration.
+}}
+
 **Issuing Party:**
 Welton Village Council, Northreach Frontier
 
@@ -2599,7 +10705,22 @@ Attested by Steward Mara Fenwick
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+
+**Campaign Arc:** Arc 1: First Signs — Learning the Land
+
+**Arc Position:** Part 1 of 2 in Arc 1
+
+**Arc Progress Notes:** This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
+
 **Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
+
+**Prerequisite Adventures:** None (campaign opener)
+
+**Leads To:** 
+- **Frozen Sick** (direct connection via Salsvault activation)
+- **Wild Sheep Chase** (magical destabilization theme)
+- All other adventures (establishes the Echo as ongoing threat)
 
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Welton: Dark Undercurrents" section
@@ -2613,6 +10734,45 @@ Attested by Steward Mara Fenwick
 - The Old Woods north of Welton contain a partially buried Aeorian research station
 
 **Player Discovery:** Characters should discover strange magical anomalies but not necessarily the full Aeorian connection yet. This is the campaign's **inciting incident**.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Unnatural Intelligence:**
+- The wolves demonstrate sapient behavior: opening latches, using tactics, communicating with purpose
+- **Discovery Method:** Direct observation, NPC testimony (Westly, village council)
+- **Investigation DC 12 (Nature):** "This isn't learned behavior — something *changed* them at a fundamental level"
+- **Connects to:** Frozen Sick (similar magical transformation), Wild Sheep Chase (magical destabilization)
+
+**Secondary Clue — Timing of Awakening:**
+- Wolf intelligence appeared suddenly 2-3 weeks ago, coinciding with Alexi Merriksonn's disappearance
+- **Discovery Method:** Father Merriksonn's testimony, village timeline questioning
+- **Investigation DC 14 (Arcana):** "Sudden mass transformation suggests external magical event, not gradual evolution"
+- **Connects to:** Frozen Sick (Salsvault activation timeline matches)
+
+**Tertiary Clue — Magical Residue:**
+- If party has *detect magic*, faint transmutation aura lingers on the awakened wolves
+- **Discovery Method:** Spellcasting or magical expertise
+- **Investigation DC 15 (Arcana):** "This magic feels... *old*. Not like modern wizardry"
+- **Connects to:** All Echo adventures (signature Aeorian transmutation magic)
+
+**Hidden Clue — The Old Woods:**
+- If players explore north of Welton, they find geometric frost patterns and buried metallic structures
+- **Discovery Method:** Active exploration, following wolf tracks to lair
+- **Investigation DC 16 (History/Arcana):** "These symbols match pre-Calamity Aeorian designs"
+- **Connects to:** Frozen Sick revelation (Aeorian facilities exist throughout region)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. Something magical is causing impossible transformations across Northreach
+2. The effect appeared suddenly and simultaneously (not gradual)
+3. The source is unknown but likely ancient and powerful
+4. This may not be an isolated incident
+
+**Questions left unanswered (for future adventures):**
+- What caused the awakening? (Answered in: Frozen Sick)
+- Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
+- Can this be reversed or contained? (Campaign-wide question)
 
 ---
 
@@ -2783,6 +10943,9 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 4. **Elric's Follow-Up (when party returns to Waystone Inn):**
    > "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Wolves of Welton}}
+
 \page
 
 # DM Prep Checklist: Wolves of Welton
@@ -2876,19 +11039,28 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - Alexi's spellbook (if negotiation successful, gift from Father Merriksonn)
 
 ### Bolt's Opening Speech (if players negotiate)
-> *The alpha wolf steps forward. Its eyes are not those of a beast — they are thoughtful, weary, almost human.*
->
-> "You understand me. I see it in your eyes. Good. We are not monsters. We were animals once. Then... something changed us. We woke up. We think now. We feel fear. We know death. We have cubs who will starve if we do not hunt. Your people call us thieves. What choice did we have? Would you starve to preserve a stranger's peace?"
+{{descriptive
+**Bolt's Opening Speech:**
+*The alpha wolf steps forward. Its eyes are not those of a beast — they are thoughtful, weary, almost human.*
+
+"You understand me. I see it in your eyes. Good. We are not monsters. We were animals once. Then... something changed us. We woke up. We think now. We feel fear. We know death. We have cubs who will starve if we do not hunt. Your people call us thieves. What choice did we have? Would you starve to preserve a stranger's peace?"
+}}
 
 ### Flame's Challenge (if combat starts)
-> *A scarred wolf with ember-colored eyes snarls.*
->
-> "You are WEAK, Bolt! Talking to prey! We are WOLVES! We TAKE what we need! If they hunt us, we hunt THEM!"
+{{descriptive
+**Flame's Challenge:**
+*A scarred wolf with ember-colored eyes snarls.*
+
+"You are WEAK, Bolt! Talking to prey! We are WOLVES! We TAKE what we need! If they hunt us, we hunt THEM!"
+}}
 
 ### Father Merriksonn's Reaction (if peaceful resolution)
-> *The priest's eyes glisten with tears.*
->
-> "Thank you. My brother... Alexi studied magic, forbidden magic perhaps. I believe his death caused this. These wolves did not choose their fate. You have given them a chance my brother never had."
+{{descriptive
+**Father Merriksonn's Reaction:**
+*The priest's eyes glisten with tears.*
+
+"Thank you. My brother... Alexi studied magic, forbidden magic perhaps. I believe his death caused this. These wolves did not choose their fate. You have given them a chance my brother never had."
+}}
 
 ## Post-Session Tasks
 
@@ -2921,11 +11093,20 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 
 When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
 
-> "Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident involving a polymorphed sheep. Something is waking the old magic. I need you to investigate further."
+{{descriptive
+**Lorewarden Elric's Debrief:**
+"Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident involving a polymorphed sheep. Something is waking the old magic. I need you to investigate further."
+}}
 
 This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Wolves of Welton}}
+
 \page
+
+\column
+
 # Scene 1: Welcome to the Welton Wolfpack
 
 The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.
@@ -2938,6 +11119,8 @@ Assuming the players wish to do anything other than watch the fight from a dista
 
 Once the fight is over the injured shepherds are grateful for the help - assuming any was forthcoming - and ask for aid returning to Welton. They are more than happy to share local gossip (see **Shaggy Wolf Storie**s) but will not be able to offer any real reward.
 
+{{pageNumber,auto}}
+{{footnote Scene 1: Welcome to the Welton Wolfpack}}
 
 \page
 
@@ -2985,9 +11168,12 @@ When the players arrive on the scene the wolves may test their strength with a c
 
 *"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say.*"
 
-
+{{pageNumber,auto}}
+{{footnote Scene 1: Welcome to the Welton Wolfpack}}
 
 \page
+
+\column
 
 # Scene 2: Village People
 
@@ -3009,6 +11195,8 @@ The innkeeper is a dwarven women named **Leanor Slatebeard**, who runs the bar w
 
 Should they ask after Featherock she will direct them to his room, though she will ask them to be gentle with the poor man,
 
+{{pageNumber,auto}}
+{{footnote Scene 2: Village People}}
 
 \page
 
@@ -3028,6 +11216,9 @@ Should the party mention the possibility of werewolves, Merriksonn will point ou
 
 They believe that the wolves live in the woods to the west of town, but are not sure. A councillor with a tuft of wool tied to his vest will introduce himself as **Corel** of the Fleecers' Guild and say that he has been working on the hills for thes best part of forty years and is happy to answer questions on the local environment and provide general support for the party.
 
+{{pageNumber,auto}}
+{{footnote Scene 2: Village People}}
+
 \page
 
 
@@ -3041,6 +11232,12 @@ He explains that when the posse was attacked he was bitten badly and was trample
 
 If the party seem to believe his tale so far, he will hesitantly confess that the wolves were *talking*, arguing fiercely over whether they should eat him or not. Featherock then breaks down in tears and refuses to say anything more.
 
+{{pageNumber,auto}}
+{{footnote Scene 2: Village People}}
+
+\page
+
+\column
 
 # Scene 3: Plan of Attack
 
@@ -3056,6 +11253,8 @@ Eventually, the party should end up making a trek into the woods, which are thic
 
 Crossing the woods takes approximately four hours at a walking pace.
 
+{{pageNumber,auto}}
+{{footnote Scene 3: Plan of Attack}}
 
 \page
 
@@ -3089,6 +11288,9 @@ and sights them. Even at a glance, the party can Anybody proficient in Nature or
 # Map of Welton & the Surrounding Area
 
 ![A wide, horizontal, light-gray panel with very subtle vertical streaks and faint, slightly darker smudges — overall a mostly uniform gray surface with minimal texture.](./5E_Wolves_Of_Welton_images/image_003.png)![A colored fantasy-style map showing open plains, a large forest, a village, and terrain features. Key elements: - Overall: pale-green rolling plain with a large dense forest occupying the upper-left quadrant and mountains beyond it. - Compass rose at upper-right and a horizontal scale bar along the bottom edge. - Water: a thin blue river/stream runs roughly north–south on the right side, passing the village. - Settlements/markers (numbered on the map): - 1: A small clearing at the forest edge with a few stone cairns or standing stones and a handful of trees. - 2: A clustered village/hamlet at the river with several buildings, a red-roofed structure, and a nearby church; a windmill sits a short distance to the east. - 3: A lone small building or hut in the open plain near a short cliff or escarpment. - 4: Mountainous terrain visible beyond the forest in the top-left. - Paths: dotted/trail lines cross the plain, connecting the forest edge, the hut, and the village. - Scattered terrain details: isolated groves of trees, small rocky outcrops, and a few standalone cairns or towers across the plain.](./5E_Wolves_Of_Welton_images/image_004.png)
+
+{{pageNumber,auto}}
+{{footnote Map of Welton & the Surrounding Area}}
 
 \page
 
@@ -3207,8 +11409,12 @@ and sights them. Even at a glance, the party can Anybody proficient in Nature or
 
 **n**
 
+{{pageNumber,auto}}
+{{footnote Map of Welton & the Surrounding Area}}
 
-# Scene 5: The Den’s Denizens
+\page
+
+\column# Scene 5: The Den’s Denizens
 
 The wolves have made their den in a cave system on the western edge of the woods.
 
@@ -3238,11 +11444,12 @@ The central chamber is the pack’s main living and sleeping area. There are pil
 
 The western sub-chamber functions as a storeroom for both goods and many of the stolen sheep. Bags containing thick leather and homespun wool are kept here, while other interesting items picked up by wolves during their raids - a couple of knives, a shovel and other mundane equipment - are piled up against the wall.
 
+{{pageNumber,auto}}
+{{footnote Map of The Wolves' Den}}
+
 \page
 
-
-Further inside the wolves have constructed a crude but effective fence out of what appears to be fallen branches, some of which have been
-
+{{wide
 
 # Flame
 
@@ -3273,8 +11480,14 @@ Further inside the wolves have constructed a crude but effective fence out of wh
 
 ![- Stylized fantasy map, oriented with north at the top (compass rose at upper right). - Large, dense forest occupying the upper-left quadrant, with mountains and the numeral "4" near its north edge. - Open grassy plain across the center and right side, dotted with small copses, single trees, and rocky outcrops. - A cluster of buildings/town labeled "2" on the lower-right beside a blue river; a windmill and a larger house are nearby. - A small isolated house or farm labeled "3" sits along a dashed path in the central plain. - A group of standing stones or ruined towers near the forest edge labeled "1" where a dashed track meets the woods. - Low cliffs or escarpments at the forest boundary, several solitary rock stacks, a curved dashed road connecting points, and a scale bar along the bottom edge.](./5E_Wolves_Of_Welton_images/image_006.png)***Fire Breath (Recharge 5-6).*** Flame exhales a firey blast in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.
 
+}}
+
+{{pageNumber,auto}}
+{{footnote Flame}}
 
 \page
+
+{{wide
 
 # Bolt
 
@@ -3306,6 +11519,8 @@ Further inside the wolves have constructed a crude but effective fence out of wh
 
 Dexterity saving throw, taking 9 (2d8) lightning damage on a failed save, or half as much damage on a successful one.
 
+}}
+
 shaped by tools. The noise of bleating is constant and very loud.
 
 The central sub-chamber acts as a nursery for the pack’s young pups. Half a dozen young wolves sleep here when they aren’t playing outside, and this is where they will be kept if a fight breaks out. A pair of wolves are set to guard the young, who are just learning how to talk, and will defend them to their deaths. In the event that a fight breaks out, use the **Cat** (*MM p320*) statblock for the wolf pups. The eastern sub-chamber is used as a meeting room by the pack leadership. It is the only chamber to contain a fire, as the smoke is able to escape through a hole in the cave roof, but it otherwise empty.
@@ -3319,6 +11534,9 @@ Unless the party makes any moves to defuse the situation the wolves will attack 
 If the battle is taking place in front of the cave, **Flame** and **Bolt** will emerge from their den after one full round. They will be accompanied four more **wolves** that appear to have scraps of crude leather armour tied around their bodies, giving them a +1 bonus to AC.
 
 The Alpha Pair will yell exhortations to their fellow wolves, with Flame encouraging them to kill the hunters and Bolt telling them to protect the pack, and not to let them harm the pups.
+
+{{pageNumber,auto}}
+{{footnote Bolt}}
 
 \page
 
@@ -3353,6 +11571,8 @@ Barring that, he is willing to simply move the pack away to a more remote locati
 
 Should it become apparent that a deal is forthcoming, Flame will accuse Bolt of cowardice and betrayal and attack him from behind. This will badly injure him, taking him out of the fight. All of the remaining armored wolves will join her in a final, desperate attack on the party, while the others will fall back in confusion and fear.
 
+{{pageNumber,auto}}
+{{footnote Bolt}}
 
 \page
 
@@ -3379,6 +11599,9 @@ How the party do this is entirely their choice. Talking Tillus around will need 
 If they find it impossible to convince him, Corel will call a vote on whether or not they should work with the wolves anyway. Allow the party to make a DC12 Charisma (Persuasion) check against each of the five remaining council members, awarding advantage or diasadvantage depending on how persuasive the party's argument was. Corel and Father Merriksonn will both vote to negotiate, so they need three successes in order to win an overall majority.
 
 Tillus will react with shock and horror at being outvoted. After a moment of blustering rage he will realise that he has been ousted. He willl leave the council a broken man, never to return. As long as the party have succeeded in dealing with the wolf problem in one way or another they will be paid in full at the rate they agreed with the council.
+
+{{pageNumber,auto}}
+{{footnote Bolt}}
 
 \page
 
@@ -3435,6 +11658,9 @@ The local priest of Pelor (or any local good-
 
 One of very few dwarves in Welton, Leanor and aligned deity), Johan Merriksonn was born and her husband Banteth are cheerful, hard-working bred in Welton and loves both the village and its members of the community. She is well over 100 inhabitants. He is a human in his mid-50s with a years old and has seen the community grow from kindly face and wispy white hair. a mere hamlet to the thriving village it is today.
 
+{{pageNumber,auto}}
+{{footnote Bolt}}
+
 \page
 
 
@@ -3476,6 +11702,9 @@ Both are fiercely protective of their pack and are worried that their intelligen
 
 Flame, the alpha female, was granted the ability to produce and control flames. She is much more aggressive than her partner and believes that killing other intelligent beings to drive them away from the pack’s territory is the only way she can keep her people safe/ Bolt, the alpha male, has gained the ability to roar with the fury of a storm and shoot blasts of lightning from his mouth. He is generally more cautious and kindly than his partner, and prefers the idea of breeding sheep and moving into remote areas where other ‘civilised’ races won’t bother them.
 
+{{pageNumber,auto}}
+{{footnote Bolt}}
+
 \page
 
 
@@ -3516,7 +11745,95 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 
 # Frozen Sick
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
+
+## Northwatch Wardens Integration (DM)
+
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Revelation Adventure)
+
+**Campaign Arc:** Arc 2: Revelation — The Hidden Truth
+
+**Arc Position:** Part 1 of 2 in Arc 2
+
+**Arc Progress Notes:** This is the **revelation adventure** where the mystery's core is uncovered. Players discover Salsvault as the source of all magical disturbances, learn it's Aeorian in origin, and realize it was deliberately activated. This shifts the campaign from "what's happening?" to "who triggered it and why?" By completing this adventure, players understand they're dealing with ancient, powerful magic and that the problem is far bigger than initially realized.
+
+**Campaign Connection:** This is the **revelation adventure** where players discover the source of all magical disturbances. Salsvault, a buried Aeorian laboratory, has reactivated and is leaking deadly spores and transformative magic.
+
+**Prerequisite Adventures:** 
+- Enhanced if players completed Wolves of Welton (recognize connection to Alexi's death)
+- Enhanced if players completed Wild Sheep Chase (Shinebright can provide research assistance)
+
+**Leads To:**
+- **Temple of Dragonknights** (magical convergence points attract predators)
+- All future adventures (Salsvault remains active, continuing threat)
+
+{{note
+**DM Secret Resources:** For the truth behind this adventure, see:
+- **Chapter 6: Places Secrets** — "Salsvault: The Frozen Laboratory" section
+- **Chapter 6: The Far North Secrets** — Regional context
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
+
+**Key Secrets:**
+- Salsvault's activation killed Alexi Merriksonn via magical feedback (Wolves of Welton connection)
+- The reactivation was NOT accidental — someone or something triggered it deliberately
+- Aeorian spores are both deadly (frigid woe) and transformative (wolf awakening)
+- Salsvault is still operational and will continue causing problems
+- The ruins contain both weapons and potential solutions to the Echo
+
+**Player Discovery:** This adventure should feel like pieces clicking into place — the wolves, Alexi, the magical instability, all trace back to Salsvault. The mystery shifts from "what is happening?" to "why did it activate, and how do we stop it?"
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Salsvault Is the Source:**
+- Urgon and Verla died from frigid woe contracted at Salsvault ruins
+- **Discovery Method:** Elro's briefing, Urgon's journal, physical evidence
+- **Investigation DC 10 (Medicine):** "This disease is magical in origin, not natural"
+- **Connects to:** ALL previous adventures — this is the answer to "what caused it?"
+
+**Secondary Clue — Activation Timeline:**
+- Salsvault became active 2-3 months ago, matching Alexi's death and wolf awakening
+- **Discovery Method:** NPC testimony, journal entries, magical residue dating
+- **Investigation DC 14 (Arcana/History):** "Something triggered this facility to wake after centuries dormant"
+- **Connects to:** Wolves of Welton (direct causal link established)
+
+**Tertiary Clue — Aeorian Weapons Lab:**
+- Salsvault was a bio-weapons research facility during the Age of Arcanum
+- **Discovery Method:** Exploring ruins, inscriptions, laboratory equipment
+- **Investigation DC 15 (History):** "Aeor created this to fight the gods — it's designed to kill immortals"
+- **Connects to:** Campaign-wide implications (dangerous artifacts exist, factions want them)
+
+**Critical Clue — Deliberate Activation:**
+- Evidence in Salsvault suggests the facility didn't reactivate randomly — it was *triggered*
+- **Discovery Method:** Investigation DC 16 in control rooms, Arcana DC 17 to analyze activation sequence
+- **Discovery:** "The startup sequence was initiated manually — someone knew what they were doing"
+- **Connects to:** Future campaigns (WHO triggered it, and WHY?)
+
+**Hidden Clue — Other Aeorian Sites:**
+- Maps or logs in Salsvault reference other Aeorian facilities across Northreach and beyond
+- **Discovery Method:** Thorough exploration, language comprehension (Celestial/Draconic for old inscriptions)
+- **Discovery:** "Salsvault is one of dozens of research stations — and they're all networked"
+- **Connects to:** Campaign scope expansion (the problem is bigger than one ruin)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. ✅ **MYSTERY SOLVED:** Salsvault reactivation caused all magical disturbances
+2. ✅ Wolf awakening, Alexi's death, frigid woe, magical instability — all connected to Salsvault
+3. ⚠️ **NEW MYSTERY:** Salsvault didn't wake randomly — someone triggered it deliberately
+4. ⚠️ **ESCALATION:** Salsvault is still active and will continue causing problems
+5. ⚠️ **SCOPE:** Other Aeorian facilities exist and may be similarly dangerous
+
+**Questions left unanswered (campaign-wide implications):**
+- Who triggered Salsvault, and why? (Long-term mystery)
+- How can Salsvault be deactivated? (Requires specialized knowledge/power)
+- What are the other Aeorian facilities, and are they active? (Future adventures)
+- What was Aeor really trying to accomplish? (Lore deep-dive)
+
+---
 
 # DM Notes: Frozen Sick
 
@@ -3730,6 +12047,9 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 5. **Elric's Debrief (when party returns to Waystone Inn):**
    > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Godsfall, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Frozen Sick}}
+
 \page
 
 # DM Prep Checklist: Frozen Sick
@@ -3883,23 +12203,35 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 
 ### Elro's Hiring Speech
 
-> "Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
+{{descriptive
+**Elro's Hiring Speech:**
+"Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
+}}
 
 ### Tulgi's Confession (if persuaded)
 
-> *The dwarf trapper coughs, blue veins visible on her face.*
->
-> "Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
+{{descriptive
+**Tulgi's Confession:**
+*The dwarf trapper coughs, blue veins visible on her face.*
+
+"Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
+}}
 
 ### Morgo's Warning (at Syrinlya)
 
-> "Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
+{{descriptive
+**Morgo's Warning:**
+"Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
+}}
 
 ### Lorewarden Elric's Revelation (when party returns to Waystone Inn)
 
-> *Elric's face pales as you describe Salsvault.*
->
-> "An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+{{descriptive
+**Elric's Revelation:**
+*Elric's face pales as you describe Salsvault.*
+
+"An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+}}
 
 ## Post-Session Tasks
 
@@ -3933,9 +12265,15 @@ Dungeons & Dragons is the property of Wizards of the Coast. Please buy their boo
 
 After curing the plague and debriefing with Elric:
 
-> "You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
+{{descriptive
+**Elric's Follow-Up Hook:**
+"You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
+}}
 
 This sets up Temple of the Dragonknights as the next adventure.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -3943,10 +12281,12 @@ This sets up Temple of the Dragonknights as the next adventure.
 
 **Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
 
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: The Aeorian Echo** — Complete Echo documentation
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Far North Secrets** — Salsvault details
+}}
 
 **Key Secrets:**
 - Salsvault is an **active Aeorian facility** leaking magical energy into the region
@@ -3983,7 +12323,14 @@ Something is killing people in Palebank Village, and if the characters don’t s
 
 If your players are using the heroic chronicle to create their characters (see chapter 4 in the this adventure), work with them to decide how they made their way to Palebank Village. Are they explorers from the south now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
 
-Story Overview
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
+\page
+
+\column
+
+## Story Overview
 Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of The Far North for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of The Far North’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Port Morrow, and sold again to an unsuspecting merchant.
 
 In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “The Far North” section of chapter 3 of this adventure.
@@ -3993,6 +12340,9 @@ Frigid Woe
 Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in The Far North’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
 The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4023,6 +12373,9 @@ Whether the characters are known in the village as neophyte adventurers or simpl
 
 Two months ago, Urgon Wenth returned home after exploring The Far North for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
@@ -4050,6 +12403,9 @@ Strange Receipt
 A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in The Far North to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
 
 Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4086,6 +12442,9 @@ A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check 
 
 Tulgi came to Palebank Village a few years back from Port Morrow with her sister, Hulil. Both work for the Uttolot family.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from The Far North—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from southern cities or the southern kingdoms.
@@ -4115,6 +12474,9 @@ The antique shop occupies the large front room of the cabin. When the characters
 Five cloaked elves appear to have ransacked the shop and are searching through the broken debris on the floor. The furniture, shelves, and front counter have been smashed, and the shop’s wares now litter the floor.
 
 This area is difficult terrain thanks to the debris covering it. The five elves are bandits with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put them to sleep.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4149,6 +12511,9 @@ With the exception of Old Croaker (see area C5), giant ice frogs are giant frogs
 The blue-skinned frogs attack any creatures in the cave complex not escorted by bandits they recognize. Each fights until reduced to half its hit points or fewer, then flees. A character who succeeds on a DC 15 Wisdom (Animal Handling) check as an action convinces one frog to not attack or to stop attacking. If the character or any of their allies attacks or harms the frog, it resumes combat.
 
 The frogs spend much of their time resting in pools of murky, frigid water in Croaker Cave. A character who succeeds on a Wisdom (Perception) check opposed by a frog’s Dexterity (Stealth) check notices a frog hiding in a pool. If a frog goes undetected, it attacks with surprise when a character comes within 5 feet of the pool.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4194,6 +12559,9 @@ Three Uttolot bandits and two giant ice frogs normally occupy this cavern. If th
 
 A dwarf and two elves bundled in layers of winter clothing are throwing dead bats into the air. Two giant blue-skinned frogs leap up to snatch the bats in midair, seemingly as part of some sort of training session.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4232,6 +12600,9 @@ A warm rush of heat comes from a massive fire burning in the center of this cave
 
 Hulil Lutan (a neutral evil, female mountain dwarf cult fanatic with a walking speed of 15 feet, darkvision out to a range of 60 feet, resistance to poison damage, and advantage on saving throws against poison) and her apprentice, Raegrin Mau (a neutral evil, male wood elf cultist with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put him to sleep), are both in a state of deep meditation, praying to Tiamat for a cure for the dwarf’s affliction. Even if combat broke out in area C5, they remain unaware of the characters’ presence until they are disturbed or attacked. Hulil and Raegrin are both greedy servants of Tiamat and the Uttolot family. Raegrin follows Hulil’s every order with unshaking loyalty.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4258,6 +12629,9 @@ The chest contains the rest of the treasure found by Urgon Wenth—a gilded scro
 
 Development
 When the characters are done exploring Croaker Cave, they should know the blue glass vials found by Urgon Wenth are the source of the strange malady that is turning people into ice statues, and that Irven Liel has one of those vials. If the characters don’t have a chance to question Hulil or Raegrin, you can have the chest also contain a journal or notes that provide the information they need and point them toward the Jolly Dwarf inn.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4292,6 +12666,9 @@ The characters advance to 2nd level before traveling north to the icefields.
 
 traveling north to the icefields
 When the characters are ready to leave for The Far North, Elro Aldataur provides them with the following information:
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4329,6 +12706,9 @@ The dwarf stops in front of a large fur-lined yurt. “You can stay here. Belong
 Bertron’s Yurt
 The characters are welcome to this yurt during their time in Syrinlya. When they first enter, read:
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4358,6 +12738,9 @@ Orvo Mustave
 Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
 
 A campfire burns in front of this small tent, whose flaps are open. Inside the tent sits a young dwarf whose face is scarred as though scratched by a large claw. A shortsword is casually laid across his lap as he warms his outstretched hands.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4391,6 +12774,9 @@ d6	Encounter
 3	The characters find a griffon with an arrow in its wing that prevents it from flying. A character who succeeds on a DC 15 Wisdom (Animal Handling) check can approach the griffon without being attacked. Such a character can remove the arrow, restoring the griffon's ability to fly, after which the griffon allows the character to ride it as a mount for the next 1d10 days.
 4	The characters encounter the revenant of a dead explorer from Balenpost who was murdered by one of its team and is looking for vengeance.
 5	The characters find a 3-foot-tall, 50-pound egg. If they keep the egg in a cold environment for 1d10 weeks, a white dragon wyrmling hatches from it.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4432,6 +12818,9 @@ Doors and Walls
 Salsvault’s heavy doors are made of black stone, and its walls are made of blue stone. A detect magic spell reveals a faint aura of abjuration magic radiating from the doors and walls. Each door and each 10-foot section of wall has AC 17; 27 hit points; resistance to bludgeoning, piercing, and slashing damage; and immunity to poison and psychic damage.
 
 If an area’s description notes a locked door, the lock can be picked with a successful DC 15 Dexterity check using thieves’ tools, or the door can be forced open with a successful DC 18 Strength check. Ferol Sal (see area S17) carries a master key that locks or unlocks all the doors in Salsvault.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4479,6 +12868,9 @@ The door that leads to area S2 is slightly ajar. A character who examines the do
 S2. Ransacked Frigid Woe Laboratory
 Stone tables lie in pieces on the floor at the east end of the room. Two open stone chests stand against the west wall. A layer of fine sand coats the inside of the chests and the floor around them.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4515,6 +12907,9 @@ Each chest is packed with fine sand, within which are nestled two vials of frigi
 
 Iron Lever
 A character who examines the lever notices spots of faded red paint on it with a successful DC 13 Wisdom (Perception) check. As an action, a creature can pull the lever down, causing flames to shoot down from the ceiling in area S5. Even with the door closed, a hiss can be heard in this area when the flames are active. A creature can use an action to push the lever back up, which shuts off the flames. See area S5 for more information on this hazard.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4572,6 +12967,9 @@ The door to Ferol Sal’s personal quarters is locked. When the characters can s
 
 This room is in immaculate condition, apparently having been cleaned up after the destruction seen elsewhere in the complex. A crisply made bed stands at the center of the west wall, with small tables off to either side. The room also contains a stone desk set with a chair, and a chest built into the floor.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4621,6 +13019,9 @@ A character with a passive Wisdom (Perception) score of 12 or higher, or one who
 S14. South Hall
 Three well-preserved human zombies in tattered robes roam this hall aimlessly, attacking any intruders that catch their attention.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -4660,6 +13061,9 @@ Ferol knows nothing of Aevoria’s history since Aeor’s crash, and his memory 
 When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
 
 If Ferol trusts the characters, he tells them to stay away from the locked golem lab (area S16). If they ask about the cure for frigid woe, he tells them they can find it locked in a chest in what he calls the curative laboratory (area S18). A character who succeeds on a DC 15 Charisma (Persuasion) check can convince Ferol to provide the key that safely unlocks the chest.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -4732,6 +13136,9 @@ ___
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
+
 \page
 
 ## Bandit Captain
@@ -4769,6 +13176,9 @@ It takes a strong personality, ruthless cunning, and a silver tongue to keep a g
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
+
 \page
 
 ## Animated Armor
@@ -4804,6 +13214,9 @@ ___
 This empty steel shell clanks as it moves, heavy plates banging and grinding against one another. Animated armors are often found guarding ancient tombs and ruins left by long-dead wizards.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
 
 \page
 
@@ -4907,12 +13320,28 @@ A fourth/fifth level adventure for D&D 5E
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐ (Significant — Magical Destabilization Pattern)
+
+**Campaign Arc:** Arc 2: Revelation — The Hidden Truth
+
+**Arc Position:** Part 2 of 2 in Arc 2
+
+**Arc Progress Notes:** This adventure demonstrates that the Aeorian Echo's effects extend beyond biological transformations to magical items and spellwork. Combined with Frozen Sick, players complete Arc 2 understanding that Salsvault's activation is causing widespread magical instability. The discovery of Shinebright (Finethir) as a potential ally closes the arc with both answers and new questions, setting up Arc 3's faction conflicts.
+
 **Campaign Connection:** This adventure shows **magic destabilizing** across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
 
+**Prerequisite Adventures:** Enhanced if players have completed Wolves of Welton (recognizes transformation theme)
+
+**Leads To:**
+- **Frozen Sick** (theme: magic behaving unpredictably has a source)
+- **Temple of Dragonknights** (magical convergence points attract power)
+
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Noke's Tower: The Wizard's Arsenal" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - **Shinebright (Finethir) is not who he appears to be**—he's a dedicated Aeorian researcher preparing countermeasures
@@ -4922,6 +13351,45 @@ A fourth/fifth level adventure for D&D 5E
 - If players earn his trust, he becomes a crucial ally with maps, translations, and protective magic
 
 **Player Discovery:** This should feel like comic relief at first, but perceptive players may notice Shinebright knows more than he admits. Successfully helping him is the first step toward earning his trust.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Magical Item Malfunction:**
+- The Wand of True Polymorph is behaving unpredictably (intended to kill, instead transformed to sheep)
+- **Discovery Method:** Shinebright's explanation, examination of wand effects
+- **Investigation DC 13 (Arcana):** "This wand should be stable — something is interfering with its magic"
+- **Connects to:** Wolves of Welton (transformation theme), Frozen Sick (source of interference)
+
+**Secondary Clue — Widespread Magical Instability:**
+- Noke's tower contains multiple malfunctioning items: animated objects arguing, traps backfiring, rooms rearranging
+- **Discovery Method:** Exploring tower, observing environmental effects
+- **Investigation DC 14 (Arcana):** "This isn't one item failing — the entire tower's enchantments are destabilizing"
+- **Connects to:** All Echo adventures (regional magical instability)
+
+**Tertiary Clue — Shinebright's Secret Knowledge:**
+- If players earn Shinebright's trust (save him, act honorably), he admits he's been researching "strange magical phenomena"
+- **Discovery Method:** Social interaction, Insight DC 15 reveals he knows more than he says
+- **High Trust Revelation:** Shinebright shares that he's documented similar malfunctions across Northreach and suspects an ancient source
+- **Connects to:** Frozen Sick (he can provide research notes or guidance), future allies
+
+**Hidden Clue — Tower Basement (Optional):**
+- If players thoroughly explore after defeating Noke, they find Shinebright's hidden research library
+- **Discovery Method:** Investigation DC 16, or Shinebright grants access if trust is maximum
+- **Discovery:** Maps marking magical anomaly sites, sketches of Aeorian symbols, notes mentioning "Salsvault" and "pre-Calamity magic"
+- **Connects to:** Direct foreshadowing of Frozen Sick, establishes Shinebright as expert ally
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. Magical items and enchantments across Northreach are malfunctioning
+2. The destabilization is regional, not isolated to one location or item
+3. The pattern suggests external interference, not random failure
+4. At least one expert (Shinebright) is aware and researching the phenomenon
+
+**Questions left unanswered (for future adventures):**
+- What is causing magical destabilization? (Answered in: Frozen Sick)
+- Are wizards and artificers in danger? (Yes, ongoing theme)
+- Can magic be trusted? (Campaign-wide tension)
 
 ---
 
@@ -5115,7 +13583,12 @@ A fourth/fifth level adventure for D&D 5E
 - **Curse:** On a roll of 1-3 on d20, wand backfires (caster OR random ally within 30 ft transforms instead)
 - **Aeorian Instability:** Each use after first in 24 hours requires DC 12 Arcana check or triggers Wild Magic surge
 
+{{note
 **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful).
+}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -5127,6 +13600,9 @@ A fourth/fifth level adventure for D&D 5E
 - **Local Town:** Friendly (if they fought Guz publicly)
 - **Shinebright:** Ally (can call upon him for magical research, identifying items)
 - **Lorewarden Elric:** Very interested (wants to study wand's instability)
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -5150,6 +13626,9 @@ A fourth/fifth level adventure for D&D 5E
    > *Elric examines the wand, his face pale.*
    >
    > "This confirms my worst fears. The Aeorian Echo isn't just awakening creatures or spreading disease — it's corrupting *all* magic. If artifacts across Northreach are destabilizing like this... gods help us. We need to find the source and shut it down before every wizard's wand becomes a ticking time bomb."
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -5308,44 +13787,59 @@ A fourth/fifth level adventure for D&D 5E
 
 ### Shinebright's Introduction (Sheep Form)
 
-> *The sheep bleats frantically, waving a scroll at you. Once you activate the Scroll of Speak with Animals, the bleating becomes cultured, elven-accented Common.*
->
-> "Thank the gods! Adventurers! I am Finethir Shinebright, Master Wizard of the Third Circle, and I have been most GRIEVOUSLY transformed by my vile apprentice, Ahmed Noke! He wields a Wand of True Polymorph and has turned me into this... this ABSURD ovine form! I require your aid to reclaim the wand and restore my proper body. Will you help me?"
+{{descriptive
+**Shinebright's Introduction:**
+*The sheep bleats frantically, waving a scroll at you. Once you activate the Scroll of Speak with Animals, the bleating becomes cultured, elven-accented Common.*
+
+"Thank the gods! Adventurers! I am Finethir Shinebright, Master Wizard of the Third Circle, and I have been most GRIEVOUSLY transformed by my vile apprentice, Ahmed Noke! He wields a Wand of True Polymorph and has turned me into this... this ABSURD ovine form! I require your aid to reclaim the wand and restore my proper body. Will you help me?"
+}}
 
 *Shinebright is polite but snobbish, occasionally bleats mid-sentence, and complains about hooves.*
 
 ### Guz's Demand (Street Encounter)
 
-> *The half-orc strides forward, hand on greatsword hilt.*
->
-> "That sheep is Master Noke's property. He wants it back. NOW. Give it to me, or I take it by force. Master Noke is very powerful. You don't want him angry. Trust me."
+{{descriptive
+**Guz's Demand:**
+*The half-orc strides forward, hand on greatsword hilt.*
+
+"That sheep is Master Noke's property. He wants it back. NOW. Give it to me, or I take it by force. Master Noke is very powerful. You don't want him angry. Trust me."
+}}
 
 *Guz is dim-witted but intimidating. He doesn't believe Shinebright is really a wizard.*
 
 ### Noke's Villain Monologue (Tower Confrontation)
 
-> *A thin elf in elaborate robes stands at the far end of the lab, holding a shimmering wand.*
->
-> "Ah, my former master! And you've brought... friends. How delightful. Did you come to beg for mercy? To plead for restoration? TOO LATE! I have claimed the wand, and with it, POWER! Shinebright, you are obsolete! And you, adventurers — you are obstacles. Obstacles I will REMOVE!"
+{{descriptive
+**Noke's Villain Monologue:**
+*A thin elf in elaborate robes stands at the far end of the lab, holding a shimmering wand.*
+
+"Ah, my former master! And you've brought... friends. How delightful. Did you come to beg for mercy? To plead for restoration? TOO LATE! I have claimed the wand, and with it, POWER! Shinebright, you are obsolete! And you, adventurers — you are obstacles. Obstacles I will REMOVE!"
+}}
 
 *Noke is over-the-top theatrical, overconfident, and prone to evil laughter.*
 
 ### Noke's Wand Backfire (Comedy Moment)
 
-> *Noke points the wand at you dramatically, but it sparks and fizzles. A beam of light shoots backward, striking HIM instead.*
->
-> Roll on polymorph table:
-> 1-2: Noke becomes a chicken (clucks angrily)
-> 3-4: Noke becomes a frog (croaks in rage)
-> 5-6: Noke becomes a sheep (ironic justice!)
+{{note
+**Polymorph Backfire Table:**
+*Noke points the wand at you dramatically, but it sparks and fizzles. A beam of light shoots backward, striking HIM instead.*
+
+Roll on polymorph table:
+1-2: Noke becomes a chicken (clucks angrily)
+3-4: Noke becomes a frog (croaks in rage)
+5-6: Noke becomes a sheep (ironic justice!)
+}}
 
 *This is the perfect comedy payoff. Players can decide whether to capture him or restore him.*
 
 ### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
 
-> *Elric examines the unstable wand, his expression grave.*
->
-> "This is deeply troubling. The wand's enchantment matrix has been corrupted by external magical interference — the Aeorian Echo, I suspect. If artifacts across Northreach are destabilizing like this, every wizard, artificer, and magic user is in danger. We need to understand the Echo's source and find a way to contain it. Thank you for bringing this to my attention. And... please, destroy that wand. It's too dangerous to exist."
+{{descriptive
+**Elric's Debrief:**
+*Elric examines the unstable wand, his expression grave.*
+
+"This is deeply troubling. The wand's enchantment matrix has been corrupted by external magical interference — the Aeorian Echo, I suspect. If artifacts across Northreach are destabilizing like this, every wizard, artificer, and magic user is in danger. We need to understand the Echo's source and find a way to contain it. Thank you for bringing this to my attention. And... please, destroy that wand. It's too dangerous to exist."
+}}
 
 ## Post-Session Tasks
 
@@ -5378,11 +13872,17 @@ A fourth/fifth level adventure for D&D 5E
 
 After restoring Shinebright and debriefing with Elric:
 
-> *Shinebright adjusts his newly restored robes and nods gratefully.*
->
-> "Thank you, my friends. I owe you a great debt. If you ever need magical consultation or research assistance, you need only ask. As for the wand... Elric is right. Destroy it. The instability is too dangerous. But know this: If my wand malfunctioned, others will too. Every wizard in Northreach is at risk. Someone must find the source of this magical corruption."
+{{descriptive
+**Shinebright's Thanks:**
+*Shinebright adjusts his newly restored robes and nods gratefully.*
+
+"Thank you, my friends. I owe you a great debt. If you ever need magical consultation or research assistance, you need only ask. As for the wand... Elric is right. Destroy it. The instability is too dangerous. But know this: If my wand malfunctioned, others will too. Every wizard in Northreach is at risk. Someone must find the source of this magical corruption."
+}}
 
 This reinforces the Aeorian Echo mystery and sets up future adventures.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: The Wild Sheep Chase}}
 
 \page
 # Summary
@@ -5407,9 +13907,12 @@ Getting the players into this adventure is pretty straightforward. All that is r
 
 If you want to plant seeds in advance, you may wish to introduce the character of Noke through rumours or idle conversation with shopkeepers and innkeepers, who view him with fear and awe.
 
-
+{{pageNumber,auto}}
+{{footnote Adventure Hooks}}
 
 \page
+
+\column
 
 # Baaaa-d News
 
@@ -5457,6 +13960,9 @@ He demands that he be given "Master Noke's sheep," which he claimed has escaped,
 Guz is not a bright fellow, but he is very loyal and determined to complete his task. His trackers know that Shinebright is there, no matter how well the party tries to hide him, and will not take no for an answer.
 
 While he prefers violence and intimidation, he is also willing to offer bribes and promises of magical favours if that looks like the best option.
+
+{{pageNumber,auto}}
+{{footnote Guz}}
 
 \page
 
@@ -5511,6 +14017,9 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 
 ![- Abstract, colorful composition dominated by a glowing, horned silhouette made of bright sparkles and light particles. - Diagonal streaks of color run across the background from warm orange on the left, through yellow and green, to teal on the right. - The central shape (resembling a ram or bull head with curved horns) is formed by concentrated green-yellow points of light and small star-like flares. - A textured, darker green band runs along the bottom, suggesting ground or a foreground element. - Overall mood is cosmic, magical, and luminous.](./892902-The_Wild_Sheep_Chase_V2_images/image_002.png)![The image is a plain, uniform gray rectangle with no distinguishable objects, text, or features. There’s a slightly darker band near the top and bottom edges, but otherwise it’s a flat gray field.](./892902-The_Wild_Sheep_Chase_V2_images/image_003.png)
 
+{{pageNumber,auto}}
+{{footnote Guz}}
+
 \page
 
 
@@ -5550,6 +14059,9 @@ However, he is also fond of trying to use long, complicated words he has picked 
 
 The path to Noke’s Tower cuts off from a main road a few miles out of town, darting off between a gap in the bushes. It is a well-trodden route that soon begins to weave its way between tall oak trees
 
+{{pageNumber,auto}}
+{{footnote Guz}}
+
 \page
 
 
@@ -5586,6 +14098,9 @@ Scattered beneath the platforms are two small wooden huts and a large outhouse
 --------------------------------------------------------------------------------------------------------------
 
 When the party arrives at the compound, there is a trio of Apes (MM p31 7) either sleeping or playing with an oversized pair of dice on the lawn, with iron greatswords stuck into the ground next to them. A Brown Bear is in the outhouse, taking care of business.
+
+{{pageNumber,auto}}
+{{footnote Guz}}
 
 \page
 
@@ -5642,6 +14157,9 @@ Noke is in the central platform, working furiously on new spells. If he notices 
 If they talk, he will reveal his reasons for hating Shinebright and boast disjointedly of his own achievements. He will also ask if they killed ‘my man, Guz,’ and be visibly upset if they have. Should they refuse to return Shinebright he will order his men to attack.
 
 The most important part of any fight that breaks out is Noke, who is offensively weak but can buff his allies dramatically. Once the Brown Bear emerges from the outhouse he will cast Enlarge/Reduce (PHB p237) on it to increase its damage. He will supplement his minions’ attacks with Ray of Frost (PHB p271 ) but will focus on keeping up concentration.
+
+{{pageNumber,auto}}
+{{footnote Bed Dragon Wyrmling}}
 
 \page
 
@@ -5717,6 +14235,9 @@ Desperate and unwilling to let his old master win, a babbling Noke will then att
 
 However, the over-used wand will crackle, fizz and malfunction with a loud bang, turning Noke into a Gibbering Mouther (MM p1 57) - a misshapen pile of flesh that bellows incoherently from dozens of mouths. The sad creature will attack mindlessly until completely destroyed.
 
+{{pageNumber,auto}}
+{{footnote Ahmed Noke}}
+
 \page
 
 
@@ -5743,6 +14264,9 @@ If the party decides to go ahead with the spell and it succeeds, Shinebright con
 He will, however, be willing to perform transmutations of up to 5th level for them, charging just ehough to cover the components. He will also take in any polymorphed guards who fled, promising to work towards returning them to their natural shapes.
 
 If the party decides to go ahead with the spell and it fails, Shinebright dies permanently. The party is free to honour his final wish and leave the tower more-or-less intact, or loot to their hearts’ content. The tower is surprisingly empty of anything of benefit to non-transmuters, however, with valuables restricted to expensive lab equipment and arcane paraphernalia estimated to be worth around 1 ,000gp. If the players wish they can also take the entire tower complex as their own, though this may cause trouble when the local nobles try to pay Noke a visit and find him missing…
+
+{{pageNumber,auto}}
+{{footnote Ahmed Noke}}
 
 \page
 
@@ -5771,6 +14295,9 @@ If inspected with a DC 1 5 Intelligence (Arcana) check, reveal that the modifica
 
 Each time a charge is used the user must pass a DC 1 7
 
+{{pageNumber,auto}}
+{{footnote Modified Wand of True Polymorph}}
+
 \page
 
 
@@ -5794,8 +14321,6 @@ This work contains material that is copyright Wizards of the Coast and/or other 
 
 \page
 ## Peril in Pinebrook
-
-![A large, metallic silver dragon soars over a snow-covered mountain valley at sunrise or sunset. Its outstretched wings catch the light, creating lens-flare–like highlights, and its scaled body, spines, and hooked talons are rendered with detailed, reflective texture. Below, a herd of deer or elk scatters across snow, leaving trails behind them as the dragon casts a long shadow. The scene uses cool blues and purples for the snow and distant peaks, with warm pink and gold tones in the sky and on the dragon where the light hits. Key visual elements: - Silver, armored dragon with pronounced scales, spines, and a horned head - Large translucent wings with bright reflections and lens-flare effects - Snowy mountain landscape with pink-tinged trees and distant peaks - Herd of ungulates (deer/elk) running beneath, kicking up snow - Dramatic contrast of warm sunlight and cool, icy colors](./Peril_in_Pinebrook_COMPLETE_images/image_001.png)
 
 **PERIL**
 
@@ -5828,6 +14353,9 @@ Welcome to Dungeons & Dragons:
 - [ ] Decide on Rorn's corruption level
 - [ ] Mark key revelation moments (Aeorian artifact, restoration option)
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Peril in Pinebrook}}
+
 \page
 
 
@@ -5835,12 +14363,28 @@ Welcome to Dungeons & Dragons:
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐ (Secondary — Human Cost & Smuggling)
+
+**Campaign Arc:** Arc 1: First Signs — Learning the Land
+
+**Arc Position:** Part 2 of 2 in Arc 1
+
+**Arc Progress Notes:** This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
+
 **Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
+**Prerequisite Adventures:** None (works as standalone or side quest)
+
+**Leads To:**
+- **Future campaigns:** Artifact smuggling networks (Uttolot family conspiracy)
+- Demonstrates that every settlement is vulnerable to Echo effects
+
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
@@ -5850,6 +14394,39 @@ Welcome to Dungeons & Dragons:
 - This is a **smuggling hub** moving dangerous artifacts through the frontier
 
 **Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Frontier Vulnerability:**
+- Even "safe" settlements like Pinebrook are affected by rising tensions and instability
+- **Discovery Method:** Observing town dynamics, NPC conversations, crime investigation
+- **Investigation DC 12 (Insight):** "People are more desperate, more frightened than usual — something has changed"
+- **Connects to:** Campaign theme — no place is truly safe from the Echo's effects
+
+**Secondary Clue — Artifact Smuggling (Optional):**
+- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
+- **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
+- **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
+- **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
+
+**Tertiary Clue — Information Brokering:**
+- Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
+- **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
+- **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
+- **Connects to:** Black market networks responding to Aeorian discoveries
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. The Aeorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
+2. Opportunists are exploiting the chaos (smuggling, profiteering, corruption)
+3. Frontier settlements lack resources to handle escalating problems
+4. The Northwatch Wardens' role is vital for maintaining stability
+
+**Questions left unanswered:**
+- Who is coordinating the artifact smuggling? (Uttolot family, future campaigns)
+- Where are the artifacts going? (Collectors, factions, researchers)
+- How widespread is the black market? (Regional scale)
 
 ---
 
@@ -5863,8 +14440,12 @@ The suggested number of participants for this experience is one DM and four play
 
 Dungeons & Dragons is a collaborative storytelling and roleplaying game. Each player takes on the role of an adventuring character: a hero with skill and knowledge—and sometimes magic—that lets them overcome challenges and achieve greatness!
 
+{{note
 One of the participants in the game takes the role of the Dungeon Master (DM). The DM acts as the lead storyteller, the keeper of secrets, and the referee. This document provides everything you need to know to get started as a DM.
+}}
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -5892,7 +14473,8 @@ Each player should also have a way to make notes and keep track of changes to th
 
 This packet includes four character sheets and a handy guide that explains some of the rules and character options in more detail. Give each player one character sheet. If you have more than four players, they can change the names and descriptions on a duplicate character sheet so that they’ll have unique characters with similar abilities and equipment. The “Helping the Characters” section later in this document provides more information about using character sheets. The Experience
 
-![A dramatic fantasy scene: a large, metallic-scaled dragon with broad, translucent wings glides low over a snowy mountain slope. Sunlight creates lens flares on the wing and highlights the dragon’s ornate crest and ridged jaw. Below, a scattering herd of antlered deer (resembling reindeer/elk) races across the snow beside pink‑tinted conifer trees. The color palette mixes silvery grays and icy blues with warm pinks and golds, giving a striking, wintry atmosphere.](./Peril_in_Pinebrook_COMPLETE_images/image_002.png)![- A mostly blank, portrait-oriented sheet with a subtle textured paper look. - Very light off-white/blue-gray tone with faint mottling and small speckles across the surface. - Slightly darker, soft blue-gray vignette around the edges, giving a stationery or watercolor-paper appearance. - No text, objects, or identifiable features present.](./Peril_in_Pinebrook_COMPLETE_images/image_003.png)![A mostly white, high-contrast abstract image. A large pale green, textured rectangular shape tilts diagonally across the center-right. The top-right corner contains a solid black triangular area, creating a strong diagonal divide. Overall the image looks like a lightly textured sheet or painted surface with a dark corner.](./Peril_in_Pinebrook_COMPLETE_images/image_004.png)![A photograph of a white sheet or print tilted on a dark background, showing a very faint, textured mint-green floral silhouette. The design features a tall stem with a rounded bloom at top and several leaves; the image has a soft, chalky or watercolor-like texture and is rotated slightly counterclockwise.](./Peril_in_Pinebrook_COMPLETE_images/image_005.png)![A mostly white, rotated sheet or panel set against a black background. The lower portion has a wide, pale teal/seafoam brushstroke or watercolor wash with subtle texture and streaks; the sheet’s bottom edge is rounded and angled, giving the whole image a tilted, cut-out appearance.](./Peril_in_Pinebrook_COMPLETE_images/image_006.png)![A tall, narrow portrait image showing a mostly white/off‑white background with a soft seafoam‑teal watercolor wash running down the right side. The teal area has irregular, organic edges, subtle tonal variations (darker core, lighter feathered margins), and a paper‑like texture—overall it looks like watercolor paint on paper and could serve as a decorative background or stationery element.](./Peril_in_Pinebrook_COMPLETE_images/image_007.png)![A close-up photo of a blue, marbled 20-sided gaming die (d20) with white engraved numbers. The die sits on a light surface and casts a soft shadow; the "20" face is prominently visible near the top. The surface shows glossy reflections and slight wear around the numerals.](./Peril_in_Pinebrook_COMPLETE_images/image_008.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -5931,6 +14513,9 @@ When an attack roll hits, it deals damage. The damage roll appears after the att
 
 Difficulty Class (DC) is the number that a character must equal or exceed to succeed at an action that is not an attack. This includes rolls to use skills.
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
@@ -5960,10 +14545,11 @@ Advantage means that instead of rolling the d20 once for the attack roll, Shalef
 
 Disadvantage works like advantage in reverse. If something in the game makes it harder to take an action, the roll for that action is made with disadvantage. For example, as Shalefire climbs a cliff using a rope, a monster at the top of the cliff shakes the rope. Because it’s now harder to climb, Shalefire makes the d20 roll to climb the rope with disadvantage. Disadvantage means that instead of rolling the d20 once to make the Athletics check to climb, Shalefire’s player rolls the d20 twice and uses the lower roll. They then add the normal modifier (+6 for Shalefire’s Athletics skill) to get a final result.
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
-
-![A single marbled blue game die (cube) sitting on a light surface. The top face shows the number 5, the front face shows a white 6 (with a small underline), and the right face has a curved-arrow marking. The plastic has a glossy, swirled finish and the die casts a soft shadow.](./Peril_in_Pinebrook_COMPLETE_images/image_009.png)![A mostly blank, portrait-oriented sheet with a subtle paper texture. The background is off-white with faint blue-gray mottling and a gentle darker vignette around the edges. No text, figures, or distinct objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_010.png)![A mostly white, minimalist composition with a sharp black triangular area in the top-right corner. Across the center and lower-left there are pale, textured, almost translucent greenish rectangular shapes laid diagonally. The image has a rough, paper-like texture and high-contrast geometric simplicity.](./Peril_in_Pinebrook_COMPLETE_images/image_011.png)![A tilted white sheet or panel against a dark background showing a very pale mint-green botanical silhouette. The design is a soft, grainy/washed texture of a tall flower with a round bloom at the top, a slender stem and several elongated leaves. The overall look is faded, watercolor- or chalk-like and mostly white space.](./Peril_in_Pinebrook_COMPLETE_images/image_012.png)![A diagonally rotated, mostly white sheet or canvas set against a black background with a soft, pale mint/aqua brushstroke running across the lower third. The brushstroke shows visible texture and subtle gradients; overall the image is minimal and abstract with clean, airy tones.](./Peril_in_Pinebrook_COMPLETE_images/image_013.png)![- Tall, narrow vertical image with a lot of white negative space. - A soft sea‑foam / teal watercolor wash runs down the right side — semi‑transparent layers, feathery edges, light splatter and drip marks that fade toward the bottom, giving an organic, hand‑painted texture.](./Peril_in_Pinebrook_COMPLETE_images/image_014.png)
 
 ### Hit Points
 
@@ -5973,7 +14559,8 @@ When a character reaches 0 hit points, they are unconscious. In this adventure, 
 
 **Using the Rules |**
 
-
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6009,6 +14596,9 @@ Here are some tips for DMs that can help them run great games:
 
 **Rule 0.** Rule 0 of D&D is simple: Have fun. It’s fine if everyone agrees to change the rules as long as doing so means the game is more fun for everyone. **Be Supportive.** The players and the DM are all on the same team. DMs aren’t playing against the characters. The
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
@@ -6022,7 +14612,8 @@ DM wins when the players have fun and the story is exciting and memorable.
 
 **NPCs Are Your Voice.** While the players determine what their characters do, the DM controls all the other characters in the game. Nonplayer characters (also known as NPCs) are a great tool for the DM to help the characters understand the game and the story, and to work information into the story smoothly. **Allow Alternatives.** D&D is a game of fantasy, where heroes use wits, skill, and determination to overcome obstacles. Sometimes those obstacles are defeated with weapons and spells. But characters can succeed in other ways. Communicating with monsters, tricking them or frightening them away, or avoiding a fight while cleverly sneaking past a challenge can be just as much fun. Such options are ideal if anyone playing the game wants to avoid violence. **Listen to Your Players.** Encourage your players to speak to you, publicly or privately, if something in the game upsets them. Then respond appropriately. For instance, you can move past upsetting topics by quickly narrating a resolution to a scene, then quickly move to the next part of the story.
 
-![A close-up photo of a blue, marbled 20-sided gaming die (d20) with white numerals. The die is tilted so the faces showing include 20, 2, 8, 14, and 18. It sits on a light surface with a soft shadow around it; background appears largely removed or brightened. The plastic has a glossy finish and the numbers are painted in white.](./Peril_in_Pinebrook_COMPLETE_images/image_015.png)![A glossy, marbled blue gaming die (six-sided) sits on a light surface casting a soft shadow. The top face shows a white "5", the front face a white "6" with a small minus-like mark beneath it, and the right face shows part of a circular arrow symbol. The die has rounded edges and white recessed numerals set against a swirled blue finish.](./Peril_in_Pinebrook_COMPLETE_images/image_016.png)![The image shows a pale, light-blue textured paper background with a subtle mottled/grainy surface and slightly darker blue shading along the edges, creating a faint vignette effect. There are no distinct objects, text, or people.](./Peril_in_Pinebrook_COMPLETE_images/image_017.png)![A portrait-oriented, mostly blank sheet of paper with a subtle textured grain. The paper is off-white with a faint cool/blue tint toward the edges and very light mottling across the surface; no text, drawings, or distinct marks are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_018.png)![A wide horizontal banner showing a soft mint‑green watercolor wash across the lower-left to center area, with painterly, irregular edges and visible paper texture that fades to white toward the right and top.](./Peril_in_Pinebrook_COMPLETE_images/image_019.png)![A rotated, abstract paint composition dominated by pale mint/seafoam green brushstrokes against a white background. The marks are wide, semi-translucent swaths with visible ribbed texture and layered ridges, some curving and overlapping to create depth. The image is tilted so the painted area runs diagonally across the frame; small scraped or splattered highlights and areas of thinner paint add contrast. Overall it reads as a minimalist, textured brushwork study.](./Peril_in_Pinebrook_COMPLETE_images/image_020.png)![A vertical, stylized botanical illustration on a pale off‑white background. Soft, mint‑green leaves and thin stems form a loose spray across the page; the foliage has a textured, stippled or sponge‑print look rather than crisp lines. The composition shows several compound leaves and intersecting stems, with two black triangular corners (top‑left and bottom‑left) where the image is cropped. Overall the image reads like a delicate, vintage‑style leaf print or wallpaper motif.](./Peril_in_Pinebrook_COMPLETE_images/image_021.png)![- Large white canvas with a light teal/green speckled splatter pattern. - Speckles and small chips are denser on the right side and fade toward the left, creating a diagonal gradient. - Texture appears like fine spray paint or ink splatter with occasional larger droplets. - Overall minimal, airy background suitable for subtle textured backgrounds or stationary.](./Peril_in_Pinebrook_COMPLETE_images/image_022.png)![A mostly empty sheet with a pale, cool-blue paper texture. It has a subtle vignette (darker blue near the edges), light mottling/grain across the surface, and no text, objects, or distinct features.](./Peril_in_Pinebrook_COMPLETE_images/image_023.png)![- A single sheet of textured paper filling the frame. - Very light, off-white to pale blue tint with subtle mottling and faint darker edges. - No text, images, or distinct markings — looks like decorative or stationery background.](./Peril_in_Pinebrook_COMPLETE_images/image_024.png)![A wide, horizontal banner showing a soft mint-green watercolor wash concentrated at the left that fades into a white background toward the right. The paint has a textured, brushed look with uneven edges and subtle variations in tone; there are no distinct objects, figures, or text.](./Peril_in_Pinebrook_COMPLETE_images/image_025.png)![- Abstract close-up of paint brush strokes on a pale background. - Broad, textured strokes in a soft seafoam/teal color with visible ridges and scraped paint detail. - Strokes are mainly vertical/arched but the whole image is slightly rotated, giving a diagonal feel. - Background is off‑white with faint diagonal striping; small black triangular corners appear at the top-left and bottom-left edges. - Overall impression: muted, airy, painterly composition focused on texture and flow.](./Peril_in_Pinebrook_COMPLETE_images/image_026.png)![- A tall, vertical botanical illustration on a white background. - Pale teal/seafoam-green leaf clusters and slender stems arranged diagonally across the image. - Leaves have a soft, textured, stippled or stamped appearance (like a leaf rubbing or sponge print). - Two black triangular corner areas at the top-left and bottom-left edges (likely from cropping or framing).](./Peril_in_Pinebrook_COMPLETE_images/image_027.png)![The image shows a mostly white background with a pale teal/seafoam paint-splatter pattern concentrated along the right side and upper-right quadrant. Speckles range from very fine mist-like dots to larger irregular chips; density fades leftward, creating a subtle gradient from dense splatter to nearly clean white. Overall appearance is abstract, like spray paint or watercolor splatter used as a textured background.](./Peril_in_Pinebrook_COMPLETE_images/image_028.png)![A mostly blank, slightly textured sheet with a soft blue-gray vignette around the edges. The center is bright white with faint paper grain and subtle speckling, giving the appearance of aged or watercolor paper. No text, objects, or people are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_029.png)![- Abstract, high-contrast image with a large off-white/very pale area at the top. - A small black triangular corner appears at the top-left. - The lower and right portions contain a rough, chalky/grunge textured block in pale blue-gray, arranged on a diagonal across the frame.](./Peril_in_Pinebrook_COMPLETE_images/image_030.png)![- A soft, mint-green botanical print of a flowering stem with several compound leaves and a single daisy-like flower. - The artwork has a rough, speckled texture that looks like a stamped or monoprint effect. - The image is placed on a white square that is rotated about 30–45° against a black background.](./Peril_in_Pinebrook_COMPLETE_images/image_031.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6115,7 +14706,9 @@ challenges the characters face as they take the baby dragon home.
 
 Text that appears in a box like this is meant to be read aloud to
 
+{{descriptive
 the players. You can read boxed text word-for-word, or use your
+}}
 
 own words.
 
@@ -6156,6 +14749,9 @@ based on their description and personality.
 Offer to help the players fill out these parts of their character
 
 sheets if needed. Do your best to answer questions from players,
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6202,7 +14798,8 @@ unconscious. You'll learn how to regain hit points later in the game.
 
 **Adventure Introduction |**
 
-![An abstract, high-key painting made of broad, vertical and slightly arched brush strokes in a pale seafoam/teal color on a white background. The strokes show visible ridges and texture variations, with some scraped or uneven areas where the white ground shows through. Overall the image feels minimal, layered, and painterly, like a large swath of diluted acrylic or gouache applied with a wide brush.](./Peril_in_Pinebrook_COMPLETE_images/image_032.png)![A pale, mostly white background with a soft, mint-green speckled texture concentrated on the left and fading toward the right. The pattern looks like fine paint splatter or terrazzo-style flecks of varying sizes, distributed more densely near the center-left and becoming sparser toward the edges. Overall effect is airy and subtle, suitable as a background or decorative texture.](./Peril_in_Pinebrook_COMPLETE_images/image_033.png)![A high‑contrast, black‑and‑white abstract image. It shows several thick vertical black shapes on a white background; the black forms have slightly curved edges and there’s a white triangular notch cutting into the top right of one black shape. The overall look is minimal and graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_034.png)![A stylized fantasy dragon in flight, shown from a three‑quarter view with wings fully extended. It has a long, sinuous neck and body covered in overlapping golden‑bronze scales, with spines running down its back. The large membranous wings show reddish and greenish tones and detailed veining; claws and a tapering tail are visible. The image looks like a painted or watercolor illustration against a soft cloudy sky.](./Peril_in_Pinebrook_COMPLETE_images/image_035.png)![A photo of a mostly blank sheet of textured paper. The surface has a very light, mottled grain with faint blue-gray shading concentrated along the edges, giving a subtle vignette or watercolor-paper appearance. No text, markings, or objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_036.png)![- Portrait-oriented abstract texture. - Mostly white background with a large pale blue‑gray, rough, chalky/brush-stroke area covering the lower two-thirds. - Solid black triangular wedge in the top-left corner and faint vertical/diagonal scratches/marks on the right. - No recognizable objects, text, or people.](./Peril_in_Pinebrook_COMPLETE_images/image_037.png)![An overhead view of a rotated square canvas with a pale teal, distressed botanical print. The design shows a stem with several textured leaves and a single daisy-like flower at the top right. The print has a weathered, stamp-like texture on an off-white background; black triangles fill the image corners outside the rotated square.](./Peril_in_Pinebrook_COMPLETE_images/image_038.png)![- Abstract close-up of paint brushstrokes on a light background. - Vertical, sweeping strokes in a pale mint/seafoam color with visible bristle texture and streaky highlights. - Areas of thinner paint show white underneath, giving a layered, scraped effect and subtle tonal variation. - Overall impression is soft, painterly, and minimalist.](./Peril_in_Pinebrook_COMPLETE_images/image_039.png)![- A mostly white background with a pale teal/seafoam speckled spray concentrated on the left side and fading toward the right. - The speckles vary in size from very fine dots to small irregular chips, resembling paint splatter, mist, or terrazzo texture. - Overall appearance is light, airy, and abstract with an off-center composition.](./Peril_in_Pinebrook_COMPLETE_images/image_040.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6327,9 +14924,12 @@ Proceed to Encounter 1: A Not-So-Fearsome Dragon.
 
 **| Starting the Adventure**
 
-
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
+
+\column
 
 ## Encounter 1: A Not-So-Fearsome Dragon
 
@@ -6357,10 +14957,13 @@ The players will probably ask questions throughout the adventure. To give the pl
 
 **Information the Characters Might Know.** Players might learn information based on their characters' skills. For instance, Shalefire or Gallantine could ask if this is a baby silver dragon. As the DM, you can have their players make a DC 10 check with an appropriate skill to see if they know the answer to that question. Shalefire could use the Animal Handling skill, while Gallantine could use the Nature skill. If they succeed on the check (d20 + skill modifier is 10 or higher),
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
-
-![A small, high‑contrast black-and-white image showing mostly white negative space with a few sharp black shapes: - A large triangular/diagonal black area in the top-left corner. - Three narrow, irregular vertical black bars or pillars along the lower portion. - Clean, hard edges and no visible texture or identifiable objects.](./Peril_in_Pinebrook_COMPLETE_images/image_041.png)![A painted illustration of a large, winged dragon in mid-flight. It has a long, sinuous neck with small spines, a golden-brown scaled body, and broad leathery wings with reddish-brown mottling. The dragon’s talons are tucked beneath it and the background shows a soft, cloudy sky, giving a sense of height and motion.](./Peril_in_Pinebrook_COMPLETE_images/image_042.png)![A wide horizontal abstract image showing a pale mint‑green watercolor wash along the left and lower edges that gradually fades into a white background on the right and top. Soft brush textures, subtle granulation, and gentle gradients create a calm, airy background suitable for a banner or stationery.](./Peril_in_Pinebrook_COMPLETE_images/image_043.png)![The image shows a mostly blank, off‑white sheet of textured paper. There is a subtle blue‑gray vignette and light mottling/grain across the surface, giving a watercolor or stationery paper look.](./Peril_in_Pinebrook_COMPLETE_images/image_044.png)![A soft, teal-green watercolor wash on a white background. The paint forms a cloudy, irregular blob with feathery, diffused edges and visible paper texture; color is denser toward the left and fades toward the right. The top-right and bottom-right corners show triangular cutouts (black/white), suggesting the image is cropped or masked.](./Peril_in_Pinebrook_COMPLETE_images/image_045.png)![A very narrow, vertical crop showing a repeating pattern of diagonal, pale teal/seafoam-green stripes on a white background. The stripes are slightly mottled and have soft, faded edges, giving a watercolor or textured-paper appearance.](./Peril_in_Pinebrook_COMPLETE_images/image_046.png)![An abstract paint smear: broad, sweeping brush strokes in a warm peach/beige color across a white background. The paint shows visible texture and ridges from the brush, with diagonal strokes and layered bands of thicker and thinner pigment. Edges fade into white, and the composition sits slightly rotated with triangular black corners outside the canvas. Overall the image reads like a textured, painterly swatch or background.](./Peril_in_Pinebrook_COMPLETE_images/image_047.png)![- Tall, narrow image with a clean white background. - A concentrated spray of copper/rose-gold paint splatter and tiny flecks runs diagonally from the upper right toward the center/right area. - Splatter density is highest near the top-right and gradually thins out into fine dots and a few larger paint chips. - Overall feel: minimal, decorative, abstract — like a subtle metallic powder or paint-splash accent on a white page.](./Peril_in_Pinebrook_COMPLETE_images/image_048.png)![- A large, textured pale-peach/beige area fills most of the image; the texture looks like crayon, pastel, or a sponge-painted surface. - The peach area is diagonal, sloping up from the lower-left toward the upper-right. - A white strip runs along the top edge where the peach meets a thin black triangular corner at the very top-left. - Overall it resembles a close-up of a shaded paper background or a swatch of textured pastel artwork.](./Peril_in_Pinebrook_COMPLETE_images/image_049.png)![- A tilted sheet or canvas with wide, sweeping brush strokes in a soft peach/beige tone. - Visible texture from the brush (parallel ridges and streaks) and areas of varying opacity. - Mostly white background with the painted area concentrated toward the center-right; black margins outside the tilted sheet.](./Peril_in_Pinebrook_COMPLETE_images/image_050.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6387,6 +14990,9 @@ Remind players how to make d20 rolls if needed. After the dragon is fed, it says
 
 Once the dragon eats, it perks up and follows the characters. They can carry the dragon, who enjoys the attention. The dragon also loves belly rubs!
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
@@ -6400,6 +15006,12 @@ Living Icicles.
 
 **A Not-So-Fearsome Dragon |**
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+\page
+
+\column
 
 ## Encounter 2: Living Icicles
 
@@ -6439,6 +15051,9 @@ Roll a 20-sided die and add the modifier listed by the attack you're using. Tell
 
 First, describe how the monsters are vicious, and the danger they present. Highlight how sharp their claws are. Try to make the players feel as if they’re in a battle for their characters’ lives. If the monsters make one or two successful attacks, that helps with this feeling. Let the characters act first, starting with the player on your left and going clockwise. Ask each player what they want to do, and encourage them to describe their actions so everyone can imagine what the scene looks like.
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
@@ -6450,7 +15065,8 @@ Continue taking turns until all the living icicles are defeated. You can describ
 
 Running an exciting combat in D&D is like a thrilling amusement park ride: the players often want to be scared and excited, but they don't want the excitement to lead to certain character death. This is where you can perform storytelling and mathematical magic. You can intervene if the characters seem to be losing the battle. For instance, you can give the characters advantage on attack rolls or give the monsters disadvantage on attack rolls. See the "Using the Rules" section earlier in this document for details about advantage and disadvantage. Changing probabilities like this can improve the characters' odds in defeating the monsters.
 
-![A vertical close-up illustration that looks like a serrated fin or leaf. Warm rusty reds and oranges along the top edge transition through purples and greens to blue at the bottom. Thin radial ribs and sharp, tooth-like points run along the jagged margin; the surface shows speckled paint texture and a soft aqua watercolor wash in the background.](./Peril_in_Pinebrook_COMPLETE_images/image_051.png)![A watercolor-style illustration of a small dragon or dragon-like creature perched on a rocky ledge, leaning over a calm pond. It has greenish-brown, scaly skin, a ridged neck, folded wings, clawed feet, a long tail, and a single glowing yellow eye focused on the water. Lily pads and pink water lilies float on the pond, where gentle ripples show the creature’s reflected image. The overall mood is quiet and contemplative, with soft, muted colors and painterly splashes around the scene.](./Peril_in_Pinebrook_COMPLETE_images/image_052.png)![A mostly blank, portrait-oriented sheet with a subtle paper texture. The center is very light (almost white) and the edges have a soft, pale blue wash/vignette. No text, objects, or distinct features are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_053.png)![A portrait-oriented, mostly blank sheet of textured paper. The surface is very light — off-white with a subtle blue-gray mottled texture and faint speckling, plus slightly darker, gently vignetting edges that give it a soft, aged/stationery look. No text, objects, or people are present.](./Peril_in_Pinebrook_COMPLETE_images/image_054.png)![A soft, irregular teal-green watercolor wash on a white background. The pigment forms a diffused, cloud‑like blotch with soft, feathered edges and visible paper texture; the color is denser toward the center/left and fades to pale at the edges. No text or recognizable objects are present — the image reads like an abstract paint wash suitable as a background or design element.](./Peril_in_Pinebrook_COMPLETE_images/image_055.png)![The image is a very tall, narrow vertical strip with a mostly white background. Diagonal, pale aqua/teal bands repeat down the length, giving a soft, washed‑out striped pattern. The texture looks slightly grainy with a few tiny specks and uneven faded areas, suggesting paper, fabric, or a printed border rather than a sharp graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_056.png)![- A large, single broad brushstroke or smear in a warm peach/tan color, centered in the image. - Visible streaks and bristle textures running mostly diagonally (upper-left to lower-right) with lighter and denser areas. - Edges are irregular and feathered; parts of the white canvas show through. - The painted area is rotated slightly inside a white polygonal crop, with black corners visible outside that polygon.](./Peril_in_Pinebrook_COMPLETE_images/image_057.png)![A tall, portrait-oriented image with a clean white background and a decorative copper/rose‑gold paint splatter concentrated along the right side. The splatter ranges from fine mist-like dots to larger flecks, creating an organic, airy, asymmetrical pattern — looks like decorative ink or pigment scattered across the page.](./Peril_in_Pinebrook_COMPLETE_images/image_058.png)![- Abstract, diagonal composition. - Large textured field in pale peach / light orange, resembling crayon or chalk shading, fills the lower-right portion. - Narrow white strip runs along the top edge of the textured area. - Small black triangular area occupies the top-left corner, creating strong contrast.](./Peril_in_Pinebrook_COMPLETE_images/image_059.png)![A slightly tilted, mostly white canvas or paper with broad, soft peach-colored paint brush strokes across the center. The strokes are textured—visible ridges and parallel lines from the brush—running mostly horizontal with a gentle diagonal sweep. The overall look is minimal, airy, and abstract.](./Peril_in_Pinebrook_COMPLETE_images/image_060.png)![A close-up watercolor illustration of a single fin- or leaf-like structure, shown vertically against a white background. The jagged, spiky edge has pointed tips and ribbed veins; colors blend from warm rust and crimson at the top into purples, greens, and bluish tones near the base. The surface shows speckled texture and subtle washes of paint, with a pale aqua wash bleeding into the background.](./Peril_in_Pinebrook_COMPLETE_images/image_061.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6473,7 +15089,8 @@ Just inside the cave entrance, the characters find a worn leather backpack. Insi
 
 a package of dried meat, five torches, flint and steel for starting fires, and a pouch containing 12 gold pieces.
 
-![A watercolor-style illustration of a small dragon perched on a rocky ledge, leaning down to peer into a pond. Key details: - Earthy, muted palette — browns and greens with soft washes and textured brushstrokes. - The dragon is scaled with a long neck and snout, yellow-green eye, folded wings, sharp claws, and a curled tail. - It gazes at the water where gentle ripples and a faint reflection appear. - The pond contains lily pads and two pink lotus-like flowers, adding a calm, whimsical mood.](./Peril_in_Pinebrook_COMPLETE_images/image_062.png)![The image shows a blank sheet of textured paper with a light bluish tint. Subtle grain and faint speckles are visible across the surface, and a gentle darker vignette appears near the edges. Overall it looks like a clean, slightly worn or handmade paper background.](./Peril_in_Pinebrook_COMPLETE_images/image_063.png)![A minimal, portrait-oriented image with a large area of white space and a soft, peach-pink watercolor wash concentrated on the right side. The paint has translucent layers, organic edges, subtle splatters and brush textures, and fades gently into the white background — overall an abstract, delicate background or stationery-style composition.](./Peril_in_Pinebrook_COMPLETE_images/image_064.png)![The image shows an abstract, lightly textured scene: - A large, irregular white shape (like a tilted page or panel) fills most of the frame. - Inside that shape is a broad, peach/beige, crayon- or pastel-like scribble with visible grain and overlapping strokes. - Dark black areas appear along the left edge and the top-right corner, creating strong contrast with the pale interior. - No people, text, or recognizable objects are visible; overall it looks like an abstract or sketched texture.](./Peril_in_Pinebrook_COMPLETE_images/image_065.png)![A slightly rotated white sheet or panel with a soft, pale-pink paint splatter pattern concentrated toward the center-right and lower area. The pink marks range from very fine speckles to small chips, creating a diffuse, textured look. Black triangular areas at the top-left and bottom-right suggest the sheet sits on a dark background.](./Peril_in_Pinebrook_COMPLETE_images/image_066.png)![A mostly white, tilted rectangular surface fills the image with scattered tan/orange paint splatter concentrated on the right half. The top-left and left edges show black triangular/angled areas (like background), while the splatter forms many small dots and a few larger blobs giving a speckled, random texture. No people or distinct objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_067.png)![- Abstract composition with a large, irregular pale peach/beige smear or wash across a mostly white background. - Texture looks like crayon/pastel or rough brush strokes with visible grain and soft, uneven edges. - The painted area sits slightly rotated; dark black triangular corners crop the image, giving an overall angled/octagonal framing. - Overall impression: soft, muted, textured color field on a clean background.](./Peril_in_Pinebrook_COMPLETE_images/image_068.png)![A minimalist, diagonal composition: a bright white triangular plane dominates the top-right, separated by a sharp diagonal from a solid black lower-right area. The left edge of the white triangle features a soft, pale blue watercolor wash with subtle splatters and drips, giving a paper-or-canvas-like texture. Overall impression: an abstract, geometric layout with a watercolor accent.](./Peril_in_Pinebrook_COMPLETE_images/image_069.png)![- Portrait-oriented abstract/minimal image. - Predominantly white background with a large pale peach/beige watercolor wash concentrated on the left and lower-left areas, fading toward the center. - Subtle texture in the wash (brush strokes and faint handprint-like marks). - A narrow black diagonal strip along the top edge near the left corner. - Overall airy, minimal composition with a lot of negative space.](./Peril_in_Pinebrook_COMPLETE_images/image_070.png)![A vertical fantasy illustration of a large, reptilian dragon perched on a rocky outcrop with its wings raised. - Stance/pose: Standing on a ledge, foreclaw on the rock, wings spread upward and outward; tail curls down and around the rock. - Anatomy/details: Long sinuous neck, spiky crest along head and back, visible sharp teeth, taloned feet, layered scales and pronounced musculature. - Colors & style: Muted metallic greens, golds and bluish highlights with painterly brushwork and textured shading. - Background & framing: Mostly white/negative space around the figure; small treetops visible near the lower edge to imply scale and height. - Mood: Majestic and imposing, a mix of natural realism and stylized fantasy illustration.](./Peril_in_Pinebrook_COMPLETE_images/image_071.png)![A blank sheet of textured paper with a very light blue-gray vignette around the edges. The surface shows subtle paper grain and small speckled marks, giving it a soft, slightly worn stationery look.](./Peril_in_Pinebrook_COMPLETE_images/image_072.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6526,6 +15143,12 @@ are ready, proceed to Encounter 3: A Dangerous Lair.
 
 **Living Icicles |**
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+\page
+
+\column
 
 ## Encounter 3: A Dangerous Lair
 
@@ -6548,6 +15171,9 @@ Because the cave is dark and spooky beyond the entrance, the characters need to 
 The characters must overcome three challenges to safely reach the hatching cavern of the silver dragon’s lair. Each challenge can be overcome in a variety of ways, using skills, equipment, or attacks.
 
 The challenge descriptions suggest potential ways characters can overcome each challenge. However, if the players come up with other ways that might work, let them make a d20 roll that somehow connects to their idea. Imagination often leads to an even more creative story!
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6584,7 +15210,8 @@ The head of a large, platinum-colored dragon appears in the ice and speaks. You 
 
 Ask the players to make a DC 10 Arcana, History, or Religion check. If a character succeeds on the check, tell them that the figure in the ice represents Bahamut, the god of the metalliccolored dragons (brass, bronze, copper, gold, and silver). The correct answer to the question is “silver dragon.” However, the characters must say this in the Draconic language. They can use the page from Captain Kole’s book to find the correct words: “orn darastrix.”
 
-![A portrait-oriented, mostly white image featuring a soft, translucent blush-pink watercolor wash concentrated along the right side. The wash has irregular edges, subtle gradients, faint splatters and paper-like texture, leaving large empty white space on the left. Overall feel: light, airy, and minimalist.](./Peril_in_Pinebrook_COMPLETE_images/image_073.png)![An abstract image dominated by a large, tilted white polygonal area with softly rounded corners. Across that white field are broad, pale peach/orange crayon- or chalk-like scribbles and textured smudges forming diagonal bands. Small black triangular regions appear at the image corners outside the white shape, creating high contrast. Overall the composition feels like a light pastel or crayon sketch on paper.](./Peril_in_Pinebrook_COMPLETE_images/image_074.png)![- A mostly white, slightly tilted rectangular page or canvas against a dark background. - Light pink–reddish speckled/paint-splatter texture concentrated toward the center-right, with many tiny dots and some larger flecks. - Speckling density gradually decreases toward the edges; subtle shading along the page edges gives a gentle three-dimensional, rotated look.](./Peril_in_Pinebrook_COMPLETE_images/image_075.png)![A large, diagonally oriented white surface (like a sheet of paper) fills most of the frame against black triangular areas at the top-left and left edges. The right half of the white surface is scattered with many small tan/orange paint splatters and speckles, denser toward the center-right and upper-right. Overall the image looks like a tilted white page with a light beige/orange splatter texture.](./Peril_in_Pinebrook_COMPLETE_images/image_076.png)![An abstract, pale peach/orange textured brush or crayon mark centered on a white background, oriented diagonally with irregular, sketchy edges; the image corners show black triangular cropping.](./Peril_in_Pinebrook_COMPLETE_images/image_077.png)![A large white triangular shape set against a black background, appearing like the corner of a sheet or canvas cut on the diagonal. The left portion of the triangle features a soft, pale blue watercolor wash with irregular edges and small splatters; the right portion is clean white with a subtle beveled shadow that gives a slight 3D or folded effect. Overall the image feels minimal and abstract, combining crisp geometry with organic paint texture.](./Peril_in_Pinebrook_COMPLETE_images/image_078.png)![The image shows a mostly white, minimalist background with a soft, pale peach watercolor wash concentrated along the left and lower-left areas. Subtle texture and faint handprint-like marks appear within the wash. A narrow, angled black band runs along the top edge at the right side. Overall it resembles a lightly stained or painted sheet of paper with an abstract, airy composition.](./Peril_in_Pinebrook_COMPLETE_images/image_079.png)![- A painted or illustrated scene of a large dragon perched on a rocky outcrop, shown in a vertical composition. - The dragon faces left with wings partly raised; long neck, prominent jaw with visible teeth, and a crown-like crest of spines on its head. - Scaled body rendered with metallic tones — greens, blues, and gold highlights — and visible brushstrokes that give a painterly texture. - Strong forelimbs with sharp claws gripping the rock; a long, spiked tail curls down toward the bottom edge. - Sparse background: mostly white space around the creature, with a few small treetops visible near the base to suggest scale and elevation.](./Peril_in_Pinebrook_COMPLETE_images/image_080.png)
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6596,8 +15223,6 @@ If any character speaks the correct words, read the following:
 The ice mirror instantly melts, splashing you all with icy-cold water. But instead of freezing you, the water tingles as it runs down your skin, clothes, and armor. It feels wonderful.
 
 Bahamut blessed this water. Tell your players that the healing magic restores each character's hit points to the maximum amount listed on their character sheets.
-
-![A nearly blank, pale-blue textured background that looks like a sheet of paper or watercolor paper. The center is very light (almost white) with subtle mottling/grain, and there’s a soft blue vignette around the edges. No text, objects, or distinct shapes are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_081.png)![- A vertically oriented sheet of textured, off-white paper. - Very light blue-gray mottling and subtle speckled grain across the surface, slightly stronger near the edges. - Overall appearance: blank stationery or watercolor paper with a soft, worn texture.](./Peril_in_Pinebrook_COMPLETE_images/image_082.png)![The image is a very narrow, vertical strip showing a pale off‑white to light pink gradient with faint, subtle mottling and a few tiny darker specks. It looks like a close-up or cropped edge of a surface (paper, fabric, or wall) with minimal texture.](./Peril_in_Pinebrook_COMPLETE_images/image_083.png)![An abstract image showing a large, pale peach‑beige textured brush stroke on a white background. The mark has a grainy, chalk‑or‑pastel texture, concentrated toward the upper-right and slanting down toward the center, leaving wide white negative space at the bottom and left. - Colors: very light peach / beige on white - Texture: soft, gritty/pastel-like strokes - Composition: large angled block of color occupying upper-right to center, minimal and airy overall](./Peril_in_Pinebrook_COMPLETE_images/image_084.png)![A tall, narrow vertical image with a clean white background scattered with light-pink paint splatters and droplets. The pink marks vary in size and density—mostly tiny specks with occasional larger blotches—and are more concentrated in the middle and lower portions. Overall it looks like a decorative watercolor/ink splatter pattern or a confetti-style background.](./Peril_in_Pinebrook_COMPLETE_images/image_085.png)![A mostly white image with a soft, pale green watercolor wash running diagonally from the lower-left toward the upper-right. The green area is elongated with feathered, irregular edges and subtle variations in opacity and tone. The composition looks like a translucent brushstroke or stain on paper; outside the white canvas there are black triangular corners where the image is cropped.](./Peril_in_Pinebrook_COMPLETE_images/image_086.png)![The image shows a soft, pale aqua/seafoam watercolor wash on a mostly white background. Key features: - Large, irregularly shaped wash occupying the right and center areas with feathered, translucent edges. - Subtle texture from brush strokes and small splatters/droplets around the main blotch. - Upper-left and lower-left corners have angular, darker cutout shapes (likely from cropping or background).](./Peril_in_Pinebrook_COMPLETE_images/image_087.png)![A tall, narrow image showing a soft, textured wash of very pale yellow‑green that fades to white toward the right. The surface has a chalky/crayon‑like grain with subtle vertical streaks; a thin, slightly darker curved edge appears near the top‑right and bottom‑right.](./Peril_in_Pinebrook_COMPLETE_images/image_088.png)![A tall, narrow image dominated by an off‑white background showing a single geometric shape: a vertical panel whose left edge is cut by matching diagonal lines at the top and bottom, producing a right‑pointing chevron/wedge. No text, faces, or other objects are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_089.png)
 
 Additionally, each character has advantage on the first roll they
 
@@ -6611,6 +15236,9 @@ a weapon. If they do that, however, they don't receive Bahamut's
 
 healing magic. Also, a character who breaks the mirror takes
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
@@ -6618,7 +15246,9 @@ damage. Roll 1d6 and tell the player to subtract that number
 
 from their character's hit points when it shatters.
 
+{{note
 **DM Tip**
+}}
 
 Even if the players roll poorly, always allow them to continue forward
 
@@ -6720,7 +15350,9 @@ Give the players a chance to describe what their characters are
 
 going through.
 
+{{note
 **DM Tip**
+}}
 
 If one character makes a check to find a safe path down the slides,
 
@@ -6742,14 +15374,15 @@ It’s a short walk from the bottom of the cave to the hatching
 
 cavern. The characters are ready to face the final threat!
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
 Proceed to Encounter 4: Dragon Eggs and Soaring Silver.
 
 **A Dangerous Lair |**
-
-![A minimalist flat-style illustration of a modern smartphone centered on a white background. - Black-framed phone shown vertically with a large purple-gradient screen depicting simple triangular mountain shapes. - Small white status/search bar near the top of the screen and a tiny circular element (camera or icon) at the upper-left of the display. - A yellow rounded rectangle (looks like a sticky note or widget) floating to the phone’s right, with small dark lines indicating text. - Two small colored rectangles (orange and blue) positioned near the lower right of the phone, suggesting additional widgets or UI elements. - Soft drop shadow beneath the phone and a clean, uncluttered composition.](./Peril_in_Pinebrook_COMPLETE_images/image_090.png)![- A mostly blank, portrait-oriented sheet with a soft pale-blue wash. - Subtle paper texture and mottling across the surface. - Slightly darker blue vignette along the edges, especially corners.](./Peril_in_Pinebrook_COMPLETE_images/image_091.png)![- A vertical, mostly blank sheet of textured paper. - Very light bluish-gray background with subtle mottled/grainy texture. - Slightly darker, soft vignette along the edges; no text or objects present.](./Peril_in_Pinebrook_COMPLETE_images/image_092.png)![A tall, very narrow vertical image showing a soft, pale pink–beige gradient with subtle, irregular streaks and a faint watercolor/marbled texture. No distinct objects or features — looks like a close-up of textured paper, fabric, or a painted background.](./Peril_in_Pinebrook_COMPLETE_images/image_093.png)![A minimal, abstract image showing a large, pale-peach textured brush stroke against a white background. - Soft, chalk- or pastel-like texture with uneven edges and slight graininess - Stroke occupies the upper-right and central area, tapering toward the lower-left - Overall minimalist, muted color palette and high negative (white) space](./Peril_in_Pinebrook_COMPLETE_images/image_094.png)![A very tall, narrow vertical image with a clean white background and scattered pale‑pink paint splatters. The pink marks range from tiny specks to larger irregular blobs, more concentrated in the middle and lower areas, creating a light, textured splatter or confetti effect.](./Peril_in_Pinebrook_COMPLETE_images/image_095.png)![An abstract, mostly white image with a soft, pale green watercolor–style wash running diagonally from lower-left toward upper-right. The green area has fuzzy, feathered edges and varying translucency. Two black triangular corners (top-left and bottom-left) frame the white area, giving the composition a rotated, cropped look. Overall appearance is light, airy, and painterly.](./Peril_in_Pinebrook_COMPLETE_images/image_096.png)
 
 Encounter 4: Dragon Eggs
 
@@ -6805,12 +15438,17 @@ Describe the egg snatchers falling to the ground as they are
 
 defeated, or fleeing into the darkness too fast for the characters
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
 \page
 
 
 to follow.
 
+{{note
 **DM Tip**
+}}
 
 A character that reaches 0 hit points falls unconscious and remains
 
@@ -6850,7 +15488,9 @@ Conclusion.
 
 This combat runs the same way as in “Encounter 2: Living
 
+{{note
 Icicles.” Refer to the DM Tip in that encounter to remind the
+}}
 
 players how to make melee and ranged attacks if you needed.
 
@@ -6882,8 +15522,6 @@ attack. Perhaps a bite clamps around an ankle, or maybe the
 
 egg snatcher breaks a tooth on a piece of armor.
 
-![An abstract, pale watercolor wash on a mostly white background. A large, soft mint/teal blotch occupies the right-center area with subtle gradients and scattered splatters. The left side is largely white with a sharp, dark triangular corner at the very top-left, giving the image an asymmetrical, cropped look.](./Peril_in_Pinebrook_COMPLETE_images/image_097.png)![- A tall, narrow abstract image showing a textured, pale cream/ivory area on the left that gradually fades to white on the right. - Surface looks like paper or canvas with soft, vertical and slightly diagonal pencil/pastel-like strokes and subtle grain. - Very muted, minimal tones with faint darker edges near the top and bottom.](./Peril_in_Pinebrook_COMPLETE_images/image_098.png)
-
 Egg Snatchers
 
 **Armor Class**
@@ -6906,11 +15544,11 @@ Attack
 
 1d6 + 2 piercing damage.
 
-![A tall, narrow image showing a mostly white polygonal shape. The left edge is vertical and straight; the right side has two diagonal edges that meet near the middle, forming a right-pointing chevron or arrowhead. The overall look is minimal with very light/off-white tones and no other visible detail.](./Peril_in_Pinebrook_COMPLETE_images/image_099.png)
-
 
 **| Dragon Eggs and Soaring Silver**
 
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
 
 \page
 
@@ -6966,6 +15604,9 @@ More Wyrmlings!
 
 As the characters speak with Rorn, the other two eggs hatch. Rorn watches carefully as the wyrmlings break their shells and then crawl over to nuzzle their mother. She pulls some frozen meat from the nest and feeds them.
 
+{{pageNumber,auto}}
+{{footnote Conclusion}}
+
 \page
 
 
@@ -6993,9 +15634,8 @@ At the conclusion of the conversation, Rorn shows the characters a secret passag
 
 **Conclusion |**
 
-![I can’t see the image — please upload it or confirm the attachment. If it’s already uploaded, tell me which details you want (objects/people, text, colors, layout, or inferred context) and I’ll describe them.](./Peril_in_Pinebrook_COMPLETE_images/image_100.png)
-
-![A mostly blank sheet of textured paper. The surface is off-white with subtle blue‑gray mottling and faint darker edges (a soft vignette). Small speckles and paper fibers are visible, giving it a watercolor/stationery look; no text or objects are present.](./Peril_in_Pinebrook_COMPLETE_images/image_101.png)![A minimalist, abstract image: pale green vertical brushstrokes and washed textures on a very light cream/white background. The strokes vary in width and opacity, with rough edges, faint speckles, and subtle horizontal grain; most marks are concentrated toward the right side, leaving large areas of empty space.](./Peril_in_Pinebrook_COMPLETE_images/image_102.png)![- A soft, pale-pink watercolor-like wash or cloud centered on a white background. - Feathery, diffuse edges with subtle gradient variations in pink tones. - A small black triangular corner appears at the bottom-left, likely from cropping or a background element.](./Peril_in_Pinebrook_COMPLETE_images/image_103.png)![A mostly white vertical page with a wide, pale warm-beige watercolor wash stretching across the upper third to middle of the image. The wash has soft, feathery edges, subtle tonal variations, and a slightly mottled paper texture. A thin dark vertical line runs along the left edge (looks like a scan/crop artifact). The lower two-thirds of the image remains blank white.](./Peril_in_Pinebrook_COMPLETE_images/image_104.png)![An abstract, vertical watercolor-style wash: soft, cloud-like teal/seafoam pigment diffuses across textured white paper. The color fades smoothly from denser areas to near‑white edges; there are no distinct shapes, text, or recognizable objects. The overall impression is a gentle, atmospheric paint wash.](./Peril_in_Pinebrook_COMPLETE_images/image_105.png)![- Wide, panoramic image with a grainy, textured pattern in pale blue and white. - Overall appearance resembles cloud cover, frosted glass, or a noisy scan — many small, irregular blotches and streaks. - Several slightly darker circular/oval patches scattered across the field. - Diagonal streaking gives a sense of directional texture. - White margins and irregular black borders at the top and right suggest the image is tilted or cropped.](./Peril_in_Pinebrook_COMPLETE_images/image_106.png)![- Tall, narrow vertical image with a stark, high-contrast composition. - A solid black triangular wedge occupies the top-left corner; its hypotenuse runs diagonally from about one-quarter down the left edge up to the top-right corner. - The remainder of the image is plain white. - Clean geometric/abstract appearance with sharp edges and minimal detail.](./Peril_in_Pinebrook_COMPLETE_images/image_107.png)![A tall, vertically oriented abstract image. A large white, angular polygon fills most of the frame with sharp diagonal edges; solid black triangular areas appear in the top-left and bottom-left corners. Along the right side of the white shape is a soft, pale blue–gray watercolor texture or cloud, giving a subtle washed gradient against the stark black-and-white geometry.](./Peril_in_Pinebrook_COMPLETE_images/image_108.png)![A wide rectangular image showing an empty parchment-style background in pale yellow/beige. The surface has a subtle mottled, paper-like texture with faint tonal variations and a few small darker marks near the left and right edges.](./Peril_in_Pinebrook_COMPLETE_images/image_109.png)![A long, very narrow horizontal strip with a metallic gold appearance. It shows a textured, wavy fibrous pattern in shades of gold, yellow and brown, like a decorative gilded border or ribbon.](./Peril_in_Pinebrook_COMPLETE_images/image_110.png)![- A very long, narrow horizontal strip centered on a black background. - Appears textured with a warm golden-yellow color, showing highlights and darker streaks that give a metallic or foil-like look. - Pattern suggests a decorative border or ribbon — irregular, slightly braided/hammered surface with subtle diagonal lines and shimmer.](./Peril_in_Pinebrook_COMPLETE_images/image_111.png)
+{{pageNumber,auto}}
+{{footnote Conclusion}}
 
 \page
 
@@ -7047,12 +15687,10 @@ Special thanks to Quinn Carroll, the Hawes Family, Aurora Merwin,
 and Beth Merwin
 
 **Dungeons & Dragons: Peril in Pinebrook |**
-
-![A mostly blank, vertically oriented sheet with a subtle paper texture. The surface is off-white with very light bluish-gray vignetting and faint speckles around the edges, giving a soft, slightly mottled look. No text, objects, or people are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_112.png)![The image is a minimalist, abstract composition: a mostly pale off-white background with several vertical, textured brushstrokes in a muted olive-green clustered along the right side. The strokes vary in opacity and width, giving a weathered, streaked-paint or washed-ink appearance with subtle irregular edges.](./Peril_in_Pinebrook_COMPLETE_images/image_113.png)![A minimal, mostly white composition with a soft, translucent peach-pink wash occupying the upper-right quadrant. The wash has feathery, airbrushed edges and subtle variations in tone. A small solid black right-angle triangular shape appears in the bottom-left corner, creating a sharp contrast with the otherwise gentle, watercolor-like area.](./Peril_in_Pinebrook_COMPLETE_images/image_114.png)![- Portrait-oriented image with a large, soft beige watercolor wash or cloud shape spanning the upper third to middle of the page. - Edges are diffuse and textured, with subtle variations in tone (lighter toward the top and bottom of the wash). - Predominantly white background with no text, figures, or distinct objects. - A thin dark vertical strip appears along the left edge (likely a scan border).](./Peril_in_Pinebrook_COMPLETE_images/image_115.png)![- Vertical image with a large, soft teal/green watercolor-like wash occupying the left and central area. - Edges of the wash are diffuse and feathery, fading into a white background. - Slight vertical banding or scan-artifact lines visible near the left edge. - Small black triangular corners at the top-right and bottom-left suggest framing or cropped edges.](./Peril_in_Pinebrook_COMPLETE_images/image_116.png)![A wide, panoramic image dominated by a grainy, cloud-like texture in pale blue and white. The pattern forms diagonal streaks and mottled patches across the frame, resembling a watercolor wash, frost, or scattered clouds. The composition is slightly skewed, with dark triangular margins at the right edge suggesting a rotated or cropped scan. No distinct objects or figures are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_117.png)![A tall, narrow image with a sharp diagonal divide: a solid black triangular area fills the top-left corner, while the rest is plain white. The boundary is a straight, crisp diagonal, giving a minimal, geometric (almost folded- or cut-corner) appearance.](./Peril_in_Pinebrook_COMPLETE_images/image_118.png)
-
 TM & ©2023 WIZARDS OF THE COAST LLC.
 
-![A tall, vertical abstract composition. A large white, polygonal field dominates the image with a soft, pale-blue, watercolor-like cloud or texture toward the right. Two black triangular areas sit in the top-left and bottom-left corners, creating diagonal edges against the white.](./Peril_in_Pinebrook_COMPLETE_images/image_119.png)![A wide, horizontal image of a pale yellow/cream textured surface resembling aged or handmade paper. Subtle mottling and faint irregular tonal variations give it a parchment-like appearance; edges show slightly darker, worn shading. Overall look is soft, warm, and suitable as a background or stationery texture.](./Peril_in_Pinebrook_COMPLETE_images/image_120.png)![A narrow, horizontal decorative strip with a metallic gold appearance. It shows a textured, braided or woven pattern of swirling diagonal lines and highlights that give it a shiny, embossed look—like a gold ribbon, trim, or ornamental border.](./Peril_in_Pinebrook_COMPLETE_images/image_121.png)![A narrow horizontal decorative gold band or ribbon centered on a black background. - Color: metallic gold with bright highlights and darker shadows - Texture: twisted/struck or braided appearance with fine striations - Orientation: full-width, thin horizontal divider across the image](./Peril_in_Pinebrook_COMPLETE_images/image_122.png)![A light, textured sheet of paper with a very pale blue wash and subtle darker blue vignette around the edges; no objects, text, or people are present.](./Peril_in_Pinebrook_COMPLETE_images/image_123.png)
+{{pageNumber,auto}}
+{{footnote Conclusion}}
 
 \page
 
@@ -7071,15 +15709,6 @@ TM & ©2023 WIZARDS OF THE COAST LLC.
 
 **WORLD OF DRAGONS**
 
-![A portrait-oriented blank sheet of textured paper. It has a very light, off-white background with subtle blue-gray mottling and faint darker edges/vignette, resembling watercolor or stationery paper. No text, objects, or people are visible.](./Peril_in_Pinebrook_COMPLETE_images/image_124.png)
-
-![A very tall, narrow image showing an almost uniformly white/cream vertical expanse with subtle horizontal banding and a few faint smudges or spots (more visible near the top-left and lower-right). Overall it resembles a blank sheet of paper or a washed-out wall with minimal texture.](./Peril_in_Pinebrook_COMPLETE_images/image_125.png)
-
-![- Abstract, minimal composition with a strong diagonal dividing the frame from lower-left to upper-right. - Lower-right triangle is solid black; upper-left area is mostly white. - In the upper-left, a soft, pale pink watercolor-like circular blotch with feathered edges. - Small black triangular corner visible at the top-right; overall high-contrast, geometric vs. organic texture.](./Peril_in_Pinebrook_COMPLETE_images/image_126.png)
-
-
-![The image is a tall, narrow vertical strip with a mostly white background. Two black triangular shapes occupy opposite corners (top-right and bottom-left), creating a diagonal framing. A very faint, pale blue-green circular watercolor texture is visible on the left side about one-third down. Overall the composition is minimal and geometric.](./Peril_in_Pinebrook_COMPLETE_images/image_127.png)
-
 # Player Reference Sheet
 
 This sheet contains explanations, definitions, and helpful advice on being a player in this Dungeons & Dragons game.
@@ -7092,7 +15721,8 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 
 **Armor Class (AC).** Armor Class is the number that tells how hard it is to hit a creature with an attack roll. When you make a d20 roll as an attack roll, you need to equal or exceed a creature’s AC to hit them and deal damage. **Hit Points.** Hit Points is the number that shows how much damage a creature can take before they fall unconscious or are defeated.
 
-![A minimal, mostly white image featuring a single large, pale mint-green leaf print with a distressed, textured appearance. The leaf is centered toward the lower-left area of the page, its veins and lobes rendered in a washed-out, almost stamp-like style. The top-right corner shows a small dark triangular detail that looks like a folded or cropped edge. Overall the composition is airy and subtle, resembling a light botanical watermark or background graphic.](./Peril_in_Pinebrook_COMPLETE_images/image_128.png)![- A rotated, white pentagon-shaped sheet filling most of the frame, angled so its top edge slants down from left to right. - Pale mint-green, distressed leaf or floral print stamped near the lower-right corner of the white shape. - Solid black triangular areas visible at the top-left and bottom-right edges (background showing where the white shape doesn’t cover). - Overall high-contrast, minimal composition with a subtle textured/washed botanical motif.](./Peril_in_Pinebrook_COMPLETE_images/image_129.png)![An abstract watercolor texture occupying the upper-right half of the image, rendered in soft, muted blue tones. The paint forms cloud- or wave-like shapes with feathery, semi-transparent edges and subtle granulation. A dark triangular area fills the lower-left corner, creating a strong diagonal contrast across the composition.](./Peril_in_Pinebrook_COMPLETE_images/image_130.png)![A soft, abstract watercolor wash across the top of the image in a pale mint/seafoam green, fading into a large white area below. - Pale teal/seafoam watercolor texture with subtle granulation - Irregular, soft-edged brush shape running diagonally across the top - Small paint splatters and droplets scattered beneath the main wash - Large empty white space in the lower portion (clean background) - Black triangular/angled margins at far left and right edges (image crop or framing)](./Peril_in_Pinebrook_COMPLETE_images/image_131.png)![- Minimalist, abstract image in portrait orientation. - A large, off-white/very pale polygonal shape fills most of the frame, angled so two black triangular areas appear at the top-right and bottom-right edges. - Inside the pale shape is a soft, cloudlike watercolor wash in light bluish-gray centered toward the left. - Overall look is airy and muted, with high-contrast black corners and a gentle textured center.](./Peril_in_Pinebrook_COMPLETE_images/image_132.png)![A stylized watercolor illustration of a small pale-blue dragon or draconic creature standing on snowy ground. - Upright, squat body with scaly skin and layered neck plates - Semi‑open mouth showing a forked tongue and sharp beak‑like snout - Large yellow eye and expressive face - Outstretched bat‑like wings with visible membranes and claws on the forelimbs - Curved tail, thick hind legs, and pronounced talons - Snowy background with soft texture and scattered snowflakes, cool blue and gray color palette](./Peril_in_Pinebrook_COMPLETE_images/image_133.png)
+{{pageNumber,auto}}
+{{footnote Player Reference Sheet}}
 
 \page
 
@@ -7103,7 +15733,9 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 
 **Advantage.** When you attempt an action while circumstances make success more likely, you roll two 20-sided dice for your d20 roll, then use the higher roll. **Disadvantage.** When you attempt an action while circumstances make failure more likely, you roll two 20-sided dice for your d20 roll, then use the lower roll.
 
+{{note
 **Dungeon Master (DM).** The Dungeon Master is the person acting as the lead storyteller, the keeper of secrets, and the referee in a game of D&D.
+}}
 
 **Roleplaying Game (RPG).** D&D is a roleplaying game, where players use characters to take part in a story as the game unfolds.
 
@@ -7145,6 +15777,9 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 
 **Leather Armor.** Leather armor is a suit of armor made from hardened animal skins. It is light and easy to wear. **Mace.** A mace is a weapon consisting of a blunt piece of metal on the end of a handle.
 
+{{pageNumber,auto}}
+{{footnote Player Reference Sheet}}
+
 \page
 
 
@@ -7162,8 +15797,6 @@ This sheet contains explanations, definitions, and helpful advice on being a pla
 
 Permission is granted to photocopy this document for personal use. TM & © 2023 Wizard of the Coast LLC.
 
-![- A single blank sheet with a pale, icy-blue wash. - Subtle paper texture/grain visible across the surface. - Slightly darker blue vignette along the edges; no text, objects, or distinct features.](./Peril_in_Pinebrook_COMPLETE_images/image_134.png)
-
 \page
 ## Temple of the Dragonknights
 
@@ -7171,12 +15804,30 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 
 ## Northwatch Wardens Integration (DM)
 
+**Mystery Rating:** ⭐⭐⭐⭐ (High — Faction Response & Convergence)
+
+**Campaign Arc:** Arc 3: Convergence — Rising Threats
+
+**Arc Position:** Part 1 of 1 in Arc 3 (Season 1 capstone)
+
+**Arc Progress Notes:** This adventure demonstrates that dangerous factions (dragons, cults, ambitious wizards) are now aware of and exploiting the Aeorian Echo. Players complete Arc 3 understanding that the frontier has become a battleground where multiple forces converge to claim ancient power. The Wardens' role evolves from investigators to protectors who must decide how to handle the growing threat. This sets up future seasons where the mystery shifts from "what is it?" to "who controls it?"
+
 **Campaign Connection:** This adventure shows **factions exploiting** the awakening magic. Venomfang and the cult are drawn to and empowered by the Aeorian Echo, using it to fuel dark rituals that wouldn't otherwise be possible.
 
+**Prerequisite Adventures:**
+- Best played AFTER Frozen Sick (players recognize magical convergence patterns)
+- Enhanced if Wolves of Welton completed (understands predator attraction to magic)
+
+**Leads To:**
+- Future faction conflicts (dragons, cults, and opportunists responding to the Echo)
+- Establishes pattern: magical power attracts dangerous creatures
+
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Temple of the Dragonknights: Heroic Tomb" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - The temple was built over a sealed **Aeorian facility focused on draconic weapons research**
@@ -7187,6 +15838,53 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - The facility contains **dragon-killing bioweapons** that threaten all dragons if reactivated
 
 **Player Discovery:** Characters should sense that the cult is more powerful than expected and that the temple has deeper significance. The connection to ancient Aeorian magic can be hinted at through symbols, architecture, or magical effects.
+
+### Mystery Clues (Aeorian Echo Investigation)
+
+**Primary Clue — Magical Convergence Point:**
+- The Temple of the Dragonknights sits atop intersecting ley lines, amplified by Salsvault's reactivation
+- **Discovery Method:** Detect magic, Arcana DC 13 examining temple architecture
+- **Discovery:** "This temple channels incredible magical energy — more than it should naturally"
+- **Connects to:** Frozen Sick (Salsvault's activation is amplifying regional magic nodes)
+
+**Secondary Clue — Predator Attraction:**
+- Venomfang (young dragon) sensed the magical power and came to claim it
+- **Discovery Method:** Interrogating captured kobolds, Insight DC 14 reading Venomfang's behavior
+- **Discovery:** "Venomfang arrived only recently — she was *drawn* here by the magic"
+- **Connects to:** Campaign pattern — powerful creatures respond to the Echo
+
+**Tertiary Clue — Cult Empowerment:**
+- Kobold cult rituals are more effective than normal due to amplified magical energy
+- **Discovery Method:** Observing ritual sites, Arcana DC 15 analyzing spell effects
+- **Discovery:** "These kobolds shouldn't be capable of this level of spellwork — something is enhancing them"
+- **Connects to:** Magical instability theme (Wild Sheep Chase), shows Echo can empower enemies
+
+**Hidden Clue — Aeorian Facility Below:**
+- If players thoroughly explore temple catacombs, they find sealed passages with Aeorian symbols
+- **Discovery Method:** Investigation DC 16, stonework or engineering expertise
+- **Discovery:** "The temple was built *over* something older — pre-Calamity construction, deliberately sealed"
+- **Connects to:** Frozen Sick revelation (Aeorian facilities networked across region), future deep-dive adventures
+
+**Critical Clue — Ward Weakening:**
+- Each desecrated tomb weakens ancient seals keeping the Aeorian facility contained
+- **Discovery Method:** Arcana DC 17, Religion DC 15 examining disturbed tombs
+- **Discovery:** "These tombs aren't just memorials — they're ward anchors. Desecration is breaking centuries-old containment magic"
+- **Connects to:** Long-term campaign stakes (if seals break fully, Aeorian weapons activate)
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. The Aeorian Echo is creating magical "convergence points" across Northreach
+2. Powerful creatures (dragons, etc.) are attracted to and empowered by these points
+3. Stopping individual threats (Venomfang) doesn't address root cause (Salsvault still active)
+4. Ancient seals and wards are weakening as the Echo escalates
+5. The problem will attract more predators unless the source is addressed
+
+**Questions left unanswered:**
+- How many convergence points exist? (Multiple across region)
+- What happens if all seals break? (Catastrophic Aeorian weapon activation)
+- Can the Echo be contained, or only its symptoms managed? (Campaign-defining question)
+- Who else is responding to the magical surges? (Future faction conflicts)
 
 ---
 
@@ -7310,6 +16008,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - **Reputation:** Controversial — some see party as pragmatic, others as cowards
 - **Future hook:** Venomfang may become an ally (or betray party later)
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ### Path D: Destroy or Seal the Temple
@@ -7318,6 +16019,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - Venomfang escapes but loses her power base
 - **Aeorian Echo outcome:** Magical energy disperses (reduces regional instability)
 - **Lorewarden Elric's reaction:** Impressed ("You addressed the root problem, not just the symptom")
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -7375,6 +16079,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - DC 13 Intimidation: Threaten her with superior force (must demonstrate combat prowess first)
 - DC 12 Deception: Trick her into believing party has dragon-slaying weapons
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ## Improvisation Toolkit
@@ -7403,6 +16110,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 - Kobolds focus on capture, not killing (want to sacrifice prisoners)
 - Northcrest guards arrive as reinforcements (late but helpful)
 - Venomfang decides party isn't worth the effort and flies away (insult: "Not even worth eating")
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -7446,6 +16156,9 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 
 5. **Lorewarden Elric's Debrief (when party returns to Waystone Inn):**
    > "A dragon drawn to a ley line convergence? Troubling. The Aeorian Echo isn't just reactivating ruins — it's creating *beacons* across Northreach. Every creature with magical sensitivity can feel it. Venomfang was just the first. We need to find a way to stop this before worse things arrive."
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -7610,33 +16323,48 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 
 ### Venomfang's Opening Dialogue (if party enters lair)
 
-> *A sleek green dragon lies coiled atop a pile of gold and bones. Her eyes gleam with intelligence as she regards you.*
->
-> "Adventurers. How... expected. You've slaughtered my servants, disturbed my lair, and now you stand before me. Brave? Or foolish? Perhaps both. What do you want here?"
+{{descriptive
+**Venomfang's Opening Dialogue:**
+*A sleek green dragon lies coiled atop a pile of gold and bones. Her eyes gleam with intelligence as she regards you.*
+
+"Adventurers. How... expected. You've slaughtered my servants, disturbed my lair, and now you stand before me. Brave? Or foolish? Perhaps both. What do you want here?"
+}}
 
 ### Venomfang's Negotiation Offer (if party is strong)
 
-> "You fight well. Better than the so-called 'Dragonknights' who built this tomb. I have a proposition: I will leave this region. In exchange, you will give me one magic item from your possession, and you will not pursue me. Refuse, and I will kill you where you stand. Choose quickly."
+{{descriptive
+**Venomfang's Negotiation Offer:**
+"You fight well. Better than the so-called 'Dragonknights' who built this tomb. I have a proposition: I will leave this region. In exchange, you will give me one magic item from your possession, and you will not pursue me. Refuse, and I will kill you where you stand. Choose quickly."
+}}
 
 ### Venomfang's Threat (if party refuses negotiation)
 
-> *The dragon rises, wings unfurling.*
->
-> "So be it. I will feast on your corpses and add your treasures to my hoard. Know this: I am Venomfang, and I will be remembered as the dragon who **broke** the heroes of Northreach!"
+{{descriptive
+**Venomfang's Threat:**
+*The dragon rises, wings unfurling.*
+
+"So be it. I will feast on your corpses and add your treasures to my hoard. Know this: I am Venomfang, and I will be remembered as the dragon who **broke** the heroes of Northreach!"
+}}
 
 ### Venomfang's Retreat (if bloodied)
 
-> *The dragon snarls, blood dripping from her wounds.*
->
-> "This isn't over. I will remember your faces. One day, you will regret sparing me — or not killing me fast enough."
+{{descriptive
+**Venomfang's Retreat:**
+*The dragon snarls, blood dripping from her wounds.*
+
+"This isn't over. I will remember your faces. One day, you will regret sparing me — or not killing me fast enough."
+}}
 
 *She flies away through a collapsed section of ceiling, escaping into the mountains.*
 
 ### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
 
-> *Elric listens intently to your report, his face grave.*
->
-> "A young dragon drawn to the temple. Kobolds worshipping her as a god. And beneath it all, ley lines converging, amplified by... Salsvault, I presume. The Aeorian Echo is creating magical beacons. Venomfang was opportunistic, but she won't be the last. We need to find a way to stop the Echo at its source. But first, rest. You've earned it."
+{{descriptive
+**Elric's Debrief:**
+*Elric listens intently to your report, his face grave.*
+
+"A young dragon drawn to the temple. Kobolds worshipping her as a god. And beneath it all, ley lines converging, amplified by... Salsvault, I presume. The Aeorian Echo is creating magical beacons. Venomfang was opportunistic, but she won't be the last. We need to find a way to stop the Echo at its source. But first, rest. You've earned it."
+}}
 
 ## Post-Session Tasks
 
@@ -7670,9 +16398,15 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 
 After defeating/driving away Venomfang and debriefing with Elric:
 
-> "The Aeorian Echo is attracting predators. Venomfang was clever and ambitious, but others may be less... negotiable. We need to understand the Echo's full extent. I've marked three potential convergence points on my map. Which will you investigate next?"
+{{descriptive
+**Elric's Next Hook:**
+"The Aeorian Echo is attracting predators. Venomfang was clever and ambitious, but others may be less... negotiable. We need to understand the Echo's full extent. I've marked three potential convergence points on my map. Which will you investigate next?"
+}}
 
 This sets up potential future adventures or allows party to pursue other goals in Northreach.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Temple of the Dragonknights}}
 
 \page
 
@@ -7692,11 +16426,19 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 
 ©2016 Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Manufactured by Hasbro SA, Rue Emile-Boéchat 31, 2800 Delémont, CH. Represented by Hasbro Europe, 4 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, UK.
 
+{{pageNumber,auto}}
+{{footnote A four-hour adventure for two 1st-2nd level characters}}
+
+\page
+
+\column
 
 # Part I: Innocents Lost
 
 *In this part of the adventure, the players will encounter their first kobolds, investigate a small farmstead, and locate the source of the attacks…*
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
 
 \page
 
@@ -7778,6 +16520,9 @@ After this information is given, Joel will burst into tears over the loss of his
 
 ### Capturing a Kobold
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
+
 \page
 
 
@@ -7817,6 +16562,8 @@ Down the right hall there is a washroom to the left and another bedroom. In the 
 
 A DC 10 Survival check will reveal tracks that lead to the back side of the barn,
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
 
 \page
 
@@ -7834,6 +16581,12 @@ Following the trail through the woods for a mile leads to an opening to a small 
 
 After a curve in the trail, a DC 12 Passive perception check will signify movement around the corner. Turning the corner reveals two kobolds currently roasting a pig on a spit. They are currently eating so any attempt at stealth is successful. This encounter yields 50 XP divided amongst the party.
 
+{{pageNumber,auto}}
+{{footnote Part I: Innocents Lost}}
+
+\page
+
+\column
 
 # Part II: Poisontip Cavern
 
@@ -7846,6 +16599,9 @@ This section of the cavern is relatively straightforward. The players will immed
 |  |
 | --- |
 | This area involves crossing a rickety bridge over a lake full of stalagmites, and a trap.  **Puzzle Clue**    The parchment reads in Common: “Legends  are  born through blood and fire,  ”    and contains the  emblem of the  Dragonknight  s.    On the back it reads  in scribbled Draconic: “  We brought the girl to the  robed ones. Not sure why they wanted her, but  whatever it takes to please the master.”    **Additional**    **Information**        The emblem of the  Dragonknight  s appears as a snake  -  like  cre  ature wrapped around a sword.    **Area 3**   ![A pale green, hand-drawn dungeon/cave map on a square grid. Jagged cave walls outline interconnected tunnels and chambers; several areas are numbered 1–5. The drawing mixes natural cave features (wavy lines for water, small triangular stalagmite/stalactite marks) with constructed rooms and furnishings. Notable features - Large southern chamber labeled "1" reached by a single narrow approach. - Broad central band labeled "3" spanning the map, with water/feature marks inside the enclosed area. - Rectangular east complex labeled "2" with two hearth-like symbols and small rectangular furniture; a small side room at the far east contains stacked barrels or casks. - Northern small chamber labeled "5" with a long narrow corridor or causeway extending east from it. - A circled "T" on the western passage and an "S" adjacent to the east complex (both marked on the map). - Several narrow winding tunnels connecting chambers, plus short stair/ladder symbols in places. - Grid background for scale; overall style is schematic and suitable for tabletop RPG use.](./Temple_of_the_Dragonknights_images/image_003.png) **Crossing the Bridge** |
+
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
 
 \page
 
@@ -7877,6 +16633,8 @@ If any player falls in, roll a percentage. If the percentage is under 15% the pl
 
 Following the bridge, immediately after is a pressure triggered trap that is triggered by anyone over 120 lbs. If triggered, anyone in that 5x5 ft. square is pelted with rocks, suffering 1d6 bludgeoning damage. Disarming the trap yields 10 XP to the one who disarmed it.
 
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
 
 \page
 
@@ -7894,6 +16652,12 @@ This area contains an offering bowl, a large stone double door, and two lit torc
 
 Opening the door yields 50 XP divided amongst the party and reveals a pathway and staircase going up.
 
+{{pageNumber,auto}}
+{{footnote Part II: Poisontip Cavern}}
+
+\page
+
+\column
 
 # Part III: Temple of the Dragonknights
 
@@ -7920,6 +16684,9 @@ This room is drapped in torn and burnt banners of the Dragonknights, but within 
 ## Area 3
 
 This room contains a single brazier, and a massive stone carved frieze depicting an epic tale of dragonslaying. A DC 18 Investigation check will reveal a hidden groove in the stone that contains a single platinum ring (250 gp) inside.
+
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
 
 \page
 
@@ -7957,9 +16724,12 @@ Upon exiting up the stairs to this open area, the players find themselves in a c
 
 This encounter yields 450 XP divided amongst the party.
 
-
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
 
 \page
+
+\column
 
 # Part IV: Loose Ends
 
@@ -8073,6 +16843,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## The Northreach Region's Connection
 
 ### Why Here?
@@ -8108,10 +16880,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -8199,6 +16969,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## The Entity Behind the Echo
 
 *DM's Choice: Select or modify the option that best fits your campaign*
@@ -8238,7 +17010,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Quote:** "The gods destroyed Aeor because we were right. I will prove it by succeeding where the city failed."
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -8384,16 +17156,16 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
 ---
+
+\column
 
 ## Magical Mechanics of the Echo
 
@@ -8611,7 +17383,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## The Artifact Trade: Following the Money
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -8816,7 +17588,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## Player Investigation Paths
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -8995,7 +17767,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### Croaker Cave (Early-Mid Game)
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -9193,7 +17965,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## NPC Arcs and Development
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -9380,7 +18152,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## Conclusion: The Echo's Resolution
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -9484,6 +18256,10 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 - Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
 
 ### Major Differences Explained
+
+---
+
+\column
 
 **Why Aevoria ≠ Exandria:**
 - Different continents, nations, pantheons, cultures
@@ -9817,10 +18593,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Lorewarden Elric Vael
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -9990,10 +18764,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Rowan Fairweather (Trailwarden)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -10165,10 +18937,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Ariodh Highwhirl (Lantern Guard)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -10360,10 +19130,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Finethir Shinebright (Eccentric Wizard)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -10491,12 +19259,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -10712,10 +19476,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## Local Leaders: Political Secrets
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -10931,10 +19693,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ### Leanor Slatebeard (Welton Tracker)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -11144,10 +19904,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## The Larger Pattern: What NPCs Know Collectively
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -11425,10 +20183,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ## Campaign Integration Notes
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -11717,10 +20473,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Current Threats
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -11958,10 +20712,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### The Old Woods North of Welton
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -12219,10 +20971,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Abandoned Logging Camp (North of Pinebrook)
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -12466,10 +21216,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Tulgi's Cabin: The Spy's Evidence
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -12751,10 +21499,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Hulil's Knowledge
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -13059,7 +21805,7 @@ This document contains secret information about locations in the Northwatch Ward
 **Related Adventure:** See **Chapter 5: Temple of the Dragonknights**
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -13355,10 +22101,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ### Potential Alliance
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -13676,10 +22420,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Regional Threats and Connections
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -14015,10 +22757,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 ## Campaign Integration
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -14854,7 +23594,7 @@ The Far North is actively changing:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -14888,7 +23628,9 @@ The Heart was designed as the primary control node for the continental Aeorian n
 #### Its Reactivation
 Eclipse Day provided the astronomical alignment needed to restart the system. Someone or something used that moment to trigger reactivation. The Heart is now attempting to bring the entire network back online.
 
+{{note
 **DM Note:** The Heart is not malfunctioning—it's working exactly as designed. The problem is that the civilization it was built to serve is gone, and it doesn't understand that.
+}}
 
 #### What It Wants
 The Heart's programming seeks to:
@@ -14944,7 +23686,7 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -14979,7 +23721,9 @@ Evidence suggests the Aeorians discovered the White Maw and tried to study it:
 #### What Sleeps Below
 Something ancient and powerful is at the bottom of the White Maw. The Aeorians couldn't destroy it, so they tried to contain it. Their containment is failing as the artifact network reactivates.
 
+{{note
 **DM Note:** This is a Season Two hook. Whatever is in the White Maw is not the current threat—but the Aeorian reactivation will eventually wake it.
+}}
 
 #### Signs of Awakening
 - Tunnels previously sealed are opening
@@ -15035,7 +23779,7 @@ The stones generate a warmth field—originally for traveler comfort. This still
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -15116,7 +23860,7 @@ Not all constructs are active. They're waking in stages as the network powers up
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -15203,7 +23947,7 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -15314,7 +24058,7 @@ After the initial pulse:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -15421,7 +24165,7 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Far North: DM Secrets}}
 
 \page
 
@@ -15598,7 +24342,7 @@ Since Eclipse Day:
 - Raises questions about how many other "natural" features hide ancient technology
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -15700,7 +24444,7 @@ Cult prophecies contain distorted fragments of truth:
 - Infiltrating cults may reveal network activity patterns
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -15789,7 +24533,7 @@ Information players should eventually discover (through investigation and explor
 - The price of each solution
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -15868,7 +24612,7 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 - Potential bargaining chip between factions
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -16058,7 +24802,7 @@ Ultimate outcomes depend on player choices across the campaign:
 *The Emberlands burn because something beneath the stone is waking—and it remembers a world that no longer exists.*
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Emberlands: DM Secrets}}
 
 \page
 
@@ -16146,7 +24890,7 @@ This document contains the hidden truth about the maritime frontier. **DO NOT sh
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
-# 🌊 THE SHATTERED COAST — DM SECRETS
+# THE SHATTERED COAST — DM SECRETS
 **The Hidden Truth About the Maritime Frontier**
 
 ---
@@ -16183,7 +24927,7 @@ These fragments are:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16219,7 +24963,7 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16254,7 +24998,7 @@ The party could potentially rescue them — if they can reach the depths and nav
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16297,7 +25041,7 @@ The Shattered Coast could become:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16348,7 +25092,7 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16408,7 +25152,7 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -16514,9 +25258,8 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 
 — Elder Torwin of Tide's Rest, to the Northwatch Wardens
 
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -17219,9 +25962,8 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 — Deep-Reader Borin Stonescript, after his world changed forever
 
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
 
 \page
 
@@ -17340,7 +26082,7 @@ This section contains:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
 
 \page
 
@@ -17959,7 +26701,7 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 - **Coordinated behavior:** Schools moving in geometric patterns
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
 
 \page
 
@@ -18075,10 +26817,12 @@ Plant life in the Marches is developing primitive nervous systems and sensory ca
 - Communicate through chemical networks (like mycelial systems)
 - Remember past interactions and adapt behavior
 
+{{note
 **DM Note:** Play this for subtle horror and wonder, not comedy. A plant that shrinks from someone who means it harm is unsettling, not silly.
+}}
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18132,7 +26876,7 @@ If the Genesis Seed completes its startup and engages full operations:
 - Cities like Thornwall face food crisis and infrastructure collapse
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18163,7 +26907,9 @@ The massive sound heard across the Marches on Eclipse Day was:
 
 3. **Awakened beasts responding instinctively:** Newly intelligent animals felt a psychic "call" from the Seed—a testing signal determining which species to prioritize
 
+{{note
 **DM Secret:** Animals that heard and responded to the call are first in line for full intelligence enhancement. Those that didn't are second-wave candidates.
+}}
 
 ### Why Druids Misinterpreted It
 Druids have no frame of reference for Aeorian biotechnology. To them, this feels like:
@@ -18175,7 +26921,7 @@ Druids have no frame of reference for Aeorian biotechnology. To them, this feels
 They're not entirely wrong—but they're missing the artificial component. This is technology so advanced it mimics divine intervention.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18228,7 +26974,7 @@ Unlike some regions where the Echo's effects are ambient, the Marches have a **T
 **DM Use:** Create urgency without railroading. Let players choose their response.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18283,7 +27029,7 @@ When players discover the truth, they have several potential paths:
 **Difficulty:** Hard; requires penetrating deep into Chamber, defeating biological defenses, and surviving shutdown
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18340,7 +27086,7 @@ When players discover the truth, they have several potential paths:
 **Conflict:** Her personal transformation makes her judgment questionable
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18380,7 +27126,7 @@ Strange creatures have begun emerging from the Wildheart Basin—animals that we
 **Twist:** These "failures" provide evidence of the Seed's artificial nature. Study them to learn about the Chamber.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18429,7 +27175,7 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 **DM Use:** Dwarven miners can guide players into underground approaches
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18479,7 +27225,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 **Welcome to the Verdant Marches. Nothing here is as simple as it seems—and that's the point.**
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18508,7 +27254,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 9. **The First Beast Returns:** Legends speak of the First Beast shaping the land. Some believe it's returning—or that something is using its legend to manipulate the Marches.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -18558,7 +27304,7 @@ This document contains the hidden truth about the City of Masks. **DO NOT share 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
-# 🎭 VHAROXIS — DM SECRETS
+# VHAROXIS — DM SECRETS
 **The Hidden Truth About the City of Masks**
 
 ---
@@ -18615,7 +27361,7 @@ The city becomes a battleground:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -18752,7 +27498,7 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -18843,7 +27589,7 @@ Unwitting accomplices. The best distribution system the fragments could ask for.
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -19005,8 +27751,9 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 *"The syndicates don't know they're serving the Echo. That's what makes them so dangerous—and so useful."*
 
 — Confidential Warden intelligence report
+
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -19083,7 +27830,7 @@ Anything magical is for sale:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -19149,165 +27896,1905 @@ Criminal networks spreading corruption. Artifact trafficking endangering everyon
 \page
 # Appendix: Reference Materials
 
-# Northwatch Wardens: Season One — The Story So Far
+# Mystery Investigation Guide: The Aeorian Echo
 
-Use this as the living continuity log for actual play. Update it after each session.
+**Quick Reference for DMs — Week 1 Enhancement**
 
-
-## Quick Links
-- **Chapter 3: Campaign Overview** — Core structure and flow
-- **Chapter 4: DM Resources** — Session prep guidance and tools
-- **Chapter 4: Campaign Tracker** — Use the blank or filled tracker in this chapter
+This document tracks the mystery progression across Season 1 adventures, showing how players uncover the truth about the Aeorian Echo through investigation.
 
 ---
 
-## Current Snapshot (fill this in each session)
-- **Party Level:** 2
-- **Party:** Ranger, Paladin, Warlock
-- **Current Location:** (Waystone Inn / Welton / Westly's Farm / Shepherd's Crook Inn / Pinebrook / Palebank Village / Croaker Cave / Salsvault / Temple of the Dragonknights / Noke's Tower)
-- **Immediate Goal:** Return to Waystone Inn and report to the Wardens.
-- **Time Pressure / Clocks:** Truce stability (Bolt/Flame still active); any delay may invite rumors or retaliation.
-- **Last Session Ended On:** In Welton, post-negotiation; preparing to depart.
+## Mystery Rating Summary
+
+| Adventure | Rating | Role | Recommended Level |
+|-----------|--------|------|-------------------|
+| **Wolves of Welton** | ⭐⭐⭐⭐⭐ | **Inciting Incident** — First visible sign | 1-3 |
+| **Frozen Sick** | ⭐⭐⭐⭐⭐ | **Revelation** — Discover Salsvault source | 2-4 |
+| **Wild Sheep Chase** | ⭐⭐⭐ | **Pattern** — Magic destabilizing | 1-2 (or 4-5) |
+| **Temple of Dragonknights** | ⭐⭐⭐⭐ | **Escalation** — Factions exploiting Echo | 3-5 |
+| **Peril in Pinebrook** | ⭐⭐ | **Consequences** — Human cost & smuggling | 1-3 |
 
 ---
 
-## Session Log
+## Adventure Order & Connections
 
-| Session | Real Date | In‑Game Date | Location(s) | Summary | Consequences / Notes |
-|---:|---|---|---|---|---|
-| 0 |  |  |  | Campaign kickoff notes |  |
-| 1 | 2026-01-25 |  | Welton | Wolves of Welton contract completed via negotiation; truce established. | Level 2 reached; “Aeorian” clue found; Bolt/Flame alive; return to Waystone Inn pending. |
+### Order-Independent Design
 
-### Session 1 Notes — Wolves of Welton Resolution
-- **Resolution:** Negotiation (no final-battle slaughter); the party secured a **council vote** approving a **tentative truce** with the awakened wolves.
-- **Mercy shown:** The wolf pups were spared.
-- **Political outcome:** Tillus Merrion backed the truce after the vote.
-- **Awakened Wolves:** Bolt and Flame both survived; the faction remains a potential future threat if relations sour.
-- **Aeorian Echo:** The party recovered a note from Alexi written in indecipherable magical shorthand; the word **“Aeorian”** was legible.
-- **Advancement:** Party reached **Level 2** at contract end.
-- **Treasure:** 800 gp total, split three ways (266 gp each; 2 gp held as party funds or assigned later).
-- **Next objective:** Travel back to Waystone Inn and report in to the Wardens.
+**Core Principle:** Players can tackle adventures in ANY order and still discover the mystery organically.
 
+**Recommended Progression:**
+1. **Wolves of Welton** → Introduces the mystery ("something magical is happening")
+2. **Wild Sheep Chase** → Shows pattern ("magic is destabilizing everywhere")
+3. **Peril in Pinebrook** → Shows consequences ("every settlement is affected")
+4. **Frozen Sick** → Reveals source ("Salsvault is causing this")
+5. **Temple of Dragonknights** → Shows escalation ("predators are responding")
+
+**Alternative Orders:**
+- If players choose **Frozen Sick first**, they discover Salsvault early and recognize patterns in other adventures
+- If players choose **Wild Sheep Chase first**, they see destabilization before awakening (builds tension)
+- **Peril in Pinebrook** works anytime as a side quest or social investigation break
 
 ---
 
+## Campaign-Wide Investigation Threads
+
+### Thread 1: Transformation & Awakening
+
+**Adventures:** Wolves of Welton (primary), Wild Sheep Chase (secondary)
+
+**Progression:**
+1. **Wolves:** Discover wolves have become sapient through magical corruption
+2. **Sheep:** Discover magical items (polymorph wand) are malfunctioning
+3. **Pattern:** Transformation magic is behaving unpredictably across Northreach
+
+**Payoff (Frozen Sick):** Salsvault's Aeorian transmutation magic is the source
+
+### Thread 2: Ancient Magic Resurfacing
+
+**Adventures:** Frozen Sick (primary), Temple of Dragonknights (secondary), all others (hints)
+
+**Progression:**
+1. Early adventures hint at "old magic" and "pre-Calamity" sources
+2. **Frozen Sick:** Direct discovery of Aeorian ruins (Salsvault)
+3. **Temple:** Discover more Aeorian facilities exist (sealed beneath temple)
+
+**Payoff:** The Aeorian Echo is regional—multiple sites, networked, dangerous
+
+### Thread 3: Faction Response
+
+**Adventures:** Temple of Dragonknights (primary), Peril in Pinebrook (secondary)
+
+**Progression:**
+1. **Temple:** Predators (Venomfang, cults) attracted to magical convergence points
+2. **Pinebrook:** Opportunists (smugglers, criminals) profiting from chaos
+3. **Pattern:** Rising magic attracts both monsters and criminals
+
+**Payoff:** Stopping symptoms (wolves, dragons) doesn't address root cause—Salsvault remains active
+
+### Thread 4: Deliberate Activation (Long-Term Mystery)
+
+**Adventures:** Frozen Sick (hint), future campaigns (answer)
+
+**Discovery (Frozen Sick DC 16-17 investigation):**
+- Salsvault didn't wake randomly—it was **triggered deliberately**
+- Someone knew how to activate ancient Aeorian systems
+- This implies planning, knowledge, and resources
+
+**Unanswered Questions:**
+- Who triggered Salsvault? (Identity)
+- Why trigger it? (Motivation)
+- Are other sites activated? (Scope)
+
+---
+
+## Clue Tracking by Adventure
+
+### Wolves of Welton (⭐⭐⭐⭐⭐)
+
+**Primary Clue:** Unnatural intelligence (wolves open latches, use tactics, speak)
+- **Discovery:** Observation, NPC testimony
+- **DC 12 Nature:** "Something *changed* them fundamentally"
+- **Connects to:** Frozen Sick (Salsvault transmutation), Wild Sheep Chase (transformation theme)
+
+**Secondary Clue:** Timing of awakening (2-3 weeks ago, matches Alexi's disappearance)
+- **Discovery:** Father Merriksonn testimony, village timeline
+- **DC 14 Arcana:** "Sudden mass transformation = external magical event"
+- **Connects to:** Frozen Sick (Salsvault activation timeline)
+
+**Tertiary Clue:** Magical residue (*detect magic* shows transmutation aura)
+- **Discovery:** Spellcasting
+- **DC 15 Arcana:** "This magic feels... *old*. Not modern wizardry"
+- **Connects to:** All Echo adventures (Aeorian signature)
+
+**Hidden Clue:** The Old Woods (geometric frost, buried metal, Aeorian symbols)
+- **Discovery:** Active exploration north of Welton
+- **DC 16 History/Arcana:** "Pre-Calamity Aeorian designs"
+- **Connects to:** Frozen Sick (Aeorian facilities exist throughout region)
+
+### Frozen Sick (⭐⭐⭐⭐⭐)
+
+**Primary Clue:** Salsvault is the source (frigid woe originated at ruins)
+- **Discovery:** NPC briefing, journals, physical evidence
+- **DC 10 Medicine:** "This disease is magical, not natural"
+- **Connects to:** ALL previous adventures—this answers "what caused it?"
+
+**Secondary Clue:** Activation timeline (2-3 months ago = Alexi's death + wolf awakening)
+- **Discovery:** NPC testimony, residue dating
+- **DC 14 Arcana/History:** "Something triggered this after centuries dormant"
+- **Connects to:** Wolves of Welton (direct causal link)
+
+**Tertiary Clue:** Aeorian weapons lab (bio-weapons research facility)
+- **Discovery:** Exploring ruins, inscriptions, equipment
+- **DC 15 History:** "Aeor created this to fight gods"
+- **Connects to:** Campaign stakes (dangerous artifacts exist)
+
+**Critical Clue:** Deliberate activation (facility was triggered manually, not random)
+- **Discovery:** Control room investigation DC 16, Arcana DC 17
+- **Reveals:** "Startup sequence initiated manually—someone knew what they were doing"
+- **Connects to:** Long-term mystery (WHO and WHY?)
+
+**Hidden Clue:** Other Aeorian sites (maps reference dozens of facilities)
+- **Discovery:** Thorough exploration, language comprehension
+- **Reveals:** "Salsvault is one of dozens—they're networked"
+- **Connects to:** Campaign scope (problem is bigger than one ruin)
+
+### Wild Sheep Chase (⭐⭐⭐)
+
+**Primary Clue:** Magical item malfunction (wand behaving unpredictably)
+- **Discovery:** Shinebright's explanation, wand examination
+- **DC 13 Arcana:** "Wand should be stable—something interfering"
+- **Connects to:** Wolves (transformation), Frozen Sick (source)
+
+**Secondary Clue:** Widespread instability (entire tower's enchantments failing)
+- **Discovery:** Exploring tower, environmental effects
+- **DC 14 Arcana:** "Not one item—whole tower destabilizing"
+- **Connects to:** All Echo adventures (regional phenomenon)
+
+**Tertiary Clue:** Shinebright's secret knowledge (researching strange phenomena)
+- **Discovery:** Social interaction, Insight DC 15
+- **High trust:** Shares documentation of malfunctions across Northreach
+- **Connects to:** Frozen Sick (can provide research assistance), future ally
+
+**Hidden Clue:** Tower basement (research library with Aeorian maps and notes)
+- **Discovery:** Investigation DC 16 or Shinebright grants access
+- **Reveals:** Maps of anomaly sites, Aeorian symbols, mentions "Salsvault"
+- **Connects to:** Direct Frozen Sick foreshadowing
+
+### Temple of Dragonknights (⭐⭐⭐⭐)
+
+**Primary Clue:** Magical convergence point (ley lines amplified by Salsvault)
+- **Discovery:** Detect magic, Arcana DC 13
+- **Reveals:** "Temple channels incredible energy—more than natural"
+- **Connects to:** Frozen Sick (Salsvault amplifying regional nodes)
+
+**Secondary Clue:** Predator attraction (Venomfang drawn by magic)
+- **Discovery:** Interrogating kobolds, Insight DC 14
+- **Reveals:** "Venomfang arrived recently—*drawn* by the magic"
+- **Connects to:** Pattern (powerful creatures respond to Echo)
+
+**Tertiary Clue:** Cult empowerment (kobolds more powerful than normal)
+- **Discovery:** Observing rituals, Arcana DC 15
+- **Reveals:** "Kobolds shouldn't be this capable—something enhancing them"
+- **Connects to:** Wild Sheep Chase (instability), shows Echo empowers enemies
+
+**Hidden Clue:** Aeorian facility below (sealed passages with symbols)
+- **Discovery:** Investigation DC 16 in catacombs
+- **Reveals:** "Temple built *over* pre-Calamity structure, deliberately sealed"
+- **Connects to:** Frozen Sick (networked facilities), future adventures
+
+**Critical Clue:** Ward weakening (desecrated tombs break containment seals)
+- **Discovery:** Arcana DC 17, Religion DC 15
+- **Reveals:** "Tombs are ward anchors—desecration breaking containment magic"
+- **Connects to:** Long-term stakes (if seals break, Aeorian weapons activate)
+
+### Peril in Pinebrook (⭐⭐)
+
+**Primary Clue:** Frontier vulnerability (settlements affected by instability)
+- **Discovery:** Observing town dynamics, NPC conversations
+- **DC 12 Insight:** "People more desperate/frightened—something changed"
+- **Connects to:** Campaign theme (no place is safe)
+
+**Secondary Clue:** Artifact smuggling (hidden Aeorian items at trading post)
+- **Discovery:** Investigation DC 15, Intimidation/Persuasion DC 14
+- **Reveals:** Metallic geometric objects, transmutation aura
+- **Connects to:** Frozen Sick (artifacts from Salsvault), conspiracy
+
+**Tertiary Clue:** Information brokering (unusual traffic through Pinebrook)
+- **Discovery:** Social interaction, Persuasion DC 13 or coin (50+ gp)
+- **Reveals:** "Strange goods moving north/south—paying for discretion"
+- **Connects to:** Black market networks exploiting Aeorian discoveries
+
+---
+
+## DM Quick Reference: "If Players Ask..."
+
+### "Why are the wolves intelligent?"
+- **Before Frozen Sick:** "That's the mystery you're investigating"
+- **After Frozen Sick:** "Salsvault's awakening released transformative magic"
+
+### "Is this happening elsewhere?"
+- **Yes:** Every adventure shows different Echo effects (transformations, diseases, malfunctions, convergence)
+- **Scope:** Regional problem affecting all of Northreach
+
+### "Can we stop it?"
+- **Short-term:** Stop symptoms (kill wolves, cure disease, defeat dragon)
+- **Long-term:** Requires returning to Salsvault or finding advanced solutions
+- **Unknown:** Whether Echo can be reversed or only mitigated
+
+### "Who caused this?"
+- **Frozen Sick discovery (DC 16-17):** Someone deliberately activated Salsvault
+- **Identity:** Unknown (long-term campaign mystery)
+- **Clues:** Requires specialized knowledge of Aeorian systems
+
+---
+
+## Mystery Progression Milestones
+
+### After Wolves of Welton
+**Players Know:**
+- ✅ Magical transformation occurred suddenly
+- ✅ Effect is unnatural and unprecedented
+- ✅ Source is unknown but likely ancient
+
+**Questions Remain:**
+- ❓ What caused the awakening?
+- ❓ Are other creatures affected?
+- ❓ Can this be stopped?
+
+### After Frozen Sick
+**Players Know:**
+- ✅ **MAJOR REVELATION:** Salsvault (Aeorian ruin) is the source
+- ✅ All previous phenomena trace back to Salsvault activation
+- ✅ Salsvault was deliberately triggered (not random)
+- ✅ Other Aeorian facilities exist across the region
+
+**Questions Remain:**
+- ❓ Who triggered Salsvault, and why?
+- ❓ How can Salsvault be deactivated?
+- ❓ What else is out there?
+
+### After Temple of Dragonknights
+**Players Know:**
+- ✅ Echo creates magical convergence points
+- ✅ Predators/factions attracted to and empowered by convergence
+- ✅ Ancient seals are weakening as Echo escalates
+- ✅ Problem extends beyond individual threats
+
+**Questions Remain:**
+- ❓ How many convergence points exist?
+- ❓ What happens if all seals break?
+- ❓ Can Echo be contained or only managed?
+
+### After All Season 1 Adventures
+**Campaign Status:**
+- ✅ Mystery source identified (Salsvault)
+- ✅ Pattern recognized (regional Echo, transformation/destabilization/convergence)
+- ✅ Stakes understood (dangerous Aeorian weapons, factions responding, seals weakening)
+- ⚠️ Resolution incomplete (Salsvault still active)
+- ⚠️ Mastermind unknown (who triggered it, and why?)
+
+**Sets Up:** Season 2 campaigns—returning to Salsvault, investigating conspiracy, confronting consequences
+
+---
+
+## Using This Guide
+
+### During Adventure Prep
+1. Review mystery rating and connections for the session's adventure
+2. Prepare clues that players can discover
+3. Note which previous adventures' clues connect (for callbacks)
+4. Identify investigation DCs and discovery methods
+
+### During Play
+1. When players investigate, reference "Clue Tracking" for DCs and discoveries
+2. Use "If Players Ask..." section for common questions
+3. Track which clues players have discovered (check off as found)
+4. Connect discoveries to previous adventures when relevant
+
+### Between Sessions
+1. Update "Mystery Progression Milestones" based on what players learned
+2. Note which threads players are following most closely
+3. Prepare for upcoming adventures' clues that build on discoveries
+
+---
+
+## Notes
+
+**Created:** Week 1 of Aevoria Improvement Plan (February 2026)
+
+**Purpose:** Provide DMs with quick reference for mystery pacing, clue discovery, and investigation thread tracking.
+
+**Future Enhancements:**
+- Add visual diagram showing adventure connections
+- Expand with Season 2 mystery threads
+- Include player handout versions (spoiler-free investigation notes)
 
 \page
+# Adventure Quick Reference Sheets
 
-## Major Threads (track status)
+**Week 4 Enhancement — At-a-Glance DM Prep Tools**
 
-### Aeorian Echo (campaign throughline)
-- **What’s known:** A note attributed to Alexi uses indecipherable magical shorthand; the party could make out the word “Aeorian.”
-- **Loose ends:** Who is Alexi? What does “Aeorian” refer to in the Northreach frontier? How to decode the shorthand?
-- **Status:** ☐ Dormant ☒ Active ☐ Resolved
-
-### Wolves of Welton
-- **Key events to track:** road ambush, Welton council politics, the den, outcome with Flame/Bolt.
-- **Status:** ☐ Not started ☐ In progress ☒ Resolved
-
-**Current state:** Contract completed, but the peace is fragile. The party negotiated a tentative truce with the awakened wolves; Bolt and Flame both survived.
-
-### Frozen Sick (Frigid Woe)
-- **Key events to track:** Urgon’s death/funeral, Tulgi’s confession, Croaker Cave, Salsvault, antidote handling.
-- **Status:** ☐ Not started ☐ In progress ☐ Resolved
-
-### Temple of the Dragonknights
-- **Key events to track:** cult activity, temple approach, construct guardians, ritual chamber, Venomfang confrontation, Clementine’s fate.
-- **Status:** ☐ Not started ☐ In progress ☐ Resolved
-
-### The Wild Sheep Chase
-- **Key events to track:** Shinebright’s request, Guz, Noke’s Tower, modified wand outcome.
-- **Status:** ☐ Not started ☐ In progress ☐ Resolved
-
-### Peril in Pinebrook
-- **Key events to track:** missing patrols, baby silver dragon discovery, egg snatchers, alliance outcome, ice troll threat.
-- **Status:** ☐ Not started ☐ In progress ☐ Resolved
+Use these one-page reference sheets for fast session prep. Print and tape to your DM screen, or reference digitally during play.
 
 ---
 
-## NPC Index (add notes as they appear)
+## 1. WOLVES OF WELTON — One-Page Reference
 
-### Waystone Inn / Northwatch Wardens
-- Marshal Brenna Thorne — 
-- Steward Mara Fenwick — 
-- Lorewarden Elric Vael — 
+**Session Duration:** 4-6 hours | **Level Range:** 1-3 | **Party Size:** 2-5 players
 
-### Welton
-- Westly — 
-- Tillus Merrion — Council member; backed the truce after a successful council vote.
-- Leanor Slatebeard — 
-- Featherock — 
-- Willen — 
-- Father Merriksonn — 
+### Key Stats & Encounters
 
-### Awakened Wolves (Welton)
-- Bolt — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
-- Flame — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
+| Encounter | Location | Monster | HP | AC | CR |
+|-----------|----------|---------|----|----|-----|
+| **Wolf Attack** | Road near Westly's Farm | Awakened Wolf (x2-4) | 11 | 13 | 1/4 ea |
+| **Pack Battle** | The Old Woods | Flame + Pack (x3-5) | 22 | 13 | 1 ea |
+| **Negotiation** | Council Meeting | Bolt (Awakened Alpha) | 26 | 13 | 1 |
 
-### Other
-- Alexi — Left a note in magical shorthand; “Aeorian” was legible.
+### Session Checklist
 
-### Palebank Village / Frozen Sick
-- Pelc — 
-- Tulgi — 
-- Urgon — 
-- Elro Aldataur — 
-- Mila Teno — 
-- Verla — 
-- Hulil Lutan — 
-- Raegrin Mau — 
-- Commander Morgo Delwur — 
-- Irven Liel — 
+- [ ] Read full adventure (45 min)
+- [ ] Review NPC personalities: Bolt, Flame, Father Merriksonn, Tillus, Leanor
+- [ ] Prepare wolf stat blocks (CR 1/4 wolf, modified for awakening)
+- [ ] Map: Welton village, The Old Woods, council hall
+- [ ] Decide: Will you use moral choice emphasis or combat-first approach?
 
-### Temple of the Dragonknights
-- Joel Andersmith — 
-- Sera Gelanadel — 
-- Clementine — 
-- Venomfang — 
+### Mystery Element
 
-### Wild Sheep Chase
-- Finethir Shinebright — 
-- Guz — 
-- Noke — 
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Inciting Incident)
 
-### Pinebrook
-- Captain Kole — 
+**Primary Clue:** Wolves are sapient (open doors, speak, plan)  
+**Secondary Clue:** Timing matches Alexi's disappearance (2-3 weeks ago)  
+**Tertiary Clue:** Magical residue (detect magic shows transmutation aura, DC 15 Arcana)  
+**Hidden Clue:** The Old Woods contain geometric frost and buried Aeorian metal (DC 16)
+
+**Connects To:**
+- ✓ Frozen Sick (Salsvault activation caused awakening)
+- ✓ Wild Sheep Chase (transformation theme)
+- ✓ All future adventures (establishes Echo as ongoing threat)
+
+### NPC Quick Stats
+
+| Name | Role | Loc | Reaction | Combat |
+|------|------|-----|----------|--------|
+| **Bolt** | Enemy/Negotiator | Woods | Reasonable, wants peace | HP 26, AC 13 (scales with party) |
+| **Flame** | Enemy/Boss | Den | Aggressive, challenges Bolt | HP 22, AC 13, flees at 50% HP |
+| **Father Merriksonn** | Ally/Questgiver | Welton | Grieving (brother Alexi missing) | Non-combatant, vote YES |
+| **Tillus Merrion** | Village Council | Welton | Distrustful, pragmatic | Non-combatant, vote MAYBE |
+| **Leanor Slatebeard** | Innkeeper/Info | Welton | Gruff but helpful | Non-combatant, gossip source |
+
+### Resolution Quick Reference
+
+| Outcome | Reward | NPC Reactions | Mystery Impact |
+|---------|--------|---------------|-----------------|
+| **All Wolves Killed** | 800 gp | Merriksonn disappointed; Corel sad | Mystery unsolved; Elric notes "source still active" |
+| **Negotiated Peace** | 800 gp (after probation) | Merriksonn grateful; Corel relieved | Bolt says "something changed us"; gains ally |
+| **Deception/Mixed** | 800 gp (conditional) | Variable reactions | Mixed consequences ripple forward |
+
+### Common Pitfalls & Solutions
+
+| Pitfall | Solution |
+|---------|----------|
+| Wolves feel too evil | Emphasize Bolt's desperation: "We need food AND safety" |
+| Negotiation forced | If combat starts, Bolt yields at 50% HP: "We can TALK" |
+| Council vote rigged | Track player arguments; +1 swing vote per good Arcana/Nature/History check |
+| Flame underused | Make him faction leader, not just boss—killing him solidifies Bolt's rule |
+
+### Tactical Notes
+
+- **Terrain:** Forest, stream, cave den—use cover and movement
+- **Scaling:** Start with 2 wolves; add more if party fights easily
+- **Morale:** Wolves flee if Bolt dies or surrenders
+- **Twist:** If players spare Flame, he becomes a future adversary
 
 ---
 
-## Loot, Allies, and Consequences
+## 2. FROZEN SICK — One-Page Reference
 
-### Treasure & Notable Items
-- 800 gp total from the Wolves contract; split among Ranger / Paladin / Warlock (266 gp each; 2 gp left unassigned or held as party funds).
+**Session Duration:** 8-12 hours | **Level Range:** 2-4 | **Party Size:** 2-5 players
 
-### Allies / Favors / Oaths
-- Tentative truce with the awakened wolves of Welton (council-approved).
+### Key Stats & Encounters
 
-### Fallout (who’s angry, who’s grateful)
-- Welton council: truce approved; Tillus aligned with the party’s resolution.
+| Encounter | Location | Monster | HP | AC | CR |
+|-----------|----------|---------|----|----|-----|
+| **Hag Scout** | Road to Palebank | Green Hag variant | 82 | 15 | 5 |
+| **Bandits (Croaker Cave)** | Bandit Hideout | Bandit Captain + x3 | 65 | 15 | 1/8 ea |
+| **Aeorian Constructs** | Salsvault | Animated Armor-type | 40 | 15 | 2 ea |
+| **Animated Turrets** | Salsvault Lab | Magical Trap Effect | - | - | 3 ea |
 
-- Awakened wolves: truce exists, but Bolt/Flame remain active and could reverse course.
+### Session Checklist
+
+- [ ] Read full adventure (60 min)
+- [ ] Review disease mechanics (frigid woe progression)
+- [ ] Map: Palebank, Croaker Cave, Salsvault interior
+- [ ] Prepare stat blocks for all encounters
+- [ ] Know the cure location (Gold Vials in preservation chamber)
+- [ ] Track infected NPCs' health/timeline
+
+### Mystery Element
+
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Revelation Adventure)
+
+**Primary Clue:** Salsvault is the source (frigid woe traced to ruins, DC 10 Medicine)  
+**Secondary Clue:** Activation timeline matches wolf awakening (2-3 months ago, DC 14 Arcana)  
+**Tertiary Clue:** Aeorian weapons lab (bio-weapons research, DC 15 History)  
+**Critical Clue:** Deliberate activation (manually triggered, DC 16-17 investigation)  
+**Hidden Clue:** Other Aeorian sites exist (maps reference dozens, DC 16 exploration)
+
+**Connects To:**
+- ✓ Wolves of Welton (Alexi's death caused by Salsvault activation)
+- ✓ Wild Sheep Chase (magical destabilization source)
+- ✓ All future adventures (explains Echo as Salsvault leakage)
+
+### NPC Quick Stats
+
+| Name | Role | Status | Info Value |
+|------|------|--------|-----------|
+| **Elro Aldataur** | Questgiver | Healthy | Knows Salsvault location, offers guidance |
+| **Tulgi Lutan** | Infected | ~7 days left | Gruff; survives if players cure/complete quest |
+| **Irven Liel** | Infected | Family at risk | Merchant; offers reward for family salvation |
+| **Verla Pelc** | Dead (frozen) | Already gone | Carried vials to Croaker Cave |
+| **Morgo** | Scout/Guide | Syrinlya | Provides map or directions to Salsvault |
+
+### Disease Timeline
+
+| Day | Status | Symptoms | NPC Examples |
+|-----|--------|----------|--------------|
+| 0 | Infected | None apparent | Irven's family (just exposed) |
+| 3-4 | Symptomatic | Blue veins, chills | Tulgi (progresses here) |
+| 7 | Critical | Veins cover body, lethargy | Tulgi reaches here; ~1 day left |
+| 10 | Fatal | Transformation to ice | Urgon & Verla (already frozen) |
+
+**DM Recall:** Use disease timer to create urgency. "You have about a week before more people die."
+
+### Infection Mechanics
+
+**Catching Frigid Woe:**
+- DC 13 Constitution save or contract disease
+- Incubation: 1d4 days before symptoms appear
+- Progression: 3 stages over ~10 days total
+- Cure: Gold vials from Salsvault (3 vials = 3 cures)
+
+### Resolution Quick Reference
+
+| Outcome | Reward | Impact | Mystery Payoff |
+|---------|--------|--------|-----------------|
+| **Retrieve Cure in Time** | 300 gp + 100 gp bonus | All infected saved; Elro grateful | Salsvault = Echo source REVEALED |
+| **Selective Curing** | 300 gp (full reward) | Some live, some die | Party faces moral weight |
+| **Retrieve Cure Late** | 100 gp (partial) | Some NPCs die; village blames party | Mystery revealed but with cost |
+| **Fail/Retreat** | No reward | Multiple deaths; reputation hit | Echo remains threat |
+
+### Salsvault Map Notes
+
+- **Entrance:** Ice cave, 20 ft descent, freezing (damage/save)
+- **Lab Area:** Multiple rooms, constructs, magical traps
+- **Preservation Chamber:** Where gold vials are stored (central location, well-guarded)
+- **Control Room:** Evidence of manual activation sequence (investigation DC 16-17)
+- **Deep Levels:** Sealed with Aeorian symbols (hook for future)
+
+### Common Pitfalls & Solutions
+
+| Pitfall | Solution |
+|---------|----------|
+| Disease timeline too forgiving | Apply disease strictly; NPCs die if timer expires |
+| Croaker Cave feels like filler | Emphasize urgency—bandits stole vials, making them responsible |
+| Salsvault becomes monster crawl | Use environmental hazards; remind party of ticking clock |
+| Antidote search too easy | Drop hints (Urgon's journal) or provide Morgo's guidance |
+
+### Environmental Hazards
+
+- **Frozen floors:** Difficult terrain or DEX saves to avoid slipping
+- **Magical traps:** Arcana DC 15 to disable; triggers cause effect (cold damage, stat penalty)
+- **Collapsing sections:** Structural instability, can block paths or deal damage
+- **Blue spore clouds:** Infection risk if breathed (DC 13 CON save)
 
 ---
 
-## “As Written” Beats (from the Season 1 ToC)
+## 3. THE WILD SHEEP CHASE — One-Page Reference
+
+**Session Duration:** 3-4 hours | **Level Range:** 1-2 (or 4-5) | **Party Size:** 2-5 players
+
+### Key Stats & Encounters
+
+| Encounter | Location | Monster/Effect | HP | AC | CR |
+|-----------|----------|---------------|----|----|----|
+| **Polymorphed Sheep** | Encounter Start | Shinebright (AC 10, role-play) | 5 | 10 | - |
+| **Noke + Guz** | Tower Encounter | NPC Boss + Enforcer | 22/27 | 13/12 | 2/3 |
+| **Polymorphed Assassins** | Tower Interior | Bear/Wolves (2-3) | 34/11 | 13/12 | 1/1/8 |
+| **Wand Malfunction** | Combat Event | Wild Magic effect | - | - | Trap |
+
+### Session Checklist
+
+- [ ] Read adventure (30 min prep)
+- [ ] Embrace comedy tone—don't take it too seriously
+- [ ] Prepare Shinebright's bleating dialogue (milk the absurdity)
+- [ ] Map: Countryside, Noke's Tower (3+ levels)
+- [ ] Wand instability trigger rules (random polymorph/explosion)
+- [ ] Polymorphed staff NPCs (rescue opportunities)
+
+### Mystery Element
+
+**Mystery Rating:** ⭐⭐⭐ (Magical Destabilization Pattern)
+
+**Primary Clue:** Wand malfunction (unpredictable transformations, DC 13 Arcana)  
+**Secondary Clue:** Tower enchantment instability (whole building failing, DC 14 Arcana)  
+**Tertiary Clue:** Shinebright's research (knows about phenomena across Northreach, DC 15 Insight)  
+**Hidden Clue:** Tower basement (maps mark anomaly sites, mentions "Salsvault", DC 16 exploration)
+
+**Connects To:**
+- ✓ Wolves of Welton (transformation theme)
+- ✓ Frozen Sick (magical interference source)
+- ✓ Shows pattern: magic itself is destabilizing
+
+### NPC Quick Stats
+
+| Name | Role | Status | Notes |
+|------|------|--------|-------|
+| **Finethir Shinebright** | Victim/Ally | Polymorphed sheep | Cultured, desperate; can cast minor cantrips as sheep |
+| **Ahmed Noke** | Villain | Ambitious & hammy | Wields unstable wand; surrenders if losing (cowardly) |
+| **Guz** | Henchman | Loyal but dim | Half-orc; fights hard but will flee if Noke falls |
+| **Polymorphed Staff** | Minions/Allies | Various forms (cat, squirrel, etc.) | Can be freed to help party |
+
+### Tone Notes
+
+**This is a COMEDY adventure.** Play it for laughs while maintaining stakes.
+
+- Shinebright complains constantly: "These hooves!, This indignity!, I was a MASTER wizard!"
+- Guz speaks in grunts and incomplete sentences
+- Environmental comedy: Traps backfire (intruder turns into chicken), animated objects argue
+- Allow absurd player solutions—if they work, reward them
+
+### Resolution Quick Reference
+
+| Outcome | Reward | Shinebright Reaction | Mystery Impact |
+|---------|--------|----------------------|-----------------|
+| **Restore Shinebright** | 150 gp + gratitude | Grateful ally; offers research help | Can assist in future investigations |
+| **Shinebright Stays Sheep** | 75 gp (pity payment) | Tragic/comedic | Permanent Northreach curiosity |
+| **Defeat Noke, Save Staff** | 100 gp | Staff aid party | Allies in tower for possible future use |
+
+### Combat Notes
+
+**Wand Instability:**
+- Each use of wand (by Noke or recovered): Roll d20
+- 15+: Works as intended
+- 10-14: Unpredictable effect (consult Wild Magic table or custom effects)
+- 9-: Explosion risk (DEX save, everyone in 15 ft radius takes damage + random polymorph)
+
+**Shinebright as Asset (if party rescues him):**
+- Provides tactical advice (Action to give party Advantage on next attack)
+- Casts *Minor Illusion* or *Mage Hand* as sheep (cantrips)
+- Cowardly but knowledgeable—hides behind party during combat
+
+### Common Pitfalls & Solutions
+
+| Pitfall | Solution |
+|---------|----------|
+| Taking it too seriously | Lean into absurdity; use accents/comedy voices |
+| Shinebright feels helpless | Give him personality and minor spell use |
+| Tower feels like filler | Use environmental comedy and chaos |
+| Wand feels like MacGuffin | Make it unstable; each use risks explosion |
+
+### Optional Scene: Tower Basement
+
+**If party explores basement thoroughly (Investigation DC 16):**
+- Shinebright's research library (Aeorian maps, notes on magical anomalies)
+- Mentions "Salsvault" and "The Far North"
+- Direct foreshadowing for Frozen Sick adventure
+- Trust-building moment: If party helps Shinebright, he shares research freely
+
+---
+
+## 4. PERIL IN PINEBROOK — One-Page Reference
+
+**Session Duration:** 2-3 hours | **Level Range:** 1-3 | **Party Size:** 2-5 players
+
+### Key Stats & Encounters
+
+| Encounter | Location | Monster | HP | AC | CR |
+|-----------|----------|---------|----|----|-----|
+| **Rorn's Undead** | Various | Vampire Spawn + Zombies | 82 | 15 | 3 |
+| **Silver Dragon Wyrmling** | Final | Wyrmling (ally/threat) | 52 | 13 | 2 |
+| **Town Guard** | Pinebrook | Guard (x3-4) | 11 | 17 | 1/8 ea |
+
+### Session Checklist
+
+- [ ] Read adventure (30 min)
+- [ ] Review Rorn's corruption arc (progression of evil)
+- [ ] Map: Pinebrook town, lodge, abandoned areas
+- [ ] Silver dragon wyrmling stat block
+- [ ] Know key NPCs: Derendil, Gwyn, Rorn
+- [ ] Prepare moral complexity notes
+
+### Mystery Element
+
+**Mystery Rating:** ⭐⭐ (Human Cost & Smuggling)
+
+**Primary Clue:** Frontier vulnerability (instability affecting settlement, DC 12 Insight)  
+**Secondary Clue:** Artifact smuggling (hidden Aeorian items, Investigation DC 15)  
+**Tertiary Clue:** Information brokering (unusual traffic through town, Persuasion DC 13)
+
+**Connects To:**
+- ✓ Shows consequences of Echo (every settlement affected)
+- ✓ Smuggling networks exploit Aeorian discoveries (conspiracy theme)
+
+### NPC Quick Stats
+
+| Name | Role | Authority | Reaction | Secret |
+|------|------|-----------|----------|--------|
+| **Derendil** | Questgiver | Tavern owner | Grateful if party helps | Hiding refugees |
+| **Gwyn** | Ally | Ranger/Scout | Helpful, knows town | Scouts dragon sightings |
+| **Rorn** | Villain | Mine foreman | Corrupted by undead | Seeking immortality |
+| **Young Dragon** | Boss Fight | Independent | Dangerous but reasonable | Protects hoard, territorial |
+
+### Key Locations
+
+| Location | Purpose | Notes |
+|----------|---------|-------|
+| **Pinebrook Lodge** | Hotel/Info Hub | Where people gather; gossip source |
+| **Abandoned Mine** | Undead Lair | Rorn's base; multiple levels; hazards |
+| **Town Square** | Central Hub | Where dragon appears; open combat area |
+
+### Resolution Quick Reference
+
+| Outcome | Reward | Town Changes | Mystery Impact |
+|---------|--------|--------------|-----------------|
+| **Defeat Rorn, Save Town** | 200 gp + gratitude | Town recovers; merchants return | Pinebrook becomes ally settlement |
+| **Negotiate Dragon Peace** | 150 gp | Dragon claims territory; cautious peace | Frontier changed; future complication |
+| **Town Partially Saved** | 100 gp (conditional) | Some NPCs lost; partial recovery | Consequences ripple in later adventures |
+
+### Common Pitfalls & Solutions
+
+| Pitfall | Solution |
+|---------|----------|
+| Rorn feels one-dimensional | Show his gradual corruption; make him sympathetic before reveal |
+| Dragon feels like random boss | Establish it's been in region longer; it's territorial, not random |
+| Town feels unimportant | Connect NPCs to other adventures; make relationships matter |
+
+---
+
+## 5. TEMPLE OF THE DRAGONKNIGHTS — One-Page Reference
+
+**Session Duration:** 4-6 hours | **Level Range:** 3-5 | **Party Size:** 2-5 players
+
+### Key Stats & Encounters
+
+| Encounter | Location | Monster | HP | AC | CR |
+|-----------|----------|---------|----|----|-----|
+| **Kobold Patrol** | Temple Entrance | Kobold Wyrmpriest + x4 | 22 | 15 | 1/8 ea|
+| **Venomfang** | Lair | Young Green Dragon | 110 | 15 | 6 |
+| **Cult Ritual Team** | Chamber | Cult Leaders (x2) | 52 | 12 | 3 ea |
+| **Temple Guardians** | Crypts | Animated Armor/Animated Object | 40 | 15 | 2 ea |
+
+### Session Checklist
+
+- [ ] Read adventure (45 min)
+- [ ] Review Young Green Dragon tactics (cunning, ranged attacks)
+- [ ] Map: Temple surface, crypt system, Venomfang's lair, seals below
+- [ ] Prepare kobold stat blocks (use CR 1/8 as base)
+- [ ] Negotiation options for Venomfang (not pure villain)
+- [ ] Know seal mechanics (desecration weakens containment)
+
+### Mystery Element
+
+**Mystery Rating:** ⭐⭐⭐⭐ (Faction Response & Escalation)
+
+**Primary Clue:** Magical convergence point (ley lines amplified by Salsvault, DC 13 Arcana)  
+**Secondary Clue:** Predator attraction (Venomfang drawn by rising magic, Insight DC 14)  
+**Tertiary Clue:** Cult empowerment (kobolds more capable than normal, Arcana DC 15)  
+**Hidden Clue:** Aeorian facility sealed below (Investigation DC 16, Architecture)  
+**Critical Clue:** Ward weakening (desecration breaks seals, Arcana DC 17/Religion DC 15)
+
+**Connects To:**
+- ✓ Wolves of Welton (predator pattern)
+- ✓ Frozen Sick (magical convergence points)
+- ✓ Shows escalation: threats intensifying
+
+### NPC Quick Stats
+
+| Name | Role | Alignment | Negotiable |
+|------|------|-----------|-----------|
+| **Venomfang** | Boss/Villain | Lawful Evil | YES—offers alliance for non-interference |
+| **Kobold Wyrmpriest** | Cult Leader | Chaotic Evil | NO—fanatical |
+| **Joel Andersmith** | Questgiver | Neutral Good | Non-combatant; provides info |
+| **Northcrest Locals** | Support NPCs | Various | Can provide aid/shelter |
+
+### Venomfang Negotiation
+
+**Her Goals:**
+- Establish power base in region
+- Avoid direct conflict with strong opponents
+- Use kobolds as expendable minions
+- Exploit magic for personal gain
+
+**Negotiation Options:**
+- Offer non-interference (don't attack her, she leaves the region)
+- Propose alliance (she helps Wardens against larger threat)
+- Territorial division (she stays in temple, Wardens control region)
+
+**If Combat Chosen:**
+- HP 110, AC 15—formidable but killable
+- Use terrain (flight, pillars, multiple levels)
+- Kobolds serve as minion cannon fodder
+- If Venomfang drops below 50% HP, offer surrender option
+
+### Kobold Tactics
+
+- **Pack Tactics:** Flanking gives advantage (emphasize coordination)
+- **Ranged Support:** Stay behind; use spells/ranged attacks
+- **Retreat:** If half are dead, remainder flee to warn Venomfang
+- **Captured Kobolds:** Can reveal temple layout, Venomfang's lair location, cult goals
+
+### Seal Mechanics
+
+**Temple Tombs = Ward Anchors**
+
+- Each desecrated tomb weakens containment
+- Beneath temple: Sealed Aeorian facility (weapons lab, draconic research)
+- Desecration risk: If all seals break, facility reactivates automatically
+- Investigation (Arcana DC 17, Religion DC 15) reveals stakes
+
+### Resolution Quick Reference
+
+| Outcome | Reward | Regional Impact | Mystery Impact |
+|---------|--------|-----------------|-----------------|
+| **Defeat Venomfang** | 400 gp + magic item | Region safer; adventurers celebrated | Proves threats respond to Echo |
+| **Force Retreat** | 250 gp + gratitude | Venomfang leaves for now | Problem delayed, not solved |
+| **Negotiate Alliance** | 200 gp + ally | Uneasy peace; dragon as resource | Moral complexity; future complications |
+| **Seals Broken** | No reward + consequence | Facility awakens; major escalation | Campaign stakes raise significantly |
+
+### Common Pitfalls & Solutions
+
+| Pitfall | Solution |
+|---------|----------|
+| Venomfang feels pure villain | Play her as ambitious but logical; use dialogue |
+| Kobolds boring | Emphasize fanaticism; use personality & traps |
+| Temple feels like dungeon crawl | Use environmental storytelling; make choices matter |
+| Seals feel like side detail | Emphasize stakes: "If seals break, worse things wake" |
+
+### Tactical Map Elements
+
+- **Multiple entry points:** Front (guarded), back (stealth), underground (excavation)
+- **Elevation changes:** Use flight advantage; climbing/jumping opportunities
+- **Sacred ground:** Some areas radiate protective magic (sanctuary effects)
+- **Collapsed sections:** Navigation challenge; potential trap collapse
+
+---
+
+## Quick Summary Table: All Five Adventures
+
+| Adventure | Duration | Level | Party | Mystery | Reward | Primary Theme |
+|-----------|----------|-------|-------|---------|--------|-----------------|
+| **Wolves of Welton** | 4-6 hr | 1-3 | 2-5 | ⭐⭐⭐⭐⭐ | 800 gp | Awakening intelligence |
+| **Frozen Sick** | 8-12 hr | 2-4 | 2-5 | ⭐⭐⭐⭐⭐ | 300 gp | Ancient source revealed |
+| **Wild Sheep Chase** | 3-4 hr | 1-2/4-5 | 2-5 | ⭐⭐⭐ | 150 gp | Magic destabilizing |
+| **Peril in Pinebrook** | 2-3 hr | 1-3 | 2-5 | ⭐⭐ | 200 gp | Frontier consequence |
+| **Temple of Dragonknights** | 4-6 hr | 3-5 | 2-5 | ⭐⭐⭐⭐ | 400 gp | Predator escalation |
+
+---
+
+## Tips for Using These Sheets
+
+1. **Print & Laminate:** Keep sheets in DM binder or behind screen for quick reference
+2. **Digital Copy:** Reference on tablet/laptop during play for stat lookup
+3. **Customize:** Add your own notes (house rules, homebrew modifications)
+4. **Pre-session:** Highlight section relevant to tonight's session
+5. **During Play:** Use mystery tables to track what clues players have discovered
+
+---
+
+**Created:** Week 4 of Aevoria Improvement Plan (February 2026)
+
+**Companion Documents:**
+- Mystery_Investigation_Guide.md (Week 1)
+- NPC_Relationship_Diagram.md (Week 2)
+- NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
+- This document (Week 4)
 
 \page
+# NPC Quick Reference Cards
+
+**DM Reference Sheet — Print & Use**
+
+Quick-lookup stats for key NPCs across all Season 1 adventures. Use alongside full DM Guild Roster for expanded secrets.
+
+---
+
+## NORTHWATCH WARDENS LEADERSHIP
+
+{{monster,frame
+## Marshal Brenna Thorne
+*Human female, mid-40s, Field Commander*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 52
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|14 (+2)|14 (+2)|11 (+0)|16 (+3)|13 (+1)|
+___
+**Skills** :: Perception +5, Stealth +4, Survival +5
+**Senses** :: Passive Perception 15
+**Languages** :: Common, Orc
+___
+***Ranger's Focus.*** Keenly observes threats and tactical situations.
+
+***Frontier Veteran.*** Commands authority in wilderness matters; players trust her judgment.
+
+***Protective.*** Acts recklessly when defending young Wardens.
+:
+### Secrets
+- Carries sealed letter warning of arcane disturbances
+- Lost her brother in Greywinter Hunts
+- Never identified the creature that killed him
+- Will recognize unnatural wolf behavior immediately
+:
+### In-Scene Use
+Decision-maker; provides contracts; offers tactical advice
+}}
 
 
-Use this section as a quick reference for what the prepared material covers. Replace/adjust it as actual play diverges.
 
-- **Opening Skirmish (Waystone Inn):** 2 starving wolves attack outside the inn at dusk.
-- **The Morning After:** charter signing ceremony; first contract assignment (Wolves of Welton).
-- **Wolves of Welton:** road ambush; Welton social/investigation; plan and travel; optional injured owlbear; den battle with Flame/Bolt; optional council clash.
-- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to Syrinlya; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
-- **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
-- **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
-- **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
+---
+
+{{monster,frame
+## Steward Mara Fenwick
+*Halfling female, 30s, Quartermaster*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 38
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|11 (+0)|14 (+2)|13 (+1)|15 (+2)|13 (+1)|14 (+2)|
+___
+**Skills** :: Deception +4, Insight +3, Persuasion +4
+**Senses** :: Passive Perception 11
+**Languages** :: Common, Thieves' Cant, Undercommon
+___
+***Former Smuggler.*** Knows criminal networks intimately; trades information freely.
+
+***Bookkeeper.*** Meticulous with records and supplies; never forgets a debt.
+
+***Generous Soul.*** Donates secretly to families affected by crime.
+:
+### Secrets
+- 500 gp bounty on head from Uttolot family
+- Still has criminal underworld contacts
+- Fled Shadycreek Run; risk of bounty hunters
+:
+### In-Scene Use
+Quartermaster for supplies; information broker; knows smuggling routes
+}}
+
+---
+
+{{monster,frame
+## Lorewarden Elric Vael
+*Half-elf male, 50s, Arcane Scholar*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 41
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|9 (−1) |14 (+2)|12 (+1)|18 (+4)|15 (+2)|12 (+1)|
+___
+**Skills** :: Arcana +7, History +7, Investigation +7
+**Senses** :: Passive Perception 12
+**Languages** :: Common, Elvish, Celestial, Sylvan
+**Spellcasting** :: Cantrips (3), 1st-level (4), 2nd-level (1)
+___
+***Arcane Expert.*** Identifies magical items and phenomena instantly.
+
+***Pattern Recognition.*** Maps magical disturbances obsessively; connects seemingly unrelated events.
+
+***Prophetic Dreams.*** Visions of ice and Salsvault breaking through.
+:
+### Secrets
+- Has mapped every magical disturbance in 200-mile radius
+- Dreams are prophetic; circle's center is Salsvault
+- Knows Aeoria wasn't just destroyed—it was stopped by something
+- Believes Echo isn't random
+:
+### In-Scene Use
+Identifies magic; provides lore; recognizes Aeorian artifacts
+}}
+
+---
+
+## WOLVES OF WELTON
+
+{{monster,frame
+## Bolt
+*Alpha Wolf (Awakened)*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 26
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|15 (+2)|15 (+2)|14 (+2)|14 (+2)|13 (+1)|
+___
+**Skills** :: Perception +4, Stealth +4, Survival +3
+**Senses** :: darkvision 60 ft., Passive Perception 14
+**Languages** :: Understands Common; speaks telepathically (60 ft.)
+___
+***Sapient Intelligence.*** Speaks complex thoughts, makes deals; thinks beyond instinct.
+
+***Desperate Pragmatist.*** Wants peace and food, not war.
+
+***Natural Leader.*** Pack obeys him; leadership questioned by Flame.
+:
+### Motivations
+- Protect pack from starvation
+- Find safe hunting grounds
+- Survive the "wrongness" that changed them (the Echo)
+:
+### Negotiation Hooks
+"We were animals. Now we think. We feel. We know we will die."
+
+"Can you blame us for wanting to live?"
+
+Respects strength and intelligence; will parley with capable party.
+:
+### In-Scene Use
+Reasonable boss; negotiator if party shows sense; can become ally
+}}
+
+---
+
+{{monster,frame
+## Flame
+*Ambitious Wolf (Awakened)*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 22
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|16 (+3)|14 (+2)|12 (+1)|12 (+1)|14 (+2)|
+___
+**Skills** :: Perception +3, Stealth +5
+**Senses** :: darkvision 60 ft., Passive Perception 13
+**Languages** :: Understands Common; speaks telepathically (60 ft.)
+___
+***Ambitious Challenger.*** Questions Bolt's authority; seeks to prove dominance.
+
+***Aggressive Predator.*** Wants to dominate, not negotiate.
+
+***Leadership Threat.*** Polarizes pack; causes internal conflict.
+:
+### Motivations
+- Prove himself stronger than Bolt
+- Challenge party's authority
+- Establish dominance through combat
+:
+### Combat Notes
+- Flees if Bolt dies or at 50% HP (pack defeated)
+- If killed: Solidifies Bolt's leadership, proves wolves can police themselves
+- If captured: Can be used to leverage negotiations
+:
+### In-Scene Use
+Optional boss fight; represents negotiation failure; removing him strengthens peace possibility
+}}
+
+---
+
+{{monster,frame
+## Father Merriksonn
+*Human male, 50s, Village Priest*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 22
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|10 (+0)|12 (+1)|14 (+2)|16 (+3)|13 (+1)|
+___
+**Skills** :: Insight +5, Medicine +4, Persuasion +3
+**Senses** :: Passive Perception 13
+**Languages** :: Common, Celestial
+**Spellcasting** :: Cleric cantrips (3), 1st-level (3)
+___
+***Grieving Brother.*** Alexi vanished 3 weeks ago (during wolf awakening).
+
+***Man of Faith.*** Believes divine will guides events.
+
+***Reluctant to Violence.*** Prefers mercy to killing.
+:
+### Motivations
+- Find truth about what happened to Alexi
+- Prevent more deaths (whether wolves or villagers)
+- Seek redemption (Alexi was magical; responsible?)
+:
+### Council Vote
+- **GUARANTEED YES** vote if party negotiates peace
+- Will advocate emotionally for wolf mercy
+- Grateful ally if Alexi's connection to Echo is discovered
+:
+### In-Scene Use
+Emotional anchor; quest-giver; council vote swing; ally if handled well
+}}
+
+---
+
+{{monster,frame
+## Leanor Slatebeard
+*Dwarf female, 60s, Innkeeper*
+___
+**Armor Class** :: 12 (leather)
+**Hit Points**  :: 18
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|10 (+0)|14 (+2)|12 (+1)|11 (+0)|13 (+1)|
+___
+**Skills** :: Athletics +4, Insight +2, Persuasion +3
+**Senses** :: Passive Perception 10
+**Languages** :: Common, Dwarvish
+___
+***Gruff but Fair.*** Respected in Welton; doesn't suffer fools.
+
+***Information Hub.*** Hears all gossip; shares freely with trusted patrons.
+
+***Pragmatic Supporter.*** Backs party decisions if reasonable.
+:
+### Actions
+***Worn Hand Axe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 2) slashing damage.
+:
+### Information
+- Knows exact timeline of wolf attacks
+- Can point to Westly's Farm for investigation
+- Vaguely mentions "strangeness" in Old Woods
+- Once suspected "unnatural" wolf behavior
+:
+### In-Scene Use
+Information source; tavern hub; safe harbor; NPC to return to
+}}
+
+---
+
+{{monster,frame
+## Tillus Merrion
+*Halfling male, middle-aged, Council Member*
+___
+**Armor Class** :: 11
+**Hit Points**  :: 15
+**Speed**       :: 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|12 (+1)|13 (+1)|14 (+2)|12 (+1)|11 (+0)|
+___
+**Skills** :: Insight +3, Persuasion +2
+**Senses** :: Passive Perception 11
+**Languages** :: Common, Halfling
+___
+***Skeptical Pragmatist.*** Distrusts outsiders; prefers proven solutions.
+
+***Risk-Averse.*** Wants safe, known solutions; avoids uncertainty.
+
+***Fence-Sitter.*** Votes based on party arguments; can be swayed.
+:
+### Council Vote
+- **SWING VOTE** — depends on party persuasion
+- +1 if party demonstrates strength/competence
+- +1 if party shows understanding of wolf nature
+- -1 if party uses intimidation/threats
+- Neutral if party doesn't engage him directly
+:
+### In-Scene Use
+Council skeptic; requires party to "prove themselves"; morale test
+}}
+
+---
+
+## FROZEN SICK
+
+{{monster,frame
+## Elro Aldataur
+*Half-elf male, 60s, Village Elder / Ranger*
+___
+**Armor Class** :: 14 (leather)
+**Hit Points**  :: 44
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|15 (+2)|12 (+1)|16 (+3)|13 (+1)|
+___
+**Skills** :: Perception +5, Survival +5, Investigation +3
+**Senses** :: Passive Perception 15
+**Languages** :: Common, Elvish
+___
+***Experienced Ranger.*** Knows frontier thoroughly; trusted guide.
+
+***Desperate Leader.*** Willing to try anything to save village.
+
+***Hidden Guilt.*** Someone died before hiring party; weighs on conscience.
+:
+### Actions
+***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+:
+### Information
+- Can point to Salsvault location
+- Knows Croaker Cave (bandit hideout)
+- Has sketchy maps from old explorer's notes
+:
+### In-Scene Use
+Quest-giver; journey guide; ally for research
+}}
+
+---
+
+{{monster,frame
+## Tulgi Lutan
+*Dwarf male, 40s, Infected Trapper*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 24
+**Speed**       :: 20 ft. (exhausted)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|12 (+1)|14 (+2)|11 (+0)|14 (+2)|8 (−1) |
+___
+**Skills** :: Perception +4, Survival +4
+**Senses** :: Passive Perception 14
+**Languages** :: Common, Dwarvish
+___
+***Infected Status.*** ~7 days left before critical stage.
+
+***Gruff Survivor.*** Irritable due to sickness; responds to respect.
+
+***Defensive.*** Assumes others want him dead; slow to trust.
+
+***Knowledgeable.*** Knows forest dangers intimately.
+:
+### Survival Importance
+- **If cured:** Becomes grateful ally
+- **If dies:** Villagers blame party; reputation hit
+- **If infection spreads:** Tulgi becomes vector (grows desperate/dangerous)
+:
+### Personality Notes
+- Responds to respect and directness
+- Distrusts authority/outsiders (thaw takes time)
+- Will fight to survive even if doomed
+:
+### In-Scene Use
+NPC at stakes; moral weight; potential ally if saved
+}}
+
+---
+
+{{monster,frame
+## Urgon Wenth
+*Human male, 30s, Deceased Explorer*
+___
+**Status** :: Already died from frigid woe
+**Appearance** :: Frozen corpse with blue veins, ice-preserved
+___
+***Investigation Clue (DC 12 Medicine).*** "Died from internal freezing; extraordinary."
+
+***Arcane Evidence (DC 14 Arcana).*** "Blue veins glow faintly—magical origin."
+:
+### Information Value
+- Body contains clues about Salsvault location
+- Carried vials to Croaker Cave (bandits intercepted)
+- His journal provides map to ruins
+:
+### Journal Contents
+- Maps to Salsvault
+- Notes on "golden vials"
+- References to ancient ruins
+- Cryptic warnings about freezing sickness
+:
+### In-Scene Use
+Environmental storytelling; investigation hook; emotional anchor
+}}
+
+---
+
+## THE WILD SHEEP CHASE
+
+{{monster,frame
+## Finethir Shinebright
+*Human male (polymorphed sheep), 40s, Wizard*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 5 (polymorphed form)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (−1) |11 (+0)|12 (+1)|18 (+4)|15 (+2)|12 (+1)|
+___
+**Senses** :: Passive Perception 12
+**Languages** :: Common, Elvish (understands but can't speak as sheep)
+**Spellcasting** :: Cantrips only (Minor Illusion, Mage Hand, Prestidigitation)
+___
+***Polymorphed Sheep.*** Stuck in sheep form; retains intelligence and memories.
+
+***Cultured Absurdity.*** "These hooves! The indignity!" — arrogant about magical knowledge.
+
+***Cowardly Tactician.*** Provides tactical advice from safety (can grant Advantage 1x per encounter).
+
+***Grateful Ally.*** If party helps him, becomes valuable research contact.
+:
+### Actions
+***Cantrip Casting.*** Can cast Minor Illusion, Mage Hand, and Prestidigitation from sheep form.
+
+***Tactical Advice.*** Once per encounter, grants Advantage to one ally's attack or ability check.
+:
+### Restoration Options
+- **Dispel Magic** (DC 15+) ends polymorph
+- **True Polymorph** reversal (high-level spell)
+- **Cure at Salsvault** (same place as frigid woe antidote)
+:
+### Research Value
+- Studies magical anomalies across Northreach
+- Documents malfunctions in his tower
+- Knows about "something far north" (Salsvault reference)
+- If party earns trust, shares research freely
+:
+### Tower Basement Contents
+- Hidden research library
+- Maps marking anomaly sites
+- Mentions "Salsvault" in notes
+- Direct Frozen Sick foreshadowing
+:
+### In-Scene Use
+Comic relief character; knowledge source; potential ally; NPC to return to
+}}
+
+---
+
+## TEMPLE OF THE DRAGONKNIGHTS
+
+{{monster,frame
+## Venomfang
+*Young Green Dragon*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 110
+**Speed**       :: 40 ft., fly 80 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|19 (+4)|16 (+3)|17 (+3)|16 (+3)|12 (+1)|15 (+2)|
+___
+**Saving Throws** :: DEX +6, CON +6, WIS +4, CHA +5
+**Skills** :: Deception +5, Perception +7, Stealth +6
+**Senses** :: truesight 120 ft., Passive Perception 17
+**Languages** :: Common, Draconic, Abyssal
+___
+***Intelligent & Ambitious.*** Not a mindless monster; seeks power and dominion.
+
+***Pragmatic Strategist.*** Avoids unwinnable fights; uses cover, flight, and minions.
+
+***Charismatic Deceiver.*** Can deceive or seduce allies; excellent negotiator.
+:
+### Actions
+***Multiattack.*** Venomfang makes three attacks: one with its bite and two with its claws.
+
+***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.
+
+***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage.
+
+***Poison Breath (Recharge 5–6).*** Venomfang exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.
+:
+### Motivations
+- Establish power base in region
+- Use magical convergence (temple) as stronghold
+- Exploit Aeorian Echo for personal gain
+- Avoid direct conflict with adventurers if possible
+:
+### Negotiation Options
+- **Non-interference:** "Leave region, I leave you alone"
+- **Alliance:** "Help me against larger threat"
+- **Territorial division:** "You control Northreach, I stay in temple"
+:
+### Combat Tactics
+- Uses cover, flight, and kobold minions
+- Will flee if reduced below 25% HP
+- Defeat proves dragons can be opposed; regional impact
+:
+### In-Scene Use
+Intelligent boss; negotiation possibility; can become ally or enemy
+}}
+
+---
+
+{{monster,frame
+## Kobold Wyrmpriest
+*Kobold male, Cult Leader*
+___
+**Armor Class** :: 15 (hide armor)
+**Hit Points**  :: 22
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|14 (+2)|12 (+1)|13 (+1)|12 (+1)|15 (+2)|
+___
+**Skills** :: Persuasion +4, Religion +3
+**Senses** :: darkvision 60 ft., Passive Perception 11
+**Languages** :: Common, Draconic
+**Spellcasting** :: Cantrips (2), 1st-level (3)
+___
+***Fanatical Worshipper.*** Believes Venomfang is divine; utterly devoted.
+
+***Ritual Leader.*** Conducts dark ceremonies; coordinates cult activities.
+
+***Non-negotiable.*** Won't surrender or flee; fights to the death.
+:
+### Actions
+***Dagger.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
+
+***Spellcasting.*** Cantrips: Sacred Flame, Thaumaturgy. 1st-level (3 slots): Command, Inflict Wounds, Shield of Faith.
+:
+### Motivations
+- Serve Venomfang absolutely
+- Spread worship through violence
+- Ascend to godhood (mistaken belief)
+:
+### Combat Behavior
+- Fights to death; no surrender option
+- Uses spellcraft and minion tactics
+- Captured kobolds can be persuaded to abandon cult
+:
+### In-Scene Use
+Non-negotiable enemy; zealot; requires defeat or flight
+}}
+
+---
+
+## Quick Lookup: NPC Allegiances by Adventure
+
+| Adventure | Ally | Neutral | Enemy | Info Source |
+|-----------|------|---------|-------|------------|
+| **Wolves** | Father Merriksonn | Leanor, Tillus | Flame (maybe) | Corel (ranger) |
+| **Frozen Sick** | Elro, Morgo | Tulgi (gruff) | Bandits | Pelc (if rescued) |
+| **Wild Sheep** | Shinebright (if rescued) | Noke's Staff | Noke, Guz | Tower Library |
+| **Pinebrook** | Derendil, Gwyn | Town Guard | Rorn, Undead | Dragon Wyrmling |
+| **Temple** | - | Joel Andersmith | Venomfang*, Kobolds | Oracle/Scouts |
+
+*Venomfang can shift to ally if negotiated well.
+
+---
+
+## Tips for Using NPC Cards
+
+1. **Before Session:** Highlight NPCs appearing this session
+2. **During Play:** Quick-look stats; reference motivations
+3. **Between Turns:** Check personality traits to roleplay consistently
+4. **Post-Session:** Note NPC reaction changes (relationships evolve)
+5. **Campaigns Later:** Reference secrets for long-term consequences
+
+---
+
+**Created:** Week 4 of Aevoria Improvement Plan (February 2026)
+
+**Companion Documents:**
+- DM Guild Roster.md (full NPC secrets & campaign connections)
+- Adventure_Quick_Reference.md (one-page adventure sheets)
+
+\page
+# Session Prep Master Checklist
+
+**Week 4 Final Tool — Complete DM Preparation Framework**
+
+Use this checklist for every session. Customize as needed for your table.
+
+---
+
+## PRE-SESSION PREPARATION (2-3 Days Before)
+
+### Step 1: Review This Session's Adventure
+
+- [ ] Read relevant adventure section (time estimate: 30-60 min)
+- [ ] Review mystery elements and clues for this adventure
+- [ ] Identify which NPCs appear in this session
+- [ ] Note any connections to previous adventures
+- [ ] Mark any rules/mechanics you'll need to reference
+
+**Adventure to Run This Session (circle one):**
+- Wolves of Welton
+- Frozen Sick  
+- Wild Sheep Chase
+- Peril in Pinebrook
+- Temple of Dragonknights
+- Other: ________________
+
+---
+
+### Step 2: Prepare Stat Blocks & Encounters
+
+- [ ] Gather stat blocks for all creatures/NPCs in this session
+- [ ] Note AC, HP, key abilities for quick reference
+- [ ] Prepare initiative rolls (or know how to roll them)
+- [ ] If combat expected: Print or pre-write encounter details
+- [ ] If social encounters: Note NPC personality traits and motivations
+
+**Encounters This Session:**
+1. ___________________________________ (Type: Combat/Social/Exploration)
+2. ___________________________________ (Type: Combat/Social/Exploration)
+3. ___________________________________ (Type: Combat/Social/Exploration)
+
+---
+
+### Step 3: Create/Print Maps
+
+- [ ] Main map for this session printed or digitized
+- [ ] Backup maps for branching scenarios
+- [ ] Miniatures/tokens prepared (if using battlegrid)
+- [ ] Note key locations and terrain features
+- [ ] Mark player starting positions
+
+**Maps Needed:**
+- _________________________________
+- _________________________________
+- _________________________________
+
+---
+
+### Step 4: Identify Key NPCs for This Session
+
+- [ ] Use NPC_Quick_Reference_Cards.md to prepare each NPC
+- [ ] Note their personality traits and motivations
+- [ ] Review secrets relevant to this adventure
+- [ ] Prepare 1-2 distinctive voice traits per NPC (accent, speech pattern, mannerism)
+- [ ] Know each NPC's alignment and goals
+
+**NPCs This Session:**
+| Name | Role | Personality Trait | Secret/Hook |
+|------|------|-------------------|------------|
+| | | | |
+| | | | |
+| | | | |
+
+---
+
+### Step 5: Mystery Element Prep
+
+- [ ] Review this adventure's mystery rating and clues
+- [ ] Identify which clues are findable through player investigation
+- [ ] Note Investigation DCs and discovery methods
+- [ ] Decide which clues to "dangle" vs. require finding
+- [ ] Prepare optional deep-clue discoveries if party explores thoroughly
+
+**Mystery Clues This Session:**
+- [ ] Primary Clue: ________________________________ (DC ___)
+- [ ] Secondary Clue: ______________________________ (DC ___)
+- [ ] Tertiary Clue: _______________________________ (DC ___)
+- [ ] Hidden Clue: _________________________________ (DC ___)
+
+---
+
+## NIGHT-BEFORE PREPARATION (1 Day Before)
+
+### Step 6: Read Through Your Prep
+
+- [ ] Reread adventure sections for this session
+- [ ] Skim NPC motivation reminders
+- [ ] Review any house rules or special mechanics
+- [ ] Note any tricky rulings you might need to reference
+- [ ] Double-check monster stat blocks
+
+**Any Rulings To Review?**
+- Special mechanics: ____________________________
+- Homebrew rules: ______________________________
+- Setting-specific details: _____________________
+
+---
+
+### Step 7: Gather Physical Materials
+
+- [ ] Print or write adventure notes
+- [ ] Print NPC quick reference cards for this session
+- [ ] Print or have maps ready (physical or digital)
+- [ ] Dice collection ready (have backups)
+- [ ] Miniatures/tokens organized
+- [ ] Paper for player notes/treasure
+- [ ] Timer (if using round timers)
+- [ ] Any handouts for players
+
+**Materials Checklist:**
+- [ ] printed notes
+- [ ] NPC cards
+- [ ] Maps
+- [ ] Dice
+- [ ] Minis
+- [ ] Paper/pencils
+- [ ] Handouts
+- [ ] Timer/Clock
+
+---
+
+### Step 8: Mental Prep
+
+- [ ] Read opening scene description (for "cold open" if applicable)
+- [ ] Visualize first NPC encounter
+- [ ] Think through potential player choices (branching scenarios)
+- [ ] Prepare 2-3 ad-lib descriptions for unexpected situations
+- [ ] Review pacing estimates (how long each section should take)
+
+**Key Branching Scenarios:**
+1. If players do __________, I'll: ___________________
+2. If players skip __________, I'll: _________________
+3. If players investigate __________, I'll: _________
+
+---
+
+## SESSION START (30 Minutes Before Game)
+
+### Step 9: Final Setup & Table Arrangement
+
+- [ ] Arrange physical space (player seating, DM position)
+- [ ] Materials organized within arm's reach
+- [ ] Maps visible (or ready to display)
+- [ ] Dice easily accessible
+- [ ] Water/snacks available
+- [ ] Phones on silent (or away)
+
+---
+
+### Step 10: Quick Mental Walkthrough
+
+- [ ] Opening scene clearly visualized
+- [ ] First NPC interaction clear in mind
+- [ ] First combat (if planned) understood
+- [ ] Pacing plan in head (Act 1, Act 2, Act 3 breakdown)
+- [ ] Any last-minute rule clarifications reviewed
+
+**Session Outline (Rough Timing):**
+- 0:00 - Opening scene / Reestablish location ____________
+- 0:15 - First encounter setup _________________________
+- 1:15 - Main action sequence __________________________
+- 2:00 - Climactic moment or boss encounter _____________
+- 2:45 - Resolution / Debrief ___________________________
+- 3:00 - Session end / Preview next week ________________
+
+---
+
+## DURING SESSION
+
+### Step 11: Active Note-Taking
+
+- [ ] Track which clues players discover (and how)
+- [ ] Note NPC reactions to player choices
+- [ ] Track damage taken, resources used
+- [ ] Mark time spent on major sections
+- [ ] Record player creative solutions
+- [ ] Note any house ruling decisions made
+
+**Session Notes:**
+```
+Clues Discovered:
+
+
+NPC Reactions:
+
+
+Time Spent:
+
+
+Player Highlights:
+
+
+House Rulings Made:
+```
+
+---
+
+### Step 12: Mystery Tracking
+
+- [ ] Check off clues as players discover them
+- [ ] Note which investigation paths they followed
+- [ ] Record how they interpreted clues
+- [ ] Note questions they ask (future foreshadowing)
+- [ ] Update "Party Knowledge" for next session prep
+
+**Party's Current Mystery Understanding:**
+- They know: _________________________________
+- They suspect: _______________________________
+- They're confused about: ______________________
+- They haven't discovered: ___________________
+
+---
+
+### Step 13: Managing Pacing & Energy
+
+- **15 min into session:** Check pacing (on track?)
+- **30 min in:** Adjust if lagging or overrunning
+- **60 min mark:** Natural pause point (good time for break)
+- **90 min in:** Main action phase (maintain momentum)
+- **120 min in:** Building toward climax (increase stakes)
+- **150+ min in:** Wind down toward resolution
+
+---
+
+## END OF SESSION
+
+### Step 14: Player Experience Debrief (Last 5 Minutes)
+
+- [ ] Ask: "What did you enjoy most this session?"
+- [ ] Ask: "What was confusing or unclear?"
+- [ ] Ask: "Any mechanics questions?"
+- [ ] Announce next session's hook or adventure preview
+- [ ] Remind when next session occurs
+
+---
+
+### Step 15: DM Debrief (After Players Leave)
+
+- [ ] What went well this session?
+- [ ] What needs adjustment?
+- [ ] Which NPCs resonated?
+- [ ] Pacing: Too fast? Too slow? Just right?
+- [ ] Mystery: Did clues land well? Were they discoverable?
+- [ ] Did house rulings work?
+- [ ] What surprised you about player choices?
+
+**Self-Reflection Notes:**
+```
+Highlights:
+
+
+Improvements for Next Time:
+
+
+NPC Notes:
+
+
+Pacing Notes:
+
+
+Mystery Notes:
+```
+
+---
+
+### Step 16: Post-Session Record-Keeping
+
+- [ ] Update Campaign Tracker with session results
+- [ ] Record treasure distributed
+- [ ] Note level-ups or advancement
+- [ ] Update NPC relationships (did any change?)
+- [ ] Mark clues discovered on Mystery Tracker
+- [ ] Record any consequences for future sessions
+
+**Updates for Campaign Tracker:**
+- Gold distributed: ____________________________
+- Items obtained: ______________________________
+- NPCs encountered: ____________________________
+- Clues discovered: ____________________________
+- Consequences triggered: ______________________
+
+---
+
+### Step 17: Plan Next Session Immediately
+
+- [ ] Which adventure/encounter is next?
+- [ ] What player consequences from today?
+- [ ] Which mystery clues should come next?
+- [ ] New encounters to prep?
+- [ ] NPC reactions to update?
+
+**Next Session Preview:**
+- Adventure: ____________________________________
+- Key NPCs: ____________________________________
+- Expected encounters: __________________________
+- Mystery progression: __________________________
+
+---
+
+## Quick Timesavers
+
+### "I Need to Prep Quick" (30 Minutes)
+
+1. ✅ Reread relevant adventure section (10 min)
+2. ✅ Grab stat blocks for encounters (5 min)
+3. ✅ Glance at NPC quick reference cards (5 min)
+4. ✅ Check mystery elements (5 min)
+5. ✅ Print/gather maps (5 min)
+
+**Minimum prep:** You're ready to go
+
+---
+
+### "I'm Overprepared" (Extra Detail Level)
+
+1. ✅ Write out NPC dialogue (optional but fun)
+2. ✅ Prepare alternative encounter scenarios
+3. ✅ Create custom handouts
+4. ✅ Research lore/history details
+5. ✅ Prepare encounter music playlist
+
+**Maximum prep:** Players will notice the extra polish
+
+---
+
+## Adventure-by-Adventure Prep Checklists
+
+### WOLVES OF WELTON
+
+**Prep Time:** 45-60 minutes | **Tier:** Essential Prep
+
+- [ ] Review wolf negotiation options
+- [ ] Prepare Bolt & Flame stat blocks
+- [ ] Know council vote mechanics (swing votes matter)
+- [ ] Visualize Old Woods encounters
+- [ ] Prepare moral complexity guidance
+
+**Critical Materials:**
+- Adventure text
+- Wolf stat blocks
+- Council member names & positions
+- Map of Welton & surrounding area
+
+---
+
+### FROZEN SICK
+
+**Prep Time:** 60-90 minutes | **Tier:** Heavy Prep (Longest Adventure)
+
+- [ ] Understand disease mechanics & timeline
+- [ ] Prepare multiple location maps (Palebank, Croaker Cave, Salsvault)
+- [ ] Gather stat blocks for: bandits, constructs, environmental effects
+- [ ] Know cure location precisely (players will search)
+- [ ] Prepare infection progression details
+
+**Critical Materials:**
+- Full adventure text
+- Disease progression chart
+- All location maps
+- Stat blocks for encounters
+- Croaker Cave layout
+
+---
+
+### WILD SHEEP CHASE
+
+**Prep Time:** 30-45 minutes | **Tier:** Light Prep (Shortest Adventure)
+
+- [ ] Embrace comedy tone—prepare funny voices
+- [ ] Gather Shinebright dialogue notes
+- [ ] Prepare Tower layout map (3+ levels)
+- [ ] Know Wand malfunction/Wild Magic rules
+- [ ] Gather Noke & Guz stat blocks
+
+**Critical Materials:**
+- Adventure text
+- NPC voices/notes
+- Tower map
+- Wand mechanics
+- Combat stat blocks
+
+---
+
+### PERIL IN PINEBROOK
+
+**Prep Time:** 45-60 minutes | **Tier:** Medium Prep
+
+- [ ] Understand Rorn's corruption arc
+- [ ] Prepare Pinebrook town map
+- [ ] Know Silver Dragon Wyrmling mechanics
+- [ ] Gather undead stat blocks
+- [ ] Review moral complexity of townspeople
+
+**Critical Materials:**
+- Adventure text
+- Town map
+- Dragon stat block
+- Undead stat blocks
+- NPC relationship notes
+
+---
+
+### TEMPLE OF THE DRAGONKNIGHTS
+
+**Prep Time:** 60-90 minutes | **Tier:** Complex Prep
+
+- [ ] Understand temple politics (seals, wards, facility below)
+- [ ] Prepare Young Green Dragon negotiation options
+- [ ] Map: Temple exterior, crypt system, sealed levels
+- [ ] Gather kobold & dragon stat blocks
+- [ ] Know Venomfang's goals precisely
+
+**Critical Materials:**
+- Adventure text
+- Temple map
+- Dragon stat block
+- Kobold stat blocks
+- Seal mechanics notes
+
+---
+
+## Session Prep Quick Template
+
+**Adventure:** ____________________  
+**Session Length:** ___ hours  
+**Expected Level:** ____ | **Party Size:** ____
+
+### Key Objectives for This Session
+
+1. _________________________________
+2. _________________________________
+3. _________________________________
+
+### NPCs Appearing
+
+- _________________________________ (Personality: _______)
+- _________________________________ (Personality: _______)
+
+### Notable Encounters
+
+- Combat: ____________________________
+- Social: ____________________________
+- Mystery Clue: ______________________
+
+### Mystery Elements This Session
+
+- Clues to reveal: _____________________
+- Connections to make: _________________
+- Questions to foreshadow: ______________
+
+### Pacing Plan
+
+*0:00-0:15:* _____________________  
+*0:15-1:00:* _____________________  
+*1:00-2:00:* _____________________  
+*2:00-3:00:* _____________________  
+*Final 15 min:* ________________
+
+### Materials Prepared
+
+- [ ] Maps printed
+- [ ] Stat blocks ready
+- [ ] NPC cards printed
+- [ ] Handouts prepared
+- [ ] Minis organized
+
+### After Session Notes
+
+What worked: __________________________  
+What needs fixing: _____________________  
+Next session hook: _____________________
+
+---
+
+## Pro Tips
+
+1. **Use This Checklist Consistently** — Every session, every time. It becomes muscle memory.
+2. **Customize for Your Table** — Remove steps that don't apply; add your own.
+3. **Time Your Sessions** — Note how long prep takes; improve efficiency over time.
+4. **Calendar Your Prep** — Mark prep days in advance (don't leave it to day-of).
+5. **Template Saves Time** — Copy this checklist into a document; reuse and modify.
+6. **Print or Bookmark** — Keep digital access for quick reference.
+7. **Review Between Sessions** — Note what you did well; do it again.
+8. **Learn from Mistakes** — Did something not work? Add a note for next time.
+
+---
+
+**Created:** Week 4 of Aevoria Improvement Plan (February 2026)
+
+**Companion Documents:**
+- Adventure_Quick_Reference.md
+- NPC_Quick_Reference_Cards.md
+- Mystery_Investigation_Guide.md
 
 \page
 {{note
-##### 📋 DUNGEON MASTER RESOURCE
+##### DUNGEON MASTER RESOURCE
 
 **DM Session Preparation Guide**
 
@@ -19329,7 +29816,7 @@ This document contains DM tools and guidance for running Northwatch Wardens sess
 4. **Escalating Threat** - Magic corruption spreads from Welton → Palebank → Temple
 5. **Flexible Pacing** - Adventures can be played in different orders (except Frozen Sick should come before Temple)
 
-### 🎯 What You Already Have:
+### What You Already Have:
 
 - ✅ **9 recurring NPCs** with personalities, secrets, and campaign ties
 - ✅ **53 encounters** with multiple resolution paths
@@ -19408,6 +29895,9 @@ CHOICE POINT:
 
 ```markdown
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
 \page
 
 ## Northwatch Wardens: Campaign Tracker
@@ -19442,13 +29932,19 @@ CHOICE POINT:
 
 ## Session Zero: Critical Setup
 
-> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+{{note
+**New DM Shortcut:**
+For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+}}
 
 ### Player Character Ties to Waystone Inn
 
 **Ask each player:**
 
-> "Why did your character join the Northwatch Wardens?"
+{{descriptive
+**Character Motivation Prompt:**
+"Why did your character join the Northwatch Wardens?"
+}}
 
 **Suggested Answers:**
 - Hired by Marshal Brenna after proving themselves
@@ -19525,6 +30021,9 @@ CHOICE POINT:
 
 ## DM Preparation Per Session
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
 \page
 
 
@@ -19586,7 +30085,10 @@ CHOICE POINT:
 ### If Players Refuse All Contracts:
 
 **Brenna's Response:**
-> "You're Wardens. This is the job. If you don't want it, turn in your badges. But understand: these threats don't go away because you ignore them."
+{{descriptive
+**Brenna's Response:**
+"You're Wardens. This is the job. If you don't want it, turn in your badges. But understand: these threats don't go away because you ignore them."
+}}
 
 **Then show consequences:**
 - Welton gets overrun by wolves (refugees arrive at Waystone)
@@ -19605,6 +30107,8 @@ CHOICE POINT:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
 
 \page
 
@@ -19728,6 +30232,9 @@ CHOICE POINT:
 
 ## Quick Start Checklist
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
 \page
 
 
@@ -19771,6 +30278,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 - Synthesized from your campaign XML + DM roster notes; summaries are intentionally **original**.
 - Portraits are shown when available.
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -19847,6 +30357,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Welton (Wolves of Welton)
@@ -19918,6 +30431,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Pinebrook (Peril in Pinebrook)
@@ -19944,6 +30460,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Palebank Village (Frozen Sick)
@@ -19968,6 +30487,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Tulgi</strong> — healer; tense, defensive; knows more than she admits; ally or suspect depending on approach.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -19994,6 +30516,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Old Croaker</strong> — "boss" cave beast; play as a living hazard with habits, territory, and bargaining options.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -20029,6 +30554,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Noke's Tower (Wild Sheep Chase)
@@ -20063,6 +30591,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ## Temple of the Dragonknights (Capstone)
@@ -20092,6 +30623,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Venomfang</strong> — campaign-tier threat; intelligent predator; treats bargains as traps.</td>
   </tr>
 </table>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -20124,6 +30658,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 - Silver Dragon Wyrmling (baby)
 - Hysvearorn (Rorn)
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ### Portrait Gallery (Already in Images folder)
@@ -20143,6 +30680,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   <img src="https://i.imgur.com/jOsvoOZ.png" width="70" alt="Tillus Merrion" title="Tillus Merrion" />
   <img src="https://i.imgur.com/khdkxXU.png" width="70" alt="Leanor Slatebeard" title="Leanor Slatebeard" />
 </p>
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
 
 \page
 
@@ -20173,6 +30713,9 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   <img src="https://i.imgur.com/MKGXal6.png" width="70" alt="Hysvearorn (Rorn)" title="Hysvearorn (Rorn)" />
 </p>
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens}}
+
 \page
 
 ### High-priority portraits to generate (recurring / social-heavy)
@@ -20188,5 +30731,167 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 ### Low-priority / optional portraits (mostly combat pieces)
 
 - Ferol Sal, Venomfang, Old Croaker, constructs/undead, polymorphed animals, etc.
+
+\page
+# Northwatch Wardens: Season One — The Story So Far
+
+Use this as the living continuity log for actual play. Update it after each session.
+
+
+## Quick Links
+- **Chapter 3: Campaign Overview** — Core structure and flow
+- **Chapter 4: DM Resources** — Session prep guidance and tools
+- **Chapter 4: Campaign Tracker** — Use the blank or filled tracker in this chapter
+
+---
+
+## Current Snapshot (fill this in each session)
+- **Party Level:** 2
+- **Party:** Ranger, Paladin, Warlock
+- **Current Location:** (Waystone Inn / Welton / Westly's Farm / Shepherd's Crook Inn / Pinebrook / Palebank Village / Croaker Cave / Salsvault / Temple of the Dragonknights / Noke's Tower)
+- **Immediate Goal:** Return to Waystone Inn and report to the Wardens.
+- **Time Pressure / Clocks:** Truce stability (Bolt/Flame still active); any delay may invite rumors or retaliation.
+- **Last Session Ended On:** In Welton, post-negotiation; preparing to depart.
+
+---
+
+## Session Log
+
+| Session | Real Date | In‑Game Date | Location(s) | Summary | Consequences / Notes |
+|---:|---|---|---|---|---|
+| 0 |  |  |  | Campaign kickoff notes |  |
+| 1 | 2026-01-25 |  | Welton | Wolves of Welton contract completed via negotiation; truce established. | Level 2 reached; “Aeorian” clue found; Bolt/Flame alive; return to Waystone Inn pending. |
+
+### Session 1 Notes — Wolves of Welton Resolution
+- **Resolution:** Negotiation (no final-battle slaughter); the party secured a **council vote** approving a **tentative truce** with the awakened wolves.
+- **Mercy shown:** The wolf pups were spared.
+- **Political outcome:** Tillus Merrion backed the truce after the vote.
+- **Awakened Wolves:** Bolt and Flame both survived; the faction remains a potential future threat if relations sour.
+- **Aeorian Echo:** The party recovered a note from Alexi written in indecipherable magical shorthand; the word **“Aeorian”** was legible.
+- **Advancement:** Party reached **Level 2** at contract end.
+- **Treasure:** 800 gp total, split three ways (266 gp each; 2 gp held as party funds or assigned later).
+- **Next objective:** Travel back to Waystone Inn and report in to the Wardens.
+
+
+---
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}
+
+\page
+
+## Major Threads (track status)
+
+### Aeorian Echo (campaign throughline)
+- **What’s known:** A note attributed to Alexi uses indecipherable magical shorthand; the party could make out the word “Aeorian.”
+- **Loose ends:** Who is Alexi? What does “Aeorian” refer to in the Northreach frontier? How to decode the shorthand?
+- **Status:** ☐ Dormant ☒ Active ☐ Resolved
+
+### Wolves of Welton
+- **Key events to track:** road ambush, Welton council politics, the den, outcome with Flame/Bolt.
+- **Status:** ☐ Not started ☐ In progress ☒ Resolved
+
+**Current state:** Contract completed, but the peace is fragile. The party negotiated a tentative truce with the awakened wolves; Bolt and Flame both survived.
+
+### Frozen Sick (Frigid Woe)
+- **Key events to track:** Urgon’s death/funeral, Tulgi’s confession, Croaker Cave, Salsvault, antidote handling.
+- **Status:** ☐ Not started ☐ In progress ☐ Resolved
+
+### Temple of the Dragonknights
+- **Key events to track:** cult activity, temple approach, construct guardians, ritual chamber, Venomfang confrontation, Clementine’s fate.
+- **Status:** ☐ Not started ☐ In progress ☐ Resolved
+
+### The Wild Sheep Chase
+- **Key events to track:** Shinebright’s request, Guz, Noke’s Tower, modified wand outcome.
+- **Status:** ☐ Not started ☐ In progress ☐ Resolved
+
+### Peril in Pinebrook
+- **Key events to track:** missing patrols, baby silver dragon discovery, egg snatchers, alliance outcome, ice troll threat.
+- **Status:** ☐ Not started ☐ In progress ☐ Resolved
+
+---
+
+## NPC Index (add notes as they appear)
+
+### Waystone Inn / Northwatch Wardens
+- Marshal Brenna Thorne — 
+- Steward Mara Fenwick — 
+- Lorewarden Elric Vael — 
+
+### Welton
+- Westly — 
+- Tillus Merrion — Council member; backed the truce after a successful council vote.
+- Leanor Slatebeard — 
+- Featherock — 
+- Willen — 
+- Father Merriksonn — 
+
+### Awakened Wolves (Welton)
+- Bolt — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
+- Flame — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
+
+### Other
+- Alexi — Left a note in magical shorthand; “Aeorian” was legible.
+
+### Palebank Village / Frozen Sick
+- Pelc — 
+- Tulgi — 
+- Urgon — 
+- Elro Aldataur — 
+- Mila Teno — 
+- Verla — 
+- Hulil Lutan — 
+- Raegrin Mau — 
+- Commander Morgo Delwur — 
+- Irven Liel — 
+
+### Temple of the Dragonknights
+- Joel Andersmith — 
+- Sera Gelanadel — 
+- Clementine — 
+- Venomfang — 
+
+### Wild Sheep Chase
+- Finethir Shinebright — 
+- Guz — 
+- Noke — 
+
+### Pinebrook
+- Captain Kole — 
+
+---
+
+## Loot, Allies, and Consequences
+
+### Treasure & Notable Items
+- 800 gp total from the Wolves contract; split among Ranger / Paladin / Warlock (266 gp each; 2 gp left unassigned or held as party funds).
+
+### Allies / Favors / Oaths
+- Tentative truce with the awakened wolves of Welton (council-approved).
+
+### Fallout (who’s angry, who’s grateful)
+- Welton council: truce approved; Tillus aligned with the party’s resolution.
+
+- Awakened wolves: truce exists, but Bolt/Flame remain active and could reverse course.
+
+---
+
+## “As Written” Beats (from the Season 1 ToC)
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}
+
+\page
+
+
+Use this section as a quick reference for what the prepared material covers. Replace/adjust it as actual play diverges.
+
+- **Opening Skirmish (Waystone Inn):** 2 starving wolves attack outside the inn at dusk.
+- **The Morning After:** charter signing ceremony; first contract assignment (Wolves of Welton).
+- **Wolves of Welton:** road ambush; Welton social/investigation; plan and travel; optional injured owlbear; den battle with Flame/Bolt; optional council clash.
+- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to Syrinlya; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
+- **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
+- **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
+- **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
 
 \page

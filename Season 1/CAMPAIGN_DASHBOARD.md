@@ -1,4 +1,4 @@
-# 🗺️ Northwatch Wardens: Campaign Dashboard
+# Northwatch Wardens: Campaign Dashboard
 
 ## Campaign at a Glance
 

@@ -4,6 +4,9 @@
 A short onboarding mission where two new Warders meet a veteran scout on the road and journey together to the team's forward camp. Travel, discovery, and light optional combat shape first bonds. Subtle Echo hints with no spoilers.
 }}
 
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
+
 \page
 
 ## Quick Setup
@@ -21,7 +24,9 @@ A short onboarding mission where two new Warders meet a veteran scout on the roa
 Marshal Brenna Thorne assigns a straightforward mission. One of the veteran Warders has been scouting the roads near Welton and is due to check in at a known waypoint. The two new Warders will meet the scout, introduce themselves, and travel together back to the team's forward camp.
 
 **Read Aloud (Waystone Inn):**
+{{descriptive
 "Brenna slides a worn route map across the table. 'One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here'—she taps the map—'then travel together to the forward camp. The rest of the team is there handling Welton business.' She looks at both of you. 'First impressions matter. Show them you're worth traveling with. Watch each other's backs. That's how Warders work—trust on the road first, reputation after.'"
+}}
 
 ## Scene 1: The Meet-Up
 
@@ -71,7 +76,9 @@ After combat or negotiation:
 The three of you arrive at the forward camp near Westly's Farm. Smoke rises from a small fire. The other two veterans are here—resting, maintaining gear, discussing next steps.
 
 **Read Aloud (Camp Arrival):**
+{{descriptive
 "Through the trees, you see firelight and hear low voices. The forward camp is small but well-organized—two bedrolls, supplies stacked carefully, a small fire crackling. Two figures turn as you approach. The other Warders. Your scout nods to them. 'Found our new recruits. They handled themselves well.'"
+}}
 
 **The Meeting:**
 - Introductions happen here. The two new Warders meet the rest of the veteran team.
@@ -83,6 +90,9 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 
 **Closing Note:**
 "The fire crackles. Someone passes around a flask. The cold settles in, but the camp feels warmer with more bodies. Tomorrow, you'll head back to Waystone together and report to Brenna. Tonight, you rest. You're Warders now—all of you."
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
 
 \page
 
@@ -107,6 +117,9 @@ If the party brought up the strange frost or humming buckle, the veterans exchan
 - **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
 - **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
 - **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
 
 \page
 

@@ -6,19 +6,6 @@ systems:
   - 5e
 renderer: V3
 theme: 5ePHB
-snippets:
-  - name: brew_snippets
-    subsnippets:
-      - name: example snippet
-        gen: >-
-
-          The text between `\snippet title` lines will become a snippet of name
-          `title` as this example provides.
-
-
-          This snippet is accessible in the brew tab, and will be inherited if
-          the brew is used as a theme.
-
 ```
 
 ```css
@@ -28,6 +15,8 @@ snippets:
 .page {
 	padding-bottom : 1.1cm;
 }
+
+
 
 
 
@@ -55,21 +44,72 @@ snippets:
 
 
 
-{{toc,wide
-# The Adventurer's Guide to Aevoria
 # Contents
-}}
 
-
-
-
+- Welcome to Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **1**
+- How to Use This Book . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **1**
+- Character Creation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **4**
+- Creating Your Character . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **4**
+- Regional Origins Guide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **11**
+- The Ten Regions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **12**
+- Cross-Regional Tensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **22**
+- Creating Your Regional Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **24**
+- Final Thoughts: Your Place in the World . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **27**
+- Languages and Culture of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **29**
+- Languages of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **30**
+- Cultural Practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **36**
+- Regional Customs and Taboos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **41**
+- Superstitions and Common Beliefs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **46**
+- Conflict Resolution Customs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **50**
+- Practical Gameplay Impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **53**
+- Final Thoughts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **56**
+- Northreach: Your Frontier Home . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **57**
+- Places of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **65**
+- Cultures of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **72**
+- People of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **80**
+- The Northwatch Wardens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
+- The Northwatch Wardens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
+- Roster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
+- The Triad: Guild Leadership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **91**
+- Field Members . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **92**
+- Guild Operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **93**
+- The Wider World of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **94**
+- Welcome to Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **94**
+- Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **100**
+- Solaris Dominion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **102**
+- The Nullwood Expanse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **109**
+- The Stonebound Depths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **112**
+- VHAROXIS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **120**
+- THE SHATTERED COAST . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **124**
+- The Emberlands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **127**
+- The Verdant Marches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **131**
+- The Sunken Dominion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **135**
+- The Far North . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **138**
+- Organizations of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **141**
+- Gods and Religion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **152**
+- Divinity’s Beacon — Pantheon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **152**
+- Religious Practices in Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **154**
+- Places of Legend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **165**
+- Divinity's Beacon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **165**
+- Solace Nexus — Ley-Port City of Magic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **166**
+- Practical Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **167**
+- Player Quick Reference Guide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **167**
+- Currency and Trade in Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **175**
+- Common Goods and Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **185**
+- Travel and Distance in Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **198**
+- Appendix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **207**
+- Glossary of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **207**
+- Songs of the Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **233**
+- THE FRONTIER BREATHES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **234**
+- Welcome to Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **244**
+- 1) Northreach Lore Primer (Common Knowledge) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **245**
+- 2) Campaign Journal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **250**
 
 \page
 
 {{resetCounting}}
 # Welcome to Aevoria
 
-<!-- FILE_START: ../World Building/Introduction/How_To_Use_This_Book.md -->
 # How to Use This Book
 
 {{wide
@@ -318,11 +358,8 @@ The best adventures come from curiosity, courage, and characters who care about 
 {{footnote HOW TO USE THIS BOOK}}
 
 \page
-<!-- FILE_END: ../World Building/Introduction/How_To_Use_This_Book.md -->
-
 # Character Creation
 
-<!-- FILE_START: ../World Building/Character_Creation/Creating_Your_Character.md -->
 {{wide
 # Creating Your Character
 
@@ -987,9 +1024,6 @@ It asks only one question:
 {{footnote CREATING YOUR CHARACTER}}
 
 \page
-<!-- FILE_END: ../World Building/Character_Creation/Creating_Your_Character.md -->
-
-<!-- FILE_START: ../World Building/Character_Creation/Regional_Origins.md -->
 {{wide
 
 # Regional Origins Guide
@@ -2057,7 +2091,6 @@ Understanding how different regions view each other enriches roleplay and create
 | | All Warm Regions | Complaining about nothing |
 }}
 
-
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
 
@@ -2462,9 +2495,6 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
 
 \page
-<!-- FILE_END: ../World Building/Character_Creation/Regional_Origins.md -->
-
-<!-- FILE_START: ../World Building/Character_Creation/Languages_and_Culture.md -->
 # Languages and Culture of Aevoria
 {{wide
 ## A Player's Guide to Communication and Customs
@@ -3587,6 +3617,8 @@ Possible through consistent actions over time, but takes years. "Fool me once, a
 
 ![Bard](https://i.imgur.com/gnvxX0l.png) {width:225px,border:"4px solid #5a4632",border-radius:4px,padding:4px,background:#f8f1e1,box-shadow:"0 4px 10px"}
 
+\column
+
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
@@ -4010,6 +4042,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
 \page
+
+\column
 
 ## Weather Superstitions
 
@@ -4898,9 +4932,6 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 {{footnote FINAL THOUGHTS}}
 
 \page
-<!-- FILE_END: ../World Building/Character_Creation/Languages_and_Culture.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/Northreach_Setting_Primer.md -->
 # Northreach: Your Frontier Home
 
 {{wide
@@ -5330,9 +5361,6 @@ The frontier rewards the bold, the clever, and the prepared. But it punishes the
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/Northreach_Setting_Primer.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/Places_of_Northreach.md -->
 # Places of Northreach
 
 
@@ -5920,9 +5948,6 @@ Some can't endure frontier life:
 {{footnote PLACES OF NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/Places_of_Northreach.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/Cultures_of_Northreach.md -->
 # Cultures of Northreach
 
 
@@ -6642,9 +6667,6 @@ What brings people together:
 {{footnote CULTURES OF NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/Cultures_of_Northreach.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/People_of_Northreach.md -->
 {{descriptive
 ##### 🌟 PLAYER-SAFE CONTENT
 
@@ -7285,11 +7307,8 @@ In a frontier region, your reputation is built through actions:
 {{footnote PEOPLE OF NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/People_of_Northreach.md -->
-
 # The Northwatch Wardens
 
-<!-- FILE_START: ../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md -->
 # The Northwatch Wardens
 
 ***Guild Charter***
@@ -7773,11 +7792,8 @@ The Wardens believe in second chances for honest mistakes, but not for betrayal 
 {{footnote GUILD OPERATIONS}}
 
 \page
-<!-- FILE_END: ../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md -->
-
 # The Wider World of Aevoria
 
-<!-- FILE_START: ../World Building/Regions/00_Master_Index.md -->
 # Welcome to Aevoria
 
 *A World of Ancient Magic and Frontier Adventure*
@@ -8035,9 +8051,6 @@ The best stories aren't the ones you read—they're the ones you live.
 {{footnote WELCOME TO AEVORIA}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/00_Master_Index.md -->
-
-<!-- FILE_START: ../World Building/Regions/01_Northreach.md -->
 # Northreach 
 
 The Frontier Region
@@ -8163,9 +8176,6 @@ A frontier protection guild based at Waystone Inn, taking contracts to protect s
 {{footnote NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/01_Northreach.md -->
-
-<!-- FILE_START: ../World Building/Regions/02_Solaris_Dominion.md -->
 # Solaris Dominion
 
 The Cultural Capital  
@@ -8812,9 +8822,6 @@ Information flows faster through Solaris than anywhere:
 {{footnote SOLARIS DOMINION}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/02_Solaris_Dominion.md -->
-
-<!-- FILE_START: ../World Building/Regions/03_Nullwood_Expanse.md -->
 # The Nullwood Expanse 
 
 The Elven Kingdom
@@ -9035,9 +9042,6 @@ Growing concern. Reports of strange magic in the frontier unsettle the elves, th
 {{footnote THE NULLWOOD EXPANSE}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/03_Nullwood_Expanse.md -->
-
-<!-- FILE_START: ../World Building/Regions/04_Stonebound_Depths.md -->
 # The Stonebound Depths
 
 The Dwarven Kingdom  
@@ -9757,9 +9761,6 @@ Interest.
 {{footnote THE STONEBOUND DEPTHS}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/04_Stonebound_Depths.md -->
-
-<!-- FILE_START: ../World Building/Regions/05_Vharoxis.md -->
 # VHAROXIS 
 
 The City of Masks  
@@ -10125,9 +10126,6 @@ Extreme expeditions financed from here.
 {{footnote VHAROXIS}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/05_Vharoxis.md -->
-
-<!-- FILE_START: ../World Building/Regions/06_Shattered_Coast.md -->
 # THE SHATTERED COAST 
 
 Maritime Frontier of Wrecks & Whispers
@@ -10404,9 +10402,6 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 {{footnote THE SHATTERED COAST}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/06_Shattered_Coast.md -->
-
-<!-- FILE_START: ../World Building/Regions/07_Emberlands.md -->
 # The Emberlands 
 
 T*he Volcanic South*  
@@ -10535,6 +10530,8 @@ Embertrail is the heart of the region's spiritual life. They maintain ancient tr
 The caravan consists of hundreds of wagons, animals, and portable structures. They follow established routes marked by ancient stone cairns, avoiding the most dangerous zones while accessing resource-rich areas.
 
 ---
+
+\column
 
 ## Culture & Society
 
@@ -10772,9 +10769,6 @@ The Emberlands and Northreach are geographically distant, but rumors of the Aeor
 {{footnote THE EMBERLANDS}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/07_Emberlands.md -->
-
-<!-- FILE_START: ../World Building/Regions/08_Verdant_Marches.md -->
 # The Verdant Marches
 
 Awakened Wilds of Green and Fury   
@@ -11113,9 +11107,6 @@ Reports from Northreach trouble Marches druids—animals behaving strangely, pla
 {{footnote THE VERDANT MARCHES}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/08_Verdant_Marches.md -->
-
-<!-- FILE_START: ../World Building/Regions/09_Sunken_Dominion.md -->
 # The Sunken Dominion
 
 Drowned Civilization of the Deep  
@@ -11357,9 +11348,6 @@ Since then, diving operations have become more dangerous. The ruins themselves s
 {{footnote THE SUNKEN DOMINION}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/09_Sunken_Dominion.md -->
-
-<!-- FILE_START: ../World Building/Regions/10_The_Far_North.md -->
 # The Far North
 
 The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains. Few travel there by choice. Fewer return.
@@ -11632,9 +11620,6 @@ Traveling to the Far North requires extensive preparation:
 {{footnote THE FAR NORTH}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/10_The_Far_North.md -->
-
-<!-- FILE_START: ../World Building/Organizations/Organizations_Overview.md -->
 # Organizations of Aevoria
 *A Guide to Major Factions and Groups*
 
@@ -12016,11 +12001,8 @@ Your DM may expand on these organizations or introduce additional factions. The 
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
 \page
-<!-- FILE_END: ../World Building/Organizations/Organizations_Overview.md -->
-
 # Gods and Religion
 
-<!-- FILE_START: ../World Building/Religion/Divinitys_Beacon_Pantheon.md -->
 
 # Divinity’s Beacon — Pantheon
 
@@ -12122,9 +12104,6 @@ Divinity’s Beacon is not anti‑wizard by default; it is anti‑**unaccountabl
 {{footnote DIVINITY’S BEACON — PANTHEON}}
 
 \page
-<!-- FILE_END: ../World Building/Religion/Divinitys_Beacon_Pantheon.md -->
-
-<!-- FILE_START: ../World Building/Religion/Religious_Practices.md -->
 # Religious Practices in Aevoria
 *How Faith Works in Daily Life*
 
@@ -12736,11 +12715,8 @@ Even if you're not a cleric or paladin:
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
 \page
-<!-- FILE_END: ../World Building/Religion/Religious_Practices.md -->
-
 # Places of Legend
 
-<!-- FILE_START: ../World Building/Locations/Divinitys_Beacon.md -->
 # Divinity's Beacon
 
 Status: **world canon (off-map)**. Not located in Northreach.
@@ -12758,9 +12734,6 @@ A major holy city that welcomes all good-aligned gods (no single state religion)
 - Pantheon details: See **Chapter 6: Gods and Religion**
 
 \page
-<!-- FILE_END: ../World Building/Locations/Divinitys_Beacon.md -->
-
-<!-- FILE_START: ../World Building/Locations/Solace_Nexus.md -->
 # Solace Nexus — Ley-Port City of Magic
 
 Status: **world canon (off-map)**. Not located in Northreach.
@@ -12981,11 +12954,8 @@ In practice, that can mean:
 - The shadow layer works best when it’s *plausible*—pacts aren’t everywhere, but they’re always an option.
 
 \page
-<!-- FILE_END: ../World Building/Locations/Solace_Nexus.md -->
-
 # Practical Information
 
-<!-- FILE_START: ../World Building/Player_Quick_Reference.md -->
 # Player Quick Reference Guide
 
 {{toc,wide
@@ -13447,9 +13417,6 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 
 \page
-<!-- FILE_END: ../World Building/Player_Quick_Reference.md -->
-
-<!-- FILE_START: ../World Building/Practical/Currency_and_Trade.md -->
 # Currency and Trade in Northreach
 
 
@@ -14275,9 +14242,6 @@ In Northreach, pure currency transactions are often impractical:
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Practical/Currency_and_Trade.md -->
-
-<!-- FILE_START: ../World Building/Practical/Common_Goods_and_Services.md -->
 # Common Goods and Services
 
 {{wide
@@ -15217,9 +15181,6 @@ When supplies are critically low or danger is immediate, prices skyrocket:
 {{footnote COMMON GOODS AND SERVICES}}
 
 \page
-<!-- FILE_END: ../World Building/Practical/Common_Goods_and_Services.md -->
-
-<!-- FILE_START: ../World Building/Practical/Travel_and_Distance.md -->
 # Travel and Distance in Northreach
 
 {{wide
@@ -15954,11 +15915,8 @@ _________________________________________________________________
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
 \page
-<!-- FILE_END: ../World Building/Practical/Travel_and_Distance.md -->
-
 # Appendix
 
-<!-- FILE_START: ../World Building/Appendix/Glossary.md -->
 # Glossary of Aevoria
 
 *A quick reference guide to terms, places, organizations, and people of the world*
@@ -16454,9 +16412,6 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{footnote GLOSSARY OF AEVORIA}}
 
 \page
-<!-- FILE_END: ../World Building/Appendix/Glossary.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/SongsOfTheNorthreach.md -->
 # Songs of the Northreach
 A Frontier Songbook for Season One of the Northwatch Wardens
 
@@ -17770,9 +17725,6 @@ With the dawn held in her hands.
 {{footnote THE FRONTIER BREATHES}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/SongsOfTheNorthreach.md -->
-
-<!-- FILE_START: ../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md -->
 # Welcome to Northreach
 
 
@@ -18144,5 +18096,3 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{footnote 2) CAMPAIGN JOURNAL}}
 
 \page
-<!-- FILE_END: ../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md -->
-

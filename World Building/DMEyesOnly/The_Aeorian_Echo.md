@@ -83,6 +83,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## The Northreach Region's Connection
 
 ### Why Here?
@@ -118,10 +120,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -209,6 +209,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## The Entity Behind the Echo
 
 *DM's Choice: Select or modify the option that best fits your campaign*
@@ -248,7 +250,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Quote:** "The gods destroyed Aeor because we were right. I will prove it by succeeding where the city failed."
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -394,16 +396,16 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Voice:** Synthesized draconic roar mixed with mechanical tones—unsettling
 
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
 ---
+
+\column
 
 ## Magical Mechanics of the Echo
 
@@ -621,7 +623,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## The Artifact Trade: Following the Money
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -826,7 +828,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## Player Investigation Paths
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -1005,7 +1007,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### Croaker Cave (Early-Mid Game)
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -1203,7 +1205,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## NPC Arcs and Development
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 
@@ -1390,7 +1392,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ## Conclusion: The Echo's Resolution
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Aeorian Echo: Campaign Master Document}}
 
 \page
 

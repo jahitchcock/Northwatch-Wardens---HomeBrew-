@@ -6,7 +6,7 @@
 
 ## Season 1 Adventures and Their Secrets
 
-### 🐺 Wolves of Welton
+### Wolves of Welton
 
 **Adventure File:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md)
 
@@ -25,7 +25,7 @@
 
 ---
 
-### ❄️ Frozen Sick
+### Frozen Sick
 
 **Adventure File:** [Season 1/Adventures/Frozen Sick/Frozen Sick.md](../Adventures/Frozen%20Sick/Frozen%20Sick.md)
 
@@ -45,7 +45,7 @@
 
 ---
 
-### 🐉 Temple of the Dragonknights
+### Temple of the Dragonknights
 
 **Adventure File:** [Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md](../Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md)
 
@@ -66,7 +66,7 @@
 
 ---
 
-### 🐑 The Wild Sheep Chase
+### The Wild Sheep Chase
 
 **Adventure File:** [Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md](../Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md)
 
@@ -86,7 +86,7 @@
 
 ---
 
-### 🌲 Peril in Pinebrook
+### Peril in Pinebrook
 
 **Adventure File:** [Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md](../Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md)
 

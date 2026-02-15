@@ -1,8 +1,8 @@
 # Northwatch Wardens — Drop-In Guild Campaign
 
-## 🚀 New DM? Start Here!
+## New DM? Start Here!
 
-**📖 SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
+**SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
 
 ---
 
@@ -51,10 +51,11 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 5. **Peril in Pinebrook** — Frontier fragility exposed (community in crossfire)
 
 ---
+\column
 
 ## Adventures (Modular — Any Order)
 
-### 🐺 Wolves of Welton (Levels 1–3)
+### Wolves of Welton (Levels 1–3)
 - **Theme**: Intelligence awakening where it shouldn't
 - **Adventure Type**: Investigation with moral choice
 - **Setting**: Welton village, shepherd territory, wolf dens
@@ -68,9 +69,12 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Rewards**: 800 gp + Warden credit
 - **Adventure Module**: See **Chapter 5: Wolves of Welton**
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
-### ❄️ Frozen Sick (Levels 2–4)
+### Frozen Sick (Levels 2–4)
 - **Theme**: Ancient magic resurfacing with deadly consequences
 - **Adventure Type**: Survival + exploration + investigation
 - **Setting**: Palebank village, Croaker Cave, Salsvault ruins
@@ -80,7 +84,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Variable (loot, political favor, or dangerous knowledge)
 - **Adventure Module**: See **Chapter 5: Frozen Sick**
 
-### 🐉 Temple of the Dragonknights (Levels 4–5)
+### Temple of the Dragonknights (Levels 4–5)
 - **Theme**: Ambition, corruption, and misused awakening magic
 - **Adventure Type**: Combat + infiltration + negotiation
 - **Setting**: Temple ruins, cult stronghold, dragon lair
@@ -90,7 +94,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Artifacts, regional reputation shift
 - **Adventure Module**: See **Chapter 5: Temple of the Dragonknights**
 
-### 🐑 The Wild Sheep Chase (Levels 1–2, Comic Relief)
+### The Wild Sheep Chase (Levels 1–2, Comic Relief)
 - **Theme**: Magic behaving unpredictably
 - **Adventure Type**: Comedy one-shot with real stakes
 - **Setting**: Noke's Tower, sheep-filled countryside
@@ -100,7 +104,7 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Reward**: Loot + memorable story
 - **Adventure Module**: See **Chapter 5: The Wild Sheep Chase**
 
-### 🌲 Peril in Pinebrook (Levels 1–3, Side Trek)
+### Peril in Pinebrook (Levels 1–3, Side Trek)
 - **Theme**: Small communities caught in the crossfire of rising magic
 - **Adventure Type**: Investigation + exploration + social
 - **Setting**: Pinebrook trading village, surrounding wilderness
@@ -149,6 +153,9 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 | **Noke's Tower** | Wizard's tower (W of Waystone) | Wild Sheep Chase |
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
 
 \page
 
@@ -213,6 +220,9 @@ All Wardens shall:
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
 ### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
@@ -247,6 +257,9 @@ This campaign includes adventure modules, DM resources, and world secrets organi
 - Adventure modules and stat blocks (Chapter 5)
 - World secrets and mystery framework (Chapter 6)
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
+
 \page
 
 ### Key References
@@ -272,7 +285,9 @@ For quick navigation between adventures and their hidden lore, this guide provid
 - **Chapter 6: Northreach Secrets** — Regional secrets and adventure integration
 - **Chapter 6: Places Secrets** — Location-specific hidden truths
 
+{{note
 Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" section with cross-references to relevant secrets.
+}}
 
 ---
 
@@ -357,6 +372,9 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 - Recommended: Add 1 extra monster per additional PC beyond 3
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
 
 \page
 

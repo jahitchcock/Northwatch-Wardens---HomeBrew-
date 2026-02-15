@@ -1,5 +1,7 @@
-**🐺 OPENING SCENE: “Wolves at the Waystone Inn”**
+**OPENING SCENE: "Wolves at the Waystone Inn"**
+{{note
 **Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
+}}
 {{wide
 A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
 }}
@@ -8,15 +10,18 @@ A cold-open combat encounter that unites strangers through shared threat. Two hu
 **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
 **Goal:** Introduce the characters naturally through a shared threat.
 
-**🎬 1. Cold Open (Read Aloud)**
+**1. Cold Open (Read Aloud)**
 
+{{note
 Use this as your opening beat:
-
+}}
+{{descriptive
 **The wind bites as the three of you—strangers to one another—trudge up the muddy road toward the Waystone Inn. Lantern‑light spills across the snow, promising warmth and food.**
 
 **Then you hear it: a low, rumbling growl.**
 
 **Two wolves slink out from behind the woodpile, ribs showing, eyes wild. Their hackles rise as they fix on you… and charge.**
+}}
 
 This immediately:
 
@@ -24,7 +29,7 @@ This immediately:
 - creates urgency
 - avoids awkward “you meet in a tavern” chatter
 
-**⚔️ 2. Encounter Setup**
+**2. Encounter Setup**
 
 **Wolves (2)**
 
@@ -47,7 +52,7 @@ This spacing forces the characters to notice each other and converge.
 
 \page
 
-**🧠 3. How to Introduce the Characters Naturally**
+**3. How to Introduce the Characters Naturally**
 
 **Round 1: Recognition**
 
@@ -70,7 +75,7 @@ Example narration:
 
 This is the moment the party forms.
 
-**🐺 4. Wolf Behavior (Simple AI)**
+**4. Wolf Behavior (Simple AI)**
 
 These wolves are:
 
@@ -86,7 +91,7 @@ These wolves are:
 
 This gives the players a sense of agency and realism.
 
-**🎭 5. Aftermath: The First Real Interaction**
+**5. Aftermath: The First Real Interaction**
 
 Once the wolves flee or fall, give a beat of silence:
 

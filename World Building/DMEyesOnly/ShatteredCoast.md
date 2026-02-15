@@ -8,7 +8,7 @@ This document contains the hidden truth about the maritime frontier. **DO NOT sh
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
-# 🌊 THE SHATTERED COAST — DM SECRETS
+# THE SHATTERED COAST — DM SECRETS
 **The Hidden Truth About the Maritime Frontier**
 
 ---
@@ -45,7 +45,7 @@ These fragments are:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -81,7 +81,7 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -116,7 +116,7 @@ The party could potentially rescue them — if they can reach the depths and nav
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -159,7 +159,7 @@ The Shattered Coast could become:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -210,7 +210,7 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -270,7 +270,7 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 
@@ -376,9 +376,8 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 
 — Elder Torwin of Tide's Rest, to the Northwatch Wardens
 
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote THE SHATTERED COAST — DM SECRETS}}
 
 \page
 

@@ -1,5 +1,5 @@
 {{note
-##### 📋 DUNGEON MASTER RESOURCE
+##### DUNGEON MASTER RESOURCE
 
 **DM Session Preparation Guide**
 
@@ -21,7 +21,7 @@ This document contains DM tools and guidance for running Northwatch Wardens sess
 4. **Escalating Threat** - Magic corruption spreads from Welton → Palebank → Temple
 5. **Flexible Pacing** - Adventures can be played in different orders (except Frozen Sick should come before Temple)
 
-### 🎯 What You Already Have:
+### What You Already Have:
 
 - ✅ **9 recurring NPCs** with personalities, secrets, and campaign ties
 - ✅ **53 encounters** with multiple resolution paths
@@ -100,6 +100,9 @@ CHOICE POINT:
 
 ```markdown
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
 \page
 
 ## Northwatch Wardens: Campaign Tracker
@@ -134,13 +137,19 @@ CHOICE POINT:
 
 ## Session Zero: Critical Setup
 
-> **🚀 New DM?** For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+{{note
+**New DM Shortcut:**
+For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
+}}
 
 ### Player Character Ties to Waystone Inn
 
 **Ask each player:**
 
-> "Why did your character join the Northwatch Wardens?"
+{{descriptive
+**Character Motivation Prompt:**
+"Why did your character join the Northwatch Wardens?"
+}}
 
 **Suggested Answers:**
 - Hired by Marshal Brenna after proving themselves
@@ -217,6 +226,9 @@ CHOICE POINT:
 
 ## DM Preparation Per Session
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
 \page
 
 
@@ -278,7 +290,10 @@ CHOICE POINT:
 ### If Players Refuse All Contracts:
 
 **Brenna's Response:**
-> "You're Wardens. This is the job. If you don't want it, turn in your badges. But understand: these threats don't go away because you ignore them."
+{{descriptive
+**Brenna's Response:**
+"You're Wardens. This is the job. If you don't want it, turn in your badges. But understand: these threats don't go away because you ignore them."
+}}
 
 **Then show consequences:**
 - Welton gets overrun by wolves (refugees arrive at Waystone)
@@ -297,6 +312,8 @@ CHOICE POINT:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
 
 \page
 
@@ -419,6 +436,9 @@ CHOICE POINT:
 ---
 
 ## Quick Start Checklist
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
 
 \page
 

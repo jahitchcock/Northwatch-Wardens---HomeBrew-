@@ -51,6 +51,7 @@ This document provides ready-made responses to common player decisions that brea
 **How to Handle:** "You've opened something. Now the entire region feels it. The creatures and effects double overnight. You have 3-4 days before the entire network activates. Where do you go now?"
 
 ---
+\column
 
 ### SCENARIO 2: "We Want to Negotiate With the Echo"
 
@@ -102,6 +103,7 @@ If negotiation fails:
 - Moral weight of allowing genocide weapon to exist
 
 ---
+\column
 
 ### SCENARIO 3: "We Side With the Echo"
 
@@ -147,6 +149,7 @@ Not "stop the Echo" but "manage the transition to new world order"
 - You can also refuse this path if it conflicts with your table vision
 
 ---
+\column
 
 ### SCENARIO 4: "We Want to Destroy Salsvault BEFORE Understanding the Entity"
 
@@ -181,6 +184,7 @@ Salsvault can be destroyed by:
 **Player Learning:** "We won a battle but we're losing the war."
 
 ---
+\column
 
 ### SCENARIO 5: "We Want to Leave the Region/Abandon the Campaign"
 

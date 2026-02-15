@@ -1,5 +1,8 @@
 # Frozen Sick
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ## Northwatch Wardens Integration (DM)
@@ -22,10 +25,12 @@
 - **Temple of Dragonknights** (magical convergence points attract predators)
 - All future adventures (Salsvault remains active, continuing threat)
 
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Salsvault: The Frozen Laboratory" section
 - **Chapter 6: The Far North Secrets** — Regional context
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - Salsvault's activation killed Alexi Merriksonn via magical feedback (Wolves of Welton connection)
@@ -297,6 +302,9 @@
 5. **Elric's Debrief (when party returns to Waystone Inn):**
    > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Godsfall, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Frozen Sick}}
+
 \page
 
 # DM Prep Checklist: Frozen Sick
@@ -450,23 +458,35 @@
 
 ### Elro's Hiring Speech
 
-> "Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
+{{descriptive
+**Elro's Hiring Speech:**
+"Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
+}}
 
 ### Tulgi's Confession (if persuaded)
 
-> *The dwarf trapper coughs, blue veins visible on her face.*
->
-> "Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
+{{descriptive
+**Tulgi's Confession:**
+*The dwarf trapper coughs, blue veins visible on her face.*
+
+"Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
+}}
 
 ### Morgo's Warning (at Syrinlya)
 
-> "Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
+{{descriptive
+**Morgo's Warning:**
+"Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
+}}
 
 ### Lorewarden Elric's Revelation (when party returns to Waystone Inn)
 
-> *Elric's face pales as you describe Salsvault.*
->
-> "An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+{{descriptive
+**Elric's Revelation:**
+*Elric's face pales as you describe Salsvault.*
+
+"An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
+}}
 
 ## Post-Session Tasks
 
@@ -500,9 +520,15 @@
 
 After curing the plague and debriefing with Elric:
 
-> "You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
+{{descriptive
+**Elric's Follow-Up Hook:**
+"You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
+}}
 
 This sets up Temple of the Dragonknights as the next adventure.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -510,10 +536,12 @@ This sets up Temple of the Dragonknights as the next adventure.
 
 **Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
 
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: The Aeorian Echo** — Complete Echo documentation
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Far North Secrets** — Salsvault details
+}}
 
 **Key Secrets:**
 - Salsvault is an **active Aeorian facility** leaking magical energy into the region
@@ -550,7 +578,14 @@ Something is killing people in Palebank Village, and if the characters don’t s
 
 If your players are using the heroic chronicle to create their characters (see chapter 4 in the this adventure), work with them to decide how they made their way to Palebank Village. Are they explorers from the south now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
 
-Story Overview
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
+\page
+
+\column
+
+## Story Overview
 Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of The Far North for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of The Far North’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Port Morrow, and sold again to an unsuspecting merchant.
 
 In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “The Far North” section of chapter 3 of this adventure.
@@ -560,6 +595,9 @@ Frigid Woe
 Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in The Far North’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
 
 The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -590,6 +628,9 @@ Whether the characters are known in the village as neophyte adventurers or simpl
 
 Two months ago, Urgon Wenth returned home after exploring The Far North for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
@@ -617,6 +658,9 @@ Strange Receipt
 A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in The Far North to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
 
 Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -653,6 +697,9 @@ A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check 
 
 Tulgi came to Palebank Village a few years back from Port Morrow with her sister, Hulil. Both work for the Uttolot family.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from The Far North—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from southern cities or the southern kingdoms.
@@ -682,6 +729,9 @@ The antique shop occupies the large front room of the cabin. When the characters
 Five cloaked elves appear to have ransacked the shop and are searching through the broken debris on the floor. The furniture, shelves, and front counter have been smashed, and the shop’s wares now litter the floor.
 
 This area is difficult terrain thanks to the debris covering it. The five elves are bandits with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put them to sleep.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -716,6 +766,9 @@ With the exception of Old Croaker (see area C5), giant ice frogs are giant frogs
 The blue-skinned frogs attack any creatures in the cave complex not escorted by bandits they recognize. Each fights until reduced to half its hit points or fewer, then flees. A character who succeeds on a DC 15 Wisdom (Animal Handling) check as an action convinces one frog to not attack or to stop attacking. If the character or any of their allies attacks or harms the frog, it resumes combat.
 
 The frogs spend much of their time resting in pools of murky, frigid water in Croaker Cave. A character who succeeds on a Wisdom (Perception) check opposed by a frog’s Dexterity (Stealth) check notices a frog hiding in a pool. If a frog goes undetected, it attacks with surprise when a character comes within 5 feet of the pool.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -761,6 +814,9 @@ Three Uttolot bandits and two giant ice frogs normally occupy this cavern. If th
 
 A dwarf and two elves bundled in layers of winter clothing are throwing dead bats into the air. Two giant blue-skinned frogs leap up to snatch the bats in midair, seemingly as part of some sort of training session.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -799,6 +855,9 @@ A warm rush of heat comes from a massive fire burning in the center of this cave
 
 Hulil Lutan (a neutral evil, female mountain dwarf cult fanatic with a walking speed of 15 feet, darkvision out to a range of 60 feet, resistance to poison damage, and advantage on saving throws against poison) and her apprentice, Raegrin Mau (a neutral evil, male wood elf cultist with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put him to sleep), are both in a state of deep meditation, praying to Tiamat for a cure for the dwarf’s affliction. Even if combat broke out in area C5, they remain unaware of the characters’ presence until they are disturbed or attacked. Hulil and Raegrin are both greedy servants of Tiamat and the Uttolot family. Raegrin follows Hulil’s every order with unshaking loyalty.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -825,6 +884,9 @@ The chest contains the rest of the treasure found by Urgon Wenth—a gilded scro
 
 Development
 When the characters are done exploring Croaker Cave, they should know the blue glass vials found by Urgon Wenth are the source of the strange malady that is turning people into ice statues, and that Irven Liel has one of those vials. If the characters don’t have a chance to question Hulil or Raegrin, you can have the chest also contain a journal or notes that provide the information they need and point them toward the Jolly Dwarf inn.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -859,6 +921,9 @@ The characters advance to 2nd level before traveling north to the icefields.
 
 traveling north to the icefields
 When the characters are ready to leave for The Far North, Elro Aldataur provides them with the following information:
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -896,6 +961,9 @@ The dwarf stops in front of a large fur-lined yurt. “You can stay here. Belong
 Bertron’s Yurt
 The characters are welcome to this yurt during their time in Syrinlya. When they first enter, read:
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -925,6 +993,9 @@ Orvo Mustave
 Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
 
 A campfire burns in front of this small tent, whose flaps are open. Inside the tent sits a young dwarf whose face is scarred as though scratched by a large claw. A shortsword is casually laid across his lap as he warms his outstretched hands.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -958,6 +1029,9 @@ d6	Encounter
 3	The characters find a griffon with an arrow in its wing that prevents it from flying. A character who succeeds on a DC 15 Wisdom (Animal Handling) check can approach the griffon without being attacked. Such a character can remove the arrow, restoring the griffon's ability to fly, after which the griffon allows the character to ride it as a mount for the next 1d10 days.
 4	The characters encounter the revenant of a dead explorer from Balenpost who was murdered by one of its team and is looking for vengeance.
 5	The characters find a 3-foot-tall, 50-pound egg. If they keep the egg in a cold environment for 1d10 weeks, a white dragon wyrmling hatches from it.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -999,6 +1073,9 @@ Doors and Walls
 Salsvault’s heavy doors are made of black stone, and its walls are made of blue stone. A detect magic spell reveals a faint aura of abjuration magic radiating from the doors and walls. Each door and each 10-foot section of wall has AC 17; 27 hit points; resistance to bludgeoning, piercing, and slashing damage; and immunity to poison and psychic damage.
 
 If an area’s description notes a locked door, the lock can be picked with a successful DC 15 Dexterity check using thieves’ tools, or the door can be forced open with a successful DC 18 Strength check. Ferol Sal (see area S17) carries a master key that locks or unlocks all the doors in Salsvault.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -1046,6 +1123,9 @@ The door that leads to area S2 is slightly ajar. A character who examines the do
 S2. Ransacked Frigid Woe Laboratory
 Stone tables lie in pieces on the floor at the east end of the room. Two open stone chests stand against the west wall. A layer of fine sand coats the inside of the chests and the floor around them.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -1082,6 +1162,9 @@ Each chest is packed with fine sand, within which are nestled two vials of frigi
 
 Iron Lever
 A character who examines the lever notices spots of faded red paint on it with a successful DC 13 Wisdom (Perception) check. As an action, a creature can pull the lever down, causing flames to shoot down from the ceiling in area S5. Even with the door closed, a hiss can be heard in this area when the flames are active. A creature can use an action to push the lever back up, which shuts off the flames. See area S5 for more information on this hazard.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 
@@ -1139,6 +1222,9 @@ The door to Ferol Sal’s personal quarters is locked. When the characters can s
 
 This room is in immaculate condition, apparently having been cleaned up after the destruction seen elsewhere in the complex. A crisply made bed stands at the center of the west wall, with small tables off to either side. The room also contains a stone desk set with a chair, and a chest built into the floor.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -1188,6 +1274,9 @@ A character with a passive Wisdom (Perception) score of 12 or higher, or one who
 S14. South Hall
 Three well-preserved human zombies in tattered robes roam this hall aimlessly, attacking any intruders that catch their attention.
 
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
+
 \page
 
 
@@ -1227,6 +1316,9 @@ Ferol knows nothing of Aevoria’s history since Aeor’s crash, and his memory 
 When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
 
 If Ferol trusts the characters, he tells them to stay away from the locked golem lab (area S16). If they ask about the cure for frigid woe, he tells them they can find it locked in a chest in what he calls the curative laboratory (area S18). A character who succeeds on a DC 15 Charisma (Persuasion) check can convince Ferol to provide the key that safely unlocks the chest.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Frozen Sick}}
 
 \page
 

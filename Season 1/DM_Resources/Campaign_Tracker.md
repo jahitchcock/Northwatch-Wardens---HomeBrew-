@@ -1,5 +1,5 @@
 {{note
-##### 📋 DUNGEON MASTER RESOURCE
+##### DUNGEON MASTER RESOURCE
 
 **Campaign Progress Tracker**
 
@@ -15,6 +15,8 @@ This is a DM tool for tracking campaign progress and party status.
 
 ---
 
+{{wide
+
 ## Party Roster
 
 | Player Name | Character Name | Class/Level | Status |
@@ -22,6 +24,8 @@ This is a DM tool for tracking campaign progress and party status.
 | Erin| | Ranger 2 | Active |
 | Jude| | Paladin 2 | Active |
 |Rowan | | Warlock 2 | Active |
+
+}}
 
 ---
 
@@ -99,6 +103,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ### ☐ Peril in Pinebrook
@@ -134,6 +141,9 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## Aeorian Echo: Clue Tracker
@@ -162,6 +172,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## NPC Roster & Status
@@ -182,9 +195,14 @@ _____________________________________________________________
 | Joel Andersmith | Near Temple | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
 | Venomfang (Dragon) | Temple | ? | ☐ Ally ☐ Neutral ☐ Enemy |
 
+}}
+
 **Other NPCs met:**
 - Tillus Merrion (Welton council member)
 - Alexi (note author; magical shorthand)
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -216,6 +234,9 @@ _____________________________________________________________
 
 **Party Gold:** 2 gp (unassigned)  
 **Stored at Waystone:** _____ gp
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 

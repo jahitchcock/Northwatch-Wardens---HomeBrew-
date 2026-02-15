@@ -3,7 +3,7 @@
 
 This guide covers everything needed to run the **Northwatch Wardens: Season One** campaign using physical miniatures, terrain, and accessories. Organized by priority level for budget-conscious printing.
 
-## 🧪 Resin vs 🧱 FDM (Quick Rule)
+## Resin vs FDM (Quick Rule)
 
 - **Resin**: character + creature miniatures (PCs, wolves, kobolds, bandits/cultists, undead, etc.)
 - **FDM**: terrain + buildings + scatter (inns, walls, trees, dungeon tiles, furniture)
@@ -11,7 +11,7 @@ This guide covers everything needed to run the **Northwatch Wardens: Season One*
 
 ---
 
-## 🎯 ABSOLUTE REQUIRED
+## ABSOLUTE REQUIRED
 
 ### Player Character Miniatures (Resin)
 **Quantity: 4-6 figures**
@@ -461,11 +461,11 @@ If you can ONLY print the absolute essentials:
 
 \page
 
-## 📦 FILE ORGANIZATION TIP
+## FILE ORGANIZATION TIP
 
 Organize your STL files into folders:
 
-![Diagram: 📦 FILE ORGANIZATION TIP](../../World%20Building/Campaign%20Assets/Diagrams/3d-printing-shopping-list-file-organization-tip-l467-2245ab6f.svg)
+![Diagram: FILE ORGANIZATION TIP](../../World%20Building/Campaign%20Assets/Diagrams/3d-printing-shopping-list-file-organization-tip-l467-2245ab6f.svg)
 
 <!-- ASCII diagram source (converted to SVG):
 /Northwatch_Wardens_STLs/
@@ -530,4 +530,4 @@ If you already have a personal STL library, search it by keywords before buying 
 
 ---
 
-Good luck with your printing! May your layers adhere and your supports come off cleanly! 🎲🐺🐉
+Good luck with your printing! May your layers adhere and your supports come off cleanly! 🎲

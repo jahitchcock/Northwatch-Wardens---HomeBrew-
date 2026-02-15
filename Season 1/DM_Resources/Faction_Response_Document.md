@@ -702,6 +702,8 @@ This document provides detailed rules for how various factions respond mechanica
 
 **Use this table to quickly reference multiple factions' stances:**
 
+{{wide
+
 | Faction | Phase 1 Stance | Phase 2 Stance | Phase 3 Stance | Likely Ally? | Likely Enemy? |
 |---------|---|---|---|---|---|
 | Religious | Confused | Divided | War | ✓ Maybe | ✓ Maybe |
@@ -712,6 +714,8 @@ This document provides detailed rules for how various factions respond mechanica
 | Cults | Recruiting | Rituals | Fanatics | ✗ No | ✓ Yes |
 | Merchants | Profiteering | Collapsing | N/A | ⚠️ Unstable | ✗ No |
 | Settlements | Defensive | Desperate | Survivors | ✓ Yes | ⚠️ If failed |
+
+}}
 
 ---
 

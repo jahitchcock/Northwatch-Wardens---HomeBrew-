@@ -47,7 +47,7 @@ But every contract they take is another puzzle piece.
 Below is the “why it matters” for each adventure, independent of order.
 
 
-**🐺 1. Wolves of Welton — The First Contract**
+**1. Wolves of Welton — The First Contract**
 
 **Theme:** Intelligence awakening where it shouldn’t.
 **Arc Connection:** The wolves’ sudden sentience is the *first visible sign* of the Aeorian Echo.
@@ -62,7 +62,7 @@ The Wardens learn that something is *changing the frontier itself*.
 This is the campaign’s inciting incident.
 
 
-**❄️ 2. Frozen Sick — The First Major Threat**
+**2. Frozen Sick — The First Major Threat**
 
 **Theme:** Ancient magic resurfacing with deadly consequences.
 **Arc Connection:** This is the **source** of the Echo.
@@ -80,7 +80,7 @@ The Wardens discover:
 
 This is the campaign’s *first revelation*.
 \page
-**🐉 3. Temple of the Dragonknights — Corruption Takes Root**
+**3. Temple of the Dragonknights — Corruption Takes Root**
 
 **Theme:** Ambition, corruption, and the misuse of awakening magic.
 **Arc Connection:** Venomfang and the cultists are drawn to the same arcane disturbances.
@@ -166,7 +166,7 @@ The order doesn’t matter because each adventure:
 
 \page
 
-**📖 CAMPAIGN ARC STRUCTURE**
+**CAMPAIGN ARC STRUCTURE**
 
 While adventures can be played in any order due to their modular nature, they naturally group into three thematic arcs that track the Wardens' growing understanding of the Aeorian Echo and their role in protecting the frontier.
 
@@ -292,12 +292,12 @@ A containment breach?
 
 A multi‑session arc returning to **The Far North** to confront the true source of the Echo — with allies and enemies shaped by every contract the players chose.
 
-**🎯 In One Sentence**
+**In One Sentence**
 
 **The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
 \page
 
-**🎬 BETWEEN-ARC TRANSITION SCENES**
+**BETWEEN-ARC TRANSITION SCENES**
 
 These scenes help transition between arcs, showing the evolution of the Wardens' understanding and the frontier's changing state. Use them when players complete the last adventure of an arc, or at the start of the first adventure in the next arc.
 

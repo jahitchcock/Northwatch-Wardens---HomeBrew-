@@ -14,4 +14,7 @@ A major holy city that welcomes all good-aligned gods (no single state religion)
 ## See also
 - Pantheon details: See **Chapter 6: Gods and Religion**
 
+{{pageNumber,auto}}
+{{footnote DIVINITY'S BEACON}}
+
 \page

@@ -4,7 +4,9 @@
 ---
 
 ## Campaign Pitch (30 seconds)
-> "Northwatch Wardens is a drop-in guild campaign in the cold frontier. You're members of a new adventuring guild taking contracts to protect settlements. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding."
+{{descriptive
+"Northwatch Wardens is a drop-in guild campaign in the cold frontier. You're members of a new adventuring guild taking contracts to protect settlements. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding."
+}}
 
 **Tone:** Grounded frontier with moral choices  
 **Party:** 2–5 players, flexible attendance  
@@ -14,15 +16,15 @@
 
 ## The Three NPCs You Need
 
-**🛡️ Marshal Brenna Thorne** (Human Ranger, 40s)
+**Marshal Brenna Thorne** (Human Ranger, 40s)
 - Assigns contracts, field commander
 - Voice: Direct — *"This is the job. You ready?"*
 
-**📦 Steward Mara Fenwick** (Halfling, 30s)
+**Steward Mara Fenwick** (Halfling, 30s)
 - Supplies, finances, logistics
 - Voice: Warm — *"I'll pack extra rations. Bring receipts!"*
 
-**📖 Lorewarden Elric Vael** (Elf Wizard, looks 40s)
+**Lorewarden Elric Vael** (Elf Wizard, looks 40s)
 - Lore, investigation, magic research
 - Voice: Thoughtful — *"Curious. This reminds me of something..."*
 
@@ -36,16 +38,20 @@
 ---
 
 ## The Oath (Players Repeat)
-> *"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+{{descriptive
+*"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
+}}
 
 **After:** Brenna hands each player a silver badge (compass rose design)
 
 ---
 
 ## Charter (Read Aloud)
-> *"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.*
-> 
-> *Sign below to become a Warden."*
+{{descriptive
+*"The Northwatch Wardens are founded to safeguard the frontier settlements of Northreach. We stand against threats both mundane and arcane. We protect the innocent, honor our contracts, and share vital information with fellow Wardens.*
+
+*Sign below to become a Warden."*
+}}
 
 ---
 
@@ -88,7 +94,10 @@
 **Wolves at Waystone Inn** (if adding combat to Session 0)
 
 **Enemies:** 2 Wolves (CR 1/4), Echo-sick (blue veins, fight to death)  
-**Read Aloud:** *"Wolves burst through the door, gaunt and desperate, blue veins pulsing beneath their fur."*
+**Read Aloud:**
+{{descriptive
+*"Wolves burst through the door, gaunt and desperate, blue veins pulsing beneath their fur."*
+}}
 
 **After Combat:**
 - Brenna: "In twenty years, I've never seen wolves attack like that."
@@ -111,11 +120,13 @@
 
 ## Opening Scene (Read Aloud)
 
-> *"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
-> 
-> *Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
-> 
-> *This is where your story begins."*
+{{descriptive
+*"Dawn breaks over Northreach. You stand outside the Waystone Inn, a fortified stone roadhouse in the wilderness. Smoke rises from its chimney. Inside, the common room is warm and smells of bacon and woodsmoke.*
+
+*Three figures wait by a long wooden table: a gruff ranger woman in worn leathers, a cheerful halfling sorting papers, and a tall elven mage with calculating eyes.*
+
+*This is where your story begins."*
+}}
 
 ---
 

@@ -8,7 +8,7 @@ This document contains the hidden truth about the City of Masks. **DO NOT share 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
-# 🎭 VHAROXIS — DM SECRETS
+# VHAROXIS — DM SECRETS
 **The Hidden Truth About the City of Masks**
 
 ---
@@ -65,7 +65,7 @@ The city becomes a battleground:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -202,7 +202,7 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -293,7 +293,7 @@ Unwitting accomplices. The best distribution system the fragments could ask for.
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -455,8 +455,9 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 *"The syndicates don't know they're serving the Echo. That's what makes them so dangerous—and so useful."*
 
 — Confidential Warden intelligence report
+
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 
@@ -533,7 +534,7 @@ Anything magical is for sale:
 ---
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote VHAROXIS — DM SECRETS}}
 
 \page
 

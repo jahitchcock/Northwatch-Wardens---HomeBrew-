@@ -8,7 +8,7 @@ This document contains NPC secrets, hidden motivations, and campaign tie-ins. **
 **For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
-**🛡️ THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
+**THE NORTHWATCH WARDENS — DM ROSTER (Expanded & Secret Version)**
 
 *Internal Guild Notes — For the Eyes of the Lorewarden Only*
 
@@ -374,8 +374,7 @@ You already know this one — he’s the chaos engine.
 2. **Mage Destiny**: Joel doesn't know this, but Clementine is destined to become a powerful mage. If saved, she'll eventually join the Wardens as a teenager. If corrupted by Venomfang, she'll become a tragic antagonist.
 3. **Aeorian Resonance**: Clementine's magic resonates with Aeorian artifacts. She glows faintly (imperceptibly to most) when near Aeorian relics. This is why Venomfang is interested in her—she can sense and possibly control ancient magic.
 
-
-**🐺 WILD ALLIES**
+**WILD ALLIES**
 
 **Bolt — Alpha Wolf (Awakened)**
 

@@ -608,7 +608,7 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 - **Coordinated behavior:** Schools moving in geometric patterns
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
 
 \page
 

@@ -338,6 +338,64 @@ function applyBlankLineOverrides(markdown) {
   return normalized;
 }
 
+function generateTableOfContents(markdown) {
+  // Find the position of {{resetCounting}}
+  const resetCountingPos = markdown.indexOf('{{resetCounting}}');
+  if (resetCountingPos === -1) {
+    console.warn('Warning: {{resetCounting}} not found in markdown');
+    return '';
+  }
+
+  // Content after resetCounting
+  const contentAfterReset = markdown.substring(resetCountingPos);
+
+  // Split on \page markers to count pages
+  const pages = contentAfterReset.split(/^(?:\\page|\\\\page)\s*$/gm);
+
+  // Extract H1 headers with their approximate page numbers
+  const tocEntries = [];
+  let currentPage = 1;
+
+  for (let i = 0; i < pages.length; i++) {
+    const pageContent = pages[i] ?? '';
+    
+    // Find all H1 headers in this page
+    const headerMatches = pageContent.matchAll(/^# ([^\n]+)/gm);
+    for (const match of headerMatches) {
+      tocEntries.push({
+        title: match[1].trim(),
+        page: currentPage
+      });
+    }
+
+    // Increment page counter for next iteration
+    if (i < pages.length - 1) {
+      currentPage++;
+    }
+  }
+
+  // Generate markdown TOC
+  let tocMarkdown = '# Contents\n\n';
+  for (const entry of tocEntries) {
+    tocMarkdown += `- ${entry.title} — **${entry.page}**\n`;
+  }
+  tocMarkdown += '\n';
+
+  return tocMarkdown;
+}
+
+function replaceTocBlock(markdown) {
+  // Generate the new TOC
+  const newToc = generateTableOfContents(markdown);
+
+  // Replace the {{toc,wide...}} block with the generated TOC
+  // Match {{toc,wide followed by any content until }}
+  const tocBlockRegex = /\{\{toc,wide\n[^}]*\}\}\n*/;
+  const updated = markdown.replace(tocBlockRegex, newToc);
+
+  return updated;
+}
+
 function renderDungeonsAndMarkdownPages(rawMarkdown) {
   // Strip front matter before rendering
   const cleanedMarkdown = stripFrontMatter(rawMarkdown);
@@ -395,7 +453,7 @@ async function buildBook(tocFile, outputName) {
   combinedMarkdown += '}\n';
   combinedMarkdown += '.page {\n';
   combinedMarkdown += '\tpadding-bottom : 1.1cm;\n';
-  combinedMarkdown += '}\n\n\n\n\n\n\n\n\n\n';
+  combinedMarkdown += '}\n\n\n\n\n\n\n\n\n\n\n\n';
   combinedMarkdown += '```\n\n\n\n';
   
   // Front cover with optional banner and footnote
@@ -445,6 +503,9 @@ async function buildBook(tocFile, outputName) {
   }
 
   combinedMarkdown = applyBlankLineOverrides(combinedMarkdown);
+
+  // Generate and replace the TOC block
+  combinedMarkdown = replaceTocBlock(combinedMarkdown);
 
   // Save combined markdown
   const mdPath = path.join(buildDir, `${outputName}.md`);

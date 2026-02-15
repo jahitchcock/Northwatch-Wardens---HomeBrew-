@@ -44,10 +44,12 @@ Plant life in the Marches is developing primitive nervous systems and sensory ca
 - Communicate through chemical networks (like mycelial systems)
 - Remember past interactions and adapt behavior
 
+{{note
 **DM Note:** Play this for subtle horror and wonder, not comedy. A plant that shrinks from someone who means it harm is unsettling, not silly.
+}}
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -101,7 +103,7 @@ If the Genesis Seed completes its startup and engages full operations:
 - Cities like Thornwall face food crisis and infrastructure collapse
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -132,7 +134,9 @@ The massive sound heard across the Marches on Eclipse Day was:
 
 3. **Awakened beasts responding instinctively:** Newly intelligent animals felt a psychic "call" from the Seed—a testing signal determining which species to prioritize
 
+{{note
 **DM Secret:** Animals that heard and responded to the call are first in line for full intelligence enhancement. Those that didn't are second-wave candidates.
+}}
 
 ### Why Druids Misinterpreted It
 Druids have no frame of reference for Aeorian biotechnology. To them, this feels like:
@@ -144,7 +148,7 @@ Druids have no frame of reference for Aeorian biotechnology. To them, this feels
 They're not entirely wrong—but they're missing the artificial component. This is technology so advanced it mimics divine intervention.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -197,7 +201,7 @@ Unlike some regions where the Echo's effects are ambient, the Marches have a **T
 **DM Use:** Create urgency without railroading. Let players choose their response.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -252,7 +256,7 @@ When players discover the truth, they have several potential paths:
 **Difficulty:** Hard; requires penetrating deep into Chamber, defeating biological defenses, and surviving shutdown
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -309,7 +313,7 @@ When players discover the truth, they have several potential paths:
 **Conflict:** Her personal transformation makes her judgment questionable
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -349,7 +353,7 @@ Strange creatures have begun emerging from the Wildheart Basin—animals that we
 **Twist:** These "failures" provide evidence of the Seed's artificial nature. Study them to learn about the Chamber.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -398,7 +402,7 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 **DM Use:** Dwarven miners can guide players into underground approaches
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -448,7 +452,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 **Welcome to the Verdant Marches. Nothing here is as simple as it seems—and that's the point.**
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 
@@ -477,7 +481,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 9. **The First Beast Returns:** Legends speak of the First Beast shaping the land. Some believe it's returning—or that something is using its legend to manipulate the Marches.
 
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote The Verdant Marches — DM-Only Secrets}}
 
 \page
 

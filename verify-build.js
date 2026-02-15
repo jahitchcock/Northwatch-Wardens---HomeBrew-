@@ -62,6 +62,40 @@ async function verifyBuild(mdFile) {
   if (sections.length > 1) {
     console.log(`Found ${sections.length - 1} top-level sections`);
   }
+
+  // Verify TOC generation
+  const tocMatch = content.match(/# Contents\n\n([\s\S]*?)\n\n/);
+  if (tocMatch) {
+    const tocEntries = tocMatch[1].split('\n').filter(line => line.startsWith('- '));
+    console.log(`✓ TOC found with ${tocEntries.length} entries`);
+    
+    // Verify page numbers are present and reasonable
+    let hasPageNumbers = true;
+    let validPageNumbers = true;
+    let lastPage = 0;
+    
+    for (const entry of tocEntries) {
+      const pageMatch = entry.match(/\*\*(\d+)\*\*$/);
+      if (!pageMatch) {
+        hasPageNumbers = false;
+        break;
+      }
+      const pageNum = parseInt(pageMatch[1]);
+      if (pageNum < lastPage) {
+        validPageNumbers = false;
+        console.warn(`  Warning: Page numbers not monotonic (${lastPage} -> ${pageNum})`);
+      }
+      lastPage = pageNum;
+    }
+    
+    if (hasPageNumbers && validPageNumbers) {
+      console.log(`  ✓ All TOC entries have valid page numbers (1-${lastPage})`);
+    } else if (!hasPageNumbers) {
+      console.warn(`  ⚠ Some TOC entries missing page numbers`);
+    }
+  } else {
+    console.warn(`⚠ TOC section not found or malformed`);
+  }
   
   return true;
 }

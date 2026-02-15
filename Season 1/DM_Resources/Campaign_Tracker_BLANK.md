@@ -90,6 +90,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ### ☐ Peril in Pinebrook
@@ -125,6 +128,9 @@ _____________________________________________________________
 - **Last interaction:** _________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## Aeorian Echo: Clue Tracker
@@ -153,6 +159,9 @@ _____________________________________________________________
 _____________________________________________________________
 _____________________________________________________________
 
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
 \page
 
 ## NPC Roster & Status
@@ -176,6 +185,9 @@ _____________________________________________________________
 **Other NPCs met:**
 _____________________________________________________________
 _____________________________________________________________
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 
@@ -209,6 +221,9 @@ _____________________________________________________________
 
 **Party Gold:** _____ gp  
 **Stored at Waystone:** _____ gp
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
 \page
 

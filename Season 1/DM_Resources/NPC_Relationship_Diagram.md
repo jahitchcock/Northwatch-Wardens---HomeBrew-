@@ -10,6 +10,9 @@ This document shows the web of relationships between NPCs across Season One. **D
 
 This document maps the major relationships and connections between NPCs in the Northwatch Wardens campaign. Use this to understand how NPCs know each other and create dynamic interactions.
 
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
 \page
 
 ## NPC Relationship Overview
@@ -57,6 +60,9 @@ This document maps the major relationships and connections between NPCs in the N
 | **Baleth Cindermoon** | Tiefling Warlock | Patron interested in Aeorian magic (possibly Aeorian consciousness); fascinated by awakened wolves |
 }}
 
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
 \page
 
 ### Welton NPCs
@@ -99,6 +105,9 @@ This document maps the major relationships and connections between NPCs in the N
 | **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Uttolot connections |
 | **Ahmed Noke** | Antagonist Wizard | Haunts Guz's dreams; misused magic in Wild Sheep Chase |
 }}
+
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
 
 \page
 
@@ -150,6 +159,9 @@ The awakened wolves are central to multiple character arcs. Bordel feels shame f
 
 See next section for detailed "appears in these adventures" notes for each major NPC.
 
+{{pageNumber,auto}}
+{{footnote NPC Relationship Web — Season One}}
+
 \page
 
 # NPC Adventure Appearances
@@ -186,6 +198,9 @@ See next section for detailed "appears in these adventures" notes for each major
 - **Recurring**: Available at Waystone for arcane research, clue connections
 
 **Role**: Mystery investigator, arcane expert, connects dots between adventures
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 
@@ -227,6 +242,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Emotional beats, personal stakes, rookie perspective
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Wardens — Lantern Guard
@@ -267,6 +285,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Redemption arc, moral complexity, haunted by past
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Wardens — Lorewatch
@@ -306,6 +327,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Warlock mystery, patron subplot, ambiguous ally
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Wardens — Hearthwardens
@@ -318,6 +342,9 @@ See next section for detailed "appears in these adventures" notes for each major
 - **Available**: Joins adventures for "ballad material"
 
 **Role**: Bard, rumor mill, prophetic songs, comic relief
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 
@@ -370,6 +397,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Comfort, practical wisdom
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Awakened Wolves
@@ -390,6 +420,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Awakening magic mystery, moral complexity, potential antagonist
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Pinebrook NPCs
@@ -407,6 +440,9 @@ See next section for detailed "appears in these adventures" notes for each major
 - **Recurring**: Can become powerful ally/enemy based on baby's fate
 
 **Role**: High-stakes moral choice, powerful ally/enemy
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 
@@ -438,6 +474,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Medical expert, potential ally, defensive NPC
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Croaker Cave NPCs
@@ -451,6 +490,9 @@ See next section for detailed "appears in these adventures" notes for each major
 **Appears In:**
 - Frozen Sick — Cult lieutenant, zealous
 - **Role**: Antagonist, can crack under pressure
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 
@@ -475,6 +517,9 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Mystery broker, faction representative, morally ambiguous patron
 
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
+
 \page
 
 ## Noke's Tower NPCs
@@ -485,6 +530,9 @@ See next section for detailed "appears in these adventures" notes for each major
 - **Recurring**: Can haunt Guz's dreams
 
 **Role**: Antagonist, magical mishap, pathetic/terrifying
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 
@@ -511,6 +559,9 @@ See next section for detailed "appears in these adventures" notes for each major
 - References through Galvena, Aurixean, Mila subplots
 
 **Role**: Major antagonist, multiple character connections
+
+{{pageNumber,auto}}
+{{footnote NPC Adventure Appearances}}
 
 \page
 

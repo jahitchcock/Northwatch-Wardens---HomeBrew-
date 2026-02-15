@@ -86,6 +86,10 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 ### Major Differences Explained
 
+---
+
+\column
+
 **Why Aevoria ≠ Exandria:**
 - Different continents, nations, pantheons, cultures
 - No Dwendalian Empire, no Kryn Dynasty, no Mighty Nein

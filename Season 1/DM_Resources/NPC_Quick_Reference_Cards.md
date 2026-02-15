@@ -8,420 +8,560 @@ Quick-lookup stats for key NPCs across all Season 1 adventures. Use alongside fu
 
 ## NORTHWATCH WARDENS LEADERSHIP
 
-### Marshal Brenna Thorne | Field Commander
+{{monster,frame
+## Marshal Brenna Thorne
+*Human female, mid-40s, Field Commander*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 52
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|14 (+2)|14 (+2)|11 (+0)|16 (+3)|13 (+1)|
+___
+**Skills** :: Perception +5, Stealth +4, Survival +5
+**Senses** :: Passive Perception 15
+**Languages** :: Common, Orc
+___
+***Ranger's Focus.*** Keenly observes threats and tactical situations.
 
-```
-AC 15 | HP 52 | Speed 30 ft
-STR 15 +2 | DEX 14 +2 | CON 14 +2 | INT 11 +0 | WIS 16 +3 | CHA 13 +1
+***Frontier Veteran.*** Commands authority in wilderness matters; players trust her judgment.
 
-Skills: Perception +5, Stealth +4, Survival +5
-Senses: Passive Perception 15
-Languages: Common, Orc
-
-TRAITS:
-- Ranger's Focus: Keenly observes threats
-- Frontier Veteran: Authority in wilderness matters
-- Protective: Reckless defending young Wardens
-
-SECRETS:
+***Protective.*** Acts recklessly when defending young Wardens.
+:
+### Secrets
 - Carries sealed letter warning of arcane disturbances
 - Lost her brother in Greywinter Hunts
 - Never identified the creature that killed him
 - Will recognize unnatural wolf behavior immediately
-```
+:
+### In-Scene Use
+Decision-maker; provides contracts; offers tactical advice
+}}
 
-**In-Scene Use:** Decision-maker; provides contracts; offers tactical advice
+
 
 ---
 
-### Steward Mara Fenwick | Quartermaster
+{{monster,frame
+## Steward Mara Fenwick
+*Halfling female, 30s, Quartermaster*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 38
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|11 (+0)|14 (+2)|13 (+1)|15 (+2)|13 (+1)|14 (+2)|
+___
+**Skills** :: Deception +4, Insight +3, Persuasion +4
+**Senses** :: Passive Perception 11
+**Languages** :: Common, Thieves' Cant, Undercommon
+___
+***Former Smuggler.*** Knows criminal networks intimately; trades information freely.
 
-```
-AC 13 | HP 38 | Speed 30 ft
-STR 11 +0 | DEX 14 +2 | CON 13 +1 | INT 15 +2 | WIS 13 +1 | CHA 14 +2
+***Bookkeeper.*** Meticulous with records and supplies; never forgets a debt.
 
-Skills: Deception +4, Insight +3, Persuasion +4
-Senses: Passive Perception 11
-Languages: Common, Thieves' Cant, Undercommon
-
-TRAITS:
-- Former Smuggler: Knows criminal networks intimately
-- Bookkeeper: Meticulous with records and supplies
-- Generous Soul: Donates secretly to families affected by crime
-
-SECRETS:
+***Generous Soul.*** Donates secretly to families affected by crime.
+:
+### Secrets
 - 500 gp bounty on head from Uttolot family
 - Still has criminal underworld contacts
 - Fled Shadycreek Run; risk of bounty hunters
-```
-
-**In-Scene Use:** Quartermaster for supplies; information broker; knows smuggling routes
+:
+### In-Scene Use
+Quartermaster for supplies; information broker; knows smuggling routes
+}}
 
 ---
 
-### Lorewarden Elric Vael | Arcane Scholar
+{{monster,frame
+## Lorewarden Elric Vael
+*Half-elf male, 50s, Arcane Scholar*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 41
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|9 (−1) |14 (+2)|12 (+1)|18 (+4)|15 (+2)|12 (+1)|
+___
+**Skills** :: Arcana +7, History +7, Investigation +7
+**Senses** :: Passive Perception 12
+**Languages** :: Common, Elvish, Celestial, Sylvan
+**Spellcasting** :: Cantrips (3), 1st-level (4), 2nd-level (1)
+___
+***Arcane Expert.*** Identifies magical items and phenomena instantly.
 
-```
-AC 13 | HP 41 | Speed 30 ft
-STR 9 -1 | DEX 14 +2 | CON 12 +1 | INT 18 +4 | WIS 15 +2 | CHA 12 +1
+***Pattern Recognition.*** Maps magical disturbances obsessively; connects seemingly unrelated events.
 
-Skills: Arcana +7, History +7, Investigation +7
-Senses: Passive Perception 12
-Languages: Common, Elvish, Celestial, Sylvan
-Spells: Cantrips (3), 1st-level (4), 2nd-level (1)
-
-TRAITS:
-- Arcane Expert: Identifies magical items and phenomena instantly
-- Pattern Recognition: Maps magical disturbances obsessively
-- Prophetic Dreams: Visions of ice/Salsvault breaking through
-
-SECRETS:
+***Prophetic Dreams.*** Visions of ice and Salsvault breaking through.
+:
+### Secrets
 - Has mapped every magical disturbance in 200-mile radius
 - Dreams are prophetic; circle's center is Salsvault
 - Knows Aeoria wasn't just destroyed—it was stopped by something
 - Believes Echo isn't random
-```
-
-**In-Scene Use:** Identifies magic; provides lore; recognizes Aeorian artifacts
+:
+### In-Scene Use
+Identifies magic; provides lore; recognizes Aeorian artifacts
+}}
 
 ---
 
 ## WOLVES OF WELTON
 
-### Bolt | Alpha Wolf (Awakened)
+{{monster,frame
+## Bolt
+*Alpha Wolf (Awakened)*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 26
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|15 (+2)|15 (+2)|14 (+2)|14 (+2)|13 (+1)|
+___
+**Skills** :: Perception +4, Stealth +4, Survival +3
+**Senses** :: darkvision 60 ft., Passive Perception 14
+**Languages** :: Understands Common; speaks telepathically (60 ft.)
+___
+***Sapient Intelligence.*** Speaks complex thoughts, makes deals; thinks beyond instinct.
 
-```
-AC 13 | HP 26 | Speed 40 ft | Special: Telepathy 60 ft
-STR 13 +1 | DEX 15 +2 | CON 15 +2 | INT 14 +2 | WIS 14 +2 | CHA 13 +1
+***Desperate Pragmatist.*** Wants peace and food, not war.
 
-Skills: Perception +4, Stealth +4, Survival +3
-Senses: darkvision 60 ft, Passive Perception 14
-Languages: Understands Common; speaks telepathically
-
-TRAITS:
-- Sapient Intelligence: Speaks complex thoughts, makes deals
-- Desperate Pragmatist: Wants peace & food, not war
-- Natural Leader: Pack obeys him; leadership is questioned by Flame
-
-MOTIVATIONS:
+***Natural Leader.*** Pack obeys him; leadership questioned by Flame.
+:
+### Motivations
 - Protect pack from starvation
 - Find safe hunting grounds
 - Survive the "wrongness" that changed them (the Echo)
+:
+### Negotiation Hooks
+"We were animals. Now we think. We feel. We know we will die."
 
-NEGOTIATION HOOKS:
-- "We were animals. Now we think. We feel. We know we will die."
-- "Can you blame us for wanting to live?"
-- Respects strength and intelligence; will parley with capable party
-```
+"Can you blame us for wanting to live?"
 
-**In-Scene:** Reasonable boss; negotiator if party shows sense; can become ally
+Respects strength and intelligence; will parley with capable party.
+:
+### In-Scene Use
+Reasonable boss; negotiator if party shows sense; can become ally
+}}
 
 ---
 
-### Flame | Ambitious Wolf
+{{monster,frame
+## Flame
+*Ambitious Wolf (Awakened)*
+___
+**Armor Class** :: 13
+**Hit Points**  :: 22
+**Speed**       :: 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|16 (+3)|14 (+2)|12 (+1)|12 (+1)|14 (+2)|
+___
+**Skills** :: Perception +3, Stealth +5
+**Senses** :: darkvision 60 ft., Passive Perception 13
+**Languages** :: Understands Common; speaks telepathically (60 ft.)
+___
+***Ambitious Challenger.*** Questions Bolt's authority; seeks to prove dominance.
 
-```
-AC 13 | HP 22 | Speed 40 ft | Special: Telepathy 60 ft
-STR 14 +2 | DEX 16 +3 | CON 14 +2 | INT 12 +1 | WIS 12 +1 | CHA 14 +2
+***Aggressive Predator.*** Wants to dominate, not negotiate.
 
-Skills: Perception +3, Stealth +5
-Senses: darkvision 60 ft, Passive Perception 13
-Languages: Understands Common; speaks telepathically
-
-TRAITS:
-- Ambitious Challenger: Questions Bolt's authority
-- Aggressive Predator: Wants to dominate, not negotiate
-- Leadership Threat: Polarizes pack; causes internal conflict
-
-MOTIVATIONS:
+***Leadership Threat.*** Polarizes pack; causes internal conflict.
+:
+### Motivations
 - Prove himself stronger than Bolt
 - Challenge party's authority
 - Establish dominance through combat
-
-COMBAT NOTES:
+:
+### Combat Notes
 - Flees if Bolt dies or at 50% HP (pack defeated)
 - If killed: Solidifies Bolt's leadership, proves wolves can police themselves
 - If captured: Can be used to leverage negotiations
-```
-
-**In-Scene:** Optional boss fight; represents negotiation failure; removing him strengthens peace possibility
+:
+### In-Scene Use
+Optional boss fight; represents negotiation failure; removing him strengthens peace possibility
+}}
 
 ---
 
-### Father Merriksonn | Village Priest
+{{monster,frame
+## Father Merriksonn
+*Human male, 50s, Village Priest*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 22
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|10 (+0)|12 (+1)|14 (+2)|16 (+3)|13 (+1)|
+___
+**Skills** :: Insight +5, Medicine +4, Persuasion +3
+**Senses** :: Passive Perception 13
+**Languages** :: Common, Celestial
+**Spellcasting** :: Cleric cantrips (3), 1st-level (3)
+___
+***Grieving Brother.*** Alexi vanished 3 weeks ago (during wolf awakening).
 
-```
-AC 10 | HP 22 | Speed 30 ft
-STR 10 +0 | DEX 10 +0 | CON 12 +1 | INT 14 +2 | WIS 16 +3 | CHA 13 +1
+***Man of Faith.*** Believes divine will guides events.
 
-Skills: Insight +5, Medicine +4, Persuasion +3
-Senses: Passive Perception 13
-Languages: Common, Celestial
-Spells: Cleric cantrips (3), 1st-level (3)
-
-TRAITS:
-- Grieving Brother: Alexi vanished 3 weeks ago (during wolf awakening)
-- Man of Faith: Believes divine will guides events
-- Reluctant to Violence: Prefers mercy to killing
-
-MOTIVATION:
+***Reluctant to Violence.*** Prefers mercy to killing.
+:
+### Motivations
 - Find truth about what happened to Alexi
 - Prevent more deaths (whether wolves or villagers)
 - Seek redemption (Alexi was magical; responsible?)
-
-COUNCIL VOTE:
+:
+### Council Vote
 - **GUARANTEED YES** vote if party negotiates peace
 - Will advocate emotionally for wolf mercy
 - Grateful ally if Alexi's connection to Echo is discovered
-```
-
-**In-Scene:** Emotional anchor; quest-giver; council vote swing; ally if handled well
+:
+### In-Scene Use
+Emotional anchor; quest-giver; council vote swing; ally if handled well
+}}
 
 ---
 
-### Leanor Slatebeard | Innkeeper
+{{monster,frame
+## Leanor Slatebeard
+*Dwarf female, 60s, Innkeeper*
+___
+**Armor Class** :: 12 (leather)
+**Hit Points**  :: 18
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|10 (+0)|14 (+2)|12 (+1)|11 (+0)|13 (+1)|
+___
+**Skills** :: Athletics +4, Insight +2, Persuasion +3
+**Senses** :: Passive Perception 10
+**Languages** :: Common, Dwarvish
+___
+***Gruff but Fair.*** Respected in Welton; doesn't suffer fools.
 
-```
-AC 12 (leather) | HP 18 | Speed 30 ft
-STR 15 +2 | DEX 10 +0 | CON 14 +2 | INT 12 +1 | WIS 11 +0 | CHA 13 +1
+***Information Hub.*** Hears all gossip; shares freely with trusted patrons.
 
-Skills: Athletics +4, Insight +2, Persuasion +3
-Senses: Passive Perception 10
-Languages: Common, Dwarvish
-Weapons: Worn hand axe (1d6)
-
-TRAITS:
-- Gruff but Fair: Respected in Welton
-- Information Hub: Hears all gossip; shares freely
-- Pragmatic Supporter: Backs party decisions
-
-INFORMATION:
+***Pragmatic Supporter.*** Backs party decisions if reasonable.
+:
+### Actions
+***Worn Hand Axe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 2) slashing damage.
+:
+### Information
 - Knows exact timeline of wolf attacks
 - Can point to Westly's Farm for investigation
 - Vaguely mentions "strangeness" in Old Woods
 - Once suspected "unnatural" wolf behavior
-```
-
-**In-Scene:** Information source; tavern hub; safe harbor; NPC to return to
+:
+### In-Scene Use
+Information source; tavern hub; safe harbor; NPC to return to
+}}
 
 ---
 
-### Till us Merrion | Council Member
+{{monster,frame
+## Tillus Merrion
+*Halfling male, middle-aged, Council Member*
+___
+**Armor Class** :: 11
+**Hit Points**  :: 15
+**Speed**       :: 25 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|12 (+1)|13 (+1)|14 (+2)|12 (+1)|11 (+0)|
+___
+**Skills** :: Insight +3, Persuasion +2
+**Senses** :: Passive Perception 11
+**Languages** :: Common, Halfling
+___
+***Skeptical Pragmatist.*** Distrusts outsiders; prefers proven solutions.
 
-```
-AC 11 | HP 15 | Speed 25 ft
-STR 10 +0 | DEX 12 +1 | CON 13 +1 | INT 14 +2 | WIS 12 +1 | CHA 11 +0
+***Risk-Averse.*** Wants safe, known solutions; avoids uncertainty.
 
-Skills: Insight +3, Persuasion +2
-Senses: Passive Perception 11
-Languages: Common, Halfling
-
-TRAITS:
-- Skeptical Pragmatist: Distrusts outsiders
-- Risk-Averse: Wants safe, known solutions
-- Fence-Sitter: Votes based on party arguments
-
-COUNCIL VOTE:
+***Fence-Sitter.*** Votes based on party arguments; can be swayed.
+:
+### Council Vote
 - **SWING VOTE** — depends on party persuasion
 - +1 if party demonstrates strength/competence
 - +1 if party shows understanding of wolf nature
 - -1 if party uses intimidation/threats
 - Neutral if party doesn't engage him directly
-```
-
-**In-Scene:** Council skeptic; requires party to "prove themselves"; morale test
+:
+### In-Scene Use
+Council skeptic; requires party to "prove themselves"; morale test
+}}
 
 ---
 
 ## FROZEN SICK
 
-### Elro Aldataur | Village Elder / Ranger
+{{monster,frame
+## Elro Aldataur
+*Half-elf male, 60s, Village Elder / Ranger*
+___
+**Armor Class** :: 14 (leather)
+**Hit Points**  :: 44
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|14 (+2)|14 (+2)|15 (+2)|12 (+1)|16 (+3)|13 (+1)|
+___
+**Skills** :: Perception +5, Survival +5, Investigation +3
+**Senses** :: Passive Perception 15
+**Languages** :: Common, Elvish
+___
+***Experienced Ranger.*** Knows frontier thoroughly; trusted guide.
 
-```
-AC 14 | HP 44 | Speed 30 ft
-STR 14 +2 | DEX 14 +2 | CON 15 +2 | INT 12 +1 | WIS 16 +3 | CHA 13 +1
+***Desperate Leader.*** Willing to try anything to save village.
 
-Skills: Perception +5, Survival +5, Investigation +3
-Senses: Passive Perception 15
-Languages: Common, Elvish
-Weapons: Shortsword, shortbow
+***Hidden Guilt.*** Someone died before hiring party; weighs on conscience.
+:
+### Actions
+***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
-TRAITS:
-- Experienced Ranger: Knows frontier thoroughly
-- Desperate Leader: Willing to try anything to save village
-- Hidden Guilt: Someone died before hiring party
-
-INFORMATION:
+***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+:
+### Information
 - Can point to Salsvault location
 - Knows Croaker Cave (bandit hideout)
 - Has sketchy maps from old explorer's notes
-```
-
-**In-Scene:** Quest-giver; journey guide; ally for research
+:
+### In-Scene Use
+Quest-giver; journey guide; ally for research
+}}
 
 ---
 
-### Tulgi Lutan | Infected Dwarf Trapper
+{{monster,frame
+## Tulgi Lutan
+*Dwarf male, 40s, Infected Trapper*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 24
+**Speed**       :: 20 ft. (exhausted)
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|15 (+2)|12 (+1)|14 (+2)|11 (+0)|14 (+2)|8 (−1) |
+___
+**Skills** :: Perception +4, Survival +4
+**Senses** :: Passive Perception 14
+**Languages** :: Common, Dwarvish
+___
+***Infected Status.*** ~7 days left before critical stage.
 
-```
-INFECTED STATUS: ~7 days left before critical stage
-AC 10 | HP 24 | Speed 20 ft (exhausted)
-STR 15 +2 | DEX 12 +1 | CON 14 +2 | INT 11 +0 | WIS 14 +2 | CHA 8 -1
+***Gruff Survivor.*** Irritable due to sickness; responds to respect.
 
-Skills: Perception +4, Survival +4
-Senses: Passive Perception 14
-Languages: Common, Dwarvish
+***Defensive.*** Assumes others want him dead; slow to trust.
 
-TRAITS:
-- Gruff Survivor: Irritable due to sickness
-- Defensive: Assumes others want him dead
-- Knowledgeable: Knows forest dangers
-
-SURVIVAL IMPORTANCE:
-- If cured: Becomes grateful ally
-- If dies: Villagers blame party; reputation hit
-- If infected spreads: Tulgi becomes vector (grows desperate/dangerous)
-
-PERSONALITY:
+***Knowledgeable.*** Knows forest dangers intimately.
+:
+### Survival Importance
+- **If cured:** Becomes grateful ally
+- **If dies:** Villagers blame party; reputation hit
+- **If infection spreads:** Tulgi becomes vector (grows desperate/dangerous)
+:
+### Personality Notes
 - Responds to respect and directness
 - Distrusts authority/outsiders (thaw takes time)
 - Will fight to survive even if doomed
-```
-
-**In-Scene:** NPC at stakes; moral weight; potential ally if saved
+:
+### In-Scene Use
+NPC at stakes; moral weight; potential ally if saved
+}}
 
 ---
 
-### Urgon Wenth | Deceased Explorer
+{{monster,frame
+## Urgon Wenth
+*Human male, 30s, Deceased Explorer*
+___
+**Status** :: Already died from frigid woe
+**Appearance** :: Frozen corpse with blue veins, ice-preserved
+___
+***Investigation Clue (DC 12 Medicine).*** "Died from internal freezing; extraordinary."
 
-```
-STATUS: Already died from frigid woe
-APPEARANCE: Frozen corpse with blue veins, ice-preserved
-
-INFORMATION VALUE:
+***Arcane Evidence (DC 14 Arcana).*** "Blue veins glow faintly—magical origin."
+:
+### Information Value
 - Body contains clues about Salsvault location
 - Carried vials to Croaker Cave (bandits intercepted)
 - His journal provides map to ruins
-
-INVESTIGATION NOTES:
-- DC 12 Medicine: "Died from internal freezing; extraordinary"
-- DC 14 Arcana: "Blue veins glow faintly—magical origin"
-- Journal search: Maps, notes on "golden vials," references to ancient ruins
-```
-
-**In-Scene:** Environmental storytelling; investigation hook; emotional anchor
+:
+### Journal Contents
+- Maps to Salsvault
+- Notes on "golden vials"
+- References to ancient ruins
+- Cryptic warnings about freezing sickness
+:
+### In-Scene Use
+Environmental storytelling; investigation hook; emotional anchor
+}}
 
 ---
 
 ## THE WILD SHEEP CHASE
 
-### Finethir Shinebright | Polymorphed Wizard
+{{monster,frame
+## Finethir Shinebright
+*Human male (polymorphed sheep), 40s, Wizard*
+___
+**Armor Class** :: 10
+**Hit Points**  :: 5 (polymorphed form)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|8 (−1) |11 (+0)|12 (+1)|18 (+4)|15 (+2)|12 (+1)|
+___
+**Senses** :: Passive Perception 12
+**Languages** :: Common, Elvish (understands but can't speak as sheep)
+**Spellcasting** :: Cantrips only (Minor Illusion, Mage Hand, Prestidigitation)
+___
+***Polymorphed Sheep.*** Stuck in sheep form; retains intelligence and memories.
 
-```
-POLYMORPHED FORM (Sheep):
-AC 10 | HP 5 | Speed 30 ft
-STR 8 -1 | DEX 11 +0 | CON 12 +1 | INT 18 +4 | WIS 15 +2 | CHA 12 +1
+***Cultured Absurdity.*** "These hooves! The indignity!" — arrogant about magical knowledge.
 
-PERSONALITY TRAITS (as sheep):
-- Cultured to the point of absurdity ("These hooves! The indignity!")
-- Arrogant about magical knowledge
-- Cowardly in direct combat
-- Grateful if party helps him
+***Cowardly Tactician.*** Provides tactical advice from safety (can grant Advantage 1x per encounter).
 
-ACTIONS (as sheep):
-- Can cast cantrips: Minor Illusion, Mage Hand, Prestidigitation
-- Provides tactical advice (can grant Advantage 1x per encounter)
-- Casts from safety; won't expose himself
+***Grateful Ally.*** If party helps him, becomes valuable research contact.
+:
+### Actions
+***Cantrip Casting.*** Can cast Minor Illusion, Mage Hand, and Prestidigitation from sheep form.
 
-RESTORATION:
-- Dispel Magic (DC 15+) ends polymorph
-- True Polymorph reversal (high-level spell)
-- Cure at Salsvault (same place as frigid woe antidote)
-
-RESEARCH VALUE:
+***Tactical Advice.*** Once per encounter, grants Advantage to one ally's attack or ability check.
+:
+### Restoration Options
+- **Dispel Magic** (DC 15+) ends polymorph
+- **True Polymorph** reversal (high-level spell)
+- **Cure at Salsvault** (same place as frigid woe antidote)
+:
+### Research Value
 - Studies magical anomalies across Northreach
 - Documents malfunctions in his tower
 - Knows about "something far north" (Salsvault reference)
 - If party earns trust, shares research freely
-
-TOWER BASEMENT:
+:
+### Tower Basement Contents
 - Hidden research library
 - Maps marking anomaly sites
 - Mentions "Salsvault" in notes
 - Direct Frozen Sick foreshadowing
-```
-
-**In-Scene:** Comic relief character; knowledge source; potential ally; NPC to return to
+:
+### In-Scene Use
+Comic relief character; knowledge source; potential ally; NPC to return to
+}}
 
 ---
 
 ## TEMPLE OF THE DRAGONKNIGHTS
 
-### Venomfang | Young Green Dragon
+{{monster,frame
+## Venomfang
+*Young Green Dragon*
+___
+**Armor Class** :: 15
+**Hit Points**  :: 110
+**Speed**       :: 40 ft., fly 80 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|19 (+4)|16 (+3)|17 (+3)|16 (+3)|12 (+1)|15 (+2)|
+___
+**Saving Throws** :: DEX +6, CON +6, WIS +4, CHA +5
+**Skills** :: Deception +5, Perception +7, Stealth +6
+**Senses** :: truesight 120 ft., Passive Perception 17
+**Languages** :: Common, Draconic, Abyssal
+___
+***Intelligent & Ambitious.*** Not a mindless monster; seeks power and dominion.
 
-```
-AC 15 | HP 110 | Speed 40 ft, fly 80 ft
-STR 19 +4 | DEX 16 +3 | CON 17 +3 | INT 16 +3 | WIS 12 +1 | CHA 15 +2
+***Pragmatic Strategist.*** Avoids unwinnable fights; uses cover, flight, and minions.
 
-Saving Throws: DEX +6, CON +6, WIS +4, CHA +5
-Skills: Deception +5, Perception +7, Stealth +6
-Senses: truesight 120 ft, Passive Perception 17
-Languages: Common, Draconic, Abyssal
+***Charismatic Deceiver.*** Can deceive or seduce allies; excellent negotiator.
+:
+### Actions
+***Multiattack.*** Venomfang makes three attacks: one with its bite and two with its claws.
 
-TRAITS:
-- Intelligent & Ambitious: Not mindless monster
-- Pragmatic Strategist: Avoids unwinnable fights
-- Charismatic: Can deceive or seduce allies
+***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.
 
-MOTIVATIONS:
+***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage.
+
+***Poison Breath (Recharge 5–6).*** Venomfang exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.
+:
+### Motivations
 - Establish power base in region
 - Use magical convergence (temple) as stronghold
 - Exploit Aeorian Echo for personal gain
 - Avoid direct conflict with adventurers if possible
-
-NEGOTIATION OPTIONS:
-- Non-interference: "Leave region, I leave you alone"
-- Alliance: "Help me against larger threat"
-- Territorial division: "You control Northreach, I stay in temple"
-
-COMBAT NOTES:
-- Uses cover, flight, minions (kobolds)
-- Poison breath (recharge 5-6)
+:
+### Negotiation Options
+- **Non-interference:** "Leave region, I leave you alone"
+- **Alliance:** "Help me against larger threat"
+- **Territorial division:** "You control Northreach, I stay in temple"
+:
+### Combat Tactics
+- Uses cover, flight, and kobold minions
 - Will flee if reduced below 25% HP
 - Defeat proves dragons can be opposed; regional impact
-```
-
-**In-Scene:** Intelligent boss; negotiation possibility; can become ally or enemy
+:
+### In-Scene Use
+Intelligent boss; negotiation possibility; can become ally or enemy
+}}
 
 ---
 
-### Kobold Wyrmpriest | Cult Leader
+{{monster,frame
+## Kobold Wyrmpriest
+*Kobold male, Cult Leader*
+___
+**Armor Class** :: 15 (hide armor)
+**Hit Points**  :: 22
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|10 (+0)|14 (+2)|12 (+1)|13 (+1)|12 (+1)|15 (+2)|
+___
+**Skills** :: Persuasion +4, Religion +3
+**Senses** :: darkvision 60 ft., Passive Perception 11
+**Languages** :: Common, Draconic
+**Spellcasting** :: Cantrips (2), 1st-level (3)
+___
+***Fanatical Worshipper.*** Believes Venomfang is divine; utterly devoted.
 
-```
-AC 15 | HP 22 | Speed 30 ft
-STR 10 +0 | DEX 14 +2 | CON 12 +1 | INT 13 +1 | WIS 12 +1 | CHA 15 +2
+***Ritual Leader.*** Conducts dark ceremonies; coordinates cult activities.
 
-Skills: Persuasion +4, Religion +3
-Senses: Passive Perception 11
-Languages: Common, Draconic
+***Non-negotiable.*** Won't surrender or flee; fights to the death.
+:
+### Actions
+***Dagger.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
-TRAITS:
-- Fanatical Worshipper: Believes Venomfang is divine
-- Ritual Leader: Conducts dark ceremonies
-- Non-negotiable: Won't surrender or flee
-
-MOTIVATIONS:
+***Spellcasting.*** Cantrips: Sacred Flame, Thaumaturgy. 1st-level (3 slots): Command, Inflict Wounds, Shield of Faith.
+:
+### Motivations
 - Serve Venomfang absolutely
 - Spread worship through violence
 - Ascend to godhood (mistaken belief)
-
-COMBAT BEHAVIOR:
+:
+### Combat Behavior
 - Fights to death; no surrender option
 - Uses spellcraft and minion tactics
 - Captured kobolds can be persuaded to abandon cult
-
-**In-Scene:** Non-negotiable enemy; zealot; requires defeat or flight
-```
+:
+### In-Scene Use
+Non-negotiable enemy; zealot; requires defeat or flight
+}}
 
 ---
 

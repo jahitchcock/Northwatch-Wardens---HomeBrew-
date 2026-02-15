@@ -32,6 +32,9 @@ ___
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
+
 \page
 
 ## Bandit Captain
@@ -69,6 +72,9 @@ It takes a strong personality, ruthless cunning, and a silver tongue to keep a g
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
+
 \page
 
 ## Animated Armor
@@ -104,6 +110,9 @@ ___
 This empty steel shell clanks as it moves, heavy plates banging and grinding against one another. Animated armors are often found guarding ancient tombs and ruins left by long-dead wizards.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick — Monster Stat Blocks}}
 
 \page
 

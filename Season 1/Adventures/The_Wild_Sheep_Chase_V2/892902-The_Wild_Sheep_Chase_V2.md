@@ -20,10 +20,12 @@ A fourth/fifth level adventure for D&D 5E
 - **Frozen Sick** (theme: magic behaving unpredictably has a source)
 - **Temple of Dragonknights** (magical convergence points attract power)
 
+{{note
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Noke's Tower: The Wizard's Arsenal" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
 
 **Key Secrets:**
 - **Shinebright (Finethir) is not who he appears to be**—he's a dedicated Aeorian researcher preparing countermeasures
@@ -265,7 +267,12 @@ A fourth/fifth level adventure for D&D 5E
 - **Curse:** On a roll of 1-3 on d20, wand backfires (caster OR random ally within 30 ft transforms instead)
 - **Aeorian Instability:** Each use after first in 24 hours requires DC 12 Arcana check or triggers Wild Magic surge
 
+{{note
 **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful).
+}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -277,6 +284,9 @@ A fourth/fifth level adventure for D&D 5E
 - **Local Town:** Friendly (if they fought Guz publicly)
 - **Shinebright:** Ally (can call upon him for magical research, identifying items)
 - **Lorewarden Elric:** Very interested (wants to study wand's instability)
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -300,6 +310,9 @@ A fourth/fifth level adventure for D&D 5E
    > *Elric examines the wand, his face pale.*
    >
    > "This confirms my worst fears. The Aeorian Echo isn't just awakening creatures or spreading disease — it's corrupting *all* magic. If artifacts across Northreach are destabilizing like this... gods help us. We need to find the source and shut it down before every wizard's wand becomes a ticking time bomb."
+
+{{pageNumber,auto}}
+{{footnote DM Notes: The Wild Sheep Chase}}
 
 \page
 
@@ -458,44 +471,59 @@ A fourth/fifth level adventure for D&D 5E
 
 ### Shinebright's Introduction (Sheep Form)
 
-> *The sheep bleats frantically, waving a scroll at you. Once you activate the Scroll of Speak with Animals, the bleating becomes cultured, elven-accented Common.*
->
-> "Thank the gods! Adventurers! I am Finethir Shinebright, Master Wizard of the Third Circle, and I have been most GRIEVOUSLY transformed by my vile apprentice, Ahmed Noke! He wields a Wand of True Polymorph and has turned me into this... this ABSURD ovine form! I require your aid to reclaim the wand and restore my proper body. Will you help me?"
+{{descriptive
+**Shinebright's Introduction:**
+*The sheep bleats frantically, waving a scroll at you. Once you activate the Scroll of Speak with Animals, the bleating becomes cultured, elven-accented Common.*
+
+"Thank the gods! Adventurers! I am Finethir Shinebright, Master Wizard of the Third Circle, and I have been most GRIEVOUSLY transformed by my vile apprentice, Ahmed Noke! He wields a Wand of True Polymorph and has turned me into this... this ABSURD ovine form! I require your aid to reclaim the wand and restore my proper body. Will you help me?"
+}}
 
 *Shinebright is polite but snobbish, occasionally bleats mid-sentence, and complains about hooves.*
 
 ### Guz's Demand (Street Encounter)
 
-> *The half-orc strides forward, hand on greatsword hilt.*
->
-> "That sheep is Master Noke's property. He wants it back. NOW. Give it to me, or I take it by force. Master Noke is very powerful. You don't want him angry. Trust me."
+{{descriptive
+**Guz's Demand:**
+*The half-orc strides forward, hand on greatsword hilt.*
+
+"That sheep is Master Noke's property. He wants it back. NOW. Give it to me, or I take it by force. Master Noke is very powerful. You don't want him angry. Trust me."
+}}
 
 *Guz is dim-witted but intimidating. He doesn't believe Shinebright is really a wizard.*
 
 ### Noke's Villain Monologue (Tower Confrontation)
 
-> *A thin elf in elaborate robes stands at the far end of the lab, holding a shimmering wand.*
->
-> "Ah, my former master! And you've brought... friends. How delightful. Did you come to beg for mercy? To plead for restoration? TOO LATE! I have claimed the wand, and with it, POWER! Shinebright, you are obsolete! And you, adventurers — you are obstacles. Obstacles I will REMOVE!"
+{{descriptive
+**Noke's Villain Monologue:**
+*A thin elf in elaborate robes stands at the far end of the lab, holding a shimmering wand.*
+
+"Ah, my former master! And you've brought... friends. How delightful. Did you come to beg for mercy? To plead for restoration? TOO LATE! I have claimed the wand, and with it, POWER! Shinebright, you are obsolete! And you, adventurers — you are obstacles. Obstacles I will REMOVE!"
+}}
 
 *Noke is over-the-top theatrical, overconfident, and prone to evil laughter.*
 
 ### Noke's Wand Backfire (Comedy Moment)
 
-> *Noke points the wand at you dramatically, but it sparks and fizzles. A beam of light shoots backward, striking HIM instead.*
->
-> Roll on polymorph table:
-> 1-2: Noke becomes a chicken (clucks angrily)
-> 3-4: Noke becomes a frog (croaks in rage)
-> 5-6: Noke becomes a sheep (ironic justice!)
+{{note
+**Polymorph Backfire Table:**
+*Noke points the wand at you dramatically, but it sparks and fizzles. A beam of light shoots backward, striking HIM instead.*
+
+Roll on polymorph table:
+1-2: Noke becomes a chicken (clucks angrily)
+3-4: Noke becomes a frog (croaks in rage)
+5-6: Noke becomes a sheep (ironic justice!)
+}}
 
 *This is the perfect comedy payoff. Players can decide whether to capture him or restore him.*
 
 ### Lorewarden Elric's Debrief (when party returns to Waystone Inn)
 
-> *Elric examines the unstable wand, his expression grave.*
->
-> "This is deeply troubling. The wand's enchantment matrix has been corrupted by external magical interference — the Aeorian Echo, I suspect. If artifacts across Northreach are destabilizing like this, every wizard, artificer, and magic user is in danger. We need to understand the Echo's source and find a way to contain it. Thank you for bringing this to my attention. And... please, destroy that wand. It's too dangerous to exist."
+{{descriptive
+**Elric's Debrief:**
+*Elric examines the unstable wand, his expression grave.*
+
+"This is deeply troubling. The wand's enchantment matrix has been corrupted by external magical interference — the Aeorian Echo, I suspect. If artifacts across Northreach are destabilizing like this, every wizard, artificer, and magic user is in danger. We need to understand the Echo's source and find a way to contain it. Thank you for bringing this to my attention. And... please, destroy that wand. It's too dangerous to exist."
+}}
 
 ## Post-Session Tasks
 
@@ -528,11 +556,17 @@ A fourth/fifth level adventure for D&D 5E
 
 After restoring Shinebright and debriefing with Elric:
 
-> *Shinebright adjusts his newly restored robes and nods gratefully.*
->
-> "Thank you, my friends. I owe you a great debt. If you ever need magical consultation or research assistance, you need only ask. As for the wand... Elric is right. Destroy it. The instability is too dangerous. But know this: If my wand malfunctioned, others will too. Every wizard in Northreach is at risk. Someone must find the source of this magical corruption."
+{{descriptive
+**Shinebright's Thanks:**
+*Shinebright adjusts his newly restored robes and nods gratefully.*
+
+"Thank you, my friends. I owe you a great debt. If you ever need magical consultation or research assistance, you need only ask. As for the wand... Elric is right. Destroy it. The instability is too dangerous. But know this: If my wand malfunctioned, others will too. Every wizard in Northreach is at risk. Someone must find the source of this magical corruption."
+}}
 
 This reinforces the Aeorian Echo mystery and sets up future adventures.
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: The Wild Sheep Chase}}
 
 \page
 # Summary
@@ -557,9 +591,12 @@ Getting the players into this adventure is pretty straightforward. All that is r
 
 If you want to plant seeds in advance, you may wish to introduce the character of Noke through rumours or idle conversation with shopkeepers and innkeepers, who view him with fear and awe.
 
-
+{{pageNumber,auto}}
+{{footnote Adventure Hooks}}
 
 \page
+
+\column
 
 # Baaaa-d News
 
@@ -607,6 +644,9 @@ He demands that he be given "Master Noke's sheep," which he claimed has escaped,
 Guz is not a bright fellow, but he is very loyal and determined to complete his task. His trackers know that Shinebright is there, no matter how well the party tries to hide him, and will not take no for an answer.
 
 While he prefers violence and intimidation, he is also willing to offer bribes and promises of magical favours if that looks like the best option.
+
+{{pageNumber,auto}}
+{{footnote Guz}}
 
 \page
 
@@ -661,6 +701,9 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 
 ![- Abstract, colorful composition dominated by a glowing, horned silhouette made of bright sparkles and light particles. - Diagonal streaks of color run across the background from warm orange on the left, through yellow and green, to teal on the right. - The central shape (resembling a ram or bull head with curved horns) is formed by concentrated green-yellow points of light and small star-like flares. - A textured, darker green band runs along the bottom, suggesting ground or a foreground element. - Overall mood is cosmic, magical, and luminous.](./892902-The_Wild_Sheep_Chase_V2_images/image_002.png)![The image is a plain, uniform gray rectangle with no distinguishable objects, text, or features. There’s a slightly darker band near the top and bottom edges, but otherwise it’s a flat gray field.](./892902-The_Wild_Sheep_Chase_V2_images/image_003.png)
 
+{{pageNumber,auto}}
+{{footnote Guz}}
+
 \page
 
 
@@ -700,6 +743,9 @@ However, he is also fond of trying to use long, complicated words he has picked 
 
 The path to Noke’s Tower cuts off from a main road a few miles out of town, darting off between a gap in the bushes. It is a well-trodden route that soon begins to weave its way between tall oak trees
 
+{{pageNumber,auto}}
+{{footnote Guz}}
+
 \page
 
 
@@ -736,6 +782,9 @@ Scattered beneath the platforms are two small wooden huts and a large outhouse
 --------------------------------------------------------------------------------------------------------------
 
 When the party arrives at the compound, there is a trio of Apes (MM p31 7) either sleeping or playing with an oversized pair of dice on the lawn, with iron greatswords stuck into the ground next to them. A Brown Bear is in the outhouse, taking care of business.
+
+{{pageNumber,auto}}
+{{footnote Guz}}
 
 \page
 
@@ -792,6 +841,9 @@ Noke is in the central platform, working furiously on new spells. If he notices 
 If they talk, he will reveal his reasons for hating Shinebright and boast disjointedly of his own achievements. He will also ask if they killed ‘my man, Guz,’ and be visibly upset if they have. Should they refuse to return Shinebright he will order his men to attack.
 
 The most important part of any fight that breaks out is Noke, who is offensively weak but can buff his allies dramatically. Once the Brown Bear emerges from the outhouse he will cast Enlarge/Reduce (PHB p237) on it to increase its damage. He will supplement his minions’ attacks with Ray of Frost (PHB p271 ) but will focus on keeping up concentration.
+
+{{pageNumber,auto}}
+{{footnote Bed Dragon Wyrmling}}
 
 \page
 
@@ -867,6 +919,9 @@ Desperate and unwilling to let his old master win, a babbling Noke will then att
 
 However, the over-used wand will crackle, fizz and malfunction with a loud bang, turning Noke into a Gibbering Mouther (MM p1 57) - a misshapen pile of flesh that bellows incoherently from dozens of mouths. The sad creature will attack mindlessly until completely destroyed.
 
+{{pageNumber,auto}}
+{{footnote Ahmed Noke}}
+
 \page
 
 
@@ -894,6 +949,9 @@ He will, however, be willing to perform transmutations of up to 5th level for th
 
 If the party decides to go ahead with the spell and it fails, Shinebright dies permanently. The party is free to honour his final wish and leave the tower more-or-less intact, or loot to their hearts’ content. The tower is surprisingly empty of anything of benefit to non-transmuters, however, with valuables restricted to expensive lab equipment and arcane paraphernalia estimated to be worth around 1 ,000gp. If the players wish they can also take the entire tower complex as their own, though this may cause trouble when the local nobles try to pay Noke a visit and find him missing…
 
+{{pageNumber,auto}}
+{{footnote Ahmed Noke}}
+
 \page
 
 
@@ -920,6 +978,9 @@ In order to increase the amount of times the spell has been case, the wand appea
 If inspected with a DC 1 5 Intelligence (Arcana) check, reveal that the modifications have left the wand extremely unreliable.
 
 Each time a charge is used the user must pass a DC 1 7
+
+{{pageNumber,auto}}
+{{footnote Modified Wand of True Polymorph}}
 
 \page
 

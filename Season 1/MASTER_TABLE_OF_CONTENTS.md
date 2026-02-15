@@ -4,9 +4,9 @@
 
 ## CHAPTER 1: Welcome to Aevoria & Campaign foundation
 
-📖 **Reading Level:** All  
-⏱️ **Read Time:** 15 minutes  
-🎯 **Purpose:** Understand the world and campaign setting
+**Reading Level:** All  
+**Read Time:** 15 minutes  
+**Purpose:** Understand the world and campaign setting
 
 - Welcome to Aevoria (overview and world introduction)
 - Your Story Begins in Northreach (regional focus)
@@ -18,9 +18,9 @@
 
 ## CHAPTER 2: Quick Start for First-Time DMs
 
-📖 **Reading Level:** First-time DMs  
-⏱️ **Read Time:** 30-45 minutes for session prep  
-🎯 **Purpose:** Prep and run Session 0 in under 1 hour
+**Reading Level:** First-time DMs  
+**Read Time:** 30-45 minutes for session prep  
+**Purpose:** Prep and run Session 0 in under 1 hour
 
 - Quick Start Overview (Session 0 goals)
 - Session 0 Checklist (30-60 min prep)
@@ -34,9 +34,9 @@
 
 ## CHAPTER 3: Campaign Overview & Structure
 
-📖 **Reading Level:** All DMs  
-⏱️ **Read Time:** 45-60 minutes  
-🎯 **Purpose:** Understand how the campaign works
+**Reading Level:** All DMs  
+**Read Time:** 45-60 minutes  
+**Purpose:** Understand how the campaign works
 
 ### Campaign Overview
 - The Northwatch Wardens Campaign (modular design principles)
@@ -57,7 +57,7 @@
 - Session Prep Checklist (what to do before each session)
 - Design Principles (order-independent, consequence-rich, frontier-focused)
 
-### 🗺️ Campaign Dashboard (NEW: Phase 1.1)
+### Campaign Dashboard (NEW: Phase 1.1)
 - Campaign at a Glance (pitch + highlights)
 - Information Flowchart (how to find what you need)
 - The Aeorian Echo: What Players Are Discovering (mystery progression)
@@ -72,9 +72,9 @@
 
 ## CHAPTER 4: DM Resources & Prep Tools
 
-📖 **Reading Level:** All DMs (reference chapter)  
-⏱️ **Read Time:** Variable (use as reference)  
-🎯 **Purpose:** Tools and information for session prep
+**Reading Level:** All DMs (reference chapter)  
+**Read Time:** Variable (use as reference)  
+**Purpose:** Tools and information for session prep
 
 ### Campaign Planning
 - Campaign Arc (how adventures interconnect)
@@ -110,9 +110,9 @@
 
 ## CHAPTER 5: Adventures Ready to Run
 
-📖 **Reading Level:** DMs preparing specific adventures  
-⏱️ **Read Time:** Variable (30 min per adventure for prep)  
-🎯 **Purpose:** Complete adventure modules with stat blocks
+**Reading Level:** DMs preparing specific adventures  
+**Read Time:** Variable (30 min per adventure for prep)  
+**Purpose:** Complete adventure modules with stat blocks
 
 ### Opening Adventures
 - Open Skirmish (combat encounter: wolves on the road)
@@ -164,9 +164,9 @@
 
 ⚠️ **SPOILER WARNING:** This chapter contains spoilers for all major mysteries. Keep from players.
 
-📖 **Reading Level:** DMs only  
-⏱️ **Read Time:** 60-90 minutes (read through, then reference)  
-🎯 **Purpose:** Complete campaign secrets and lore for DM knowledge
+**Reading Level:** DMs only  
+**Read Time:** 60-90 minutes (read through, then reference)  
+**Purpose:** Complete campaign secrets and lore for DM knowledge
 
 ### The Core Mystery
 - **The Aeorian Echo** (complete documentation)
@@ -210,9 +210,9 @@
 
 ## CHAPTER 7: Appendix & Quick Reference
 
-📖 **Reading Level:** All (reference chapter)  
-⏱️ **Read Time:** Variable (use as needed)  
-🎯 **Purpose:** Quick lookup for common questions
+**Reading Level:** All (reference chapter)  
+**Read Time:** Variable (use as needed)  
+**Purpose:** Quick lookup for common questions
 
 ### Player-Facing Information
 - **Information Hierarchy (NEW: Phase 1.4)** (guide for content placement)
