@@ -39,71 +39,66 @@ theme: 5ePHB
 ![background image](https://i.imgur.com/e2me5Tq.png){position:absolute,bottom:0,left:50px,height:100%}
 \page
 
-
-
-
-
-
 # Contents
 
-- Welcome to Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **1**
-- How to Use This Book . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **1**
-- Character Creation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **4**
-- Creating Your Character . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **4**
-- Regional Origins Guide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **11**
-- The Ten Regions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **12**
-- Cross-Regional Tensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **22**
-- Creating Your Regional Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **24**
-- Final Thoughts: Your Place in the World . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **27**
-- Languages and Culture of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **29**
-- Languages of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **30**
-- Cultural Practices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **36**
-- Regional Customs and Taboos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **41**
-- Superstitions and Common Beliefs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **46**
-- Conflict Resolution Customs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **50**
-- Practical Gameplay Impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **53**
-- Final Thoughts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **56**
-- Northreach: Your Frontier Home . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **57**
-- Places of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **65**
-- Cultures of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **72**
-- People of Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **80**
-- The Northwatch Wardens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
-- The Northwatch Wardens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
-- Roster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **89**
-- The Triad: Guild Leadership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **91**
-- Field Members . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **92**
-- Guild Operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **93**
-- The Wider World of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **94**
-- Welcome to Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **94**
-- Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **100**
-- Solaris Dominion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **102**
-- The Nullwood Expanse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **109**
-- The Stonebound Depths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **112**
-- VHAROXIS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **120**
-- THE SHATTERED COAST . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **124**
-- The Emberlands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **127**
-- The Verdant Marches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **131**
-- The Sunken Dominion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **135**
-- The Far North . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **138**
-- Organizations of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **141**
-- Gods and Religion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **152**
-- Divinity’s Beacon — Pantheon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **152**
-- Religious Practices in Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **154**
-- Places of Legend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **165**
-- Divinity's Beacon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **165**
-- Solace Nexus — Ley-Port City of Magic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **166**
-- Practical Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **167**
-- Player Quick Reference Guide . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **167**
-- Currency and Trade in Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **175**
-- Common Goods and Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **185**
-- Travel and Distance in Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **198**
-- Appendix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **207**
-- Glossary of Aevoria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **207**
-- Songs of the Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **233**
-- THE FRONTIER BREATHES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **234**
-- Welcome to Northreach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **244**
-- 1) Northreach Lore Primer (Common Knowledge) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **245**
-- 2) Campaign Journal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **250**
+- Welcome to Aevoria — **1**
+- How to Use This Book — **1**
+- Character Creation — **4**
+- Creating Your Character — **4**
+- Regional Origins Guide — **11**
+- The Ten Regions — **12**
+- Cross-Regional Tensions — **22**
+- Creating Your Regional Background — **24**
+- Final Thoughts: Your Place in the World — **27**
+- Languages and Culture of Aevoria — **29**
+- Languages of Aevoria — **30**
+- Cultural Practices — **36**
+- Regional Customs and Taboos — **41**
+- Superstitions and Common Beliefs — **46**
+- Conflict Resolution Customs — **50**
+- Practical Gameplay Impact — **53**
+- Final Thoughts — **56**
+- Northreach: Your Frontier Home — **57**
+- Places of Northreach — **65**
+- Cultures of Northreach — **72**
+- People of Northreach — **80**
+- The Northwatch Wardens — **89**
+- The Northwatch Wardens — **89**
+- Roster — **89**
+- The Triad: Guild Leadership — **91**
+- Field Members — **92**
+- Guild Operations — **93**
+- The Wider World of Aevoria — **94**
+- Welcome to Aevoria — **94**
+- Northreach — **100**
+- Solaris Dominion — **102**
+- The Nullwood Expanse — **109**
+- The Stonebound Depths — **112**
+- VHAROXIS — **120**
+- THE SHATTERED COAST — **124**
+- The Emberlands — **127**
+- The Verdant Marches — **131**
+- The Sunken Dominion — **135**
+- The Far North — **138**
+- Organizations of Aevoria — **141**
+- Gods and Religion — **152**
+- Divinity’s Beacon — Pantheon — **152**
+- Religious Practices in Aevoria — **154**
+- Places of Legend — **165**
+- Divinity's Beacon — **165**
+- Solace Nexus — Ley-Port City of Magic — **166**
+- Practical Information — **167**
+- Player Quick Reference Guide — **167**
+- Currency and Trade in Northreach — **175**
+- Common Goods and Services — **185**
+- Travel and Distance in Northreach — **198**
+- Appendix — **207**
+- Glossary of Aevoria — **207**
+- Songs of the Northreach — **233**
+- THE FRONTIER BREATHES — **234**
+- Welcome to Northreach — **244**
+- 1) Northreach Lore Primer (Common Knowledge) — **245**
+- 2) Campaign Journal — **250**
 
 \page
 
@@ -194,6 +189,8 @@ Additional resources including the glossary, music recommendations, the extended
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
 
+{{watercolor8,top:55px,left:383px,width:398px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## What You Need to Know
@@ -262,6 +259,8 @@ Good communication makes for better games:
 
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
+
+{{watercolor10,top:452px,left:199px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -357,7 +356,10 @@ The best adventures come from curiosity, courage, and characters who care about 
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
 
+{{watercolor7,top:333px,left:163px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Character Creation
 
 {{wide
@@ -443,6 +445,8 @@ Choose **one** of the following:
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
+
+{{watercolor1,top:450px,left:53px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1023,7 +1027,10 @@ It asks only one question:
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
+{{watercolor3,top:506px,left:225px,width:334px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 
 # Regional Origins Guide
@@ -1185,6 +1192,7 @@ Answer 2-3 of these to develop your backstory:
 {{footnote THE TEN REGIONS}}
 
 \page
+
 ---
 
 ## 2. Solaris Dominion — The Cultural Capital
@@ -1281,7 +1289,6 @@ Former spy for the Chorus who saw too much and fled north. Excellent at gatherin
 {{footnote THE TEN REGIONS}}
 
 \page
-
 
 ## 3. Nullwood Expanse — The Silent Kingdom
 
@@ -2038,6 +2045,7 @@ Hermit who meditated in ice caves until something spoke back. Emerged with uncan
 {{footnote THE TEN REGIONS}}
 
 \page
+
 {{wide
 # Cross-Regional Tensions
 
@@ -2093,6 +2101,8 @@ Understanding how different regions view each other enriches roleplay and create
 
 {{pageNumber,auto}}
 {{footnote CROSS-REGIONAL TENSIONS}}
+
+{{watercolor7,top:306px,left:127px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2259,6 +2269,8 @@ A Vharoxis syndicate owes you a favor—one. You can call it in for significant 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
 
+{{watercolor4,top:439px,left:222px,width:358px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 #### Shattered Coast Variants
@@ -2323,6 +2335,8 @@ You've explored Far North ruins and survived. You recognize Aeorian architectura
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
 
+{{watercolor12,top:446px,left:339px,width:383px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Languages by Region
@@ -2376,6 +2390,8 @@ With DM approval, you can replace one background tool proficiency with a regiona
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR REGIONAL BACKGROUND}}
+
+{{watercolor9,top:280px,left:135px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2446,6 +2462,8 @@ Answer these questions to ground your character in their region:
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
 
+{{watercolor13,top:354px,left:401px,width:251px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Working With Your DM
@@ -2494,7 +2512,10 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
 
+{{watercolor9,top:477px,left:161px,width:271px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Languages and Culture of Aevoria
 {{wide
 ## A Player's Guide to Communication and Customs
@@ -2559,7 +2580,10 @@ Choose languages that fit your character's story and will be useful in the campa
 {{pageNumber,auto}}
 {{footnote LANGUAGES AND CULTURE OF AEVORIA}}
 
+{{watercolor13,top:352px,left:258px,width:395px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 ## How to Use This Chapter
 
@@ -2643,6 +2667,8 @@ Dwarves appreciate non-dwarves who learn their language—it shows respect for t
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
+
+{{watercolor4,top:733px,left:235px,width:341px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2802,6 +2828,8 @@ Speaking Orc with proper inflection shows respect. The language values directnes
 
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
+
+{{watercolor8,top:178px,left:78px,width:264px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3072,6 +3100,8 @@ Recommended languages based on common character backgrounds:
 {{pageNumber,auto}}
 {{footnote LANGUAGES OF AEVORIA}}
 
+{{watercolor5,top:546px,left:304px,width:364px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 # Cultural Practices
@@ -3172,6 +3202,7 @@ Using the wrong greeting or title can impose disadvantage on Charisma checks. Yo
 {{footnote CULTURAL PRACTICES}}
 
 \page
+
 {{wide
 ## Dining Customs
 
@@ -3350,7 +3381,10 @@ Gifts carry meaning beyond their material value.
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
 
+{{watercolor8,top:315px,left:426px,width:320px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 ## Hospitality Expectations
 
@@ -3443,6 +3477,8 @@ These violations follow you. In Northreach, a broken hearth-oath is remembered f
 
 {{pageNumber,auto}}
 {{footnote CULTURAL PRACTICES}}
+
+{{watercolor13,top:566px,left:495px,width:344px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3622,6 +3658,8 @@ Possible through consistent actions over time, but takes years. "Fool me once, a
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
+{{watercolor13,top:204px,left:88px,width:293px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -3701,6 +3739,8 @@ The Tail Spinner's Cord and similar venues are neutral ground. Violence there is
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
+{{watercolor11,top:513px,left:233px,width:298px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -3772,6 +3812,8 @@ The lake at Vaeltharyn's heart. Causing ripples deliberately is grave offense.
 
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
+
+{{watercolor9,top:469px,left:360px,width:279px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3871,6 +3913,8 @@ Fire-shrines and ceremonial flames must never be intentionally put out. Grave sp
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
+{{watercolor2,top:578px,left:303px,width:375px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Verdant Marches — Beast-Haunted Wilds
@@ -3969,6 +4013,8 @@ Divers who become obsessed with the ruins are watched carefully. Many never retu
 {{pageNumber,auto}}
 {{footnote REGIONAL CUSTOMS AND TABOOS}}
 
+{{watercolor9,top:396px,left:301px,width:257px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -4040,6 +4086,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
+
+{{watercolor3,top:195px,left:479px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4231,6 +4279,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
+{{watercolor10,top:609px,left:409px,width:394px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Wedding Ceremonies
@@ -4340,6 +4390,8 @@ The Far North has minimal living culture—nomadic groups value survival, practi
 {{pageNumber,auto}}
 {{footnote SUPERSTITIONS AND COMMON BELIEFS}}
 
+{{watercolor8,top:322px,left:203px,width:284px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 # Conflict Resolution Customs
@@ -4433,6 +4485,8 @@ Frequent. Strength proves rightness.
 {{pageNumber,auto}}
 {{footnote CONFLICT RESOLUTION CUSTOMS}}
 
+{{watercolor7,top:164px,left:229px,width:289px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Mediation and Arbitration
@@ -4519,7 +4573,10 @@ Frequent. Strength proves rightness.
 {{pageNumber,auto}}
 {{footnote CONFLICT RESOLUTION CUSTOMS}}
 
+{{watercolor8,top:717px,left:67px,width:328px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 ## Blood Price and Compensation
 
@@ -4564,6 +4621,8 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 
 {{pageNumber,auto}}
 {{footnote CONFLICT RESOLUTION CUSTOMS}}
+
+{{watercolor7,top:566px,left:167px,width:358px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4648,6 +4707,8 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 
 {{pageNumber,auto}}
 {{footnote PRACTICAL GAMEPLAY IMPACT}}
+
+{{watercolor10,top:429px,left:175px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4740,6 +4801,8 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 {{pageNumber,auto}}
 {{footnote PRACTICAL GAMEPLAY IMPACT}}
 
+{{watercolor1,top:339px,left:483px,width:400px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Creating Cultural Hooks
@@ -4830,6 +4893,8 @@ In cities with formal legal systems, blood price conflicts with state law. Tradi
 
 {{pageNumber,auto}}
 {{footnote PRACTICAL GAMEPLAY IMPACT}}
+
+{{watercolor2,top:123px,left:180px,width:388px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4931,7 +4996,10 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS}}
 
+{{watercolor8,top:144px,left:64px,width:384px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Northreach: Your Frontier Home
 
 {{wide
@@ -4947,8 +5015,9 @@ Northreach is a cold, sparsely settled frontier where survival depends on commun
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
-\page
+{{watercolor6,top:736px,left:449px,width:346px,background-color:#BBAD82,opacity:80%}}
 
+\page
 
 ---
 
@@ -5021,6 +5090,8 @@ The Wardens are Northreach's frontier protection guild, operating from Waystone 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
+{{watercolor6,top:618px,left:91px,width:394px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Magic and the Strange
@@ -5079,6 +5150,8 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
+{{watercolor8,top:705px,left:176px,width:383px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### About Notable Figures
@@ -5121,6 +5194,8 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
+
+{{watercolor12,top:636px,left:237px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5177,6 +5252,8 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
+{{watercolor9,top:349px,left:260px,width:394px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Local Customs and Etiquette
@@ -5232,6 +5309,8 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
+
+{{watercolor12,top:114px,left:139px,width:339px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5301,6 +5380,8 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
+{{watercolor9,top:297px,left:222px,width:292px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ---
@@ -5360,7 +5441,10 @@ The frontier rewards the bold, the clever, and the prepared. But it punishes the
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
+{{watercolor4,top:348px,left:51px,width:352px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Places of Northreach
 
 
@@ -5431,6 +5515,8 @@ A farming and herding village built on good soil and stubborn determination. Wel
 
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
+
+{{watercolor1,top:288px,left:50px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5521,6 +5607,8 @@ An outlying sheep farm that represents the isolated homesteads common on the fro
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
+{{watercolor11,top:521px,left:24px,width:325px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Daily Life
@@ -5607,6 +5695,8 @@ About 90 permanent residents, plus floating population of travelers:
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
+{{watercolor11,top:650px,left:441px,width:342px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Notable Locations Within Pinebrook
@@ -5691,6 +5781,8 @@ About 200 permanent residents:
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
+{{watercolor8,top:533px,left:399px,width:286px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Daily Life in Palebank
@@ -5774,6 +5866,8 @@ What can be seen from outside:
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
+{{watercolor13,top:562px,left:295px,width:330px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Temple of the Dragonknights (Northwest Mountains)
@@ -5852,6 +5946,8 @@ Stories about Noke's Tower:
 
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
+
+{{watercolor13,top:531px,left:301px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5947,7 +6043,10 @@ Some can't endure frontier life:
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
+{{watercolor1,top:556px,left:468px,width:293px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Cultures of Northreach
 
 
@@ -6024,6 +6123,8 @@ Nature commands respect:
 
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
+
+{{watercolor13,top:121px,left:253px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6120,6 +6221,8 @@ Dwarves in Northreach come from two main sources:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor5,top:624px,left:448px,width:381px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Dwarven Contributions to Northreach
@@ -6211,6 +6314,8 @@ Elves face unique frontier difficulties:
 
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
+
+{{watercolor3,top:588px,left:327px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6320,6 +6425,8 @@ Occasionally found in Northreach:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor1,top:734px,left:458px,width:327px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Intercultural Dynamics
@@ -6425,6 +6532,8 @@ Maintained to varying degrees:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor6,top:346px,left:332px,width:371px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Written Communication
@@ -6525,6 +6634,8 @@ Hard winters teach lessons:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor5,top:635px,left:227px,width:283px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Clothing and Practical Gear
@@ -6624,6 +6735,8 @@ What brings people together:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor12,top:162px,left:180px,width:399px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Unspoken Cultural Rules
@@ -6666,7 +6779,10 @@ What brings people together:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
+{{watercolor7,top:72px,left:209px,width:306px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{descriptive
 ##### 🌟 PLAYER-SAFE CONTENT
 
@@ -6741,8 +6857,9 @@ Efficient and no-nonsense. Mara knows exactly what's in the guild's stores at an
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
-\page
+{{watercolor2,top:23px,left:360px,width:372px,background-color:#BBAD82,opacity:80%}}
 
+\page
 
 ### Lorewarden Elric Vael
 
@@ -6807,6 +6924,8 @@ Quiet and observant. Bordel prefers to watch and wait rather than rush in, which
 
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
+
+{{watercolor1,top:87px,left:480px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6881,6 +7000,8 @@ Serious and steadfast. Galvena takes her oaths literally and holds others to the
 
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
+
+{{watercolor10,top:464px,left:191px,width:259px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6958,6 +7079,8 @@ Dramatic and confident. Aurixean treats every mission like a performance and ins
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
+{{watercolor2,top:531px,left:335px,width:285px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Finethir Shinebright
@@ -7031,6 +7154,8 @@ Nervous but earnest. Willen struggles with confidence but pushes through fear wh
 
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
+
+{{watercolor10,top:715px,left:130px,width:280px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7120,6 +7245,8 @@ Gruff and self-sufficient. Tulgi doesn't ask for help and doesn't offer it unles
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
+{{watercolor1,top:549px,left:423px,width:387px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Urgon Wenth (Palebank Village)
@@ -7185,6 +7312,8 @@ Hardworking and isolated. Westly manages his farm with minimal help and deals wi
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
+{{watercolor5,top:168px,left:337px,width:335px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Cultural Figures and Legends
@@ -7249,6 +7378,8 @@ Professional protectors who handle the dangers that ordinary folk can't. They ea
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
+{{watercolor13,top:331px,left:109px,width:255px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Social Customs and Etiquette
@@ -7306,7 +7437,10 @@ In a frontier region, your reputation is built through actions:
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
+{{watercolor4,top:690px,left:190px,width:309px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Northwatch Wardens
 
 # The Northwatch Wardens
@@ -7431,6 +7565,8 @@ Father Merriksonn • Willen • Flynt • Joel (ally)
 {{pageNumber,auto}}
 {{footnote ROSTER}}
 
+{{watercolor11,top:448px,left:161px,width:250px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Wild Allies
@@ -7443,6 +7579,8 @@ Welton • Palebank • Pinebrook
 
 {{pageNumber,auto}}
 {{footnote ROSTER}}
+
+{{watercolor11,top:728px,left:47px,width:357px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7505,6 +7643,8 @@ The Northwatch Wardens are overseen by three leaders, each responsible for a cri
 
 {{pageNumber,auto}}
 {{footnote THE TRIAD: GUILD LEADERSHIP}}
+
+{{watercolor1,top:686px,left:157px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7641,6 +7781,8 @@ The Hearthwardens focus on community support, healing, diplomacy, and maintainin
 
 {{pageNumber,auto}}
 {{footnote FIELD MEMBERS}}
+
+{{watercolor11,top:581px,left:471px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7791,7 +7933,10 @@ The Wardens believe in second chances for honest mistakes, but not for betrayal 
 {{pageNumber,auto}}
 {{footnote GUILD OPERATIONS}}
 
+{{watercolor1,top:115px,left:351px,width:331px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Wider World of Aevoria
 
 # Welcome to Aevoria
@@ -7826,6 +7971,8 @@ The civilized heartlands—Solaris, the Stonebound Depths, Vaeltharyn—are plac
 
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
+
+{{watercolor5,top:736px,left:353px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7876,6 +8023,8 @@ They view recent "awakenings" in the world with deep unease, though they struggl
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
 
+{{watercolor10,top:461px,left:71px,width:323px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### 4. The Stonebound Depths — The Dwarven Kingdom
@@ -7920,6 +8069,8 @@ Recently, strange things have been washing ashore: glowing stones, humming metal
 
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
+
+{{watercolor11,top:41px,left:233px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7966,6 +8117,8 @@ The Dominion is "awakening" in its own way—ancient structures are rising, and 
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
 
+{{watercolor10,top:447px,left:180px,width:373px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### 10. The Far North — The Frozen Wastes
@@ -8002,6 +8155,8 @@ As a Northwatch Warden, you operate primarily in the frontier. But the contracts
 
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
+
+{{watercolor7,top:510px,left:10px,width:382px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8050,7 +8205,10 @@ The best stories aren't the ones you read—they're the ones you live.
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
 
+{{watercolor5,top:169px,left:149px,width:371px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Northreach 
 
 The Frontier Region
@@ -8143,6 +8301,8 @@ Northreach's geography follows a practical travel network centered on **Waystone
 {{pageNumber,auto}}
 {{footnote NORTHREACH}}
 
+{{watercolor12,top:509px,left:393px,width:251px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Daily Life
@@ -8175,7 +8335,10 @@ A frontier protection guild based at Waystone Inn, taking contracts to protect s
 {{pageNumber,auto}}
 {{footnote NORTHREACH}}
 
+{{watercolor1,top:397px,left:177px,width:351px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Solaris Dominion
 
 The Cultural Capital  
@@ -8273,6 +8436,8 @@ Since Eclipse Day, the Cord has become the epicenter of cultural response:
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 
+{{watercolor7,top:347px,left:84px,width:309px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Eldric's Monument
@@ -8359,6 +8524,8 @@ Strictly opposed; pacts are dangerous shortcuts inviting corruption. They advoca
 
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
+
+{{watercolor3,top:28px,left:255px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8451,6 +8618,8 @@ Neutral to welcoming; pacts are one of many paths. They're more interested in co
 
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
+
+{{watercolor13,top:270px,left:28px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8548,6 +8717,8 @@ Months later, Eclipse Day continues to shape Solaris:
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 
+{{watercolor2,top:516px,left:265px,width:290px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Culture and Society
@@ -8640,6 +8811,8 @@ Many citizens know at least one Eldric tale by heart:
 
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
+
+{{watercolor3,top:92px,left:78px,width:395px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8748,6 +8921,8 @@ The event changed magical practice:
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 
+{{watercolor3,top:409px,left:356px,width:346px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Connections to the World
@@ -8821,7 +8996,10 @@ Information flows faster through Solaris than anywhere:
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 
+{{watercolor5,top:439px,left:129px,width:291px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Nullwood Expanse 
 
 The Elven Kingdom
@@ -8905,6 +9083,8 @@ The city feels serene, timeless, and faintly melancholic.
 
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
+
+{{watercolor10,top:439px,left:335px,width:299px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9007,6 +9187,8 @@ Their faith emphasizes restraint and introspection over grand displays of devoti
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
 
+{{watercolor8,top:20px,left:377px,width:347px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Eclipse Day in the Nullwood
@@ -9041,7 +9223,10 @@ Growing concern. Reports of strange magic in the frontier unsettle the elves, th
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
 
+{{watercolor10,top:77px,left:176px,width:255px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Stonebound Depths
 
 The Dwarven Kingdom  
@@ -9108,6 +9293,8 @@ Notable locations within the Depths:
 
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
+
+{{watercolor2,top:148px,left:463px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9215,6 +9402,8 @@ The centerpiece of dwarven civilization:
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
+{{watercolor2,top:598px,left:208px,width:387px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Notable Districts
@@ -9309,6 +9498,8 @@ Stonebound culture is built on three fundamental principles:
 
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
+
+{{watercolor5,top:446px,left:114px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9416,6 +9607,8 @@ Relatively high:
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
+{{watercolor13,top:528px,left:20px,width:287px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Magic in the Depths
@@ -9521,6 +9714,8 @@ The Deep Father is seen as the eternal foundation—the consciousness of stone i
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
+{{watercolor4,top:173px,left:170px,width:288px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### The Forge-Mother
@@ -9616,6 +9811,8 @@ Deep-Readers declared: "A new verse in the world's song has begun."
 
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
+
+{{watercolor2,top:374px,left:114px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9727,6 +9924,8 @@ Interest.
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
+{{watercolor11,top:11px,left:175px,width:298px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Knowledge Sharing
@@ -9760,7 +9959,10 @@ Interest.
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
+{{watercolor13,top:494px,left:212px,width:344px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # VHAROXIS 
 
 The City of Masks  
@@ -9853,6 +10055,8 @@ The mercenary district. Arena pits, training halls, and the Ironbound Syndicate'
 
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
+
+{{watercolor11,top:176px,left:1px,width:338px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9975,6 +10179,8 @@ These factions constantly spy, sabotage, bribe, assassinate, and betray each oth
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
 
+{{watercolor3,top:463px,left:114px,width:330px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Culture & Society
@@ -10053,6 +10259,8 @@ The city has been more volatile than ever since.
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
 
+{{watercolor10,top:719px,left:471px,width:295px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Relations with Other Regions
@@ -10125,7 +10333,10 @@ Extreme expeditions financed from here.
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
 
+{{watercolor12,top:84px,left:131px,width:297px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # THE SHATTERED COAST 
 
 Maritime Frontier of Wrecks & Whispers
@@ -10209,6 +10420,8 @@ Locals claim the sea "speaks" to them. Outsiders aren't sure whether to believe 
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
+
+{{watercolor5,top:160px,left:41px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10310,6 +10523,8 @@ Capturing wind in sails, bottles, or enchanted objects:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
 
+{{watercolor5,top:597px,left:386px,width:328px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Eclipse Day on the Shattered Coast
@@ -10401,7 +10616,10 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
 
+{{watercolor8,top:722px,left:345px,width:393px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Emberlands 
 
 T*he Volcanic South*  
@@ -10489,6 +10707,8 @@ Cindermarch is a place of constant industry. The sound of hammers on anvils echo
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
 
+{{watercolor11,top:58px,left:305px,width:289px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### 2. Ashfall Hold
@@ -10572,6 +10792,8 @@ Emberlands society values:
 
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
+
+{{watercolor7,top:455px,left:60px,width:382px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10676,6 +10898,8 @@ Lava rivers that flowed in rhythmic intervals, as if responding to a heartbeat d
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
 
+{{watercolor4,top:249px,left:40px,width:400px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Cultural Interpretation
@@ -10768,7 +10992,10 @@ The Emberlands and Northreach are geographically distant, but rumors of the Aeor
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
 
+{{watercolor6,top:290px,left:435px,width:358px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Verdant Marches
 
 Awakened Wilds of Green and Fury   
@@ -10861,6 +11088,8 @@ The Marches experience warm, rainy conditions year-round—perfect for life to f
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 
+{{watercolor7,top:156px,left:206px,width:398px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Major Settlements
@@ -10933,6 +11162,8 @@ A village built into the earth itself, with homes carved into hillsides and conn
 
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
+
+{{watercolor7,top:164px,left:29px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11023,6 +11254,8 @@ Faith in the Marches is fluid, oral, and tied to natural cycles:
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 
+{{watercolor2,top:343px,left:352px,width:384px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ---
@@ -11106,7 +11339,10 @@ Reports from Northreach trouble Marches druids—animals behaving strangely, pla
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 
+{{watercolor11,top:349px,left:274px,width:370px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Sunken Dominion
 
 Drowned Civilization of the Deep  
@@ -11189,6 +11425,8 @@ Tidebreaker Point is the safest place to observe the Dominion—from a distance.
 
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
+
+{{watercolor1,top:30px,left:155px,width:256px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11290,6 +11528,8 @@ Their involvement has complicated every attempt to regulate salvage operations.
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
 
+{{watercolor13,top:473px,left:372px,width:376px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ---
@@ -11347,7 +11587,10 @@ Since then, diving operations have become more dangerous. The ruins themselves s
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
 
+{{watercolor5,top:1px,left:415px,width:263px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # The Far North
 
 The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains. Few travel there by choice. Fewer return.
@@ -11436,6 +11679,8 @@ Some travelers report stranger sightings:
 
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
+
+{{watercolor11,top:62px,left:410px,width:365px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11534,6 +11779,8 @@ Multiple threats make the Far North deadly:
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
 
+{{watercolor2,top:552px,left:224px,width:268px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Local Knowledge
@@ -11619,7 +11866,10 @@ Traveling to the Far North requires extensive preparation:
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
 
+{{watercolor5,top:743px,left:190px,width:390px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Organizations of Aevoria
 *A Guide to Major Factions and Groups*
 
@@ -11635,6 +11885,8 @@ This guide covers what most people know about the major factions operating in Ae
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+
+{{watercolor2,top:279px,left:61px,width:325px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11672,6 +11924,8 @@ The Solace Trade Consortium controls much of the legitimate trade flowing throug
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor13,top:144px,left:415px,width:326px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Covenant of the Silent Vigil
@@ -11708,6 +11962,8 @@ The Covenant of the Silent Vigil is a multi-faith organization dedicated to prot
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor8,top:667px,left:27px,width:254px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Freelance Brotherhood
@@ -11740,6 +11996,8 @@ Wherever adventurers gather—major cities, frontier towns, and dangerous region
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+
+{{watercolor10,top:694px,left:453px,width:343px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11777,6 +12035,8 @@ The Archivists of Aeor are dedicated to recovering, studying, and cataloging rel
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor9,top:406px,left:36px,width:379px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Unmasked Parliament (Vharoxis Authority)
@@ -11812,6 +12072,8 @@ Limited. Vharoxis merchants and agents operate in other regions but rarely adver
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+
+{{watercolor7,top:50px,left:379px,width:374px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11849,6 +12111,8 @@ The Stonebound Assembly represents the dwarven communities dwelling deep beneath
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor8,top:96px,left:20px,width:310px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Silent Court (Nullwood Guardians)
@@ -11882,6 +12146,8 @@ The Silent Court operates almost exclusively within the Nullwood Expanse.
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+
+{{watercolor2,top:525px,left:338px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11919,6 +12185,8 @@ Leadership rotates based on current needs, but recognized figures include:
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+
+{{watercolor11,top:361px,left:369px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11967,6 +12235,8 @@ Reputation with one organization may help or hinder you with others:
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor6,top:55px,left:409px,width:353px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Organizations and Your Character
@@ -12000,7 +12270,10 @@ Your DM may expand on these organizations or introduce additional factions. The 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
+{{watercolor10,top:183px,left:74px,width:388px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Gods and Religion
 
 
@@ -12064,6 +12337,8 @@ These are influential but don’t outrank the Great Temples or the Triad. They o
 {{pageNumber,auto}}
 {{footnote DIVINITY’S BEACON — PANTHEON}}
 
+{{watercolor5,top:339px,left:169px,width:328px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Eirathene, the Crystal Bloom
@@ -12103,7 +12378,10 @@ Divinity’s Beacon is not anti‑wizard by default; it is anti‑**unaccountabl
 {{pageNumber,auto}}
 {{footnote DIVINITY’S BEACON — PANTHEON}}
 
+{{watercolor9,top:665px,left:11px,width:275px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Religious Practices in Aevoria
 *How Faith Works in Daily Life*
 
@@ -12160,6 +12438,8 @@ If your character is a divine spellcaster, your relationship with faith is deepe
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor12,top:33px,left:237px,width:286px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Temple Services and Costs
@@ -12201,6 +12481,8 @@ Divine magic requires components, temple upkeep, and the time of trained clerics
 
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+
+{{watercolor10,top:255px,left:317px,width:355px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12257,6 +12539,8 @@ Temples serve as community centers and information hubs:
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor9,top:284px,left:426px,width:378px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Religious Holidays and Festivals
@@ -12312,6 +12596,8 @@ Aevoria's calendar is marked by religious observances. Most people participate i
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor5,top:553px,left:478px,width:257px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Festival Opportunities
@@ -12363,6 +12649,8 @@ Religious festivals create opportunities for characters:
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor11,top:213px,left:398px,width:274px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Divine Magic in Society
@@ -12413,6 +12701,8 @@ Divine spellcasters hold unofficial authority:
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor1,top:345px,left:228px,width:362px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Temples as Safe Havens
@@ -12462,6 +12752,8 @@ Cost and rarity mean divine magic is saved for truly significant cases.
 
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+
+{{watercolor9,top:310px,left:425px,width:270px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12520,6 +12812,8 @@ True heresy (worshipping evil entities, dark pacts) is condemned:
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor11,top:88px,left:161px,width:389px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Religious Practices by Region
@@ -12566,6 +12860,8 @@ True heresy (worshipping evil entities, dark pacts) is condemned:
 
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+
+{{watercolor10,top:658px,left:141px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12619,6 +12915,8 @@ True heresy (worshipping evil entities, dark pacts) is condemned:
 
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+
+{{watercolor11,top:567px,left:492px,width:269px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12714,7 +13012,10 @@ Even if you're not a cleric or paladin:
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
+{{watercolor12,top:522px,left:469px,width:360px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Places of Legend
 
 # Divinity's Beacon
@@ -12733,7 +13034,13 @@ A major holy city that welcomes all good-aligned gods (no single state religion)
 ## See also
 - Pantheon details: See **Chapter 6: Gods and Religion**
 
+{{pageNumber,auto}}
+{{footnote DIVINITY'S BEACON}}
+
+{{watercolor11,top:606px,left:482px,width:376px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Solace Nexus — Ley-Port City of Magic
 
 Status: **world canon (off-map)**. Not located in Northreach.
@@ -12953,7 +13260,13 @@ In practice, that can mean:
 - Let the city feel safe until it suddenly isn’t; the tension is “civilization held together by chalk and etiquette.”
 - The shadow layer works best when it’s *plausible*—pacts aren’t everywhere, but they’re always an option.
 
+{{pageNumber,auto}}
+{{footnote SOLACE NEXUS — LEY-PORT CITY OF MAGIC}}
+
+{{watercolor12,top:32px,left:413px,width:259px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Practical Information
 
 # Player Quick Reference Guide
@@ -13000,6 +13313,8 @@ In practice, that can mean:
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+
+{{watercolor9,top:210px,left:290px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13080,6 +13395,8 @@ In practice, that can mean:
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 
+{{watercolor4,top:369px,left:155px,width:376px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Common Goods & Services
@@ -13127,6 +13444,8 @@ In practice, that can mean:
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 
+{{watercolor13,top:156px,left:174px,width:302px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Equipment & Gear
@@ -13172,6 +13491,8 @@ In practice, that can mean:
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+
+{{watercolor3,top:590px,left:117px,width:392px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13221,6 +13542,8 @@ In practice, that can mean:
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+
+{{watercolor11,top:365px,left:17px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13272,6 +13595,8 @@ In practice, that can mean:
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+
+{{watercolor10,top:105px,left:19px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13331,6 +13656,8 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+
+{{watercolor4,top:432px,left:94px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13416,7 +13743,10 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 
+{{watercolor12,top:394px,left:286px,width:295px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Currency and Trade in Northreach
 
 
@@ -13464,6 +13794,8 @@ Standard rates apply:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor9,top:613px,left:87px,width:292px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13539,6 +13871,8 @@ Standard rates apply:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor3,top:244px,left:418px,width:397px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13626,6 +13960,8 @@ Standard rates apply:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor6,top:321px,left:300px,width:250px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13717,6 +14053,8 @@ In Northreach, pure currency transactions are often impractical:
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
+{{watercolor6,top:324px,left:172px,width:251px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Guild Contracts and Payment
@@ -13795,6 +14133,8 @@ In Northreach, pure currency transactions are often impractical:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor10,top:475px,left:456px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13881,6 +14221,8 @@ In Northreach, pure currency transactions are often impractical:
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
+{{watercolor9,top:247px,left:261px,width:353px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Economic Challenges
@@ -13961,6 +14303,8 @@ In Northreach, pure currency transactions are often impractical:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor10,top:569px,left:108px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14048,6 +14392,8 @@ In Northreach, pure currency transactions are often impractical:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+
+{{watercolor10,top:28px,left:105px,width:262px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14152,6 +14498,8 @@ In Northreach, pure currency transactions are often impractical:
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
+{{watercolor10,top:181px,left:404px,width:396px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 **Working Comfortable:**
@@ -14241,7 +14589,10 @@ In Northreach, pure currency transactions are often impractical:
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
+{{watercolor3,top:572px,left:32px,width:257px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Common Goods and Services
 
 {{wide
@@ -14298,6 +14649,8 @@ Most manufactured goods cost **1.5× standard PHB prices** in Northreach settlem
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor6,top:324px,left:21px,width:323px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14362,6 +14715,8 @@ This is one of the most valuable benefits of Warden membership. A common room at
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor8,top:271px,left:82px,width:348px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14434,6 +14789,8 @@ The local cleric in Welton provides healing at reduced rates for community membe
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor9,top:380px,left:465px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14513,6 +14870,8 @@ Corel, the Senior Trailwarden and halfling shepherd, occasionally hires out his 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor12,top:443px,left:186px,width:256px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 **Animal Care:**
@@ -14583,6 +14942,8 @@ Steward Mara Fenwick maintains relationships with teamsters and animal handlers 
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor4,top:611px,left:324px,width:282px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14659,6 +15020,8 @@ Experienced wilderness travelers can supplement purchased rations with foraging 
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor2,top:365px,left:216px,width:278px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14749,6 +15112,8 @@ Characters proficient with herbalism kits can craft these remedies if they gathe
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor13,top:743px,left:123px,width:370px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Weapons (Frontier Prices = PHB × 1.5)
@@ -14833,6 +15198,8 @@ Common tools (carpenter's, cook's, smith's) are readily available. Specialized t
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor13,top:83px,left:64px,width:369px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Magical Items and Services
@@ -14912,6 +15279,8 @@ Lorewarden Elric is often conducting arcane research. Commission requests may ta
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor9,top:412px,left:49px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15000,6 +15369,8 @@ Payment on completion at Waystone Inn
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor4,top:277px,left:437px,width:332px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -15055,6 +15426,8 @@ Payment on completion at Waystone Inn
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+
+{{watercolor7,top:621px,left:396px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15122,6 +15495,8 @@ Northreach settlements often operate on trade and favor systems, especially in w
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor2,top:496px,left:23px,width:371px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -15180,7 +15555,10 @@ When supplies are critically low or danger is immediate, prices skyrocket:
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
+{{watercolor6,top:275px,left:71px,width:263px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Travel and Distance in Northreach
 
 {{wide
@@ -15226,6 +15604,8 @@ The following times assume **good weather, daylight travel, and a party on foot*
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+
+{{watercolor2,top:311px,left:153px,width:326px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15308,6 +15688,8 @@ Horses are expensive to maintain on the frontier but offer significant advantage
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
+{{watercolor3,top:646px,left:21px,width:310px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Snowshoes and Winter Travel
@@ -15389,6 +15771,8 @@ This is the only season where inexperienced travelers can reasonably survive Nor
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+
+{{watercolor7,top:316px,left:288px,width:297px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15477,6 +15861,8 @@ Travel on established roads rarely requires navigation checks. Wilderness travel
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
+{{watercolor12,top:14px,left:225px,width:261px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Landmarks and Wayfinding
@@ -15554,6 +15940,8 @@ Only attempt mountain crossings with experienced guides, proper equipment, and c
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+
+{{watercolor9,top:326px,left:123px,width:275px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15645,6 +16033,8 @@ Can be taken during normal travel day without extending journey time. Most parti
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
+{{watercolor8,top:510px,left:92px,width:340px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Long Rest (8 hours)
@@ -15729,6 +16119,8 @@ Feeding a party on the road reduces supply costs but takes time and skill.
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+
+{{watercolor8,top:83px,left:441px,width:270px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15820,6 +16212,8 @@ Traveling more than 8 hours per day:
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+
+{{watercolor13,top:338px,left:101px,width:276px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15914,7 +16308,10 @@ _________________________________________________________________
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
+{{watercolor10,top:232px,left:78px,width:389px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Appendix
 
 # Glossary of Aevoria
@@ -15957,6 +16354,8 @@ Silver dragon scholar and Northwatch Warden. Curious, methodical, and somewhat a
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor7,top:651px,left:495px,width:324px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## B
@@ -15972,6 +16371,8 @@ Marshal of the Northwatch Wardens. Human fighter from Northreach. Direct, practi
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor5,top:402px,left:320px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15995,6 +16396,8 @@ Aevoria uses standard D&D coinage: copper pieces (cp), silver pieces (sp), gold 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor9,top:136px,left:182px,width:376px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## D
@@ -16007,6 +16410,8 @@ Cult of dragon-worshippers who sought to gain draconic power through rituals and
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor3,top:15px,left:331px,width:396px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16027,6 +16432,8 @@ Region of Aevoria devastated by magical cataclysm within living memory. Landscap
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor1,top:536px,left:392px,width:260px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16058,6 +16465,8 @@ Gnome tinkerer and inventor working with the Northwatch Wardens. Enthusiastic ga
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor1,top:576px,left:290px,width:370px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## G
@@ -16075,6 +16484,8 @@ Half-orc laborer and Northwatch Warden. Quiet, immensely strong, kind-hearted. D
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor11,top:383px,left:19px,width:322px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## H
@@ -16085,6 +16496,8 @@ Organization of scouts, cartographers, and guides specializing in frontier explo
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor11,top:523px,left:4px,width:365px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## I
@@ -16093,6 +16506,8 @@ Organization of scouts, cartographers, and guides specializing in frontier explo
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor13,top:42px,left:468px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16103,6 +16518,8 @@ Human blacksmith in Northreach settlements. Practical craftsman providing weapon
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor6,top:85px,left:193px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16115,6 +16532,8 @@ Capital city of the Stonebound Depths. Great underground metropolis carved into 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor2,top:514px,left:396px,width:383px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## L
@@ -16124,6 +16543,8 @@ Dwarf tracker in Welton. Gruff, pragmatic, expert at reading wilderness signs. H
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor13,top:18px,left:471px,width:293px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16138,6 +16559,8 @@ Human cartographer and clerk for the Northwatch Wardens. Organized, detail-focus
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor12,top:59px,left:158px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16162,6 +16585,8 @@ Elven-dominated forest region characterized by silence wards and memory preserva
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor3,top:378px,left:204px,width:319px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## O
@@ -16170,6 +16595,8 @@ Elven-dominated forest region characterized by silence wards and memory preserva
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor6,top:672px,left:465px,width:302px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16188,6 +16615,8 @@ Trading village in southeast Northreach. Agricultural and commerce focus. Site o
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor3,top:182px,left:490px,width:362px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Q
@@ -16196,6 +16625,8 @@ Trading village in southeast Northreach. Agricultural and commerce focus. Site o
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor2,top:365px,left:485px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16212,6 +16643,8 @@ Human bard and Northwatch Warden. Charismatic storyteller, morale booster, and n
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor8,top:624px,left:218px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16259,6 +16692,8 @@ Underwater realm of aquatic peoples (merfolk, tritons, sea elves). Explored thro
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor12,top:696px,left:300px,width:252px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## T
@@ -16283,6 +16718,8 @@ Goliath healer in Palebank Village. Herbalist and practical medicine provider. T
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor6,top:326px,left:182px,width:364px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## U
@@ -16296,6 +16733,8 @@ Dwarf blacksmith in Palebank Village. Provides weapon repair, metal goods, and s
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor1,top:477px,left:163px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16317,6 +16756,8 @@ Outlaw city on the southern coast. Known for mask culture, black market trade, a
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor13,top:535px,left:422px,width:395px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16346,6 +16787,8 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor2,top:250px,left:464px,width:284px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## X
@@ -16355,6 +16798,8 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor3,top:92px,left:288px,width:302px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Y
@@ -16363,6 +16808,8 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+
+{{watercolor12,top:192px,left:251px,width:321px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16411,7 +16858,10 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
+{{watercolor11,top:100px,left:45px,width:331px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Songs of the Northreach
 A Frontier Songbook for Season One of the Northwatch Wardens
 
@@ -16466,6 +16916,8 @@ A Frontier Songbook for Season One of the Northwatch Wardens
 
 {{pageNumber,auto}}
 {{footnote SONGS OF THE NORTHREACH}}
+
+{{watercolor1,top:629px,left:135px,width:392px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16594,6 +17046,8 @@ Is colder than the bone.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
+{{watercolor5,top:698px,left:133px,width:269px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### THE WOMAN WITH TWO SHADOWS  
@@ -16717,6 +17171,8 @@ To ever sleep like a child.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+
+{{watercolor13,top:187px,left:374px,width:310px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16843,6 +17299,8 @@ That never truly fade.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+
+{{watercolor7,top:438px,left:218px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16971,6 +17429,8 @@ What the shepherd heard too much.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
+{{watercolor4,top:663px,left:216px,width:333px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### THE WOLF WHO WALKED LIKE A MAN  
@@ -17094,6 +17554,8 @@ Will never turn his back.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+
+{{watercolor5,top:10px,left:294px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17223,6 +17685,8 @@ In the notes of tomorrow’s tune.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
+{{watercolor4,top:213px,left:456px,width:386px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### THE APPRENTICE AND THE BROKEN STAR  
@@ -17349,6 +17813,8 @@ With the candle that won’t go out.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
+{{watercolor9,top:150px,left:87px,width:347px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### THE MASTER WHO WALKED INTO WINTER  
@@ -17472,6 +17938,8 @@ For a man once known as Guz.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+
+{{watercolor8,top:363px,left:182px,width:264px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17597,6 +18065,8 @@ Knows more than he can view.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+
+{{watercolor8,top:20px,left:347px,width:353px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17724,7 +18194,10 @@ With the dawn held in her hands.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
+{{watercolor8,top:722px,left:374px,width:289px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 # Welcome to Northreach
 
 
@@ -17752,10 +18225,9 @@ This journal is your record of what you’ve seen and what you’ve chosen: the 
 {{pageNumber,auto}}
 {{footnote WELCOME TO NORTHREACH}}
 
+{{watercolor6,top:483px,left:53px,width:364px,background-color:#BBAD82,opacity:80%}}
+
 \page
-
-
-
 
 ---
 
@@ -17810,6 +18282,8 @@ The Northwatch Wardens are a contract-based guild headquartered at the **Wayston
 
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
+
+{{watercolor8,top:692px,left:46px,width:274px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17882,6 +18356,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
+{{watercolor13,top:185px,left:221px,width:376px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -17902,6 +18378,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
+{{watercolor1,top:389px,left:420px,width:388px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{wide
@@ -17917,6 +18395,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
+
+{{watercolor8,top:97px,left:207px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17937,6 +18417,8 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
+
+{{watercolor5,top:361px,left:118px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17997,7 +18479,10 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
+{{watercolor2,top:738px,left:203px,width:253px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 ## 2.4 Places (location index)
 | Location | First visit | What we learned | Notes |
@@ -18051,7 +18536,10 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
+{{watercolor3,top:13px,left:67px,width:315px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 ## 2.6 Session log (append below)
 
@@ -18095,4 +18583,10 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
+{{watercolor1,top:293px,left:440px,width:335px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
+
+{{watercolor11,top:405px,left:216px,width:360px,background-color:#BBAD82,opacity:80%}}
+

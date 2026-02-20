@@ -22,7 +22,7 @@ For deeper secrets and campaign mechanics, see:
 
 ---
 
-**🌑 THE CORE THROUGHLINE**
+#### **🌑 THE CORE THROUGHLINE**
 
 Across the frontier, **ancient magic is waking up** — not in one place, but everywhere.
 Each adventure the players take is a *symptom* of a deeper, spreading disturbance:
@@ -42,7 +42,9 @@ Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **
 The Wardens don’t know this yet.
 But every contract they take is another puzzle piece.
 
-**🧩 HOW EACH MODULE FITS INTO THE ARC**
+\column
+
+#### **🧩 HOW EACH MODULE FITS INTO THE ARC**
 
 Below is the “why it matters” for each adventure, independent of order.
 
@@ -99,7 +101,7 @@ The Wardens learn that:
 This is the campaign’s *escalation*.
 
 
-**🐑 4. The Wild Sheep Chase — Magical Chaos Spreads**
+**4. The Wild Sheep Chase — Magical Chaos Spreads**
 
 **Theme:** Magic behaving unpredictably.
 **Arc Connection:** The Wand of True Polymorph is unstable because of the Echo.
@@ -119,9 +121,9 @@ This is the campaign’s *comic but meaningful warning*.
 
 
 
-\page
+\column
 
-**🌲 5. Peril in Pinebrook — The Frontier Cracks**
+**5. Peril in Pinebrook — The Frontier Cracks**
 
 **Theme:** Small communities caught in the crossfire of rising magic.
 **Arc Connection:** Pinebrook’s troubles are minor compared to the others, but they show the *human cost* of the Echo.
@@ -138,7 +140,7 @@ The Wardens realize:
 
 This is the campaign’s *worldbuilding anchor*.
 
-**🧵 HOW THE PIECES INTERLOCK (No Matter the Order)**
+**HOW THE PIECES INTERLOCK (No Matter the Order)**
 
 **The Wolves hint at the disturbance.**
 
@@ -163,7 +165,6 @@ The order doesn’t matter because each adventure:
 - stands alone as a contract
 - reveals a different facet of the same phenomenon
 - builds toward the same overarching mystery
-
 \page
 
 **CAMPAIGN ARC STRUCTURE**
@@ -208,6 +209,7 @@ While adventures can be played in any order due to their modular nature, they na
 **What Players Don't Know Yet:** Who activated Salsvault and why. Whether other Aeorian facilities exist. What can be done to stop it.
 
 ---
+\page
 
 ## Arc 3: Convergence — Rising Threats
 **Theme:** With the source revealed, dangerous factions mobilize to exploit or control the awakening magic. The Wardens must protect the frontier from those who would weaponize the Aeorian Echo while investigating who triggered the ancient ruins and why.
@@ -239,7 +241,7 @@ Each arc builds naturally on the last while remaining playable in flexible order
 The transitions account for players experiencing adventures out of order by providing modular revelation moments that work regardless of sequence.
 
 
-**🏛️ THE NORTHWATCH WARDENS AS THE CAMPAIGN FRAME**
+**THE NORTHWATCH WARDENS AS THE CAMPAIGN FRAME**
 
 The guild structure is the glue that makes the modular format work.
 
@@ -249,6 +251,8 @@ The guild structure is the glue that makes the modular format work.
 - A briefing from Brenna, Mara, or Elric
 - Optional rumors or cross-adventure clues
 
+\column
+
 **Every session ends with:**
 
 - A report to the guild
@@ -257,9 +261,8 @@ The guild structure is the glue that makes the modular format work.
 
 This keeps the campaign cohesive even when the cast changes week to week.
 
-\page
 
-**🔮 THE LONG GAME: Where This Is All Going**
+##  **🔮 THE LONG GAME: Where This Is All Going**
 
 As the Wardens complete contracts, they uncover:
 
@@ -296,7 +299,7 @@ A multi‑session arc returning to **The Far North** to confront the true source
 
 **The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
 \page
-
+{{wide
 **BETWEEN-ARC TRANSITION SCENES**
 
 These scenes help transition between arcs, showing the evolution of the Wardens' understanding and the frontier's changing state. Use them when players complete the last adventure of an arc, or at the start of the first adventure in the next arc.
@@ -304,6 +307,9 @@ These scenes help transition between arcs, showing the evolution of the Wardens'
 ---
 
 ## Transition 1: Arc 1 → Arc 2
+
+}}
+
 ### "The Pattern Emerges"
 
 **When to Use:** After players complete adventures in Arc 1 (Wolves of Welton, Peril in Pinebrook) and before starting Arc 2.
@@ -311,7 +317,7 @@ These scenes help transition between arcs, showing the evolution of the Wardens'
 **Setting:** Evening at Waystone Inn, the Wardens gather in the common room after another successful contract.
 
 **Scene:**
-
+{{descriptive
 The fire crackles in the hearth as the Wardens nurse their drinks and compare notes from recent contracts. Marshal Brenna Thorne enters from her office, followed by Lorewarden Elric Vael, who carries a leather-bound journal and several rolled maps.
 
 "Gather round," Brenna says, her voice carrying the weight of concern. "Elric's been tracking something."
@@ -325,7 +331,9 @@ He looks up at the Wardens. "Whatever's happening, it's not isolated. It's sprea
 Brenna leans forward. "We need to know more. The frontier depends on us understanding what we're facing."
 
 Steward Mara Fenwick enters with a new contract. "Speaking of which, we've received word from Palebank Village. Something about a strange disease..." She exchanges a meaningful glance with Elric. "The timing matches."
+}}
 
+\column
 **Purpose of This Scene:**
 - Validates player discoveries across multiple adventures
 - Shows NPCs taking the mystery seriously
@@ -334,7 +342,7 @@ Steward Mara Fenwick enters with a new contract. "Speaking of which, we've recei
 - Works even if players only completed one Arc 1 adventure (Elric mentions other reports)
 
 ---
-
+\page
 ## Transition 2: Arc 2 → Arc 3
 ### "Word Spreads"
 
@@ -343,7 +351,7 @@ Steward Mara Fenwick enters with a new contract. "Speaking of which, we've recei
 **Setting:** Two weeks after the Salsvault expedition, in the Waystone Inn's newly designated "War Room."
 
 **Scene:**
-
+{{descriptive
 The atmosphere in Waystone Inn has changed. What was once a simple frontier guild house now feels like a command center. Maps cover the walls, and Elric's research materials occupy an entire table. The mood is tense but purposeful.
 
 Marshal Brenna calls the Wardens to the War Room. "We have a problem," she says without preamble. "Word of your discovery at Salsvault is spreading—faster than we'd like."
@@ -357,6 +365,8 @@ Brenna's expression is grim. "Whatever you found in Salsvault, whatever the Aeor
 She meets each Warden's eyes. "The frontier is about to become much more dangerous. Not from beasts or bandits, but from people who see Aeorian magic as a weapon or a prize. We need to be ready."
 
 A new contract is pinned to the board: reports of cult activity near a temple in the mountains, and rumors of a dragon's interest in the region.
+}}
+\column
 
 **Purpose of This Scene:**
 - Acknowledges the weight of Salsvault revelation
@@ -366,8 +376,10 @@ A new contract is pinned to the board: reports of cult activity near a temple in
 - Creates urgency for the Temple of the Dragonknights adventure
 - Shows the guild evolving (War Room, increased security)
 
----
 
+
+---
+\page
 ## Transition 3: Arc 3 → Future Seasons
 ### "The Weight of Responsibility"
 
@@ -376,7 +388,7 @@ A new contract is pinned to the board: reports of cult activity near a temple in
 **Setting:** Late evening, the Wardens stand on the Waystone Inn's balcony overlooking Northreach as snow begins to fall.
 
 **Scene:**
-
+{{descriptive
 Marshal Brenna joins the Wardens on the balcony, two mugs of hot cider in hand. Below, Northreach's lights twinkle against the darkening sky. The frontier settlement feels different now—smaller and more fragile, knowing what threatens it.
 
 "You've done well," Brenna says quietly. "Better than I dared hope when we first opened these doors. You've saved Welton from awakened wolves. Protected Pinebrook. Uncovered the truth at Salsvault. Stopped a dragon cult from creating a dracolich." She pauses. "Most guilds would be celebrating. But you... you understand what's really at stake, don't you?"
@@ -390,7 +402,9 @@ She raises her mug. "To the Wardens. To the frontier. And to whatever comes next
 As the Wardens drink, Lorewarden Elric emerges onto the balcony, wrapped in a heavy cloak. "I hate to interrupt the moment," he says, "but I've been corresponding with scholars in Solaris. There are... theories about why Salsvault activated when it did. And some of those theories suggest this is just the beginning." He looks at the Wardens with a mixture of concern and hope. "We'll need you for what's ahead."
 
 In the distance, barely visible through the falling snow, strange lights flicker on the northern horizon—a reminder that the Aeorian Echo continues its work.
+}}
 
+\column
 **Purpose of This Scene:**
 - Provides emotional closure to Season 1's arc
 - Acknowledges player accomplishments
@@ -411,4 +425,3 @@ Because adventures can be completed in any order, adapt these scenes to match wh
 - **If players skip adventures:** NPCs acknowledge other Warden teams completed those contracts off-screen
 
 The transitions are modular frameworks, not rigid requirements. Adapt dialogue to reference specific player choices and discoveries.
-

@@ -67,8 +67,15 @@ Create ONE shared adventure before campaign:
 "You two were escorting caravan when bandits attacked. What was the scariest moment? Who saved whom?"
 }}
 
+{{pageNumber,auto}}
+{{footnote Quick Start}}
+
 ---
-\column
+
+{{pageNumber,auto}}
+{{footnote Session 0: Character Integration Prompts}}
+
+\page
 
 ### 3. What's Your First Memory of the Frontier?
 
@@ -116,6 +123,7 @@ Common motivations:
 - **Penance:** "Atone for past mistakes." → Offer redemption arcs
 }}
 
+\column
 **Guild Connection Types:**
 - **Marshal Brenna recruited you:** She saw potential; don't disappoint her
 - **Elric Vael intrigued you:** Mysteries and research drew you in
@@ -123,7 +131,6 @@ Common motivations:
 - **Reputation preceded guild:** Heard stories, wanted to join
 
 ---
-\column
 
 ### 5. Who in Northreach Do You Already Know?
 
@@ -153,7 +160,16 @@ PC 2 has crush on Sylra.
 Built-in party tension for roleplaying.
 }}
 
+
+{{pageNumber,auto}}
+{{footnote Quick Start}}
+
 ---
+
+{{pageNumber,auto}}
+{{footnote Session 0: Character Integration Prompts}}
+
+\page
 
 ### 6. What's Something You Left Behind (Person, Place, or Possession)?
 
@@ -197,6 +213,8 @@ Respect player boundaries:
 - **If adventure fear:** This is theme to explore in game
 }}
 
+\column
+
 Common frontier fears:
 - **Isolation:** Being alone/abandoned in wilderness → Separation scenarios
 - **Unknown:** Ancient magic, ruins, things we don't understand → Mystery elements
@@ -233,13 +251,23 @@ Create opportunities to showcase:
 }}
 
 **Mentorship Opportunities:**
+
 {{descriptive
 **Mentorship Example:**
 *Player: "I'm skilled at tracking."*
 **DM:** Young NPC (Kasira, Torbin, or Elara) asks to learn. PC becomes mentor.
 }}
 
+
+{{pageNumber,auto}}
+{{footnote Quick Start}}
+
 ---
+
+{{pageNumber,auto}}
+{{footnote Session 0: Character Integration Prompts}}
+
+\page
 
 ### 9. What's Your Relationship with Magic?
 
@@ -266,6 +294,7 @@ The campaign revolves around awakening magic. PC attitudes will shape their appr
 - **Pragmatic PCs:** Want to control it
 
 **Example Hook:**
+
 {{descriptive
 **Example Hook:**
 *Player: "I saw wild magic outbreak destroy my village. I don't trust unstable magic."*
@@ -282,6 +311,8 @@ The campaign revolves around awakening magic. PC attitudes will shape their appr
 - Is "home" a place, people, or feeling?
 - Do you have a home to return to or are you building one?
 - What would make Northreach feel like home?
+
+\column
 
 {{note
 **DM Notes:**
@@ -303,9 +334,9 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-## SUPPLEMENTAL QUESTIONS (Use Sparingly)
+### SUPPLEMENTAL QUESTIONS (Use Sparingly)
 
-### 11. What's a Secret You're Keeping?
+#### 11. What's a Secret You're Keeping?
 
 **Purpose:** Creates intrigue and personal plot hooks.
 
@@ -313,7 +344,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-### 12. Who Would You Die to Protect?
+#### 12. Who Would You Die to Protect?
 
 **Purpose:** Immediately establishes emotional stakes.
 
@@ -321,7 +352,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-### 13. What's One Thing About You That Would Surprise Others?
+#### 13. What's One Thing About You That Would Surprise Others?
 
 **Purpose:** Creates depth beyond stat block.
 
@@ -329,7 +360,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-### 14. What's Your Definition of Success?
+#### 14. What's Your Definition of Success?
 
 **Purpose:** Defines character goals and end-game desires.
 
@@ -337,7 +368,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-### 15. What Would You NEVER Do, No Matter the Stakes?
+#### 15. What Would You NEVER Do, No Matter the Stakes?
 
 **Purpose:** Establishes moral lines. Creates dilemmas that test boundaries.
 
@@ -346,6 +377,11 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 }}
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Session 0: Character Integration Prompts}}
+
+\page
 
 ## USING ANSWERS IN PLAY
 
@@ -385,6 +421,8 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 - PC seeking redemption: Stopping cult offers atonement
 - PC protecting "home": Temple threatens Northreach, now their home
 - PC who values belonging: Guild members become family worth fighting for
+
+\column
 
 ### Session Callbacks
 
@@ -426,7 +464,12 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-## INTEGRATION PROMPT EXAMPLES BY CHARACTER TYPE
+{{pageNumber,auto}}
+{{footnote Session 0: Character Integration Prompts}}
+
+\page
+
+#### INTEGRATION PROMPT EXAMPLES
 
 ### The Warrior
 **Key Questions:** 4 (Guild motivation), 6 (What left behind), 8 (Skill/talent)
@@ -455,7 +498,9 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 ---
 
-## ADVANCED: CREATING PC-SPECIFIC ARCS
+
+
+### ADVANCED: CREATING PC-SPECIFIC ARCS
 
 Using integration answers, design personal story arcs:
 
@@ -472,6 +517,7 @@ Using integration answers, design personal story arcs:
 
 **Mechanical Reward:** After arc completion, PC gains "Protector's Resolve" feature: Once per long rest, grant ally advantage on death save.
 
+\column
 ---
 
 ### Example Arc: The Found Family
@@ -489,7 +535,8 @@ Using integration answers, design personal story arcs:
 
 ---
 
-## FINAL DM ADVICE
+
+### FINAL DM ADVICE
 
 **Listen More Than You Talk:**
 Players reveal what excites them through answers. Build campaign around their interests.
@@ -513,3 +560,6 @@ These prompts create hooks, but PLAYERS decide how their characters respond. Nev
 2. Reference at least ONE player answer per session
 3. Build NPC relationships based on player interest
 4. Let character arcs emerge naturally through play
+
+{{pageNumber,auto}}
+{{footnote Quick Start}}

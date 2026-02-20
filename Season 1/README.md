@@ -1,6 +1,6 @@
-# Northwatch Wardens — Drop-In Guild Campaign
+## Northwatch Wardens — Drop-In Guild Campaign
 
-## New DM? Start Here!
+### New DM? Start Here!
 
 **SESSION 0 QUICK START** — See **Chapter 2** to prep and run Session 0 in under 1 hour
 
@@ -27,7 +27,8 @@ The campaign is **order-independent** — each adventure stands alone while buil
 - **Playstyle**: Contract posting → investigation → resolution → cryptic lore revealed
 - **Quick Reference**: See **Chapter 7: Appendix** — Costs, travel times, and essential info
 
-## How It Works
+
+### How It Works
 **Each session:**
 1. Party gathers at Waystone Inn (existing or new Wardens)
 2. Reviews contract postings on the board
@@ -37,9 +38,10 @@ The campaign is **order-independent** — each adventure stands alone while buil
 
 **No campaign history required.** Drop in any session, any party size, any adventure.
 
+\column
 ---
 
-## The Aeorian Echo: Core Mystery
+### The Aeorian Echo: Core Mystery
 
 All adventures connect to a single spreading phenomenon: **arcane magic from buried Aeorian ruins (Salsvault, far north) is destabilizing the frontier**. No single adventure reveals the full picture; each provides clues.
 
@@ -51,11 +53,10 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 5. **Peril in Pinebrook** — Frontier fragility exposed (community in crossfire)
 
 ---
-\column
 
-## Adventures (Modular — Any Order)
+### Adventures (Modular — Any Order)
 
-### Wolves of Welton (Levels 1–3)
+#### Wolves of Welton (Levels 1–3)
 - **Theme**: Intelligence awakening where it shouldn't
 - **Adventure Type**: Investigation with moral choice
 - **Setting**: Welton village, shepherd territory, wolf dens
@@ -68,10 +69,6 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Council Mechanics**: 7 members, 3 votes needed; Father Merriksonn and Corel guaranteed YES
 - **Rewards**: 800 gp + Warden credit
 - **Adventure Module**: See **Chapter 5: Wolves of Welton**
-
-{{pageNumber,auto}}
-{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
-
 \page
 
 ### Frozen Sick (Levels 2–4)
@@ -103,6 +100,8 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Tone**: Lighthearted but thematically significant; excellent palate-cleanser
 - **Reward**: Loot + memorable story
 - **Adventure Module**: See **Chapter 5: The Wild Sheep Chase**
+
+\column
 
 ### Peril in Pinebrook (Levels 1–3, Side Trek)
 - **Theme**: Small communities caught in the crossfire of rising magic
@@ -137,8 +136,9 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Adventure Module**: See **Chapter 5: Opening Adventures - Wolves Contract**
 
 ---
+\page
 
-## Geography (Canonical)
+## Geography
 
 | Location | Role | Connection |
 |----------|------|-----------|
@@ -153,11 +153,6 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 | **Noke's Tower** | Wizard's tower (W of Waystone) | Wild Sheep Chase |
 
 ---
-
-{{pageNumber,auto}}
-{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
-
-\page
 
 ## Guild Infrastructure
 
@@ -191,6 +186,8 @@ All Wardens shall:
 - Payment distributed fairly among participants
 - 10% supports guild operations
 
+\column
+
 **V. Leadership**
 - Triad Council: Marshal, Steward, Lorewarden
 - 2/3 signatures required for decisions
@@ -219,10 +216,6 @@ All Wardens shall:
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
-
-{{pageNumber,auto}}
-{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
-
 \page
 
 ### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
@@ -257,10 +250,6 @@ This campaign includes adventure modules, DM resources, and world secrets organi
 - Adventure modules and stat blocks (Chapter 5)
 - World secrets and mystery framework (Chapter 6)
 
-{{pageNumber,auto}}
-{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
-
-\page
 
 ### Key References
 - **Charter**: See the Northwatch Wardens charter earlier in this book
@@ -269,6 +258,7 @@ This campaign includes adventure modules, DM resources, and world secrets organi
 - **Stat Blocks**: Included within each adventure in **Chapter 5**
 
 ---
+\column
 
 ## DM Resources & World Secrets
 
@@ -309,6 +299,7 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 5. **Prepare your materials** — Print key maps and handouts you plan to use
 
 ---
+\page
 
 ## Design Principles
 
@@ -352,6 +343,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 → *Answer*: Yes. Every settlement will eventually feel this change.
 
 ---
+\column
 
 ## Running for Variable Attendance
 
@@ -370,19 +362,6 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 - Each adventure includes guidance for adjusting CR and encounter size
 - Stat blocks note "minion" variants for swarms
 - Recommended: Add 1 extra monster per additional PC beyond 3
-
----
-
-{{pageNumber,auto}}
-{{footnote Northwatch Wardens — Drop-In Guild Campaign}}
-
-\page
-
-## Content & Licensing
-
-- Markdown files are original or derived from your licensed content
-- Do not redistribute third-party stat blocks or descriptions verbatim
-- Use as personal campaign material
 
 ---
 
@@ -406,4 +385,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 3. **Post the contract** — Read the contract briefing to party
 4. **Let them earn their badges** — Watch as they uncover the Aeorian Echo
 
-The frontier awaits. The Northwatch Wardens have work to do.
+-- *The frontier awaits. The Northwatch Wardens have work to do.*
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens — Drop-In Guild Campaign}}

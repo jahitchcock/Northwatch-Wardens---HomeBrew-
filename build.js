@@ -338,6 +338,71 @@ function applyBlankLineOverrides(markdown) {
   return normalized;
 }
 
+/**
+ * Simple seeded PRNG (linear congruential generator).
+ * Returns a function that produces pseudorandom numbers in [0, 1).
+ */
+function createSeededRng(seed) {
+  let state = seed >>> 0;
+  return function () {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    return state / 4294967296;
+  };
+}
+
+/**
+ * Simple 32-bit string hash for seeding the PRNG.
+ */
+function hashString(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return hash >>> 0;
+}
+
+/**
+ * Insert a random watercolor stain on each content page.
+ * Skips front cover, TOC, and pages that already contain a watercolor element.
+ * Uses a hash of page content + page index for deterministic but varied placement.
+ *
+ * Watercolor parameters:
+ *   shape:  watercolor1 – watercolor13
+ *   top:    0 – 750 px
+ *   left:   0 – 500 px
+ *   width:  250 – 400 px
+ */
+function insertRandomWaterstains(markdown) {
+  const pages = markdown.split(/^(?:\\page|\\\\page)\s*$/gm);
+
+  let stainCount = 0;
+  const processed = pages.map((page, i) => {
+    // Skip cover (index 0) and TOC (index 1)
+    if (i < 2) return page;
+
+    // Skip pages that already have a watercolor element
+    if (/\{\{watercolor\d/.test(page)) return page;
+
+    // Seed from page content hash XOR'd with page index for variety
+    const seed = hashString(page.trim()) ^ (i * 2654435761);
+    const rng = createSeededRng(seed);
+
+    const shape = 1 + Math.floor(rng() * 13);        // 1–13
+    const top   = Math.floor(rng() * 751);            // 0–750
+    const left  = Math.floor(rng() * 501);            // 0–500
+    const width = 250 + Math.floor(rng() * 151);      // 250–400
+
+    const stain = `{{watercolor${shape},top:${top}px,left:${left}px,width:${width}px,background-color:#BBAD82,opacity:80%}}`;
+    stainCount++;
+
+    return page.trimEnd() + '\n\n' + stain + '\n\n';
+  });
+
+  console.log(`  Inserted ${stainCount} waterstains across ${pages.length} pages`);
+  return processed.join('\\page\n');
+}
+
 function generateTableOfContents(markdown) {
   // Find the position of {{resetCounting}}
   const resetCountingPos = markdown.indexOf('{{resetCounting}}');
@@ -506,6 +571,12 @@ async function buildBook(tocFile, outputName) {
 
   // Generate and replace the TOC block
   combinedMarkdown = replaceTocBlock(combinedMarkdown);
+
+  // Insert random waterstains on each page (if enabled in TOC config)
+  if (toc.enableWaterstains) {
+    console.log('  Inserting random waterstains...');
+    combinedMarkdown = insertRandomWaterstains(combinedMarkdown);
+  }
 
   // Save combined markdown
   const mdPath = path.join(buildDir, `${outputName}.md`);

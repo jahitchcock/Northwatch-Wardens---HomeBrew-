@@ -8,6 +8,7 @@
   "enableFootnote": true,
   "footnoteText": "A New World of Adventure Awaits",
   "coverImagePosition": "absolute,bottom:0,left:50px,height:100%",
+  "enableWaterstains": true,
   "sections": [
     {
       "chapter": "Welcome to Aevoria",

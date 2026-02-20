@@ -3,7 +3,7 @@
 
 
 {{descriptive
-**Tagline:**
+
 *A world awakening from forgotten ages, where ancient mysteries stir beneath the surface of everyday life.*
 }}
 
@@ -22,6 +22,8 @@ The **Northwatch Wardens** make their stand here at the Waystone Inn, a guild of
 **Start here. Learn the land. Know your neighbors.**
 
 Only when Northreach feels like home will the wider world truly matter.
+
+![homebrewery_mug](https://i.imgur.com/h1m9cN8.jpg) {width:280px,wrapRight}
 
 ---
 \column
@@ -99,11 +101,18 @@ This guide separates **player-safe content** from **DM-only secrets**:
 - Campaign mysteries and secrets (Chapter 6)
 - NPC secrets and motivations (Chapter 4)
 - Adventure modules with tactical notes (Chapter 5)
+\column
+:::::::::
+![cat warrior](https://i.imgur.com/JtVJo5j.jpeg) {width:395px,mix-blend-mode:multiply}
 
 {{pageNumber,auto}}
 {{footnote Welcome to Aevoria}}
 
 \page
+:::::::::::::
+![cat warrior](https://i.imgur.com/poUmt58.jpeg) {width:465px,,margin-left:-3cm,position:absolute,mix-blend-mode:multiply}
+
+
 
 \column
 
@@ -154,4 +163,9 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 ---
 
 *The world is vast. The mysteries are deep. The adventure awaits.*
+:::::::::::
+![cat warrior](https://i.imgur.com/oKbv7i1.jpg) {width:100%}
 }}
+
+{{pageNumber,auto}}
+{{footnote Welcome to Aevoria}}

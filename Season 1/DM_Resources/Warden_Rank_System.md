@@ -39,6 +39,8 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Use of guild weapons/armor (marked with Warden crest, must return)
 - Quarterly stipend: 25 gp
 
+\column
+
 **Authority:**
 - "You're the Wardens we heard about" (local recognition but no special treatment)
 - Cannot requisition expensive supplies without approval
@@ -74,6 +76,12 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Access to guild armory (better weapons available)
 - Quarterly stipend: 50 gp
 - Can requisition supplies up to 100 gp without approval (restocked monthly)
+
+
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
 
 **Authority:**
 - NPCs recognize Warden authority in local matters
@@ -112,6 +120,8 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - **Example Contracts:** "Investigate Aeorian activity," "Mediate between factions," "Lead expedition into dangerous territory"
 - **Forbidden:** Classified missions (known only to Brenna), campaigns requiring massive resources
 
+\column
+
 **Guild Resources:**
 - Superior private quarters (own suite at inn)
 - Warden insignia upgraded to Senior designation
@@ -147,6 +157,12 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
+
 ### RANK 4: VETERAN
 
 **Requirements:**
@@ -181,6 +197,7 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Can commission major items/services at cost (not free but prioritized)
 - Official mentorship role (mentee gains benefits)
 - Three free major favors from any faction per season
+\column
 
 **Special Privileges:**
 - Reserved table in common room (always available)
@@ -217,6 +234,12 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Can authorize others' spending up to 5,000 gp per mission
 - Direct communication network with other regional Warden companies
 - Can requisition NPC specialists (healers, scouts, researchers)
+
+
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
 
 **Authority:**
 - Acts as co-leader of guild with Brenna
@@ -262,7 +285,7 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Example: "Marshal of Palebank Region" or "Marshal of Research Operations"
 
 ---
-
+\column
 ## PAYING FOR RANK ADVANCEMENT
 
 Some factions or rich NPCs might offer to "sponsor" rank advancement, but this comes with strings:
@@ -286,11 +309,11 @@ Some factions or rich NPCs might offer to "sponsor" rank advancement, but this c
 
 ---
 
-## MISSION REWARDS BY RANK
+### MISSION REWARDS BY RANK
 
 Reward scaling provides mechanical benefit of advancing:
 
-{{wide
+
 
 | Rank | Standard Contract | Dangerous Contract | Lucrative Mission |
 |------|---|---|---|
@@ -300,7 +323,7 @@ Reward scaling provides mechanical benefit of advancing:
 | Veteran | 300 gp | 500 gp | 1,000 gp |
 | Commander | 500 gp | 750 gp | 1,500 gp |
 
-}}
+
 
 *Plus: Standard XP awards + treasure from encounters*
 
@@ -310,6 +333,11 @@ Reward scaling provides mechanical benefit of advancing:
 - **Lucrative:** Expensive problems, high-stakes work, secret missions (offers big payoff)
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
 
 ## RANK-BASED COMPLICATIONS
 
@@ -346,7 +374,8 @@ Using rank creates interesting roleplay moments:
 
 ---
 
-## RANK PROGRESSION GUIDE (By Campaign Phase)
+## PROGRESSION GUIDE 
+###### By Campaign Phase
 
 ### Early Campaign (Levels 1-3)
 - Most party: Recruit → Warden
@@ -355,6 +384,8 @@ Using rank creates interesting roleplay moments:
 ### Mid Campaign (Levels 4-7)
 - Most party: Warden → Senior Warden
 - Milestone: Complete 10+ contracts, demonstration of judgment
+
+\column
 
 ### Late Campaign (Levels 8-11)
 - Party leadership: Senior → Veteran
@@ -368,7 +399,7 @@ Using rank creates interesting roleplay moments:
 
 ---
 
-## HOW TO USE THIS IN PLAY
+#### HOW TO USE THIS IN PLAY
 
 ### During Downtime
 **"What do you do?"**
@@ -400,6 +431,11 @@ Using rank creates interesting roleplay moments:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
+
 ## SPECIAL CASES & EDGE CASES
 
 ### Party Rank Disparity
@@ -415,6 +451,8 @@ Using rank creates interesting roleplay moments:
 - Catch up quickly through accelerated contracts if needed
 - Or accept being lower-rank (creates interesting dynamic)
 
+\column
+
 ### Becoming Too Senior
 **PC is Rank 5 at Veteran level:**
 - They're effectively the guild authority (with Brenna)
@@ -429,7 +467,7 @@ Using rank creates interesting roleplay moments:
 - Good roleplay material regardless
 
 ---
-
+{{wide
 ## ADVANCEMENT CHECKLIST
 
 ### For DM: Tracking Advancement
@@ -439,20 +477,28 @@ Using rank creates interesting roleplay moments:
 Rank 2 → Rank 3: [ ] [ ] [ ] [ ] [ ] (5 contracts needed)
 Rank 3 → Rank 4: [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] (10 more)
 ```
-
+::
 **Level Check:**
 ```
 Rank 4 available at: Level 8+ ✓
 Rank 5 availability: Level 11+ (at campaign climax)
 ```
-
+::
 **Leadership Votes:**
 ```
 Rank 3 advancement: Unanimous (Brenna, Mara, Elric)
 Rank 4 advancement: 2/3 vote required
 Rank 5 advancement: Unanimous or 75%+ member vote
 ```
+}}
 
+
+{{pageNumber,auto}}
+{{footnote Warden Rank System}}
+
+\page
+
+{{wide
 ### For Players: Tracking Progress
 
 **Each session:**
@@ -485,9 +531,4 @@ Rank 5 advancement: Unanimous or 75%+ member vote
 - ✅ Escalate campaign scope (easier to justify bigger threats)
 - ✅ Make failure meaningful (disappointed NPCs, lost reputation)
 
----
-
-**Companion Documents:**
-- [Session_Prep_Master_Checklist.md](Session_Prep_Master_Checklist.md) — Use rank to determine contract availability each session
-- [DM Guild Roster.md](DM%20Guild%20Roster.md) — NPCs react to rank changes
-- [What_If_Quick_Guide.md](What_If_Quick_Guide.md) — Rank affects consequences for rule violations
+}}

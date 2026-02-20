@@ -1,8 +1,8 @@
 # Session 0 Quick Start Guide
-## Prep Time: 30 Minutes → Run Session 0 in 2 Hours
-
+{{note
+### Prep Time: 30 Minutes →<br>Run Session 0 in 2 Hours
 **Welcome, DM!** This guide gets you ready to run Session 0 for Northwatch Wardens in under 1 hour of prep time.
-
+}}
 ---
 
 ## What is Session 0?
@@ -18,25 +18,24 @@ Session 0 is your campaign's foundation:
 
 ---
 
-## Your 30-Minute Prep Checklist
+### Your 30-Minute Prep Checklist
 
-### ☐ Read This Guide (20 minutes)
+#### ☐ Read This Guide (20 minutes)
 You're doing it! Everything you need is here.
 
-### ☐ Print or Bookmark (5 minutes)
+#### ☐ Print or Bookmark (5 minutes)
 - [ ] **Charter Text** (see below on page 3, or printed separately from the Northwatch Wardens charter)
 - [ ] **First Contract** (see below on page 4)  
 - [ ] **Premade Characters** (optional: your DM may provide pre-made character sheets)
 
-### ☐ Prepare Your Opening Scene (5 minutes)
+#### ☐ Prepare Your Opening Scene
 Read the "Running Session 0" section below and imagine your opening.
 
 ---
 
-## Campaign Elevator Pitch (30 seconds)
+### Campaign Elevator Pitch
 
 {{descriptive
-**Elevator Pitch:**
 "Northwatch Wardens is a drop-in guild campaign set in the cold frontier of Northreach. You're members of a new adventuring guild taking contracts to protect settlements from threats mundane and magical. Adventures are modular — miss a session, no problem. Your choices matter, and there's a larger mystery unfolding beneath the surface."
 }}
 
@@ -46,27 +45,28 @@ Read the "Running Session 0" section below and imagine your opening.
 **Party Size:** 2–5 players per session (flexible)
 
 ---
+\column
 
-## The Northwatch Wardens: Who They Are
+### The Northwatch Wardens
 
-### The Guild (Founded 1 year ago)
+#### The Guild (Re-Founded 1 year ago)
 - **Headquarters:** Waystone Inn (a fortified roadhouse in the wilderness)
 - **Purpose:** Protect frontier settlements, investigate threats, take contracts
 - **Structure:** Small guild (~15 active members), led by a three-person council
 
-### The Leadership Triad (Your Key NPCs)
+#### The Leadership Triad (Your Key NPCs)
 
-**Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
+##### **Marshal Brenna Thorne** — Field Commander (Human Ranger, 40s)
 - **Role:** Assigns contracts, tactical decisions
 - **Personality:** Gruff, experienced, protective of her Wardens
 - **Quick Voice:** Direct and matter-of-fact — "This is the job. You ready?"
 
-**Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
+##### **Steward Mara Fenwick** — Quartermaster (Halfling Expert, 30s)
 - **Role:** Supplies, finances, guild logistics
 - **Personality:** Cheerful, meticulous, keeps things running smoothly
 - **Quick Voice:** Warm and practical — "I'll pack you extra rations. Bring receipts!"
 
-**Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
+##### **Lorewarden Elric Vael** — Arcane Scholar (Elf Wizard, 200s but looks 40s)
 - **Role:** Investigation support, magical research, lore
 - **Personality:** Soft-spoken, curious, notices patterns others miss
 - **Quick Voice:** Thoughtful and precise — "Curious. This reminds me of something..."
@@ -75,14 +75,13 @@ Read the "Running Session 0" section below and imagine your opening.
 **DM Tip:** You only need these three NPCs for Session 0. Everyone else can wait.
 }}
 
----
 
-## Waystone Inn: Your Guild Headquarters
+#### Waystone Inn: Your Guild Headquarters
 
-**Location:** In the wilderness between several frontier settlements  
+##### **Location:** In the wilderness between several frontier settlements  
 **Description:** A two-story stone inn with a watchtower, stable, and reinforced walls. The common room serves as the guild hall, with a contract board by the fireplace.
 
-**Key Features:**
+#### **Key Features:**
 - **The Contract Board** — Where missions are posted
 - **The Long Table** — Where the charter will be signed
 - **Private Rooms** — Wardens get free lodging
@@ -119,6 +118,8 @@ We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone
 
 ---
 
+\column
+
 ## Running Session 0 (2-Hour Timeline)
 
 ### Hour 1: Setup & Characters (60 minutes)
@@ -142,6 +143,11 @@ We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone
 - **Advancement:** Milestone leveling (level up after major adventures)
 - **Tone:** Grounded frontier, combat is dangerous, investigation matters
 - **Scheduling:** Confirm session frequency and handle absences
+
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}
+
+\page
 
 ### Hour 2: The First Session (60 minutes)
 
@@ -172,10 +178,7 @@ Introduce the three NPCs briefly (use descriptions on page 2).
 - Elric mentions "strange disturbances" in the frontier
 - Brenna says "We have work already"
 
-{{pageNumber,auto}}
-{{footnote Session 0 Quick Start Guide}}
-
-\page
+\column
 
 **1:45–2:00 — The First Contract**
 
@@ -333,17 +336,19 @@ ___
 
 ---
 
-## After Session 0: What's Next?
+### After Session 0: What's Next?
 
-### Before Session 1:
+#### Before Session 1:
 - [ ] Read **Wolves of Welton** adventure (Chapter 5)
 - [ ] Review encounter locations and NPCs
 - [ ] Prepare battle maps (or use theater of the mind)
 
-### Optional Deeper Prep (After Session 0):
+#### Optional Deeper Prep (After Session 0):
 - Read **Chapter 3: Campaign Overview** for the full campaign overview
 - Read **Chapter 4: DM Resources** for advanced DM tips
 - Review **Chapter 4: DM Guild Roster** for NPC secrets
+
+\column
 
 ### Running Future Sessions:
 Every session follows this pattern:
@@ -354,7 +359,7 @@ Every session follows this pattern:
 
 ---
 
-## Quick Reference: Key Locations
+### Quick Reference: Key Locations
 
 | Location | Description | Used In |
 |----------|-------------|---------|
@@ -366,7 +371,7 @@ Every session follows this pattern:
 
 ---
 
-## Troubleshooting Session 0
+### Troubleshooting Session 0
 
 **Q: Players want to go straight to combat?**  
 A: Save combat for Session 1. Session 0 is about setup. Tease danger: "The wolves are out there. You'll face them soon."
@@ -388,7 +393,9 @@ A: No problem. They can join Session 1 as "new recruits" arriving at Waystone In
 
 \page
 
-## Your Session 0 Cheat Sheet (Cut & Keep at Table)
+# Your Session 0 Cheat Sheet 
+---
+*Copy & Keep at Table*
 
 ### NPCs
 - **Brenna** (Marshal) — Gruff ranger, assigns contracts
@@ -396,8 +403,9 @@ A: No problem. They can join Session 1 as "new recruits" arriving at Waystone In
 - **Elric** (Lorewarden) — Elven mage, provides lore
 
 ### The Oath
+{{note
 *"I stand with the Wardens. I protect the innocent. I honor my contracts. I stand against corruption, mortal or magical. Where the frontier needs me, I will answer."*
-
+}}
 ### First Contract
 **Wolves of Welton** — 800 gp, half-day south, unusually aggressive wolves attacking farms
 
@@ -422,17 +430,23 @@ A: No problem. They can join Session 1 as "new recruits" arriving at Waystone In
 - ✅ First contract hook
 - ✅ Session timeline
 
-**Total prep time:** 30 minutes  
-**Session runtime:** 2 hours  
-**Player excitement:** Maximum
+#### **Total prep time:** 30 minutes  
+#### **Session runtime:** 2 hours  
+#### **Player excitement:** Maximum
 
-**Next step:** Run Session 0, then prep Wolves of Welton for Session 1.
-
-Welcome to the Northwatch Wardens. The frontier needs you.
-
+#### **Next step:** 
+:::
+{{note
+#### Run Session 0, then prep Wolves of Welton for Session 1.
+*Welcome to the Northwatch Wardens. The frontier needs you.*
+}}
 ---
-
+\column
+::::
 *For more detailed prep and advanced DM resources, see:*
 - **Chapter 3: Campaign Overview** — Full campaign overview
 - **Chapter 4: DM Resources** — Advanced session running tips
 - **Chapter 4: DM Guild Roster** — Complete NPC roster with secrets
+
+{{pageNumber,auto}}
+{{footnote Session 0 Quick Start Guide}}

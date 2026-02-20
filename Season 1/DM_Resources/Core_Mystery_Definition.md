@@ -70,6 +70,11 @@ Think of the Echo like a vast, sleeping network of alarms going off one by one. 
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 ## HISTORICAL CONTEXT
 
 ### What Was Aeor?
@@ -114,6 +119,8 @@ Think of the Echo like a vast, sleeping network of alarms going off one by one. 
 - They're linked by magical communication networks
 - Some are dormant; some are barely-conscious
 
+\column
+
 **Why This Matters to Players:**
 - Northreach has become a ground zero for Aeorian reactivation
 - Events here could have continent-wide consequences
@@ -156,6 +163,11 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 
 ---
 
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
+
 ### Phase Two: Consolidation (Approaching During Advanced Campaign)
 
 **Duration:** Weeks 5-8 of campaign; triggered if players investigate Salsvault extensively
@@ -188,7 +200,7 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 **Session Length:** 2-4 weeks of gameplay (3-6 sessions)
 
 ---
-
+\column
 ### Phase Three: Execution (Late Campaign / Season 2 Territory)
 
 **Duration:** Final confrontation phase; only reached if Echo advances unimpeded
@@ -213,6 +225,12 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 **This Phase May Never Happen** if players act decisively in earlier phases. **Recommended:** Save Phase Three for Season 2 or as a "dark future" that players actively prevent.
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 
 ## WHO IS LEADING THE ECHO? (The Entity Question)
 
@@ -250,7 +268,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 - Establish himself as supreme leader
 - Genuinely believes he's saving civilization
 - Wants to be remembered as civilization's architect
-
+\column
 **Why This Option:**
 - Creates a sense of continuity (Aeor had reasons, still reflected in Echo)
 - Allows negotiation (brilliant minds can discuss terms)
@@ -268,6 +286,11 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 - Isolated consciousness (lacks intuition)
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 
 ### OPTION B: The Endless Intelligence (AEON)
 
@@ -318,6 +341,11 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 ### OPTION C: The Failed God
 
 **The Entity:** Vestige, an incomplete deity from Aeor's failed apotheosis experiment
@@ -356,7 +384,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 - Punish the gods for destroying Aeor
 - Create new world worshipping itself
 - End its own suffering through completion
-
+\column
 **Why This Option:**
 - Creates sympathetic villains (Vestige is tragic, not evil)
 - Allows romance/corruption subplots (characters tempted by power)
@@ -375,6 +403,10 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 ### OPTION D: The Corrupted Dragon
 
 **The Entity:** Zerathuul the Endless, ancient brass dragon fused with Aeorian technology
@@ -432,6 +464,11 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
+
 ## PLAYER DISCOVERY TIMELINE
 
 ### What Players Should Know When
@@ -472,6 +509,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
+\column
 ## HOW TO USE THIS DOCUMENT
 
 ### Before Each Session
@@ -496,6 +534,12 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 - **Create urgency** — More people affected = ticking clock = pressure to act
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote The Aeorian Echo: Core Mystery Definition}}
+
+\page
 
 ## THE FUNDAMENTAL MYSTERY
 
@@ -537,6 +581,7 @@ Three fundamental questions drive everything:
 **"What if players destroy Salsvault without fighting the entity?"**
 - Entity survives (distributed consciousness). Network damaged. Escalation forced into Phase Two.
 
+\column
 **"What if players negotiate with the entity?"**
 - Possible if entity has diplomatic option (Kael Vanthys or AEON fit this). Hard terms, risky pact.
 

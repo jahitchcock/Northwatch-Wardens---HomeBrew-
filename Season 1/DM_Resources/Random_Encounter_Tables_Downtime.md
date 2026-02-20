@@ -1,21 +1,21 @@
-# Random Encounter Tables: Downtime & Social Interactions
 
+{{wide
+
+### Random Encounter Tables: Downtime & Social Interactions
+{{note
 **Purpose:** Structured tables for generating NPC interactions, rumors, requests, and social encounters during downtime periods, settlement visits, and seasonal events.
-
-**How to Use:**
+#### **How to Use:**
 1. **Identify Context:** Where are PCs? (location-based tables)
 2. **Roll Appropriate Table:** d20 for most, d12 for seasonal events
 3. **Add Detail:** Reference Minor NPC Roster for named characters
 4. **Improvise:** Use result as springboard, not script
 5. **Track Consequences:** Note relationships formed and promises made
-
+}}
 ---
 
-## TABLE 1: WAYSTONE INN COMMON ROOM (d20)
+### TABLE 1: WAYSTONE INN COMMON ROOM (d20)
 
-**Use When:** PCs spend downtime at guild headquarters
 
-{{wide
 
 | d20 | Encounter |
 |-----|-----------|
@@ -44,6 +44,9 @@
 
 ---
 
+\page
+
+{{wide
 ## TABLE 2: SETTLEMENT MARKETPLACE (d20)
 
 **Use When:** PCs shop or socialize in village centers
@@ -70,9 +73,10 @@
 | 18 | **Recruitment Offer:** Faction representative (merchant guild, temple, or noble house) approaches with job offer outside Warden structure. May conflict with guild loyalty. |
 | 19 | **Protest/Rally:** Villagers gathering to address grievance (taxes, bandit attacks, etc.). PCs can support, oppose, or ignore. Choice affects local reputation. |
 | 20 | **Echo Manifestation:** Public display of minor Echo effect (geometric frost, humming metal, animal behaving oddly). Locals react with fear or curiosity. Investigation opportunity. |
-
+}}
 ---
-
+\page
+{{wide
 ## TABLE 3: WILDERNESS TRAVEL (d20)
 
 **Use When:** PCs on road or exploring between settlements
@@ -99,35 +103,33 @@
 | 18 | **Animal Migration:** Herd of [deer / caribou / wild horses] crossing path. Beautiful but time-consuming. Rushing through startles them (potential stampede). |
 | 19 | **Echo Disturbance:** Area affected by Echo (geometric frost, unusual animal behavior, humming stones). Exploration reveals clue to larger mystery. |
 | 20 | **Hidden Opportunity:** Off-trail discovery (cave, ruins, hidden grove). Contains [minor treasure / lore clue / NPC hermit]. Requires investigation to find. |
-
+}}
 ---
+\page
+{{wide
+#### TABLE 4: SEASONAL EVENTS (d12)
 
-## TABLE 4: SEASONAL EVENTS (d12)
-
-**Use When:** Festival, holiday, or significant calendar date occurring
-
-**Roll d12 for each month using Seasonal Event Calendar**
+>**Use When:** Festival, holiday, or significant calendar date occurring
 
 | d12 | Seasonal Encounter |
 |-----|-----|
 | 1 | **Festival Opening:** Event begins. PCs invited to participate in [contest, ceremony, or feast]. Participation grants +1 local reputation. |
 | 2 | **Competition Sign-Up:** NPC challenges PC to seasonal competition (archery, cooking, storytelling, etc.). Prize: 50 gp and prestige. |
 | 3 | **Honored Guest:** PCs invited to VIP area or asked to judge event. Declining insults host. Accepting grants social opportunities with leadership. |
-| 4 | **Romantic Subplot:** NPC (Minor or Seasonal) shows interest in PC. Awkward but earnest. Can develop into romance or friendship based on PC response. |
+| 4 | **Romantic Subplot:** NPCshows interest in PC. Awkward but earnest. Can develop into romance or friendship based on PC response. |
 | 5 | **Old Rival Returns:** [Syla Thorngage / Drake Thornwood / Past NPC] attends event. May reignite old competition or seek reconciliation. |
 | 6 | **Child's Request:** [Pip / Kasira / Elara] asks PC to [teach skill, tell story, or judge their performance]. Wholesome interlude. Refusing disappoints them. |
 | 7 | **Ceremony Honor:** PC publicly recognized for [recent heroism / guild service / community help]. Gain +2 reputation. Speech expected (Performance or Persuasion DC 12). |
 | 8 | **Festival Sabotage:** Minor disaster threatens event ([fire starts, thief steals prize, drunk causes fight]). PCs can resolve quickly or let chaos unfold. |
 | 9 | **Mysterious Stranger:** Cloaked figure observes PCs. If approached, delivers cryptic warning about [cult activity / Echo danger / future threat]. Vanishes mysteriously. |
 | 10 | **Drinking Contest:** Traditional event. Constitution saves (DC starts 10, +2 per round). Winner gets bragging rights and free drinks for month. |
-| 11 | **Cultural Performance:** [Jessamine / Traveling bards / Village choir] perform. Quality varies. Applause expected. Heartfelt moment of community. |
+| 11 | **Cultural Performance:** [Traveling bards / Village choir] perform. Quality varies. Applause expected. Heartfelt moment of community. |
 | 12 | **Echo Omen:** During celebration, minor Echo manifestation occurs (frost spreads, metal hums, wolf howls intelligently). Crowd reacts with unease. Tone shifts. |
 
----
+#### TABLE 5: INN/TAVERN SOCIAL (d20)
 
-## TABLE 5: INN/TAVERN SOCIAL (d20)
-
-**Use When:** PCs socializing in settlement inns (not Waystone)
+>**Use When:** PCs socializing in settlement inns (not Waystone)
+}}
 
 | d20 | Encounter |
 |-----|-----------|
@@ -153,12 +155,11 @@
 | 20 | **Cult Recruiter:** Charismatic NPC subtly proselytizes [Temple of Dragonknights OR invented cult]. Insight DC 15 detects danger. Investigation opportunity. |
 
 ---
+\page
 
-## TABLE 6: RUMOR MILL (d20)
+#### TABLE 6: RUMOR MILL (d20)
 
 **Use When:** PCs gather information, chat with NPCs, or spend time in settlements
-
-**Roll to determine current rumor spreading through region**
 
 | d20 | Rumor (50% accurate) |
 |-----|-----------|
@@ -184,12 +185,12 @@
 | 20 | "Something waking up beneath Northreach. Old magic stirring. End times coming again." *[MOSTLY TRUE - Echo origin]* |
 
 ---
+\column
 
-## TABLE 7: TRAVELING MERCHANT GOODS (d20)
+#### TABLE 7: TRAVELING MERCHANT  (d20)
 
 **Use When:** Rendal Keenwhistle or other merchant encountered
 
-**Roll to determine unusual item for sale (in addition to normal goods)**
 
 | d20 | Item for Sale (Price / Effect) |
 |-----|-----------|
@@ -215,8 +216,9 @@
 | 20 | **Mysterious Vial:** Glowing blue liquid. "From ancient ruins." 60 gp. *If purchased: Roll! 1-10 = useless dye. 11-20 = Minor magical effect OR plot complication (DM choice).* |
 
 ---
+\page
 
-## TABLE 8: GUILD DOWNTIME ACTIVITIES (d12)
+#### TABLE 8: GUILD DOWNTIME (d12)
 
 **Use When:** PCs between contracts with 3+ days at Waystone Inn
 
@@ -236,8 +238,9 @@
 | 12 | **Contract Prep:** New contract available but difficult. Spend 1 day researching → gain Advantage on first check during that adventure. |
 
 ---
+\column
 
-## USING THESE TABLES EFFECTIVELY
+#### USING THESE TABLES EFFECTIVELY
 
 ### Integration with Adventures
 **Timing:** Roll random encounters during:
@@ -246,7 +249,7 @@
 - Waiting periods (3+ days)
 - Festival events (Seasonal Calendar)
 
-**Frequency:** Roll once per:
+#### **Frequency:** Roll once per:
 - Extended settlement stay (3+ days)
 - Travel leg (per 2 days journey)
 - Festival/seasonal event
@@ -258,7 +261,7 @@
 - "Didn't I sell you that faulty compass?"
 - "My daughter won't stop talking about your stories."
 
-**Evolve Relationships:** Multiple encounters with same NPC = relationship deepens:
+>**Evolve Relationships:** Multiple encounters with same NPC = relationship deepens:
 - First: Stranger
 - Second: Acquaintance
 - Third: Friend or Rival
@@ -269,82 +272,86 @@
 - **Positive:** Discounts, assistance, housing offers, information freely shared
 - **Negative:** Inflated prices, cold shoulders, doors closed, information withheld
 
-**Relationship Levels:**
+#### **Relationship Levels:**
 - **Stranger (0):** Neutral transactions
 - **Acquaintance (+1-2):** Friendly, minor favors
 - **Friend (+3-4):** Significant help, trust, invitations
 - **Close Ally (+5+):** Will take risks for PC, provides resources
 
+\page
+
 ### Mixing Tables
-**Layered Encounters:** Combine results for complexity:
+###### **Layered Encounters:** Combine results for complexity:
 1. Roll MARKETPLACE (result: lost child)
 2. Add RUMOR (cult activity increasing)
 3. Connect: Child's parent recently died mysteriously (cult-related)
 
-**Campaign Integration:**
-Use encounters to:
+#### **Campaign Integration:**
+###### Use encounters to:
 - Plant clues about upcoming adventures
 - Show Echo spreading (environmental changes)
 - Develop NPC relationships (romance, rivalry, friendship)
 - Create emotional stakes (characters PCs care about)
 
 ### Seasonal Connection
-**Link to Calendar:** When seasonal event occurs:
+###### **Link to Calendar:** When seasonal event occurs:
 1. Roll TABLE 4 (Seasonal Encounter)
 2. Reference Seasonal Event Calendar for context
 3. Add NPCs from Minor Roster who would attend
 4. Create memorable community moment
 
 ### DM Improvisation
-**Use Results as Springboards:**
+###### **Use Results as Springboards:**
 - Table says "brawl starts" → Determine WHY (insult, accusation, drunk misunderstanding)
 - Table says "mysterious stranger" → Determine WHO (cult spy, rival guild recruiter, future ally)
 - Table says "Echo manifestation" → Choose TYPE (frost, hum, animal behavior, metal cold)
 
-**Add Player Agency:**
-Every encounter should have options:
+###### **Add Player Agency:**
+>Every encounter should have options:
 - **Engage:** Interact, help, investigate
 - **Avoid:** Ignore, walk away, decline
 - **Subvert:** Unexpected solution, creative approach
 
-## EXAMPLE ENCOUNTER CHAINS
+### EXAMPLE ENCOUNTER CHAINS
 
-### Chain 1: The Orphan's Secret
-**Day 1 (Marketplace):** Torbin pickpockets PC. If caught, reveals cult pursuing him.
-**Day 3 (Inn):** Torbin seeks PC protection. Cultists ask around for "street urchin."
-**Day 5 (Adventure Hook):** Cult attacks orphanage. Torbin witnessed cult abducting villagers.
-**Outcome:** Minor plot becomes major investigation: WHERE are kidnapped victims?
+#### Chain 1: The Orphan's Secret
+- **Day 1 (Marketplace):** Torbin pickpockets PC. If caught, reveals cult pursuing him.
+- **Day 3 (Inn):** Torbin seeks PC protection. Cultists ask around for "street urchin."
+- **Day 5 (Adventure Hook):** Cult attacks orphanage. Torbin witnessed cult abducting villagers.
+- **Outcome:** Minor plot becomes major investigation: WHERE are kidnapped victims?
 
-### Chain 2: The Tinker's Scheme
-**Week 1 (Travel):** Rendal sells "magic compass" (fake).
-**Week 3 (Marketplace):** Rendal back, selling different fake items. PCs recognize him.
-**Week 5 (Investigation):** Discover Rendal is SPY gathering intelligence, not just con artist.
-**Outcome:** Recurring comic relief NPC becomes plot-relevant informant.
+\column
 
-### Chain 3: Young Love
-**Festival:** Jessamine writes love song about PC (terrible but sweet).
-**Next Visit:** Jessamine practicing constantly, improving. Asks PC for encouragement.
-**Seasonal Event:** Jessamine performs at festival. PC can attend, boosting her confidence.
-**Outcome:** Wholesome character development. Jessamine becomes confident bard. May join guild later.
+#### Chain 2: The Tinker's Scheme
+- **Week 1 (Travel):** Rendal sells "magic compass" (fake).
+- **Week 3 (Marketplace):** Rendal back, selling different fake items. PCs recognize him.
+- **Week 5 (Investigation):** Discover Rendal is SPY gathering intelligence, not just con artist.
+- **Outcome:** Recurring comic relief NPC becomes plot-relevant informant.
 
-## QUICK REFERENCE FOR DM
+#### Chain 3: Young Love
+- **Festival:** Jessamine writes love song about PC (terrible but sweet).
+- **Next Visit:** Jessamine practicing constantly, improving. Asks PC for encouragement.
+- **Seasonal Event:** Jessamine performs at festival. PC can attend, boosting her confidence.
+- **Outcome:** Wholesome character development. Jessamine becomes confident bard. May join guild later.
 
-**For Settlement Scenes:**
+### QUICK REFERENCE FOR DM
+
+>**For Settlement Scenes:**
 - Roll TABLE 1 (Waystone) or 2 (Marketplace) or 5 (Inn)
 - Add 1 Minor NPC from Roster
 - Insert 1 rumor from TABLE 6 if relevant
 
-**For Travel:**
+>**For Travel:**
 - Roll TABLE 3 per 2 days journey
 - Add weather/seasonal effect
 - Consider Echo hints (10% chance)
 
-**For Festivals:**
+>**For Festivals:**
 - Roll TABLE 4 for each PC separately
 - Reference Seasonal Event Calendar
 - Add community NPCs (Garth, Sylra, Pip, etc.)
 
-**For Downtime (3+ days):**
+>**For Downtime (3+ days):**
 - Roll TABLE 8
 - PC CHOOSES whether to pursue
 - Resolve mechanically (skill checks, timecosts, rewards)

@@ -5,25 +5,25 @@
 This document provides 12 monthly events for Northreach that can serve as campaign hooks, flavor, seasonal setting, or adventure timing reference.
 
 ---
+:
+### HOW TO USE THIS CALENDAR
 
-## HOW TO USE THIS CALENDAR
-
-**For Planning:**
+#### **For Planning:**
 - Align adventures to seasons (better atmosphere)
 - Place major story beats at resonant times
 - Use events as natural "time has passed" markers
 
-**For Flavor:**
+#### **For Flavor:**
 - Mention holiday/weather when describing scenes
 - Have NPCs reference upcoming events
 - Create downtime activities tied to season
 
-**For Hooks:**
+#### **For Hooks:**
 - Many events can become adventure prompts
 - Or complications to plot-critical missions
 - Natural gathering points for factions/NPCs
 
-**For Timeline:**
+#### **For Timeline:**
 - Campaign starts in Spring (Season 0, "The Charter")
 - Natural progression: Spring → Summer → Fall → Winter → Spring
 
@@ -33,19 +33,21 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 **Theme:** Awakening, renewal, emergence, travel season begins
 
-**Weather:**
+#### **Weather:**
 - Temperatures 45-65°F
 - Frequent rain (10-15 days of rain)
 - Snow melts; rivers swell
 - Muddy roads (travel -1 day)
 
-**Events:**
+#### **Events:**
 
 1. **Charter Signing** (Spring Equinox, Day 1)
    - Northwatch Wardens accept new recruits officially
    - Marshal Brenna hosts ceremonial dinner at Waystone
    - New contracts become available
    - *Campaign Hook:* Starting point for new party; good introduction to NPCs
+   
+\column
 
 2. **Thaw Run** (Days 5-8)
    - Young people race to Northreach's highest point and back
@@ -71,35 +73,40 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Celebrations in Welton especially
    - *Atmosphere:* Hope tinged with concern for stability
 
-**NPC Activity:**
+#### **NPC Activity:**
 - Brenna: Recruiting new members; energized
 - Elric: Consulting old records; noting seasonal patterns
 - Mara: Planning supply routes; coordinating logistics
 - Father Merriksonn: Blessing the birthing season; concerned about livestock quality
 
-**If Frozen Sick was played recently:**
+#### **If Frozen Sick was played recently:**
 - Palebank refugees may arrive during Festival
 - Create population pressure / resource strain
 - Settlements debate accepting refugees
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Bandits/monsters more active (fewer places to hide)
 - Travel slower (muddy roads)
 - Good time for outdoor adventures
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Seasonal Event Calendar for Northreach}}
+
+\page
+
 ## MONTH 2: BLOOMING (Spring, Late)
 
 **Theme:** Abundance, growth, commerce expansion, journeys
 
-**Weather:**
+#### **Weather:**
 - Temperatures 55-70°F
 - Occasional rain (5-10 days)
 - Roads becoming passable
 - Days noticeably longer (dawn early, dusk late)
 
-**Events:**
+#### **Events:**
 
 1. **Merchant Caravans Depart** (Days 1-5)
    - Multiple caravans leave Northreach for distant markets
@@ -130,35 +137,38 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Creates opportunity to rescue someone who was actually "apprenticed away"
    - *Adventure Hook:* Missing person turns out to be happy apprentice OR hidden slavery
 
-**NPC Activity:**
+\column
+
+#### **NPC Activity:**
 - Mara: Coordinating caravan security; recruiting escorts
 - Brenna: Organizing competitions; testing new Warden candidates
 - Elric: Noting seasonal magical patterns
 - Local merchants: Aggressive recruitment; competitive for good Wardens
 
-**If Wolves of Welton played recently:**
+#### **If Wolves of Welton played recently:**
 - Shepherds nervous; watching animals closely
 - Some livestock missing (either Echo or natural predation)
 - Paranoia in settlements
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Good travel season (roads passable, weather stable)
 - Many NPCs traveling (social options limited)
 - Bandits/brigands active (targeting caravans)
 
 ---
 
-## MONTH 3: HIGHSUMMER (Summer Solstice)
+## MONTH 3: HIGHSUMMER 
+###### (Summer Solstice)
 
 **Theme:** Abundance, heat, festivals, excess, danger at peak
 
-**Weather:**
+#### **Weather:**
 - Temperatures 70-85°F, occasionally 90°F
 - Dry (5-7 weeks without rain; creeks low)
 - Longest days (dawn ~5am, dusk ~10pm)
 - Bugs (insects attracted to camps; disease vectors)
 
-**Events:**
+#### **Events:**
 
 1. **Midsummer Festival** (Solstice Days 20-23)
    - Largest celebration of year
@@ -172,6 +182,12 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Late-night rituals on hilltops
    - *Flavor:* Atmosphere of magical significance
    - *Complication:* Echo effects could interrupt ceremony
+
+
+{{pageNumber,auto}}
+{{footnote Seasonal Event Calendar for Northreach}}
+
+\page
 
 3. **Hunting Season Opens** (Days 1-31)
    - Young hunters seek trophy kills
@@ -191,37 +207,39 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Waystone Inn becomes event venue
    - *Adventure Hook:* Protect visiting dignitary; uncover conspiracy
 
-**NPC Activity:**
+#### **NPC Activity:**
 - Brenna: On high alert (crime increases with festivals)
 - Mara: Managing festival logistics; supply crunches from heat
 - Elric: Noting weather patterns and any correlation to magical phenomena
 - Settlements: All hands to harvest prep
 
-**If Echo elements active:**
+#### **If Echo elements active:**
 - Heat accelerates Echo effects? (creatures more aggressive in heat?)
 - Diseases spread faster
 - Magic malfunctions increase (heat affecting resonance?)
 - Creates sense of danger despite festive season
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Extreme heat: Constitution saves to avoid exhaustion
 - Outdoor travel: -1 day due to heat; require water
 - Bandits bold: Festival creates chaos
 - Most accessible travel season (good for longer adventures)
 
 ---
+\column
 
-## MONTH 4: WANING (Early Autumn)
+## MONTH 4: WANING 
+###### (Early Autumn)
 
 **Theme:** Preparation, unease, first warnings, transition
 
-**Weather:**
+#### **Weather:**
 - Temperatures 65-80°F, dropping mid-month
 - Rain returns (10-15 days)
 - Days noticeably shorter (dawn ~7am, dusk ~8pm)
 - First frost warnings by month's end
 
-**Events:**
+#### **Events:**
 
 1. **Harvest Celebration Week** (Days 1-7)
    - Early crops come in; celebrations begin
@@ -247,18 +265,23 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Flavor:* Bittersweet tone; season of departure
    - *Hook:* Someone leaves Northreach (departure of an NPC ally?)
 
-**NPC Activity:**
+#### **NPC Activity:**
 - Farmers: Absent (harvest work)
 - Merchants: Traveling to markets (selling harvest)
 - Brenna: Reduced contract availability (fewer people requesting help)
 - Elric: Concerned about weather patterns; noting anomalies
 
-**If Campaign Arc advancing:**
+#### **If Campaign Arc advancing:**
 - Factions begin shifting (preparing for winter/conflict)
 - Some NPCs depart for the season
 - Loyalties clarify (who stays, who leaves)
 
-**Mechanical Impact:**
+{{pageNumber,auto}}
+{{footnote Seasonal Event Calendar for Northreach}}
+
+\page
+
+#### **Mechanical Impact:**
 - Settlements feel empty (harvest work)
 - Fewer NPCs available
 - Certain resources scarce (merchants gone)
@@ -266,17 +289,18 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 ---
 
-## MONTH 5: DEEPFALL (Autumn, Late)
+## MONTH 5: DEEPFALL 
+###### (Autumn, Late)
 
 **Theme:** Urgency, darkness growing, preparations finishing, unease settling
 
-**Weather:**
+#### **Weather:**
 - Temperatures 50-70°F, trending down
 - Frequent rain (15-20 days; occasionally severe)
 - Days significantly shorter (dawn ~8am, dusk ~6pm)
 - First major snow possible at month's end
 
-**Events:**
+#### **Events:**
 
 1. **Defenses reinforced** (Throughout month)
    - Settlements repair walls, fortifications
@@ -306,6 +330,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Hunters follow (chase the herds)
    - *Flavor:* Sense of nature preparing
    - *Complication:* Echo creatures moving (confusing or ominous?)
+\column
 
 6. **First Snow Panic** (Days 25-31)
    - When first snow falls, settlements feel relief or panic
@@ -313,19 +338,19 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - Panic: If they're behind on preparations
    - *Mechanical:* If Echo effects accelerated, settlements might be underprepared
 
-**NPC Activity:**
+#### **NPC Activity:**
 - Farmers: Finishing harvest; storing food
 - Brenna: Reassigning Wardens to winter posts
 - Mara: Finalizing winter supplies
 - Elric: Preparing research for indoor months
 - Merchants: Last-minute pricing and deals
 
-**Campaign Pacing Note:**
+#### **Campaign Pacing Note:**
 - This is often end-of-Act-1 or mid-Act-2 timing
 - Good place for major revelation or twist
 - Prepares for winter's isolating effects
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Travel becomes dangerous (snow, ice, cold)
 - Some locations become inaccessible
 - Settlements hunker down; fewer people available
@@ -333,17 +358,18 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 ---
 
-## MONTH 6: DEEPWINTER (Winter Solstice & Peak Winter)
+## MONTH 6: DEEPWINTER 
+###### (Winter Solstice & Peak Winter)
 
 **Theme:** Darkness, isolation, survival, stillness, secrets revealed indoors
 
-**Weather:**
+#### **Weather:**
 - Temperatures 20-40°F, occasionally below zero
 - Heavy snow (25+ days; 15-30 inches accumulated)
 - Shortest days (dawn ~9am, dusk ~4:30pm)
 - Roads nearly unusable
 
-**Events:**
+#### **Events:**
 
 1. **Solstice Festival** (Solstice Days 20-23, Midwinter)
    - Celebration of light's return (even though darkest day is now)
@@ -356,6 +382,11 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - No travel between settlements practical
    - Social structures intensify (gossip, politics, intimacy, conflict)
    - *Mechanical:* Party stuck in one location or area
+
+{{pageNumber,auto}}
+{{footnote Seasonal Event Calendar for Northreach}}
+
+\page
 
 3. **Winter Storytelling** (Nightly throughout month)
    - Fireside tales; history retold; legends discussed
@@ -384,19 +415,21 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Atmosphere:* Superstition peaks; people frightened
    - *Hook:* Echo is actively doing something? Or just winter eeriness?
 
-**NPC Activity:**
+#### **NPC Activity:**
 - Brenna: Coordinating rescue operations; managing supplies
 - Mara: Rationing resources; solving shortages
 - Elric: Researching by firelight; more accessible for discussion
 - Father Merriksonn: Leading spiritual ceremonies; comforting frightened people
 - Isolated settlements: Politics/conflict intensify indoors
 
-**Peak Campaign Positioning:**
+#### **Peak Campaign Positioning:**
 - Often Act 2 climax or Act 3 beginning
 - Long indoor sequences good for investigation/revelation
 - Isolation creates tension differently (external threats replaced by internal pressure)
 
-**Mechanical Impact:**
+\column
+
+#### **Mechanical Impact:**
 - Movement speed halved (snow, ice)
 - Constitution saves required (cold damage if unprepared)
 - Most adventures must be near settlements or planned ahead
@@ -405,17 +438,18 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 ---
 
-## MONTH 7: THAWTHAW (Late Winter/Early Spring)
+## MONTH 7: THAWTHAW 
+###### (Late Winter/Early Spring)
 
 **Theme:** Desperation, anticipation, fragility, hope beginning
 
-**Weather:**
+#### **Weather:**
 - Temperatures 30-50°F, warming trend
 - Snow melts; rivers flood
 - Days lengthening noticeably (dawn ~7:30am, dusk ~6:30pm)
 - Unpredictable weather (warm days followed by freezes)
 
-**Events:**
+#### **Events:**
 
 1. **Late Winter Festival** (Days 5-7)
    - Celebratory break in midwinter monotony
@@ -440,18 +474,24 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Emotional Tone:* Everyone wants to travel/escape
    - *Hook:* Relationship crises, elopements, departures
 
-**NPC Activity:**
+
+{{pageNumber,auto}}
+{{footnote Seasonal Event Calendar for Northreach}}
+
+\page
+
+#### **NPC Activity:**
 - Brenna: Planning for spring; increased contract availability
 - Merchants: Eager to resume trading; gathering supplies for caravans
 - Young people: Desperate to leave settlements after isolation
 - Farmers: Planning spring plantings
 
-**Campaign Pacing:**
+#### **Campaign Pacing:**
 - Acts shifting; new momentum building
 - Revelations from winter ready to be acted upon
 - Return to travel and action (after isolated winter)
 
-**Mechanical Impact:**
+#### **Mechanical Impact:**
 - Travel beginning to open up but still dangerous
 - Flooding creates temporary barriers
 - Good transition month (Acts shifting)
@@ -459,7 +499,8 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 ---
 
-## SPECIAL EVENTS (Can Occur Any Month)
+## SPECIAL EVENTS 
+###### (Can Occur Any Month)
 
 ### Political Events
 - **Faction Crisis:** One faction splinters, allies with another, or declares war
@@ -479,15 +520,15 @@ This document provides 12 monthly events for Northreach that can serve as campai
 - **Vision Wave:** Multiple people experience same prophetic dream
 - **Magic Surge:** System-wide magical malfunction or breakthrough
 
+\column
+
 ### Personal Events
 - **NPC Birthday/Anniversary:** Celebration or remembrance
 - **NPC Romance Development:** Relationship milestone/crisis
 - **NPC Betrayal/Redemption:** Character alignment shifts
 - **NPC Death:** Important person dies (natural, accident, or violence)
 
----
-
-## USING THIS CALENDAR IN PRACTICE
+#### USING THIS CALENDAR IN PRACTICE
 
 ### Session 1 Planning
 "We're in Greenrise (Month 1). There's a Guild Supply Expedition happening. The party could escort it, or focus on recruiting adventures. Festival happening in 2 weeks."
@@ -504,9 +545,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 ### Repeating Elements
 "Like last year, spring's flooding has cut off the northern road again. Supply isn't getting through."
 
----
 
-## CALENDAR CHEAT SHEET
 
 | Month | Season | Temp | Travel | Mood | Best For |
 |-------|--------|------|--------|------|----------|
@@ -517,12 +556,3 @@ This document provides 12 monthly events for Northreach that can serve as campai
 | 5. Deepfall | Late Fall | 50-70→40 | Moderate | Urgent | Action, rising stakes |
 | 6. Deepwinter | Winter | 20-40 | Impassable | Isolated | Mystery, revelation, indoor games |
 | 7. Thawthaw | Late Winter | 30-50 | Difficult | Desperate | Crisis, transitions, hope |
-
-**Repeat Spring (Month 1) → Cycle continues**
-
----
-
-**Companion Documents:**
-- [Adventure_Quick_Reference.md](Adventure_Quick_Reference.md) — Mark adventures with seasonal recommendations
-- [Session_Prep_Master_Checklist.md](Session_Prep_Master_Checklist.md) — Check seasonal events during prep
-- [Campaign_Tracker.md](Campaign_Tracker.md) — Track current month/season

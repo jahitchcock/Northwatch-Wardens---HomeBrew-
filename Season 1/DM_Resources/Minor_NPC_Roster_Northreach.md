@@ -1,16 +1,15 @@
 # Minor NPC Roster: Northreach Region
 
+{{wide
 **Purpose:** Background NPCs to populate scenes, provide atmospheric depth, and create a living world. These are NOT major quest-givers but residents players might encounter during downtime, travel, or routine interactions.
 
-**Usage:**
+#### **Usage:**
 - Roll randomly when players visit locations
 - Name-drop during conversations ("Oh, you should talk to Maren about that")
 - Create relationship webs (these NPCs know each other)
 - Evolve over campaign (marriages, deaths, promotions, grudges)
-
----
-
-## WAYSTONE INN & GUILD HEADQUARTERS
+### WAYSTONE INN & GUILD HEADQUARTERS
+}}
 
 ### 1. Garth Ironfoot
 **Race:** Dwarf (Mountain) | **Age:** 67 | **Occupation:** Retired Warden, Inn Cook
@@ -49,7 +48,7 @@
 
 **Hook:** Knows all about horses, tracking, and wilderness survival. Will teach players to read animal signs.
 
----
+\column
 
 ### 4. Pim Tosscoin
 **Race:** Halfling | **Age:** 28 | **Occupation:** Guild Messenger / Courier
@@ -89,6 +88,11 @@
 **Hook:** Sells potions/remedies. Can teach survival skills. May have concerning knowledge of Echo-touched plants.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Minor NPC Roster: Northreach Region}}
+
+\page
 
 ## WELTON VILLAGE
 
@@ -143,6 +147,7 @@
 **Hook:** Living history of region. Can provide context for ancient ruins or pre-Calamity locations.
 
 ---
+\column
 
 ## PALEBANK VILLAGE
 
@@ -198,6 +203,12 @@
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Minor NPC Roster: Northreach Region}}
+
+\page
+
 ## PINEBROOK VILLAGE
 
 ### 15. Garthok "the Just"
@@ -251,10 +262,11 @@
 **Hook:** Understands adventurer mindset. Offers tactical advice. Can share cautionary tales.
 
 ---
+\column
 
 ## TRAVELING MERCHANTS & WANDERERS
 
-###19. Rendal Keenwhistle
+### 19. Rendal Keenwhistle
 **Race:** Halfling | **Age:** 41 | **Occupation:** Traveling Tinker, Information Broker
 
 **Appearance:** Balding with impressive sideburns. Pushes cart full of tools and trinkets.
@@ -292,6 +304,12 @@
 **Hook:** Potential ally or antagonist. Knows underworld contacts. May hunt same target as PCs.
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote Minor NPC Roster: Northreach Region}}
+
+\page
 
 ## NORTHREACH WILDERNESS ENCOUNTERS
 
@@ -333,6 +351,8 @@
 **Hook:** Comic relief. Needs rescue repeatedly. May inadvertently lead PCs to discoveries via bad luck.
 
 ---
+\column
+
 
 ## CHILDREN & YOUTH (For Emotional Stakes)
 
@@ -375,7 +395,13 @@
 
 ---
 
-## ANTAGONISTIC MINOR NPCS
+
+{{pageNumber,auto}}
+{{footnote Minor NPC Roster: Northreach Region}}
+
+\page
+
+### ANTAGONISTIC MINOR NPCS
 
 ### 28. Merrick "the Miser" Blackcoin
 **Race:** Human | **Age:** 44 | **Occupation:** Moneylender, Loan Shark
@@ -416,64 +442,67 @@
 
 ---
 
-## USING THIS ROSTER
 
-### Building Relationships
+### USING THIS ROSTER
+
+#### Building Relationships
 Create connections between NPCs:
 - Sylra (Inn barmaid) & Pim (Messenger) = Potential romance arc
 - Kasira (Young shepherd) & Pip (Hafling child) = Friendship, get into trouble together
 - Merrick (Loan shark) & Haggard (Disgraced Warden) = Predator & victim relationship
 
-### Seasonal Evolution
+#### Seasonal Evolution
 NPCs change over time:
 - **Greenrise:** Pip starts training with Rorin's militia
 - **Highsun:** Jessamine performs at Hearthfire Festival (terribly but enthusiastically)
 - **Harvestide:** Seraphine sponsors Kasira's first real sword
 - **Snowfall:** Korrin warns about thickening ice, "voices getting louder"
 
-### Random Encounter Integration
+#### Random Encounter Integration
 When rolling encounters, add NPC element:
 - Forest encounter → Kael Swiftarrow observing from treeline
 - Village marketplace → Grimbosh accidentally knocks over fruit cart
 - Inn scene → Sylra collecting stories, Garth cooking, Pim delivering message
 
-### Consequence Examples
-**If PCs ignore Torbin's warning:**
+#### Consequence Examples
+##### **If PCs ignore Torbin's warning:**
 - Torbin killed by cult agents
 - Younger orphans homeless
 - Village loses street-level intel
 
-**If PCs befriend Mira Frostborn:**
+##### **If PCs befriend Mira Frostborn:**
 - She teaches survival skills (+1 to Survival checks in arctic terrain)
 - Warns about glacier dangers before disaster occurs
 - May rescue PCs during blizzard
 
-### Mystery Connections
+#### Mystery Connections
 Some NPCs have hidden ties to Echo:
 - **Olan Mesk** discovered ruins beneath Palebank (Echo source)
 - **Elara Moonstone** found cult references in archives
 - **Torbin Ashfall** witnessed temple cultists recruiting
 - **Elira Dawntracker** experimenting with Echo-affected plants
 
-## DM TIPS
+{{note
+#### DM TIPS
 
-**Naming NPCs On the Fly:**
+##### **Naming NPCs On the Fly:**
 Keep roster nearby. If players ask random NPC's name, quickly scan list and assign unused/appropriate character.
 
-**Creating Depth:**
-Every NPC should have:
+##### **Creating Depth:**
+###### Every NPC should have:
 1. **Want:** What do they desire?
 2. **Fear:** What do they avoid?
 3. **Secret:** What are they hiding?
 
-**Avoiding Stereotypes:**
-Subvert expectations:
+##### **Avoiding Stereotypes:**
+###### Subvert expectations:
 - Dwarf cook instead of blacksmith
 - Optimistic half-orc instead of bruiser
 - Arrogant dwarf drunkard instead of noble warrior
 
-**Campaign Integration:**
-Promote minor NPCs to recurring roles if players engage:
+##### **Campaign Integration:**
+###### Promote minor NPCs to recurring roles if players engage:
 - Pim becomes regular message deliverer
 - Mira becomes preferred wilderness guide
 - Elara discovers critical clue and needs protection
+}}
