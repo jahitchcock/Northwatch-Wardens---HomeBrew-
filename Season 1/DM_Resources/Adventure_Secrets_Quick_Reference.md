@@ -98,7 +98,7 @@
 - **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
 
 **Key Secrets:**
-- Torven Grimley (trading post) is **Uttolot family fence** for Aeorian artifacts
+- Torven Grimley (trading post) is **Blackwake Corsairs fence** for Aeorian artifacts
 - Merryn Pine (lodge) is **information broker** who knows about smuggling
 - Market square has **dead drop locations** for conspirators
 - Abandoned logging camp closed after workers **found something Aeorian**

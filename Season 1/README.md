@@ -214,7 +214,7 @@ All Wardens shall:
 **Steward Mara Fenwick** — Quartermaster
 - **Public Role**: Supplies, finances, logistics, reimbursements
 - **Background**: Cheerful, meticulous; runs guild operations smoothly
-- **Secret**: Former smuggler from Shadycreek Run with active bounty; knows criminal networks intimately; will warn about specific threats (e.g., Uttolot family)
+- **Secret**: Former smuggler from Breakwater Haven with active bounty; knows criminal networks intimately; will warn about specific threats (e.g., Blackwake Corsairs)
 
 **Lorewarden Elric Vael** — Arcane Scholar
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis

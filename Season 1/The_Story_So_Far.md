@@ -155,7 +155,7 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **Opening Skirmish (Waystone Inn):** 2 starving wolves attack outside the inn at dusk.
 - **The Morning After:** charter signing ceremony; first contract assignment (Wolves of Welton).
 - **Wolves of Welton:** road ambush; Welton social/investigation; plan and travel; optional injured owlbear; den battle with Flame/Bolt; optional council clash.
-- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to Syrinlya; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
+- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to the Cold Anchor; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
 - **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.

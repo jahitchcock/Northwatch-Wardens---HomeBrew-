@@ -322,7 +322,7 @@ About 200 permanent residents:
 ### Governance
 - Led by Elro Aldataur (retired ranger, respected elder)
 - Decisions made communally with Elro as final voice
-- Militia service is mandatory (the Glassblades)
+- Militia service is mandatory (the Frostwatch)
 - Everyone contributes to community survival
 
 {{pageNumber,auto}}

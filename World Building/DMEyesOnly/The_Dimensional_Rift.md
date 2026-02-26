@@ -189,7 +189,7 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 ## Campaign Integration Checklist
 
 - [ ] Update *Frozen Sick* to use "The Far North" instead of "Eiselcross"
-- [ ] Replace "Uthodurn" references with "Syrinlya" (an Aevorian outpost)
+- [ ] Replace "Uthodurn" references with "the Cold Anchor" (a Northreach frontier research station)
 - [ ] Treat "Aeor" as an ancient, mysterious civilization (don't explain the rift yet)
 - [ ] Add inscriptions/texts in Salsvault referencing unfamiliar places
 - [ ] Have Lorewarden Elric express confusion about Aeorian geography ("These maps don't match anything we know")

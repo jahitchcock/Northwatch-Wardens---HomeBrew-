@@ -67,9 +67,9 @@ ___
 ***Generous Soul.*** Donates secretly to families affected by crime.
 :
 ### Secrets
-- 500 gp bounty on head from Uttolot family
+- 500 gp bounty on head from Blackwake Corsairs
 - Still has criminal underworld contacts
-- Fled Shadycreek Run; risk of bounty hunters
+- Fled Breakwater Haven; risk of bounty hunters
 :
 ### In-Scene Use
 Quartermaster for supplies; information broker; knows smuggling routes

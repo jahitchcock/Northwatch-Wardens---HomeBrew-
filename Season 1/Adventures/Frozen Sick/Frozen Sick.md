@@ -53,7 +53,7 @@ In your Aevoria setting:
 - **Salsvault** lies deep within the frozen wastes north of Palebank  
 - **Croaker Cave** is a smuggler hideout used by local bandits  
 - **The Far North** refers to the icefields and islands beyond Northreach’s frontier  
-- **Syrinlya Outpost** is a southern‑cities expedition camp adapted into your world as a **Warden‑friendly research station**  
+- **The Cold Anchor** is a frontier research station adapted into your world as a **Warden‑friendly research station**  
 
 The Wardens are uniquely positioned to respond because:
 
@@ -159,7 +159,7 @@ Where earlier adventures showed scattered symptoms of the Aeorian Echo, this is 
 
 - **Investigation** (Palebank Village)  
 - **Moral tension** (infected NPCs with limited time)  
-- **Exploration** (icefields, Syrinlya outpost)  
+- **Exploration** (icefields, the Cold Anchor)  
 - **Dungeon crawl** (Salsvault)  
 - **Lore discovery** (Aeor, Echo origins, activation timeline)  
 
@@ -226,8 +226,8 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 - **Urgon Wenth** — Deceased explorer, first victim  
 - **Verla Pelc** — Deceased collector, second victim  
 - **Irven Liel** — Merchant, infected along with family  
-- **Mila Teno** — Glassblade guard, helpful witness  
-- **Morgo** — Guide at Syrinlya outpost, knows the icefields  
+- **Mila Teno** — Frostwatch guard, helpful witness  
+- **Morgo** — Guide at the Cold Anchor, knows the icefields  
 - **Lorewarden Elric Vael** — Warden scholar who ties the clues together  
 
 ---
@@ -249,7 +249,7 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 \column
 
 #### **3. Journey to Salsvault**
-- Travel to Syrinlya  
+- Travel to the Cold Anchor  
 - Meet Morgo  
 - Cross the icefields  
 - Survive hazards and encounters  
@@ -350,7 +350,7 @@ There, they recover the remaining vials — and learn they came from **Salsvault
 #### **Act III — Journey to Salsvault**
 To reach the ruins, the Wardens must:
 
-- Travel to **Syrinlya Outpost**, a southern‑cities research station adapted into your world as a Warden‑friendly expedition camp  
+- Travel to **The Cold Anchor**, a frontier research station adapted into your world as a Warden‑friendly expedition camp  
 - Meet **Morgo**, a seasoned guide  
 - Cross the treacherous icefields  
 - Survive blizzards, mephits, and saber‑toothed predators  
@@ -543,7 +543,7 @@ A worried merchant opens the door, his children coughing softly behind him. Blue
 
 ### Additional Leads & NPCs
 
-#### Mila Teno — Glassblade Guard
+#### Mila Teno — Frostwatch Guard
 
 {{descriptive
 Mila stands watch near the docks, her armor rimed with frost. “I saw Tulgi sneaking around Urgon’s place the night before he died,” she says. “Didn’t think much of it then. Wish I had.”
@@ -648,7 +648,7 @@ They are not evil — just desperate.
 
 - They looked valuable  
 - Verla Pelc’s shop was an easy target  
-- A fence from Port Morrow promised coin  
+- A Blackwake Corsairs fence from Breakwater Haven promised coin for anything "blue and Aeorian"
 - They had no idea the vials were dangerous  
 
 If confronted, they panic — not out of guilt, but fear.
@@ -798,7 +798,7 @@ Inside:
 - A small pouch of silver  
 - A map scrap showing a route north toward **Salsvault**  
 - A note from a fence:  
-  > “More where these came from. North. Bring me anything glowing blue.”
+  > “More where these came from. North. Bring me anything glowing blue. — B.W.”
 
 {{note
 This is the party’s first explicit reference to Salsvault.
@@ -812,7 +812,7 @@ This is the party’s first explicit reference to Salsvault.
 By searching the hideout, the Wardens learn:
 
 - The vials came from **ancient ruins in the Far North**  
-- A fence from Port Morrow bought and resold them  
+- A Corsair fence from Breakwater Haven bought and resold them  
 - The bandits handled the vials without knowing the danger  
 - The disease is spreading because of these stolen items  
 - The map scrap points toward **Salsvault**  
@@ -863,7 +863,7 @@ This leads directly into **Section 6: Journey to Salsvault**.
 | 1 | 12 gp in mixed coins, a rusted dagger |
 | 2 | Small pouch of semi‑precious stones worth 15 gp |
 | 3 | A map scrap showing a route north toward **Salsvault** |
-| 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue.”* |
+| 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue. — B.W.”* |
 | 5 | A flask of cheap dwarven whiskey (10 gp) |
 | 6 | A bundle of smuggled goods worth 25 gp |
 
@@ -881,21 +881,21 @@ The wind sharpens as you leave Palebank Village behind. Snow whips across the fr
 }}
 
 The journey to Salsvault is dangerous, but the Wardens have a lead:  
-**Syrinlya Outpost**, a southern‑cities research station repurposed as a frontier camp.
+**The Cold Anchor**, a frontier research station repurposed as an expedition waypoint.
 
 ---
 
-### Syrinlya Outpost
+### The Cold Anchor
 
 {{descriptive
-A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A banner flaps overhead — a stylized compass rose, the mark of the southern expeditions.
+A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A hand-painted sign nailed to the central post reads: THE COLD ANCHOR. Below it, someone has added in smaller letters: “You made it. Now rest.”
 }}
 
-The outpost is staffed by:
+The station is staffed by:
 
-- Southern‑cities explorers  
-- Aevorian scholars  
-- A few Northreach locals  
+- Frontier researchers and scholars from the southern regions  
+- Aevorian naturalists and arcane surveyors  
+- A few Northreach locals who know the icefields  
 - Occasional Wardens on assignment  
 
 Here, the party meets **Morgo**, their guide.
@@ -2094,7 +2094,7 @@ It consolidates pacing, pitfalls, scaling, and improvisation tools so you can ke
 - **Urgon Wenth** — Deceased explorer (ice statue), source of outbreak.  
 - **Verla Pelc** — Deceased elf collector (also turned to ice).  
 - **Irven Liel** — Infected merchant, family at risk.  
-- **Morgo** — Southern‑cities guide at Syrinlya outpost.
+- **Morgo** — Guide at the Cold Anchor, knows the icefields
 
 ---
 
@@ -2301,3 +2301,5 @@ Use these throughout the adventure:
 4. **Morgo’s Warning:**  :: “We’ve lost three expeditions in the Far North this year. Something’s changing out there.”
 
 5. **Elric’s Debrief:**  :: “The wolves at Welton. The instability across Northreach. It’s all connected. The Aeorian Echo is spreading.”
+
+6. **The Corsair Thread:**  :: “The Blackwake Corsairs were moving these artifacts before anyone knew what they were. They have contacts from the Shattered Coast to Northreach. Someone gave them the commission.”

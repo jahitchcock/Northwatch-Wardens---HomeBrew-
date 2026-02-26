@@ -286,7 +286,7 @@ A containment breach?
 **3. Factions are mobilizing.**
 
 - Venomfang wants power.
-- The Uttolots want artifacts.
+- The Corsairs want artifacts.
 - Noke’s experiments weren’t isolated.
 - The wolves may become allies or enemies.
 

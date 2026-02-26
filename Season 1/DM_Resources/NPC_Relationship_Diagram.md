@@ -336,18 +336,18 @@ finances, and logistics.
 
 **Private Truth:** Mara is a former 
 
-smuggler from Shadycreek Run who 
+smuggler from Breakwater Haven who 
 
-fled after crossing the Uttolot family. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
+fled after crossing the Blackwake Corsairs. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
 
 #### **Campaign Tie‑ins:**
 
-- Frozen Sick: Mara recognizes the Uttolot name immediately and warns the party that they are dangerous, organized, and everywhere.
+- Frozen Sick: Mara recognizes the Corsair name immediately and warns the party that they are dangerous, organized, and everywhere.
 - Pinebrook: She has traded with Pinebrook’s merchants before and knows the local gossip.
 - Wolves of Welton: She suspects the wolves are being manipulated by someone with resources—possibly a rival smuggling ring.
 
 #### **Secrets:**
-1. **Uttolot Bounty**: Mara has a 500gp bounty on her head from the Uttolot family. If the party ever goes to Shadycreek Run, this becomes a ticking time bomb. Bounty hunters occasionally pass through Northreach.
+1. **Corsair Bounty**: Mara has a 500gp bounty on her head from the Blackwake Corsairs. If the party ever goes to Breakwater Haven, this becomes a ticking time bomb. Bounty hunters occasionally pass through Northreach.
 2. **Hidden Contacts**: Mara still has contacts in the criminal underworld. She can get hard-to-find items and information, but using these contacts risks revealing her location.
 3. **Guilt Payment**: Part of Mara's enthusiasm for the Wardens is genuine redemption. She donates a portion of her salary anonymously to families affected by smuggling operations she once ran.
 
@@ -483,7 +483,7 @@ awakening.
 
 \column
 #### Mila Teno  
-:: — Glassblade Rookie
+:: — Frostwatch Rookie
 
 ![homebrewery_mug](https://i.imgur.com/iltxa3w.png) {width:90px,wrapRight}
 
@@ -929,7 +929,7 @@ This document maps the major relationships and connections between NPCs in the N
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
 | **Marshal Brenna Thorne** | Field Commander | Former comrade of Corel (Greywinter Hunts); knows Shinebright from decades ago; suspicious of magical anomalies |
-| **Steward Mara Fenwick** | Quartermaster | Criminal past with Uttolot family; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
+| **Steward Mara Fenwick** | Quartermaster | Criminal past with Blackwake Corsairs; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
 | **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aeorian relics; connected to The Buyer; fascinated by Shinebright's magic |
 }}
 
@@ -1002,7 +1002,7 @@ This document maps the major relationships and connections between NPCs in the N
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
 | **Elro Aldataur** | Village Leader | Corel's cousin; pushes party to investigate Salsvault |
-| **Verla Pelc** | Merchant | Dangerous Uttolot connections; known to Mara and Mila |
+| **Verla Pelc** | Merchant | Dangerous Blackwake Corsairs connections; known to Mara and Mila |
 | **Tulgi** | Healer | Defensive about Urgon's death; ally or suspect |
 }}
 
@@ -1011,7 +1011,7 @@ This document maps the major relationships and connections between NPCs in the N
 {{wide
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
-| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Uttolot connections |
+| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Blackwake Corsairs connections |
 | **Ahmed Noke** | Antagonist Wizard | Haunts Guz's dreams; misused magic in Wild Sheep Chase |
 }}
 
@@ -1034,9 +1034,9 @@ The only two survivors of the "Greywinter Hunts," a brutal season when monsters 
 ### 2. The Criminal Network
 **NPCs**: Mara Fenwick, Verla Pelc, Hulil Lutan
 
-Mara fled Shadycreek Run after crossing the Uttolot family. Verla has dangerous connections to smuggling operations. Hulil works for cult operations that overlap with criminal networks.
+Mara fled Breakwater Haven after crossing the Blackwake Corsairs. Verla has dangerous connections to smuggling operations. Hulil works for cult operations that overlap with criminal networks.
 
-**Campaign Hook**: Mara can identify criminal signatures and warn about Uttolot involvement. She has a bounty on her head that becomes dangerous if party travels to Shadycreek Run.
+**Campaign Hook**: Mara can identify criminal signatures and warn about Corsair involvement. She has a bounty on her head that becomes dangerous if party travels to Breakwater Haven.
 
 ### 3. The Arcane Investigation
 **NPCs**: Elric Vael, Sera Gelanadel, Ariodh Highwhirl, The Buyer
@@ -1094,7 +1094,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Steward Mara Fenwick
 **Appears In:**
 - Opening: Return to Waystone (Session 0) — Handles supplies and logistics
-- Frozen Sick — Warns about Uttolot family connections
+- Frozen Sick — Warns about Blackwake Corsairs connections
 - Peril in Pinebrook — Knows Pinebrook merchants
 - Wolves of Welton — Suspects organized manipulation
 - **Recurring**: Available at Waystone for supplies, contracts, and underworld information
@@ -1141,7 +1141,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Nature expert, diplomatic voice, arcane sensitivity
 
-### Mila Teno (Glassblade Rookie)
+### Mila Teno (Frostwatch Rookie)
 **Appears In:**
 - Wolves of Welton — Begs party to kill wolves (trauma response)
 - Frozen Sick — Knows Verla Pelc, devastated by her fate
@@ -1390,7 +1390,7 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 - Frozen Sick — Merchant with dangerous connections
 - **Available**: Leverage, desperation, criminal network
 
-**Role**: Moral complexity, Uttolot subplot, information source
+**Role**: Moral complexity, Corsair subplot, information source
 
 ### Tulgi (Healer)
 **Appears In:**
@@ -1444,7 +1444,7 @@ Urgon discovered **Salsvault** by accident. He never understood what he found �
 *Human or Tiefling • Smuggler • Criminal Network Node*
 
 {{descriptive
-A shadowy trader from Port Morrow who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
+A shadowy trader from Breakwater Haven who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
 }}
 
 ---
@@ -1455,7 +1455,7 @@ A shadowy trader from Port Morrow who deals in curiosities, relics, and contraba
 - Never stays in one place long  
 
 #### Private Truth
-The Fence is a mid‑level operator in the **Uttolot criminal network**, the same network Mara Fenwick fled.
+The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network**, the same network Mara Fenwick fled.
 
 #### Campaign Tie‑ins
 **Frozen Sick:**:: Sold the vials to Irven 
@@ -1470,13 +1470,13 @@ The Fence is a mid‑level operator in the **Uttolot criminal network**, the sam
 - The Buyer has purchased from them  
 
 #### Secrets
-1. **Uttolot Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
+1. **Corsair Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
 2. **The Buyer:** They have met The Buyer once and were terrified.  
 3. **Ledger:** They keep a coded ledger that could expose the entire smuggling chain.
 
 #### Roleplay Notes
 - Slick, evasive, always calculating  
-- Fearful of the Uttolots  
+- Fearful of the Corsairs  
 - Will flee if cornered  
 
 ### The Buyer

@@ -633,7 +633,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### The Theft Network
 
 **Collection:**
-- Uttolot operatives positioned in multiple settlements
+- Corsair operatives positioned in multiple settlements
 - Prioritize items from Far North expeditions
 - Specific instructions on what to acquire
 - Pay premium for biological samples
@@ -685,13 +685,13 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Who Knows What
 
-**Uttolot Operatives:**
+**Corsair Operatives:**
 - Know they're stealing artifacts
 - Don't know why these specific items
 - Don't know the buyer's identity
 - Don't understand the danger
 
-**Uttolot Leadership:**
+**Corsair Leadership:**
 - Know buyer is very powerful
 - Understand operation is dangerous
 - Don't know full scope
@@ -747,7 +747,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Entity achieves awareness
 - Begins assessment of current world
 - Sends initial signals to other sites
-- Uttolot family contacted through dreams/magic
+- Blackwake Corsairs contacted through dreams/magic
 
 **Three Months Ago:**
 - Artifact thefts begin
@@ -871,7 +871,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Investigation Reveals:**
 - Aeorian bioweapon (frigid woe)
-- Artifact theft by Uttolots
+- Artifact theft by the Corsairs
 - Cure located in Salsvault
 - Pattern of biological weapon testing
 
@@ -897,7 +897,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Grimley's suspicious behavior
 
 **Investigation Reveals:**
-- Uttolot network
+- Blackwake Corsairs network
 - Specific items being targeted
 - Northern buyer
 - Money trail
@@ -911,7 +911,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Key NPCs:**
 - Mara (knows criminal networks)
 - Grimley (fence, has information)
-- Uttolot operatives (capturable)
+- Corsair operatives (capturable)
 - Merchants (witnessed transactions)
 
 ---
@@ -1017,7 +1017,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Location:** North of Palebank
 
 **Enemies:**
-- Uttolot thugs and operatives
+- Corsair enforcers and operatives
 - Hulil Lutan (mid-level fighter)
 - Possibly hired muscle
 - Natural hazards
@@ -1037,7 +1037,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Stakes:**
 - Prevent artifacts reaching entity
-- Expose Uttolot operation
+- Expose Corsair operation
 - Gain crucial intelligence
 - Possible cure components
 
@@ -1259,7 +1259,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Might turn against party temporarily
 - Recovery possible or tragic
 
-**Uttolot Defection:**
+**Corsair Defection:**
 - Some criminals realize danger
 - Might ally with party against entity
 - Or double-cross at crucial moment
