@@ -52,7 +52,7 @@ Welcome to Dungeons & Dragons:
 **Prerequisite Adventures:** None (works as standalone or side quest)
 
 **Leads To:**
-- **Future campaigns:** Artifact smuggling networks (Uttolot family conspiracy)
+- **Future campaigns:** Artifact smuggling networks (Blackwake Corsairs conspiracy)
 - Demonstrates that every settlement is vulnerable to Echo effects
 
 {{note
@@ -63,7 +63,7 @@ Welcome to Dungeons & Dragons:
 }}
 
 **Key Secrets:**
-- Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
+- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aeorian artifacts
 - Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
 - The market square contains **dead drop locations** for conspirators
 - An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
@@ -100,7 +100,7 @@ Welcome to Dungeons & Dragons:
 4. The Northwatch Wardens' role is vital for maintaining stability
 
 **Questions left unanswered:**
-- Who is coordinating the artifact smuggling? (Uttolot family, future campaigns)
+- Who is coordinating the artifact smuggling? (Blackwake Corsairs, future campaigns)
 - Where are the artifacts going? (Collectors, factions, researchers)
 - How widespread is the black market? (Regional scale)
 

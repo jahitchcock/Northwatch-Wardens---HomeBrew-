@@ -705,7 +705,7 @@ graph TD
     A[Brenna Thorne] -->|Trusts| B[Elric Vael]
     A -->|Investigates| C[Mara Fenwick]
     B -->|Collaborates| D[Sera Gelanadel]
-    C -->|Hides From| E[Uttolot Family]
+    C -->|Hides From| E[Blackwake Corsairs]
 ```
 
 ### Mystery Holders vs Seekers

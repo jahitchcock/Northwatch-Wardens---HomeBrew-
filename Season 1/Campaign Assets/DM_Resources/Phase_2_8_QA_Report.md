@@ -94,7 +94,7 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 **Phase 2: Scene-by-Scene Breakdown (✅ COMPLETE)**
 - Chapter 3: Palebank Village Investigation (Urgon's cabin, Tulgi confrontation, Pelc's Curiosities)
 - Chapter 4: Croaker Cave Assault (bandit encounters, vial recovery, Hulil Lutan)
-- Chapter 5: Journey to Salsvault (arctic travel, Syrinlya Outpost, Morgo NPC)
+- Chapter 5: Journey to Salsvault (arctic travel, The Cold Anchor, Morgo NPC)
 - Chapter 6: Salsvault Exploration & Climax (Aeorian ruins, Ferol Sal, Preservation Chamber, antidote)
 - Chapter 7: Aftermath & Revelation (cure infected, Elric's debrief, Echo connection)
 

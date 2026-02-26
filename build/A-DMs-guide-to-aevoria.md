@@ -1562,7 +1562,7 @@ All Wardens shall:
 **Steward Mara Fenwick** — Quartermaster
 - **Public Role**: Supplies, finances, logistics, reimbursements
 - **Background**: Cheerful, meticulous; runs guild operations smoothly
-- **Secret**: Former smuggler from Shadycreek Run with active bounty; knows criminal networks intimately; will warn about specific threats (e.g., Uttolot family)
+- **Secret**: Former smuggler from Breakwater Haven with active bounty; knows criminal networks intimately; will warn about specific threats (e.g., Blackwake Corsairs)
 
 **Lorewarden Elric Vael** — Arcane Scholar
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis
@@ -2045,7 +2045,7 @@ A containment breach?
 **3. Factions are mobilizing.**
 
 - Venomfang wants power.
-- The Uttolots want artifacts.
+- The Corsairs want artifacts.
 - Noke’s experiments weren’t isolated.
 - The wolves may become allies or enemies.
 
@@ -3374,18 +3374,18 @@ finances, and logistics.
 
 **Private Truth:** Mara is a former 
 
-smuggler from Shadycreek Run who 
+smuggler from Breakwater Haven who 
 
-fled after crossing the Uttolot family. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
+fled after crossing the Blackwake Corsairs. She hides her past well, but she knows the criminal networks of the North like the back of her hand.
 
 #### **Campaign Tie‑ins:**
 
-- Frozen Sick: Mara recognizes the Uttolot name immediately and warns the party that they are dangerous, organized, and everywhere.
+- Frozen Sick: Mara recognizes the Corsair name immediately and warns the party that they are dangerous, organized, and everywhere.
 - Pinebrook: She has traded with Pinebrook’s merchants before and knows the local gossip.
 - Wolves of Welton: She suspects the wolves are being manipulated by someone with resources—possibly a rival smuggling ring.
 
 #### **Secrets:**
-1. **Uttolot Bounty**: Mara has a 500gp bounty on her head from the Uttolot family. If the party ever goes to Shadycreek Run, this becomes a ticking time bomb. Bounty hunters occasionally pass through Northreach.
+1. **Corsair Bounty**: Mara has a 500gp bounty on her head from the Blackwake Corsairs. If the party ever goes to Breakwater Haven, this becomes a ticking time bomb. Bounty hunters occasionally pass through Northreach.
 2. **Hidden Contacts**: Mara still has contacts in the criminal underworld. She can get hard-to-find items and information, but using these contacts risks revealing her location.
 3. **Guilt Payment**: Part of Mara's enthusiasm for the Wardens is genuine redemption. She donates a portion of her salary anonymously to families affected by smuggling operations she once ran.
 
@@ -3524,7 +3524,7 @@ awakening.
 
 \column
 #### Mila Teno  
-:: — Glassblade Rookie
+:: — Frostwatch Rookie
 
 ![homebrewery_mug](https://i.imgur.com/iltxa3w.png) {width:90px,wrapRight}
 
@@ -3974,7 +3974,7 @@ This document maps the major relationships and connections between NPCs in the N
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
 | **Marshal Brenna Thorne** | Field Commander | Former comrade of Corel (Greywinter Hunts); knows Shinebright from decades ago; suspicious of magical anomalies |
-| **Steward Mara Fenwick** | Quartermaster | Criminal past with Uttolot family; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
+| **Steward Mara Fenwick** | Quartermaster | Criminal past with Blackwake Corsairs; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
 | **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aeorian relics; connected to The Buyer; fascinated by Shinebright's magic |
 }}
 
@@ -4048,7 +4048,7 @@ This document maps the major relationships and connections between NPCs in the N
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
 | **Elro Aldataur** | Village Leader | Corel's cousin; pushes party to investigate Salsvault |
-| **Verla Pelc** | Merchant | Dangerous Uttolot connections; known to Mara and Mila |
+| **Verla Pelc** | Merchant | Dangerous Blackwake Corsairs connections; known to Mara and Mila |
 | **Tulgi** | Healer | Defensive about Urgon's death; ally or suspect |
 }}
 
@@ -4057,7 +4057,7 @@ This document maps the major relationships and connections between NPCs in the N
 {{wide
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
-| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Uttolot connections |
+| **Hulil Lutan** | Cult Operative | Commands Raegrin; deals with The Buyer; Blackwake Corsairs connections |
 | **Ahmed Noke** | Antagonist Wizard | Haunts Guz's dreams; misused magic in Wild Sheep Chase |
 }}
 
@@ -4081,9 +4081,9 @@ The only two survivors of the "Greywinter Hunts," a brutal season when monsters 
 ### 2. The Criminal Network
 **NPCs**: Mara Fenwick, Verla Pelc, Hulil Lutan
 
-Mara fled Shadycreek Run after crossing the Uttolot family. Verla has dangerous connections to smuggling operations. Hulil works for cult operations that overlap with criminal networks.
+Mara fled Breakwater Haven after crossing the Blackwake Corsairs. Verla has dangerous connections to smuggling operations. Hulil works for cult operations that overlap with criminal networks.
 
-**Campaign Hook**: Mara can identify criminal signatures and warn about Uttolot involvement. She has a bounty on her head that becomes dangerous if party travels to Shadycreek Run.
+**Campaign Hook**: Mara can identify criminal signatures and warn about Corsair involvement. She has a bounty on her head that becomes dangerous if party travels to Breakwater Haven.
 
 ### 3. The Arcane Investigation
 **NPCs**: Elric Vael, Sera Gelanadel, Ariodh Highwhirl, The Buyer
@@ -4142,7 +4142,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Steward Mara Fenwick
 **Appears In:**
 - Opening: Return to Waystone (Session 0) — Handles supplies and logistics
-- Frozen Sick — Warns about Uttolot family connections
+- Frozen Sick — Warns about Blackwake Corsairs connections
 - Peril in Pinebrook — Knows Pinebrook merchants
 - Wolves of Welton — Suspects organized manipulation
 - **Recurring**: Available at Waystone for supplies, contracts, and underworld information
@@ -4189,7 +4189,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Nature expert, diplomatic voice, arcane sensitivity
 
-### Mila Teno (Glassblade Rookie)
+### Mila Teno (Frostwatch Rookie)
 **Appears In:**
 - Wolves of Welton — Begs party to kill wolves (trauma response)
 - Frozen Sick — Knows Verla Pelc, devastated by her fate
@@ -4441,7 +4441,7 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 - Frozen Sick — Merchant with dangerous connections
 - **Available**: Leverage, desperation, criminal network
 
-**Role**: Moral complexity, Uttolot subplot, information source
+**Role**: Moral complexity, Corsair subplot, information source
 
 ### Tulgi (Healer)
 **Appears In:**
@@ -4497,7 +4497,7 @@ Urgon discovered **Salsvault** by accident. He never understood what he found �
 *Human or Tiefling • Smuggler • Criminal Network Node*
 
 {{descriptive
-A shadowy trader from Port Morrow who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
+A shadowy trader from Breakwater Haven who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
 }}
 
 ---
@@ -4508,7 +4508,7 @@ A shadowy trader from Port Morrow who deals in curiosities, relics, and contraba
 - Never stays in one place long  
 
 #### Private Truth
-The Fence is a mid‑level operator in the **Uttolot criminal network**, the same network Mara Fenwick fled.
+The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network**, the same network Mara Fenwick fled.
 
 #### Campaign Tie‑ins
 **Frozen Sick:**:: Sold the vials to Irven 
@@ -4523,13 +4523,13 @@ The Fence is a mid‑level operator in the **Uttolot criminal network**, the sam
 - The Buyer has purchased from them  
 
 #### Secrets
-1. **Uttolot Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
+1. **Corsair Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
 2. **The Buyer:** They have met The Buyer once and were terrified.  
 3. **Ledger:** They keep a coded ledger that could expose the entire smuggling chain.
 
 #### Roleplay Notes
 - Slick, evasive, always calculating  
-- Fearful of the Uttolots  
+- Fearful of the Corsairs  
 - Will flee if cornered  
 
 ### The Buyer
@@ -10788,7 +10788,7 @@ ________________________________________
 - **Reputation:** ☐ Friendly ☐ Neutral ☐ Wary
 - **Last interaction:** _____________________________
 - .___________________________________________
-- **Secrets revealed?** ☐ Criminal past ☐ Uttolot bounty
+- **Secrets revealed?** ☐ Criminal past ☐ Corsair bounty
 
 ### Lorewarden Elric Vael
 - **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious
@@ -13695,7 +13695,7 @@ In your Aevoria setting:
 - **Salsvault** lies deep within the frozen wastes north of Palebank  
 - **Croaker Cave** is a smuggler hideout used by local bandits  
 - **The Far North** refers to the icefields and islands beyond Northreach’s frontier  
-- **Syrinlya Outpost** is a southern‑cities expedition camp adapted into your world as a **Warden‑friendly research station**  
+- **The Cold Anchor** is a frontier research station adapted into your world as a **Warden‑friendly research station**  
 
 The Wardens are uniquely positioned to respond because:
 
@@ -13803,7 +13803,7 @@ Where earlier adventures showed scattered symptoms of the Aeorian Echo, this is 
 
 - **Investigation** (Palebank Village)  
 - **Moral tension** (infected NPCs with limited time)  
-- **Exploration** (icefields, Syrinlya outpost)  
+- **Exploration** (icefields, the Cold Anchor)  
 - **Dungeon crawl** (Salsvault)  
 - **Lore discovery** (Aeor, Echo origins, activation timeline)  
 
@@ -13872,8 +13872,8 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 - **Urgon Wenth** — Deceased explorer, first victim  
 - **Verla Pelc** — Deceased collector, second victim  
 - **Irven Liel** — Merchant, infected along with family  
-- **Mila Teno** — Glassblade guard, helpful witness  
-- **Morgo** — Guide at Syrinlya outpost, knows the icefields  
+- **Mila Teno** — Frostwatch guard, helpful witness  
+- **Morgo** — Guide at the Cold Anchor, knows the icefields  
 - **Lorewarden Elric Vael** — Warden scholar who ties the clues together  
 
 ---
@@ -13895,7 +13895,7 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 \column
 
 #### **3. Journey to Salsvault**
-- Travel to Syrinlya  
+- Travel to the Cold Anchor  
 - Meet Morgo  
 - Cross the icefields  
 - Survive hazards and encounters  
@@ -13998,7 +13998,7 @@ There, they recover the remaining vials — and learn they came from **Salsvault
 #### **Act III — Journey to Salsvault**
 To reach the ruins, the Wardens must:
 
-- Travel to **Syrinlya Outpost**, a southern‑cities research station adapted into your world as a Warden‑friendly expedition camp  
+- Travel to **The Cold Anchor**, a frontier research station adapted into your world as a Warden‑friendly expedition camp  
 - Meet **Morgo**, a seasoned guide  
 - Cross the treacherous icefields  
 - Survive blizzards, mephits, and saber‑toothed predators  
@@ -14195,7 +14195,7 @@ A worried merchant opens the door, his children coughing softly behind him. Blue
 
 ### Additional Leads & NPCs
 
-#### Mila Teno — Glassblade Guard
+#### Mila Teno — Frostwatch Guard
 
 {{descriptive
 Mila stands watch near the docks, her armor rimed with frost. “I saw Tulgi sneaking around Urgon’s place the night before he died,” she says. “Didn’t think much of it then. Wish I had.”
@@ -14303,7 +14303,7 @@ They are not evil — just desperate.
 
 - They looked valuable  
 - Verla Pelc’s shop was an easy target  
-- A fence from Port Morrow promised coin  
+- A fence from Breakwater Haven promised coin  
 - They had no idea the vials were dangerous  
 
 If confronted, they panic — not out of guilt, but fear.
@@ -14470,7 +14470,7 @@ This is the party’s first explicit reference to Salsvault.
 By searching the hideout, the Wardens learn:
 
 - The vials came from **ancient ruins in the Far North**  
-- A fence from Port Morrow bought and resold them  
+- A fence from Breakwater Haven bought and resold them  
 - The bandits handled the vials without knowing the danger  
 - The disease is spreading because of these stolen items  
 - The map scrap points toward **Salsvault**  
@@ -14541,11 +14541,11 @@ The wind sharpens as you leave Palebank Village behind. Snow whips across the fr
 }}
 
 The journey to Salsvault is dangerous, but the Wardens have a lead:  
-**Syrinlya Outpost**, a southern‑cities research station repurposed as a frontier camp.
+**The Cold Anchor**, a frontier research station repurposed as a frontier camp.
 
 ---
 
-### Syrinlya Outpost
+### The Cold Anchor
 
 {{descriptive
 A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A banner flaps overhead — a stylized compass rose, the mark of the southern expeditions.
@@ -15780,7 +15780,7 @@ It consolidates pacing, pitfalls, scaling, and improvisation tools so you can ke
 - **Urgon Wenth** — Deceased explorer (ice statue), source of outbreak.  
 - **Verla Pelc** — Deceased elf collector (also turned to ice).  
 - **Irven Liel** — Infected merchant, family at risk.  
-- **Morgo** — Southern‑cities guide at Syrinlya outpost.
+- **Morgo** — Southern‑cities guide at the Cold Anchor.
 
 ---
 
@@ -17066,7 +17066,7 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 \column
 ### **Key Secrets:**
 {{note
-- Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
+- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aeorian artifacts
 - Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
 - The market square contains **dead drop locations** for conspirators
 - An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
@@ -17112,7 +17112,7 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 4. The Northwatch Wardens' role is vital for maintaining stability
 
 **Questions left unanswered:**
-- Who is coordinating the artifact smuggling? (Uttolot family, future campaigns)
+- Who is coordinating the artifact smuggling? (Blackwake Corsairs, future campaigns)
 - Where are the artifacts going? (Collectors, factions, researchers)
 - How widespread is the black market? (Regional scale)
 
@@ -19383,7 +19383,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 ### The Theft Network
 
 **Collection:**
-- Uttolot operatives positioned in multiple settlements
+- Corsair operatives positioned in multiple settlements
 - Prioritize items from Far North expeditions
 - Specific instructions on what to acquire
 - Pay premium for biological samples
@@ -19435,13 +19435,13 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Who Knows What
 
-**Uttolot Operatives:**
+**Corsair Operatives:**
 - Know they're stealing artifacts
 - Don't know why these specific items
 - Don't know the buyer's identity
 - Don't understand the danger
 
-**Uttolot Leadership:**
+**Corsair Leadership:**
 - Know buyer is very powerful
 - Understand operation is dangerous
 - Don't know full scope
@@ -19497,7 +19497,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Entity achieves awareness
 - Begins assessment of current world
 - Sends initial signals to other sites
-- Uttolot family contacted through dreams/magic
+- Blackwake Corsairs contacted through dreams/magic
 
 **Three Months Ago:**
 - Artifact thefts begin
@@ -19622,7 +19622,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Investigation Reveals:**
 - Aeorian bioweapon (frigid woe)
-- Artifact theft by Uttolots
+- Artifact theft by the Corsairs
 - Cure located in Salsvault
 - Pattern of biological weapon testing
 
@@ -19648,7 +19648,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Grimley's suspicious behavior
 
 **Investigation Reveals:**
-- Uttolot network
+- Blackwake Corsairs network
 - Specific items being targeted
 - Northern buyer
 - Money trail
@@ -19662,7 +19662,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Key NPCs:**
 - Mara (knows criminal networks)
 - Grimley (fence, has information)
-- Uttolot operatives (capturable)
+- Corsair operatives (capturable)
 - Merchants (witnessed transactions)
 
 ---
@@ -19769,7 +19769,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Location:** North of Palebank
 
 **Enemies:**
-- Uttolot thugs and operatives
+- Corsair enforcers and operatives
 - Hulil Lutan (mid-level fighter)
 - Possibly hired muscle
 - Natural hazards
@@ -19789,7 +19789,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 **Stakes:**
 - Prevent artifacts reaching entity
-- Expose Uttolot operation
+- Expose Corsair operation
 - Gain crucial intelligence
 - Possible cure components
 
@@ -20012,7 +20012,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Might turn against party temporarily
 - Recovery possible or tragic
 
-**Uttolot Defection:**
+**Corsair Defection:**
 - Some criminals realize danger
 - Might ally with party against entity
 - Or double-cross at crucial moment
@@ -20359,7 +20359,7 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 ## Campaign Integration Checklist
 
 - [ ] Update *Frozen Sick* to use "The Far North" instead of "Eiselcross"
-- [ ] Replace "Uthodurn" references with "Syrinlya" (an Aevorian outpost)
+- [ ] Replace "Uthodurn" references with "the Cold Anchor" (a Northreach frontier research station)
 - [ ] Treat "Aeor" as an ancient, mysterious civilization (don't explain the rift yet)
 - [ ] Add inscriptions/texts in Salsvault referencing unfamiliar places
 - [ ] Have Lorewarden Elric express confusion about Aeorian geography ("These maps don't match anything we know")
@@ -20525,7 +20525,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Her old contacts occasionally provide useful (and dangerous) information
 
-- Recognizes Uttolot family connection to Far North smuggling
+- Recognizes Blackwake Corsairs connection to Far North smuggling
 
 
 
@@ -20567,7 +20567,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (But Hasn't Shared):**
 
-- Uttolot family has been increasing Far North operations
+- Blackwake Corsairs has been increasing Far North operations
 
 - Several Aeorian artifacts have been sold through specific channels
 
@@ -20837,7 +20837,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Connection to Aeorian Echo:**
 
-- Innocent pawn who might be targeted by Uttolots to get to Wardens
+- Innocent pawn who might be targeted by the Corsairs to get to Wardens
 
 - Could be manipulated through family connections she's unaware of
 
@@ -21597,7 +21597,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret:**
 
-- Works for Uttolot criminal family
+- Works for Corsair criminal family
 
 - Stationed in Palebank to steal Far North artifacts
 
@@ -21609,7 +21609,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Connection to Aeorian Echo:**
 
-- Uttolots are middlemen for someone collecting artifacts
+- the Corsairs are middlemen for someone collecting artifacts
 
 - She's one of many operatives in different locations
 
@@ -21621,7 +21621,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (If Convinced to Talk):**
 
-- Uttolot operations in multiple settlements
+- Corsair operations in multiple settlements
 
 - Names of other operatives
 
@@ -21633,7 +21633,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Potential Development:**
 
-- Might become temporary ally against Uttolots
+- Might become temporary ally against the Corsairs
 
 - Could reveal information to save her life
 
@@ -21798,7 +21798,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-## The Uttolot Connection
+## The Blackwake Corsairs Connection
 
 
 
@@ -21808,7 +21808,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Public Knowledge:**
 
-- Criminal family based in Shadycreek Run
+- Criminal family based in Breakwater Haven
 
 - Involved in smuggling and theft
 
@@ -21828,7 +21828,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### Uttolot Operatives in Northreach
+### Corsair Operatives in Northreach
 
 
 
@@ -21840,7 +21840,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### What the Uttolots Know
+### What the Corsairs Know
 
 
 
@@ -21860,7 +21860,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Role:** Tulgi's sister, mid-level Uttolot operative
+**Role:** Tulgi's sister, mid-level Corsair operative
 
 
 
@@ -21939,7 +21939,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Flynt Knows:** Southern interest in situation
 
-**Uttolots Know:** Buyer's requirements and drop-off locations
+**Corsairs Know:** Buyer's requirements and drop-off locations
 
 **Tulgi Knows:** Operative network
 
@@ -22001,7 +22001,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
          |
 
-    [Uttolot Family]
+    [Blackwake Corsairs]
 
          |
 
@@ -22055,7 +22055,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - **Johan + Rowan:** Understanding of Aeorian violations
 
-- **Uttolot Operatives:** Conspiracy structure
+- **Corsair Operatives:** Conspiracy structure
 
 - **Traumatized NPCs:** Personal encounters with effects
 
@@ -22473,7 +22473,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Someone is watching the Waystone Inn
 
-- Uttolot operatives have scoped the location
+- Corsair operatives have scoped the location
 
 - Unknown agent has tried to access Elric's library
 
@@ -22485,7 +22485,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - At least one staff member is reporting to outsiders
 
-- Kitchen worker is Uttolot informant
+- Kitchen worker is Corsair informant
 
 - Stable hand notices who comes and goes
 
@@ -22788,7 +22788,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Secret Operation:**
 
-- Torven Grimley is Uttolot family fence
+- Torven Grimley is Blackwake Corsairs fence
 
 - Handles stolen Aeorian artifacts
 
@@ -22818,7 +22818,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Route to northern drop-off point
 
-- Instructions from Uttolot leadership
+- Instructions from Corsair leadership
 
 
 
@@ -22828,7 +22828,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Secret storage space with current inventory
 
-- Correspondence with Uttolots (encoded)
+- Correspondence with the Corsairs (encoded)
 
 - Map showing smuggling routes
 
@@ -23001,7 +23001,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - This is a drop-off point for artifact smuggling
 
-- Uttolots use it as waystation
+- Corsairs use it as waystation
 
 - Items stored temporarily before moving north
 
@@ -23218,7 +23218,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden:**
 
-- Uttolot instructions (coded, hidden in bedroll)
+- Corsair instructions (coded, hidden in bedroll)
 
 - List of "acquisition priorities"
 
@@ -23256,7 +23256,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
-### The Glassblades: Compromised Security
+### The Frostwatch: Compromised Security
 
 
 
@@ -23270,7 +23270,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Secret Problem:**
 
-- One member is Uttolot informant
+- One member is Corsair informant
 
 - Reports on security, visitors, and artifact returns
 
@@ -23384,7 +23384,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Visible Threat:**
 
-- Uttolot thugs using as hideout
+- Corsair enforcers using as hideout
 
 - Stolen goods stored
 
@@ -23430,7 +23430,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Manifest of recent acquisitions
 
-- Correspondence with Uttolot leadership
+- Correspondence with Corsair leadership
 
 - Instructions from mysterious buyer
 
@@ -23452,7 +23452,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Correspondence:**
 
-- Letters from Uttolot family
+- Letters from Blackwake Corsairs
 
 - Coded messages from buyer
 
@@ -23489,7 +23489,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What She Knows:**
 
-- Full Uttolot operation in region
+- Full Corsair operation in region
 
 - Identities of other operatives
 
@@ -23735,7 +23735,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - In permanently frozen wasteland
 
-- Marked on Uttolot map
+- Marked on Corsair map
 
 
 
@@ -24406,7 +24406,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 \page
 
-### The Uttolot Operation
+### The Corsair Operation
 
 
 
@@ -30410,7 +30410,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Tulgi Lutan** | Infected | ~7 days left | Gruff; survives if players cure/complete quest |
 | **Irven Liel** | Infected | Family at risk | Merchant; offers reward for family salvation |
 | **Verla Pelc** | Dead (frozen) | Already gone | Carried vials to Croaker Cave |
-| **Morgo** | Scout/Guide | Syrinlya | Provides map or directions to Salsvault |
+| **Morgo** | Scout/Guide | the Cold Anchor | Provides map or directions to Salsvault |
 
 ### Disease Timeline
 
@@ -30839,9 +30839,9 @@ ___
 ***Generous Soul.*** Donates secretly to families affected by crime.
 :
 ### Secrets
-- 500 gp bounty on head from Uttolot family
+- 500 gp bounty on head from Blackwake Corsairs
 - Still has criminal underworld contacts
-- Fled Shadycreek Run; risk of bounty hunters
+- Fled Breakwater Haven; risk of bounty hunters
 :
 ### In-Scene Use
 Quartermaster for supplies; information broker; knows smuggling routes
@@ -33014,7 +33014,7 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **Opening Skirmish (Waystone Inn):** 2 starving wolves attack outside the inn at dusk.
 - **The Morning After:** charter signing ceremony; first contract assignment (Wolves of Welton).
 - **Wolves of Welton:** road ambush; Welton social/investigation; plan and travel; optional injured owlbear; den battle with Flame/Bolt; optional council clash.
-- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to Syrinlya; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
+- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to the Cold Anchor; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
 - **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.

@@ -169,7 +169,7 @@ Fresh from her training, Mila is eager to prove herself. She volunteered for eve
 Enthusiastic and green. Mila's energy is both an asset and a liability—she learns fast but sometimes rushes ahead.
 
 #### What People Know:
-    -Volunteered for the Glassblades (Uthodurn's militia) before joining the Wardens
+    -Volunteered for the Frostwatch (Palebank's frontier militia) before joining the Wardens
     -Tries very hard to be taken seriously
     -Has yet to face something truly dangerous alone
 

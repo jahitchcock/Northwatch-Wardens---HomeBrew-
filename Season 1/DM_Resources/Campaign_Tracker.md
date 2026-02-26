@@ -1031,7 +1031,7 @@ ________________________________________
 - **Reputation:** ☐ Friendly ☐ Neutral ☐ Wary
 - **Last interaction:** _____________________________
 - .___________________________________________
-- **Secrets revealed?** ☐ Criminal past ☐ Uttolot bounty
+- **Secrets revealed?** ☐ Criminal past ☐ Corsair bounty
 
 ### Lorewarden Elric Vael
 - **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious

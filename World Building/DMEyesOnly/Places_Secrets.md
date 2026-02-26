@@ -240,7 +240,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Someone is watching the Waystone Inn
 
-- Uttolot operatives have scoped the location
+- Corsair operatives have scoped the location
 
 - Unknown agent has tried to access Elric's library
 
@@ -252,7 +252,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - At least one staff member is reporting to outsiders
 
-- Kitchen worker is Uttolot informant
+- Kitchen worker is Corsair informant
 
 - Stable hand notices who comes and goes
 
@@ -554,7 +554,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Secret Operation:**
 
-- Torven Grimley is Uttolot family fence
+- Torven Grimley is Blackwake Corsairs fence
 
 - Handles stolen Aeorian artifacts
 
@@ -584,7 +584,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Route to northern drop-off point
 
-- Instructions from Uttolot leadership
+- Instructions from Corsair leadership
 
 
 
@@ -594,7 +594,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Secret storage space with current inventory
 
-- Correspondence with Uttolots (encoded)
+- Correspondence with the Corsairs (encoded)
 
 - Map showing smuggling routes
 
@@ -766,7 +766,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - This is a drop-off point for artifact smuggling
 
-- Uttolots use it as waystation
+- Corsairs use it as waystation
 
 - Items stored temporarily before moving north
 
@@ -982,7 +982,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden:**
 
-- Uttolot instructions (coded, hidden in bedroll)
+- Corsair instructions (coded, hidden in bedroll)
 
 - List of "acquisition priorities"
 
@@ -1020,7 +1020,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 
 
-### The Glassblades: Compromised Security
+### The Frostwatch: Compromised Security
 
 
 
@@ -1034,7 +1034,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Secret Problem:**
 
-- One member is Uttolot informant
+- One member is Corsair informant
 
 - Reports on security, visitors, and artifact returns
 
@@ -1148,7 +1148,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Visible Threat:**
 
-- Uttolot thugs using as hideout
+- Corsair enforcers using as hideout
 
 - Stolen goods stored
 
@@ -1194,7 +1194,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Manifest of recent acquisitions
 
-- Correspondence with Uttolot leadership
+- Correspondence with Corsair leadership
 
 - Instructions from mysterious buyer
 
@@ -1216,7 +1216,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Correspondence:**
 
-- Letters from Uttolot family
+- Letters from Blackwake Corsairs
 
 - Coded messages from buyer
 
@@ -1252,7 +1252,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What She Knows:**
 
-- Full Uttolot operation in region
+- Full Corsair operation in region
 
 - Identities of other operatives
 
@@ -1498,7 +1498,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - In permanently frozen wasteland
 
-- Marked on Uttolot map
+- Marked on Corsair map
 
 
 
@@ -2166,7 +2166,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 \page
 
-### The Uttolot Operation
+### The Corsair Operation
 
 
 

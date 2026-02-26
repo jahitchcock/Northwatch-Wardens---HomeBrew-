@@ -28,7 +28,7 @@ If DM wants climactic final fight, helmed horror activates from S15 and pursues 
 ### Return Journey
 
 **Option 1: Uneventful (Reward for Success)**
-Morgo guides party back to Syrinlya, then Palebank. No random encounterslet players celebrate victory.
+Morgo guides party back to the Cold Anchor, then Palebank. No random encounterslet players celebrate victory.
 
 **Option 2: Tension Maintenance (if DM prefers pacing)**
 One random encounter on return (ice mephits, saber-toothed tiger) to maintain tension.
@@ -65,7 +65,7 @@ If party only found ~10 vials instead of 20, DM can create moral tension:
 
 **Reputation Change:**
 - **Palebank Village:** Friendly (future quests available, discounts at shops, free lodging)
-- **Syrinlya Outpost:** Interested (southern cities expedition wants party for future ventures)
+- **The Cold Anchor:** Interested (southern cities expedition wants party for future ventures)
 
 **Material Rewards:**
 - 200 gp (original contract payment from southern cities buyers)
@@ -109,7 +109,7 @@ When party returns to Waystone Inn (1-2 days travel from Palebank), Lorewarden E
 Elric mentions reports of cult activity near ley line convergence pointsmatching locations near Salsvault. "If the Dragonknights are involved, they may be seeking Aeorian power sources."
 
 **Southern Cities Interest:**
-The Buyer from Syrinlya sends message: "Interested in hiring you for further Aeorian expeditions. Salsvault may not be the only crash site in The Far North."
+The Buyer from the Cold Anchor sends message: "Interested in hiring you for further Aeorian expeditions. Salsvault may not be the only crash site in The Far North."
 
 **Alexi Merriksonn Closure:**
 Father Merriksonn receives confirmation: Alexi died investigating Salsvault, killed by constructs or magical feedback. "At least I know. Thank you for bringing me the truth."
@@ -196,7 +196,7 @@ Father Merriksonn receives confirmation: Alexi died investigating Salsvault, kil
 
 ### Morgo (Guide)
 **Race:** Human, female, early 20s
-**Role:** Scout for southern cities Syrinlya expedition, guide
+**Role:** Scout for southern cities the Cold Anchor expedition, guide
 **Personality:** Enthusiastic, curious, genuinely loves exploration despite dangers
 **Voice:** Energetic, uses southern cities slang, optimistic even in adversity
 

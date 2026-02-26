@@ -134,17 +134,17 @@
 
 7. ✅ **Croaker Cave - Bandit Hideout** (uid: 2226)
    - 6 Bandits (optional combat)
-   - Uttolot family revealed, interrogation
+   - Blackwake Corsairs revealed, interrogation
 
 8. ✅ **Croaker Cave - Hulil's Lair** (uid: 2227)
    - **COMBAT:** Hulil Lutan + Raegrin Mau | **XP:** 650
    - Priestess of Tiamat, moral choices, vial discovery
 
-9. ✅ **Journey to Syrinlya** (uid: 2228)
+9. ✅ **Journey to the Cold Anchor** (uid: 2228)
    - Boat travel, magical storm skill challenge
    - 3-day journey to the northern coast
 
-10. ✅ **Syrinlya Outpost** (uid: 2229)
+10. ✅ **The Cold Anchor** (uid: 2229)
     - Aevorian research base, Commander Morgo Delwur
     - Supplies, Irven Liel guide recruitment
 
@@ -361,8 +361,8 @@
 - [x] Create uid 2225: Croaker Cave - Entrance & Giant Ice Frogs
 - [x] Create uid 2226: Croaker Cave - Bandit Hideout
 - [x] Create uid 2227: Croaker Cave - Hulil's Lair
-- [x] Create uid 2228: Journey to Syrinlya
-- [x] Create uid 2229: Syrinlya Outpost
+- [x] Create uid 2228: Journey to the Cold Anchor
+- [x] Create uid 2229: The Cold Anchor
 - [x] Create uid 2230: Trek to Salsvault
 - [x] Create uid 2231: Salsvault - Entrance Hall
 - [x] Create uid 2232: Salsvault - Laboratory Wing

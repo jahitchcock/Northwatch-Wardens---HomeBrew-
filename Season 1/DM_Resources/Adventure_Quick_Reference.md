@@ -121,7 +121,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Tulgi Lutan** | Infected | ~7 days left | Gruff; survives if players cure/complete quest |
 | **Irven Liel** | Infected | Family at risk | Merchant; offers reward for family salvation |
 | **Verla Pelc** | Dead (frozen) | Already gone | Carried vials to Croaker Cave |
-| **Morgo** | Scout/Guide | Syrinlya | Provides map or directions to Salsvault |
+| **Morgo** | Scout/Guide | the Cold Anchor | Provides map or directions to Salsvault |
 
 ### Disease Timeline
 

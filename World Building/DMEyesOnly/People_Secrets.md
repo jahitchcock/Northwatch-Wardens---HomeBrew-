@@ -148,7 +148,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Her old contacts occasionally provide useful (and dangerous) information
 
-- Recognizes Uttolot family connection to Far North smuggling
+- Recognizes Blackwake Corsairs connection to Far North smuggling
 
 
 
@@ -190,7 +190,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (But Hasn't Shared):**
 
-- Uttolot family has been increasing Far North operations
+- Blackwake Corsairs has been increasing Far North operations
 
 - Several Aeorian artifacts have been sold through specific channels
 
@@ -458,7 +458,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Connection to Aeorian Echo:**
 
-- Innocent pawn who might be targeted by Uttolots to get to Wardens
+- Innocent pawn who might be targeted by the Corsairs to get to Wardens
 
 - Could be manipulated through family connections she's unaware of
 
@@ -1214,7 +1214,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret:**
 
-- Works for Uttolot criminal family
+- Works for Corsair criminal family
 
 - Stationed in Palebank to steal Far North artifacts
 
@@ -1226,7 +1226,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Connection to Aeorian Echo:**
 
-- Uttolots are middlemen for someone collecting artifacts
+- the Corsairs are middlemen for someone collecting artifacts
 
 - She's one of many operatives in different locations
 
@@ -1238,7 +1238,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (If Convinced to Talk):**
 
-- Uttolot operations in multiple settlements
+- Corsair operations in multiple settlements
 
 - Names of other operatives
 
@@ -1250,7 +1250,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Potential Development:**
 
-- Might become temporary ally against Uttolots
+- Might become temporary ally against the Corsairs
 
 - Could reveal information to save her life
 
@@ -1414,7 +1414,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-## The Uttolot Connection
+## The Blackwake Corsairs Connection
 
 
 
@@ -1424,7 +1424,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Public Knowledge:**
 
-- Criminal family based in Shadycreek Run
+- Criminal family based in Breakwater Haven
 
 - Involved in smuggling and theft
 
@@ -1444,7 +1444,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### Uttolot Operatives in Northreach
+### Corsair Operatives in Northreach
 
 
 
@@ -1456,7 +1456,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### What the Uttolots Know
+### What the Corsairs Know
 
 
 
@@ -1476,7 +1476,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Role:** Tulgi's sister, mid-level Uttolot operative
+**Role:** Tulgi's sister, mid-level Corsair operative
 
 
 
@@ -1554,7 +1554,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Flynt Knows:** Southern interest in situation
 
-**Uttolots Know:** Buyer's requirements and drop-off locations
+**Corsairs Know:** Buyer's requirements and drop-off locations
 
 **Tulgi Knows:** Operative network
 
@@ -1616,7 +1616,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
          |
 
-    [Uttolot Family]
+    [Blackwake Corsairs]
 
          |
 
@@ -1670,7 +1670,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - **Johan + Rowan:** Understanding of Aeorian violations
 
-- **Uttolot Operatives:** Conspiracy structure
+- **Corsair Operatives:** Conspiracy structure
 
 - **Traumatized NPCs:** Personal encounters with effects
 
