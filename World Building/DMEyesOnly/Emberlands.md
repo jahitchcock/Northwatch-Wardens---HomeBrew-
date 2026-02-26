@@ -70,6 +70,7 @@ Since Eclipse Day:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
+
 \page
 
 ---
@@ -172,6 +173,7 @@ Cult prophecies contain distorted fragments of truth:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
+
 \page
 
 ---
@@ -261,6 +263,7 @@ Information players should eventually discover (through investigation and explor
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
+
 \page
 
 ---
@@ -339,6 +342,7 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
+
 
 \page
 
@@ -529,6 +533,7 @@ Ultimate outcomes depend on player choices across the campaign:
 
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
+
 
 \page
 

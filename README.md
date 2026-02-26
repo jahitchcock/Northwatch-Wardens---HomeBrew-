@@ -74,6 +74,7 @@ A **modular, drop-in guild campaign** for D&D 5e set in the frontier region of N
 {{pageNumber,auto}}
 {{footnote Welcome to Aevoria}}
 
+
 \page
 
 ## Using This Guide
@@ -108,7 +109,9 @@ This guide separates **player-safe content** from **DM-only secrets**:
 {{pageNumber,auto}}
 {{footnote Welcome to Aevoria}}
 
+
 \page
+
 :::::::::::::
 ![cat warrior](https://i.imgur.com/poUmt58.jpeg) {width:465px,,margin-left:-3cm,position:absolute,mix-blend-mode:multiply}
 
@@ -145,6 +148,7 @@ The campaign uses a **contract-based structure** centered on the Waystone Inn:
 
 {{pageNumber,auto}}
 {{footnote Welcome to Aevoria}}
+
 
 \page
 

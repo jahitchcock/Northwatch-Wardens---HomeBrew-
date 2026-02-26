@@ -610,6 +610,7 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 {{pageNumber,auto}}
 {{footnote The Sunken Dominion: DM-Only Secrets}}
 
+
 \page
 
 ---

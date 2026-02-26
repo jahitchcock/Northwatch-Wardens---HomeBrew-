@@ -45,8 +45,7 @@
         "../Season 1/DM_Resources/Travel_Encounter_Library.md",
         "../Season 1/DM_Resources/Random_Encounter_Tables_Downtime.md",
         "../Season 1/DM_Resources/Player_Handouts_By_Adventure.md",
-        "../Season 1/DM_Resources/Campaign_Tracker.md",
-        "../Season 1/DM_Resources/Campaign_Tracker_BLANK.md"
+        "../Season 1/DM_Resources/Campaign_Tracker.md"
       ]
     },
     {
@@ -64,26 +63,14 @@
         {
           "title": "Wolves of Welton",
           "files": [
-            "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md"
-          ]
-        },
-        {
-          "title": "Frozen Sick",
-          "files": [
-            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md",
-            "../Season 1/Adventures/Frozen Sick/Frozen_Sick_Stat_Blocks.md"
+            "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md",
+            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md"
           ]
         },
         {
           "title": "The Wild Sheep Chase",
           "files": [
             "../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md"
-          ]
-        },
-        {
-          "title": "Peril in Pinebrook",
-          "files": [
-            "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md"
           ]
         },
         {

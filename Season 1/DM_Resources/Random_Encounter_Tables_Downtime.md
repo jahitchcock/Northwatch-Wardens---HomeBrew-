@@ -1,4 +1,3 @@
-
 {{wide
 
 ### Random Encounter Tables: Downtime & Social Interactions
@@ -44,6 +43,7 @@
 
 ---
 
+
 \page
 
 {{wide
@@ -75,7 +75,10 @@
 | 20 | **Echo Manifestation:** Public display of minor Echo effect (geometric frost, humming metal, animal behaving oddly). Locals react with fear or curiosity. Investigation opportunity. |
 }}
 ---
+
+
 \page
+
 {{wide
 ## TABLE 3: WILDERNESS TRAVEL (d20)
 
@@ -105,7 +108,10 @@
 | 20 | **Hidden Opportunity:** Off-trail discovery (cave, ruins, hidden grove). Contains [minor treasure / lore clue / NPC hermit]. Requires investigation to find. |
 }}
 ---
+
+
 \page
+
 {{wide
 #### TABLE 4: SEASONAL EVENTS (d12)
 
@@ -155,6 +161,8 @@
 | 20 | **Cult Recruiter:** Charismatic NPC subtly proselytizes [Temple of Dragonknights OR invented cult]. Insight DC 15 detects danger. Investigation opportunity. |
 
 ---
+
+
 \page
 
 #### TABLE 6: RUMOR MILL (d20)
@@ -216,6 +224,8 @@
 | 20 | **Mysterious Vial:** Glowing blue liquid. "From ancient ruins." 60 gp. *If purchased: Roll! 1-10 = useless dye. 11-20 = Minor magical effect OR plot complication (DM choice).* |
 
 ---
+
+
 \page
 
 #### TABLE 8: GUILD DOWNTIME (d12)
@@ -277,6 +287,7 @@
 - **Acquaintance (+1-2):** Friendly, minor favors
 - **Friend (+3-4):** Significant help, trust, invitations
 - **Close Ally (+5+):** Will take risks for PC, provides resources
+
 
 \page
 

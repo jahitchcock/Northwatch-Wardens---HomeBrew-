@@ -1,30 +1,34 @@
-![A painted cover page showing a lone wolf howling atop a jagged mountain peak against a dramatic, glowing orange‑pink sky. Dark, fluttering birds surround the peak and the scene uses moody purples, blues and warm backlight in a textured, painterly style. The lower half is a parchment‑textured layout with the large serif title "The Wolves of Welton" and the subtitle "A 2nd–3rd Level Adventure for Dungeons & Dragons 5E — Produced by Winghorn Press." Two columns of text beneath the title are labeled "Summary" and "Adventure Hooks," and a small page number (~ 1 ~) sits at the bottom. The page has a torn paper transition between the illustration and the parchment area.](./5E_Wolves_Of_Welton_images/image_001.png)
 
-## Northwatch Wardens Integration (DM)
+### Northwatch Wardens Integration (DM)
 
-**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+- **Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+::
+- **Campaign Arc:** Arc 1: First Signs — Learning the Land
 
-**Campaign Arc:** Arc 1: First Signs — Learning the Land
+- **Arc Position:** Part 1 of 2 in Arc 1
 
-**Arc Position:** Part 1 of 2 in Arc 1
+#### **Arc Progress Notes:** 
+This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
 
-**Arc Progress Notes:** This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
+#### **Campaign Connection:** 
+This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
 
-**Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
+### **Prerequisite Adventures:** 
+None (campaign opener)
 
-**Prerequisite Adventures:** None (campaign opener)
-
-**Leads To:** 
+### **Leads To:** 
 - **Frozen Sick** (direct connection via Salsvault activation)
 - **Wild Sheep Chase** (magical destabilization theme)
 - All other adventures (establishes the Echo as ongoing threat)
 
-**DM Secret Resources:** For the truth behind this adventure, see:
+#### **DM Secret Resources:** 
+>For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Welton: Dark Undercurrents" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
 
-**Key Secrets:**
+\column
+#### **Key Secrets:**
 - The wolves' intelligence awakening is caused by Aeorian facility beneath Westly's Farm
 - Alexi Merriksonn was exposed to the Aeorian Echo; his magical discharge awakened the wolves
 - This is a **test run** for larger Aeorian operations
@@ -32,32 +36,35 @@
 
 **Player Discovery:** Characters should discover strange magical anomalies but not necessarily the full Aeorian connection yet. This is the campaign's **inciting incident**.
 
-### Mystery Clues (Aeorian Echo Investigation)
+### Mystery Clues 
+(Aeorian Echo Investigation)
 
-**Primary Clue — Unnatural Intelligence:**
+#### **Primary Clue — Unnatural Intelligence:**
 - The wolves demonstrate sapient behavior: opening latches, using tactics, communicating with purpose
 - **Discovery Method:** Direct observation, NPC testimony (Westly, village council)
 - **Investigation DC 12 (Nature):** "This isn't learned behavior — something *changed* them at a fundamental level"
 - **Connects to:** Frozen Sick (similar magical transformation), Wild Sheep Chase (magical destabilization)
 
-**Secondary Clue — Timing of Awakening:**
+#### **Secondary Clue — Timing of Awakening:**
 - Wolf intelligence appeared suddenly 2-3 weeks ago, coinciding with Alexi Merriksonn's disappearance
 - **Discovery Method:** Father Merriksonn's testimony, village timeline questioning
 - **Investigation DC 14 (Arcana):** "Sudden mass transformation suggests external magical event, not gradual evolution"
 - **Connects to:** Frozen Sick (Salsvault activation timeline matches)
 
-**Tertiary Clue — Magical Residue:**
+#### **Tertiary Clue — Magical Residue:**
 - If party has *detect magic*, faint transmutation aura lingers on the awakened wolves
 - **Discovery Method:** Spellcasting or magical expertise
 - **Investigation DC 15 (Arcana):** "This magic feels... *old*. Not like modern wizardry"
 - **Connects to:** All Echo adventures (signature Aeorian transmutation magic)
 
-**Hidden Clue — The Old Woods:**
+#### **Hidden Clue — The Old Woods:**
 - If players explore north of Welton, they find geometric frost patterns and buried metallic structures
 - **Discovery Method:** Active exploration, following wolf tracks to lair
 - **Investigation DC 16 (History/Arcana):** "These symbols match pre-Calamity Aeorian designs"
 - **Connects to:** Frozen Sick revelation (Aeorian facilities exist throughout region)
 
+
+\page
 ### Investigation Thread Summary
 
 **If players complete this adventure, they learn:**
@@ -66,85 +73,90 @@
 3. The source is unknown but likely ancient and powerful
 4. This may not be an isolated incident
 
+\column
+:::
 **Questions left unanswered (for future adventures):**
-- What caused the awakening? (Answered in: Frozen Sick)
-- Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
-- Can this be reversed or contained? (Campaign-wide question)
+1. What caused the awakening? (Answered in: Frozen Sick)
+2. Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
+3. Can this be reversed or contained? (Campaign-wide question)
 
----
 
-\page
 
 # DM Notes: Wolves of Welton
 
-## Adventure Overview
+### Adventure Overview
 
-**Theme:** Intelligence awakening where it shouldn't — wolves have become sapient through magical corruption (the Aeorian Echo)
+- **Theme:** Intelligence awakening where it shouldn't — wolves have become sapient through magical corruption (the Aeorian Echo)
 
-**Core Tension:** The wolves aren't evil, just desperate and newly intelligent. Killing them is easy; negotiating with them reveals the deeper mystery.
+- **Core Tension:** The wolves aren't evil, just desperate and newly intelligent. Killing them is easy; negotiating with them reveals the deeper mystery.
 
-**Level Range:** 1-3 (excellent starter adventure)
+- **Level Range:** 1-3 (excellent starter adventure)
 
-**Expected Duration:** 4-6 hours (single or two-session adventure)
+- **Expected Duration:** 4-6 hours (single or two-session adventure)
 
-**Key NPCs:**
+#### **Key NPCs:**
 - **Bolt** (awakened alpha wolf) — reasonable, pragmatic, wants peace
 - **Flame** (ambitious wolf) — aggressive, challenges Bolt's leadership
 - **Father Merriksonn** — village priest, his brother Alexi disappeared when wolves awakened
 - **Tillus Merrion** — halfling council member, distrusts outsiders
 - **Leanor Slatebeard** — dwarven innkeeper, provides shelter and gossip
 
-## Central Mystery (Aeorian Echo Connection)
+#### Central Mystery (Echo Connection)
 
 The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorcerer was killed by magical feedback when Salsvault (buried Aeorian ruins, 100+ miles north) suddenly activated. His death released a burst of transformative magic that awakened the wolves.
 
-**Clues Players Should Discover:**
+#### **Clues Players Should Discover:**
 1. The wolf attacks started exactly when Alexi disappeared
 2. Wolves demonstrate sapient intelligence (planning, speech, morality)
 3. Something *magical* caused this; it wasn't natural evolution
 4. This is a symptom of a larger phenomenon spreading across Northreach
 
+{{note
 **What to Reveal:** The wolves' awakening is a *symptom*, not the cause. The true source remains hidden until later adventures (Frozen Sick).
+}}
 
-## Common DM Pitfalls
 
-### 1. Making Wolves Too Evil
-**Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
+### Common DM Pitfalls
 
-**Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
+#### 1. Making Wolves Too Evil
+- **Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
 
-### 2. Railroading the Negotiation
-**Problem:** Players may not think to negotiate; forcing it feels artificial.
+- **Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
 
-**Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
+#### 2. Railroading the Negotiation
+- **Problem:** Players may not think to negotiate; forcing it feels artificial.
 
-### 3. Council Vote Feeling Pre-Scripted
-**Problem:** Players feel their arguments don't matter; vote seems rigged.
+- **Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
 
-**Solution:** Track player arguments. Give concrete benefits:
-- Good Nature/History checks about wolves → +1 swing vote
-- Mentioning Alexi's magic → Father Merriksonn passion increases (already YES, but emphasizes to others)
-- Proposing practical solutions (wolves move to specific territory) → +1 swing vote
-- Intimidation or threats → -1 swing vote
+#### 3. Council Vote Feeling Pre-Scripted
+- **Problem:** Players feel their arguments don't matter; vote seems rigged.
 
-**Remember:** Father Merriksonn and Corel are *guaranteed* YES votes if party negotiates. Players need only **1 more vote** out of 5 remaining council members.
+- **Solution:** Track player arguments. Give concrete benefits:
+  - Good Nature/History checks about wolves → +1 swing vote
+  - Mentioning Alexi's magic → Father Merriksonn passion increases (already YES, but emphasizes to others)
+  - Proposing practical solutions (wolves move to specific territory) → +1 swing vote
+  - Intimidation or threats → -1 swing vote
 
-### 4. Underplaying Flame's Threat
-**Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+- **Remember:** Father Merriksonn and Corel are *guaranteed* YES votes if party negotiates. Players need only **1 more vote** out of 5 remaining council members.
 
-**Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
+#### 4. Underplaying Flame's Threat
+- **Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+
+- **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
+
+\page
 
 ## Resolution Outcomes
 
 ### Path A: Total Extermination
-**Result:**
+#### **Result:**
 - Village celebrates; 800 gp reward paid immediately
 - Father Merriksonn is quietly disappointed (his brother's magic caused this)
 - Wolves eliminated; mystery remains unsolved
 - **Aeorian Echo clue:** Elric later notes "Whatever awakened them is still out there."
 
 ### Path B: Negotiated Peace
-**Result:**
+#### **Result:**
 - Council votes (4 YES / 3 NO if players argue well)
 - Wolves relocate to agreed hunting grounds
 - 800 gp reward paid after probationary period
@@ -152,7 +164,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Aeorian Echo clue:** Bolt says "We did not ask for this. Something *changed* us. We do not know what."
 
 ### Path C: Deception (Claim Victory, Wolves Survive)
-**Result:**
+#### **Result:**
 - Village pays 800 gp believing wolves dead
 - Secret alliance with Bolt established
 - Long-term: Wolves raid more carefully; village suspicious
@@ -160,7 +172,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Aeorian Echo clue:** Bolt shares his experience of "waking up" — sudden, magical, terrifying
 
 ### Path D: Flame's Coup
-**Result:**
+#### **Result:**
 - If Bolt is killed or discredited, Flame takes over
 - Attacks escalate; village suffers
 - Party may be called back to finish the job
@@ -169,17 +181,19 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 ## Tactical Notes
 
 ### Combat Encounter Scaling
-**For 2 players (Level 1-2):**
+#### **For 2 players (Level 1-2):**
 - Scene 1 (road): 4 wolves
 - Flame's den: Flame + 2 wolves
 
-**For 3-4 players (Level 1-2):**
+#### **For 3-4 players (Level 1-2):**
 - Scene 1 (road): 6-8 wolves (as written)
 - Flame's den: Flame + 4 wolves
 
-**For 5+ players (Level 2-3):**
+#### **For 5+ players (Level 2-3):**
 - Scene 1 (road): 10 wolves
 - Flame's den: Flame + 6 wolves + 1 dire wolf
+
+\column
 
 ### Wolves Use Tactics
 - **Pack Tactics:** Always try to get advantage via flanking
@@ -194,9 +208,23 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 ## Improvisation Toolkit
 
 ### If Players Get Stuck
-1. **Father Merriksonn approaches privately:** "I know you may think I'm mad, but... could the wolves be *intelligent*? My brother studied transformation magic before he vanished."
-2. **Willen Featherock (traumatized victim) reveals:** He heard wolves *talking* during his capture. (He's considered crazy, but he's telling the truth.)
-3. **Leanor Slatebeard (innkeeper) suggests:** "Maybe ask the wolves what *they* want? Stranger things have happened."
+##### **Father Merriksonn approaches privately:**
+
+{{descriptive
+"I know you may think I'm mad, but... could the wolves be *intelligent*? My brother studied transformation magic before he vanished."
+}}
+
+##### **Willen Featherock (traumatized victim) reveals:** 
+
+{{descriptive
+He heard wolves *talking* during his capture. (He's considered crazy, but he's telling the truth.)
+}}
+
+##### **Leanor Slatebeard (innkeeper) suggests:** 
+
+{{descriptive
+"Maybe ask the wolves what *they* want? Stranger things have happened."
+}}
 
 ### If Players Attack Bolt Immediately
 - Bolt yields after losing 50% HP
@@ -207,6 +235,8 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Father Merriksonn makes impassioned speech:** His brother's death may have caused this; villagers owe it to Alexi's memory to try peace
 - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
 - **Future hook:** Tillus remains hostile; may cause problems later
+
+\page
 
 ## Rewards & Aftermath
 
@@ -224,118 +254,156 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - Completing adventure: Party reaches **Level 2**
 - (If using XP tracking: 300 XP per player for completion)
 
+\column
 ## Aeorian Echo Foreshadowing
 
-**Subtle hints to drop during the adventure:**
+***Subtle hints to drop during the adventure:**
 
-1. **Bolt's Description of Awakening:**
-   > "One moment I was hunting. The next... I could *think*. Not like before. I understood pack, family, future, *death*. It was like being born and dying at once."
+#### **Bolt's Description of Awakening:**
+{{descriptive 
+   "One moment I was hunting. The next... I could *think*. Not like before. I understood pack, family, future, *death*. It was like being born and dying at once."
+}}
+#### **Father Merriksonn's Grief:**
+{{descriptive 
+"Alexi was studying something he called 'the old magic stirring.' He said the land itself was waking up. He went north to investigate and never returned."
+}}
+#### Willen Featherock's Ravings: 
+**(if players talk to him)**
+{{descriptive 
+"Blue lights in the darkness... cold that burns... the wolves were *glowing* when they spoke to me... unnatural, I tell you!"
+}}
+#### Elric's Follow-Up: 
+**(when party returns to Waystone Inn)**
+{{descriptive 
+"Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
+}}
 
-2. **Father Merriksonn's Grief:**
-   > "Alexi was studying something he called 'the old magic stirring.' He said the land itself was waking up. He went north to investigate and never returned."
-
-3. **Willen Featherock's Ravings (if players talk to him):**
-   > "Blue lights in the darkness... cold that burns... the wolves were *glowing* when they spoke to me... unnatural, I tell you!"
-
-4. **Elric's Follow-Up (when party returns to Waystone Inn):**
-   > "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
 
-\page
 
+\page
 # DM Prep Checklist: Wolves of Welton
 
-## One Week Before Session
+### One Week Before Session
+```
+[ ] Read entire adventure once 
+    through (30-45 minutes)
+[ ] Review DM Notes section (above) 
+    for key themes and pitfalls
+[ ] Decide on Bolt's personality voice 
+    — calm, pragmatic, slightly formal 
+        (newly learned speech)
+[ ] Decide on Flame's personality voice 
+    — aggressive, impulsive, contemptuous 
+       of "weak" pack
+[ ] Note which council members are swing 
+   votes Tillus leans NO, Corel leans YES
+[ ] Mark pages/sections for quick 
+     reference during play
+```
+::
+### Day Before Session
+```
+[ ] Print or bookmark wolf stat block 
+[ ] Print or bookmark NPC summaries 
+[ ] Review council voting mechanics 
+   3 votes needed, Merriksonn + Corel yes
+[ ] Prepare Bolt's opening speech 
+   establish intelligence and desperation
+[ ] Prepare random wolf names 
+     for if players ask e.g., Ash, Scar..
+[ ] Review Scene 1 (road encounter) 
+  combat setup — 150 ft starting distance
+[ ] Decide battle map or theater of mind
+```
+::
+### Props & Materials 
+>(Optional but Helpful)
+```
+[ ] Index card with Bolt's key dialogue
+[ ] Card with council voting tendencies
+[ ] Map of Welton (if available) 
+     OR sketch simple village layout
+[ ] Notecard for tracking player 
+      arguments during council scene
+[ ] Wolf miniatures or tokens
+[ ] Dice for wolves (to speed up combat)
+```
+::
+### Session Zero / Player Prep
+```
+[ ] Confirm party knows they're 
+    responding to Contract W-17 
+[ ] Brief players on Northreach setting: 
+    rural frontier, low-magic, 
+    isolated villages
+[ ] Set expectations: This adventure 
+     rewards creative problem-solving 
+      and negotiation
+[ ] Clarify: Combat is *one* solution, 
+      not the *only* solution
+[ ] Ask players: "How does your character 
+      feel about animals? Monsters? 
+        Talking creatures?"
+```
+\column
+### Quick Reference During Play
 
-- [ ] Read entire adventure once through (30-45 minutes)
-- [ ] Review DM Notes section (above) for key themes and pitfalls
-- [ ] Decide on Bolt's personality voice — calm, pragmatic, slightly formal (newly learned speech)
-- [ ] Decide on Flame's personality voice — aggressive, impulsive, contemptuous of "weak" pack
-- [ ] Note which council members are swing votes (Tillus leans NO, Corel leans YES)
-- [ ] Mark pages/sections for quick reference during play
-
-## Day Before Session
-
-- [ ] Print or bookmark wolf stat block (MM p241 OR Party Roster)
-- [ ] Print or bookmark NPC summaries (Father Merriksonn, Tillus, Leanor)
-- [ ] Review council voting mechanics (3 votes needed, Father Merriksonn + Corel = 2 guaranteed)
-- [ ] Prepare Bolt's opening speech (3-4 sentences establishing sapience and desperation)
-- [ ] Prepare random wolf names if players ask (e.g., Ash, Scar, Grey-Ear, Swift)
-- [ ] Review Scene 1 (road encounter) combat setup — 150 ft starting distance
-- [ ] Decide if you'll use battle map or theater of mind
-
-## Props & Materials (Optional but Helpful)
-
-- [ ] Index card with Bolt's key dialogue quotes
-- [ ] Index card with council member voting tendencies
-- [ ] Map of Welton (if available) OR sketch simple village layout
-- [ ] Notecard for tracking player arguments during council scene (tally good points)
-- [ ] Wolf miniatures or tokens (if using grid combat)
-- [ ] Dice for wolves (to speed up combat)
-
-## Session Zero / Player Prep
-
-- [ ] Confirm party knows they're responding to Contract W-17 (posted at Waystone Inn)
-- [ ] Brief players on Northreach setting: rural frontier, low-magic, isolated villages
-- [ ] Set expectations: This adventure rewards creative problem-solving and negotiation
-- [ ] Clarify: Combat is *one* solution, not the *only* solution
-- [ ] Ask players: "How does your character feel about animals? Monsters? Talking creatures?"
-
-## Quick Reference During Play
-
-### Key DC Checks
+#### Key DC Checks
 - **DC 10 Nature:** Wolves are acting with unusual intelligence (opening doors, coordinated tactics)
 - **DC 12 Arcana:** This level of intelligence is magical, not natural evolution
 - **DC 15 Investigation (Urgon's cabin):** Find evidence of magical disturbance around time Alexi vanished
 - **DC 10 Persuasion (Council):** Gain +1 swing vote with good argument
-- **DC 15 Intimidation (Council):** Lose -1 swing vote (threatens council, backfires)
+- **DC 15 Intimidation (Council):** Lose -1 swing vote 
 
-### Council Voting Tiers
-**GUARANTEED YES (if negotiation attempted):**
+#### Council Voting Tiers
+###### **GUARANTEED YES (if negotiation attempted):**
 - Father Merriksonn (brother's magic caused this)
 - Corel (believes in coexistence)
 
-**SWING VOTES (need 1+ of these):**
+###### **SWING VOTES (need 1+ of these):**
 - Tillus Merrion: Leans NO, persuadable with strong economic argument
 - Other council members: Neutral, persuadable with good roleplay/checks
 
-**GUARANTEED NO:**
+###### **GUARANTEED NO:**
 - 2 council members whose families lost livestock (can be persuaded with reparations)
 
-### Bolt vs. Flame Breakdown
-**Bolt (Alpha, Negotiator):**
+#### Bolt vs. Flame Breakdown
+###### **Bolt (Alpha, Negotiator):**
 - Wants: Safety, territory, recognition as people
 - Fears: Extermination, starvation, pack infighting
 - Offers: Relocation, ceasefire, mutual defense pact
 
-**Flame (Challenger, Warmonger):**
+###### **Flame (Challenger, Warmonger):**
 - Wants: Dominance, to prove strength through raids
 - Fears: Appearing weak, losing status
 - Triggers combat if: Bolt negotiates with "prey"
 
-### Adventure Pacing (4-Hour Session)
-- **Hour 1:** Travel to Welton, Scene 1 (road encounter), arrive at village
-- **Hour 2:** Gather information, meet NPCs, council meeting
+#### Adventure Pacing (4-Hour Session)
+- **Hour 1:** Travel to Welton, Scene 1, arrive at village
+- **Hour 2:** Gather info, meet NPCs, council meeting
 - **Hour 3:** Investigate wolf den, meet Bolt, Flame confrontation
-- **Hour 4:** Resolution (combat OR council vote), return to Waystone Inn
+- **Hour 4:** Resolution (combat OR council vote)
 
-### Important Names
+#### Important Names
 - **Bolt:** Alpha wolf, negotiator, awakened intelligence
 - **Flame:** Rival wolf, ambitious, aggressive
 - **Father Merriksonn:** Village priest, Alexi's brother
 - **Alexi Merriksonn:** Missing sorcerer (DECEASED — players don't know this yet)
 - **Tillus Merrion:** Halfling council member, distrusts outsiders
-- **Leanor Slatebeard:** Dwarven innkeeper (Shepherd's Crook)
+- **Leanor Slatebeard:** Dwarven innkeeper
 - **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
+
+\page
 
 ### Quick Treasure
 - 800 gp reward (from village council)
 - Healing potions x2 (can be purchased at Shepherd's Crook, 50 gp each)
 - Alexi's spellbook (if negotiation successful, gift from Father Merriksonn)
 
-### Bolt's Opening Speech (if players negotiate)
+### Bolt's Opening Speech
 {{descriptive
 **Bolt's Opening Speech:**
 *The alpha wolf steps forward. Its eyes are not those of a beast — they are thoughtful, weary, almost human.*
@@ -343,7 +411,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "You understand me. I see it in your eyes. Good. We are not monsters. We were animals once. Then... something changed us. We woke up. We think now. We feel fear. We know death. We have cubs who will starve if we do not hunt. Your people call us thieves. What choice did we have? Would you starve to preserve a stranger's peace?"
 }}
 
-### Flame's Challenge (if combat starts)
+### Flame's Challenge 
 {{descriptive
 **Flame's Challenge:**
 *A scarred wolf with ember-colored eyes snarls.*
@@ -351,7 +419,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "You are WEAK, Bolt! Talking to prey! We are WOLVES! We TAKE what we need! If they hunt us, we hunt THEM!"
 }}
 
-### Father Merriksonn's Reaction (if peaceful resolution)
+### Father Merriksonn's Reaction 
 {{descriptive
 **Father Merriksonn's Reaction:**
 *The priest's eyes glisten with tears.*
@@ -359,40 +427,50 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "Thank you. My brother... Alexi studied magic, forbidden magic perhaps. I believe his death caused this. These wolves did not choose their fate. You have given them a chance my brother never had."
 }}
 
-## Post-Session Tasks
+### Post-Session Tasks
+```
+[ ] Update Campaign Tracker: 
+     Note if wolves were killed 
+       or negotiated with
+[ ] Track Father Merriksonn's 
+     relationship status 
+[ ] Note if Tillus Merrion is hostile
+[ ] Record if Bolt's pack is now an ally 
+      (can be called upon in future)
+[ ] Award XP or milestone level-up
+[ ] Note any Aeorian Echo clues 
+     players seemed interested in
+[ ] Prepare Lorewarden Elric's debrief 
+           for next session 
+       (connects to larger mystery)
+```
+\column
 
-- [ ] Update Campaign Tracker: Note if wolves were killed or negotiated with
-- [ ] Track Father Merriksonn's relationship status (Grateful OR Neutral/Disappointed)
-- [ ] Note if Tillus Merrion is hostile (future plot hook)
-- [ ] Record if Bolt's pack is now an ally (can be called upon in future)
-- [ ] Award XP or milestone level-up (Party → Level 2)
-- [ ] Note any Aeorian Echo clues players seemed interested in
-- [ ] Prepare Lorewarden Elric's debrief for next session (connects to larger mystery)
+### Troubleshooting Common Issues
 
-## Troubleshooting Common Issues
-
-### "We attack Bolt during negotiations!"
+#### "We attack Bolt during negotiations!"
 → Bolt yields immediately, begs for mercy, other wolves flee. Give players chance to reconsider.
 
-### "We want to talk to the wolves, but how?"
+#### "We want to talk to the wolves, but how?"
 → Bolt sends a wolf messenger with a crude message (stick drawing or crudely spoken Common).
 
-### "The council vote is taking too long."
+#### "The council vote is taking too long."
 → Call for a recess. Have Father Merriksonn speak with party privately about what arguments will work.
 
-### "We want to kill ALL the wolves, including cubs."
+#### "We want to kill ALL the wolves, including cubs."
 → Allow it, but make consequences clear: Father Merriksonn is horrified, village reputation suffers (-1 future reaction rolls), Lorewarden Elric notes "You destroyed evidence of the magical phenomenon."
 
-### "We tell the village we killed the wolves, but let them live."
+#### "We tell the village we killed the wolves, but let them live."
 → Excellent deception path! Require Deception checks. Consequences emerge later (wolves seen near village again, party must maintain lie or come clean).
 
-## Next Session Hook
+### Next Session Hook
 
 When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
 
 {{descriptive
 **Lorewarden Elric's Debrief:**
-"Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident involving a polymorphed sheep. Something is waking the old magic. I need you to investigate further."
+:
+"Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident.  Something is waking the old magic. I need you to investigate further."
 }}
 
 This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
@@ -400,639 +478,1355 @@ This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces th
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Wolves of Welton}}
 
+
 \page
 
+# Wolves of Welton
+### Opening Scene: Welcome to the Welton Wolfpack
+{{note
+**Campaign Note (DM):**  
+This is the party’s first contact with the awakened wolves. It should feel tense, strange, and slightly uncanny — not a normal wolf attack. This is the first visible sign of the Aeorian Echo affecting the frontier.
+}}
+
+{{descriptive
+The hills roll gently toward the valley below, where the white‑walled buildings of Welton cluster along a slow river. Ahead, the road bends between a rocky outcrop and the edge of a moss‑covered woodland.
+
+Two shepherds guide a flock of sheep through the gap, their four dogs trotting alongside.
+
+Suddenly, the dogs stiffen — ears pricked, barking wildly.
+
+Lean grey shapes burst from both sides of the road, moving with impossible speed and coordination. Eight wolves descend on the flock in a blur of teeth and motion.
+}}
+
+If the characters intervene, roll initiative. They begin **150 feet** from the ambush.
+
+{{note
+The wolves are here to steal sheep, not kill shepherds. They avoid unnecessary harm and retreat if outmatched.
+}}
+
+
+### Aftermath
+
+{{descriptive
+The wolves scatter into the trees, leaving torn wool and frightened sheep behind. The shepherds, shaken but alive, thank you profusely.
+}}
+
+They ask for help returning to Welton and share rumors (see **Shaggy Wolf Stories**).
+
+They cannot offer a reward, but they are grateful and eager to talk.
+
+---
 \column
+### Combat Tactics
 
-# Scene 1: Welcome to the Welton Wolfpack
+- Wolves split into two groups:  
+  - **Half** harass the shepherds  
+  - **Half** grab sheep and retreat west  
+- Wolves avoid killing blows; they bite to distract  
+- If the party proves dangerous, wolves disengage and flee into the woods  
+- This encounter is meant to feel *wrong* — too coordinated, too clever
 
-The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.
+---
 
-Around 150ft ahead of them is a slight bend in the road where it passes between an outcrop of rocks and the borders of a mossy woodland. As they approach they see a pair of men driving a small flock of sheep through the gap with the help of four sheepdogs.
 
-The first indication that anything is amiss comes when the dogs prick up their ears and start frantically barking. The men immediately pull long wooden clubs from their belts and start looking about, clearly distressed. In the blink of an eye, lean grey shapes burst out from both sides of the road, all launching themselves at sheep with incredible speed. Eight **Wolves** *(MMp241)* are taking part in the attack.
 
-Assuming the players wish to do anything other than watch the fight from a distance, roll up initiative and start the encounter with the players starting at a distance of 150ft from the action.
 
-Once the fight is over the injured shepherds are grateful for the help - assuming any was forthcoming - and ask for aid returning to Welton. They are more than happy to share local gossip (see **Shaggy Wolf Storie**s) but will not be able to offer any real reward.
+{{monster,frame
+## Awakened Wolf
+*Medium monstrosity, neutral*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 18 (4d8)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (+1) | 15 (+2) | 12 (+1) | 10 (+0) | 12 (+1) | 10 (+0) |
+___
+**Skills** :: Perception +3, Stealth +4  
+**Senses** :: passive Perception 13  
+**Languages** :: Common, Sylvan, plus one regional tongue (usually Welton Cant)  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.*** Advantage on Perception checks relying on hearing or smell.
 
-{{pageNumber,auto}}
-{{footnote Scene 1: Welcome to the Welton Wolfpack}}
+***Pack Tactics.*** Advantage on attack rolls if an ally is within 5 ft of the target.
+
+***Coordinated Retreat.*** When the wolf takes the Disengage action, one allied wolf within 30 ft may move up to half its speed without provoking opportunity attacks.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage. DC 11 Strength save or be knocked prone.
+
+***Commanding Bark (Recharge 5–6).***  
+Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
+}}
+
+
 
 \page
-
-## Combat Tactics
-
-The wolves are here to steal sheep, not kill shepherds - they certainly don’t want to fight even low-level adventurers. Half of them will keep the shepherds distracted while the rest pick off sheep and retreat to the west. They will not try to kill the shepherds, but will instead bite at their arms and legs.
-
-When the players arrive on the scene the wolves may test their strength with a couple rounds of combat, but will quickly retreat into the woods if it appears they are outmatched.
 
 ## Shaggy Wolf Stories
 
-*"Course, all this started when that sorcerer, Father Merriksonn's brother, upped and disappeared.*
+Use these as examples of things the villagers have seen or heard to help set the stage of what is happening
 
-*Not that I'd hear a word against him, 'course, but it makes you think, don't it..."*
+{{descriptive
+"Course, all this started when that sorcerer, Father Merriksonn's brother, upped and disappeared.
+Not that I'd hear a word against him, 'course, but it makes you think, don't it..."
+}}
+:
+{{descriptive
+"First sign something out of the usual was goin' on came when the Petersens up on Spurrok's Hill had a dozen sheep snatched from inside a barn. 
 
------------------------------------------------------------
+"Their boy got thrashed somethin' awful for failing to close it, but a week later the exact same thing happened, even though old Petersen had locked up hisself!"
+}}
+:
+{{descriptive
+"Wheatly, who sells pots, pans and ointments here about, was chased off his cart by a pack of wolves. Says they appeared from the trees as if by magic.*
 
-*"First sign something out of the usual was goin' on came when the Petersens up on Spurrok's Hill had a dozen sheep snatched from inside a barn.*
+*"When he went back with some village lads the horses were gone, and so were three sacks a' thick leather he were planning to trade."
+}}
+:
+{{descriptive
+"Old shepherd named Grimstone, up Carnby way, was watching his flock when he heard callin' from the trees, begging for help.
 
-*"Their boy got thrashed somethin' awful for failing to close it, but a week later the exact same thing*
+"Well, he runs off to check what was wrong but he couldn’t find so much as a gnome out there. While he was away, guess what? Dozen sheep o' his just upped and disappeared!"
+}}
+:
 
-*happened, even though old Petersen had locked up*
+{{descriptive
+"Month or so ago a band of blokes from the village went out to hunt the wolves; track 'em back to their den. But soon as they were in the darkest part of the woods they were ambushed. Wasn't there myself, but some of 'em tell of booming thunder, others of bursts of fire. Sounded like an unholy mess.
 
-*hisself!*"
+"Anyway, a halfling named* ***Featherock*** *- decent shepherd - was hurt real bad in the fight. All the others thought he was dead. But next morning he's found dumped on the Westly's doorstep, near the woods.
 
------------------------------------------------------------
+"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say."
+}}
 
-*"Wheatly, who sells pots, pans and ointments here about, was chased off his cart by a pack of wolves. Says they appeared from the trees as if by magic.*
-
-*"When he went back with some village lads the horses were gone, and so were three sacks a' thick leather he were planning to trade."*
-
-----------------------------------------------------------*"Old shepherd named Grimstone, up Carnby way, was watching his flock when he heard callin' from the trees, begging for help.*
-
-*"Well, he runs off to check what was wrong but he couldn’t find so much as a gnome out there. While he was away, guess what? Dozen sheep o' his just upped and disappeared!"*
-
------------------------------------------------------------
-
-![The image is a mostly uniform light-gray rectangle with very subtle, slightly darker smudges and irregular marks near the top edge; otherwise it contains no distinct objects or features.](./5E_Wolves_Of_Welton_images/image_002.png)*"Month or so ago a band of blokes from the village went out to hunt the wolves; track 'em back to their den. But soon as they were in the darkest part of the woods they were ambushed. Wasn't there myself, but some of 'em tell of booming thunder, others of bursts of fire. Sounded like an unholy mess.*
-
-*"Anyway, a halfling named* ***Featherock*** *- decent shepherd - was hurt real bad in the fight. All the others thought he was dead. But next morning he's found dumped on the Westly's doorstep, near the woods.*
-
-|  |
-| --- |
-| ~ 2 ~ |
-
-*"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say.*"
-
-{{pageNumber,auto}}
-{{footnote Scene 1: Welcome to the Welton Wolfpack}}
-
-\page
 
 \column
 
-# Scene 2: Village People
+## Scene 2: Village People
 
-Welton sits on the banks of a slow-moving river, with gentle hills rising up on each side. The houses and shops are generally made of oak, painted bright white, and many have elaborate carvings worked into the eaves. Wheat and sheep farming dominate the local economy, and people pay much more attention to the weather and wool prices than rumors of distant wars or disasters.
+{{note
+Welton sits along a slow‑moving river, surrounded by gentle hills and bright white‑walled homes carved with traditional patterns. Wheat and sheep farming dominate the local economy. The village is not wealthy, but it is not destitute either — at least, not normally.
+}}
 
-The vast majority of the population are human, though there is a sizable minority of halflings and a handful of dwarves. While it is by no means a rich village, Welton isn’t povertystricken either.
+Observant characters notice:
 
-However, observent characters will notice that there are more people idling in the streets than you may expect at this time of year, and many appear to be openly concerned and may be hungry or worried about food. Unusually heavy traffic and the impact of many hooves have reduced the dirt streets to muddy quagmires in places.
+- More people lingering in the streets than usual  
+- Worry etched into faces  
+- Muddy, trampled roads from unusually heavy traffic  
+- A sense of tension beneath the surface  
 
-The village offers little beyond a small general store and virtually nothing of interest to outsiders other than the *Shepherd’s Crook*, which happens to be hosting both a village council meeting. It's is also home to a halfling named **Willen Featherock**, a traumatised victim of a wolf attack
+The wolves have disrupted trade, food supply, and morale. Welton is a village under pressure.
 
-## *The Shepherd’s Crook*
+---
 
-This ancient inn is one of the oldest and largest buildings in the village, sitting opposite both the Growers’ Hall and the Fleecers’ Hall. It is a traditional inn, with a common room at the front, a private dining and meeting room at the back and guest rooms upstairs.
+### The Shepherd’s Crook (Inn)
 
-With so many extra people staying in the village the inn is always crowded. Tanned and weatherbeaten shepherds in woollen cloaks smoke longstemmed pipes while drinking cider and muttering amongst themselves, while small groups of young men and women nurse their drinks and mostly stay quiet.
+{{descriptive
+The Shepherd’s Crook is one of the oldest buildings in Welton — a sturdy oak inn with carved eaves and a warm, smoky common room. Shepherds in wool cloaks smoke long‑stemmed pipes, muttering over cider. Young men and women sit quietly, listening for news.
+}}
 
-The innkeeper is a dwarven women named **Leanor Slatebeard**, who runs the bar while her husband Banteth deals with both the kitchen and the brewing. She will be excited if the party mentions that they are adventurers or that they’re in the town to help with the wolf problem, offering them a free round of drinks and a meal once they’ve talked to the village council. The people in the inn will also be impressed, though many of the old shepherds will still remain dour and cynical.
+{{note
+**Innkeeper:** Leanor Slatebeard (dwarf)  
+- Warm, practical, proud of her establishment  
+- Offers a free round of drinks and a meal if the party is here to help  
+- Directs the party to Willen Featherock’s room if asked, but urges gentleness
+}}
 
-Should they ask after Featherock she will direct them to his room, though she will ask them to be gentle with the poor man,
+Leanor’s husband, Banteth, handles the kitchen and brewing.
+
+---
+
+### Willen Featherock (Traumatized Shepherd)
+
+Willen is recovering upstairs. He was captured by the wolves and released the next morning. He is shaken, confused, and frightened.
+
+{{descriptive
+Willen’s eyes dart constantly. His voice trembles.  
+“I heard them… talking. Not growling — *talking*. Like people, but wrong. Like the words hurt them to say.”
+}}
+
+He is not lying — but many villagers think he is.
+
+---
+
+
 
 {{pageNumber,auto}}
 {{footnote Scene 2: Village People}}
 
+
 \page
+
 
 ## The Council Meeting
 
-The meeting is being held in a plain room, centered around a large wooden table with eight chairs set around it. Five of the chairs are filled with human men, one by a human woman and two by halflings - one male and one female.
+The meeting takes place in a plain room centered around a large wooden table with eight chairs:
 
-As the party approaches they will be able to hear raised voices, and when they enter the male halfling - **Tillus Merrion** of the Growers and Buyers' Association - will be bitterly arguing with a human dressed in priestly robes - **Father Merrikson** - about whether the village should stop exporting its grain and other food while the crisis with the wolves remains unresolved.
+- **5 human men**  
+- **1 human woman**  
+- **2 halflings** (one male, one female)
 
-Tillus reacts anrgily to any interruption, but quickly warms to the party if they identify themselves as adventurers. If the party has not come to the village specifically to complete the contract, the council will try to persuade them to take the job, offering the 800gp reward, free lodging at the inn and other small favours. The council will be able to offer detailed information about the wolf attacks, as well as the rumors known to the common folk. The wolves have been driving people out of farms and outlying hamlets, taking entire herds of sheep as well as cattle, pigs and chickens. They have been acting in a way that is unusually effective, such as ambushing shepherds as they move their flocks, opening gates and pulling down fences.
+As the party approaches, raised voices spill into the hall.
 
-There have always been wolves in the woods, but in the space of three months they have gone from a nuisance to a major threat to the village. People have been abandoning their farms out of fear, leaving the village to either stop exporting the crops that have already been harvested and risk bankruptcy or to go hungry.
+{{descriptive
+Tillus Merrion — a halfling with sharp eyes and sharper opinions — argues heatedly with Father Merriksonn about whether Welton should halt food exports until the wolf crisis is resolved.
+}}
 
-The council organised a posse of men to go and hunt down the wolves, but they were attacked in the woods and driven back. Merriksonn will mention that the village’s usual protector - his brother, a Sorcerer named **Alexi** - went missing at around the same time the attacks began, forcing them to turn to professional adventurers for aid.
+Tillus reacts angrily to interruptions, but warms quickly if the party identifies themselves as Wardens or adventurers.
 
-Should the party mention the possibility of werewolves, Merriksonn will point out that there have been several full moons since the attacks began and not one person has shown any sign of the curse, though he admits his knowledge on the subject isn’t perfect.
+The council offers:
 
-They believe that the wolves live in the woods to the west of town, but are not sure. A councillor with a tuft of wool tied to his vest will introduce himself as **Corel** of the Fleecers' Guild and say that he has been working on the hills for thes best part of forty years and is happy to answer questions on the local environment and provide general support for the party.
+- **800 gp reward**  
+- **Free lodging**  
+- **Local support**  
+- **Detailed information** about the wolf attacks  
+
+They describe:
+
+- Wolves driving families from farms  
+- Entire herds disappearing  
+- Wolves opening latches, coordinating ambushes  
+- Attacks that feel *planned*, not instinctive  
+
+This is the party’s first real look at how dire the situation has become.
+
+
+## Scene 3: The Council Meeting
+
+{{note
+This scene establishes Welton’s political tension, the stakes of the wolf attacks, and the first major social challenge of the adventure. The council is divided, frightened, and desperate for a solution — but not unified on what that solution should be.
+}}
+
+{{descriptive
+The meeting chamber is plain but sturdy, centered around a long wooden table with eight chairs. Five human men, one human woman, and two halflings sit in heated debate as you approach.
+
+Tillus Merrion — a sharp‑tongued halfling with a merchant’s posture — is arguing loudly with Father Merriksonn, the village priest. Their voices echo down the hall.
+}}
+
+---
+\column
+
+### Entering the Meeting
+
+When the party enters, the argument halts. Tillus reacts sharply to interruption, but warms quickly if the characters identify themselves as Wardens or adventurers.
+
+The council members introduce themselves briefly and explain the situation:
+
+- Wolves have been attacking shepherds  
+- Entire herds have vanished  
+- Wolves have opened latches, coordinated ambushes, and avoided traps  
+- Families have fled outlying farms  
+- Trade routes are disrupted  
+- Winter stores are dwindling  
+
+The council is frightened — and divided.
+
+---
+
+### Council Dynamics
+
+{{note
+The council is not unified. Some want extermination. Others want investigation. A few are open to negotiation. This tension is intentional — it sets up the moral complexity of the adventure.
+}}
+
+**Key Personalities:**
+
+- **Tillus Merrion (Halfling, Growers & Buyers Association)**  
+  Suspicious of outsiders, angry, protective of village resources.  
+  Leans **NO** on negotiation.
+
+- **Father Merriksonn (Village Priest)**  
+  Compassionate, grieving his missing brother Alexi.  
+  Leans **YES** on negotiation.
+
+- **Corel (Human woman, Shepherds’ Representative)**  
+  Practical, weary, wants peace if possible.  
+  Leans **YES** if party shows empathy.
+
+- **Others (5 members)**  
+  Mixed opinions; can be swayed by strong arguments, evidence, or practical solutions.
+
+---
+
+## Council’s Offer
+
+The council formally offers:
+
+- **800 gp reward**  
+- **Free lodging at the Shepherd’s Crook**  
+- **Supplies and provisions**  
+- **Authority to act on Welton’s behalf**  
+
+They ask the party to:
+
+- Track the wolves  
+- Discover the cause of their strange behavior  
+- End the attacks — by force or diplomacy  
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+\page
+
+## Information the Council Can Provide
+
+Use these as natural responses to player questions:
+
+- Wolves have been acting with unnatural intelligence  
+- Attacks began suddenly, 2–3 weeks ago  
+- Shepherds report hearing “voices” in the woods  
+- A hunting party was ambushed by something that used fire and thunder  
+- Willen Featherock was captured and released, babbling about “talking wolves”  
+- Alexi Merriksonn disappeared the same week the wolves changed  
+
+{{note
+This is the party’s first major clue that the wolves’ awakening is magical, sudden, and connected to Alexi’s disappearance — and therefore to the Aeorian Echo.
+}}
+
+---
+
+## Council Tone & Roleplay Prompts
+
+{{descriptive
+Tillus slams his fist on the table. “We can’t keep losing livestock! If these wolves think like people now, that makes them *more* dangerous, not less!”
+
+Father Merriksonn rises slowly. “Or it means they can be reasoned with. My brother studied magic… strange magic. If he caused this, we owe the wolves a chance at peace.”
+}}
+
+Encourage the players to speak, debate, and propose solutions.
+
+---
+
+## Moving the Adventure Forward
+
+Once the council has shared what they know and the party accepts the contract, transition to the next scene:
+
+{{descriptive
+The council members nod, relieved to have capable Wardens on the case. Outside, the wind whistles through the village streets as you prepare to investigate the wolves’ trail.
+}}
+
+
+### Willen Featherock’s Room
+
+{{descriptive
+The hallway upstairs is quiet, lit only by a single oil lamp. Leanor leads you to a narrow door and knocks softly. “Willen? You’ve got visitors.” There’s a long pause before a trembling voice answers, “Come in… if you must.”
+}}
+
+\column
+Inside, the room is dim and cluttered. A blanket is wrapped tightly around a halfling man sitting on the edge of the bed. His eyes are sunken, darting constantly toward the shuttered window as if expecting something to leap through it.
+
+{{descriptive
+Willen flinches when you enter. “I told them… I told them what I heard. Wolves don’t talk. Wolves don’t *talk*.” His voice cracks. “But they did. They spoke like people — broken words, like it hurt them to say it.”
+}}
+
+He grips the blanket tighter.
+
+{{descriptive
+“They dragged me through the woods. I thought they’d eat me. But they argued — argued like folk do. One wanted to kill me. Another said to let me go. Next morning I woke up on Westly’s doorstep. I don’t know why I’m alive.”
+}}
+
+---
+
+### What Willen Can Tell the Characters
+
+- The wolves **spoke** in broken Common  
+- He heard them **arguing** about him  
+- He saw **blue light** in the woods during the attack  
+- He remembers a wolf saying, *“Not him. Not this one.”*  
+- He believes the wolves are **changing**, but doesn’t know why  
+- He is terrified of being dismissed as mad
+
+{{note
+Willen is deeply traumatized. He is telling the truth, but his fear makes his story fragmented. Encourage players to ask gentle questions — intimidation shuts him down completely.
+}}
+
+---
+
+### Roleplaying Willen
+
+- Voice trembles  
+- Avoids eye contact  
+- Flinches at sudden movement  
+- Repeats himself when nervous  
+- Grateful for kindness, terrified of disbelief  
+
+{{descriptive
+As the conversation ends, Willen whispers, “If you go after them… be careful. They’re not just wolves anymore.”
+}}
 
 {{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
+{{footnote Wolves of Welton}}
+
+\page
+
+## Planning the Hunt
+
+Once the council has shared what they know, the characters have a moment to plan their approach. Welton’s leaders are anxious but willing to support whatever strategy the Wardens choose.
+
+{{note
+This is a good moment for the party to discuss tactics, gather supplies, and decide how they want to engage with the wolves — aggressively, cautiously, or diplomatically.
+}}
+
+### Information the Characters Can Gather Before Leaving
+
+- Wolves attack **at dusk or dawn**  
+- Most attacks occur **west of Welton**, near the Old Woods  
+- The wolves seem to know when shepherds are alone  
+- Tracks often lead toward **Westly’s Farm**  
+- Willen Featherock was found near **the forest edge**, not deep inside  
+- A hunting party was ambushed by something that used **fire and thunder**  
+
+### Supplies Available in Welton
+
+- Rations, rope, lantern oil  
+- Simple weapons and tools  
+- Healing kits from Father Merriksonn  
+- A map of the western hills (rough, hand‑drawn)  
+
+---
+
+### Traveling to the Wolf Territory
+
+{{descriptive
+The road west of Welton winds through rolling hills and frost‑touched grasslands. Sheep pens and small farmsteads dot the landscape, though many stand empty — doors barred, windows shuttered.
+}}
+
+As the characters travel, they notice:
+
+- Fewer shepherds working the fields  
+- Fresh wolf tracks crossing the road  
+- Sheep carcasses picked clean  
+- Strange geometric frost patterns on stones near the woods  
+
+{{note
+These frost patterns are an early sign of the Aeorian Echo. They match the same phenomenon seen in Pinebrook and later in Frozen Sick.
+}}
+
+---
+\column
+### Approaching the Old Woods
+
+{{descriptive
+The trees grow denser as you near the Old Woods. The air grows colder, unnaturally so, and the wind carries faint, distant howls — too rhythmic, too deliberate to be normal wolves.
+}}
+
+Characters may attempt:
+
+- **Survival (DC 10):** Identify multiple wolf trails converging toward a single area  
+- **Nature (DC 12):** Recognize that the wolves’ movement patterns are coordinated  
+- **Perception (DC 10):** Hear distant voices — not words, but the cadence of speech  
+
+If the party succeeds on any of these checks, they can follow the wolves’ trail directly toward their den.
+
+If they fail, they still find the den — it just takes longer, and they may encounter a minor complication (cold weather, difficult terrain, or a false trail).
+
+---
+
+### Optional Flavor: The Shepherd’s Warning
+
+If you want a final beat before the den:
+
+{{descriptive
+An elderly shepherd waves the party down from a distance. “If you’re heading into those woods… be careful. Something in there thinks like a man but hunts like a beast.”
+}}
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
 
 \page
 
 
-## Featherock’s Room
+## Scene 4: The Owlbear’s Picnic
+{{note
+This scene is optional. Use it to add tension, danger, or a meaningful combat beat if the party’s earlier travel felt light.
+}}
 
-Badly injured when the villagers sent a posse to hunt down the wolves, Featherock has been left badly damaged by his experiences - both mentally and physically. He is currently laid up in a room over the Shepherd’s Crook, where he is being regularly attended by Father Merrikson.
+{{descriptive
+After two hours of pushing through the dense undergrowth of the Western Woods, you hear snapping twigs and heavy rustling ahead — something large is forcing its way through the brush.
+}}
 
-The room is small but well-appointed, with fresh flowers on a dresser. A halfling lies in the bed, white-faced and soaked in his own sweat. His left arm is bandaged, as his his right leg. He will shy away from the party at first, but will tell them everything he knows if they promise to believe him.
+Unless the characters immediately hide, a massive **Owlbear** bursts through the bushes and fixes its wild eyes on them.
 
-He explains that when the posse was attacked he was bitten badly and was trampled as the other men fled. His memories are hazy as he drifted in and out of consciousness, but he remembers gruff voices arguing in the darkness and a powerful grip on his ankle.
+{{descriptive
+The creature limps heavily. Its feathers are matted with dried, blackened blood. Several wounds along its flank look torn open by sharp jaws — barely healed, crusted, and painful. Despite its condition, the beast lets out a deafening hoot‑roar and charges.
+}}
 
-If the party seem to believe his tale so far, he will hesitantly confess that the wolves were *talking*, arguing fiercely over whether they should eat him or not. Featherock then breaks down in tears and refuses to say anything more.
+The owlbear is **starving, desperate, and in pain**. It attacks the easiest target and fights until it is brought down. It does **not** retreat.
 
-{{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
+---
 
-\page
+## After the Fight
+
+If the party kills the owlbear, they can examine its wounds:
+
+- **DC 12 Wisdom (Nature):** Confirms the injuries were caused by **wolves**  
+- The wounds are **a couple of weeks old**  
+- Scorch marks on its fur suggest exposure to **fire or lightning**  
+- Anyone with Nature proficiency or a **DC 10 Wisdom check** knows:  
+  - Wolves almost never challenge an owlbear  
+  - Owlbears are **nocturnal** — seeing one active in daylight is unusual  
+
+These clues reinforce that something in the region is deeply wrong.
+
+---
 
 \column
 
-# Scene 3: Plan of Attack
-
-Essentially, the aim of this scene to have the party find their way to the wolves' lair. There is no prescribed way for them to do this, so allow them to be as inventive as possible.
-
-The lair is in a hollow just the other side of the woods that cover the hillsides to the west of Welton.
-
-If the party are floundering, Corel represents a good route for passing on ideas. He will suggest that if they are confident in their tracking ability the party may wish to simply head out to the western woods and try and pick up a trail there. If they are interested in luring wolves out, he will instead offer up his own flock as bair.
-
-Should the party lack a tracker proficient in Survival, he will reluctantly volunteer his own services (use stat block of **Commoner** *(PHB p345*) with a Wisdom of 14 and a +4 Survival skill). Should the party set up bait, six wolves will attack using the same combat tactics used in Scene 1. If the party try and talk to them, the wolves may respond with a few words before fleeing in confusion.
-
-Eventually, the party should end up making a trek into the woods, which are thick and clogged with undergrowth. The smell of earth and moss filsl the air and the passage of small animals creates a constant rustle in the bushes. Occasionally the howl of a lone wolf echoes eerily from the west.
-
-Crossing the woods takes approximately four hours at a walking pace.
-
-{{pageNumber,auto}}
-{{footnote Scene 3: Plan of Attack}}
-
-\page
-
-## Guidelines for skill checks
-
-**Tracking a wolf through the woods**: Wisdom (Survival) DC14, DC16 if tracks are more than eight hours old
-
-**Tracking a wolf carrying prey through the woods**: Wisdom (Survival) DC11, DC13 if tracks are more than eight hours old **Hiding from wolves**: Dexterity (Stealth) opposed by a Wolf’s Wisdom (Perception) skill (+3, advantage on scent and sound)
-
-**Understanding the habits of wolves**: Wisdom
-
-(Nature) DC12
-
-~ 4 ~ **Scene 4: The** The creature's many injuries have reduced its
-
-maximum Hit Points to 40, but otherwise it still
-
-**Owlbear’s Picnic** operates at full effectiveness.
-
-*This scene is not strictly necessary for advancing the* The mighty Owlbear is starving and desperate. It *plot. It can be used to add a little more combat or* will charge at the easiest target it can find and *depth, especially if the party did not have any* will fight until it is brought down. It will not *particularly meaningful encounters in Scene 3.* retreat.
-
-After two or so hours of travel through the Should the party kill the Owlbear, they will be dense undergrowth of the Western Woods, the able to tell that the beast’s prior injuries were party begins to hear the sound of snapping caused by sharp jaws. A DC12 Wisdom (Nature) twigs and rustling leaves - something big is check will confirm that these were indeed
-
-making its way towards them. caused by wolves and that the wounds appear to Unless they take immediate steps to hide, an be a couple of weeks old. Interestingly, there are
-
-**Owlbear** *(MM p249)* crashes through the bushes also scorch marks on the creature’s fur.
-
-and sights them. Even at a glance, the party can Anybody proficient in Nature or able to pass a tell that it is limping, thin and appears to be DC10 Wisdom check will know that it’s very rare nursing several barely-healed wounds clotted for wolves to challenge Owlbears. If the with old, black blood. Despite its injuries, the encounter occurred during the daytime, they massive beast will charge the party, letting out a will also know that Owlbears are nocturnal deafening hoot as it does so. predators and shouldn't be out in sunlight.
-
-
-# Map of Welton & the Surrounding Area
-
-![A wide, horizontal, light-gray panel with very subtle vertical streaks and faint, slightly darker smudges — overall a mostly uniform gray surface with minimal texture.](./5E_Wolves_Of_Welton_images/image_003.png)![A colored fantasy-style map showing open plains, a large forest, a village, and terrain features. Key elements: - Overall: pale-green rolling plain with a large dense forest occupying the upper-left quadrant and mountains beyond it. - Compass rose at upper-right and a horizontal scale bar along the bottom edge. - Water: a thin blue river/stream runs roughly north–south on the right side, passing the village. - Settlements/markers (numbered on the map): - 1: A small clearing at the forest edge with a few stone cairns or standing stones and a handful of trees. - 2: A clustered village/hamlet at the river with several buildings, a red-roofed structure, and a nearby church; a windmill sits a short distance to the east. - 3: A lone small building or hut in the open plain near a short cliff or escarpment. - 4: Mountainous terrain visible beyond the forest in the top-left. - Paths: dotted/trail lines cross the plain, connecting the forest edge, the hut, and the village. - Scattered terrain details: isolated groves of trees, small rocky outcrops, and a few standalone cairns or towers across the plain.](./5E_Wolves_Of_Welton_images/image_004.png)
-
-{{pageNumber,auto}}
-{{footnote Map of Welton & the Surrounding Area}}
-
-\page
-
-
-**1**
-
-**.**
-
-**S**
-
-**i**
-
-**t**
-
-**e**
-
-**o**
-
-**f**
-
-**W**
-
-**o**
-
-**l**
-
-**f**
-
-**A**
-
-**m**
-
-**b**
-
-**u**
-
-**s**
-
-**h**
-
-**(**
-
-**S**
-
-**c**
-
-**e**
-
-**n**
-
-**e**
-
-**1**
-
-**)**
-
-**2**
-
-**.**
-
-**W**
-
-**e**
-
-**l**
-
-**t**
-
-**o**
-
-**n**
-
-**3**
-
-**.**
-
-**W**
-
-**e**
-
-**s**
-
-**t**
-
-**l**
-
-**y**
-
-**'**
-
-**s**
-
-**F**
-
-**a**
-
-**r**
-
-**m**
-
-**4**
-
-**.**
-
-**W**
-
-**o**
-
-**l**
-
-**f**
-
-**D**
-
-**e**
-
-**n**
-
-{{pageNumber,auto}}
-{{footnote Map of Welton & the Surrounding Area}}
-
-\page
-
-\column# Scene 5: The Den’s Denizens
-
-The wolves have made their den in a cave system on the western edge of the woods.
-
-From the treeline it is possible to see a cave entrance roughly 10ft wide and 10ft tall at its highest point, set into a low cliff of grey stone. A thin plume of smoke appears to be coming from a point on the hill above the cliff, maybe 30ft back from the cave entrance. Milling around the area are six **wolves**. Some are sat around the fire, some are seemingly working on improving the fence, and some are in the process of tearing a sheep carcass apart. Many of the wolves appear to be wearing strips of brightly-coloured cloth or other decorations tied about limbs or their necks. The entire scene seems remarkably peaceful and organised for a wolf den.
-
-The wolves have set up tripwires at the edge of the treeline, requiring a DC13 Wisdom (Perception) check to spot. If the players trigger these they set off bone noisemakers.
-
-# Map of The Wolves' Den
-
-## The Back Door
-
-The plume of smoke mentioned above is coming from a hole in the cave ceiling. It is roughly 30ft back from the cave entrance and is just about big enough for a small creature to squeeze through. The hole opens into the far right cave chamber (see map) and is 15ft off the ground, directly above the fire.
-
-Should the party listen in, they will hear **Flame** and **Bolt** having an argument over the future of the pack. Flame is angrily ranting about the appearance of the adventuring party and that it proves that they need to be more aggressive. She believes they should start killing more humans and halflings in a bid to speed up their retreat from the area.
-
-|  |
-| --- |
-| ![A wide, rectangular image showing a nearly uniform light‑gray field with very subtle texture — a few faint vertical smudges or marks near the left‑center — otherwise featureless.](./5E_Wolves_Of_Welton_images/image_005.png)  ~ 6 ~ |
-
-Bolt, however, argues in extremely soft tones that it means they should do the exact opposite. He wants conduct a few more small-scale raids and then disappear from the area, moving further into the wilderness. The argument will last for some time before the pair move out into the main cave complex.
-
-## Inside the Cave
-
-The cave complex is made up of a large central chamber and three smaller sub-chambers.
-
-The central chamber is the pack’s main living and sleeping area. There are piles of bones in the southeastern corner and the floor is dotted with large piles of leaves and cloth that appear to be very rudimentary beds. Crude depictions of hunting wolves drawn upon the wall in charcoal and white ash. A DC12 Wisdom (Perception) check will allow a player to notice that a series of images appear to depict the pack’s fight with a human, who shares gifts with the wolves before disappearing.
-
-The western sub-chamber functions as a storeroom for both goods and many of the stolen sheep. Bags containing thick leather and homespun wool are kept here, while other interesting items picked up by wolves during their raids - a couple of knives, a shovel and other mundane equipment - are piled up against the wall.
-
-{{pageNumber,auto}}
-{{footnote Map of The Wolves' Den}}
-
-\page
-
-{{wide
-
-# Flame
-
-*Large beast, chaotic neutral*
-
-**Armor Class** 14 (natural armour) **Hit Points** 47 (7d10+10) **Speed** 50ft.
-
-**STR DEX CON INT WIS CHA**
-
-17(+3) 15(+2) 15(+2) 12(+1) 14(+2) 8(-1)
-
-**Skills** Perception +3, Stealth +4
-
-**Senses** passive perception 13
-
-**Languages** Common
-
-**Challenge** 2 (450 XP)
-
-**Keen Hearing and Smell.** Flame has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-**Pack Tactics.** Flame has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
-
-
-![- Stylized fantasy map, oriented with north at the top (compass rose at upper right). - Large, dense forest occupying the upper-left quadrant, with mountains and the numeral "4" near its north edge. - Open grassy plain across the center and right side, dotted with small copses, single trees, and rocky outcrops. - A cluster of buildings/town labeled "2" on the lower-right beside a blue river; a windmill and a larger house are nearby. - A small isolated house or farm labeled "3" sits along a dashed path in the central plain. - A group of standing stones or ruined towers near the forest edge labeled "1" where a dashed track meets the woods. - Low cliffs or escarpments at the forest boundary, several solitary rock stacks, a curved dashed road connecting points, and a scale bar along the bottom edge.](./5E_Wolves_Of_Welton_images/image_006.png)***Fire Breath (Recharge 5-6).*** Flame exhales a firey blast in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.
-
+{{monster,frame
+## Injured Owlbear
+*Large monstrosity, unaligned*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 40 (reduced from 59 by injuries)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 20 (+5) | 12 (+1) | 17 (+3) | 3 (−4) | 12 (+1) | 7 (−2) |
+___
+**Skills** :: Perception +3  
+**Senses** :: darkvision 60 ft., passive Perception 13  
+**Languages** :: —  
+**Challenge** :: 3 (700 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Sight and Smell.***  
+The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.
+___
+### Actions
+***Multiattack.***  
+The owlbear makes two attacks: one with its beak and one with its claws.
+
+***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.  
+*Hit:* 10 (1d10 + 5) piercing damage.
+
+***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.  
+*Hit:* 14 (2d8 + 5) slashing damage.
 }}
 
+::
+![cat warrior](https://i.imgur.com/9fLU9aV.jpeg) {width:300px,mix-blend-mode:multiply}
+
 {{pageNumber,auto}}
-{{footnote Flame}}
+{{footnote Wolves of Welton}}
+
+
 
 \page
+
 
 {{wide
-
-# Bolt
-
-*Large beast, lawful neutral*
-
-**Armor Class** 14 (natural armour) **Hit Points** 47 (7d10+10) **Speed** 50ft.
-
-**STR DEX CON INT WIS CHA**
-
-17(+3) 15(+2) 15(+2) 12(+1) 14(+2) 8(-1)
-
-**Skills** Perception +3, Stealth +4
-
-**Senses** passive perception 13
-
-**Languages** Common
-
-**Challenge** 2 (450 XP)
-
-**Keen Hearing and Smell.** Bolt has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-**Pack Tactics.** Bolt has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
-
-***Lightning Breath (Recharge 5-6).*** Bolt exhales a blast of blue lightning in a 30-foot line. Each creature in that area must make a DC 13
-
-Dexterity saving throw, taking 9 (2d8) lightning damage on a failed save, or half as much damage on a successful one.
-
+## Scene 5: The Den’s Denizens
+![cat warrior](https://i.imgur.com/KNKh7rm.png) {width:655px,mix-blend-mode:multiply}
 }}
 
-shaped by tools. The noise of bleating is constant and very loud.
 
-The central sub-chamber acts as a nursery for the pack’s young pups. Half a dozen young wolves sleep here when they aren’t playing outside, and this is where they will be kept if a fight breaks out. A pair of wolves are set to guard the young, who are just learning how to talk, and will defend them to their deaths. In the event that a fight breaks out, use the **Cat** (*MM p320*) statblock for the wolf pups. The eastern sub-chamber is used as a meeting room by the pack leadership. It is the only chamber to contain a fire, as the smoke is able to escape through a hole in the cave roof, but it otherwise empty.
 
-## Big Bad Wolves
+{{note
+This scene transitions the party from investigation and travel into the heart of the mystery. The den should feel eerie, intelligent, and wrong — a place shaped by creatures that have only recently begun to think like people.
+}}
 
-Should the wolves become aware of the party for any reason - triggering the noisemakers, failed stealth checks or simple walking out into the hollow - they will react with panic, letting out high-pitched howls. One of the wolves will yell ‘HUNTERS’ in guttural, growling common.
+{{descriptive
+The forest grows darker as you push deeper into the Old Woods. The trees here are ancient — thick‑trunked, moss‑draped, and twisted into unnatural shapes. The air is colder than it should be, your breath misting even in daylight.
+}}
 
-Unless the party makes any moves to defuse the situation the wolves will attack with a fierce determination.
+A faint trail of pawprints leads ahead, weaving between roots and stones. The tracks are fresh.
 
-If the battle is taking place in front of the cave, **Flame** and **Bolt** will emerge from their den after one full round. They will be accompanied four more **wolves** that appear to have scraps of crude leather armour tied around their bodies, giving them a +1 bonus to AC.
+---
+\column
+## Signs of the Pack
 
-The Alpha Pair will yell exhortations to their fellow wolves, with Flame encouraging them to kill the hunters and Bolt telling them to protect the pack, and not to let them harm the pups.
+Characters may attempt the following checks as they approach:
 
+- **Survival (DC 10):**  
+  Identify at least six wolves moving together, not hunting — *patrolling*.
+
+- **Nature (DC 12):**  
+  Realize wolves do not normally travel in such tight formation.
+
+- **Perception (DC 10):**  
+  Hear faint, rhythmic sounds ahead — not growls, but something closer to *speech*.
+
+- **Investigation (DC 12):**  
+  Notice claw marks on trees arranged in deliberate patterns, almost like symbols.
+
+{{note
+These clues foreshadow the wolves’ awakening and hint that the den is more than a simple lair — it is becoming a *settlement*.
+}}
+
+---
 {{pageNumber,auto}}
-{{footnote Bolt}}
+{{footnote Wolves of Welton}}
+
 
 \page
 
+## The Clearing Before the Den
 
-All the wolves will move to attack the party, but after either one of the following occurs Bolt will let out a thunderous roar, bellowing that the battle is not helping either party:
+{{descriptive
+The trees suddenly thin, opening into a wide clearing carpeted with dead leaves and frost. At the far end, beneath a jutting rock shelf, yawns the entrance to a cave — dark, deep, and unnervingly quiet.
+}}
 
-- Four wolves are killed
-- Flame or Bolt are brought to less than half HP
-- A player character is reduced to 0HP
+The clearing contains several strange details:
 
-It is entirely up to the party whether they listen to him or not. Should they ignore him, the wolves will fight to the death.
+- A circle of stones arranged with deliberate spacing  
+- Bones piled neatly, not scattered  
+- A half‑gnawed sheep carcass dragged into the shade  
+- A crude wooden totem made of branches and twine  
 
-## Combat Tactics
+Characters examining the totem may attempt:
 
-The wolves are all intelligent and will take advantage of their Pack Tactics ability as much as possible. They will also use their speed to outflank the party and target poorly-armoured castery trying to hide in the back lines.
+- **Arcana (DC 10):**  
+  Sense faint magical residue — old, fading, not cast by wolves.
 
-Flame and Bolt will lead the attack on the front lines and use their breath attacks wherever possible. Bolt will make sure his attack never harms one of his allies, while Flame won’t mind catching one or two wolves if it means blasting the entire party.
+- **Religion (DC 12):**  
+  Recognize the shape as a symbol of *protection*, not aggression.
 
-## Let’s Talk This Over
+- **Insight (DC 10):**  
+  Realize the wolves are trying to imitate humanoid behavior.
 
-Should the party be willing to talk to the wolves, Bolt will be more than happy to negotiate an end to any fighting.
+---
 
-He will explain that the pack became intelligent after attacking a man - the Sorcerer Alexi Merriksonn - who was trespassing on their territory. Their memories of the fight are hazy, but there was a flash of bright light. When they awoke the Lightbringer - as they call him - was gone, but the wolves found their minds working much faster than before. Almost instantly they found they were able to talk, and their memories were filled with strange images and information that appeared to them in dreams. The pack has been using its newfound abilities to boost its quality of life. Pups won’t risk starvation in the winter thanks to their hoarded herd of sheep, while their elderly won’t have to be left behind when no longer able to hunt. They drove off the Owlbear that had been plaguing the woods for years and made their home in its den. Throughout any conversation, Flame will chime in with provocative, angry comments, generally concerning her wish to punish and kill humans and other races, and that this land is theirs by right.
+## Optional Flavor: The Watcher
 
-|  |
-| --- |
-| ~ |
+If you want to heighten tension:
 
-Bolt does not care for the people of Welton, who have killed his kind indiscriminately for many years. However, he is willing to at least try and come to a settlement with them, suggesting that they be allowed control of the woods and the uninhabited lands to the west, in return for keeping the area free of other predators and not raiding themselves.
+{{descriptive
+A soft crack echoes from the treeline. A pair of yellow eyes glints between the branches — watching, waiting. The shape vanishes before you can focus on it.
+}}
 
-Barring that, he is willing to simply move the pack away to a more remote location, provided that the party swear by all their gods not to tell people what they saw.
+This is one of Bolt’s scouts, observing the party’s approach.
 
-Should it become apparent that a deal is forthcoming, Flame will accuse Bolt of cowardice and betrayal and attack him from behind. This will badly injure him, taking him out of the fight. All of the remaining armored wolves will join her in a final, desperate attack on the party, while the others will fall back in confusion and fear.
+---
+\column
+## Entering the Den
+
+{{descriptive
+The cave mouth is wide and shadowed, the air inside cold and still. The scent of wet fur and earth drifts outward. Somewhere in the darkness, something shifts — slow, deliberate, aware.
+}}
+
+The party may:
+
+- Enter cautiously  
+- Call out  
+- Attempt stealth  
+- Prepare for combat  
+- Try to lure the wolves out  
+
+Whatever they choose, the next scene begins when they cross the threshold.
+
+---
+
+## Moving the Adventure Forward
+
+This scene leads directly into:
+
+**Scene 6: The Wolf Den — First Contact with Bolt and the Pack**
+
+The tone should shift from wilderness danger to moral tension and mystery. The wolves are not mindless beasts — and the party is about to discover that firsthand.
 
 {{pageNumber,auto}}
-{{footnote Bolt}}
+{{footnote Wolves of Welton}}
+
+
 
 \page
 
-## **Scene 6: Settling the Scores**
+## Scene 6: The Wolf Den
+{{note
+This is the moral and narrative pivot of the adventure. The wolves are not monsters — they are newly awakened, frightened, and struggling to survive. Bolt represents reason. Flame represents fear and aggression. How the party handles this moment shapes the entire outcome.
+}}
 
-There are a two main ways for the adventure to conclude depending on the party’s previous actions. Sometimes working out what happens next may require a degree of improvisation on the part of the DM.
+{{descriptive
+The cave narrows as you move deeper, the air growing colder and stiller. Faint blue light flickers ahead — not firelight, but something stranger, reflecting off damp stone.
 
-### The Party Refuse to Negotiate
+As you round a bend, the tunnel opens into a wide chamber. Bones are stacked neatly along one wall. A crude firepit smolders in the center, though no flame burns. And standing around it are wolves — six of them — watching you with unsettling intelligence in their eyes.
+}}
 
-If the party refuse to negotiate or can’t come to an agreement with Bolt, most of the wolves will be probably be dead by the time the battle is over. In this case the party have fulfilled the terms of their contract with the Welton village council and are able to return to collect their prize.
+A larger wolf steps forward, posture calm but wary. His fur is streaked with silver, and his gaze is steady.
 
-Should they explore the cave they will encounter a dozen young pups being guarded by a pair of desperate wolves, who beg to be allowed to leave, promising that they will never come back to the area. If the pups are threatened the adult wolves will fight to the death, screaming that their young charges should flee into the woods.
+This is **Bolt**, the awakened alpha.
 
-### The Party Negotiate with the Wolves
+---
 
-If the party is willing to negotiate with Bolt, they may be able to come to sort sort of peaceful accord with him once Flame has been defeated. Bolt will be understandably angry about any wolves killed by the party, but recognises that they will not be able to fight the folk of Welton forever and is willing to negotiate along the terms mentioned in Scene 5.
+## Bolt’s Introduction
 
-If the wolves agree to leave the area entirely, the party will be able to return to Welton and collect their reward. If they lie and claim the wolves were wiped out they will have to make a Charisma (Deception) check, opposed by Father Merriksonn’s +5 Wisdom (Insight) skill. However, he will make sure to confront the party about their deception in private.
+{{descriptive
+The wolf lowers his head slightly — not in submission, but in greeting.
 
-However, if the party agree to a more complicated arrangement they will need to present their offer to the village council. Father Merriksonn is keen on coming to a settlement even if he believes the wolves killed his brother as is Corel. However, Tillus and much of the rest of the council will need convincing.
+“You understand me,” he says, the words rough and halting, as if newly learned. “Good. Then we can speak. We are not monsters. We did not choose this change. But we think now. We feel. We fear. And we will not starve.”
+}}
 
-How the party do this is entirely their choice. Talking Tillus around will need both a decent argument, as determined by the DM, and a successful DC15 Charisma (Persuasion) check. Should he agree to the negotiations the rest of the council will agree with him, and Corel will begin work on setting up a meeting with Bolt.
+Bolt does **not** attack unless provoked.  
+He is desperate for peace, but terrified of losing his pack.
 
-If they find it impossible to convince him, Corel will call a vote on whether or not they should work with the wolves anyway. Allow the party to make a DC12 Charisma (Persuasion) check against each of the five remaining council members, awarding advantage or diasadvantage depending on how persuasive the party's argument was. Corel and Father Merriksonn will both vote to negotiate, so they need three successes in order to win an overall majority.
+---
 
-Tillus will react with shock and horror at being outvoted. After a moment of blustering rage he will realise that he has been ousted. He willl leave the council a broken man, never to return. As long as the party have succeeded in dealing with the wolf problem in one way or another they will be paid in full at the rate they agreed with the council.
+## Flame’s Challenge
+
+Before the party can respond, another wolf pushes forward — scarred, bristling, eyes burning with anger.
+
+{{descriptive
+“You talk too much, Bolt!” the wolf snarls. “They are prey. They hunt us. We hunt them. That is the way!” He turns to you, teeth bared. “Leave our woods or die in them!”
+}}
+
+This is **Flame**, the challenger.  
+He represents the faction of the pack that wants open war.
+
+---
+
+\column
+## The Tension in the Den
+
+The wolves split into two clear groups:
+
+- **Bolt’s supporters** — cautious, hopeful, afraid  
+- **Flame’s supporters** — angry, hungry, ready to fight  
+
+The party’s next actions determine which faction prevails.
+
+---
+
+## What the Party Can Do
+
+### **1. Attempt Diplomacy**
+Bolt responds to:
+
+- Calm voices  
+- Offers of food  
+- Promises of territory  
+- Questions about their awakening  
+- Mention of Alexi Merriksonn  
+
+A successful **DC 12 Persuasion** check strengthens Bolt’s position.
+
+### **2. Ask About the Awakening**
+Bolt shares:
+
+- “We were hunting. Then… light. Pain. Thought.”  
+- “We knew things we did not know before.”  
+- “We felt fear — real fear — for the first time.”  
+
+This is a **major Aeorian Echo clue**.
+
+### **3. Provoke Flame**
+If the party is aggressive, Flame leaps at the opportunity.
+
+A failed **Intimidation** or hostile action triggers **Flame’s Coup** (combat).
+
+### **4. Offer a Compromise**
+Bolt is open to:
+
+- Relocating the pack  
+- Ceasing attacks  
+- Helping the village in exchange for food or territory  
+
+This leads to the **Negotiated Peace** path.
+
+---
+
+### If Combat Breaks Out
+
+Combat only begins if:
+
+- The party attacks  
+- Flame seizes control  
+- A failed social check escalates tension  
+- The party refuses to speak  
+
+Bolt **does not fight to kill** — he yields at 50% HP and begs for peace.
+
+Flame fights to dominate, not to slaughter.
+
+---
 
 {{pageNumber,auto}}
-{{footnote Bolt}}
+{{footnote Wolves of Welton}}
+
 
 \page
 
+### Bolt (Awakened Alpha)
+{{monster,frame
+## Bolt, Awakened Alpha Wolf
+*Medium monstrosity, neutral good*
+___
+**Armor Class** :: 14 (natural armor)  
+**Hit Points**  :: 30 (5d8 + 5)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 15 (+2) | 12 (+1) | 12 (+1) | 14 (+2) | 12 (+1) |
+___
+**Skills** :: Perception +4, Insight +4, Stealth +4  
+**Senses** :: passive Perception 14  
+**Languages** :: Common, Sylvan, Wolf Cant  
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Pack Leader.***  
+Allied wolves within 30 ft gain +1 to attack rolls while Bolt is conscious.
 
-Should the wolves’ intelligence become publicly known Feathrock will start to recover at a much faster rate, and will try and thank the party in person.
+***Measured Voice.***  
+Bolt has advantage on Persuasion checks made to calm creatures.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage.
+}}
 
-~ 9
+---
 
-**Characters** She is generally happy to help the party in their
+### Flame (Aggressive Challenger)
+{{monster,frame
+## Flame, Wolf Challenger
+*Medium monstrosity, chaotic neutral*
+___
+**Armor Class** :: 14 (natural armor)  
+**Hit Points**  :: 26 (4d8 + 8)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 15 (+2) | 14 (+2) | 10 (+0) | 12 (+1) | 10 (+0) |
+___
+**Skills** :: Perception +3, Intimidation +2  
+**Senses** :: passive Perception 13  
+**Languages** :: Broken Common, Wolf Cant  
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Blood Hunger.***  
+Flame has advantage on attack rolls against creatures below half hit points.
 
-quest and may well be a powerful ally if they try
+***Rally the Pack (Recharge 5–6).***  
+Two allied wolves may immediately move up to half their speed.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage.
+}}
 
-Tillus Merrion to negotiate with the village council over a
+\column
 
-treaty of sorts with the intelligent wolves.
+### Scene 6B: Inside the Wolf Den
+{{note
+This section expands the den beyond the Bolt/Flame confrontation. It reinforces that the wolves are building a society, not merely occupying a cave. These details deepen the mystery of their awakening and give players meaningful environmental clues.
+}}
 
-Tillus Merrion is a proud, blustering Halfling who
+{{descriptive
+The chamber behind Bolt is larger than expected — a natural cavern shaped by time and water, but altered recently by deliberate effort. The air is cold and still, carrying the scent of fur, earth, and smoke.
+}}
 
-leads the Welton Growers and Buyers’ Alexi Merriksonn
+The den is divided into several distinct areas, each showing signs of **organization** far beyond normal wolf behavior.
 
-Association. The Association – as it is known –
+---
 
-The protector of Welton, Alexi spent his life represents the most powerful group in the keeping dangerous monsters and occasional village, and as its leader Tillus acts as a de facto bandit gangs away from his home village. mayor and head of the council.
+### Den Layout
 
-Born with a link to the inscrutable forces of Wild
+#### **1. The Council Circle**
+A ring of stones surrounds a shallow firepit. No flame burns, but faint heat lingers.
 
-In his day job, he oversees the sale of grain, wool
+- Stones are arranged evenly  
+- Scratch marks on the floor suggest repeated gatherings  
+- Wolves have been *meeting* here  
 
-Magic that always marked him as an outsider and other products outside of the village, while growing up, his brother Johan was his only negotiating contracts with merchants in nearby real friend. Despite this, he was keen to show his cities and managing the shipping. He has a gift worth to the people of Welton and trained long for trade and has helped to boost Welton’s and hard to increase his abilities. prosperity in a number of small but significant
+**Insight (DC 10):**  
+The wolves are imitating humanoid social structure.
 
-ways. Befitting the source of his power, Alexi was
+---
 
-unpredictable and passionate, given to flights of
+#### **2. The Nursery Alcove**
+{{descriptive
+Soft whimpers echo from a narrow alcove. Two small wolf pups peek out — wide‑eyed, trembling, curious.
+}}
 
-When he isn’t working, Tillus is usually fancy and wild laughter. He roamed the lands beavering away at various schemes and beyond Welton almost at random, seeking out initiatives around the village. He has a love for threats before they approached the farms of the order, neatness and the rule of laws and common folk. contracts, and is quietly obsessed with making
+The pups are:
 
-Welton clean and well organised. Despite his commitment to their protection, the folk of Welton always viewed the sorcerer with a
+- Noncombatants  
+- Frightened but not aggressive  
+- Protective of Bolt  
+- A major emotional anchor for negotiation  
 
-This commitment can occasionally make him degree of suspicion. At times the presence of his forget that many of the figures he moves about brother may have been the only thing keeping on his ledgers represent living, breathing people. some of the more superstitious and hot-headed
+**Animal Handling (DC 10):**  
+Calm the pups; they approach cautiously.
 
-This has become especially clear in the recent members of the community from trying to drive crisis, where his dread of missing a shipment is him out. leading him to try and sell crops that the people
+**Perception (DC 12):**  
+Notice the pups have slightly larger eyes and more expressive faces — early signs of awakening.
 
-of Welton may need to eat if they are to avoid He stumbled across the wolf pack while
-
-starvation. patrolling the moorlands. He didn’t plan to
-
-destroy them, but simply wanted to drive them
-
-Despite this, he is not a bad person. He off. While he was using his abilities, however, he desperately loves Welton and will do anything it was struck by a Wild Magic Surge, destroying his takes to see it grow and prosper. If this means body and imbuing the nearby wolves with some making people go hungry in order to maintain of his intelligence and magical abilities. their long-term credit rating, so be it.
-
-### Leanor Slatebeard Father Merriksonn
-
-The local priest of Pelor (or any local good-
-
-One of very few dwarves in Welton, Leanor and aligned deity), Johan Merriksonn was born and her husband Banteth are cheerful, hard-working bred in Welton and loves both the village and its members of the community. She is well over 100 inhabitants. He is a human in his mid-50s with a years old and has seen the community grow from kindly face and wispy white hair. a mere hamlet to the thriving village it is today.
-
+---
 {{pageNumber,auto}}
-{{footnote Bolt}}
+{{footnote Wolves of Welton}}
+
 
 \page
 
+#### **3. The Food Storage Pit**
+A shallow depression holds:
 
-He and his brother, Alexi, were born to a family
+- Sheep bones stacked neatly  
+- A half‑gnawed deer leg  
+- A few stolen tools (shears, a lantern, a wooden spoon)  
 
-Despite her apparently minor position, Leanor’s of reasonably successful farmers and are welllong-running relationships with virtually every educated by the standards of the region. While family in the village actually gives her a lot of
+**Investigation (DC 10):**  
+The tools were not chewed — they were *examined*.
 
-Alexi found himself able to control the power of quiet influence. She knows all the skeletons in
+**Arcana (DC 12):**  
+Faint magical residue clings to the bones — the same signature as the wolves themselves.
 
-Wild Magic, Johan felt the draw of the church everybody’s closets and has accumulated an and was apprenticed by the local priest. awful lot of favours over the years.
+---
 
-~
+#### **4. The Sleeping Hollow**
+A cluster of bed‑like nests made of:
 
-In many ways Merriksonn acts as the conscience and moral compass for the otherwise mercantile-minded village council. Recently he has come into conflict with some of the more businesslike members over his desire to prioritise feeding the locals over meeting the terms of their export contracts.
+- Moss  
+- Leaves  
+- Torn cloth  
+- Wool stolen from shepherds  
 
-He is helpful to the party unless they show themselves to be evil, in which case he will condemn them. He is also willing to negotiate with the wolves, even if he knows they were involved in his brother's death.
+**Nature (DC 10):**  
+Wolves do not normally build nests like this.
 
-### Willen Featherock
+**Survival (DC 12):**  
+Tracks show wolves pacing in circles — thinking, planning, restless.
 
-A halfling shepherd, Featherock lived a mostly unremarkable life until he was injured in Welton’s attempt to deal with the wolves. Since his experiences at the hands - or rather jaws - of the intelligent wolves he has been jittery and plagued by nerves.
+---
 
-He is of average height for a halfling and despite his time spent recovering inside he still has a ruddy, sun-reddened face from his days spent out on the hillsides.
+#### **5. The Escape Tunnel**
+A narrow passage leads deeper into the cave system.
 
-### Corel
+- Too small for humanoids  
+- Used by scouts and pups  
+- Leads to a hidden exit in the woods  
 
-A human shepherd, Corel is lean and tough as old leather. He is a quiet, reserved man who is respected by everybody on the village council. He does not speak very often, but when he does the entire room listens and carefully weighs his words.
+Bolt will mention it if trust is earned.
 
-He is reasonably successful as a farmer and shepherd and runs his own operation on the hills near the western woods. Much of his flock has been taken by the wolves, but he was quick to recognise the threat and drive his sheep into town, where they would at least be safe.
+---
 
-Corel is more than happy to help the party and act as their guide if needed.
+### Awakening Clues
 
-He has been working on the hills surrounding Welton for most of his 50-something years and is an expert on the local geography. Despite his losses to them, Corel will support any negotiation with the wolves once he realises they are intelligent, sentient creatures.
+The den contains several subtle but powerful signs that the wolves’ intelligence is **new, unstable, and magical**.
 
-### Flame and Bolt
+#### **1. Scratched Symbols**
+On the far wall, crude symbols are carved into the stone.
 
-The alpha pair of the wolf pack, for most of their lives Flame and Bolt were simple beasts. Both cunning and fierce, to be sure, but not intelligent. This all changed when the pack brought down Alexi Merriksonn, and were infused with much of his intelligence and power during a Wild Magic Surge.
+- Some resemble letters  
+- Others mimic shepherd markings  
+- One looks like a crude map of the woods  
 
-Both are fiercely protective of their pack and are worried that their intelligence will cause men and other sentient races to hunt them down and destroy them. At the same time, however, they are now bright enough to be able to think of a great many ways in which they will be able to improve their lives and those of their pups.
+**History or Arcana (DC 12):**  
+These are attempts at writing — the wolves are *learning*.
 
-Flame, the alpha female, was granted the ability to produce and control flames. She is much more aggressive than her partner and believes that killing other intelligent beings to drive them away from the pack’s territory is the only way she can keep her people safe/ Bolt, the alpha male, has gained the ability to roar with the fury of a storm and shoot blasts of lightning from his mouth. He is generally more cautious and kindly than his partner, and prefers the idea of breeding sheep and moving into remote areas where other ‘civilised’ races won’t bother them.
+---
+
+#### **2. The Blue‑Frost Patch**
+A patch of stone is covered in geometric frost patterns.
+
+{{note
+This frost matches the Echo signatures found in Pinebrook and Frozen Sick.
+}}
+
+**Arcana (DC 14):**  
+“This is not natural cold. This is transmutation magic — old, powerful, and unstable.”
+
+\column
+
+---
+
+#### **3. The Broken Collar**
+A metal collar lies near the nursery, snapped clean in half.
+
+- Engraved with the name “Alexi”  
+- Faint magical residue  
+- Burn marks along the break  
+
+**Investigation (DC 12):**  
+This was worn by a wolf — and broken during the awakening.
+
+**Insight (DC 10):**  
+Bolt avoids looking at it.
+
+---
+
+### Optional: Bolt’s Private Truth
+
+If the party earns Bolt’s trust:
+
+{{descriptive
+Bolt glances toward the frost‑covered wall. “When the light came… we saw things. Felt things. Pain. Thought. Memory. We knew death. We knew fear. We knew… ourselves.” He shivers. “We do not know why.” 
+}}
+
+This is the **strongest Aeorian Echo clue** in the entire adventure.
+
+---
+
+### Moving the Adventure Forward
+
+This expanded den content enriches:
+
+- Negotiation scenes  
+- Investigation checks  
+- Emotional stakes  
+- Aeorian Echo foreshadowing  
+- Player understanding of the wolves’ transformation  
+
+It leads directly into **Scene 7: Resolution Paths**.
 
 {{pageNumber,auto}}
-{{footnote Bolt}}
+{{footnote Wolves of Welton}}
+
 
 \page
 
+### Scene 7: Resolution Paths
+{{note
+This scene resolves the conflict between Bolt’s awakened pack and the village of Welton. The party’s choices determine whether the region gains new allies, suffers needless bloodshed, or becomes entangled in a deeper mystery.
+}}
 
-Tension has been brewing between the two ever since they were gifted with intelligence. Both are willing to die for the safety of the pack and deeply care for each other. However, if nothing changes they will probably fight to the death within a matter of weeks, each believing that the other is leading their people to their doom.
+The wolves are not the true enemy — they are victims of the Aeorian Echo.  
+But the party’s actions decide whether this truth is revealed or buried.
 
-Both Flame and Bolt are very, very large wolves with dark grey fur. Flame’s eyes glow with a constant orange flame and thin strips of red light run across her body, as though her skin is cracked rock sitting on top of a burning pool of magma.
+---
 
-Bolt’s eyes and skin pulse with a crackling blue light. He always speaks softly, for if he raises his voice it rumbles with the power of thunder, shaking the ground around him.
+### Path A: Negotiated Peace
+If the party chooses diplomacy — or if Bolt yields during combat — the wolves offer to talk.
 
-~
+{{descriptive
+Bolt lowers his head. “We do not want war. We want to live. To hunt. To protect our young. If your people will let us be… we will leave them be.”
+}}
 
-![Top-down illustrated battle map showing a small cave complex opening onto a grassy hill and forested edge. - Top half: three irregular cave chambers connected to a central stone entry passage. - Left chamber: stone floor with barrels, sacks, and what looks like butchered meat or stored provisions. - Center chamber (upper): stone floor with stacked crates, rugs/mats, and a small round object (barrel or drum). - Right chamber: stone floor with wooden crates and a smoldering campfire with scorch marks. - Middle: a short rocky tunnel / doorway where the caves meet and exit to the surface. - Bottom half: open grassy slope with a lone burning projectile or scorch mark near the center and a tree line along the bottom edge, casting shadows onto the grass. - Map features: grid overlay for movement/measurement, stone textures inside caves, a wooden frame around the map. Overall impression: a game-ready dungeon entrance set on a hillside, with supplies and a campsite inside the caves and woods outside.](./5E_Wolves_Of_Welton_images/image_007.png)
+#### What Bolt Offers
+- The pack relocates to a safer hunting ground  
+- They cease all attacks on shepherds  
+- They avoid Welton’s roads and farms  
+- They agree to a probationary period  
 
-~
+#### What the Party Must Do
+Return to Welton and present the case to the council.
 
-![A simple, mostly gray rectangular image with two vertical columns. Each column contains several evenly spaced thin dark-red horizontal lines (like ruled lines) aligned across both columns. Near the lower part of each column there is a small black dot. The layout is minimal and highly symmetrical.](./5E_Wolves_Of_Welton_images/image_008.png)
+A **DC 10–15 Persuasion** check (depending on arguments) can sway swing votes.
 
-~
+{{note
+Father Merriksonn and Corel are guaranteed YES votes if the party attempts negotiation.  
+The party needs **one additional swing vote** for the peace to pass.
+}}
 
-**Thanks & Acknowledgements**
+#### If the Council Agrees
+{{descriptive
+The council chambers erupt in relieved murmurs. Father Merriksonn clasps your hands. “You’ve spared us a war — and given these creatures a chance my brother never had.”
+}}
 
-All maps were created using *Campaign Cartographer 3*.
+**Outcome:**
+- Peace established  
+- Wolves relocate  
+- 800 gp reward paid  
+- Bolt becomes a future ally  
+- Major Aeorian Echo clue revealed  
 
-~
+---
 
-Dungeons & Dragons is the property of Wizards of the Coast. Please buy their books and support their excellent work.
+\column
 
-~
+### Path B: Total Extermination
+If the party kills Bolt, Flame, and the pack — or chooses violence from the start — the wolves die defending their den.
 
-*This adventure was produced by* ***Winghorn Press****. Check us out at www.winghornpress.com and @WingHornPress on Twitter.*
+{{descriptive
+The last wolf collapses into the dirt, breath rattling out in a final, pained growl. The den falls silent.
+}}
 
-~
+#### Aftermath
+- The village celebrates  
+- 800 gp reward paid immediately  
+- Father Merriksonn is quietly devastated  
+- The mystery of the awakening remains unsolved  
 
-*If you want to get in touch, send feedback or take part in playtest sessions on Roll20.com, please send a message to winghornpress@gmail.com, or to u/therainydaze on Reddit.*
+{{note
+This path removes a major ally and delays the party’s understanding of the Aeorian Echo.
+}}
+
+---
+
+### Path C: Deception — “We killed them” (but didn’t)
+If the party negotiates peace but lies to the council:
+
+{{descriptive
+The council erupts in cheers as you announce the wolves are dead. Tillus slaps the table triumphantly. “Good riddance!” he shouts.
+}}
+
+#### Outcome
+- 800 gp reward paid  
+- Wolves survive in secret  
+- The party must maintain the lie  
+- Suspicion may arise later  
+- Bolt becomes a hidden ally  
+
+{{note
+This path creates long‑term narrative tension and future complications — perfect for campaign play.
+}}
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+
+\page
+
+### Path D: Flame’s Coup
+If the party mishandles negotiations, shows aggression, or fails key social checks, Flame seizes control.
+
+{{descriptive
+Flame lunges forward, snarling. “Enough TALK! We are wolves — we TAKE what we need!” The pack splits as several wolves rally behind him.
+}}
+
+#### What Happens
+- Bolt is wounded or driven off  
+- Flame becomes alpha  
+- The pack becomes hostile  
+- Combat is likely  
+
+If the party defeats Flame, Bolt regains control and negotiation becomes possible again.
+
+If Flame wins, the wolves escalate attacks on Welton — and the party may be called back later to finish the job.
+
+---
+
+### Moving the Adventure Forward
+
+Regardless of the path chosen, the party returns to Welton with:
+
+- Answers  
+- Consequences  
+- And the first major clue that something ancient is awakening across the frontier  
+
+{{descriptive
+As you leave the Old Woods behind, the wind carries a distant, mournful howl — not of a beast, but of something newly born into thought.
+}}
+
+\column
+## Scene 8: Rewards & Aftermath
+
+{{note
+This scene resolves the consequences of the party’s choices. Whether they negotiated peace, exterminated the pack, deceived the council, or survived Flame’s coup, the outcome shapes Welton’s future — and the Wardens’ reputation.
+}}
+
+---
+
+### If the Party Negotiated Peace
+
+{{descriptive
+The council chamber fills with murmurs as you explain the wolves’ awakening — their fear, their hunger, their desire to survive. Father Merriksonn listens with shining eyes. Corel nods slowly, thoughtfully.
+}}
+
+A brief debate follows, but the tide turns in the party’s favor.
+
+{{descriptive
+At last, the council votes. A majority raises their hands. Peace — tentative, fragile, but real — has been chosen.
+}}
+
+### Rewards
+- **800 gp** (paid after the probationary period)  
+- **Free lodging** at the Shepherd’s Crook  
+- **Father Merriksonn’s gratitude**  
+- **Bolt’s pack becomes a future ally**  
+- **Alexi’s spellbook** (if the party earns Merriksonn’s trust)
+
+### Long‑Term Effects
+- Welton stabilizes  
+- Shepherds return to their fields  
+- Rumors spread of Wardens who “made peace with wolves”  
+- The Aeorian Echo mystery deepens  
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+
+\page
+
+### If the Party Exterminated the Pack
+
+{{descriptive
+The village erupts in celebration when you return. Tillus slaps the table triumphantly. Shepherds cheer. Leanor Slatebeard pours drinks for everyone.
+}}
+
+But not everyone is joyful.
+
+{{descriptive
+Father Merriksonn stands apart, hands clasped, eyes downcast. “My brother’s death… may have caused this,” he murmurs. “I only wish we had understood more before blood was shed.”
+}}
+
+### Rewards
+- **800 gp** (paid immediately)  
+- **Free lodging**  
+- **Village gratitude**  
+
+### Long‑Term Effects
+- The wolves are gone  
+- The mystery remains unsolved  
+- Merriksonn becomes distant  
+- Elric later warns: “Whatever awakened them is still out there.”
+
+---
+
+### If the Party Lied — “We killed them” (but didn’t)
+
+{{descriptive
+The council erupts in cheers as you announce the wolves’ demise. Tillus pumps his fist. “Good riddance!” he shouts.
+}}
+
+The lie holds — for now.
+
+### Rewards
+- **800 gp**  
+- **Free lodging**  
+- **Bolt’s pack survives in secret**  
+
+### Long‑Term Effects
+- The party must maintain the deception  
+- Suspicion may arise if wolves are spotted  
+- Bolt becomes a hidden ally  
+- Welton’s trust becomes fragile  
+
+{{note
+This path creates excellent campaign tension. Use it to complicate future politics, alliances, or moral dilemmas.
+}}
+
+---
+\column
+
+### If Flame’s Coup Succeeded
+
+{{descriptive
+Flame stands triumphant over Bolt’s fallen form, snarling. “We are done with talk. We take what we need. Tell your village — the woods belong to us now.”
+}}
+
+The pack becomes hostile and unpredictable.
+
+### Rewards
+- **None immediately**  
+- The council may later pay the party to “finish the job”  
+- Bolt may survive and seek the party’s help in secret  
+
+### Long‑Term Effects
+- Wolf attacks escalate  
+- Welton suffers  
+- The party may be forced into a second confrontation  
+- The Echo mystery becomes more dangerous  
+
+---
+
+
+
+### Returning to Welton
+
+{{descriptive
+As you leave the Old Woods behind, the wind carries a long, mournful howl — not of a beast, but of something newly awakened to thought. Whatever changed the wolves is still out there, waiting.
+}}
+
+This concludes **Wolves of Welton**, but the consequences ripple outward into the frontier.
+
+The Wardens have taken their first step into the mystery of the **Aeorian Echo**.
+
+### Scene 9: Return to Waystone
+{{note
+This scene closes the Wolves of Welton adventure and transitions the party into the broader campaign arc. It reinforces that the wolves’ awakening is not an isolated incident — it is part of something ancient stirring across Northreach.
+}}
+
+{{descriptive
+The road back to Waystone feels quieter than before. The wind carries the scent of pine and distant hearthfire. As the village comes into view, lanterns glow warmly against the falling dusk.
+}}
+
+Marshal Brenna Thorne greets you at the guild hall with a firm nod, but it is **Lorewarden Elric Vael** who steps forward first, eyes sharp with curiosity.
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+
+\page
+
+### Elric’s Debrief
+
+{{descriptive
+Elric folds his arms, studying each of you. “Awakened wolves,” he murmurs. “Speaking. Planning. Reasoning. This is… unprecedented.” He gestures toward the long table. “Tell me everything.”
+}}
+
+Let the players recount their version of events — negotiation, battle, deception, or tragedy. Elric listens intently, occasionally jotting notes in a leather‑bound journal.
+
+When they finish:
+
+{{descriptive
+“This is the third anomaly reported in Northreach this month,” Elric says quietly. “Palebank Village to the north has seen a strange sickness — blue veins, slow freezing. A wizard’s tower near the coast suffered a magical rupture. And now wolves awakening to thought.” He closes the journal. “Something is stirring. Something old.”
+}}
+
+---
+
+
+
+### Brenna’s Response
+
+{{descriptive
+Brenna leans against the table, arms crossed. “Whatever’s happening, it’s spreading. And the Wardens are the only ones positioned to respond quickly.” She gives you a steady look. “Rest tonight. Tomorrow, we plan our next move.”
+}}
+
+She ensures the party receives their payment, lodging, and any promised rewards.
+
+---
+
+### Optional: Father Merriksonn’s Visit
+
+If the party negotiated peace or showed compassion:
+
+{{descriptive
+Father Merriksonn arrives quietly at the hall, clutching a wrapped bundle. “This belonged to my brother,” he says, offering Alexi’s spellbook. “If he caused this… then perhaps his work can help you understand what comes next.”
+}}
+
+If the party exterminated the wolves:
+
+{{descriptive
+He stands at a distance, offering only a solemn nod. “Thank you for protecting Welton,” he says softly, though grief shadows his eyes.
+}}
+
+---
+
+\column
+
+### The Echo Grows
+
+{{note
+This is the moment the party realizes Wolves of Welton was not a standalone problem — it was the first sign of a much larger threat.
+}}
+
+{{descriptive
+Elric steps to the window, staring out at the darkening frontier. “Magic this old does not wake without reason,” he says. “And it never wakes alone.”
+}}
+
+He turns back to the party.
+
+{{descriptive
+“I believe the wolves were changed by a surge of ancient power — a pulse from somewhere deep in the north. If we can find the source, we may be able to stop what’s coming.” He closes his journal with a decisive snap. “I’ll need your help.”
+}}
+
+---
+
+### Moving the Campaign Forward
+
+This scene sets up the next adventures:
+
+- **Frozen Sick** (direct Echo connection)  
+- **Peril in Pinebrook** (Echo‑touched crime & corruption)  
+- **Wild Sheep Chase** (magical destabilization)  
+- **The Old Woods Expedition** (Aeorian ruins)  
+
+{{descriptive
+The fire crackles in the hearth as the night deepens. Outside, the wind howls across the frontier — a lonely, mournful sound that no longer feels entirely natural.
+}}
+
+The Wardens have taken their first step into the mystery of the **Aeorian Echo**.
+
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}

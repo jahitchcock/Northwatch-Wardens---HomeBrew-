@@ -75,6 +75,7 @@ Create ONE shared adventure before campaign:
 {{pageNumber,auto}}
 {{footnote Session 0: Character Integration Prompts}}
 
+
 \page
 
 ### 3. What's Your First Memory of the Frontier?
@@ -168,6 +169,7 @@ Built-in party tension for roleplaying.
 
 {{pageNumber,auto}}
 {{footnote Session 0: Character Integration Prompts}}
+
 
 \page
 
@@ -266,6 +268,7 @@ Create opportunities to showcase:
 
 {{pageNumber,auto}}
 {{footnote Session 0: Character Integration Prompts}}
+
 
 \page
 
@@ -381,6 +384,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 {{pageNumber,auto}}
 {{footnote Session 0: Character Integration Prompts}}
 
+
 \page
 
 ## USING ANSWERS IN PLAY
@@ -466,6 +470,7 @@ PC ends (after 10 sessions): "Waystone Inn... this IS home. I'll defend it."
 
 {{pageNumber,auto}}
 {{footnote Session 0: Character Integration Prompts}}
+
 
 \page
 

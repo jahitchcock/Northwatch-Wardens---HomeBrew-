@@ -1,20 +1,20 @@
-**Contract: W‑17 — Disturbance Near Welton**
-
+# **Contract: W‑17 — Disturbance Near Welton**
+{{wide
 {{note
-**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. See [5E_Wolves_Of_Welton.md](../Wolves_Of_Welton/5E_Wolves_Of_Welton.md) for full adventure details and mystery integration.
+**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. 
 }}
 
-**Issuing Party:**
+## **Issuing Party:**
 Welton Village Council, Northreach Frontier
 
-**Classification:**
+## **Classification:**
 Field Contract — Threat Suppression
 Initiate‑Eligible
 
-**Summary:**
+## **Summary:**
 The agricultural village of Welton reports **increasingly aggressive wolf activity** along its grazing hills and outer farms. Livestock losses have escalated beyond the capacity of local shepherds and militia. The council requests **Warden intervention** to secure the area and restore safety to the region.
 
-**Objectives:**
+## **Objectives:**
 
 - Travel to Welton
 - Assess the situation on-site
@@ -22,18 +22,26 @@ The agricultural village of Welton reports **increasingly aggressive wolf activi
 - Neutralize the threat to Welton’s people and livestock
 - Report findings to the Council and to the Northwatch Wardens
 
-**Reward:**
+## **Reward:**
 800 gp, paid upon confirmation of mission completion by the Welton Council
 
 - Standard Warden credit toward Initiate advancement
 
-**Notes for Initiates:**
+## **Notes for Initiates:**
 
 - Expect rural terrain, livestock enclosures, and forested hills
 - Local leadership may provide additional context upon arrival
 - This contract is considered a test of readiness for new Wardens
 - Maintain professionalism; Welton is a valued frontier settlement
 
-**Signed:**
+## **Signed:**
 Marshal Brenna Thorne, Northwatch Wardens
 Attested by Steward Mara Fenwick
+}}
+
+
+\page
+
+## Wolves of Welton
+
+![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}

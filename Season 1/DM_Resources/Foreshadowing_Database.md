@@ -28,6 +28,7 @@
 {{pageNumber,auto}}
 {{footnote Foreshadowing Database: The Aeorian Echo}}
 
+
 \page
 
 {{wide

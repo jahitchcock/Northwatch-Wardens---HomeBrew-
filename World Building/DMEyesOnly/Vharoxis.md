@@ -67,6 +67,7 @@ The city becomes a battleground:
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
+
 \page
 
 ## Eclipse Day — The Hidden Truth
@@ -204,6 +205,7 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
+
 \page
 
 ## Major NPCs with Secrets
@@ -294,6 +296,7 @@ Unwitting accomplices. The best distribution system the fragments could ask for.
 
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
+
 
 \page
 
@@ -459,6 +462,7 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
+
 \page
 
 ## Adventure Hooks
@@ -535,6 +539,7 @@ Anything magical is for sale:
 
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
+
 
 \page
 

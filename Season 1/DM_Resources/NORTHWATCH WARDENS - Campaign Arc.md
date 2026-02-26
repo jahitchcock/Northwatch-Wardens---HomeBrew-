@@ -81,7 +81,10 @@ The Wardens discover:
 - Its magic is leaking into the world.
 
 This is the campaign’s *first revelation*.
+
+
 \page
+
 **3. Temple of the Dragonknights — Corruption Takes Root**
 
 **Theme:** Ambition, corruption, and the misuse of awakening magic.
@@ -165,6 +168,8 @@ The order doesn’t matter because each adventure:
 - stands alone as a contract
 - reveals a different facet of the same phenomenon
 - builds toward the same overarching mystery
+
+
 \page
 
 **CAMPAIGN ARC STRUCTURE**
@@ -209,6 +214,8 @@ While adventures can be played in any order due to their modular nature, they na
 **What Players Don't Know Yet:** Who activated Salsvault and why. Whether other Aeorian facilities exist. What can be done to stop it.
 
 ---
+
+
 \page
 
 ## Arc 3: Convergence — Rising Threats
@@ -298,7 +305,10 @@ A multi‑session arc returning to **The Far North** to confront the true source
 **In One Sentence**
 
 **The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
+
+
 \page
+
 {{wide
 **BETWEEN-ARC TRANSITION SCENES**
 
@@ -342,7 +352,10 @@ Steward Mara Fenwick enters with a new contract. "Speaking of which, we've recei
 - Works even if players only completed one Arc 1 adventure (Elric mentions other reports)
 
 ---
+
+
 \page
+
 ## Transition 2: Arc 2 → Arc 3
 ### "Word Spreads"
 
@@ -379,7 +392,10 @@ A new contract is pinned to the board: reports of cult activity near a temple in
 
 
 ---
+
+
 \page
+
 ## Transition 3: Arc 3 → Future Seasons
 ### "The Weight of Responsibility"
 

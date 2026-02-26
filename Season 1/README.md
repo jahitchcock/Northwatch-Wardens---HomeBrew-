@@ -69,6 +69,8 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Council Mechanics**: 7 members, 3 votes needed; Father Merriksonn and Corel guaranteed YES
 - **Rewards**: 800 gp + Warden credit
 - **Adventure Module**: See **Chapter 5: Wolves of Welton**
+
+
 \page
 
 ### Frozen Sick (Levels 2–4)
@@ -136,6 +138,8 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 - **Adventure Module**: See **Chapter 5: Opening Adventures - Wolves Contract**
 
 ---
+
+
 \page
 
 ## Geography
@@ -216,6 +220,8 @@ All Wardens shall:
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
+
+
 \page
 
 ### Field Roster (See **Chapter 4: DM Guild Roster** for full details)
@@ -299,6 +305,8 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 5. **Prepare your materials** — Print key maps and handouts you plan to use
 
 ---
+
+
 \page
 
 ## Design Principles

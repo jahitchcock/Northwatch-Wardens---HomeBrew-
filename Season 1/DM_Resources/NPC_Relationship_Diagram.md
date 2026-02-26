@@ -11,11 +11,7 @@ Repeat through:
 }}
 
 
-
-
 \page
-
-
 
 ---
 {{wide
@@ -55,7 +51,10 @@ Repeat through:
 }}
 }}
 ---
+
+
 \page
+
 {{wide
 ### PERIL IN PINEBROOK (Levels 1-3)
 
@@ -103,6 +102,7 @@ Repeat through:
 **If players miss clues:** Use NPC exposition and repeated observations (multiple merchants mention same pattern).
 }}
 ---
+
 
 \page
 
@@ -159,6 +159,7 @@ Repeat through:
 }}
 ---
 
+
 \page
 
 {{wide
@@ -202,7 +203,9 @@ Repeat through:
 }}
 ---
 
+
 \page
+
 {{wide
 ## PAYOFF TRACKING SHEET
 
@@ -263,7 +266,6 @@ Use this to track which story threads have been resolved vs. which remain:
 A (Intelligence) → B (Intentional) → C (Unnatural Magic) → D (Direction North) → E (Salsvault Source) → F (Deliberately triggered) → G (Creatures have agency) → H (Consciousness spread) → I (Same source manifestations) → J (responds to magic) → K (Magical disease) → M (Underground network) → N (Aeor origin) → O (Confirmed north) → P (Weapon system) → T (Magic disruption) → U (Regional span) → V (Accelerating) → W (Faction response) → X (Central command) → **DD-LL (Full threat scope)** → **Entity identity (DM choice)**
 
 ---
-
 
 
 \page
@@ -381,9 +383,8 @@ disturbances stretching from Pinebrook  to Welton to Palebank. He believes they 
 3. **Dangerous Knowledge:** Elric has read forbidden texts about Aeoria suggesting the civilization didn't fall—it was deliberately destroyed by something they unleashed. He suspects the Echo isn't random.
 
 
-
-
 \page
+
 {{wide
 ### **TRAILWARDENS**
 
@@ -508,8 +509,6 @@ sibling to a pack years ago.
 3. **Wolf Phobia:** Mila’s younger sister was killed by wolves when she was twelve. This trauma drives her fear and her insistence that the awakened wolves must die. Learning they are intelligent forces her to confront her grief.
 
 
-
-
 \page
 
 ### **LANTERN GUARD**
@@ -631,6 +630,7 @@ Wardens.
 
 #### **Secret:**
 Guz still hears Noke’s voice in his dreams.
+
 
 \page
 
@@ -947,7 +947,9 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
+
 \page
+
 ### Wardens — Lantern Guard
 
 {{wide
@@ -1016,7 +1018,9 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
+
 \page
+
 {{wide
 ## Key Relationship Networks
 }}
@@ -1066,6 +1070,7 @@ The awakened wolves are central to multiple character arcs. Bordel feels shame f
 
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
+
 
 \page
 
@@ -1148,6 +1153,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
+
 \page
 
 ## Wardens — Lantern Guard
@@ -1229,6 +1235,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
+
 
 \page
 
@@ -1316,6 +1323,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
+
 \page
 
 ## Pinebrook NPCs
@@ -1337,11 +1345,45 @@ See next section for detailed "appears in these adventures" notes for each major
 ## Palebank Village NPCs
 
 ### Elro Aldataur
-**Appears In:**
+**Appears In:**::
 - Frozen Sick — Quest giver, village leader
 - **Available**: Careful, protective leadership voice
 
-**Role**: Authority figure, pushes party into Salsvault mystery
+**Role**: :: Authority figure, pushes party into Salsvault mystery. 
+
+{{note
+*Leader of Palebank Village • Retired Ranger • Warden Ally* ::
+Elro is a weathered elven ranger with frost‑white hair and a calm, steady presence. He has spent decades defending the Northreach frontier and carries the quiet authority of someone who has seen too many winters and too many graves. 
+}}
+
+#### Public Face 
+- Stoic, dependable, deeply protective of Palebank 
+- Treats the Wardens as equals, not subordinates 
+- Speaks plainly, with the weight of experience 
+
+{{note
+#### Private Truth 
+
+Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel**. He recognizes the same unnatural patterns in the Frozen Sick outbreak that he saw during the Greywinter Hunts. He has been quietly corresponding with **Lorewarden Elric Vael** about strange frost patterns and magical disturbances. 
+}}
+
+\column
+
+#### Campaign Tie‑ins 
+**Frozen Sick:** :: Immediately recognizes the blue‑vein symptoms as unnatural 
+**Wolves of Welton:** :: Trusts Corel’s instincts; concerned about awakened wolves 
+**Peril in Pinebrook:** :: Has heard rumors of frost‑tainted wildlife 
+**Echo Arc:**::  Suspects the outbreak is tied to the same arcane disturbances Elric is tracking 
+
+#### Secrets 
+1. **Shared Vision:**::  Elro has had the same “tower of cracking ice” vision that haunts Elric. 
+2. **Old Warden Badge:**:: He still carries his provisional Warden badge, though he never speaks of it. 
+3. **Unspoken Fear:**:: He believes the outbreak is only the beginning — but won’t say it aloud. 
+
+#### Roleplay Notes 
+- Quiet intensity - Protective of Mila Teno 
+- Shows flashes of deep worry when discussing the Far North
+
 
 ### Verla Pelc
 **Appears In:**
@@ -1350,11 +1392,6 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Moral complexity, Uttolot subplot, information source
 
-### Urgon (Deceased Blacksmith)
-**Appears In:**
-- Frozen Sick — Funeral hook, community loss
-- **Role**: Stakes, community impact
-
 ### Tulgi (Healer)
 **Appears In:**
 - Frozen Sick — Tense healer, defensive, knows more than she admits
@@ -1362,80 +1399,151 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Medical expert, potential ally, defensive NPC
 
-## Croaker Cave NPCs
+\page
 
-### Hulil Lutan
-**Appears In:**
-- Frozen Sick — Cult operative, smart and ruthless
-- **Role**: Antagonist, cult connection, escape artist
+### Urgon Wenth (Deceased)
+*Dwarf Explorer • First Victim of Frigid Woe*
 
-### Raegrin Mau
-**Appears In:**
-- Frozen Sick — Cult lieutenant, zealous
-- **Role**: Antagonist, can crack under pressure
+{{descriptive
+Urgon was a seasoned explorer who spent a year charting the ice‑isles of the Far North. His frozen statue stands in Palebank’s square — a grim reminder of the Echo’s reach.
+}}
 
-## Salsvault NPCs
+---
 
-### Morgo Delwur
-**Appears In:**
-- Frozen Sick — Expedition guide, calm competence
-- **Available**: Hard truths about survival and risk
+#### Public Face
+- Beloved local blacksmith and explorer  
+- Known for bringing back strange relics  
+- Generous, loud‑laughing, always telling stories  
 
-**Role**: Guide, practical wisdom, survival expert
+#### Private Truth
+Urgon discovered **Salsvault** by accident. He never understood what he found — only that it was “wrong,” glowing blue beneath the ice.
 
-### Orvo Mustave
-**Appears In:**
-- Frozen Sick — Anxious survivor, witness
-- **Role**: Urgency, time pressure, emotional impact
+#### Campaign Tie‑ins
+- **Frozen Sick:** His death is the inciting incident  
+- **Echo Arc:** His journal contains the first concrete clues about Salsvault  
+- **Wardens:**  
+  - Knew **Mira Frostborn** (trapper)  
+  - Drank with **Korrin Shale**  
+  - Sold relics to **Verla Pelc**  
+  - Was distantly related to **Corel** through marriage  
+
+#### Secrets
+1. **The Last Entry:** His journal ends mid‑sentence: “The cold… it’s alive.”  
+2. **Relic Broker:** He unknowingly sold Echo‑tainted relics to Verla, who passed them into the criminal network.  
+3. **The Vision:** He saw a figure inside Salsvault — tall, cloaked, unmoving.
+
+#### Roleplay Notes (Posthumous)
+- His cabin is a treasure trove of clues  
+- His death should feel like a community wound  
+
+
+
+
+\column
+### The Fence (Unnamed Smuggler)
+*Human or Tiefling • Smuggler • Criminal Network Node*
+
+{{descriptive
+A shadowy trader from Port Morrow who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
+}}
+
+---
+
+#### Public Face
+- Charming, slippery, always smiling  
+- Deals in “rare curiosities”  
+- Never stays in one place long  
+
+#### Private Truth
+The Fence is a mid‑level operator in the **Uttolot criminal network**, the same network Mara Fenwick fled.
+
+#### Campaign Tie‑ins
+**Frozen Sick:**:: Sold the vials to Irven 
+
+**Criminal Network:** :: 
+- Knows Verla Pelc  
+- Knows Mara Fenwick (dangerous connection)  
+- Has dealt with Hulil Lutan 
+
+**Echo Arc:**  ::
+- Has unknowingly trafficked Echo‑tainted relics before  
+- The Buyer has purchased from them  
+
+#### Secrets
+1. **Uttolot Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
+2. **The Buyer:** They have met The Buyer once and were terrified.  
+3. **Ledger:** They keep a coded ledger that could expose the entire smuggling chain.
+
+#### Roleplay Notes
+- Slick, evasive, always calculating  
+- Fearful of the Uttolots  
+- Will flee if cornered  
 
 ### The Buyer
-**Appears In:**
+**Appears In:**::
 - Frozen Sick — Mysterious patron, relic broker
 - **Recurring**: Long-term faction contact, Aeorian mystery connection
-
-**Role**: Mystery broker, faction representative, morally ambiguous patron
+- **Role**: Mystery broker, faction representative, morally ambiguous patron
 
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
+
 \page
 
-## Noke's Tower NPCs
+### Croaker Cave NPCs
 
-### Ahmed Noke
-**Appears In:**
-- Wild Sheep Chase — Antagonist, petty genius
-- **Recurring**: Can haunt Guz's dreams
+#### Hulil Lutan
+**Appears In:**::
+- Frozen Sick — Cult operative, smart and ruthless
+- **Role**: Antagonist, cult connection, escape artist
 
-**Role**: Antagonist, magical mishap, pathetic/terrifying
+#### Raegrin Mau
+**Appears In:**::
+- Frozen Sick — Cult lieutenant, zealous
+- **Role**: Antagonist, can crack under pressure
 
+### Salsvault NPCs
 
+#### Morgo Delwur
+**Appears In:**::
+- Frozen Sick — Expedition guide, calm competence
+- **Available**: Hard truths about survival and risk
+- **Role**: Guide, practical wisdom, survival expert
 
-## Temple of the Dragonknights NPCs
+#### Orvo Mustave
+**Appears In:**::
+- Frozen Sick — Anxious survivor, witness
+- **Role**: Urgency, time pressure, emotional impact
 
-### Joel Andersmith
-**Appears In:**
+### Temple of the Dragonknights
+#### Joel Andersmith
+**Appears In:**::
 - Temple of the Dragonknights — Grieving parent, emotional pressure
 - Wolves of Welton — Begs party to save families
 - Frozen Sick — Knows trader who handled blue vials
+- **Role**: Moral stakes, personal investment
 
-**Role**: Moral stakes, personal investment
-
-### Clementine Andersmith
-**Appears In:**
+#### Clementine Andersmith
+**Appears In:**::
 - Temple of the Dragonknights — Kidnapped child, rescue stakes
 - **Future**: Potential campaign hook if magic awakens
+- **Role**: Rescue mission, future subplot
 
-**Role**: Rescue mission, future subplot
-
-### Venomfang (Green Dragon)
-**Appears In:**
+#### Venomfang (Green Dragon)
+**Appears In:**::
 - Temple of the Dragonknights — Campaign-tier threat, intelligent predator
 - References through Galvena, Aurixean, Mila subplots
-
-**Role**: Major antagonist, multiple character connections
-
+- **Role**: Major antagonist, multiple character connections
 \column
+
+### Noke's Tower NPCs
+
+#### Ahmed Noke
+**Appears In:**::
+- Wild Sheep Chase — Antagonist, petty genius
+- **Recurring**: Can haunt Guz's dreams
+- **Role**: Antagonist, magical mishap, pathetic/terrifying
 
 ## Using This Web
 

@@ -123,6 +123,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
+
 \page
 
 ## The Reactivation: What's Happening and Why
@@ -252,8 +253,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 ---
 
@@ -398,6 +399,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
+
 
 \page
 
@@ -625,8 +627,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 ### The Theft Network
 
@@ -830,8 +832,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 ### Following the Wolves (Welton)
 
@@ -1009,8 +1011,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 **Location:** North of Palebank
 
@@ -1207,8 +1209,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 ### Potential Allies
 
@@ -1394,8 +1396,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
+\page
 
 The Aeorian Echo represents both danger and opportunity—a chance for ancient evils to rise again, or for new heroes to prove that the present can overcome the past. How your players navigate this threat will define not just the campaign's outcome, but the kind of story you tell together.
 

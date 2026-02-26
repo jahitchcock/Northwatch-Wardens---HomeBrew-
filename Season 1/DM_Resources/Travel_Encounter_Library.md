@@ -74,6 +74,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 2. PACK OF AWAKENED WOLVES
@@ -160,6 +161,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
+
 
 \page
 
@@ -252,6 +254,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 6. CULTIST ENCOUNTER
@@ -342,6 +345,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 8. MILITIA CONFRONTATION
@@ -431,8 +435,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-\page
 
+\page
 
 ### 10. MAGICAL PHENOMENON
 
@@ -512,7 +516,9 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
+
 ### 12. SETTLEMENT REFUGEE CARAVAN
 
 **Setup:** Group of 20-50 refugees (families, elderly, children) fleeing settlement
@@ -615,6 +621,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 15. GHOSTLY APPARITION / UNDEAD ENCOUNTER
@@ -708,6 +715,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
+
 
 \page
 
@@ -830,6 +838,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 22. MYSTERIOUS STRUCTURE
@@ -947,7 +956,9 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
+
 ---
 
 ### 25. CRIME SCENE / MURDER SITE
@@ -1061,6 +1072,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
+
 \page
 
 ### 28. HIDDEN COMMUNITY / SETTLEMENT
@@ -1136,6 +1148,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
+
 
 \page
 
@@ -1240,5 +1253,3 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
-\page

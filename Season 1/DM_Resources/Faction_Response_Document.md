@@ -90,6 +90,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
+
 \page
 
 ### Phase 2 Consolidation Response
@@ -188,6 +189,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
+
 
 \page
 
@@ -291,6 +293,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
+
 \page
 
 ### Phase 2 Consolidation Response
@@ -383,6 +386,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
+
 
 \page
 
@@ -495,7 +499,9 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
+
 \page
+
 ---
 
 ### Phase 3 Execution Response
@@ -613,6 +619,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
+
 \page
 
 #### **Manifestation:**
@@ -718,6 +725,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
+
 
 \page
 

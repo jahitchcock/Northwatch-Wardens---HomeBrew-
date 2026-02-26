@@ -663,8 +663,8 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
 
-\page
 
+\page
 
 ## Adventure Hooks
 
@@ -781,6 +781,7 @@ This section contains:
 
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
+
 
 \page
 

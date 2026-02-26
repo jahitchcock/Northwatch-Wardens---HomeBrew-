@@ -70,6 +70,8 @@
 - Offer alternatives to violence
 
 ---
+
+
 \page
 
 ## TRACKING FACTION STANDING
@@ -184,6 +186,7 @@
 - **Recruitment:** "Some clerics are questioning their faith; we need you to protect them"
 - **Sacrifice:** "We're attempting a divine ritual to counteract the Echo; protect us during ritual"
 
+
 \page
 
 ### Dragons (Phase 1 & 2)
@@ -260,6 +263,7 @@
 
 
 \page
+
 {{wide
 # What If? Quick Guide: 
 **Common Scenarios & Solutions**
@@ -341,6 +345,7 @@ This section provides ready-made responses to common player decisions that break
 
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
+
 
 \page
 
@@ -443,6 +448,7 @@ Salsvault can be destroyed by:
 
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
+
 
 \page
 
@@ -547,8 +553,8 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-\page
 
+\page
 
 ### SCENARIO 7: 
 ###### "Our Party Got a TPK (Total Party Kill)"
@@ -657,6 +663,7 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
+
 \page
 
 ### SCENARIO 11: 
@@ -754,6 +761,7 @@ Long-term: Using Aeorian tech marks you as "Aeorian-sympathizer" to factions
 
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
+
 
 \page
 
@@ -861,6 +869,7 @@ For small settlement (100-300 people):
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
+
 \page
 
 ### SCENARIO 19: 
@@ -961,6 +970,7 @@ During skipped time:
 
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
+
 
 \page
 

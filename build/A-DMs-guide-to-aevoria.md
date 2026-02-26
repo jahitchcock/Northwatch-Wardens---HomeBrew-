@@ -48,73 +48,62 @@ theme: 5ePHB
 - Foreshadowing Database: The Aeorian Echo — **38**
 - NPC Relationship Web — Season One — **55**
 - NPC Appearance Reference — **58**
-- Minor NPC Roster: Northreach Region — **63**
-- Faction Response Document: The Aeorian Echo — **68**
-- What If? Quick Guide: — **79**
-- Warden Rank System — **87**
-- Seasonal Event Calendar for Northreach — **94**
-- Travel Encounter Library — **100**
-- Player Handouts by Adventure — **120**
-- Campaign Tracker: Northwatch Wardens Season One — **132**
-- Campaign Tracker: Northwatch Wardens Season One — **138**
-- Adventures — **144**
-- The Morning After: A Warden's First Duty — **148**
-- Return to Waystone (Session 0) — **152**
-- DM Notes: Wolves of Welton — **158**
-- DM Prep Checklist: Wolves of Welton — **159**
-- Scene 1: Welcome to the Welton Wolfpack — **160**
-- Scene 2: Village People — **162**
-- Scene 3: Plan of Attack — **165**
-- Map of Welton & the Surrounding Area — **166**
-- Map of The Wolves' Den — **168**
-- Flame — **169**
-- Bolt — **170**
-- Frozen Sick — **176**
-- DM Notes: Frozen Sick — **177**
-- DM Prep Checklist: Frozen Sick — **178**
-- Frozen Sick — Monster Stat Blocks — **200**
-- DM Notes: The Wild Sheep Chase — **205**
-- DM Prep Checklist: The Wild Sheep Chase — **208**
-- Summary — **209**
-- Using This Adventure — **209**
-- Adventure Hooks — **209**
-- Baaaa-d News — **210**
-- Guz — **210**
-- Bed Dragon Wyrmling — **214**
-- Ahmed Noke — **215**
-- Modified Wand of True Polymorph — **217**
-- DM Notes: Peril in Pinebrook — **220**
-- Peril in Pinebrook — **221**
-- Conclusion — **245**
-- Player Reference Sheet — **248**
-- DM Notes: Temple of the Dragonknights — **252**
-- DM Prep Checklist: Temple of the Dragonknights — **257**
-- A four-hour adventure for two 1st-2nd level characters — **258**
-- Part I: Innocents Lost — **259**
-- Part II: Poisontip Cavern — **263**
-- Part III: Temple of the Dragonknights — **266**
-- Part IV: Loose Ends — **268**
-- World Secrets — **269**
-- The Aeorian Echo: Campaign Master Document — **269**
-- The Dimensional Rift: Aeor's Fall Across Worlds — **278**
-- People of Northreach: DM Secrets — **279**
-- Places of Northreach: DM Secrets — **289**
-- The Nullwood Expanse — DM Eyes Only — **299**
-- The Far North: DM Secrets — **300**
-- The Emberlands: DM Secrets — **308**
-- THE SHATTERED COAST — DM SECRETS — **314**
-- The Stonebound Depths: DM-Only Secrets — **322**
-- The Sunken Dominion: DM-Only Secrets — **325**
-- The Verdant Marches — DM-Only Secrets — **327**
-- VHAROXIS — DM SECRETS — **338**
-- Appendix: Reference Materials — **344**
-- Mystery Investigation Guide: The Aeorian Echo — **344**
-- Adventure Quick Reference Sheets — **345**
-- NPC Quick Reference Cards — **346**
-- Session Prep Master Checklist — **347**
-- Northwatch Wardens: DM Session Prep Guide — **348**
-- Northwatch Wardens — **353**
-- Northwatch Wardens: Season One — The Story So Far — **366**
+- Minor NPC Roster: Northreach Region — **64**
+- Faction Response Document: The Aeorian Echo — **69**
+- What If? Quick Guide: — **80**
+- Warden Rank System — **88**
+- Seasonal Event Calendar for Northreach — **95**
+- Travel Encounter Library — **101**
+- Player Handouts by Adventure — **121**
+- Adventures — **138**
+- The Morning After: A Warden's First Duty — **140**
+- Return to Waystone (Session 0) — **142**
+- **Contract: W‑17 — Disturbance Near Welton** — **145**
+- DM Notes: Wolves of Welton — **148**
+- DM Prep Checklist: Wolves of Welton — **151**
+- Wolves of Welton — **153**
+- Frozen Sick — **168**
+- Section 7: Salsvault — The Frozen Laboratory — **179**
+- DM Notes: The Wild Sheep Chase — **192**
+- DM Prep Checklist: The Wild Sheep Chase — **195**
+- Summary — **196**
+- Using This Adventure — **196**
+- Adventure Hooks — **196**
+- Baaaa-d News — **197**
+- Guz — **197**
+- Bed Dragon Wyrmling — **201**
+- Ahmed Noke — **202**
+- Modified Wand of True Polymorph — **204**
+- DM Notes: Peril in Pinebrook — **205**
+- Conclusion — **212**
+- DM Notes: Temple of the Dragonknights — **214**
+- DM Prep Checklist: Temple of the Dragonknights — **219**
+- A four-hour adventure for two 1st-2nd level characters — **220**
+- Part I: Innocents Lost — **221**
+- Part II: Poisontip Cavern — **225**
+- Part III: Temple of the Dragonknights — **228**
+- Part IV: Loose Ends — **230**
+- World Secrets — **231**
+- The Aeorian Echo: Campaign Master Document — **231**
+- The Dimensional Rift: Aeor's Fall Across Worlds — **240**
+- People of Northreach: DM Secrets — **241**
+- Places of Northreach: DM Secrets — **251**
+- The Nullwood Expanse — DM Eyes Only — **261**
+- The Far North: DM Secrets — **262**
+- The Emberlands: DM Secrets — **270**
+- THE SHATTERED COAST — DM SECRETS — **276**
+- The Stonebound Depths: DM-Only Secrets — **284**
+- The Sunken Dominion: DM-Only Secrets — **287**
+- The Verdant Marches — DM-Only Secrets — **289**
+- VHAROXIS — DM SECRETS — **300**
+- Appendix: Reference Materials — **306**
+- Mystery Investigation Guide: The Aeorian Echo — **306**
+- Adventure Quick Reference Sheets — **307**
+- NPC Quick Reference Cards — **308**
+- Session Prep Master Checklist — **309**
+- Northwatch Wardens: DM Session Prep Guide — **310**
+- Northwatch Wardens — **315**
+- Northwatch Wardens: Season One — The Story So Far — **328**
 
 \page
 
@@ -4407,11 +4396,45 @@ See next section for detailed "appears in these adventures" notes for each major
 ## Palebank Village NPCs
 
 ### Elro Aldataur
-**Appears In:**
+**Appears In:**::
 - Frozen Sick — Quest giver, village leader
 - **Available**: Careful, protective leadership voice
 
-**Role**: Authority figure, pushes party into Salsvault mystery
+**Role**: :: Authority figure, pushes party into Salsvault mystery. 
+
+{{note
+*Leader of Palebank Village • Retired Ranger • Warden Ally* ::
+Elro is a weathered elven ranger with frost‑white hair and a calm, steady presence. He has spent decades defending the Northreach frontier and carries the quiet authority of someone who has seen too many winters and too many graves. 
+}}
+
+#### Public Face 
+- Stoic, dependable, deeply protective of Palebank 
+- Treats the Wardens as equals, not subordinates 
+- Speaks plainly, with the weight of experience 
+
+{{note
+#### Private Truth 
+
+Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel**. He recognizes the same unnatural patterns in the Frozen Sick outbreak that he saw during the Greywinter Hunts. He has been quietly corresponding with **Lorewarden Elric Vael** about strange frost patterns and magical disturbances. 
+}}
+
+\column
+
+#### Campaign Tie‑ins 
+**Frozen Sick:** :: Immediately recognizes the blue‑vein symptoms as unnatural 
+**Wolves of Welton:** :: Trusts Corel’s instincts; concerned about awakened wolves 
+**Peril in Pinebrook:** :: Has heard rumors of frost‑tainted wildlife 
+**Echo Arc:**::  Suspects the outbreak is tied to the same arcane disturbances Elric is tracking 
+
+#### Secrets 
+1. **Shared Vision:**::  Elro has had the same “tower of cracking ice” vision that haunts Elric. 
+2. **Old Warden Badge:**:: He still carries his provisional Warden badge, though he never speaks of it. 
+3. **Unspoken Fear:**:: He believes the outbreak is only the beginning — but won’t say it aloud. 
+
+#### Roleplay Notes 
+- Quiet intensity - Protective of Mila Teno 
+- Shows flashes of deep worry when discussing the Far North
+
 
 ### Verla Pelc
 **Appears In:**
@@ -4420,11 +4443,6 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Moral complexity, Uttolot subplot, information source
 
-### Urgon (Deceased Blacksmith)
-**Appears In:**
-- Frozen Sick — Funeral hook, community loss
-- **Role**: Stakes, community impact
-
 ### Tulgi (Healer)
 **Appears In:**
 - Frozen Sick — Tense healer, defensive, knows more than she admits
@@ -4432,82 +4450,154 @@ See next section for detailed "appears in these adventures" notes for each major
 
 **Role**: Medical expert, potential ally, defensive NPC
 
-## Croaker Cave NPCs
+{{watercolor7,top:488px,left:252px,width:317px,background-color:#BBAD82,opacity:80%}}
 
-### Hulil Lutan
-**Appears In:**
-- Frozen Sick — Cult operative, smart and ruthless
-- **Role**: Antagonist, cult connection, escape artist
+\page
 
-### Raegrin Mau
-**Appears In:**
-- Frozen Sick — Cult lieutenant, zealous
-- **Role**: Antagonist, can crack under pressure
+### Urgon Wenth (Deceased)
+*Dwarf Explorer • First Victim of Frigid Woe*
 
-## Salsvault NPCs
+{{descriptive
+Urgon was a seasoned explorer who spent a year charting the ice‑isles of the Far North. His frozen statue stands in Palebank’s square — a grim reminder of the Echo’s reach.
+}}
 
-### Morgo Delwur
-**Appears In:**
-- Frozen Sick — Expedition guide, calm competence
-- **Available**: Hard truths about survival and risk
+---
 
-**Role**: Guide, practical wisdom, survival expert
+#### Public Face
+- Beloved local blacksmith and explorer  
+- Known for bringing back strange relics  
+- Generous, loud‑laughing, always telling stories  
 
-### Orvo Mustave
-**Appears In:**
-- Frozen Sick — Anxious survivor, witness
-- **Role**: Urgency, time pressure, emotional impact
+#### Private Truth
+Urgon discovered **Salsvault** by accident. He never understood what he found — only that it was “wrong,” glowing blue beneath the ice.
+
+#### Campaign Tie‑ins
+- **Frozen Sick:** His death is the inciting incident  
+- **Echo Arc:** His journal contains the first concrete clues about Salsvault  
+- **Wardens:**  
+  - Knew **Mira Frostborn** (trapper)  
+  - Drank with **Korrin Shale**  
+  - Sold relics to **Verla Pelc**  
+  - Was distantly related to **Corel** through marriage  
+
+#### Secrets
+1. **The Last Entry:** His journal ends mid‑sentence: “The cold… it’s alive.”  
+2. **Relic Broker:** He unknowingly sold Echo‑tainted relics to Verla, who passed them into the criminal network.  
+3. **The Vision:** He saw a figure inside Salsvault — tall, cloaked, unmoving.
+
+#### Roleplay Notes (Posthumous)
+- His cabin is a treasure trove of clues  
+- His death should feel like a community wound  
+
+
+
+
+\column
+### The Fence (Unnamed Smuggler)
+*Human or Tiefling • Smuggler • Criminal Network Node*
+
+{{descriptive
+A shadowy trader from Port Morrow who deals in curiosities, relics, and contraband. They never intended to spread a plague — only to profit.
+}}
+
+---
+
+#### Public Face
+- Charming, slippery, always smiling  
+- Deals in “rare curiosities”  
+- Never stays in one place long  
+
+#### Private Truth
+The Fence is a mid‑level operator in the **Uttolot criminal network**, the same network Mara Fenwick fled.
+
+#### Campaign Tie‑ins
+**Frozen Sick:**:: Sold the vials to Irven 
+
+**Criminal Network:** :: 
+- Knows Verla Pelc  
+- Knows Mara Fenwick (dangerous connection)  
+- Has dealt with Hulil Lutan 
+
+**Echo Arc:**  ::
+- Has unknowingly trafficked Echo‑tainted relics before  
+- The Buyer has purchased from them  
+
+#### Secrets
+1. **Uttolot Pressure:** They were ordered to move “blue glass” quickly — no questions asked.  
+2. **The Buyer:** They have met The Buyer once and were terrified.  
+3. **Ledger:** They keep a coded ledger that could expose the entire smuggling chain.
+
+#### Roleplay Notes
+- Slick, evasive, always calculating  
+- Fearful of the Uttolots  
+- Will flee if cornered  
 
 ### The Buyer
-**Appears In:**
+**Appears In:**::
 - Frozen Sick — Mysterious patron, relic broker
 - **Recurring**: Long-term faction contact, Aeorian mystery connection
-
-**Role**: Mystery broker, faction representative, morally ambiguous patron
+- **Role**: Mystery broker, faction representative, morally ambiguous patron
 
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
-{{watercolor4,top:188px,left:236px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:490px,left:179px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-## Noke's Tower NPCs
+### Croaker Cave NPCs
 
-### Ahmed Noke
-**Appears In:**
-- Wild Sheep Chase — Antagonist, petty genius
-- **Recurring**: Can haunt Guz's dreams
+#### Hulil Lutan
+**Appears In:**::
+- Frozen Sick — Cult operative, smart and ruthless
+- **Role**: Antagonist, cult connection, escape artist
 
-**Role**: Antagonist, magical mishap, pathetic/terrifying
+#### Raegrin Mau
+**Appears In:**::
+- Frozen Sick — Cult lieutenant, zealous
+- **Role**: Antagonist, can crack under pressure
 
+### Salsvault NPCs
 
+#### Morgo Delwur
+**Appears In:**::
+- Frozen Sick — Expedition guide, calm competence
+- **Available**: Hard truths about survival and risk
+- **Role**: Guide, practical wisdom, survival expert
 
-## Temple of the Dragonknights NPCs
+#### Orvo Mustave
+**Appears In:**::
+- Frozen Sick — Anxious survivor, witness
+- **Role**: Urgency, time pressure, emotional impact
 
-### Joel Andersmith
-**Appears In:**
+### Temple of the Dragonknights
+#### Joel Andersmith
+**Appears In:**::
 - Temple of the Dragonknights — Grieving parent, emotional pressure
 - Wolves of Welton — Begs party to save families
 - Frozen Sick — Knows trader who handled blue vials
+- **Role**: Moral stakes, personal investment
 
-**Role**: Moral stakes, personal investment
-
-### Clementine Andersmith
-**Appears In:**
+#### Clementine Andersmith
+**Appears In:**::
 - Temple of the Dragonknights — Kidnapped child, rescue stakes
 - **Future**: Potential campaign hook if magic awakens
+- **Role**: Rescue mission, future subplot
 
-**Role**: Rescue mission, future subplot
-
-### Venomfang (Green Dragon)
-**Appears In:**
+#### Venomfang (Green Dragon)
+**Appears In:**::
 - Temple of the Dragonknights — Campaign-tier threat, intelligent predator
 - References through Galvena, Aurixean, Mila subplots
-
-**Role**: Major antagonist, multiple character connections
-
+- **Role**: Major antagonist, multiple character connections
 \column
+
+### Noke's Tower NPCs
+
+#### Ahmed Noke
+**Appears In:**::
+- Wild Sheep Chase — Antagonist, petty genius
+- **Recurring**: Can haunt Guz's dreams
+- **Role**: Antagonist, magical mishap, pathetic/terrifying
 
 ## Using This Web
 
@@ -4535,7 +4625,7 @@ See next section for detailed "appears in these adventures" notes for each major
 - Players who cultivate relationships get better information
 - Some secrets only revealed through specific NPC relationships
 
-{{watercolor13,top:459px,left:197px,width:345px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:120px,left:150px,width:318px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4633,7 +4723,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor4,top:174px,left:32px,width:365px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:294px,left:139px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4750,7 +4840,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor2,top:101px,left:38px,width:268px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:354px,left:64px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4854,7 +4944,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor12,top:241px,left:469px,width:321px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:421px,left:69px,width:309px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4946,7 +5036,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor10,top:315px,left:317px,width:346px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:580px,left:175px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5056,7 +5146,7 @@ Keep roster nearby. If players ask random NPC's name, quickly scan list and assi
 - Elara discovers critical clue and needs protection
 }}
 
-{{watercolor10,top:742px,left:278px,width:266px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:396px,left:497px,width:381px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5152,7 +5242,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor3,top:484px,left:282px,width:266px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:102px,left:90px,width:299px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5253,7 +5343,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor11,top:304px,left:332px,width:315px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:361px,left:12px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5357,7 +5447,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor4,top:490px,left:258px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:570px,left:211px,width:261px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5452,7 +5542,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor10,top:519px,left:94px,width:263px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:246px,left:324px,width:348px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5565,7 +5655,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor5,top:368px,left:498px,width:397px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:622px,left:464px,width:346px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5686,7 +5776,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor1,top:396px,left:304px,width:383px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:700px,left:262px,width:312px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5794,7 +5884,7 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor6,top:448px,left:446px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:633px,left:128px,width:373px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5830,7 +5920,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-{{watercolor3,top:161px,left:116px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:376px,left:336px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5907,7 +5997,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-{{watercolor2,top:76px,left:237px,width:287px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:518px,left:176px,width:268px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6023,7 +6113,7 @@ This document provides detailed rules for how various factions respond mechanica
 - **Recruitment:** "Some clerics are questioning their faith; we need you to protect them"
 - **Sacrifice:** "We're attempting a divine ritual to counteract the Echo; protect us during ritual"
 
-{{watercolor6,top:268px,left:292px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:626px,left:30px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6099,7 +6189,7 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-{{watercolor13,top:746px,left:56px,width:385px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:157px,left:315px,width:283px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6185,7 +6275,7 @@ This section provides ready-made responses to common player decisions that break
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor1,top:267px,left:371px,width:276px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:627px,left:235px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6289,7 +6379,7 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor5,top:250px,left:276px,width:273px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:497px,left:143px,width:365px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6394,7 +6484,7 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor6,top:723px,left:282px,width:301px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:564px,left:189px,width:311px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6505,7 +6595,7 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor7,top:378px,left:378px,width:359px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:513px,left:218px,width:317px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6605,7 +6695,7 @@ Long-term: Using Aeorian tech marks you as "Aeorian-sympathizer" to factions
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor12,top:593px,left:422px,width:347px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:121px,left:390px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6713,7 +6803,7 @@ For small settlement (100-300 people):
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor5,top:547px,left:375px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:375px,left:160px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6816,7 +6906,7 @@ During skipped time:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor7,top:255px,left:181px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:70px,left:361px,width:391px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6869,7 +6959,7 @@ If something happens that's not in this guide:
 **Remember:** Your table will find ways to surprise these scenarios. That's good. Adapt, stay consistent, and let consequences flow naturally.
 }}
 
-{{watercolor11,top:726px,left:450px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:541px,left:148px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6956,7 +7046,7 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor7,top:673px,left:386px,width:371px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:531px,left:168px,width:265px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7038,7 +7128,7 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor4,top:264px,left:90px,width:270px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:473px,left:389px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7118,7 +7208,7 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor8,top:284px,left:130px,width:293px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:686px,left:297px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7218,7 +7308,7 @@ Reward scaling provides mechanical benefit of advancing:
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor2,top:596px,left:405px,width:300px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:742px,left:242px,width:281px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7317,7 +7407,7 @@ Using rank creates interesting roleplay moments:
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor9,top:15px,left:189px,width:358px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:360px,left:35px,width:255px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7381,7 +7471,7 @@ Rank 5 advancement: Unanimous or 75%+ member vote
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor11,top:422px,left:328px,width:307px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:392px,left:225px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7420,7 +7510,7 @@ Rank 5 advancement: Unanimous or 75%+ member vote
 
 }}
 
-{{watercolor11,top:633px,left:59px,width:254px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:550px,left:6px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7520,7 +7610,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor12,top:111px,left:162px,width:357px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:200px,left:436px,width:318px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7615,7 +7705,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor8,top:590px,left:188px,width:261px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:541px,left:119px,width:348px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7709,7 +7799,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor5,top:663px,left:291px,width:283px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:593px,left:37px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7818,7 +7908,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor10,top:1px,left:134px,width:377px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:237px,left:421px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7912,7 +8002,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor5,top:529px,left:40px,width:368px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:5px,left:88px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7993,7 +8083,7 @@ This document provides 12 monthly events for Northreach that can serve as campai
 | 6. Deepwinter | Winter | 20-40 | Impassable | Isolated | Mystery, revelation, indoor games |
 | 7. Thawthaw | Late Winter | 30-50 | Difficult | Desperate | Crisis, transitions, hope |
 
-{{watercolor10,top:83px,left:489px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:469px,left:181px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8073,7 +8163,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor13,top:473px,left:173px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:679px,left:187px,width:291px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8162,7 +8252,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor8,top:353px,left:34px,width:267px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:640px,left:205px,width:316px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8255,7 +8345,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor2,top:601px,left:414px,width:293px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:597px,left:109px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8347,7 +8437,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor3,top:168px,left:148px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:440px,left:51px,width:372px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8438,7 +8528,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor13,top:398px,left:103px,width:330px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:229px,left:402px,width:305px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8520,7 +8610,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor2,top:551px,left:48px,width:391px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:139px,left:411px,width:261px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8626,7 +8716,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor1,top:571px,left:193px,width:312px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:15px,left:43px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8722,7 +8812,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor5,top:11px,left:253px,width:338px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:596px,left:32px,width:366px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8845,7 +8935,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor4,top:220px,left:92px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:457px,left:449px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8964,7 +9054,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor1,top:451px,left:163px,width:262px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:183px,left:278px,width:271px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9081,7 +9171,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor11,top:388px,left:352px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:180px,left:452px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9159,7 +9249,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor7,top:327px,left:358px,width:291px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:205px,left:442px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9265,7 +9355,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor2,top:16px,left:487px,width:333px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:51px,left:22px,width:320px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9314,7 +9404,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-{{watercolor9,top:421px,left:171px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:242px,left:416px,width:260px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9348,7 +9438,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 }}
 ---
 
-{{watercolor12,top:571px,left:374px,width:398px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:584px,left:239px,width:255px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9382,7 +9472,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 }}
 ---
 
-{{watercolor2,top:291px,left:202px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:342px,left:492px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9436,7 +9526,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-{{watercolor12,top:123px,left:65px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:573px,left:51px,width:395px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9500,7 +9590,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-{{watercolor6,top:536px,left:120px,width:315px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:115px,left:81px,width:283px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9564,7 +9654,7 @@ This document provides flexible encounter prompts for when PCs travel between No
 - **Friend (+3-4):** Significant help, trust, invitations
 - **Close Ally (+5+):** Will take risks for PC, provides resources
 
-{{watercolor5,top:423px,left:328px,width:282px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:717px,left:177px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9644,13 +9734,13 @@ This document provides flexible encounter prompts for when PCs travel between No
 - PC CHOOSES whether to pursue
 - Resolve mechanically (skill checks, timecosts, rewards)
 
-{{watercolor13,top:453px,left:74px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:518px,left:410px,width:303px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Player Handouts by Adventure
 
-{{watercolor9,top:215px,left:137px,width:310px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:714px,left:430px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9739,7 +9829,7 @@ Northwatch Wardens, Waystone Inn
 
 ---
 
-{{watercolor10,top:265px,left:314px,width:323px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:130px,left:337px,width:393px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9810,7 +9900,7 @@ I've been a shepherd thirty years. Wolves don't act like that. Something's wrong
 
 ---
 
-{{watercolor6,top:575px,left:323px,width:275px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:100px,left:311px,width:315px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9878,7 +9968,7 @@ Welton Chapel
 
 ---
 
-{{watercolor4,top:697px,left:65px,width:261px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:705px,left:197px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9931,7 +10021,7 @@ I have to get to Welton. Warn them. Find a way to-
 }}
 ---
 
-{{watercolor8,top:507px,left:104px,width:391px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:563px,left:387px,width:261px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10020,7 +10110,7 @@ Urgon must be found. Source must be destroyed.
 
 ---
 
-{{watercolor2,top:651px,left:345px,width:316px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:50px,left:394px,width:278px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10114,7 +10204,7 @@ distribution underway."
 
 ---
 
-{{watercolor6,top:188px,left:459px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:364px,left:132px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10160,7 +10250,7 @@ P.S. - If this reaches you after three days, please at least ensure I go to a fa
 }}
 ---
 
-{{watercolor11,top:338px,left:236px,width:291px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:446px,left:444px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10244,7 +10334,7 @@ Someone in supply chain is feeding information to bandits. Review manifest acces
 
 ---
 
-{{watercolor9,top:131px,left:332px,width:260px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:655px,left:135px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10337,7 +10427,7 @@ Temple of the Dragonknights
 
 ---
 
-{{watercolor3,top:254px,left:17px,width:358px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:601px,left:116px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10458,24 +10548,22 @@ Lorewarden, Northwatch Wardens
 - Consider voice recordings for dramatic letters
 - Create "handwriting" fonts for personal notes
 
-{{watercolor12,top:508px,left:159px,width:396px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:672px,left:434px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
+{{wide
 {{note
-##### DUNGEON MASTER RESOURCE
+#### DUNGEON MASTER RESOURCE
 
 **Campaign Progress Tracker**
-
 This is a DM tool for tracking campaign progress and party status.
 }}
 
-{{watercolor8,top:364px,left:452px,width:396px,background-color:#BBAD82,opacity:80%}}
+:
 
-\page
-
-# Campaign Tracker: Northwatch Wardens Season One
-
+### Campaign Tracker: Northwatch Wardens Season One
+}}
 **Campaign Start Date:** _____________  
 **Current In-Game Date:** _____________  
 **Party Level:** 2  
@@ -10485,40 +10573,57 @@ This is a DM tool for tracking campaign progress and party status.
 
 {{wide
 
-## Party Roster
+#### Party Roster
 
 | Player Name | Character Name | Class/Level | Status |
 |-------------|----------------|-------------|--------|
-| Erin| | Ranger 2 | Active |
-| Jude| | Paladin 2 | Active |
-|Rowan | | Warlock 2 | Active |
+| . | |    |  |
+| . | |    |  |
+| . | |    |  |
+| . | |    |  |
+| . | |    |  |
 
+
+### Contracts Completed
 }}
 
----
 
-## Contracts Completed
 
-### ☑ Wolves of Welton (Contract W-17)
-- **Resolution:** ☑ Negotiated ☐ Combat ☐ Mixed
+#### ☐ Wolves of Welton (Contract W-17)
+- **Resolution:** ☐ Negotiated ☐ Combat ☐ Mixed
 - **Flame:** ☐ Killed ☐ Captured ☐ Fled ☑ Negotiated
-- **Bolt:** ☑ Alive ☐ Dead ☐ Injured
+- **Bolt:** ☐ Alive ☐ Dead ☐ Injured
 - **Wolf pups:** ☑ Spared ☐ Killed ☐ Taken
-- **Welton Council vote:** ☑ Passed ☐ Failed
+- **Welton Council vote:** ☐ Passed ☐ Failed
 - **Key NPCs met:** Father Merriksonn, Tillus Merrion
-- **Payment received:** 800 gp (split 3 ways; 266 gp each; 2 gp unassigned/party funds)
-- **Level up?** ☑ Yes (1→2)
+- **Payment received:** 
+- **Level up?** ☐ Yes (1→2)
+```
+Notes:
 
-**Notes:**
-- Party is still in Welton and needs to return to Waystone Inn to report.
-- Tentative truce established with the awakened wolves; Bolt and Flame both survived.
-- Wolf pups were spared.
-- Risk remains that the awakened wolf faction could turn against humans.
-- Recovered a note from Alexi in magical shorthand; only the word “Aeorian” was legible.
+________________________________________
 
----
 
-### ☐ Frozen Sick
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+
+```
+\column
+
+#### ☐ Frozen Sick
 - **Urgon:** ☐ Cured ☐ Died
 - **Tulgi:** ☐ Cured ☐ Died ☐ Arrested
 - **Hulil Lutan:** ☐ Killed ☐ Captured ☐ Fled ☐ Converted
@@ -10535,13 +10640,37 @@ This is a DM tool for tracking campaign progress and party status.
 - ☐ Research notes (authorization code: 3-8-15)
 - ☐ Other: _________________
 
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
+```
+Notes:
 
----
+________________________________________
 
-### ☐ Temple of the Dragonknights
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+
+```
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
+{{watercolor1,top:79px,left:212px,width:298px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+#### ☐ Temple of the Dragonknights
 - **Venomfang:** ☐ Killed ☐ Fled ☐ Negotiated ☐ Alive
 - **Cult leader:** ☐ Killed ☐ Captured ☐ Fled
 - **Clementine Andersmith:** ☐ Rescued ☐ Corrupted ☐ Dead
@@ -10552,11 +10681,29 @@ _____________________________________________________________
 - **Payment received:** _____ gp
 - **Level up?** ☐ Yes (4→5)
 
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
+```
+Notes:
 
----
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+
+```
 
 ### ☐ The Wild Sheep Chase
 - **Finethir Shinebright:** ☐ Restored ☐ Still sheep ☐ Dead
@@ -10567,16 +10714,31 @@ _____________________________________________________________
 - **Key NPCs met:** Shinebright, Guz the Bugbear
 - **Payment received:** _____ gp
 
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
+```
+Notes:
 
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+________________________________________
 
-{{watercolor7,top:732px,left:425px,width:250px,background-color:#BBAD82,opacity:80%}}
 
-\page
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+
+```
+
+\column
 
 ### ☐ Peril in Pinebrook
 - **Captain Emmajeen Kole:** ☐ Met ☐ Allied ☐ Hostile
@@ -10588,70 +10750,97 @@ _____________________________________________________________
 - **Key NPCs met:** Captain Kole, dragon wyrmling
 - **Payment received:** _____ gp
 
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
+```
+Notes:
 
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+________________________________________
+
+
+
+```
 ---
+:::
 
 ## Guild Relationships
 
 ### Marshal Brenna Thorne
 - **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious ☐ Hostile
-- **Last interaction:** _________________
+- **Last interaction:** _____________________________
+- .___________________________________________
 - **Secrets revealed?** ☐ Greywinter Hunts ☐ Sealed letter about disturbances
 
 ### Steward Mara Fenwick
 - **Reputation:** ☐ Friendly ☐ Neutral ☐ Wary
-- **Last interaction:** _________________
+- **Last interaction:** _____________________________
+- .___________________________________________
 - **Secrets revealed?** ☐ Criminal past ☐ Uttolot bounty
 
 ### Lorewarden Elric Vael
 - **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious
-- **Last interaction:** _________________
+- **Last interaction:** _____________________________
+- .___________________________________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
 {{pageNumber,auto}}
 {{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
-{{watercolor2,top:210px,left:388px,width:332px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:735px,left:416px,width:343px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
+{{wide
 ## Aeorian Echo: Clue Tracker
 
 ### Discovered Clues:
 
-☑ **Wolves of Welton:** Note from Alexi in magical shorthand; the word “Aeorian” was legible.
+- ☐ **Wolves of Welton:** Note from Alexi in magical shorthand; the word “Aeorian” was legible.
 
-☐ **Frozen Sick:** Blue-vein plague caused by Aeorian relic (blue vial from Salsvault)
+- ☐ **Frozen Sick:** Blue-vein plague caused by Aeorian relic (blue vial from Salsvault)
 
-☐ **Frozen Sick:** Salsvault ruins are active and leaking arcane energy
+- ☐ **Frozen Sick:** Salsvault ruins are active and leaking arcane energy
 
-☐ **Frozen Sick:** Perpetuation Engine still running after thousands of years
+- ☐ **Frozen Sick:** Perpetuation Engine still running after thousands of years
 
-☐ **Temple:** Dragon cult drawn to area by magical disturbances
+- ☐ **Temple:** Dragon cult drawn to area by magical disturbances
 
-☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
+- ☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
 
-☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
+- ☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
 
-☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
+- ☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
 
 ### Party Theories:
 
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
+```
+Notes:
 
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+_________________________________________________________________________________________
 
-{{watercolor3,top:181px,left:91px,width:345px,background-color:#BBAD82,opacity:80%}}
 
-\page
+_________________________________________________________________________________________
 
-## NPC Roster & Status
+
+
+```
+
+::
+
+### NPC Roster & Status
 
 | NPC Name | Location | Status | Party Relationship |
 |----------|----------|--------|-------------------|
@@ -10669,463 +10858,375 @@ _____________________________________________________________
 | Joel Andersmith | Near Temple | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
 | Venomfang (Dragon) | Temple | ? | ☐ Ally ☐ Neutral ☐ Enemy |
 
+
+
+#### **Other NPCs met:**
+```
+Notes:
+
+_________________________________________________________________________________________
+
+
+_________________________________________________________________________________________
+
+
+_________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________
+
+
+
+
+```
+}}
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
+{{watercolor6,top:664px,left:216px,width:341px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+{{wide
+## Promises & Unfinished Business
+
+### Party Said They Would:
+
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+
+### Hooks for Future Sessions:
+
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+- ☐ ____________________________________________________________________________________________
+---
+
+## Treasure & Magic Items
+
+| Item | Found Where | Attuned By | Notes |
+|------|-------------|------------|-------|
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+| . |  |  |  |
+
+- **Party Gold:** __________gp   
+- **Stored at Waystone:** _____ gp
 }}
 
-**Other NPCs met:**
-- Tillus Merrion (Welton council member)
-- Alexi (note author; magical shorthand)
-
 {{pageNumber,auto}}
 {{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
-{{watercolor8,top:577px,left:241px,width:319px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Promises & Unfinished Business
-
-### Party Said They Would:
-
-☑ Return to Waystone Inn and report to the Wardens.
-
-☐ _____________________________________________________________
-
-☐ _____________________________________________________________
-
-### Hooks for Future Sessions:
-
-☐ Decode Alexi’s shorthand note ("Aeorian").
-
-☐ Maintain the Welton truce (Bolt/Flame may test boundaries).
-
-☐ _____________________________________________________________
-
----
-
-## Treasure & Magic Items
-
-| Item | Found Where | Attuned By | Notes |
-|------|-------------|------------|-------|
-| Gold (266 gp each; +2 gp unassigned) | Welton (W-17 payout) | — | Split between Ranger/Paladin/Warlock |
-
-**Party Gold:** 2 gp (unassigned)  
-**Stored at Waystone:** _____ gp
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor8,top:303px,left:277px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:302px,left:336px,width:390px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 ## Session Log
 
-### Session 1: Wolves of Welton (Contract W-17)
-**Date:** 2026-01-25  
-**Adventure:** Wolves of Welton  
-**Key Events:**
-- Negotiated a tentative truce with the awakened wolves; council vote passed.
-- Tillus Merrion backed the truce.
-- Found Alexi’s shorthand note; “Aeorian” was legible.
+### Session 1:
 
-**MVP Moment:** _____________________________________________
-
----
-
-### Session 2: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 
 ---
 
-### Session 3: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
-
----
-
-### Session 4: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
+### Session 2:
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 
 ---
 
-### Session 5: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
+### Session 3:
 
-**MVP Moment:** _____________________________________________
-
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 ---
 
+### Session 4: 
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+
+### Session 5:
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+### Session 6:
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+\column
 ## Campaign Notes
 
 ### Things That Worked Well:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Things to Improve:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Player Feedback:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Ideas for Future Adventures:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 
 {{pageNumber,auto}}
 {{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
-{{watercolor5,top:590px,left:14px,width:371px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-# Campaign Tracker: Northwatch Wardens Season One
-
-**Campaign Start Date:** _____________  
-**Current In-Game Date:** _____________  
-**Party Level:** ___  
-**Sessions Played:** ___
-
----
-
-## Party Roster
-
-| Player Name | Character Name | Class/Level | Status |
-|-------------|----------------|-------------|--------|
-| | | | Active |
-| | | | Active |
-| | | | Active |
-| | | | Active |
-| | | | Active |
-
----
-
-## Contracts Completed
-
-### ☐ Wolves of Welton (Contract W-17)
-- **Resolution:** ☐ Negotiated ☐ Combat ☐ Mixed
-- **Flame:** ☐ Killed ☐ Captured ☐ Fled ☐ Negotiated
-- **Bolt:** ☐ Alive ☐ Dead ☐ Injured
-- **Wolf pups:** ☐ Spared ☐ Killed ☐ Taken
-- **Welton Council vote:** ☐ Passed ☐ Failed
-- **Key NPCs met:** Father Merriksonn, Corel, Tillus Merrion, Leanor Slatebeard
-- **Payment received:** _____ gp
-- **Level up?** ☐ Yes (1→2)
-
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
-
----
-
-### ☐ Frozen Sick
-- **Urgon:** ☐ Cured ☐ Died
-- **Tulgi:** ☐ Cured ☐ Died ☐ Arrested
-- **Hulil Lutan:** ☐ Killed ☐ Captured ☐ Fled ☐ Converted
-- **Salsvault Engine:** ☐ Shut down ☐ Left running ☐ Destroyed
-- **Antidote secured:** ☐ Yes ☐ No
-- **Villages cured:** ☐ Palebank ☐ Others
-- **Key NPCs met:** Elro Aldataur, Pelc, Irven Liel, Commander Morgo Delwur
-- **Payment received:** _____ gp
-- **Level up?** ☐ Yes (2→3)
-
-**Aeorian Artifacts Found:**
-- ☐ Blue vial (plague source)
-- ☐ Keycard (Salsvault access)
-- ☐ Research notes (authorization code: 3-8-15)
-- ☐ Other: _________________
-
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
-
----
-
-### ☐ Temple of the Dragonknights
-- **Venomfang:** ☐ Killed ☐ Fled ☐ Negotiated ☐ Alive
-- **Cult leader:** ☐ Killed ☐ Captured ☐ Fled
-- **Clementine Andersmith:** ☐ Rescued ☐ Corrupted ☐ Dead
-- **Sera Gelanadel:** ☐ Rescued ☐ Dead ☐ Left behind
-- **Kobolds:** ☐ Killed ☐ Negotiated ☐ Avoided
-- **Temple artifacts:** ☐ Taken ☐ Left ☐ Destroyed
-- **Key NPCs met:** Joel Andersmith, kobold chief
-- **Payment received:** _____ gp
-- **Level up?** ☐ Yes (4→5)
-
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
-
----
-
-### ☐ The Wild Sheep Chase
-- **Finethir Shinebright:** ☐ Restored ☐ Still sheep ☐ Dead
-- **Noke:** ☐ Killed ☐ Captured ☐ Fled ☐ Negotiated
-- **Polymorphed guards:** ☐ Restored ☐ Still animals ☐ Dead
-- **Modified Wand:** ☐ Destroyed ☐ Given to Elric ☐ Kept ☐ Sold
-- **Bed Dragon:** ☐ Killed ☐ Fled ☐ Befriended
-- **Key NPCs met:** Shinebright, Guz the Bugbear
-- **Payment received:** _____ gp
-
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor12,top:484px,left:243px,width:354px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-### ☐ Peril in Pinebrook
-- **Captain Emmajeen Kole:** ☐ Met ☐ Allied ☐ Hostile
-- **Baby dragon:** ☐ Returned to mother ☐ Kept ☐ Dead
-- **Mother dragon (Hysvearorn):** ☐ Allied ☐ Hostile ☐ Neutral
-- **Missing patrol:** ☐ Rescued ☐ Dead ☐ Not found
-- **Egg snatchers:** ☐ Killed ☐ Captured ☐ Fled
-- **Ice trolls:** ☐ Killed ☐ Negotiated ☐ Avoided
-- **Key NPCs met:** Captain Kole, dragon wyrmling
-- **Payment received:** _____ gp
-
-**Notes:**
-_____________________________________________________________
-_____________________________________________________________
-
----
-
-## Guild Relationships
-
-### Marshal Brenna Thorne
-- **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious ☐ Hostile
-- **Last interaction:** _________________
-- **Secrets revealed?** ☐ Greywinter Hunts ☐ Sealed letter about disturbances
-
-### Steward Mara Fenwick
-- **Reputation:** ☐ Friendly ☐ Neutral ☐ Wary
-- **Last interaction:** _________________
-- **Secrets revealed?** ☐ Criminal past ☐ Uttolot bounty
-
-### Lorewarden Elric Vael
-- **Reputation:** ☐ Trusted ☐ Neutral ☐ Suspicious
-- **Last interaction:** _________________
-- **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor12,top:201px,left:271px,width:373px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Aeorian Echo: Clue Tracker
-
-### Discovered Clues:
-
-☐ **Wolves of Welton:** Wolves awakened by sorcerer Alexi Merriksonn's death (magical feedback)
-
-☐ **Frozen Sick:** Blue-vein plague caused by Aeorian relic (blue vial from Salsvault)
-
-☐ **Frozen Sick:** Salsvault ruins are active and leaking arcane energy
-
-☐ **Frozen Sick:** Perpetuation Engine still running after thousands of years
-
-☐ **Temple:** Dragon cult drawn to area by magical disturbances
-
-☐ **Elric's Theory:** All disturbances trace to "ancient arcane engine buried beneath Northreach"
-
-☐ **Brenna's Letter:** Northern contact warns of "arcane disturbances" spreading
-
-☐ **Peril in Pinebrook:** [Ice trolls becoming more active? Dragon drawn to area?]
-
-### Party Theories:
-
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor6,top:394px,left:36px,width:390px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## NPC Roster & Status
-
-| NPC Name | Location | Status | Party Relationship |
-|----------|----------|--------|-------------------|
-| Marshal Brenna Thorne | Waystone Inn | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Steward Mara Fenwick | Waystone Inn | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Lorewarden Elric Vael | Waystone Inn | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Corel (Shepherd) | Welton | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Father Merriksonn | Welton | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Bolt (Awakened Wolf) | Western Woods | ? | ☐ Ally ☐ Neutral ☐ Enemy |
-| Flame (Awakened Wolf) | Western Woods | ? | ☐ Ally ☐ Neutral ☐ Enemy |
-| Elro Aldataur | Palebank | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Tulgi (Healer) | Palebank | ? | ☐ Ally ☐ Neutral ☐ Enemy |
-| Captain Emmajeen Kole | Pinebrook | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Finethir Shinebright | Wandering | ? | ☐ Ally ☐ Neutral ☐ Enemy |
-| Joel Andersmith | Near Temple | Alive | ☐ Ally ☐ Neutral ☐ Enemy |
-| Venomfang (Dragon) | Temple | ? | ☐ Ally ☐ Neutral ☐ Enemy |
-
-**Other NPCs met:**
-_____________________________________________________________
-_____________________________________________________________
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor6,top:646px,left:397px,width:335px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Promises & Unfinished Business
-
-### Party Said They Would:
-
-☐ _____________________________________________________________
-
-☐ _____________________________________________________________
-
-☐ _____________________________________________________________
-
-### Hooks for Future Sessions:
-
-☐ _____________________________________________________________
-
-☐ _____________________________________________________________
-
-☐ _____________________________________________________________
-
----
-
-## Treasure & Magic Items
-
-| Item | Found Where | Attuned By | Notes |
-|------|-------------|------------|-------|
-| | | | |
-| | | | |
-| | | | |
-
-**Party Gold:** _____ gp  
-**Stored at Waystone:** _____ gp
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor9,top:156px,left:176px,width:323px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:490px,left:145px,width:400px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 ## Session Log
 
-### Session 1: _____________
-**Date:** _____________  
-**Adventure:** Charter Signing → Wolves of Welton  
-**Key Events:**
-- 
-- 
-- 
+### Session:
 
-**MVP Moment:** _____________________________________________
-
----
-
-### Session 2: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 
 ---
 
-### Session 3: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
-
----
-
-### Session 4: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
-
-**MVP Moment:** _____________________________________________
+### Session:
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 
 ---
 
-### Session 5: _____________
-**Date:** _____________  
-**Adventure:** _____________  
-**Key Events:**
-- 
-- 
-- 
+### Session:
 
-**MVP Moment:** _____________________________________________
-
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
 ---
 
+### Session: 
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+
+### Session:
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+### Session:
+
+###### **Date:** _____________ 
+###### **Adventure:** _________________________________ 
+###### **Key Events:**_________________________________
+###### __________________________________________
+###### __________________________________________
+###### __________________________________________
+###### **MVP Moment:** ______________________________
+---
+\column
 ## Campaign Notes
 
 ### Things That Worked Well:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Things to Improve:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Player Feedback:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
 ### Ideas for Future Adventures:
-_____________________________________________________________
-_____________________________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
+###### ____________________________________________
 
-{{watercolor8,top:722px,left:332px,width:354px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Campaign Tracker: Northwatch Wardens Season One}}
+
+{{watercolor12,top:579px,left:434px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11133,26 +11234,22 @@ _____________________________________________________________
 
 ## Opening Adventures
 
-**OPENING SCENE: "Wolves at the Waystone Inn"**
+### **OPENING SCENE: "Wolves at the Waystone Inn"**
 {{note
 **Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
 }}
-{{wide
+
 A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
-}}
 
-{{watercolor10,top:690px,left:130px,width:293px,background-color:#BBAD82,opacity:80%}}
 
-\page
 
-**Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
-**Goal:** Introduce the characters naturally through a shared threat.
+- **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
+- **Goal:** Introduce the characters naturally through a shared threat.
 
-**1. Cold Open (Read Aloud)**
 
-{{note
+### **1. Cold Open (Read Aloud)**
 Use this as your opening beat:
-}}
+
 {{descriptive
 **The wind bites as the three of you—strangers to one another—trudge up the muddy road toward the Waystone Inn. Lantern‑light spills across the snow, promising warmth and food.**
 
@@ -11161,133 +11258,157 @@ Use this as your opening beat:
 **Two wolves slink out from behind the woodpile, ribs showing, eyes wild. Their hackles rise as they fix on you… and charge.**
 }}
 
-This immediately:
+### This immediately:
 
 - unites the characters
 - creates urgency
 - avoids awkward “you meet in a tavern” chatter
+\column
 
-**2. Encounter Setup**
+### **2. Encounter Setup** **Wolves (2)**
 
-**Wolves (2)**
+{{monster,frame
+## Wolf
+*Medium beast, unaligned*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 11 (2d8 + 2)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (+1) | 15 (+2) | 12 (+1) | 3 (−4) | 12 (+1) | 6 (−2) |
+___
+**Skills** :: Perception +3, Stealth +4  
+**Senses** :: passive Perception 13  
+**Languages** :: —  
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.***  
+The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 
-Use the stat block from your open tab (CR 1/4 wolves) — they’re perfect for a level‑1 opener.
+***Pack Tactics.***  
+The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally isn’t incapacitated.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+}}
 
-**Terrain Features**
+#### **Terrain Features**
 
 - Woodpile: Half-cover
 - Horse trough: Difficult terrain
 - Lantern post: Can be knocked over (DEX 12) to create dim light or darkness
 - Inn door: Slightly ajar; NPCs may peek out but won’t intervene
 
-**Starting Positions**
+#### **Starting Positions**
 
 - Wolves begin 20 ft from the closest PC
-- PCs are 10–15 ft apart from each other
+- PCs are 10–15 ft apart from each other*
 - Wolves target the closest moving creature
 
-This spacing forces the characters to notice each other and converge.
+**This spacing forces the characters to notice each other and converge.*
 
-{{watercolor5,top:339px,left:157px,width:268px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:500px,left:219px,width:296px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-**3. How to Introduce the Characters Naturally**
+### **3. Introduce the Characters Naturally**
 
-**Round 1: Recognition**
+#### **Round 1: Recognition**
 
 As initiative is rolled, give each PC a 1‑sentence visual cue of the others:
-
+{{descriptive
 - “You notice a cloaked figure to your left reaching for a weapon.”
 - “A heavily armored stranger steps between you and one of the wolves.”
 - “Someone behind you mutters a spell under their breath.”
-
+}}
 This creates instant awareness without forcing dialogue.
 
-**Round 2: Forced Cooperation**
+#### **Round 2: Forced Cooperation**
 
 
 Have one wolf use **Pack Tactics** to flank a PC. This encourages another PC to intervene.
 
-Example narration:
-
+>Example narration:
+{{descriptive
 **“The wolf circles behind you, teeth bared. You realize the only person close enough to help is the stranger on your right.”**
-
+}}
 This is the moment the party forms.
 
-**4. Wolf Behavior (Simple AI)**
+### **4. Wolf Behavior (Simple AI)**
 
-These wolves are:
+#### These wolves are:
 
 - hungry
 - desperate
 - not suicidal
 
-**Behavior Script**
+#### **Behavior Script**
 
 - Attack the nearest target
 - If reduced to 4 HP or less, the wolf attempts to flee
 - If both wolves drop below half HP, they retreat together
 
-This gives the players a sense of agency and realism.
+>This gives the players a sense of agency and realism.
 
-**5. Aftermath: The First Real Interaction**
+\column
+
+### **5. Aftermath: The First Real Interaction**
 
 Once the wolves flee or fall, give a beat of silence:
-
+{{descriptive
 **The wind settles. The wolves lie still in the snow.**
 
 **For the first time, you all really look at one another.**
-
+}}
 Then offer **three natural prompts** for the players to introduce themselves:
 
 - The innkeeper bursts out: “By the gods! Are you all right? Come inside, quickly!” → Forces the group to enter together.
 - A shared clue: One wolf has a strange frost-rimmed patch of fur — a hint toward Frozen Sick. → Gives them something to discuss.
 - A practical need: Someone is injured and needs help. → Encourages cooperation.
 
-Pick whichever fits your tone.
+##### Pick whichever fits your tone.
+::::
+#### **Optional: Quick Hooks to Bond the Party**
 
-**Optional: Quick Hooks to Bond the Party**
-
-{{watercolor2,top:555px,left:484px,width:388px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Use one or more:
+##### Use one or more:
 
 - Innkeeper recognizes one PC and assumes the others are their companions.
 - A dropped item (a letter, a map, a charm) falls from a wolf’s mouth.
 - A witness says, “You three handled yourselves well. Are you mercenaries?”
 - A shared room discount if they bunk together.
 
-All of these create cohesion without forcing roleplay.
+###### All of these create cohesion without forcing roleplay.
 
-{{watercolor9,top:144px,left:372px,width:353px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:130px,left:362px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # The Morning After: A Warden's First Duty
-
-{{note
-**Campaign Note (DM):** This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
-}}
-
 {{wide
+{{note
+**Campaign Note (DM):** 
+
+This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
+
+:
 A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
 }}
+}}
 
-{{pageNumber,auto}}
-{{footnote The Morning After: A Warden's First Duty}}
 
-{{watercolor8,top:372px,left:431px,width:376px,background-color:#BBAD82,opacity:80%}}
 
-\page
 
-**1. Morning at the Waystone Inn — Read-Aloud**
+
+### 1. Morning at the Waystone Inn 
+
+#### Read-Aloud
 
 {{descriptive
 As dawn breaks over Northreach, the Waystone Inn is already alive with the smell of hearthfire and fresh bread. Snowmelt drips from the eaves. The common room is quieter than last night—more purposeful, more expectant.
-}}
+
 
 Marshal Brenna Thorne stands near the long table where the guild charter has been laid out, parchment weighted by a carved stone of the Northwatch crest. She nods as each of you approaches.
 
@@ -11295,8 +11416,11 @@ Marshal Brenna Thorne stands near the long table where the guild charter has bee
 
 After signatures are inked and hands are shaken, Brenna gestures toward the **Waystone Contract Board**, where a single parchment has been pinned with a wolf‑tooth charm.
 
-**2. The Contract Board Reveal**
+}}
 
+### **2. The Contract Board Reveal**
+
+{{descriptive
 The board is mostly empty—this is a frontier guild just getting on its feet—but one posting stands out:
 
 **CONTRACT: "Wolves of Welton"**
@@ -11316,70 +11440,76 @@ Brenna taps the posting with two fingers.
 
 “Welton’s only a half‑day’s ride south. Good people. Hard winter. They wouldn’t ask for help unless they were desperate.”
 
-**3. NPC Dialogue Hooks (Use Any That Fit Your Table)**
+}}
 
-**Brenna Thorne (Marshal)**
+\column
 
+### 3. NPC Dialogue Hooks 
+###### (Use Any That Fit Your Table)
+
+#### **Brenna Thorne (Marshal)**
+{{descriptive
 “Wolves don’t normally open barn doors or outmaneuver hunting parties. Something’s wrong out there. This is exactly the kind of threat the Wardens were founded to handle.”
-
-**Elric Vael (Lorewarden)**
-
+}}
+#### **Elric Vael (Lorewarden)**
+{{descriptive
 “There are stories of awakened beasts in the frontier—spirits, curses, old magic. If these wolves are thinking like people… be cautious.”
+}}
 
-
-**Mara Fenwick (Steward)**
-
+#### **Mara Fenwick (Steward)**
+{{descriptive
 “I’ve packed you travel rations and a healer’s kit. Bring back receipts for anything you need to purchase in Welton; the guild will reimburse within reason.”
-
-**Father Merriksonn (if present from Wolves of Welton)**
-
+}}
+#### **Father Merriksonn (if present from Wolves of Welton)**
+{{descriptive
 He overhears the posting and stiffens.
 “My brother Alexi… he vanished near Welton. If these wolves are tied to that… please, find out what happened.”
+}}
+This is a *perfect* foreshadowing seed for the awakened wolves and Alexi’s fate.
 
-(This is a *perfect* foreshadowing seed for the awakened wolves and Alexi’s fate.)
+{{pageNumber,auto}}
+{{footnote The Morning After: A Warden's First Duty}}
 
-**4. The Journey Hook — Why *Your* Party Is the One They Send**
+{{watercolor13,top:41px,left:7px,width:397px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### **4. The Journey Hook — Why *Your* Party Is the One They Send**
 
 Brenna explains:
-
+{{descriptive
 “You handled yourselves well last night. Quick thinking, steady hands. That’s what the frontier needs.
 Take this contract. Show Northreach what the Wardens can do.”
 
 She hands them a sealed letter for the Welton Council—official recognition that the Northwatch Wardens are now operating in the region.
+}}
 
-{{pageNumber,auto}}
-{{footnote The Morning After: A Warden's First Duty}}
 
-{{watercolor1,top:195px,left:144px,width:267px,background-color:#BBAD82,opacity:80%}}
 
-\page
+### **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
 
-**5. Optional Flavor Beats to Tie Your Whole Campaign Together**
-
-**If you want Frozen Sick to connect later:**
-
-A trader at the inn mutters:
+#### **If you want Frozen Sick to connect later:**
+{{descriptive
+**A trader at the inn mutters:**
 
 “Strange sickness up north in Palebank. Blue veins, slow death. Folks say it came from something dug up in the ice. Wolves acting strange in Welton… sickness in Palebank… feels like the frontier’s waking up.”
+}}
 
-This plants the idea that **the frontier is destabilizing**, and the Wardens are stepping into a larger pattern.
-
-**If you want Pinebrook to remain relevant:**
+###### This plants the idea that **the frontier is destabilizing**, and the Wardens are stepping into a larger pattern.
+::
+#### **If you want Pinebrook to remain relevant:**
 
 One of the Pinebrook premade NPCs (Flynt, Rowan, etc.) is at the inn and says:
-
+{{descriptive
 “Welton’s shepherds trade through Pinebrook sometimes. Haven’t seen them in weeks. If the wolves are blocking the roads, it’ll hurt more than one village.”
-
-This makes the contract feel like it matters to the whole region.
+}}
+###### This makes the contract feel like it matters to the whole region.
 
 {{pageNumber,auto}}
 {{footnote The Morning After: A Warden's First Duty}}
 
-{{watercolor11,top:388px,left:415px,width:320px,background-color:#BBAD82,opacity:80%}}
 
-\page
-
-**Final Tie-In Summary**
+#### **Final Tie-In Summary**
 
 - The players sign the charter.
 - The guild immediately presents their first official contract.
@@ -11387,45 +11517,54 @@ This makes the contract feel like it matters to the whole region.
 - NPCs reinforce the importance and hint at deeper mysteries.
 - The party leaves with a sense of purpose and belonging.
 
-This gives them a **clean, heroic launch** into the Wolves of Welton while grounding everything in the Northwatch Wardens’ identity.
+>This gives them a **clean, heroic launch** into the Wolves of Welton while grounding everything in the Northwatch Wardens’ identity.
 
-{{watercolor10,top:550px,left:412px,width:251px,background-color:#BBAD82,opacity:80%}}
+\column
+
+{{imageMaskEdge8,--offset:10%,--rotation:270
+  ![](https://i.imgur.com/GZfjDWV.png){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+{{watercolor7,top:212px,left:175px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Return to Waystone (Session 0)
 
 {{wide
+{{note
 A short onboarding mission where two new Warders meet a veteran scout on the road and journey together to the team's forward camp. Travel, discovery, and light optional combat shape first bonds. Subtle Echo hints with no spoilers.
+}}
 }}
 
 {{pageNumber,auto}}
 {{footnote Return to Waystone (Session 0)}}
 
-{{watercolor3,top:514px,left:183px,width:363px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## Quick Setup
 
-**Premise:** Two newly sworn Warders are sent to rendezvous with a veteran Warder who's been scouting the roads near Welton. Once they meet up, the three will return together to the forward camp where the rest of the team is stationed. Tonight is about first impressions and building trust on the road.
+- **Premise:** Two newly sworn Warders are sent to rendezvous with a veteran Warder who's been scouting the roads near Welton. Once they meet up, the three will return together to the forward camp where the rest of the team is stationed. Tonight is about first impressions and building trust on the road.
 
-**Tone:** Cold frontier travel, first bonds forming. Low stakes, intimate party dynamics.
+- **Tone:** Cold frontier travel, first bonds forming. Low stakes, intimate party dynamics.
 
-**Locations Used:** Waystone Inn (departure), road toward Welton, creek shrine waypoint (meet-up), forward camp near Westly's Farm (destination).
+- **Locations Used:** Waystone Inn (departure), road toward Welton, creek shrine waypoint (meet-up), forward camp near Westly's Farm (destination).
 
-**Party Size:** 3 players total (2 new Warders + 1 veteran scout).
+- **Party Size:** 3 players total (2 new Warders + 1 veteran scout).
 
-## Opening Briefing (10 min)
+### Opening Briefing (10 min)
 
 Marshal Brenna Thorne assigns a straightforward mission. One of the veteran Warders has been scouting the roads near Welton and is due to check in at a known waypoint. The two new Warders will meet the scout, introduce themselves, and travel together back to the team's forward camp.
 
-**Read Aloud (Waystone Inn):**
+#### **Read Aloud (Waystone Inn):**
 {{descriptive
 "Brenna slides a worn route map across the table. 'One of our scouts is out checking road conditions near Welton. You'll meet them at the creek shrine here'—she taps the map—'then travel together to the forward camp. The rest of the team is there handling Welton business.' She looks at both of you. 'First impressions matter. Show them you're worth traveling with. Watch each other's backs. That's how Warders work—trust on the road first, reputation after.'"
 }}
 
-## Scene 1: The Meet-Up
+\column
+
+### Scene 1: The Meet-Up
 
 **Location:** A small roadside shrine near a creek crossing, about an hour's walk from Waystone.
 
@@ -11434,9 +11573,9 @@ Marshal Brenna Thorne assigns a straightforward mission. One of the veteran Ward
 - The two new players get their first look at what a Warder looks like after a week on the frontier.
 - A torn scrap of contract pouch hangs from a fence post (small curiosity—was someone else here recently?).
 
-**Echo Hint:** The creek stones show thin geometric frost that does not melt in sunlight. All three of you notice it. The veteran has seen strange things in Welton, but this feels different—older, quieter, wrong in a way they can't name yet.
+>**Echo Hint:** The creek stones show thin geometric frost that does not melt in sunlight. All three of you notice it. The veteran has seen strange things in Welton, but this feels different—older, quieter, wrong in a way they can't name yet.
 
-## Scene 2: The Road Block
+### Scene 2: The Road Block
 
 On the journey toward the camp, a fallen tree blocks the road. Give the three of you a quick choice: clear it, detour, or climb.
 
@@ -11444,87 +11583,54 @@ On the journey toward the camp, a fallen tree blocks the road. Give the three of
 - **Detour** adds time and a chance for a short complication (deep snow, unstable ground, something minor).
 - **Climb** over the tree is risky; a misstep could mean supplies lost or injury.
 
-This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
+>This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
 
-## Scene 3: Optional Challenge
+{{watercolor8,top:259px,left:194px,width:335px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Scene 3: Optional Challenge
 
 **Two Bandit Scouts** step out with crossbows and demand a small "road fee."
 
-**Encounter Design:**
+#### **Encounter Design:**
 - For 3 players, run 2 Bandits (balanced challenge for a mixed group).
 - Scouts are here for quick coin, not a fight to the death.
 - If the party stands firm, negotiates, or shows combat readiness, scouts back off with a laugh.
 - If combat starts: scouts flee after the first one drops or after 2 rounds of combat.
 - This is NOT a death trap—it's a test of how you three react under pressure. Do you trust each other? Can you communicate in the moment?
 
-**Tactics:**
+#### **Tactics:**
 - The veteran has combat experience and can guide the newcomers, but won't carry the whole fight.
 - Use terrain (trees, creek, shrine) to your advantage.
 - If negotiations happen, the veteran can read the situation and advise.
 
-After combat or negotiation:
+#### After combat or negotiation:
 - If you defeat a scout: examine the dropped satchel.
 - If you negotiate: ask what the scouts tell you about the road ahead.
 
-**Echo Hint:** A metal buckle in a dropped satchel (or handed over during negotiation) hums faintly and feels cold to the touch. The veteran pauses—this is the same wrongness from Welton. Whatever is happening isn't isolated. It's spreading.
+>**Echo Hint:** A metal buckle in a dropped satchel (or handed over during negotiation) hums faintly and feels cold to the touch. The veteran pauses—this is the same wrongness from Welton. Whatever is happening isn't isolated. It's spreading.
 
-## Scene 4: Arrival at Camp
+### Scene 4: Arrival at Camp
 
 The three of you arrive at the forward camp near Westly's Farm. Smoke rises from a small fire. The other two veterans are here—resting, maintaining gear, discussing next steps.
 
-**Read Aloud (Camp Arrival):**
+#### **Read Aloud (Camp Arrival):**
 {{descriptive
 "Through the trees, you see firelight and hear low voices. The forward camp is small but well-organized—two bedrolls, supplies stacked carefully, a small fire crackling. Two figures turn as you approach. The other Warders. Your scout nods to them. 'Found our new recruits. They handled themselves well.'"
 }}
 
-**The Meeting:**
+#### **The Meeting:**
 - Introductions happen here. The two new Warders meet the rest of the veteran team.
 - Let the existing players roleplay their characters' reactions to the newcomers.
 - This is where the full party truly forms—but it's brief. Tonight was about the road, not the camp.
+\column
 
 **Echo Discussion (Optional):**
 If the party brought up the strange frost or humming buckle, the veterans exchange glances. One of them has seen something similar. Another heard a rumor from Welton. This is the moment the mystery becomes *shared*—everyone knows something is wrong, but no one knows what yet.
 
-**Closing Note:**
+> **Closing Note:**
 "The fire crackles. Someone passes around a flask. The cold settles in, but the camp feels warmer with more bodies. Tomorrow, you'll head back to Waystone together and report to Brenna. Tonight, you rest. You're Warders now—all of you."
-
-{{pageNumber,auto}}
-{{footnote Return to Waystone (Session 0)}}
-
-{{watercolor2,top:495px,left:227px,width:357px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## NPCs
-
-### Marshal Brenna Thorne
-- **Role:** Field commander, assignment brief and debrief.
-- **Personality:** Direct, measured, expects competence.
-- **Hook:** Quietly asks if anything on the road felt "off." If asked, she has no answer yet.
-
-### Steward Mara Fenwick
-- **Role:** Quartermaster, issues supplies and token.
-- **Personality:** Practical, dry humor, sharp on details.
-- **Hook:** Notes missing supply counts from Welton routes and tracks them.
-
-### The Veteran Scout (Returning Player)
-- **Role:** Out scouting roads, meets the new Warders at the waypoint, guides them back to camp.
-- **Use:** Let the returning player roleplay their character's first impressions of the newcomers and how they present themselves after a week on the frontier.
-- **Character Note:** This veteran has survived Welton, knows something is wrong with magic, and is sizing up whether these two new Warders are worth trusting. By the time you reach camp, they should have an opinion.
-
-### The Forward Camp Veterans (Brief Appearance)
-- **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
-- **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
-- **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
-
-{{pageNumber,auto}}
-{{footnote Return to Waystone (Session 0)}}
-
-{{watercolor3,top:295px,left:44px,width:321px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Monster Stat Blocks
 
 {{monster,frame
 ## Bandit
@@ -11570,6 +11676,43 @@ ___
 ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
 }}
 
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
+
+{{watercolor3,top:88px,left:202px,width:354px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## NPCs
+
+### Marshal Brenna Thorne
+- **Role:** Field commander, assignment brief and debrief.
+- **Personality:** Direct, measured, expects competence.
+- **Hook:** Quietly asks if anything on the road felt "off." If asked, she has no answer yet.
+
+### Steward Mara Fenwick
+- **Role:** Quartermaster, issues supplies and token.
+- **Personality:** Practical, dry humor, sharp on details.
+- **Hook:** Notes missing supply counts from Welton routes and tracks them.
+
+### The Veteran Scout (Returning Player)
+- **Role:** Out scouting roads, meets the new Warders at the waypoint, guides them back to camp.
+- **Use:** Let the returning player roleplay their character's first impressions of the newcomers and how they present themselves after a week on the frontier.
+- **Character Note:** This veteran has survived Welton, knows something is wrong with magic, and is sizing up whether these two new Warders are worth trusting. By the time you reach camp, they should have an opinion.
+
+### The Forward Camp Veterans (Brief Appearance)
+- **Status:** Two other veterans are at the forward camp near Westly's Farm, handling logistics and rest.
+- **Future Hook:** The full party forms at camp, but the real bonding happens on the road. Next session will start with everyone together.
+- **Narrative Purpose:** Tonight ends with the promise of the full team assembled and ready to move.
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
+
+
+\column
+
+
+
 ## DM Notes
 
 - **Pacing:** Get to the road quickly (5 min briefing → 5-10 min travel → meet scout = 10-15 min total before the three-person party forms).
@@ -11580,27 +11723,27 @@ ___
 - **End at Camp:** Tonight ends with the full party together but not yet "tested" as a group. That's next session. This session is about introductions, first bonds, and the road itself.
 - **Session Length:** This should run 60-90 minutes total (briefing, travel to waypoint, meet scout, obstacle, optional combat, arrive at camp, meet full party).
 
-{{watercolor1,top:256px,left:457px,width:368px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:540px,left:57px,width:295px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-**Contract: W‑17 — Disturbance Near Welton**
-
+# **Contract: W‑17 — Disturbance Near Welton**
+{{wide
 {{note
-**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. See [5E_Wolves_Of_Welton.md](../Wolves_Of_Welton/5E_Wolves_Of_Welton.md) for full adventure details and mystery integration.
+**Campaign Note (DM):** This contract is the campaign's **inciting incident** — the first visible sign of the Aeorian Echo. The "unusual wolf intelligence" is not natural behavior; it's the result of ancient magic awakening. 
 }}
 
-**Issuing Party:**
+## **Issuing Party:**
 Welton Village Council, Northreach Frontier
 
-**Classification:**
+## **Classification:**
 Field Contract — Threat Suppression
 Initiate‑Eligible
 
-**Summary:**
+## **Summary:**
 The agricultural village of Welton reports **increasingly aggressive wolf activity** along its grazing hills and outer farms. Livestock losses have escalated beyond the capacity of local shepherds and militia. The council requests **Warden intervention** to secure the area and restore safety to the region.
 
-**Objectives:**
+## **Objectives:**
 
 - Travel to Welton
 - Assess the situation on-site
@@ -11608,55 +11751,68 @@ The agricultural village of Welton reports **increasingly aggressive wolf activi
 - Neutralize the threat to Welton’s people and livestock
 - Report findings to the Council and to the Northwatch Wardens
 
-**Reward:**
+## **Reward:**
 800 gp, paid upon confirmation of mission completion by the Welton Council
 
 - Standard Warden credit toward Initiate advancement
 
-**Notes for Initiates:**
+## **Notes for Initiates:**
 
 - Expect rural terrain, livestock enclosures, and forested hills
 - Local leadership may provide additional context upon arrival
 - This contract is considered a test of readiness for new Wardens
 - Maintain professionalism; Welton is a valued frontier settlement
 
-**Signed:**
+## **Signed:**
 Marshal Brenna Thorne, Northwatch Wardens
 Attested by Steward Mara Fenwick
+}}
 
-{{watercolor3,top:99px,left:412px,width:369px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:667px,left:196px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 ## Wolves of Welton
 
-![A painted cover page showing a lone wolf howling atop a jagged mountain peak against a dramatic, glowing orange‑pink sky. Dark, fluttering birds surround the peak and the scene uses moody purples, blues and warm backlight in a textured, painterly style. The lower half is a parchment‑textured layout with the large serif title "The Wolves of Welton" and the subtitle "A 2nd–3rd Level Adventure for Dungeons & Dragons 5E — Produced by Winghorn Press." Two columns of text beneath the title are labeled "Summary" and "Adventure Hooks," and a small page number (~ 1 ~) sits at the bottom. The page has a torn paper transition between the illustration and the parchment area.](./5E_Wolves_Of_Welton_images/image_001.png)
+![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}
 
-## Northwatch Wardens Integration (DM)
+{{watercolor10,top:233px,left:383px,width:398px,background-color:#BBAD82,opacity:80%}}
 
-**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+\page
 
-**Campaign Arc:** Arc 1: First Signs — Learning the Land
+## Wolves of Welton
 
-**Arc Position:** Part 1 of 2 in Arc 1
 
-**Arc Progress Notes:** This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
+### Northwatch Wardens Integration (DM)
 
-**Campaign Connection:** This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
+- **Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Campaign Inciting Incident)
+::
+- **Campaign Arc:** Arc 1: First Signs — Learning the Land
 
-**Prerequisite Adventures:** None (campaign opener)
+- **Arc Position:** Part 1 of 2 in Arc 1
 
-**Leads To:** 
+#### **Arc Progress Notes:** 
+This adventure establishes that magical phenomena are spreading across the frontier. By completing this adventure, players learn that something is causing impossible transformations (wolf sentience) and the effect appeared suddenly, suggesting an external trigger. This is the campaign's inciting incident that leads the Wardens to recognize they're facing something larger than typical frontier threats.
+
+#### **Campaign Connection:** 
+This adventure represents the **first visible sign** of the Aeorian Echo—ancient magic awakening across the Northreach frontier. The wolves' sudden sentience is not natural, but a symptom of deeper magical disturbances.
+
+### **Prerequisite Adventures:** 
+None (campaign opener)
+
+### **Leads To:** 
 - **Frozen Sick** (direct connection via Salsvault activation)
 - **Wild Sheep Chase** (magical destabilization theme)
 - All other adventures (establishes the Echo as ongoing threat)
 
-**DM Secret Resources:** For the truth behind this adventure, see:
+#### **DM Secret Resources:** 
+>For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Welton: Dark Undercurrents" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
 
-**Key Secrets:**
+\column
+#### **Key Secrets:**
 - The wolves' intelligence awakening is caused by Aeorian facility beneath Westly's Farm
 - Alexi Merriksonn was exposed to the Aeorian Echo; his magical discharge awakened the wolves
 - This is a **test run** for larger Aeorian operations
@@ -11664,31 +11820,36 @@ Attested by Steward Mara Fenwick
 
 **Player Discovery:** Characters should discover strange magical anomalies but not necessarily the full Aeorian connection yet. This is the campaign's **inciting incident**.
 
-### Mystery Clues (Aeorian Echo Investigation)
+### Mystery Clues 
+(Aeorian Echo Investigation)
 
-**Primary Clue — Unnatural Intelligence:**
+#### **Primary Clue — Unnatural Intelligence:**
 - The wolves demonstrate sapient behavior: opening latches, using tactics, communicating with purpose
 - **Discovery Method:** Direct observation, NPC testimony (Westly, village council)
 - **Investigation DC 12 (Nature):** "This isn't learned behavior — something *changed* them at a fundamental level"
 - **Connects to:** Frozen Sick (similar magical transformation), Wild Sheep Chase (magical destabilization)
 
-**Secondary Clue — Timing of Awakening:**
+#### **Secondary Clue — Timing of Awakening:**
 - Wolf intelligence appeared suddenly 2-3 weeks ago, coinciding with Alexi Merriksonn's disappearance
 - **Discovery Method:** Father Merriksonn's testimony, village timeline questioning
 - **Investigation DC 14 (Arcana):** "Sudden mass transformation suggests external magical event, not gradual evolution"
 - **Connects to:** Frozen Sick (Salsvault activation timeline matches)
 
-**Tertiary Clue — Magical Residue:**
+#### **Tertiary Clue — Magical Residue:**
 - If party has *detect magic*, faint transmutation aura lingers on the awakened wolves
 - **Discovery Method:** Spellcasting or magical expertise
 - **Investigation DC 15 (Arcana):** "This magic feels... *old*. Not like modern wizardry"
 - **Connects to:** All Echo adventures (signature Aeorian transmutation magic)
 
-**Hidden Clue — The Old Woods:**
+#### **Hidden Clue — The Old Woods:**
 - If players explore north of Welton, they find geometric frost patterns and buried metallic structures
 - **Discovery Method:** Active exploration, following wolf tracks to lair
 - **Investigation DC 16 (History/Arcana):** "These symbols match pre-Calamity Aeorian designs"
 - **Connects to:** Frozen Sick revelation (Aeorian facilities exist throughout region)
+
+{{watercolor5,top:582px,left:108px,width:368px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Investigation Thread Summary
 
@@ -11698,87 +11859,92 @@ Attested by Steward Mara Fenwick
 3. The source is unknown but likely ancient and powerful
 4. This may not be an isolated incident
 
+\column
+:::
 **Questions left unanswered (for future adventures):**
-- What caused the awakening? (Answered in: Frozen Sick)
-- Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
-- Can this be reversed or contained? (Campaign-wide question)
+1. What caused the awakening? (Answered in: Frozen Sick)
+2. Are other creatures being transformed? (Hinted in: Wild Sheep Chase, Temple)
+3. Can this be reversed or contained? (Campaign-wide question)
 
----
 
-{{watercolor8,top:651px,left:371px,width:351px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 # DM Notes: Wolves of Welton
 
-## Adventure Overview
+### Adventure Overview
 
-**Theme:** Intelligence awakening where it shouldn't — wolves have become sapient through magical corruption (the Aeorian Echo)
+- **Theme:** Intelligence awakening where it shouldn't — wolves have become sapient through magical corruption (the Aeorian Echo)
 
-**Core Tension:** The wolves aren't evil, just desperate and newly intelligent. Killing them is easy; negotiating with them reveals the deeper mystery.
+- **Core Tension:** The wolves aren't evil, just desperate and newly intelligent. Killing them is easy; negotiating with them reveals the deeper mystery.
 
-**Level Range:** 1-3 (excellent starter adventure)
+- **Level Range:** 1-3 (excellent starter adventure)
 
-**Expected Duration:** 4-6 hours (single or two-session adventure)
+- **Expected Duration:** 4-6 hours (single or two-session adventure)
 
-**Key NPCs:**
+#### **Key NPCs:**
 - **Bolt** (awakened alpha wolf) — reasonable, pragmatic, wants peace
 - **Flame** (ambitious wolf) — aggressive, challenges Bolt's leadership
 - **Father Merriksonn** — village priest, his brother Alexi disappeared when wolves awakened
 - **Tillus Merrion** — halfling council member, distrusts outsiders
 - **Leanor Slatebeard** — dwarven innkeeper, provides shelter and gossip
 
-## Central Mystery (Aeorian Echo Connection)
+#### Central Mystery (Echo Connection)
 
 The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorcerer was killed by magical feedback when Salsvault (buried Aeorian ruins, 100+ miles north) suddenly activated. His death released a burst of transformative magic that awakened the wolves.
 
-**Clues Players Should Discover:**
+#### **Clues Players Should Discover:**
 1. The wolf attacks started exactly when Alexi disappeared
 2. Wolves demonstrate sapient intelligence (planning, speech, morality)
 3. Something *magical* caused this; it wasn't natural evolution
 4. This is a symptom of a larger phenomenon spreading across Northreach
 
+{{note
 **What to Reveal:** The wolves' awakening is a *symptom*, not the cause. The true source remains hidden until later adventures (Frozen Sick).
+}}
 
-## Common DM Pitfalls
 
-### 1. Making Wolves Too Evil
-**Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
+### Common DM Pitfalls
 
-**Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
+#### 1. Making Wolves Too Evil
+- **Problem:** If wolves come across as malicious or treacherous, players will default to combat and miss the moral complexity.
 
-### 2. Railroading the Negotiation
-**Problem:** Players may not think to negotiate; forcing it feels artificial.
+- **Solution:** Emphasize Bolt's desperation — "We were animals. Now we think. We feel. We know we will die. We need food *and* safety. Can you blame us?"
 
-**Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
+#### 2. Railroading the Negotiation
+- **Problem:** Players may not think to negotiate; forcing it feels artificial.
 
-### 3. Council Vote Feeling Pre-Scripted
-**Problem:** Players feel their arguments don't matter; vote seems rigged.
+- **Solution:** If combat starts with Bolt, have him **yield immediately** after losing 50% HP. He speaks: "Stop! We can *talk*. I know you understand me. Please." This forces the moral choice.
 
-**Solution:** Track player arguments. Give concrete benefits:
-- Good Nature/History checks about wolves → +1 swing vote
-- Mentioning Alexi's magic → Father Merriksonn passion increases (already YES, but emphasizes to others)
-- Proposing practical solutions (wolves move to specific territory) → +1 swing vote
-- Intimidation or threats → -1 swing vote
+#### 3. Council Vote Feeling Pre-Scripted
+- **Problem:** Players feel their arguments don't matter; vote seems rigged.
 
-**Remember:** Father Merriksonn and Corel are *guaranteed* YES votes if party negotiates. Players need only **1 more vote** out of 5 remaining council members.
+- **Solution:** Track player arguments. Give concrete benefits:
+  - Good Nature/History checks about wolves → +1 swing vote
+  - Mentioning Alexi's magic → Father Merriksonn passion increases (already YES, but emphasizes to others)
+  - Proposing practical solutions (wolves move to specific territory) → +1 swing vote
+  - Intimidation or threats → -1 swing vote
 
-### 4. Underplaying Flame's Threat
-**Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+- **Remember:** Father Merriksonn and Corel are *guaranteed* YES votes if party negotiates. Players need only **1 more vote** out of 5 remaining council members.
 
-**Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
+#### 4. Underplaying Flame's Threat
+- **Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+
+- **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
+
+{{watercolor10,top:691px,left:373px,width:328px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Resolution Outcomes
 
 ### Path A: Total Extermination
-**Result:**
+#### **Result:**
 - Village celebrates; 800 gp reward paid immediately
 - Father Merriksonn is quietly disappointed (his brother's magic caused this)
 - Wolves eliminated; mystery remains unsolved
 - **Aeorian Echo clue:** Elric later notes "Whatever awakened them is still out there."
 
 ### Path B: Negotiated Peace
-**Result:**
+#### **Result:**
 - Council votes (4 YES / 3 NO if players argue well)
 - Wolves relocate to agreed hunting grounds
 - 800 gp reward paid after probationary period
@@ -11786,7 +11952,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Aeorian Echo clue:** Bolt says "We did not ask for this. Something *changed* us. We do not know what."
 
 ### Path C: Deception (Claim Victory, Wolves Survive)
-**Result:**
+#### **Result:**
 - Village pays 800 gp believing wolves dead
 - Secret alliance with Bolt established
 - Long-term: Wolves raid more carefully; village suspicious
@@ -11794,7 +11960,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Aeorian Echo clue:** Bolt shares his experience of "waking up" — sudden, magical, terrifying
 
 ### Path D: Flame's Coup
-**Result:**
+#### **Result:**
 - If Bolt is killed or discredited, Flame takes over
 - Attacks escalate; village suffers
 - Party may be called back to finish the job
@@ -11803,17 +11969,19 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 ## Tactical Notes
 
 ### Combat Encounter Scaling
-**For 2 players (Level 1-2):**
+#### **For 2 players (Level 1-2):**
 - Scene 1 (road): 4 wolves
 - Flame's den: Flame + 2 wolves
 
-**For 3-4 players (Level 1-2):**
+#### **For 3-4 players (Level 1-2):**
 - Scene 1 (road): 6-8 wolves (as written)
 - Flame's den: Flame + 4 wolves
 
-**For 5+ players (Level 2-3):**
+#### **For 5+ players (Level 2-3):**
 - Scene 1 (road): 10 wolves
 - Flame's den: Flame + 6 wolves + 1 dire wolf
+
+\column
 
 ### Wolves Use Tactics
 - **Pack Tactics:** Always try to get advantage via flanking
@@ -11828,9 +11996,23 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 ## Improvisation Toolkit
 
 ### If Players Get Stuck
-1. **Father Merriksonn approaches privately:** "I know you may think I'm mad, but... could the wolves be *intelligent*? My brother studied transformation magic before he vanished."
-2. **Willen Featherock (traumatized victim) reveals:** He heard wolves *talking* during his capture. (He's considered crazy, but he's telling the truth.)
-3. **Leanor Slatebeard (innkeeper) suggests:** "Maybe ask the wolves what *they* want? Stranger things have happened."
+##### **Father Merriksonn approaches privately:**
+
+{{descriptive
+"I know you may think I'm mad, but... could the wolves be *intelligent*? My brother studied transformation magic before he vanished."
+}}
+
+##### **Willen Featherock (traumatized victim) reveals:** 
+
+{{descriptive
+He heard wolves *talking* during his capture. (He's considered crazy, but he's telling the truth.)
+}}
+
+##### **Leanor Slatebeard (innkeeper) suggests:** 
+
+{{descriptive
+"Maybe ask the wolves what *they* want? Stranger things have happened."
+}}
 
 ### If Players Attack Bolt Immediately
 - Bolt yields after losing 50% HP
@@ -11841,6 +12023,10 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Father Merriksonn makes impassioned speech:** His brother's death may have caused this; villagers owe it to Alexi's memory to try peace
 - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
 - **Future hook:** Tillus remains hostile; may cause problems later
+
+{{watercolor10,top:422px,left:25px,width:294px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Rewards & Aftermath
 
@@ -11858,120 +12044,160 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - Completing adventure: Party reaches **Level 2**
 - (If using XP tracking: 300 XP per player for completion)
 
+\column
 ## Aeorian Echo Foreshadowing
 
-**Subtle hints to drop during the adventure:**
+***Subtle hints to drop during the adventure:**
 
-1. **Bolt's Description of Awakening:**
-   > "One moment I was hunting. The next... I could *think*. Not like before. I understood pack, family, future, *death*. It was like being born and dying at once."
+#### **Bolt's Description of Awakening:**
+{{descriptive 
+   "One moment I was hunting. The next... I could *think*. Not like before. I understood pack, family, future, *death*. It was like being born and dying at once."
+}}
+#### **Father Merriksonn's Grief:**
+{{descriptive 
+"Alexi was studying something he called 'the old magic stirring.' He said the land itself was waking up. He went north to investigate and never returned."
+}}
+#### Willen Featherock's Ravings: 
+**(if players talk to him)**
+{{descriptive 
+"Blue lights in the darkness... cold that burns... the wolves were *glowing* when they spoke to me... unnatural, I tell you!"
+}}
+#### Elric's Follow-Up: 
+**(when party returns to Waystone Inn)**
+{{descriptive 
+"Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
+}}
 
-2. **Father Merriksonn's Grief:**
-   > "Alexi was studying something he called 'the old magic stirring.' He said the land itself was waking up. He went north to investigate and never returned."
-
-3. **Willen Featherock's Ravings (if players talk to him):**
-   > "Blue lights in the darkness... cold that burns... the wolves were *glowing* when they spoke to me... unnatural, I tell you!"
-
-4. **Elric's Follow-Up (when party returns to Waystone Inn):**
-   > "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
 
-{{watercolor8,top:384px,left:89px,width:275px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:503px,left:65px,width:251px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # DM Prep Checklist: Wolves of Welton
 
-## One Week Before Session
+### One Week Before Session
+```
+[ ] Read entire adventure once 
+    through (30-45 minutes)
+[ ] Review DM Notes section (above) 
+    for key themes and pitfalls
+[ ] Decide on Bolt's personality voice 
+    — calm, pragmatic, slightly formal 
+        (newly learned speech)
+[ ] Decide on Flame's personality voice 
+    — aggressive, impulsive, contemptuous 
+       of "weak" pack
+[ ] Note which council members are swing 
+   votes Tillus leans NO, Corel leans YES
+[ ] Mark pages/sections for quick 
+     reference during play
+```
+::
+### Day Before Session
+```
+[ ] Print or bookmark wolf stat block 
+[ ] Print or bookmark NPC summaries 
+[ ] Review council voting mechanics 
+   3 votes needed, Merriksonn + Corel yes
+[ ] Prepare Bolt's opening speech 
+   establish intelligence and desperation
+[ ] Prepare random wolf names 
+     for if players ask e.g., Ash, Scar..
+[ ] Review Scene 1 (road encounter) 
+  combat setup — 150 ft starting distance
+[ ] Decide battle map or theater of mind
+```
+::
+### Props & Materials 
+>(Optional but Helpful)
+```
+[ ] Index card with Bolt's key dialogue
+[ ] Card with council voting tendencies
+[ ] Map of Welton (if available) 
+     OR sketch simple village layout
+[ ] Notecard for tracking player 
+      arguments during council scene
+[ ] Wolf miniatures or tokens
+[ ] Dice for wolves (to speed up combat)
+```
+::
+### Session Zero / Player Prep
+```
+[ ] Confirm party knows they're 
+    responding to Contract W-17 
+[ ] Brief players on Northreach setting: 
+    rural frontier, low-magic, 
+    isolated villages
+[ ] Set expectations: This adventure 
+     rewards creative problem-solving 
+      and negotiation
+[ ] Clarify: Combat is *one* solution, 
+      not the *only* solution
+[ ] Ask players: "How does your character 
+      feel about animals? Monsters? 
+        Talking creatures?"
+```
+\column
+### Quick Reference During Play
 
-- [ ] Read entire adventure once through (30-45 minutes)
-- [ ] Review DM Notes section (above) for key themes and pitfalls
-- [ ] Decide on Bolt's personality voice — calm, pragmatic, slightly formal (newly learned speech)
-- [ ] Decide on Flame's personality voice — aggressive, impulsive, contemptuous of "weak" pack
-- [ ] Note which council members are swing votes (Tillus leans NO, Corel leans YES)
-- [ ] Mark pages/sections for quick reference during play
-
-## Day Before Session
-
-- [ ] Print or bookmark wolf stat block (MM p241 OR Party Roster)
-- [ ] Print or bookmark NPC summaries (Father Merriksonn, Tillus, Leanor)
-- [ ] Review council voting mechanics (3 votes needed, Father Merriksonn + Corel = 2 guaranteed)
-- [ ] Prepare Bolt's opening speech (3-4 sentences establishing sapience and desperation)
-- [ ] Prepare random wolf names if players ask (e.g., Ash, Scar, Grey-Ear, Swift)
-- [ ] Review Scene 1 (road encounter) combat setup — 150 ft starting distance
-- [ ] Decide if you'll use battle map or theater of mind
-
-## Props & Materials (Optional but Helpful)
-
-- [ ] Index card with Bolt's key dialogue quotes
-- [ ] Index card with council member voting tendencies
-- [ ] Map of Welton (if available) OR sketch simple village layout
-- [ ] Notecard for tracking player arguments during council scene (tally good points)
-- [ ] Wolf miniatures or tokens (if using grid combat)
-- [ ] Dice for wolves (to speed up combat)
-
-## Session Zero / Player Prep
-
-- [ ] Confirm party knows they're responding to Contract W-17 (posted at Waystone Inn)
-- [ ] Brief players on Northreach setting: rural frontier, low-magic, isolated villages
-- [ ] Set expectations: This adventure rewards creative problem-solving and negotiation
-- [ ] Clarify: Combat is *one* solution, not the *only* solution
-- [ ] Ask players: "How does your character feel about animals? Monsters? Talking creatures?"
-
-## Quick Reference During Play
-
-### Key DC Checks
+#### Key DC Checks
 - **DC 10 Nature:** Wolves are acting with unusual intelligence (opening doors, coordinated tactics)
 - **DC 12 Arcana:** This level of intelligence is magical, not natural evolution
 - **DC 15 Investigation (Urgon's cabin):** Find evidence of magical disturbance around time Alexi vanished
 - **DC 10 Persuasion (Council):** Gain +1 swing vote with good argument
-- **DC 15 Intimidation (Council):** Lose -1 swing vote (threatens council, backfires)
+- **DC 15 Intimidation (Council):** Lose -1 swing vote 
 
-### Council Voting Tiers
-**GUARANTEED YES (if negotiation attempted):**
+#### Council Voting Tiers
+###### **GUARANTEED YES (if negotiation attempted):**
 - Father Merriksonn (brother's magic caused this)
 - Corel (believes in coexistence)
 
-**SWING VOTES (need 1+ of these):**
+###### **SWING VOTES (need 1+ of these):**
 - Tillus Merrion: Leans NO, persuadable with strong economic argument
 - Other council members: Neutral, persuadable with good roleplay/checks
 
-**GUARANTEED NO:**
+###### **GUARANTEED NO:**
 - 2 council members whose families lost livestock (can be persuaded with reparations)
 
-### Bolt vs. Flame Breakdown
-**Bolt (Alpha, Negotiator):**
+#### Bolt vs. Flame Breakdown
+###### **Bolt (Alpha, Negotiator):**
 - Wants: Safety, territory, recognition as people
 - Fears: Extermination, starvation, pack infighting
 - Offers: Relocation, ceasefire, mutual defense pact
 
-**Flame (Challenger, Warmonger):**
+###### **Flame (Challenger, Warmonger):**
 - Wants: Dominance, to prove strength through raids
 - Fears: Appearing weak, losing status
 - Triggers combat if: Bolt negotiates with "prey"
 
-### Adventure Pacing (4-Hour Session)
-- **Hour 1:** Travel to Welton, Scene 1 (road encounter), arrive at village
-- **Hour 2:** Gather information, meet NPCs, council meeting
+#### Adventure Pacing (4-Hour Session)
+- **Hour 1:** Travel to Welton, Scene 1, arrive at village
+- **Hour 2:** Gather info, meet NPCs, council meeting
 - **Hour 3:** Investigate wolf den, meet Bolt, Flame confrontation
-- **Hour 4:** Resolution (combat OR council vote), return to Waystone Inn
+- **Hour 4:** Resolution (combat OR council vote)
 
-### Important Names
+#### Important Names
 - **Bolt:** Alpha wolf, negotiator, awakened intelligence
 - **Flame:** Rival wolf, ambitious, aggressive
 - **Father Merriksonn:** Village priest, Alexi's brother
 - **Alexi Merriksonn:** Missing sorcerer (DECEASED — players don't know this yet)
 - **Tillus Merrion:** Halfling council member, distrusts outsiders
-- **Leanor Slatebeard:** Dwarven innkeeper (Shepherd's Crook)
+- **Leanor Slatebeard:** Dwarven innkeeper
 - **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
+
+{{watercolor2,top:249px,left:170px,width:258px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Quick Treasure
 - 800 gp reward (from village council)
 - Healing potions x2 (can be purchased at Shepherd's Crook, 50 gp each)
 - Alexi's spellbook (if negotiation successful, gift from Father Merriksonn)
 
-### Bolt's Opening Speech (if players negotiate)
+### Bolt's Opening Speech
 {{descriptive
 **Bolt's Opening Speech:**
 *The alpha wolf steps forward. Its eyes are not those of a beast — they are thoughtful, weary, almost human.*
@@ -11979,7 +12205,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "You understand me. I see it in your eyes. Good. We are not monsters. We were animals once. Then... something changed us. We woke up. We think now. We feel fear. We know death. We have cubs who will starve if we do not hunt. Your people call us thieves. What choice did we have? Would you starve to preserve a stranger's peace?"
 }}
 
-### Flame's Challenge (if combat starts)
+### Flame's Challenge 
 {{descriptive
 **Flame's Challenge:**
 *A scarred wolf with ember-colored eyes snarls.*
@@ -11987,7 +12213,7 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "You are WEAK, Bolt! Talking to prey! We are WOLVES! We TAKE what we need! If they hunt us, we hunt THEM!"
 }}
 
-### Father Merriksonn's Reaction (if peaceful resolution)
+### Father Merriksonn's Reaction 
 {{descriptive
 **Father Merriksonn's Reaction:**
 *The priest's eyes glisten with tears.*
@@ -11995,40 +12221,50 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 "Thank you. My brother... Alexi studied magic, forbidden magic perhaps. I believe his death caused this. These wolves did not choose their fate. You have given them a chance my brother never had."
 }}
 
-## Post-Session Tasks
+### Post-Session Tasks
+```
+[ ] Update Campaign Tracker: 
+     Note if wolves were killed 
+       or negotiated with
+[ ] Track Father Merriksonn's 
+     relationship status 
+[ ] Note if Tillus Merrion is hostile
+[ ] Record if Bolt's pack is now an ally 
+      (can be called upon in future)
+[ ] Award XP or milestone level-up
+[ ] Note any Aeorian Echo clues 
+     players seemed interested in
+[ ] Prepare Lorewarden Elric's debrief 
+           for next session 
+       (connects to larger mystery)
+```
+\column
 
-- [ ] Update Campaign Tracker: Note if wolves were killed or negotiated with
-- [ ] Track Father Merriksonn's relationship status (Grateful OR Neutral/Disappointed)
-- [ ] Note if Tillus Merrion is hostile (future plot hook)
-- [ ] Record if Bolt's pack is now an ally (can be called upon in future)
-- [ ] Award XP or milestone level-up (Party → Level 2)
-- [ ] Note any Aeorian Echo clues players seemed interested in
-- [ ] Prepare Lorewarden Elric's debrief for next session (connects to larger mystery)
+### Troubleshooting Common Issues
 
-## Troubleshooting Common Issues
-
-### "We attack Bolt during negotiations!"
+#### "We attack Bolt during negotiations!"
 → Bolt yields immediately, begs for mercy, other wolves flee. Give players chance to reconsider.
 
-### "We want to talk to the wolves, but how?"
+#### "We want to talk to the wolves, but how?"
 → Bolt sends a wolf messenger with a crude message (stick drawing or crudely spoken Common).
 
-### "The council vote is taking too long."
+#### "The council vote is taking too long."
 → Call for a recess. Have Father Merriksonn speak with party privately about what arguments will work.
 
-### "We want to kill ALL the wolves, including cubs."
+#### "We want to kill ALL the wolves, including cubs."
 → Allow it, but make consequences clear: Father Merriksonn is horrified, village reputation suffers (-1 future reaction rolls), Lorewarden Elric notes "You destroyed evidence of the magical phenomenon."
 
-### "We tell the village we killed the wolves, but let them live."
+#### "We tell the village we killed the wolves, but let them live."
 → Excellent deception path! Require Deception checks. Consequences emerge later (wolves seen near village again, party must maintain lie or come clean).
 
-## Next Session Hook
+### Next Session Hook
 
 When party returns to Waystone Inn, Lorewarden Elric requests a debrief:
 
 {{descriptive
 **Lorewarden Elric's Debrief:**
-"Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident involving a polymorphed sheep. Something is waking the old magic. I need you to investigate further."
+:
+"Awakened wolves? This is the third report of magical anomalies in Northreach this month. Palebank Village sent word of a strange plague. A wizard's tower near here had an... incident.  Something is waking the old magic. I need you to investigate further."
 }}
 
 This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces the Aeorian Echo mystery.
@@ -12036,2283 +12272,3727 @@ This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces th
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Wolves of Welton}}
 
-{{watercolor11,top:423px,left:8px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:270px,left:71px,width:265px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
+# Wolves of Welton
+### Opening Scene: Welcome to the Welton Wolfpack
+{{note
+**Campaign Note (DM):**  
+This is the party’s first contact with the awakened wolves. It should feel tense, strange, and slightly uncanny — not a normal wolf attack. This is the first visible sign of the Aeorian Echo affecting the frontier.
+}}
+
+{{descriptive
+The hills roll gently toward the valley below, where the white‑walled buildings of Welton cluster along a slow river. Ahead, the road bends between a rocky outcrop and the edge of a moss‑covered woodland.
+
+Two shepherds guide a flock of sheep through the gap, their four dogs trotting alongside.
+
+Suddenly, the dogs stiffen — ears pricked, barking wildly.
+
+Lean grey shapes burst from both sides of the road, moving with impossible speed and coordination. Eight wolves descend on the flock in a blur of teeth and motion.
+}}
+
+If the characters intervene, roll initiative. They begin **150 feet** from the ambush.
+
+{{note
+The wolves are here to steal sheep, not kill shepherds. They avoid unnecessary harm and retreat if outmatched.
+}}
+
+
+### Aftermath
+
+{{descriptive
+The wolves scatter into the trees, leaving torn wool and frightened sheep behind. The shepherds, shaken but alive, thank you profusely.
+}}
+
+They ask for help returning to Welton and share rumors (see **Shaggy Wolf Stories**).
+
+They cannot offer a reward, but they are grateful and eager to talk.
+
+---
 \column
+### Combat Tactics
 
-# Scene 1: Welcome to the Welton Wolfpack
+- Wolves split into two groups:  
+  - **Half** harass the shepherds  
+  - **Half** grab sheep and retreat west  
+- Wolves avoid killing blows; they bite to distract  
+- If the party proves dangerous, wolves disengage and flee into the woods  
+- This encounter is meant to feel *wrong* — too coordinated, too clever
 
-The party’s introduction to the wolves comes before they even enter Welton. When the scene opens they are still travelling through the hills to the west of the village, whose neat white-walled buildings stand out among the green grass in the valley below.
+---
 
-Around 150ft ahead of them is a slight bend in the road where it passes between an outcrop of rocks and the borders of a mossy woodland. As they approach they see a pair of men driving a small flock of sheep through the gap with the help of four sheepdogs.
 
-The first indication that anything is amiss comes when the dogs prick up their ears and start frantically barking. The men immediately pull long wooden clubs from their belts and start looking about, clearly distressed. In the blink of an eye, lean grey shapes burst out from both sides of the road, all launching themselves at sheep with incredible speed. Eight **Wolves** *(MMp241)* are taking part in the attack.
 
-Assuming the players wish to do anything other than watch the fight from a distance, roll up initiative and start the encounter with the players starting at a distance of 150ft from the action.
 
-Once the fight is over the injured shepherds are grateful for the help - assuming any was forthcoming - and ask for aid returning to Welton. They are more than happy to share local gossip (see **Shaggy Wolf Storie**s) but will not be able to offer any real reward.
+{{monster,frame
+## Awakened Wolf
+*Medium monstrosity, neutral*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 18 (4d8)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (+1) | 15 (+2) | 12 (+1) | 10 (+0) | 12 (+1) | 10 (+0) |
+___
+**Skills** :: Perception +3, Stealth +4  
+**Senses** :: passive Perception 13  
+**Languages** :: Common, Sylvan, plus one regional tongue (usually Welton Cant)  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Hearing and Smell.*** Advantage on Perception checks relying on hearing or smell.
 
-{{pageNumber,auto}}
-{{footnote Scene 1: Welcome to the Welton Wolfpack}}
+***Pack Tactics.*** Advantage on attack rolls if an ally is within 5 ft of the target.
 
-{{watercolor12,top:670px,left:51px,width:323px,background-color:#BBAD82,opacity:80%}}
+***Coordinated Retreat.*** When the wolf takes the Disengage action, one allied wolf within 30 ft may move up to half its speed without provoking opportunity attacks.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage. DC 11 Strength save or be knocked prone.
+
+***Commanding Bark (Recharge 5–6).***  
+Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
+}}
+
+{{watercolor4,top:118px,left:19px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
-
-## Combat Tactics
-
-The wolves are here to steal sheep, not kill shepherds - they certainly don’t want to fight even low-level adventurers. Half of them will keep the shepherds distracted while the rest pick off sheep and retreat to the west. They will not try to kill the shepherds, but will instead bite at their arms and legs.
-
-When the players arrive on the scene the wolves may test their strength with a couple rounds of combat, but will quickly retreat into the woods if it appears they are outmatched.
 
 ## Shaggy Wolf Stories
 
-*"Course, all this started when that sorcerer, Father Merriksonn's brother, upped and disappeared.*
+Use these as examples of things the villagers have seen or heard to help set the stage of what is happening
 
-*Not that I'd hear a word against him, 'course, but it makes you think, don't it..."*
+{{descriptive
+"Course, all this started when that sorcerer, Father Merriksonn's brother, upped and disappeared.
+Not that I'd hear a word against him, 'course, but it makes you think, don't it..."
+}}
+:
+{{descriptive
+"First sign something out of the usual was goin' on came when the Petersens up on Spurrok's Hill had a dozen sheep snatched from inside a barn. 
 
------------------------------------------------------------
+"Their boy got thrashed somethin' awful for failing to close it, but a week later the exact same thing happened, even though old Petersen had locked up hisself!"
+}}
+:
+{{descriptive
+"Wheatly, who sells pots, pans and ointments here about, was chased off his cart by a pack of wolves. Says they appeared from the trees as if by magic.*
 
-*"First sign something out of the usual was goin' on came when the Petersens up on Spurrok's Hill had a dozen sheep snatched from inside a barn.*
+*"When he went back with some village lads the horses were gone, and so were three sacks a' thick leather he were planning to trade."
+}}
+:
+{{descriptive
+"Old shepherd named Grimstone, up Carnby way, was watching his flock when he heard callin' from the trees, begging for help.
 
-*"Their boy got thrashed somethin' awful for failing to close it, but a week later the exact same thing*
+"Well, he runs off to check what was wrong but he couldn’t find so much as a gnome out there. While he was away, guess what? Dozen sheep o' his just upped and disappeared!"
+}}
+:
 
-*happened, even though old Petersen had locked up*
+{{descriptive
+"Month or so ago a band of blokes from the village went out to hunt the wolves; track 'em back to their den. But soon as they were in the darkest part of the woods they were ambushed. Wasn't there myself, but some of 'em tell of booming thunder, others of bursts of fire. Sounded like an unholy mess.
 
-*hisself!*"
+"Anyway, a halfling named* ***Featherock*** *- decent shepherd - was hurt real bad in the fight. All the others thought he was dead. But next morning he's found dumped on the Westly's doorstep, near the woods.
 
------------------------------------------------------------
+"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say."
+}}
 
-*"Wheatly, who sells pots, pans and ointments here about, was chased off his cart by a pack of wolves. Says they appeared from the trees as if by magic.*
-
-*"When he went back with some village lads the horses were gone, and so were three sacks a' thick leather he were planning to trade."*
-
-----------------------------------------------------------*"Old shepherd named Grimstone, up Carnby way, was watching his flock when he heard callin' from the trees, begging for help.*
-
-*"Well, he runs off to check what was wrong but he couldn’t find so much as a gnome out there. While he was away, guess what? Dozen sheep o' his just upped and disappeared!"*
-
------------------------------------------------------------
-
-![The image is a mostly uniform light-gray rectangle with very subtle, slightly darker smudges and irregular marks near the top edge; otherwise it contains no distinct objects or features.](./5E_Wolves_Of_Welton_images/image_002.png)*"Month or so ago a band of blokes from the village went out to hunt the wolves; track 'em back to their den. But soon as they were in the darkest part of the woods they were ambushed. Wasn't there myself, but some of 'em tell of booming thunder, others of bursts of fire. Sounded like an unholy mess.*
-
-*"Anyway, a halfling named* ***Featherock*** *- decent shepherd - was hurt real bad in the fight. All the others thought he was dead. But next morning he's found dumped on the Westly's doorstep, near the woods.*
-
-|  |
-| --- |
-| ~ 2 ~ |
-
-*"Poor man ain't been the same since. Tells wild tales o' voices in the night. Cracked in the head, they say.*"
-
-{{pageNumber,auto}}
-{{footnote Scene 1: Welcome to the Welton Wolfpack}}
-
-{{watercolor8,top:422px,left:30px,width:394px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 \column
 
-# Scene 2: Village People
+## Scene 2: Village People
 
-Welton sits on the banks of a slow-moving river, with gentle hills rising up on each side. The houses and shops are generally made of oak, painted bright white, and many have elaborate carvings worked into the eaves. Wheat and sheep farming dominate the local economy, and people pay much more attention to the weather and wool prices than rumors of distant wars or disasters.
+{{note
+Welton sits along a slow‑moving river, surrounded by gentle hills and bright white‑walled homes carved with traditional patterns. Wheat and sheep farming dominate the local economy. The village is not wealthy, but it is not destitute either — at least, not normally.
+}}
 
-The vast majority of the population are human, though there is a sizable minority of halflings and a handful of dwarves. While it is by no means a rich village, Welton isn’t povertystricken either.
+Observant characters notice:
 
-However, observent characters will notice that there are more people idling in the streets than you may expect at this time of year, and many appear to be openly concerned and may be hungry or worried about food. Unusually heavy traffic and the impact of many hooves have reduced the dirt streets to muddy quagmires in places.
+- More people lingering in the streets than usual  
+- Worry etched into faces  
+- Muddy, trampled roads from unusually heavy traffic  
+- A sense of tension beneath the surface  
 
-The village offers little beyond a small general store and virtually nothing of interest to outsiders other than the *Shepherd’s Crook*, which happens to be hosting both a village council meeting. It's is also home to a halfling named **Willen Featherock**, a traumatised victim of a wolf attack
+The wolves have disrupted trade, food supply, and morale. Welton is a village under pressure.
 
-## *The Shepherd’s Crook*
+---
 
-This ancient inn is one of the oldest and largest buildings in the village, sitting opposite both the Growers’ Hall and the Fleecers’ Hall. It is a traditional inn, with a common room at the front, a private dining and meeting room at the back and guest rooms upstairs.
+### The Shepherd’s Crook (Inn)
 
-With so many extra people staying in the village the inn is always crowded. Tanned and weatherbeaten shepherds in woollen cloaks smoke longstemmed pipes while drinking cider and muttering amongst themselves, while small groups of young men and women nurse their drinks and mostly stay quiet.
+{{descriptive
+The Shepherd’s Crook is one of the oldest buildings in Welton — a sturdy oak inn with carved eaves and a warm, smoky common room. Shepherds in wool cloaks smoke long‑stemmed pipes, muttering over cider. Young men and women sit quietly, listening for news.
+}}
 
-The innkeeper is a dwarven women named **Leanor Slatebeard**, who runs the bar while her husband Banteth deals with both the kitchen and the brewing. She will be excited if the party mentions that they are adventurers or that they’re in the town to help with the wolf problem, offering them a free round of drinks and a meal once they’ve talked to the village council. The people in the inn will also be impressed, though many of the old shepherds will still remain dour and cynical.
+{{note
+**Innkeeper:** Leanor Slatebeard (dwarf)  
+- Warm, practical, proud of her establishment  
+- Offers a free round of drinks and a meal if the party is here to help  
+- Directs the party to Willen Featherock’s room if asked, but urges gentleness
+}}
 
-Should they ask after Featherock she will direct them to his room, though she will ask them to be gentle with the poor man,
+Leanor’s husband, Banteth, handles the kitchen and brewing.
+
+---
+
+### Willen Featherock (Traumatized Shepherd)
+
+Willen is recovering upstairs. He was captured by the wolves and released the next morning. He is shaken, confused, and frightened.
+
+{{descriptive
+Willen’s eyes dart constantly. His voice trembles.  
+“I heard them… talking. Not growling — *talking*. Like people, but wrong. Like the words hurt them to say.”
+}}
+
+He is not lying — but many villagers think he is.
+
+---
+
+
 
 {{pageNumber,auto}}
 {{footnote Scene 2: Village People}}
 
-{{watercolor7,top:23px,left:214px,width:256px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:64px,left:190px,width:329px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 ## The Council Meeting
 
-The meeting is being held in a plain room, centered around a large wooden table with eight chairs set around it. Five of the chairs are filled with human men, one by a human woman and two by halflings - one male and one female.
+The meeting takes place in a plain room centered around a large wooden table with eight chairs:
 
-As the party approaches they will be able to hear raised voices, and when they enter the male halfling - **Tillus Merrion** of the Growers and Buyers' Association - will be bitterly arguing with a human dressed in priestly robes - **Father Merrikson** - about whether the village should stop exporting its grain and other food while the crisis with the wolves remains unresolved.
+- **5 human men**  
+- **1 human woman**  
+- **2 halflings** (one male, one female)
 
-Tillus reacts anrgily to any interruption, but quickly warms to the party if they identify themselves as adventurers. If the party has not come to the village specifically to complete the contract, the council will try to persuade them to take the job, offering the 800gp reward, free lodging at the inn and other small favours. The council will be able to offer detailed information about the wolf attacks, as well as the rumors known to the common folk. The wolves have been driving people out of farms and outlying hamlets, taking entire herds of sheep as well as cattle, pigs and chickens. They have been acting in a way that is unusually effective, such as ambushing shepherds as they move their flocks, opening gates and pulling down fences.
+As the party approaches, raised voices spill into the hall.
 
-There have always been wolves in the woods, but in the space of three months they have gone from a nuisance to a major threat to the village. People have been abandoning their farms out of fear, leaving the village to either stop exporting the crops that have already been harvested and risk bankruptcy or to go hungry.
+{{descriptive
+Tillus Merrion — a halfling with sharp eyes and sharper opinions — argues heatedly with Father Merriksonn about whether Welton should halt food exports until the wolf crisis is resolved.
+}}
 
-The council organised a posse of men to go and hunt down the wolves, but they were attacked in the woods and driven back. Merriksonn will mention that the village’s usual protector - his brother, a Sorcerer named **Alexi** - went missing at around the same time the attacks began, forcing them to turn to professional adventurers for aid.
+Tillus reacts angrily to interruptions, but warms quickly if the party identifies themselves as Wardens or adventurers.
 
-Should the party mention the possibility of werewolves, Merriksonn will point out that there have been several full moons since the attacks began and not one person has shown any sign of the curse, though he admits his knowledge on the subject isn’t perfect.
+The council offers:
 
-They believe that the wolves live in the woods to the west of town, but are not sure. A councillor with a tuft of wool tied to his vest will introduce himself as **Corel** of the Fleecers' Guild and say that he has been working on the hills for thes best part of forty years and is happy to answer questions on the local environment and provide general support for the party.
+- **800 gp reward**  
+- **Free lodging**  
+- **Local support**  
+- **Detailed information** about the wolf attacks  
 
+They describe:
+
+- Wolves driving families from farms  
+- Entire herds disappearing  
+- Wolves opening latches, coordinating ambushes  
+- Attacks that feel *planned*, not instinctive  
+
+This is the party’s first real look at how dire the situation has become.
+
+
+## Scene 3: The Council Meeting
+
+{{note
+This scene establishes Welton’s political tension, the stakes of the wolf attacks, and the first major social challenge of the adventure. The council is divided, frightened, and desperate for a solution — but not unified on what that solution should be.
+}}
+
+{{descriptive
+The meeting chamber is plain but sturdy, centered around a long wooden table with eight chairs. Five human men, one human woman, and two halflings sit in heated debate as you approach.
+
+Tillus Merrion — a sharp‑tongued halfling with a merchant’s posture — is arguing loudly with Father Merriksonn, the village priest. Their voices echo down the hall.
+}}
+
+---
+\column
+
+### Entering the Meeting
+
+When the party enters, the argument halts. Tillus reacts sharply to interruption, but warms quickly if the characters identify themselves as Wardens or adventurers.
+
+The council members introduce themselves briefly and explain the situation:
+
+- Wolves have been attacking shepherds  
+- Entire herds have vanished  
+- Wolves have opened latches, coordinated ambushes, and avoided traps  
+- Families have fled outlying farms  
+- Trade routes are disrupted  
+- Winter stores are dwindling  
+
+The council is frightened — and divided.
+
+---
+
+### Council Dynamics
+
+{{note
+The council is not unified. Some want extermination. Others want investigation. A few are open to negotiation. This tension is intentional — it sets up the moral complexity of the adventure.
+}}
+
+**Key Personalities:**
+
+- **Tillus Merrion (Halfling, Growers & Buyers Association)**  
+  Suspicious of outsiders, angry, protective of village resources.  
+  Leans **NO** on negotiation.
+
+- **Father Merriksonn (Village Priest)**  
+  Compassionate, grieving his missing brother Alexi.  
+  Leans **YES** on negotiation.
+
+- **Corel (Human woman, Shepherds’ Representative)**  
+  Practical, weary, wants peace if possible.  
+  Leans **YES** if party shows empathy.
+
+- **Others (5 members)**  
+  Mixed opinions; can be swayed by strong arguments, evidence, or practical solutions.
+
+---
+
+## Council’s Offer
+
+The council formally offers:
+
+- **800 gp reward**  
+- **Free lodging at the Shepherd’s Crook**  
+- **Supplies and provisions**  
+- **Authority to act on Welton’s behalf**  
+
+They ask the party to:
+
+- Track the wolves  
+- Discover the cause of their strange behavior  
+- End the attacks — by force or diplomacy  
+
+---
 {{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
+{{footnote Wolves of Welton}}
 
-{{watercolor12,top:335px,left:85px,width:303px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:24px,left:481px,width:351px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-## Featherock’s Room
+## Information the Council Can Provide
 
-Badly injured when the villagers sent a posse to hunt down the wolves, Featherock has been left badly damaged by his experiences - both mentally and physically. He is currently laid up in a room over the Shepherd’s Crook, where he is being regularly attended by Father Merrikson.
+Use these as natural responses to player questions:
 
-The room is small but well-appointed, with fresh flowers on a dresser. A halfling lies in the bed, white-faced and soaked in his own sweat. His left arm is bandaged, as his his right leg. He will shy away from the party at first, but will tell them everything he knows if they promise to believe him.
+- Wolves have been acting with unnatural intelligence  
+- Attacks began suddenly, 2–3 weeks ago  
+- Shepherds report hearing “voices” in the woods  
+- A hunting party was ambushed by something that used fire and thunder  
+- Willen Featherock was captured and released, babbling about “talking wolves”  
+- Alexi Merriksonn disappeared the same week the wolves changed  
 
-He explains that when the posse was attacked he was bitten badly and was trampled as the other men fled. His memories are hazy as he drifted in and out of consciousness, but he remembers gruff voices arguing in the darkness and a powerful grip on his ankle.
+{{note
+This is the party’s first major clue that the wolves’ awakening is magical, sudden, and connected to Alexi’s disappearance — and therefore to the Aeorian Echo.
+}}
 
-If the party seem to believe his tale so far, he will hesitantly confess that the wolves were *talking*, arguing fiercely over whether they should eat him or not. Featherock then breaks down in tears and refuses to say anything more.
+---
+
+## Council Tone & Roleplay Prompts
+
+{{descriptive
+Tillus slams his fist on the table. “We can’t keep losing livestock! If these wolves think like people now, that makes them *more* dangerous, not less!”
+
+Father Merriksonn rises slowly. “Or it means they can be reasoned with. My brother studied magic… strange magic. If he caused this, we owe the wolves a chance at peace.”
+}}
+
+Encourage the players to speak, debate, and propose solutions.
+
+---
+
+## Moving the Adventure Forward
+
+Once the council has shared what they know and the party accepts the contract, transition to the next scene:
+
+{{descriptive
+The council members nod, relieved to have capable Wardens on the case. Outside, the wind whistles through the village streets as you prepare to investigate the wolves’ trail.
+}}
+
+
+### Willen Featherock’s Room
+
+{{descriptive
+The hallway upstairs is quiet, lit only by a single oil lamp. Leanor leads you to a narrow door and knocks softly. “Willen? You’ve got visitors.” There’s a long pause before a trembling voice answers, “Come in… if you must.”
+}}
+
+\column
+Inside, the room is dim and cluttered. A blanket is wrapped tightly around a halfling man sitting on the edge of the bed. His eyes are sunken, darting constantly toward the shuttered window as if expecting something to leap through it.
+
+{{descriptive
+Willen flinches when you enter. “I told them… I told them what I heard. Wolves don’t talk. Wolves don’t *talk*.” His voice cracks. “But they did. They spoke like people — broken words, like it hurt them to say it.”
+}}
+
+He grips the blanket tighter.
+
+{{descriptive
+“They dragged me through the woods. I thought they’d eat me. But they argued — argued like folk do. One wanted to kill me. Another said to let me go. Next morning I woke up on Westly’s doorstep. I don’t know why I’m alive.”
+}}
+
+---
+
+### What Willen Can Tell the Characters
+
+- The wolves **spoke** in broken Common  
+- He heard them **arguing** about him  
+- He saw **blue light** in the woods during the attack  
+- He remembers a wolf saying, *“Not him. Not this one.”*  
+- He believes the wolves are **changing**, but doesn’t know why  
+- He is terrified of being dismissed as mad
+
+{{note
+Willen is deeply traumatized. He is telling the truth, but his fear makes his story fragmented. Encourage players to ask gentle questions — intimidation shuts him down completely.
+}}
+
+---
+
+### Roleplaying Willen
+
+- Voice trembles  
+- Avoids eye contact  
+- Flinches at sudden movement  
+- Repeats himself when nervous  
+- Grateful for kindness, terrified of disbelief  
+
+{{descriptive
+As the conversation ends, Willen whispers, “If you go after them… be careful. They’re not just wolves anymore.”
+}}
 
 {{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
+{{footnote Wolves of Welton}}
 
-{{watercolor12,top:626px,left:83px,width:375px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:618px,left:4px,width:253px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+## Planning the Hunt
+
+Once the council has shared what they know, the characters have a moment to plan their approach. Welton’s leaders are anxious but willing to support whatever strategy the Wardens choose.
+
+{{note
+This is a good moment for the party to discuss tactics, gather supplies, and decide how they want to engage with the wolves — aggressively, cautiously, or diplomatically.
+}}
+
+### Information the Characters Can Gather Before Leaving
+
+- Wolves attack **at dusk or dawn**  
+- Most attacks occur **west of Welton**, near the Old Woods  
+- The wolves seem to know when shepherds are alone  
+- Tracks often lead toward **Westly’s Farm**  
+- Willen Featherock was found near **the forest edge**, not deep inside  
+- A hunting party was ambushed by something that used **fire and thunder**  
+
+### Supplies Available in Welton
+
+- Rations, rope, lantern oil  
+- Simple weapons and tools  
+- Healing kits from Father Merriksonn  
+- A map of the western hills (rough, hand‑drawn)  
+
+---
+
+### Traveling to the Wolf Territory
+
+{{descriptive
+The road west of Welton winds through rolling hills and frost‑touched grasslands. Sheep pens and small farmsteads dot the landscape, though many stand empty — doors barred, windows shuttered.
+}}
+
+As the characters travel, they notice:
+
+- Fewer shepherds working the fields  
+- Fresh wolf tracks crossing the road  
+- Sheep carcasses picked clean  
+- Strange geometric frost patterns on stones near the woods  
+
+{{note
+These frost patterns are an early sign of the Aeorian Echo. They match the same phenomenon seen in Pinebrook and later in Frozen Sick.
+}}
+
+---
+\column
+### Approaching the Old Woods
+
+{{descriptive
+The trees grow denser as you near the Old Woods. The air grows colder, unnaturally so, and the wind carries faint, distant howls — too rhythmic, too deliberate to be normal wolves.
+}}
+
+Characters may attempt:
+
+- **Survival (DC 10):** Identify multiple wolf trails converging toward a single area  
+- **Nature (DC 12):** Recognize that the wolves’ movement patterns are coordinated  
+- **Perception (DC 10):** Hear distant voices — not words, but the cadence of speech  
+
+If the party succeeds on any of these checks, they can follow the wolves’ trail directly toward their den.
+
+If they fail, they still find the den — it just takes longer, and they may encounter a minor complication (cold weather, difficult terrain, or a false trail).
+
+---
+
+### Optional Flavor: The Shepherd’s Warning
+
+If you want a final beat before the den:
+
+{{descriptive
+An elderly shepherd waves the party down from a distance. “If you’re heading into those woods… be careful. Something in there thinks like a man but hunts like a beast.”
+}}
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor13,top:232px,left:235px,width:290px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Scene 4: The Owlbear’s Picnic
+{{note
+This scene is optional. Use it to add tension, danger, or a meaningful combat beat if the party’s earlier travel felt light.
+}}
+
+{{descriptive
+After two hours of pushing through the dense undergrowth of the Western Woods, you hear snapping twigs and heavy rustling ahead — something large is forcing its way through the brush.
+}}
+
+Unless the characters immediately hide, a massive **Owlbear** bursts through the bushes and fixes its wild eyes on them.
+
+{{descriptive
+The creature limps heavily. Its feathers are matted with dried, blackened blood. Several wounds along its flank look torn open by sharp jaws — barely healed, crusted, and painful. Despite its condition, the beast lets out a deafening hoot‑roar and charges.
+}}
+
+The owlbear is **starving, desperate, and in pain**. It attacks the easiest target and fights until it is brought down. It does **not** retreat.
+
+---
+
+## After the Fight
+
+If the party kills the owlbear, they can examine its wounds:
+
+- **DC 12 Wisdom (Nature):** Confirms the injuries were caused by **wolves**  
+- The wounds are **a couple of weeks old**  
+- Scorch marks on its fur suggest exposure to **fire or lightning**  
+- Anyone with Nature proficiency or a **DC 10 Wisdom check** knows:  
+  - Wolves almost never challenge an owlbear  
+  - Owlbears are **nocturnal** — seeing one active in daylight is unusual  
+
+These clues reinforce that something in the region is deeply wrong.
+
+---
 
 \column
 
-# Scene 3: Plan of Attack
+{{monster,frame
+## Injured Owlbear
+*Large monstrosity, unaligned*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 40 (reduced from 59 by injuries)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 20 (+5) | 12 (+1) | 17 (+3) | 3 (−4) | 12 (+1) | 7 (−2) |
+___
+**Skills** :: Perception +3  
+**Senses** :: darkvision 60 ft., passive Perception 13  
+**Languages** :: —  
+**Challenge** :: 3 (700 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Keen Sight and Smell.***  
+The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.
+___
+### Actions
+***Multiattack.***  
+The owlbear makes two attacks: one with its beak and one with its claws.
 
-Essentially, the aim of this scene to have the party find their way to the wolves' lair. There is no prescribed way for them to do this, so allow them to be as inventive as possible.
+***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.  
+*Hit:* 10 (1d10 + 5) piercing damage.
 
-The lair is in a hollow just the other side of the woods that cover the hillsides to the west of Welton.
+***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target.  
+*Hit:* 14 (2d8 + 5) slashing damage.
+}}
 
-If the party are floundering, Corel represents a good route for passing on ideas. He will suggest that if they are confident in their tracking ability the party may wish to simply head out to the western woods and try and pick up a trail there. If they are interested in luring wolves out, he will instead offer up his own flock as bair.
-
-Should the party lack a tracker proficient in Survival, he will reluctantly volunteer his own services (use stat block of **Commoner** *(PHB p345*) with a Wisdom of 14 and a +4 Survival skill). Should the party set up bait, six wolves will attack using the same combat tactics used in Scene 1. If the party try and talk to them, the wolves may respond with a few words before fleeing in confusion.
-
-Eventually, the party should end up making a trek into the woods, which are thick and clogged with undergrowth. The smell of earth and moss filsl the air and the passage of small animals creates a constant rustle in the bushes. Occasionally the howl of a lone wolf echoes eerily from the west.
-
-Crossing the woods takes approximately four hours at a walking pace.
-
-{{pageNumber,auto}}
-{{footnote Scene 3: Plan of Attack}}
-
-{{watercolor4,top:514px,left:81px,width:330px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Guidelines for skill checks
-
-**Tracking a wolf through the woods**: Wisdom (Survival) DC14, DC16 if tracks are more than eight hours old
-
-**Tracking a wolf carrying prey through the woods**: Wisdom (Survival) DC11, DC13 if tracks are more than eight hours old **Hiding from wolves**: Dexterity (Stealth) opposed by a Wolf’s Wisdom (Perception) skill (+3, advantage on scent and sound)
-
-**Understanding the habits of wolves**: Wisdom
-
-(Nature) DC12
-
-~ 4 ~ **Scene 4: The** The creature's many injuries have reduced its
-
-maximum Hit Points to 40, but otherwise it still
-
-**Owlbear’s Picnic** operates at full effectiveness.
-
-*This scene is not strictly necessary for advancing the* The mighty Owlbear is starving and desperate. It *plot. It can be used to add a little more combat or* will charge at the easiest target it can find and *depth, especially if the party did not have any* will fight until it is brought down. It will not *particularly meaningful encounters in Scene 3.* retreat.
-
-After two or so hours of travel through the Should the party kill the Owlbear, they will be dense undergrowth of the Western Woods, the able to tell that the beast’s prior injuries were party begins to hear the sound of snapping caused by sharp jaws. A DC12 Wisdom (Nature) twigs and rustling leaves - something big is check will confirm that these were indeed
-
-making its way towards them. caused by wolves and that the wounds appear to Unless they take immediate steps to hide, an be a couple of weeks old. Interestingly, there are
-
-**Owlbear** *(MM p249)* crashes through the bushes also scorch marks on the creature’s fur.
-
-and sights them. Even at a glance, the party can Anybody proficient in Nature or able to pass a tell that it is limping, thin and appears to be DC10 Wisdom check will know that it’s very rare nursing several barely-healed wounds clotted for wolves to challenge Owlbears. If the with old, black blood. Despite its injuries, the encounter occurred during the daytime, they massive beast will charge the party, letting out a will also know that Owlbears are nocturnal deafening hoot as it does so. predators and shouldn't be out in sunlight.
-
-
-# Map of Welton & the Surrounding Area
-
-![A wide, horizontal, light-gray panel with very subtle vertical streaks and faint, slightly darker smudges — overall a mostly uniform gray surface with minimal texture.](./5E_Wolves_Of_Welton_images/image_003.png)![A colored fantasy-style map showing open plains, a large forest, a village, and terrain features. Key elements: - Overall: pale-green rolling plain with a large dense forest occupying the upper-left quadrant and mountains beyond it. - Compass rose at upper-right and a horizontal scale bar along the bottom edge. - Water: a thin blue river/stream runs roughly north–south on the right side, passing the village. - Settlements/markers (numbered on the map): - 1: A small clearing at the forest edge with a few stone cairns or standing stones and a handful of trees. - 2: A clustered village/hamlet at the river with several buildings, a red-roofed structure, and a nearby church; a windmill sits a short distance to the east. - 3: A lone small building or hut in the open plain near a short cliff or escarpment. - 4: Mountainous terrain visible beyond the forest in the top-left. - Paths: dotted/trail lines cross the plain, connecting the forest edge, the hut, and the village. - Scattered terrain details: isolated groves of trees, small rocky outcrops, and a few standalone cairns or towers across the plain.](./5E_Wolves_Of_Welton_images/image_004.png)
+::
+![cat warrior](https://i.imgur.com/9fLU9aV.jpeg) {width:300px,mix-blend-mode:multiply}
 
 {{pageNumber,auto}}
-{{footnote Map of Welton & the Surrounding Area}}
+{{footnote Wolves of Welton}}
 
-{{watercolor7,top:131px,left:182px,width:393px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-**1**
-
-**.**
-
-**S**
-
-**i**
-
-**t**
-
-**e**
-
-**o**
-
-**f**
-
-**W**
-
-**o**
-
-**l**
-
-**f**
-
-**A**
-
-**m**
-
-**b**
-
-**u**
-
-**s**
-
-**h**
-
-**(**
-
-**S**
-
-**c**
-
-**e**
-
-**n**
-
-**e**
-
-**1**
-
-**)**
-
-**2**
-
-**.**
-
-**W**
-
-**e**
-
-**l**
-
-**t**
-
-**o**
-
-**n**
-
-**3**
-
-**.**
-
-**W**
-
-**e**
-
-**s**
-
-**t**
-
-**l**
-
-**y**
-
-**'**
-
-**s**
-
-**F**
-
-**a**
-
-**r**
-
-**m**
-
-**4**
-
-**.**
-
-**W**
-
-**o**
-
-**l**
-
-**f**
-
-**D**
-
-**e**
-
-**n**
-
-{{pageNumber,auto}}
-{{footnote Map of Welton & the Surrounding Area}}
-
-{{watercolor13,top:497px,left:258px,width:267px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-\column# Scene 5: The Den’s Denizens
-
-The wolves have made their den in a cave system on the western edge of the woods.
-
-From the treeline it is possible to see a cave entrance roughly 10ft wide and 10ft tall at its highest point, set into a low cliff of grey stone. A thin plume of smoke appears to be coming from a point on the hill above the cliff, maybe 30ft back from the cave entrance. Milling around the area are six **wolves**. Some are sat around the fire, some are seemingly working on improving the fence, and some are in the process of tearing a sheep carcass apart. Many of the wolves appear to be wearing strips of brightly-coloured cloth or other decorations tied about limbs or their necks. The entire scene seems remarkably peaceful and organised for a wolf den.
-
-The wolves have set up tripwires at the edge of the treeline, requiring a DC13 Wisdom (Perception) check to spot. If the players trigger these they set off bone noisemakers.
-
-# Map of The Wolves' Den
-
-## The Back Door
-
-The plume of smoke mentioned above is coming from a hole in the cave ceiling. It is roughly 30ft back from the cave entrance and is just about big enough for a small creature to squeeze through. The hole opens into the far right cave chamber (see map) and is 15ft off the ground, directly above the fire.
-
-Should the party listen in, they will hear **Flame** and **Bolt** having an argument over the future of the pack. Flame is angrily ranting about the appearance of the adventuring party and that it proves that they need to be more aggressive. She believes they should start killing more humans and halflings in a bid to speed up their retreat from the area.
-
-|  |
-| --- |
-| ![A wide, rectangular image showing a nearly uniform light‑gray field with very subtle texture — a few faint vertical smudges or marks near the left‑center — otherwise featureless.](./5E_Wolves_Of_Welton_images/image_005.png)  ~ 6 ~ |
-
-Bolt, however, argues in extremely soft tones that it means they should do the exact opposite. He wants conduct a few more small-scale raids and then disappear from the area, moving further into the wilderness. The argument will last for some time before the pair move out into the main cave complex.
-
-## Inside the Cave
-
-The cave complex is made up of a large central chamber and three smaller sub-chambers.
-
-The central chamber is the pack’s main living and sleeping area. There are piles of bones in the southeastern corner and the floor is dotted with large piles of leaves and cloth that appear to be very rudimentary beds. Crude depictions of hunting wolves drawn upon the wall in charcoal and white ash. A DC12 Wisdom (Perception) check will allow a player to notice that a series of images appear to depict the pack’s fight with a human, who shares gifts with the wolves before disappearing.
-
-The western sub-chamber functions as a storeroom for both goods and many of the stolen sheep. Bags containing thick leather and homespun wool are kept here, while other interesting items picked up by wolves during their raids - a couple of knives, a shovel and other mundane equipment - are piled up against the wall.
-
-{{pageNumber,auto}}
-{{footnote Map of The Wolves' Den}}
-
-{{watercolor2,top:224px,left:493px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:618px,left:279px,width:343px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 {{wide
-
-# Flame
-
-*Large beast, chaotic neutral*
-
-**Armor Class** 14 (natural armour) **Hit Points** 47 (7d10+10) **Speed** 50ft.
-
-**STR DEX CON INT WIS CHA**
-
-17(+3) 15(+2) 15(+2) 12(+1) 14(+2) 8(-1)
-
-**Skills** Perception +3, Stealth +4
-
-**Senses** passive perception 13
-
-**Languages** Common
-
-**Challenge** 2 (450 XP)
-
-**Keen Hearing and Smell.** Flame has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-**Pack Tactics.** Flame has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
-
-
-![- Stylized fantasy map, oriented with north at the top (compass rose at upper right). - Large, dense forest occupying the upper-left quadrant, with mountains and the numeral "4" near its north edge. - Open grassy plain across the center and right side, dotted with small copses, single trees, and rocky outcrops. - A cluster of buildings/town labeled "2" on the lower-right beside a blue river; a windmill and a larger house are nearby. - A small isolated house or farm labeled "3" sits along a dashed path in the central plain. - A group of standing stones or ruined towers near the forest edge labeled "1" where a dashed track meets the woods. - Low cliffs or escarpments at the forest boundary, several solitary rock stacks, a curved dashed road connecting points, and a scale bar along the bottom edge.](./5E_Wolves_Of_Welton_images/image_006.png)***Fire Breath (Recharge 5-6).*** Flame exhales a firey blast in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.
-
+## Scene 5: The Den’s Denizens
+![cat warrior](https://i.imgur.com/KNKh7rm.png) {width:655px,mix-blend-mode:multiply}
 }}
 
-{{pageNumber,auto}}
-{{footnote Flame}}
 
-{{watercolor8,top:542px,left:261px,width:336px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-{{wide
-
-# Bolt
-
-*Large beast, lawful neutral*
-
-**Armor Class** 14 (natural armour) **Hit Points** 47 (7d10+10) **Speed** 50ft.
-
-**STR DEX CON INT WIS CHA**
-
-17(+3) 15(+2) 15(+2) 12(+1) 14(+2) 8(-1)
-
-**Skills** Perception +3, Stealth +4
-
-**Senses** passive perception 13
-
-**Languages** Common
-
-**Challenge** 2 (450 XP)
-
-**Keen Hearing and Smell.** Bolt has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-**Pack Tactics.** Bolt has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-## Actions
-
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target *Hit:* 7 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC13 Strength saving throw or be knocked prone.
-
-***Lightning Breath (Recharge 5-6).*** Bolt exhales a blast of blue lightning in a 30-foot line. Each creature in that area must make a DC 13
-
-Dexterity saving throw, taking 9 (2d8) lightning damage on a failed save, or half as much damage on a successful one.
-
-}}
-
-shaped by tools. The noise of bleating is constant and very loud.
-
-The central sub-chamber acts as a nursery for the pack’s young pups. Half a dozen young wolves sleep here when they aren’t playing outside, and this is where they will be kept if a fight breaks out. A pair of wolves are set to guard the young, who are just learning how to talk, and will defend them to their deaths. In the event that a fight breaks out, use the **Cat** (*MM p320*) statblock for the wolf pups. The eastern sub-chamber is used as a meeting room by the pack leadership. It is the only chamber to contain a fire, as the smoke is able to escape through a hole in the cave roof, but it otherwise empty.
-
-## Big Bad Wolves
-
-Should the wolves become aware of the party for any reason - triggering the noisemakers, failed stealth checks or simple walking out into the hollow - they will react with panic, letting out high-pitched howls. One of the wolves will yell ‘HUNTERS’ in guttural, growling common.
-
-Unless the party makes any moves to defuse the situation the wolves will attack with a fierce determination.
-
-If the battle is taking place in front of the cave, **Flame** and **Bolt** will emerge from their den after one full round. They will be accompanied four more **wolves** that appear to have scraps of crude leather armour tied around their bodies, giving them a +1 bonus to AC.
-
-The Alpha Pair will yell exhortations to their fellow wolves, with Flame encouraging them to kill the hunters and Bolt telling them to protect the pack, and not to let them harm the pups.
-
-{{pageNumber,auto}}
-{{footnote Bolt}}
-
-{{watercolor11,top:69px,left:396px,width:311px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-All the wolves will move to attack the party, but after either one of the following occurs Bolt will let out a thunderous roar, bellowing that the battle is not helping either party:
-
-- Four wolves are killed
-- Flame or Bolt are brought to less than half HP
-- A player character is reduced to 0HP
-
-It is entirely up to the party whether they listen to him or not. Should they ignore him, the wolves will fight to the death.
-
-## Combat Tactics
-
-The wolves are all intelligent and will take advantage of their Pack Tactics ability as much as possible. They will also use their speed to outflank the party and target poorly-armoured castery trying to hide in the back lines.
-
-Flame and Bolt will lead the attack on the front lines and use their breath attacks wherever possible. Bolt will make sure his attack never harms one of his allies, while Flame won’t mind catching one or two wolves if it means blasting the entire party.
-
-## Let’s Talk This Over
-
-Should the party be willing to talk to the wolves, Bolt will be more than happy to negotiate an end to any fighting.
-
-He will explain that the pack became intelligent after attacking a man - the Sorcerer Alexi Merriksonn - who was trespassing on their territory. Their memories of the fight are hazy, but there was a flash of bright light. When they awoke the Lightbringer - as they call him - was gone, but the wolves found their minds working much faster than before. Almost instantly they found they were able to talk, and their memories were filled with strange images and information that appeared to them in dreams. The pack has been using its newfound abilities to boost its quality of life. Pups won’t risk starvation in the winter thanks to their hoarded herd of sheep, while their elderly won’t have to be left behind when no longer able to hunt. They drove off the Owlbear that had been plaguing the woods for years and made their home in its den. Throughout any conversation, Flame will chime in with provocative, angry comments, generally concerning her wish to punish and kill humans and other races, and that this land is theirs by right.
-
-|  |
-| --- |
-| ~ |
-
-Bolt does not care for the people of Welton, who have killed his kind indiscriminately for many years. However, he is willing to at least try and come to a settlement with them, suggesting that they be allowed control of the woods and the uninhabited lands to the west, in return for keeping the area free of other predators and not raiding themselves.
-
-Barring that, he is willing to simply move the pack away to a more remote location, provided that the party swear by all their gods not to tell people what they saw.
-
-Should it become apparent that a deal is forthcoming, Flame will accuse Bolt of cowardice and betrayal and attack him from behind. This will badly injure him, taking him out of the fight. All of the remaining armored wolves will join her in a final, desperate attack on the party, while the others will fall back in confusion and fear.
-
-{{pageNumber,auto}}
-{{footnote Bolt}}
-
-{{watercolor12,top:133px,left:162px,width:281px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## **Scene 6: Settling the Scores**
-
-There are a two main ways for the adventure to conclude depending on the party’s previous actions. Sometimes working out what happens next may require a degree of improvisation on the part of the DM.
-
-### The Party Refuse to Negotiate
-
-If the party refuse to negotiate or can’t come to an agreement with Bolt, most of the wolves will be probably be dead by the time the battle is over. In this case the party have fulfilled the terms of their contract with the Welton village council and are able to return to collect their prize.
-
-Should they explore the cave they will encounter a dozen young pups being guarded by a pair of desperate wolves, who beg to be allowed to leave, promising that they will never come back to the area. If the pups are threatened the adult wolves will fight to the death, screaming that their young charges should flee into the woods.
-
-### The Party Negotiate with the Wolves
-
-If the party is willing to negotiate with Bolt, they may be able to come to sort sort of peaceful accord with him once Flame has been defeated. Bolt will be understandably angry about any wolves killed by the party, but recognises that they will not be able to fight the folk of Welton forever and is willing to negotiate along the terms mentioned in Scene 5.
-
-If the wolves agree to leave the area entirely, the party will be able to return to Welton and collect their reward. If they lie and claim the wolves were wiped out they will have to make a Charisma (Deception) check, opposed by Father Merriksonn’s +5 Wisdom (Insight) skill. However, he will make sure to confront the party about their deception in private.
-
-However, if the party agree to a more complicated arrangement they will need to present their offer to the village council. Father Merriksonn is keen on coming to a settlement even if he believes the wolves killed his brother as is Corel. However, Tillus and much of the rest of the council will need convincing.
-
-How the party do this is entirely their choice. Talking Tillus around will need both a decent argument, as determined by the DM, and a successful DC15 Charisma (Persuasion) check. Should he agree to the negotiations the rest of the council will agree with him, and Corel will begin work on setting up a meeting with Bolt.
-
-If they find it impossible to convince him, Corel will call a vote on whether or not they should work with the wolves anyway. Allow the party to make a DC12 Charisma (Persuasion) check against each of the five remaining council members, awarding advantage or diasadvantage depending on how persuasive the party's argument was. Corel and Father Merriksonn will both vote to negotiate, so they need three successes in order to win an overall majority.
-
-Tillus will react with shock and horror at being outvoted. After a moment of blustering rage he will realise that he has been ousted. He willl leave the council a broken man, never to return. As long as the party have succeeded in dealing with the wolf problem in one way or another they will be paid in full at the rate they agreed with the council.
-
-{{pageNumber,auto}}
-{{footnote Bolt}}
-
-{{watercolor7,top:16px,left:203px,width:316px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Should the wolves’ intelligence become publicly known Feathrock will start to recover at a much faster rate, and will try and thank the party in person.
-
-~ 9
-
-**Characters** She is generally happy to help the party in their
-
-quest and may well be a powerful ally if they try
-
-Tillus Merrion to negotiate with the village council over a
-
-treaty of sorts with the intelligent wolves.
-
-Tillus Merrion is a proud, blustering Halfling who
-
-leads the Welton Growers and Buyers’ Alexi Merriksonn
-
-Association. The Association – as it is known –
-
-The protector of Welton, Alexi spent his life represents the most powerful group in the keeping dangerous monsters and occasional village, and as its leader Tillus acts as a de facto bandit gangs away from his home village. mayor and head of the council.
-
-Born with a link to the inscrutable forces of Wild
-
-In his day job, he oversees the sale of grain, wool
-
-Magic that always marked him as an outsider and other products outside of the village, while growing up, his brother Johan was his only negotiating contracts with merchants in nearby real friend. Despite this, he was keen to show his cities and managing the shipping. He has a gift worth to the people of Welton and trained long for trade and has helped to boost Welton’s and hard to increase his abilities. prosperity in a number of small but significant
-
-ways. Befitting the source of his power, Alexi was
-
-unpredictable and passionate, given to flights of
-
-When he isn’t working, Tillus is usually fancy and wild laughter. He roamed the lands beavering away at various schemes and beyond Welton almost at random, seeking out initiatives around the village. He has a love for threats before they approached the farms of the order, neatness and the rule of laws and common folk. contracts, and is quietly obsessed with making
-
-Welton clean and well organised. Despite his commitment to their protection, the folk of Welton always viewed the sorcerer with a
-
-This commitment can occasionally make him degree of suspicion. At times the presence of his forget that many of the figures he moves about brother may have been the only thing keeping on his ledgers represent living, breathing people. some of the more superstitious and hot-headed
-
-This has become especially clear in the recent members of the community from trying to drive crisis, where his dread of missing a shipment is him out. leading him to try and sell crops that the people
-
-of Welton may need to eat if they are to avoid He stumbled across the wolf pack while
-
-starvation. patrolling the moorlands. He didn’t plan to
-
-destroy them, but simply wanted to drive them
-
-Despite this, he is not a bad person. He off. While he was using his abilities, however, he desperately loves Welton and will do anything it was struck by a Wild Magic Surge, destroying his takes to see it grow and prosper. If this means body and imbuing the nearby wolves with some making people go hungry in order to maintain of his intelligence and magical abilities. their long-term credit rating, so be it.
-
-### Leanor Slatebeard Father Merriksonn
-
-The local priest of Pelor (or any local good-
-
-One of very few dwarves in Welton, Leanor and aligned deity), Johan Merriksonn was born and her husband Banteth are cheerful, hard-working bred in Welton and loves both the village and its members of the community. She is well over 100 inhabitants. He is a human in his mid-50s with a years old and has seen the community grow from kindly face and wispy white hair. a mere hamlet to the thriving village it is today.
-
-{{pageNumber,auto}}
-{{footnote Bolt}}
-
-{{watercolor3,top:628px,left:390px,width:397px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-He and his brother, Alexi, were born to a family
-
-Despite her apparently minor position, Leanor’s of reasonably successful farmers and are welllong-running relationships with virtually every educated by the standards of the region. While family in the village actually gives her a lot of
-
-Alexi found himself able to control the power of quiet influence. She knows all the skeletons in
-
-Wild Magic, Johan felt the draw of the church everybody’s closets and has accumulated an and was apprenticed by the local priest. awful lot of favours over the years.
-
-~
-
-In many ways Merriksonn acts as the conscience and moral compass for the otherwise mercantile-minded village council. Recently he has come into conflict with some of the more businesslike members over his desire to prioritise feeding the locals over meeting the terms of their export contracts.
-
-He is helpful to the party unless they show themselves to be evil, in which case he will condemn them. He is also willing to negotiate with the wolves, even if he knows they were involved in his brother's death.
-
-### Willen Featherock
-
-A halfling shepherd, Featherock lived a mostly unremarkable life until he was injured in Welton’s attempt to deal with the wolves. Since his experiences at the hands - or rather jaws - of the intelligent wolves he has been jittery and plagued by nerves.
-
-He is of average height for a halfling and despite his time spent recovering inside he still has a ruddy, sun-reddened face from his days spent out on the hillsides.
-
-### Corel
-
-A human shepherd, Corel is lean and tough as old leather. He is a quiet, reserved man who is respected by everybody on the village council. He does not speak very often, but when he does the entire room listens and carefully weighs his words.
-
-He is reasonably successful as a farmer and shepherd and runs his own operation on the hills near the western woods. Much of his flock has been taken by the wolves, but he was quick to recognise the threat and drive his sheep into town, where they would at least be safe.
-
-Corel is more than happy to help the party and act as their guide if needed.
-
-He has been working on the hills surrounding Welton for most of his 50-something years and is an expert on the local geography. Despite his losses to them, Corel will support any negotiation with the wolves once he realises they are intelligent, sentient creatures.
-
-### Flame and Bolt
-
-The alpha pair of the wolf pack, for most of their lives Flame and Bolt were simple beasts. Both cunning and fierce, to be sure, but not intelligent. This all changed when the pack brought down Alexi Merriksonn, and were infused with much of his intelligence and power during a Wild Magic Surge.
-
-Both are fiercely protective of their pack and are worried that their intelligence will cause men and other sentient races to hunt them down and destroy them. At the same time, however, they are now bright enough to be able to think of a great many ways in which they will be able to improve their lives and those of their pups.
-
-Flame, the alpha female, was granted the ability to produce and control flames. She is much more aggressive than her partner and believes that killing other intelligent beings to drive them away from the pack’s territory is the only way she can keep her people safe/ Bolt, the alpha male, has gained the ability to roar with the fury of a storm and shoot blasts of lightning from his mouth. He is generally more cautious and kindly than his partner, and prefers the idea of breeding sheep and moving into remote areas where other ‘civilised’ races won’t bother them.
-
-{{pageNumber,auto}}
-{{footnote Bolt}}
-
-{{watercolor6,top:367px,left:313px,width:318px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Tension has been brewing between the two ever since they were gifted with intelligence. Both are willing to die for the safety of the pack and deeply care for each other. However, if nothing changes they will probably fight to the death within a matter of weeks, each believing that the other is leading their people to their doom.
-
-Both Flame and Bolt are very, very large wolves with dark grey fur. Flame’s eyes glow with a constant orange flame and thin strips of red light run across her body, as though her skin is cracked rock sitting on top of a burning pool of magma.
-
-Bolt’s eyes and skin pulse with a crackling blue light. He always speaks softly, for if he raises his voice it rumbles with the power of thunder, shaking the ground around him.
-
-~
-
-![Top-down illustrated battle map showing a small cave complex opening onto a grassy hill and forested edge. - Top half: three irregular cave chambers connected to a central stone entry passage. - Left chamber: stone floor with barrels, sacks, and what looks like butchered meat or stored provisions. - Center chamber (upper): stone floor with stacked crates, rugs/mats, and a small round object (barrel or drum). - Right chamber: stone floor with wooden crates and a smoldering campfire with scorch marks. - Middle: a short rocky tunnel / doorway where the caves meet and exit to the surface. - Bottom half: open grassy slope with a lone burning projectile or scorch mark near the center and a tree line along the bottom edge, casting shadows onto the grass. - Map features: grid overlay for movement/measurement, stone textures inside caves, a wooden frame around the map. Overall impression: a game-ready dungeon entrance set on a hillside, with supplies and a campsite inside the caves and woods outside.](./5E_Wolves_Of_Welton_images/image_007.png)
-
-~
-
-![A simple, mostly gray rectangular image with two vertical columns. Each column contains several evenly spaced thin dark-red horizontal lines (like ruled lines) aligned across both columns. Near the lower part of each column there is a small black dot. The layout is minimal and highly symmetrical.](./5E_Wolves_Of_Welton_images/image_008.png)
-
-~
-
-**Thanks & Acknowledgements**
-
-All maps were created using *Campaign Cartographer 3*.
-
-~
-
-Dungeons & Dragons is the property of Wizards of the Coast. Please buy their books and support their excellent work.
-
-~
-
-*This adventure was produced by* ***Winghorn Press****. Check us out at www.winghornpress.com and @WingHornPress on Twitter.*
-
-~
-
-*If you want to get in touch, send feedback or take part in playtest sessions on Roll20.com, please send a message to winghornpress@gmail.com, or to u/therainydaze on Reddit.*
-
-{{watercolor13,top:494px,left:7px,width:390px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Frozen Sick
-
-# Frozen Sick
-
-{{pageNumber,auto}}
-{{footnote Frozen Sick}}
-
-{{watercolor3,top:532px,left:95px,width:378px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Northwatch Wardens Integration (DM)
-
-**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — Revelation Adventure)
-
-**Campaign Arc:** Arc 2: Revelation — The Hidden Truth
-
-**Arc Position:** Part 1 of 2 in Arc 2
-
-**Arc Progress Notes:** This is the **revelation adventure** where the mystery's core is uncovered. Players discover Salsvault as the source of all magical disturbances, learn it's Aeorian in origin, and realize it was deliberately activated. This shifts the campaign from "what's happening?" to "who triggered it and why?" By completing this adventure, players understand they're dealing with ancient, powerful magic and that the problem is far bigger than initially realized.
-
-**Campaign Connection:** This is the **revelation adventure** where players discover the source of all magical disturbances. Salsvault, a buried Aeorian laboratory, has reactivated and is leaking deadly spores and transformative magic.
-
-**Prerequisite Adventures:** 
-- Enhanced if players completed Wolves of Welton (recognize connection to Alexi's death)
-- Enhanced if players completed Wild Sheep Chase (Shinebright can provide research assistance)
-
-**Leads To:**
-- **Temple of Dragonknights** (magical convergence points attract predators)
-- All future adventures (Salsvault remains active, continuing threat)
 
 {{note
-**DM Secret Resources:** For the truth behind this adventure, see:
-- **Chapter 6: Places Secrets** — "Salsvault: The Frozen Laboratory" section
-- **Chapter 6: The Far North Secrets** — Regional context
-- **Chapter 6: The Aeorian Echo** — Campaign arc context
+This scene transitions the party from investigation and travel into the heart of the mystery. The den should feel eerie, intelligent, and wrong — a place shaped by creatures that have only recently begun to think like people.
 }}
 
-**Key Secrets:**
-- Salsvault's activation killed Alexi Merriksonn via magical feedback (Wolves of Welton connection)
-- The reactivation was NOT accidental — someone or something triggered it deliberately
-- Aeorian spores are both deadly (frigid woe) and transformative (wolf awakening)
-- Salsvault is still operational and will continue causing problems
-- The ruins contain both weapons and potential solutions to the Echo
+{{descriptive
+The forest grows darker as you push deeper into the Old Woods. The trees here are ancient — thick‑trunked, moss‑draped, and twisted into unnatural shapes. The air is colder than it should be, your breath misting even in daylight.
+}}
 
-**Player Discovery:** This adventure should feel like pieces clicking into place — the wolves, Alexi, the magical instability, all trace back to Salsvault. The mystery shifts from "what is happening?" to "why did it activate, and how do we stop it?"
+A faint trail of pawprints leads ahead, weaving between roots and stones. The tracks are fresh.
 
-### Mystery Clues (Aeorian Echo Investigation)
+---
+\column
+## Signs of the Pack
 
-**Primary Clue — Salsvault Is the Source:**
-- Urgon and Verla died from frigid woe contracted at Salsvault ruins
-- **Discovery Method:** Elro's briefing, Urgon's journal, physical evidence
-- **Investigation DC 10 (Medicine):** "This disease is magical in origin, not natural"
-- **Connects to:** ALL previous adventures — this is the answer to "what caused it?"
+Characters may attempt the following checks as they approach:
 
-**Secondary Clue — Activation Timeline:**
-- Salsvault became active 2-3 months ago, matching Alexi's death and wolf awakening
-- **Discovery Method:** NPC testimony, journal entries, magical residue dating
-- **Investigation DC 14 (Arcana/History):** "Something triggered this facility to wake after centuries dormant"
-- **Connects to:** Wolves of Welton (direct causal link established)
+- **Survival (DC 10):**  
+  Identify at least six wolves moving together, not hunting — *patrolling*.
 
-**Tertiary Clue — Aeorian Weapons Lab:**
-- Salsvault was a bio-weapons research facility during the Age of Arcanum
-- **Discovery Method:** Exploring ruins, inscriptions, laboratory equipment
-- **Investigation DC 15 (History):** "Aeor created this to fight the gods — it's designed to kill immortals"
-- **Connects to:** Campaign-wide implications (dangerous artifacts exist, factions want them)
+- **Nature (DC 12):**  
+  Realize wolves do not normally travel in such tight formation.
 
-**Critical Clue — Deliberate Activation:**
-- Evidence in Salsvault suggests the facility didn't reactivate randomly — it was *triggered*
-- **Discovery Method:** Investigation DC 16 in control rooms, Arcana DC 17 to analyze activation sequence
-- **Discovery:** "The startup sequence was initiated manually — someone knew what they were doing"
-- **Connects to:** Future campaigns (WHO triggered it, and WHY?)
+- **Perception (DC 10):**  
+  Hear faint, rhythmic sounds ahead — not growls, but something closer to *speech*.
 
-**Hidden Clue — Other Aeorian Sites:**
-- Maps or logs in Salsvault reference other Aeorian facilities across Northreach and beyond
-- **Discovery Method:** Thorough exploration, language comprehension (Celestial/Draconic for old inscriptions)
-- **Discovery:** "Salsvault is one of dozens of research stations — and they're all networked"
-- **Connects to:** Campaign scope expansion (the problem is bigger than one ruin)
+- **Investigation (DC 12):**  
+  Notice claw marks on trees arranged in deliberate patterns, almost like symbols.
+
+{{note
+These clues foreshadow the wolves’ awakening and hint that the den is more than a simple lair — it is becoming a *settlement*.
+}}
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor12,top:663px,left:49px,width:392px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## The Clearing Before the Den
+
+{{descriptive
+The trees suddenly thin, opening into a wide clearing carpeted with dead leaves and frost. At the far end, beneath a jutting rock shelf, yawns the entrance to a cave — dark, deep, and unnervingly quiet.
+}}
+
+The clearing contains several strange details:
+
+- A circle of stones arranged with deliberate spacing  
+- Bones piled neatly, not scattered  
+- A half‑gnawed sheep carcass dragged into the shade  
+- A crude wooden totem made of branches and twine  
+
+Characters examining the totem may attempt:
+
+- **Arcana (DC 10):**  
+  Sense faint magical residue — old, fading, not cast by wolves.
+
+- **Religion (DC 12):**  
+  Recognize the shape as a symbol of *protection*, not aggression.
+
+- **Insight (DC 10):**  
+  Realize the wolves are trying to imitate humanoid behavior.
+
+---
+
+## Optional Flavor: The Watcher
+
+If you want to heighten tension:
+
+{{descriptive
+A soft crack echoes from the treeline. A pair of yellow eyes glints between the branches — watching, waiting. The shape vanishes before you can focus on it.
+}}
+
+This is one of Bolt’s scouts, observing the party’s approach.
+
+---
+\column
+## Entering the Den
+
+{{descriptive
+The cave mouth is wide and shadowed, the air inside cold and still. The scent of wet fur and earth drifts outward. Somewhere in the darkness, something shifts — slow, deliberate, aware.
+}}
+
+The party may:
+
+- Enter cautiously  
+- Call out  
+- Attempt stealth  
+- Prepare for combat  
+- Try to lure the wolves out  
+
+Whatever they choose, the next scene begins when they cross the threshold.
+
+---
+
+## Moving the Adventure Forward
+
+This scene leads directly into:
+
+**Scene 6: The Wolf Den — First Contact with Bolt and the Pack**
+
+The tone should shift from wilderness danger to moral tension and mystery. The wolves are not mindless beasts — and the party is about to discover that firsthand.
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor5,top:261px,left:495px,width:288px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Scene 6: The Wolf Den
+{{note
+This is the moral and narrative pivot of the adventure. The wolves are not monsters — they are newly awakened, frightened, and struggling to survive. Bolt represents reason. Flame represents fear and aggression. How the party handles this moment shapes the entire outcome.
+}}
+
+{{descriptive
+The cave narrows as you move deeper, the air growing colder and stiller. Faint blue light flickers ahead — not firelight, but something stranger, reflecting off damp stone.
+
+As you round a bend, the tunnel opens into a wide chamber. Bones are stacked neatly along one wall. A crude firepit smolders in the center, though no flame burns. And standing around it are wolves — six of them — watching you with unsettling intelligence in their eyes.
+}}
+
+A larger wolf steps forward, posture calm but wary. His fur is streaked with silver, and his gaze is steady.
+
+This is **Bolt**, the awakened alpha.
+
+---
+
+## Bolt’s Introduction
+
+{{descriptive
+The wolf lowers his head slightly — not in submission, but in greeting.
+
+“You understand me,” he says, the words rough and halting, as if newly learned. “Good. Then we can speak. We are not monsters. We did not choose this change. But we think now. We feel. We fear. And we will not starve.”
+}}
+
+Bolt does **not** attack unless provoked.  
+He is desperate for peace, but terrified of losing his pack.
+
+---
+
+## Flame’s Challenge
+
+Before the party can respond, another wolf pushes forward — scarred, bristling, eyes burning with anger.
+
+{{descriptive
+“You talk too much, Bolt!” the wolf snarls. “They are prey. They hunt us. We hunt them. That is the way!” He turns to you, teeth bared. “Leave our woods or die in them!”
+}}
+
+This is **Flame**, the challenger.  
+He represents the faction of the pack that wants open war.
+
+---
+
+\column
+## The Tension in the Den
+
+The wolves split into two clear groups:
+
+- **Bolt’s supporters** — cautious, hopeful, afraid  
+- **Flame’s supporters** — angry, hungry, ready to fight  
+
+The party’s next actions determine which faction prevails.
+
+---
+
+## What the Party Can Do
+
+### **1. Attempt Diplomacy**
+Bolt responds to:
+
+- Calm voices  
+- Offers of food  
+- Promises of territory  
+- Questions about their awakening  
+- Mention of Alexi Merriksonn  
+
+A successful **DC 12 Persuasion** check strengthens Bolt’s position.
+
+### **2. Ask About the Awakening**
+Bolt shares:
+
+- “We were hunting. Then… light. Pain. Thought.”  
+- “We knew things we did not know before.”  
+- “We felt fear — real fear — for the first time.”  
+
+This is a **major Aeorian Echo clue**.
+
+### **3. Provoke Flame**
+If the party is aggressive, Flame leaps at the opportunity.
+
+A failed **Intimidation** or hostile action triggers **Flame’s Coup** (combat).
+
+### **4. Offer a Compromise**
+Bolt is open to:
+
+- Relocating the pack  
+- Ceasing attacks  
+- Helping the village in exchange for food or territory  
+
+This leads to the **Negotiated Peace** path.
+
+---
+
+### If Combat Breaks Out
+
+Combat only begins if:
+
+- The party attacks  
+- Flame seizes control  
+- A failed social check escalates tension  
+- The party refuses to speak  
+
+Bolt **does not fight to kill** — he yields at 50% HP and begs for peace.
+
+Flame fights to dominate, not to slaughter.
+
+---
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor2,top:213px,left:90px,width:290px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Bolt (Awakened Alpha)
+{{monster,frame
+## Bolt, Awakened Alpha Wolf
+*Medium monstrosity, neutral good*
+___
+**Armor Class** :: 14 (natural armor)  
+**Hit Points**  :: 30 (5d8 + 5)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 15 (+2) | 12 (+1) | 12 (+1) | 14 (+2) | 12 (+1) |
+___
+**Skills** :: Perception +4, Insight +4, Stealth +4  
+**Senses** :: passive Perception 14  
+**Languages** :: Common, Sylvan, Wolf Cant  
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Pack Leader.***  
+Allied wolves within 30 ft gain +1 to attack rolls while Bolt is conscious.
+
+***Measured Voice.***  
+Bolt has advantage on Persuasion checks made to calm creatures.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage.
+}}
+
+---
+
+### Flame (Aggressive Challenger)
+{{monster,frame
+## Flame, Wolf Challenger
+*Medium monstrosity, chaotic neutral*
+___
+**Armor Class** :: 14 (natural armor)  
+**Hit Points**  :: 26 (4d8 + 8)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 15 (+2) | 14 (+2) | 10 (+0) | 12 (+1) | 10 (+0) |
+___
+**Skills** :: Perception +3, Intimidation +2  
+**Senses** :: passive Perception 13  
+**Languages** :: Broken Common, Wolf Cant  
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Blood Hunger.***  
+Flame has advantage on attack rolls against creatures below half hit points.
+
+***Rally the Pack (Recharge 5–6).***  
+Two allied wolves may immediately move up to half their speed.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 7 (2d4 + 2) piercing damage.
+}}
+
+\column
+
+### Scene 6B: Inside the Wolf Den
+{{note
+This section expands the den beyond the Bolt/Flame confrontation. It reinforces that the wolves are building a society, not merely occupying a cave. These details deepen the mystery of their awakening and give players meaningful environmental clues.
+}}
+
+{{descriptive
+The chamber behind Bolt is larger than expected — a natural cavern shaped by time and water, but altered recently by deliberate effort. The air is cold and still, carrying the scent of fur, earth, and smoke.
+}}
+
+The den is divided into several distinct areas, each showing signs of **organization** far beyond normal wolf behavior.
+
+---
+
+### Den Layout
+
+#### **1. The Council Circle**
+A ring of stones surrounds a shallow firepit. No flame burns, but faint heat lingers.
+
+- Stones are arranged evenly  
+- Scratch marks on the floor suggest repeated gatherings  
+- Wolves have been *meeting* here  
+
+**Insight (DC 10):**  
+The wolves are imitating humanoid social structure.
+
+---
+
+#### **2. The Nursery Alcove**
+{{descriptive
+Soft whimpers echo from a narrow alcove. Two small wolf pups peek out — wide‑eyed, trembling, curious.
+}}
+
+The pups are:
+
+- Noncombatants  
+- Frightened but not aggressive  
+- Protective of Bolt  
+- A major emotional anchor for negotiation  
+
+**Animal Handling (DC 10):**  
+Calm the pups; they approach cautiously.
+
+**Perception (DC 12):**  
+Notice the pups have slightly larger eyes and more expressive faces — early signs of awakening.
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor12,top:246px,left:325px,width:312px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+#### **3. The Food Storage Pit**
+A shallow depression holds:
+
+- Sheep bones stacked neatly  
+- A half‑gnawed deer leg  
+- A few stolen tools (shears, a lantern, a wooden spoon)  
+
+**Investigation (DC 10):**  
+The tools were not chewed — they were *examined*.
+
+**Arcana (DC 12):**  
+Faint magical residue clings to the bones — the same signature as the wolves themselves.
+
+---
+
+#### **4. The Sleeping Hollow**
+A cluster of bed‑like nests made of:
+
+- Moss  
+- Leaves  
+- Torn cloth  
+- Wool stolen from shepherds  
+
+**Nature (DC 10):**  
+Wolves do not normally build nests like this.
+
+**Survival (DC 12):**  
+Tracks show wolves pacing in circles — thinking, planning, restless.
+
+---
+
+#### **5. The Escape Tunnel**
+A narrow passage leads deeper into the cave system.
+
+- Too small for humanoids  
+- Used by scouts and pups  
+- Leads to a hidden exit in the woods  
+
+Bolt will mention it if trust is earned.
+
+---
+
+### Awakening Clues
+
+The den contains several subtle but powerful signs that the wolves’ intelligence is **new, unstable, and magical**.
+
+#### **1. Scratched Symbols**
+On the far wall, crude symbols are carved into the stone.
+
+- Some resemble letters  
+- Others mimic shepherd markings  
+- One looks like a crude map of the woods  
+
+**History or Arcana (DC 12):**  
+These are attempts at writing — the wolves are *learning*.
+
+---
+
+#### **2. The Blue‑Frost Patch**
+A patch of stone is covered in geometric frost patterns.
+
+{{note
+This frost matches the Echo signatures found in Pinebrook and Frozen Sick.
+}}
+
+**Arcana (DC 14):**  
+“This is not natural cold. This is transmutation magic — old, powerful, and unstable.”
+
+\column
+
+---
+
+#### **3. The Broken Collar**
+A metal collar lies near the nursery, snapped clean in half.
+
+- Engraved with the name “Alexi”  
+- Faint magical residue  
+- Burn marks along the break  
+
+**Investigation (DC 12):**  
+This was worn by a wolf — and broken during the awakening.
+
+**Insight (DC 10):**  
+Bolt avoids looking at it.
+
+---
+
+### Optional: Bolt’s Private Truth
+
+If the party earns Bolt’s trust:
+
+{{descriptive
+Bolt glances toward the frost‑covered wall. “When the light came… we saw things. Felt things. Pain. Thought. Memory. We knew death. We knew fear. We knew… ourselves.” He shivers. “We do not know why.” 
+}}
+
+This is the **strongest Aeorian Echo clue** in the entire adventure.
+
+---
+
+### Moving the Adventure Forward
+
+This expanded den content enriches:
+
+- Negotiation scenes  
+- Investigation checks  
+- Emotional stakes  
+- Aeorian Echo foreshadowing  
+- Player understanding of the wolves’ transformation  
+
+It leads directly into **Scene 7: Resolution Paths**.
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor8,top:500px,left:158px,width:262px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Scene 7: Resolution Paths
+{{note
+This scene resolves the conflict between Bolt’s awakened pack and the village of Welton. The party’s choices determine whether the region gains new allies, suffers needless bloodshed, or becomes entangled in a deeper mystery.
+}}
+
+The wolves are not the true enemy — they are victims of the Aeorian Echo.  
+But the party’s actions decide whether this truth is revealed or buried.
+
+---
+
+### Path A: Negotiated Peace
+If the party chooses diplomacy — or if Bolt yields during combat — the wolves offer to talk.
+
+{{descriptive
+Bolt lowers his head. “We do not want war. We want to live. To hunt. To protect our young. If your people will let us be… we will leave them be.”
+}}
+
+#### What Bolt Offers
+- The pack relocates to a safer hunting ground  
+- They cease all attacks on shepherds  
+- They avoid Welton’s roads and farms  
+- They agree to a probationary period  
+
+#### What the Party Must Do
+Return to Welton and present the case to the council.
+
+A **DC 10–15 Persuasion** check (depending on arguments) can sway swing votes.
+
+{{note
+Father Merriksonn and Corel are guaranteed YES votes if the party attempts negotiation.  
+The party needs **one additional swing vote** for the peace to pass.
+}}
+
+#### If the Council Agrees
+{{descriptive
+The council chambers erupt in relieved murmurs. Father Merriksonn clasps your hands. “You’ve spared us a war — and given these creatures a chance my brother never had.”
+}}
+
+**Outcome:**
+- Peace established  
+- Wolves relocate  
+- 800 gp reward paid  
+- Bolt becomes a future ally  
+- Major Aeorian Echo clue revealed  
+
+---
+
+\column
+
+### Path B: Total Extermination
+If the party kills Bolt, Flame, and the pack — or chooses violence from the start — the wolves die defending their den.
+
+{{descriptive
+The last wolf collapses into the dirt, breath rattling out in a final, pained growl. The den falls silent.
+}}
+
+#### Aftermath
+- The village celebrates  
+- 800 gp reward paid immediately  
+- Father Merriksonn is quietly devastated  
+- The mystery of the awakening remains unsolved  
+
+{{note
+This path removes a major ally and delays the party’s understanding of the Aeorian Echo.
+}}
+
+---
+
+### Path C: Deception — “We killed them” (but didn’t)
+If the party negotiates peace but lies to the council:
+
+{{descriptive
+The council erupts in cheers as you announce the wolves are dead. Tillus slaps the table triumphantly. “Good riddance!” he shouts.
+}}
+
+#### Outcome
+- 800 gp reward paid  
+- Wolves survive in secret  
+- The party must maintain the lie  
+- Suspicion may arise later  
+- Bolt becomes a hidden ally  
+
+{{note
+This path creates long‑term narrative tension and future complications — perfect for campaign play.
+}}
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor7,top:75px,left:110px,width:392px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Path D: Flame’s Coup
+If the party mishandles negotiations, shows aggression, or fails key social checks, Flame seizes control.
+
+{{descriptive
+Flame lunges forward, snarling. “Enough TALK! We are wolves — we TAKE what we need!” The pack splits as several wolves rally behind him.
+}}
+
+#### What Happens
+- Bolt is wounded or driven off  
+- Flame becomes alpha  
+- The pack becomes hostile  
+- Combat is likely  
+
+If the party defeats Flame, Bolt regains control and negotiation becomes possible again.
+
+If Flame wins, the wolves escalate attacks on Welton — and the party may be called back later to finish the job.
+
+---
+
+### Moving the Adventure Forward
+
+Regardless of the path chosen, the party returns to Welton with:
+
+- Answers  
+- Consequences  
+- And the first major clue that something ancient is awakening across the frontier  
+
+{{descriptive
+As you leave the Old Woods behind, the wind carries a distant, mournful howl — not of a beast, but of something newly born into thought.
+}}
+
+\column
+## Scene 8: Rewards & Aftermath
+
+{{note
+This scene resolves the consequences of the party’s choices. Whether they negotiated peace, exterminated the pack, deceived the council, or survived Flame’s coup, the outcome shapes Welton’s future — and the Wardens’ reputation.
+}}
+
+---
+
+### If the Party Negotiated Peace
+
+{{descriptive
+The council chamber fills with murmurs as you explain the wolves’ awakening — their fear, their hunger, their desire to survive. Father Merriksonn listens with shining eyes. Corel nods slowly, thoughtfully.
+}}
+
+A brief debate follows, but the tide turns in the party’s favor.
+
+{{descriptive
+At last, the council votes. A majority raises their hands. Peace — tentative, fragile, but real — has been chosen.
+}}
+
+### Rewards
+- **800 gp** (paid after the probationary period)  
+- **Free lodging** at the Shepherd’s Crook  
+- **Father Merriksonn’s gratitude**  
+- **Bolt’s pack becomes a future ally**  
+- **Alexi’s spellbook** (if the party earns Merriksonn’s trust)
+
+### Long‑Term Effects
+- Welton stabilizes  
+- Shepherds return to their fields  
+- Rumors spread of Wardens who “made peace with wolves”  
+- The Aeorian Echo mystery deepens  
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor1,top:123px,left:322px,width:392px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### If the Party Exterminated the Pack
+
+{{descriptive
+The village erupts in celebration when you return. Tillus slaps the table triumphantly. Shepherds cheer. Leanor Slatebeard pours drinks for everyone.
+}}
+
+But not everyone is joyful.
+
+{{descriptive
+Father Merriksonn stands apart, hands clasped, eyes downcast. “My brother’s death… may have caused this,” he murmurs. “I only wish we had understood more before blood was shed.”
+}}
+
+### Rewards
+- **800 gp** (paid immediately)  
+- **Free lodging**  
+- **Village gratitude**  
+
+### Long‑Term Effects
+- The wolves are gone  
+- The mystery remains unsolved  
+- Merriksonn becomes distant  
+- Elric later warns: “Whatever awakened them is still out there.”
+
+---
+
+### If the Party Lied — “We killed them” (but didn’t)
+
+{{descriptive
+The council erupts in cheers as you announce the wolves’ demise. Tillus pumps his fist. “Good riddance!” he shouts.
+}}
+
+The lie holds — for now.
+
+### Rewards
+- **800 gp**  
+- **Free lodging**  
+- **Bolt’s pack survives in secret**  
+
+### Long‑Term Effects
+- The party must maintain the deception  
+- Suspicion may arise if wolves are spotted  
+- Bolt becomes a hidden ally  
+- Welton’s trust becomes fragile  
+
+{{note
+This path creates excellent campaign tension. Use it to complicate future politics, alliances, or moral dilemmas.
+}}
+
+---
+\column
+
+### If Flame’s Coup Succeeded
+
+{{descriptive
+Flame stands triumphant over Bolt’s fallen form, snarling. “We are done with talk. We take what we need. Tell your village — the woods belong to us now.”
+}}
+
+The pack becomes hostile and unpredictable.
+
+### Rewards
+- **None immediately**  
+- The council may later pay the party to “finish the job”  
+- Bolt may survive and seek the party’s help in secret  
+
+### Long‑Term Effects
+- Wolf attacks escalate  
+- Welton suffers  
+- The party may be forced into a second confrontation  
+- The Echo mystery becomes more dangerous  
+
+---
+
+
+
+### Returning to Welton
+
+{{descriptive
+As you leave the Old Woods behind, the wind carries a long, mournful howl — not of a beast, but of something newly awakened to thought. Whatever changed the wolves is still out there, waiting.
+}}
+
+This concludes **Wolves of Welton**, but the consequences ripple outward into the frontier.
+
+The Wardens have taken their first step into the mystery of the **Aeorian Echo**.
+
+### Scene 9: Return to Waystone
+{{note
+This scene closes the Wolves of Welton adventure and transitions the party into the broader campaign arc. It reinforces that the wolves’ awakening is not an isolated incident — it is part of something ancient stirring across Northreach.
+}}
+
+{{descriptive
+The road back to Waystone feels quieter than before. The wind carries the scent of pine and distant hearthfire. As the village comes into view, lanterns glow warmly against the falling dusk.
+}}
+
+Marshal Brenna Thorne greets you at the guild hall with a firm nod, but it is **Lorewarden Elric Vael** who steps forward first, eyes sharp with curiosity.
+
+---
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor6,top:171px,left:192px,width:364px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Elric’s Debrief
+
+{{descriptive
+Elric folds his arms, studying each of you. “Awakened wolves,” he murmurs. “Speaking. Planning. Reasoning. This is… unprecedented.” He gestures toward the long table. “Tell me everything.”
+}}
+
+Let the players recount their version of events — negotiation, battle, deception, or tragedy. Elric listens intently, occasionally jotting notes in a leather‑bound journal.
+
+When they finish:
+
+{{descriptive
+“This is the third anomaly reported in Northreach this month,” Elric says quietly. “Palebank Village to the north has seen a strange sickness — blue veins, slow freezing. A wizard’s tower near the coast suffered a magical rupture. And now wolves awakening to thought.” He closes the journal. “Something is stirring. Something old.”
+}}
+
+---
+
+
+
+### Brenna’s Response
+
+{{descriptive
+Brenna leans against the table, arms crossed. “Whatever’s happening, it’s spreading. And the Wardens are the only ones positioned to respond quickly.” She gives you a steady look. “Rest tonight. Tomorrow, we plan our next move.”
+}}
+
+She ensures the party receives their payment, lodging, and any promised rewards.
+
+---
+
+### Optional: Father Merriksonn’s Visit
+
+If the party negotiated peace or showed compassion:
+
+{{descriptive
+Father Merriksonn arrives quietly at the hall, clutching a wrapped bundle. “This belonged to my brother,” he says, offering Alexi’s spellbook. “If he caused this… then perhaps his work can help you understand what comes next.”
+}}
+
+If the party exterminated the wolves:
+
+{{descriptive
+He stands at a distance, offering only a solemn nod. “Thank you for protecting Welton,” he says softly, though grief shadows his eyes.
+}}
+
+---
+
+\column
+
+### The Echo Grows
+
+{{note
+This is the moment the party realizes Wolves of Welton was not a standalone problem — it was the first sign of a much larger threat.
+}}
+
+{{descriptive
+Elric steps to the window, staring out at the darkening frontier. “Magic this old does not wake without reason,” he says. “And it never wakes alone.”
+}}
+
+He turns back to the party.
+
+{{descriptive
+“I believe the wolves were changed by a surge of ancient power — a pulse from somewhere deep in the north. If we can find the source, we may be able to stop what’s coming.” He closes his journal with a decisive snap. “I’ll need your help.”
+}}
+
+---
+
+### Moving the Campaign Forward
+
+This scene sets up the next adventures:
+
+- **Frozen Sick** (direct Echo connection)  
+- **Peril in Pinebrook** (Echo‑touched crime & corruption)  
+- **Wild Sheep Chase** (magical destabilization)  
+- **The Old Woods Expedition** (Aeorian ruins)  
+
+{{descriptive
+The fire crackles in the hearth as the night deepens. Outside, the wind howls across the frontier — a lonely, mournful sound that no longer feels entirely natural.
+}}
+
+The Wardens have taken their first step into the mystery of the **Aeorian Echo**.
+
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor3,top:319px,left:293px,width:388px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+# Frozen Sick
+## Northwatch Wardens Integration (DM)
+
+{{note
+**Arc Position:** Arc 2 — *Revelation*  
+**Mystery Rating:** ⭐⭐⭐⭐⭐ (Critical — The Truth Revealed)  
+**Adventure Tier:** Levels 2–4  
+}}
+
+This adventure marks the **turning point** of the entire Northreach campaign.  
+Where Wolves of Welton and Peril in Pinebrook showed *symptoms* of the Aeorian Echo, **Frozen Sick reveals the source**.
+
+This is where the Wardens finally understand:
+
+- What caused the wolves to awaken  
+- What killed Alexi Merriksonn  
+- Why magic is destabilizing across the frontier  
+- Where the Echo is coming from  
+- And that someone — or something — **triggered it deliberately**
+
+---
+
+### Campaign Arc Integration
+
+#### **Arc 1: First Signs**  
+- Wolves of Welton → awakened intelligence  
+- Peril in Pinebrook → smuggling & corruption  
+- Wild Sheep Chase → magical destabilization  
+- Opening Adventures → frontier danger & Warden identity  
+
+#### **Arc 2: Revelation** *(Frozen Sick begins here)*  
+- The Wardens discover **Salsvault**, a buried Aeorian laboratory  
+- They learn it reactivated 2–3 months ago  
+- They uncover that its activation killed Alexi Merriksonn  
+- They realize the Echo is not random — it is **engineered**  
+- They understand the threat is **regional**, not local  
+
+Frozen Sick is the moment the campaign shifts from:
+
+> **“What’s happening?”**  
+to  
+> **“Who triggered this — and why?”**
+
+---
+
+\column
+
+### Northreach Context
+
+In your Aevoria setting:
+
+- **Palebank Village** is a Northreach settlement on the northeastern coast  
+- **Salsvault** lies deep within the frozen wastes north of Palebank  
+- **Croaker Cave** is a smuggler hideout used by local bandits  
+- **The Far North** refers to the icefields and islands beyond Northreach’s frontier  
+- **Syrinlya Outpost** is a southern‑cities expedition camp adapted into your world as a **Warden‑friendly research station**  
+
+The Wardens are uniquely positioned to respond because:
+
+- They are the only organized force with reach across the frontier  
+- They have the authority to investigate magical anomalies  
+- They have already encountered Echo effects (wolves, frost patterns, magical instability)  
+- Lorewarden Elric has been tracking these disturbances and sends them to Palebank  
+
+---
+
+### Key Secrets (DM Only)
+
+{{note
+These are the truths the players can uncover through investigation, exploration, and Salsvault’s revelations.
+}}
+
+- **Salsvault is the source of the Aeorian Echo**  
+- Its activation killed **Alexi Merriksonn** (Wolves of Welton connection)  
+- The activation was **not accidental** — someone triggered it  
+- Aeorian spores cause both **frigid woe** and **magical transformation**  
+- Salsvault is still active and will continue causing problems  
+- The facility contains both **weapons** and **cures**  
+- Salsvault is only **one** of many Aeorian sites buried across Northreach  
+
+---
+
+{{watercolor8,top:86px,left:373px,width:311px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Player Discovery 
+###### (What They Should Learn)
+
+By the end of Frozen Sick, the Wardens should understand:
+
+1. **Salsvault is the source of all magical disturbances**  
+2. The wolves’ awakening, Alexi’s death, and frigid woe are all connected  
+3. Aeorian magic is ancient, unstable, and extremely dangerous  
+4. Someone deliberately reactivated Salsvault  
+5. Other Aeorian facilities may also be waking  
+
+This is the moment the campaign **opens up**.
+
+---
+
+### Mystery Clues 
+###### (Aeorian Echo Investigation)
+
+#### **Primary Clue — Salsvault Is the Source**
+- Urgon and Verla died from frigid woe contracted at Salsvault  
+- Blue spores match the magical residue seen in Wolves of Welton  
+- **Medicine DC 10:** “This disease is magical, not natural.”
+
+#### **Secondary Clue — Activation Timeline**
+- Salsvault activated 2–3 months ago  
+- This matches:
+  - Alexi’s death  
+  - Wolf awakening  
+  - Pinebrook smuggling spike  
+- **Arcana/History DC 14:** “This was triggered — not random.”
+
+#### **Tertiary Clue — Aeorian Weapons Lab**
+- Salsvault was a bio‑weapons research facility  
+- **History DC 15:** “This was designed to kill immortals.”
+
+#### **Critical Clue — Deliberate Activation**
+- Control room logs show a manual startup sequence  
+- **Arcana DC 17:** “Someone turned this on.”
+
+#### **Hidden Clue — Other Aeorian Sites**
+- Maps reference additional facilities across Northreach  
+- **Investigation DC 16:** “Salsvault is part of a network.”
+
+---
+
+\column
 
 ### Investigation Thread Summary
 
-**If players complete this adventure, they learn:**
-1. ✅ **MYSTERY SOLVED:** Salsvault reactivation caused all magical disturbances
-2. ✅ Wolf awakening, Alexi's death, frigid woe, magical instability — all connected to Salsvault
-3. ⚠️ **NEW MYSTERY:** Salsvault didn't wake randomly — someone triggered it deliberately
-4. ⚠️ **ESCALATION:** Salsvault is still active and will continue causing problems
-5. ⚠️ **SCOPE:** Other Aeorian facilities exist and may be similarly dangerous
+By completing Frozen Sick, players learn:
 
-**Questions left unanswered (campaign-wide implications):**
-- Who triggered Salsvault, and why? (Long-term mystery)
-- How can Salsvault be deactivated? (Requires specialized knowledge/power)
-- What are the other Aeorian facilities, and are they active? (Future adventures)
-- What was Aeor really trying to accomplish? (Lore deep-dive)
+1. **The Aeorian Echo originates from Salsvault**  
+2. The wolves, Alexi, and frigid woe are all symptoms  
+3. The activation was deliberate  
+4. Salsvault is still active  
+5. Other Aeorian sites exist  
+
+This is the **revelation** that propels the campaign into Arc 3.
+
+
+## Section 2: 
+### Adventure Overview
+
+{{note
+**Theme:** Ancient magic resurfacing with deadly consequences  
+**Tone:** Mystery, urgency, cold dread, revelation  
+**Adventure Tier:** Levels 2–4  
+**Campaign Arc:** Arc 2 — *Revelation*  
+}}
+
+Frozen Sick is the **pivotal revelation adventure** of the Northwatch Wardens campaign.  
+Where earlier adventures showed scattered symptoms of the Aeorian Echo, this is where the Wardens finally uncover the **source** — the buried Aeorian ruin known as **Salsvault**.
+
+#### This adventure blends:
+
+- **Investigation** (Palebank Village)  
+- **Moral tension** (infected NPCs with limited time)  
+- **Exploration** (icefields, Syrinlya outpost)  
+- **Dungeon crawl** (Salsvault)  
+- **Lore discovery** (Aeor, Echo origins, activation timeline)  
+
+The Wardens must race against time to stop a magical disease, uncover the truth behind its origin, and confront the ancient power now stirring beneath Northreach.
 
 ---
 
-# DM Notes: Frozen Sick
+### Core Tension
 
-## Adventure Overview
+{{descriptive
+People in Palebank Village are dying. Their bodies freeze from the inside out, turning to ice statues. The disease — frigid woe — is magical, deadly, and unstoppable by normal means. The only cure lies in the ruins where it originated.
+}}
 
-**Theme:** Ancient magic resurfacing with deadly consequences — the Aeorian Echo's source is discovered
+##### The Wardens must:
 
-**Core Tension:** A deadly disease (frigid woe) is killing villagers, and the only cure lies in dangerous Aeorian ruins. Time is running out.
+- Investigate the outbreak  
+- Track the vials that spread the disease  
+- Confront bandits who unknowingly helped spread it  
+- Brave the frozen wastes  
+- Enter Salsvault  
+- Retrieve the antidote  
+- Cure the infected before time runs out  
 
-**Level Range:** 2-4 (mid-campaign adventure)
+All while discovering that Salsvault is the **source of the Aeorian Echo**.
 
-**Expected Duration:** 8-12 hours (2-3 sessions recommended)
+---
 
-**Key NPCs:**
-- **Elro Aldataur** — Village leader, retired ranger, hires the party
-- **Tulgi Lutan** — Infected dwarf trapper, suspicious of authority
-- **Urgon Wenth** — Deceased explorer (turned to ice), source of outbreak
-- **Verla Pelc** — Deceased elf collector (also turned to ice)
-- **Irven Liel** — Infected merchant, family at risk
-- **Morgo** — southern cities guide at Syrinlya outpost
-
-## Central Mystery (Aeorian Echo Connection)
-
-**THIS IS THE REVELATION ADVENTURE** — Players discover the source of all magical disturbances across Northreach.
-
-**The Truth:**
-- **Salsvault** is a buried Aeorian laboratory that recently reactivated
-- Aeorian spores (blue, magical, deadly) are leaking from the ruins
-- These spores caused frigid woe AND triggered magical phenomena across the region
-- Salsvault's activation killed Alexi Merriksonn (Wolves of Welton connection) via magical feedback
-- The ruins are **still active** and will continue causing problems
-
-**What Players Should Learn:**
-1. Salsvault is an ancient Aeorian ruin that suddenly activated 2-3 months ago
-2. It contains both deadly weapons (frigid woe) and powerful artifacts
-3. The reactivation is spreading magical corruption across Northreach (Aeorian Echo)
-4. Someone or something triggered the ruins — but who, and why?
-
-**What Remains Hidden (for future campaigns):**
-- *Why* Salsvault activated (potential: deep magic, ancient failsafe, or intentional trigger)
-- Whether other Aeorian ruins exist in the region
-- The full extent of Aeor's magical arsenal
-
-## Common DM Pitfalls
-
-### 1. Plague Timeline Too Forgiving
-**Problem:** If players take too long, infected NPCs should die — but DMs hesitate to kill NPCs.
-
-**Solution:** Use the disease mechanics strictly:
-- Urgon and Verla are *already dead* (ice statues)
-- Tulgi has ~7 days left (symptoms visible)
-- Irven's family has ~10 days (just infected)
-- PCs infected during adventure have 1d4 days before symptoms appear
-
-**Be clear:** "You have about a week before more people die. Every delay costs lives."
-
-### 2. Croaker Cave Feels Like Filler
-**Problem:** Bandit hideout can feel like a side quest distraction.
-
-**Solution:** Emphasize the urgency — bandits *stole* the vials, making them part of the outbreak's spread. Recovering the vials prevents further infections. This isn't a detour; it's critical.
-
-### 3. Salsvault Feels Like a Dungeon Crawl
-**Problem:** Final section becomes "clear rooms, fight monsters" with no tension.
-
-**Solution:**
-- Emphasize environmental hazards (cold, magical traps, unstable magic)
-- Remind players of the ticking clock (infected people dying)
-- Show evidence of Aeor's fall — this was a weapons lab during a god-war
-- Let players feel the *wrongness* of Aeorian magic (unnatural, cold, blue glow)
-
-### 4. Antidote Location Is Unclear
-**Problem:** Players get lost in Salsvault looking for gold vials (the cure).
-
-**Solution:** 
-- Drop hints early: "Urgon's notes mention 'gold vials in the preservation chamber'"
-- Use Investigation checks to find labs, storage areas
-- Morgo can provide a rough map or directions (if players ask at Syrinlya)
-- Gold vials glow faintly with warm (non-threatening) magic — contrast with blue (dangerous) spores
-
-## Resolution Outcomes
-
-### Path A: Retrieve Antidote, Cure Everyone
-**Result:**
-- Irven's family saved; Tulgi survives
-- Palebank Village celebrates party as heroes
-- Elro pays 300 gp (200 gp base + 100 gp bonus for saving Tulgi)
-- **Aeorian Echo revelation:** Party now knows Salsvault is the source
-- **Future hook:** Salsvault is still active; more threats will emerge
-
-### Path B: Retrieve Antidote, Selective Curing
-**Result:**
-- Party chooses who gets cured (limited vials)
-- Moral weight: Who deserves to live? Tulgi (gruff loner) or Irven's kids (innocent)?
-- Village reaction depends on choice
-- **Aeorian Echo revelation:** Same as Path A, but with darker tone
-
-### Path C: Fail to Retrieve Antidote in Time
-**Result:**
-- Infected NPCs die (turn to ice statues)
-- Palebank becomes a ghost town (survivors flee)
-- Party may contract frigid woe themselves (Constitution saves)
-- **Aeorian Echo revelation:** Partial — players learn Salsvault exists but not its full significance
-- **Future hook:** Party must return to Salsvault to cure themselves
-
-### Path D: Destroy or Seal Salsvault
-**Result:**
-- Advanced option: If players try to collapse/seal the ruins
-- Prevents future outbreaks but destroys valuable Aeorian knowledge
-- Lorewarden Elric is disappointed (lost research opportunity)
-- Salsvault's magic is contained but not understood
-
-## Tactical Notes
-
-### Combat Encounter Scaling
-
-**Croaker Cave (Bandits):**
-- **2-3 players:** 4 bandits + 1 bandit captain
-- **4-5 players:** 6 bandits + 1 bandit captain + 1 thug
-
-**Salsvault (Aeorian Constructs):**
-- **2-3 players:** Use animated armor + 2 flying swords per encounter
-- **4-5 players:** Use helmed horror + animated armor + 3 flying swords per encounter
-
-**Environmental Hazards:**
-- **Frigid Cold:** Unprotected PCs take 1d4 cold damage per hour in Salsvault
-- **Magical Traps:** Blue spore clouds (DC 11 Con save or contract frigid woe)
-- **Unstable Magic:** Random magical surges (use Wild Magic table for flavor)
-
-### Non-Combat Challenges
-
-**Investigation (Palebank Village):**
-- Urgon's cabin: DC 12 Investigation reveals footprints (Tulgi searched here)
-- Pelc's Curiosities: DC 10 Investigation finds receipt linking to Urgon
-- Tulgi's cabin: DC 15 Persuasion to get her to talk (she's dying and scared)
-
-**Survival (Journey to Salsvault):**
-- DC 12 Survival to navigate ice floes safely
-- DC 15 Survival to avoid blizzards (failure = exhaustion level)
-- Random encounters: ice mephits, saber-toothed tigers (1d4)
-
-**Arcana (Salsvault):**
-- DC 13 Arcana to identify Aeorian magical signatures (pre-Godsfall, god-killing weapons)
-- DC 15 Arcana to safely handle artifacts (failure = magical backlash)
-- DC 10 Arcana to recognize gold vials as antidote (warm glow vs. cold blue spores)
-
-## Improvisation Toolkit
-
-### If Players Get Stuck (Investigation Phase)
-
-1. **Elro provides new lead:** "Mila (Glassblade guard) saw Tulgi near Urgon's cabin last night. Maybe she knows something?"
-2. **Pelc's Curiosities shopkeeper (if alive) remembers:** "Urgon sold me strange blue vials. So beautiful... then they were stolen."
-3. **Tulgi breaks down:** "I'm dying! I searched Urgon's cabin for clues. I need HELP!"
-
-### If Players Avoid Croaker Cave
-
-- Bandits attack party on the road (ambush encounter)
-- Vials are dropped during combat (found on bandit leader's body)
-- Alternative: Elro's scouts locate the hideout and inform party
-
-### If Players Rush to Salsvault Without Prep
-
-- Morgo at Syrinlya warns them: "You'll need cold-weather gear, rations, and climbing equipment. The icefields are deadly."
-- Allow them to buy supplies (or borrow from southern cities expedition)
-- Random encounter on ice shows consequences of being unprepared (frozen corpse of explorer)
-
-### If Players Are Dying in Salsvault
-
-- Constructs are defending, not hunting — if party retreats, they don't pursue beyond certain rooms
-- Hidden healing potions in Aeorian storage (2d4 potions of healing)
-- Morgo can follow party (1 day behind) and provide emergency rescue
-
-## Rewards & Aftermath
-
-### Standard Rewards
-- 200 gp from Elro (base payment)
-- +100 gp bonus if Tulgi is saved
-- Aeorian artifacts (1d4 minor magical items from Salsvault)
-- Free supplies from grateful Palebank villagers
-
-### Aeorian Artifacts (Examples)
-- **Aeorian Absorber** — Wondrous item, absorbs 1 spell/day (reflects back at caster)
-- **Frigid Woe Antidote** — 1d6 gold vials (can cure disease or sell for 100 gp each)
-- **Aeorian Translation Tome** — Advantage on Arcana checks related to ancient magic
-- **Icewalker Boots** — Ignore difficult terrain from ice/snow
-
-### XP Awards (Milestone)
-- Completing Palebank investigation: Party reaches **Level 3**
-- Completing Salsvault: Party reaches **Level 4** (if not already)
-
-### Reputation Changes
-- **Palebank Village:** Friendly (saved from plague)
-- **southern cities Explorers:** Interested (party has Aeorian expertise)
-- **Lorewarden Elric:** Extremely interested (requests full debrief on Salsvault)
-
-## Aeorian Echo Foreshadowing
-
-**Revelations to drop during the adventure:**
-
-1. **Salsvault's Activation:**
-   > "The ruins weren't always active. Something *woke them up* about 2-3 months ago. Urgon was just unlucky enough to be there when it happened."
-
-2. **Aeorian Magic Description:**
-   > "The blue glow is unnatural. It's cold, wrong, anti-life. This isn't normal magic — it's weaponized divinity, designed to kill gods themselves."
-
-3. **Geographical Implications:**
-   > "If Salsvault is active, other Aeorian ruins might be waking too. And they could be anywhere beneath Northreach's soil."
-
-4. **Morgo's Warning (at Syrinlya):**
-   > "We've had three expeditions disappear in The Far North this year. More than usual. Something's changing out there on the ice."
-
-5. **Elric's Debrief (when party returns to Waystone Inn):**
-   > "Salsvault. Gods above. Do you realize what this means? Aeor fell during the Godsfall, buried beneath ice. If its ruins are reactivating... the wolves at Welton, the magical instability across Northreach — it's all connected. The Aeorian Echo is spreading."
-
-{{pageNumber,auto}}
-{{footnote DM Notes: Frozen Sick}}
-
-{{watercolor13,top:308px,left:360px,width:303px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:411px,left:488px,width:251px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-# DM Prep Checklist: Frozen Sick
-
-## One Week Before Session
-
-- [ ] Read entire adventure (longer adventure — budget 1 hour)
-- [ ] Review DM Notes section for themes and pitfalls
-- [ ] Familiarize yourself with frigid woe disease mechanics (pg 1 of adventure)
-- [ ] Review Salsvault map (if using) or plan theater-of-mind descriptions
-- [ ] Prepare NPC voices: Elro (gruff ranger), Tulgi (suspicious, dying), Morgo (helpful guide)
-- [ ] Decide if using Option A (keep Aevoria names) or Option B (generic names)
-- [ ] Mark key revelation moments (Salsvault is source of Aeorian Echo)
-
-## Day Before Session
-
-- [ ] Print/bookmark stat blocks:
-  - [ ] Bandit (MM p343)
-  - [ ] Bandit Captain (MM p344)
-  - [ ] Animated Armor (MM p19)
-  - [ ] Flying Sword (MM p20)
-  - [ ] Helmed Horror (MM p183) — optional for larger parties
-- [ ] Print/bookmark NPC summaries (Elro, Tulgi, Urgon's backstory)
-- [ ] Prepare frigid woe tracking sheet (list infected NPCs and days remaining)
-- [ ] Review Croaker Cave encounter (bandit motivations, treasure)
-- [ ] Review Salsvault key locations (preservation chamber = antidote location)
-- [ ] Prepare Aeorian artifact descriptions (gold vials, minor magic items)
-- [ ] Decide environmental hazard frequency (cold damage, magical traps)
-
-## Props & Materials
-
-- [ ] Index card with frigid woe disease progression timeline
-- [ ] Index card with Salsvault key rooms (if theater of mind)
-- [ ] Notecard listing infected NPCs and countdown
-- [ ] Map of Palebank Village (sketch or theater of mind)
-- [ ] Blue tokens/markers (represent Aeorian spores/magic)
-- [ ] Gold tokens (represent antidote vials)
-- [ ] Cold-weather survival gear list (for player reference)
-
-## Session Zero / Player Prep
-
-- [ ] Confirm party level (2-4 recommended; can start at Level 2)
-- [ ] Brief players: This is a time-sensitive adventure (people are dying)
-- [ ] Set expectations: Exploration, investigation, and dungeon crawl blend
-- [ ] Ask players: "How does your character feel about deadly diseases? Ancient ruins? Moral choices about who to save?"
-- [ ] Clarify: This adventure reveals major campaign lore (Aeorian Echo source)
-- [ ] Remind players to track rations, supplies for arctic travel
-
-## Quick Reference During Play
-
-### Frigid Woe Disease Mechanics (Copy This!)
-
-**Transmission:** Contact with blue Aeorian spores (DC 11 Con save to resist)
-
-**Incubation:** 1d4 days before symptoms appear
-
-**Symptoms:**
-- Fatigue, chills, visible blue veins
-- Speed reduced by 5 ft
-- Every 10 days: DC 11 Con save or speed reduced by another 5 ft
-- If speed reaches 0: Creature dies and turns into ice statue
-
-**Cure:** Drinking Aeorian antidote (golden vials) — ends all symptoms instantly
-
-**Current Infected NPCs (at adventure start):**
-- Urgon Wenth: DEAD (ice statue)
-- Verla Pelc: DEAD (ice statue)
-- Tulgi Lutan: ~7 days remaining (symptoms visible)
-- Irven Liel + family: ~10 days remaining (just exposed)
-
-### Key Investigation DCs
-
-**Palebank Village:**
-- DC 12 Investigation (Urgon's cabin): Find Tulgi's footprints
-- DC 10 Investigation (Pelc's Curiosities): Find receipt linking Urgon to vials
-- DC 15 Persuasion (Tulgi): Convince her to reveal what she knows
-- DC 10 Insight (Elro): Realize he's genuinely desperate, not hiding anything
-
-**Croaker Cave:**
-- DC 13 Stealth (approach): Surprise bandits
-- DC 12 Intimidation: Force bandits to surrender
-- DC 10 Investigation (hideout): Find stolen vials in leader's chest
-
-**Salsvault:**
-- DC 13 Arcana: Identify Aeorian magical signatures
-- DC 15 Arcana: Safely handle unstable artifacts
-- DC 10 Perception: Notice gold vials glowing warmly (vs. blue spores)
-- DC 12 Survival: Navigate icy passages without falling
-
-### Encounter Scaling Quick Reference
-
-**2-3 Players:**
-- Croaker Cave: 4 bandits + 1 bandit captain
-- Salsvault encounters: 2 animated armor OR 1 animated armor + 3 flying swords
-
-**4-5 Players:**
-- Croaker Cave: 6 bandits + 1 bandit captain + 1 thug
-- Salsvault encounters: 1 helmed horror + 1 animated armor + 3 flying swords
-
-**Environmental Hazards (All Party Sizes):**
-- Frigid cold: 1d4 cold damage/hour without protection
-- Blue spore clouds: DC 11 Con save or contract frigid woe
-- Unstable magic zones: Random magical effects (DM discretion)
-
-### Salsvault Key Locations (Quick Map)
-
-1. **Entrance Hall:** Ice-covered, Aeorian glyphs glowing blue
-2. **Research Labs:** Broken equipment, blue spore clouds (contaminated)
-3. **Preservation Chamber:** ANTIDOTE LOCATION — gold vials on shelves
-4. **Construct Storage:** Animated armor/flying swords activate if disturbed
-5. **Central Vault:** Optional boss encounter (helmed horror guardian)
-
-### Pacing Guide (2-3 Sessions)
-
-**Session 1: Palebank Investigation (3-4 hours)**
-- Hour 1: Urgon's funeral, Elro's request, cabin investigation
-- Hour 2: Meet Tulgi, visit Pelc's Curiosities, gather leads
-- Hour 3: Track bandits to Croaker Cave
-- Hour 4: Assault Croaker Cave, recover vials, return to village
-
-**Session 2: Journey to Salsvault (3-4 hours)**
-- Hour 1: Prepare for journey, travel to Syrinlya, meet Morgo
-- Hour 2: Travel across ice floes, random encounters
-- Hour 3: Arrive at Salsvault, explore entrance
-- Hour 4: Navigate Salsvault, environmental hazards
-
-**Session 3: Salsvault Climax (2-4 hours)**
-- Hour 1: Combat encounters (constructs)
-- Hour 2: Find preservation chamber, retrieve antidote
-- Hour 3: Return journey, cure infected NPCs
-- Hour 4: Debrief with Elro, Lorewarden Elric revelation, rewards
-
-### Important Names
-
-- **Elro Aldataur:** Retired ranger, village leader (hires party)
-- **Urgon Wenth:** Deceased dwarf explorer (turned to ice)
-- **Tulgi Lutan:** Infected dwarf trapper (suspicious, dying)
-- **Verla Pelc:** Deceased elf collector (owned Pelc's Curiosities)
-- **Irven Liel:** Infected merchant (family at risk)
-- **Mila Teno:** Glassblade guard (helpful NPC)
-- **Morgo:** Guide at Syrinlya outpost (southern cities explorer)
-- **Salsvault:** Aeorian laboratory ruin (source of frigid woe)
-
-### Quick Treasure
-
-- 200 gp from Elro (base payment)
-- +100 gp bonus (if Tulgi saved)
-- 1d6 gold vials (antidote) — can sell for 100 gp each or keep
-- 1d4 Aeorian artifacts (minor magic items)
-- Bandit loot: 50 gp, assorted gear
-
-### Elro's Hiring Speech
-
-{{descriptive
-**Elro's Hiring Speech:**
-"Thank you for attending Urgon's service. I believe Palebank Village is in danger. Urgon died of a strange affliction — turned to ice, like a statue. Now Tulgi Lutan shows the same symptoms. I need you to find out what's killing my people before it spreads. Will you help us?"
-}}
-
-### Tulgi's Confession (if persuaded)
-
-{{descriptive
-**Tulgi's Confession:**
-*The dwarf trapper coughs, blue veins visible on her face.*
-
-"Fine. I'm dying anyway. I broke into Urgon's cabin looking for clues. He sold something to Pelc's Curiosities — blue glass vials. I think they're cursed. Pelc's dead too, same as Urgon. The shop was robbed. If those vials are still out there..."
-}}
-
-### Morgo's Warning (at Syrinlya)
-
-{{descriptive
-**Morgo's Warning:**
-"Salsvault? That's one of the Aeorian crash sites. Dangerous place. Constructs still active, magical traps everywhere. And the cold — it'll kill you as sure as any monster. You'll need cold-weather gear and rations. And luck. Lots of luck."
-}}
-
-### Lorewarden Elric's Revelation (when party returns to Waystone Inn)
-
-{{descriptive
-**Elric's Revelation:**
-*Elric's face pales as you describe Salsvault.*
-
-"An active Aeorian ruin. Gods help us. Aeor fell during the Godsfall — a flying city brought down for defying the gods. Its weapons were designed to kill divinity itself. If Salsvault reactivated 2-3 months ago... that explains everything. The wolves at Welton. The magical instability. The Aeorian Echo is real, and it's spreading from those ruins. We need to understand why they woke up — and what else might be waking."
-}}
-
-## Post-Session Tasks
-
-- [ ] Update Campaign Tracker: Frozen Sick completed, Salsvault discovered
-- [ ] Track which NPCs survived (Tulgi? Irven's family?)
-- [ ] Note party's reaction to Aeorian Echo revelation
-- [ ] Record any Aeorian artifacts party acquired
-- [ ] Update Palebank Village reputation (Friendly if plague cured)
-- [ ] Award XP or milestone level-up (Party → Level 3 or 4)
-- [ ] Prepare Elric's follow-up quest hooks (more Aeorian sites? Temple of Dragonknights?)
-- [ ] Note if any PCs contracted frigid woe (track disease progression)
-
-## Troubleshooting Common Issues
-
-### "We want to stay in Palebank and not go to Salsvault!"
-→ Elro explains: "The vials came from there. If there's a cure, it's in Salsvault. Tulgi has days, not weeks. Please."
-
-### "Can we cure frigid woe with *lesser restoration* or *remove curse*?"
-→ No. Emphasize: "This disease was designed by Aeorian mages to counter divine magic. Normal healing doesn't work."
-
-### "We're lost in Salsvault and can't find the antidote!"
-→ Have a surviving construct (damaged, non-hostile) point the way, OR let party find Urgon's journal (describes preservation chamber location).
-
-### "We want to destroy Salsvault to prevent future outbreaks!"
-→ Allow it, but make consequences clear: Collapsing the ruins risks triggering magical backlash (everyone rolls DC 15 Dex save or take 4d10 force damage). Also, Elric is disappointed ("You destroyed invaluable knowledge!").
-
-### "We want to take EVERYTHING from Salsvault!"
-→ Most artifacts are inert or broken. Allow 1d4 minor magic items. Warn: "Taking too much risks triggering security constructs." If they persist, additional combat encounters.
-
-## Next Session Hook
-
-After curing the plague and debriefing with Elric:
-
-{{descriptive
-**Elric's Follow-Up Hook:**
-"You've done Palebank a great service. But Salsvault is just one ruin. If the Aeorian Echo is spreading, other sites may be activating. I've received reports of a cult in the northwest mountains — the Temple of the Dragonknights. They're drawn to sites of magical power. Could they be seeking Aeorian artifacts? Someone needs to investigate."
-}}
-
-This sets up Temple of the Dragonknights as the next adventure.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor4,top:610px,left:354px,width:289px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Northreach Integration (DM)
-
-**Campaign Connection:** This adventure reveals the **source** of the Aeorian Echo. Salsvault is the primary origin point of the spreading magical disturbance affecting all of Northreach.
-
-{{note
-**DM Secret Resources:** For the truth behind this adventure, see:
-- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
-- **Chapter 6: Northreach Secrets** — Adventure integration details
-- **Chapter 6: The Far North Secrets** — Salsvault details
-}}
-
-**Key Secrets:**
-- Salsvault is an **active Aeorian facility** leaking magical energy into the region
-- The frigid woe spores are Aeorian bioweapons designed to bypass divine healing
-- Salsvault's malfunctioning systems are the **primary source of the Aeorian Echo**
-- The facility is attempting to reactivate other sites across Northreach
-- This adventure provides the **first major revelation** about the campaign's central threat
-
-**Player Discovery:** Characters should learn that Aeor is real, its ruins are active, and its magic is leaking into the world. This is the campaign's pivotal moment of understanding.
-
-### Setting Integration Notes
-
-This adventure text includes setting-specific names from its original source. For Northwatch Wardens, you have two clean options:
-
-#### Option A: Aevoria/Aevoria-compatible (keep the names)
-
-- **Northreach** is a homebrew frontier region.
-- **Palebank Village** is a Northreach member settlement on the northeast coast.
-- The **unlabeled cave icon** on the player map is **Croaker Cave**.
-- The **unlabeled mountain/fortress icon** on the player map is **Salsvault**.
-- Names like **The Far North**, **southern cities**, and **Port Morrow** exist “off-screen” as distant places referenced in backstory/trade.
-
-### Option B: Northreach-standalone (use plain-language substitutes at the table)
-
-- **Aevoria** → “the wider world” / “southern trade routes”
-- **southern cities** → “a southern dwarven-elf holdfast”
-- **southern kingdoms** → “a southern empire”
-- **Port Morrow** → “a distant smuggling town”
-- **The Far North / Foren** → “the icefields north of Palebank” / “the largest ice island”
-
-Either way, the only locations the players need on-map are: **Palebank Village**, **Croaker Cave**, and **Salsvault**.
-
-Something is killing people in Palebank Village, and if the characters don’t stop it, they might be next. “Frozen Sick” is an adventure that takes characters from 1st to 3rd level and introduces them to the continent’s Biting North region—the bleak arctic realms of the Greying Wildlands and The Far North.
-
-If your players are using the heroic chronicle to create their characters (see chapter 4 in the this adventure), work with them to decide how they made their way to Palebank Village. Are they explorers from the south now aiding in the surface expansion of their civilization? Have they come north to seek freedom from the wars of other lands? Any number of options can help tie characters to this frigid region and the mysteries it holds.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor8,top:608px,left:277px,width:326px,background-color:#BBAD82,opacity:80%}}
-
-\page
+### Stakes
+
+#### **Immediate Stakes**
+- Tulgi Lutan has **~7 days** to live  
+- Irven Liel’s family has **~10 days**  
+- More villagers may become infected  
+- PCs can contract frigid woe themselves  
+
+#### **Regional Stakes**
+- Salsvault is leaking magical energy  
+- The Echo is spreading across Northreach  
+- Wolves awakened  
+- Magical instability rising  
+- Other ruins may activate  
+
+#### **Campaign Stakes**
+- Someone deliberately triggered Salsvault  
+- Aeorian weapons and research are waking  
+- The Wardens are the only ones positioned to respond  
+
+---
+
+### Expected Duration
+
+- **8–12 hours** total  
+- Best run across **2–3 sessions**  
+- Investigation → Travel → Dungeon → Revelation  
+
+---
+
+### Key NPCs (Aevoria‑Aligned)
+
+- **Elro Aldataur** — Leader of Palebank Village, retired ranger, hires the Wardens  
+- **Tulgi Lutan** — Dying dwarf trapper, infected with frigid woe  
+- **Urgon Wenth** — Deceased explorer, first victim  
+- **Verla Pelc** — Deceased collector, second victim  
+- **Irven Liel** — Merchant, infected along with family  
+- **Mila Teno** — Glassblade guard, helpful witness  
+- **Morgo** — Guide at Syrinlya outpost, knows the icefields  
+- **Lorewarden Elric Vael** — Warden scholar who ties the clues together  
+
+---
+
+### Adventure Flow (High‑Level)
+
+#### **1. Palebank Village — Investigation Phase**
+- Attend Urgon’s funeral  
+- Interview witnesses  
+- Search cabins and shops  
+- Discover stolen vials  
+- Track the bandits  
+
+#### **2. Croaker Cave — Bandit Hideout**
+- Recover the vials  
+- Learn they came from Salsvault  
+- Realize the disease is magical  
 
 \column
 
-## Story Overview
-Urgon Wenth, a dwarf explorer, recently returned home to Palebank Village after exploring the icy wastes of The Far North for a year. The dwarf brought home several items plundered from ruins on Foren, the largest of The Far North’s islands. Among these treasures were two beautiful blue glass vials, which Urgon sold to an elf collector named Verla Pelc. The vials were then stolen, given to a fence out of Port Morrow, and sold again to an unsuspecting merchant.
-
-In truth, the vials’ beautiful blue color is the result of deadly blue spores that cling to the interior of the glass. Faint cracks in both the vials have exposed each person who handled them to frigid woe, a deadly disease that can’t be cured by conventional means. The disease has already killed Urgon and Verla, turning them into ice statues. Details on frigid woe are found in the “The Far North” section of chapter 3 of this adventure.
-
-Frigid Woe
-
-Frigid woe is a special disease developed by Aeor’s mages that cannot be cured by conventional treatment or magic. The only way a creature infected with the disease can be cured is by finding and drinking the manufactured antidote, a milky liquid stored in gold vials found in The Far North’s ruins. This disease was created to slow down the forces of the gods and get around the healing power of their clerics and angels.
-
-The disease is transmitted by breathing in blue spores that Aeor’s mages created long ago. When a creature comes into contact with these spores, it must succeed on a DC 11 Constitution saving throw or become infected with frigid woe. It takes 1d4 days for the symptoms to manifest in an infected creature. These symptoms include fatigue, chills, and visible blue veins that appear on the creature’s body. The infected creature’s speed is reduced by 5 feet as long as it remains infected. Every 10 days after symptoms appear, an infected creature must succeed on a DC 11 Constitution saving throw, or its speed is reduced by another 5 feet. If a creature’s speed is reduced to 0 as a result of this disease, the creature dies and its body turns into a statue made of ice.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor12,top:300px,left:100px,width:337px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-A creature can drink the antidote as an action, ending all symptoms and effects of the disease instantly.
-
-Adventure Summary
-While the characters are in Palebank Village, community leader Elro Aldataur asks for their help figuring out who or what has killed Urgon Wenth. An explorer recently returned from The Far North, Urgon was afflicted by a strange malady that turned him into an ice statue, and which has since shown up in another of the village’s residents. The characters investigate the mystery while contending with the forces of the Uttolots, one of the criminal families that control Port Morrow. More infected locals are discovered, including one more already dead, before the characters clear Uttolot thugs out of a local cavern complex called Croaker Cave. In the end, the vials of frigid woe are reclaimed, but merchant Irven Liel and his family are infected and will be the next to die without a cure. Moreover, the characters might well be infected with the disease themselves.
-
-Elro asks the characters to travel to The Far North to seek a cure for frigid woe. The characters take a boat to Syrinlya, the Aevorian research outpost on Foren, and retrace Urgon Wenth’s path to the ruin of Salsvault. This magic laboratory was once a part of Aeor, an ancient flying city-state that crashed into The Far North during the Godsfall. Only by braving Salsvault’s defenses and deadly guardians can the adventurers find the antidote they need.
-
-Setup and Starting Points
-Work with the players to establish why their characters are in Palebank Village. You can provide information regarding the village and its surrounding lands, all of which are described in chapter 3 of this adventure.
-
-Before the adventure begins is also the time to figure out if the characters already know each other or if this adventure is the first time they’ve met.
-
-
-Mystery in Palebank Village
-The adventure begins in Palebank Village, with the characters drawn immediately into the drama of death in an isolated settlement. Once the players are ready to begin, read or paraphrase the following to set the scene:
-
-Snow gently falls from the sky and wind bites your cheeks as you stand in the graveyard of Palebank Village, a fishing outpost of southern cities that is home to several hundred dwarves and elves. The sun is low in the sky, sinking behind the fresh grave of Urgon Wenth, an old dwarf who caught a curse or disease that turned him into an ice statue. The folk of the village have gathered to pay their final respects to Urgon’s frozen remains.
-
-As part of their characters’ backstories, the players can decide whether any of them knew Urgon or whether they’ve come to the funeral simply to show respect to the folk of the community. Either way, continue by reading the following:
-
-A gruff voice speaks softly from behind you. “Thank you for attending Urgon’s service.” You turn and meet the gaze of Elro Aldataur, a weathered elf, retired ranger, and the leader of the village. “I’m sorry to speak of dark tidings under such circumstances, but I believe that Palebank Village might be in danger, and I’m hoping you can help us.”
-
-Whether the characters are known in the village as neophyte adventurers or simply look the part, Elro (a neutral good, male wood elf veteran) hopes that they’re the sort of people not afraid to step up to help folks in need. Use the following points to help guide the conversation as he explains his concerns to the characters:
-
-Two months ago, Urgon Wenth returned home after exploring The Far North for a year. He had been back for only for a few days when he came down with a strange affliction, which made the dwarf move slowly and caused blue veins to appear all over his body.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor5,top:103px,left:183px,width:361px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-The village’s priests of Moradin and Corellon used every spell they could muster to attempt to heal Urgon, but nothing they tried could stop the bizarre malady. Urgon battled the affliction for weeks, until his ever-slowing body eventually turned to ice.
-Until yesterday, Elro and the rest of the community believed that Urgon’s sad fate was an isolated incident, most likely caused by something the dwarf came into contact with while exploring The Far North. Then Elro noticed Tulgi Lutan, a dwarf trapper, showing signs of the same illness.
-Alarmed, Elro tried to talk to Tulgi about it, but she pushed him away, asking that he let her die in peace.
-Elro’s Request
-If the characters are willing, Elro wants them to find out what caused Urgon and Tulgi’s affliction. He’s worried that it could spread, but Tulgi refuses to talk to him, and the Glassblades in the village are better known for their combat skills than their ability to glean the truth in a complicated situation. Moreover, Tulgi is extremely distrustful of the authorities.
-
-Elro thinks a group of adventurers might have better luck convincing Tulgi to talk. If the characters agree to help find the cause of Urgon and Tulgi’s affliction, Elro offers to pay them 100 gp. He suggests that the characters start by searching Urgon’s home or talking to Tulgi at her cabin.
-
-Urgon’s Cabin
-Urgon Wenth lived in a one-story, one-room log cabin at the edge of town. A good-natured Glassblade rookie named Mila Teno (a lawful good, female wood elf scout) stands guard outside the front door. If the characters explain why they’ve come, she allows them to enter the house and look around. When the characters enter the cabin, read:
-
-This cramped, dark cabin might have been a cozy place when its owner was alive. Now an unmade bed stands near a cold fireplace, its mantle hung with the head of some snarling white beast with gray horns. On the other side of the room, a small table strewn with dirty dishes and set with a dwarf-sized chair stands before two empty shelves whose contents are scattered across the floor: kitchen utensils, dried foodstuffs, adventuring gear, and a few books.
-
-Any character who examines the mess in the cabin realizes that someone recently trashed the place while searching it. A successful DC 12 Intelligence (Investigation) check reveals the intruder’s footprints. Tulgi Lutan was the culprit, desperate for any clues that might help her cure the frigid woe that is killing her. Her tracks lead outside and back to her cabin (see “Tulgi’s Cabin” below).
-
-Adventuring Equipment
-Urgon’s adventuring equipment consists of a silvered maul; a suit of splint armor sized for a dwarf; bulky, fur-lined clothing sized for a dwarf; a grappling hook; and a hooded lantern.
-
-Mounted Head
-A character who succeeds on a DC 15 Intelligence (Nature) check recognizes that the head mounted above the mantle belonged to a yeti, a monstrosity found in The Far North.
-
-Strange Receipt
-A character who searches through the books on the shelf and succeeds on a DC 10 Intelligence (Investigation) check finds a folded receipt used as a bookmark. The receipt is dated two months previous, and indicates that Urgon sold several Aeorian items found in The Far North to local antique shop Pelc’s Curiosities for 1,000 gp. The items are listed as a dagger, a scroll case, a jade statuette, a quiver of twenty arrows, a silver ring set with a jasper, and two blue glass vials.
-
-Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor8,top:443px,left:230px,width:278px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Development
-After searching the cabin, the characters can continue their investigation by going to Tulgi’s cabin or by stopping at Pelc’s Curiosities (assuming they found the receipt).
-
-Tulgi’s Cabin
-When the characters approach Tulgi’s cabin, read:
-
-This snow-covered cabin looks peaceful and quiet from the outside. Its windows are shuttered, and a steady stream of smoke piping out of the chimney indicates a roaring fire within.
-
-Tulgi Lutan’s home is a one-story, one-room log cabin. Because she isn’t keen on letting the characters in, the following features might be important:
-
-The roof of the cabin is 12 feet high. Climbing up the outside walls requires a successful DC 10 Strength (Athletics) check.
-The wooden door to the cabin is locked and has AC 15, 18 hit points, and immunity to poison and psychic damage. The lock can be picked with a successful DC 12 Dexterity check using thieves’ tools, or the door can be forced open with a successful DC 15 Strength (Athletics) check. Tulgi carries the key that unlocks the door.
-Each of the cabin’s four walls has one window, which is shuttered and latched from the inside. A window can be unlatched from outside with a successful DC 12 Dexterity check using thieves’ tools.
-The inside of the cabin is brightly lit by fires in a brazier and a fireplace, though the smoky haze given off by both makes the interior lightly obscured.
-If the characters knock on the door, Tulgi Lutan (a neutral evil, female mountain dwarf thug with a walking speed of 10 feet) calls from the other side, telling them to go away. A character who shouts back through the door and succeeds on a DC 12 Charisma (Deception, Intimidation, or Persuasion) check convinces Tulgi to open the door and allow the party inside. Otherwise, she ignores anything the characters say.
-
-If the characters aren’t invited inside, they’ll have to decide what other means they’re willing to use to enter. Regardless of how they do so, when the characters enter the cabin, read:
-
-The heat in this small cabin hits like a hammer blow. A table set with neatly stacked dishes, tools, and utensils stands at the center of the room. The smell of a simmering soup comes from a pot hanging inside a roaring fireplace. Another fire burns in an iron brazier at the opposite end of the room, filling the cabin with a smoky haze. Shivering at the end of a bed near the brazier is a dwarf wrapped in blankets. Bulging blue veins streak her face, neck, and hands.
-
-If the characters broke into the cabin, Tulgi attacks as soon as she sees them, fighting until reduced to 10 hit points, then surrendering. She has two pet wolves, Iro and Jira, that hide beneath her bed. If a fight breaks out, the wolves join the fray to defend her.
-
-Fire Hazards
-Any creature that comes into contact with the brazier or the fireplace for the first time on its turn, or that starts its turn there, takes 2 (1d4) fire damage.
-
-What Tulgi Knows
-Tulgi is gruff and to the point, and tries to compensate for her illness with bluster. If the characters entered the cabin with her permission or if she surrenders to them, she tells them only that she has the same affliction that killed Urgon, and that she’s looking for a cure.
-
-A character who succeeds on a DC 12 Charisma (Intimidation or Persuasion) check convinces Tulgi to reveal the following information:
-
-Tulgi came to Palebank Village a few years back from Port Morrow with her sister, Hulil. Both work for the Uttolot family.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor13,top:130px,left:433px,width:259px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-The Uttolots sent the sisters and a few others to the village to keep an eye on treasures coming back from The Far North—with the intent of stealing them. When such artifacts come through the small settlement, they are often unusual goods that treasure hunters are trying to keep away from southern cities or the southern kingdoms.
-When Urgon Wenth returned to Palebank Village with treasures from The Far North, Tulgi saw her chance. She waited for Urgon to sell his finds to Pelc’s Curiosities, then stole them all.
-Tulgi gave most of Urgon’s relics to Hulil, but kept one for herself—an ornate dagger. She grudgingly gives this weapon to the characters if asked (see “Treasure” below). Hulil has the other items in a site north of the village known as Croaker Cave.
-Tulgi was the one who searched Urgon’s cabin, convinced that the dead dwarf must have had magic or other secrets stored away there.
-Treasure
-If Tulgi doesn’t offer her dagger to the characters, any character with a passive Wisdom (Perception) score of 11 or higher notices the ornate blade in a gilded sheath tucked under her shirt. If the characters claim the +1 dagger, a successful DC 15 Intelligence (Arcana or History) check reveals that the dagger is a relic of the fallen flying city of Aeor.
-
-Development
-The characters have no trouble finding either Croaker Cave or Pelc’s Curiosities if either of those locations is their next destination. If things went bad with Tulgi and she died before revealing any information, the characters might find notes or instructions from Hulil revealing some of the information above.
-
-Pelc’s Curiosities
-Pelc’s Curiosities is an antique shop run by an introverted elf named Verla Pelc. Verla keeps to herself, opening her shop only when the mood strikes her. She trades any and all objects that interest her, shipping them across Aevoria. Characters who are residents of Palebank Village or have been there for a while know of Pelc’s Curiosities—and also know that the shop was robbed and vandalized two months ago. If the characters are recent arrivals to the village, anyone they ask about the shop mentions the robbery.
-
-Pelc’s Curiosities is a one-story, two-room log cabin. The windows are shuttered and locked from inside, leaving the interior dark. The only entrance is the front door, but characters can force open one of the shutters around the back with a successful DC 12 Strength (Athletics) check, granting access to Verla’s quarters (see that section below).
-
-When the characters approach the cabin, read:
-
-The dark cabin before you has a sign over its door which reads, “Pelc’s Curiosities,” with the image of a curving dragon used to make the letter P. Though the shop appears closed, the front door is slightly ajar.
-
-Any character with a passive Wisdom (Perception) score of 11 or higher hears whispered voices and footsteps coming from inside the cabin. If the characters succeed on a group DC 10 Dexterity (Stealth) check, they can surprise the bandits currently in the shop.
-
-Front Shop Area
-The antique shop occupies the large front room of the cabin. When the characters can see into this area, read:
-
-Five cloaked elves appear to have ransacked the shop and are searching through the broken debris on the floor. The furniture, shelves, and front counter have been smashed, and the shop’s wares now litter the floor.
-
-This area is difficult terrain thanks to the debris covering it. The five elves are bandits with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put them to sleep.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor1,top:688px,left:431px,width:325px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-The bandits attack as soon as they notice the characters, fighting until only one remains. That survivor then surrenders. If a captive bandit is questioned, a character who succeeds on a DC 10 Charisma (Intimidation) check can learn the following information:
-
-The bandits work for Hulil Lutan, a dwarf priestess of Tiamat. Hulil works for the Uttolot family of Port Morrow.
-Hulil’s sister, Tulgi, robbed Pelc’s Curiosities two months ago.
-Hulil is sick or cursed with some affliction that causes her to move slowly and is turning her veins blue.
-Hulil ordered the bandits to trash Pelc’s Curiosities in search of potions, scrolls, or other items that might help cure her. Despite their thorough search, the bandits found nothing useful. Hulil is hiding out with more bandits in Croaker Cave.
-Verla’s Quarters
-Verla’s quarters are at the back of the cabin. When the characters gain access to this area, read:
-
-What appears to be an ice statue of an elf is bundled beneath the blankets of a bed along the east wall of the room. A small table loaded with dirty teacups and a kettle stands next to the bed.
-
-The figure in the bed is the unfortunate Verla Pelc, who was infected with frigid woe by Urgon Wenth’s Aeorian relics. Her symptoms appeared a few weeks after the shop was robbed, but the reclusive elf never told anyone about them.
-
-Development
-
-Questioning any of the bandits can turn up solid leads that can take the characters to Croaker Cave, or back to Tulgi’s cabin if there are other questions the dwarf has yet to answer. If they were unable to question the bandits, you can have one of the bandits carrying orders from Hulil that point toward the Croaker Cave hideout.
-
-Croaker Cave
-Characters local to Palebank Village or who have spent some time there know Croaker Cave. If all the characters are new arrivals to the village, any of the villagers can tell them about the cave and how to get there.
-
-Croaker Cave gets its name from its resident giant ice frogs. Its entrance is on the shores of the Frigid Depths, due north of Palebank Village. As the characters draw close to the cave entrance, they see frequent signs of tracks where bandits have been coming and going. However, there are no signs of patrols or guards. A plume of smoke rises from the ground beyond the cave entrance, venting through a narrow natural chimney from area C6. The chimney is too small to be climbed, however, and the main cave entrance is the only entry point.
-
-Knowing that the residents of Palebank Village avoid the cave and its dangerous frogs, Hulil Lutan has made the place her base of operations. She and the Uttolot bandits she commands have domesticated the giant ice frogs that make the cave their home, using them as guard animals.
-
-Giant Ice Frogs
-With the exception of Old Croaker (see area C5), giant ice frogs are giant frogs with immunity to cold damage.
-
-The blue-skinned frogs attack any creatures in the cave complex not escorted by bandits they recognize. Each fights until reduced to half its hit points or fewer, then flees. A character who succeeds on a DC 15 Wisdom (Animal Handling) check as an action convinces one frog to not attack or to stop attacking. If the character or any of their allies attacks or harms the frog, it resumes combat.
-
-The frogs spend much of their time resting in pools of murky, frigid water in Croaker Cave. A character who succeeds on a Wisdom (Perception) check opposed by a frog’s Dexterity (Stealth) check notices a frog hiding in a pool. If a frog goes undetected, it attacks with surprise when a character comes within 5 feet of the pool.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor12,top:67px,left:66px,width:273px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Uttolot Bandits
-The bandits sent out with Hulil by the Uttolot family are all dwarves and elves. Up to ten bandits normally occupy Croaker Cave, but only three are currently present (in area C2). They use the bandit stat block and have darkvision out to a range of 60 feet. In addition, the dwarves have resistance to poison damage and have advantage on saving throws against poison; the elves have advantage on saving throws against being charmed and immunity to magic that would put them to sleep
-
-Uttolot bandits attack any intruders on sight. Each fights until reduced to half its hit points or fewer, then flees the caves. If the characters capture an Uttolot bandit, they can learn the following information with a successful DC 10 Charisma (Intimidation) check:
-
-Hulil is sick with the same malady that killed Urgon Wenth.
-She plans on setting out for Port Morrow soon, hoping that trading the items her sister Tulgi stole from Pelc’s Curiosities allows her to pay for healing that will cure her.
-Croaker Cave Features
-The caverns and tunnels of the Croaker Cave complex are shown on map 5.9. Unless otherwise noted in an area’s description, the following features are common throughout all areas of Croaker Cave.
-
-
-Map 5.9: Croaker Cave
-View Player Version
-Ceilings
-Cavern ceilings are 10 feet high, with only 8 feet of clearance beneath stalactites.
-
-Walls
-Climbing the rough walls of a cavern requires a successful DC 12 Strength (Athletics) check.
-
-Light
-The caverns contain no light sources, except in area C6, as the inhabitants of Croaker Cave rely on darkvision to see.
-
-Frigid Pools
-Pools of murky, frigid water within the caverns are created by melting snow on the rocky ground above dripping down through the ceiling. Each pool is 10 feet deep. A creature completely submerged in a pool must succeed on a DC 10 Constitution saving throw or gain one level of exhaustion. Creatures with resistance or immunity to cold damage automatically succeed on this saving throw. For each minute the creature spends submerged in a pool, it must repeat this saving throw, gaining another level of exhaustion on a failure.
-
-C1. Entrance Pool
-This area of the cave is close enough to the entrance that it is dimly lit by day and on clear moonlit nights. When the characters can see into this area, read:
-
-The slow dripping of water sounds out where it falls from stalactites down into a murky pool that fills the rough tunnel ahead. Every few moments, a loud croaking sounds out from somewhere in the darkness beyond.
-
-With darkvision or an appropriate light source, the characters can see a 25-foot-long heavy wooden beam lying against the west wall of the cave at the south end the pool. The Uttolot bandits use the beam to cross the pool, and pull it back to the far side when they are in the cave.
-
-Two giant ice frogs hide in the murky pool. If combat breaks out in this area, the bandits in area C2 quickly come to investigate.
-
-C2. Training Pool
-The slow dripping of water from the ceiling flows to a pool in the southwest corner of this cavern. A large wooden bucket with a lid sits near the edge of the pool.
-
-Three Uttolot bandits and two giant ice frogs normally occupy this cavern. If the bandits have not yet been alerted to disturbances, they are training the frogs. Add the following:
-
-A dwarf and two elves bundled in layers of winter clothing are throwing dead bats into the air. Two giant blue-skinned frogs leap up to snatch the bats in midair, seemingly as part of some sort of training session.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor12,top:306px,left:98px,width:298px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-If the bandits went to investigate disturbances in adjacent areas, the frogs are hiding in the pool.
-
-Bucket
-The bucket holds six dead bats used as training treats. A character who offers a dead bat to a frog has advantage on their next Wisdom (Animal Handling) check made to control that frog’s behavior.
-
-C3. Bat Cavern
-This cavern reeks, and its floor is covered in bat guano.
-
-A swarm of bats sleeps among the stalactites in this cavern. If anything disturbs the bats (including a light source or a loud noise in the cavern), the swarm attacks the source of the disturbance. The swarm fights until reduced to half its hit points or fewer, then flees out of the cave complex. If combat breaks out in this area, the bandits in area C2 come to investigate.
-
-Treacherous Floor
-The floor of this area is covered in slippery bat guano. Whenever a creature standing on the floor takes damage, it must succeed on a DC 10 Dexterity (Acrobatics) check or fall prone.
-
-C4. Bandit Camp
-Ten empty bedrolls are arranged in a circle around a cold fire pit at the center of this cavern. Chicken bones, empty wine and spirits bottles, and other food waste litters the floor.
-
-One of the bedrolls covers the opening of a 10-foot-deep pit trap. The trap can be spotted with a DC 10 Wisdom (Perception) check. If not spotted, anyone walking across the bedroll falls into the pit, taking 3 (1d6) bludgeoning damage and landing prone. A creature that falls into the pit makes enough noise that the bandits in area C2 investigate.
-
-Treasure
-Searching all the bedrolls reveals that one contains an unopened bottle of Bald Dwarf Whisky (worth 25 gp), an alcohol made by elves in southern cities.
-
-C5. Old Croaker’s Pool
-Water dripping down from stalactites in the ceiling fills a dark pool that completely covers the floor of this cavern.
-
-Croaker Cave’s largest denizen—named Old Croaker by the Uttolot bandits—has claimed this pool. It hides in the water and attacks as other giant ice frogs. Old Croaker is a giant toad with immunity to cold damage.
-
-Old Croaker has been trained to ferry Hulil and visitors to her cavern (area C6) across the pool. A character who succeeds on a DC 15 Wisdom (Animal Handling) check to convince Old Croaker to not attack the party can also convince the frog to ferry all the characters across the pool one at a time.
-
-C6. Hulil’s Cavern
-When the characters can see into this area, read:
-
-A warm rush of heat comes from a massive fire burning in the center of this cavern, its smoke venting up through a narrow stone chimney. The flames illuminate a rough painting of a five-headed dragon that dominates the north wall. A bedroll is spread out beneath the mural. Near the crackling blaze, a dwarf bundled in a heavy cloak sits on a stone chest beside an elf whose face is covered in dragon tattoos. The dwarf’s face is streaked with pulsing blue veins.
-
-Hulil Lutan (a neutral evil, female mountain dwarf cult fanatic with a walking speed of 15 feet, darkvision out to a range of 60 feet, resistance to poison damage, and advantage on saving throws against poison) and her apprentice, Raegrin Mau (a neutral evil, male wood elf cultist with darkvision out to a range of 60 feet, advantage on saving throws against being charmed, and immunity to magic that would put him to sleep), are both in a state of deep meditation, praying to Tiamat for a cure for the dwarf’s affliction. Even if combat broke out in area C5, they remain unaware of the characters’ presence until they are disturbed or attacked. Hulil and Raegrin are both greedy servants of Tiamat and the Uttolot family. Raegrin follows Hulil’s every order with unshaking loyalty.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor13,top:493px,left:295px,width:292px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Hulil is so desperate for a cure for the ailment that is slowly killing her that she doesn’t attack the characters when she first sees them, as long as she isn’t attacked first. Instead, she orders them to stand down and demands to know why they came to the cave. A quick-thinking character can claim to have come to help Hulil (at the direction of her sister, after receiving a message from Tiamat, or with another appropriate rationale). With a successful Charisma (Deception) check opposed by Hulil’s Wisdom (Insight) check, the character convinces the dwarf that all the characters are her allies. On a failed check, or if the characters challenge her, Hulil and Raegrin attack.
-
-Campfire
-Any creature that enters the area of the fire for the first time on its turn, or that starts its turn there, takes 3 (1d6) fire damage.
-
-What Hulil Knows
-If the characters convince Hulil that they are her allies, or if they capture her or Raegrin and succeed on a DC 14 Charisma (Intimidation) check, they can learn the following information:
-
-Hulil believes she has a disease called frigid woe. Though she doesn’t know any more about the disease than its symptoms, she’s heard rumors that explorers in The Far North sometimes succumb to it.
-Hulil has guessed that her affliction was caused by one of the blue vials Tulgi stole from Pelc’s Curiosities, originally sold by Urgon Wenth. The vial was cracked, revealing that its lovely color was the result of a dark blue dust clinging to the interior.
-She is desperate to get to Port Morrow before the malady runs its course, hoping that she can trade the goods stolen by Tulgi for a cure.
-Hulil used one of the vials to trap the chest containing the other stolen items (see “Stone Chest” below). Needing quick cash for the trip, she sold the other vial to Irven Liel, a human merchant staying at the Jolly Dwarf inn in Palebank Village while traveling with his family to southern cities.
-
-Stone Chest
-The stone chest’s outer lid is carved with the face of a dragon. A character who examines the chest and succeeds on a DC 12 Wisdom (Perception) check finds pin-sized openings in the dragon’s mouth that contain a blue powder. The powder can be removed with a successful DC 15 Dexterity check using thieves’ tools. A character who fails this check must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
-
-A detect magic spell reveals that the chest radiates an aura of evocation magic. When a creature touches the chest without speaking a prayer to Tiamat, a gust of wind escapes the dragon’s mouth. If the blue powder is still in the dragon’s mouth, it forms a cloud that fills a 15-foot cube in front of the chest. Each creature within the area must succeed on a DC 11 Constitution saving throw or contract frigid woe.
-
-Treasure
-The chest contains the rest of the treasure found by Urgon Wenth—a gilded scroll case covered in a cosmological map of the multiverse (worth 15 gp), a jade statuette of a storm giant (25 gp), a quiver containing six +1 arrows, and a silver ring set with a jasper stone (50 gp). It also holds Hulil’s wealth—415 cp, 234 sp, 43 ep, and 112 gp—and a receipt indicating that Hulil sold a blue glass vial to Irven Liel for 100 gp.
-
-Development
-When the characters are done exploring Croaker Cave, they should know the blue glass vials found by Urgon Wenth are the source of the strange malady that is turning people into ice statues, and that Irven Liel has one of those vials. If the characters don’t have a chance to question Hulil or Raegrin, you can have the chest also contain a journal or notes that provide the information they need and point them toward the Jolly Dwarf inn.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor8,top:698px,left:114px,width:374px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Jolly Dwarf
-The Jolly Dwarf is a cozy, two-story inn run by a retired adventurer named Arl Bortock. When the characters enter the inn, read:
-
-The downstairs of this inn features a large taproom. A gray-haired dwarf behind the bar greets you cheerfully as you enter. Two male humans and two tiefling children laugh among themselves as they enjoy a meal together.
-
-Arl Bortock (a neutral good, male, mountain dwarf veteran) works behind the bar. If the characters ask for Irven Liel, the dwarf points them toward the laughing family.
-
-Irven Liel, his husband Fenton Tethwick (both neutral good, male Dwendalian human commoners), and their adopted daughters Honor and Magic (both tiefling noncombatants) are friendly and invite the characters to join them. Irven and Fenton are traveling booksellers. If asked about the vial, Irven explains that they met Hulil Lutan on the road to Palebank Village. She said she was moving and needed to shed some possessions, so she offered him a chance to buy the Aeorian relic at a great price. He plans to sell the item for a profit in southern cities.
-
-If the characters tell Irven the truth about the vial, he panics, saying that everyone in his family has touched the object. Fenton gives the vial to the characters, handing it to them wrapped up in a cloth. Any character who touches the vial directly must succeed on a DC 11 Constitution saving throw or contract frigid woe.
-
-Development
-Once the characters have the cracked vial, they can report back to Elro Aldataur. He pays them 100 gp as promised but asks the characters to stay in town. He is quite certain he’ll have need of their services again soon.
-
-The next morning, Elro comes to the characters with somber news. Irven, Fenton, Honor, and Magic are all afflicted with frigid woe. Seeing the blue powder in the vial has allowed Elro to consult old lore and learn a few things about the disease. (If the characters didn’t learn the name of the affliction from Hulil, Elro is the source of that name as well.)
-
-Elro knows that frigid woe is said to have only one cure—a milky liquid the Aeorians stored in gold vials. He hopes that the cure might be found in the same place Urgon found the vials of frigid woe in The Far North. The retired ranger asks the characters to travel to the northern icefields and retrace Urgon’s path, hoping they can find the cure. He offers the party 200 gp for the task, and reminds them that time is of the essence for Irven and his family—not to mention for any characters infected with frigid woe. If the characters accept, Elro gives them a day to prepare and tells them to find him at the village docks when they’re ready to set sail.
-
-VIALS OF FRIGID WOE
-
-As an action, a creature can throw a vial of frigid woe up to 20 feet, shattering it on impact and releasing its contents as a cloud of spores. Each creature within 5 feet of the vial when it shatters must succeed on a DC 11 Constitution saving throw or contract frigid woe (see the “The Far North” section of chapter 3 of this adventure).
-
-If a character has contracted frigid woe, track the number of days that have passed so you can inform the player when their character’s symptoms appear and when they need to make Constitution saving throws.
-
-
-Character Advancement
-The characters advance to 2nd level before traveling north to the icefields.
-
-traveling north to the icefields
-When the characters are ready to leave for The Far North, Elro Aldataur provides them with the following information:
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor9,top:241px,left:301px,width:272px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Elro has arranged passage to The Far North for the characters on the Remorhaz, a sailing ship owned and operated by the Glassblades.
-The characters will be taken to Syrinlya, an Aevorian research outpost on Foren, The Far North’s largest island. Once there, they should talk to a dwarf named Orvo Mustave, who has gone on numerous expeditions into the wilds of The Far North with Urgon Wenth.
-Once the characters have found the cure, they should use whatever they need for themselves, then give the rest to an elf in Syrinlya who goes by the name “the Buyer.” They can tell the Buyer to teleport the cure to Elro in Palebank Village.
-the northern icefields are covered in ice and snow, and are always well below freezing. Characters who don’t already have cold weather gear will want to purchase it, or they will be subject to extreme cold (see chapter 5 of the Dungeon Master’s Guide).
-
-
-Sailing to The Far North
-NPCs Infected with Frozen Woe
-The characters are in a race against time to cure Irven and his family (and possibly Hulil and Tulgi Lutan, if the characters are feeling merciful toward those two hardened criminals). Irven and his family have at least sixty days before any of them might die, Hulil has at least thirty days, and Tulgi has at least twenty days. You can make saving throws for these NPCs against the disease every ten days, or you can just decide their final fates.
-
-Voyage of the Remorhaz
-It takes the Remorhaz nine days to get to Syrinlya. This trip could be uneventful, or you could populate the ship with interesting NPCs and have the characters encounter ocean monsters, Revelry pirates, or severe weather.
-
-When the ship reaches Syrinlya, read:
-
-The temperature has steadily dropped since you left Palebank Village, yet it seems to grow colder still as you step off the ramp of the Remorhaz onto Foren. Through windy snow, you can see fur-lined tents and yurts arranged in a large camp. Campfires are whipped by the wind, with dwarves and elves huddled close to the flames.
-
-“Don’t worry! It’ll cool down here eventually!” a joking voice bellows over the snow. A female dwarf with a shaggy mane of unkempt hair bows to you. “Morgo Delwur at your service. Welcome to The Far North!”
-
-Morgo Delwur (a neutral good, female mountain dwarf werebear) has lived in Syrinlya for years. She can show the characters around and answer any questions they have about the settlement, providing any of the details found in chapter 3 of this adventure. If the characters ask about Orvo Mustave or the Buyer, Morgo points out where both live. Though Morgo never adventured with Urgon Wenth and wasn’t a close friend, she is sad to hear of the dwarf’s passing.
-
-Morgo and the other explorers in Syrinlya know about frigid woe and the disease’s terrible effects. If the characters have any unanswered questions about the disease, the explorers share what they know.
-
-Syrinlya
-As Morgo leads the characters through Syrinlya, read:
-
-Morgo gestures to the groups of dwarves and elves huddled and chatting around campfires. “They’re planning expeditions to find Aeor’s lost treasures,” she says. “That’s what this whole place is about. If you ain’t exploring, you ain’t banking gold.”
-
-The dwarf stops in front of a large fur-lined yurt. “You can stay here. Belonged to a fool rich elf named Bertron who came here looking for adventure. He found the inside of a saber-toothed tiger instead. Should be some food and the like in there. It’s yours now.”
-
-Bertron’s Yurt
-The characters are welcome to this yurt during their time in Syrinlya. When they first enter, read:
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor11,top:175px,left:25px,width:289px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-The sound of wind and the biting cold die down as you enter the yurt. A cold fire pit marks the center of the hide-covered floor. An open crate containing packaged rations and a few other items stands next to the door.
-
-Once the characters are settled, Morgo wishes them luck and leaves to prepare for an expedition of her own (see the “Can You Help Us?” sidebar). The crate contains 50 days of rations, a 50-foot silk rope, a blanket, a grappling hook, a miner’s pick, and a book titled Adventure Sexy: Impress Potential Lovers with Great Deeds by Scanlan Shorthalt.
-
-CAN YOU HELP US?
-
-If the characters feel as though they need help traveling the wilds of Foren, they can try to convince other explorers in Syrinlya to travel with them to recover the cure. Although most of Syrinlya’s explorers are willing to help others in need, those explorers already have an important mission. An expedition led by Professor Gulrim Shalebrow (see “The Diarchy of southern cities” in chapter 2 of this adventure) went to search for the origin of the strange magic in the region of Mutalos months ago and has not returned. The explorers at the camp are preparing a search and rescue mission to bring back Gulrim’s party. If the characters survive their quest into Salsvault, this story could serve as a hook for another adventure.
-
-The Buyer
-Morgo Delwur or any other resident of Syrinlya can point out the Buyer’s hut to the characters. It is Syrinlya’s largest yurt. When the characters enter, read:
-
-The pungent scent of incense fills this yurt, whose walls are painted with glowing arcane runes. A brass brazier burns brightly at the center of the floor, around which are set a few plush chairs, a bed, and a large stone chest. On one of those chairs sits an elf reading a book. A small dragon with green butterfly wings is curled in the elf’s lap.
-
-The Buyer (lawful neutral, nonbinary, high elf mage) is a mysterious elf who purchases Aeorian relics in Syrinlya for the Aevorian government. See the “Syrinlya” section of chapter 3 of this adventure for more information about the Buyer and their business. The green faerie dragon is Dew, the elf’s familiar.
-
-The Buyer has been in Syrinlya since the day the outpost was founded. They can answer any questions the characters might have about the outpost’s history, the island of Foren, or frigid woe. If the characters want to confirm that the Buyer is able to quickly send the cure for frigid woe to Palebank Village, the elf tells them that the stone chest in the yurt has the magical capability to teleport objects on command.
-
-In addition to the aid they provide in getting the cure back to Palebank Village, the Buyer offers to purchase any Aeorian relics the characters want to sell.
-
-Stone Chest
-A detect magic spell reveals that the chest radiates an aura of conjuration magic. When an item is placed in the chest, the Buyer can teleport it to secret locations in southern cities or its outpost of Palebank Village, with those locations known only to the authorities of those settlements.
-
-Orvo Mustave
-Morgo Delwur or any other resident of Syrinlya can point out Orvo Mustave’s tent to the characters. When the characters approach the tent, read:
-
-A campfire burns in front of this small tent, whose flaps are open. Inside the tent sits a young dwarf whose face is scarred as though scratched by a large claw. A shortsword is casually laid across his lap as he warms his outstretched hands.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor2,top:41px,left:112px,width:314px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Orvo Mustave (a chaotic good, male mountain dwarf scout) is a curious and soft-spoken explorer. He enjoys uncovering the secrets of The Far North as much as he does uncovering the region’s treasures. He is genuinely interested in the characters’ lives, and asks them lots of questions after inviting them to share his fire.
-
-Orvo’s Story
-Orvo is grief-stricken to hear about the demise of his friend Urgon Wenth. If the characters ask Orvo about the blue vials that brought disease to Palebank Village, Orvo shares the following information:
-
-Orvo and Urgon found the blue vials in Salsvault, an Aeorian ruin partially submerged in water in a region of Foren where the glacial ice is thin. Explorers call this region Thin Sheets. Orvo believes the ruin is as well preserved as it is because the structure was reinforced with magic, as were many of Aeor’s buildings that housed hazardous materials or secret projects.
-Salsvault is two hundred miles northwest of Syrinlya. Ice mephits are drawn to the magic of something at that location. Orvo and Urgon found the ruin after following one of the creatures.
-Salsvault appears to have been an Aeorian lab. Orvo and Urgon explored only three of its chambers before being chased away by animated suits of armor.
-The dwarves didn’t know what the vials contained.
-Orvo sold his share of the treasure from Salsvault to the Buyer. Urgon decided to hang onto his share until he returned home to Palebank Village.
-Into the Wilds
-After speaking with Orvo, the characters can make whatever preparations they need before heading into the wilds of The Far North. If they wish to obtain more supplies before setting out, there are no shops in Syrinlya, but many of the explorers at the camp are willing to trade goods and equipment.
-
-Overland Travel
-The characters must travel two hundred miles over ice and snow to reach Salsvault, the ruin where Urgon Wenth found the vials of frigid woe. It’s up to the characters whether they want to move at a fast, medium, or slow pace (see “Movement” in chapter 8 of the Player’s Handbook). If any character has a walking speed of less than 25 feet because of a frigid woe infection, use the Reduced Travel Speeds table to determine how far the party can travel in a day.
-
-Reduced Travel Speeds
-Slowest Character Speed	Slow Pace	Medium Pace	Fast Pace
-15–20 ft.	12 miles	18 miles	24 miles
-5–10 ft.	6 miles	12 miles	18 miles
-As the characters travel, use the Encounters in The Far North section to generate random encounters.
-
-The Far North Encounters: Levels 1–4
-d6	Encounter
-1	The characters encounter 1d4 wildfolk scouts hunting a saber-toothed tiger. The scouts are out of arrows and willing to trade equipment and information to replenish their ammunition.
-2	The characters encounter a lost Cerberus Assembly mage trying to return to Balenpost. The rest of the mage's team died in the ruins of Aeor, and there is a 50 percent chance the mage carries a recently recovered Aeorian item.
-3	The characters find a griffon with an arrow in its wing that prevents it from flying. A character who succeeds on a DC 15 Wisdom (Animal Handling) check can approach the griffon without being attacked. Such a character can remove the arrow, restoring the griffon's ability to fly, after which the griffon allows the character to ride it as a mount for the next 1d10 days.
-4	The characters encounter the revenant of a dead explorer from Balenpost who was murdered by one of its team and is looking for vengeance.
-5	The characters find a 3-foot-tall, 50-pound egg. If they keep the egg in a cold environment for 1d10 weeks, a white dragon wyrmling hatches from it.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor11,top:689px,left:323px,width:338px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-6	A young remorhaz ambushes the characters.
-After traveling forty miles, the characters enter Thin Sheets. This region is known for its large patches of thin ice over deep, frigid water (see the rules for frigid water and thin ice in chapter 5 of the Dungeon Master’s Guide).
-
-Finding Salsvault
-When the characters have traveled two hundred miles, one character who acts as a scout for the group should make a DC 15 Wisdom (Survival) check each day. On a failure, the character finds no signs of Salsvault. On a success, the character finds the trail of an ice mephit, which leads to Salsvault after a journey of 1d4 hours. If the check succeeds by 5 or more, the character finds Salsvault directly.
-
-Salsvault
-Salsvault was once a laboratory in the city of Aeor, where mages who specialized in necromancy and transmutation magic crafted constructs and diseases to be weaponized against their enemies. Many of the laboratory’s creations remain active, still guarding the diseases and treasures within.
-
-
-Approaching Salsvault
-As the characters approach Salsvault, read:
-
-Through wind-whipped snow and biting cold, you notice a half-submerged, dark-blue stone building poking up through the ice. A gray stone door is carved to look like a face with a half-exposed skull. Scribed above the door is the word “SALSVAULT.”
-
-Ziro and Glacies, two ice mephits, hide near the entrance to Salsvault, waiting for someone to open the door. A character with a passive Wisdom (Perception) score of 13 or higher notices the mephits. If any characters interact with the mephits, they attack in response. If the characters don’t notice the mephits, the creatures follow them inside Salsvault, attracted to the frigid woe within. The first time the characters enter an area containing vials of frigid woe, the mephits seek out and break the vials, reveling in releasing the cold-based magical energy within.
-
-Sealed Entrance
-The entrance to Salsvault is frozen shut. The characters can force the door open with a successful DC 15 Strength check or by dealing 10 bludgeoning or fire damage to the ice that seals the door. Unsealing the door with bludgeoning damage draws the attention of two suits of animated armor in area S3, which gather in area S1 and attack the characters as soon as they enter.
-
-
-Map 5.10: Salsvault
-View Player Version
-Salsvault Features
-The locations in Salsvault are detailed on map 5.10. Unless otherwise noted in an area’s description, the following features are common throughout all areas of Salsvault.
-
-Ceilings
-The ceilings in Salsvault’s rooms are 10 feet high, with 8-foot-high doorways connecting them.
-
-Chests
-Stone chests two feet on each side are built into the floors in several areas. A detect magic spell reveals a faint aura of abjuration magic radiating from each chest. A chest has AC 17; 27 hit points; resistance to bludgeoning, piercing, and slashing damage; and immunity to poison and psychic damage.
-
-If an area’s description notes a locked chest, the chest’s lock can be picked with a successful DC 15 Dexterity check using thieves’ tools or forced open with a successful DC 18 Strength check. Ferol Sal (see area S17) carries a master key that locks or unlocks all chests in Salsvault.
-
-Doors and Walls
-Salsvault’s heavy doors are made of black stone, and its walls are made of blue stone. A detect magic spell reveals a faint aura of abjuration magic radiating from the doors and walls. Each door and each 10-foot section of wall has AC 17; 27 hit points; resistance to bludgeoning, piercing, and slashing damage; and immunity to poison and psychic damage.
-
-If an area’s description notes a locked door, the lock can be picked with a successful DC 15 Dexterity check using thieves’ tools, or the door can be forced open with a successful DC 18 Strength check. Ferol Sal (see area S17) carries a master key that locks or unlocks all the doors in Salsvault.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor8,top:427px,left:395px,width:300px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Aeorian Robes
-The undead in the complex wear archaic-looking robes. With a successful DC 12 Intelligence (History) check, a character recognizes the robes as being of Aeorian style. The characters can also find intact robes of the same style in the complex. Constructs and zombies in the complex don’t attack a character wearing intact robes, unless the character attacks first.
-
-Eastern Slope
-Salsvault is tilted in the ice, with its east side lower than its west side. Every area within the complex features a gentle slope downward to the east.
-
-Light
-Unless otherwise noted, wall sconces with continual flame spells cast on them brightly light the interior of Salsvault.
-
-Temperature
-Though Salsvault’s interior is guarded from wind and snow, the temperatures within the structure are still well below freezing.
-
-Water
-Some areas of Salsvault are partially filled with seawater flowing in from beneath the ice of Thin Sheets. A creature that starts its turn in the frigid water must succeed on a DC 10 Constitution saving throw or gain one level of exhaustion. Creatures that lair within the water in the complex are immune to this effect.
-
-Denizens of Salsvault
-Many of the creatures the characters can encounter in Salsvault have similar characteristics and tactics.
-
-Beasts
-Several sea creatures haunt the submerged areas of the complex. These beasts attack characters who enter the water, fighting until reduced to half their hit points or fewer before fleeing.
-
-Constructs
-When Salsvault crashed into Foren, a number of its construct guardians survived. Those constructs continue to guard the complex, fighting intruders until they flee Salsvault. The constructs won’t leave the complex willingly and won’t pursue characters who do so. The constructs don’t attack the undead of Salsvault, understanding on some level that those undead are the remains of the people who created them.
-
-Undead
-The humanoids working in Salsvault died when it crashed into Foren. Just before impact, Ferol Sal, the necromancer in charge of Salsvault, released an experimental disease that caused any humanoids who died in the complex to return as undead. Most of those affected returned as zombies that attack intruders on sight and fight to the death. Ferol returned as a wight and has continued to work obsessively in his personal lab (area S17) ever since. Because of the cold here, all the undead are relatively well preserved.
-
-S1. Entrance Chamber
-The heavy stone walls of this room dampen the cold and the howling wind outside. An inscription in what looks like Draconic runes is carved into the east wall.
-
-The inscription is in an archaic version of Draconic that was spoken in ancient Aeor. It can be read by any character who can read Draconic with a few minutes of study, or by anyone with access to a comprehend languages spell or similar magic. The message reads: “Welcome to Salsvault! Visitors, please wait here for an escort, and DO NOT TOUCH ANYTHING WITHOUT PERMISSION.”
-
-If the characters make any noise louder than a whisper in this chamber, the suits of animated armor in area S3 come to investigate.
-
-Locked Door
-The door that leads to area S4 is locked (see “Salsvault Features,” at the beginning of this section).
-
-Open Door
-The door that leads to area S2 is slightly ajar. A character who examines the door and succeeds on a DC 10 Intelligence (Investigation) check notes that it was recently forced open (by Urgon and Orvo when they explored Salsvault).
-
-S2. Ransacked Frigid Woe Laboratory
-Stone tables lie in pieces on the floor at the east end of the room. Two open stone chests stand against the west wall. A layer of fine sand coats the inside of the chests and the floor around them.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor10,top:32px,left:31px,width:319px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-If the characters make any noise louder than a whisper in this chamber, the suits of animated armor in area S3 investigate the noise.
-
-Any examination of the chests reveals that they are built into the floor. A character who examines the sand on the ground near the chest and succeeds on a DC 12 Wisdom (Perception) check notices two sets of dwarf-sized boot prints (from Orvo and Urgon) as well as two sets of boot prints made by human-sized feet (the animated armor from area S3).
-
-S3. Animated Armor Laboratory
-Pieces of rusty plate armor are scattered about this chamber amid the rubble of destroyed stone furniture. An anvil built into the floor stands in front of a cold furnace to the southwest. Across the room from the furnace, two humanoid feet stick out from a pile of rubble.
-
-Two suits of animated armor normally stand guard in this chamber. If the armor didn’t leave to investigate disturbances in areas S1 or S2, both suits are here when the characters arrive, and you can add the following:
-
-Two full suits of steel armor stand upright but empty in the middle of the chamber, their gleaming surfaces a stark contrast to the rusty pieces lying nearby.
-
-Rescue Mission
-One of the blacksmiths who worked in this chamber was crushed by a stone table that broke into rubble when Salsvault crashed into Foren. Since then, the blacksmith has been a zombie restrained beneath the rubble and unable to break free. Any character who examines the feet notices them twitching with a successful DC 12 Wisdom (Perception) check.
-
-If the characters want to help the “victim” under the rubble, one character can remove enough rubble to free the zombie in 10 minutes. Multiple characters working together can reduce the time proportionately. As soon as it is freed, the zombie attacks.
-
-Treasure
-The zombie wears an apron containing a set of damaged mithral smith’s tools (worth 50 gp).
-
-S4. Frigid Woe Laboratory
-Smashed stone tables litter the floor in this chamber. Two stone chests built into the floor stand next to each other along the far wall. A door to the west is inscribed with words in Draconic runes. A large iron lever is flipped into the up position on the wall next to the door.
-
-The inscription in archaic Draconic reads: “Disease storage. Authorized personnel only.”
-
-Chests
-These stone chests are locked (see “Salsvault Features” at the beginning of this section) and magically trapped. When a creature makes a failed attempt to pick the chest’s lock, or attacks or attempts to force the chest open, the chest shoots a beam of cold energy at the creature. The beam is +4 to hit and deals 4 (1d8) cold damage on a hit.
-
-A character who searches the exterior of either chest and succeeds on a DC 13 Wisdom (Perception) check finds an archaic Draconic word for “ice” carved in tiny letters near the hinges. With a successful DC 10 Intelligence (Arcana) check, a character senses that the inscription is connected to a trap. Scratching out the inscription with a tool or a weapon causes the trap to stop functioning on that chest.
-
-Each chest is packed with fine sand, within which are nestled two vials of frigid woe (see the “Vials of Frigid Woe” sidebar earlier in this adventure).
-
-Iron Lever
-A character who examines the lever notices spots of faded red paint on it with a successful DC 13 Wisdom (Perception) check. As an action, a creature can pull the lever down, causing flames to shoot down from the ceiling in area S5. Even with the door closed, a hiss can be heard in this area when the flames are active. A creature can use an action to push the lever back up, which shuts off the flames. See area S5 for more information on this hazard.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor9,top:170px,left:412px,width:275px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Locked Doors
-The doors from this area to areas S1 and S5 are locked. The door to area S5 is also trapped.
-
-Trapped Door
-A detect magic spell reveals an aura of conjuration magic radiating from the locked door to area S5. When a creature makes a failed attempt to pick the door’s lock, or attacks or attempts to force the door open, that creature is teleported into the middle of area S15.
-
-A character who searches the door and succeeds on a DC 13 Intelligence (Investigation) check finds an archaic Draconic word for “disappear” carved in tiny letters near the foot of the door on both sides. With a successful DC 10 Intelligence (Arcana) check, a character senses that the inscription is connected to a trap. Scratching out either inscription with a tool or a weapon causes the trap to stop functioning.
-
-S5. Disease Storage
-If the iron lever in area S4 has been raised, read the following when the door to this room is opened:
-
-A wave of heat hits you from the wall of roiling flame that fills this area, shooting down from the ceiling.
-
-If the flames are off, read:
-
-The only things to be seen in this room are eight chests built into the floor along the far wall.
-
-If the flames are active, each creature that enters this area or starts its turn there must make a DC 12 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.
-
-If the flames aren’t active, a character who succeeds on a DC 13 Wisdom (Perception) check notes a faint oily smell in the room and notices pin-sized holes covering the ceiling.
-
-Chests
-Each chest is locked (see “Salsvault Features” at the beginning of this section), packed with fine sand, and contains three vials of frigid woe (see the “Vials of Frigid Woe” sidebar earlier in this adventure).
-
-S6. North Hall
-Three human zombies in tattered Aeorian robes roam this hall aimlessly and attack intruders on sight.
-
-S7. Unoccupied Dorm
-Four unmade beds are built into the east and west walls here, each with a footlocker tucked beneath it.
-
-One of the footlockers holds an intact Aeorian robe (see “Salsvault Features” at the beginning of this section).
-
-S8. Ruined Dorm
-Salsvault’s crash into Foren destroyed the magic torches in this room, leaving it shrouded in darkness. When the characters can see into this area, read:
-
-Debris from broken stone furniture covers the floor. The walls here are cracked, as if they once supported built-in shelves that have been reduced to rubble.
-
-The floor of this chamber is covered in rubble, making it difficult terrain. A rug of smothering is hidden beneath the rubble. A character with a passive Wisdom (Perception) score of 12 or higher notices the rug, but gets no hint that it is animated.
-
-A search of the rubble and a successful DC 14 Wisdom (Perception) check turns up an intact Aeorian robe (see “Salsvault Features” at the beginning of this section).
-
-S9. Zombie Dorm
-When the characters can see into this area, read:
-
-Footlockers are tucked beneath four beds attached to the north and south walls. In the middle of the room, four zombies in tattered robes shuffle around, softly knocking into one another without caring.
-
-The four zombies attack as soon as they see intruders. The footlockers are empty.
-
-S10. Ferol Sal’s Chamber
-The door to Ferol Sal’s personal quarters is locked. When the characters can see this area, read:
-
-This room is in immaculate condition, apparently having been cleaned up after the destruction seen elsewhere in the complex. A crisply made bed stands at the center of the west wall, with small tables off to either side. The room also contains a stone desk set with a chair, and a chest built into the floor.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor11,top:662px,left:272px,width:250px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Though the undead Ferol no longer sleeps here, he and the zombies tidied up his personal space after Salsvault crashed into The Far North.
-
-Chest
-The chest contains Ferol’s treasure (see below), along with a swarm of undead snakes that attacks any creature that opens the chest. The swarm uses the stat block for a swarm of poisonous snakes, with these changes:
-
-The swarm is made of Tiny undead that don’t require air, food, drink, or sleep.
-The swarm has immunity to poison damage and the poisoned condition.
-Desk
-Any search of the desk turns up a bottle of dried ink, several used quills, five sheets of blank parchment, and a piece of paper with a faded message written on it in archaic Draconic. A character who understands Draconic can spend a few minutes to piece together the meaning of the note, or it can be deciphered with a comprehend languages spell or similar magic. The note reads:
-
-To whomever finds this:
-
-All my people are dead: my family, my friends, and my workers. I, too, am dead. Were it not for my quick thinking and prowess with necromancy, our important work at Salsvault would be over. I continue to labor in my undead form, trying to find a sickness that can infect the gods themselves. If I have perished, I implore you to find my lab, find my notes, and finish my work. The gods must pay for Aeor’s destruction.
-
-—Ferol Sal
-
-Treasure
-The chest contains 1,006 sp, 45 ep, and 201 gp in Aeorian coinage.
-
-S11. Kitchen
-Salsvault’s crash into Foren destroyed the magic torches in this room, leaving it shrouded in darkness. When the characters can see into this area, read:
-
-Iron pots, pans, utensils, and frost-covered food covers the floor of this kitchen. A steel stove is built into the west wall.
-
-When the characters enter the room, four animated kitchen knives fly up from the floor and attack. The knives are flying swords, with these changes:
-
-Each knife is a Tiny construct with 12 (5d4) hit points and a challenge rating of 1/8 (25 XP).
-Instead of a longsword attack, each knife makes a melee attack (+4 to hit) that deals 3 (1d4 + 1) piercing damage on a hit.
-Old frozen cheese, bread, meat, and produce cover the floor, all well rimed and inedible.
-
-S12. Dining Hall
-The remains of broken tables and chairs are piled along the east wall. Two human zombies in tattered robes shuffle aimlessly around each other at the center of the chamber.
-
-The two zombies occupying the dining hall attack any intruders. All the other features of this room have been reduced to rubble.
-
-S13. Drowned Library
-Water ebbs and flows through a large opening along the east wall of this ruined library. Rotting parchments and waterlogged tomes are spread everywhere, fallen from cracked stone shelves.
-
-The water is deeper than it appears beneath the ruined books and parchments, with the floor along the eastern side of the room having collapsed to a depth of 15 feet. A giant octopus hides here, having claimed this room as its lair. A character who succeeds on a Wisdom (Perception) check opposed by the octopus’s Dexterity (Stealth) check notices the beast. See “Salsvault Features,” earlier in this section, for the effects of entering the water.
-
-Treasure
-A character with a passive Wisdom (Perception) score of 12 or higher, or one who succeeds on a DC 12 Wisdom (Perception) check, notices a watertight scroll case floating in the water. The case holds two spell scrolls of detect magic.
-
-S14. South Hall
-Three well-preserved human zombies in tattered robes roam this hall aimlessly, attacking any intruders that catch their attention.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor13,top:416px,left:245px,width:322px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-S15. Animated Weapon Storage
-The door to this room is locked. When the characters can see into this area, read:
-
-Broken blades, cracked hammers, frost-rotted spears, and other ruined weapons are spread out across the floor, fallen from the empty iron weapon racks that line the walls.
-
-The mages of Salsvault stored animated weapons in this room, most of which were destroyed in the crash. Five flying swords lay among the debris, attacking any characters who enter.
-
-The broken weapons on the floor make this area difficult terrain. Any creature that falls prone in this room takes 2 (1d4) piercing damage.
-
-S16. Golem Laboratory
-As the characters approach this room, read:
-
-A large red X is painted across the stone door before you. Violent banging and the sound of heavy objects being tossed around emanates from the chamber beyond.
-
-The door is locked. If the characters open it, read:
-
-As you open the door to this debris-filled room, a humanoid creature made of pieces of stitched-together flesh charges toward you. The monster’s body is covered in wounds, and broken pieces of bone stick through its skin at odd angles.
-
-When Salsvault crashed into Foren, this golem servant of the mages was driven mad from the damage it took. Ferol locked the golem in this room ages ago. The golem uses the flesh golem stat block, with these changes:
-
-The golem has 5 hit points remaining, and its Berserk trait is activated.
-The golem has the use of only one arm and can’t use its Multiattack. Its challenge rating is 1 (200 XP).
-Debris
-The golem has long since smashed all the objects in this chamber not destroyed by Salsvault’s crash. Any search of the debris turns up only bits of bone, clay, iron, stone, and paper.
-
-S17. Ferol’s Laboratory
-Six long stone tables are set with steel and glass laboratory equipment in this chamber, whose walls are lined with shelves holding all manner of strange knickknacks and tools. An armed humanoid with white skin and red eyes moves from table to table, adjusting bubbling mixtures and carefully adding reagents.
-
-The undead Ferol Sal has worked tirelessly in the laboratory for centuries, obsessed with crafting a disease that can kill the gods. Despite having made no progress in all that time, he keeps working. Ferol is a wight with an Intelligence of 16 (+3).
-
-Roleplaying Ferol
-Ferol knows nothing of Aevoria’s history since Aeor’s crash, and his memory of the distant past is almost as hazy. His transformation into a wight and the centuries of solitude since have driven him quite mad. He cares only about taking revenge on the gods—who he incorrectly assumes are still active in Aevoria. As a resident of Aeor, Ferol doesn’t speak Common, though he can communicate in the archaic Draconic of Aeor, as well as an archaic form of Elven. Characters who speak Draconic or Elven can communicate with him, albeit slowly.
-
-When Ferol notices the characters, he demands to know what they’re doing in Salsvault. Any character who claims they have come to help Ferol with his work and succeeds on a Charisma (Deception) check opposed by the wight’s Wisdom (Insight) check earns the undead’s trust. The check is made with advantage if characters who found and were able to read the note in area S10 mention Ferol’s plans to craft a god-killing disease.
-
-If Ferol trusts the characters, he tells them to stay away from the locked golem lab (area S16). If they ask about the cure for frigid woe, he tells them they can find it locked in a chest in what he calls the curative laboratory (area S18). A character who succeeds on a DC 15 Charisma (Persuasion) check can convince Ferol to provide the key that safely unlocks the chest.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist: Frozen Sick}}
-
-{{watercolor6,top:485px,left:424px,width:291px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-If the characters don’t earn Ferol’s trust, the wight attacks, fighting until destroyed.
-
-Ferol’s Keys
-Ferol carries two keys: one that works all the doors in Salsvault and another that works all the chests built into the floor within the complex (see “Salsvault Features”).
-
-Shelves
-The shelves hold spell components, reagents, and laboratory supplies that are far past their prime. However, a character who spends a few minutes searching the shelves can collect enough workable tools and reagents to put together a set of alchemist’s supplies.
-
-Tables
-Each table holds a working set of alchemist’s supplies that Ferol uses to experiment with frigid woe. If a creature is forcibly moved into a table, the delicate equipment on that table breaks and the creature must succeed on a DC 11 Constitution saving throw or contract frigid woe.
-
-S18. Drowned Curative Laboratory
-A cold wind howls through the collapsed east wall of this huge chamber, whose far side is completely submerged under frigid seawater. A dense bed of kelp grows up from the submerged floor, obscuring any sight of what lies below. Broken glass and the remains of shattered tables cover the floor in the dry section of the room.
-
-Aeorian mages worked in this chamber to ensure that they could cure the diseases they created. Four giant crabs now lair here, hiding beneath the kelp in the 5-foot-deep water and attacking any creatures that intrude. A character with a passive Wisdom (Perception) score of 14 or higher notices the crabs, which attack with surprise if not spotted. See “Salsvault Features,” at the beginning of this section, for what happens if characters enter the frigid water. Additionally, the kelp makes the water difficult terrain for creatures other than the giant crabs.
-
-Chest
-A character with a passive Wisdom (Perception) score of 11 or higher notices a stone chest built into the floor and submerged in the water against the back wall. The chest is locked (see “Salsvault Features” at the beginning of this section).
-
-Kelp
-The kelp counts as difficult terrain.
-
-Treasure
-The chest is packed with fine sand and contains twenty doses of frigid woe antidote (see “The Far North” in chapter 3 of this adventure) and an ersatz eye (see chapter 6 of this adventure).
-
-Concluding the Adventure
-You can roll for random encounters on the way back to Syrinlya (see “Encounters in The Far North”), or you can allow the characters an uneventful trip as reward for a job well done. When the characters arrive in Syrinlya, they can arrange for the Buyer to teleport the antidote for frigid woe to Palebank Village. After doing so, the elf pays out the 200 gp reward on behalf of Elro Aldataur.
-
-If the characters don’t successfully recover the frigid woe antidote in time to save Irven and his family, all four family members succumb to the disease. If the characters are successful, they have the thanks of Elro Aldataur, Irven and his family, the people of Palebank Village, and the explorers of Syrinlya.
-
-Character Advancement
-At the end of this adventure, the characters reach 3rd level. This might mark the beginning of a campaign in the Biting North. In particular, the Buyer suggests that the characters could easily find their fortunes exploring The Far North. Alternatively, their success in this mission might inspire the characters to seek out new realms and new adventures elsewhere in Aevoria.
-
-{{watercolor9,top:647px,left:269px,width:279px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-# Frozen Sick — Monster Stat Blocks
-
-This document contains Homebrewery-formatted stat blocks for creatures in Frozen Sick. These can be copy-pasted into the adventure file or reference during play.
+#### **3. Journey to Salsvault**
+- Travel to Syrinlya  
+- Meet Morgo  
+- Cross the icefields  
+- Survive hazards and encounters  
+
+#### **4. Salsvault — The Frozen Laboratory**
+- Explore ancient Aeorian ruins  
+- Face constructs and magical traps  
+- Discover the truth of the Echo  
+- Retrieve the antidote  
+
+#### **5. Return & Cure**
+- Cure Tulgi, Irven’s family, or both  
+- Face moral consequences  
+- Report findings to Elric  
+
+#### **6. Revelation**
+- Salsvault is the source  
+- The Echo is deliberate  
+- Other sites may be waking  
 
 ---
 
-## Bandit
+### Why This Adventure Matters 
+
+Frozen Sick is the **moment the campaign opens up**.
+
+###### It answers the players’ biggest questions:
+
+- What caused the wolves to awaken?  
+- Why did Alexi Merriksonn die?  
+- Why is magic destabilizing across Northreach?  
+- What is the Aeorian Echo?  
+
+###### And replaces them with bigger ones:
+
+- Who activated Salsvault?  
+- Why now?  
+- What other ruins are waking?  
+- What was Aeor really building?  
+
+This adventure shifts the campaign from **mystery** to **revelation** — and sets the stage for Arc 3.
+
+{{watercolor4,top:727px,left:29px,width:395px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Section 3: Story Summary
+
+{{note
+This section gives the DM a high‑level narrative overview of Frozen Sick. It preserves the original adventure’s structure while integrating it seamlessly into Aevoria’s Northreach frontier and the Northwatch Wardens campaign arc.
+}}
+
+{{descriptive
+A deadly magical disease — frigid woe — has struck Palebank Village. Victims freeze from the inside out, their bodies turning to ice statues. The Wardens are summoned to investigate before more villagers die.
+}}
+
+The disease traces back to **Salsvault**, a buried Aeorian laboratory deep in the frozen wastes north of Northreach. Its recent reactivation is the **source of the Aeorian Echo**, the magical disturbance affecting the entire frontier.
+
+This adventure takes the Wardens from a small coastal village to a deadly ruin of the Age of Arcanum — and reveals the truth behind every mystery they’ve encountered so far.
+
+---
+
+### The Story in Four Acts
+
+#### **Act I — The Outbreak in Palebank Village**
+Urgon Wenth, a dwarf explorer, returned from an expedition into the Far North carrying strange blue vials recovered from ancient ruins.  
+Unbeknownst to him, the vials were coated with **Aeorian spores** — the cause of frigid woe.
+
+Urgon died shortly after returning home.  
+Verla Pelc, who bought the vials, died next.  
+Tulgi Lutan, who broke into Urgon’s cabin, is now infected.  
+Irven Liel and his family have also contracted the disease.
+
+The Wardens arrive as panic spreads.
+
+---
+
+#### **Act II — Tracking the Vials**
+The Wardens investigate:
+
+- Urgon’s cabin  
+- Pelc’s Curiosities  
+- Tulgi’s cabin  
+- Irven’s home  
+
+They discover:
+
+- The vials were stolen  
+- The thieves were local bandits  
+- The bandits sold or traded the vials  
+- The disease is spreading  
+
+This leads the Wardens to **Croaker Cave**, a smuggler hideout in the cliffs west of Palebank.
+
+There, they recover the remaining vials — and learn they came from **Salsvault**, an ancient ruin far to the north.
+
+---
+\column
+
+#### **Act III — Journey to Salsvault**
+To reach the ruins, the Wardens must:
+
+- Travel to **Syrinlya Outpost**, a southern‑cities research station adapted into your world as a Warden‑friendly expedition camp  
+- Meet **Morgo**, a seasoned guide  
+- Cross the treacherous icefields  
+- Survive blizzards, mephits, and saber‑toothed predators  
+
+The journey reinforces the danger of the Far North and the unnatural cold radiating from Salsvault.
+
+---
+
+#### **Act IV — Salsvault: The Frozen Laboratory**
+{{descriptive
+The Wardens descend into a buried Aeorian research facility — a place of cold metal, blue light, and ancient magic. Constructs still patrol the halls. Spores drift through the air. The walls hum with unstable power.
+}}
+
+Inside, they discover:
+
+- The **preservation chamber** containing the golden antidote vials  
+- Logs and inscriptions revealing Salsvault’s purpose  
+- Evidence that the facility **reactivated 2–3 months ago**  
+- Signs that the activation was **deliberate**, not accidental  
+- Proof that Salsvault is the **source of the Aeorian Echo**  
+
+The Wardens must retrieve the antidote and escape before the ruin’s unstable magic overwhelms them.
+
+---
+
+### The Ending
+
+#### **If the Wardens return in time:**
+- Tulgi can be saved  
+- Irven’s family can be saved  
+- Palebank Village survives  
+- Elro rewards the party  
+- Lorewarden Elric connects the dots  
+- The campaign shifts into Arc 3  
+
+#### **If they fail:**
+- Infected NPCs die  
+- Palebank becomes a ghost town  
+- The Wardens may contract frigid woe  
+- The truth is only partially revealed  
+- The Echo continues to spread  
+
+---
+
+{{watercolor7,top:346px,left:363px,width:267px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Why This Story Matters
+
+Frozen Sick is the **revelation point** of the Northwatch Wardens campaign.
+
+By the end of this adventure, the players understand:
+
+- **Salsvault is the source of the Echo**  
+- The wolves awakened because of it  
+- Alexi Merriksonn died because of it  
+- The magical instability across Northreach is not random  
+- Someone triggered the ruin deliberately  
+- Other Aeorian sites may be waking  
+
+This is the moment the campaign’s scope expands — from local mysteries to ancient, world‑shaping magic.
+
+
+### Section 4: Palebank Village 
+###### — Investigation Phase
+
+{{note
+This section begins the adventure proper. The Wardens arrive in Palebank Village to investigate a deadly magical disease. This phase is investigative, social, and time‑sensitive — every delay risks more deaths.
+}}
+
+{{descriptive
+Snow falls softly over the coastal settlement of Palebank Village. Lanterns glow behind frosted windows. A cold wind sweeps in from the northern icefields, carrying a quiet dread. As you arrive, villagers gather around a frozen statue — a dwarf locked in a final moment of terror.
+}}
+
+This is **Urgon Wenth**, the first victim of frigid woe.
+
+Elro Aldataur, the village leader and retired ranger, calls the Wardens forward.
+
+---
+
+## Elro’s Briefing
+
+{{descriptive
+Elro’s breath fogs in the cold air. “Thank you for coming. Urgon died of something we’ve never seen — turned to ice, like a statue. Now others are showing the same symptoms. I need your help before this spreads.”
+}}
+
+Elro explains:
+
+- Urgon returned from an expedition into the Far North  
+- He brought back strange blue vials  
+- He fell ill shortly after  
+- Verla Pelc, who bought the vials, also died  
+- Tulgi Lutan is infected  
+- Irven Liel’s family is showing early symptoms  
+
+Elro hires the Wardens to **find the source** and **stop the outbreak**.
+
+---
+\column
+
+### Key Locations in Palebank Village
+
+#### 1. Urgon’s Cabin
+
+{{descriptive
+The cabin is cold and dark. Frost creeps across the windows. Inside, overturned furniture and scattered papers show signs of a frantic search.
+}}
+
+##### What the Wardens Can Learn
+
+- **DC 12 Investigation:**  
+  Footprints in the frost — small, booted, heading toward the woods. Tulgi Lutan.
+
+- **DC 10 Medicine:**  
+  Urgon’s body shows blue veins and internal crystallization — magical disease.
+
+- **DC 12 Arcana:**  
+  The residue on the vials is magical, cold, and unnatural — Aeorian in origin.
+
+- **Clue:**  
+  Urgon sold two blue vials to Verla Pelc.
+
+---
+
+#### 2. Pelc’s Curiosities
+
+{{descriptive
+The shop is shuttered. A thin layer of frost covers the doorframe. Inside, shelves of trinkets sit untouched — except for a broken display case.
+}}
+
+##### What the Wardens Can Learn
+
+- **DC 10 Investigation:**  
+  A receipt showing Urgon sold Verla two blue glass vials.
+
+- **DC 12 Investigation:**  
+  Signs of forced entry — someone stole the vials.
+
+- **DC 10 Insight:**  
+  Verla died the same way as Urgon.
+
+- **Clue:**  
+  The vials were stolen by local bandits.
+
+---
+
+#### 3. Tulgi Lutan’s Cabin
+
+{{descriptive
+The door opens only a crack. Tulgi’s face is pale, blue veins visible beneath the skin. She clutches a blanket tightly, shivering despite the heat of the fire.
+}}
+
+Tulgi is dying — scared, defensive, and desperate.
+
+##### What the Wardens Can Learn
+
+- **DC 15 Persuasion:**  
+  Tulgi admits she broke into Urgon’s cabin looking for valuables.
+
+- **DC 10 Medicine:**  
+  She has 7 days left without a cure.
+
+- **DC 12 Insight:**  
+  She regrets stealing the vials but is terrified of dying.
+
+- **Clue:**  
+  She sold the vials to a fence connected to **Croaker Cave**.
+
+---
+
+{{watercolor5,top:327px,left:403px,width:262px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+#### 4. Irven Liel’s Home
+
+{{descriptive
+A worried merchant opens the door, his children coughing softly behind him. Blue veins trace their necks. His partner sits wrapped in blankets, shivering.
+}}
+
+##### What the Wardens Can Learn
+
+- **DC 10 Medicine:**  
+  They have ~10 days left — early infection.
+
+- **DC 12 Insight:**  
+  Irven bought the vials from a traveling fence, not knowing they were dangerous.
+
+- **Clue:**  
+  The fence was last seen heading toward Croaker Cave.
+
+---
+
+### Additional Leads & NPCs
+
+#### Mila Teno — Glassblade Guard
+
+{{descriptive
+Mila stands watch near the docks, her armor rimed with frost. “I saw Tulgi sneaking around Urgon’s place the night before he died,” she says. “Didn’t think much of it then. Wish I had.”
+}}
+
+Provides:
+
+- Confirmation of Tulgi’s involvement  
+- Timeline of events  
+- Direction toward the woods  
+
+---
+
+#### Elro’s Research Notes 
+###### (Optional Clue Reinforcement)
+
+If the party misses more than 3 clues, Elro can provide:
+
+- Notes on geometric frost patterns  
+- Observations of magical resistance  
+- Records of similar symptoms in ancient texts  
+- Confirmation that the disease is **not natural**  
+
+This helps keep the investigation on track.
+
+---
+
+### Investigation Summary
+
+By the end of this phase, the Wardens should know:
+
+- Urgon brought back blue vials from the Far North  
+- The vials contain deadly Aeorian spores  
+- The vials were stolen by bandits  
+- The bandits operate out of **Croaker Cave**  
+- The disease is magical and time‑sensitive  
+- The only cure must come from the same place as the spores  
+
+This leads directly into **Section 5: Croaker Cave**.
+
+\column
+
+## Section 5: Croaker Cave 
+### — Bandit Hideout
+
+{{note
+This section transitions the adventure from investigation to confrontation.  
+The Wardens track the stolen vials to a smuggler hideout carved into the cliffs west of Palebank Village.  
+This is the party’s first combat-heavy sequence — but it also reinforces the urgency of the outbreak.
+}}
+
+{{descriptive
+The trail leads you along the frozen coastline, where jagged cliffs rise above crashing waves. A narrow path winds toward a dark opening in the rock — torchlight flickering faintly within.
+}}
+
+This is **Croaker Cave**, a smuggler den used by local bandits who unknowingly helped spread frigid woe.
+
+---
+
+### Approaching the Cave
+
+#### **Stealth or Direct Approach**
+The Wardens may:
+
+- Sneak up on the hideout  
+- Walk in openly  
+- Scout from above  
+- Attempt to lure bandits out  
+
+**DC 13 Stealth:**  
+Approach undetected and gain surprise.
+
+**DC 12 Perception:**  
+Hear arguing voices inside — the bandits are nervous.
+
+**DC 10 Survival:**  
+Confirm multiple humanoid tracks leading in and out.
+
+---
+
+### Cave Interior
+
+{{descriptive
+The cave smells of damp stone, smoke, and unwashed bodies. Crates and barrels are stacked haphazardly along the walls. A small fire crackles in the center, where several rough-looking figures warm their hands.
+}}
+
+#### The bandits are:
+
+- Cold  
+- Hungry  
+- On edge  
+- Completely unaware the vials they stole are deadly  
+
+They are not evil — just desperate.
+
+---
+
+{{watercolor10,top:18px,left:307px,width:372px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Bandit Motivations
+
+##### The bandits stole the vials because:
+
+- They looked valuable  
+- Verla Pelc’s shop was an easy target  
+- A fence from Port Morrow promised coin  
+- They had no idea the vials were dangerous  
+
+If confronted, they panic — not out of guilt, but fear.
+
+---
+
+## Combat Encounter
+
+{{note
+Scale this encounter based on party size.  Frozen Sick assumes a Level 2–3 party at this point.
+
+#### **Recommended Scaling**
+
+###### **2–3 Players:**  
+- 4 bandits  
+- 1 bandit captain  
+
+###### **4–5 Players:**  
+- 6 bandits  
+- 1 bandit captain  
+- 1 thug (optional)
+}}
+
+
+
 
 {{monster,frame
 ## Bandit
-*Medium humanoid (any race), any non-lawful alignment*
+*Medium humanoid (any race), any non‑lawful alignment*
 ___
-**Armor Class** :: 12 (leather armor)
-**Hit Points**  :: 11 (2d8+2)
+**Armor Class** :: 12 (leather armor)  
+**Hit Points**  :: 11 (2d8 + 2)  
 **Speed**       :: 30 ft.
 ___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|11 (+0)|12 (+1)|12 (+1)|10 (+0)|10 (+0)|10 (+0)|
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (+0) | 12 (+1) | 12 (+1) | 10 (+0) | 10 (+0) | 10 (+0) |
 ___
-**Senses** :: passive Perception 10
-**Languages** :: any one language (usually Common)
+**Skills** :: Stealth +3  
+**Senses** :: passive Perception 10  
+**Languages** :: Common  
 **Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
 ___
 ### Actions
-***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6+1) slashing damage.
-:
-***Light Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 5 (1d8+1) piercing damage.
+***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target.  
+*Hit:* 4 (1d6 + 1) slashing damage.
+
+***Light Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target.  
+*Hit:* 5 (1d8 + 1) piercing damage.
 }}
 
-**Bandits** rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.
+\column
+#### Social Options
 
----
+The Wardens can avoid combat entirely.
 
-{{pageNumber,auto}}
-{{footnote Frozen Sick — Monster Stat Blocks}}
+- **DC 12 Intimidation:**  Bandits surrender immediately.
 
-{{watercolor12,top:522px,left:437px,width:328px,background-color:#BBAD82,opacity:80%}}
+- **DC 14 Persuasion:**  Bandits admit they stole the vials and hand them over.
 
-\page
+- **DC 10 Insight:**  They truly didn’t know the vials were dangerous.
 
-## Bandit Captain
+#### **If the Wardens mention the disease:**  
+The bandits panic — one reveals he handled the vials and is terrified he might be infected.
 
 {{monster,frame
 ## Bandit Captain
-*Medium humanoid (any race), any non-lawful alignment*
+*Medium humanoid (any race), any non‑lawful alignment*
 ___
-**Armor Class** :: 15 (studded leather)
-**Hit Points**  :: 65 (10d8+20)
+**Armor Class** :: 15 (studded leather)  
+**Hit Points**  :: 65 (10d8 + 20)  
 **Speed**       :: 30 ft.
 ___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|15 (+2)|16 (+3)|14 (+2)|14 (+2)|11 (+0)|14 (+2)|
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 15 (+2) | 16 (+3) | 14 (+2) | 14 (+2) | 11 (+0) | 14 (+2) |
 ___
-**Saving Throws** :: Str +4, Dex +5, Wis +2
-**Skills** :: Athletics +4, Deception +4
-**Senses** :: passive Perception 10
-**Languages** :: any two languages
+**Skills** :: Athletics +4, Deception +4, Intimidation +4  
+**Senses** :: passive Perception 10  
+**Languages** :: Common, Thieves’ Cant  
 **Challenge** :: 2 (450 XP) {{bonus **Proficiency Bonus** +2}}
 ___
+***Pack Opportunist.***  
+The captain has advantage on attack rolls against a creature if at least one ally is within 5 ft of the target.
+
+***Tactical Orders (Recharge 5–6).***  
+As a bonus action, the captain chooses up to two allies who can see or hear them.  
+Those allies may use their reaction to make one weapon attack.
+___
 ### Actions
-***Multiattack.*** The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
-:
-***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6+3) slashing damage.
-:
-***Dagger.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4+3) piercing damage.
-:
-### Reactions
-***Parry.*** The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
+***Multiattack.***  
+The captain makes two melee attacks.
+
+***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target.  
+*Hit:* 6 (1d6 + 3) slashing damage.
+
+***Dagger.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target.  
+*Hit:* 5 (1d4 + 3) piercing damage.
 }}
 
-It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. More than treasure, a bandit captain craves infamy.
-
----
-
-{{pageNumber,auto}}
-{{footnote Frozen Sick — Monster Stat Blocks}}
-
-{{watercolor4,top:315px,left:88px,width:289px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:61px,left:261px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-## Animated Armor
+{{monster,frame
+## Thug
+*Medium humanoid (any race), any non‑lawful alignment*
+___
+**Armor Class** :: 11 (leather armor)  
+**Hit Points**  :: 32 (5d8 + 10)  
+**Speed**       :: 30 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 15 (+2) | 11 (+0) | 14 (+2) | 10 (+0) | 10 (+0) | 11 (+0) |
+___
+**Skills** :: Intimidation +2  
+**Senses** :: passive Perception 10  
+**Languages** :: Common  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Pack Tactics.***  
+The thug has advantage on attack rolls against a creature if at least one ally is within 5 ft of the creature.
+___
+### Actions
+***Multiattack.***  
+The thug makes two melee attacks.
+
+***Mace.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 5 (1d6 + 2) bludgeoning damage.
+
+***Heavy Crossbow.*** *Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target.  
+*Hit:* 5 (1d10) piercing damage.
+}}
+
+
+### The Stolen Vials
+
+The vials are stored in a locked chest.
+
+###### **DC 10 Investigation:**  
+Find the chest beneath a pile of blankets.
+
+###### **DC 12 Sleight of Hand or DC 13 Strength:**  
+Open the chest.
+
+Inside:
+
+- **Two blue glass vials** (contaminated with frigid woe)  
+- A small pouch of silver  
+- A map scrap showing a route north toward **Salsvault**  
+- A note from a fence:  
+  > “More where these came from. North. Bring me anything glowing blue.”
+
+{{note
+This is the party’s first explicit reference to Salsvault.
+}}
+
+---
+\column
+
+### Clues Revealed in Croaker Cave
+
+By searching the hideout, the Wardens learn:
+
+- The vials came from **ancient ruins in the Far North**  
+- A fence from Port Morrow bought and resold them  
+- The bandits handled the vials without knowing the danger  
+- The disease is spreading because of these stolen items  
+- The map scrap points toward **Salsvault**  
+- The fence mentioned “more blue things” in the ruins  
+
+This confirms:
+
+> **The cure — and the source — lie in the same place.**
+
+---
+
+## Optional Encounter: The Infected Bandit
+
+{{descriptive
+One bandit sits apart from the others, shivering violently. Blue veins trace his neck. He looks up with fear in his eyes. “I… I touched one of those vials,” he whispers. “Am I going to die?”
+}}
+
+This is a powerful moral moment.
+
+The Wardens may:
+
+- Comfort him  
+- Promise to return with a cure  
+- Put him out of his misery (dark path)  
+- Leave him to fate  
+
+**DC 12 Medicine:**  
+Confirm he has 8–10 days left.
+
+---
+
+## Aftermath
+
+Once the Wardens recover the vials and interrogate the bandits, they know:
+
+- The disease originated in the Far North  
+- The vials came from **Salsvault**  
+- The bandits unintentionally spread the plague  
+- The cure must be found in the same ruins  
+- Time is running out  
+
+This leads directly into **Section 6: Journey to Salsvault**.
+
+### Bandit Loot (Croaker Cave)
+
+| d6 | Loot |
+|----|------|
+| 1 | 12 gp in mixed coins, a rusted dagger |
+| 2 | Small pouch of semi‑precious stones worth 15 gp |
+| 3 | A map scrap showing a route north toward **Salsvault** |
+| 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue.”* |
+| 5 | A flask of cheap dwarven whiskey (10 gp) |
+| 6 | A bundle of smuggled goods worth 25 gp |
+
+{{watercolor13,top:77px,left:78px,width:256px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Section 6: Journey to Salsvault
+
+{{note
+This section transitions the adventure from local investigation to frontier expedition.  
+The Wardens must travel north across the icefields to reach Salsvault — a buried Aeorian ruin and the source of the frigid woe outbreak.
+}}
+
+{{descriptive
+The wind sharpens as you leave Palebank Village behind. Snow whips across the frozen coastline, and the sky grows pale and heavy with clouds. The path north leads into the white wilderness — a land shaped by cold, silence, and ancient secrets buried beneath the ice.
+}}
+
+The journey to Salsvault is dangerous, but the Wardens have a lead:  
+**Syrinlya Outpost**, a southern‑cities research station repurposed as a frontier camp.
+
+---
+
+### Syrinlya Outpost
+
+{{descriptive
+A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A banner flaps overhead — a stylized compass rose, the mark of the southern expeditions.
+}}
+
+The outpost is staffed by:
+
+- Southern‑cities explorers  
+- Aevorian scholars  
+- A few Northreach locals  
+- Occasional Wardens on assignment  
+
+Here, the party meets **Morgo**, their guide.
+
+---
+
+### Morgo, Veteran Guide
+
+{{descriptive
+A broad‑shouldered dwarf with frost in his beard steps forward. “You’re heading to Salsvault?” he asks, eyes widening. “Dangerous place. Constructs still active. Magic gone wrong. And the cold — it’ll kill you if the ruins don’t.”
+}}
+
+Morgo provides:
+
+- Cold‑weather gear  
+- Rations  
+- Climbing equipment  
+- A rough map of the icefields  
+- Warnings about the journey  
+
+\column
+
+### Morgo’s Key Advice
+
+- “Stay together. The ice shifts under your feet.”  
+- “If you see blue light in the snow, avoid it.”  
+- “The ruins weren’t glowing last season. Something changed.”  
+
+This reinforces the **activation timeline**.
+
+---
+
+### Travel Across the Icefields
+
+The journey takes **1–2 days**, depending on weather and skill checks.
+
+#### Required Checks
+
+- **DC 12 Survival:** Navigate the ice safely  
+- **DC 12 Athletics:** Cross unstable ice floes  
+- **DC 10 Perception:** Spot hazards before stepping into them  
+- **DC 13 Constitution:** Resist the freezing wind  
+
+###### Failure results in:
+
+- Exhaustion  
+- Cold damage  
+- Lost time (NPCs progress toward death)  
+
+{{note
+Remind players that every hour matters — Tulgi and Irven’s family are dying.
+}}
+
+---
+
+### Environmental Hazards
+
+#### **1. Freezing Winds**
+Unprotected characters take **1d4 cold damage per hour**.
+
+#### **2. Thin Ice**
+**DC 12 Dexterity save** or fall through, taking:
+
+- 1d6 cold damage  
+- 1 level of exhaustion  
+
+#### **3. Blue Spore Patches**
+Drifting clouds of Aeorian spores.
+
+**DC 11 Constitution save** or contract **frigid woe**.
+
+#### **4. Magical Instability**
+Areas of flickering blue light.
+
+Effects (roll 1d4):
+
+1. Static shock (1 lightning damage)  
+2. Frostbite (1 cold damage)  
+3. Gravity pulse (knocked prone)  
+4. Memory echo (brief hallucination of ancient Aeor)  
+
+---
+
+{{watercolor11,top:732px,left:464px,width:325px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Random Encounters (Optional)
+
+Roll 1d4 every 4 hours of travel:
+
+#### **1 — Ice Mephits**
+2–4 mephits harass the party.
+
+#### **2 — Saber‑Toothed Predator**
+A starving saber‑toothed tiger stalks the group.
+
+#### **3 — Frozen Corpse**
+###### A dead explorer clutching a journal:
+
+- Mentions “blue light beneath the ice”  
+- Notes “constructs still active”  
+- Warns “the cold is alive”  
+
+#### **4 — Echo Surge**
+###### A wave of magical energy sweeps across the ice.
+
+###### Effects:
+
+- Disadvantage on next skill check  
+- Or a brief vision of Salsvault awakening  
+
+---
+
+#### Approaching Salsvault
+
+{{descriptive
+As you crest a ridge of jagged ice, a faint blue glow pulses beneath the snow. The wind dies suddenly, replaced by a low hum — mechanical, ancient, wrong. Ahead, a dark shape rises from the ice: a metal structure half‑buried, its surface etched with glowing runes.
+}}
+
+This is **Salsvault**, the frozen laboratory of Aeor.
+
+#### What the Wardens Notice
+
+- The glow is recent — 2–3 months old  
+- The air is unnaturally cold  
+- The snow around the ruin forms geometric patterns  
+- The hum of machinery echoes beneath the ice  
+
+**Arcana DC 13:**  
+“This magic predates the Godsfall. Aeorian.”
+
+**History DC 12:**  
+“Aeor built weapons to kill gods. This place was part of that.”
+
+---
+
+### Transition to Section 7
+
+The Wardens stand at the threshold of the truth.
+
+Everything they’ve seen — the wolves, the frost patterns, Alexi’s death, the vials — leads here.
+
+**Section 7** begins when the party enters the ruin.
+
+\column
+{{monster,frame
+## Ice Mephit
+*Small elemental, neutral evil*
+___
+**Armor Class** :: 11  
+**Hit Points**  :: 21 (6d6)  
+**Speed**       :: 30 ft., fly 30 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 7 (−2) | 13 (+1) | 10 (+0) | 9 (−1) | 11 (+0) | 12 (+1) |
+___
+**Damage Vulnerabilities** :: bludgeoning  
+**Damage Immunities** :: cold, poison  
+**Condition Immunities** :: poisoned  
+**Senses** :: darkvision 60 ft., passive Perception 10  
+**Languages** :: Aquan, Auran  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Death Burst.***  
+When the mephit dies, it explodes in a burst of jagged ice.  
+Each creature within 5 ft must succeed on a DC 10 Dexterity save or take 4 (1d8) slashing damage.
+
+***Innate Spellcasting (1/Day).***  
+The mephit can cast *fog cloud*.
+___
+### Actions
+***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target.  
+*Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
+
+***Frost Breath (Recharge 6).***  
+The mephit exhales a 15‑ft cone of cold.  
+Each creature in the area must make a DC 10 Dexterity save, taking 5 (2d4) cold damage on a failed save, or half as much on a success.
+}}
+
+
+{{monster,frame
+## Echo Surge
+*Environmental Hazard — Aeorian Magic*
+___
+**Trigger** :: Occurs randomly during travel across the icefields  
+**Effect Radius** :: 30 ft pulse of unstable blue energy  
+___
+### Effects (roll 1d4)
+1. **Static Shock** — Each creature takes 1 lightning damage.  
+2. **Frostbite Pulse** — Each creature takes 1 cold damage.  
+3. **Gravity Lurch** — Each creature must succeed on a DC 10 Dex save or fall prone.  
+4. **Memory Echo** — A creature sees a brief vision of ancient Aeor (no damage, roleplay clue).
+
+### Skill Checks
+- **Arcana DC 12:** Identify the surge as Aeorian in origin.  
+- **Arcana DC 15:** Realize the pulses are increasing in frequency — Salsvault is waking.  
+}}
+
+{{watercolor7,top:351px,left:205px,width:373px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+{{monster,frame
+## Frozen Explorer (Corpse Encounter)
+*Medium humanoid, deceased*
+___
+**Armor Class** :: —  
+**Hit Points**  :: —  
+**Speed**       :: —
+___
+### Description
+A frozen corpse half‑buried in snow, clutching a frost‑rimmed journal.  
+Blue veins trace the skin — early signs of frigid woe.
+
+### Clues
+- **DC 10 Investigation:**  
+  The explorer died recently — within the last 48 hours.
+
+- **DC 12 Medicine:**  
+  Cause of death: exposure + magical cold.
+
+- **DC 12 Survival:**  
+  Tracks show the explorer fled from something large.
+
+- **DC 13 Arcana:**  
+  Blue residue on clothing matches Aeorian spores.
+
+### Loot
+- A damaged journal containing:
+  - Notes about “blue light beneath the ice”  
+  - A sketch of Salsvault’s entrance  
+  - A warning: *“Constructs still active. The cold is alive.”*
+}}
+
+\column
+
+{{monster,frame
+## Frostmane Sabertooth
+*Large beast, unaligned*
+___
+**Armor Class** :: 12  
+**Hit Points**  :: 52 (7d10 + 14)  
+**Speed**       :: 40 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 18 (+4) | 14 (+2) | 15 (+2) | 3 (−4) | 12 (+1) | 8 (−1) |
+___
+**Skills** :: Perception +3, Stealth +4  
+**Senses** :: passive Perception 13  
+**Languages** :: —  
+**Challenge** :: 2 (450 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Keen Smell.***  :: The tiger has advantage on Wisdom (Perception) checks that rely on smell.
+
+***Pounce.***  :: If the tiger moves at least 20 ft straight toward a creature and hits with a claw attack, the target must succeed on a DC 14 Strength save or be knocked prone.  
+If the target is prone, the tiger can make one bite attack as a bonus action.
+___
+### Actions
+***Bite.*** ::*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 4) piercing damage.
+
+***Claw.*** ::Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  *Hit:* 12 (2d6 + 4) slashing damage.
+}}
+
+{{watercolor2,top:146px,left:51px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+# Section 7: Salsvault — The Frozen Laboratory
+
+{{note
+This is the revelation point of the entire adventure.  
+Salsvault is the source of frigid woe, the wolves’ awakening, Alexi Merriksonn’s death, and the Aeorian Echo spreading across Northreach.  
+The Wardens are about to uncover the truth.
+}}
+
+{{descriptive
+The metal structure rises from the ice like the rib of some ancient titan. Blue light pulses beneath its surface, casting long shadows across the frozen ground. A low hum vibrates through the air — mechanical, rhythmic, alive.
+}}
+
+The entrance is a jagged tear in the ice, revealing a slanted metal corridor descending into darkness.
+### Salsvault Exterior — The Buried Entrance
+{{descriptive
+A jagged tear in the ice reveals smooth, ancient metal beneath. Blue light pulses faintly from within, casting long shadows across the snow. The air is unnaturally cold — colder than the wind, colder than the ice, as if the ruin itself is exhaling frost.
+}}
+
+**Checks**
+- **DC 12 Arcana:** The cold radiating from the entrance is magical, not environmental.
+- **DC 14 Investigation:** The ice around the entrance has melted and refrozen repeatedly — evidence of recent activation.
+- **DC 12 Survival:** Tracks show Urgon’s expedition passed this way months ago.
+
+**Clues**
+- The blue glow matches the residue found in Wolves of Welton.
+- The metal is unmistakably Aeorian — seamless, smooth, and impossibly ancient.
+- A faint hum can be felt through the ice, like a heartbeat beneath the glacier.
+
+{{note
+This is the first confirmation that Salsvault is active — and dangerous.
+}}
+
+---
+\column
+
+## Entering Salsvault
+
+### **Environmental Effects**
+Inside the ruin:
+
+- The temperature drops sharply  
+- Frost forms geometric patterns on the walls  
+- Blue spores drift in the air  
+- Machinery hums beneath the floor  
+
+**DC 11 Constitution save (hourly):**  
+Avoid 1 level of exhaustion from the cold.
+
+**DC 11 Constitution save (spore exposure):**  
+Avoid contracting **frigid woe**.
+
+---
+
+{{watercolor12,top:734px,left:325px,width:286px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+{{wide
+
+{{note
+#### Salsvault is a **buried Aeorian research facility** from the Age of Arcanum. 
+##### It was designed to create:
+ Bioweapons, Magical diseases, Anti‑divine countermeasures,  Constructs, Preservation chambers  
+
+###### It reactivated **2–3 months ago**, matching:
+ Alexi Merriksonn’s death, Wolf awakening, Magical instability across Northreach  
+
+#### The Wardens are walking into the heart of the Echo.
+}}
+
+## Key Areas of Salsvault
+}}
+### 1. The Entrance Hall
+
+{{descriptive
+A slanted corridor leads into a wide chamber coated in frost. Aeorian glyphs glow faintly along the walls, flickering like dying stars. The air hums with unstable magic.
+}}
+
+#### Checks
+
+- **Arcana DC 13:** Identify the glyphs as pre‑Godsfall Aeorian.  
+- **Perception DC 12:** Hear distant metallic scraping deeper inside.
+- **DC 12 Investigation:**  
+  Urgon’s bootprints overlap with a second set — smaller, lighter, likely Verla’s.
+
+
+#### Hazards
+
+- **Thin ice patches** (Dex save DC 12 or fall prone)  
+- **Blue spore clouds** (Con save DC 11 or contract frigid woe)
+- **Localized Gravity Shift:** A faint hum pulses through the floor.  
+  **DC 12 Dexterity save** or be pulled 5 ft toward the nearest wall (no damage).  
+  This effect repeats every 1d4 rounds.
+
+#### **Environmental Effects**
+- **Arcane Frost:** The frost coating the walls is magically reinforced.  
+  **DC 12 Arcana:** Identify it as a containment measure meant to suppress biological agents.
+
+
+
+\column
+### 2. Research Laboratories
+
+{{descriptive
+Rows of shattered glass tubes line the walls. Frozen worktables hold rusted tools, cracked vials, and strange metal devices humming with faint blue light.
+}}
+
+#### Discoveries
+
+- **DC 12 Investigation:**  
+  Notes describing “Project Woe” — a divine‑resistant bioweapon.
+
+- **DC 13 Arcana:**  
+  Spores are magically engineered to bypass healing magic.
+
+- **DC 15 History:**  
+  Aeor created these weapons to fight the gods.
+  
+- **DC 14 Arcana:**  
+  The lab’s arcane conduits are still active — barely.  
+  Touching them deals **1 lightning damage**.
+
+#### Encounter
+- **2–3 players:** 2 animated armor  
+- **4–5 players:** 1 helmed horror + 1 animated armor  
+
+#### Constructs activate if:
+- A device is touched  
+- A vial is disturbed  
+- A loud noise is made  
+
+#### **Environmental Hazards**
+- **Shattered Containment Tubes:**  
+  Stepping on broken glass triggers a sharp crack.  
+  **DC 10 Dexterity save** or take 1 piercing damage and alert nearby constructs.
+
+- **Residual Spore Pockets:**  
+  Disturbing a workbench releases a burst of spores.  
+  **DC 11 Constitution save** or contract **frigid woe**.
+
+#### **Optional Encounter Trigger**
+- Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
+
+{{watercolor2,top:113px,left:280px,width:336px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 {{monster,frame
 ## Animated Armor
 *Medium construct, unaligned*
 ___
-**Armor Class** :: 18 (natural armor)
-**Hit Points**  :: 33 (6d8+6)
-**Speed**       :: 25 ft.
+**Armor Class** :: 18 (natural armor)  
+**Hit Points** :: 33 (6d8 + 6)  
+**Speed** :: 25 ft.
 ___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|14 (+2)|11 (+0)|13 (+1)|1 (−5)|3 (−4)|1 (−5)|
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 11 (+0) | 13 (+1) | 1 (−5) | 3 (−4) | 1 (−5) |
 ___
-**Damage Immunities** :: poison, psychic
-**Condition Immunities** :: blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 6
-**Languages** :: —
+**Damage Immunities** :: poison, psychic  
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned  
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 6  
 **Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
 ___
-***Antimagic Susceptibility.*** The armor is incapacitated while in the area of an *antimagic field*. If targeted by *dispel magic*, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
-:
-***False Appearance.*** While the armor remains motionless, it is indistinguishable from a normal suit of armor.
-:
+### Traits
+***Antimagic Susceptibility.*** :: The armor is incapacitated in an *antimagic field*. If targeted by *dispel magic*, it must succeed on a Con save vs. the caster’s DC or fall unconscious for 1 minute.
+
+***False Appearance.*** :: While motionless, the armor is indistinguishable from a normal suit of armor.
+
 ### Actions
-***Multiattack.*** The armor makes two melee attacks.
-:
-***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) bludgeoning damage.
+***Multiattack.*** :: The armor makes two melee attacks.
+
+***Slam.*** :: *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage.
 }}
 
-This empty steel shell clanks as it moves, heavy plates banging and grinding against one another. Animated armors are often found guarding ancient tombs and ruins left by long-dead wizards.
-
----
-
-{{pageNumber,auto}}
-{{footnote Frozen Sick — Monster Stat Blocks}}
-
-{{watercolor11,top:586px,left:351px,width:253px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Flying Sword
 
 {{monster,frame
 ## Flying Sword
 *Small construct, unaligned*
 ___
-**Armor Class** :: 17 (natural armor)
-**Hit Points**  :: 17 (5d6)
-**Speed**       :: 0 ft., fly 50 ft. (hover)
+**Armor Class** :: 17 (natural armor)  
+**Hit Points** :: 17 (5d6)  
+**Speed** :: 0 ft., fly 50 ft. (hover)
 ___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|12 (+1)|15 (+2)|11 (+0)|1 (−5)|5 (−3)|1 (−5)|
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (+1) | 15 (+2) | 11 (+0) | 1 (−5) | 5 (−3) | 1 (−5) |
 ___
-**Saving Throws** :: Dex +4
-**Damage Immunities** :: poison, psychic
-**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
-**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 7
-**Languages** :: —
+**Damage Immunities** :: poison, psychic  
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned  
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 7  
 **Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
 ___
-***Antimagic Susceptibility.*** The sword is incapacitated while in the area of an *antimagic field*. If targeted by *dispel magic*, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
-:
-***False Appearance.*** While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword.
-:
+### Traits
+***Antimagic Susceptibility.*** :: As animated armor.
+
+***False Appearance.*** :: As animated armor.
+
 ### Actions
-***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8+1) slashing damage.
+***Longsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage.
 }}
 
-A **flying sword** dances through the air, fighting with the confidence of a warrior that can't be injured. Swords are the most common weapons animated with magic. Axes, clubs, daggers, maces, spears, and even self-loading crossbows are also known to exist in animated object form.
+{{monster,frame
+## Aeorian Guardian (Helmed Horror Variant)
+*Medium construct, lawful neutral*
+___
+**Armor Class** :: 20 (plate, shield)  
+**Hit Points** :: 60 (8d8 + 24)  
+**Speed** :: 30 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 18 (+4) | 13 (+1) | 16 (+3) | 10 (+0) | 10 (+0) | 10 (+0) |
+___
+**Damage Resistances** :: bludgeoning, piercing, slashing from nonmagical attacks  
+**Damage Immunities** :: fire, poison  
+**Condition Immunities** :: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned  
+**Senses** :: blindsight 60 ft. (blind beyond this radius), passive Perception 10  
+**Languages** :: understands Common and Draconic but can’t speak  
+**Challenge** :: 4 (1,100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Magic Resistance.*** :: Advantage on saving throws vs. spells and magical effects.
+
+***Spell Immunity.***  :: Immune to *fireball*, *heat metal*, and *lightning bolt* — Aeorian tuning.
+
+### Actions
+***Multiattack.***:: Two longsword attacks.
+
+***Longsword.*** :: *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used two‑handed.
+
+***Force Slash (Recharge 5–6).*** :: A 15‑ft cone of force.  **DC 14 Dex save**, **14 (4d6) force damage** on fail, half on success.
+}}
+
+{{watercolor3,top:74px,left:477px,width:384px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### 3. Containment Hall
+
+{{descriptive
+A long hallway lined with sealed metal doors. Frost creeps from beneath several of them. One door hangs open, its hinges warped by heat.
+}}
+
+#### Discoveries
+
+- Burn marks on the floor  
+- A shattered containment pod  
+- Blue spores drifting from vents  
+
+#### Checks
+
+- **DC 12 Medicine:**  
+  The spores match those found in Urgon’s cabin.
+
+- **DC 13 Medicine:**  
+  The shattered pod shows signs of internal explosion — the subject died violently.
+  
+- **DC 15 Arcana:**  
+  The breach aligns with the activation timeline (2–3 months ago).
+
+#### **Environmental Hazards**
+- **Frozen Door Mechanisms:**  
+  Forcing open a sealed door requires a **DC 14 Strength check**.  
+  Failure by 5 or more breaks the mechanism, releasing spores.
+
+- **Spore Vent Backflow:**  
+  Every 1d6 minutes, a vent releases a puff of blue spores.  
+  **DC 11 Constitution save** or contract frigid woe.
+
+#### **Optional Encounter**
+- A damaged **flying sword** lies dormant here.  
+  Disturbing the pod awakens it.
+
+### Salsvault General Loot
+
+| d8 | Item |
+|----|------|
+| 1 | Aeorian metal shard (nonmagical, 5 gp) |
+| 2 | Broken containment tube fragment (1 gp) |
+| 3 | Arcane conduit crystal (10 gp, faint blue glow) |
+| 4 | Research notes on “Project WOE” (historical value 20 gp) |
+| 5 | Inert power core (50 gp to scholars) |
+| 6 | Set of precision Aeorian tools (25 gp) |
+| 7 | Vial of inert spores (safe, 5 gp) |
+| 8 | Schematic fragment showing part of the facility layout |
+\column
+
+### 4. Construct Storage
+
+{{descriptive
+Metal racks hold dormant constructs — some intact, others shattered. Blue light pulses beneath their armor plates.
+}}
+
+#### Encounter
+
+- **2–3 players:** 2 flying swords  
+- **4–5 players:** 3 flying swords + 1 animated armor  
+
+#### Loot
+
+- 1d4 minor Aeorian artifacts  
+- A damaged schematic showing the **preservation chamber** location
+- **Aeorian Power Core (inert):**  
+  Worth 50 gp to scholars; unstable if tampered with.
+- **Construct Schematic Fragment:**  
+  Grants advantage on Arcana checks to identify constructs for the next 24 hours.
+
+#### **Environmental Hazards**
+- **Arcane Feedback Loop:**  
+  Disturbing inactive constructs triggers a magical pulse.  
+  **DC 12 Constitution save** or take **1d4 force damage**.
+
+#### **Optional Encounter Variant**
+- If the party is loud in previous rooms, add:  
+  - **2 additional flying swords** (small party)  
+  - **1 animated armor** (large party)
+
+
+
+::::
+### Aeorian Artifacts 
+###### (Minor Magic Items)
+
+Roll 1d4 or choose:
+
+| d4 | Artifact | Description |
+|----|----------|-------------|
+| 1 | **Aeorian Absorber** | Once per day, absorb a spell of 1st level or lower and store it. Release it as an action (same target, same effect). |
+| 2 | **Icewalker Boots** | Ignore difficult terrain caused by ice or snow. Gain advantage on checks to resist cold environments. |
+| 3 | **Translation Tablet** | While holding this slate, you have advantage on Arcana checks related to Aeorian magic or pre‑Godsfall languages. |
+| 4 | **Stasis Shard** | Once per long rest, cast *slow* (DC 13). The shard cracks slightly each time it is used. |
+
+{{watercolor10,top:742px,left:421px,width:398px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### 5. Preservation Chamber (Antidote Location)
+
+{{descriptive
+A circular room filled with warm golden light — the only warmth in the entire ruin. Shelves line the walls, holding dozens of glass vials. Most are cracked or empty. A few glow with a soft, comforting radiance.
+}}
+
+These are the **gold vials** — the antidote to frigid woe.
+
+#### Checks
+
+**DC 10 Arcana:**  ::  Gold vials = cure.    Blue vials = disease.
+
+**DC 12 Investigation:** ::   Find 1d6 intact gold vials.
+
+**DC 14 Arcana:**  ::  The antidote was created as a failsafe — Aeor feared its own weapons.
+**DC 15 Investigation:**  ::  A logbook details the antidote’s creation as a failsafe against Project WOE.
+#### Hazards
+
+**Cracked Vial Trap:** ::  Disturbing a broken vial triggers a spore burst.    **DC 11 Constitution save** or contract frigid woe.
+
+#### **Environmental Effects**
+- **Warm Light Field:**  ::  Standing within the golden glow grants **advantage on saves vs. cold** for 1 hour.
+
+### Preservation Chamber Rewards
+
+###### **Gold Vials (Antidote):**  
+- The party finds **1d6 intact golden vials**.  
+- Drinking a vial immediately cures **frigid woe**.  
+- Each vial is worth **100 gp** to scholars or healers.
+
+###### **Additional Finds**
+- Logbook detailing the antidote’s creation  
+- Notes on Aeor’s fear of its own bioweapons  
+- A schematic showing the original distribution network for antidote caches
+
+###### Optional Rare Finds (Deep Echo Resonance)
+| d6 | Echo‑Charged Item | Effect |
+|----|-------------------|--------|
+| 1 | **Frozen Memory Crystal** | Once per day, replay a 10‑second sensory memory from the ruin (vision, sound, or emotion). |
+| 2 | **Echo‑Charged Shard** | Gain resistance to cold damage for 1 hour when held. |
+| 3 | **Pulse‑Stabilizer Ring** | Advantage on saves vs. magical surges or Echo effects. |
+| 4 | **Blue‑Vein Pendant** | Once per long rest, detect magic (blue glow only). |
+| 5 | **Aeorian Data Spool** | Contains fragmented logs referencing “Site Theta” and “Site Vharos.” |
+| 6 | **Null‑Frost Vial** | Throw as an action: 10‑ft radius, 2d6 cold damage (Dex save DC 12 half). |
+
+
+
+
+
+\column
+
+### 6. Central Control Room 
+###### (Revelation)
+
+{{descriptive
+A massive circular chamber hums with ancient machinery. A central console glows with blue and gold runes. Frost covers the floor in geometric patterns — the same patterns seen in Welton and Pinebrook.
+}}
+
+This is where the Wardens learn the truth.
+
+#### Discoveries
+
+- **DC 14 Investigation:**  
+  Logs show Salsvault was dormant for centuries.
+
+- **DC 15 Arcana:**  
+  The activation sequence began **2–3 months ago**.
+
+- **DC 17 Arcana (critical clue):**  
+  The activation was **manual** — someone triggered it.
+
+- **DC 16 History:**  
+  Salsvault was part of a network of Aeorian facilities.
+  
+- **DC 12 Investigation:**  
+  The console shows multiple failed startup attempts before the successful activation.
+- **DC 15 History:**  
+  References to “Site Theta,” “Site Vharos,” and “Site 9‑B” — other Aeorian facilities.
+
+#### Optional Vision (Echo Surge)
+
+{{descriptive
+A pulse of blue light flashes across the room. For a moment, you see a vision — a figure in a hooded cloak standing before the console, pressing a glowing sigil. Then the vision fades.
+}}
+
+- This is the **first hint** of the campaign’s long‑term antagonist.
+- The hooded figure’s silhouette is distinctly non‑human — elongated limbs, crystalline growths.
+
+#### **Environmental Hazards**
+- **Arcane Overload:**  
+  Every 1d4 rounds, the console emits a pulse.  
+  **DC 12 Dexterity save** or take **1 lightning damage**.
+
+
+
+
+
+
 
 ---
 
-## Winter Wolf
+{{watercolor13,top:551px,left:397px,width:327px,background-color:#BBAD82,opacity:80%}}
 
-**Note:** Winter wolf stats can be found in the Monster Manual (MM p340) or SRD. Key details:
-- **CR 3** (700 XP)
-- Large monstrosity
-- **AC** 13 (natural armor)
-- **HP** 75 (10d10+20)
-- **Speed** 50 ft.
-- **Cold Breath** (Recharge 5-6): 15-ft. cone, DC 12 Dex save, 18 (4d8) cold damage
-- **Cold Immunity**
-- **Pack Tactics**
-- **Snow Camouflage**
+\page
 
----
+### 7. Exit & Collapse (Optional)
 
-## Yeti
+If the party disturbs too much machinery:
 
-**Note:** Yeti stats can be found in the Monster Manual (MM p305) or SRD. Key details:
-- **CR 3** (700 XP)
-- Large monstrosity
-- **AC** 12 (natural armor)
-- **HP** 51 (6d10+18)
-- **Speed** 40 ft., climb 40 ft.
-- **Cold Chilling Gaze** (DC 13 Con save or 10 (3d6) cold damage + 1 level exhaustion)
-- **Cold Immunity**
-- **Fear of Fire**
-- **Snow Camouflage**
+- The ruin shakes  
+- Ice cracks  
+- A partial collapse forces a quick escape  
+
+
+#### **Environmental Hazards**
+- **Falling Ice Shards:**  
+  **DC 12 Dexterity save** or take **1d6 piercing damage**.
+
+- **Shifting Floor Plates:**  
+  **DC 10 Acrobatics check** to avoid sliding into debris.
+
+#### **Optional Skill Challenge**
+- **3 successes before 2 failures**  
+  Skills: Athletics, Acrobatics, Survival, Perception  
+  Failure: A character is pinned and must be freed (DC 14 Strength).
 
 ---
 
-## Ice Mephit
+#### What the Wardens Learn in Salsvault
 
-**Note:** Ice mephit stats can be found in the Monster Manual (MM p215) or SRD. Key details:
-- **CR 1/2** (100 XP)
-- Small elemental
-- **AC** 11
-- **HP** 21 (6d6)
-- **Speed** 30 ft., fly 30 ft.
-- **Frost Breath** (Recharge 6): 15-ft. cone, DC 10 Dex save, 5 (2d4) cold damage
-- **Death Burst** (10-ft. radius, DC 10 Dex save, 4 (1d8) cold damage)
-- **Cold Immunity, Fire Vulnerability**
-- **False Appearance** (as ice chunk)
+By the end of this section, the party knows:
+
+- **Salsvault is the source of frigid woe**  
+- **Salsvault caused the wolves’ awakening**  
+- **Salsvault killed Alexi Merriksonn**  
+- **Salsvault is the origin of the Aeorian Echo**  
+- **The activation was deliberate**  
+- **Other Aeorian sites exist**  
+
+This leads directly into **Section 8: Resolution Paths**.
+
+
+## Frigid Woe
+*Aeorian Bioweapon — Magical Disease*
+
+{{descriptive
+A deadly magical disease engineered by Aeorian researchers during the Age of Arcanum. Designed as a divine‑resistant bioweapon, frigid woe bypasses healing magic and slowly freezes victims from the inside out. Its spores glow faint blue and cling to glass, metal, and flesh.
+}}
 
 ---
 
-## Saber-Toothed Tiger
+### Transmission
+A creature is exposed to frigid woe when it:
 
-**Note:** Saber-toothed tiger stats can be found in the Monster Manual (MM p336) or SRD. Key details:
-- **CR 2** (450 XP)
-- Large beast
-- **AC** 12
-- **HP** 52 (7d10+14)
-- **Speed** 40 ft.
-- **Pounce** (DC 14 Str save or knocked prone, bonus bite if pounce succeeds)
-- **Keen Smell**
-- **Bite** +5 to hit, 10 (1d10+5) piercing damage
-- **Claw** +5 to hit, 12 (2d6+5) slashing damage
+- Handles a **blue Aeorian vial** with cracks  
+- Breathes in **blue spore clouds** in Salsvault  
+- Touches contaminated surfaces (DC 11 Con save)  
+- Is struck by a **spore burst trap**  
+- Interacts with infected corpses or clothing  
 
-{{watercolor11,top:482px,left:53px,width:320px,background-color:#BBAD82,opacity:80%}}
+#### **Initial Save:**  
+**DC 11 Constitution**  :: On a failure, the creature becomes **infected**.
+
+---
+\column
+
+### Incubation
+- **1d4 days** before symptoms appear  
+- Symptoms begin subtly: chills, fatigue, blue veins
+
+---
+
+### Symptoms & Progression
+Once symptoms begin, it progresses in **10‑day cycles**.::
+
+**At the start of each 10‑day period**, the infected creature must make a **DC 11 Constitution save**
+
+#### **On a failure:**
+- Speed is reduced by **5 ft**
+- Veins turn blue and frost spreads under the skin
+- The creature feels constant cold, regardless of environment
+
+#### **On a success:**
+- Symptoms stabilize but do not improve
+
+{{note
+#### **If a creature’s speed reaches 0 ft:**
+- The creature **dies instantly**
+- Body becomes a **lifelike ice statue**
+- The statue is fragile and can shatter if struck
+}}
+---
+
+### Magical Interactions
+Frigid woe was engineered to **bypass divine magic**.
+
+#### **Does NOT cure frigid woe:**
+- *Lesser Restoration*  
+- *Remove Curse*  
+- *Cure Wounds*  
+- *Healing Word*  
+- *Lay on Hands*  
+- *Greater Restoration* (see below)
+
+#### **Greater Restoration:**  
+- Halts progression for **24 hours**  
+- Does **not** remove the disease
+
+#### **Detect Magic:**  
+- Reveals a **cold, blue necromantic aura**
+
+#### **Identify:**  
+- Reveals the disease is **artificial**, not natural  
+- Notes it was designed to counter divine healing
+
+---
+
+{{watercolor8,top:152px,left:210px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Cure — Golden Aeorian Antidote
+The **only true cure** is the **golden vial antidote** found in Salsvault’s Preservation Chamber.
+
+#### **Drinking a gold vial:**
+- Instantly ends all symptoms  
+- Restores speed to normal  
+- Removes all magical traces of the disease
+
+#### **Value:**  
+- Worth **100 gp** to scholars, healers, or alchemists  
+- Priceless in regions affected by the Echo
+
+---
+
+### Optional Variant — Echo‑Charged Infection
+If you want to tie the disease more deeply into the Aeorian Echo:
+
+#### **Echo Variant Effects:**
+- The infected creature occasionally sees **visions of Aeor**  
+- Magical surges cause **1 cold damage** when casting spells  
+- Creatures with frigid woe are more sensitive to Echo pulses
+
+**Arcana DC 14:** ::“This strain is mutating — the Echo is accelerating it.”
+
+---
+
+### Identifying the Disease
+**Medicine DC 10:**  :: “This is magical, not natural.”
+
+**Medicine DC 12:**  :: “The blue veins match the spores found in the vials.”
+
+**Arcana DC 13:**  :: “The disease resists divine healing.”
+
+**History DC 15:**  :: “Aeor created bioweapons to fight gods — this is one of them.”
+
+---
+
+### Removing the Disease from the World
+Destroying frigid woe requires:
+
+- Purifying the source (Salsvault)  
+- Neutralizing all blue vials  
+- Preventing further Echo surges  
+
+Even then, **spores can remain dormant for centuries**.
+
+{{note
+Frigid woe is not just a disease — it is a symptom of the Aeorian Echo. As long as Salsvault remains active, the threat persists.
+}}
+
+\column
+### Section 8: Resolution Paths
+::
+
+{{note
+This section resolves the adventure based on the Wardens’ actions in Salsvault and how quickly they return to Palebank Village.  
+The outcomes shape the village’s future, the Wardens’ reputation, and the tone of the Aeorian Echo arc.
+}}
+
+{{descriptive
+Snow falls softly as you return to Palebank Village. Lanterns glow behind frosted windows. The air is tense — villagers watch with hope, fear, and desperation as you approach with the golden vials.
+}}
+
+###### Time is critical. Each infected NPC has only days left.
+
+---
+
+### Path A: 
+###### The Wardens Return in Time (Best Outcome)
+
+If the Wardens return with the antidote before Tulgi or Irven’s family succumb:
+
+{{descriptive
+Elro meets you at the village gates, eyes wide with relief. “You found it,” he whispers. “Thank the gods — you actually found it.”  
+One by one, the infected drink the golden liquid. Warmth spreads through their bodies, melting the frost beneath their skin. Their breathing steadies. Color returns to their faces.
+}}
+
+
+#### Who Survives
+- Tulgi Lutan  
+- Irven Liel  
+- Irven’s partner  
+- Their children  
+
+#### Rewards
+- **200 gp** base payment  
+- **+100 gp bonus** for saving Tulgi  
+- **Free lodging** in Palebank  
+- **Village gratitude**  
+- **Elro’s trust**  
+- **Lorewarden Elric’s deep interest**  
+
+#### Long‑Term Effects
+- Palebank becomes a **Warden‑friendly settlement**  
+- Survivors spread word of the Wardens’ heroism  
+- Elric begins preparing a full report on Salsvault  
+- The Aeorian Echo arc accelerates  
+
+---
+
+{{watercolor3,top:480px,left:101px,width:326px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Path B: The darkest Timeline
+###### The Wardens Return Late (Partial Success)
+
+If the Wardens take too long:
+
+{{descriptive
+Elro’s face falls as you return. “You… you weren’t fast enough.”  
+Inside Tulgi’s cabin, frost covers the walls. Her body is frozen solid, blue veins glowing faintly beneath the ice.  
+Irven’s home is silent. Only two of the family survived.
+}}
+
+#### Who Dies (DM chooses based on timing)
+- Tulgi  
+- One or more of Irven’s family  
+- Possibly both households  
+
+#### Rewards
+- **200 gp** base payment  
+- No bonus  
+- Survivors are grateful but grieving  
+
+#### Long‑Term Effects
+- Palebank becomes somber, half‑empty  
+- Elro is grateful but shaken  
+- Elric’s debrief is darker  
+- The Wardens feel the weight of failure  
+- The Echo arc takes on a more tragic tone  
+
+---
+
+### Path C: 
+###### The Wardens Fail to Retrieve the Antidote
+
+If the party retreats, becomes lost, or leaves Salsvault without the cure:
+
+{{descriptive
+A cold hush hangs over Palebank. Frost‑covered statues stand where villagers once lived. Doors hang open. Fires have gone out.  
+Elro stands alone in the snow, shoulders slumped. “They’re gone,” he whispers. “All of them.”
+}}
+
+#### Who Dies
+- Tulgi  
+- Irven’s entire family  
+- Any NPC exposed to the vials  
+- Possibly additional villagers  
+
+#### Rewards
+- None  
+- Elro cannot pay — the village is collapsing  
+
+#### Long‑Term Effects
+- Palebank becomes a ghost town  
+- Survivors flee south  
+- The Wardens may contract frigid woe themselves  
+- Elric’s debrief becomes urgent: :: “We cannot let this happen again.”  
+
+\column
+
+
+### Path D: 
+###### The Wardens Destroy or Seal Salsvault
+
+If the party collapses the ruin or disables its systems:
+
+{{descriptive
+The ground shakes as the ruin collapses behind you. Blue light flickers, then dies. The hum of ancient machinery fades into silence.  
+For the first time in centuries, Salsvault sleeps.
+}}
+
+#### Consequences
+- The Echo weakens temporarily  
+- No further spores escape  
+- But the Wardens lose access to Aeorian knowledge  
+- Elric is disappointed:  
+  > “You destroyed invaluable research… but perhaps it was necessary.”  
+
+#### Rewards
+- **200 gp** base payment, No bonus  
+- Mixed reactions from scholars and Wardens  
+
+#### Long‑Term Effects
+- The Echo slows but does not stop  
+- Other Aeorian sites may still activate  
+- The campaign shifts toward containment rather than understanding  
+
+
+
+### Path E: 
+###### Selective Curing (Moral Dilemma)
+
+If the Wardens find fewer gold vials than needed:
+
+{{descriptive
+Elro looks between the infected villagers, his voice trembling. “There… there aren’t enough. Who do we save?”  
+The room falls silent. All eyes turn to you.
+}}
+
+#### Choices
+- Save Tulgi  
+- Save Irven’s family  
+- Save the children  
+- Save no one  
+- Save someone unexpected  
+
+#### Consequences
+- The village reacts based on the Wardens’ choice  
+- Survivors may become allies or enemies  
+- The Wardens’ reputation shifts  
+- Elric notes the moral weight of the decision  
+
+---
+
+{{watercolor1,top:207px,left:46px,width:397px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Aftermath: 
+###### Returning to Waystone
+
+Regardless of the path taken, the Wardens return to Waystone for a full debrief with Lorewarden Elric.
+
+{{descriptive
+Elric listens in silence as you recount what happened — the disease, the vials, the ruin, the cure, the deaths.  
+When you finish, he closes his journal slowly. “Salsvault,” he murmurs. “An active Aeorian facility. Gods help us.”  
+He looks up, eyes sharp. “This is only the beginning.”
+}}
+
+This leads directly into **Section 9: Elric’s Revelation & Campaign Hook**.
+
+
+## Section 9: 
+###### Return to Waystone — Elric’s Revelation
+
+{{note
+This section concludes Frozen Sick and transitions the campaign into Arc 3.  
+The Wardens return to Waystone to report their findings to Lorewarden Elric Vael, who pieces together the full truth of the Aeorian Echo.
+}}
+
+{{descriptive
+The journey back to Waystone is quiet. Snow falls in soft sheets, muffling the world. The weight of what you’ve seen — the frozen corpses, the drifting spores, the humming machinery beneath the ice — clings to you like frost.
+}}
+
+When the Wardens arrive at the Waystone Inn, Marshal Brenna Thorne greets them with a firm nod. But it is **Lorewarden Elric Vael** who steps forward first, eyes sharp with anticipation.
+
+
+### Elric’s Debrief
+
+{{descriptive
+Elric ushers you into the private meeting room, quill already in hand. “Tell me everything,” he says, voice low and urgent.
+}}
+
+#### Let the players recount:
+
+- The outbreak  
+- The stolen vials  
+- The journey north  
+- The constructs  
+- The preservation chamber  
+- The activation logs  
+- The truth of Salsvault  
+
+Elric listens without interrupting, his expression shifting from curiosity to dread.
+
+{{descriptive
+When you finish, he exhales slowly. “An active Aeorian facility,” he murmurs. “Gods above… this explains everything.”
+}}
+
+\column
+
+### The Revelation
+
+Elric lays out the truth piece by piece.
+
+#### **1. Salsvault is the source of the Echo**
+- The wolves’ awakening  
+- Alexi Merriksonn’s death  
+- The frost patterns in Welton  
+- The magical instability in Pinebrook  
+- The frigid woe outbreak  
+
+###### All of it traces back to the ruin.
+
+#### **2. The activation was deliberate**
+{{descriptive
+Elric taps the journal. “The logs you found — the activation sequence wasn’t random. Someone triggered it. Someone who knew exactly what they were doing.”
+}}
+
+#### **3. The timeline matches every anomaly**
+- 2–3 months ago  
+- Wolves awakened  
+- Alexi died  
+- Blue frost appeared  
+- Vials began circulating  
+- Salsvault lit up beneath the ice  
+
+#### **4. Salsvault is part of a network**
+Aeor built dozens of research stations across the world.
+If one woke up…
+
+{{descriptive
+Elric’s voice drops to a whisper. “Others may follow.”
+}}
+
+
+### Brenna’s Response
+
+{{descriptive
+Marshal Brenna Thorne crosses her arms, jaw tight. “If these ruins are waking up, Northreach is in danger. We need to be ready — and we need to know who’s behind this.”
+}}
+
+She formally commends the Wardens for their work and authorizes further investigation.
+
+
+#### Optional: Survivors Visit Waystone
+
+If Tulgi or Irven’s family survived: ::
+
+{{descriptive
+Tulgi arrives at the inn, leaning on a cane but smiling faintly. “Didn’t think I’d live to see another sunrise,” she says. “Thank you.” Irven’s children rush forward, hugging your legs. Their parents bow deeply. “You saved our family,” Irven says. “We won’t forget it.”
+}}
+
+If they died: ::
+
+{{descriptive
+Elric places a hand on your shoulder. “You did what you could. Sometimes the frontier takes more than we can give.”
+}}
+
+{{watercolor5,top:442px,left:274px,width:364px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+---
+
+### The Campaign Hook
+
+Elric closes his journal with a decisive snap.
+
+{{descriptive
+“There’s more,” he says. “I’ve received reports of strange activity in the northwest mountains — a cult calling themselves the Dragonknights. They’re drawn to sites of magical power. If Salsvault woke up… they may be seeking other Aeorian ruins.”  
+He meets your eyes. “I need you to investigate.”  
+}}
+
+This sets up the next major adventure:
+
+### **Temple of the Dragonknights**  
+— where the Wardens confront the first faction actively seeking Aeorian power.
+
+---
+
+### Moving Into Arc 3: 
+###### The Echo Widens
+
+By the end of this section, the Wardens understand:
+
+- The Echo is real  
+- Salsvault caused it  
+- Someone triggered the ruin  
+- Other sites may be waking  
+- Factions are moving to exploit the chaos  
+
+The frontier is no longer merely dangerous — it is **changing**.
+
+Frozen Sick ends here, but the Aeorian Echo arc has only just begun.
+
+
+{{wide
+## Section 10: DM Notes & Tactical Guidance
+
+{{note
+Use this section as your behind-the-screen control panel for Frozen Sick.  
+It consolidates pacing, pitfalls, scaling, and improvisation tools so you can keep the adventure sharp, urgent, and emotionally grounded.
+}}
+}}
+
+### Adventure Overview (DM Lens)
+
+**Theme:** Ancient magic resurfacing with deadly consequences — the Aeorian Echo’s source is discovered.  
+**Core Tension:** A deadly disease (frigid woe) is killing villagers, and the only cure lies in dangerous Aeorian ruins. Time is running out.  
+**Level Range:** 2–4 (mid‑campaign adventure).  
+**Expected Duration:** 8–12 hours (2–3 sessions).
+
+\column
+
+### **Key NPCs:**
+
+- **Elro Aldataur** — Village leader, retired ranger, hires the Wardens.  
+- **Tulgi Lutan** — Infected dwarf trapper, suspicious of authority.  
+- **Urgon Wenth** — Deceased explorer (ice statue), source of outbreak.  
+- **Verla Pelc** — Deceased elf collector (also turned to ice).  
+- **Irven Liel** — Infected merchant, family at risk.  
+- **Morgo** — Southern‑cities guide at Syrinlya outpost.
+
+---
+
+{{watercolor11,top:389px,left:264px,width:377px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Central Mystery 
+###### (Aeorian Echo Connection)
+:
+{{note
+THIS IS THE REVELATION ADVENTURE — players discover the source of all magical disturbances across Northreach.
+}}
+
+#### **The Truth:**
+
+- **Salsvault** is a buried Aeorian laboratory that recently reactivated.  
+- Aeorian spores (blue, magical, deadly) are leaking from the ruins.  
+- These spores caused frigid woe **and** triggered magical phenomena across the region.  
+- Salsvault’s activation killed **Alexi Merriksonn** via magical feedback.  
+- The ruins are **still active** and will continue causing problems.
+
+#### **What Players Should Learn:**
+
+1. Salsvault is an ancient Aeorian ruin that suddenly activated 2–3 months ago.  
+2. It contains both deadly weapons (frigid woe) and powerful artifacts.  
+3. The reactivation is spreading magical corruption across Northreach (Aeorian Echo).  
+4. Someone or something triggered the ruins — but who, and why?
+
+#### **What Remains Hidden (for future arcs):**
+
+- *Why* Salsvault activated (deep magic, failsafe, or intentional trigger).  
+- Whether other Aeorian ruins exist in the region.  
+- The full extent of Aeor’s magical arsenal.
+
+
+### Common DM Pitfalls & Fixes
+
+#### **1. Plague Timeline Too Forgiving**
+
+**Problem:** ::DMs hesitate to let NPCs die, which undercuts urgency.
+
+###### **Fix:**
+
+- Urgon and Verla are already dead (ice statues).  
+- Tulgi has ~7 days left.  
+- Irven’s family has ~10 days.  
+- PCs infected: symptoms in 1d4 days.
+
+**Be explicit:**  ::  “You have about a week before more people die. Every delay costs lives.”
+
+---
+
+#### **2. Croaker Cave Feels Like Filler**
+
+**Problem:** :: Can feel like a side quest.
+
+**Fix:**  :: Frame it as **containment**
+
+- Bandits *stole* the vials.  
+- Recovering them prevents further infections.  
+- This is not a detour — it’s stopping the spread.
+
+\column
+
+#### **3. Salsvault Becomes a Flat Dungeon Crawl**
+
+**Problem:** :: “Clear rooms, fight monsters” with no emotional or thematic weight.
+
+###### **Fix:**
+
+- Emphasize environmental hazards (cold, spores, unstable magic).  
+- Keep the ticking clock in view (NPCs dying back in Palebank).  
+- Show evidence of Aeor’s fall — this was a god‑war weapons lab.  
+- Make Aeorian magic feel **wrong**: cold, blue, anti‑life.
+
+---
+
+#### **4. Antidote Location Is Vague**
+
+**Problem:** :: Players wander Salsvault aimlessly.
+
+###### **Fix:**
+
+- Seed early hints: Urgon’s notes mention “gold vials in the preservation chamber.”  
+- Morgo can sketch a rough layout if asked.  
+- Use Investigation checks to steer them toward labs and storage.  
+- Gold vials glow warm; blue spores glow cold.
+
+---
+
+### Tactical Notes & Scaling
+
+#### Combat Encounter Scaling
+
+###### **Croaker Cave:**
+
+- **2–3 players:** 4 bandits + 1 bandit captain.  
+- **4–5 players:** 6 bandits + 1 bandit captain + 1 thug.
+
+###### **Salsvault Constructs:**
+
+- **2–3 players:** animated armor + 2 flying swords per encounter.  
+- **4–5 players:** helmed horror + animated armor + 3 flying swords.
+
+###### **Environmental Hazards:**
+
+- Frigid cold: 1d4 cold damage/hour without protection.  
+- Blue spore clouds: DC 11 Con save or contract frigid woe.  
+- Unstable magic: random magical surges (Wild Magic table for flavor).
+
+---
+
+{{watercolor12,top:658px,left:240px,width:280px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+### Non‑Combat Challenges
+
+###### **Investigation — Palebank:**
+
+- Urgon’s cabin: DC 12 Investigation → Tulgi’s footprints.  
+- Pelc’s Curiosities: DC 10 Investigation → receipt linking Urgon to vials.  
+- Tulgi’s cabin: DC 15 Persuasion → confession.  
+- DC 10 Insight (Elro) → he’s genuinely desperate.
+
+###### **Survival — Journey to Salsvault:**
+
+- DC 12 Survival → navigate ice floes safely.  
+- DC 15 Survival → avoid blizzards (failure = exhaustion).  
+- Random encounters: ice mephits, saber‑toothed tigers (1d4).
+
+###### **Arcana — Salsvault:**
+
+- DC 13 Arcana → identify Aeorian magical signatures.  
+- DC 15 Arcana → safely handle unstable artifacts (failure = backlash).  
+- DC 10 Arcana → recognize gold vials as antidote (warm vs. cold glow).
+
+---
+
+## Improvisation Toolkit
+
+**If Players Get Stuck (Palebank):**
+
+1. Elro: :: “Mila saw Tulgi near Urgon’s cabin. Talk to her.”  
+2. Pelc’s shopkeeper (if alive):  :: “Urgon sold me strange blue vials. Then they were stolen.”  
+3. Tulgi breaks down:  :: “I’m dying. I searched Urgon’s cabin. I need help.”
+
+###### **If They Skip Croaker Cave:**
+
+- Bandits ambush them on the road.  
+- Vials found on the leader’s body.  
+- Or Elro’s scouts locate the hideout and point the way.
+
+###### **If They Rush to Salsvault Unprepared:**
+
+- Morgo warns them about gear and rations.  
+- Show a frozen corpse as a consequence of unprepared travel.
+
+###### **If They’re Getting Wrecked in Salsvault:**
+
+- Constructs defend, not hunt — they don’t pursue far.  
+- Hidden stash: 2d4 potions of healing.  
+- Morgo can arrive a day behind as emergency backup.
+
+---
+\column
+
+### Rewards & Aftermath (Mechanical)
+
+###### **Standard Rewards:**
+
+- 200 gp from Elro (base).  
+- +100 gp if Tulgi survives.  
+- 1d4 minor Aeorian artifacts.  
+- Free supplies from grateful villagers.
+
+###### **Aeorian Artifact Examples:**
+
+- **Aeorian Absorber** — absorbs 1 spell/day, reflects it back.  
+- **Frigid Woe Antidote** — 1d6 gold vials (cure or 100 gp each).  
+- **Aeorian Translation Tome** — advantage on Arcana checks about ancient magic.  
+- **Icewalker Boots** — ignore difficult terrain from ice/snow.
+
+###### **Milestone XP:**
+
+- Finish Palebank investigation → Level 3.  
+- Complete Salsvault → Level 4 (if not already).
+
+###### **Reputation:**
+
+- Palebank Village → Friendly (if saved).  
+- Southern explorers → Interested (party has Aeorian expertise).  
+- Lorewarden Elric → Highly invested in the Wardens’ future.
+
+---
+
+### Aeorian Echo Foreshadowing (Lines to Drop)
+
+Use these throughout the adventure:
+
+1. **Salsvault’s Activation:**  :: “The ruins weren’t always active. Something woke them up 2–3 months ago.”
+
+2. **Aeorian Magic Description:**  :: “The blue glow is wrong. It’s anti‑life — magic designed to kill gods.”
+
+3. **Geographical Implications:**  :: “If Salsvault is active, other Aeorian ruins might be waking too.”
+
+4. **Morgo’s Warning:**  :: “We’ve lost three expeditions in the Far North this year. Something’s changing out there.”
+
+5. **Elric’s Debrief:**  :: “The wolves at Welton. The instability across Northreach. It’s all connected. The Aeorian Echo is spreading.”
+
+{{watercolor4,top:330px,left:465px,width:283px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14397,7 +16077,7 @@ A fourth/fifth level adventure for D&D 5E
 
 ---
 
-{{watercolor10,top:333px,left:410px,width:343px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:73px,left:324px,width:334px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14596,7 +16276,7 @@ A fourth/fifth level adventure for D&D 5E
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
 
-{{watercolor2,top:546px,left:369px,width:279px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:71px,left:302px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14612,7 +16292,7 @@ A fourth/fifth level adventure for D&D 5E
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
 
-{{watercolor12,top:427px,left:462px,width:368px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:290px,left:168px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14640,7 +16320,7 @@ A fourth/fifth level adventure for D&D 5E
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
 
-{{watercolor5,top:100px,left:175px,width:337px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:749px,left:232px,width:390px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14896,7 +16576,7 @@ This reinforces the Aeorian Echo mystery and sets up future adventures.
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: The Wild Sheep Chase}}
 
-{{watercolor4,top:235px,left:119px,width:399px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:52px,left:2px,width:362px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14925,7 +16605,7 @@ If you want to plant seeds in advance, you may wish to introduce the character o
 {{pageNumber,auto}}
 {{footnote Adventure Hooks}}
 
-{{watercolor2,top:205px,left:351px,width:372px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:30px,left:3px,width:357px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14981,7 +16661,7 @@ While he prefers violence and intimidation, he is also willing to offer bribes a
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-{{watercolor12,top:516px,left:479px,width:388px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:185px,left:278px,width:310px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15038,7 +16718,7 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-{{watercolor13,top:198px,left:486px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:143px,left:296px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15081,7 +16761,7 @@ The path to Noke’s Tower cuts off from a main road a few miles out of town, da
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-{{watercolor8,top:129px,left:146px,width:290px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:221px,left:473px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15122,7 +16802,7 @@ When the party arrives at the compound, there is a trio of Apes (MM p31 7) eithe
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-{{watercolor4,top:608px,left:437px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:330px,left:142px,width:275px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15182,7 +16862,7 @@ The most important part of any fight that breaks out is Noke, who is offensively
 {{pageNumber,auto}}
 {{footnote Bed Dragon Wyrmling}}
 
-{{watercolor12,top:684px,left:219px,width:341px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:724px,left:121px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15260,7 +16940,7 @@ However, the over-used wand will crackle, fizz and malfunction with a loud bang,
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
 
-{{watercolor6,top:60px,left:31px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:382px,left:422px,width:287px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15291,7 +16971,7 @@ If the party decides to go ahead with the spell and it fails, Shinebright dies p
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
 
-{{watercolor4,top:606px,left:233px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:147px,left:239px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15319,12 +16999,6 @@ If inspected with a DC 1 5 Intelligence (Arcana) check, reveal that the modifica
 
 Each time a charge is used the user must pass a DC 1 7
 
-{{pageNumber,auto}}
-{{footnote Modified Wand of True Polymorph}}
-
-{{watercolor12,top:381px,left:42px,width:320px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 Intelligence (Arcana) check.
 
@@ -15336,115 +17010,98 @@ This transformation cannot be undone by any spell lower than 9th level and canno
 
 If they fail by more than five, in addition to the above consequences the wand explodes violently, dealing 1 d1 2 force damage to all creatures within 1 0 ft for each charge remaining in the wand. This destroys the wand.
 
-## Credits and Acknowledgments
-
-DUNGEONS & DRAGONS, D&D, Wizards of the Coast,
-
-Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.
-
-This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild. All other original material in this work is copyright 201 6 by Richard Jansen-Parkes and published under the Community Content Agreement for Dungeon Masters Guild.
-
-{{watercolor9,top:611px,left:370px,width:339px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Peril in Pinebrook
-
-**PERIL**
-
-**IN**
-
-**PINEBROOK**
-
-**An Introductory Adventure for**
-
-**The World’s Greatest Roleplaying Game**
-
-Welcome to Dungeons & Dragons:
-
-{{watercolor11,top:456px,left:495px,width:312px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:20px,left:272px,width:338px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # DM Notes: Peril in Pinebrook
 
-## Adventure Overview
+### Adventure Overview
 
 **Theme:** Frontier communities caught in the crossfire of rising magic
 
 **Level Range:** 1-3 (excellent introductory adventure)
 
-**Expected Duration:** 2-3 hours (designed for new players)
-
-## DM Prep Checklist
+###### **Expected Duration:** 2-3 hours 
+\column
+### DM Prep Checklist
 
 - [ ] Read entire adventure (45-60 minutes)
-- [ ] Familiarize yourself with Silver Dragon Wyrmling stats (MM p118)
+- [ ] Familiarize yourself with Silver Dragon Wyrmling stats
 - [ ] Decide on Rorn's corruption level
-- [ ] Mark key revelation moments (Aeorian artifact, restoration option)
+- [ ] Mark key revelation moments
 
-{{pageNumber,auto}}
-{{footnote DM Notes: Peril in Pinebrook}}
+{{wide
+### Peril in Pinebrook
 
-{{watercolor13,top:260px,left:98px,width:353px,background-color:#BBAD82,opacity:80%}}
+}}
+##### **Mystery Rating:** ⭐⭐ 
+#### Secondary — Human Cost & Smuggling
 
-\page
+###### **Campaign Arc:** Arc 1: First Signs — Learning the Land
 
-# Peril in Pinebrook
+###### **Arc Position:** Part 2 of 2 in Arc 1
 
-## Northwatch Wardens Integration (DM)
+### **Arc Progress Notes:** 
+This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
 
-**Mystery Rating:** ⭐⭐ (Secondary — Human Cost & Smuggling)
+#### **Campaign Connection:** 
+This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
-**Campaign Arc:** Arc 1: First Signs — Learning the Land
-
-**Arc Position:** Part 2 of 2 in Arc 1
-
-**Arc Progress Notes:** This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
-
-**Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
-
-**Prerequisite Adventures:** None (works as standalone or side quest)
-
-**Leads To:**
-- **Future campaigns:** Artifact smuggling networks (Uttolot family conspiracy)
+{{note
+#### **Player Discovery:** 
+Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+}}
+#### **Leads To:**
+- **Future campaigns:** Artifact smuggling networks 
 - Demonstrates that every settlement is vulnerable to Echo effects
 
 {{note
-**DM Secret Resources:** For the truth behind this adventure, see:
+##### **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: The Aeorian Echo** — Campaign arc context
 }}
 
-**Key Secrets:**
+\column
+### **Key Secrets:**
+{{note
 - Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
 - Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
 - The market square contains **dead drop locations** for conspirators
 - An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
 - This is a **smuggling hub** moving dangerous artifacts through the frontier
+}}
 
-**Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
 
-### Mystery Clues (Aeorian Echo Investigation)
-
-**Primary Clue — Frontier Vulnerability:**
+### Mystery Clues
+{{note
+##### **Primary Clue — Frontier Vulnerability:**
 - Even "safe" settlements like Pinebrook are affected by rising tensions and instability
 - **Discovery Method:** Observing town dynamics, NPC conversations, crime investigation
 - **Investigation DC 12 (Insight):** "People are more desperate, more frightened than usual — something has changed"
 - **Connects to:** Campaign theme — no place is truly safe from the Echo's effects
-
-**Secondary Clue — Artifact Smuggling (Optional):**
+}}
+{{note
+##### **Secondary Clue — Artifact Smuggling:**
 - If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
 - **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
 - **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
 - **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
-
-**Tertiary Clue — Information Brokering:**
+}}
+{{note
+#### **Tertiary Clue — Information Brokering:**
 - Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
 - **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
 - **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
 - **Connects to:** Black market networks responding to Aeorian discoveries
+}}
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+{{watercolor10,top:586px,left:483px,width:308px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Investigation Thread Summary
 
@@ -15461,527 +17118,63 @@ Welcome to Dungeons & Dragons:
 
 ---
 
-Welcome to the adventure of a lifetime!
-
-Peril in Pinebrook is an introductory Dungeons & Dragons (also known as D&D) adventure designed for younger players, but it can be enjoyed by players of all ages! Peril in Pinebrook contains four ready-to-play characters that you can use to run your first D&D game. The simplified rules allow a Dungeon Master (also known as the DM) to easily run the game without needing other rules materials or rules knowledge.
-
-The suggested number of participants for this experience is one DM and four players, but instructions describe how to run a game for fewer players. If you have more than four players, any of the ready-to-play characters can be used by more than one player.
-
-## The Basics
-
-Dungeons & Dragons is a collaborative storytelling and roleplaying game. Each player takes on the role of an adventuring character: a hero with skill and knowledge—and sometimes magic—that lets them overcome challenges and achieve greatness!
-
-{{note
-One of the participants in the game takes the role of the Dungeon Master (DM). The DM acts as the lead storyteller, the keeper of secrets, and the referee. This document provides everything you need to know to get started as a DM.
-}}
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor2,top:620px,left:259px,width:369px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## The Adventure
-
-Characters in Dungeons & Dragons undertake quests throughout their lives, heroic journeys and death-defying acts of courage that become tales of legend*—*or tales of doom! Peril in Pinebrook contains helpful hints, suggestions, and rules explanations that assist new Dungeon Masters in running the adventure. If you’re the DM, you can run this adventure as it’s written, or you can add your own bits of story. Your imagination, and the imaginations of the other players, make each game of D&D unique.
-
-The "Running an Adventure" section has information that can help you decide whether you want to be a DM. If you prefer to play a character instead, don’t read “Adventure Introduction” or any of the adventure beyond that. If you do, some of the fun of playing might be spoiled for you.
-
-## The Rules
-
-Dungeons & Dragons is a special type of game known as a roleplaying game (RPG). In D&D, the rules help determine if the characters succeed or fail at the challenges they face. They also help the entire group of players tell a fun, exciting, and memorable story.
-
-The rules are explained in the "Using the Rules" section. The "Running an Adventure" section provides the DM advice on leading the other players through a game session. The adventure text also explains rules and game play along the way.
-
-**| Dungeons & Dragons: Peril in Pinebrook**
-
-## The Tools
-
-To play this game, you need this packet and some dice: at least one 20-sided die (d20) and one 6-sided die (d6). It speeds up game play if each player has their own dice, but players can share! If you don't have these dice, you can find digital dice rollers online.
-
-Each player should also have a way to make notes and keep track of changes to their character sheet as play progresses. A pencil and paper work well.
-
-### Character Sheets
-
-This packet includes four character sheets and a handy guide that explains some of the rules and character options in more detail. Give each player one character sheet. If you have more than four players, they can change the names and descriptions on a duplicate character sheet so that they’ll have unique characters with similar abilities and equipment. The “Helping the Characters” section later in this document provides more information about using character sheets. The Experience
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor3,top:679px,left:176px,width:301px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Peril in Pinebrook provides a play experience that can be completed in 60 to 90 minutes. It’s fine to take breaks or run the adventure in shorter sessions.
-
-The play experience can also be made longer if desired. Allowing time for people to roleplay their characters and talk with each other adds to the fun of D&D. Before play begins, the DM should read through this document to get a better understanding of the rules and the adventure.
-
-## Using the Rules
-
-Peril in Pinebrook uses a simplified version of the Dungeons & Dragons rules to teach the game to new DMs and players. The text of the adventure also contains tips that DMs and players might find useful.
-
-### Character Actions
-
-A character's actions hold the potential for either success or failure. Can you hit a monster with your weapon? Can you balance on a narrow ledge as you ascend a mountain? Can you convince a dragon not to eat you?
-
-You find the answer to these questions during the game by making a d20 roll! d20 Rolls
-
-The 20-sided die (d20) is the most-used die in D&D. It is rolled whenever a character or a creature tries to do something important.
-
-Things a character might try to do are listed under “Attacks” and “Skills” on the character sheets. Next to attacks and skills are number expressions, such as “+5 to hit.” This is the number you add to your die roll when your character uses that attack or skill.
-
-For example, the character sheet for Shalefire Stoutheart lists “Handaxe” under “Attacks,” with “+6 to hit” next to it. If Shalefire wants to attack a monster with their handaxe, the player rolls a d20. If the die roll is a 10, the player adds 6 to the die roll for a final attack score of 16.
-
-How does the player know if their roll succeeds or fails? Read on to find out!
-
-### Armor Class
-
-The number a character tries to equal or exceed with an attack roll is called Armor Class (also called AC). The higher a creature’s Armor Class, the harder that creature is to hit. In the previous example, Shalefire’s attack roll with a handaxe would hit a creature with an Armor Class of 16 or lower.
-
-### Damage
-
-When an attack roll hits, it deals damage. The damage roll appears after the attack on the character sheet. Shalefire’s handaxe does “1d6 + 4 damage,” so the player would roll one 6-sided die (d6) and add 4 to the die roll.
-
-### Difficulty Class
-
-Difficulty Class (DC) is the number that a character must equal or exceed to succeed at an action that is not an attack. This includes rolls to use skills.
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor12,top:743px,left:372px,width:364px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-For example, if Shalefire wants to move a heavy boulder blocking the mouth of a cave, that requires a skill called Athletics. Under “Skills” on Shalefire’s character sheet, it says “Athletics +6,” so Shalefire’s player rolls a 20-sided die and adds 6 to the number on the die. If the Difficulty Class to move the boulder is 12, the player would need to roll a 6 or higher for Shalefire to move the boulder.
-
-The Difficulty Class for actions a character can attempt is given in the adventure text. In general, a Difficulty Class of 10 (DC 10) is easy, while a DC of 15 is challenging. Most of the actions in this adventure are DC 10. The Dungeon Master can change DCs if circumstances make an action easier or harder.
-
-They can also make up their own DCs when the characters attempt actions not covered in the adventure.
-
-### Advantage and Disadvantage
-
-Sometimes what’s happening in the adventure makes things easier for a character. At other times, the odds are stacked against the heroes. These circumstances can be reflected in
-
-D&D as “advantage” or “disadvantage.”
-
-#### **DM Tip**
-
-Advantage and disadvantage are powerful game tools. They make d20 rolls more likely to succeed or fail, so use them wisely. They are best used as a reward for clever play by the players, or to represent good or bad luck affecting the story. In the full version of the D&D rules, certain rules automatically give a character advantage or disadvantage. For this adventure, the DM can decide when to apply advantage or disadvantage to rolls. If a character has both advantage and disadvantage on a roll, they cancel each other out, and the roll is made normally.
-
-#### Advantage
-
-If Shalefire attacks a monster with a handaxe while the monster is distracted by another character, the monster can’t see the attack coming. The DM might decide the monster is easier to hit while distracted, so Shalefire would make the attack roll with advantage.
-
-Advantage means that instead of rolling the d20 once for the attack roll, Shalefire’s player rolls the d20 twice and uses the higher roll. They then add the normal modifier (+6 for Shalefire’s handaxe) to get a final attack result.
-
-#### Disadvantage
-
-Disadvantage works like advantage in reverse. If something in the game makes it harder to take an action, the roll for that action is made with disadvantage. For example, as Shalefire climbs a cliff using a rope, a monster at the top of the cliff shakes the rope. Because it’s now harder to climb, Shalefire makes the d20 roll to climb the rope with disadvantage. Disadvantage means that instead of rolling the d20 once to make the Athletics check to climb, Shalefire’s player rolls the d20 twice and uses the lower roll. They then add the normal modifier (+6 for Shalefire’s Athletics skill) to get a final result.
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor13,top:135px,left:306px,width:277px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-### Hit Points
-
-Every creature in D&D has a number of “hit points.” This number reflects the damage a creature can take before it falls unconscious or is defeated. When a character or creature is damaged by an attack roll or a hazard in the game, the amount of damage dealt is subtracted from the character’s or creature’s hit points. If a creature reaches 0 hit points, they are defeated. The players can decide if this means a creature is dead or unconscious or if they run away.
-
-When a character reaches 0 hit points, they are unconscious. In this adventure, a character at 0 hit points remains unconscious until they regain hit points through healing or until the end of the encounter, when they regain 1 hit point automatically. The adventure details ways to regain hit points.
-
-**Using the Rules |**
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor4,top:703px,left:161px,width:353px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Running an Adventure
-
-A DM gets to use their imagination while presenting the adventure to the other players. The DM can add excitement to the game as they describe the situations and help players navigate their way through the action.
-
-### Presenting Encounters
-
-This adventure is divided into “encounters,” which are like scenes from a movie or show. Each encounter has specific challenges. Once the players complete the challenges, move on to the next scene. The flow of the game is described below.
-
-### Game Flow
-
-A D&D session begins with the DM and the other players having a conversation. The DM explains the situation the characters are in. The players can ask questions about the situation, and the DM answers those questions to further explain what’s happening.
-
-Then the DM asks the most important question in the DM’s toolbox:
-
-"What do you do?"
-
-At this point, players should explain what they want their characters to do. (If what they want to do is impossible, the DM says so and asks the player to choose a different action. For example, a character can't walk through a wall unless they have some special ability or magic that allows them to do so.) If the action is possible and very easy to do, the character automatically succeeds. Opening an unlocked door or lifting a light object doesn’t require heroic effort, so no d20 roll is necessary.
-
-When the action is somewhere between easy and impossible, trying to do it could lead to success or failure. That’s when the DM calls for a d20 roll. See the "d20 Rolls" section earlier in this document. The d20 roll, plus its modifiers, determines whether the action succeeds or fails. What does success or failure mean for an adventure? This is where you and the players get to tell a story together!
-
-### Narrating Successes and Failures
-
-When a d20 roll succeeds or fails, the DM and the players can turn that result into a part of the ongoing story. What does it look like when a monster is defeated? What does Shalefire say or do if the heavy boulder blocking the cave doesn’t budge? These points in the game can spark great storytelling and acting moments.
-
-Remember, though, that part of the DM’s job is to keep the game’s story moving forward. If describing every single attack roll in a long combat gets boring, just say how much damage the attack deals and get to the next exciting moment.
-
-### Tips for Dungeon Masters
-
-Here are some tips for DMs that can help them run great games:
-
-**Rule 0.** Rule 0 of D&D is simple: Have fun. It’s fine if everyone agrees to change the rules as long as doing so means the game is more fun for everyone. **Be Supportive.** The players and the DM are all on the same team. DMs aren’t playing against the characters. The
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor11,top:460px,left:68px,width:351px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-#### **| Running an Adventure**
-
-DM wins when the players have fun and the story is exciting and memorable.
-
-**Use “Yes, and …” or “No, but …”** Allow the players to succeed as much as possible, and let them participate in the telling of the story. If they want to try something unexpected, try to say “yes” and then work their ideas into the story. If you have to say “no” to a player’s idea, suggest options that let them do something similar.
-
-**Use Your Imagination.** Peril in Pinebrook is an outline for your game. Change or make up anything you need to if it makes the game more fun. The text can’t cover everything players might want to do. What does a monster smell like? That’s up to you, or you can ask the players what they think!
-
-**NPCs Are Your Voice.** While the players determine what their characters do, the DM controls all the other characters in the game. Nonplayer characters (also known as NPCs) are a great tool for the DM to help the characters understand the game and the story, and to work information into the story smoothly. **Allow Alternatives.** D&D is a game of fantasy, where heroes use wits, skill, and determination to overcome obstacles. Sometimes those obstacles are defeated with weapons and spells. But characters can succeed in other ways. Communicating with monsters, tricking them or frightening them away, or avoiding a fight while cleverly sneaking past a challenge can be just as much fun. Such options are ideal if anyone playing the game wants to avoid violence. **Listen to Your Players.** Encourage your players to speak to you, publicly or privately, if something in the game upsets them. Then respond appropriately. For instance, you can move past upsetting topics by quickly narrating a resolution to a scene, then quickly move to the next part of the story.
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor2,top:509px,left:500px,width:326px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-**Attacks.**
-
-Each character can make attacks with melee or ranged
-
-weapons, or with melee or ranged spells. “Melee” means an attack
-
-that is used when a character is right next to a monster. “Ranged”
-
-means an attack that is used when a character isn't near a monster.
-
-The number after the attack on a character sheet is added to a d20
-
-roll (a roll of a 20-sided die) when a character attacks. The higher the
-
-number, the more likely the attack succeeds.
-
-**Skills.**
-
-Each character can use the skills listed on their character
-
-sheet. The number after a skill shows what the player adds to a d20
-
-roll. The higher the number, the better the character is at that skill.
-
-If a character wants to use a skill that isn't on their character sheet,
-
-the player rolls a 20-sided die but doesn’t add a number to the roll.
-
-**Equipment.**
-
-A character has equipment they can use to overcome
-
-challenges during adventures. They also might find more equipment
-
-during adventures.
-
-**Special Ability.**
-
-Each character has a special ability. This ability lets
-
-a character do something during the adventure that other characters
-
-can’t do. You get to choose when your character uses their special
-
-ability, but a character can use a special ability only a limited number
-
-of times or under special circumstances.
-
-Explain how d20 rolls work with the following example:
-
-The character Noorah Eldenfield has a shortbow attack that says “+5
-
-to hit.” When Noorah attacks with a shortbow, Noorah's player rolls a
-
-d20 and adds 5 to the number rolled on the die. I’ll tell you if that
-
-attack hits the monster. If it does, Noorah’s shortbow attack also says
-
-“Damage 1d6 + 3.” The player rolls a 6-sided die and adds 3 to
-
-determine the damage dealt by the attack.
-
-A “Player Reference Sheet” also details some of the terms on the
-
-character sheets.
-
-Now let’s get on with the game!
-
-Adventure Introduction
-
-**If you are a player, stop reading here! The rest of this document**
-
-**is for the Dungeon Master only.**
-
-In
-
-Peril in Pinebrook,
-
-the characters find a newborn dragon
-
-and must return the infant to its mother’s lair. The lair, however,
-
-is under attack by hostile forces. As the DM, you'll present the
-
-challenges the characters face as they take the baby dragon home.
-
-Text that appears in a box like this is meant to be read aloud to
-
-{{descriptive
-the players. You can read boxed text word-for-word, or use your
-}}
-
-own words.
-
-To begin the adventure, show your players the character sheets.
-
-Then read the following passage aloud to your players:
-
-We’re going to play a short game of Dungeons & Dragons. These
-
-character sheets have information about your characters on them.
-
-You can each have one character to play.
-
-You can let the players choose their characters, but if you're time is
-
-limited, consider choosing characters for them.
-
-Once each player has a character sheet, read the following:
-
-Write your name in the space where it says “Player Name.”
-
-Your character already has a name, which you can use if you want,
-
-or you can change the name. There's space below the name where
-
-you can give your character a nickname and add your
-
-character's pronouns.
-
-Each character sheet has a “Description” area for your character’s
-
-appearance, personality, and attitude. Choose from the options there
-
-or make up your own. You can act out how your character behaves
-
-based on their description and personality.
-
-Offer to help the players fill out these parts of their character
-
-sheets if needed. Do your best to answer questions from players,
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor1,top:395px,left:407px,width:253px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-but some questions are best answered as they come up during
-
-play. Let the players know that you'll give them more information
-
-along the way. Still, you may need to pause between each section
-
-to answer questions as you present the following information:
-
-Let’s go over other parts of the character sheet. There is some
-
-information you should know before we start playing.
-
-**Race and Class.**
-
-Each character in D&D has a race and a class that
-
-help determine what things a character does best. Some of the other
-
-information on a character sheet is based on a character’s race
-
-and class.
-
-**Armor Class and Hit Points.**
-
-Each character has an Armor Class
-
-(
-
-also called AC) and hit points. Armor Class tells how hard it is to hit
-
-a character with an attack roll. The higher the AC, the harder it is to
-
-hit a character. Hit points determine how much damage a character
-
-can take. When a character takes damage, subtract that damage from
-
-the character’s hit points. If a character’s hit points reach 0, they are
-
-unconscious. You'll learn how to regain hit points later in the game.
-
-**Adventure Introduction |**
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor7,top:104px,left:44px,width:387px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Starting the Adventure
-
+## Starting the Adventure
 **Estimated Time to Play This Encounter: 10 minutes**
 
-When you and the players are ready to begin the adventure,
+{{descriptive
+Recent disturbances along the western frontier have stretched the Wardens thin, and Pinebrook has requested temporary support to reinforce their regular patrol routes.
 
-read the following:
+Rather than local citizens taking turns watching the woods, the village has hired trained Wardens—like you—to ensure the logging trails, mining roads, and forest paths remain safe. Today, it’s your squad’s turn to carry out the contracted patrol, sweeping the surrounding hills and woodlands for signs of trouble.
+Dangerous creatures sometimes wander the woods, but it has been safe recently. Rumors have spread through the area that a friendly silver dragon recently established a lair in the nearest mountain. The more hostile creatures of the mountains, especially the dangerous ice trolls, haven’t been seen in the past two months. Yesterday, however, a patrol saw large, frosty troll footprints in the forest. Could the rumors of a friendly silver dragon be just rumors after all?
 
-You are from the village of Pinebrook, a small settlement near the
+Your patrol today is led by the head of the village guards, Captain Emmajeen Kole. Captain Kole glances nervously at the forest trail before she nods at your group.
 
-base of a mountain range called the Spine of the World. In addition to
+“I’ve not patrolled with any of you before. Tell me a little about yourselves.”
+}}
 
-their normal jobs, the citizens of Pinebrook take turns patrolling the
+Ask each player to give their character’s name or nickname and describe what they look like. They can reveal the things they are carrying that the other characters would see, explain what attacks and skills they have, and maybe even describe their personalities. They can use their character sheets as prompts.
+\column
+---
 
-forest and hills around the village, making sure the area is safe for the
+## Roleplaying
 
-loggers who work in the forest and the miners who dig in the moun-
+D&D lets players act as their characters. Players might use a different voice or move as their character might. But if a player isn't comfortable roleplaying in that way, they can describe their character as if from a book or story instead.
 
-tains for iron ore. Today, it’s your turn to patrol the forest with some
+It's okay if some players seem hesitant to talk or have trouble roleplaying. It’s more important to make the players feel comfortable than to make them talk.
+{{note
+To help them feel more comfortable with roleplaying, consider asking them one or two of the following questions:
 
-of your friends.
+- What’s your character’s name or nickname?  
+- What does your character look like?  
+- What does your character sound like when they talk?  
+- What is your character good at doing?  
+- What does your character carry as they patrol the forest?  
+- How does your character feel about being on patrol the day after evidence of ice trolls was found in this area?
+}}
+---
 
-Dangerous creatures sometimes wander the woods, but it has been
+{{descriptive
+“Well, this forest needs to be patrolled, so let’s get to it. I’m ready to fight if we have to!”
+}}
 
-safe recently. Rumors have spread through the area that a friendly
-
-silver dragon recently established a lair in the nearest mountain. The
-
-more hostile creatures of the mountains, especially the dangerous ice
-
-trolls, haven’t been seen in the past two months. Yesterday, however,
-
-a patrol saw large, frosty troll footprints in the forest. Could the
-
-rumors of a friendly silver dragon be just rumors after all?
-
-Your patrol today is led by the head of the village guards, Captain
-
-Emmajeen Kole. Captain Kole glances nervously at the forest trail be-
-
-fore she nods at your group.
-
-“I’ve not patrolled with any of you before. Tell me a little about
-
-yourselves.”
-
-Ask each player to give their character’s name or nickname and
-
-describe what they look like. They can reveal the things they are
-
-carrying that the other characters would see, explain what attacks
-
-and skills they have, and maybe even describe their personalities.
-
-They can use their character sheets as prompts.
-
-Roleplaying
-
-D&D lets players act as their characters. Players might use a
-
-different voice or move as their character might. But if a player
-
-isn't comfortable roleplaying in that way, they can describe their
-
-character as if from a book or story instead.
-
-It's okay if some players seem hesitant to talk or have trouble
-
-roleplaying. It’s more important to make the players feel
-
-comfortable than to make them talk. To help them feel more
-
-comfortable with roleplaying, consider asking them one or two
-
-of the following questions:
-
-•
-
-What’s your character’s name or nickname?
-
-•
-
-What does your character look like?
-
-•
-
-What does your character sound like when they talk?
-
-•
-
-What is your character good at doing?
-
-•
-
-What does your character carry as they patrol the forest?
-
-•
-
-How does your character feel about being on patrol the day
-
-after evidence of ice trolls was found in this area?
-
-Once all the characters have introduced themselves, Captain
-
-Kole speaks again:
-
-“Well, this forest needs to be patrolled, so let’s get to it. I’m ready to
-
-fight if we have to!”
-
-Let the players respond for their characters if they want to.
-
-Then, describe how Captain Kole moves carefully into the
-
-forest, motioning for the characters to follow.
-
-Proceed to Encounter 1: A Not-So-Fearsome Dragon.
-
-**| Starting the Adventure**
+Let the players respond for their characters if they want to. Then describe how Captain Kole moves carefully into the forest, motioning for the characters to follow.
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor6,top:695px,left:132px,width:378px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:206px,left:221px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-\column
+## Encounter 1: 
+### A Not-So-Fearsome Dragon
 
-## Encounter 1: A Not-So-Fearsome Dragon
-
-### **Estimated Time to Play This Encounter: 10 minutes**
+###### **Estimated Time to Play This Encounter: 10 minutes**
 
 After the the characters follow Captain Kole into the forest, read the following:
-
-You move along the forest trail for fifteen minutes before Captain Kole stops and holds up a hand. “Do you hear that?” she asks. You’re going to make a Perception check to see if you can hear what Captain Kole hears. "Perception" is listed on your character sheet under “Skills.” Each of you should roll a 20-sided die and add the number next to your Perception skill on your character sheet. Then tell me the total of your Perception check.
+{{descriptive
+You move along the forest trail for fifteen minutes before Captain Kole stops and holds up a hand. “Do you hear that?” she asks. 
+}}
 
 ### Perception Checks
 
@@ -15989,882 +17182,571 @@ A player rolls a d20 and adds the modifier written next to the Perception skill 
 
 If no character succeeds on the Perception check, Captain Kole points in the direction of the sound. Continue reading:
 
+{{descriptive
 The underbrush at the edge of the trail rustles as a creature the size of a large dog crawls from the thorns and leaves. At first, the creature looks like a strange lizard made of metal. But as you look more closely, you see that it is a small dragon with blue-gray scales and a long, pointy tongue.
 
 As the dragon crawls in your direction, it feebly tries to scrape pieces of silver eggshell off its head and face. It makes a hissy, whimpering sound.
+}}
 
 Ask the players what they want to do. Let them play their characters as they react, talk, speculate, and investigate further. As long as the characters don’t try to hurt the baby silver dragon, Captain Kole simply stares in confusion, unsure what to do next.
 
+\column
+
 ### Roleplaying and Information
 
-The players will probably ask questions throughout the adventure. To give the players the proper information, try dividing answers into the following three categories: **Information the Characters Know.** If the players ask about information their characters would know, you can tell them that information. For example, the characters always know what they see, hear, and smell.
+{{note
+Players will ask questions throughout the adventure. To keep information clear and consistent, divide your answers into three categories:
+}}
 
-**Information the Characters Might Know.** Players might learn information based on their characters' skills. For instance, Shalefire or Gallantine could ask if this is a baby silver dragon. As the DM, you can have their players make a DC 10 check with an appropriate skill to see if they know the answer to that question. Shalefire could use the Animal Handling skill, while Gallantine could use the Nature skill. If they succeed on the check (d20 + skill modifier is 10 or higher),
+#### **Information the Characters Know.**  
+If the players ask about something their characters would reasonably know, simply tell them. Characters always know what they see, hear, and smell.
+
+#### **Information the Characters Might Know.**  
+Some questions require a skill check. For example, if Shalefire or Gallantine asks whether the creature is a baby silver dragon, call for a **DC 10** check using an appropriate skill.  
+- Shalefire might use *Animal Handling*.  
+- Gallantine might use *Nature*.  
+
+If the result is **10 or higher**, tell them:  
+*“Yes — this is a newborn silver dragon.”*  
+You may add a small detail, such as noting that young silver dragons often eat meat and other foods.
+
+#### **Information the Characters Don’t Know Yet.**  
+If players ask something their characters have no way of knowing — such as *“Where did this baby dragon come from?”* — simply say:  
+*“You’re not sure, but you can try to find out.”*
+
+{{note
+If the characters fail their checks or don’t ask the right questions, Captain Kole can provide the missing information. She knows it is a baby silver dragon and will not allow the characters to harm it.
+}}
+
+---
+
+{{descriptive
+Captain Kole pulls a book from her backpack — *The Practically Complete Guide to Dragons*. She flips to the middle of the book.
+
+“It’s true! This is a newborn silver dragon. The mother’s lair must be in the nearest mountain just beyond the forest, just as the rumors said. We need to get this baby to its mother quickly. I wonder how it got so far from home?”
+
+She hesitates, then sighs. “I must return to Pinebrook and report what we’ve found. I need you to take the baby to the lair and its mother. Protect this dragon with your lives. Trails in the forest lead right up to the mountain. Give this poor thing a name and get it some food — it looks weak.”
+
+She tears a page from the book and hands it to you. “Here. This might be useful. According to the book, silver dragons are peaceful and usually like people.”
+}}
+
+{{note
+The page Captain Kole gives the characters appears in Appendix A. It contains simple Draconic-to-Common translations. The characters don’t need to read it now, but it will be useful later in the adventure.
+}}
+
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor2,top:472px,left:223px,width:341px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:648px,left:23px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor3,top:702px,left:403px,width:341px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-you can tell them "Yes! This is a newborn silver dragon." You might add that they often eat meat and other food as well. **Information the Characters Don’t Know Yet.** A question like, “Where did this baby dragon come from?” is something the characters don’t know, at least not yet. When this happens, you can simply say, “You’re not sure, but you can try to find out.”
-
-If the characters fail their checks or don’t ask the right questions, you can have Captain Kole provide information. She can confirm that this is a baby silver dragon, and she refuses to allow the characters to harm it in any way.
-
-After the players ask all their questions and roleplay their reactions to the dragon, read the following:
-
-Captain Kole pulls a book from her backpack, The Practically Complete Guide to Dragons. She flips to the middle of the book. “It’s true! This is a newborn silver dragon. The mother’s lair must be in the nearest mountain just beyond the forest, as the rumors said. We need to get this baby to its mother quickly. I wonder how the baby got so far from home?”
-
-Captain Kole hesitates, then sighs. “I must return to Pinebrook and tell them what we’ve found. I need you to take the baby to the lair and its mother. Protect this dragon with your lives. Trails in the forest lead right up to the mountain. Give this poor thing a name and get it some food. It looks weak.”
-
-She tears a page from the book and holds it out. “Here. This might be useful. According to the book, silver dragons are peaceful and usually like people.”
-
-The page Captain Kole gives the characters is found in appendix A. It contains translations of Draconic, the language of dragons, into the Common language the characters know. The characters don’t need to read it now, but the information will be useful in the adventure.
 
 ### Feeding and Care
 
-After Captain Kole leaves, the characters should attempt to find food for the dragon. You may want to point out that all the characters have rations listed on their character sheets under “Other Equipment.” Alternatively, Shalefire can make a DC 10 Survival check or Gallantine can make a DC 10 Nature check to find berries and nuts the dragon can eat.
+{{note
+After Captain Kole leaves, the characters should attempt to find food for the baby dragon. Alternatively,make a **DC 10 Survival** check or a **DC 10 Nature** check to find berries and nuts the dragon can eat.
+}}
 
-Remind players how to make d20 rolls if needed. After the dragon is fed, it says one word: “Nytha.” The characters won’t learn this until later, but the baby just called the characters “Mama” in Draconic.
+{{descriptive
+After eating, the tiny dragon lifts its head, blinks slowly, and says a single soft word: “Nytha.” 
+}}
 
-Once the dragon eats, it perks up and follows the characters. They can carry the dragon, who enjoys the attention. The dragon also loves belly rubs!
+The characters won’t understand this yet, but the baby just called them “Mama” in Draconic.
 
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+Once fed, the dragon perks up and begins following the characters. It happily allows itself to be carried and seems to enjoy the attention.  
+The dragon also **loves belly rubs**.
 
-{{watercolor4,top:38px,left:198px,width:397px,background-color:#BBAD82,opacity:80%}}
 
-\page
+{{monster,frame
+## Baby Silver Dragon
+*Tiny dragon, unaligned*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 9 (2d4 + 4)  
+**Speed**       :: 20 ft., fly 20 ft. (clumsy)
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 6 (−2) | 14 (+2) | 14 (+2) | 6 (−2) | 11 (+0) | 12 (+1) |
+___
+**Saving Throws** :: Dex +4  
+**Skills** :: Perception +2  
+**Damage Immunities** :: cold  
+**Senses** :: blindsight 10 ft., darkvision 60 ft., passive Perception 12  
+**Languages** :: understands Draconic but can’t yet speak  
+**Challenge** :: 0 (10 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Innocent Presence.***  
+Creatures have disadvantage on attack rolls made against the baby dragon unless they have dealt damage to it during this encounter.
+
+***Fledgling Wings.***  
+The dragon can fly only in short bursts. If it ends its turn in the air, it falls unless it has something to cling to.
+
+***Silver Dragon Nature.***  
+The baby dragon is naturally gentle and curious. It will not attack unless magically compelled or in extreme panic.
+___
+### Actions
+***Cold Puff (Recharge 6).***  
+The baby exhales a tiny burst of freezing air.  
+Each creature within 5 feet must succeed on a DC 10 Constitution saving throw or take 2 (1d4) cold damage.
+
+***Nip.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 1 piercing damage.
+}}
+
 
 ### Moving the Adventure Forward
 
 The mountain Captain Kole pointed the characters toward is visible above the trees.
 
-When the players are ready, proceed to Encounter 2:
-
-Living Icicles.
-
-**A Not-So-Fearsome Dragon |**
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor7,top:568px,left:179px,width:399px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 \column
 
-## Encounter 2: Living Icicles
-
-### **Estimated Time to Play This Encounter: 10 minutes**
-
-Tell the players that the woods are quiet as the characters travel through the forest. They easily find the trails that lead to the mountain, and no forest creatures bother them.
-
-When the characters arrive at the base of the mountain, read the following:
-
-By carefully following the correct forest trails, you arrive at the base of the mountain. You see a cave opening not far ahead. If a dragon built a lair in the mountain, this would be an obvious entrance.
-
-The cave is the only visible entrance leading to the dragon’s lair. When the baby dragon gets near the entrance, it sniffs the air and struggles to move closer, recognizing the smell of home. As the characters move closer to the cave, read the following:
-
-The cave entrance is wide and filled with sunlight, but the cave quickly grows dark beyond, with no way to see if there is anything inside. Broken icicles and patches of frosty snow cover the ground at the cave entrance.
-
-Suddenly, the shards of ice begin to twitch. The icicles and snow come together to form small ice creatures with wicked, pointy claws.
-
-One of them cries, “Intruders! Slash ’em good!” as they attack!
-
-Five **living icicles** dwell in the cave entrance. If you are playing this adventure with fewer than four characters, remove one living icicle per player missing, to a minimum of two living icicles. Use the information below to play the living icicles during combat.
-
+## Encounter 2: 
 ### Living Icicles
 
-**Armor Class** 10 **Hit Points** 7
+###### **Estimated Time to Play This Encounter: 10 minutes**
 
-#### Attack
+### Approaching the Mountain
 
-***Claws.*** *Melee Weapon Attack:* +2 to hit. *Hit:* 1d6 slashing damage.
+The woods remain quiet as the characters travel. They easily follow the forest trails leading toward the mountain, and no creatures disturb them along the way.
 
-Read the following to get the players ready for their first combat:
+{{descriptive
+By carefully following the correct forest trails, you arrive at the base of the mountain. A cave opening sits not far ahead. If a dragon built a lair in this mountain, this would be the obvious entrance.
+}}
 
-Get ready for your first combat! Look at the "Attacks" section on your character sheet. If you want to make a melee attack, your character needs to move up to the icicle creatures. If you want to make a ranged attack, you can stay back.
+The cave is the only visible entrance to the dragon’s lair. When the baby dragon nears the opening, it sniffs the air and struggles forward, clearly recognizing the scent of home.
 
-Roll a 20-sided die and add the modifier listed by the attack you're using. Tell me the total, and I’ll tell you if the attack hit or missed. If you hit, roll a 6-sided die and add the damage modifier listed by the attack you're using and tell me the total.
+{{descriptive
+The cave entrance is wide and filled with sunlight, but the interior quickly descends into darkness. You can’t see what lies beyond. Broken icicles and patches of frosty snow litter the ground at the mouth of the cave.
+Suddenly, the shards of ice begin to twitch. The icicles and snow clump together, forming small ice creatures with wicked, pointy claws.
 
-#### Taking Turns
+One of them screeches, “Intruders! Slash ’em good!” as they attack!
+}}
 
-First, describe how the monsters are vicious, and the danger they present. Highlight how sharp their claws are. Try to make the players feel as if they’re in a battle for their characters’ lives. If the monsters make one or two successful attacks, that helps with this feeling. Let the characters act first, starting with the player on your left and going clockwise. Ask each player what they want to do, and encourage them to describe their actions so everyone can imagine what the scene looks like.
+{{note
+Five **living icicles** defend the cave entrance.  
+If the party has fewer than four characters, remove one living icicle per missing character (minimum of two).
+}}
 
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
 
-{{watercolor11,top:70px,left:341px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{monster,frame
+## Living Icicle
+*Tiny elemental, unaligned*
+___
+**Armor Class** :: 10  
+**Hit Points**  :: 7 (2d4 + 2)  
+**Speed**       :: 20 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 6 (−2) | 10 (+0) | 12 (+1) | 3 (−4) | 8 (−1) | 5 (−3) |
+___
+**Damage Vulnerabilities** :: bludgeoning  
+**Damage Resistances** :: cold  
+**Senses** :: blindsight 10 ft., passive Perception 9  
+**Languages** :: —  
+**Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Claws.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target.  
+*Hit:* 4 (1d6) slashing damage.
+}}
 
-\page
-
-After all the players have acted, any undefeated living icicles attack. Each monster that still has hit points moves to a different character and makes an attack using their claws. Roll a d20 and add the attack modifier (+2) to the roll. If the total equals or exceeds the Armor Class of the character being attacked, the attack hits. Roll 1d6, and tell the player to subtract that damage from their hit points. If the attack misses, nothing happens. Either way, describe the attack. Do the claws rend open a wound or rake harmlessly off armor?
-
-Continue taking turns until all the living icicles are defeated. You can describe the living icicles shattering or melting as they're defeated. Or perhaps the living icicles flee when they're defeated. Just make it clear to the players that the living icicles can’t be chased and caught, perhaps by having them flow into narrow cracks in the mountainside where the characters can’t follow.
-
-##### DM Tip
-
-Running an exciting combat in D&D is like a thrilling amusement park ride: the players often want to be scared and excited, but they don't want the excitement to lead to certain character death. This is where you can perform storytelling and mathematical magic. You can intervene if the characters seem to be losing the battle. For instance, you can give the characters advantage on attack rolls or give the monsters disadvantage on attack rolls. See the "Using the Rules" section earlier in this document for details about advantage and disadvantage. Changing probabilities like this can improve the characters' odds in defeating the monsters.
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor6,top:98px,left:417px,width:330px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Rather than having a monster attack one character until they fall unconscious, have the monster attack a different character each turn.
-
-This tactic keeps more characters in the fight longer. You can even say the baby dragon rushed in and took down a monster, but try not to use outside help very often.
-
-#### After the Characters Succeed
-
-Once the living icicles are defeated, ask the players what they want to do next. If they need help, suggest that they search the area.
-
-##### Searching the Area
-
-Some monsters carry treasure, so it's often a good idea for characters to search the monsters as well as the area around them. Unless treasure is hidden, the characters can easily find it without having to make a check.
-
-Just inside the cave entrance, the characters find a worn leather backpack. Inside the backpack are the following items:
-
-###### | Living Icicles
-
-a package of dried meat, five torches, flint and steel for starting fires, and a pouch containing 12 gold pieces.
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor5,top:621px,left:87px,width:297px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:459px,left:222px,width:397px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-Dividing Treasure
+### First Combat
 
-Let the players divide up the treasure as they wish. If they start
+{{descriptive
+Sharp icicle-creatures skitter across the stone, their claws clicking like glass knives. They move with sudden, jerking motions — fast, hungry, and unnervingly alive.
+}}
 
-to argue over who gets what, use the dragon to calm everyone
+Let the characters act first. Go around the table in order and ask each player what they do. Encourage quick, vivid descriptions so everyone can picture the chaos of the fight.
 
-down. The baby cries if the characters argue!
+After all players have taken their turns, any surviving living icicles strike back. Each one moves toward a different character and makes a claws attack.
 
-Healing Injured Characters
+Describe each attack — whether claws slice into armor and flesh, or scrape harmlessly across shields and stone.
 
-If any characters took damage from the living icicles, the best
+Continue alternating player turns and monster turns until all the living icicles are defeated. When they fall, they shatter into brittle shards or melt into slush. If you prefer, defeated icicles can flee by slipping into narrow cracks the characters cannot follow.
 
-way to heal the damage is for Evandon to use their special
+---
 
-ability to cast a spell called
+### After the Characters Succeed
 
-Cure Wounds
+Ask the players what they want to do next. If they’re unsure, suggest searching the area.
 
-. Shalefire also
+#### Searching the Area
 
-has a special ability to heal their own damage, but only once
+Just inside the cave entrance, the characters find a worn leather backpack. Inside are:
 
-during the adventure. (The full rules of D&D have other ways
+- a package of dried meat  
+- five torches  
+- flint and steel  
+- a pouch containing **12 gold pieces**
 
-to heal damage, but this adventure relies on Evandon’s spells,
+Let the players divide the treasure however they choose.
 
-Shalefire’s special ability, and on other healing opportunities
 
-later in the adventure.)
+#### Healing Injured Characters
 
-What Did We Just Fight?
+If any characters were injured, they may use their class abilities, spells, or features to recover. If they need a reminder of what they can do, prompt them to check their character sheets.
 
-Living icicles are magical creatures that ice trolls sometimes
+#### What Did We Just Fight?
 
-use to guard places. A character who succeeds on a DC 10
+Living icicles are minor magical constructs sometimes created or commanded by **ice trolls** to guard lairs and tunnels.  
+A character who succeeds on a **DC 10 Arcana or History** check knows this and can share it with the group.
 
-check using skills such as Arcana or History knows this and can
+---
 
-tell the other characters what they know.
+#### Moving the Adventure Forward
 
-Moving the Adventure Forward
+{{descriptive
+The baby dragon chirps anxiously and tries to waddle deeper into the cave, tugging at cloaks and armor with surprising determination.
+}}
 
-The baby dragon tries to run into the cave. When the characters
 
-are ready, proceed to Encounter 3: A Dangerous Lair.
-
-**Living Icicles |**
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor12,top:304px,left:355px,width:369px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 \column
 
-## Encounter 3: A Dangerous Lair
+## Encounter 3: 
+### A Dangerous Lair
 
-### **Estimated Time to Play This Encounter: 15 minutes**
+###### **Estimated Time to Play This Encounter: 15 minutes**
 
-After defeating the living icicles and entering the cave, the characters must contend with the hazards and dangers of the tunnels that lead to the silver dragon’s lair. When the characters enter the cave, read the following:
+#### Into the Cave
 
-The front of the cave is lit by sunlight coming through the opening, leaving the back of the cave in darkness. The cave walls contain rough chalk drawings of creatures that look like trolls dancing and working.
+After defeating the living icicles and stepping inside, the characters must navigate the hazards and strange remnants within the tunnels leading toward the silver dragon’s lair.
 
-Ask the players to make either a DC 10 History or Religion check for their characters. Although Evandon is the only character who has a bonus to their Religion skill and Gallantine is the only character with a bonus to their History skill, the other characters can still attempt a History or Religion check. The players just don’t add anything to the d20 roll when they do.
+{{descriptive
+The front of the cave is lit by sunlight spilling through the entrance, but the back quickly sinks into darkness. Rough chalk drawings cover the walls — crude depictions of troll‑shaped figures dancing, working, and hauling heavy loads.
+}}
 
-If any of the characters succeeds on the skill check, tell the players that ice trolls once lived and worked in the cave. Even if no one succeeds on the skill check, continue by reading the following:
+Ask the players for a **DC 10 History or Religion** check.
 
-The baby dragon gets more excited after entering the cave, as if it knows it's close to home. Barely visible in the shadows at the back of the cave, a passageway turns into a tunnel that slopes upward toward the center of the mountain.
+{{note
+A success reveals that **ice trolls** once lived and worked in this cave system. 
+Even if no one succeeds, continue the scene.
+}}
 
-Because the cave is dark and spooky beyond the entrance, the characters need to use the torches found in the worn leather backpack to light their way as they explore. The flint and steel in the backpack can be used to light the torches.
+{{descriptive
+The baby dragon becomes visibly excited, chirping softly as it waddles deeper into the shadows. At the far end of the chamber, a narrow passage curves upward into a sloping tunnel that leads toward the heart of the mountain.
+}}
+
+The darkness beyond the entrance is thick and unsettling. The characters will need to use the **torches** and **flint and steel** found in the worn leather backpack to light their way.
+
+---
 
 ### Reaching the Lair
 
-The characters must overcome three challenges to safely reach the hatching cavern of the silver dragon’s lair. Each challenge can be overcome in a variety of ways, using skills, equipment, or attacks.
+The characters must overcome **three challenges** to safely reach the hatching cavern of the silver dragon’s lair. Each challenge can be solved in multiple ways — through skills, clever ideas, equipment, or brute force.
 
-The challenge descriptions suggest potential ways characters can overcome each challenge. However, if the players come up with other ways that might work, let them make a d20 roll that somehow connects to their idea. Imagination often leads to an even more creative story!
+{{note
+If the players propose a creative solution not listed in the challenge description, let them attempt it with an appropriate d20 roll.  
+Reward imagination — it often leads to the best moments.
+}}
+
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor4,top:459px,left:388px,width:301px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:93px,left:420px,width:378px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 #### Challenge 1: Climbing Icy Walls
 
-As the characters move through the passage, read the following:
+{{descriptive
+The cold, frosty passage continues until you reach an ice‑covered wall. The tunnel continues fifty feet above. You’ll need to climb the wall to move deeper into the mountain.
+}}
 
-The cold, frosty passage continues until you reach an ice-covered wall. The passage continues fifty feet above. You’ll have to climb the wall to move deeper into the mountain.
+Characters must succeed on a **DC 10 Athletics or Acrobatics** check to climb the wall. A character who fails takes **1d6 bludgeoning damage** from slipping and falling before eventually reaching the top.
 
-Characters must succeed on a DC 10 Athletics or Acrobatics check to climb the wall. If a character fails the check, roll 1d6. Tell the player to subtract that number from the character's hit
+{{note
+A *Climber’s Kit* grants advantage on the check.  
+If a character reaches the top with a rope, they can lower it to allow others to climb without making checks.
+}}
 
-##### | A Dangerous Lair
-
-points to represent the damage the character takes from falling before they eventually reach the top.
-
-Noorah has a Climber’s Kit on her character sheet (under “Other Equipment”) that gives her advantage on the check. If a character who reaches the top has a rope, they can lower the rope to help the other characters. Characters who use the rope can reach the top without making a check. The passage then continues upward.
-
-###### DM Tip
-
-If a character carries the baby dragon and falls during the climb, the dragon doesn’t take damage. You can reward a character protecting the baby dragon by giving them advantage on certain rolls.
+---
 
 #### Challenge 2: Magical Ice Mirror
 
-As the characters continue, read the following:
+{{descriptive
+The winding, upward‑sloping passage is blocked by a thin sheet of solid ice. Through it, you can see the tunnel continuing on the other side. As your torchlight flickers, the ice suddenly becomes reflective — a perfect mirror. In the shimmering surface, you and your companions appear as silver dragons, while the baby dragon looks like a human toddler with silver skin.
+}}
 
-The winding, upward-sloping passage is interrupted by a thin sheet of solid ice. Through the ice sheet, you can see the passage continues on the other side. As your torchlight flickers, the ice suddenly becomes as reflective as a mirror, its surface shimmering strangely. In those reflections, you and your companions are all silver dragons, and the baby dragon looks like a human toddler with silver skin.
+###### Allow the players to react, then continue:
 
-Let the players roleplay and react to this unique discovery, then continue:
-
-The head of a large, platinum-colored dragon appears in the ice and speaks. You understand the words the Dragon speaks, even though it isn't speaking in a language you know.
+{{descriptive
+A large, platinum‑colored dragon’s head forms within the ice. You understand its words, though it speaks no language you know.
 
 “You are on a blessed quest, but you must speak the correct words in the correct language to enter the lair of one of my children. What two words correctly answer this question: What type of creature are you escorting home?”
+}}
 
-Ask the players to make a DC 10 Arcana, History, or Religion check. If a character succeeds on the check, tell them that the figure in the ice represents Bahamut, the god of the metalliccolored dragons (brass, bronze, copper, gold, and silver). The correct answer to the question is “silver dragon.” However, the characters must say this in the Draconic language. They can use the page from Captain Kole’s book to find the correct words: “orn darastrix.”
+
+
+{{note
+###### Ask for a **DC 10 Arcana, History, or Religion** check.
+- Success reveals the figure is **Bahamut**, god of metallic dragons.  
+- The correct answer is **“silver dragon”**, spoken in Draconic: **“orn darastrix.”**  
+- The characters can use the page from Captain Kole’s book to find the translation.
+}}
+
+If the players struggle, Bahamut’s reflection may offer gentle hints.
+\column
+
+###### If any character speaks the correct words:
+
+{{descriptive
+The mirror instantly melts, splashing you with icy water. Instead of freezing you, the water tingles warmly as it runs down your skin and armor.
+}}
+
+{{note
+- Bahamut’s blessing restores each character to **full hit points** and grants **advantage on their first roll** in the next challenge.
+
+
+- If the characters break or melt the ice instead, they bypass the mirror but **do not** receive the blessing.  
+A character who shatters the mirror takes **1d6 cold damage**.
+
+
+- **DM Tip:** Even if the players fail checks, always allow the adventure to continue. Failure should create consequences — not dead ends.
+}}
+
+---
+
+#### Challenge 3: Navigating the Ice Slides
+
+{{descriptive
+The passage climbs higher and higher until you stand atop an icy cliff overlooking a vast cavern. A network of steep, slick slides made of stone and ice twists downward — merging, splitting, and looping in a dizzying maze. Some slides end in solid ice walls. Others are lined with razor‑sharp icicles.
+
+Suddenly, the cliff beneath you begins to crack. If you don’t jump onto a slide now, you’ll fall!
+}}
+
+Each character must leap onto a slide. Once on a slide, they cannot stop, but they can switch to intersecting slides while moving at high speed.
+
+---
+
+#### Finding the Best Path
+
+Before jumping, characters may attempt to identify the safest route. 
+{{note
+###### Ask for a **DC 10 Investigation or Perception** check.
+
+- **Success:** The character chooses a safe slide and takes no damage.  
+- **Failure:** The character lands on a hazardous slide and must make a **DC 15 Acrobatics or Athletics** check to switch to safety.
+- A character without those skills can still roll — they simply add no modifier.
+- If the character fails the second check, they take **1d6 slashing or bludgeoning damage** from ice shards, drops, or collisions.
+}}
+---
+
+#### Describing the Action
+
+Encourage vivid descriptions: leaping between slides, spinning through loops, narrowly avoiding collisions, or sliding past each other in a blur of frost and speed.
+
+{{note
+**DM Tip:** If one character finds a safe slide, others may try to follow. To keep the challenge meaningful, you can describe the top of that slide collapsing just after the first character begins their descent, forcing each character to choose their own path.
+}}
+
+
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor13,top:417px,left:367px,width:315px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:145px,left:415px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-If the players need help answering the question, or if they get the answer partly right, Bahamut’s reflection can provide hints such as, “You have one word correct, but you need the other.”
+### Moving the Adventure Forward
 
-If any character speaks the correct words, read the following:
+It’s a short walk from the bottom of the cavern to the hatching chamber. The characters are now ready to face the final threat.
 
-The ice mirror instantly melts, splashing you all with icy-cold water. But instead of freezing you, the water tingles as it runs down your skin, clothes, and armor. It feels wonderful.
+## Encounter 4: 
+### Dragon Eggs and Soaring Silver
+###### **Estimated Time to Play This Encounter: 15 minutes**
 
-Bahamut blessed this water. Tell your players that the healing magic restores each character's hit points to the maximum amount listed on their character sheets.
+{{descriptive
+This large chamber is filled with ice‑coated stalactites and stalagmites. The ceiling slopes upward toward an ice‑plugged hole far above. In the center of the cavern, two large silver eggs rest upon heaps of frozen snow. A third nest holds only broken shell pieces. 
 
-Additionally, each character has advantage on the first roll they
+A fourth nest is empty — its egg missing.
 
-make in the next challenge (the ice slides).
+Between you and the eggs stand two strange creatures the size of horses. Their bodies resemble massive frogs, but their skin is pure white and their mouths bristle with sharp teeth.
+They creep toward the remaining eggs, but your arrival interrupts them. They turn, hiss, and launch themselves toward you with powerful hops!
+}}
 
-Characters might use other methods of getting past the ice
+These creatures are **egg snatchers**, trained by ice trolls to steal dragon eggs. If the characters don’t intervene, the last two eggs will be lost.
 
-mirror, such as melting the ice with a torch or smashing it with
+#### There are **three egg snatchers**.  
+- If you have **three or fewer players**, remove one egg snatcher.  
+- If you have **two or fewer players**, reduce each egg snatcher’s starting hit points to **10**.
 
-a weapon. If they do that, however, they don't receive Bahamut's
+Describe the egg snatchers collapsing into heaps of pale flesh as they are defeated, or fleeing into the darkness too quickly to pursue.
 
-healing magic. Also, a character who breaks the mirror takes
+
+
+### Running the Combat
+
+Let the characters act first, moving clockwise around the table. After all players have acted, any surviving egg snatchers attack.
+
+###### Each egg snatcher moves toward a different character and makes a bite attack:
+
+- **Attack:** +4 to hit  
+- **Hit:** 1d6 + 2 piercing damage  
+
+Describe each attack vividly — a snapping jaw around an ankle, or teeth scraping harmlessly off armor. Continue alternating turns until all egg snatchers are defeated.
+
+\column
+
+{{note
+**DM Tip:**  
+A character reduced to 0 hit points falls unconscious. At the end of the encounter, any unconscious characters regain **1 hit point** automatically.
+}}
+
+
+{{monster,frame
+## Egg Snatcher
+*Large monstrosity, unaligned*
+___
+**Armor Class** :: 12  
+**Hit Points**  :: 18 (4d8)  
+**Speed**       :: 30 ft., hop 30 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 12 (+1) | 11 (+0) | 3 (−4) | 10 (+0) | 6 (−2) |
+___
+**Senses** :: darkvision 60 ft., passive Perception 10  
+**Languages** :: —  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 5 (1d6 + 2) piercing damage.
+}}
+
+### After the Characters Succeed
+
+Once the egg snatchers are defeated, the baby dragon crawls into the nest, curls among the broken shells, and immediately falls asleep.
+
+---
+
+### Moving the Adventure Forward
+
+Before the characters can act, the mother dragon returns.
+
+{{descriptive
+A thunderous crash erupts from high above. Chunks of ice and snow rain down as an enormous silver dragon bursts through a frozen section of the cavern ceiling. She plummets downward and lands before you, frigid air streaming from between her teeth.
+
+“What is happening here?” she roars.
+}}
+
+The characters have some explaining to do. 
 
 {{pageNumber,auto}}
 {{footnote Peril in Pinebrook}}
 
-{{watercolor10,top:20px,left:189px,width:396px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-damage. Roll 1d6 and tell the player to subtract that number
-
-from their character's hit points when it shatters.
-
-{{note
-**DM Tip**
-}}
-
-Even if the players roll poorly, always allow them to continue forward
-
-in the adventure. Consequences for failing challenges might include
-
-character's losing hit points, which might make the final encounter
-
-more challenging. But you don’t want to prevent the characters from
-
-continuing with the adventure because of bad luck.
-
-Challenge 3: Navigating the Ice Slides
-
-The final stretch of tunnels leading to the silver dragon’s
-
-hatching cavern is made of several icy slides that join, separate,
-
-and crisscross each other as they descend. Read the following:
-
-The passage has taken you higher and higher, and now you stand
-
-atop an icy cliff, looking down into a huge cavern inside the mountain.
-
-Slides made of stone and ice provide a way down, but they’re steep
-
-and slick. Furthermore, these slides merge, crisscross, and loop
-
-around each other in a dizzying maze. The slides look like the only
-
-way forward. Some end in solid ice walls. Others are covered with
-
-razor-sharp icicles. You need to choose the best slides to get down.
-
-Suddenly, you hear a cracking sound. The cliff you’re standing on is
-
-starting to collapse! If you don’t jump on a slide now, you’ll fall!
-
-Each character must quickly jump on one of the slides. Once
-
-a character starts to slide, they can’t stop. However, they can
-
-switch to a different intersecting slide while zipping down at
-
-high speed.
-
-**Finding the Best Path.**
-
-Before starting to slide, the characters
-
-can try to quickly figure out which slide is safest. Ask the players
-
-to make a DC 10 Investigation or Perception check to determine
-
-the best choice. If a character succeeds on this check, they
-
-choose the best slide to reach the bottom safely. The character
-
-doesn’t take any damage, but you can describe the wild ride they
-
-experience as they slide toward the cavern floor.
-
-**Changing Slides.**
-
-A character who fails the check jumps
-
-onto a slide and quickly reaches dangerous sections of razor-
-
-sharp ice shards, long drops, ice walls, and other hazards. The
-
-character must succeed on a DC 15 Acrobatics or Athletics
-
-check to jump to a safer slide to avoid taking damage.
-
-A character who doesn’t have Acrobatics or Athletics on their
-
-character sheet can still make checks with those skills, but they
-
-don’t add any modifier to the d20 roll.
-
-If a character fails the check, roll 1d6. Tell the player to
-
-subtract that number from their character's hit points to
-
-represent the damage they take while reaching the bottom of
-
-the slide.
-
-**Describing the Action.**
-
-As the characters ride these
-
-dangerous slides, think about ways that you or the players might
-
-describe how the characters jump from one slide to another, go
-
-through loops and rolls, and narrowly miss hitting each other.
-
-Give the players a chance to describe what their characters are
-
-going through.
-
-{{note
-**DM Tip**
-}}
-
-If one character makes a check to find a safe path down the slides,
-
-the other players might say their characters follow on the same slide,
-
-which might make this challenge too easy. You can increase the
-
-challenge by saying the top of the safe slide collapses just after the
-
-first character starts down it. You can do this each time a new
-
-character chooses a slide to ensure that each character has to
-
-navigate their own path.
-
-Moving the Adventure Forward
-
-It’s a short walk from the bottom of the cave to the hatching
-
-cavern. The characters are ready to face the final threat!
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor6,top:148px,left:192px,width:392px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Proceed to Encounter 4: Dragon Eggs and Soaring Silver.
-
-**A Dangerous Lair |**
-
-Encounter 4: Dragon Eggs
-
-and Soaring Silver
-
-**Estimated Time to Play This Encounter: 15 minutes**
-
-When the characters enter the hatching cavern, read the following:
-
-This large chamber is filled with stalactites and stalagmites covered
-
-in ice. The ceiling slopes up toward an ice-plugged hole far above you.
-
-On the ground in the center of the chamber, two large silver eggs rest
-
-upon heaps of frozen snow. A third spot now holds nothing but bro-
-
-ken shell pieces. A fourth spot looks like it also held an egg, but that
-
-egg is missing.
-
-Between you and the eggs stand two strange creatures the size of
-
-horses. They have bodies like frogs, but their skin is pure white and
-
-they have mouths full of sharp teeth.
-
-The creatures are moving threateningly toward the two remaining
-
-eggs in the nest, but you’ve interrupted them. They turn toward you
-
-and hiss. Then with powerful hops, they hurl themselves toward you!
-
-These creatures are
-
-**egg snatchers**
-
-, trained by ice trolls to steal
-
-dragon eggs. If the characters don’t intervene, the last two eggs
-
-will be lost!
-
-There are three egg snatchers. If you have three or fewer
-
-players, remove one egg snatcher, leaving the characters with two
-
-enemies. If you have two or fewer players, reduce the starting hit
-
-points of the two egg snatchers to 10.
-
-Describe the egg snatchers falling to the ground as they are
-
-defeated, or fleeing into the darkness too fast for the characters
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor1,top:675px,left:245px,width:369px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-to follow.
-
-{{note
-**DM Tip**
-}}
-
-A character that reaches 0 hit points falls unconscious and remains
-
-unconscious until they regain hit points through healing. At the end
-
-of the encounter, any unconscious player characters regain 1 hit point
-
-automatically.
-
-After the Characters Succeed
-
-Once the eggs snatchers are defeated, the baby dragon crawls
-
-into the nest, settles among the broken eggshells, and
-
-falls asleep.
-
-Moving the Adventure Forward
-
-Before the characters can do anything else, the mother dragon
-
-returns! Read the following:
-
-A loud crash erupts from high above. Chunks of ice and snow fall
-
-around you as an enormous silver dragon bursts through a
-
-frozen section of the cavern ceiling. The dragon plummets and lands
-
-before you, frigid air streaming from between sharp teeth.
-
-“What is happening here?” the dragon roars.
-
-The characters have some explaining to do! Proceed to the
-
-Conclusion.
-
-This combat runs the same way as in “Encounter 2: Living
-
-{{note
-Icicles.” Refer to the DM Tip in that encounter to remind the
-}}
-
-players how to make melee and ranged attacks if you needed.
-
-Taking Turns
-
-Let the characters act first, starting with the player on your left
-
-and going clockwise. Ask each player what they want to do.
-
-After all the players have acted, any undefeated egg snatchers
-
-attack. Each monster that still has hit points moves to a different
-
-character and makes an attack with their bite.
-
-Roll a d20 and add the attack modifier (+4) to the roll. If the
-
-total equals or exceeds the Armor Class of the character being
-
-attacked, the attack hits. Roll 1d6 and add the damage modifier
-
-. Tell the player to subtract that damage from their hit points.
-
-(+2)
-
-If the attack misses, nothing happens. Either way, describe the
-
-attack. Perhaps a bite clamps around an ankle, or maybe the
-
-egg snatcher breaks a tooth on a piece of armor.
-
-Egg Snatchers
-
-**Armor Class**
-
-12
-
-**Hit Points**
-
-18
-
-Attack
-
-***Bite.***
-
-*Melee Weapon Attack:*
-
-+4 to hit.
-
-*Hit:*
-
-1d6 + 2 piercing damage.
-
-
-**| Dragon Eggs and Soaring Silver**
-
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-{{watercolor2,top:489px,left:165px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:256px,left:30px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Conclusion
+###### Estimated Time to Play This Encounter: 10 minutes
 
-## **Estimated Time to Play This Encounter: 10 minutes**
+The angry silver dragon waits for the characters to explain themselves. This is an opportunity for the players to roleplay and speak on behalf of their characters.
 
-The angry silver dragon waits for the characters to explain themselves. This is an opportunity for the players to roleplay as their characters.
+During the conversation, the dragon may reveal her name: **Hysvearorn**, which translates to *Soaring Silver*. She invites the characters to call her **Rorn**, as it is easier for non‑dragons to pronounce.
 
-During the conversation, you can have the dragon reveal that her name is Hysvearorn (Rorn for short). "The Dragon" section below gives you more information to help you roleplay the silver dragon.
+If the players hesitate, prompt them with questions such as:
 
-If the players are reluctant to speak, ask one of the following questions:
+- “The dragon demands an explanation. What do you say?”
+- “How does your character feel standing before a furious dragon the size of a house?”
+- “What can you say to prove you came here to return her wyrmling?”
 
-- “The dragon has asked you what you are doing here. What do you say?”
-- “How does your character feel about standing before an incredibly angry dragon the size of a small house?”
-- “What can you do or say to the dragon to prove to her that you came here to return her baby?”
+As long as the characters remain respectful, Rorn quickly realizes they are not thieves — they are rescuers.
 
-As long as the characters don’t do anything silly, Rorn quickly realizes they aren’t here to steal her eggs, but are returning her baby instead.
+---
+{{note
+#### DM Tip
 
-### **DM Tip**
+Dragons are overwhelmingly powerful. If the players decide to attack Rorn, you can handle it in several ways:
 
-Dragons are incredibly powerful. If the players decide to have their characters attack Rorn, you can handle the situation in different ways:
+- Rorn looks disappointed and tells them to stop being foolish.  
+- A quick Nature check reveals she could defeat them effortlessly.  
+- Their attacks or spells simply have no effect on her.  
+- If they persist in hostility, Rorn uses her breath to paralyze them without harm, then deposits them outside the mountain — **with no reward**.
+}}
+---
 
-- The dragon looks at them with disappointment and tells them to stop being silly.
-- Ask the characters to make Nature checks, then tell the character with the highest check that they know a dragon this powerful could defeat all the characters easily.
-- Let the characters make attacks or cast spells if they like, then tell them that the dragon ignores those attempts to harm her. • If the characters continue acting in a hostile or belligerent manner, Rorn uses her magical dragon breath on them. This leaves the characters unhurt but unable to move. She then leaves them outside the mountain unharmed, but they don't get any reward from her.
+### The Dragon
 
-## The Dragon
+Use the following details to roleplay Rorn:
 
-Here are some characteristics of the silver dragon you can use to roleplay her:
+- She is an **adult silver dragon**, newly settled in this mountain to prepare for her eggs to hatch.  
+- She prefers the nickname **Rorn**.  
+- Once the situation is explained, she calms quickly and thanks the characters for saving her wyrmling.  
+- She is friendly by nature and enjoys speaking with people.  
+- If asked, she explains that **“Nytha”** means *Mama* in Draconic.  
+- Dragons refer to their young as **wyrmlings**, not babies.
 
-- Hysvearorn is an adult silver dragon. Her full name translates to
+\column
 
-“Soaring Silver.”
+###### Rorn can also share what happened to her eggs:
 
-- She tells the characters to call her Rorn, since it’s easier for non- dragons to say than her full name.
-- If the characters explain what happened, the dragon quickly calms down and thanks them for rescuing her baby.
-- Rorn is friendly when not angered, and she likes people. In peaceful times, she likes to spend her time sharing stories with folks.
-- If the characters ask about the name “Nytha” that the baby dragon said, Rorn explains that it means “Mama” in the Draconic language.
-- Rorn says dragons call their young "wyrmlings," not babies.
+- She drove out the ice trolls who once lived here, but they returned and stole one of her eggs.  
+- She chased the thieves into a narrow tunnel in another mountain but could not follow.  
+- She has been gone for several hours searching for the missing egg.
 
-Rorn can also share details of what happened to her eggs:
+###### The rescued wyrmling recounts its own story:
 
-- Rorn recently made her lair here to prepare for the hatching of her wyrmlings. She drove away the dangerous ice trolls who lived here.
-- As her eggs were getting close to hatching, the ice trolls attacked Rorn and stole one of her eggs. Rorn chased the egg thieves and has been gone from the lair for several hours.
-- The ice trolls took the egg into a tunnel in another mountain, but Rorn couldn’t fit into the tunnel. She doesn’t know where it might lead.
+- It hatched while Rorn was away and wandered out of the lair.  
+- The characters found it and cared for it on the journey home.
 
-The rescued wyrmling tells its mother what happened to it, which Rorn can also share with the characters:
+---
 
-- The wyrmling hatched while Rorn was chasing the egg thieves. Finding itself alone, it wandered from the lair and into the forest. • The characters found the wyrmling and took good care of it on the way home.
+### More Wyrmlings!
 
-More Wyrmlings!
+As the characters speak with Rorn, the other two eggs begin to hatch.  
+The wyrmlings break free of their shells and nuzzle their mother.  
+Rorn pulls frozen meat from the nest and feeds them.
 
-As the characters speak with Rorn, the other two eggs hatch. Rorn watches carefully as the wyrmlings break their shells and then crawl over to nuzzle their mother. She pulls some frozen meat from the nest and feeds them.
+---
 
-{{pageNumber,auto}}
-{{footnote Conclusion}}
+### The Reward
 
-{{watercolor2,top:580px,left:164px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{descriptive
+Rorn thanks you again for your help. “Please, take these as a sign of my gratitude.” She digs into the snow and reveals a small, shining diamond for each of you.
 
-\page
+“More importantly, you have already bonded with my first hatchling. He deserves to learn what it is like to grow up among people. Would you take him back to your settlement and raise him? I will watch over your lands and aid you when I can.
 
-## The Reward
+“I have one more request. When I discover where the ice trolls took my stolen egg, will you retrieve it for me?”
+}}
 
-After the two other baby dragons hatch, Rorn speaks to the characters. Read the following:
+Let the characters respond however they wish. As long as they remain respectful, Rorn remains warm and gracious.
 
-Rorn thanks you again for your help. "Please, take these as a sign of my gratitude.” She digs into the snow where the eggs were set and pulls out a small shiny diamond for each of you.
-
-“More importantly, you have already bonded with my first hatchling. He deserves to continue to learn what it is like to grow up in the realm of people. Would you be willing to take him back to your settlement and raise him? I will watch over your area to help you out, and
-
-I’m always here if you have any questions.”
-
-The dragon continues. "I have another request for you. When I find the exact location where the ice trolls took my final egg, would you retrieve it, so my child can be safe from whatever the ice trolls have planned for them?”
-
-Let the characters react to Rorn’s offer. No matter how the characters respond to Rorn's requests, she is kind and polite to them if they are kind and polite to her.
+---
 
 ### Treasure
 
-Each of the small diamonds is worth 50 gold pieces. Each character can add this to their character sheet under “Other Equipment.”
+Each diamond is worth **50 gp**.  
+Characters may add this to their sheets under *Other Equipment*.
+
+---
+### Experience
+
+Each character recieves 175 experience for the adventure.
 
 ## Return to Pinebrook
 
-At the conclusion of the conversation, Rorn shows the characters a secret passage that leads from the mountain, which ends the characters' adventure ... for now!
-
-**Conclusion |**
+When the conversation concludes, Rorn reveals a hidden passage leading out of the mountain — the end of this adventure… for now.
 
 {{pageNumber,auto}}
 {{footnote Conclusion}}
 
-{{watercolor8,top:733px,left:228px,width:395px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-Credits
-
-**Designer:**
-
-Shawn Merwin
-
-**Consulting Designer:**
-
-Dan Dillon
-
-**Art Director:**
-
-Bree Heiss
-
-**Editors:**
-
-Janica Carter, Scott Fitzgerald Gray
-
-**Graphic Designers:**
-
-Emma Ekblad, Zsolt Tóth
-
-**Cover Illustrator:**
-
-Katerina Ladon
-
-**Interior Illustrators:**
-
-Emily Fiegenschuh, Jim Nelson, Eva Widermann
-
-**Producers:**
-
-Bill Benham, Siera Bruggeman
-
-**Product Manager:**
-
-Natalie Egan
-
-**Senior Brand Manager:**
-
-Shelly Mazzanoble
-
-Special thanks to Quinn Carroll, the Hawes Family, Aurora Merwin,
-
-and Beth Merwin
-
-**Dungeons & Dragons: Peril in Pinebrook |**
-TM & ©2023 WIZARDS OF THE COAST LLC.
-
-{{pageNumber,auto}}
-{{footnote Conclusion}}
-
-{{watercolor9,top:19px,left:407px,width:371px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-**Full of lore and lavish illustrations,**
-
-**A Practically Complete Guide to Dragons**
-
-**is the ultimate dragon-lover’s guide!**
-
-**Available wherever books are sold.**
-
-**dnd.wizards.com**
-
-**EXPLORE THE MAGICAL**
-
-**WORLD OF DRAGONS**
-
-# Player Reference Sheet
-
-This sheet contains explanations, definitions, and helpful advice on being a player in this Dungeons & Dragons game.
-
-## D&D Terms
-
-**d20.** A 20-sided die is also known as a d20. **d6.** A 6-sided die is also known as a d6. **d20 Roll.** A d20 roll is a roll of a 20-sided die plus any modifiers. A d20 roll is compared to a Difficulty Class number or an Armor Class number to see if the action you use the roll for succeeds.
-
-**Difficulty Class (DC).** A Difficulty Class is the number that tells how hard it is to use a skill. When you make a d20 roll to use a skill, you need to equal or exceed the DC to use the skill successfully.
-
-**Armor Class (AC).** Armor Class is the number that tells how hard it is to hit a creature with an attack roll. When you make a d20 roll as an attack roll, you need to equal or exceed a creature’s AC to hit them and deal damage. **Hit Points.** Hit Points is the number that shows how much damage a creature can take before they fall unconscious or are defeated.
-
-{{pageNumber,auto}}
-{{footnote Player Reference Sheet}}
-
-{{watercolor7,top:628px,left:251px,width:316px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-**Action.** What your character does on their turn during a game of D&D is their action. Actions include attacks, using skills, and more.
-
-**Encounters.** Encounters are the scenes that take place during a D&D adventure.
-
-**Advantage.** When you attempt an action while circumstances make success more likely, you roll two 20-sided dice for your d20 roll, then use the higher roll. **Disadvantage.** When you attempt an action while circumstances make failure more likely, you roll two 20-sided dice for your d20 roll, then use the lower roll.
-
-{{note
-**Dungeon Master (DM).** The Dungeon Master is the person acting as the lead storyteller, the keeper of secrets, and the referee in a game of D&D.
-}}
-
-**Roleplaying Game (RPG).** D&D is a roleplaying game, where players use characters to take part in a story as the game unfolds.
-
-**Adventure.** A story you play through with your character in a game of D&D is called an adventure.
-
-**Character Sheet.** The information about a character that a player refers to in a game of D&D is listed on a character sheet. The character sheet tells a player who their character is and what they are good at.
-
-## D&D Skills
-
-**Acrobatics.** The Acrobatics skill is your character’s ability to do physical tricks and have good balance, like an expert gymnast. **Animal Handling.** Keeping animals calm and getting them to do what you want can be accomplished with the Animal Handling skill.
-
-**Arcana.** Arcana determines what you know about magic and how magic is used.
-
-**Athletics.** Activities that require strength, such as lifting heavy objects or breaking down doors, can be accomplished with the Athletics skill.
-
-**History.** The History skill tells you what you know about what’s happened in the past.
-
-**Insight.** The Insight skill helps you understand situations involving what other creatures are feeling, including how they feel about you.
-
-**Investigation.** When you study a situation and figure out what’s going on based on clues, you use the Investigation skill. **Nature.** Your knowledge of the natural world is covered by the Nature skill.
-
-**Perception.** The Perception skill lets you notice things that are hard to detect or that are hidden.
-
-**Religion.** Knowledge of the gods and their powers is covered by the Religion skill.
-
-**Stealth.** The Stealth skill lets you sneak around without being seen or heard.
-
-**Survival.** The Survival skill covers lots of activities for staying safe in nature, including tracking animals and finding food or water.
-
-## D&D Spells, Weapons, Equipment
-
-**Climber’s Kit.** A climber's kit includes special spikes, boot tips, gloves, and a harness to help you ascend a wall, a cliff, or some other vertical surface.
-
-**Crowbar.** A crowbar is a heavy piece of iron used for smashing open or prying open doors and other objects. **Cure Wounds.** Cure Wounds is a spell that allows you to heal damage taken by a creature (including you). **Fire Bolt.** The Fire Bolt spell shoots a blast of magical fire at one enemy.
-
-**Handaxe.** A handaxe is an axe you can hold in one hand that is built to be used in combat.
-
-**Holy Symbol.** A holy symbol is a small object that represents your god’s power. If you are a cleric, your holy symbol allows you to use that power to cast spells.
-
-**Leather Armor.** Leather armor is a suit of armor made from hardened animal skins. It is light and easy to wear. **Mace.** A mace is a weapon consisting of a blunt piece of metal on the end of a handle.
-
-{{pageNumber,auto}}
-{{footnote Player Reference Sheet}}
-
-{{watercolor13,top:319px,left:178px,width:329px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-**Magic Missile.** A Magic Missile spell sends out three missiles of magical force, which automatically hit without needing d20 rolls.
-
-**Quarterstaff.** A long piece of heavy wood, a quarterstaff can be used as a walking stick or as a weapon.
-
-**Rations.** Rations are food you take on adventures. They include dried meat and fruit to eat, and water to drink. **Ring Mail Armor.** Ring mail armor is a suit of armor made of small interlocking metal rings. It is heavy for maximum protection.
-
-**Scale Mail Armor.** Scale mail armor is a suit of armor made from small, flat pieces of overlapping metal plates sewn together. It is heavier than leather armor but lighter than ring mail armor. **Shortbow.** A shortbow is a light bow used to shoot arrows at enemies from range.
-
-**Shortsword.** A shortsword is a light sword that can be easily swung in one hand.
-
-**Thieves’ Tools.** Thieves’ tools are a kit containing lockpicks and other tools for opening locks and disabling traps.
-
-Permission is granted to photocopy this document for personal use. TM & © 2023 Wizard of the Coast LLC.
-
-{{watercolor6,top:203px,left:452px,width:353px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:392px,left:436px,width:366px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16962,7 +17844,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 
 *A Simple Adventure Module*
 
-{{watercolor4,top:650px,left:211px,width:281px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:478px,left:364px,width:353px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17083,7 +17965,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor3,top:638px,left:157px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:138px,left:348px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17097,7 +17979,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor7,top:669px,left:372px,width:295px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:455px,left:166px,width:374px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17158,7 +18040,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor8,top:652px,left:366px,width:310px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:664px,left:111px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17192,7 +18074,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor9,top:85px,left:429px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:682px,left:291px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17240,7 +18122,7 @@ Permission is granted to photocopy this document for personal use. TM & © 2023 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor6,top:410px,left:322px,width:355px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:447px,left:264px,width:382px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17490,7 +18372,7 @@ This sets up potential future adventures or allows party to pursue other goals i
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Temple of the Dragonknights}}
 
-{{watercolor13,top:293px,left:378px,width:325px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:730px,left:248px,width:293px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17513,7 +18395,7 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 {{pageNumber,auto}}
 {{footnote A four-hour adventure for two 1st-2nd level characters}}
 
-{{watercolor13,top:477px,left:435px,width:304px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:748px,left:170px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17526,7 +18408,7 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-{{watercolor10,top:552px,left:268px,width:344px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:538px,left:262px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17611,7 +18493,7 @@ After this information is given, Joel will burst into tears over the loss of his
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-{{watercolor12,top:494px,left:332px,width:375px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:7px,left:186px,width:278px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17654,7 +18536,7 @@ A DC 10 Survival check will reveal tracks that lead to the back side of the barn
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-{{watercolor9,top:671px,left:17px,width:399px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:613px,left:333px,width:343px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17675,7 +18557,7 @@ After a curve in the trail, a DC 12 Passive perception check will signify moveme
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-{{watercolor7,top:334px,left:193px,width:344px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:661px,left:79px,width:398px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17696,7 +18578,7 @@ This section of the cavern is relatively straightforward. The players will immed
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
 
-{{watercolor4,top:81px,left:291px,width:285px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:10px,left:33px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17730,7 +18612,7 @@ Following the bridge, immediately after is a pressure triggered trap that is tri
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
 
-{{watercolor1,top:464px,left:250px,width:386px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:473px,left:33px,width:395px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17751,7 +18633,7 @@ Opening the door yields 50 XP divided amongst the party and reveals a pathway an
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
 
-{{watercolor5,top:673px,left:99px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:724px,left:47px,width:316px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17786,7 +18668,7 @@ This room contains a single brazier, and a massive stone carved frieze depicting
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
-{{watercolor1,top:626px,left:479px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:38px,left:111px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17826,7 +18708,7 @@ This encounter yields 450 XP divided amongst the party.
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
-{{watercolor4,top:46px,left:179px,width:290px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:135px,left:106px,width:280px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17856,7 +18738,7 @@ Venomfang returns to her lair to find it in ruin, and one of her children is mis
 
 Sera returns to her home city of Waterdeep to report to Archmage Vysellon on the strange goings-on in the Dragonknight Temple.
 
-{{watercolor7,top:162px,left:198px,width:267px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:276px,left:2px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17987,7 +18869,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor5,top:274px,left:48px,width:341px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:414px,left:478px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18118,7 +19000,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor13,top:162px,left:396px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:654px,left:24px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18266,7 +19148,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor1,top:440px,left:232px,width:352px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:33px,left:140px,width:371px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18494,7 +19376,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor11,top:147px,left:262px,width:270px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:117px,left:485px,width:323px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18700,7 +19582,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor11,top:471px,left:147px,width:268px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:62px,left:287px,width:351px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18880,7 +19762,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor3,top:162px,left:474px,width:354px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:735px,left:317px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19079,7 +19961,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor10,top:385px,left:288px,width:336px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:127px,left:30px,width:373px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19267,7 +20149,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor1,top:733px,left:291px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:207px,left:208px,width:379px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19282,7 +20164,7 @@ Whatever happens, the players will have shaped Northreach's future through their
 *"The past speaks from the ice. Whether we listen or silence it is our choice—and our burden."*  
 — Lorewarden Elric Vael (private journal)
 
-{{watercolor2,top:115px,left:374px,width:323px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:574px,left:113px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19489,7 +20371,7 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 **Campaign Status:** Foundational lore for Season One and beyond  
 **Player Knowledge:** None (this is DM-only background)
 
-{{watercolor3,top:219px,left:492px,width:371px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:345px,left:21px,width:400px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19716,7 +20598,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor2,top:223px,left:457px,width:387px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:587px,left:178px,width:388px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19885,7 +20767,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor11,top:392px,left:149px,width:391px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:612px,left:41px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20056,7 +20938,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor7,top:20px,left:100px,width:356px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:139px,left:249px,width:357px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20247,7 +21129,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor1,top:485px,left:298px,width:386px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:12px,left:352px,width:255px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20374,7 +21256,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor6,top:547px,left:40px,width:314px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:193px,left:418px,width:324px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20591,7 +21473,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor5,top:508px,left:224px,width:355px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:272px,left:324px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20806,7 +21688,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor1,top:45px,left:69px,width:262px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:352px,left:379px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21015,7 +21897,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor11,top:138px,left:282px,width:260px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:182px,left:422px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21292,7 +22174,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor10,top:170px,left:196px,width:346px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:546px,left:135px,width:333px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21344,7 +22226,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 *Remember: These secrets should enhance the story, not overshadow the players. Reveal information at dramatically appropriate moments.*
 
-{{watercolor4,top:282px,left:331px,width:253px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:432px,left:431px,width:268px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21583,7 +22465,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor12,top:350px,left:330px,width:382px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:39px,left:356px,width:283px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21820,7 +22702,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor3,top:266px,left:432px,width:322px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:160px,left:203px,width:373px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22077,7 +22959,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor1,top:507px,left:485px,width:277px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:63px,left:308px,width:318px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22320,7 +23202,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor4,top:236px,left:21px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:744px,left:100px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22601,7 +23483,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor10,top:415px,left:79px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:606px,left:91px,width:257px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22904,7 +23786,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor7,top:176px,left:309px,width:385px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:339px,left:157px,width:302px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23203,7 +24085,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor2,top:429px,left:140px,width:344px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:376px,left:415px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23520,7 +24402,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor10,top:522px,left:467px,width:333px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:436px,left:317px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23855,7 +24737,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor12,top:440px,left:370px,width:317px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:687px,left:172px,width:345px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23935,7 +24817,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 *Remember: Reveal these secrets gradually, rewarding player investigation and creativity. The full picture should emerge piece by piece, building to the dramatic conclusion.*
 
-{{watercolor10,top:640px,left:328px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:615px,left:362px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24646,7 +25528,7 @@ The Nullwood embodies campaign themes:
 
 — Lorewarden Elric Vael, after failed diplomatic mission
 
-{{watercolor6,top:160px,left:100px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:277px,left:157px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24695,7 +25577,7 @@ The Far North is actively changing:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor11,top:562px,left:58px,width:324px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:37px,left:37px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24789,7 +25671,7 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor8,top:723px,left:364px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:362px,left:431px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24884,7 +25766,7 @@ The stones generate a warmth field—originally for traveler comfort. This still
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor3,top:455px,left:95px,width:274px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:599px,left:365px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24967,7 +25849,7 @@ Not all constructs are active. They're waking in stages as the network powers up
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor8,top:742px,left:322px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:668px,left:14px,width:326px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25056,7 +25938,7 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor1,top:727px,left:388px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:362px,left:430px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25169,7 +26051,7 @@ After the initial pulse:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor2,top:225px,left:416px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:238px,left:289px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25278,7 +26160,7 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor1,top:248px,left:153px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:655px,left:22px,width:262px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25384,7 +26266,7 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 
 — Lorewarden Elric Vael (from his private journal)
 
-{{watercolor4,top:345px,left:436px,width:337px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:398px,left:454px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25460,7 +26342,7 @@ Since Eclipse Day:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor2,top:393px,left:445px,width:296px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:655px,left:104px,width:351px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25564,7 +26446,7 @@ Cult prophecies contain distorted fragments of truth:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor2,top:432px,left:209px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:466px,left:497px,width:320px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25655,7 +26537,7 @@ Information players should eventually discover (through investigation and explor
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor7,top:730px,left:358px,width:329px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:477px,left:203px,width:347px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25736,7 +26618,7 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor2,top:366px,left:143px,width:387px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:263px,left:319px,width:334px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -25928,7 +26810,7 @@ Ultimate outcomes depend on player choices across the campaign:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor3,top:337px,left:237px,width:291px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:553px,left:222px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26005,7 +26887,7 @@ A major volcanic eruption uncovers ruins of unknown origin buried beneath layers
 
 *The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*
 
-{{watercolor6,top:390px,left:359px,width:347px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:437px,left:405px,width:268px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26058,7 +26940,7 @@ These fragments are:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor7,top:272px,left:26px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:212px,left:96px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26096,7 +26978,7 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor7,top:146px,left:189px,width:313px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:72px,left:74px,width:298px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26133,7 +27015,7 @@ The party could potentially rescue them — if they can reach the depths and nav
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor12,top:134px,left:425px,width:391px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:267px,left:443px,width:267px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26178,7 +27060,7 @@ The Shattered Coast could become:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor8,top:226px,left:41px,width:350px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:108px,left:464px,width:362px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26231,7 +27113,7 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor1,top:584px,left:416px,width:285px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:730px,left:492px,width:285px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26293,7 +27175,7 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor6,top:56px,left:427px,width:337px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:564px,left:199px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26402,7 +27284,7 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor13,top:41px,left:265px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:502px,left:135px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26442,7 +27324,7 @@ A lighthouse keeper goes missing, but the light continues to function. Investiga
 
 — Storm-Priest Veyara of Breakwater Haven
 
-{{watercolor3,top:121px,left:246px,width:254px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:371px,left:283px,width:365px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27111,7 +27993,7 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
 
-{{watercolor12,top:182px,left:424px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:654px,left:44px,width:386px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27231,7 +28113,7 @@ This section contains:
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
 
-{{watercolor12,top:327px,left:243px,width:279px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:243px,left:83px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27239,7 +28121,7 @@ This section contains:
 
 — Deep-Reader Borin Stonescript, contemplating new seismic patterns
 
-{{watercolor6,top:660px,left:414px,width:325px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:27px,left:326px,width:347px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27855,7 +28737,7 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 {{pageNumber,auto}}
 {{footnote The Sunken Dominion: DM-Only Secrets}}
 
-{{watercolor8,top:26px,left:276px,width:281px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:651px,left:246px,width:251px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27924,7 +28806,7 @@ The truth about the Dominion is more alien than anyone suspects. It was never a 
 
 — Captain Mira Saltwind
 
-{{watercolor13,top:606px,left:242px,width:266px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:266px,left:283px,width:392px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27981,7 +28863,7 @@ Plant life in the Marches is developing primitive nervous systems and sensory ca
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor9,top:142px,left:418px,width:349px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:679px,left:185px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28037,7 +28919,7 @@ If the Genesis Seed completes its startup and engages full operations:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor12,top:373px,left:481px,width:361px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:576px,left:78px,width:324px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28084,7 +28966,7 @@ They're not entirely wrong—but they're missing the artificial component. This 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor6,top:742px,left:252px,width:365px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:129px,left:8px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28139,7 +29021,7 @@ Unlike some regions where the Echo's effects are ambient, the Marches have a **T
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor5,top:138px,left:127px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:363px,left:453px,width:371px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28196,7 +29078,7 @@ When players discover the truth, they have several potential paths:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor3,top:639px,left:323px,width:352px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:338px,left:415px,width:345px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28255,7 +29137,7 @@ When players discover the truth, they have several potential paths:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor6,top:642px,left:159px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:450px,left:463px,width:251px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28297,7 +29179,7 @@ Strange creatures have begun emerging from the Wildheart Basin—animals that we
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor10,top:567px,left:337px,width:378px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:494px,left:229px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28348,7 +29230,7 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor10,top:465px,left:283px,width:387px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:459px,left:105px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28400,7 +29282,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor3,top:625px,left:48px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:362px,left:0px,width:302px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28430,7 +29312,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor5,top:247px,left:496px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:634px,left:256px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28469,7 +29351,7 @@ The Marches ask fundamental questions:
 
 — Archdruid Mora Greenleaf of Greenwatch Enclave
 
-{{watercolor9,top:44px,left:148px,width:355px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:0px,left:367px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28542,7 +29424,7 @@ The city becomes a battleground:
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor12,top:473px,left:269px,width:333px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:324px,left:393px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28681,7 +29563,7 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor5,top:709px,left:226px,width:349px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:529px,left:235px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28774,7 +29656,7 @@ Unwitting accomplices. The best distribution system the fragments could ask for.
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor13,top:382px,left:271px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:715px,left:311px,width:393px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28940,7 +29822,7 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor10,top:566px,left:196px,width:332px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:232px,left:422px,width:270px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29019,7 +29901,7 @@ Anything magical is for sale:
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor3,top:552px,left:330px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:508px,left:94px,width:355px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29082,7 +29964,7 @@ Criminal networks spreading corruption. Artifact trafficking endangering everyon
 
 — Lorewarden Elric Vael, Northwatch Wardens
 
-{{watercolor4,top:713px,left:428px,width:319px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:599px,left:276px,width:274px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29401,7 +30283,7 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - Expand with Season 2 mystery threads
 - Include player handout versions (spoiler-free investigation notes)
 
-{{watercolor7,top:734px,left:360px,width:370px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:576px,left:295px,width:329px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29884,7 +30766,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
 - This document (Week 4)
 
-{{watercolor7,top:590px,left:213px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:257px,left:23px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30485,7 +31367,7 @@ Non-negotiable enemy; zealot; requires defeat or flight
 - DM Guild Roster.md (full NPC secrets & campaign connections)
 - Adventure_Quick_Reference.md (one-page adventure sheets)
 
-{{watercolor9,top:412px,left:329px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:134px,left:178px,width:340px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30993,7 +31875,7 @@ Next session hook: _____________________
 - NPC_Quick_Reference_Cards.md
 - Mystery_Investigation_Guide.md
 
-{{watercolor10,top:507px,left:271px,width:387px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:40px,left:386px,width:371px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31102,7 +31984,7 @@ CHOICE POINT:
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor11,top:161px,left:134px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:98px,left:175px,width:339px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31230,7 +32112,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor10,top:367px,left:432px,width:273px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:733px,left:73px,width:393px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31317,7 +32199,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor4,top:634px,left:428px,width:326px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:141px,left:333px,width:284px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31444,7 +32326,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor6,top:407px,left:206px,width:348px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:603px,left:368px,width:254px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31465,7 +32347,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 
 The campaign will flow naturally. Trust your prep, let players drive choices, and enjoy the frontier!
 
-{{watercolor8,top:534px,left:156px,width:315px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:201px,left:98px,width:353px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31495,7 +32377,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor11,top:16px,left:288px,width:253px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:450px,left:254px,width:283px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31575,7 +32457,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor4,top:238px,left:358px,width:347px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:391px,left:257px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31651,7 +32533,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor2,top:643px,left:314px,width:268px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:367px,left:170px,width:333px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31682,7 +32564,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor6,top:625px,left:129px,width:394px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:33px,left:373px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31712,7 +32594,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor1,top:86px,left:489px,width:302px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:127px,left:131px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31743,7 +32625,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor6,top:692px,left:91px,width:336px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:686px,left:65px,width:284px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31782,7 +32664,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor2,top:659px,left:131px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:603px,left:292px,width:301px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31821,7 +32703,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor11,top:112px,left:464px,width:311px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:342px,left:63px,width:362px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31856,7 +32738,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor1,top:282px,left:61px,width:378px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:403px,left:310px,width:381px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31892,7 +32774,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor12,top:750px,left:209px,width:383px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:711px,left:196px,width:357px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31917,7 +32799,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor3,top:194px,left:46px,width:255px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:161px,left:36px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31951,7 +32833,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor8,top:491px,left:439px,width:396px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:211px,left:120px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31969,7 +32851,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 - Ferol Sal, Venomfang, Old Croaker, constructs/undead, polymorphed animals, etc.
 
-{{watercolor8,top:531px,left:226px,width:254px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:607px,left:200px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -32018,7 +32900,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
-{{watercolor12,top:583px,left:194px,width:307px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:161px,left:337px,width:383px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -32123,7 +33005,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
-{{watercolor11,top:315px,left:47px,width:312px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:373px,left:194px,width:379px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -32137,10 +33019,10 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
 
-{{watercolor12,top:75px,left:383px,width:355px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:689px,left:54px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 
-{{watercolor5,top:524px,left:387px,width:357px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:187px,left:314px,width:399px,background-color:#BBAD82,opacity:80%}}
 

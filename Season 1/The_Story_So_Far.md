@@ -43,6 +43,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
+
 \page
 
 ## Major Threads (track status)
@@ -146,8 +147,8 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
-\page
 
+\page
 
 Use this section as a quick reference for what the prepared material covers. Replace/adjust it as actual play diverges.
 

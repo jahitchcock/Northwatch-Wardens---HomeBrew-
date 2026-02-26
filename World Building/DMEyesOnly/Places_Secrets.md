@@ -233,11 +233,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **Surveillance:**
 
@@ -472,11 +469,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **Local Reputation:**
 
@@ -731,11 +725,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **Official Status:**
 
@@ -976,11 +967,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **Visible:**
 
@@ -1259,11 +1247,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **What She Knows:**
 
@@ -1564,6 +1549,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
 
 ### The Historical Truth
@@ -1861,11 +1847,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 **If Players Earn Trust:**
 
@@ -2180,11 +2163,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 ### The Uttolot Operation
 
@@ -2517,11 +2497,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+
 \page
-
-
-
-
 
 ### For "Wolves of Welton"
 

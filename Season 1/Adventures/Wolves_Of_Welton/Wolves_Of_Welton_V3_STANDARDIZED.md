@@ -4,7 +4,6 @@
 A complete mystery-driven adventure for the Northwatch Wardens campaign  
 Standardized to Master Adventure Template v3
 
----
 
 ## QUICK REFERENCE CARD
 
@@ -29,19 +28,12 @@ Standardized to Master Adventure Template v3
 | **Prep Time Needed** | 1–2 hours |
 | **Materials Needed** | Maps (provided), NPC personality cards, wolf tokens, stat blocks |
 
----
 
 ## CHAPTER 1: ADVENTURE OVERVIEW
 
 ### Campaign Context
 
 **Where This Fits**
-- **Campaign Arc:** Arc 1 — First Signs: Learning the Land (Part 1 of 2)
-- **Follows:** None (campaign opener)
-- **Precedes:** Frozen Sick (direct connection via Salsvault), Wild Sheep Chase (magical destabilization theme)
-- **Standalone Play:** Yes — can run independently but integrates better as campaign beginning
-- **Recommended Party Composition:** 2–5 players, Levels 1–3
-- **Optimal Party Size:** 3 players (scales up/down with adjustments)
 
 ### Adventure Premise
 
@@ -79,13 +71,24 @@ The Echo is spreading. The wolves are the first visible symptom.
 Newly created characters know only: they chartered with the Northwatch Wardens yesterday. A contract posted at Waystone Inn promised 800 gp for eliminating wolves plaguing Welton.
 
 **Rumors Available Before Arrival:**
-- "Wolves opening gates and stealing entire herds—impossible for normal beasts"
-- "A sorcerer disappeared; wolves appeared same night"
-- "Village sent hunters into the woods; didn't all come back"
-- "Heard one of the wounded men babble about hearing wolves *talking*"
 
----
 
+...existing code...
+## Opening Adventures
+
+### **OPENING SCENE: "Wolves at the Waystone Inn"**
+{{note
+**Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
+}}
+
+A cold-open combat encounter that unites strangers through shared threat. Two hungry wolves attack outside the Waystone Inn at dusk.
+
+{{watercolor10,top:690px,left:130px,width:293px,background-color:#BBAD82,opacity:80%}}
+
+- **Setting:** Dusk. Snow‑flecked wind. Lanterns flickering outside the Waystone Inn.
+- **Goal:** Introduce the characters naturally through a shared threat.
+
+...existing code...
 ## CHAPTER 2: RUNNING THIS ADVENTURE
 
 ### Preparation Checklist

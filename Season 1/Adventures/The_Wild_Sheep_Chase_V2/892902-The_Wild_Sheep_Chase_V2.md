@@ -77,6 +77,7 @@ A fourth/fifth level adventure for D&D 5E
 
 ---
 
+
 \page
 
 # DM Notes: The Wild Sheep Chase
@@ -274,6 +275,7 @@ A fourth/fifth level adventure for D&D 5E
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
 
+
 \page
 
 ### XP Awards (Milestone)
@@ -287,6 +289,7 @@ A fourth/fifth level adventure for D&D 5E
 
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
+
 
 \page
 
@@ -313,6 +316,7 @@ A fourth/fifth level adventure for D&D 5E
 
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
+
 
 \page
 
@@ -568,7 +572,9 @@ This reinforces the Aeorian Echo mystery and sets up future adventures.
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: The Wild Sheep Chase}}
 
+
 \page
+
 # Summary
 
 The party’s attempt to grab a rare afternoon of downtime is interrupted by a frantic sheep equipped with a Scroll of Speak to Animals and a fierce determination to get their attention. This is no mere beast, however, but a wizard fallen victim to an embittered apprentice wielding a Wand of True Polymorph
@@ -593,6 +599,7 @@ If you want to plant seeds in advance, you may wish to introduce the character o
 
 {{pageNumber,auto}}
 {{footnote Adventure Hooks}}
+
 
 \page
 
@@ -648,8 +655,8 @@ While he prefers violence and intimidation, he is also willing to offer bribes a
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-\page
 
+\page
 
 If he feels like he's not making progress, Guz will simply attack without warning. The wolves will follow him up, while the cloaked figure will let its hood fall and run into combat with a terrible roar.
 
@@ -704,8 +711,8 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-\page
 
+\page
 
 ## After the Dust Settles
 
@@ -746,8 +753,8 @@ The path to Noke’s Tower cuts off from a main road a few miles out of town, da
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-\page
 
+\page
 
 Anyone who cares to examine the path for tracks will easily see the impression of many feet and paws, with the most fresh sets appearing to match up with the group led by Guz.
 
@@ -786,8 +793,8 @@ When the party arrives at the compound, there is a trio of Apes (MM p31 7) eithe
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-\page
 
+\page
 
 ![- A nearly uniform medium-gray rectangle fills the entire image. - Slightly darker strip along the very top edge; no distinct objects, text, or patterns are visible. - Appears to be a blank, solid-color, or possibly corrupted/failed image.](./892902-The_Wild_Sheep_Chase_V2_images/image_007.png)The door to the central platform is almost always locked, requiring a DC1 4 Strength (Athletics) to break down or a DC1 2 Thieves' Tools check to pick. Inside, the area is divided up in to three sections. One contains a combination library and lab, one a sitting room and one dining room/kitchen. Untidy bookshelves line much of the outer walls and worktables are covered with stacks of ink-spattered notes and complicated anatomical diagrams of various beasts and monsters.
 
@@ -845,8 +852,8 @@ The most important part of any fight that breaks out is Noke, who is offensively
 {{pageNumber,auto}}
 {{footnote Bed Dragon Wyrmling}}
 
-\page
 
+\page
 
 The Apes will act intelligently, and as they are wielding greatswords their Fist attack is replaced by a Slash that deals 1 0 (2d6+3) slashing damage. They aren't likely to fight to the death and will flee once they fall below half health.
 
@@ -922,8 +929,8 @@ However, the over-used wand will crackle, fizz and malfunction with a loud bang,
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
 
-\page
 
+\page
 
 Even so, when Noke leaves he will take all of his remaining bodyguards with him and will be extremely quick to suspect the party of betrayal if there is any hint of a double-cross.
 
@@ -952,8 +959,8 @@ If the party decides to go ahead with the spell and it fails, Shinebright dies p
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
 
-\page
 
+\page
 
 ![Top-down illustrated map of a fenced grassy compound with a light grid overlay. Key elements: - Large central circular building divided into rooms: a long dining table with many chairs, a lounge area with rugs and armchairs, and a workshop/study area with desks, bookshelves, and scattered papers. - Smaller circular bedroom building with a bed, rug, and furniture connected to the main circle by a short wooden walkway. - Another circular enclosure to the right serving as an open courtyard or garden with a large tree, shrubs, and a wooden stair/bridge to the main building. - Small square outbuilding containing a desk and books, plus two rectangular outbuildings on the left with beds and storage. - Worn dirt paths, scattered trees and bushes across the grassy yard, and a low perimeter wall around the property.](./892902-The_Wild_Sheep_Chase_V2_images/image_011.png)![The image shows a tall, nearly uniform medium-gray rectangle filling the frame with a thin, slightly darker border around the edges. There are no distinct objects, text, or recognizable features visible.](./892902-The_Wild_Sheep_Chase_V2_images/image_012.png)![The image is a plain, uniform gray rectangle filling the frame with a slightly darker thin border along the top edge. No distinct objects, text, or features are visible.](./892902-The_Wild_Sheep_Chase_V2_images/image_013.png)![A tall, vertical image filled almost entirely with a uniform medium-gray color. A slightly darker gray strip runs along the very top edge, and a thin darker outline is visible around the image edges; there are no distinct shapes, text, or recognizable objects.](./892902-The_Wild_Sheep_Chase_V2_images/image_014.png)
 
@@ -979,11 +986,6 @@ If inspected with a DC 1 5 Intelligence (Arcana) check, reveal that the modifica
 
 Each time a charge is used the user must pass a DC 1 7
 
-{{pageNumber,auto}}
-{{footnote Modified Wand of True Polymorph}}
-
-\page
-
 
 Intelligence (Arcana) check.
 
@@ -995,10 +997,735 @@ This transformation cannot be undone by any spell lower than 9th level and canno
 
 If they fail by more than five, in addition to the above consequences the wand explodes violently, dealing 1 d1 2 force damage to all creatures within 1 0 ft for each charge remaining in the wand. This destroys the wand.
 
-## Credits and Acknowledgments
 
-DUNGEONS & DRAGONS, D&D, Wizards of the Coast,
 
-Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.
 
-This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild. All other original material in this work is copyright 201 6 by Richard Jansen-Parkes and published under the Community Content Agreement for Dungeon Masters Guild.
+\page
+
+# DM Notes: Peril in Pinebrook
+
+### Adventure Overview
+
+**Theme:** Frontier communities caught in the crossfire of rising magic
+
+**Level Range:** 1-3 (excellent introductory adventure)
+
+###### **Expected Duration:** 2-3 hours 
+\column
+### DM Prep Checklist
+
+- [ ] Read entire adventure (45-60 minutes)
+- [ ] Familiarize yourself with Silver Dragon Wyrmling stats
+- [ ] Decide on Rorn's corruption level
+- [ ] Mark key revelation moments
+
+{{wide
+### Peril in Pinebrook
+
+}}
+##### **Mystery Rating:** ⭐⭐ 
+#### Secondary — Human Cost & Smuggling
+
+###### **Campaign Arc:** Arc 1: First Signs — Learning the Land
+
+###### **Arc Position:** Part 2 of 2 in Arc 1
+
+### **Arc Progress Notes:** 
+This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
+
+#### **Campaign Connection:** 
+This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
+
+{{note
+#### **Player Discovery:** 
+Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+}}
+#### **Leads To:**
+- **Future campaigns:** Artifact smuggling networks 
+- Demonstrates that every settlement is vulnerable to Echo effects
+
+{{note
+##### **DM Secret Resources:** For the truth behind this adventure, see:
+- **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
+- **Chapter 6: Northreach Secrets** — Adventure integration details
+- **Chapter 6: The Aeorian Echo** — Campaign arc context
+}}
+
+\column
+### **Key Secrets:**
+{{note
+- Torven Grimley (trading post owner) is an **Uttolot family fence** handling stolen Aeorian artifacts
+- Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
+- The market square contains **dead drop locations** for conspirators
+- An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
+- This is a **smuggling hub** moving dangerous artifacts through the frontier
+}}
+
+
+### Mystery Clues
+{{note
+##### **Primary Clue — Frontier Vulnerability:**
+- Even "safe" settlements like Pinebrook are affected by rising tensions and instability
+- **Discovery Method:** Observing town dynamics, NPC conversations, crime investigation
+- **Investigation DC 12 (Insight):** "People are more desperate, more frightened than usual — something has changed"
+- **Connects to:** Campaign theme — no place is truly safe from the Echo's effects
+}}
+{{note
+##### **Secondary Clue — Artifact Smuggling:**
+- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
+- **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
+- **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
+- **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
+}}
+{{note
+#### **Tertiary Clue — Information Brokering:**
+- Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
+- **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
+- **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
+- **Connects to:** Black market networks responding to Aeorian discoveries
+}}
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+\page
+
+### Investigation Thread Summary
+
+**If players complete this adventure, they learn:**
+1. The Aeorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
+2. Opportunists are exploiting the chaos (smuggling, profiteering, corruption)
+3. Frontier settlements lack resources to handle escalating problems
+4. The Northwatch Wardens' role is vital for maintaining stability
+
+**Questions left unanswered:**
+- Who is coordinating the artifact smuggling? (Uttolot family, future campaigns)
+- Where are the artifacts going? (Collectors, factions, researchers)
+- How widespread is the black market? (Regional scale)
+
+---
+
+## Starting the Adventure
+**Estimated Time to Play This Encounter: 10 minutes**
+
+{{descriptive
+Recent disturbances along the western frontier have stretched the Wardens thin, and Pinebrook has requested temporary support to reinforce their regular patrol routes.
+
+Rather than local citizens taking turns watching the woods, the village has hired trained Wardens—like you—to ensure the logging trails, mining roads, and forest paths remain safe. Today, it’s your squad’s turn to carry out the contracted patrol, sweeping the surrounding hills and woodlands for signs of trouble.
+Dangerous creatures sometimes wander the woods, but it has been safe recently. Rumors have spread through the area that a friendly silver dragon recently established a lair in the nearest mountain. The more hostile creatures of the mountains, especially the dangerous ice trolls, haven’t been seen in the past two months. Yesterday, however, a patrol saw large, frosty troll footprints in the forest. Could the rumors of a friendly silver dragon be just rumors after all?
+
+Your patrol today is led by the head of the village guards, Captain Emmajeen Kole. Captain Kole glances nervously at the forest trail before she nods at your group.
+
+“I’ve not patrolled with any of you before. Tell me a little about yourselves.”
+}}
+
+Ask each player to give their character’s name or nickname and describe what they look like. They can reveal the things they are carrying that the other characters would see, explain what attacks and skills they have, and maybe even describe their personalities. They can use their character sheets as prompts.
+\column
+---
+
+## Roleplaying
+
+D&D lets players act as their characters. Players might use a different voice or move as their character might. But if a player isn't comfortable roleplaying in that way, they can describe their character as if from a book or story instead.
+
+It's okay if some players seem hesitant to talk or have trouble roleplaying. It’s more important to make the players feel comfortable than to make them talk.
+{{note
+To help them feel more comfortable with roleplaying, consider asking them one or two of the following questions:
+
+- What’s your character’s name or nickname?  
+- What does your character look like?  
+- What does your character sound like when they talk?  
+- What is your character good at doing?  
+- What does your character carry as they patrol the forest?  
+- How does your character feel about being on patrol the day after evidence of ice trolls was found in this area?
+}}
+---
+
+{{descriptive
+“Well, this forest needs to be patrolled, so let’s get to it. I’m ready to fight if we have to!”
+}}
+
+Let the players respond for their characters if they want to. Then describe how Captain Kole moves carefully into the forest, motioning for the characters to follow.
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+
+
+\page
+
+## Encounter 1: 
+### A Not-So-Fearsome Dragon
+
+###### **Estimated Time to Play This Encounter: 10 minutes**
+
+After the the characters follow Captain Kole into the forest, read the following:
+{{descriptive
+You move along the forest trail for fifteen minutes before Captain Kole stops and holds up a hand. “Do you hear that?” she asks. 
+}}
+
+### Perception Checks
+
+A player rolls a d20 and adds the modifier written next to the Perception skill on their character sheet to make a Perception check. The Difficulty Class to succeed on this check is 10 (written as DC 10), so if anyone gets a Perception check of 10 or higher, you explain that they hear a noise coming from the thorny forest underbrush.
+
+If no character succeeds on the Perception check, Captain Kole points in the direction of the sound. Continue reading:
+
+{{descriptive
+The underbrush at the edge of the trail rustles as a creature the size of a large dog crawls from the thorns and leaves. At first, the creature looks like a strange lizard made of metal. But as you look more closely, you see that it is a small dragon with blue-gray scales and a long, pointy tongue.
+
+As the dragon crawls in your direction, it feebly tries to scrape pieces of silver eggshell off its head and face. It makes a hissy, whimpering sound.
+}}
+
+Ask the players what they want to do. Let them play their characters as they react, talk, speculate, and investigate further. As long as the characters don’t try to hurt the baby silver dragon, Captain Kole simply stares in confusion, unsure what to do next.
+
+\column
+
+### Roleplaying and Information
+
+{{note
+Players will ask questions throughout the adventure. To keep information clear and consistent, divide your answers into three categories:
+}}
+
+#### **Information the Characters Know.**  
+If the players ask about something their characters would reasonably know, simply tell them. Characters always know what they see, hear, and smell.
+
+#### **Information the Characters Might Know.**  
+Some questions require a skill check. For example, if Shalefire or Gallantine asks whether the creature is a baby silver dragon, call for a **DC 10** check using an appropriate skill.  
+- Shalefire might use *Animal Handling*.  
+- Gallantine might use *Nature*.  
+
+If the result is **10 or higher**, tell them:  
+*“Yes — this is a newborn silver dragon.”*  
+You may add a small detail, such as noting that young silver dragons often eat meat and other foods.
+
+#### **Information the Characters Don’t Know Yet.**  
+If players ask something their characters have no way of knowing — such as *“Where did this baby dragon come from?”* — simply say:  
+*“You’re not sure, but you can try to find out.”*
+
+{{note
+If the characters fail their checks or don’t ask the right questions, Captain Kole can provide the missing information. She knows it is a baby silver dragon and will not allow the characters to harm it.
+}}
+
+---
+
+{{descriptive
+Captain Kole pulls a book from her backpack — *The Practically Complete Guide to Dragons*. She flips to the middle of the book.
+
+“It’s true! This is a newborn silver dragon. The mother’s lair must be in the nearest mountain just beyond the forest, just as the rumors said. We need to get this baby to its mother quickly. I wonder how it got so far from home?”
+
+She hesitates, then sighs. “I must return to Pinebrook and report what we’ve found. I need you to take the baby to the lair and its mother. Protect this dragon with your lives. Trails in the forest lead right up to the mountain. Give this poor thing a name and get it some food — it looks weak.”
+
+She tears a page from the book and hands it to you. “Here. This might be useful. According to the book, silver dragons are peaceful and usually like people.”
+}}
+
+{{note
+The page Captain Kole gives the characters appears in Appendix A. It contains simple Draconic-to-Common translations. The characters don’t need to read it now, but it will be useful later in the adventure.
+}}
+
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+\page
+
+### Feeding and Care
+
+{{note
+After Captain Kole leaves, the characters should attempt to find food for the baby dragon. Alternatively,make a **DC 10 Survival** check or a **DC 10 Nature** check to find berries and nuts the dragon can eat.
+}}
+
+{{descriptive
+After eating, the tiny dragon lifts its head, blinks slowly, and says a single soft word: “Nytha.” 
+}}
+
+The characters won’t understand this yet, but the baby just called them “Mama” in Draconic.
+
+Once fed, the dragon perks up and begins following the characters. It happily allows itself to be carried and seems to enjoy the attention.  
+The dragon also **loves belly rubs**.
+
+
+{{monster,frame
+## Baby Silver Dragon
+*Tiny dragon, unaligned*
+___
+**Armor Class** :: 13 (natural armor)  
+**Hit Points**  :: 9 (2d4 + 4)  
+**Speed**       :: 20 ft., fly 20 ft. (clumsy)
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 6 (−2) | 14 (+2) | 14 (+2) | 6 (−2) | 11 (+0) | 12 (+1) |
+___
+**Saving Throws** :: Dex +4  
+**Skills** :: Perception +2  
+**Damage Immunities** :: cold  
+**Senses** :: blindsight 10 ft., darkvision 60 ft., passive Perception 12  
+**Languages** :: understands Draconic but can’t yet speak  
+**Challenge** :: 0 (10 XP) {{bonus **Proficiency Bonus** +2}}
+___
+***Innocent Presence.***  
+Creatures have disadvantage on attack rolls made against the baby dragon unless they have dealt damage to it during this encounter.
+
+***Fledgling Wings.***  
+The dragon can fly only in short bursts. If it ends its turn in the air, it falls unless it has something to cling to.
+
+***Silver Dragon Nature.***  
+The baby dragon is naturally gentle and curious. It will not attack unless magically compelled or in extreme panic.
+___
+### Actions
+***Cold Puff (Recharge 6).***  
+The baby exhales a tiny burst of freezing air.  
+Each creature within 5 feet must succeed on a DC 10 Constitution saving throw or take 2 (1d4) cold damage.
+
+***Nip.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 1 piercing damage.
+}}
+
+
+### Moving the Adventure Forward
+
+The mountain Captain Kole pointed the characters toward is visible above the trees.
+
+\column
+
+## Encounter 2: 
+### Living Icicles
+
+###### **Estimated Time to Play This Encounter: 10 minutes**
+
+### Approaching the Mountain
+
+The woods remain quiet as the characters travel. They easily follow the forest trails leading toward the mountain, and no creatures disturb them along the way.
+
+{{descriptive
+By carefully following the correct forest trails, you arrive at the base of the mountain. A cave opening sits not far ahead. If a dragon built a lair in this mountain, this would be the obvious entrance.
+}}
+
+The cave is the only visible entrance to the dragon’s lair. When the baby dragon nears the opening, it sniffs the air and struggles forward, clearly recognizing the scent of home.
+
+{{descriptive
+The cave entrance is wide and filled with sunlight, but the interior quickly descends into darkness. You can’t see what lies beyond. Broken icicles and patches of frosty snow litter the ground at the mouth of the cave.
+Suddenly, the shards of ice begin to twitch. The icicles and snow clump together, forming small ice creatures with wicked, pointy claws.
+
+One of them screeches, “Intruders! Slash ’em good!” as they attack!
+}}
+
+{{note
+Five **living icicles** defend the cave entrance.  
+If the party has fewer than four characters, remove one living icicle per missing character (minimum of two).
+}}
+
+
+{{monster,frame
+## Living Icicle
+*Tiny elemental, unaligned*
+___
+**Armor Class** :: 10  
+**Hit Points**  :: 7 (2d4 + 2)  
+**Speed**       :: 20 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 6 (−2) | 10 (+0) | 12 (+1) | 3 (−4) | 8 (−1) | 5 (−3) |
+___
+**Damage Vulnerabilities** :: bludgeoning  
+**Damage Resistances** :: cold  
+**Senses** :: blindsight 10 ft., passive Perception 9  
+**Languages** :: —  
+**Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Claws.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target.  
+*Hit:* 4 (1d6) slashing damage.
+}}
+
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+\page
+
+
+### First Combat
+
+{{descriptive
+Sharp icicle-creatures skitter across the stone, their claws clicking like glass knives. They move with sudden, jerking motions — fast, hungry, and unnervingly alive.
+}}
+
+Let the characters act first. Go around the table in order and ask each player what they do. Encourage quick, vivid descriptions so everyone can picture the chaos of the fight.
+
+After all players have taken their turns, any surviving living icicles strike back. Each one moves toward a different character and makes a claws attack.
+
+Describe each attack — whether claws slice into armor and flesh, or scrape harmlessly across shields and stone.
+
+Continue alternating player turns and monster turns until all the living icicles are defeated. When they fall, they shatter into brittle shards or melt into slush. If you prefer, defeated icicles can flee by slipping into narrow cracks the characters cannot follow.
+
+---
+
+### After the Characters Succeed
+
+Ask the players what they want to do next. If they’re unsure, suggest searching the area.
+
+#### Searching the Area
+
+Just inside the cave entrance, the characters find a worn leather backpack. Inside are:
+
+- a package of dried meat  
+- five torches  
+- flint and steel  
+- a pouch containing **12 gold pieces**
+
+Let the players divide the treasure however they choose.
+
+
+#### Healing Injured Characters
+
+If any characters were injured, they may use their class abilities, spells, or features to recover. If they need a reminder of what they can do, prompt them to check their character sheets.
+
+#### What Did We Just Fight?
+
+Living icicles are minor magical constructs sometimes created or commanded by **ice trolls** to guard lairs and tunnels.  
+A character who succeeds on a **DC 10 Arcana or History** check knows this and can share it with the group.
+
+---
+
+#### Moving the Adventure Forward
+
+{{descriptive
+The baby dragon chirps anxiously and tries to waddle deeper into the cave, tugging at cloaks and armor with surprising determination.
+}}
+
+
+
+\column
+
+## Encounter 3: 
+### A Dangerous Lair
+
+###### **Estimated Time to Play This Encounter: 15 minutes**
+
+#### Into the Cave
+
+After defeating the living icicles and stepping inside, the characters must navigate the hazards and strange remnants within the tunnels leading toward the silver dragon’s lair.
+
+{{descriptive
+The front of the cave is lit by sunlight spilling through the entrance, but the back quickly sinks into darkness. Rough chalk drawings cover the walls — crude depictions of troll‑shaped figures dancing, working, and hauling heavy loads.
+}}
+
+Ask the players for a **DC 10 History or Religion** check.
+
+{{note
+A success reveals that **ice trolls** once lived and worked in this cave system. 
+Even if no one succeeds, continue the scene.
+}}
+
+{{descriptive
+The baby dragon becomes visibly excited, chirping softly as it waddles deeper into the shadows. At the far end of the chamber, a narrow passage curves upward into a sloping tunnel that leads toward the heart of the mountain.
+}}
+
+The darkness beyond the entrance is thick and unsettling. The characters will need to use the **torches** and **flint and steel** found in the worn leather backpack to light their way.
+
+---
+
+### Reaching the Lair
+
+The characters must overcome **three challenges** to safely reach the hatching cavern of the silver dragon’s lair. Each challenge can be solved in multiple ways — through skills, clever ideas, equipment, or brute force.
+
+{{note
+If the players propose a creative solution not listed in the challenge description, let them attempt it with an appropriate d20 roll.  
+Reward imagination — it often leads to the best moments.
+}}
+
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+\page
+
+#### Challenge 1: Climbing Icy Walls
+
+{{descriptive
+The cold, frosty passage continues until you reach an ice‑covered wall. The tunnel continues fifty feet above. You’ll need to climb the wall to move deeper into the mountain.
+}}
+
+Characters must succeed on a **DC 10 Athletics or Acrobatics** check to climb the wall. A character who fails takes **1d6 bludgeoning damage** from slipping and falling before eventually reaching the top.
+
+{{note
+A *Climber’s Kit* grants advantage on the check.  
+If a character reaches the top with a rope, they can lower it to allow others to climb without making checks.
+}}
+
+---
+
+#### Challenge 2: Magical Ice Mirror
+
+{{descriptive
+The winding, upward‑sloping passage is blocked by a thin sheet of solid ice. Through it, you can see the tunnel continuing on the other side. As your torchlight flickers, the ice suddenly becomes reflective — a perfect mirror. In the shimmering surface, you and your companions appear as silver dragons, while the baby dragon looks like a human toddler with silver skin.
+}}
+
+###### Allow the players to react, then continue:
+
+{{descriptive
+A large, platinum‑colored dragon’s head forms within the ice. You understand its words, though it speaks no language you know.
+
+“You are on a blessed quest, but you must speak the correct words in the correct language to enter the lair of one of my children. What two words correctly answer this question: What type of creature are you escorting home?”
+}}
+
+
+
+{{note
+###### Ask for a **DC 10 Arcana, History, or Religion** check.
+- Success reveals the figure is **Bahamut**, god of metallic dragons.  
+- The correct answer is **“silver dragon”**, spoken in Draconic: **“orn darastrix.”**  
+- The characters can use the page from Captain Kole’s book to find the translation.
+}}
+
+If the players struggle, Bahamut’s reflection may offer gentle hints.
+\column
+
+###### If any character speaks the correct words:
+
+{{descriptive
+The mirror instantly melts, splashing you with icy water. Instead of freezing you, the water tingles warmly as it runs down your skin and armor.
+}}
+
+{{note
+- Bahamut’s blessing restores each character to **full hit points** and grants **advantage on their first roll** in the next challenge.
+
+
+- If the characters break or melt the ice instead, they bypass the mirror but **do not** receive the blessing.  
+A character who shatters the mirror takes **1d6 cold damage**.
+
+
+- **DM Tip:** Even if the players fail checks, always allow the adventure to continue. Failure should create consequences — not dead ends.
+}}
+
+---
+
+#### Challenge 3: Navigating the Ice Slides
+
+{{descriptive
+The passage climbs higher and higher until you stand atop an icy cliff overlooking a vast cavern. A network of steep, slick slides made of stone and ice twists downward — merging, splitting, and looping in a dizzying maze. Some slides end in solid ice walls. Others are lined with razor‑sharp icicles.
+
+Suddenly, the cliff beneath you begins to crack. If you don’t jump onto a slide now, you’ll fall!
+}}
+
+Each character must leap onto a slide. Once on a slide, they cannot stop, but they can switch to intersecting slides while moving at high speed.
+
+---
+
+#### Finding the Best Path
+
+Before jumping, characters may attempt to identify the safest route. 
+{{note
+###### Ask for a **DC 10 Investigation or Perception** check.
+
+- **Success:** The character chooses a safe slide and takes no damage.  
+- **Failure:** The character lands on a hazardous slide and must make a **DC 15 Acrobatics or Athletics** check to switch to safety.
+- A character without those skills can still roll — they simply add no modifier.
+- If the character fails the second check, they take **1d6 slashing or bludgeoning damage** from ice shards, drops, or collisions.
+}}
+---
+
+#### Describing the Action
+
+Encourage vivid descriptions: leaping between slides, spinning through loops, narrowly avoiding collisions, or sliding past each other in a blur of frost and speed.
+
+{{note
+**DM Tip:** If one character finds a safe slide, others may try to follow. To keep the challenge meaningful, you can describe the top of that slide collapsing just after the first character begins their descent, forcing each character to choose their own path.
+}}
+
+
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+\page
+
+
+### Moving the Adventure Forward
+
+It’s a short walk from the bottom of the cavern to the hatching chamber. The characters are now ready to face the final threat.
+
+## Encounter 4: 
+### Dragon Eggs and Soaring Silver
+###### **Estimated Time to Play This Encounter: 15 minutes**
+
+{{descriptive
+This large chamber is filled with ice‑coated stalactites and stalagmites. The ceiling slopes upward toward an ice‑plugged hole far above. In the center of the cavern, two large silver eggs rest upon heaps of frozen snow. A third nest holds only broken shell pieces. 
+
+A fourth nest is empty — its egg missing.
+
+Between you and the eggs stand two strange creatures the size of horses. Their bodies resemble massive frogs, but their skin is pure white and their mouths bristle with sharp teeth.
+They creep toward the remaining eggs, but your arrival interrupts them. They turn, hiss, and launch themselves toward you with powerful hops!
+}}
+
+These creatures are **egg snatchers**, trained by ice trolls to steal dragon eggs. If the characters don’t intervene, the last two eggs will be lost.
+
+#### There are **three egg snatchers**.  
+- If you have **three or fewer players**, remove one egg snatcher.  
+- If you have **two or fewer players**, reduce each egg snatcher’s starting hit points to **10**.
+
+Describe the egg snatchers collapsing into heaps of pale flesh as they are defeated, or fleeing into the darkness too quickly to pursue.
+
+
+
+### Running the Combat
+
+Let the characters act first, moving clockwise around the table. After all players have acted, any surviving egg snatchers attack.
+
+###### Each egg snatcher moves toward a different character and makes a bite attack:
+
+- **Attack:** +4 to hit  
+- **Hit:** 1d6 + 2 piercing damage  
+
+Describe each attack vividly — a snapping jaw around an ankle, or teeth scraping harmlessly off armor. Continue alternating turns until all egg snatchers are defeated.
+
+\column
+
+{{note
+**DM Tip:**  
+A character reduced to 0 hit points falls unconscious. At the end of the encounter, any unconscious characters regain **1 hit point** automatically.
+}}
+
+
+{{monster,frame
+## Egg Snatcher
+*Large monstrosity, unaligned*
+___
+**Armor Class** :: 12  
+**Hit Points**  :: 18 (4d8)  
+**Speed**       :: 30 ft., hop 30 ft.
+___
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 12 (+1) | 11 (+0) | 3 (−4) | 10 (+0) | 6 (−2) |
+___
+**Senses** :: darkvision 60 ft., passive Perception 10  
+**Languages** :: —  
+**Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+*Hit:* 5 (1d6 + 2) piercing damage.
+}}
+
+### After the Characters Succeed
+
+Once the egg snatchers are defeated, the baby dragon crawls into the nest, curls among the broken shells, and immediately falls asleep.
+
+---
+
+### Moving the Adventure Forward
+
+Before the characters can act, the mother dragon returns.
+
+{{descriptive
+A thunderous crash erupts from high above. Chunks of ice and snow rain down as an enormous silver dragon bursts through a frozen section of the cavern ceiling. She plummets downward and lands before you, frigid air streaming from between her teeth.
+
+“What is happening here?” she roars.
+}}
+
+The characters have some explaining to do. 
+
+{{pageNumber,auto}}
+{{footnote Peril in Pinebrook}}
+
+
+\page
+
+# Conclusion
+###### Estimated Time to Play This Encounter: 10 minutes
+
+The angry silver dragon waits for the characters to explain themselves. This is an opportunity for the players to roleplay and speak on behalf of their characters.
+
+During the conversation, the dragon may reveal her name: **Hysvearorn**, which translates to *Soaring Silver*. She invites the characters to call her **Rorn**, as it is easier for non‑dragons to pronounce.
+
+If the players hesitate, prompt them with questions such as:
+
+- “The dragon demands an explanation. What do you say?”
+- “How does your character feel standing before a furious dragon the size of a house?”
+- “What can you say to prove you came here to return her wyrmling?”
+
+As long as the characters remain respectful, Rorn quickly realizes they are not thieves — they are rescuers.
+
+---
+{{note
+#### DM Tip
+
+Dragons are overwhelmingly powerful. If the players decide to attack Rorn, you can handle it in several ways:
+
+- Rorn looks disappointed and tells them to stop being foolish.  
+- A quick Nature check reveals she could defeat them effortlessly.  
+- Their attacks or spells simply have no effect on her.  
+- If they persist in hostility, Rorn uses her breath to paralyze them without harm, then deposits them outside the mountain — **with no reward**.
+}}
+---
+
+### The Dragon
+
+Use the following details to roleplay Rorn:
+
+- She is an **adult silver dragon**, newly settled in this mountain to prepare for her eggs to hatch.  
+- She prefers the nickname **Rorn**.  
+- Once the situation is explained, she calms quickly and thanks the characters for saving her wyrmling.  
+- She is friendly by nature and enjoys speaking with people.  
+- If asked, she explains that **“Nytha”** means *Mama* in Draconic.  
+- Dragons refer to their young as **wyrmlings**, not babies.
+
+\column
+
+###### Rorn can also share what happened to her eggs:
+
+- She drove out the ice trolls who once lived here, but they returned and stole one of her eggs.  
+- She chased the thieves into a narrow tunnel in another mountain but could not follow.  
+- She has been gone for several hours searching for the missing egg.
+
+###### The rescued wyrmling recounts its own story:
+
+- It hatched while Rorn was away and wandered out of the lair.  
+- The characters found it and cared for it on the journey home.
+
+---
+
+### More Wyrmlings!
+
+As the characters speak with Rorn, the other two eggs begin to hatch.  
+The wyrmlings break free of their shells and nuzzle their mother.  
+Rorn pulls frozen meat from the nest and feeds them.
+
+---
+
+### The Reward
+
+{{descriptive
+Rorn thanks you again for your help. “Please, take these as a sign of my gratitude.” She digs into the snow and reveals a small, shining diamond for each of you.
+
+“More importantly, you have already bonded with my first hatchling. He deserves to learn what it is like to grow up among people. Would you take him back to your settlement and raise him? I will watch over your lands and aid you when I can.
+
+“I have one more request. When I discover where the ice trolls took my stolen egg, will you retrieve it for me?”
+}}
+
+Let the characters respond however they wish. As long as they remain respectful, Rorn remains warm and gracious.
+
+---
+
+### Treasure
+
+Each diamond is worth **50 gp**.  
+Characters may add this to their sheets under *Other Equipment*.
+
+---
+### Experience
+
+Each character recieves 175 experience for the adventure.
+
+## Return to Pinebrook
+
+When the conversation concludes, Rorn reveals a hidden passage leading out of the mountain — the end of this adventure… for now.
+
+{{pageNumber,auto}}
+{{footnote Conclusion}}

@@ -92,6 +92,7 @@
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
+
 \page
 
 ## WELTON VILLAGE
@@ -207,6 +208,7 @@
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
+
 \page
 
 ## PINEBROOK VILLAGE
@@ -309,6 +311,7 @@
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
+
 \page
 
 ## NORTHREACH WILDERNESS ENCOUNTERS
@@ -398,6 +401,7 @@
 
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
+
 
 \page
 

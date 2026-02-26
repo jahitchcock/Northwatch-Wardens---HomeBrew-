@@ -74,7 +74,9 @@ Think of the Echo like a vast, sleeping network of alarms going off one by one. 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
+
 ## HISTORICAL CONTEXT
 
 ### What Was Aeor?
@@ -166,6 +168,7 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
 
 ### Phase Two: Consolidation (Approaching During Advanced Campaign)
@@ -230,6 +233,7 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
 
 ## WHO IS LEADING THE ECHO? (The Entity Question)
@@ -290,6 +294,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
 
 ### OPTION B: The Endless Intelligence (AEON)
@@ -345,7 +350,9 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
+
 ### OPTION C: The Failed God
 
 **The Entity:** Vestige, an incomplete deity from Aeor's failed apotheosis experiment
@@ -406,7 +413,9 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
+
 \page
+
 ### OPTION D: The Corrupted Dragon
 
 **The Entity:** Zerathuul the Endless, ancient brass dragon fused with Aeorian technology
@@ -466,6 +475,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
+
 
 \page
 
@@ -538,6 +548,7 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
+
 
 \page
 
