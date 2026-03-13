@@ -77,10 +77,8 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Quarterly stipend: 50 gp
 - Can requisition supplies up to 100 gp without approval (restocked monthly)
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
-
 
 \page
 
@@ -158,10 +156,8 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
-
 
 \page
 
@@ -237,10 +233,8 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Direct communication network with other regional Warden companies
 - Can requisition NPC specialists (healers, scouts, researchers)
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
-
 
 \page
 
@@ -340,7 +334,6 @@ Reward scaling provides mechanical benefit of advancing:
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-
 \page
 
 ## RANK-BASED COMPLICATIONS
@@ -438,7 +431,6 @@ Using rank creates interesting roleplay moments:
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-
 \page
 
 ## SPECIAL CASES & EDGE CASES
@@ -497,10 +489,8 @@ Rank 5 advancement: Unanimous or 75%+ member vote
 ```
 }}
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
-
 
 \page
 

@@ -86,10 +86,8 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 
@@ -189,7 +187,6 @@ This document provides detailed rules for how various factions respond mechanica
 
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 
@@ -293,7 +290,6 @@ This document provides detailed rules for how various factions respond mechanica
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-
 \page
 
 ### Phase 2 Consolidation Response
@@ -383,10 +379,8 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 
@@ -495,10 +489,8 @@ This document provides detailed rules for how various factions respond mechanica
 - Martial law affects travel and commerce
 - Potential conflict with military over Echo approach
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 
@@ -615,10 +607,8 @@ This document provides detailed rules for how various factions respond mechanica
 - Hire mercenaries for protection (PCs potential employers)
 - Begin artifact trafficking
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 
@@ -725,7 +715,6 @@ This document provides detailed rules for how various factions respond mechanica
 
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
-
 
 \page
 

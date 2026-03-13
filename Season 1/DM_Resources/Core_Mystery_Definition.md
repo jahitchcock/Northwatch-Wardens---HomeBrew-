@@ -70,10 +70,8 @@ Think of the Echo like a vast, sleeping network of alarms going off one by one. 
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
-
 
 \page
 
@@ -168,7 +166,6 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-
 \page
 
 ### Phase Two: Consolidation (Approaching During Advanced Campaign)
@@ -229,10 +226,8 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
-
 
 \page
 
@@ -294,7 +289,6 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-
 \page
 
 ### OPTION B: The Endless Intelligence (AEON)
@@ -346,10 +340,8 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
-
 
 \page
 
@@ -413,7 +405,6 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-
 \page
 
 ### OPTION D: The Corrupted Dragon
@@ -475,7 +466,6 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
-
 
 \page
 
@@ -545,10 +535,8 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
-
 
 \page
 

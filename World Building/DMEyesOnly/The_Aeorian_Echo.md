@@ -123,7 +123,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-
 \page
 
 ## The Reactivation: What's Happening and Why
@@ -252,7 +251,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
-
 
 \page
 
@@ -399,7 +397,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
-
 
 \page
 
@@ -627,7 +624,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-
 \page
 
 ### The Theft Network
@@ -832,7 +828,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-
 \page
 
 ### Following the Wolves (Welton)
@@ -1010,7 +1005,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
-
 
 \page
 
@@ -1209,7 +1203,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-
 \page
 
 ### Potential Allies
@@ -1395,7 +1388,6 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
-
 
 \page
 

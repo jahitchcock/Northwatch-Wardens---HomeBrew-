@@ -40,6 +40,10 @@ Attested by Steward Mara Fenwick
 }}
 
 
+
+{{pageNumber,auto}}
+{{footnote Contract: W‑17 — Disturbance Near Welton}}
+
 \page
 
 ## Wolves of Welton

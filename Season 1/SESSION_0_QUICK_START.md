@@ -94,7 +94,6 @@ Read the "Running Session 0" section below and imagine your opening.
 {{pageNumber,auto}}
 {{footnote Session 0 Quick Start Guide}}
 
-
 \page
 
 ## The Northwatch Wardens Charter (Condensed)
@@ -147,7 +146,6 @@ We are led by a council of three: Marshal, Steward, and Lorewarden. The Waystone
 
 {{pageNumber,auto}}
 {{footnote Session 0 Quick Start Guide}}
-
 
 \page
 
@@ -219,7 +217,6 @@ Brenna gestures to the contract board. One parchment is pinned there with a wolf
 
 {{pageNumber,auto}}
 {{footnote Session 0 Quick Start Guide}}
-
 
 \page
 
@@ -312,7 +309,6 @@ ___
 {{pageNumber,auto}}
 {{footnote Session 0 Quick Start Guide}}
 
-
 \page
 
 ## Player Character Creation Tips
@@ -394,7 +390,6 @@ A: No problem. They can join Session 1 as "new recruits" arriving at Waystone In
 
 {{pageNumber,auto}}
 {{footnote Session 0 Quick Start Guide}}
-
 
 \page
 

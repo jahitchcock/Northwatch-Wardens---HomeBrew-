@@ -233,7 +233,6 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-
 \page
 
 **Surveillance:**
@@ -468,7 +467,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 
@@ -725,7 +723,6 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-
 \page
 
 **Official Status:**
@@ -966,7 +963,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 
@@ -1246,7 +1242,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 
@@ -1549,7 +1544,6 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-
 \page
 
 ### The Historical Truth
@@ -1846,7 +1840,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 
@@ -2162,7 +2155,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 
@@ -2496,7 +2488,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
-
 
 \page
 

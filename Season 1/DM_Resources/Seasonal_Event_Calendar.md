@@ -94,7 +94,6 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-
 \page
 
 ## MONTH 2: BLOOMING (Spring, Late)
@@ -184,10 +183,8 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Flavor:* Atmosphere of magical significance
    - *Complication:* Echo effects could interrupt ceremony
 
-
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
-
 
 \page
 
@@ -280,7 +277,6 @@ This document provides 12 monthly events for Northreach that can serve as campai
 
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
-
 
 \page
 
@@ -389,7 +385,6 @@ This document provides 12 monthly events for Northreach that can serve as campai
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-
 \page
 
 3. **Winter Storytelling** (Nightly throughout month)
@@ -478,10 +473,8 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Emotional Tone:* Everyone wants to travel/escape
    - *Hook:* Relationship crises, elopements, departures
 
-
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
-
 
 \page
 

@@ -47,7 +47,6 @@ These fragments are:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-
 \page
 
 ## The Gravewater Trench
@@ -84,7 +83,6 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-
 \page
 
 ## Eclipse Day — The Hidden Truth
@@ -119,7 +117,6 @@ The party could potentially rescue them — if they can reach the depths and nav
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
-
 
 \page
 
@@ -163,7 +160,6 @@ The Shattered Coast could become:
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
-
 
 \page
 
@@ -215,7 +211,6 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
-
 
 \page
 
@@ -276,7 +271,6 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
-
 
 \page
 
@@ -384,7 +378,6 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
-
 
 \page
 

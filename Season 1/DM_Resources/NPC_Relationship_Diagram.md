@@ -947,7 +947,6 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
-
 \page
 
 ### Wardens — Lantern Guard
@@ -1018,7 +1017,6 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
-
 \page
 
 {{wide
@@ -1070,7 +1068,6 @@ The awakened wolves are central to multiple character arcs. Bordel feels shame f
 
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
-
 
 \page
 
@@ -1153,7 +1150,6 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
-
 \page
 
 ## Wardens — Lantern Guard
@@ -1235,7 +1231,6 @@ See next section for detailed "appears in these adventures" notes for each major
 
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
-
 
 \page
 
@@ -1323,7 +1318,6 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
-
 \page
 
 ## Pinebrook NPCs
@@ -1398,6 +1392,10 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 - **Available**: Ally or suspect depending on approach
 
 **Role**: Medical expert, potential ally, defensive NPC
+
+
+{{pageNumber,auto}}
+{{footnote NPC Appearance Reference}}
 
 \page
 
@@ -1487,7 +1485,6 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
-
 
 \page
 

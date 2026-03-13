@@ -23,11 +23,8 @@
      Use --offsetY to shift the mask up or down
      Use --rotation to set rotation angle in degrees. -->
 
-
-
 {{pageNumber,auto}}
 {{footnote Foreshadowing Database: The Aeorian Echo}}
-
 
 \page
 

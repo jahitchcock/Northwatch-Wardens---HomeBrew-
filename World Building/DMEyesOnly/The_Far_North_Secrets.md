@@ -43,7 +43,6 @@ The Far North is actively changing:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-
 \page
 
 ## Major Secret Locations
@@ -135,7 +134,6 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
-
 
 \page
 
@@ -230,7 +228,6 @@ The stones generate a warmth field—originally for traveler comfort. This still
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-
 \page
 
 ## Inhabitants: The Secret Truth
@@ -311,7 +308,6 @@ Not all constructs are active. They're waking in stages as the network powers up
 
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
-
 
 \page
 
@@ -399,7 +395,6 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
-
 
 \page
 
@@ -512,7 +507,6 @@ After the initial pulse:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-
 \page
 
 ## Adventure Hooks by Campaign Tier
@@ -619,7 +613,6 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
-
 
 \page
 

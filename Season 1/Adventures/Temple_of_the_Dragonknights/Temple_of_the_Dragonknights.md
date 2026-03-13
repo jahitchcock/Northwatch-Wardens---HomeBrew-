@@ -210,7 +210,6 @@
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-
 \page
 
 ### Path D: Destroy or Seal the Temple
@@ -222,7 +221,6 @@
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
-
 
 \page
 
@@ -283,7 +281,6 @@
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-
 \page
 
 ## Improvisation Toolkit
@@ -315,7 +312,6 @@
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
-
 
 \page
 
@@ -362,7 +358,6 @@
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
-
 
 \page
 
@@ -612,7 +607,6 @@ This sets up potential future adventures or allows party to pursue other goals i
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Temple of the Dragonknights}}
 
-
 \page
 
 **Introduction**: Venomfang, a young green dragon, has recently perched herself in the burial ground of an ancient group of dragon slayers
@@ -634,7 +628,6 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 {{pageNumber,auto}}
 {{footnote A four-hour adventure for two 1st-2nd level characters}}
 
-
 \page
 
 \column
@@ -645,7 +638,6 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampe
 
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
-
 
 \page
 
@@ -730,7 +722,6 @@ After this information is given, Joel will burst into tears over the loss of his
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-
 \page
 
 If the players manage to capture and interrogate a Kobold, a DC 15 Persuasion or DC 12 Intimidation check will conclude with the captured enemy revealing information.
@@ -772,7 +763,6 @@ A DC 10 Survival check will reveal tracks that lead to the back side of the barn
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-
 \page
 
 ## D. The Trail
@@ -792,7 +782,6 @@ After a curve in the trail, a DC 12 Passive perception check will signify moveme
 {{pageNumber,auto}}
 {{footnote Part I: Innocents Lost}}
 
-
 \page
 
 \column
@@ -811,7 +800,6 @@ This section of the cavern is relatively straightforward. The players will immed
 
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
-
 
 \page
 
@@ -845,7 +833,6 @@ Following the bridge, immediately after is a pressure triggered trap that is tri
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
 
-
 \page
 
 ## Area 4
@@ -864,7 +851,6 @@ Opening the door yields 50 XP divided amongst the party and reveals a pathway an
 
 {{pageNumber,auto}}
 {{footnote Part II: Poisontip Cavern}}
-
 
 \page
 
@@ -898,7 +884,6 @@ This room contains a single brazier, and a massive stone carved frieze depicting
 
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
-
 
 \page
 
@@ -937,7 +922,6 @@ This encounter yields 450 XP divided amongst the party.
 
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
-
 
 \page
 

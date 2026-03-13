@@ -74,7 +74,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-
 \page
 
 ### 2. PACK OF AWAKENED WOLVES
@@ -158,10 +157,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -250,10 +247,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -345,7 +340,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-
 \page
 
 ### 8. MILITIA CONFRONTATION
@@ -435,7 +429,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-
 \page
 
 ### 10. MAGICAL PHENOMENON
@@ -515,7 +508,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -621,7 +613,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-
 \page
 
 ### 15. GHOSTLY APPARITION / UNDEAD ENCOUNTER
@@ -712,10 +703,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -834,10 +823,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -952,10 +939,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Survivors carry Echo influence (spread it further)
 - Reveals scope of Echo's reach
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 
@@ -1072,7 +1057,6 @@ This document provides flexible encounter prompts for when PCs travel between No
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-
 \page
 
 ### 28. HIDDEN COMMUNITY / SETTLEMENT
@@ -1145,10 +1129,8 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Or: Missing person fled Echo (hiding)
 - Or: Missing person is Echo agent now
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
-
 
 \page
 

@@ -92,7 +92,6 @@
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-
 \page
 
 ## WELTON VILLAGE
@@ -204,10 +203,8 @@
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
-
 
 \page
 
@@ -307,10 +304,8 @@
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
-
 
 \page
 
@@ -398,10 +393,8 @@
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
-
 
 \page
 

@@ -51,7 +51,6 @@ Plant life in the Marches is developing primitive nervous systems and sensory ca
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-
 \page
 
 ### Ecosystem Reorganization
@@ -106,7 +105,6 @@ If the Genesis Seed completes its startup and engages full operations:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-
 \page
 
 **Phase 2 — Territorial Conflict (1 month):**
@@ -151,7 +149,6 @@ They're not entirely wrong—but they're missing the artificial component. This 
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 
@@ -205,7 +202,6 @@ Unlike some regions where the Echo's effects are ambient, the Marches have a **T
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 
@@ -261,7 +257,6 @@ When players discover the truth, they have several potential paths:
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 
@@ -320,7 +315,6 @@ When players discover the truth, they have several potential paths:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-
 \page
 
 ### Captain Theron Blackroot (Thornwall)
@@ -360,7 +354,6 @@ Strange creatures have begun emerging from the Wildheart Basin—animals that we
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 
@@ -410,7 +403,6 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 
@@ -462,7 +454,6 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-
 \page
 
 ## Adventure Hooks
@@ -490,7 +481,6 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
-
 
 \page
 

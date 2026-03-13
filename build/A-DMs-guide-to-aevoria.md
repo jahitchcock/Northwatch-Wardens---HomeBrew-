@@ -1569,7 +1569,7 @@ All Wardens shall:
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
 - **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
 
-{{watercolor7,top:681px,left:67px,width:345px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:742px,left:112px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2065,7 +2065,7 @@ A multi‑session arc returning to **The Far North** to confront the true source
 
 **The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
 
-{{watercolor6,top:674px,left:395px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:738px,left:317px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2280,11 +2280,10 @@ Think of the Echo like a vast, sleeping network of alarms going off one by one. 
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-{{watercolor6,top:181px,left:373px,width:302px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:458px,left:234px,width:372px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2441,11 +2440,10 @@ The Echo follows a predictable progression. Understanding the phases helps DMs k
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-{{watercolor6,top:42px,left:7px,width:279px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:35px,left:243px,width:366px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2560,11 +2558,10 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-{{watercolor2,top:611px,left:386px,width:345px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:571px,left:186px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2762,11 +2759,10 @@ This is the core choice for DMs. Choose one or design a hybrid. Each option fund
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Core Mystery Definition}}
 
-{{watercolor6,top:578px,left:193px,width:283px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:698px,left:174px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -2873,12 +2869,10 @@ Three fundamental questions drive everything:
      Use --offsetY to shift the mask up or down
      Use --rotation to set rotation angle in degrees. -->
 
-
-
 {{pageNumber,auto}}
 {{footnote Foreshadowing Database: The Aeorian Echo}}
 
-{{watercolor7,top:626px,left:204px,width:342px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:603px,left:271px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3389,7 +3383,7 @@ fled after crossing the Blackwake Corsairs. She hides her past well, but she kno
 2. **Hidden Contacts**: Mara still has contacts in the criminal underworld. She can get hard-to-find items and information, but using these contacts risks revealing her location.
 3. **Guilt Payment**: Part of Mara's enthusiasm for the Wardens is genuine redemption. She donates a portion of her salary anonymously to families affected by smuggling operations she once ran.
 
-{{watercolor11,top:511px,left:264px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:587px,left:153px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3549,7 +3543,7 @@ sibling to a pack years ago.
 2. **Tracking the Trail:** Mila has been secretly tracking kobold movements and gathering intelligence. She keeps a hand‑drawn map hidden in her quarters showing patrol patterns.  
 3. **Wolf Phobia:** Mila’s younger sister was killed by wolves when she was twelve. This trauma drives her fear and her insistence that the awakened wolves must die. Learning they are intelligent forces her to confront her grief.
 
-{{watercolor11,top:98px,left:27px,width:365px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:587px,left:336px,width:345px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -3992,7 +3986,7 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
-{{watercolor3,top:254px,left:421px,width:320px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:209px,left:217px,width:344px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4064,7 +4058,7 @@ This document maps the major relationships and connections between NPCs in the N
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
-{{watercolor5,top:512px,left:84px,width:368px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:9px,left:312px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4118,7 +4112,7 @@ The awakened wolves are central to multiple character arcs. Bordel feels shame f
 {{pageNumber,auto}}
 {{footnote NPC Relationship Web — Season One}}
 
-{{watercolor13,top:426px,left:336px,width:254px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:474px,left:323px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4201,7 +4195,7 @@ See next section for detailed "appears in these adventures" notes for each major
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
-{{watercolor5,top:558px,left:132px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:173px,left:338px,width:334px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4450,7 +4444,11 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 
 **Role**: Medical expert, potential ally, defensive NPC
 
-{{watercolor7,top:488px,left:252px,width:317px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote NPC Appearance Reference}}
+
+{{watercolor3,top:673px,left:63px,width:250px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4541,7 +4539,7 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 
-{{watercolor10,top:490px,left:179px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:219px,left:225px,width:390px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4836,11 +4834,10 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor4,top:354px,left:64px,width:314px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:686px,left:453px,width:340px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -4940,11 +4937,10 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor13,top:421px,left:69px,width:309px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:423px,left:395px,width:388px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5032,11 +5028,10 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Minor NPC Roster: Northreach Region}}
 
-{{watercolor1,top:580px,left:175px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:308px,left:277px,width:333px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5238,11 +5233,10 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor5,top:102px,left:90px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:306px,left:24px,width:396px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5538,11 +5532,10 @@ This document provides detailed rules for how various factions respond mechanica
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor2,top:246px,left:324px,width:348px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:79px,left:398px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5651,11 +5644,10 @@ This document provides detailed rules for how various factions respond mechanica
 - Martial law affects travel and commerce
 - Potential conflict with military over Echo approach
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor1,top:622px,left:464px,width:346px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:728px,left:161px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5772,11 +5764,10 @@ This document provides detailed rules for how various factions respond mechanica
 - Hire mercenaries for protection (PCs potential employers)
 - Begin artifact trafficking
 
-
 {{pageNumber,auto}}
 {{footnote Faction Response Document: The Aeorian Echo}}
 
-{{watercolor6,top:700px,left:262px,width:312px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:699px,left:478px,width:268px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6271,11 +6262,10 @@ This section provides ready-made responses to common player decisions that break
 - **Vestige:** Recognition as deity-equivalent; worship or acceptance of new order
 - **Zerathuul:** Freedom from control; acknowledgment of its autonomy
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor10,top:627px,left:235px,width:394px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:633px,left:303px,width:365px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6375,11 +6365,10 @@ Salsvault can be destroyed by:
 - Disrupting central resonance nodes (magical objects, heavily guarded)
 - Sacrificial ritual that overwrites Aeorian coding (requires sacrifice of high-level caster)
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor8,top:497px,left:143px,width:365px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:55px,left:80px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6691,11 +6680,10 @@ Long-term: Using Aeorian tech marks you as "Aeorian-sympathizer" to factions
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor8,top:121px,left:390px,width:290px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:413px,left:19px,width:356px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6799,11 +6787,10 @@ For small settlement (100-300 people):
 
 **When to Use:** Reward player compassion by making it work, but show systemic cost.
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor10,top:375px,left:160px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:255px,left:207px,width:319px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6902,11 +6889,10 @@ During skipped time:
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-{{watercolor8,top:70px,left:361px,width:391px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:744px,left:202px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7042,11 +7028,10 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Quarterly stipend: 50 gp
 - Can requisition supplies up to 100 gp without approval (restocked monthly)
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor3,top:531px,left:168px,width:265px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:73px,left:436px,width:256px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7124,11 +7109,10 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor13,top:473px,left:389px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:300px,left:477px,width:326px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7204,11 +7188,10 @@ The Northwatch Wardens operate on a **6-tier rank system** based on proven capab
 - Direct communication network with other regional Warden companies
 - Can requisition NPC specialists (healers, scouts, researchers)
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor5,top:686px,left:297px,width:252px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:333px,left:48px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7467,11 +7450,10 @@ Rank 5 advancement: Unanimous or 75%+ member vote
 ```
 }}
 
-
 {{pageNumber,auto}}
 {{footnote Warden Rank System}}
 
-{{watercolor9,top:392px,left:225px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:257px,left:296px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7701,11 +7683,10 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Flavor:* Atmosphere of magical significance
    - *Complication:* Echo effects could interrupt ceremony
 
-
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor7,top:541px,left:119px,width:348px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:573px,left:174px,width:261px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7998,11 +7979,10 @@ This document provides 12 monthly events for Northreach that can serve as campai
    - *Emotional Tone:* Everyone wants to travel/escape
    - *Hook:* Relationship crises, elopements, departures
 
-
 {{pageNumber,auto}}
 {{footnote Seasonal Event Calendar for Northreach}}
 
-{{watercolor3,top:5px,left:88px,width:272px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:62px,left:24px,width:311px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8248,11 +8228,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor3,top:640px,left:205px,width:316px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:505px,left:156px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8341,11 +8320,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor6,top:597px,left:109px,width:314px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:77px,left:323px,width:336px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8808,11 +8786,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor1,top:596px,left:32px,width:366px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:706px,left:494px,width:256px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8931,11 +8908,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor7,top:457px,left:449px,width:288px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:340px,left:436px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9050,11 +9026,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Survivors carry Echo influence (spread it further)
 - Reveals scope of Echo's reach
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor1,top:183px,left:278px,width:271px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:520px,left:423px,width:391px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9245,11 +9220,10 @@ This document provides flexible encounter prompts for when PCs travel between No
 - Or: Missing person fled Echo (hiding)
 - Or: Missing person is Echo agent now
 
-
 {{pageNumber,auto}}
 {{footnote Travel Encounter Library}}
 
-{{watercolor1,top:205px,left:442px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:745px,left:236px,width:267px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10663,10 +10637,8 @@ ________________________________________
 
 
 ```
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
-{{watercolor1,top:79px,left:212px,width:298px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:293px,left:118px,width:323px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10796,10 +10768,7 @@ ________________________________________
 - .___________________________________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
 
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor6,top:735px,left:416px,width:343px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:632px,left:197px,width:312px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10885,10 +10854,8 @@ ________________________________________________________________________________
 
 ```
 }}
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
 
-{{watercolor6,top:664px,left:216px,width:341px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:672px,left:70px,width:364px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10955,10 +10922,7 @@ ________________________________________________________________________________
 - **Stored at Waystone:** _____ gp
 }}
 
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor11,top:302px,left:336px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:210px,left:164px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11088,11 +11052,7 @@ ________________________________________________________________________________
 ###### ____________________________________________
 ###### ____________________________________________
 
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-{{watercolor11,top:490px,left:145px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:192px,left:210px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11585,7 +11545,11 @@ On the journey toward the camp, a fallen tree blocks the road. Give the three of
 
 >This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
 
-{{watercolor8,top:259px,left:194px,width:335px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
+
+{{watercolor11,top:722px,left:458px,width:313px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11768,7 +11732,12 @@ Marshal Brenna Thorne, Northwatch Wardens
 Attested by Steward Mara Fenwick
 }}
 
-{{watercolor11,top:667px,left:196px,width:367px,background-color:#BBAD82,opacity:80%}}
+
+
+{{pageNumber,auto}}
+{{footnote Contract: W‑17 — Disturbance Near Welton}}
+
+{{watercolor13,top:407px,left:336px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11930,7 +11899,11 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 
 - **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
 
-{{watercolor10,top:691px,left:373px,width:328px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Wolves of Welton}}
+
+{{watercolor10,top:96px,left:76px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12024,7 +11997,11 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
 - **Future hook:** Tillus remains hostile; may cause problems later
 
-{{watercolor10,top:422px,left:25px,width:294px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Wolves of Welton}}
+
+{{watercolor13,top:541px,left:313px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12068,11 +12045,10 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
 }}
 
-
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
 
-{{watercolor9,top:503px,left:65px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:602px,left:211px,width:391px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12188,7 +12164,11 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Leanor Slatebeard:** Dwarven innkeeper
 - **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
 
-{{watercolor2,top:249px,left:170px,width:258px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Wolves of Welton}}
+
+{{watercolor6,top:397px,left:1px,width:390px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12357,7 +12337,13 @@ ___
 Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
 }}
 
-{{watercolor4,top:118px,left:19px,width:389px,background-color:#BBAD82,opacity:80%}}
+
+
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
+
+{{watercolor3,top:585px,left:439px,width:390px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12447,12 +12433,10 @@ He is not lying — but many villagers think he is.
 
 ---
 
-
-
 {{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
+{{footnote Wolves of Welton}}
 
-{{watercolor3,top:64px,left:190px,width:329px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:61px,left:305px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12562,10 +12546,11 @@ They ask the party to:
 - End the attacks — by force or diplomacy  
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor6,top:24px,left:481px,width:351px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:702px,left:482px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12857,10 +12842,11 @@ These clues foreshadow the wolves’ awakening and hint that the den is more tha
 }}
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor12,top:663px,left:49px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:207px,left:201px,width:281px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13158,10 +13144,11 @@ Calm the pups; they approach cautiously.
 Notice the pups have slightly larger eyes and more expressive faces — early signs of awakening.
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor12,top:246px,left:325px,width:312px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:88px,left:130px,width:312px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13370,10 +13357,11 @@ This path creates long‑term narrative tension and future complications — per
 }}
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor7,top:75px,left:110px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:551px,left:191px,width:366px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13443,10 +13431,11 @@ At last, the council votes. A majority raises their hands. Peace — tentative, 
 - The Aeorian Echo mystery deepens  
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor1,top:123px,left:322px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:168px,left:49px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13546,10 +13535,11 @@ The road back to Waystone feels quieter than before. The wind carries the scent 
 Marshal Brenna Thorne greets you at the guild hall with a firm nod, but it is **Lorewarden Elric Vael** who steps forward first, eyes sharp with curiosity.
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-{{watercolor6,top:171px,left:192px,width:364px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:617px,left:293px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13722,7 +13712,11 @@ These are the truths the players can uncover through investigation, exploration,
 
 ---
 
-{{watercolor8,top:86px,left:373px,width:311px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor3,top:705px,left:406px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13831,7 +13825,11 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 
 ---
 
-{{watercolor9,top:411px,left:488px,width:251px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor4,top:525px,left:358px,width:310px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13938,7 +13936,11 @@ Frozen Sick is the **moment the campaign opens up**.
 
 This adventure shifts the campaign from **mystery** to **revelation** — and sets the stage for Arc 3.
 
-{{watercolor4,top:727px,left:29px,width:395px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor12,top:339px,left:415px,width:301px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14043,7 +14045,11 @@ The Wardens must retrieve the antidote and escape before the ruin’s unstable m
 
 ---
 
-{{watercolor7,top:346px,left:363px,width:267px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor8,top:286px,left:114px,width:378px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14170,7 +14176,11 @@ Tulgi is dying — scared, defensive, and desperate.
 
 ---
 
-{{watercolor5,top:327px,left:403px,width:262px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor6,top:396px,left:42px,width:298px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14293,7 +14303,10 @@ They are not evil — just desperate.
 
 ---
 
-{{watercolor10,top:18px,left:307px,width:372px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor7,top:434px,left:36px,width:259px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14303,7 +14316,7 @@ They are not evil — just desperate.
 
 - They looked valuable  
 - Verla Pelc’s shop was an easy target  
-- A fence from Breakwater Haven promised coin  
+- A Blackwake Corsairs fence from Breakwater Haven promised coin for anything "blue and Aeorian"
 - They had no idea the vials were dangerous  
 
 If confronted, they panic — not out of guilt, but fear.
@@ -14404,7 +14417,10 @@ The captain makes two melee attacks.
 *Hit:* 5 (1d4 + 3) piercing damage.
 }}
 
-{{watercolor1,top:61px,left:261px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor9,top:269px,left:237px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14456,7 +14472,7 @@ Inside:
 - A small pouch of silver  
 - A map scrap showing a route north toward **Salsvault**  
 - A note from a fence:  
-  > “More where these came from. North. Bring me anything glowing blue.”
+  > “More where these came from. North. Bring me anything glowing blue. — B.W.”
 
 {{note
 This is the party’s first explicit reference to Salsvault.
@@ -14470,7 +14486,7 @@ This is the party’s first explicit reference to Salsvault.
 By searching the hideout, the Wardens learn:
 
 - The vials came from **ancient ruins in the Far North**  
-- A fence from Breakwater Haven bought and resold them  
+- A Corsair fence from Breakwater Haven bought and resold them  
 - The bandits handled the vials without knowing the danger  
 - The disease is spreading because of these stolen items  
 - The map scrap points toward **Salsvault**  
@@ -14521,11 +14537,15 @@ This leads directly into **Section 6: Journey to Salsvault**.
 | 1 | 12 gp in mixed coins, a rusted dagger |
 | 2 | Small pouch of semi‑precious stones worth 15 gp |
 | 3 | A map scrap showing a route north toward **Salsvault** |
-| 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue.”* |
+| 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue. — B.W.”* |
 | 5 | A flask of cheap dwarven whiskey (10 gp) |
 | 6 | A bundle of smuggled goods worth 25 gp |
 
-{{watercolor13,top:77px,left:78px,width:256px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor12,top:542px,left:366px,width:328px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14541,21 +14561,21 @@ The wind sharpens as you leave Palebank Village behind. Snow whips across the fr
 }}
 
 The journey to Salsvault is dangerous, but the Wardens have a lead:  
-**The Cold Anchor**, a frontier research station repurposed as a frontier camp.
+**The Cold Anchor**, a frontier research station repurposed as an expedition waypoint.
 
 ---
 
 ### The Cold Anchor
 
 {{descriptive
-A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A banner flaps overhead — a stylized compass rose, the mark of the southern expeditions.
+A cluster of canvas tents and wooden shacks stands against the icy wind. Smoke rises from a central firepit where explorers and researchers huddle for warmth. A hand-painted sign nailed to the central post reads: THE COLD ANCHOR. Below it, someone has added in smaller letters: “You made it. Now rest.”
 }}
 
-The outpost is staffed by:
+The station is staffed by:
 
-- Southern‑cities explorers  
-- Aevorian scholars  
-- A few Northreach locals  
+- Frontier researchers and scholars from the southern regions  
+- Aevorian naturalists and arcane surveyors  
+- A few Northreach locals who know the icefields  
 - Occasional Wardens on assignment  
 
 Here, the party meets **Morgo**, their guide.
@@ -14639,7 +14659,11 @@ Effects (roll 1d4):
 
 ---
 
-{{watercolor11,top:732px,left:464px,width:325px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor10,top:403px,left:134px,width:282px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14757,7 +14781,12 @@ ___
 - **Arcana DC 15:** Realize the pulses are increasing in frequency — Salsvault is waking.  
 }}
 
-{{watercolor7,top:351px,left:205px,width:373px,background-color:#BBAD82,opacity:80%}}
+
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor5,top:273px,left:334px,width:396px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14824,7 +14853,12 @@ ___
 ***Claw.*** ::Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  *Hit:* 12 (2d6 + 4) slashing damage.
 }}
 
-{{watercolor2,top:146px,left:51px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
+{{watercolor13,top:621px,left:383px,width:321px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14881,7 +14915,10 @@ Avoid contracting **frigid woe**.
 
 ---
 
-{{watercolor12,top:734px,left:325px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor3,top:361px,left:51px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14971,7 +15008,12 @@ Rows of shattered glass tubes line the walls. Frozen worktables hold rusted tool
 #### **Optional Encounter Trigger**
 - Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
 
-{{watercolor2,top:113px,left:280px,width:336px,background-color:#BBAD82,opacity:80%}}
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor9,top:386px,left:450px,width:287px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15062,7 +15104,12 @@ ___
 ***Force Slash (Recharge 5–6).*** :: A 15‑ft cone of force.  **DC 14 Dex save**, **14 (4d6) force damage** on fail, half on success.
 }}
 
-{{watercolor3,top:74px,left:477px,width:384px,background-color:#BBAD82,opacity:80%}}
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor11,top:69px,left:295px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15161,7 +15208,11 @@ Roll 1d4 or choose:
 | 3 | **Translation Tablet** | While holding this slate, you have advantage on Arcana checks related to Aeorian magic or pre‑Godsfall languages. |
 | 4 | **Stasis Shard** | Once per long rest, cast *slow* (DC 13). The shard cracks slightly each time it is used. |
 
-{{watercolor10,top:742px,left:421px,width:398px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor11,top:565px,left:409px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15266,7 +15317,10 @@ A pulse of blue light flashes across the room. For a moment, you see a vision �
 
 ---
 
-{{watercolor13,top:551px,left:397px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor6,top:283px,left:446px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15382,7 +15436,11 @@ Frigid woe was engineered to **bypass divine magic**.
 
 ---
 
-{{watercolor8,top:152px,left:210px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor9,top:569px,left:247px,width:393px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15486,7 +15544,11 @@ One by one, the infected drink the golden liquid. Warmth spreads through their b
 
 ---
 
-{{watercolor3,top:480px,left:101px,width:326px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor5,top:489px,left:472px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15602,7 +15664,10 @@ The room falls silent. All eyes turn to you.
 
 ---
 
-{{watercolor1,top:207px,left:46px,width:397px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor4,top:347px,left:318px,width:314px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15717,7 +15782,11 @@ If they died: ::
 Elric places a hand on your shoulder. “You did what you could. Sometimes the frontier takes more than we can give.”
 }}
 
-{{watercolor5,top:442px,left:274px,width:364px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor9,top:231px,left:46px,width:362px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15780,11 +15849,15 @@ It consolidates pacing, pitfalls, scaling, and improvisation tools so you can ke
 - **Urgon Wenth** — Deceased explorer (ice statue), source of outbreak.  
 - **Verla Pelc** — Deceased elf collector (also turned to ice).  
 - **Irven Liel** — Infected merchant, family at risk.  
-- **Morgo** — Southern‑cities guide at the Cold Anchor.
+- **Morgo** — Guide at the Cold Anchor, knows the icefields
 
 ---
 
-{{watercolor11,top:389px,left:264px,width:377px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor11,top:285px,left:463px,width:267px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15894,7 +15967,10 @@ THIS IS THE REVELATION ADVENTURE — players discover the source of all magical 
 
 ---
 
-{{watercolor12,top:658px,left:240px,width:280px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
+{{watercolor8,top:198px,left:175px,width:319px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15992,7 +16068,9 @@ Use these throughout the adventure:
 
 5. **Elric’s Debrief:**  :: “The wolves at Welton. The instability across Northreach. It’s all connected. The Aeorian Echo is spreading.”
 
-{{watercolor4,top:330px,left:465px,width:283px,background-color:#BBAD82,opacity:80%}}
+6. **The Corsair Thread:**  :: “The Blackwake Corsairs were moving these artifacts before anyone knew what they were. They have contacts from the Shattered Coast to Northreach. Someone gave them the commission.”
+
+{{watercolor2,top:549px,left:239px,width:359px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17010,7 +17088,14 @@ This transformation cannot be undone by any spell lower than 9th level and canno
 
 If they fail by more than five, in addition to the above consequences the wand explodes violently, dealing 1 d1 2 force damage to all creatures within 1 0 ft for each charge remaining in the wand. This destroys the wand.
 
-{{watercolor10,top:20px,left:272px,width:338px,background-color:#BBAD82,opacity:80%}}
+
+
+
+
+{{pageNumber,auto}}
+{{footnote Modified Wand of True Polymorph}}
+
+{{watercolor5,top:299px,left:52px,width:317px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17096,10 +17181,11 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 - **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
 - **Connects to:** Black market networks responding to Aeorian discoveries
 }}
-{{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
 
-{{watercolor10,top:586px,left:483px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote DM Notes: Peril in Pinebrook}}
+
+{{watercolor6,top:607px,left:187px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17160,9 +17246,9 @@ To help them feel more comfortable with roleplaying, consider asking them one or
 Let the players respond for their characters if they want to. Then describe how Captain Kole moves carefully into the forest, motioning for the characters to follow.
 
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor2,top:206px,left:221px,width:289px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:226px,left:290px,width:372px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17234,11 +17320,10 @@ She tears a page from the book and hands it to you. “Here. This might be usefu
 The page Captain Kole gives the characters appears in Appendix A. It contains simple Draconic-to-Common translations. The characters don’t need to read it now, but it will be useful later in the adventure.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor8,top:648px,left:23px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:482px,left:396px,width:307px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17353,11 +17438,10 @@ ___
 *Hit:* 4 (1d6) slashing damage.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor13,top:459px,left:222px,width:397px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:548px,left:189px,width:297px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17451,11 +17535,10 @@ If the players propose a creative solution not listed in the challenge descripti
 Reward imagination — it often leads to the best moments.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor10,top:93px,left:420px,width:378px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:178px,left:273px,width:307px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17552,12 +17635,10 @@ Encourage vivid descriptions: leaping between slides, spinning through loops, na
 **DM Tip:** If one character finds a safe slide, others may try to follow. To keep the challenge meaningful, you can describe the top of that slide collapsing just after the first character begins their descent, forcing each character to choose their own path.
 }}
 
-
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor2,top:145px,left:415px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:419px,left:285px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17647,9 +17728,9 @@ A thunderous crash erupts from high above. Chunks of ice and snow rain down as a
 The characters have some explaining to do. 
 
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
-{{watercolor2,top:256px,left:30px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:302px,left:46px,width:332px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19582,7 +19663,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor1,top:62px,left:287px,width:351px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:691px,left:152px,width:269px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19762,7 +19843,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor8,top:735px,left:317px,width:290px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:152px,left:331px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19961,7 +20042,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor3,top:127px,left:30px,width:373px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:684px,left:334px,width:322px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20149,7 +20230,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-{{watercolor8,top:207px,left:208px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:184px,left:451px,width:389px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20371,7 +20452,7 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 **Campaign Status:** Foundational lore for Season One and beyond  
 **Player Knowledge:** None (this is DM-only background)
 
-{{watercolor2,top:345px,left:21px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:704px,left:29px,width:344px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20598,7 +20679,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor7,top:587px,left:178px,width:388px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:679px,left:94px,width:282px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20938,7 +21019,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor1,top:139px,left:249px,width:357px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:359px,left:316px,width:276px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21688,7 +21769,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor13,top:352px,left:379px,width:330px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:572px,left:102px,width:397px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21897,7 +21978,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor6,top:182px,left:422px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:585px,left:218px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22174,7 +22255,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor12,top:546px,left:135px,width:333px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:318px,left:288px,width:355px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22702,7 +22783,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor13,top:160px,left:203px,width:373px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:420px,left:39px,width:264px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22959,7 +23040,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor11,top:63px,left:308px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:29px,left:395px,width:359px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23202,7 +23283,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor11,top:744px,left:100px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:431px,left:222px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23483,7 +23564,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor2,top:606px,left:91px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:355px,left:305px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23786,7 +23867,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor2,top:339px,left:157px,width:302px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:244px,left:145px,width:339px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -24737,7 +24818,7 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor10,top:687px,left:172px,width:345px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:335px,left:346px,width:369px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30766,7 +30847,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
 - This document (Week 4)
 
-{{watercolor2,top:257px,left:23px,width:361px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:468px,left:259px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31367,7 +31448,7 @@ Non-negotiable enemy; zealot; requires defeat or flight
 - DM Guild Roster.md (full NPC secrets & campaign connections)
 - Adventure_Quick_Reference.md (one-page adventure sheets)
 
-{{watercolor2,top:134px,left:178px,width:340px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:325px,left:427px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33019,7 +33100,7 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
 
-{{watercolor2,top:689px,left:54px,width:394px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:426px,left:294px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 

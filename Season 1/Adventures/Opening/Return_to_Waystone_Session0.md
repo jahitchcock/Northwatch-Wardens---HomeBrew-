@@ -52,6 +52,10 @@ On the journey toward the camp, a fallen tree blocks the road. Give the three of
 
 >This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
 
+
+{{pageNumber,auto}}
+{{footnote Return to Waystone (Session 0)}}
+
 \page
 
 ### Scene 3: Optional Challenge
@@ -143,7 +147,6 @@ ___
 
 {{pageNumber,auto}}
 {{footnote Return to Waystone (Session 0)}}
-
 
 \page
 

@@ -103,7 +103,6 @@ CHOICE POINT:
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-
 \page
 
 ## Northwatch Wardens: Campaign Tracker
@@ -230,7 +229,6 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-
 \page
 
 ### 1 Week Before Session:
@@ -315,7 +313,6 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
-
 
 \page
 
@@ -441,7 +438,6 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
-
 
 \page
 

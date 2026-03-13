@@ -906,10 +906,6 @@ ________________________________________
 
 
 ```
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-
 \page
 
 
@@ -1038,11 +1034,6 @@ ________________________________________
 - **Last interaction:** _____________________________
 - .___________________________________________
 - **Secrets revealed?** ☐ Prophetic dreams ☐ Arcane engine theory
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-
 \page
 
 {{wide
@@ -1127,10 +1118,6 @@ ________________________________________________________________________________
 
 ```
 }}
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-
 \page
 {{wide
 ## Promises & Unfinished Business
@@ -1194,11 +1181,6 @@ ________________________________________________________________________________
 - **Party Gold:** __________gp   
 - **Stored at Waystone:** _____ gp
 }}
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-
 \page
 
 ## Session Log
@@ -1326,12 +1308,6 @@ ________________________________________________________________________________
 ###### ____________________________________________
 ###### ____________________________________________
 ###### ____________________________________________
-
-
-{{pageNumber,auto}}
-{{footnote Campaign Tracker: Northwatch Wardens Season One}}
-
-
 \page
 
 

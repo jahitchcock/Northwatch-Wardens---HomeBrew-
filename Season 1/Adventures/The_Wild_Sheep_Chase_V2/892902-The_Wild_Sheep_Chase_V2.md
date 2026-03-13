@@ -275,7 +275,6 @@ A fourth/fifth level adventure for D&D 5E
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
 
-
 \page
 
 ### XP Awards (Milestone)
@@ -289,7 +288,6 @@ A fourth/fifth level adventure for D&D 5E
 
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
-
 
 \page
 
@@ -316,7 +314,6 @@ A fourth/fifth level adventure for D&D 5E
 
 {{pageNumber,auto}}
 {{footnote DM Notes: The Wild Sheep Chase}}
-
 
 \page
 
@@ -572,7 +569,6 @@ This reinforces the Aeorian Echo mystery and sets up future adventures.
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: The Wild Sheep Chase}}
 
-
 \page
 
 # Summary
@@ -599,7 +595,6 @@ If you want to plant seeds in advance, you may wish to introduce the character o
 
 {{pageNumber,auto}}
 {{footnote Adventure Hooks}}
-
 
 \page
 
@@ -654,7 +649,6 @@ While he prefers violence and intimidation, he is also willing to offer bribes a
 
 {{pageNumber,auto}}
 {{footnote Guz}}
-
 
 \page
 
@@ -711,7 +705,6 @@ Once upon a time the local nobles, merchants and arcanists spoke the name of Fin
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-
 \page
 
 ## After the Dust Settles
@@ -753,7 +746,6 @@ The path to Noke’s Tower cuts off from a main road a few miles out of town, da
 {{pageNumber,auto}}
 {{footnote Guz}}
 
-
 \page
 
 Anyone who cares to examine the path for tracks will easily see the impression of many feet and paws, with the most fresh sets appearing to match up with the group led by Guz.
@@ -792,7 +784,6 @@ When the party arrives at the compound, there is a trio of Apes (MM p31 7) eithe
 
 {{pageNumber,auto}}
 {{footnote Guz}}
-
 
 \page
 
@@ -851,7 +842,6 @@ The most important part of any fight that breaks out is Noke, who is offensively
 
 {{pageNumber,auto}}
 {{footnote Bed Dragon Wyrmling}}
-
 
 \page
 
@@ -929,7 +919,6 @@ However, the over-used wand will crackle, fizz and malfunction with a loud bang,
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
 
-
 \page
 
 Even so, when Noke leaves he will take all of his remaining bodyguards with him and will be extremely quick to suspect the party of betrayal if there is any hint of a double-cross.
@@ -958,7 +947,6 @@ If the party decides to go ahead with the spell and it fails, Shinebright dies p
 
 {{pageNumber,auto}}
 {{footnote Ahmed Noke}}
-
 
 \page
 
@@ -999,6 +987,10 @@ If they fail by more than five, in addition to the above consequences the wand e
 
 
 
+
+
+{{pageNumber,auto}}
+{{footnote Modified Wand of True Polymorph}}
 
 \page
 
@@ -1084,8 +1076,9 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 - **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
 - **Connects to:** Black market networks responding to Aeorian discoveries
 }}
+
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1146,10 +1139,7 @@ To help them feel more comfortable with roleplaying, consider asking them one or
 Let the players respond for their characters if they want to. Then describe how Captain Kole moves carefully into the forest, motioning for the characters to follow.
 
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
-
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1221,10 +1211,8 @@ She tears a page from the book and hands it to you. “Here. This might be usefu
 The page Captain Kole gives the characters appears in Appendix A. It contains simple Draconic-to-Common translations. The characters don’t need to read it now, but it will be useful later in the adventure.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1339,10 +1327,8 @@ ___
 *Hit:* 4 (1d6) slashing damage.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1437,10 +1423,8 @@ If the players propose a creative solution not listed in the challenge descripti
 Reward imagination — it often leads to the best moments.
 }}
 
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1537,11 +1521,8 @@ Encourage vivid descriptions: leaping between slides, spinning through loops, na
 **DM Tip:** If one character finds a safe slide, others may try to follow. To keep the challenge meaningful, you can describe the top of that slide collapsing just after the first character begins their descent, forcing each character to choose their own path.
 }}
 
-
-
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 
@@ -1632,8 +1613,7 @@ A thunderous crash erupts from high above. Chunks of ice and snow rain down as a
 The characters have some explaining to do. 
 
 {{pageNumber,auto}}
-{{footnote Peril in Pinebrook}}
-
+{{footnote DM Notes: Peril in Pinebrook}}
 
 \page
 

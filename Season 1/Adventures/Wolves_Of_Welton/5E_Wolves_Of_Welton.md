@@ -144,6 +144,10 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 
 - **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
 
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Wolves of Welton}}
+
 \page
 
 ## Resolution Outcomes
@@ -236,6 +240,10 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
 - **Future hook:** Tillus remains hostile; may cause problems later
 
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Wolves of Welton}}
+
 \page
 
 ## Rewards & Aftermath
@@ -278,10 +286,8 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 "Awakened wolves? Fascinating and troubling. This matches reports from Palebank Village — strange magical phenomena spreading across Northreach. Something is very wrong."
 }}
 
-
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
-
 
 \page
 # DM Prep Checklist: Wolves of Welton
@@ -396,6 +402,10 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Leanor Slatebeard:** Dwarven innkeeper
 - **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
 
+
+{{pageNumber,auto}}
+{{footnote DM Prep Checklist: Wolves of Welton}}
+
 \page
 
 ### Quick Treasure
@@ -477,7 +487,6 @@ This sets up future adventures (Frozen Sick, Wild Sheep Chase) and reinforces th
 
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Wolves of Welton}}
-
 
 \page
 
@@ -563,6 +572,10 @@ Up to two allied wolves that can hear the bark may immediately use their reactio
 }}
 
 
+
+
+{{pageNumber,auto}}
+{{footnote Wolves of Welton}}
 
 \page
 
@@ -652,11 +665,8 @@ He is not lying — but many villagers think he is.
 
 ---
 
-
-
 {{pageNumber,auto}}
-{{footnote Scene 2: Village People}}
-
+{{footnote Wolves of Welton}}
 
 \page
 
@@ -767,6 +777,7 @@ They ask the party to:
 - End the attacks — by force or diplomacy  
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
@@ -937,7 +948,6 @@ An elderly shepherd waves the party down from a distance. “If you’re heading
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-
 \page
 
 
@@ -1014,8 +1024,6 @@ The owlbear makes two attacks: one with its beak and one with its claws.
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-
-
 \page
 
 
@@ -1059,9 +1067,9 @@ These clues foreshadow the wolves’ awakening and hint that the den is more tha
 }}
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
 
 \page
 
@@ -1131,8 +1139,6 @@ The tone should shift from wilderness danger to moral tension and mystery. The w
 
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
-
 
 \page
 
@@ -1247,7 +1253,6 @@ Flame fights to dominate, not to slaughter.
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-
 \page
 
 ### Bolt (Awakened Alpha)
@@ -1358,9 +1363,9 @@ Calm the pups; they approach cautiously.
 Notice the pups have slightly larger eyes and more expressive faces — early signs of awakening.
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
 
 \page
 
@@ -1478,7 +1483,6 @@ It leads directly into **Scene 7: Resolution Paths**.
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
-
 \page
 
 ### Scene 7: Resolution Paths
@@ -1568,9 +1572,9 @@ This path creates long‑term narrative tension and future complications — per
 }}
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
 
 \page
 
@@ -1640,9 +1644,9 @@ At last, the council votes. A majority raises their hands. Peace — tentative, 
 - The Aeorian Echo mystery deepens  
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
 
 \page
 
@@ -1742,9 +1746,9 @@ The road back to Waystone feels quieter than before. The wind carries the scent 
 Marshal Brenna Thorne greets you at the guild hall with a firm nod, but it is **Lorewarden Elric Vael** who steps forward first, eyes sharp with curiosity.
 
 ---
+
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
-
 
 \page
 

@@ -80,6 +80,10 @@ These are the truths the players can uncover through investigation, exploration,
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ### Player Discovery 
@@ -187,6 +191,10 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ### Stakes
@@ -292,6 +300,10 @@ Frozen Sick is the **moment the campaign opens up**.
 
 This adventure shifts the campaign from **mystery** to **revelation** — and sets the stage for Arc 3.
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ### Section 3: Story Summary
@@ -394,6 +406,10 @@ The Wardens must retrieve the antidote and escape before the ruin’s unstable m
 - The Echo continues to spread  
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
 
 \page
 
@@ -520,6 +536,10 @@ Tulgi is dying — scared, defensive, and desperate.
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 #### 4. Irven Liel’s Home
@@ -640,6 +660,10 @@ The cave smells of damp stone, smoke, and unwashed bodies. Crates and barrels ar
 They are not evil — just desperate.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ## Bandit Motivations
@@ -748,6 +772,10 @@ The captain makes two melee attacks.
 ***Dagger.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target.  
 *Hit:* 5 (1d4 + 3) piercing damage.
 }}
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 {{monster,frame
@@ -867,6 +895,10 @@ This leads directly into **Section 6: Journey to Salsvault**.
 | 5 | A flask of cheap dwarven whiskey (10 gp) |
 | 6 | A bundle of smuggled goods worth 25 gp |
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 ## Section 6: Journey to Salsvault
@@ -978,6 +1010,10 @@ Effects (roll 1d4):
 4. Memory echo (brief hallucination of ancient Aeor)  
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
 
 \page
 
@@ -1096,6 +1132,10 @@ ___
 }}
 
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 {{monster,frame
@@ -1162,6 +1202,10 @@ ___
 }}
 
 
+
+{{pageNumber,auto}}
+{{footnote Frozen Sick}}
+
 \page
 
 # Section 7: Salsvault — The Frozen Laboratory
@@ -1216,6 +1260,10 @@ Avoid 1 level of exhaustion from the cold.
 Avoid contracting **frigid woe**.
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 {{wide
 
@@ -1303,6 +1351,10 @@ Rows of shattered glass tubes line the walls. Frozen worktables hold rusted tool
 #### **Optional Encounter Trigger**
 - Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
 
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
 
@@ -1393,6 +1445,10 @@ ___
 ***Force Slash (Recharge 5–6).*** :: A 15‑ft cone of force.  **DC 14 Dex save**, **14 (4d6) force damage** on fail, half on success.
 }}
 
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
 
@@ -1490,6 +1546,10 @@ Roll 1d4 or choose:
 | 2 | **Icewalker Boots** | Ignore difficult terrain caused by ice or snow. Gain advantage on checks to resist cold environments. |
 | 3 | **Translation Tablet** | While holding this slate, you have advantage on Arcana checks related to Aeorian magic or pre‑Godsfall languages. |
 | 4 | **Stasis Shard** | Once per long rest, cast *slow* (DC 13). The shard cracks slightly each time it is used. |
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
 
@@ -1593,6 +1653,10 @@ A pulse of blue light flashes across the room. For a moment, you see a vision �
 
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 
 ### 7. Exit & Collapse (Optional)
@@ -1707,6 +1771,10 @@ Frigid woe was engineered to **bypass divine magic**.
 
 ---
 
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 
 ### Cure — Golden Aeorian Antidote
@@ -1808,6 +1876,10 @@ One by one, the infected drink the golden liquid. Warmth spreads through their b
 - The Aeorian Echo arc accelerates  
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
 ### Path B: The darkest Timeline
@@ -1921,6 +1993,10 @@ The room falls silent. All eyes turn to you.
 - Elric notes the moral weight of the decision  
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 
 ### Aftermath: 
@@ -2034,6 +2110,10 @@ If they died: ::
 Elric places a hand on your shoulder. “You did what you could. Sometimes the frontier takes more than we can give.”
 }}
 
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 ---
 
@@ -2097,6 +2177,10 @@ It consolidates pacing, pitfalls, scaling, and improvisation tools so you can ke
 - **Morgo** — Guide at the Cold Anchor, knows the icefields
 
 ---
+
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
 
@@ -2205,6 +2289,10 @@ THIS IS THE REVELATION ADVENTURE — players discover the source of all magical 
 - Unstable magic: random magical surges (Wild Magic table for flavor).
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}
+
 \page
 
 

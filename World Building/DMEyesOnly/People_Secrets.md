@@ -221,7 +221,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-
 \page
 
 **Public Role:** Scholar, record-keeper, curious researcher
@@ -388,7 +387,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
-
 
 \page
 
@@ -558,7 +556,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
-
 
 \page
 
@@ -749,7 +746,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-
 \page
 
 **Public Persona:** Brilliant but chaotic gnome wizard
@@ -874,7 +870,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
-
 
 \page
 
@@ -1091,7 +1086,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-
 \page
 
 ### Elro Aldataur (Palebank Leader)
@@ -1305,7 +1299,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-
 \page
 
 **Public Persona:** Skilled hunter and tracker
@@ -1512,7 +1505,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
-
 
 \page
 
@@ -1788,7 +1780,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
-
 
 \page
 

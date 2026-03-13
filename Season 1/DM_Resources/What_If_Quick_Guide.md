@@ -342,10 +342,8 @@ This section provides ready-made responses to common player decisions that break
 - **Vestige:** Recognition as deity-equivalent; worship or acceptance of new order
 - **Zerathuul:** Freedom from control; acknowledgment of its autonomy
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 
@@ -445,10 +443,8 @@ Salsvault can be destroyed by:
 - Disrupting central resonance nodes (magical objects, heavily guarded)
 - Sacrificial ritual that overwrites Aeorian coding (requires sacrifice of high-level caster)
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 
@@ -552,7 +548,6 @@ Salsvault can be destroyed by:
 
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 
@@ -663,7 +658,6 @@ Salsvault can be destroyed by:
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
 
-
 \page
 
 ### SCENARIO 11: 
@@ -758,10 +752,8 @@ Long-term: Using Aeorian tech marks you as "Aeorian-sympathizer" to factions
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 
@@ -865,10 +857,8 @@ For small settlement (100-300 people):
 
 **When to Use:** Reward player compassion by making it work, but show systemic cost.
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 
@@ -967,10 +957,8 @@ During skipped time:
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote What If? Quick Guide:}}
-
 
 \page
 

@@ -24,7 +24,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Waystone Inn (Guild HQ)
@@ -103,7 +102,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Welton (Wolves of Welton)
@@ -178,7 +176,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Pinebrook (Peril in Pinebrook)
@@ -208,7 +205,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Palebank Village (Frozen Sick)
@@ -236,7 +232,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
-
 
 \page
 
@@ -266,7 +261,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
-
 
 \page
 
@@ -305,7 +299,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Noke's Tower (Wild Sheep Chase)
@@ -343,7 +336,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ## Temple of the Dragonknights (Capstone)
@@ -376,7 +368,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
-
 
 \page
 
@@ -412,7 +403,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-
 \page
 
 ### Portrait Gallery (Already in Images folder)
@@ -435,7 +425,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
-
 
 \page
 
@@ -468,7 +457,6 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
-
 
 \page
 
