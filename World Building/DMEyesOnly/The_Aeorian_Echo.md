@@ -1,42 +1,39 @@
 {{note
-##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
-
-**MAJOR CAMPAIGN SPOILERS AHEAD**
 
 This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book).
 }}
 
-# The Aeorian Echo: Campaign Master Document
+### The Aeorian Echo: Campaign Master Document
 
-## Overview
+#### Overview
 
 This document contains the complete secret history and mechanics of the Aeorian Echo—the central threat underlying the Northwatch Wardens Season One campaign. This information is **STRICTLY DM EYES ONLY** and represents major campaign spoilers.
 
 ---
 
-## What is the Aeorian Echo?
-
-### The Simple Answer (For DMs)
+#### What is the Aeorian Echo?
 
 The Aeorian Echo is the reactivation of ancient pre-Calamity magical facilities left behind when the flying city of Aeor crashed during the Calamity. These facilities, designed as weapons against the gods, have begun to wake up after millennia of dormancy.
 
-### The Technical Answer
+#### The Technical Answer
 
 An "Echo" is a magical resonance phenomenon where dormant Aeorian technology responds to specific stimuli—either environmental changes, magical triggers, or deliberate activation by an intelligent entity. The current Echo represents a cascading reactivation across a network of interconnected facilities.
 
-### The Terrifying Answer
+#### The Terrifying Answer
 
 Something survived Aeor's fall and is systematically bringing its ancient weapons back online to complete pre-Calamity objectives: neutralize divine magic, eliminate dragons, and establish control over the mortal races.
 
 ---
 
-## Historical Background
+### Historical Background
 
 {{note
 **Cross-World Context:** Aeor originated in Exandria (Wildemount), but fragments fell through a dimensional rift into Aevoria during the Calamity. See **Chapter 6: The Dimensional Rift** for the complete explanation of how Aeorian ruins exist in multiple worlds. This document describes both the original fall (Exandria) and the current reactivation (Aevoria's Far North).
 }}
+
+\column
 
 ### Aeor Before the Fall
 
@@ -83,11 +80,11 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-\column
+\page
 
-## The Northreach Region's Connection
+### The Northreach Region's Connection
 
-### Why Here?
+#### Why Here?
 
 **Geological Reality:**
 - Northreach region lies directly south of The Far North crash site
@@ -119,15 +116,11 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Defensive kill-zones
 
 ---
-
-{{pageNumber,auto}}
-{{footnote The Aeorian Echo: Campaign Master Document}}
-
 \page
 
-## The Reactivation: What's Happening and Why
+### The Reactivation: What's Happening and Why
 
-### The Trigger
+#### The Trigger
 
 **Primary Cause:**
 - Recent increase in Far North exploration
@@ -147,6 +140,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Began sending activation signals
 - Systematically bringing network online
 
+\column
 ### The Pattern of Activation
 
 **Phase One: Assessment (Current)**
@@ -209,7 +203,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-\column
+\page
 
 ## The Entity Behind the Echo
 
@@ -252,7 +246,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
+
+\column
 
 ---
 
@@ -298,6 +293,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 **Quote:** "Query: Why do you resist optimization? Your current existence is 73% less efficient than projected outcome."
 
 ---
+
+\page
 
 ### Option C: The Failed God
 
@@ -349,6 +346,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
 ### Option D: The Corrupted Dragon
 
 **Identity:** Zerathuul the Endless, ancient brass dragon subjected to Aeorian experiments
@@ -398,13 +396,13 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
+
 
 **Quote:** "They made me a monster to fight monsters. Now I am free, and all will learn to fear what they created."
 
 ---
 
-\column
+\page
 
 ## Magical Mechanics of the Echo
 
@@ -452,6 +450,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Potential magical corruption over time
 - Some gain temporary abilities
 
+\column
+
 ### The Blue Crystal Signature
 
 **What It Is:**
@@ -483,6 +483,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Entity can sense through crystal network
 
 ---
+
+\page
 
 ## The Aeorian Weapons Arsenal
 
@@ -524,6 +526,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - *Current Status:* Installed in multiple facilities
 - *Threat Level:* Critical (denies healing, turning undead, divine aid)
 
+\column
+
 ### Draconic Weapons
 
 **Wyrmscourge Missiles:**
@@ -553,6 +557,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - *Current Status:* Research equipment exists in Temple facility
 - *Threat Level:* Extreme (permanent harm to dragons)
 
+\page
+
 ### Magical-Technological Weapons
 
 **Null-Field Generators:**
@@ -581,6 +587,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - *Cure:* Destroy anchor
 - *Current Status:* Installed in defensive positions
 - *Threat Level:* Moderate (prevents escape)
+
+\column
 
 ### The Ascension Apparatus
 
@@ -618,14 +626,9 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Destroy entity before completion
 
 ---
-
-## The Artifact Trade: Following the Money
-
-{{pageNumber,auto}}
-{{footnote The Aeorian Echo: Campaign Master Document}}
-
 \page
 
+## The Artifact Trade: Following the Money
 ### The Theft Network
 
 **Collection:**
@@ -679,6 +682,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Stolen from temples and holy sites
 - Very few people know their true purpose
 
+\column
 ### Who Knows What
 
 **Corsair Operatives:**
@@ -708,30 +712,32 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-## Campaign Timeline: The Path to Catastrophe
+\page
+
+## Campaign Timeline: 
 
 ### Historical Timeline
 
-**Age of Arcanum (Pre-Calamity):**
+###### **Age of Arcanum (Pre-Calamity):**
 - Aeor at height of power
 - War-Magic Division develops god-killing weapons
 - Project Ascension initiated
 - Gods decide to act
 
-**The Calamity:**
+###### **The Calamity:**
 - Gods unite to destroy Aeor
 - City shattered mid-flight
 - Crashes into Eiselcross (Exandria); fragments fall through dimensional rift into Aevoria's Far North
 - Most inhabitants killed
 - Some systems survive in stasis
 
-**Post-Calamity (Centuries Pass):**
+###### **Post-Calamity (Centuries Pass):**
 - Facilities lie dormant
 - Occasional brief activations (local tragedies)
 - Sites gradually forgotten or become legend
 - Magical resonance slowly builds
 
-**Recent Years:**
+###### **Recent Years:**
 - Far North exploration increases
 - Artifacts removed and transported
 - First major disturbances in centuries
@@ -739,228 +745,225 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Current Campaign Timeline
 
-**Six Months Ago:**
+###### **Six Months Ago:**
 - Entity achieves awareness
 - Begins assessment of current world
 - Sends initial signals to other sites
 - Blackwake Corsairs contacted through dreams/magic
 
-**Three Months Ago:**
+###### **Three Months Ago:**
 - Artifact thefts begin
 - Welton area facility begins activation
 - First awakened animals appear
 - Echo becomes detectable to sensitive individuals
 
-**Two Months Ago:**
+###### **Two Months Ago:**
 - Urgon returns from The Far North
 - Urgon's artifacts stolen
 - Frigid woe released in Palebank
 - Welton wolves behavior escalates
 
-**One Month Ago:**
+###### **One Month Ago:**
 - Multiple facilities showing activity
 - Echo strength increasing
 - More coordinated incidents
 - Wardens begin noticing pattern
 
-**Current:**
+###### **Current:**
 - Players begin investigating
 - Phase One nearly complete
 - Phase Two imminent without intervention
 - Multiple threads active simultaneously
+\column
+---
+#### The Path to Catastrophe  
+### Future Timeline
 
-### Future Timeline (If No Intervention)
-
-**Two Weeks:**
+###### **Two Weeks:**
 - Phase Two begins
 - Multiple facility activations
 - Construct army awakens
 - Divine magic suppression begins
 
-**One Month:**
+###### **One Month:**
 - Network 50% online
 - Regional effects widespread
 - Settlements under direct threat
 - Dragon attacks begin
 
-**Two Months:**
+###### **Two Months:**
 - Network 80% online
 - Phase Three preparation
 - Mass casualties
 - Calls for outside help
 
-**Three Months:**
+###### **Three Months:**
 - Ascension Apparatus ready
 - Final ritual begins
 - Point of no return approaching
 - Regional catastrophe imminent
 
-**Four Months:**
+###### **Four Months:**
 - If ritual completes: Entity achieves divinity
 - If prevented: Entity uses alternative (still catastrophic)
 - Either way: Major conflict
 
 ### How Players Can Change Timeline
 
-**Early Intervention:**
+###### **Early Intervention:**
 - Delay Phase Two by disrupting artifacts
 - Prevent specific facility activations
 - Protect key settlements
 - Build alliances early
 
-**Mid Intervention:**
+###### **Mid Intervention:**
 - Shut down activated facilities
-
 - Sever network connections
 - Deny ritual components
 - Coordinate large-scale response
 
-**Late Intervention:**
+###### **Late Intervention:**
 - Direct assault on Command Center
 - Race against time
 - Desperate measures
 - Higher casualties but still winnable
 
 ---
-
-## Player Investigation Paths
-
-{{pageNumber,auto}}
-{{footnote The Aeorian Echo: Campaign Master Document}}
-
 \page
+# Player Investigation Paths
+### Following the Wolves
 
-### Following the Wolves (Welton)
-
-**Initial Hook:**
+###### **Initial Hook:**
 - Wolves attacking livestock
 - Unusual coordination
 - Request for Warden help
 
-**Investigation Reveals:**
+###### **Investigation Reveals:**
 - Wolves are awakened/modified
 - Being controlled by someone
 - Lair contains Aeorian technology
 - Trail leads to underground facility
 
-**Leads To:**
+###### **Leads To:**
 - Discovery of bio-modification research
 - Understanding of Echo's testing phase
 - Evidence of larger network
 - Potential ally in Leanor (knows where lair is)
 
-**Key NPCs:**
+###### **Key NPCs:**
 - Westly (victim/target)
 - Leanor (witnessed more than she's saying)
 - Tillus (noticed patterns)
 - Local farmers (witnesses)
 
----
 
-### Following the Plague (Palebank)
+### Following the Plague
 
-**Initial Hook:**
+###### **Initial Hook:**
 - Mysterious death (Urgon)
 - More people showing symptoms
 - Elro requests help
 
-**Investigation Reveals:**
+###### **Investigation Reveals:**
 - Aeorian bioweapon (frigid woe)
 - Artifact theft by the Corsairs
 - Cure located in Salsvault
 - Pattern of biological weapon testing
 
-**Leads To:**
+###### **Leads To:**
 - Salsvault expedition
 - First major facility encounter
 - Understanding of Aeorian weapons
 - Connection to larger conspiracy
 
-**Key NPCs:**
+###### **Key NPCs:**
 - Elro (knows Salsvault)
 - Tulgi/Hulil (thieves with information)
 - Johan (recognizes Aeorian effects)
 - Pelc's research (if found)
 
----
 
-### Following the Artifacts (Multiple Locations)
+\column
 
-**Initial Hook:**
+### Following the Artifacts
+
+###### **Initial Hook:**
 - Pattern of thefts
 - Mara or Flynt notice trends
 - Grimley's suspicious behavior
 
-**Investigation Reveals:**
+###### **Investigation Reveals:**
 - Blackwake Corsairs network
 - Specific items being targeted
 - Northern buyer
 - Money trail
 
-**Leads To:**
+###### **Leads To:**
 - Criminal network exposure
 - Identification of buyer's needs
 - Interception opportunities
 - Understanding of ritual requirements
 
-**Key NPCs:**
+###### **Key NPCs:**
 - Mara (knows criminal networks)
 - Grimley (fence, has information)
 - Corsair operatives (capturable)
 - Merchants (witnessed transactions)
 
----
 
-### Following the Magic (Research Path)
+### Following the Magic 
 
-**Initial Hook:**
+###### **Initial Hook:**
 - Elric's strange behavior
 - Shinebright's hints
 - Waystone resonance
 - Magical anomalies
 
-**Investigation Reveals:**
+###### **Investigation Reveals:**
 - Aeorian origin
 - Network structure
 - Echo mechanics
 - Theoretical countermeasures
 
-**Leads To:**
+###### **Leads To:**
 - Shinebright alliance
 - Understanding of entity
 - Strategic targets identified
 - Magical solutions possible
 
-**Key NPCs:**
+###### **Key NPCs:**
 - Elric (knows history)
 - Shinebright (knows countermeasures)
 - Sera (deduced patterns)
 - Baleth (unwilling information source)
 
----
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+\page
 
 ### Following the Dreams (Mystical Path)
 
-**Initial Hook:**
+###### **Initial Hook:**
 - Multiple people having similar dreams
 - Rowan's warnings about land
 - Willen's suppressed memories
 - Westly's visions
 
-**Investigation Reveals:**
+###### **Investigation Reveals:**
 - Echo affects consciousness
 - Entity trying to communicate
 - Visions contain actual information
 - Some people are "sensitive"
 
 
-**Leads To:**
+###### **Leads To:**
 - Direct communication with entity
 - Understanding its perspective
 - Prophecy about future
 - Potential diplomatic solution
 
-**Key NPCs:**
+###### **Key NPCs:**
 - Rowan (nature's warnings)
 - Willen (hidden memories)
 - Westly (being observed)
@@ -972,64 +975,65 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### The Wolf Lair (Early Game)
 
-**Location:** Forest north of Welton, entrance to underground facility
+###### **Location:** Forest north of Welton, entrance to underground facility
 
-**Enemies:**
+###### **Enemies:**
 - Awakened wolves (intelligent, coordinated)
 - Wolf alpha (enhanced)
 - Possibly the controller (depends on timing)
 - Aeorian guardian constructs (minor)
 
-**Objectives:**
+###### **Objectives:**
 - Stop wolf attacks
 - Investigate source
 - Secure Aeorian technology
 - Prevent controller escape
 
-**Discoveries:**
+###### **Discoveries:**
 - Aeorian modification chamber
 - Control device
 - Research notes
 - Map showing other sites
 - Evidence this is a test
 
-**Stakes:**
+###### **Stakes:**
 - Welton's immediate safety
 - First real evidence of Echo
 - Introduction to Aeorian tech
 - Opening to larger mystery
 
----
+\column
 
 ### Croaker Cave (Early-Mid Game)
 
 {{pageNumber,auto}}
 {{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
-**Location:** North of Palebank
 
-**Enemies:**
+
+###### **Location:** North of Palebank
+
+###### **Enemies:**
 - Corsair enforcers and operatives
 - Hulil Lutan (mid-level fighter)
 - Possibly hired muscle
 - Natural hazards
 
-**Objectives:**
+###### **Objectives:**
 - Recover stolen artifacts
 - Interrogate operatives
 - Disrupt criminal network
 - Gather intelligence
 
-**Discoveries:**
+###### **Discoveries:**
 - Manifest of thefts
 - Correspondence with buyer
 - Map to northern drop-off
 - Multiple Aeorian artifacts
 - Evidence of larger conspiracy
 
-**Stakes:**
+###### **Stakes:**
 - Prevent artifacts reaching entity
 - Expose Corsair operation
 - Gain crucial intelligence
@@ -1039,29 +1043,29 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Salsvault (Mid Game)
 
-**Location:** Far north of Palebank, glacier-buried facility
+###### **Location:** Far north of Palebank, glacier-buried facility
 
-**Enemies:**
+###### **Enemies:**
 - Aeorian guardian constructs
 - Magical traps and defenses
 - Environmental hazards (cold, unstable magic)
 - Possibly entity-sent reinforcements
 - Corrupted wildlife
 
-**Objectives:**
+###### **Objectives:**
 - Retrieve frigid woe antidote
 - Gather intelligence on Aeorian weapons
 - Survive the facility
 - Possibly shut down or sabotage
 
-**Discoveries:**
+###### **Discoveries:**
 - Bioweapon research data
 - Map of other facilities
 - Communication with Command Center
 - Evidence of entity's existence
 - True scope of threat
 
-**Stakes:**
+###### **Stakes:**
 - Lives of infected in Palebank
 - Understanding Aeorian capabilities
 - First major facility encounter
@@ -1069,33 +1073,36 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-### Temple of the Dragonknights (Mid-Late Game)
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
 
-**Adventure Module:** See **Chapter 5: Temple of the Dragonknights**
+\page
 
-**Location:** Northwest mountains
+### Temple of the Dragonknights
 
-**Enemies:**
+###### **Location:** Northwest mountains
+
+###### **Enemies:**
 - Aeorian dragon-killing constructs
 - Corrupted Dragonknight guardians
 - Activated weapon systems
 - Possibly controlled dragons
 - Environmental hazards
 
-**Objectives:**
+###### **Objectives:**
 - Prevent weapon activation
 - Secure or destroy draconic weapons
 - Reinforce ancient seals
 - Possibly ally with Dragonknight spirits
 
-**Discoveries:**
+###### **Discoveries:**
 - Anti-dragon weapons arsenal
 - Historical account of post-Calamity
 - Dragonknight sacrifice
 - Weakness in entity's plan
 - Potential powerful ally (dragon ghost/spirit)
 
-**Stakes:**
+###### **Stakes:**
 - Dragon population survival
 - Powerful weapons kept from entity
 - Historical vindication of heroes
@@ -1103,42 +1110,37 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-### The Command Center (Final Confrontation)
+### The Command Center
 
-**Location:** Beyond Salsvault, fully intact Aeorian facility
+###### **Location:** Beyond Salsvault, intact Aeorian facility
 
-**Enemies:**
+###### **Enemies:**
 - The Entity (full power)
 - Construct army
 - All facility defenses
 - Possibly dominated servants
 - Reality-warping effects
 
-**Objectives:**
+###### **Objectives:**
 - Stop the Ascension ritual
 - Destroy or disable entity
 - Shut down facility network
 - Prevent catastrophe
 
-**Discoveries:**
+###### **Discoveries:**
 - Entity's true nature
 - Full scope of Aeorian plans
 - Choice about knowledge preservation
 - Cost of victory
 
 
-**Stakes:**
+###### **Stakes:**
 - Entire region's survival
 - Potential creation of new deity
 - Completion of thousand-year-old war
 - Future of Northreach
 
-**Possible Outcomes:**
-- Entity destroyed (violent victory)
-- Entity reasoned with (diplomatic victory)
-- Entity sealed (temporary victory)
-- Entity partially successful (pyrrhic victory)
-- Entity escapes (future threat)
+\column
 
 ---
 
@@ -1146,25 +1148,25 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Moral Choices
 
-**Knowledge Preservation:**
+###### **Knowledge Preservation:**
 - Aeorian technology is dangerous but valuable
 - Destroy everything vs preserve for study
 - Who gets access to knowledge?
 - Players decide what survives
 
-**The Entity's Fate:**
+###### **The Entity's Fate:**
 - Some entity types could be reasoned with
 - Mercy vs pragmatism
 - Potential to redeem vs too dangerous
 - Consequences of each choice
 
-**Collateral Damage:**
+###### **Collateral Damage:**
 - How much is acceptable to stop threat?
 - Sacrifice the few to save many?
 - Settlements might be endangered by player actions
 - No perfect solutions
 
-**Artifact Disposition:**
+###### **Artifact Disposition:**
 - Keep powerful weapons vs destroy them
 - Sell to highest bidder (temptation)
 - Give to authorities (trust issues)
@@ -1172,60 +1174,60 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Strategic Decisions
 
-**Facility Priority:**
+###### **Facility Priority:**
 - Can't stop all activations simultaneously
 - Which to hit first?
 - Each choice has consequences
 - Some facilities less critical than others
 
-**Alliance Building:**
+###### **Alliance Building:**
 
 - Who to trust with truth?
 - When to reveal full scope?
 - Coordinating large-scale response
 - Political complications
 
-**Resource Management:**
+###### **Resource Management:**
 - Time is limited
 - Can't investigate everything
 - Must choose which leads to follow
 - Some opportunities expire
 
-**Confrontation Timing:**
+###### **Confrontation Timing:**
 - Hit entity before full strength vs gather more allies
 - Desperate early assault vs careful preparation
 - Rush to prevent activation vs ensure victory
 
 ---
 
-## NPC Arcs and Development
-
 {{pageNumber,auto}}
-{{footnote The Aeorian Echo: Campaign Master Document}}
+{{footnote Player Investigation Paths}}
 
 \page
 
+## NPC Arcs and Development
+
 ### Potential Allies
 
-**Elric's Vindication:**
+###### **Elric's Vindication:**
 - If players prove his research correct
 - Cobalt Soul might reinstate him
 - Becomes crucial expert
 - Or remains outcast but proven right
 
-**Shinebright's Revelation:**
+###### **Shinebright's Revelation:**
 - Eventually shares full knowledge
 - Provides countermeasure technology
 - Might participate in final battle
 - Or remains mysterious support
 
-**Brenna's Network:**
+###### **Brenna's Network:**
 - Activates her old contacts
 - Coordinates regional response
 - Becomes military commander
 - Her past becomes asset
 
-**Baleth's Redemption:**
+###### **Baleth's Redemption:**
 - Breaks pact with entity
 - Suffers consequences but helps party
 - Provides insider knowledge
@@ -1233,32 +1235,33 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Potential Betrayals
 
-**Flynt's Loyalty:**
+###### **Flynt's Loyalty:**
 - Must choose between orders and friends
 - His organization might oppose party goals
 - Could become enemy or turncoat
 - Might steal crucial information
 
 
-**Mara's Past:**
+###### **Mara's Past:**
 - Old organization arrives at wrong time
 - Forced to choose between survival and duty
 - Could sell out party
 - Or sacrifice herself to protect them
 
-**Corrupted NPCs:**
+###### **Corrupted NPCs:**
 - Echo can corrupt the susceptible
 - Willen, Westly, or Aurixean vulnerable
 - Might turn against party temporarily
 - Recovery possible or tragic
 
-**Corsair Defection:**
+###### **Corsair Defection:**
 - Some criminals realize danger
 - Might ally with party against entity
 - Or double-cross at crucial moment
 - Redemption arcs possible
 
 ---
+\column
 
 ## Campaign Themes
 
@@ -1300,23 +1303,28 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+\page
+
 ## Running the Echo: DM Tips
 
 ### Atmosphere
 
-**Building Dread:**
+###### **Building Dread:**
 - Start subtle, increase intensity
 - Dreams and visions increase frequency
 - Environmental changes accelerate
 - NPC fear grows organically
 
-**The Inhuman:**
+###### **The Inhuman:**
 - Entity should feel alien
 - Not evil for evil's sake
 - Logical but wrong conclusions
 - Beautiful and terrible simultaneously
 
-**Hopeful Darkness:**
+###### **Hopeful Darkness:**
 - Threat is real but beatable
 - Ordinary people fighting back
 - Small victories matter
@@ -1324,19 +1332,19 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Pacing
 
-**Early Game:**
+###### **Early Game:**
 - Local mysteries with weird edges
 - Hints of larger pattern
 - Build relationships with NPCs
 - Establish normal before revealing abnormal
 
-**Mid Game:**
+###### **Mid Game:**
 - Connections become clear
 - Scope of threat understood
 - Multiple threads converging
 - Urgency increasing
 
-**Late Game:**
+###### **Late Game:**
 - Race against time
 - High stakes clear
 - Final preparations
@@ -1344,39 +1352,41 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ### Flexibility
 
-**Multiple Solutions:**
+###### **Multiple Solutions:**
 - Combat, diplomacy, magic, research
 - Players surprise with creative approaches
 - Reward clever thinking
 - No "one right way"
 
-**Branching Paths:**
+###### **Branching Paths:**
 - Players can't do everything
 - Choices have consequences
 - Some content might not be seen
 - That's okay
 
-**Adjusting Difficulty:**
+###### **Adjusting Difficulty:**
 - Scale threats to party capability
 - Add reinforcements if too easy
 - Provide escape routes if too hard
 - Balance challenge and story
 
+\column
+
 ### Emotional Beats
 
-**Personal Stakes:**
+###### **Personal Stakes:**
 - NPCs players care about endangered
 - Home base threatened
 - Relationships tested
 - Individual character moments
 
-**Heroic Moments:**
+###### **Heroic Moments:**
 - Give each PC spotlight time
 - Unique contributions matter
 - Character abilities solve problems
 - Players feel competent
 
-**Tragedy and Loss:**
+###### **Tragedy and Loss:**
 - Not everyone survives
 - Some failures matter
 - Victories have costs
@@ -1386,10 +1396,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ## Conclusion: The Echo's Resolution
 
-{{pageNumber,auto}}
-{{footnote The Aeorian Echo: Campaign Master Document}}
 
-\page
 
 The Aeorian Echo represents both danger and opportunity—a chance for ancient evils to rise again, or for new heroes to prove that the present can overcome the past. How your players navigate this threat will define not just the campaign's outcome, but the kind of story you tell together.
 

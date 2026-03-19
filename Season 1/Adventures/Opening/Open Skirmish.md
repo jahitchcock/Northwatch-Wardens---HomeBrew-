@@ -75,7 +75,6 @@ ___
 **This spacing forces the characters to notice each other and converge.*
 
 
-
 \page
 
 ### **3. Introduce the Characters Naturally**

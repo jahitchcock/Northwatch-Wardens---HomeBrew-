@@ -83,6 +83,7 @@ This is a *perfect* foreshadowing seed for the awakened wolves and Alexi’s fat
 {{footnote The Morning After: A Warden's First Duty}}
 
 \page
+
 ### **4. The Journey Hook — Why *Your* Party Is the One They Send**
 
 Brenna explains:

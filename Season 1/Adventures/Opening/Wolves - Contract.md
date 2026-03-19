@@ -39,13 +39,5 @@ Marshal Brenna Thorne, Northwatch Wardens
 Attested by Steward Mara Fenwick
 }}
 
-
-
 {{pageNumber,auto}}
 {{footnote Contract: W‑17 — Disturbance Near Welton}}
-
-\page
-
-## Wolves of Welton
-
-![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}

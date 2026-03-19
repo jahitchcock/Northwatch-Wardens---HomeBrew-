@@ -178,7 +178,7 @@ function escapeHtml(text) {
     .replace(/'/g, '&#39;');
 }
 
-// Ensures exactly one \\page at the end of each file.
+// Ensures exactly one \\page at the end of a file.
 function normalizePageBreak(content) {
   let normalized = String(content).trimEnd();
   // Remove trailing page directives. Accept either "\page" (correct)
@@ -190,13 +190,16 @@ function normalizePageBreak(content) {
   return normalized;
 }
 
-async function processFiles(files, buildDir, combinedMarkdown) {
+async function processFiles(files, buildDir, combinedMarkdown, options = {}) {
+  const noAutoPageBreakAfter = options.noAutoPageBreakAfter || new Set();
   for (const file of files) {
     const filePath = path.join(buildDir, file);
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
       let content = await fs.readFile(filePath, 'utf-8');
-      content = normalizePageBreak(content);
+      if (!noAutoPageBreakAfter.has(file)) {
+        content = normalizePageBreak(content);
+      }
       combinedMarkdown += content + '\n';
     } else {
       console.warn(`    Warning: File not found: ${file}`);
@@ -411,6 +414,12 @@ function generateTableOfContents(markdown) {
     return '';
   }
 
+  // The HB export's TOC page numbers are absolute pages within the document,
+  // including the cover/TOC pages before {{resetCounting}}.
+  const prefix = markdown.substring(0, resetCountingPos);
+  const prefixPageBreaks = prefix.match(/^(?:\\page|\\\\page)\s*$/gm);
+  const startingPageNumber = (prefixPageBreaks ? prefixPageBreaks.length : 0) + 1;
+
   // Content after resetCounting
   const contentAfterReset = markdown.substring(resetCountingPos);
 
@@ -419,7 +428,7 @@ function generateTableOfContents(markdown) {
 
   // Extract H1 headers with their approximate page numbers
   const tocEntries = [];
-  let currentPage = 1;
+  let currentPage = startingPageNumber;
 
   for (let i = 0; i < pages.length; i++) {
     const pageContent = pages[i] ?? '';
@@ -505,12 +514,26 @@ async function buildBook(tocFile, outputName) {
   // Remove "The " from title for metadata, but keep it for TOC later
   const metadataTitle = toc.title.replace(/^The /, '');
   combinedMarkdown += `title: ${metadataTitle}\n`;
-  combinedMarkdown += `description: '${toc.subtitle || ''}'\n`;
+  combinedMarkdown += `description: ${toc.subtitle || ''}\n`;
   combinedMarkdown += 'tags: []\n';
   combinedMarkdown += 'systems:\n';
   combinedMarkdown += '  - 5e\n';
   combinedMarkdown += 'renderer: V3\n';
   combinedMarkdown += 'theme: 5ePHB\n';
+  // Match Homebrewery export's default snippets block (keeps diffs clean).
+  combinedMarkdown += 'snippets:\n';
+  combinedMarkdown += '  - name: brew_snippets\n';
+  combinedMarkdown += '    subsnippets:\n';
+  combinedMarkdown += '      - name: example snippet\n';
+  combinedMarkdown += '        gen: >-\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '          The text between `\\snippet title` lines will become a snippet of name\n';
+  combinedMarkdown += '          `title` as this example provides.\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '\n';
+  combinedMarkdown += '          This snippet is accessible in the brew tab, and will be inherited if\n';
+  combinedMarkdown += '          the brew is used as a theme.\n';
+  combinedMarkdown += '\n';
   combinedMarkdown += '```\n\n';
   combinedMarkdown += '```css\n';
   combinedMarkdown += '.page #example + table td {\n';
@@ -538,17 +561,29 @@ async function buildBook(tocFile, outputName) {
   const imagePosition = toc.coverImagePosition || 'absolute,bottom:0,left:0,height:100%';
   combinedMarkdown += `![background image](${toc.coverImage}){position:${imagePosition}}\n`;
   
-  combinedMarkdown += '\\page\n';
-  combinedMarkdown += '\n\n\n\n\n\n';
-  
-  // Use Homebrewery's auto-TOC feature
-  combinedMarkdown += '{{toc,wide\n';
-  combinedMarkdown += `# ${toc.title}\n`;
-  combinedMarkdown += '# Contents\n';
-  combinedMarkdown += '}}\n\n\n\n\n\n';
-  
   combinedMarkdown += '\\page\n\n';
-  combinedMarkdown += '{{resetCounting}}\n';
+
+  if (toc.contentsFile) {
+    // When provided, include a static Contents block verbatim (for HB parity).
+    const contentsPath = path.join(buildDir, toc.contentsFile);
+    combinedMarkdown += await fs.readFile(contentsPath, 'utf-8');
+    if (!combinedMarkdown.endsWith('\n')) {
+      combinedMarkdown += '\n';
+    }
+    combinedMarkdown += '\n\\page\n\n';
+    combinedMarkdown += '{{resetCounting}}\n';
+  } else {
+    // Use Homebrewery's auto-TOC feature
+    combinedMarkdown += '{{toc,wide\n';
+    combinedMarkdown += `# ${toc.title}\n`;
+    combinedMarkdown += '# Contents\n';
+    combinedMarkdown += '}}\n\n\n\n\n\n';
+
+    combinedMarkdown += '\\page\n\n';
+    combinedMarkdown += '{{resetCounting}}\n';
+  }
+
+  const noAutoPageBreakAfter = new Set(toc.noAutoPageBreakAfterFiles || []);
 
   // Process each section
   for (const section of toc.sections) {
@@ -559,18 +594,22 @@ async function buildBook(tocFile, outputName) {
 
     if (section.subsections) {
       for (const subsection of section.subsections) {
-        combinedMarkdown += `## ${subsection.title}\n\n`;
-        combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown);
+        if (subsection.emitHeading !== false) {
+          combinedMarkdown += `## ${subsection.title}\n\n`;
+        }
+        combinedMarkdown = await processFiles(subsection.files, buildDir, combinedMarkdown, { noAutoPageBreakAfter });
       }
     } else if (section.files) {
-      combinedMarkdown = await processFiles(section.files, buildDir, combinedMarkdown);
+      combinedMarkdown = await processFiles(section.files, buildDir, combinedMarkdown, { noAutoPageBreakAfter });
     }
   }
 
   combinedMarkdown = applyBlankLineOverrides(combinedMarkdown);
 
-  // Generate and replace the TOC block
-  combinedMarkdown = replaceTocBlock(combinedMarkdown);
+  // Generate and replace the TOC block (unless we're using a static Contents).
+  if (!toc.contentsFile) {
+    combinedMarkdown = replaceTocBlock(combinedMarkdown);
+  }
 
   // Insert random waterstains on each page (if enabled in TOC config)
   if (toc.enableWaterstains) {

@@ -8,19 +8,51 @@ matches source exactly. We find each file's START, then each file ends
 where the next item (file or chapter/subsection title) begins.
 """
 
+import argparse
 import json
 import re
 import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 
-BUILD_FILE = Path("build/A-DMs-guide-to-aevoria.txt")
-EXPORT_FILE = Path("build/dmGuideTempPartial.txt")
+DEFAULT_BUILD_FILE = Path("build/A-DMs-guide-to-aevoria.txt")
+DEFAULT_EXPORT_FILE = Path("build/HB-ADMundefinedsGuidetoAevoria.txt")
 TOC_FILE = Path("build/dms-guide-toc.json")
 BUILD_DIR = Path("build")
 
-DRY_RUN = "--dry-run" in sys.argv
-APPLY = "--apply" in sys.argv
+
+def parse_args():
+    p = argparse.ArgumentParser(description="Sync HB export back into source files")
+    mode = p.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--dry-run", action="store_true", help="Report changes without writing")
+    mode.add_argument("--apply", action="store_true", help="Write changes to source files")
+    p.add_argument("--build", type=Path, default=DEFAULT_BUILD_FILE, help="Build output .txt")
+    p.add_argument("--export", type=Path, default=DEFAULT_EXPORT_FILE, help="HB export .txt")
+    p.add_argument(
+        "--strip-watercolors",
+        action="store_true",
+        default=True,
+        help="Ignore {{watercolor...}} lines during alignment (recommended)",
+    )
+    p.add_argument(
+        "--keep-watercolors",
+        dest="strip_watercolors",
+        action="store_false",
+        help="Do not ignore watercolor lines during alignment",
+    )
+    p.add_argument(
+        "--strip-footers",
+        action="store_true",
+        default=True,
+        help="Ignore pageNumber/footnote/callout lines during alignment (recommended)",
+    )
+    p.add_argument(
+        "--keep-footers",
+        dest="strip_footers",
+        action="store_false",
+        help="Do not ignore footer lines during alignment",
+    )
+    return p.parse_args()
 
 REMOVED_FILES = {
     "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md",
@@ -215,16 +247,44 @@ def strip_trailing_artifacts(lines, known_titles):
     return result
 
 
+def is_watercolor_line(line: str) -> bool:
+    return line.lstrip().startswith("{{watercolor")
+
+
+def is_footer_line(line: str) -> bool:
+    # DM guide footer blocks injected by add_page_footers.py / build.
+    if "{{pageNumber" in line:
+        return True
+    if "{{footnote" in line:
+        return True
+    if "**🚀 New DM?**" in line:
+        return True
+    return False
+
+
+def filtered_indexed_lines(lines, *, strip_watercolors: bool, strip_footers: bool):
+    """Return list of (raw_index, normalized_line) after optional stripping."""
+    out = []
+    for idx, line in enumerate(lines):
+        if strip_watercolors and is_watercolor_line(line):
+            continue
+        if strip_footers and is_footer_line(line):
+            continue
+        out.append((idx, line.rstrip()))
+    return out
+
+
 def main():
-    if not (DRY_RUN or APPLY):
-        print("Usage: python sync_v4.py [--dry-run | --apply]")
-        return
-    
+    args = parse_args()
+
+    DRY_RUN = args.dry_run
+    APPLY = args.apply
+
     mode = "DRY RUN" if DRY_RUN else "APPLY"
     print(f"=== Sync Export -> Source v4 ({mode}) ===\n")
-    
-    build_lines = BUILD_FILE.read_text(encoding='utf-8').split('\n')
-    export_lines = EXPORT_FILE.read_text(encoding='utf-8').split('\n')
+
+    build_lines = args.build.read_text(encoding='utf-8').split('\n')
+    export_lines = args.export.read_text(encoding='utf-8').split('\n')
     print(f"Build: {len(build_lines)}, Export: {len(export_lines)}, Delta: {len(export_lines)-len(build_lines):+d}\n")
     
     # Get TOC items
@@ -253,21 +313,38 @@ def main():
     
     # Phase 2: SequenceMatcher alignment
     print(f"\nPhase 2: Aligning build <-> export...")
-    b_norm = [l.rstrip() for l in build_lines]
-    e_norm = [l.rstrip() for l in export_lines]
-    
+    b_filtered = filtered_indexed_lines(
+        build_lines,
+        strip_watercolors=args.strip_watercolors,
+        strip_footers=args.strip_footers,
+    )
+    e_filtered = filtered_indexed_lines(
+        export_lines,
+        strip_watercolors=args.strip_watercolors,
+        strip_footers=args.strip_footers,
+    )
+
+    b_norm = [t[1] for t in b_filtered]
+    e_norm = [t[1] for t in e_filtered]
+
     sm = SequenceMatcher(None, b_norm, e_norm, autojunk=False)
     opcodes = sm.get_opcodes()
-    
-    # Build b2e mapping
+
+    # Build b2e mapping in RAW indices (build raw idx -> export raw idx)
     b2e = {}
     for tag, i1, i2, j1, j2 in opcodes:
-        if tag == 'equal':
-            for offset in range(i2 - i1):
-                b2e[i1 + offset] = j1 + offset
+        if tag != 'equal':
+            continue
+        for offset in range(i2 - i1):
+            b_raw = b_filtered[i1 + offset][0]
+            e_raw = e_filtered[j1 + offset][0]
+            b2e[b_raw] = e_raw
     
     mapped = len(b2e)
-    print(f"  {mapped}/{len(build_lines)} build lines mapped to export\n")
+    print(
+        f"  {mapped}/{len(build_lines)} build lines mapped to export "
+        f"(alignment stripped: watercolors={args.strip_watercolors}, footers={args.strip_footers})\n"
+    )
     
     # Phase 3: Sequential export range assignment
     # Keep ALL files (including removed) in ordering so removed files act as separators
@@ -503,10 +580,7 @@ def main():
     
     print(f"\n=== {changes} files {'would change' if DRY_RUN else 'updated'} ===")
     
-    print(f"\n=== Required TOC changes ===")
-    print(f"  1. Move Frozen Sick.md from 'Frozen Sick' to 'Wolves of Welton' subsection")
-    print(f"  2. Remove 'Frozen Sick' subsection entirely")
-    print(f"  3. Remove 'Peril in Pinebrook' subsection entirely")
+    # Keep TOC notes local to earlier migrations; don't print as a hard requirement.
 
 
 if __name__ == '__main__':

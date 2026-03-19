@@ -1,0 +1,1368 @@
+--- build\A-DMs-guide-to-aevoria.txt
++++ build\HB-ADMundefinedsGuidetoAevoria.txt
+@@ -39,6 +39,19 @@
+ 
+ 
+ 
++
++
++
++
++
++
++
++
++
++
++
++
++
+ ```
+ 
+ 
+@@ -51,72 +64,72 @@
+ 
+ - Using This Guide — **1**
+ - Welcome to Aevoria — **1**
+-- Quick Start — **4**
+-- Session 0: Character Integration Prompts — **4**
+-- Session 0 Quick Start Guide — **9**
+-- Your Session 0 Cheat Sheet — **14**
+-- Campaign Overview — **14**
+-- DM Resources — **18**
+-- The Aeorian Echo: Core Mystery Definition — **24**
+-- Foreshadowing Database: The Aeorian Echo — **32**
+-- NPC Relationship Web — Season One — **47**
+-- NPC Appearance Reference — **50**
+-- Minor NPC Roster: Northreach Region — **55**
+-- Faction Response Document: The Aeorian Echo — **59**
+-- What If? Quick Guide: — **69**
+-- Warden Rank System — **76**
+-- Seasonal Event Calendar for Northreach — **82**
+-- Travel Encounter Library — **87**
+-- Player Handouts by Adventure — **105**
+-- Adventures — **120**
+-- The Morning After: A Warden's First Duty — **121**
+-- Return to Waystone (Session 0) — **122**
+-- **Contract: W‑17 — Disturbance Near Welton** — **124**
+-- DM Notes: Wolves of Welton — **126**
+-- DM Prep Checklist: Wolves of Welton — **129**
+-- Wolves of Welton — **131**
+-- Frozen Sick — **145**
+-- Section 7: Salsvault — The Frozen Laboratory — **156**
+-- Summary — **170**
+-- Baaaa-d News — **171**
+-- Shepherds and Crooks — **172**
+-- Big Choices — **182**
+-- Not Like This... — **182**
+-- Modified Wand of True Polymorph — **182**
+-- Consequences — **183**
+-- Section 7: Optional Discovery — **183**
+-- Section 8: Resolution Paths — **184**
+-- Section 9: Return to Waystone — **185**
+-- DM Prep Checklist: The Wild Sheep Chase — **188**
+-- DM Notes: Peril in Pinebrook — **191**
+-- Conclusion — **198**
+-- Temple of the Dragonknights — **199**
+-- Part III: Temple of the Dragonknights — **207**
+-- The Dragon's Lair — **210**
+-- Section 8: Resolution Paths — **214**
+-- DM Prep Checklist: — **219**
+-- Quick Reference During Play — **220**
+-- World Secrets — **221**
+-- Player Investigation Paths — **231**
+-- The Dimensional Rift: Aeor's Fall Across Worlds — **235**
+-- People of Northreach: DM Secrets — **235**
+-- Places of Northreach: DM Secrets — **244**
+-- The Nullwood Expanse — DM Eyes Only — **253**
+-- The Far North: DM Secrets — **253**
+-- The Emberlands: DM Secrets — **260**
+-- THE SHATTERED COAST — DM SECRETS — **265**
+-- The Stonebound Depths: DM-Only Secrets — **272**
+-- The Sunken Dominion: DM-Only Secrets — **274**
+-- The Verdant Marches — DM-Only Secrets — **275**
+-- VHAROXIS — DM SECRETS — **285**
+-- Appendix: Reference Materials — **290**
+-- Mystery Investigation Guide: The Aeorian Echo — **290**
+-- Adventure Quick Reference Sheets — **290**
+-- NPC Quick Reference Cards — **290**
+-- Session Prep Master Checklist — **290**
+-- Northwatch Wardens: DM Session Prep Guide — **290**
+-- Northwatch Wardens — **294**
+-- Northwatch Wardens: Season One — The Story So Far — **306**
++- Quick Start — **5**
++- Session 0: Character Integration Prompts — **5**
++- Session 0 Quick Start Guide — **11**
++- Your Session 0 Cheat Sheet — **16**
++- Campaign Overview — **17**
++- DM Resources — **22**
++- The Aeorian Echo: Core Mystery Definition — **29**
++- Foreshadowing Database: The Aeorian Echo — **38**
++- NPC Relationship Web — Season One — **55**
++- NPC Appearance Reference — **58**
++- Minor NPC Roster: Northreach Region — **64**
++- Faction Response Document: The Aeorian Echo — **69**
++- What If? Quick Guide: — **80**
++- Warden Rank System — **88**
++- Seasonal Event Calendar for Northreach — **95**
++- Travel Encounter Library — **101**
++- Player Handouts by Adventure — **121**
++- Adventures — **138**
++- The Morning After: A Warden's First Duty — **140**
++- Return to Waystone (Session 0) — **142**
++- **Contract: W‑17 — Disturbance Near Welton** — **145**
++- DM Notes: Wolves of Welton — **148**
++- DM Prep Checklist: Wolves of Welton — **151**
++- Wolves of Welton — **153**
++- Frozen Sick — **168**
++- Section 7: Salsvault — The Frozen Laboratory — **179**
++- DM Notes: The Wild Sheep Chase — **192**
++- DM Prep Checklist: The Wild Sheep Chase — **195**
++- Summary — **196**
++- Using This Adventure — **196**
++- Adventure Hooks — **196**
++- Baaaa-d News — **197**
++- Guz — **197**
++- Bed Dragon Wyrmling — **201**
++- Ahmed Noke — **202**
++- Modified Wand of True Polymorph — **204**
++- DM Notes: Peril in Pinebrook — **205**
++- Conclusion — **212**
++- DM Notes: Temple of the Dragonknights — **214**
++- DM Prep Checklist: Temple of the Dragonknights — **219**
++- A four-hour adventure for two 1st-2nd level characters — **220**
++- Part I: Innocents Lost — **221**
++- Part II: Poisontip Cavern — **225**
++- Part III: Temple of the Dragonknights — **228**
++- Part IV: Loose Ends — **230**
++- World Secrets — **231**
++- The Aeorian Echo: Campaign Master Document — **231**
++- The Dimensional Rift: Aeor's Fall Across Worlds — **240**
++- People of Northreach: DM Secrets — **241**
++- Places of Northreach: DM Secrets — **251**
++- The Nullwood Expanse — DM Eyes Only — **261**
++- The Far North: DM Secrets — **262**
++- The Emberlands: DM Secrets — **270**
++- THE SHATTERED COAST — DM SECRETS — **276**
++- The Stonebound Depths: DM-Only Secrets — **284**
++- The Sunken Dominion: DM-Only Secrets — **287**
++- The Verdant Marches — DM-Only Secrets — **289**
++- VHAROXIS — DM SECRETS — **300**
++- Appendix: Reference Materials — **306**
++- Mystery Investigation Guide: The Aeorian Echo — **306**
++- Adventure Quick Reference Sheets — **307**
++- NPC Quick Reference Cards — **308**
++- Session Prep Master Checklist — **309**
++- Northwatch Wardens: DM Session Prep Guide — **310**
++- Northwatch Wardens — **315**
++- Northwatch Wardens: Season One — The Story So Far — **328**
+ 
+ \page
+ 
+@@ -290,6 +303,10 @@
+ ![cat warrior](https://i.imgur.com/oKbv7i1.jpg) {width:100%}
+ }}
+ 
++
++
++\page
++
+ # Quick Start
+ 
+ # Session 0: Character Integration Prompts
+@@ -843,6 +860,10 @@
+ 2. Reference at least ONE player answer per session
+ 3. Build NPC relationships based on player interest
+ 4. Let character arcs emerge naturally through play
++
++
++
++\page
+ 
+ # Session 0 Quick Start Guide
+ {{note
+@@ -1289,6 +1310,10 @@
+ - **Chapter 4: DM Resources** — Advanced session running tips
+ - **Chapter 4: DM Guild Roster** — Complete NPC roster with secrets
+ 
++
++
++\page
++
+ # Campaign Overview
+ 
+ ## Northwatch Wardens — Drop-In Guild Campaign
+@@ -1688,6 +1713,10 @@
+ 
+ -- *The frontier awaits. The Northwatch Wardens have work to do.*
+ 
++
++
++\page
++
+ # DM Resources
+ 
+ {{note
+@@ -2133,6 +2162,10 @@
+ - **If players skip adventures:** NPCs acknowledge other Warden teams completed those contracts off-screen
+ 
+ The transitions are modular frameworks, not rigid requirements. Adapt dialogue to reference specific player choices and discoveries.
++
++
++\page
++
+ # The Aeorian Echo: Core Mystery Definition
+ 
+ **Campaign Lynchpin — Master Reference for DMs**
+@@ -2740,6 +2773,10 @@
+ - Campaign Arc.md (adventure connections)
+ 
+ **Next Step:** Use this document + the four entity options to lock in your choice. That choice will inform all future campaign decisions.
++
++
++\page
++
+ # Foreshadowing Database: The Aeorian Echo
+ 
+ 
+@@ -2831,6 +2868,8 @@
+ </div>
+ 
+ <div class="column" style="flex: 1;">
++
++
+ {{note
+ **If players miss >3 clues:** Repeat them through:
+ - NPC conversations ("Westly mentioned something strange about the frost...")
+@@ -2906,6 +2945,10 @@
+ </div>
+ 
+ <div class="column" style="flex: 1;">
++
++
++
++
+ {{note
+ **If players miss >3 clues:**  
+ Repeat through:  
+@@ -4297,6 +4340,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Urgon Wenth (Deceased)
+@@ -4466,6 +4510,10 @@
+ - Each connection reveals different aspects of the Aeorian Echo
+ - Players who cultivate relationships get better information
+ - Some secrets only revealed through specific NPC relationships
++
++
++\page
++
+ # Minor NPC Roster: Northreach Region
+ 
+ {{wide
+@@ -4967,6 +5015,10 @@
+ - Mira becomes preferred wilderness guide
+ - Elara discovers critical clue and needs protection
+ }}
++
++
++\page
++
+ # Faction Response Document: The Aeorian Echo
+ 
+ **H** *ow Different Powers React to Each Phase of the Echo*
+@@ -5711,6 +5763,10 @@
+ - Survivors regroup (or perish)
+ 
+ ---
++
++
++\page
++
+ {{wide
+ ### FACTION INTERACTION TABLE
+ 
+@@ -6716,6 +6772,10 @@
+ {{note
+ **Remember:** Your table will find ways to surprise these scenarios. That's good. Adapt, stay consistent, and let consequences flow naturally.
+ }}
++
++
++\page
++
+ # Warden Rank System
+ 
+ **Mechanical Progression for Guild Advancement**
+@@ -7240,6 +7300,10 @@
+ - ✅ Make failure meaningful (disappointed NPCs, lost reputation)
+ 
+ }}
++
++
++\page
++
+ # Seasonal Event Calendar for Northreach
+ 
+ **Monthly Events, Holidays, and Seasonal Transitions**
+@@ -7791,6 +7855,10 @@
+ | 5. Deepfall | Late Fall | 50-70→40 | Moderate | Urgent | Action, rising stakes |
+ | 6. Deepwinter | Winter | 20-40 | Impassable | Isolated | Mystery, revelation, indoor games |
+ | 7. Thawthaw | Late Winter | 30-50 | Difficult | Desperate | Crisis, transitions, hope |
++
++
++\page
++
+ # Travel Encounter Library
+ 
+ **Thirty Prompts for Encounters Between Settlements**
+@@ -9013,6 +9081,10 @@
+ | Extended encounter (45+ min) | 12, 13, 19, 24, 28-29 | Longer storytelling |
+ }}
+ 
++
++
++
++\page
+ 
+ {{wide
+ 
+@@ -9382,7 +9454,13 @@
+ - Roll TABLE 8
+ - PC CHOOSES whether to pursue
+ - Resolve mechanically (skill checks, timecosts, rewards)
++
++
++\page
++
+ # Player Handouts by Adventure
++
++
+ {{note
+ **DM Note:** These are player-facing documents to be distributed during specific adventures. They contain no DM secrets and can be printed/shared directly with players when the appropriate moment arrives.
+ }}
+@@ -10833,6 +10911,10 @@
+ ###### ____________________________________________
+ 
+ 
++
++
++\page
++
+ # Adventures
+ 
+ ## Opening Adventures
+@@ -10983,6 +11065,10 @@
+ - A shared room discount if they bunk together.
+ 
+ ###### All of these create cohesion without forcing roleplay.
++
++
++\page
++
+ # The Morning After: A Warden's First Duty
+ {{wide
+ {{note
+@@ -11118,6 +11204,10 @@
+ }}
+ <!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+      Use --rotation to set rotation angle in degrees. -->
++
++
++\page
++
+ # Return to Waystone (Session 0)
+ 
+ {{wide
+@@ -11169,6 +11259,7 @@
+ - **Climb** over the tree is risky; a misstep could mean supplies lost or injury.
+ 
+ >This scene is about watching how the three of you communicate and solve problems. The veteran has experience, but do the newcomers listen? Do they think for themselves? First contact is always a test.
++
+ 
+ 
+ 
+@@ -11302,6 +11393,10 @@
+ - **Echo Hints:** Drop them casually. The veteran recognizing the wrongness from Welton is the key moment—this isn't an isolated event. The Echo is everywhere.
+ - **End at Camp:** Tonight ends with the full party together but not yet "tested" as a group. That's next session. This session is about introductions, first bonds, and the road itself.
+ - **Session Length:** This should run 60-90 minutes total (briefing, travel to waypoint, meet scout, obstacle, optional combat, arrive at camp, meet full party).
++
++
++\page
++
+ # **Contract: W‑17 — Disturbance Near Welton**
+ {{wide
+ {{note
+@@ -11345,12 +11440,14 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ## Wolves of Welton
+ 
+ ![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}
+-## Wolves of Welton
++
+ 
+ ### Northwatch Wardens Integration (DM)
+ 
+@@ -11497,6 +11594,7 @@
+ - **Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+ 
+ - **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
++
+ 
+ 
+ 
+@@ -11591,6 +11689,7 @@
+ - **Father Merriksonn makes impassioned speech:** His brother's death may have caused this; villagers owe it to Alexi's memory to try peace
+ - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
+ - **Future hook:** Tillus remains hostile; may cause problems later
++
+ 
+ 
+ 
+@@ -11754,6 +11853,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Quick Treasure
+@@ -11917,6 +12017,9 @@
+ ***Commanding Bark (Recharge 5–6).***  
+ Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
+ }}
++
++
++
+ 
+ 
+ 
+@@ -13159,6 +13262,10 @@
+ The Wardens have taken their first step into the mystery of the **Aeorian Echo**.
+ 
+ 
++
++
++\page
++
+ # Frozen Sick
+ ## Northwatch Wardens Integration (DM)
+ 
+@@ -13243,6 +13350,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Player Discovery 
+@@ -13349,6 +13457,7 @@
+ All while discovering that Salsvault is the **source of the Aeorian Echo**.
+ 
+ ---
++
+ 
+ 
+ 
+@@ -13459,6 +13568,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Section 3: Story Summary
+@@ -13564,6 +13674,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Why This Story Matters
+@@ -13676,6 +13787,7 @@
+ - **Clue:**  ::  She sold the vials to a fence connected to **Croaker Cave**.
+ 
+ ---
++
+ 
+ 
+ 
+@@ -14024,6 +14136,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ## Section 6: Journey to Salsvault
+@@ -14135,6 +14248,7 @@
+ 4. Memory echo (brief hallucination of ancient Aeor)  
+ 
+ ---
++
+ 
+ 
+ 
+@@ -14249,6 +14363,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ {{monster,frame
+@@ -14312,6 +14428,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ # Section 7: Salsvault — The Frozen Laboratory
+@@ -14456,6 +14574,8 @@
+ 
+ #### **Optional Encounter Trigger**
+ - Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
++
++
+ 
+ 
+ 
+@@ -14550,6 +14670,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ### 3. Containment Hall
+@@ -14649,6 +14771,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### 5. Preservation Chamber (Antidote Location)
+@@ -14870,6 +14993,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Cure — Golden Aeorian Antidote
+@@ -14974,6 +15098,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Path B: The darkest Timeline
+@@ -15205,6 +15330,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ---
+@@ -15263,6 +15389,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Central Mystery 
+@@ -15472,7 +15599,6 @@
+ 6. **The Corsair Thread:**  :: “The Blackwake Corsairs were moving these artifacts before anyone knew what they were. They have contacts from the Shattered Coast to Northreach. Someone gave them the commission.”
+ 
+ 
+-
+ \page
+ 
+ ## The Wild Sheep Chase
+@@ -15482,8 +15608,6 @@
+ **Mystery Rating:** ::⭐⭐⭐ (Significant — Magical Destabilization Pattern)
+ **Adventure Tier:** :: Levels 1–2 (scalable to 4–5)
+ }}
+-## The Wild Sheep Chase
+-
+ 
+ #### Northwatch Wardens Integration (DM)
+ 
+@@ -15550,7 +15674,6 @@
+ 
+ **Player Discovery:** :: This should feel like comic relief at first, but perceptive players may notice Shinebright knows more than he admits. Successfully helping him is the first step toward earning his trust.
+ 
+-
+ \page
+ 
+ ### Mystery Clues
+@@ -15659,7 +15782,6 @@
+ Alternatively, Lorewarden Elric has been tracking unusual artifact failures near the town and may ask the Wardens to investigate reports of "unstable magic near the old tree-tower southeast of town."
+ 
+ 
+-
+ \page
+ 
+ # Baaaa-d News
+@@ -15723,7 +15845,6 @@
+ }}
+ 
+ 
+-
+ \page
+ 
+ # Shepherds and Crooks
+@@ -15789,8 +15910,6 @@
+ **If Guz captures Shinebright:** He and his allies set off for Noke's tower. The party must decide whether to follow immediately (running confrontation) or track them (tactical approach).
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -15891,8 +16010,6 @@
+ ***Claws.*** :: *Melee Weapon Attack:* +5 to hit, reach 5 ft. *Hit:* 11 (2d6 + 4) slashing damage.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -15957,9 +16074,6 @@
+ **DC 13 Arcana:** :: The entire tower radiates unstable magical energy. Several enchantments appear to be running in contradiction to each other.
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## The Grounds
+@@ -16035,10 +16149,7 @@
+ 
+ **DC 10 Perception:** :: Something is moving in the kitchen. A squirrel in a small apron is attempting to cook with hands it does not have. A cat in a waistcoat sits on the countertop, watching with contempt. Both were Noke's household staff before he got creative.
+ 
+-
+-
+-\page
+-
++\page
+ {{wide
+ {{note
+ **The Polymorphed Staff:** If the Wardens free them (destroying collars or *dispel magic* DC 11), the former squirrel-maid and cat-butler immediately agree to help. They know the layout of the top platform, the timing of Noke's rest periods, and the location of the wand's pedestal. They despise Noke.
+@@ -16109,9 +16220,6 @@
+ 
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## Ewe Are Very Clever...
+@@ -16181,8 +16289,6 @@
+ If they talk, Noke will reveal his reasons for hating Shinebright and boast disjointedly of his own achievements. He will also ask if they killed "my man, Guz," and be visibly upset if they have.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -16264,8 +16370,6 @@
+ The wand cracks, fizzes, and detonates with a loud bang, turning Noke into a **Gibbering Mouther** — a misshapen pile of flesh that bellows incoherently from dozens of mouths. The sad creature will attack mindlessly until completely destroyed.
+ 
+ If the Wardens have already subdued Noke or taken the wand, this phase is skipped.
+-
+-
+ 
+ \page
+ 
+@@ -16336,8 +16440,6 @@
+ ***Splinter Breath (Recharge 5–6).*** ::15-ft. cone. Each creature in the area makes a **DC 13 Dexterity save**, taking **24 (7d6) piercing damage** on a failure, or half on a success.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -16395,8 +16497,6 @@
+ ***Slam.***:: *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -16431,8 +16531,6 @@
+ ***DM Note.*** When Noke or Shinebright transforms into a Gibbering Mouther, the creature retains none of its original intelligence or memories. It attacks the nearest creature mindlessly. This transformation cannot be reversed by any spell below 9th level.
+ }}
+ 
+-
+-
+ \page
+ 
+ # Big Choices
+@@ -16474,8 +16572,6 @@
+ {{note
+ **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful). Lorewarden Elric wants it destroyed.
+ }}
+-
+-
+ 
+ \page
+ 
+@@ -16529,8 +16625,6 @@
+ {{note
+ **Shinebright knew about Elric.** They have been corresponding. Elric will recognize Shinebright's name immediately when the Wardens return.
+ }}
+-
+-
+ 
+ \page
+ 
+@@ -16612,8 +16706,6 @@
+ 
+ Noke agrees to restore Shinebright himself in exchange for the Wardens leaving and saying nothing to anyone. He is telling the truth — for now. He becomes a fractured, cautious figure who may or may not honour the agreement depending on circumstances.
+ 
+-
+-
+ \page
+ 
+ # Section 9: Return to Waystone
+@@ -16711,8 +16803,6 @@
+ - Factions are already moving to exploit the resulting chaos
+ 
+ The frontier is changing. Magic that was reliable is not. People who were safe are not.:: **The Wild Sheep Chase ends here. Arc 3 begins.**
+-
+-
+ 
+ \page
+ 
+@@ -16770,9 +16860,6 @@
+ - He makes promises he cannot keep with complete sincerity
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ #### **3. Noke's Tower Becomes a Slog**
+@@ -16851,7 +16938,6 @@
+ - Polymorphed staff rebel and trip Noke at a critical moment
+ - Wand backfires on Noke (roll Instability Table; result 1 = he becomes a chicken)
+ - Shinebright casts *sleep* as a last resort ("I said I was reluctant to use magic, not that I *couldn't*")
+-
+ 
+ 
+ \page
+@@ -16910,8 +16996,6 @@
+ - [ ] Clarify: This adventure is thematically significant but tonally different from others
+ - [ ] Encourage creative solutions: "Think outside the box! Polymorph is weird and wild."
+ 
+-
+-
+ \page
+ 
+ ## Quick Reference During Play
+@@ -16996,8 +17080,6 @@
+ #### **Outbuildings:**
+ - Two small huts (guard quarters, oversized beds)
+ - Large outhouse (bear guard)
+-
+-
+ 
+ \page
+ 
+@@ -17099,6 +17181,7 @@
+      - (investigate other artifact malfunctions?)
+ - [ ] If Noke escaped: prepare recurring villain hooks 
+      - (Blackwake Corsair connection)
++
+ 
+ 
+ 
+@@ -17808,11 +17891,13 @@
+ 
+ When the conversation concludes, Rorn reveals a hidden passage leading out of the mountain — the end of this adventure… for now.
+ 
+-## Temple of the Dragonknights
+-
+-
+-\page
+-
++
++
++\page
++
++
++
++\page
+ # Temple of the Dragonknights
+ {{wide
+ {{note
+@@ -17887,8 +17972,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Player Discovery
+@@ -17955,8 +18038,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Adventure Overview
+@@ -18024,8 +18105,6 @@
+ - Northcrest Investigation → Verdanthorn Warren → Temple of the Dragonknights → Resolution
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18160,8 +18239,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## Part I: Northcrest
+@@ -18252,8 +18329,6 @@
+ }}
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18335,9 +18410,8 @@
+ 
+ ---
+ 
+-
+-
+-\page
++\page
++
+ 
+ ## Part II: Verdanthorn Warren
+ 
+@@ -18427,8 +18501,6 @@
+ The stone doors grind open, revealing a carved staircase ascending into the mountain.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18487,9 +18559,6 @@
+ }}
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## The Armory
+@@ -18539,8 +18608,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## The Ritual Chamber
+@@ -18609,8 +18676,6 @@
+ This leads directly into the Venomfang confrontation — see **The Dragon's Lair**.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18664,8 +18729,6 @@
+ **If Shinebright is present (from Wild Sheep Chase):** :: His knowledge of Aeorian resonance frequencies makes the facility revelation automatic — no check required. Venomfang listens to a wizard even if she despises the format.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18737,8 +18800,6 @@
+ ***Poison Breath (Recharge 5–6).*** Venomfang exhales poisonous gas in a 30-foot cone. Each creature in that area must make a **DC 14 Constitution saving throw**, taking 42 (12d6) poison damage on a failed save, or half as much on a successful one.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -18832,8 +18893,6 @@
+ ***Spellcasting (1/Day each).*** The cultist casts one of the following, using Wisdom as its spellcasting ability (spell save DC 11): *sacred flame*, *inflict wounds* (1st level).
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -18865,10 +18924,7 @@
+ 
+ ---
+ 
+-
+-
+-\page
+-
++\page
+ {{wide
+ # Section 8: Resolution Paths
+ 
+@@ -18946,8 +19002,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Seal or Collapse the Temple
+@@ -18997,8 +19051,6 @@
+ **Sera Gelanadel:** :: Will stay in Northcrest for three days to finish her documentation, then travel to Waystone to deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -19086,8 +19138,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## DM Notes 
+@@ -19173,8 +19223,6 @@
+ }}
+ ---
+ 
+-
+-
+ \page
+ 
+ ## Improvisation Toolkit
+@@ -19246,8 +19294,6 @@
+ - **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -19300,8 +19346,6 @@
+ - [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
+ - [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
+ 
+-
+-
+ \page
+ 
+ # Quick Reference During Play
+@@ -19398,8 +19442,6 @@
+ - Path down the mountain with Clementine
+ - Joel Andersmith reunion; Northcrest celebration
+ - Debrief with Lorewarden Elric
+-
+-
+ 
+ \page
+ 
+@@ -19480,6 +19522,14 @@
+ - [ ] Note party's reaction to the Dragonknight ward anchor revelation
+ - [ ] Prepare Elric's follow-up hooks (other convergence points, Salsvault, faction movements)
+ - [ ] If Venomfang escaped: note potential future encounter and her stated warning
++
++ 
++
++
++
++\page
++
++
+ # World Secrets
+ 
+ {{note
+@@ -19564,7 +19614,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ### The Northreach Region's Connection
+@@ -19601,6 +19650,7 @@
+ - Defensive kill-zones
+ 
+ ---
++
+ 
+ 
+ \page
+@@ -19690,7 +19740,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## The Entity Behind the Echo
+@@ -19780,7 +19829,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ### Option C: The Failed God
+@@ -19887,7 +19935,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## Magical Mechanics of the Echo
+@@ -19969,7 +20016,6 @@
+ - Entity can sense through crystal network
+ 
+ ---
+-
+ 
+ \page
+ 
+@@ -20044,7 +20090,6 @@
+ - *Current Status:* Research equipment exists in Temple facility
+ - *Threat Level:* Extreme (permanent harm to dragons)
+ 
+-
+ \page
+ 
+ ### Magical-Technological Weapons
+@@ -20116,6 +20161,9 @@
+ ---
+ 
+ 
++
++
++
+ \page
+ 
+ ## The Artifact Trade: Following the Money
+@@ -20202,7 +20250,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## Campaign Timeline: 
+@@ -20322,8 +20369,10 @@
+ ---
+ 
+ 
+-\page
+-
++
++
++
++\page
+ # Player Investigation Paths
+ ### Following the Wolves
+ 
+@@ -20430,8 +20479,6 @@
+ - Shinebright (knows countermeasures)
+ - Sera (deduced patterns)
+ - Baleth (unwilling information source)
+-
+-
+ 
+ \page
+ 
+@@ -20563,9 +20610,6 @@
+ - Information vital to stopping entity
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ### Temple of the Dragonknights
+@@ -20692,6 +20736,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ## NPC Arcs and Development
+@@ -20791,9 +20837,6 @@
+ - Duty to act
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## Running the Echo: DM Tips
+@@ -20896,6 +20939,10 @@
+ 
+ *"The past speaks from the ice. Whether we listen or silence it is our choice—and our burden."*  
+ — Lorewarden Elric Vael (private journal)
++
++
++\page
++
+ # The Dimensional Rift: Aeor's Fall Across Worlds
+ 
+ **DM EYES ONLY — Campaign Lore Foundation**
+@@ -21098,6 +21145,10 @@
+ **Last Updated:** February 10, 2026  
+ **Campaign Status:** Foundational lore for Season One and beyond  
+ **Player Knowledge:** None (this is DM-only background)
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -22921,6 +22972,10 @@
+ 
+ 
+ *Remember: These secrets should enhance the story, not overshadow the players. Reveal information at dramatically appropriate moments.*
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -25480,6 +25535,10 @@
+ 
+ 
+ *Remember: Reveal these secrets gradually, rewarding player investigation and creativity. The full picture should emerge piece by piece, building to the dramatic conclusion.*
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -26186,6 +26245,10 @@
+ *"The elves of the Nullwood are not calm. They are controlled. There's a difference, and it's terrifying."*
+ 
+ — Lorewarden Elric Vael, after failed diplomatic mission
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -26898,6 +26961,10 @@
+ *"The Far North isn't where the world ends. It's where the old world is breaking through—and we must decide whether to stop it or let it reshape everything we know."*
+ 
+ — Lorewarden Elric Vael (from his private journal)
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -27499,6 +27566,10 @@
+ ---
+ 
+ *The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -27910,6 +27981,10 @@
+ *"The sea doesn't forgive. It doesn't forget. And lately, it doesn't sleep."*
+ 
+ — Storm-Priest Veyara of Breakwater Haven
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -28696,6 +28771,10 @@
+ *"The stone doesn't lie... but perhaps we've been asking it the wrong questions."*
+ 
+ — Deep-Reader Borin Stonescript, contemplating new seismic patterns
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -29373,6 +29452,10 @@
+ *"The sea keeps its secrets well. But secrets don't stay buried forever."*
+ 
+ — Captain Mira Saltwind
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -29883,6 +29966,10 @@
+ *"The forest is alive. It always was. But now it's waking up—and we don't know if it will recognize us as friends, strangers, or prey."*
+ 
+ — Archdruid Mora Greenleaf of Greenwatch Enclave
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -30476,6 +30563,10 @@
+ *"In Vharoxis, everything and everyone is for sale. The question is: what are you willing to pay?"*
+ 
+ — Lorewarden Elric Vael, Northwatch Wardens
++
++
++\page
++
+ # Appendix: Reference Materials
+ 
+ # Mystery Investigation Guide: The Aeorian Echo
+@@ -30790,6 +30881,10 @@
+ - Add visual diagram showing adventure connections
+ - Expand with Season 2 mystery threads
+ - Include player handout versions (spoiler-free investigation notes)
++
++
++\page
++
+ # Adventure Quick Reference Sheets
+ 
+ **Week 4 Enhancement — At-a-Glance DM Prep Tools**
+@@ -31268,6 +31363,10 @@
+ - NPC_Relationship_Diagram.md (Week 2)
+ - NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
+ - This document (Week 4)
++
++
++\page
++
+ # NPC Quick Reference Cards
+ 
+ **DM Reference Sheet — Print & Use**
+@@ -31864,6 +31963,10 @@
+ **Companion Documents:**
+ - DM Guild Roster.md (full NPC secrets & campaign connections)
+ - Adventure_Quick_Reference.md (one-page adventure sheets)
++
++
++\page
++
+ # Session Prep Master Checklist
+ 
+ **Week 4 Final Tool — Complete DM Preparation Framework**
+@@ -32367,6 +32470,10 @@
+ - Adventure_Quick_Reference.md
+ - NPC_Quick_Reference_Cards.md
+ - Mystery_Investigation_Guide.md
++
++
++\page
++
+ {{note
+ ##### DUNGEON MASTER RESOURCE
+ 
+@@ -32822,6 +32929,10 @@
+ ### You're Off and Running! 🎉
+ 
+ The campaign will flow naturally. Trust your prep, let players drive choices, and enjoy the frontier!
++
++
++\page
++
+ {{note
+ ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
+ 
+@@ -33285,6 +33396,10 @@
+ ### Low-priority / optional portraits (mostly combat pieces)
+ 
+ - Ferol Sal, Venomfang, Old Croaker, constructs/undead, polymorphed animals, etc.
++
++
++\page
++
+ # Northwatch Wardens: Season One — The Story So Far
+ 
+ Use this as the living continuity log for actual play. Update it after each session.
+@@ -33444,3 +33559,7 @@
+ - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
+ 
+ 
++\page
++
++
++

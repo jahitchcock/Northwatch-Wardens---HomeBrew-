@@ -7,8 +7,14 @@
   "bannerText": "",
   "enableFootnote": false,
   "footnoteText": "",
-  "coverImagePosition": "absolute,bottom:0,left:0,height:100%",
+  "coverImagePosition": "absolute,bottom:-100px,left:0px,height:116%",
   "enableWaterstains": true,
+  "contentsFile": "dms-guide-contents.md",
+  "noAutoPageBreakAfterFiles": [
+    "../Season 1/DM_Resources/Foreshadowing_Database.md",
+    "../Season 1/DM_Resources/DM Guild Roster.md",
+    "../Season 1/DM_Resources/Player_Handouts_By_Adventure.md"
+  ],
   "sections": [
     {
       "chapter": "Using This Guide",
@@ -75,6 +81,7 @@
         },
         {
           "title": "Temple of the Dragonknights",
+          "emitHeading": false,
           "files": [
             "../Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md"
           ]

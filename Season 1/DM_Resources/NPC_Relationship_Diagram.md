@@ -1393,7 +1393,6 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 
 **Role**: Medical expert, potential ally, defensive NPC
 
-
 {{pageNumber,auto}}
 {{footnote NPC Appearance Reference}}
 

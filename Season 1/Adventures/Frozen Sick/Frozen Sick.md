@@ -80,7 +80,6 @@ These are the truths the players can uncover through investigation, exploration,
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
 
@@ -191,7 +190,6 @@ All while discovering that Salsvault is the **source of the Aeorian Echo**.
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
 
@@ -300,7 +298,6 @@ Frozen Sick is the **moment the campaign opens up**.
 
 This adventure shifts the campaign from **mystery** to **revelation** — and sets the stage for Arc 3.
 
-
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
 
@@ -407,7 +404,6 @@ The Wardens must retrieve the antidote and escape before the ruin’s unstable m
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
 
@@ -466,7 +462,7 @@ Elro hires the Wardens to **find the source** and **stop the outbreak**.
 ---
 \column
 
-### Key Locations in Palebank Village
+### Key Locations in Palebank
 
 #### 1. Urgon’s Cabin
 
@@ -476,17 +472,13 @@ The cabin is cold and dark. Frost creeps across the windows. Inside, overturned 
 
 ##### What the Wardens Can Learn
 
-- **DC 12 Investigation:**  
-  Footprints in the frost — small, booted, heading toward the woods. Tulgi Lutan.
+- **DC 12 Investigation:** ::  Footprints in the frost — small, booted, heading toward the woods. Tulgi Lutan.
 
-- **DC 10 Medicine:**  
-  Urgon’s body shows blue veins and internal crystallization — magical disease.
+- **DC 10 Medicine:**  ::  Urgon’s body shows blue veins and internal crystallization — magical disease.
 
-- **DC 12 Arcana:**  
-  The residue on the vials is magical, cold, and unnatural — Aeorian in origin.
+- **DC 12 Arcana:**  ::  The residue on the vials is magical, cold, and unnatural — Aeorian in origin.
 
-- **Clue:**  
-  Urgon sold two blue vials to Verla Pelc.
+- **Clue:**  ::  Urgon sold two blue vials to Verla Pelc.
 
 ---
 
@@ -496,19 +488,15 @@ The cabin is cold and dark. Frost creeps across the windows. Inside, overturned 
 The shop is shuttered. A thin layer of frost covers the doorframe. Inside, shelves of trinkets sit untouched — except for a broken display case.
 }}
 
-##### What the Wardens Can Learn
+#### What the Wardens Can Learn
 
-- **DC 10 Investigation:**  
-  A receipt showing Urgon sold Verla two blue glass vials.
+- **DC 10 Investigation:**  ::  A receipt showing Urgon sold Verla two blue glass vials.
 
-- **DC 12 Investigation:**  
-  Signs of forced entry — someone stole the vials.
+- **DC 12 Investigation:**  ::  Signs of forced entry — someone stole the vials.
 
-- **DC 10 Insight:**  
-  Verla died the same way as Urgon.
+- **DC 10 Insight:**  ::  Verla died the same way as Urgon.
 
-- **Clue:**  
-  The vials were stolen by local bandits.
+- **Clue:**  ::  The vials were stolen by local bandits.
 
 ---
 
@@ -520,22 +508,17 @@ The door opens only a crack. Tulgi’s face is pale, blue veins visible beneath 
 
 Tulgi is dying — scared, defensive, and desperate.
 
-##### What the Wardens Can Learn
+#### What the Wardens Can Learn
 
-- **DC 15 Persuasion:**  
-  Tulgi admits she broke into Urgon’s cabin looking for valuables.
+- **DC 15 Persuasion:**  ::  Tulgi admits she broke into Urgon’s cabin looking for valuables.
 
-- **DC 10 Medicine:**  
-  She has 7 days left without a cure.
+- **DC 10 Medicine:**  ::  She has 7 days left without a cure.
 
-- **DC 12 Insight:**  
-  She regrets stealing the vials but is terrified of dying.
+- **DC 12 Insight:**  ::  She regrets stealing the vials but is terrified of dying.
 
-- **Clue:**  
-  She sold the vials to a fence connected to **Croaker Cave**.
+- **Clue:**  ::  She sold the vials to a fence connected to **Croaker Cave**.
 
 ---
-
 
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
@@ -550,14 +533,11 @@ A worried merchant opens the door, his children coughing softly behind him. Blue
 
 ##### What the Wardens Can Learn
 
-- **DC 10 Medicine:**  
-  They have ~10 days left — early infection.
+- **DC 10 Medicine:**  ::  They have ~10 days left — early infection.
 
-- **DC 12 Insight:**  
-  Irven bought the vials from a traveling fence, not knowing they were dangerous.
+- **DC 12 Insight:**  ::  Irven bought the vials from a traveling fence, not knowing they were dangerous.
 
-- **Clue:**  
-  The fence was last seen heading toward Croaker Cave.
+- **Clue:**  ::  The fence was last seen heading toward Croaker Cave.
 
 ---
 
@@ -633,14 +613,11 @@ The Wardens may:
 - Scout from above  
 - Attempt to lure bandits out  
 
-**DC 13 Stealth:**  
-Approach undetected and gain surprise.
+**DC 13 Stealth:**  ::Approach undetected and gain surprise.
 
-**DC 12 Perception:**  
-Hear arguing voices inside — the bandits are nervous.
+**DC 12 Perception:**  ::Hear arguing voices inside — the bandits are nervous.
 
-**DC 10 Survival:**  
-Confirm multiple humanoid tracks leading in and out.
+**DC 10 Survival:**  ::Confirm multiple humanoid tracks leading in and out.
 
 ---
 
@@ -814,19 +791,16 @@ The thug makes two melee attacks.
 
 The vials are stored in a locked chest.
 
-###### **DC 10 Investigation:**  
-Find the chest beneath a pile of blankets.
+**DC 10 Investigation:**  ::Find the chest beneath a pile of blankets.
 
-###### **DC 12 Sleight of Hand or DC 13 Strength:**  
-Open the chest.
+**DC 12 Sleight of Hand or DC 13 Strength:**  ::Open the chest.
 
-Inside:
+Inside: ::
 
 - **Two blue glass vials** (contaminated with frigid woe)  
 - A small pouch of silver  
 - A map scrap showing a route north toward **Salsvault**  
-- A note from a fence:  
-  > “More where these came from. North. Bring me anything glowing blue. — B.W.”
+- A note from a fence:  :: “More where these came from. North. Bring me anything glowing blue. — B.W.”
 
 {{note
 This is the party’s first explicit reference to Salsvault.
@@ -867,8 +841,7 @@ The Wardens may:
 - Put him out of his misery (dark path)  
 - Leave him to fate  
 
-**DC 12 Medicine:**  
-Confirm he has 8–10 days left.
+**DC 12 Medicine:**  ::Confirm he has 8–10 days left.
 
 ---
 
@@ -894,7 +867,6 @@ This leads directly into **Section 6: Journey to Salsvault**.
 | 4 | A note from a fence: *“More where these came from. Bring me anything glowing blue. — B.W.”* |
 | 5 | A flask of cheap dwarven whiskey (10 gp) |
 | 6 | A bundle of smuggled goods worth 25 gp |
-
 
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
@@ -966,10 +938,10 @@ The journey takes **1–2 days**, depending on weather and skill checks.
 
 #### Required Checks
 
-- **DC 12 Survival:** Navigate the ice safely  
-- **DC 12 Athletics:** Cross unstable ice floes  
-- **DC 10 Perception:** Spot hazards before stepping into them  
-- **DC 13 Constitution:** Resist the freezing wind  
+**DC 12 Survival:** :: Navigate the ice safely  
+**DC 12 Athletics:** ::Cross unstable ice floes  
+**DC 10 Perception:** ::Spot hazards before stepping into them  
+**DC 13 Constitution:** ::Resist the freezing wind  
 
 ###### Failure results in:
 
@@ -1010,7 +982,6 @@ Effects (roll 1d4):
 4. Memory echo (brief hallucination of ancient Aeor)  
 
 ---
-
 
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
@@ -1059,11 +1030,9 @@ This is **Salsvault**, the frozen laboratory of Aeor.
 - The snow around the ruin forms geometric patterns  
 - The hum of machinery echoes beneath the ice  
 
-**Arcana DC 13:**  
-“This magic predates the Godsfall. Aeorian.”
+**Arcana DC 13:**  ::  “This magic predates the Godsfall. Aeorian.”
 
-**History DC 12:**  
-“Aeor built weapons to kill gods. This place was part of that.”
+**History DC 12:**  :: “Aeor built weapons to kill gods. This place was part of that.”
 
 ---
 
@@ -1096,20 +1065,15 @@ ___
 **Challenge** :: 1/2 (100 XP) {{bonus **Proficiency Bonus** +2}}
 ___
 ### Traits
-***Death Burst.***  
-When the mephit dies, it explodes in a burst of jagged ice.  
-Each creature within 5 ft must succeed on a DC 10 Dexterity save or take 4 (1d8) slashing damage.
+***Death Burst.***  ::When the mephit dies, it explodes in a burst of jagged ice.  Each creature within 5 ft must succeed on a DC 10 Dexterity save or take 4 (1d8) slashing damage.
 
-***Innate Spellcasting (1/Day).***  
-The mephit can cast *fog cloud*.
+***Innate Spellcasting (1/Day).***  ::The mephit can cast *fog cloud*.
 ___
 ### Actions
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target.  
+***Claws.*** *Melee Weapon Attack:* :: +3 to hit, reach 5 ft., one target.  
 *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
 
-***Frost Breath (Recharge 6).***  
-The mephit exhales a 15‑ft cone of cold.  
-Each creature in the area must make a DC 10 Dexterity save, taking 5 (2d4) cold damage on a failed save, or half as much on a success.
+***Frost Breath (Recharge 6).***  :: The mephit exhales a 15‑ft cone of cold.  Each creature in the area must make a DC 10 Dexterity save, taking 5 (2d4) cold damage on a failed save, or half as much on a success.
 }}
 
 
@@ -1121,17 +1085,15 @@ ___
 **Effect Radius** :: 30 ft pulse of unstable blue energy  
 ___
 ### Effects (roll 1d4)
-1. **Static Shock** — Each creature takes 1 lightning damage.  
-2. **Frostbite Pulse** — Each creature takes 1 cold damage.  
-3. **Gravity Lurch** — Each creature must succeed on a DC 10 Dex save or fall prone.  
-4. **Memory Echo** — A creature sees a brief vision of ancient Aeor (no damage, roleplay clue).
+1. **Static Shock** :: Each creature takes 1 lightning damage.  
+2. **Frostbite Pulse** :: Each creature takes 1 cold damage.  
+3. **Gravity Lurch** :: Each creature must succeed on a DC 10 Dex save or fall prone.  
+4. **Memory Echo** :: A creature sees a brief vision of ancient Aeor (no damage, roleplay clue).
 
 ### Skill Checks
-- **Arcana DC 12:** Identify the surge as Aeorian in origin.  
-- **Arcana DC 15:** Realize the pulses are increasing in frequency — Salsvault is waking.  
+- **Arcana DC 12:** :: Identify the surge as Aeorian in origin.  
+- **Arcana DC 15:** :: Realize the pulses are increasing in frequency — Salsvault is waking.  
 }}
-
-
 
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
@@ -1151,17 +1113,13 @@ A frozen corpse half‑buried in snow, clutching a frost‑rimmed journal.
 Blue veins trace the skin — early signs of frigid woe.
 
 ### Clues
-- **DC 10 Investigation:**  
-  The explorer died recently — within the last 48 hours.
+- **DC 10 Investigation:**  ::  The explorer died recently — within the last 48 hours.
 
-- **DC 12 Medicine:**  
-  Cause of death: exposure + magical cold.
+- **DC 12 Medicine:**  ::  Cause of death: exposure + magical cold.
 
-- **DC 12 Survival:**  
-  Tracks show the explorer fled from something large.
+- **DC 12 Survival:**  ::  Tracks show the explorer fled from something large.
 
-- **DC 13 Arcana:**  
-  Blue residue on clothing matches Aeorian spores.
+- **DC 13 Arcana:**  ::  Blue residue on clothing matches Aeorian spores.
 
 ### Loot
 - A damaged journal containing:
@@ -1200,8 +1158,6 @@ ___
 
 ***Claw.*** ::Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  *Hit:* 12 (2d6 + 4) slashing damage.
 }}
-
-
 
 {{pageNumber,auto}}
 {{footnote Frozen Sick}}
@@ -1265,6 +1221,7 @@ Avoid contracting **frigid woe**.
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
+
 {{wide
 
 {{note
@@ -1350,8 +1307,6 @@ Rows of shattered glass tubes line the walls. Frozen worktables hold rusted tool
 
 #### **Optional Encounter Trigger**
 - Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
-
-
 
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
@@ -1444,8 +1399,6 @@ ___
 
 ***Force Slash (Recharge 5–6).*** :: A 15‑ft cone of force.  **DC 14 Dex save**, **14 (4d6) force damage** on fail, half on success.
 }}
-
-
 
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
@@ -1546,7 +1499,6 @@ Roll 1d4 or choose:
 | 2 | **Icewalker Boots** | Ignore difficult terrain caused by ice or snow. Gain advantage on checks to resist cold environments. |
 | 3 | **Translation Tablet** | While holding this slate, you have advantage on Arcana checks related to Aeorian magic or pre‑Godsfall languages. |
 | 4 | **Stasis Shard** | Once per long rest, cast *slow* (DC 13). The shard cracks slightly each time it is used. |
-
 
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
@@ -1771,7 +1723,6 @@ Frigid woe was engineered to **bypass divine magic**.
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
@@ -1877,11 +1828,11 @@ One by one, the infected drink the golden liquid. Warmth spreads through their b
 
 ---
 
-
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
+
 ### Path B: The darkest Timeline
 ###### The Wardens Return Late (Partial Success)
 
@@ -2110,33 +2061,26 @@ If they died: ::
 Elric places a hand on your shoulder. “You did what you could. Sometimes the frontier takes more than we can give.”
 }}
 
-
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
 
 \page
+
 ---
 
-### The Campaign Hook
-
-Elric closes his journal with a decisive snap.
-
+#### The Campaign Hook
 {{descriptive
-“There’s more,” he says. “I’ve received reports of strange activity in the northwest mountains — a cult calling themselves the Dragonknights. They’re drawn to sites of magical power. If Salsvault woke up… they may be seeking other Aeorian ruins.”  
-He meets your eyes. “I need you to investigate.”  
+Elric closes his journal with a decisive snap.
+“There’s more,” he says. “I’ve received reports of strange activity in the northwest mountains — a cult calling themselves the Dragonknights. They’re drawn to sites of magical power. If Salsvault woke up… they may be seeking other Aeorian ruins.”  He meets your eyes. “I need you to investigate.”  
 }}
 
-This sets up the next major adventure:
+This sets up the next major adventure::: **Temple of the Dragonknights** — where the Wardens confront the first faction actively seeking Aeorian power.
 
-### **Temple of the Dragonknights**  
-— where the Wardens confront the first faction actively seeking Aeorian power.
-
----
 
 ### Moving Into Arc 3: 
-###### The Echo Widens
+#### The Echo Widens
 
-By the end of this section, the Wardens understand:
+By the end of this section, the Wardens understand: ::
 
 - The Echo is real  
 - Salsvault caused it  
@@ -2144,9 +2088,7 @@ By the end of this section, the Wardens understand:
 - Other sites may be waking  
 - Factions are moving to exploit the chaos  
 
-The frontier is no longer merely dangerous — it is **changing**.
-
-Frozen Sick ends here, but the Aeorian Echo arc has only just begun.
+The frontier is no longer merely dangerous — it is **changing**. Frozen Sick ends here, but the Aeorian Echo arc has only just begun.
 
 
 {{wide
@@ -2177,7 +2119,6 @@ It consolidates pacing, pitfalls, scaling, and improvisation tools so you can ke
 - **Morgo** — Guide at the Cold Anchor, knows the icefields
 
 ---
-
 
 {{pageNumber,auto}}
 {{footnote Section 7: Salsvault — The Frozen Laboratory}}
@@ -2295,7 +2236,6 @@ THIS IS THE REVELATION ADVENTURE — players discover the source of all magical 
 
 \page
 
-
 ### Non‑Combat Challenges
 
 ###### **Investigation — Palebank:**
@@ -2391,3 +2331,6 @@ Use these throughout the adventure:
 5. **Elric’s Debrief:**  :: “The wolves at Welton. The instability across Northreach. It’s all connected. The Aeorian Echo is spreading.”
 
 6. **The Corsair Thread:**  :: “The Blackwake Corsairs were moving these artifacts before anyone knew what they were. They have contacts from the Shattered Coast to Northreach. Someone gave them the commission.”
+
+{{pageNumber,auto}}
+{{footnote Section 7: Salsvault — The Frozen Laboratory}}

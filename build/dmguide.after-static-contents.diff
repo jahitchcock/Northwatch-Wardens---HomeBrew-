@@ -1,0 +1,796 @@
+--- build\A-DMs-guide-to-aevoria.txt
++++ build\HB-ADMundefinedsGuidetoAevoria.txt
+@@ -28,6 +28,19 @@
+ .page {
+ 	padding-bottom : 1.1cm;
+ }
++
++
++
++
++
++
++
++
++
++
++
++
++
+ 
+ 
+ 
+@@ -2856,6 +2869,7 @@
+ 
+ <div class="column" style="flex: 1;">
+ 
++
+ {{note
+ **If players miss >3 clues:** Repeat them through:
+ - NPC conversations ("Westly mentioned something strange about the frost...")
+@@ -2931,6 +2945,9 @@
+ </div>
+ 
+ <div class="column" style="flex: 1;">
++
++
++
+ 
+ {{note
+ **If players miss >3 clues:**  
+@@ -4323,6 +4340,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Urgon Wenth (Deceased)
+@@ -9441,6 +9459,7 @@
+ \page
+ 
+ # Player Handouts by Adventure
++
+ 
+ {{note
+ **DM Note:** These are player-facing documents to be distributed during specific adventures. They contain no DM secrets and can be printed/shared directly with players when the appropriate moment arrives.
+@@ -11243,6 +11262,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Scene 3: Optional Challenge
+@@ -11420,11 +11440,14 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ## Wolves of Welton
+ 
+ ![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}
++
+ 
+ ### Northwatch Wardens Integration (DM)
+ 
+@@ -11571,6 +11594,7 @@
+ - **Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
+ 
+ - **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
++
+ 
+ 
+ 
+@@ -11665,6 +11689,7 @@
+ - **Father Merriksonn makes impassioned speech:** His brother's death may have caused this; villagers owe it to Alexi's memory to try peace
+ - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
+ - **Future hook:** Tillus remains hostile; may cause problems later
++
+ 
+ 
+ 
+@@ -11828,6 +11853,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Quick Treasure
+@@ -11991,6 +12017,9 @@
+ ***Commanding Bark (Recharge 5–6).***  
+ Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
+ }}
++
++
++
+ 
+ 
+ 
+@@ -13321,6 +13350,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Player Discovery 
+@@ -13427,6 +13457,7 @@
+ All while discovering that Salsvault is the **source of the Aeorian Echo**.
+ 
+ ---
++
+ 
+ 
+ 
+@@ -13537,6 +13568,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Section 3: Story Summary
+@@ -13642,6 +13674,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Why This Story Matters
+@@ -13754,6 +13787,7 @@
+ - **Clue:**  ::  She sold the vials to a fence connected to **Croaker Cave**.
+ 
+ ---
++
+ 
+ 
+ 
+@@ -14102,6 +14136,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ## Section 6: Journey to Salsvault
+@@ -14213,6 +14248,7 @@
+ 4. Memory echo (brief hallucination of ancient Aeor)  
+ 
+ ---
++
+ 
+ 
+ 
+@@ -14327,6 +14363,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ {{monster,frame
+@@ -14390,6 +14428,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ # Section 7: Salsvault — The Frozen Laboratory
+@@ -14534,6 +14574,8 @@
+ 
+ #### **Optional Encounter Trigger**
+ - Loud noises or magical surges cause **all constructs in this room** to activate simultaneously.
++
++
+ 
+ 
+ 
+@@ -14628,6 +14670,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ### 3. Containment Hall
+@@ -14727,6 +14771,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### 5. Preservation Chamber (Antidote Location)
+@@ -14948,6 +14993,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Cure — Golden Aeorian Antidote
+@@ -15052,6 +15098,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Path B: The darkest Timeline
+@@ -15283,6 +15330,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ---
+@@ -15341,6 +15389,7 @@
+ 
+ 
+ 
++
+ \page
+ 
+ ### Central Mystery 
+@@ -15548,7 +15597,6 @@
+ 5. **Elric’s Debrief:**  :: “The wolves at Welton. The instability across Northreach. It’s all connected. The Aeorian Echo is spreading.”
+ 
+ 6. **The Corsair Thread:**  :: “The Blackwake Corsairs were moving these artifacts before anyone knew what they were. They have contacts from the Shattered Coast to Northreach. Someone gave them the commission.”
+-
+ 
+ 
+ \page
+@@ -15626,7 +15674,6 @@
+ 
+ **Player Discovery:** :: This should feel like comic relief at first, but perceptive players may notice Shinebright knows more than he admits. Successfully helping him is the first step toward earning his trust.
+ 
+-
+ \page
+ 
+ ### Mystery Clues
+@@ -15735,7 +15782,6 @@
+ Alternatively, Lorewarden Elric has been tracking unusual artifact failures near the town and may ask the Wardens to investigate reports of "unstable magic near the old tree-tower southeast of town."
+ 
+ 
+-
+ \page
+ 
+ # Baaaa-d News
+@@ -15799,7 +15845,6 @@
+ }}
+ 
+ 
+-
+ \page
+ 
+ # Shepherds and Crooks
+@@ -15865,8 +15910,6 @@
+ **If Guz captures Shinebright:** He and his allies set off for Noke's tower. The party must decide whether to follow immediately (running confrontation) or track them (tactical approach).
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -15967,8 +16010,6 @@
+ ***Claws.*** :: *Melee Weapon Attack:* +5 to hit, reach 5 ft. *Hit:* 11 (2d6 + 4) slashing damage.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -16033,9 +16074,6 @@
+ **DC 13 Arcana:** :: The entire tower radiates unstable magical energy. Several enchantments appear to be running in contradiction to each other.
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## The Grounds
+@@ -16111,10 +16149,7 @@
+ 
+ **DC 10 Perception:** :: Something is moving in the kitchen. A squirrel in a small apron is attempting to cook with hands it does not have. A cat in a waistcoat sits on the countertop, watching with contempt. Both were Noke's household staff before he got creative.
+ 
+-
+-
+-\page
+-
++\page
+ {{wide
+ {{note
+ **The Polymorphed Staff:** If the Wardens free them (destroying collars or *dispel magic* DC 11), the former squirrel-maid and cat-butler immediately agree to help. They know the layout of the top platform, the timing of Noke's rest periods, and the location of the wand's pedestal. They despise Noke.
+@@ -16185,9 +16220,6 @@
+ 
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## Ewe Are Very Clever...
+@@ -16257,8 +16289,6 @@
+ If they talk, Noke will reveal his reasons for hating Shinebright and boast disjointedly of his own achievements. He will also ask if they killed "my man, Guz," and be visibly upset if they have.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -16340,8 +16370,6 @@
+ The wand cracks, fizzes, and detonates with a loud bang, turning Noke into a **Gibbering Mouther** — a misshapen pile of flesh that bellows incoherently from dozens of mouths. The sad creature will attack mindlessly until completely destroyed.
+ 
+ If the Wardens have already subdued Noke or taken the wand, this phase is skipped.
+-
+-
+ 
+ \page
+ 
+@@ -16412,8 +16440,6 @@
+ ***Splinter Breath (Recharge 5–6).*** ::15-ft. cone. Each creature in the area makes a **DC 13 Dexterity save**, taking **24 (7d6) piercing damage** on a failure, or half on a success.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -16471,8 +16497,6 @@
+ ***Slam.***:: *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -16507,8 +16531,6 @@
+ ***DM Note.*** When Noke or Shinebright transforms into a Gibbering Mouther, the creature retains none of its original intelligence or memories. It attacks the nearest creature mindlessly. This transformation cannot be reversed by any spell below 9th level.
+ }}
+ 
+-
+-
+ \page
+ 
+ # Big Choices
+@@ -16550,8 +16572,6 @@
+ {{note
+ **DM Note:** Party may choose to destroy it (Shinebright recommends this) OR keep it (risky but powerful). Lorewarden Elric wants it destroyed.
+ }}
+-
+-
+ 
+ \page
+ 
+@@ -16605,8 +16625,6 @@
+ {{note
+ **Shinebright knew about Elric.** They have been corresponding. Elric will recognize Shinebright's name immediately when the Wardens return.
+ }}
+-
+-
+ 
+ \page
+ 
+@@ -16688,8 +16706,6 @@
+ 
+ Noke agrees to restore Shinebright himself in exchange for the Wardens leaving and saying nothing to anyone. He is telling the truth — for now. He becomes a fractured, cautious figure who may or may not honour the agreement depending on circumstances.
+ 
+-
+-
+ \page
+ 
+ # Section 9: Return to Waystone
+@@ -16787,8 +16803,6 @@
+ - Factions are already moving to exploit the resulting chaos
+ 
+ The frontier is changing. Magic that was reliable is not. People who were safe are not.:: **The Wild Sheep Chase ends here. Arc 3 begins.**
+-
+-
+ 
+ \page
+ 
+@@ -16846,9 +16860,6 @@
+ - He makes promises he cannot keep with complete sincerity
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ #### **3. Noke's Tower Becomes a Slog**
+@@ -16927,7 +16938,6 @@
+ - Polymorphed staff rebel and trip Noke at a critical moment
+ - Wand backfires on Noke (roll Instability Table; result 1 = he becomes a chicken)
+ - Shinebright casts *sleep* as a last resort ("I said I was reluctant to use magic, not that I *couldn't*")
+-
+ 
+ 
+ \page
+@@ -16986,8 +16996,6 @@
+ - [ ] Clarify: This adventure is thematically significant but tonally different from others
+ - [ ] Encourage creative solutions: "Think outside the box! Polymorph is weird and wild."
+ 
+-
+-
+ \page
+ 
+ ## Quick Reference During Play
+@@ -17072,8 +17080,6 @@
+ #### **Outbuildings:**
+ - Two small huts (guard quarters, oversized beds)
+ - Large outhouse (bear guard)
+-
+-
+ 
+ \page
+ 
+@@ -17175,6 +17181,7 @@
+      - (investigate other artifact malfunctions?)
+ - [ ] If Noke escaped: prepare recurring villain hooks 
+      - (Blackwake Corsair connection)
++
+ 
+ 
+ 
+@@ -17891,7 +17898,6 @@
+ 
+ 
+ \page
+-
+ # Temple of the Dragonknights
+ {{wide
+ {{note
+@@ -17966,8 +17972,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Player Discovery
+@@ -18034,8 +18038,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Adventure Overview
+@@ -18103,8 +18105,6 @@
+ - Northcrest Investigation → Verdanthorn Warren → Temple of the Dragonknights → Resolution
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18239,8 +18239,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## Part I: Northcrest
+@@ -18331,8 +18329,6 @@
+ }}
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18414,9 +18410,8 @@
+ 
+ ---
+ 
+-
+-
+-\page
++\page
++
+ 
+ ## Part II: Verdanthorn Warren
+ 
+@@ -18506,8 +18501,6 @@
+ The stone doors grind open, revealing a carved staircase ascending into the mountain.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18566,9 +18559,6 @@
+ }}
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## The Armory
+@@ -18618,8 +18608,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## The Ritual Chamber
+@@ -18688,8 +18676,6 @@
+ This leads directly into the Venomfang confrontation — see **The Dragon's Lair**.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18743,8 +18729,6 @@
+ **If Shinebright is present (from Wild Sheep Chase):** :: His knowledge of Aeorian resonance frequencies makes the facility revelation automatic — no check required. Venomfang listens to a wizard even if she despises the format.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -18816,8 +18800,6 @@
+ ***Poison Breath (Recharge 5–6).*** Venomfang exhales poisonous gas in a 30-foot cone. Each creature in that area must make a **DC 14 Constitution saving throw**, taking 42 (12d6) poison damage on a failed save, or half as much on a successful one.
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -18911,8 +18893,6 @@
+ ***Spellcasting (1/Day each).*** The cultist casts one of the following, using Wisdom as its spellcasting ability (spell save DC 11): *sacred flame*, *inflict wounds* (1st level).
+ }}
+ 
+-
+-
+ \page
+ 
+ {{monster,frame
+@@ -18944,10 +18924,7 @@
+ 
+ ---
+ 
+-
+-
+-\page
+-
++\page
+ {{wide
+ # Section 8: Resolution Paths
+ 
+@@ -19025,8 +19002,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ### Seal or Collapse the Temple
+@@ -19076,8 +19051,6 @@
+ **Sera Gelanadel:** :: Will stay in Northcrest for three days to finish her documentation, then travel to Waystone to deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -19165,8 +19138,6 @@
+ 
+ ---
+ 
+-
+-
+ \page
+ 
+ ## DM Notes 
+@@ -19252,8 +19223,6 @@
+ }}
+ ---
+ 
+-
+-
+ \page
+ 
+ ## Improvisation Toolkit
+@@ -19325,8 +19294,6 @@
+ - **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
+ 
+ ---
+-
+-
+ 
+ \page
+ 
+@@ -19379,8 +19346,6 @@
+ - [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
+ - [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
+ 
+-
+-
+ \page
+ 
+ # Quick Reference During Play
+@@ -19477,8 +19442,6 @@
+ - Path down the mountain with Clementine
+ - Joel Andersmith reunion; Northcrest celebration
+ - Debrief with Lorewarden Elric
+-
+-
+ 
+ \page
+ 
+@@ -19560,8 +19523,12 @@
+ - [ ] Prepare Elric's follow-up hooks (other convergence points, Salsvault, faction movements)
+ - [ ] If Venomfang escaped: note potential future encounter and her stated warning
+ 
+-
+-\page
++ 
++
++
++
++\page
++
+ 
+ # World Secrets
+ 
+@@ -19647,7 +19614,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ### The Northreach Region's Connection
+@@ -19684,6 +19650,7 @@
+ - Defensive kill-zones
+ 
+ ---
++
+ 
+ 
+ \page
+@@ -19773,7 +19740,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## The Entity Behind the Echo
+@@ -19863,7 +19829,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ### Option C: The Failed God
+@@ -19970,7 +19935,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## Magical Mechanics of the Echo
+@@ -20052,7 +20016,6 @@
+ - Entity can sense through crystal network
+ 
+ ---
+-
+ 
+ \page
+ 
+@@ -20127,7 +20090,6 @@
+ - *Current Status:* Research equipment exists in Temple facility
+ - *Threat Level:* Extreme (permanent harm to dragons)
+ 
+-
+ \page
+ 
+ ### Magical-Technological Weapons
+@@ -20199,6 +20161,9 @@
+ ---
+ 
+ 
++
++
++
+ \page
+ 
+ ## The Artifact Trade: Following the Money
+@@ -20285,7 +20250,6 @@
+ 
+ ---
+ 
+-
+ \page
+ 
+ ## Campaign Timeline: 
+@@ -20405,8 +20369,10 @@
+ ---
+ 
+ 
+-\page
+-
++
++
++
++\page
+ # Player Investigation Paths
+ ### Following the Wolves
+ 
+@@ -20513,8 +20479,6 @@
+ - Shinebright (knows countermeasures)
+ - Sera (deduced patterns)
+ - Baleth (unwilling information source)
+-
+-
+ 
+ \page
+ 
+@@ -20646,9 +20610,6 @@
+ - Information vital to stopping entity
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ### Temple of the Dragonknights
+@@ -20775,6 +20736,8 @@
+ 
+ 
+ 
++
++
+ \page
+ 
+ ## NPC Arcs and Development
+@@ -20874,9 +20837,6 @@
+ - Duty to act
+ 
+ ---
+-
+-
+-
+ \page
+ 
+ ## Running the Echo: DM Tips

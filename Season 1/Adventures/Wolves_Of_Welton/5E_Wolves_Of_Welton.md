@@ -1,3 +1,4 @@
+![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}
 
 ### Northwatch Wardens Integration (DM)
 
@@ -65,6 +66,7 @@ None (campaign opener)
 
 
 \page
+
 ### Investigation Thread Summary
 
 **If players complete this adventure, they learn:**
@@ -143,7 +145,6 @@ The wolves' intelligence was triggered by **Alexi Merriksonn's death**. The sorc
 - **Problem:** If Flame feels like a "boss fight," negotiation path seems like it failed.
 
 - **Solution:** Make clear Flame represents a *faction*, not the whole pack. Killing Flame solidifies Bolt's leadership and proves wolves can police themselves — this **strengthens** the negotiation argument.
-
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
@@ -240,7 +241,6 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Tillus walks out in protest:** Vote passes 3-2 (with Tillus abstaining)
 - **Future hook:** Tillus remains hostile; may cause problems later
 
-
 {{pageNumber,auto}}
 {{footnote DM Notes: Wolves of Welton}}
 
@@ -290,6 +290,7 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 {{footnote DM Notes: Wolves of Welton}}
 
 \page
+
 # DM Prep Checklist: Wolves of Welton
 
 ### One Week Before Session
@@ -401,7 +402,6 @@ He heard wolves *talking* during his capture. (He's considered crazy, but he's t
 - **Tillus Merrion:** Halfling council member, distrusts outsiders
 - **Leanor Slatebeard:** Dwarven innkeeper
 - **Willen Featherock:** Traumatized halfling shepherd (was captured by wolves, released)
-
 
 {{pageNumber,auto}}
 {{footnote DM Prep Checklist: Wolves of Welton}}
@@ -571,9 +571,6 @@ ___
 Up to two allied wolves that can hear the bark may immediately use their reaction to move up to half their speed.
 }}
 
-
-
-
 {{pageNumber,auto}}
 {{footnote Wolves of Welton}}
 
@@ -669,7 +666,6 @@ He is not lying — but many villagers think he is.
 {{footnote Wolves of Welton}}
 
 \page
-
 
 ## The Council Meeting
 
@@ -950,7 +946,6 @@ An elderly shepherd waves the party down from a distance. “If you’re heading
 
 \page
 
-
 ## Scene 4: The Owlbear’s Picnic
 {{note
 This scene is optional. Use it to add tension, danger, or a meaningful combat beat if the party’s earlier travel felt light.
@@ -1025,7 +1020,6 @@ The owlbear makes two attacks: one with its beak and one with its claws.
 {{footnote Wolves of Welton}}
 
 \page
-
 
 {{wide
 ## Scene 5: The Den’s Denizens
