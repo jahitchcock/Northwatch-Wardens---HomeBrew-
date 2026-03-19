@@ -1,11 +1,11 @@
 \page
 # Temple of the Dragonknights
-{{wide
+## Northwatch Wardens Integration (DM)
+
 {{note
-- **Arc Position:** Arc 3 — *Convergence*
-- **Mystery Rating:** ⭐⭐⭐⭐ (High — Faction Response & Convergence Point)
-- **Adventure Tier:** Levels 3–5 (Season 1 capstone)
-}}
+**Arc Position:** :: Arc 3 — *Convergence*
+**Mystery Rating:** :: ⭐⭐⭐⭐ (High — Faction Response & Convergence Point)
+**Adventure Tier:** :: Levels 3–5 (Season 1 capstone)
 }}
 
 {{descriptive
@@ -44,15 +44,15 @@ The Temple of the Dragonknights is the moment the campaign's stakes become geopo
 
 ### Northreach Context
 
-- The Temple of the Dragonknights lies in the mountains **northwest of Northcrest**, several hours from town
-- Northcrest is a frontier settlement — a blacksmith, an inn, a market square, and a militia that is no match for a dragon
+- The Temple of the Dragonknights lies in the mountains **northwest of Waystone Inn**, several hours from the guild headquarters
+- Waystone Inn is the Wardens' operational hub in Northreach. When trouble escalates, messages and refugees end up here first.
 - **Venomfang** is a young green dragon who arrived in the region recently, drawn by the Echo's resonance from Salsvault
 - **The Dragonknights** were an ancient order of warriors who discovered an Aeorian facility beneath the mountain and sealed it — then built their tomb over the seal as a final ward
-- The kobold cult worships Venomfang, follows her willingly, and has been raiding Northcrest for supplies and sacrifices
+- The kobold cult worships Venomfang, follows her willingly, and has been raiding outlying caravans and farmsteads for supplies and sacrifices
 
 ###### The Wardens are positioned to respond because:
 
-- Northcrest falls under their patrol jurisdiction
+- Waystone Inn is their base of operations
 - Lorewarden Elric has been tracking unusual magical energy signatures northwest of town for weeks
 - The kobold raids have now claimed lives — this is no longer an investigative matter
 
@@ -158,7 +158,7 @@ By completing Temple of the Dragonknights, the Wardens learn:
 
 Temple of the Dragonknights is the **Arc 3 capstone** — the moment the campaign shifts from investigation to confrontation.
 
-A young dragon heard the Echo and came to claim it. Her kobold cult has been raiding Northcrest for supplies and sacrifices. A farmer's family is dead or missing. And beneath the temple where the Dragonknights buried their dead, something ancient is straining against seals that are slowly breaking.
+A young dragon heard the Echo and came to claim it. Her kobold cult has been raiding the roads and farms around **Waystone Inn** for supplies and living sacrifices. A farmer's family is dead or missing. And beneath the temple where the Dragonknights buried their dead, something ancient is straining against seals that are slowly breaking.
 
 #### This adventure blends:
 
@@ -172,7 +172,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 ### The Wardens must:
 
-- Respond to a kobold raid on Northcrest and follow the trail back to its source
+- Respond to a kobold raid at Waystone Inn and follow the trail back to its source
 - Navigate Verdanthorn Warren — a natural cave network riddled with kobold traps and cultist chambers
 - Rescue Clementine Andersmith and stop an active ritual before it completes
 - Confront Venomfang in the Temple of the Dragonknights
@@ -188,7 +188,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 ### Stakes
 
 #### **Immediate Stakes**
-- The kobold cult has been raiding Northcrest for weeks; the raids are escalating
+- The kobold cult has been raiding the Waystone road and nearby farms for weeks; the raids are escalating
 - Joel Andersmith's daughter Clementine has been taken — the ritual requires a living component
 - **The ritual is ongoing** — every hour the Wardens delay, the ward anchors weaken further
 - Venomfang is CR 8. Direct confrontation without preparation may be fatal.
@@ -209,7 +209,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 - **4–6 hours** total
 - Best run as a **single session** for experienced parties or **two sessions** for thorough exploration
-- Northcrest Investigation → Verdanthorn Warren → Temple of the Dragonknights → Resolution
+- Waystone Raid Response → Verdanthorn Warren → Temple of the Dragonknights → Resolution
 
 ---
 
@@ -222,10 +222,10 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 **Venomfang** :: Young green dragon; ambitious, pragmatic, genuinely dangerous — and not quite sure what she's sitting on
 **The Kobold Cult** :: Fanatical dragon-worshippers; organized, trap-happy, and utterly convinced Venomfang will ascend to godhood
-**Joel Andersmith** :: Farmer from north of Northcrest; injured in the raid; his family is dead except for his daughter
+**Joel Andersmith** :: Farmer from north of Waystone Inn; injured in the raid; his family is dead except for his daughter
 **Sera Gelanadel** :: Arcanist researcher captured by the cult; was investigating Echo anomalies in the area for Lorewarden Elric
-**Richard & Lauraine Brown** :: Innkeepers of The Flowing Mug in Northcrest; steady, practical, quietly terrified
-**Dorn Stoutheart** :: Northcrest's blacksmith; can restock the Wardens and knows the mountain paths
+**Steward Mara Fenwick** :: Guild quartermaster; turns Waystone Inn into triage and pushes the Wardens north with supplies
+**Lorewarden Elric Vael** :: Arcane scholar; receives Sera's findings and frames the bigger pattern
 
 ---
 
@@ -247,9 +247,9 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 
 ### Adventure Flow (High-Level)
 
-#### **1. Northcrest — Kobolds vs. Guards**
-- A kobold raid is happening as the Wardens arrive
-- Northcrest guards are outmatched; civilian casualties are imminent
+#### **1. Waystone Inn — Kobolds vs. Auxiliaries**
+- A kobold raid hits the inn yard without warning
+- Inn auxiliaries are outmatched; civilian casualties are imminent
 - Joel Andersmith is found injured — his farm is destroyed, his daughter is missing
 
 #### **2. The Andersmith Farm**
@@ -275,7 +275,7 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 #### **6. Resolution & Return**
 - Clementine rescued; cult broken or scattered
 - Venomfang defeated, driven away, or negotiated with
-- Return to Northcrest; debrief with Lorewarden Elric
+- Return to Waystone Inn; debrief with Lorewarden Elric
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
@@ -289,12 +289,12 @@ This section gives the DM a high-level narrative overview of Temple of the Drago
 }}
 
 {{descriptive
-The kobold raid on Northcrest would have been just another frontier incident — except for the green scales on the raiders and the way the wounded farmer's eyes go hollow when he tries to explain what he saw. His wife is dead. His son is dead. His daughter is gone. And the kobolds came from the northwest, from the old temple in the mountains that nobody goes near anymore.
+The kobold raid at Waystone Inn would have been just another frontier incident — except for the green scales on the raiders and the way the wounded farmer's eyes go hollow when he tries to explain what he saw. His wife is dead. His son is dead. His daughter is gone. And the kobolds came from the northwest, from the old temple in the mountains that nobody goes near anymore.
 }}
 
 Three weeks ago, a young green dragon named Venomfang crossed the Northreach mountains. She was following a signal — a resonance she felt in her bones, something ancient and potent radiating from a convergence of ley lines beneath an old mountain temple. She claimed the site, installed her kobold followers in the cavern below, and began planning.
 
-Her kobold cult has been raiding Northcrest for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aeorian facility, or that the ritual is weakening the seals that have held for centuries.
+Her kobold cult has been raiding the Waystone road and nearby farms for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aeorian facility, or that the ritual is weakening the seals that have held for centuries.
 
 Today, the raid went further than intended. Joel Andersmith's family is dead. His daughter Clementine has been taken. And the Wardens are the only ones with the authority and the capability to follow the trail north.
 
@@ -302,8 +302,8 @@ Today, the raid went further than intended. Joel Andersmith's family is dead. Hi
 
 ### The Story in Four Acts
 
-#### **Act I — Northcrest**
-The Wardens arrive to find the town in chaos — a kobold raid in progress, guards outmatched, civilians fleeing. After the dust settles, a wounded farmer is found propped against the inn wall. Joel Andersmith tells them what happened at his farm. The guards make clear: this is Warden business now.
+#### **Act I — Waystone Inn**
+The Wardens are at Waystone Inn when the yard erupts — a kobold raid in progress, auxiliaries outmatched, travelers scattering. After the dust settles, a wounded farmer is found propped against the inn wall. Joel Andersmith tells them what happened at his farm. The inn staff make clear: this is Warden business now.
 
 ---
 
@@ -329,7 +329,7 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 ### The Ending
 
 #### **If Venomfang is killed:**
-- Northcrest celebrates; the kobolds scatter
+- Waystone Inn steadies; the kobolds scatter
 - The convergence point remains — the signal continues
 - Elric: "You solved the immediate problem. But the beacon is still broadcasting."
 
@@ -355,53 +355,279 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 
 \page
 
-## Part I: Northcrest
+# DM Notes: Temple of the Dragonknights
 
 {{note
-This section begins the adventure proper. The Wardens are in or passing through Northcrest when the kobold raid begins. This phase establishes the town, the threat, and the human cost — and sends the party north with a clear mission. Keep this section fast and visceral. The raid should feel dangerous and urgent, not like an introductory tutorial.
+Use this section as your behind-the-screen control panel for Temple of the Dragonknights.
+It consolidates tone guidance, pitfalls, scaling, and improvisation tools.
+The most important note: **Venomfang is not a monster. She is a person with goals. Play her that way.**
+}}
+
+### Adventure Overview (DM Lens)
+
+**Theme:** Ambition and exploitation — factions respond to the Aeorian Echo.
+**Core Tension:** A young dragon has claimed a convergence point she doesn't fully understand, and stopping her doesn't stop the signal.
+**Tone:** Dangerous, morally complex, with room for negotiation and creative tactics.
+**Level Range:** 3–5 (campaign capstone).
+**Expected Duration:** 4–6 hours (single or two-session adventure).
+
+---
+
+### Common DM Pitfalls & Fixes
+
+#### **1. Venomfang as a Pure Villain**
+
+**Problem:** :: If Venomfang is played as a mindless monster, the moral complexity disappears.
+
+**Fix:** ::
+- She talks first. Always. Even if she's going to fight, she talks first.
+- She has legitimate goals: power, territory, the respect of something that usually dismisses her
+- She is genuinely wrong about what she's sitting on — this makes her almost sympathetic
+- If Shinebright is present, she will speak to him as an equal. She respects scholars more than soldiers.
+- Her final words, if she flees: not a threat. A warning. She has already learned something from this encounter.
+
+
+#### **2. Kobolds as Cannon Fodder**
+
+**Problem:** :: Kobolds feel like XP dispensers with no identity.
+
+**Fix:** ::
+- They are *fanatical* — they genuinely believe Venomfang will ascend to godhood
+- Use Pack Tactics visibly and explicitly — describe them flanking, signaling each other, coordinating
+- Captured kobolds have names (DM's choice) and opinions about Venomfang that are touching in their sincerity
+- When Venomfang flees, the kobolds' faces are the real consequence — they just watched their god leave
+
+---
+\column
+#### **3. The Cavern Becomes a Grind**
+
+**Problem:** :: Verdanthorn Warren has many areas; without pacing it becomes exhausting.
+
+**Fix:** ::
+- Sera Gelanadel, once rescued, narrates the rest of the layout — the Wardens don't need to clear every room
+- The kobolds in sleeping quarters are genuinely asleep if the Wardens have been quiet
+- Let the puzzle in Area 5 feel like a discovery, not a gate
+- The bridge crossing should be tense the first time and routine after — don't make them roll every crossing
+
+#### **4. Venomfang Fight Is TPK-Bait**
+
+**Problem:** :: Young green dragon (CR 8) can kill a Level 3 party in two rounds.
+
+**Fix:** ::
+- She starts with Poison Breath if available, then retreats to the air — she does not close to melee immediately
+- At 50% HP, she offers terms or retreats through the ceiling. She values her life more than she values winning.
+- The dragon eggs are leverage the players can discover and use
+- If the party is dying: Venomfang toys with them ("You're more entertaining than most. Leave now and I'll let you.") — this is still in-character
+- If TPK is imminent: She decides they're worth more as a ransom than a meal. The guild will pay for its Wardens.
+
+{{note
+**"We want to negotiate before we even enter the cavern!"**
+→ Valid. Venomfang sends a kobold emissary if they announce themselves loudly enough outside. She is genuinely curious what they want. Roll into negotiation directly — Clementine is still captive, which is leverage both ways.
+
+**"Venomfang killed us in round one."**
+→ She captures them instead — she wanted to ransom them to the guild anyway. They escape via skill challenge and get a second approach with better information.
+
+**"We want to collapse the entire temple."**
+→ Excellent instinct. Engineering/Investigation DC 15 to identify the structural weak points. Venomfang escapes (she can fly); the hoard is buried. The sealed facility's containment stabilizes. Elric is genuinely impressed.
+
+**"The kobolds are dying in one hit."**
+→ They should be using Pack Tactics — describe them flanking explicitly. If the party is steamrolling, add a kobold inventor (use **Kobold Guard** or **Kobold Cultist** stats with improvised alchemical bombs, 2d6 fire, DC 12 Dex save).
+
+**"We refuse to fight a CR 8 dragon; we're Level 3."**
+→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aeorian facility revelation as a negotiating tool.
+}}
+
+---
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+\page
+
+## Improvisation Toolkit
+
+#### **If Players Get Stuck:**
+
+1. **Joel Andersmith:** :: "The kobolds came from the northwest. Past the farm. There's an old temple up there — in the mountains. Nobody goes near it. Nobody. There's a reason for that."
+2. **Sera Gelanadel (once freed):** :: "I've been here two days. I know the layout, I know the ritual, I know where the dragon is and what she wants. Ask me anything."
+3. **A surviving kobold:** :: "The Great One is in the high chamber. She knows you're here. She's been watching since the cavern entrance."
+
+---
+
+#### **If Players Avoid the Adventure:**
+
+- Kobold raids escalate — the market square is attacked; civilians are killed
+- Venomfang sends a kobold emissary to Waystone Inn: "Your Wardens have delayed long enough. Send them, or I will come myself."
+- Lorewarden Elric sends urgent word: "The convergence point northwest of Waystone Inn is actively amplifying. Something is exploiting it. Go."
+
+---
+
+#### **If Combat Is Too Easy:**
+
+- Kobold reinforcements arrive from a hidden tunnel (2d4 kobolds, 2 rounds delay)
+- Venomfang uses her environment: poison fog through a crack in the floor, rockfall from the ceiling
+- The ritual's completion triggers a surge — the next enemy attack automatically crits
+
+---
+
+#### **If Combat Is Too Hard:**
+
+- Venomfang decides the party is not worth dying over and offers terms immediately
+- The dragon eggs hatch — tiny green dragon wyrmlings that are confused and not hostile; chaos ensues, Venomfang is distracted
+- Sera Gelanadel joins combat, casting *thunderwave* from cover (she kept one spell slot)
+
+---
+
+\column
+
+## Rewards & Aftermath
+
+###### **Standard Rewards:**
+
+- Waystone Inn gratitude (500 gp + free supplies, priority guild-store access)
+- Dragon hoard (if Venomfang is killed or driven away)
+- Kobold cult cache (200 gp + supplies recovered for Waystone Inn)
+
+###### **Venomfang's Hoard:**
+
+- **1,500 gp** in assorted coin and trade goods
+- **2d4 gems** (100 gp each)
+- **+1 Longsword** — inscribed with the Dragonknight oath; has history
+- **Cloak of Elvenkind** — from a previous victim; no enchantment degradation
+- **Potions of Greater Healing ×3**
+- **One rare item** (DM's choice, based on party composition)
+
+###### **Milestone XP:**
+
+- Complete the Waystone raid response and reach the temple → **+200 XP each**
+- Rescue Clementine Andersmith → **+150 XP each**
+- Resolve the Venomfang confrontation (any outcome) → **+300 XP each**
+- Discover the Aeorian facility beneath the temple → **+100 XP bonus**
+- Disrupt or collapse the convergence point → **+150 XP bonus**
+
+###### **Reputation:**
+
+- **Waystone Inn:** Trusted. Travelers remember who kept the inn standing.
+- **Northreach Wardens:** Senior Warden status; Marshal Brenna promotes them formally
+- **Lorewarden Elric:** The most direct engagement yet with the Echo's consequences; his investment in the Wardens increases significantly
+- **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
+
+---
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+\page
+
+## DM Prep Checklist
+
+### One Week Before Session
+
+- [ ] Read entire adventure (30–45 minutes)
+- [ ] Review DM Notes section for Venomfang's personality and tactics
+- [ ] Decide: will Venomfang negotiate OR fight to near-death?
+- [ ] Decide: will the Aeorian facility revelation change her calculus? (Recommended: yes)
+- [ ] Familiarize yourself with Young Green Dragon stat block (this document)
+- [ ] Review kobold Pack Tactics — plan to use it visibly every round
+- [ ] Mark key revelation moments (ward anchors, Aeorian facility, Venomfang's warning)
+- [ ] Review Aeorian Echo foreshadowing lines
+
+### Day Before Session
+
+- [ ] Print/bookmark stat blocks:
+  - [ ] Venomfang (this document)
+  - [ ] Kobold (this document)
+  - [ ] Winged Kobold (this document)
+  - [ ] Kobold Cultist (this document)
+  - [ ] Dragonknight Warden / Zombie (this document)
+  - [ ] Piercer (this document)
+- [ ] Prepare Venomfang's lair description (open summit, hoard, dragon eggs, open ceiling)
+- [ ] Prepare kobold trap descriptions (bridge, pressure plate, piercer)
+- [ ] Decide on Venomfang's hoard contents (from Rewards section)
+- [ ] Review Sera Gelanadel's knowledge — she is a significant resource once freed
+- [ ] Review optional lair actions (rockfall, poison fog) if party is high Level 4–5
+
+\column
+### Props & Materials
+
+- [ ] Index card with Venomfang's dialogue (opening, negotiation offer, retreat line)
+- [ ] Index card with Sera Gelanadel's information dump (layout, ritual, dragon location)
+- [ ] Index card with Dragonknight frieze descriptions (for the reveal)
+- [ ] Map of Verdanthorn Warren (5 areas — sketch or theater of mind)
+- [ ] Map of Temple of Dragonknights (6 areas)
+- [ ] Dragon miniature or token (Venomfang — Large)
+- [ ] Kobold miniatures or tokens (10–12 recommended)
+- [ ] Three intact egg tokens or dice to represent the dragon eggs
+
+### Session Zero / Player Prep
+
+- [ ] Confirm party level (3–5 recommended; this is a demanding adventure)
+- [ ] Brief players: This adventure features a dragon confrontation (CR 8) — preparation and tactics matter
+- [ ] Set expectations: Combat, exploration, negotiation — all are genuinely viable
+- [ ] Ask players: "How does your character feel about dragons? About negotiating with something dangerous?"
+- [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
+- [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+\page
+
+## Part I: Waystone Inn
+
+{{note
+This section begins the adventure proper. The Wardens are at **Waystone Inn** when the kobold raid begins. This phase establishes the threat, the human cost, and the uncomfortable truth that the Echo's fallout is now close enough to touch. Keep this section fast and visceral. The raid should feel dangerous and urgent, not like an introductory tutorial.
 }}
 
 {{descriptive
-You are spending an evening in Northcrest — a frontier town doing its best, which means the walls are maintained, the blacksmith is busy, and the inn serves warm food without asking too many questions. It is almost a normal night.
+You are spending an evening at Waystone Inn — warm light in the windows, wet boots by the hearth, the low murmur of travelers who aren't sure whether they're safe yet.
 Then the screaming starts.
 }}
 
 ---
 
-#### The Flowing Mug Inn
+#### Waystone Inn (Common Room → Yard)
 
-The Wardens are at The Flowing Mug when the sounds of combat erupt outside. Richard and Lauraine Brown run a trustworthy establishment — warm, practical, and currently in the process of becoming a temporary triage point.
+The Wardens are at Waystone Inn when the sounds of combat erupt outside. Steward Mara Fenwick is already moving — hauling bandages, barking short instructions, making the common room a triage point without asking permission.
 
-###### Additional Information
-
-**Richard Brown:** :: Male, human, mid-sixties, barkeep. Steady under pressure. Has a crossbow under the bar he has never fired in his life.
-**Lauraine Brown:** :: Female, human, early-sixties, innkeeper. More practical than her husband. Will organize injured civilians without being asked.
-
-The moment combat is audible outside, Richard looks at the Wardens across the bar and says, simply: "That'll be kobolds again."
+The moment the first crash of splintering wood hits the yard, Mara looks at the Wardens and says, simply: "They're back. Don't let them take anything alive."
 
 This leads directly into -  
 
 ---
 
-#### Kobolds vs. Guards
+#### Kobolds vs. Auxiliaries
 
 {{descriptive
-Outside, four Northcrest guards are trying to hold a position against six green-scaled kobolds pouring from the northern end of the market square. Two guards are already down. A seventh kobold has broken off from the main group and is dragging a barrel from a market stall while the fighting draws attention elsewhere.
+Outside, two Warden auxiliaries and a couple of hired hands are trying to hold a line at the inn yard gate against **four** green-scaled kobolds pouring in low and fast. One auxiliary is already down. A fifth kobold has broken off from the main group and is dragging a barrel of supplies toward the treeline.
 
-In the chaos, you can see a man slumped against the inn wall. He is breathing, barely.
+In the chaos, you can see a man slumped against the inn's outer wall. He is breathing, barely.
 }}
 
-The guards are outmatched and know it. They will fight bravely but will retreat if the Wardens don't intervene. The kobolds are organized — one leads, the others follow tactical signals.
+The auxiliaries are outmatched and know it. They will fight bravely but will retreat if the Wardens don't intervene. Use the **Guard** stat block for auxiliaries (see below). The kobolds are organized — one leads, the others follow tactical signals.
 
-**The seventh kobold** (the thief) will flee north with the supplies if not intercepted. If captured, he can be interrogated — see **Capturing a Kobold** below.
+{{note
+**Scaling:** For 4–5 players, add **two** additional kobolds (for a total of 6 + the thief).
+}}
 
-Resolving this encounter without civilian casualties yields the Wardens immediate goodwill from Northcrest.
+{{note
+**Running This Fight (fast):**
+
+- **Terrain:** The yard gate is a 10-foot choke point. Barrels, a woodpile, and a trough provide **half cover**. Lantern light means no one is fighting in full darkness.
+- **Civilians:** Any noncombatants stay behind the inn doors unless the Wardens lose the line.
+- **Kobold tactics:** Two kobolds harry whoever looks easiest to drop (Pack Tactics), while one stays near the thief to cover the retreat with sling stones.
+- **Morale:** If **half the kobolds** are dropped or the thief is captured, the remaining kobolds **Disengage and flee** north. They are raiders, not martyrs.
+}}
+
+**The thief kobold** will flee north with the supplies if not intercepted. If captured, he can be interrogated — see **Capturing a Kobold** below.
+
+Resolving this encounter without civilian casualties yields the Wardens immediate goodwill from Waystone Inn's staff and the surrounding travelers.
 
 \column
 
 ### Saving Joel Andersmith
 
-The man against the inn wall is Joel Andersmith, a farmer from north of town. He is conscious but injured, and his expression is the particular blankness of a man whose mind has not yet fully processed what his body survived.
+The man against the inn wall is Joel Andersmith, a farmer from north of Waystone Inn. He is conscious but injured, and his expression is the particular blankness of a man whose mind has not yet fully processed what his body survived.
 
 **DC 10 Medicine:** :: Stabilize Joel. He will remain conscious and coherent.
 
@@ -420,7 +646,7 @@ Once stabilized, Joel will tell the Wardens what he knows:
 - That his farm is still smoking; that the tracks are still fresh
 
 {{note
-**The Guards:** The Northcrest militia will remain in town to protect it from further raids. They will tell the Wardens clearly: they cannot follow the kobolds into the mountains. This is Warden business. They will provide whatever supplies they can spare.
+**The Auxiliaries:** Waystone Inn's hired hands and Warden auxiliaries will not follow the kobolds into the mountains. They will tell the Wardens clearly: they can't leave the inn undefended. This is Warden business. They'll provide whatever supplies they can spare.
 }}
 
 ---
@@ -445,21 +671,17 @@ The kobold's eyes, which have been darting to every exit, finally fix on you wit
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
-## The Blacksmith
+## Resupply at Waystone Inn
 
-Before heading north, the Wardens may wish to resupply at the smithy.
+Before heading north, the Wardens may wish to resupply.
 
-**Dorn Stoutheart:** :: Male, human, late-thirties, blacksmith. Practical and direct. He has been watching the kobold raids escalate for three weeks and is quietly furious about it.
+**Steward Mara Fenwick:** :: Mara can provide arrows, rope, torches, rations, and basic equipment repair from guild stores.
 
-Dorn can provide arrows, rope, torches, basic weapons repair, and one piece of standard armor at half cost for Wardens who are visibly preparing to go after the kobolds. He also knows the mountain paths.
-
-**DC 10 Charisma (any):** :: Dorn will sketch a rough map of the approaches to the old temple from memory. "Nobody goes up there anymore. Nobody sensible."
-
-*Item Cost*
+**DC 10 Charisma (any):** :: Mara produces a rough route sketch based on scout reports and older Warden notes. "Nobody goes up there unless they have to. Tonight, you have to." 
 
 |  |  |
 | --- | --- |
@@ -473,7 +695,7 @@ Dorn can provide arrows, rope, torches, basic weapons repair, and one piece of s
 
 ## Andersmith Farm
 
-About a mile north of Northcrest, the farmstead is visible from the road — smoke still rising from the barn, which has been half-collapsed. Slaughtered livestock are scattered across the ground. The house stands, but the front door hangs from one hinge.
+About a mile north of Waystone Inn, the farmstead is visible from the road — smoke still rising from the barn, which has been half-collapsed. Slaughtered livestock are scattered across the ground. The house stands, but the front door hangs from one hinge.
 
 {{descriptive
 The farm has the quality of a place where violence happened quickly and without hesitation. This was not a prolonged assault — the kobolds moved fast, took what they wanted, and left. The fires are already dying down. They didn't bother to finish them.
@@ -513,7 +735,7 @@ The tracks lead into an unnatural-looking thicket at the forest's edge — one t
 
 ### The Creek
 
-A mile along the trail, the forest opens onto a small creek. Slippery flat stones create a crossing. Crossing safely requires **DC 12 Acrobatics or Athletics**. Failure means falling into the water — cold and shallow, but two quippers have scented blood from the farm.
+A mile along the trail, the forest opens onto a small creek. Slippery flat stones create a crossing. Crossing safely requires **DC 12 Acrobatics or Athletics**. Failure means falling into the water — cold and shallow, but **two quippers** have scented blood from the farm (see stat block).
 
 Beyond the creek, sharpened spears topped with animal skulls begin to appear along the trail at intervals. This is deliberate — a warning, not decoration.
 
@@ -523,12 +745,21 @@ Beyond the creek, sharpened spears topped with animal skulls begin to appear alo
 
 Around a bend in the trail, **DC 12 Passive Perception** catches movement ahead. Turning the corner reveals two kobolds roasting a small animal on a spit. They are eating — any Stealth attempt automatically succeeds.
 
+Use the **Kobold** stat block (see below).
+
 Dispatching them quietly allows the Wardens to approach the cave entrance without alerting the interior.
+
+{{note
+**If this goes loud:** If either kobold escapes or combat lasts more than 2 rounds, the warren is alerted.
+
+- Area 2 kobolds are **awake and positioned**.
+- The winged kobold in the Entry Chamber is **not surprised** and starts on the ledge with a rock in hand.
+}}
 
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -544,6 +775,12 @@ Dispatching them quietly allows the Wardens to approach the cave entrance withou
 The cave entrance opens into a wide natural chamber. The moment the Wardens enter, a **winged kobold** drops from a ledge above the door and attacks immediately — it was waiting.
 
 Dispatching it quickly (before it can call out) prevents alerting the rest of the cavern. If it screams, the kobolds in Area 2 will be awake and armed when the party arrives.
+
+{{note
+**Spotting the ambush:** If a Warden's **passive Perception is 13+**, they notice the winged kobold's shadow/wing-scrape on stone before it drops. Otherwise, it acts in the opening moment with **Drop Rock**, then tries to **fly up and shriek**.
+
+**Winged kobold goal:** Not to win — to **raise the alarm**.
+}}
 
 {{note
 **Lighting:** The cavern has no light source beyond the entrance. Kobolds have darkvision; the Wardens may not.::
@@ -562,6 +799,10 @@ Dispatching it quickly (before it can call out) prevents alerting the rest of th
 | Over 230 | 20 |
 
 The check uses Acrobatics. If any Warden falls, roll a d10: on a 1 they take 1d6 piercing damage from a submerged stalagmite. Four hungry quippers wait in the water regardless.
+
+{{note
+**Scaling:** If you want this to be a single clean combat instead of whack-a-mole, replace the four quippers with **one Swarm of Quippers** (see stat block).
+}}
 
 **Crossing the bridge** safely yields the party an obvious sense of progress — the kobold encampment sounds are closer now.
 
@@ -584,6 +825,17 @@ Up a rough-cut staircase from the lower level, this wider chamber serves as the 
 **If the Wardens were quiet:** Three kobolds are asleep in their tents.
 **If the winged kobold screamed:** Three kobolds are awake, armed, and positioned at the staircase.
 
+Use the **Kobold** stat block.
+
+{{note
+**Tactics & morale:**
+
+- If asleep, a kobold wakes only if there is **loud combat** or a torch is brought within 10 ft.
+- If awake, they fight dirty: one uses **sling** from behind tents while two engage for **Pack Tactics**.
+- If reduced to **1 kobold remaining**, it attempts to **flee toward the Sealed Door** to warn the cultists.
+- If offered safe passage and the Wardens demonstrate strength (down 2 kobolds), the last kobold will **surrender** rather than die.
+}}
+
 {{note
 #### Contents of the Tents
 
@@ -591,7 +843,7 @@ Up a rough-cut staircase from the lower level, this wider chamber serves as the 
 - **Southeast Tent:**  Two Potions of Healing wrapped in cloth.
 - **Western Tent:**  Nothing of value, but the kobold sleeping here has the key to the supply cache.
 
-- **DC 10 Perception:**  A section of the eastern wall sounds hollow. **DC 14 Athletics:** Forces it open; inside are the stolen supplies from Northcrest's market (worth 100 gp to the merchants if returned).
+- **DC 10 Perception:**  A section of the eastern wall sounds hollow. **DC 14 Athletics:** Forces it open; inside are stolen trade goods and supplies meant for Waystone Inn (worth 100 gp to the guild if returned).
 }}
 
 ##### Triggering the Trap
@@ -602,6 +854,10 @@ Immediately past the staircase top, a pressure plate triggers if anyone over 120
 #### The Underground Lake
 
 From the bridge, a narrow ledge (requiring **DC 8 Acrobatics** to traverse) leads around the edge of the underground lake to a passage on the far side. The lake is 20 feet deep and extremely cold. The quippers are more aggressive than normal — something about this place makes the wildlife agitated.
+
+{{note
+**If anyone enters the water:** Use **four quippers** or **one Swarm of Quippers** (see stat blocks). The swarm option hits harder but resolves faster.
+}}
 
 
 #### The Piercer's Chamber
@@ -623,13 +879,13 @@ The stone doors grind open, revealing a carved staircase ascending into the moun
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
 # Part III: Temple of the Dragonknights
 
-{{desriptive
+{{descriptive
 *The stairs lead up into carved stone chambers — clean-cut, deliberate construction, nothing like the rough cave below. This is not a natural formation. Someone built this, a long time ago, for a specific purpose. The kobold cult has been here for weeks. You can tell.*
 }}
 
@@ -644,6 +900,14 @@ The first chamber contains four stone sarcophagi arranged around a central floor
 **These are not typical dead.** The Dragonknights' tomb is a ward anchor — disturbing it is precisely what the cult wants the Wardens to do. If the zombies are destroyed, the ward weakens slightly. If the Wardens find a way to *reseal* the sarcophagi (Religion DC 13), the ward holds.
 
 **DC 14 Religion:** These tombs are functional magical constructs, not ordinary burials. They are anchoring something.
+}}
+
+{{note
+**Running the fight:**
+
+- **Terrain:** Sarcophagi provide **half cover** and count as difficult terrain to climb over.
+- **Zombie behavior:** They attack the nearest living creature and do not retreat.
+- **Resealing in play:** As an **action** while adjacent to a sarcophagus, a creature can attempt **Religion DC 13**; on a success, that sarcophagus reseals and its zombie collapses inert.
 }}
 
 #### Additional Information
@@ -714,6 +978,15 @@ This is **Sera Gelanadel** — an apprentice wizard dispatched by Lorewarden Elr
 
 **Sera's Supplies:** :: She still has 2 Potions of Healing hidden in her boot that the kobolds missed.
 
+{{note
+**Armory encounter (runnable):**
+
+- **Creatures:** 1 **Kobold Cultist** (see stat block). If the temple has been alerted, a **Kobold Guard** arrives from the Ritual Chamber **after 2 rounds**.
+- **Surprise:** If the Wardens enter quietly, the cultist is focused on Sera and can be **surprised**.
+- **Freeing Sera:** The wall ring can be opened with a key carried by the cultist, **Thieves' Tools DC 12**, or forced with **Athletics DC 15** (this last option is loud).
+- **Morale:** The cultist fights to the death if cornered, but will flee to warn Venomfang if reduced below half HP.
+}}
+
 ---
 \column
 
@@ -733,6 +1006,10 @@ They are not celebrating. They are keeping watch.
 
 **A Fourth Shadow:** A dark shape detaches from the corner of the room as the Wardens examine the frieze — a zombie Dragonknight that had been standing motionless in the shadows. It attacks without sound.
 
+{{note
+**Spotting the shadow:** Passive Perception **13+** notices the "statue" is breathing (barely) or that its silhouette doesn't match the other shadows. If not noticed, it gets the opening strike.
+}}
+
 ---
 
 {{pageNumber,auto}}
@@ -751,6 +1028,13 @@ The chanting does not stop when you enter.
 }}
 
 The cultists will not break the ritual voluntarily — if forced to defend themselves, three will fight while two attempt to maintain the circle. If the chanting breaks entirely, Clementine falls (unconscious, unharmed). If two or fewer cultists remain, the ritual collapses on its own.
+
+{{note
+**Ritual timing (simple):** If **3+ cultists** chant uninterrupted, the ritual completes after **6 rounds**.
+
+- If fewer than 3 cultists are chanting at the end of a round, the ritual **does not advance** that round.
+- A cultist can be interrupted by dropping it to 0 HP, **shoving** it out of position, or inflicting a condition that stops actions.
+}}
 
 {{note
 **Scaling:**
@@ -1064,6 +1348,106 @@ ___
 ***DM Note.*** If the Piercer misses, it lands prone and is essentially helpless until it climbs back up. This takes approximately 3 rounds at its climb speed of 5 ft. for a 20-foot ceiling. Players who know this fact (DC 13 Nature) may choose to simply leave it on the floor.
 }}
 
+{{monster,frame
+## Guard
+*Medium humanoid (any race), any alignment*
+___
+**Armor Class** :: 16 (chain shirt, shield)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|12 (+1)|12 (+1)|10 (+0)|11 (+0)|10 (+0)|
+___
+**Skills** :: Perception +2
+**Senses** :: passive Perception 12
+**Languages** :: Common
+**Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.
+
+***Shortbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage.
+}}
+
+{{monster,frame
+## Kobold Guard
+*Small humanoid (kobold), lawful evil*
+___
+**Armor Class** :: 15 (leather armor, shield)
+**Hit Points**  :: 11 (3d6 + 1)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 9 (−1)|14 (+2)|12 (+1)| 8 (−1)|10 (+0)| 8 (−1)|
+___
+**Senses** :: darkvision 60 ft., passive Perception 10
+**Languages** :: Common, Draconic
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Pack Tactics.*** The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.
+___
+### Actions
+***Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+***Shield Bash.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be knocked prone.
+}}
+
+{{monster,frame
+## Quipper
+*Tiny beast, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 1 (1d4 − 1)
+**Speed**       :: 0 ft., swim 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 2 (−4)|16 (+3)| 9 (−1)| 1 (−5)| 7 (−2)| 2 (−4)|
+___
+**Senses** :: darkvision 60 ft., passive Perception 8
+**Languages** :: —
+**Challenge** :: 0 (10 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+}}
+
+{{monster,frame
+## Swarm of Quippers
+*Medium swarm of Tiny beasts, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 28 (8d8 − 8)
+**Speed**       :: 0 ft., swim 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|16 (+3)| 9 (−1)| 1 (−5)| 7 (−2)| 2 (−4)|
+___
+**Damage Resistances** :: bludgeoning, piercing, slashing
+**Condition Immunities** :: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+**Senses** :: darkvision 60 ft., passive Perception 8
+**Languages** :: —
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Blood Frenzy.*** The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.
+___
+### Actions
+***Bites.*** *Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.
+}}
+
 ---
 
 {{pageNumber,auto}}
@@ -1096,7 +1480,7 @@ Below, in the sealed chamber you can feel through the floor, something that has 
 
 - **Dragon Hoard:** 1,500 gp, 2d4 gems (100 gp each), 1d4 magic items (see Rewards section)
 - **Cult Treasure:** 200 gp, kobold-crafted traps and tools
-- **Northcrest Gratitude:** 500 gp + free supplies; permanent discount at town shops
+- **Waystone Inn Gratitude:** 500 gp + free supplies; priority access to guild stores for the next tenday
 - **The convergence point remains** — but without Venomfang feeding it, the resonance stabilizes
 
 ---
@@ -1172,7 +1556,7 @@ Venomfang escapes (flying). She loses her power base entirely. The sealed Aeoria
 \column
 
 ## Section 9:
-###### Return to Northcrest — Clementine and the Debrief
+###### Return to Waystone Inn — Clementine and the Debrief
 
 {{note
 This short section handles the immediate aftermath: returning Clementine to her father, the town's response, and the hook to Lorewarden Elric's debrief at Waystone.
@@ -1181,22 +1565,22 @@ This short section handles the immediate aftermath: returning Clementine to her 
 {{descriptive
 The path down the mountain takes longer than the path up. Clementine doesn't speak much. Sera Gelanadel does — she has been composing her report in her head for two days and delivers most of it at walking pace, occasionally stopping to make a note in a small journal she kept hidden in her coat.
 
-Northcrest is visible below, lamplight appearing in windows as the evening comes on.
+Waystone Inn is visible ahead, lamplight appearing in windows as the evening comes on.
 
-Joel Andersmith is still in The Flowing Mug. He will hear the door open. He will stand up. He will see his daughter in the doorway.
+Joel Andersmith is still at Waystone Inn. He will hear the door open. He will stand up. He will see his daughter in the doorway.
 
 He will not speak for a long time.
 }}
 
 ---
 
-### Northcrest's Response
+### Waystone Inn's Response
 
-Northcrest celebrates with the particular relief of a frontier settlement that has survived something it wasn't equipped to survive. Richard and Lauraine Brown organize a modest feast. Dorn Stoutheart offers to engrave the party's names on the town's founders' board. The militia captain shakes every Warden's hand individually and does not make eye contact because he is crying.
+Waystone Inn settles into a kind of exhausted relief — the sort that only comes after you survive something you weren't equipped to survive. Steward Mara Fenwick organizes a modest feast with whatever can be spared. Marshal Brenna Thorne shakes each Warden's hand once, firmly, and says: "Good work. You brought her home."
 
 **Clementine:** :: Physically unharmed; needs time. She asks one question before she goes to sleep: "Was it my fault? That we're here now, I mean. That they needed me." The answer is no. She was a component in a ritual she had no part in creating. The correct answer is worth giving clearly.
 
-**Sera Gelanadel:** :: Will stay in Northcrest for three days to finish her documentation, then travel to Waystone to deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
+**Sera Gelanadel:** :: Will stay at Waystone Inn for three days to finish her documentation, then deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
 
 ---
 
@@ -1237,9 +1621,9 @@ He pauses.
 ### Marshal Brenna's Response
 
 {{descriptive
-Marshal Brenna Thorne reviews the casualty report from Northcrest — the Andersmith family, two wounded guards, the burned barn — and her expression goes through several stages that end somewhere between grief and operational clarity.
+Marshal Brenna Thorne reviews the incident report from Waystone Inn — the Andersmith family, two wounded auxiliaries, the burned barn — and her expression goes through several stages that end somewhere between grief and operational clarity.
 
-"The Wardens responded correctly. Clementine Andersmith is alive. The cult is broken. Northcrest will recover." She looks at the map Elric has pinned to the board. "The other convergence points need assessment. Wardens move when Elric gives coordinates. This is now priority."
+"The Wardens responded correctly. Clementine Andersmith is alive. The cult is broken. Waystone will recover." She looks at the map Elric has pinned to the board. "The other convergence points need assessment. Wardens move when Elric gives coordinates. This is now priority."
 }}
 
 ---
@@ -1294,228 +1678,11 @@ The frontier is no longer just changing. It is being claimed.
 
 \page
 
-## DM Notes 
-
-{{note
-Use this section as your behind-the-screen control panel for Temple of the Dragonknights.
-It consolidates tone guidance, pitfalls, scaling, and improvisation tools.
-The most important note: **Venomfang is not a monster. She is a person with goals. Play her that way.**
-}}
-
-### Adventure Overview (DM Lens)
-
-**Theme:** Ambition and exploitation — factions respond to the Aeorian Echo.
-**Core Tension:** A young dragon has claimed a convergence point she doesn't fully understand, and stopping her doesn't stop the signal.
-**Tone:** Dangerous, morally complex, with room for negotiation and creative tactics.
-**Level Range:** 3–5 (campaign capstone).
-**Expected Duration:** 4–6 hours (single or two-session adventure).
-
----
-
-### Common DM Pitfalls & Fixes
-
-#### **1. Venomfang as a Pure Villain**
-
-**Problem:** :: If Venomfang is played as a mindless monster, the moral complexity disappears.
-
-**Fix:** ::
-- She talks first. Always. Even if she's going to fight, she talks first.
-- She has legitimate goals: power, territory, the respect of something that usually dismisses her
-- She is genuinely wrong about what she's sitting on — this makes her almost sympathetic
-- If Shinebright is present, she will speak to him as an equal. She respects scholars more than soldiers.
-- Her final words, if she flees: not a threat. A warning. She has already learned something from this encounter.
-
-
-#### **2. Kobolds as Cannon Fodder**
-
-**Problem:** :: Kobolds feel like XP dispensers with no identity.
-
-**Fix:** ::
-- They are *fanatical* — they genuinely believe Venomfang will ascend to godhood
-- Use Pack Tactics visibly and explicitly — describe them flanking, signaling each other, coordinating
-- Captured kobolds have names (DM's choice) and opinions about Venomfang that are touching in their sincerity
-- When Venomfang flees, the kobolds' faces are the real consequence — they just watched their god leave
-
----
-\column
-#### **3. The Cavern Becomes a Grind**
-
-**Problem:** :: Verdanthorn Warren has many areas; without pacing it becomes exhausting.
-
-**Fix:** ::
-- Sera Gelanadel, once rescued, narrates the rest of the layout — the Wardens don't need to clear every room
-- The kobolds in sleeping quarters are genuinely asleep if the Wardens have been quiet
-- Let the puzzle in Area 5 feel like a discovery, not a gate
-- The bridge crossing should be tense the first time and routine after — don't make them roll every crossing
-
-#### **4. Venomfang Fight Is TPK-Bait**
-
-**Problem:** :: Young green dragon (CR 8) can kill a Level 3 party in two rounds.
-
-**Fix:** ::
-- She starts with Poison Breath if available, then retreats to the air — she does not close to melee immediately
-- At 50% HP, she offers terms or retreats through the ceiling. She values her life more than she values winning.
-- The dragon eggs are leverage the players can discover and use
-- If the party is dying: Venomfang toys with them ("You're more entertaining than most. Leave now and I'll let you.") — this is still in-character
-- If TPK is imminent: She decides they're worth more as a ransom than a meal. Northcrest will pay for their Wardens.
-
-{{note
-**"We want to negotiate before we even enter the cavern!"**
-→ Valid. Venomfang sends a kobold emissary if they announce themselves loudly enough outside. She is genuinely curious what they want. Roll into negotiation directly — Clementine is still captive, which is leverage both ways.
-
-**"Venomfang killed us in round one."**
-→ She captures them instead — she wanted to ransom them to Northcrest anyway. They escape via skill challenge and get a second approach with better information.
-
-**"We want to collapse the entire temple."**
-→ Excellent instinct. Engineering/Investigation DC 15 to identify the structural weak points. Venomfang escapes (she can fly); the hoard is buried. The sealed facility's containment stabilizes. Elric is genuinely impressed.
-
-**"The kobolds are dying in one hit."**
-→ They should be using Pack Tactics — describe them flanking explicitly. If the party is steamrolling, add the kobold inventor (use Kobold Dragonshield or Cultist stats with improvised alchemical bombs, 2d6 fire, DC 12 Dex save).
-
-**"We refuse to fight a CR 8 dragon; we're Level 3."**
-→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aeorian facility revelation as a negotiating tool.
-}}
----
-
-{{pageNumber,auto}}
-{{footnote Section 8: Resolution Paths}}
-
-\page
-
-## Improvisation Toolkit
-
-#### **If Players Get Stuck:**
-
-1. **Joel Andersmith:** :: "The kobolds came from the northwest. Past the farm. There's an old temple up there — in the mountains. Nobody goes near it. Nobody. There's a reason for that."
-2. **Sera Gelanadel (once freed):** :: "I've been here two days. I know the layout, I know the ritual, I know where the dragon is and what she wants. Ask me anything."
-3. **A surviving kobold:** :: "The Great One is in the high chamber. She knows you're here. She's been watching since the cavern entrance."
-
----
-
-#### **If Players Avoid the Adventure:**
-
-- Kobold raids escalate — the market square is attacked; civilians are killed
-- Venomfang sends a kobold emissary to Northcrest: "Your Wardens have delayed long enough. Send them, or I will come myself."
-- Lorewarden Elric sends urgent word: "The convergence point northwest of Northcrest is actively amplifying. Something is exploiting it. Go."
-
----
-
-#### **If Combat Is Too Easy:**
-
-- Kobold reinforcements arrive from a hidden tunnel (2d4 kobolds, 2 rounds delay)
-- Venomfang uses her environment: poison fog through a crack in the floor, rockfall from the ceiling
-- The ritual's completion triggers a surge — the next enemy attack automatically crits
-
----
-
-#### **If Combat Is Too Hard:**
-
-- Venomfang decides the party is not worth dying over and offers terms immediately
-- The dragon eggs hatch — tiny green dragon wyrmlings that are confused and not hostile; chaos ensues, Venomfang is distracted
-- Sera Gelanadel joins combat, casting *thunderwave* from cover (she kept one spell slot)
-
----
-
-\column
-
-## Rewards & Aftermath
-
-###### **Standard Rewards:**
-
-- Northcrest gratitude (500 gp + free supplies, permanent shop discount)
-- Dragon hoard (if Venomfang is killed or driven away)
-- Kobold cult cache (200 gp + supplies recovered from Northcrest)
-
-###### **Venomfang's Hoard:**
-
-- **1,500 gp** in assorted coin and trade goods
-- **2d4 gems** (100 gp each)
-- **+1 Longsword** — inscribed with the Dragonknight oath; has history
-- **Cloak of Elvenkind** — from a previous victim; no enchantment degradation
-- **Potions of Greater Healing ×3**
-- **One rare item** (DM's choice, based on party composition)
-
-###### **Milestone XP:**
-
-- Complete the Northcrest investigation and reach the temple → **+200 XP each**
-- Rescue Clementine Andersmith → **+150 XP each**
-- Resolve the Venomfang confrontation (any outcome) → **+300 XP each**
-- Discover the Aeorian facility beneath the temple → **+100 XP bonus**
-- Disrupt or collapse the convergence point → **+150 XP bonus**
-
-###### **Reputation:**
-
-- **Northcrest:** Heroes. Permanent. The Browns will name a drink after them.
-- **Northreach Wardens:** Senior Warden status; Marshal Brenna promotes them formally
-- **Lorewarden Elric:** The most direct engagement yet with the Echo's consequences; his investment in the Wardens increases significantly
-- **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
-
----
-
-{{pageNumber,auto}}
-{{footnote Section 8: Resolution Paths}}
-
-\page
-
-# DM Prep Checklist: 
-
-## One Week Before Session
-
-- [ ] Read entire adventure (30–45 minutes)
-- [ ] Review DM Notes section for Venomfang's personality and tactics
-- [ ] Decide: will Venomfang negotiate OR fight to near-death?
-- [ ] Decide: will the Aeorian facility revelation change her calculus? (Recommended: yes)
-- [ ] Familiarize yourself with Young Green Dragon stat block (this document)
-- [ ] Review kobold Pack Tactics — plan to use it visibly every round
-- [ ] Mark key revelation moments (ward anchors, Aeorian facility, Venomfang's warning)
-- [ ] Review Aeorian Echo foreshadowing lines
-
-## Day Before Session
-
-- [ ] Print/bookmark stat blocks:
-  - [ ] Venomfang (this document)
-  - [ ] Kobold (this document)
-  - [ ] Winged Kobold (this document)
-  - [ ] Kobold Cultist (this document)
-  - [ ] Dragonknight Warden / Zombie (this document)
-  - [ ] Piercer (this document)
-- [ ] Prepare Venomfang's lair description (open summit, hoard, dragon eggs, open ceiling)
-- [ ] Prepare kobold trap descriptions (bridge, pressure plate, piercer)
-- [ ] Decide on Venomfang's hoard contents (from Rewards section)
-- [ ] Review Sera Gelanadel's knowledge — she is a significant resource once freed
-- [ ] Review optional lair actions (rockfall, poison fog) if party is high Level 4–5
-
-\column
-## Props & Materials
-
-- [ ] Index card with Venomfang's dialogue (opening, negotiation offer, retreat line)
-- [ ] Index card with Sera Gelanadel's information dump (layout, ritual, dragon location)
-- [ ] Index card with Dragonknight frieze descriptions (for the reveal)
-- [ ] Map of Verdanthorn Warren (5 areas — sketch or theater of mind)
-- [ ] Map of Temple of Dragonknights (6 areas)
-- [ ] Dragon miniature or token (Venomfang — Large)
-- [ ] Kobold miniatures or tokens (10–12 recommended)
-- [ ] Three intact egg tokens or dice to represent the dragon eggs
-
-## Session Zero / Player Prep
-
-- [ ] Confirm party level (3–5 recommended; this is a demanding adventure)
-- [ ] Brief players: This adventure features a dragon confrontation (CR 8) — preparation and tactics matter
-- [ ] Set expectations: Combat, exploration, negotiation — all are genuinely viable
-- [ ] Ask players: "How does your character feel about dragons? About negotiating with something dangerous?"
-- [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
-- [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist:}}
-
-\page
-
 # Quick Reference During Play
 
 ### Key DC Checks
 
-###### **Northcrest Investigation:**
+###### **Waystone Raid Response:**
 DC 10 Medicine: :: Stabilize Joel Andersmith
 DC 12 Insight: :: Joel is telling the truth — he is not confused or exaggerating
 DC 10 Survival: :: Track kobolds north to the Andersmith Farm
@@ -1555,7 +1722,7 @@ DC 15 Arcana: :: Explain the Aeorian facility — changes her risk calculation s
 ### Encounter Scaling Quick Reference
 
 ###### **2–3 Players (Level 3–4):**
-DC 0 Kobolds vs. Guards: :: 4 kobolds + 4 guards
+DC 0 Kobolds vs. Auxiliaries: :: 4 kobolds + 4 auxiliaries (use Guard stat block)
 DC 0 Verdanthorn Warren Area 1: :: 1 winged kobold
 DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping)
 DC 0 Temple Area 1: :: 4 zombies (nerfed; 11 HP each)
@@ -1564,9 +1731,9 @@ DC 0 Temple Area 4: :: 3 kobold cultists + 1 kobold guard
 DC 0 Venomfang's Lair: :: Venomfang (60 HP); no kobold guards
 
 ###### **4–5 Players (Level 4–5):**
-DC 0 Kobolds vs. Guards: :: 6 kobolds + 4 guards
+DC 0 Kobolds vs. Auxiliaries: :: 6 kobolds + 4 auxiliaries (use Guard stat block)
 DC 0 Verdanthorn Warren Area 1: :: 1 winged kobold + 1 kobold
-DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping) + 1 awake guard
+DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping) + 1 awake kobold guard
 DC 0 Temple Area 1: :: 4 zombies (full HP)
 DC 0 Temple Area 2: :: 1 kobold cultist + 1 kobold guard
 DC 0 Temple Area 4: :: 5 kobold cultists + 2 kobold guards
@@ -1576,9 +1743,9 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
 ### Pacing Guide (4–6 Hour Session)
 
-###### **Hour 1: Northcrest Investigation**
-- Kobold raid; guards respond; Wardens assist
-- Joel Andersmith; town resupply
+###### **Hour 1: Waystone Raid Response**
+- Kobold raid; auxiliaries respond; Wardens assist
+- Joel Andersmith; resupply at Waystone Inn
 - Farm investigation and trail discovery
 
 ###### **Hour 2: The Trail and Cavern Entry**
@@ -1603,7 +1770,7 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 ###### **Hour 6: Resolution and Return**
 - Loot, collapse, or seal as applicable
 - Path down the mountain with Clementine
-- Joel Andersmith reunion; Northcrest celebration
+- Joel Andersmith reunion; Waystone Inn celebration
 - Debrief with Lorewarden Elric
 
 {{pageNumber,auto}}
@@ -1673,8 +1840,9 @@ The silence after this is the silence of a creature deciding it would prefer not
 **Joel Andersmith:** :: Farmer, quest giver, father
 **Clementine Andersmith:** :: Joel's daughter; twelve years old; the ritual's living component
 **Sera Gelanadel:** :: Junior arcanist; Elric's field researcher; invaluable once freed
-**Richard & Lauraine Brown:** :: Innkeepers, The Flowing Mug
-**Dorn Stoutheart:** :: Blacksmith, Northcrest; knows the mountain paths
+**Steward Mara Fenwick:** :: Quartermaster at Waystone Inn; triage and resupply
+**Marshal Brenna Thorne:** :: Field commander; evaluates outcomes and sets priorities
+**Lorewarden Elric Vael:** :: Arcane scholar; debriefs and tracks convergence points
 
 ## Post-Session Tasks
 
