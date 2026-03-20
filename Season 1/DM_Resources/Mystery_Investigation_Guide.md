@@ -38,6 +38,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 
 ---
 
+\column
+
 ## Campaign-Wide Investigation Threads
 
 ### Thread 1: Transformation & Awakening
@@ -88,6 +90,11 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - Are other sites activated? (Scope)
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+\page
 
 ## Clue Tracking by Adventure
 
@@ -140,6 +147,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Reveals:** "Salsvault is one of dozens—they're networked"
 - **Connects to:** Campaign scope (problem is bigger than one ruin)
 
+\column
+
 ### Wild Sheep Chase (⭐⭐⭐)
 
 **Primary Clue:** Magical item malfunction (wand behaving unpredictably)
@@ -189,6 +198,11 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Reveals:** "Tombs are ward anchors—desecration breaking containment magic"
 - **Connects to:** Long-term stakes (if seals break, Aeorian weapons activate)
 
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+\page
+
 ### Peril in Pinebrook (⭐⭐)
 
 **Primary Clue:** Frontier vulnerability (settlements affected by instability)
@@ -229,6 +243,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Clues:** Requires specialized knowledge of Aeorian systems
 
 ---
+
+\column
 
 ## Mystery Progression Milestones
 
@@ -279,6 +295,11 @@ This document tracks the mystery progression across Season 1 adventures, showing
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+\page
+
 ## Using This Guide
 
 ### During Adventure Prep
@@ -310,3 +331,6 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - Add visual diagram showing adventure connections
 - Expand with Season 2 mystery threads
 - Include player handout versions (spoiler-free investigation notes)
+
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide}}

@@ -40,6 +40,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - ✓ Wild Sheep Chase (transformation theme)
 - ✓ All future adventures (establishes Echo as ongoing threat)
 
+\column
+
 ### NPC Quick Stats
 
 | Name | Role | Loc | Reaction | Combat |
@@ -74,7 +76,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Morale:** Wolves flee if Bolt dies or surrenders
 - **Twist:** If players spare Flame, he becomes a future adversary
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+\page
 
 ## 2. FROZEN SICK — One-Page Reference
 
@@ -122,6 +127,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Irven Liel** | Infected | Family at risk | Merchant; offers reward for family salvation |
 | **Verla Pelc** | Dead (frozen) | Already gone | Carried vials to Croaker Cave |
 | **Morgo** | Scout/Guide | the Cold Anchor | Provides map or directions to Salsvault |
+
+\column
 
 ### Disease Timeline
 
@@ -175,7 +182,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Collapsing sections:** Structural instability, can block paths or deal damage
 - **Blue spore clouds:** Infection risk if breathed (DC 13 CON save)
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+\page
 
 ## 3. THE WILD SHEEP CHASE — One-Page Reference
 
@@ -221,6 +231,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Ahmed Noke** | Villain | Ambitious & hammy | Wields unstable wand; surrenders if losing (cowardly) |
 | **Guz** | Henchman | Loyal but dim | Half-orc; fights hard but will flee if Noke falls |
 | **Polymorphed Staff** | Minions/Allies | Various forms (cat, squirrel, etc.) | Can be freed to help party |
+
+\column
 
 ### Tone Notes
 
@@ -269,7 +281,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - Direct foreshadowing for Frozen Sick adventure
 - Trust-building moment: If party helps Shinebright, he shares research freely
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+\page
 
 ## 4. PERIL IN PINEBROOK — One-Page Reference
 
@@ -304,6 +319,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - ✓ Shows consequences of Echo (every settlement affected)
 - ✓ Smuggling networks exploit Aeorian discoveries (conspiracy theme)
 
+\column
+
 ### NPC Quick Stats
 
 | Name | Role | Authority | Reaction | Secret |
@@ -337,7 +354,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | Dragon feels like random boss | Establish it's been in region longer; it's territorial, not random |
 | Town feels unimportant | Connect NPCs to other adventures; make relationships matter |
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+\page
 
 ## 5. TEMPLE OF THE DRAGONKNIGHTS — One-Page Reference
 
@@ -384,6 +404,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Kobold Wyrmpriest** | Cult Leader | Chaotic Evil | NO—fanatical |
 | **Joel Andersmith** | Questgiver | Neutral Good | Non-combatant; provides info |
 | **Northcrest Locals** | Support NPCs | Various | Can provide aid/shelter |
+
+\column
 
 ### Venomfang Negotiation
 
@@ -445,7 +467,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Sacred ground:** Some areas radiate protective magic (sanctuary effects)
 - **Collapsed sections:** Navigation challenge; potential trap collapse
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+\page
 
 ## Quick Summary Table: All Five Adventures
 
@@ -476,3 +501,6 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - NPC_Relationship_Diagram.md (Week 2)
 - NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
 - This document (Week 4)
+
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference}}

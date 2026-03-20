@@ -95,6 +95,8 @@ Use this as the living continuity log for actual play. Update it after each sess
 - Bolt — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
 - Flame — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
 
+\column
+
 ### Other
 - Alexi — Left a note in magical shorthand; “Aeorian” was legible.
 
@@ -157,3 +159,6 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}

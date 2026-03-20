@@ -54,7 +54,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Created the guild partially as a response mechanism for escalating threats
 
-
+\column
 
 **Hidden Motivations:**
 
@@ -118,7 +118,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ### Steward Mara Fenwick
 
@@ -174,7 +177,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Can identify stolen goods and trace provenance
 
-
+\column
 
 **Relationships:**
 
@@ -275,7 +278,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Encrypted notes using academic code only Cobalt Soul members know
 
-
+\column
 
 **Relationships:**
 
@@ -329,7 +332,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ## Warden Field Agents: Hidden Truths
 
@@ -432,7 +438,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Mila Teno (Rookie Trailwarden)
 
@@ -466,7 +472,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ### Takk Oaksplitter (Lantern Guard)
 
@@ -514,7 +523,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Galvena Aballon (Lantern Guard)
 
@@ -601,7 +610,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Guz (Lantern Guard)
 
@@ -639,7 +648,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ## Magical Specialists: Secret Agendas
 
@@ -691,7 +703,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Aurixean Valignaak (Sorcerer)
 
@@ -802,7 +814,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ### Baleth Cindermoon (Warlock)
 
@@ -834,7 +849,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Baleth is beginning to suspect but is addicted to the power
 
-
+\column
 
 **The Dilemma:**
 
@@ -923,7 +938,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Willen Featherock (Shepherd)
 
@@ -983,7 +998,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ### Flynt Wymblen (Bard)
 
@@ -1031,7 +1049,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Joel Andersmith (Farmhand Ally)
 
@@ -1146,7 +1164,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Pelc (Reclusive Merchant) — DECEASED
 
@@ -1196,7 +1214,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ### Tulgi Lutan (Trapper)
 
@@ -1256,7 +1277,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Tillus Merrion (Welton Council Member)
 
@@ -1343,7 +1364,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Westly (Shepherd)
 
@@ -1405,7 +1426,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ## The Blackwake Corsairs Connection
 
@@ -1447,7 +1471,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Unknown Agents:** In other settlements, identities unknown
 
-
+\column
 
 ### What the Corsairs Know
 
@@ -1550,7 +1574,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Tulgi Knows:** Operative network
 
-
+\column
 
 ### About Aeorian Effects
 
@@ -1582,7 +1606,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ## The Big Picture: Connections Players Must Discover
 
@@ -1646,7 +1673,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 -->
 
-
+\column
 
 ### Information Web
 
@@ -1690,7 +1717,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+\page
 
 ## Using This Information
 
@@ -1728,7 +1758,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Secret backgrounds pay off dramatically
 
-
+\column
 
 ### Trust and Discovery
 
@@ -1830,3 +1860,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 *Remember: These secrets should enhance the story, not overshadow the players. Reveal information at dramatically appropriate moments.*
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}

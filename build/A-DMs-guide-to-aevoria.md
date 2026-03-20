@@ -18429,12 +18429,12 @@ When the conversation concludes, Rorn reveals a hidden passage leading out of th
 \page
 
 # Temple of the Dragonknights
-{{wide
+## Northwatch Wardens Integration (DM)
+
 {{note
-- **Arc Position:** Arc 3 — *Convergence*
-- **Mystery Rating:** ⭐⭐⭐⭐ (High — Faction Response & Convergence Point)
-- **Adventure Tier:** Levels 3–5 (Season 1 capstone)
-}}
+**Arc Position:** :: Arc 3 — *Convergence*
+**Mystery Rating:** :: ⭐⭐⭐⭐ (High — Faction Response & Convergence Point)
+**Adventure Tier:** :: Levels 3–5 (Season 1 capstone)
 }}
 
 {{descriptive
@@ -18473,15 +18473,15 @@ The Temple of the Dragonknights is the moment the campaign's stakes become geopo
 
 ### Northreach Context
 
-- The Temple of the Dragonknights lies in the mountains **northwest of Northcrest**, several hours from town
-- Northcrest is a frontier settlement — a blacksmith, an inn, a market square, and a militia that is no match for a dragon
+- The Temple of the Dragonknights lies in the mountains **northwest of Waystone Inn**, several hours from the guild headquarters
+- Waystone Inn is the Wardens' operational hub in Northreach. When trouble escalates, messages and refugees end up here first.
 - **Venomfang** is a young green dragon who arrived in the region recently, drawn by the Echo's resonance from Salsvault
 - **The Dragonknights** were an ancient order of warriors who discovered an Aeorian facility beneath the mountain and sealed it — then built their tomb over the seal as a final ward
-- The kobold cult worships Venomfang, follows her willingly, and has been raiding Northcrest for supplies and sacrifices
+- The kobold cult worships Venomfang, follows her willingly, and has been raiding outlying caravans and farmsteads for supplies and sacrifices
 
 ###### The Wardens are positioned to respond because:
 
-- Northcrest falls under their patrol jurisdiction
+- Waystone Inn is their base of operations
 - Lorewarden Elric has been tracking unusual magical energy signatures northwest of town for weeks
 - The kobold raids have now claimed lives — this is no longer an investigative matter
 
@@ -18505,7 +18505,7 @@ These are the truths the players can uncover through exploration, interrogation,
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
-{{watercolor8,top:383px,left:101px,width:372px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:749px,left:484px,width:359px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18591,7 +18591,7 @@ By completing Temple of the Dragonknights, the Wardens learn:
 
 Temple of the Dragonknights is the **Arc 3 capstone** — the moment the campaign shifts from investigation to confrontation.
 
-A young dragon heard the Echo and came to claim it. Her kobold cult has been raiding Northcrest for supplies and sacrifices. A farmer's family is dead or missing. And beneath the temple where the Dragonknights buried their dead, something ancient is straining against seals that are slowly breaking.
+A young dragon heard the Echo and came to claim it. Her kobold cult has been raiding the roads and farms around **Waystone Inn** for supplies and living sacrifices. A farmer's family is dead or missing. And beneath the temple where the Dragonknights buried their dead, something ancient is straining against seals that are slowly breaking.
 
 #### This adventure blends:
 
@@ -18605,7 +18605,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 ### The Wardens must:
 
-- Respond to a kobold raid on Northcrest and follow the trail back to its source
+- Respond to a kobold raid at Waystone Inn and follow the trail back to its source
 - Navigate Verdanthorn Warren — a natural cave network riddled with kobold traps and cultist chambers
 - Rescue Clementine Andersmith and stop an active ritual before it completes
 - Confront Venomfang in the Temple of the Dragonknights
@@ -18621,7 +18621,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 ### Stakes
 
 #### **Immediate Stakes**
-- The kobold cult has been raiding Northcrest for weeks; the raids are escalating
+- The kobold cult has been raiding the Waystone road and nearby farms for weeks; the raids are escalating
 - Joel Andersmith's daughter Clementine has been taken — the ritual requires a living component
 - **The ritual is ongoing** — every hour the Wardens delay, the ward anchors weaken further
 - Venomfang is CR 8. Direct confrontation without preparation may be fatal.
@@ -18642,14 +18642,14 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 - **4–6 hours** total
 - Best run as a **single session** for experienced parties or **two sessions** for thorough exploration
-- Northcrest Investigation → Verdanthorn Warren → Temple of the Dragonknights → Resolution
+- Waystone Raid Response → Verdanthorn Warren → Temple of the Dragonknights → Resolution
 
 ---
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
-{{watercolor12,top:6px,left:75px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:748px,left:262px,width:369px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18657,10 +18657,10 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 
 **Venomfang** :: Young green dragon; ambitious, pragmatic, genuinely dangerous — and not quite sure what she's sitting on
 **The Kobold Cult** :: Fanatical dragon-worshippers; organized, trap-happy, and utterly convinced Venomfang will ascend to godhood
-**Joel Andersmith** :: Farmer from north of Northcrest; injured in the raid; his family is dead except for his daughter
+**Joel Andersmith** :: Farmer from north of Waystone Inn; injured in the raid; his family is dead except for his daughter
 **Sera Gelanadel** :: Arcanist researcher captured by the cult; was investigating Echo anomalies in the area for Lorewarden Elric
-**Richard & Lauraine Brown** :: Innkeepers of The Flowing Mug in Northcrest; steady, practical, quietly terrified
-**Dorn Stoutheart** :: Northcrest's blacksmith; can restock the Wardens and knows the mountain paths
+**Steward Mara Fenwick** :: Guild quartermaster; turns Waystone Inn into triage and pushes the Wardens north with supplies
+**Lorewarden Elric Vael** :: Arcane scholar; receives Sera's findings and frames the bigger pattern
 
 ---
 
@@ -18682,9 +18682,9 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 
 ### Adventure Flow (High-Level)
 
-#### **1. Northcrest — Kobolds vs. Guards**
-- A kobold raid is happening as the Wardens arrive
-- Northcrest guards are outmatched; civilian casualties are imminent
+#### **1. Waystone Inn — Kobolds vs. Auxiliaries**
+- A kobold raid hits the inn yard without warning
+- Inn auxiliaries are outmatched; civilian casualties are imminent
 - Joel Andersmith is found injured — his farm is destroyed, his daughter is missing
 
 #### **2. The Andersmith Farm**
@@ -18710,12 +18710,12 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 #### **6. Resolution & Return**
 - Clementine rescued; cult broken or scattered
 - Venomfang defeated, driven away, or negotiated with
-- Return to Northcrest; debrief with Lorewarden Elric
+- Return to Waystone Inn; debrief with Lorewarden Elric
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
-{{watercolor11,top:683px,left:63px,width:332px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:492px,left:442px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18726,12 +18726,12 @@ This section gives the DM a high-level narrative overview of Temple of the Drago
 }}
 
 {{descriptive
-The kobold raid on Northcrest would have been just another frontier incident — except for the green scales on the raiders and the way the wounded farmer's eyes go hollow when he tries to explain what he saw. His wife is dead. His son is dead. His daughter is gone. And the kobolds came from the northwest, from the old temple in the mountains that nobody goes near anymore.
+The kobold raid at Waystone Inn would have been just another frontier incident — except for the green scales on the raiders and the way the wounded farmer's eyes go hollow when he tries to explain what he saw. His wife is dead. His son is dead. His daughter is gone. And the kobolds came from the northwest, from the old temple in the mountains that nobody goes near anymore.
 }}
 
 Three weeks ago, a young green dragon named Venomfang crossed the Northreach mountains. She was following a signal — a resonance she felt in her bones, something ancient and potent radiating from a convergence of ley lines beneath an old mountain temple. She claimed the site, installed her kobold followers in the cavern below, and began planning.
 
-Her kobold cult has been raiding Northcrest for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aeorian facility, or that the ritual is weakening the seals that have held for centuries.
+Her kobold cult has been raiding the Waystone road and nearby farms for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aeorian facility, or that the ritual is weakening the seals that have held for centuries.
 
 Today, the raid went further than intended. Joel Andersmith's family is dead. His daughter Clementine has been taken. And the Wardens are the only ones with the authority and the capability to follow the trail north.
 
@@ -18739,8 +18739,8 @@ Today, the raid went further than intended. Joel Andersmith's family is dead. Hi
 
 ### The Story in Four Acts
 
-#### **Act I — Northcrest**
-The Wardens arrive to find the town in chaos — a kobold raid in progress, guards outmatched, civilians fleeing. After the dust settles, a wounded farmer is found propped against the inn wall. Joel Andersmith tells them what happened at his farm. The guards make clear: this is Warden business now.
+#### **Act I — Waystone Inn**
+The Wardens are at Waystone Inn when the yard erupts — a kobold raid in progress, auxiliaries outmatched, travelers scattering. After the dust settles, a wounded farmer is found propped against the inn wall. Joel Andersmith tells them what happened at his farm. The inn staff make clear: this is Warden business now.
 
 ---
 
@@ -18766,7 +18766,7 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 ### The Ending
 
 #### **If Venomfang is killed:**
-- Northcrest celebrates; the kobolds scatter
+- Waystone Inn steadies; the kobolds scatter
 - The convergence point remains — the signal continues
 - Elric: "You solved the immediate problem. But the beacon is still broadcasting."
 
@@ -18790,57 +18790,289 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
-{{watercolor2,top:724px,left:428px,width:271px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:471px,left:432px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-## Part I: Northcrest
+# DM Notes: Temple of the Dragonknights
 
 {{note
-This section begins the adventure proper. The Wardens are in or passing through Northcrest when the kobold raid begins. This phase establishes the town, the threat, and the human cost — and sends the party north with a clear mission. Keep this section fast and visceral. The raid should feel dangerous and urgent, not like an introductory tutorial.
+Use this section as your behind-the-screen control panel for Temple of the Dragonknights.
+It consolidates tone guidance, pitfalls, scaling, and improvisation tools.
+The most important note: **Venomfang is not a monster. She is a person with goals. Play her that way.**
+}}
+
+### Adventure Overview (DM Lens)
+
+**Theme:** Ambition and exploitation — factions respond to the Aeorian Echo.
+**Core Tension:** A young dragon has claimed a convergence point she doesn't fully understand, and stopping her doesn't stop the signal.
+**Tone:** Dangerous, morally complex, with room for negotiation and creative tactics.
+**Level Range:** 3–5 (campaign capstone).
+**Expected Duration:** 4–6 hours (single or two-session adventure).
+
+---
+
+### Common DM Pitfalls & Fixes
+
+#### **1. Venomfang as a Pure Villain**
+
+**Problem:** :: If Venomfang is played as a mindless monster, the moral complexity disappears.
+
+**Fix:** ::
+- She talks first. Always. Even if she's going to fight, she talks first.
+- She has legitimate goals: power, territory, the respect of something that usually dismisses her
+- She is genuinely wrong about what she's sitting on — this makes her almost sympathetic
+- If Shinebright is present, she will speak to him as an equal. She respects scholars more than soldiers.
+- Her final words, if she flees: not a threat. A warning. She has already learned something from this encounter.
+
+
+#### **2. Kobolds as Cannon Fodder**
+
+**Problem:** :: Kobolds feel like XP dispensers with no identity.
+
+**Fix:** ::
+- They are *fanatical* — they genuinely believe Venomfang will ascend to godhood
+- Use Pack Tactics visibly and explicitly — describe them flanking, signaling each other, coordinating
+- Captured kobolds have names (DM's choice) and opinions about Venomfang that are touching in their sincerity
+- When Venomfang flees, the kobolds' faces are the real consequence — they just watched their god leave
+
+---
+\column
+#### **3. The Cavern Becomes a Grind**
+
+**Problem:** :: Verdanthorn Warren has many areas; without pacing it becomes exhausting.
+
+**Fix:** ::
+- Sera Gelanadel, once rescued, narrates the rest of the layout — the Wardens don't need to clear every room
+- The kobolds in sleeping quarters are genuinely asleep if the Wardens have been quiet
+- Let the puzzle in Area 5 feel like a discovery, not a gate
+- The bridge crossing should be tense the first time and routine after — don't make them roll every crossing
+
+#### **4. Venomfang Fight Is TPK-Bait**
+
+**Problem:** :: Young green dragon (CR 8) can kill a Level 3 party in two rounds.
+
+**Fix:** ::
+- She starts with Poison Breath if available, then retreats to the air — she does not close to melee immediately
+- At 50% HP, she offers terms or retreats through the ceiling. She values her life more than she values winning.
+- The dragon eggs are leverage the players can discover and use
+- If the party is dying: Venomfang toys with them ("You're more entertaining than most. Leave now and I'll let you.") — this is still in-character
+- If TPK is imminent: She decides they're worth more as a ransom than a meal. The guild will pay for its Wardens.
+
+{{note
+**"We want to negotiate before we even enter the cavern!"**
+→ Valid. Venomfang sends a kobold emissary if they announce themselves loudly enough outside. She is genuinely curious what they want. Roll into negotiation directly — Clementine is still captive, which is leverage both ways.
+
+**"Venomfang killed us in round one."**
+→ She captures them instead — she wanted to ransom them to the guild anyway. They escape via skill challenge and get a second approach with better information.
+
+**"We want to collapse the entire temple."**
+→ Excellent instinct. Engineering/Investigation DC 15 to identify the structural weak points. Venomfang escapes (she can fly); the hoard is buried. The sealed facility's containment stabilizes. Elric is genuinely impressed.
+
+**"The kobolds are dying in one hit."**
+→ They should be using Pack Tactics — describe them flanking explicitly. If the party is steamrolling, add a kobold inventor (use **Kobold Guard** or **Kobold Cultist** stats with improvised alchemical bombs, 2d6 fire, DC 12 Dex save).
+
+**"We refuse to fight a CR 8 dragon; we're Level 3."**
+→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aeorian facility revelation as a negotiating tool.
+}}
+
+---
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor8,top:579px,left:269px,width:319px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Improvisation Toolkit
+
+#### **If Players Get Stuck:**
+
+1. **Joel Andersmith:** :: "The kobolds came from the northwest. Past the farm. There's an old temple up there — in the mountains. Nobody goes near it. Nobody. There's a reason for that."
+2. **Sera Gelanadel (once freed):** :: "I've been here two days. I know the layout, I know the ritual, I know where the dragon is and what she wants. Ask me anything."
+3. **A surviving kobold:** :: "The Great One is in the high chamber. She knows you're here. She's been watching since the cavern entrance."
+
+---
+
+#### **If Players Avoid the Adventure:**
+
+- Kobold raids escalate — the market square is attacked; civilians are killed
+- Venomfang sends a kobold emissary to Waystone Inn: "Your Wardens have delayed long enough. Send them, or I will come myself."
+- Lorewarden Elric sends urgent word: "The convergence point northwest of Waystone Inn is actively amplifying. Something is exploiting it. Go."
+
+---
+
+#### **If Combat Is Too Easy:**
+
+- Kobold reinforcements arrive from a hidden tunnel (2d4 kobolds, 2 rounds delay)
+- Venomfang uses her environment: poison fog through a crack in the floor, rockfall from the ceiling
+- The ritual's completion triggers a surge — the next enemy attack automatically crits
+
+---
+
+#### **If Combat Is Too Hard:**
+
+- Venomfang decides the party is not worth dying over and offers terms immediately
+- The dragon eggs hatch — tiny green dragon wyrmlings that are confused and not hostile; chaos ensues, Venomfang is distracted
+- Sera Gelanadel joins combat, casting *thunderwave* from cover (she kept one spell slot)
+
+---
+
+\column
+
+## Rewards & Aftermath
+
+###### **Standard Rewards:**
+
+- Waystone Inn gratitude (500 gp + free supplies, priority guild-store access)
+- Dragon hoard (if Venomfang is killed or driven away)
+- Kobold cult cache (200 gp + supplies recovered for Waystone Inn)
+
+###### **Venomfang's Hoard:**
+
+- **1,500 gp** in assorted coin and trade goods
+- **2d4 gems** (100 gp each)
+- **+1 Longsword** — inscribed with the Dragonknight oath; has history
+- **Cloak of Elvenkind** — from a previous victim; no enchantment degradation
+- **Potions of Greater Healing ×3**
+- **One rare item** (DM's choice, based on party composition)
+
+###### **Milestone XP:**
+
+- Complete the Waystone raid response and reach the temple → **+200 XP each**
+- Rescue Clementine Andersmith → **+150 XP each**
+- Resolve the Venomfang confrontation (any outcome) → **+300 XP each**
+- Discover the Aeorian facility beneath the temple → **+100 XP bonus**
+- Disrupt or collapse the convergence point → **+150 XP bonus**
+
+###### **Reputation:**
+
+- **Waystone Inn:** Trusted. Travelers remember who kept the inn standing.
+- **Northreach Wardens:** Senior Warden status; Marshal Brenna promotes them formally
+- **Lorewarden Elric:** The most direct engagement yet with the Echo's consequences; his investment in the Wardens increases significantly
+- **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
+
+---
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor13,top:744px,left:133px,width:322px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## DM Prep Checklist
+
+### One Week Before Session
+
+- [ ] Read entire adventure (30–45 minutes)
+- [ ] Review DM Notes section for Venomfang's personality and tactics
+- [ ] Decide: will Venomfang negotiate OR fight to near-death?
+- [ ] Decide: will the Aeorian facility revelation change her calculus? (Recommended: yes)
+- [ ] Familiarize yourself with Young Green Dragon stat block (this document)
+- [ ] Review kobold Pack Tactics — plan to use it visibly every round
+- [ ] Mark key revelation moments (ward anchors, Aeorian facility, Venomfang's warning)
+- [ ] Review Aeorian Echo foreshadowing lines
+
+### Day Before Session
+
+- [ ] Print/bookmark stat blocks:
+  - [ ] Venomfang (this document)
+  - [ ] Kobold (this document)
+  - [ ] Winged Kobold (this document)
+  - [ ] Kobold Cultist (this document)
+  - [ ] Dragonknight Warden / Zombie (this document)
+  - [ ] Piercer (this document)
+- [ ] Prepare Venomfang's lair description (open summit, hoard, dragon eggs, open ceiling)
+- [ ] Prepare kobold trap descriptions (bridge, pressure plate, piercer)
+- [ ] Decide on Venomfang's hoard contents (from Rewards section)
+- [ ] Review Sera Gelanadel's knowledge — she is a significant resource once freed
+- [ ] Review optional lair actions (rockfall, poison fog) if party is high Level 4–5
+
+\column
+### Props & Materials
+
+- [ ] Index card with Venomfang's dialogue (opening, negotiation offer, retreat line)
+- [ ] Index card with Sera Gelanadel's information dump (layout, ritual, dragon location)
+- [ ] Index card with Dragonknight frieze descriptions (for the reveal)
+- [ ] Map of Verdanthorn Warren (5 areas — sketch or theater of mind)
+- [ ] Map of Temple of Dragonknights (6 areas)
+- [ ] Dragon miniature or token (Venomfang — Large)
+- [ ] Kobold miniatures or tokens (10–12 recommended)
+- [ ] Three intact egg tokens or dice to represent the dragon eggs
+
+### Session Zero / Player Prep
+
+- [ ] Confirm party level (3–5 recommended; this is a demanding adventure)
+- [ ] Brief players: This adventure features a dragon confrontation (CR 8) — preparation and tactics matter
+- [ ] Set expectations: Combat, exploration, negotiation — all are genuinely viable
+- [ ] Ask players: "How does your character feel about dragons? About negotiating with something dangerous?"
+- [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
+- [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor7,top:354px,left:88px,width:314px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+## Part I: Waystone Inn
+
+{{note
+This section begins the adventure proper. The Wardens are at **Waystone Inn** when the kobold raid begins. This phase establishes the threat, the human cost, and the uncomfortable truth that the Echo's fallout is now close enough to touch. Keep this section fast and visceral. The raid should feel dangerous and urgent, not like an introductory tutorial.
 }}
 
 {{descriptive
-You are spending an evening in Northcrest — a frontier town doing its best, which means the walls are maintained, the blacksmith is busy, and the inn serves warm food without asking too many questions. It is almost a normal night.
+You are spending an evening at Waystone Inn — warm light in the windows, wet boots by the hearth, the low murmur of travelers who aren't sure whether they're safe yet.
 Then the screaming starts.
 }}
 
 ---
 
-#### The Flowing Mug Inn
+#### Waystone Inn (Common Room → Yard)
 
-The Wardens are at The Flowing Mug when the sounds of combat erupt outside. Richard and Lauraine Brown run a trustworthy establishment — warm, practical, and currently in the process of becoming a temporary triage point.
+The Wardens are at Waystone Inn when the sounds of combat erupt outside. Steward Mara Fenwick is already moving — hauling bandages, barking short instructions, making the common room a triage point without asking permission.
 
-###### Additional Information
-
-**Richard Brown:** :: Male, human, mid-sixties, barkeep. Steady under pressure. Has a crossbow under the bar he has never fired in his life.
-**Lauraine Brown:** :: Female, human, early-sixties, innkeeper. More practical than her husband. Will organize injured civilians without being asked.
-
-The moment combat is audible outside, Richard looks at the Wardens across the bar and says, simply: "That'll be kobolds again."
+The moment the first crash of splintering wood hits the yard, Mara looks at the Wardens and says, simply: "They're back. Don't let them take anything alive."
 
 This leads directly into -  
 
 ---
 
-#### Kobolds vs. Guards
+#### Kobolds vs. Auxiliaries
 
 {{descriptive
-Outside, four Northcrest guards are trying to hold a position against six green-scaled kobolds pouring from the northern end of the market square. Two guards are already down. A seventh kobold has broken off from the main group and is dragging a barrel from a market stall while the fighting draws attention elsewhere.
+Outside, two Warden auxiliaries and a couple of hired hands are trying to hold a line at the inn yard gate against **four** green-scaled kobolds pouring in low and fast. One auxiliary is already down. A fifth kobold has broken off from the main group and is dragging a barrel of supplies toward the treeline.
 
-In the chaos, you can see a man slumped against the inn wall. He is breathing, barely.
+In the chaos, you can see a man slumped against the inn's outer wall. He is breathing, barely.
 }}
 
-The guards are outmatched and know it. They will fight bravely but will retreat if the Wardens don't intervene. The kobolds are organized — one leads, the others follow tactical signals.
+The auxiliaries are outmatched and know it. They will fight bravely but will retreat if the Wardens don't intervene. Use the **Guard** stat block for auxiliaries (see below). The kobolds are organized — one leads, the others follow tactical signals.
 
-**The seventh kobold** (the thief) will flee north with the supplies if not intercepted. If captured, he can be interrogated — see **Capturing a Kobold** below.
+{{note
+**Scaling:** For 4–5 players, add **two** additional kobolds (for a total of 6 + the thief).
+}}
 
-Resolving this encounter without civilian casualties yields the Wardens immediate goodwill from Northcrest.
+{{note
+**Running This Fight (fast):**
+
+- **Terrain:** The yard gate is a 10-foot choke point. Barrels, a woodpile, and a trough provide **half cover**. Lantern light means no one is fighting in full darkness.
+- **Civilians:** Any noncombatants stay behind the inn doors unless the Wardens lose the line.
+- **Kobold tactics:** Two kobolds harry whoever looks easiest to drop (Pack Tactics), while one stays near the thief to cover the retreat with sling stones.
+- **Morale:** If **half the kobolds** are dropped or the thief is captured, the remaining kobolds **Disengage and flee** north. They are raiders, not martyrs.
+}}
+
+**The thief kobold** will flee north with the supplies if not intercepted. If captured, he can be interrogated — see **Capturing a Kobold** below.
+
+Resolving this encounter without civilian casualties yields the Wardens immediate goodwill from Waystone Inn's staff and the surrounding travelers.
 
 \column
 
 ### Saving Joel Andersmith
 
-The man against the inn wall is Joel Andersmith, a farmer from north of town. He is conscious but injured, and his expression is the particular blankness of a man whose mind has not yet fully processed what his body survived.
+The man against the inn wall is Joel Andersmith, a farmer from north of Waystone Inn. He is conscious but injured, and his expression is the particular blankness of a man whose mind has not yet fully processed what his body survived.
 
 **DC 10 Medicine:** :: Stabilize Joel. He will remain conscious and coherent.
 
@@ -18859,7 +19091,7 @@ Once stabilized, Joel will tell the Wardens what he knows:
 - That his farm is still smoking; that the tracks are still fresh
 
 {{note
-**The Guards:** The Northcrest militia will remain in town to protect it from further raids. They will tell the Wardens clearly: they cannot follow the kobolds into the mountains. This is Warden business. They will provide whatever supplies they can spare.
+**The Auxiliaries:** Waystone Inn's hired hands and Warden auxiliaries will not follow the kobolds into the mountains. They will tell the Wardens clearly: they can't leave the inn undefended. This is Warden business. They'll provide whatever supplies they can spare.
 }}
 
 ---
@@ -18884,23 +19116,19 @@ The kobold's eyes, which have been darting to every exit, finally fix on you wit
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor2,top:529px,left:117px,width:374px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:112px,left:153px,width:257px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-## The Blacksmith
+## Resupply at Waystone Inn
 
-Before heading north, the Wardens may wish to resupply at the smithy.
+Before heading north, the Wardens may wish to resupply.
 
-**Dorn Stoutheart:** :: Male, human, late-thirties, blacksmith. Practical and direct. He has been watching the kobold raids escalate for three weeks and is quietly furious about it.
+**Steward Mara Fenwick:** :: Mara can provide arrows, rope, torches, rations, and basic equipment repair from guild stores.
 
-Dorn can provide arrows, rope, torches, basic weapons repair, and one piece of standard armor at half cost for Wardens who are visibly preparing to go after the kobolds. He also knows the mountain paths.
-
-**DC 10 Charisma (any):** :: Dorn will sketch a rough map of the approaches to the old temple from memory. "Nobody goes up there anymore. Nobody sensible."
-
-*Item Cost*
+**DC 10 Charisma (any):** :: Mara produces a rough route sketch based on scout reports and older Warden notes. "Nobody goes up there unless they have to. Tonight, you have to." 
 
 |  |  |
 | --- | --- |
@@ -18914,7 +19142,7 @@ Dorn can provide arrows, rope, torches, basic weapons repair, and one piece of s
 
 ## Andersmith Farm
 
-About a mile north of Northcrest, the farmstead is visible from the road — smoke still rising from the barn, which has been half-collapsed. Slaughtered livestock are scattered across the ground. The house stands, but the front door hangs from one hinge.
+About a mile north of Waystone Inn, the farmstead is visible from the road — smoke still rising from the barn, which has been half-collapsed. Slaughtered livestock are scattered across the ground. The house stands, but the front door hangs from one hinge.
 
 {{descriptive
 The farm has the quality of a place where violence happened quickly and without hesitation. This was not a prolonged assault — the kobolds moved fast, took what they wanted, and left. The fires are already dying down. They didn't bother to finish them.
@@ -18954,7 +19182,7 @@ The tracks lead into an unnatural-looking thicket at the forest's edge — one t
 
 ### The Creek
 
-A mile along the trail, the forest opens onto a small creek. Slippery flat stones create a crossing. Crossing safely requires **DC 12 Acrobatics or Athletics**. Failure means falling into the water — cold and shallow, but two quippers have scented blood from the farm.
+A mile along the trail, the forest opens onto a small creek. Slippery flat stones create a crossing. Crossing safely requires **DC 12 Acrobatics or Athletics**. Failure means falling into the water — cold and shallow, but **two quippers** have scented blood from the farm (see stat block).
 
 Beyond the creek, sharpened spears topped with animal skulls begin to appear along the trail at intervals. This is deliberate — a warning, not decoration.
 
@@ -18964,14 +19192,23 @@ Beyond the creek, sharpened spears topped with animal skulls begin to appear alo
 
 Around a bend in the trail, **DC 12 Passive Perception** catches movement ahead. Turning the corner reveals two kobolds roasting a small animal on a spit. They are eating — any Stealth attempt automatically succeeds.
 
+Use the **Kobold** stat block (see below).
+
 Dispatching them quietly allows the Wardens to approach the cave entrance without alerting the interior.
+
+{{note
+**If this goes loud:** If either kobold escapes or combat lasts more than 2 rounds, the warren is alerted.
+
+- Area 2 kobolds are **awake and positioned**.
+- The winged kobold in the Entry Chamber is **not surprised** and starts on the ledge with a rock in hand.
+}}
 
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor4,top:102px,left:59px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:236px,left:118px,width:277px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18986,6 +19223,12 @@ Dispatching them quietly allows the Wardens to approach the cave entrance withou
 The cave entrance opens into a wide natural chamber. The moment the Wardens enter, a **winged kobold** drops from a ledge above the door and attacks immediately — it was waiting.
 
 Dispatching it quickly (before it can call out) prevents alerting the rest of the cavern. If it screams, the kobolds in Area 2 will be awake and armed when the party arrives.
+
+{{note
+**Spotting the ambush:** If a Warden's **passive Perception is 13+**, they notice the winged kobold's shadow/wing-scrape on stone before it drops. Otherwise, it acts in the opening moment with **Drop Rock**, then tries to **fly up and shriek**.
+
+**Winged kobold goal:** Not to win — to **raise the alarm**.
+}}
 
 {{note
 **Lighting:** The cavern has no light source beyond the entrance. Kobolds have darkvision; the Wardens may not.::
@@ -19004,6 +19247,10 @@ Dispatching it quickly (before it can call out) prevents alerting the rest of th
 | Over 230 | 20 |
 
 The check uses Acrobatics. If any Warden falls, roll a d10: on a 1 they take 1d6 piercing damage from a submerged stalagmite. Four hungry quippers wait in the water regardless.
+
+{{note
+**Scaling:** If you want this to be a single clean combat instead of whack-a-mole, replace the four quippers with **one Swarm of Quippers** (see stat block).
+}}
 
 **Crossing the bridge** safely yields the party an obvious sense of progress — the kobold encampment sounds are closer now.
 
@@ -19026,6 +19273,17 @@ Up a rough-cut staircase from the lower level, this wider chamber serves as the 
 **If the Wardens were quiet:** Three kobolds are asleep in their tents.
 **If the winged kobold screamed:** Three kobolds are awake, armed, and positioned at the staircase.
 
+Use the **Kobold** stat block.
+
+{{note
+**Tactics & morale:**
+
+- If asleep, a kobold wakes only if there is **loud combat** or a torch is brought within 10 ft.
+- If awake, they fight dirty: one uses **sling** from behind tents while two engage for **Pack Tactics**.
+- If reduced to **1 kobold remaining**, it attempts to **flee toward the Sealed Door** to warn the cultists.
+- If offered safe passage and the Wardens demonstrate strength (down 2 kobolds), the last kobold will **surrender** rather than die.
+}}
+
 {{note
 #### Contents of the Tents
 
@@ -19033,7 +19291,7 @@ Up a rough-cut staircase from the lower level, this wider chamber serves as the 
 - **Southeast Tent:**  Two Potions of Healing wrapped in cloth.
 - **Western Tent:**  Nothing of value, but the kobold sleeping here has the key to the supply cache.
 
-- **DC 10 Perception:**  A section of the eastern wall sounds hollow. **DC 14 Athletics:** Forces it open; inside are the stolen supplies from Northcrest's market (worth 100 gp to the merchants if returned).
+- **DC 10 Perception:**  A section of the eastern wall sounds hollow. **DC 14 Athletics:** Forces it open; inside are stolen trade goods and supplies meant for Waystone Inn (worth 100 gp to the guild if returned).
 }}
 
 ##### Triggering the Trap
@@ -19044,6 +19302,10 @@ Immediately past the staircase top, a pressure plate triggers if anyone over 120
 #### The Underground Lake
 
 From the bridge, a narrow ledge (requiring **DC 8 Acrobatics** to traverse) leads around the edge of the underground lake to a passage on the far side. The lake is 20 feet deep and extremely cold. The quippers are more aggressive than normal — something about this place makes the wildlife agitated.
+
+{{note
+**If anyone enters the water:** Use **four quippers** or **one Swarm of Quippers** (see stat blocks). The swarm option hits harder but resolves faster.
+}}
 
 
 #### The Piercer's Chamber
@@ -19065,15 +19327,15 @@ The stone doors grind open, revealing a carved staircase ascending into the moun
 ---
 
 {{pageNumber,auto}}
-{{footnote Temple of the Dragonknights}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
-{{watercolor4,top:190px,left:446px,width:386px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:355px,left:339px,width:317px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Part III: Temple of the Dragonknights
 
-{{desriptive
+{{descriptive
 *The stairs lead up into carved stone chambers — clean-cut, deliberate construction, nothing like the rough cave below. This is not a natural formation. Someone built this, a long time ago, for a specific purpose. The kobold cult has been here for weeks. You can tell.*
 }}
 
@@ -19088,6 +19350,14 @@ The first chamber contains four stone sarcophagi arranged around a central floor
 **These are not typical dead.** The Dragonknights' tomb is a ward anchor — disturbing it is precisely what the cult wants the Wardens to do. If the zombies are destroyed, the ward weakens slightly. If the Wardens find a way to *reseal* the sarcophagi (Religion DC 13), the ward holds.
 
 **DC 14 Religion:** These tombs are functional magical constructs, not ordinary burials. They are anchoring something.
+}}
+
+{{note
+**Running the fight:**
+
+- **Terrain:** Sarcophagi provide **half cover** and count as difficult terrain to climb over.
+- **Zombie behavior:** They attack the nearest living creature and do not retreat.
+- **Resealing in play:** As an **action** while adjacent to a sarcophagus, a creature can attempt **Religion DC 13**; on a success, that sarcophagus reseals and its zombie collapses inert.
 }}
 
 #### Additional Information
@@ -19130,7 +19400,7 @@ ___
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
-{{watercolor1,top:236px,left:172px,width:316px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:614px,left:322px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19160,6 +19430,15 @@ This is **Sera Gelanadel** — an apprentice wizard dispatched by Lorewarden Elr
 
 **Sera's Supplies:** :: She still has 2 Potions of Healing hidden in her boot that the kobolds missed.
 
+{{note
+**Armory encounter (runnable):**
+
+- **Creatures:** 1 **Kobold Cultist** (see stat block). If the temple has been alerted, a **Kobold Guard** arrives from the Ritual Chamber **after 2 rounds**.
+- **Surprise:** If the Wardens enter quietly, the cultist is focused on Sera and can be **surprised**.
+- **Freeing Sera:** The wall ring can be opened with a key carried by the cultist, **Thieves' Tools DC 12**, or forced with **Athletics DC 15** (this last option is loud).
+- **Morale:** The cultist fights to the death if cornered, but will flee to warn Venomfang if reduced below half HP.
+}}
+
 ---
 \column
 
@@ -19179,12 +19458,16 @@ They are not celebrating. They are keeping watch.
 
 **A Fourth Shadow:** A dark shape detaches from the corner of the room as the Wardens examine the frieze — a zombie Dragonknight that had been standing motionless in the shadows. It attacks without sound.
 
+{{note
+**Spotting the shadow:** Passive Perception **13+** notices the "statue" is breathing (barely) or that its silhouette doesn't match the other shadows. If not noticed, it gets the opening strike.
+}}
+
 ---
 
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
-{{watercolor5,top:15px,left:260px,width:301px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:425px,left:445px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19199,6 +19482,13 @@ The chanting does not stop when you enter.
 }}
 
 The cultists will not break the ritual voluntarily — if forced to defend themselves, three will fight while two attempt to maintain the circle. If the chanting breaks entirely, Clementine falls (unconscious, unharmed). If two or fewer cultists remain, the ritual collapses on its own.
+
+{{note
+**Ritual timing (simple):** If **3+ cultists** chant uninterrupted, the ritual completes after **6 rounds**.
+
+- If fewer than 3 cultists are chanting at the end of a round, the ritual **does not advance** that round.
+- A cultist can be interrupted by dropping it to 0 HP, **shoving** it out of position, or inflicting a condition that stops actions.
+}}
 
 {{note
 **Scaling:**
@@ -19258,7 +19548,7 @@ This leads directly into the Venomfang confrontation — see **The Dragon's Lair
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
-{{watercolor5,top:268px,left:242px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:229px,left:64px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19316,7 +19606,7 @@ Venomfang is not a monster in the moral sense — she is a creature who operates
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
-{{watercolor13,top:358px,left:281px,width:256px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:340px,left:219px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19391,7 +19681,7 @@ ___
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
-{{watercolor13,top:170px,left:375px,width:346px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:586px,left:95px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19489,7 +19779,7 @@ ___
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
-{{watercolor8,top:69px,left:392px,width:284px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:672px,left:311px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19520,12 +19810,121 @@ ___
 ***DM Note.*** If the Piercer misses, it lands prone and is essentially helpless until it climbs back up. This takes approximately 3 rounds at its climb speed of 5 ft. for a 20-foot ceiling. Players who know this fact (DC 13 Nature) may choose to simply leave it on the floor.
 }}
 
+{{monster,frame
+## Guard
+*Medium humanoid (any race), any alignment*
+___
+**Armor Class** :: 16 (chain shirt, shield)
+**Hit Points**  :: 11 (2d8 + 2)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|12 (+1)|12 (+1)|10 (+0)|11 (+0)|10 (+0)|
+___
+**Skills** :: Perception +2
+**Senses** :: passive Perception 12
+**Languages** :: Common
+**Challenge** :: 1/8 (25 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Actions
+***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.
+
+***Shortbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage.
+}}
+
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
+
+{{watercolor1,top:299px,left:459px,width:378px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
+{{monster,frame
+## Kobold Guard
+*Small humanoid (kobold), lawful evil*
+___
+**Armor Class** :: 15 (leather armor, shield)
+**Hit Points**  :: 11 (3d6 + 1)
+**Speed**       :: 30 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 9 (−1)|14 (+2)|12 (+1)| 8 (−1)|10 (+0)| 8 (−1)|
+___
+**Senses** :: darkvision 60 ft., passive Perception 10
+**Languages** :: Common, Draconic
+**Challenge** :: 1/4 (50 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Pack Tactics.*** The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.
+___
+### Actions
+***Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+***Shield Bash.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be knocked prone.
+}}
+
+\column
+
+{{monster,frame
+## Quipper
+*Tiny beast, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 1 (1d4 − 1)
+**Speed**       :: 0 ft., swim 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 2 (−4)|16 (+3)| 9 (−1)| 1 (−5)| 7 (−2)| 2 (−4)|
+___
+**Senses** :: darkvision 60 ft., passive Perception 8
+**Languages** :: —
+**Challenge** :: 0 (10 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+___
+### Actions
+***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+}}
+
+{{monster,frame
+## Swarm of Quippers
+*Medium swarm of Tiny beasts, unaligned*
+___
+**Armor Class** :: 13 (natural armor)
+**Hit Points**  :: 28 (8d8 − 8)
+**Speed**       :: 0 ft., swim 40 ft.
+___
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|16 (+3)| 9 (−1)| 1 (−5)| 7 (−2)| 2 (−4)|
+___
+**Damage Resistances** :: bludgeoning, piercing, slashing
+**Condition Immunities** :: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+**Senses** :: darkvision 60 ft., passive Perception 8
+**Languages** :: —
+**Challenge** :: 1 (200 XP) {{bonus **Proficiency Bonus** +2}}
+___
+### Traits
+***Blood Frenzy.*** The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.
+___
+### Actions
+***Bites.*** *Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.
+}}
+
 ---
 
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
-{{watercolor2,top:256px,left:312px,width:384px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:713px,left:481px,width:350px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19555,7 +19954,7 @@ Below, in the sealed chamber you can feel through the floor, something that has 
 
 - **Dragon Hoard:** 1,500 gp, 2d4 gems (100 gp each), 1d4 magic items (see Rewards section)
 - **Cult Treasure:** 200 gp, kobold-crafted traps and tools
-- **Northcrest Gratitude:** 500 gp + free supplies; permanent discount at town shops
+- **Waystone Inn Gratitude:** 500 gp + free supplies; priority access to guild stores for the next tenday
 - **The convergence point remains** — but without Venomfang feeding it, the resonance stabilizes
 
 ---
@@ -19609,7 +20008,7 @@ She is telling the truth.
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
 
-{{watercolor5,top:741px,left:334px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:572px,left:150px,width:298px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19633,7 +20032,7 @@ Venomfang escapes (flying). She loses her power base entirely. The sealed Aeoria
 \column
 
 ## Section 9:
-###### Return to Northcrest — Clementine and the Debrief
+###### Return to Waystone Inn — Clementine and the Debrief
 
 {{note
 This short section handles the immediate aftermath: returning Clementine to her father, the town's response, and the hook to Lorewarden Elric's debrief at Waystone.
@@ -19642,29 +20041,29 @@ This short section handles the immediate aftermath: returning Clementine to her 
 {{descriptive
 The path down the mountain takes longer than the path up. Clementine doesn't speak much. Sera Gelanadel does — she has been composing her report in her head for two days and delivers most of it at walking pace, occasionally stopping to make a note in a small journal she kept hidden in her coat.
 
-Northcrest is visible below, lamplight appearing in windows as the evening comes on.
+Waystone Inn is visible ahead, lamplight appearing in windows as the evening comes on.
 
-Joel Andersmith is still in The Flowing Mug. He will hear the door open. He will stand up. He will see his daughter in the doorway.
+Joel Andersmith is still at Waystone Inn. He will hear the door open. He will stand up. He will see his daughter in the doorway.
 
 He will not speak for a long time.
 }}
 
 ---
 
-### Northcrest's Response
+### Waystone Inn's Response
 
-Northcrest celebrates with the particular relief of a frontier settlement that has survived something it wasn't equipped to survive. Richard and Lauraine Brown organize a modest feast. Dorn Stoutheart offers to engrave the party's names on the town's founders' board. The militia captain shakes every Warden's hand individually and does not make eye contact because he is crying.
+Waystone Inn settles into a kind of exhausted relief — the sort that only comes after you survive something you weren't equipped to survive. Steward Mara Fenwick organizes a modest feast with whatever can be spared. Marshal Brenna Thorne shakes each Warden's hand once, firmly, and says: "Good work. You brought her home."
 
 **Clementine:** :: Physically unharmed; needs time. She asks one question before she goes to sleep: "Was it my fault? That we're here now, I mean. That they needed me." The answer is no. She was a component in a ritual she had no part in creating. The correct answer is worth giving clearly.
 
-**Sera Gelanadel:** :: Will stay in Northcrest for three days to finish her documentation, then travel to Waystone to deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
+**Sera Gelanadel:** :: Will stay at Waystone Inn for three days to finish her documentation, then deliver her report to Lorewarden Elric directly. She will be very complimentary about the Wardens. "They were on my heels by the time I was taken. That's the fastest response to an Echo anomaly I've seen."
 
 ---
 
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
 
-{{watercolor13,top:310px,left:467px,width:269px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:382px,left:122px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19700,9 +20099,9 @@ He pauses.
 ### Marshal Brenna's Response
 
 {{descriptive
-Marshal Brenna Thorne reviews the casualty report from Northcrest — the Andersmith family, two wounded guards, the burned barn — and her expression goes through several stages that end somewhere between grief and operational clarity.
+Marshal Brenna Thorne reviews the incident report from Waystone Inn — the Andersmith family, two wounded auxiliaries, the burned barn — and her expression goes through several stages that end somewhere between grief and operational clarity.
 
-"The Wardens responded correctly. Clementine Andersmith is alive. The cult is broken. Northcrest will recover." She looks at the map Elric has pinned to the board. "The other convergence points need assessment. Wardens move when Elric gives coordinates. This is now priority."
+"The Wardens responded correctly. Clementine Andersmith is alive. The cult is broken. Waystone will recover." She looks at the map Elric has pinned to the board. "The other convergence points need assessment. Wardens move when Elric gives coordinates. This is now priority."
 }}
 
 ---
@@ -19755,230 +20154,7 @@ The frontier is no longer just changing. It is being claimed.
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
 
-{{watercolor5,top:451px,left:23px,width:327px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## DM Notes 
-
-{{note
-Use this section as your behind-the-screen control panel for Temple of the Dragonknights.
-It consolidates tone guidance, pitfalls, scaling, and improvisation tools.
-The most important note: **Venomfang is not a monster. She is a person with goals. Play her that way.**
-}}
-
-### Adventure Overview (DM Lens)
-
-**Theme:** Ambition and exploitation — factions respond to the Aeorian Echo.
-**Core Tension:** A young dragon has claimed a convergence point she doesn't fully understand, and stopping her doesn't stop the signal.
-**Tone:** Dangerous, morally complex, with room for negotiation and creative tactics.
-**Level Range:** 3–5 (campaign capstone).
-**Expected Duration:** 4–6 hours (single or two-session adventure).
-
----
-
-### Common DM Pitfalls & Fixes
-
-#### **1. Venomfang as a Pure Villain**
-
-**Problem:** :: If Venomfang is played as a mindless monster, the moral complexity disappears.
-
-**Fix:** ::
-- She talks first. Always. Even if she's going to fight, she talks first.
-- She has legitimate goals: power, territory, the respect of something that usually dismisses her
-- She is genuinely wrong about what she's sitting on — this makes her almost sympathetic
-- If Shinebright is present, she will speak to him as an equal. She respects scholars more than soldiers.
-- Her final words, if she flees: not a threat. A warning. She has already learned something from this encounter.
-
-
-#### **2. Kobolds as Cannon Fodder**
-
-**Problem:** :: Kobolds feel like XP dispensers with no identity.
-
-**Fix:** ::
-- They are *fanatical* — they genuinely believe Venomfang will ascend to godhood
-- Use Pack Tactics visibly and explicitly — describe them flanking, signaling each other, coordinating
-- Captured kobolds have names (DM's choice) and opinions about Venomfang that are touching in their sincerity
-- When Venomfang flees, the kobolds' faces are the real consequence — they just watched their god leave
-
----
-\column
-#### **3. The Cavern Becomes a Grind**
-
-**Problem:** :: Verdanthorn Warren has many areas; without pacing it becomes exhausting.
-
-**Fix:** ::
-- Sera Gelanadel, once rescued, narrates the rest of the layout — the Wardens don't need to clear every room
-- The kobolds in sleeping quarters are genuinely asleep if the Wardens have been quiet
-- Let the puzzle in Area 5 feel like a discovery, not a gate
-- The bridge crossing should be tense the first time and routine after — don't make them roll every crossing
-
-#### **4. Venomfang Fight Is TPK-Bait**
-
-**Problem:** :: Young green dragon (CR 8) can kill a Level 3 party in two rounds.
-
-**Fix:** ::
-- She starts with Poison Breath if available, then retreats to the air — she does not close to melee immediately
-- At 50% HP, she offers terms or retreats through the ceiling. She values her life more than she values winning.
-- The dragon eggs are leverage the players can discover and use
-- If the party is dying: Venomfang toys with them ("You're more entertaining than most. Leave now and I'll let you.") — this is still in-character
-- If TPK is imminent: She decides they're worth more as a ransom than a meal. Northcrest will pay for their Wardens.
-
-{{note
-**"We want to negotiate before we even enter the cavern!"**
-→ Valid. Venomfang sends a kobold emissary if they announce themselves loudly enough outside. She is genuinely curious what they want. Roll into negotiation directly — Clementine is still captive, which is leverage both ways.
-
-**"Venomfang killed us in round one."**
-→ She captures them instead — she wanted to ransom them to Northcrest anyway. They escape via skill challenge and get a second approach with better information.
-
-**"We want to collapse the entire temple."**
-→ Excellent instinct. Engineering/Investigation DC 15 to identify the structural weak points. Venomfang escapes (she can fly); the hoard is buried. The sealed facility's containment stabilizes. Elric is genuinely impressed.
-
-**"The kobolds are dying in one hit."**
-→ They should be using Pack Tactics — describe them flanking explicitly. If the party is steamrolling, add the kobold inventor (use Kobold Dragonshield or Cultist stats with improvised alchemical bombs, 2d6 fire, DC 12 Dex save).
-
-**"We refuse to fight a CR 8 dragon; we're Level 3."**
-→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aeorian facility revelation as a negotiating tool.
-}}
----
-
-{{pageNumber,auto}}
-{{footnote Section 8: Resolution Paths}}
-
-{{watercolor12,top:28px,left:288px,width:354px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-## Improvisation Toolkit
-
-#### **If Players Get Stuck:**
-
-1. **Joel Andersmith:** :: "The kobolds came from the northwest. Past the farm. There's an old temple up there — in the mountains. Nobody goes near it. Nobody. There's a reason for that."
-2. **Sera Gelanadel (once freed):** :: "I've been here two days. I know the layout, I know the ritual, I know where the dragon is and what she wants. Ask me anything."
-3. **A surviving kobold:** :: "The Great One is in the high chamber. She knows you're here. She's been watching since the cavern entrance."
-
----
-
-#### **If Players Avoid the Adventure:**
-
-- Kobold raids escalate — the market square is attacked; civilians are killed
-- Venomfang sends a kobold emissary to Northcrest: "Your Wardens have delayed long enough. Send them, or I will come myself."
-- Lorewarden Elric sends urgent word: "The convergence point northwest of Northcrest is actively amplifying. Something is exploiting it. Go."
-
----
-
-#### **If Combat Is Too Easy:**
-
-- Kobold reinforcements arrive from a hidden tunnel (2d4 kobolds, 2 rounds delay)
-- Venomfang uses her environment: poison fog through a crack in the floor, rockfall from the ceiling
-- The ritual's completion triggers a surge — the next enemy attack automatically crits
-
----
-
-#### **If Combat Is Too Hard:**
-
-- Venomfang decides the party is not worth dying over and offers terms immediately
-- The dragon eggs hatch — tiny green dragon wyrmlings that are confused and not hostile; chaos ensues, Venomfang is distracted
-- Sera Gelanadel joins combat, casting *thunderwave* from cover (she kept one spell slot)
-
----
-
-\column
-
-## Rewards & Aftermath
-
-###### **Standard Rewards:**
-
-- Northcrest gratitude (500 gp + free supplies, permanent shop discount)
-- Dragon hoard (if Venomfang is killed or driven away)
-- Kobold cult cache (200 gp + supplies recovered from Northcrest)
-
-###### **Venomfang's Hoard:**
-
-- **1,500 gp** in assorted coin and trade goods
-- **2d4 gems** (100 gp each)
-- **+1 Longsword** — inscribed with the Dragonknight oath; has history
-- **Cloak of Elvenkind** — from a previous victim; no enchantment degradation
-- **Potions of Greater Healing ×3**
-- **One rare item** (DM's choice, based on party composition)
-
-###### **Milestone XP:**
-
-- Complete the Northcrest investigation and reach the temple → **+200 XP each**
-- Rescue Clementine Andersmith → **+150 XP each**
-- Resolve the Venomfang confrontation (any outcome) → **+300 XP each**
-- Discover the Aeorian facility beneath the temple → **+100 XP bonus**
-- Disrupt or collapse the convergence point → **+150 XP bonus**
-
-###### **Reputation:**
-
-- **Northcrest:** Heroes. Permanent. The Browns will name a drink after them.
-- **Northreach Wardens:** Senior Warden status; Marshal Brenna promotes them formally
-- **Lorewarden Elric:** The most direct engagement yet with the Echo's consequences; his investment in the Wardens increases significantly
-- **Venomfang (if alive):** She remembers. Whether that's good or bad depends on how the confrontation ended.
-
----
-
-{{pageNumber,auto}}
-{{footnote Section 8: Resolution Paths}}
-
-{{watercolor1,top:633px,left:495px,width:398px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
-# DM Prep Checklist: 
-
-## One Week Before Session
-
-- [ ] Read entire adventure (30–45 minutes)
-- [ ] Review DM Notes section for Venomfang's personality and tactics
-- [ ] Decide: will Venomfang negotiate OR fight to near-death?
-- [ ] Decide: will the Aeorian facility revelation change her calculus? (Recommended: yes)
-- [ ] Familiarize yourself with Young Green Dragon stat block (this document)
-- [ ] Review kobold Pack Tactics — plan to use it visibly every round
-- [ ] Mark key revelation moments (ward anchors, Aeorian facility, Venomfang's warning)
-- [ ] Review Aeorian Echo foreshadowing lines
-
-## Day Before Session
-
-- [ ] Print/bookmark stat blocks:
-  - [ ] Venomfang (this document)
-  - [ ] Kobold (this document)
-  - [ ] Winged Kobold (this document)
-  - [ ] Kobold Cultist (this document)
-  - [ ] Dragonknight Warden / Zombie (this document)
-  - [ ] Piercer (this document)
-- [ ] Prepare Venomfang's lair description (open summit, hoard, dragon eggs, open ceiling)
-- [ ] Prepare kobold trap descriptions (bridge, pressure plate, piercer)
-- [ ] Decide on Venomfang's hoard contents (from Rewards section)
-- [ ] Review Sera Gelanadel's knowledge — she is a significant resource once freed
-- [ ] Review optional lair actions (rockfall, poison fog) if party is high Level 4–5
-
-\column
-## Props & Materials
-
-- [ ] Index card with Venomfang's dialogue (opening, negotiation offer, retreat line)
-- [ ] Index card with Sera Gelanadel's information dump (layout, ritual, dragon location)
-- [ ] Index card with Dragonknight frieze descriptions (for the reveal)
-- [ ] Map of Verdanthorn Warren (5 areas — sketch or theater of mind)
-- [ ] Map of Temple of Dragonknights (6 areas)
-- [ ] Dragon miniature or token (Venomfang — Large)
-- [ ] Kobold miniatures or tokens (10–12 recommended)
-- [ ] Three intact egg tokens or dice to represent the dragon eggs
-
-## Session Zero / Player Prep
-
-- [ ] Confirm party level (3–5 recommended; this is a demanding adventure)
-- [ ] Brief players: This adventure features a dragon confrontation (CR 8) — preparation and tactics matter
-- [ ] Set expectations: Combat, exploration, negotiation — all are genuinely viable
-- [ ] Ask players: "How does your character feel about dragons? About negotiating with something dangerous?"
-- [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
-- [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
-
-{{pageNumber,auto}}
-{{footnote DM Prep Checklist:}}
-
-{{watercolor7,top:47px,left:361px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:562px,left:316px,width:282px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -19986,7 +20162,7 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 
 ### Key DC Checks
 
-###### **Northcrest Investigation:**
+###### **Waystone Raid Response:**
 DC 10 Medicine: :: Stabilize Joel Andersmith
 DC 12 Insight: :: Joel is telling the truth — he is not confused or exaggerating
 DC 10 Survival: :: Track kobolds north to the Andersmith Farm
@@ -20026,7 +20202,7 @@ DC 15 Arcana: :: Explain the Aeorian facility — changes her risk calculation s
 ### Encounter Scaling Quick Reference
 
 ###### **2–3 Players (Level 3–4):**
-DC 0 Kobolds vs. Guards: :: 4 kobolds + 4 guards
+DC 0 Kobolds vs. Auxiliaries: :: 4 kobolds + 4 auxiliaries (use Guard stat block)
 DC 0 Verdanthorn Warren Area 1: :: 1 winged kobold
 DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping)
 DC 0 Temple Area 1: :: 4 zombies (nerfed; 11 HP each)
@@ -20035,21 +20211,21 @@ DC 0 Temple Area 4: :: 3 kobold cultists + 1 kobold guard
 DC 0 Venomfang's Lair: :: Venomfang (60 HP); no kobold guards
 
 ###### **4–5 Players (Level 4–5):**
-DC 0 Kobolds vs. Guards: :: 6 kobolds + 4 guards
+DC 0 Kobolds vs. Auxiliaries: :: 6 kobolds + 4 auxiliaries (use Guard stat block)
 DC 0 Verdanthorn Warren Area 1: :: 1 winged kobold + 1 kobold
-DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping) + 1 awake guard
+DC 0 Verdanthorn Warren Area 2: :: 3 kobolds (sleeping) + 1 awake kobold guard
 DC 0 Temple Area 1: :: 4 zombies (full HP)
 DC 0 Temple Area 2: :: 1 kobold cultist + 1 kobold guard
 DC 0 Temple Area 4: :: 5 kobold cultists + 2 kobold guards
 DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
----
+\column
 
 ### Pacing Guide (4–6 Hour Session)
 
-###### **Hour 1: Northcrest Investigation**
-- Kobold raid; guards respond; Wardens assist
-- Joel Andersmith; town resupply
+###### **Hour 1: Waystone Raid Response**
+- Kobold raid; auxiliaries respond; Wardens assist
+- Joel Andersmith; resupply at Waystone Inn
 - Farm investigation and trail discovery
 
 ###### **Hour 2: The Trail and Cavern Entry**
@@ -20074,13 +20250,13 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 ###### **Hour 6: Resolution and Return**
 - Loot, collapse, or seal as applicable
 - Path down the mountain with Clementine
-- Joel Andersmith reunion; Northcrest celebration
+- Joel Andersmith reunion; Waystone Inn celebration
 - Debrief with Lorewarden Elric
 
 {{pageNumber,auto}}
 {{footnote Quick Reference During Play}}
 
-{{watercolor10,top:352px,left:146px,width:278px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:196px,left:221px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20146,8 +20322,9 @@ The silence after this is the silence of a creature deciding it would prefer not
 **Joel Andersmith:** :: Farmer, quest giver, father
 **Clementine Andersmith:** :: Joel's daughter; twelve years old; the ritual's living component
 **Sera Gelanadel:** :: Junior arcanist; Elric's field researcher; invaluable once freed
-**Richard & Lauraine Brown:** :: Innkeepers, The Flowing Mug
-**Dorn Stoutheart:** :: Blacksmith, Northcrest; knows the mountain paths
+**Steward Mara Fenwick:** :: Quartermaster at Waystone Inn; triage and resupply
+**Marshal Brenna Thorne:** :: Field commander; evaluates outcomes and sets priorities
+**Lorewarden Elric Vael:** :: Arcane scholar; debriefs and tracks convergence points
 
 ## Post-Session Tasks
 
@@ -20162,7 +20339,7 @@ The silence after this is the silence of a creature deciding it would prefer not
 - [ ] Prepare Elric's follow-up hooks (other convergence points, Salsvault, faction movements)
 - [ ] If Venomfang escaped: note potential future encounter and her stated warning
 
-{{watercolor7,top:568px,left:246px,width:350px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:743px,left:325px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20250,7 +20427,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor1,top:456px,left:152px,width:381px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:95px,left:343px,width:332px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20289,7 +20466,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor4,top:238px,left:48px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:631px,left:42px,width:368px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20378,7 +20555,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor1,top:387px,left:110px,width:296px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:68px,left:320px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20471,7 +20648,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor2,top:446px,left:135px,width:265px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:594px,left:50px,width:287px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20581,7 +20758,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor2,top:88px,left:379px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:201px,left:157px,width:373px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20665,7 +20842,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor1,top:316px,left:31px,width:287px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:294px,left:50px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20740,7 +20917,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - *Current Status:* Research equipment exists in Temple facility
 - *Threat Level:* Extreme (permanent harm to dragons)
 
-{{watercolor9,top:244px,left:235px,width:325px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:455px,left:388px,width:295px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20812,7 +20989,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor8,top:120px,left:228px,width:345px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:459px,left:40px,width:325px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -20900,7 +21077,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor10,top:332px,left:231px,width:319px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:408px,left:458px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21020,7 +21197,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
-{{watercolor3,top:684px,left:171px,width:325px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:35px,left:8px,width:250px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21134,7 +21311,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote Player Investigation Paths}}
 
-{{watercolor5,top:439px,left:127px,width:343px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:225px,left:421px,width:391px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21167,6 +21344,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## Major Confrontations and Setpieces
 
 ### The Wolf Lair (Early Game)
@@ -21198,7 +21377,12 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Introduction to Aeorian tech
 - Opening to larger mystery
 
-\column
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+{{watercolor7,top:51px,left:206px,width:389px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Croaker Cave (Early-Mid Game)
 
@@ -21237,6 +21421,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ### Salsvault (Mid Game)
 
 ###### **Location:** Far north of Palebank, glacier-buried facility
@@ -21272,7 +21458,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote Player Investigation Paths}}
 
-{{watercolor5,top:377px,left:317px,width:324px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:244px,left:257px,width:303px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21308,6 +21494,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ### The Command Center
 
 ###### **Location:** Beyond Salsvault, intact Aeorian facility
@@ -21338,7 +21526,12 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Completion of thousand-year-old war
 - Future of Northreach
 
-\column
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+{{watercolor2,top:386px,left:340px,width:267px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -21369,6 +21562,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Sell to highest bidder (temptation)
 - Give to authorities (trust issues)
 - Hide for future need
+
+\column
 
 ### Strategic Decisions
 
@@ -21401,7 +21596,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote Player Investigation Paths}}
 
-{{watercolor4,top:269px,left:255px,width:395px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:190px,left:471px,width:257px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21506,7 +21701,7 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 {{pageNumber,auto}}
 {{footnote Player Investigation Paths}}
 
-{{watercolor1,top:704px,left:440px,width:291px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:119px,left:449px,width:287px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21611,7 +21806,7 @@ Whatever happens, the players will have shaped Northreach's future through their
 *"The past speaks from the ice. Whether we listen or silence it is our choice—and our burden."*  
 — Lorewarden Elric Vael (private journal)
 
-{{watercolor5,top:437px,left:267px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:603px,left:253px,width:324px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21647,6 +21842,8 @@ As Aeor fell:
 **Fragments of Aeor didn't just crash into Eiselcross. They crashed into MULTIPLE realities simultaneously.**
 
 One of those fragments—a massive section containing the research laboratory **Salsvault**—fell through a rift and landed in **The Far North of Aevoria**, hundreds or even thousands of years ago (the exact time is unclear; time flows differently between planes).
+
+\column
 
 ### Why It Stayed Hidden
 
@@ -21688,6 +21885,13 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 **For Season One:** The "why" matters less than the "what now"—the Echo is spreading, and the Wardens must deal with its consequences.
 
+{{pageNumber,auto}}
+{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+
+{{watercolor9,top:121px,left:316px,width:268px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ---
 
 ## How This Explains Campaign Continuity
@@ -21702,10 +21906,6 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 - Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
 
 ### Major Differences Explained
-
----
-
-\column
 
 **Why Aevoria ≠ Exandria:**
 - Different continents, nations, pantheons, cultures
@@ -21736,6 +21936,8 @@ If campaigns continue:
 - High-level divination magic could reveal glimpses of Aeor's fall in Exandria
 - Players could discover OTHER Aeorian fragments scattered across Aevoria (more ruins, more echoes)
 - The dimensional rift might still be unstable—could Aevoria be pulled into Exandria's conflicts?
+
+\column
 
 ### Tier 5 (Epic Campaign): The Rift Itself
 
@@ -21782,6 +21984,13 @@ If campaigns reach epic levels:
 - They might glimpse Aeor falling through the sky in a DIFFERENT world (snow-covered mountains, twin moons, etc.)
 - This creates mystery without giving away the full answer
 
+{{pageNumber,auto}}
+{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+
+{{watercolor12,top:97px,left:40px,width:346px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ---
 
 ## Why This Design Works
@@ -21818,7 +22027,7 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 **Campaign Status:** Foundational lore for Season One and beyond  
 **Player Knowledge:** None (this is DM-only background)
 
-{{watercolor13,top:48px,left:212px,width:362px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:15px,left:301px,width:291px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -21878,7 +22087,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Created the guild partially as a response mechanism for escalating threats
 
-
+\column
 
 **Hidden Motivations:**
 
@@ -21942,7 +22151,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor4,top:484px,left:69px,width:362px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Steward Mara Fenwick
 
@@ -21998,7 +22212,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Can identify stolen goods and trace provenance
 
-
+\column
 
 **Relationships:**
 
@@ -22045,7 +22259,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor5,top:512px,left:279px,width:343px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:100px,left:136px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22101,7 +22315,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Encrypted notes using academic code only Cobalt Soul members know
 
-
+\column
 
 **Relationships:**
 
@@ -22155,7 +22369,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor3,top:521px,left:88px,width:324px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Warden Field Agents: Hidden Truths
 
@@ -22214,7 +22433,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor2,top:334px,left:286px,width:351px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:132px,left:193px,width:394px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22260,7 +22479,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Mila Teno (Rookie Trailwarden)
 
@@ -22294,7 +22513,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor10,top:247px,left:86px,width:308px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Takk Oaksplitter (Lantern Guard)
 
@@ -22342,7 +22566,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Galvena Aballon (Lantern Guard)
 
@@ -22385,7 +22609,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor9,top:618px,left:113px,width:304px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:451px,left:322px,width:395px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22431,7 +22655,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Guz (Lantern Guard)
 
@@ -22469,7 +22693,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor9,top:602px,left:64px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Magical Specialists: Secret Agendas
 
@@ -22521,7 +22750,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Aurixean Valignaak (Sorcerer)
 
@@ -22576,7 +22805,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor5,top:55px,left:191px,width:285px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:80px,left:498px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22634,7 +22863,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor5,top:138px,left:320px,width:276px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Baleth Cindermoon (Warlock)
 
@@ -22666,7 +22900,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Baleth is beginning to suspect but is addicted to the power
 
-
+\column
 
 **The Dilemma:**
 
@@ -22703,7 +22937,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor9,top:186px,left:157px,width:336px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:527px,left:469px,width:266px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22757,7 +22991,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Willen Featherock (Shepherd)
 
@@ -22817,7 +23051,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor10,top:324px,left:423px,width:342px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Flynt Wymblen (Bard)
 
@@ -22865,7 +23104,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Joel Andersmith (Farmhand Ally)
 
@@ -22920,7 +23159,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor2,top:288px,left:180px,width:270px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:420px,left:198px,width:268px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -22982,7 +23221,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Pelc (Reclusive Merchant) — DECEASED
 
@@ -23032,7 +23271,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor12,top:393px,left:119px,width:263px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Tulgi Lutan (Trapper)
 
@@ -23092,7 +23336,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Tillus Merrion (Welton Council Member)
 
@@ -23135,7 +23379,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor1,top:390px,left:207px,width:383px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:212px,left:286px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23181,7 +23425,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-
+\column
 
 ### Westly (Shepherd)
 
@@ -23243,7 +23487,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor6,top:721px,left:109px,width:303px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Blackwake Corsairs Connection
 
@@ -23285,7 +23534,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Unknown Agents:** In other settlements, identities unknown
 
-
+\column
 
 ### What the Corsairs Know
 
@@ -23344,7 +23593,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor8,top:618px,left:88px,width:370px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:469px,left:18px,width:347px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23390,7 +23639,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Tulgi Knows:** Operative network
 
-
+\column
 
 ### About Aeorian Effects
 
@@ -23422,7 +23671,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor1,top:375px,left:179px,width:373px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Big Picture: Connections Players Must Discover
 
@@ -23486,7 +23740,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 -->
 
-
+\column
 
 ### Information Web
 
@@ -23530,7 +23784,12 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
+{{watercolor4,top:642px,left:465px,width:307px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Using This Information
 
@@ -23568,7 +23827,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Secret backgrounds pay off dramatically
 
-
+\column
 
 ### Trust and Discovery
 
@@ -23621,7 +23880,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
-{{watercolor5,top:303px,left:54px,width:276px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:236px,left:331px,width:339px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23673,7 +23932,10 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 *Remember: These secrets should enhance the story, not overshadow the players. Reveal information at dramatically appropriate moments.*
 
-{{watercolor10,top:53px,left:264px,width:280px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
+
+{{watercolor1,top:592px,left:191px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -23694,17 +23956,19 @@ This document contains hidden location features, dark histories, and plot connec
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor12,top:502px,left:170px,width:256px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Waystone Inn: Hidden Depths
 
 
-
 ### The Waystone Itself
-
 
 
 **What Players See:**
@@ -23714,7 +23978,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Predates the inn by unknown time
 
 - Some claim it hums during storms
-
 
 
 **What's Really There:**
@@ -23728,7 +23991,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Resonates with other Aeorian artifacts in the region
 
 
-
 **Hidden Features:**
 
 - Carvings are Aeorian script (heavily weathered)
@@ -23739,7 +24001,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Has been slowly "waking up" over past few years
 
-
+\column
 
 **What It Means:**
 
@@ -23750,7 +24012,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Current reactivation of Aeorian tech is making it active again
 
 - Could be used to locate other Aeorian sites
-
 
 
 **What Elric Knows:**
@@ -23764,7 +24025,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Hasn't shared full findings with Brenna yet
 
 
-
 **Potential Discoveries:**
 
 - Players with detect magic notice increasing auras
@@ -23776,13 +24036,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Map of Aeorian sites could be extracted with right magic
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor2,top:669px,left:454px,width:253px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Inn's Secret Spaces
-
 
 
 **Brenna's Hidden Office:**
@@ -23796,7 +24059,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Journal documenting patterns over 15 years
 
 - Contingency plans for evacuation
-
 
 
 **Elric's Research Vault:**
@@ -23814,7 +24076,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence he shouldn't have
 
 
-
+\column
 **Mara's Escape Cache:**
 
 - Behind false panel in her quarters
@@ -23830,7 +24092,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence of her past
 
 
-
 **The Old Well:**
 
 - In the courtyard, sealed for "safety"
@@ -23844,13 +24105,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Could be explored with right motivation
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor2,top:28px,left:394px,width:251px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### What Happened Here Before
-
 
 
 **Known History:**
@@ -23860,7 +24124,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Served as waypoint for travelers
 
 - Wardens established here 15 years ago
-
 
 
 **Secret History:**
@@ -23876,7 +24139,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Some walls contain Aeorian metal and crystal
 
 
-
 **The Previous Owner:**
 
 - Disappeared mysteriously 20 years ago
@@ -23890,7 +24152,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Last entry: "It knows I'm listening"
 
 
-
 **What This Means:**
 
 - Previous owner was sensitive to Aeorian magic
@@ -23901,20 +24162,12 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Could be encountered later as transformed being
 
-
+\column
 
 ---
 
 
-
 ### Current Threats
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-{{watercolor10,top:623px,left:483px,width:255px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 **Surveillance:**
 
@@ -23925,7 +24178,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Unknown agent has tried to access Elric's library
 
 - Baleth's patron receives reports about the place
-
 
 
 **Infiltration:**
@@ -23939,7 +24191,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Players might discover spy if observant
 
 
-
 **Magical Monitoring:**
 
 - Scrying attempts on the building
@@ -23951,17 +24202,20 @@ This document contains secret information about locations in the Northwatch Ward
 - Something is very interested in what Wardens know
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor5,top:323px,left:36px,width:274px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Welton: Dark Undercurrents
 
 **Related Adventure:** See **Chapter 5: Wolves of Welton**
 
 ### The Wolf Problem's True Nature
-
 
 
 **Visible Situation:**
@@ -23971,7 +24225,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Unusual behavior, too organized
 
 - Community on edge
-
 
 
 **Hidden Reality:**
@@ -23984,7 +24237,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - This is a TRIAL RUN for larger operation
 
-
+\column
 
 **The Controller:**
 
@@ -23995,7 +24248,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Testing how much intelligence can be granted
 
 - Evaluating settlement for future targeting
-
 
 
 **Why Welton:**
@@ -24009,13 +24261,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Small enough to be manageable
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor4,top:184px,left:458px,width:301px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Westly's Farm: Ground Zero
-
 
 
 **Surface Situation:**
@@ -24025,7 +24280,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Isolated location
 
 - Recent increased activity
-
 
 
 **Hidden Reality:**
@@ -24039,7 +24293,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Wolves drawn to the location specifically
 
 
-
 **The Facility Below:**
 
 - Small research station
@@ -24050,7 +24303,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Sending signals that attract test subjects
 
-
+\column
 
 **What's Happening to Westly:**
 
@@ -24061,7 +24314,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Being "marked" by whatever is reactivating sites
 
 - Could become patient zero for something terrible
-
 
 
 **Potential Developments:**
@@ -24075,13 +24327,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Site could become major adventure location
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor13,top:330px,left:229px,width:388px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Shepherd's Crook Inn: Information Hub
-
 
 
 **Public Function:**
@@ -24089,7 +24344,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Village social center
 
 - Where news and gossip flow
-
 
 
 **Secret Function:**
@@ -24103,7 +24357,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Doesn't realize he's part of larger intelligence network
 
 
-
 **What He Knows:**
 
 - Every rumor in the village
@@ -24114,7 +24367,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Names of everyone passing through
 
-
+\column
 
 **His Contact:**
 
@@ -24125,7 +24378,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Interested in "unusual occurrences"
 
 - Could be Cobalt Soul, government, or worse
-
 
 
 **Potential Discovery:**
@@ -24139,19 +24391,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Could become liability if compromised
 
 
-
 ---
-
-
-
-### The Old Woods North of Welton
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor4,top:385px,left:482px,width:380px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:384px,left:335px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+### The Old Woods North of Welton
 
 **Local Reputation:**
 
@@ -24160,7 +24409,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Superstitions and warnings
 
 - Stories of people going missing
-
 
 
 **Reality:**
@@ -24174,7 +24422,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Source of regional magical disturbances
 
 
-
 **What's There:**
 
 - Partially buried Aeorian structure
@@ -24185,7 +24432,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Evidence of recent visits by unknown person
 
-
+\column
 
 **The Danger:**
 
@@ -24196,7 +24443,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Biological materials could be infectious
 
 - Structure unstable—could collapse
-
 
 
 **Connection to Campaign:**
@@ -24210,12 +24456,14 @@ This document contains secret information about locations in the Northwatch Ward
 - Major adventure location for investigating wolf problem
 
 
-
-
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor7,top:509px,left:500px,width:290px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Pinebrook: Commerce and Conspiracy
 
@@ -24224,13 +24472,11 @@ This document contains secret information about locations in the Northwatch Ward
 ### The Trading Post's Hidden Business
 
 
-
 **Public Operation:**
 
 - Legitimate trade in regional goods
 
 - Fair dealing and honest weights
-
 
 
 **Secret Operation:**
@@ -24244,7 +24490,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Uses legitimate business to launder criminal goods
 
 
-
+\column
 **The Method:**
 
 - Artifacts mixed with legitimate antiques
@@ -24254,7 +24500,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Records are coded—genuine and fake mixed
 
 - Uses established trade routes for smuggling
-
 
 
 **What He Knows:**
@@ -24268,7 +24513,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Instructions from Corsair leadership
 
 
-
 **Evidence:**
 
 - Hidden ledger with real transactions
@@ -24280,13 +24524,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Map showing smuggling routes
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor5,top:387px,left:178px,width:379px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Pine Lodge: Watching Eyes
-
 
 
 **Public Service:**
@@ -24296,7 +24543,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Meeting rooms for business
 
 - Secure and discreet
-
 
 
 **Secret Function:**
@@ -24310,7 +24556,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Sells intelligence to highest bidder
 
 
-
 **Her Network:**
 
 - Contacts among merchants
@@ -24320,7 +24565,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Relationships with criminals and legitimate authorities
 
 - Neutral but morally flexible
-
 
 
 **What She Knows:**
@@ -24334,7 +24578,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Value of information to different parties
 
 
-
 **Potential Use:**
 
 - Could be convinced to share information
@@ -24345,20 +24588,17 @@ This document contains secret information about locations in the Northwatch Ward
 
 - May have overheard crucial plot details
 
-
+\column
 
 ---
-
 
 
 ### The Market Square: Dead Drops
 
 
-
 **Public Space:**
 
 - Open market, legitimate trade
-
 
 
 **Secret Use:**
@@ -24372,7 +24612,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Uses market chaos for cover
 
 
-
 **Drop Locations:**
 
 - Hollow post of permanent stall
@@ -24382,7 +24621,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Specific barrel behind warehouse
 
 - Mark on well cover indicates message waiting
-
 
 
 **What Players Might Find:**
@@ -24396,19 +24634,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence of network communication
 
 
-
 ---
-
-
-
-### Abandoned Logging Camp (North of Pinebrook)
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor11,top:623px,left:79px,width:348px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:487px,left:286px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+### Abandoned Logging Camp (North of Pinebrook)
 
 **Official Status:**
 
@@ -24417,7 +24652,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Unstable terrain cited
 
 - Avoid the area
-
 
 
 **Real Reason:**
@@ -24431,7 +24665,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Area was quietly discouraged
 
 
-
 **What's There:**
 
 - Entrance to Aeorian structure
@@ -24442,7 +24675,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Signs of recent visitation
 
-
+\column
 
 **The Secret:**
 
@@ -24453,7 +24686,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Items stored temporarily before moving north
 
 - Guarded by hired muscle
-
 
 
 **Potential Adventure:**
@@ -24467,17 +24699,19 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence of larger operation
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor7,top:191px,left:412px,width:302px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Palebank Village: Death and Secrets
 
 
-
 ### The Far North Connection
-
 
 
 **Public Knowledge:**
@@ -24487,7 +24721,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Explorers bring back artifacts
 
 - Dangerous but potentially lucrative
-
 
 
 **Hidden Reality:**
@@ -24501,7 +24734,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Pattern suggests organized operation
 
 
-
 **The Pattern:**
 
 - Items are stolen soon after return
@@ -24513,13 +24745,10 @@ This document contains secret information about locations in the Northwatch Ward
 - Operation coordinated with outside interests
 
 
-
 ---
 
 
-
 ### Pelc's Curiosities: The Dead Merchant's Research
-
 
 
 **Before Death:**
@@ -24532,7 +24761,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Was preparing report when infected
 
-
+\column
 
 **What Can Be Found:**
 
@@ -24547,7 +24776,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Unsent letter to northern scholar
 
 
-
 **The Decoded Text:**
 
 - Warning about biological weapons
@@ -24557,7 +24785,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Mention of cure requirements
 
 - Fragment about "the speaking ice"
-
 
 
 **The Buyer Pattern:**
@@ -24571,7 +24798,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Willing to pay premium prices
 
 
-
 **Potential Discovery:**
 
 - Players search shop thoroughly
@@ -24583,13 +24809,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Map correlates with other evidence
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor8,top:605px,left:318px,width:349px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Urgon's Cabin: What He Brought Back
-
 
 
 **Visible Items:**
@@ -24601,7 +24830,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Mounted yeti head
 
 
-
 **Hidden Items:**
 
 - Journal under floorboard (DC 13 Investigation)
@@ -24611,7 +24839,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Rough sketch of Aeorian symbols
 
 - Note: "Blue ones are important—but dangerous"
-
 
 
 **The Journal:**
@@ -24627,7 +24854,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Final entry: "Felt watched the whole time"
 
 
-
 **What It Reveals:**
 
 - Salsvault has multiple chambers
@@ -24639,19 +24865,11 @@ This document contains secret information about locations in the Northwatch Ward
 - He had concerns before selling items
 
 
-
+\column
 ---
 
 
-
 ### Tulgi's Cabin: The Spy's Evidence
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-{{watercolor6,top:592px,left:167px,width:396px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 **Visible:**
 
@@ -24660,7 +24878,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Signs of illness
 
 - Basic living conditions
-
 
 
 **Hidden:**
@@ -24674,7 +24891,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Contact schedule for sister Hulil
 
 
-
 **The Instructions:**
 
 - Steal biological research materials first
@@ -24684,7 +24900,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Report unusual activity immediately
 
 - Drop-off location at Croaker Cave
-
 
 
 **What She Knows (If Interrogated):**
@@ -24698,13 +24913,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Other operatives in region (doesn't know all identities)
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor9,top:17px,left:295px,width:288px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Frostwatch: Compromised Security
-
 
 
 **Public Role:**
@@ -24712,7 +24930,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Village militia
 
 - Protects Palebank
-
 
 
 **Secret Problem:**
@@ -24726,7 +24943,6 @@ This document contains secret information about locations in the Northwatch Ward
 - May have infected others through contact
 
 
-
 **The Informant:**
 
 - Name: [DM choice]
@@ -24736,7 +24952,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Didn't understand implications
 
 - Now dying and possibly regretful
-
 
 
 **Potential Development:**
@@ -24750,21 +24965,18 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence in their quarters
 
 
-
 ---
-
 
 
 ### The Meeting Hall: Elro's Guilt
 
 
-
+\column
 **Public Use:**
 
 - Community gathering space
 
 - Elro's residence
-
 
 
 **Secret Storage:**
@@ -24776,7 +24988,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Names of dead team members
 
 - Personal journal about the tragedy
-
 
 
 **The Records:**
@@ -24792,7 +25003,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Elro's guilt about surviving
 
 
-
 **What He Remembers:**
 
 - Exact route to Salsvault
@@ -24802,7 +25012,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Trigger mechanisms for major traps
 
 - Signs that facility was still active
-
 
 
 **Potential Use:**
@@ -24816,17 +25025,19 @@ This document contains secret information about locations in the Northwatch Ward
 - Might offer to accompany party (despite age)
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor13,top:522px,left:96px,width:331px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Croaker Cave: Criminal Base
 
 
-
 ### Current Occupants
-
 
 
 **Visible Threat:**
@@ -24836,7 +25047,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Stolen goods stored
 
 - Defensive positions
-
 
 
 **Hidden Threat:**
@@ -24850,7 +25060,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Map to northern drop-off point
 
 
-
 **Layout Secrets:**
 
 - Natural caves with artificial improvements
@@ -24862,15 +25071,13 @@ This document contains secret information about locations in the Northwatch Ward
 - Stored supplies for long occupation
 
 
-
 ---
-
 
 
 ### Evidence of Larger Operation
 
 
-
+\column
 **What's Stored Here:**
 
 - Multiple Aeorian artifacts (beyond Urgon's items)
@@ -24880,7 +25087,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Correspondence with Corsair leadership
 
 - Instructions from mysterious buyer
-
 
 
 **The Manifest:**
@@ -24896,7 +25102,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Total value indicates serious funding
 
 
-
 **Correspondence:**
 
 - Letters from Blackwake Corsairs
@@ -24906,7 +25111,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Payment records
 
 - Schedule for northern shipments
-
 
 
 **The Map:**
@@ -24920,19 +25124,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Warnings about the area
 
 
-
 ---
-
-
-
-### Hulil's Knowledge
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor7,top:559px,left:353px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:750px,left:136px,width:375px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+### Hulil's Knowledge
 
 **What She Knows:**
 
@@ -24947,7 +25148,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Timeline of recent escalation
 
 
-
 **What She Doesn't Know:**
 
 - Buyer's true identity
@@ -24959,7 +25159,6 @@ This document contains secret information about locations in the Northwatch Ward
 - That she's expendable
 
 
-
 **If Captured/Interrogated:**
 
 - Will eventually reveal information
@@ -24969,21 +25168,17 @@ This document contains secret information about locations in the Northwatch Ward
 - Realizes operation is more dangerous than thought
 
 
-
 - Might be convinced to cooperate
-
 
 
 ---
 
 
-
 ## Salsvault: Frozen Laboratory
 
-
+\column
 
 ### What Elro's Expedition Learned
-
 
 
 **Layout:**
@@ -24997,7 +25192,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Sealed vaults (some breached, some intact)
 
 
-
 **Defenses:**
 
 - Automated guardians (constructs)
@@ -25007,7 +25201,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Environmental hazards (cold, unstable magic)
 
 - Biological containments (some failed)
-
 
 
 **What They Found:**
@@ -25023,13 +25216,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Command center (sealed)
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor9,top:622px,left:500px,width:371px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Current State
-
 
 
 **Active Elements:**
@@ -25043,7 +25239,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Research data accessible to those who can read Aeorian
 
 
-
 **Degraded Elements:**
 
 - Structural damage from crash
@@ -25053,7 +25248,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Unstable magical fields
 
 - Environmental penetration (ice, wind)
-
 
 
 **Reactivating Elements:**
@@ -25067,13 +25261,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Protocols resuming after millennia
 
 
-
 ---
 
 
-
+\column
 ### The Frigid Woe Connection
-
 
 
 **What Players Need:**
@@ -25087,7 +25279,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Multiple doses available
 
 
-
 **What They Might Learn:**
 
 - Frigid woe was anti-divine bioweapon
@@ -25097,7 +25288,6 @@ This document contains secret information about locations in the Northwatch Ward
 - One of many such weapons
 
 - Reactivation suggests intentional use
-
 
 
 **Additional Discovery:**
@@ -25111,13 +25301,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Warning about "reawakening protocol"
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor1,top:411px,left:321px,width:332px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Command Center
-
 
 
 **Status:**
@@ -25131,7 +25324,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Attempting to communicate with other sites
 
 
-
 **What's Inside:**
 
 - Aeorian AI or preserved consciousness
@@ -25141,7 +25333,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Communication array
 
 - Failsafe mechanisms (both safety and weapon)
-
 
 
 **The Entity:**
@@ -25155,7 +25346,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Attempting to complete pre-Calamity mission
 
 
-
 **Connection to Campaign:**
 
 - This is the intelligence behind reactivation
@@ -25167,13 +25357,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Final confrontation location
 
 
-
 ---
 
-
+\column
 
 ### The Northern Drop-Off Point
-
 
 
 **Location:**
@@ -25183,7 +25371,6 @@ This document contains secret information about locations in the Northwatch Ward
 - In permanently frozen wasteland
 
 - Marked on Corsair map
-
 
 
 **What's There:**
@@ -25197,7 +25384,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Extremely dangerous
 
 
-
 **Current Use:**
 
 - Processing stolen artifacts
@@ -25207,7 +25393,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Research into biological weapons
 
 - Preparation for larger plan
-
 
 
 **The Threat:**
@@ -25221,24 +25406,20 @@ This document contains secret information about locations in the Northwatch Ward
 - Represents existential danger if fully active
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor4,top:721px,left:327px,width:348px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Temple of the Dragonknights: Heroic Tomb
 
 **Related Adventure:** See **Chapter 5: Temple of the Dragonknights**
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-{{watercolor1,top:549px,left:345px,width:299px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ### The Historical Truth
-
 
 
 **Legend:**
@@ -25252,7 +25433,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Disappeared mysteriously
 
 
-
 **Reality:**
 
 - Dragonknights fought post-Calamity Aeorian threats
@@ -25262,7 +25442,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Sealed Aeorian facility beneath temple
 
 - Most died in final battle; survivors disbanded
-
 
 
 **The Sealed Evil:**
@@ -25276,13 +25455,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Still active below the temple
 
 
-
+\column
 ---
 
 
-
 ### Current State
-
 
 
 **Temple Structure:**
@@ -25296,7 +25473,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Some wards failing after centuries
 
 
-
 **The Catacombs:**
 
 - Tombs of fallen Dragonknights
@@ -25306,7 +25482,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Desecration weakens seals
 
 - Some tombs already disturbed
-
 
 
 **What's Stirring:**
@@ -25320,13 +25495,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Corrupting the area around temple
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor6,top:197px,left:183px,width:330px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Adventure Hooks
-
 
 
 **Immediate Threat:**
@@ -25340,7 +25518,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Draconic entities drawn to corruption
 
 
-
 **The Descent:**
 
 - Path down to Aeorian facility
@@ -25350,7 +25527,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Layers of security to breach
 
 - Final confrontation with facility core
-
 
 
 **The Stakes:**
@@ -25364,17 +25540,15 @@ This document contains secret information about locations in the Northwatch Ward
 - Must be destroyed or sealed properly
 
 
-
 ---
-
 
 
 ## Noke's Tower: The Wizard's Arsenal
 
+\column
 **Related Adventure:** See **Chapter 5: The Wild Sheep Chase**
 
 ### Shinebright's True Purpose
-
 
 
 **Public Perception:**
@@ -25384,7 +25558,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Dangerous but harmless
 
 - Keeps to himself
-
 
 
 **Reality:**
@@ -25398,7 +25571,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Knows about Echo and is preparing
 
 
-
 **The Wild Sheep Chase:**
 
 - Not an accident—a test
@@ -25410,13 +25582,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Results inform anti-transformation counterspells
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor8,top:748px,left:88px,width:343px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Tower's Contents
-
 
 
 **Ground Floor:**
@@ -25430,7 +25605,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Can animate to defend
 
 
-
 **Second Floor:**
 
 - Working laboratory
@@ -25440,7 +25614,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Reference library
 
 - Scrying equipment (watching Aeorian sites)
-
 
 
 **Third Floor:**
@@ -25454,7 +25627,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Ritual space for major magic
 
 
-
 **Basement (Unknown to Most):**
 
 - Extensive Aeorian research archive
@@ -25466,13 +25638,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Countermeasure prototypes
 
 
-
 ---
 
 
-
+\column
 ### What Shinebright Knows
-
 
 
 **About the Echo:**
@@ -25486,7 +25656,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Predictions about next activations
 
 
-
 **About Aeorian Magic:**
 
 - How it works fundamentally
@@ -25496,7 +25665,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Countermeasure theory
 
 - Translation of Aeorian texts
-
 
 
 **About the Stakes:**
@@ -25510,7 +25678,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Working desperately on solutions
 
 
-
 **What He Needs:**
 
 - Specific components from Aeorian sites
@@ -25522,19 +25689,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Time to complete countermeasures
 
 
-
 ---
-
-
-
-### Potential Alliance
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor10,top:398px,left:225px,width:395px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:500px,left:465px,width:347px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+### Potential Alliance
 
 **If Players Earn Trust:**
 
@@ -25545,7 +25709,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Offers countermeasure equipment
 
 - Becomes crucial ally
-
 
 
 **Requirements for Trust:**
@@ -25559,11 +25722,9 @@ This document contains secret information about locations in the Northwatch Ward
 - Successfully complete test (Wild Sheep Chase)
 
 
-
 **What He Can Provide:**
 
 - Translation of Aeorian text
-
 
 
 - Maps of facilities
@@ -25573,25 +25734,21 @@ This document contains secret information about locations in the Northwatch Ward
 - Theoretical solutions to final threat
 
 
-
 ---
-
 
 
 ## The Wilderness: Hidden Dangers
 
 
-
 ### The Roads Between
 
-
+\column
 
 **Surface Dangers:**
 
 - Weather, predators, bandits
 
 - Normal frontier hazards
-
 
 
 **Hidden Threats:**
@@ -25605,7 +25762,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Strategic locations being observed
 
 
-
 **Aeorian Ley Lines:**
 
 - Connect crash sites
@@ -25615,7 +25771,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Becoming active again
 
 - Affect area around them
-
 
 
 **Effects:**
@@ -25629,13 +25784,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Strange dreams for those camping nearby
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor7,top:27px,left:68px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Old Places
-
 
 
 **Local Warnings:**
@@ -25645,7 +25803,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Stories warn people away
 
 - Superstitions preserve safety
-
 
 
 **Reality:**
@@ -25659,7 +25816,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Actually effective protective information
 
 
-
 **Specific Sites:**
 
 - The Weeping Stones (automated defense station)
@@ -25671,15 +25827,13 @@ This document contains secret information about locations in the Northwatch Ward
 - Three Sisters Pines (marker for sealed facility)
 
 
-
 ---
-
 
 
 ### The Split Oak Landmark
 
 
-
+\column
 **Apparent:**
 
 - Notable tree, navigation landmark
@@ -25687,7 +25841,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Halfway between Waystone and Welton
 
 - Popular camping spot
-
 
 
 **Secret:**
@@ -25701,7 +25854,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Tree exhibits unusual properties
 
 
-
 **The Passage:**
 
 - Accessible through hidden entrance
@@ -25711,7 +25863,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Contains Aeorian transportation system (inactive)
 
 - If reactivated, would allow rapid movement
-
 
 
 **Potential Discovery:**
@@ -25725,17 +25876,19 @@ This document contains secret information about locations in the Northwatch Ward
 - Could become crucial travel route
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor12,top:534px,left:148px,width:349px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Pattern of Sites
 
 
-
 ### Distribution
-
 
 
 **Known to Players:**
@@ -25743,7 +25896,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Salsvault (far north)
 
 - Various mentioned locations
-
 
 
 **Unknown to Players:**
@@ -25757,13 +25909,10 @@ This document contains secret information about locations in the Northwatch Ward
 - Central command (beyond Salsvault)
 
 
-
 **The Map:**
 
 
-
 ![Diagram: Distribution](../Campaign%20Assets/Diagrams/places-secrets-distribution-l1045-e24831b0.svg)
-
 
 
 <!-- ASCII diagram source (converted to SVG):
@@ -25786,10 +25935,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 -->
 
-
+\column
 
 ### The Reactivation Sequence
-
 
 
 **Phase 1 (Current):**
@@ -25803,7 +25951,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Establishing monitoring (Echo growing)
 
 
-
 **Phase 2 (Imminent):**
 
 - Connect facility network
@@ -25813,7 +25960,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Summon/create servitors
 
 - Expand influence
-
 
 
 **Phase 3 (Catastrophic):**
@@ -25827,7 +25973,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Establish control
 
 
-
 **Timeline:**
 
 - Phase 1: Already happening
@@ -25839,28 +25984,23 @@ This document contains secret information about locations in the Northwatch Ward
 - Can be delayed or prevented by players
 
 
-
 ---
-
-
-
-## Regional Threats and Connections
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor5,top:560px,left:128px,width:396px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:10px,left:416px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-### The Corsair Operation
+## Regional Threats and Connections
 
+### The Corsair Operation
 
 
 **Visible:**
 
 - Criminal network stealing artifacts
-
 
 
 **Reality:**
@@ -25874,7 +26014,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Expendable tools
 
 
-
 **What Happens to Them:**
 
 - Entity doesn't care about their survival
@@ -25886,14 +26025,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Others will die ignorantly
 
 
-
 ---
-
 
 
 ### Southern Interest
 
-
+\column
 
 **Multiple Organizations:**
 
@@ -25904,7 +26041,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Criminal groups (profit)
 
 - Cults (worship/serve entity)
-
 
 
 **Conflicting Agendas:**
@@ -25918,7 +26054,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Others worship it as divine
 
 
-
 **How It Affects Campaign:**
 
 - Additional agents may appear
@@ -25930,17 +26065,19 @@ This document contains secret information about locations in the Northwatch Ward
 - Potential additional allies or enemies
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor1,top:318px,left:206px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### The Entity's Nature
 
 
-
 **Possibilities (DM Decides):**
-
 
 
 **Option A: Aeorian Archmage**
@@ -25954,7 +26091,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Can be reasoned with but alien morality
 
 
-
 **Option B: Aeorian AI**
 
 - Artificial intelligence running protocols
@@ -25964,7 +26100,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Cannot deviate from objectives
 
 - Might be reprogrammed or shut down
-
 
 
 **Option C: Created Deity**
@@ -25978,7 +26113,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Most dangerous option
 
 
-
 **Option D: Corrupted Dragon**
 
 - Ancient dragon subjected to Aeorian experiments
@@ -25989,14 +26123,12 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Personal vendetta component
 
-
+\column
 
 ---
 
 
-
 ### Ultimate Stakes
-
 
 
 **If Entity Succeeds:**
@@ -26012,7 +26144,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Northreach becomes base for expansion
 
 
-
 **If Players Partially Succeed:**
 
 - Delay activation
@@ -26022,9 +26153,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Limit scope of threat
 
 - Buy time for evacuation/preparation
-
-
-
 
 
 **If Players Fully Succeed:**
@@ -26038,17 +26166,19 @@ This document contains secret information about locations in the Northwatch Ward
 - Save region from catastrophe
 
 
-
 ---
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor5,top:486px,left:289px,width:282px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Using Location Secrets
 
 
-
 ### Discovery Pacing
-
 
 
 **Early Campaign:**
@@ -26060,7 +26190,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Local threats seem isolated
 
 
-
 **Mid Campaign:**
 
 - Connections become clear
@@ -26068,7 +26197,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Aeorian origin revealed
 
 - Scope of threat understood
-
 
 
 **Late Campaign:**
@@ -26082,9 +26210,8 @@ This document contains secret information about locations in the Northwatch Ward
 - Final facilities explored
 
 
-
+\column
 ### Investigation Rewards
-
 
 
 **Thorough Exploration:**
@@ -26098,7 +26225,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Clues to next locations
 
 
-
 **Careful Research:**
 
 - Pattern recognition
@@ -26108,7 +26234,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Predictive information
 
 - Strategic advantages
-
 
 
 **Social Intelligence:**
@@ -26121,10 +26246,14 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Network exposure
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor6,top:749px,left:298px,width:294px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Multiple Paths
-
 
 
 **Combat Approach:**
@@ -26138,7 +26267,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Brute force solutions
 
 
-
 **Investigation Approach:**
 
 - Unravel conspiracy
@@ -26148,7 +26276,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Predict next moves
 
 - Precision solutions
-
 
 
 **Diplomatic Approach:**
@@ -26162,7 +26289,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Coordinate response
 
 
-
 **Magical Approach:**
 
 - Research countermeasures
@@ -26174,22 +26300,18 @@ This document contains secret information about locations in the Northwatch Ward
 - Shinebright's knowledge crucial
 
 
-
 ---
-
-
-
-## Campaign Integration
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
-{{watercolor3,top:381px,left:389px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:606px,left:460px,width:393px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
-### For "Wolves of Welton"
+## Campaign Integration
 
+### For "Wolves of Welton"
 
 
 - Surface problem: wolf attacks
@@ -26201,9 +26323,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Stakes: Test run for larger operation
 
 
-
 ### For "Frozen Sick"
-
 
 
 - Surface problem: mysterious plague
@@ -26215,9 +26335,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Stakes: First major facility encounter
 
 
-
 ### For "Wild Sheep Chase"
-
 
 
 - Surface problem: polymorphed wizard
@@ -26228,10 +26346,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Stakes: Gaining expert on Aeorian magic
 
-
+\column
 
 ### For Temple Adventure
-
 
 
 - Surface problem: disturbed ancient site
@@ -26243,9 +26360,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Stakes: Preventing weapon deployment
 
 
-
 ### For Final Adventure
-
 
 
 - Surface problem: all threads converge
@@ -26257,14 +26372,15 @@ This document contains secret information about locations in the Northwatch Ward
 - Stakes: Preventing catastrophic activation
 
 
-
 ---
-
 
 
 *Remember: Reveal these secrets gradually, rewarding player investigation and creativity. The full picture should emerge piece by piece, building to the dramatic conclusion.*
 
-{{watercolor9,top:29px,left:296px,width:386px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
+{{watercolor6,top:464px,left:182px,width:285px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -26304,6 +26420,8 @@ Long ago, their ancestors lived near several ancient Aeorian artifacts. When the
   - Drove some elves mad
   - Corrupted others
   - Killed many
+
+\column
 
 **The Desperate Choice:**
 - Leaders recognized the threat
@@ -26346,7 +26464,12 @@ To prevent panic and cultural collapse, their leaders made a horrific decision:
 - Their ancestors' "success" was the forgetting
 - But forgetting left them vulnerable to the same threat returning
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor12,top:704px,left:22px,width:376px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## What the Elves Don't Know
 
@@ -26392,6 +26515,8 @@ If someone analyzed the Veilwatch archives, they would discover:
 - Their entire culture is structured around avoiding specific locations
 - Those locations are all Aeorian facilities
 
+\column
+
 ### The Stillwater Mirror
 
 **What Elves Believe:**
@@ -26431,7 +26556,12 @@ Deep in the restricted sections lie sealed records of:
 - A few scholars have gotten close to the truth over the centuries
 - All were "counseled" or had their memories "tended"
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor7,top:46px,left:158px,width:344px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Eclipse Day in the Nullwood
 
@@ -26483,6 +26613,8 @@ Eclipse Day was the Aeorian network activation pulse touching every region, even
 - Some Veilwatchers correlating their data
 - Underground conversations spreading
 - Growing sense that truth must be faced
+
+\column
 
 **The Divide:**
 Three factions emerging:
@@ -26541,7 +26673,12 @@ The elves' recovered memories could provide:
 - Warnings about specific dangers
 - Possible countermeasures (if any exist)
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor1,top:505px,left:251px,width:261px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Key NPCs and Their Secrets
 
@@ -26581,6 +26718,8 @@ The elves' recovered memories could provide:
 - Can be ally if assured of safety
 - Has access to ritual techniques that might reverse suppression
 - Knows which elves are experiencing memory breakthroughs
+
+\column
 
 ### Veilwatch Captain Theron Starwatch
 **Public Role:** Commander of border scouts; monitors beyond the forest
@@ -26623,7 +26762,12 @@ The elves' recovered memories could provide:
 - Dangerous to the established order
 - May be party's best lead to the truth
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor5,top:518px,left:106px,width:264px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Using the Nullwood in Your Campaign
 
@@ -26660,6 +26804,8 @@ The elves' recovered memories could provide:
 - Amnesia was intentional protection
 - Protected memories hold crucial data
 - They're experiencing same threat their ancestors fled
+
+\column
 
 **How to Use:**
 - Party needs information from Root Archives
@@ -26700,7 +26846,12 @@ Is protective amnesia justified? Should truth always be revealed? Can safety req
 **As Allies (Eventually):**
 Once they remember, the elves become powerful allies with unique knowledge and capabilities.
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor7,top:311px,left:11px,width:371px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Adventure Hooks
 
@@ -26739,6 +26890,8 @@ Once they remember, the elves become powerful allies with unique knowledge and c
 - They fled one artifact site specifically—it's the one awakening
 - What they ran from has found them again
 
+\column
+
 ### Political Intrigue
 - Vharoxis agent infiltrated Memory Keepers; party must expose them
 - Foreign power wants to weaponize memory magic for espionage
@@ -26774,6 +26927,13 @@ The party is wrong for this place:
 - Questions that make everyone uncomfortable
 - Simply being themselves violates deep taboos
 - But also: makes them catalysts for change
+
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor13,top:729px,left:346px,width:325px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Investigation Techniques
 
@@ -26828,7 +26988,7 @@ Discover:
 **Final Understanding:**
 "This has all happened before. And it's happening again."
 
----
+\column
 
 ## The Ultimate Question
 
@@ -26884,7 +27044,12 @@ This is genuine moral complexity. The ancestors' choice was protective and cruel
 - Creates information inequality
 - Is selective memory better than total amnesia?
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+{{watercolor4,top:218px,left:468px,width:344px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Final Notes for DMs
 
@@ -26925,7 +27090,7 @@ The Nullwood embodies campaign themes:
 - **Moral complexity:** Good people can make terrible choices
 - **Investigation:** Uncovering what was deliberately hidden
 
----
+\column
 
 *"They chose to forget to survive. Now they must remember to survive. The cruelty is that both choices might destroy them."*
 
@@ -26975,7 +27140,10 @@ The Nullwood embodies campaign themes:
 
 — Lorewarden Elric Vael, after failed diplomatic mission
 
-{{watercolor4,top:534px,left:265px,width:284px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse: DM Secrets}}
+
+{{watercolor7,top:350px,left:239px,width:266px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27024,7 +27192,7 @@ The Far North is actively changing:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor6,top:188px,left:438px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:173px,left:12px,width:274px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27072,6 +27240,8 @@ The Heart's programming seeks to:
 
 **The Danger:** If it completes activation, the entire world could be transformed to match Aeorian expectations—which would be catastrophic for current civilization.
 
+\column
+
 #### Adventure Implications
 - Late-campaign destination (levels 15-20)
 - Requires extensive preparation and protection magic
@@ -27118,7 +27288,7 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor11,top:293px,left:405px,width:350px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:222px,left:389px,width:310px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27163,6 +27333,8 @@ Something ancient and powerful is at the bottom of the White Maw. The Aeorians c
 - Temperature increases are accelerating
 - Sounds from deep underground (rhythmic, alien)
 - Nomads report nightmares when camping too close
+
+\column
 
 #### Adventure Implications
 - High-level dungeon (levels 17-20)
@@ -27213,7 +27385,7 @@ The stones generate a warmth field—originally for traveler comfort. This still
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor12,top:250px,left:322px,width:283px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:37px,left:89px,width:372px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27254,6 +27426,8 @@ The mutations aren't random—they're adaptive responses programmed by the artif
 - Sometimes attack (network defends itself)
 
 **Truth:** These elementals are being enslaved or recruited by the artifact network as autonomous defenders.
+
+\column
 
 ### The Mutation Pattern
 
@@ -27296,7 +27470,7 @@ Not all constructs are active. They're waking in stages as the network powers up
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor1,top:103px,left:357px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:645px,left:407px,width:378px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27347,6 +27521,8 @@ Not all constructs are active. They're waking in stages as the network powers up
 
 **Current Situation:** All three groups have agents in the Far North. They're competing, manipulating, and sometimes sabotaging each other. Players may be recruited by any of them.
 
+\column
+
 ---
 
 ### Dwarven Deep-Readers
@@ -27385,7 +27561,7 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor7,top:643px,left:127px,width:294px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:240px,left:481px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27448,6 +27624,8 @@ Eclipse Day was not a coincidence. Someone used the astronomical alignment as an
 5. Massive pulse activates throughout the network
 6. Cascade effect spreads across the continent
 
+\column
+
 ### Who Triggered It
 
 **Possibilities (Choose Based On Your Campaign):**
@@ -27498,7 +27676,7 @@ After the initial pulse:
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor10,top:698px,left:146px,width:327px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:38px,left:286px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27550,6 +27728,8 @@ Vharoxis smuggler caravan is transporting something that shouldn't exist: a frag
 - The fragment is destabilizing reality around it
 - The Heart wants it back and sends constructs to retrieve it
 - Party must decide: destroy, return, keep, or deliver to someone
+
+\column
 
 ---
 
@@ -27607,7 +27787,7 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 {{pageNumber,auto}}
 {{footnote The Far North: DM Secrets}}
 
-{{watercolor9,top:414px,left:434px,width:324px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:294px,left:339px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27664,6 +27844,8 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 - Cosmic indifference
 - Legacy and consequence
 
+\column
+
 ---
 
 ## Integration With Campaign
@@ -27713,7 +27895,7 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 
 — Lorewarden Elric Vael (from his private journal)
 
-{{watercolor4,top:195px,left:164px,width:393px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:117px,left:147px,width:366px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27764,6 +27946,8 @@ The facility beneath Mount Kharzun is part of the same continental network as:
 - The facility beneath Stoneheart Mine (mentioned in player-facing content)
 - Other nodes scattered across Aevoria
 
+\column
+
 ### Current State
 
 Since Eclipse Day:
@@ -27789,7 +27973,7 @@ Since Eclipse Day:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor6,top:418px,left:300px,width:319px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:563px,left:214px,width:253px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27843,6 +28027,8 @@ The artifact network is attempting to:
 
 Emberlands cults unknowingly interpret artifact resonance as divine communication.
 
+\column
+
 ### How They're Connected
 
 **What cultists experience:**
@@ -27893,7 +28079,7 @@ Cult prophecies contain distorted fragments of truth:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor2,top:270px,left:253px,width:397px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:726px,left:168px,width:328px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -27936,6 +28122,8 @@ The Emberlands become increasingly important as the campaign progresses.
 - High-stakes decisions about network interference
 - Diplomatic missions between factions
 - Confronting the question: Can the network be controlled?
+
+\column
 
 ### Tier 4 (Levels 17-20): Crisis Point
 
@@ -27984,7 +28172,7 @@ Information players should eventually discover (through investigation and explor
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor2,top:276px,left:361px,width:293px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:203px,left:500px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28026,6 +28214,8 @@ The largest intact Aeorian structure in the Emberlands, the Burning Deep is a ge
 **Description:**  
 A field of crystalline formations that grow from the ground like plants. They resonate with artifact energy and display information through light patterns and harmonic frequencies.
 
+\column
+
 **True Nature:**  
 These are data storage crystals—the Aeorian equivalent of archives. They're attempting to display stored information but lack proper interface systems.
 
@@ -28065,7 +28255,7 @@ An ancient chamber where Aeorian metallurgists created materials impossible to f
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor10,top:478px,left:123px,width:308px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:209px,left:186px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28102,6 +28292,8 @@ If they can control even one node, the Stonebound Depths gains enormous leverage
 **Danger:**
 The cults could accidentally trigger catastrophic activation through uninformed interference.
 
+\column
+
 ### Cindermarch Fire Council
 
 **Public Stance:** Pragmatic survival and economic stability  
@@ -28129,6 +28321,13 @@ The cults could accidentally trigger catastrophic activation through uninformed 
 - Agents embedded in research teams
 - Criminal expeditions into restricted areas
 - Assassination or sabotage of competing interests
+
+{{pageNumber,auto}}
+{{footnote The Emberlands: DM Secrets}}
+
+{{watercolor13,top:171px,left:146px,width:349px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -28184,6 +28383,8 @@ As the Far North network awakens, the Emberlands responds. The party may need to
 - Observing patterns in volcanic activity
 - Consulting with dwarven geomancers
 - Witnessing artifact activation events
+
+\column
 
 ### Moral Complexity
 
@@ -28257,7 +28458,7 @@ Ultimate outcomes depend on player choices across the campaign:
 {{pageNumber,auto}}
 {{footnote The Emberlands: DM Secrets}}
 
-{{watercolor4,top:663px,left:340px,width:359px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:25px,left:289px,width:267px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28317,6 +28518,8 @@ Fire-touched beasts—animals corrupted by volcanic magic—are attacking Embert
 - Killing the beasts may not address the root cause
 - The phenomenon is spreading
 
+\column
+
 ### 5. Ruin in the Lava
 
 **Level:** 10-14  
@@ -28334,7 +28537,7 @@ A major volcanic eruption uncovers ruins of unknown origin buried beneath layers
 
 *The Emberlands burn—but the question remains: is that fire natural, or is something beneath the stone waking up?*
 
-{{watercolor3,top:162px,left:131px,width:276px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:341px,left:53px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28387,7 +28590,7 @@ These fragments are:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor13,top:12px,left:99px,width:380px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:619px,left:184px,width:369px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28425,7 +28628,7 @@ The Gravewater Trench is to the ocean what Salsvault is to Northreach:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor6,top:626px,left:437px,width:283px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:641px,left:486px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28462,7 +28665,7 @@ The party could potentially rescue them — if they can reach the depths and nav
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor1,top:324px,left:14px,width:301px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:377px,left:461px,width:338px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28507,7 +28710,7 @@ The Shattered Coast could become:
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor4,top:369px,left:368px,width:271px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:407px,left:163px,width:322px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28560,7 +28763,7 @@ The facility beneath the Gravewater Trench was an Aeorian **research and manufac
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor4,top:406px,left:494px,width:276px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:190px,left:117px,width:274px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28622,7 +28825,7 @@ Torwin has been alive for over two hundred years through druidic longevity. He r
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor3,top:593px,left:463px,width:339px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:652px,left:229px,width:254px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28680,6 +28883,8 @@ The Shattered Coast is a major node in the Echo. The underwater facility is:
 - A source of vital intelligence  
 - A threat that cannot be ignored  
 
+\column
+
 ### Other Regions
 
 **Vharoxis:**  
@@ -28731,7 +28936,7 @@ A ritual site used by Tide's Rest druids is flooding. Elder Torwin asks party to
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST — DM SECRETS}}
 
-{{watercolor6,top:411px,left:429px,width:372px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:106px,left:32px,width:271px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28771,7 +28976,7 @@ A lighthouse keeper goes missing, but the light continues to function. Investiga
 
 — Storm-Priest Veyara of Breakwater Haven
 
-{{watercolor3,top:382px,left:446px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:205px,left:252px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -28805,6 +29010,8 @@ Their entire magical tradition—runes, resonance, vibration shaping—developed
 Their worldview blinds them to the truth.
 
 ---
+
+\column
 
 ## Eclipse Day: The Awakening
 
@@ -28842,6 +29049,13 @@ They are close—dangerously close—to discovering the truth.
 - They've been unconscious witnesses to dormant technology
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor7,top:411px,left:332px,width:358px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Heartstone Core
 
@@ -28888,6 +29102,8 @@ They are close—dangerously close—to discovering the truth.
 - Rune shifting (interface activation)
 - Crystal formation (energy discharge)
 - Temperature fluctuations (power cycling)
+
+\column
 
 **Dangerous Implications:**
 - Full activation could overload dwarven city
@@ -28937,6 +29153,13 @@ They are close—dangerously close—to discovering the truth.
 - Unknown automated responses possible
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor9,top:619px,left:478px,width:365px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## The Forgotten Deeps
 
@@ -28992,6 +29215,8 @@ They are close—dangerously close—to discovering the truth.
 - Seek outside help but admit ignorance?
 - Continue research and hope for better answer?
 
+\column
+
 ### Rune-Singer Thalia Deepchant
 
 **What She's Experiencing:**
@@ -29039,6 +29264,13 @@ They are close—dangerously close—to discovering the truth.
 - Could unlock deeper understanding
 - Or reveal uncomfortable truths
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor3,top:668px,left:48px,width:281px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ### Mining Guildmaster Kara Gemcutter
 
 **What Her Miners Report:**
@@ -29077,6 +29309,8 @@ They are close—dangerously close—to discovering the truth.
 - Truth about sealed levels
 - Real danger assessments
 - Council isn't telling everything
+
+\column
 
 **His Readiness:**
 - Can evacuate Upper Reaches in hours
@@ -29117,6 +29351,13 @@ Heartstone pulses encode information in Aeorian language:
 - Timing of revelation crucial
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor9,top:371px,left:248px,width:320px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Campaign Integration
 
@@ -29165,6 +29406,8 @@ Heartstone pulses encode information in Aeorian language:
 - Use Heartstone against other nodes?
 - Risk dwarven city to save world?
 
+\column
+
 ### Epic Campaign (Levels 16-20)
 
 **Final Confrontation:**
@@ -29210,6 +29453,13 @@ Heartstone pulses encode information in Aeorian language:
 - Other marked sites don't match current geography
 - Truth: map of Aeorian network
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor5,top:320px,left:310px,width:278px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ### Crisis Adventures
 
 **The Awakening Construct:**
@@ -29251,6 +29501,8 @@ Heartstone pulses encode information in Aeorian language:
 - Implications terrifying
 
 ---
+
+\column
 
 ## Revelation Timing
 
@@ -29302,6 +29554,13 @@ Heartstone pulses encode information in Aeorian language:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor12,top:233px,left:144px,width:379px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## Running the Revelation
 
 ### The Moment of Truth
@@ -29335,6 +29594,8 @@ Heartstone pulses encode information in Aeorian language:
 - Potential allies
 - Character growth
 
+\column
+
 **Adaptation:**
 - Pragmatists focus on survival
 - Learn to work with truth
@@ -29359,6 +29620,13 @@ Heartstone pulses encode information in Aeorian language:
 - Survival or destruction
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+{{watercolor8,top:750px,left:275px,width:289px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## DM Guidance
 
@@ -29396,6 +29664,8 @@ Heartstone pulses encode information in Aeorian language:
 - No perfect solution
 - Sacrifices required
 - Victories costly
+
+\column
 
 ### Emotional Beats
 
@@ -29440,7 +29710,7 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
 
-{{watercolor9,top:39px,left:335px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:373px,left:364px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29501,6 +29771,8 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 ---
 
+\column
+
 ## DM-Only Information
 
 **For Game Masters:** Complete DM-only secrets, revelations, and campaign integration details for the Stonebound Depths are provided below.
@@ -29560,7 +29832,7 @@ This section contains:
 {{pageNumber,auto}}
 {{footnote The Stonebound Depths: DM-Only Secrets}}
 
-{{watercolor6,top:393px,left:490px,width:278px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:205px,left:483px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29568,7 +29840,7 @@ This section contains:
 
 — Deep-Reader Borin Stonescript, contemplating new seismic patterns
 
-{{watercolor1,top:110px,left:335px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:641px,left:126px,width:364px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -29611,6 +29883,8 @@ The Dominion is part of the same system as:
 - **The Nullwood Silence** — Suppression field (elven response to network)
 
 All of these are connected. All are awakening simultaneously.
+
+\column
 
 ### Its True Purpose
 The Dominion was designed to:
@@ -29655,6 +29929,13 @@ What appear to be "cities" are:
 - Experimental zones
 
 None of it was designed for living beings to inhabit—at least, not beings like humans, elves, or dwarves.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor4,top:319px,left:309px,width:284px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -29711,6 +29992,8 @@ The symbols on the Gate are not decorative. They are:
 - System diagnostics
 - Fail-safe protocols
 
+\column
+
 ### Why It's Responding
 
 The Gate is responding to the awakening pulses from the Far North (Salsvault).
@@ -29757,6 +30040,13 @@ Since Eclipse Day:
 
 This was the first sign that the oceanic nodes are waking.
 
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor6,top:484px,left:31px,width:384px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ---
 
 ## The Glowing Currents
@@ -29801,6 +30091,8 @@ Exposure causes:
 
 Divers who spend too long in the currents start to resonate with the network.
 
+\column
+
 ---
 
 ## The Coral Labyrinth
@@ -29837,6 +30129,13 @@ Since Eclipse Day, growth has accelerated because:
 - The coral is doing what it was designed to do
 
 It will continue growing until someone stops it—or until it completes its pattern.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor12,top:585px,left:292px,width:394px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -29886,6 +30185,8 @@ The Steps descend to:
 - The source of everything
 
 Each step is perfectly carved because they were never carved. They were **grown** or **formed** by the network.
+
+\column
 
 ### Why They're So Large
 
@@ -29944,6 +30245,13 @@ If the Glassspires reach full activation:
 - The world will know something is active
 
 They're antennae broadcasting to the sky.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor5,top:678px,left:409px,width:342px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -30004,6 +30312,8 @@ They're antennae broadcasting to the sky.
 - Land-based equivalent to Dominion
 - Shares architectural patterns
 - Network command originates there
+
+\column
 
 ### Stonebound Depths (Heartstone)
 - Resonance hub connected to Dominion
@@ -30067,6 +30377,13 @@ They're antennae broadcasting to the sky.
 - Evidence of non-humanoid builders
 - Purpose beyond mere habitation
 
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor8,top:273px,left:340px,width:345px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ---
 
 ## Campaign Integration
@@ -30127,8 +30444,7 @@ And no one alive remembers why it was built—or why it was shut down.
 
 — Lorewarden Thaddeus Varn (shortly before his disappearance)
 
-
-
+\column
 
 ## Adventure Hooks
 
@@ -30184,7 +30500,7 @@ Relics from the Dominion match patterns found in the Far North. Someone is colle
 {{pageNumber,auto}}
 {{footnote The Sunken Dominion: DM-Only Secrets}}
 
-{{watercolor11,top:360px,left:297px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:576px,left:303px,width:391px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30216,6 +30532,8 @@ He's also increasingly certain that time is running out.
 Sister Morana leads a circle of druids who monitor the Dominion. They perform rituals to calm the waters and protect coastal settlements. Since Eclipse Day, their rituals have become more desperate.
 
 She believes something terrible is waking beneath the waves.
+
+\column
 
 ### The Collector
 **Role:** Vharoxis agent  
@@ -30253,7 +30571,10 @@ The truth about the Dominion is more alien than anyone suspects. It was never a 
 
 — Captain Mira Saltwind
 
-{{watercolor13,top:639px,left:286px,width:361px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+{{watercolor12,top:19px,left:201px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30310,7 +30631,7 @@ Plant life in the Marches is developing primitive nervous systems and sensory ca
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor11,top:70px,left:101px,width:382px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:442px,left:212px,width:266px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30366,7 +30687,7 @@ If the Genesis Seed completes its startup and engages full operations:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor7,top:218px,left:85px,width:271px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:424px,left:249px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30413,7 +30734,7 @@ They're not entirely wrong—but they're missing the artificial component. This 
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor2,top:406px,left:404px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:352px,left:496px,width:346px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30468,7 +30789,7 @@ Unlike some regions where the Echo's effects are ambient, the Marches have a **T
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor1,top:426px,left:243px,width:357px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:41px,left:384px,width:345px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30525,7 +30846,7 @@ When players discover the truth, they have several potential paths:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor13,top:234px,left:35px,width:367px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:529px,left:47px,width:309px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30584,7 +30905,7 @@ When players discover the truth, they have several potential paths:
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor8,top:72px,left:236px,width:311px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:712px,left:156px,width:250px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30626,7 +30947,7 @@ Strange creatures have begun emerging from the Wildheart Basin—animals that we
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor11,top:625px,left:95px,width:274px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:722px,left:12px,width:378px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30677,7 +30998,7 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor7,top:220px,left:263px,width:330px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:172px,left:394px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30729,7 +31050,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor7,top:161px,left:257px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:739px,left:55px,width:340px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30759,7 +31080,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 {{pageNumber,auto}}
 {{footnote The Verdant Marches — DM-Only Secrets}}
 
-{{watercolor2,top:648px,left:373px,width:318px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:66px,left:491px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30798,7 +31119,7 @@ The Marches ask fundamental questions:
 
 — Archdruid Mora Greenleaf of Greenwatch Enclave
 
-{{watercolor3,top:253px,left:146px,width:309px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:532px,left:459px,width:286px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30840,6 +31161,8 @@ Most fragments arrive from:
 
 The smuggling network is vast, sophisticated, and entirely unaware that it's serving the Echo.
 
+\column
+
 ---
 
 ## Why Vharoxis Matters to the Artifact Arc
@@ -30871,7 +31194,7 @@ The city becomes a battleground:
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor12,top:643px,left:53px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:166px,left:67px,width:357px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -30904,6 +31227,8 @@ The fragment is still in the vault. It hums occasionally. The Curator (leader of
 - Instructions in a language they don't understand  
 
 The Curator believes they're visions from a patron. **They're actually memories from the fragment itself.**
+
+\column
 
 ---
 
@@ -30944,6 +31269,13 @@ She's planning an expedition. She needs specialists. She might hire the party.
 **The Truth:**
 The facility is a command node. If activated, it could control all Aeorian fragments on the continent. It's also defended by autonomous guardians.
 
+{{pageNumber,auto}}
+{{footnote VHAROXIS — DM SECRETS}}
+
+{{watercolor8,top:225px,left:224px,width:302px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ### The Ember Veil — The Pyrekeeper's Experiments
 
 **Secret:** The Pyrekeeper is testing artifact fragments as weapons.
@@ -30974,6 +31306,8 @@ An accident could trigger a catastrophic chain reaction. The entire Ember Warren
 
 **The Cause:**
 The fragment is slowly integrating with his mind. He's becoming a hybrid—part orc, part Aeorian intelligence.
+
+\column
 
 **Current State:**
 - Still loyal to the Ironbound  
@@ -31010,7 +31344,7 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor10,top:202px,left:155px,width:304px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:623px,left:12px,width:384px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31045,6 +31379,8 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 - Suspects artifacts are affecting all magic  
 
 **Hook:** Ash could provide information about magical amplification—for a price.
+
+\column
 
 ### Mercenary Kara Steelsong (Ironbound)
 **Secret:** Echo-touched, hiding it.
@@ -31103,7 +31439,7 @@ Unwitting accomplices. The best distribution system the fragments could ask for.
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor6,top:338px,left:222px,width:266px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:359px,left:243px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31132,6 +31468,8 @@ The party needs information only available in Vharoxis. They must travel to the 
 **Moral Complexity:**
 Working with criminals is the only way forward. How do they justify it? What compromises are acceptable?
 
+\column
+
 ### Late Stage (Continental Scope)
 **Critical Role:**
 Vharoxis's intelligence network is crucial to understanding the threat. The syndicates control information the party needs.
@@ -31156,6 +31494,13 @@ Vharoxis can be mobilized as an asset:
 
 **Ultimate Question:**
 What price for victory? What compromises are justified?
+
+{{pageNumber,auto}}
+{{footnote VHAROXIS — DM SECRETS}}
+
+{{watercolor7,top:655px,left:498px,width:384px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ---
 
@@ -31184,6 +31529,8 @@ What price for victory? What compromises are justified?
 - Key figures are compromised  
 - The city could explode (literally or figuratively)  
 - Must act decisively  
+
+\column
 
 ---
 
@@ -31269,7 +31616,7 @@ Use it to challenge your players' assumptions about heroism, pragmatism, and the
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor9,top:9px,left:114px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:580px,left:474px,width:305px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31301,6 +31648,8 @@ A Solaris noble disappears in Vharoxis. Multiple factions want the body found…
 
 ### The Humming Relic
 A smuggler offers the party a relic that hums faintly with Echo-energy. Acquiring it draws the attention of multiple factions—and something worse.
+
+\column
 
 ---
 
@@ -31348,7 +31697,7 @@ Anything magical is for sale:
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
 
-{{watercolor11,top:419px,left:390px,width:339px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:670px,left:118px,width:274px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31411,7 +31760,7 @@ Criminal networks spreading corruption. Artifact trafficking endangering everyon
 
 — Lorewarden Elric Vael, Northwatch Wardens
 
-{{watercolor8,top:590px,left:499px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:260px,left:283px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31456,6 +31805,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Peril in Pinebrook** works anytime as a side quest or social investigation break
 
 ---
+
+\column
 
 ## Campaign-Wide Investigation Threads
 
@@ -31508,6 +31859,13 @@ This document tracks the mystery progression across Season 1 adventures, showing
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+{{watercolor5,top:102px,left:230px,width:385px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## Clue Tracking by Adventure
 
 ### Wolves of Welton (⭐⭐⭐⭐⭐)
@@ -31559,6 +31917,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Reveals:** "Salsvault is one of dozens—they're networked"
 - **Connects to:** Campaign scope (problem is bigger than one ruin)
 
+\column
+
 ### Wild Sheep Chase (⭐⭐⭐)
 
 **Primary Clue:** Magical item malfunction (wand behaving unpredictably)
@@ -31608,6 +31968,13 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Reveals:** "Tombs are ward anchors—desecration breaking containment magic"
 - **Connects to:** Long-term stakes (if seals break, Aeorian weapons activate)
 
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+{{watercolor12,top:153px,left:225px,width:295px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ### Peril in Pinebrook (⭐⭐)
 
 **Primary Clue:** Frontier vulnerability (settlements affected by instability)
@@ -31648,6 +32015,8 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - **Clues:** Requires specialized knowledge of Aeorian systems
 
 ---
+
+\column
 
 ## Mystery Progression Milestones
 
@@ -31698,6 +32067,13 @@ This document tracks the mystery progression across Season 1 adventures, showing
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide: The Aeorian Echo}}
+
+{{watercolor11,top:415px,left:99px,width:321px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## Using This Guide
 
 ### During Adventure Prep
@@ -31730,7 +32106,10 @@ This document tracks the mystery progression across Season 1 adventures, showing
 - Expand with Season 2 mystery threads
 - Include player handout versions (spoiler-free investigation notes)
 
-{{watercolor1,top:397px,left:428px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Mystery Investigation Guide}}
+
+{{watercolor10,top:543px,left:189px,width:399px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -31776,6 +32155,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - ✓ Wild Sheep Chase (transformation theme)
 - ✓ All future adventures (establishes Echo as ongoing threat)
 
+\column
+
 ### NPC Quick Stats
 
 | Name | Role | Loc | Reaction | Combat |
@@ -31810,7 +32191,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Morale:** Wolves flee if Bolt dies or surrenders
 - **Twist:** If players spare Flame, he becomes a future adversary
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+{{watercolor12,top:686px,left:143px,width:333px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## 2. FROZEN SICK — One-Page Reference
 
@@ -31858,6 +32244,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Irven Liel** | Infected | Family at risk | Merchant; offers reward for family salvation |
 | **Verla Pelc** | Dead (frozen) | Already gone | Carried vials to Croaker Cave |
 | **Morgo** | Scout/Guide | the Cold Anchor | Provides map or directions to Salsvault |
+
+\column
 
 ### Disease Timeline
 
@@ -31911,7 +32299,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Collapsing sections:** Structural instability, can block paths or deal damage
 - **Blue spore clouds:** Infection risk if breathed (DC 13 CON save)
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+{{watercolor6,top:492px,left:242px,width:294px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## 3. THE WILD SHEEP CHASE — One-Page Reference
 
@@ -31957,6 +32350,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Ahmed Noke** | Villain | Ambitious & hammy | Wields unstable wand; surrenders if losing (cowardly) |
 | **Guz** | Henchman | Loyal but dim | Half-orc; fights hard but will flee if Noke falls |
 | **Polymorphed Staff** | Minions/Allies | Various forms (cat, squirrel, etc.) | Can be freed to help party |
+
+\column
 
 ### Tone Notes
 
@@ -32005,7 +32400,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - Direct foreshadowing for Frozen Sick adventure
 - Trust-building moment: If party helps Shinebright, he shares research freely
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+{{watercolor7,top:244px,left:387px,width:278px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## 4. PERIL IN PINEBROOK — One-Page Reference
 
@@ -32040,6 +32440,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - ✓ Shows consequences of Echo (every settlement affected)
 - ✓ Smuggling networks exploit Aeorian discoveries (conspiracy theme)
 
+\column
+
 ### NPC Quick Stats
 
 | Name | Role | Authority | Reaction | Secret |
@@ -32073,7 +32475,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | Dragon feels like random boss | Establish it's been in region longer; it's territorial, not random |
 | Town feels unimportant | Connect NPCs to other adventures; make relationships matter |
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+{{watercolor5,top:476px,left:284px,width:277px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## 5. TEMPLE OF THE DRAGONKNIGHTS — One-Page Reference
 
@@ -32120,6 +32527,8 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | **Kobold Wyrmpriest** | Cult Leader | Chaotic Evil | NO—fanatical |
 | **Joel Andersmith** | Questgiver | Neutral Good | Non-combatant; provides info |
 | **Northcrest Locals** | Support NPCs | Various | Can provide aid/shelter |
+
+\column
 
 ### Venomfang Negotiation
 
@@ -32181,7 +32590,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Sacred ground:** Some areas radiate protective magic (sanctuary effects)
 - **Collapsed sections:** Navigation challenge; potential trap collapse
 
----
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference Sheets}}
+
+{{watercolor9,top:682px,left:496px,width:378px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Quick Summary Table: All Five Adventures
 
@@ -32213,7 +32627,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - NORTHWATCH WARDENS - Campaign Arc.md (Week 3)
 - This document (Week 4)
 
-{{watercolor7,top:531px,left:474px,width:294px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Adventure Quick Reference}}
+
+{{watercolor6,top:548px,left:434px,width:339px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -32259,9 +32676,7 @@ ___
 Decision-maker; provides contracts; offers tactical advice
 }}
 
-
-
----
+\column
 
 {{monster,frame
 ## Steward Mara Fenwick
@@ -32294,7 +32709,12 @@ ___
 Quartermaster for supplies; information broker; knows smuggling routes
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor4,top:387px,left:71px,width:384px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 {{monster,frame
 ## Lorewarden Elric Vael
@@ -32329,7 +32749,7 @@ ___
 Identifies magic; provides lore; recognizes Aeorian artifacts
 }}
 
----
+\column
 
 ## WOLVES OF WELTON
 
@@ -32371,7 +32791,12 @@ Respects strength and intelligence; will parley with capable party.
 Reasonable boss; negotiator if party shows sense; can become ally
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor12,top:711px,left:233px,width:296px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 {{monster,frame
 ## Flame
@@ -32409,7 +32834,7 @@ ___
 Optional boss fight; represents negotiation failure; removing him strengthens peace possibility
 }}
 
----
+\column
 
 {{monster,frame
 ## Father Merriksonn
@@ -32448,7 +32873,12 @@ ___
 Emotional anchor; quest-giver; council vote swing; ally if handled well
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor3,top:696px,left:75px,width:324px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 {{monster,frame
 ## Leanor Slatebeard
@@ -32485,7 +32915,7 @@ ___
 Information source; tavern hub; safe harbor; NPC to return to
 }}
 
----
+\column
 
 {{monster,frame
 ## Tillus Merrion
@@ -32520,7 +32950,12 @@ ___
 Council skeptic; requires party to "prove themselves"; morale test
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor12,top:200px,left:293px,width:365px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## FROZEN SICK
 
@@ -32560,7 +32995,7 @@ ___
 Quest-giver; journey guide; ally for research
 }}
 
----
+\column
 
 {{monster,frame
 ## Tulgi Lutan
@@ -32600,7 +33035,12 @@ ___
 NPC at stakes; moral weight; potential ally if saved
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor13,top:247px,left:463px,width:347px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 {{monster,frame
 ## Urgon Wenth
@@ -32628,7 +33068,7 @@ ___
 Environmental storytelling; investigation hook; emotional anchor
 }}
 
----
+\column
 
 ## THE WILD SHEEP CHASE
 
@@ -32682,7 +33122,12 @@ ___
 Comic relief character; knowledge source; potential ally; NPC to return to
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor12,top:745px,left:335px,width:291px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## TEMPLE OF THE DRAGONKNIGHTS
 
@@ -32738,7 +33183,7 @@ ___
 Intelligent boss; negotiation possibility; can become ally or enemy
 }}
 
----
+\column
 
 {{monster,frame
 ## Kobold Wyrmpriest
@@ -32782,7 +33227,12 @@ ___
 Non-negotiable enemy; zealot; requires defeat or flight
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor4,top:444px,left:251px,width:356px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Quick Lookup: NPC Allegiances by Adventure
 
@@ -32814,7 +33264,10 @@ Non-negotiable enemy; zealot; requires defeat or flight
 - DM Guild Roster.md (full NPC secrets & campaign connections)
 - Adventure_Quick_Reference.md (one-page adventure sheets)
 
-{{watercolor10,top:207px,left:354px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+{{watercolor1,top:344px,left:14px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -32860,6 +33313,8 @@ Use this checklist for every session. Customize as needed for your table.
 3. ___________________________________ (Type: Combat/Social/Exploration)
 
 ---
+
+\column
 
 ### Step 3: Create/Print Maps
 
@@ -32909,6 +33364,13 @@ Use this checklist for every session. Customize as needed for your table.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor11,top:667px,left:136px,width:336px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## NIGHT-BEFORE PREPARATION (1 Day Before)
 
 ### Step 6: Read Through Your Prep
@@ -32948,6 +33410,8 @@ Use this checklist for every session. Customize as needed for your table.
 - [ ] Timer/Clock
 
 ---
+
+\column
 
 ### Step 8: Mental Prep
 
@@ -32995,6 +33459,13 @@ Use this checklist for every session. Customize as needed for your table.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor3,top:128px,left:332px,width:374px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## DURING SESSION
 
 ### Step 11: Active Note-Taking
@@ -33040,6 +33511,8 @@ House Rulings Made:
 - They haven't discovered: ___________________
 
 ---
+
+\column
 
 ### Step 13: Managing Pacing & Energy
 
@@ -33093,6 +33566,13 @@ Mystery Notes:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor4,top:134px,left:199px,width:376px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ### Step 16: Post-Session Record-Keeping
 
 - [ ] Update Campaign Tracker with session results
@@ -33140,6 +33620,8 @@ Mystery Notes:
 **Minimum prep:** You're ready to go
 
 ---
+
+\column
 
 ### "I'm Overprepared" (Extra Detail Level)
 
@@ -33191,6 +33673,13 @@ Mystery Notes:
 - Croaker Cave layout
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor9,top:331px,left:138px,width:316px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### WILD SHEEP CHASE
 
@@ -33249,6 +33738,13 @@ Mystery Notes:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor7,top:605px,left:5px,width:306px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 ## Session Prep Quick Template
 
 **Adventure:** ____________________  
@@ -33286,6 +33782,8 @@ Mystery Notes:
 *2:00-3:00:* _____________________  
 *Final 15 min:* ________________
 
+\column
+
 ### Materials Prepared
 
 - [ ] Maps printed
@@ -33322,7 +33820,10 @@ Next session hook: _____________________
 - NPC_Quick_Reference_Cards.md
 - Mystery_Investigation_Guide.md
 
-{{watercolor13,top:231px,left:316px,width:371px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+{{watercolor6,top:72px,left:184px,width:297px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33376,6 +33877,8 @@ This document contains DM tools and guidance for running Northwatch Wardens sess
 - Players engage more when they recap
 - You learn what they care about
 - Shows what they remember vs. what they missed
+
+\column
 
 ### Option 2: DM Recap Template
 
@@ -33431,7 +33934,7 @@ CHOICE POINT:
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor8,top:88px,left:457px,width:310px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:207px,left:186px,width:275px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33472,6 +33975,8 @@ CHOICE POINT:
 For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
 }}
 
+\column
+
 ### Player Character Ties to Waystone Inn
 
 **Ask each player:**
@@ -33511,7 +34016,12 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
    - Combat is dangerous (no guaranteed wins)
    - Investigation and social encounters are equally important
 
----
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
+{{watercolor12,top:576px,left:0px,width:348px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## Adventure Order Recommendations
 
@@ -33559,7 +34069,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor4,top:141px,left:217px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:409px,left:110px,width:329px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33595,6 +34105,8 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 - [ ] Level up characters if milestone reached
 
 ---
+
+\column
 
 ## When Players Miss Sessions
 
@@ -33646,7 +34158,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor6,top:183px,left:171px,width:320px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:357px,left:126px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33697,7 +34209,12 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 - 1:00-1:45 - Climax encounter
 - 1:45-2:00 - Wrap-up, return to Waystone
 
----
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
+{{watercolor2,top:716px,left:430px,width:343px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ## What You DON'T Need
 
@@ -33740,6 +34257,8 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 
 ---
 
+\column
+
 ## Final DM Advice
 
 ### This Campaign DOES Work Because:
@@ -33773,7 +34292,7 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: DM Session Prep Guide}}
 
-{{watercolor8,top:219px,left:255px,width:322px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:330px,left:391px,width:305px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33794,7 +34313,10 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 
 The campaign will flow naturally. Trust your prep, let players drive choices, and enjoy the frontier!
 
-{{watercolor5,top:187px,left:261px,width:272px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
+{{watercolor1,top:50px,left:272px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33824,7 +34346,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor11,top:6px,left:193px,width:279px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:233px,left:227px,width:278px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33846,6 +34368,8 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Lorewarden Elric Vael</strong> — scholar &amp; pattern-spotter; calm voice, always taking notes.</td>
   </tr>
 </table>
+
+\column
 
 ### Wardens & Regulars
 
@@ -33904,7 +34428,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor5,top:251px,left:442px,width:273px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:427px,left:241px,width:324px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -33930,6 +34454,8 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Willen Featherock</strong> — traumatized shepherd; first-hand witness; the "ordinary person" perspective.</td>
   </tr>
 </table>
+
+\column
 
 ### Welton Council / Community
 
@@ -33980,7 +34506,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor11,top:183px,left:236px,width:343px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:415px,left:415px,width:349px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34011,7 +34537,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor13,top:480px,left:277px,width:349px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:180px,left:286px,width:323px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34041,7 +34567,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor12,top:21px,left:464px,width:294px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:280px,left:385px,width:397px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34072,7 +34598,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor8,top:584px,left:149px,width:339px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:342px,left:17px,width:279px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34111,7 +34637,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor13,top:381px,left:60px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:240px,left:108px,width:311px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34150,7 +34676,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor10,top:414px,left:100px,width:265px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:617px,left:103px,width:329px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34185,7 +34711,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor4,top:496px,left:288px,width:314px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:675px,left:338px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34221,7 +34747,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor1,top:225px,left:230px,width:399px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:729px,left:412px,width:320px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34246,7 +34772,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor7,top:569px,left:86px,width:281px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:516px,left:410px,width:319px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34280,7 +34806,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens}}
 
-{{watercolor2,top:489px,left:476px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:569px,left:400px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34298,7 +34824,7 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
 
 - Ferol Sal, Venomfang, Old Croaker, constructs/undead, polymorphed animals, etc.
 
-{{watercolor9,top:394px,left:458px,width:304px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:305px,left:131px,width:365px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34347,7 +34873,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
-{{watercolor10,top:725px,left:318px,width:282px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:393px,left:241px,width:385px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34401,6 +34927,8 @@ Use this as the living continuity log for actual play. Update it after each sess
 - Bolt — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
 - Flame — Awakened wolf leader/agent; survived; potential future antagonist/ally depending on truce.
 
+\column
+
 ### Other
 - Alexi — Left a note in magical shorthand; “Aeorian” was legible.
 
@@ -34452,7 +34980,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 {{pageNumber,auto}}
 {{footnote Northwatch Wardens: Season One — The Story So Far}}
 
-{{watercolor6,top:74px,left:404px,width:382px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:245px,left:298px,width:355px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -34466,10 +34994,13 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.
 
-{{watercolor1,top:210px,left:51px,width:385px,background-color:#BBAD82,opacity:80%}}
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: Season One — The Story So Far}}
+
+{{watercolor10,top:91px,left:46px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 
-{{watercolor12,top:496px,left:400px,width:253px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:278px,left:498px,width:293px,background-color:#BBAD82,opacity:80%}}
 

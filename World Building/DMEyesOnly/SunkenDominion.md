@@ -38,6 +38,8 @@ The Dominion is part of the same system as:
 
 All of these are connected. All are awakening simultaneously.
 
+\column
+
 ### Its True Purpose
 The Dominion was designed to:
 - Regulate oceanic magical currents
@@ -81,6 +83,11 @@ What appear to be "cities" are:
 - Experimental zones
 
 None of it was designed for living beings to inhabit—at least, not beings like humans, elves, or dwarves.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+\page
 
 ---
 
@@ -137,6 +144,8 @@ The symbols on the Gate are not decorative. They are:
 - System diagnostics
 - Fail-safe protocols
 
+\column
+
 ### Why It's Responding
 
 The Gate is responding to the awakening pulses from the Far North (Salsvault).
@@ -183,6 +192,11 @@ Since Eclipse Day:
 
 This was the first sign that the oceanic nodes are waking.
 
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+\page
+
 ---
 
 ## The Glowing Currents
@@ -227,6 +241,8 @@ Exposure causes:
 
 Divers who spend too long in the currents start to resonate with the network.
 
+\column
+
 ---
 
 ## The Coral Labyrinth
@@ -263,6 +279,11 @@ Since Eclipse Day, growth has accelerated because:
 - The coral is doing what it was designed to do
 
 It will continue growing until someone stops it—or until it completes its pattern.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+\page
 
 ---
 
@@ -312,6 +333,8 @@ The Steps descend to:
 - The source of everything
 
 Each step is perfectly carved because they were never carved. They were **grown** or **formed** by the network.
+
+\column
 
 ### Why They're So Large
 
@@ -370,6 +393,11 @@ If the Glassspires reach full activation:
 - The world will know something is active
 
 They're antennae broadcasting to the sky.
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+\page
 
 ---
 
@@ -430,6 +458,8 @@ They're antennae broadcasting to the sky.
 - Land-based equivalent to Dominion
 - Shares architectural patterns
 - Network command originates there
+
+\column
 
 ### Stonebound Depths (Heartstone)
 - Resonance hub connected to Dominion
@@ -493,6 +523,11 @@ They're antennae broadcasting to the sky.
 - Evidence of non-humanoid builders
 - Purpose beyond mere habitation
 
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}
+
+\page
+
 ---
 
 ## Campaign Integration
@@ -553,8 +588,7 @@ And no one alive remembers why it was built—or why it was shut down.
 
 — Lorewarden Thaddeus Varn (shortly before his disappearance)
 
-
-
+\column
 
 ## Adventure Hooks
 
@@ -641,6 +675,8 @@ Sister Morana leads a circle of druids who monitor the Dominion. They perform ri
 
 She believes something terrible is waking beneath the waves.
 
+\column
+
 ### The Collector
 **Role:** Vharoxis agent  
 **Identity:** Unknown  
@@ -676,3 +712,6 @@ The truth about the Dominion is more alien than anyone suspects. It was never a 
 *"The sea keeps its secrets well. But secrets don't stay buried forever."*
 
 — Captain Mira Saltwind
+
+{{pageNumber,auto}}
+{{footnote The Sunken Dominion: DM-Only Secrets}}

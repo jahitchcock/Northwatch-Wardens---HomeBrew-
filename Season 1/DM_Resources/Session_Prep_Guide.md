@@ -49,6 +49,8 @@ This document contains DM tools and guidance for running Northwatch Wardens sess
 - You learn what they care about
 - Shows what they remember vs. what they missed
 
+\column
+
 ### Option 2: DM Recap Template
 
 Use this if players are new or struggling:
@@ -142,6 +144,8 @@ CHOICE POINT:
 For a streamlined Session 0 guide with everything you need in one place, see **Chapter 2: Quick Start** (30-minute prep time). This section provides additional advanced tips for Session Zero.
 }}
 
+\column
+
 ### Player Character Ties to Waystone Inn
 
 **Ask each player:**
@@ -181,7 +185,10 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
    - Combat is dangerous (no guaranteed wins)
    - Investigation and social encounters are equally important
 
----
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
+\page
 
 ## Adventure Order Recommendations
 
@@ -263,6 +270,8 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 - [ ] Level up characters if milestone reached
 
 ---
+
+\column
 
 ## When Players Miss Sessions
 
@@ -363,7 +372,10 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 - 1:00-1:45 - Climax encounter
 - 1:45-2:00 - Wrap-up, return to Waystone
 
----
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}
+
+\page
 
 ## What You DON'T Need
 
@@ -405,6 +417,8 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 3. **Sheep appears** (start Wild Sheep Chase immediately)
 
 ---
+
+\column
 
 ## Final DM Advice
 
@@ -457,3 +471,6 @@ For a streamlined Session 0 guide with everything you need in one place, see **C
 ### You're Off and Running! 🎉
 
 The campaign will flow naturally. Trust your prep, let players drive choices, and enjoy the frontier!
+
+{{pageNumber,auto}}
+{{footnote Northwatch Wardens: DM Session Prep Guide}}

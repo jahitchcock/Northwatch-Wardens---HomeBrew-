@@ -328,6 +328,8 @@ The Shattered Coast is a major node in the Echo. The underwater facility is:
 - A source of vital intelligence  
 - A threat that cannot be ignored  
 
+\column
+
 ### Other Regions
 
 **Vharoxis:**  

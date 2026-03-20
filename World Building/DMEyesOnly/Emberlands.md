@@ -45,6 +45,8 @@ The facility beneath Mount Kharzun is part of the same continental network as:
 - The facility beneath Stoneheart Mine (mentioned in player-facing content)
 - Other nodes scattered across Aevoria
 
+\column
+
 ### Current State
 
 Since Eclipse Day:
@@ -121,6 +123,8 @@ The artifact network is attempting to:
 ## The Cults — Fragments of Truth
 
 Emberlands cults unknowingly interpret artifact resonance as divine communication.
+
+\column
 
 ### How They're Connected
 
@@ -214,6 +218,8 @@ The Emberlands become increasingly important as the campaign progresses.
 - Diplomatic missions between factions
 - Confronting the question: Can the network be controlled?
 
+\column
+
 ### Tier 4 (Levels 17-20): Crisis Point
 
 **Developments:**
@@ -301,6 +307,8 @@ The largest intact Aeorian structure in the Emberlands, the Burning Deep is a ge
 **Description:**  
 A field of crystalline formations that grow from the ground like plants. They resonate with artifact energy and display information through light patterns and harmonic frequencies.
 
+\column
+
 **True Nature:**  
 These are data storage crystals—the Aeorian equivalent of archives. They're attempting to display stored information but lack proper interface systems.
 
@@ -375,6 +383,8 @@ If they can control even one node, the Stonebound Depths gains enormous leverage
 **Danger:**
 The cults could accidentally trigger catastrophic activation through uninformed interference.
 
+\column
+
 ### Cindermarch Fire Council
 
 **Public Stance:** Pragmatic survival and economic stability  
@@ -402,6 +412,11 @@ The cults could accidentally trigger catastrophic activation through uninformed 
 - Agents embedded in research teams
 - Criminal expeditions into restricted areas
 - Assassination or sabotage of competing interests
+
+{{pageNumber,auto}}
+{{footnote The Emberlands: DM Secrets}}
+
+\page
 
 ---
 
@@ -457,6 +472,8 @@ As the Far North network awakens, the Emberlands responds. The party may need to
 - Observing patterns in volcanic activity
 - Consulting with dwarven geomancers
 - Witnessing artifact activation events
+
+\column
 
 ### Moral Complexity
 
@@ -587,6 +604,8 @@ Fire-touched beasts—animals corrupted by volcanic magic—are attacking Embert
 - Something is corrupting wildlife across the region
 - Killing the beasts may not address the root cause
 - The phenomenon is spreading
+
+\column
 
 ### 5. Ruin in the Lava
 

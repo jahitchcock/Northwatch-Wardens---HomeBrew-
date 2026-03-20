@@ -45,6 +45,8 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
   </tr>
 </table>
 
+\column
+
 ### Wardens & Regulars
 
 <table class="npc-roster" style="width: 100%; border-collapse: collapse; background: transparent; border: none;">
@@ -126,6 +128,8 @@ DM-facing roster of named NPCs (and a few "NPC-grade" antagonists) grouped by **
     <td valign="top" style="vertical-align: top; border: none; background: transparent;"><strong>Willen Featherock</strong> — traumatized shepherd; first-hand witness; the "ordinary person" perspective.</td>
   </tr>
 </table>
+
+\column
 
 ### Welton Council / Community
 

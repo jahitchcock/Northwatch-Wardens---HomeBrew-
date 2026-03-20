@@ -29,6 +29,8 @@ Their worldview blinds them to the truth.
 
 ---
 
+\column
+
 ## Eclipse Day: The Awakening
 
 The Heartstone's hum was the first sign of awakening.
@@ -65,6 +67,11 @@ They are close—dangerously close—to discovering the truth.
 - They've been unconscious witnesses to dormant technology
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
 
 ## The Heartstone Core
 
@@ -111,6 +118,8 @@ They are close—dangerously close—to discovering the truth.
 - Rune shifting (interface activation)
 - Crystal formation (energy discharge)
 - Temperature fluctuations (power cycling)
+
+\column
 
 **Dangerous Implications:**
 - Full activation could overload dwarven city
@@ -160,6 +169,11 @@ They are close—dangerously close—to discovering the truth.
 - Unknown automated responses possible
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
 
 ## The Forgotten Deeps
 
@@ -215,6 +229,8 @@ They are close—dangerously close—to discovering the truth.
 - Seek outside help but admit ignorance?
 - Continue research and hope for better answer?
 
+\column
+
 ### Rune-Singer Thalia Deepchant
 
 **What She's Experiencing:**
@@ -262,6 +278,11 @@ They are close—dangerously close—to discovering the truth.
 - Could unlock deeper understanding
 - Or reveal uncomfortable truths
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
+
 ### Mining Guildmaster Kara Gemcutter
 
 **What Her Miners Report:**
@@ -300,6 +321,8 @@ They are close—dangerously close—to discovering the truth.
 - Truth about sealed levels
 - Real danger assessments
 - Council isn't telling everything
+
+\column
 
 **His Readiness:**
 - Can evacuate Upper Reaches in hours
@@ -340,6 +363,11 @@ Heartstone pulses encode information in Aeorian language:
 - Timing of revelation crucial
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
 
 ## Campaign Integration
 
@@ -388,6 +416,8 @@ Heartstone pulses encode information in Aeorian language:
 - Use Heartstone against other nodes?
 - Risk dwarven city to save world?
 
+\column
+
 ### Epic Campaign (Levels 16-20)
 
 **Final Confrontation:**
@@ -433,6 +463,11 @@ Heartstone pulses encode information in Aeorian language:
 - Other marked sites don't match current geography
 - Truth: map of Aeorian network
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
+
 ### Crisis Adventures
 
 **The Awakening Construct:**
@@ -474,6 +509,8 @@ Heartstone pulses encode information in Aeorian language:
 - Implications terrifying
 
 ---
+
+\column
 
 ## Revelation Timing
 
@@ -525,6 +562,11 @@ Heartstone pulses encode information in Aeorian language:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
+
 ## Running the Revelation
 
 ### The Moment of Truth
@@ -558,6 +600,8 @@ Heartstone pulses encode information in Aeorian language:
 - Potential allies
 - Character growth
 
+\column
+
 **Adaptation:**
 - Pragmatists focus on survival
 - Learn to work with truth
@@ -582,6 +626,11 @@ Heartstone pulses encode information in Aeorian language:
 - Survival or destruction
 
 ---
+
+{{pageNumber,auto}}
+{{footnote The Stonebound Depths: DM-Only Secrets}}
+
+\page
 
 ## DM Guidance
 
@@ -619,6 +668,8 @@ Heartstone pulses encode information in Aeorian language:
 - No perfect solution
 - Sacrifices required
 - Victories costly
+
+\column
 
 ### Emotional Beats
 
@@ -721,6 +772,8 @@ Now the poetry is becoming prose, and they must decide whether to close the book
 
 
 ---
+
+\column
 
 ## DM-Only Information
 

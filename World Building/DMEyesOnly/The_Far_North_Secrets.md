@@ -89,6 +89,8 @@ The Heart's programming seeks to:
 
 **The Danger:** If it completes activation, the entire world could be transformed to match Aeorian expectations—which would be catastrophic for current civilization.
 
+\column
+
 #### Adventure Implications
 - Late-campaign destination (levels 15-20)
 - Requires extensive preparation and protection magic
@@ -179,6 +181,8 @@ Something ancient and powerful is at the bottom of the White Maw. The Aeorians c
 - Sounds from deep underground (rhythmic, alien)
 - Nomads report nightmares when camping too close
 
+\column
+
 #### Adventure Implications
 - High-level dungeon (levels 17-20)
 - Contains pre-Aeorian artifacts (unique properties)
@@ -267,6 +271,8 @@ The mutations aren't random—they're adaptive responses programmed by the artif
 - Sometimes attack (network defends itself)
 
 **Truth:** These elementals are being enslaved or recruited by the artifact network as autonomous defenders.
+
+\column
 
 ### The Mutation Pattern
 
@@ -357,6 +363,8 @@ Not all constructs are active. They're waking in stages as the network powers up
 - Led by Keeper of Silence (identity unknown)
 
 **Current Situation:** All three groups have agents in the Far North. They're competing, manipulating, and sometimes sabotaging each other. Players may be recruited by any of them.
+
+\column
 
 ---
 
@@ -456,6 +464,8 @@ Eclipse Day was not a coincidence. Someone used the astronomical alignment as an
 4. Automatic startup sequence begins
 5. Massive pulse activates throughout the network
 6. Cascade effect spreads across the continent
+
+\column
 
 ### Who Triggered It
 
@@ -557,6 +567,8 @@ Vharoxis smuggler caravan is transporting something that shouldn't exist: a frag
 - The fragment is destabilizing reality around it
 - The Heart wants it back and sends constructs to retrieve it
 - Party must decide: destroy, return, keep, or deliver to someone
+
+\column
 
 ---
 
@@ -668,6 +680,8 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 - Moral complexity (no clear "right" answer)
 - Cosmic indifference
 - Legacy and consequence
+
+\column
 
 ---
 

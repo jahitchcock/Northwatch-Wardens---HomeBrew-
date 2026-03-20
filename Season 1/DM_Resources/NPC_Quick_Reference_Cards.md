@@ -40,9 +40,7 @@ ___
 Decision-maker; provides contracts; offers tactical advice
 }}
 
-
-
----
+\column
 
 {{monster,frame
 ## Steward Mara Fenwick
@@ -75,7 +73,10 @@ ___
 Quartermaster for supplies; information broker; knows smuggling routes
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 {{monster,frame
 ## Lorewarden Elric Vael
@@ -110,7 +111,7 @@ ___
 Identifies magic; provides lore; recognizes Aeorian artifacts
 }}
 
----
+\column
 
 ## WOLVES OF WELTON
 
@@ -152,7 +153,10 @@ Respects strength and intelligence; will parley with capable party.
 Reasonable boss; negotiator if party shows sense; can become ally
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 {{monster,frame
 ## Flame
@@ -190,7 +194,7 @@ ___
 Optional boss fight; represents negotiation failure; removing him strengthens peace possibility
 }}
 
----
+\column
 
 {{monster,frame
 ## Father Merriksonn
@@ -229,7 +233,10 @@ ___
 Emotional anchor; quest-giver; council vote swing; ally if handled well
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 {{monster,frame
 ## Leanor Slatebeard
@@ -266,7 +273,7 @@ ___
 Information source; tavern hub; safe harbor; NPC to return to
 }}
 
----
+\column
 
 {{monster,frame
 ## Tillus Merrion
@@ -301,7 +308,10 @@ ___
 Council skeptic; requires party to "prove themselves"; morale test
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 ## FROZEN SICK
 
@@ -341,7 +351,7 @@ ___
 Quest-giver; journey guide; ally for research
 }}
 
----
+\column
 
 {{monster,frame
 ## Tulgi Lutan
@@ -381,7 +391,10 @@ ___
 NPC at stakes; moral weight; potential ally if saved
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 {{monster,frame
 ## Urgon Wenth
@@ -409,7 +422,7 @@ ___
 Environmental storytelling; investigation hook; emotional anchor
 }}
 
----
+\column
 
 ## THE WILD SHEEP CHASE
 
@@ -463,7 +476,10 @@ ___
 Comic relief character; knowledge source; potential ally; NPC to return to
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 ## TEMPLE OF THE DRAGONKNIGHTS
 
@@ -519,7 +535,7 @@ ___
 Intelligent boss; negotiation possibility; can become ally or enemy
 }}
 
----
+\column
 
 {{monster,frame
 ## Kobold Wyrmpriest
@@ -563,7 +579,10 @@ ___
 Non-negotiable enemy; zealot; requires defeat or flight
 }}
 
----
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}
+
+\page
 
 ## Quick Lookup: NPC Allegiances by Adventure
 
@@ -594,3 +613,6 @@ Non-negotiable enemy; zealot; requires defeat or flight
 **Companion Documents:**
 - DM Guild Roster.md (full NPC secrets & campaign connections)
 - Adventure_Quick_Reference.md (one-page adventure sheets)
+
+{{pageNumber,auto}}
+{{footnote NPC Quick Reference Cards}}

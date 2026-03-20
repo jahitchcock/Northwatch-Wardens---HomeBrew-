@@ -35,6 +35,8 @@ Long ago, their ancestors lived near several ancient Aeorian artifacts. When the
   - Corrupted others
   - Killed many
 
+\column
+
 **The Desperate Choice:**
 - Leaders recognized the threat
 - Could not destroy the source
@@ -76,7 +78,10 @@ To prevent panic and cultural collapse, their leaders made a horrific decision:
 - Their ancestors' "success" was the forgetting
 - But forgetting left them vulnerable to the same threat returning
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## What the Elves Don't Know
 
@@ -122,6 +127,8 @@ If someone analyzed the Veilwatch archives, they would discover:
 - Their entire culture is structured around avoiding specific locations
 - Those locations are all Aeorian facilities
 
+\column
+
 ### The Stillwater Mirror
 
 **What Elves Believe:**
@@ -161,7 +168,10 @@ Deep in the restricted sections lie sealed records of:
 - A few scholars have gotten close to the truth over the centuries
 - All were "counseled" or had their memories "tended"
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## Eclipse Day in the Nullwood
 
@@ -213,6 +223,8 @@ Eclipse Day was the Aeorian network activation pulse touching every region, even
 - Some Veilwatchers correlating their data
 - Underground conversations spreading
 - Growing sense that truth must be faced
+
+\column
 
 **The Divide:**
 Three factions emerging:
@@ -271,7 +283,10 @@ The elves' recovered memories could provide:
 - Warnings about specific dangers
 - Possible countermeasures (if any exist)
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## Key NPCs and Their Secrets
 
@@ -311,6 +326,8 @@ The elves' recovered memories could provide:
 - Can be ally if assured of safety
 - Has access to ritual techniques that might reverse suppression
 - Knows which elves are experiencing memory breakthroughs
+
+\column
 
 ### Veilwatch Captain Theron Starwatch
 **Public Role:** Commander of border scouts; monitors beyond the forest
@@ -353,7 +370,10 @@ The elves' recovered memories could provide:
 - Dangerous to the established order
 - May be party's best lead to the truth
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## Using the Nullwood in Your Campaign
 
@@ -390,6 +410,8 @@ The elves' recovered memories could provide:
 - Amnesia was intentional protection
 - Protected memories hold crucial data
 - They're experiencing same threat their ancestors fled
+
+\column
 
 **How to Use:**
 - Party needs information from Root Archives
@@ -430,7 +452,10 @@ Is protective amnesia justified? Should truth always be revealed? Can safety req
 **As Allies (Eventually):**
 Once they remember, the elves become powerful allies with unique knowledge and capabilities.
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## Adventure Hooks
 
@@ -469,6 +494,8 @@ Once they remember, the elves become powerful allies with unique knowledge and c
 - They fled one artifact site specifically—it's the one awakening
 - What they ran from has found them again
 
+\column
+
 ### Political Intrigue
 - Vharoxis agent infiltrated Memory Keepers; party must expose them
 - Foreign power wants to weaponize memory magic for espionage
@@ -504,6 +531,11 @@ The party is wrong for this place:
 - Questions that make everyone uncomfortable
 - Simply being themselves violates deep taboos
 - But also: makes them catalysts for change
+
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ### Investigation Techniques
 
@@ -558,7 +590,7 @@ Discover:
 **Final Understanding:**
 "This has all happened before. And it's happening again."
 
----
+\column
 
 ## The Ultimate Question
 
@@ -614,7 +646,10 @@ This is genuine moral complexity. The ancestors' choice was protective and cruel
 - Creates information inequality
 - Is selective memory better than total amnesia?
 
----
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse — DM Eyes Only}}
+
+\page
 
 ## Final Notes for DMs
 
@@ -655,7 +690,7 @@ The Nullwood embodies campaign themes:
 - **Moral complexity:** Good people can make terrible choices
 - **Investigation:** Uncovering what was deliberately hidden
 
----
+\column
 
 *"They chose to forget to survive. Now they must remember to survive. The cruelty is that both choices might destroy them."*
 
@@ -704,3 +739,6 @@ The Nullwood embodies campaign themes:
 *"The elves of the Nullwood are not calm. They are controlled. There's a difference, and it's terrifying."*
 
 — Lorewarden Elric Vael, after failed diplomatic mission
+
+{{pageNumber,auto}}
+{{footnote The Nullwood Expanse: DM Secrets}}

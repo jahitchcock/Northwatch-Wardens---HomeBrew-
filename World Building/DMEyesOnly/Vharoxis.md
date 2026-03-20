@@ -36,6 +36,8 @@ Most fragments arrive from:
 
 The smuggling network is vast, sophisticated, and entirely unaware that it's serving the Echo.
 
+\column
+
 ---
 
 ## Why Vharoxis Matters to the Artifact Arc
@@ -99,6 +101,8 @@ The fragment is still in the vault. It hums occasionally. The Curator (leader of
 
 The Curator believes they're visions from a patron. **They're actually memories from the fragment itself.**
 
+\column
+
 ---
 
 ## Syndicate Secrets
@@ -138,6 +142,11 @@ She's planning an expedition. She needs specialists. She might hire the party.
 **The Truth:**
 The facility is a command node. If activated, it could control all Aeorian fragments on the continent. It's also defended by autonomous guardians.
 
+{{pageNumber,auto}}
+{{footnote VHAROXIS — DM SECRETS}}
+
+\page
+
 ### The Ember Veil — The Pyrekeeper's Experiments
 
 **Secret:** The Pyrekeeper is testing artifact fragments as weapons.
@@ -168,6 +177,8 @@ An accident could trigger a catastrophic chain reaction. The entire Ember Warren
 
 **The Cause:**
 The fragment is slowly integrating with his mind. He's becoming a hybrid—part orc, part Aeorian intelligence.
+
+\column
 
 **Current State:**
 - Still loyal to the Ironbound  
@@ -237,6 +248,8 @@ The Accountant could provide crucial intelligence about trafficking patterns—i
 - Suspects artifacts are affecting all magic  
 
 **Hook:** Ash could provide information about magical amplification—for a price.
+
+\column
 
 ### Mercenary Kara Steelsong (Ironbound)
 **Secret:** Echo-touched, hiding it.
@@ -322,6 +335,8 @@ The party needs information only available in Vharoxis. They must travel to the 
 **Moral Complexity:**
 Working with criminals is the only way forward. How do they justify it? What compromises are acceptable?
 
+\column
+
 ### Late Stage (Continental Scope)
 **Critical Role:**
 Vharoxis's intelligence network is crucial to understanding the threat. The syndicates control information the party needs.
@@ -346,6 +361,11 @@ Vharoxis can be mobilized as an asset:
 
 **Ultimate Question:**
 What price for victory? What compromises are justified?
+
+{{pageNumber,auto}}
+{{footnote VHAROXIS — DM SECRETS}}
+
+\page
 
 ---
 
@@ -374,6 +394,8 @@ What price for victory? What compromises are justified?
 - Key figures are compromised  
 - The city could explode (literally or figuratively)  
 - Must act decisively  
+
+\column
 
 ---
 
@@ -489,6 +511,8 @@ A Solaris noble disappears in Vharoxis. Multiple factions want the body found…
 
 ### The Humming Relic
 A smuggler offers the party a relic that hums faintly with Echo-energy. Acquiring it draws the attention of multiple factions—and something worse.
+
+\column
 
 ---
 

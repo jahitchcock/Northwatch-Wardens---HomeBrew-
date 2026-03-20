@@ -1371,6 +1371,11 @@ ___
 ***Shortbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage.
 }}
 
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
+
+\page
+
 {{monster,frame
 ## Kobold Guard
 *Small humanoid (kobold), lawful evil*
@@ -1397,6 +1402,8 @@ ___
 
 ***Shield Bash.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be knocked prone.
 }}
+
+\column
 
 {{monster,frame
 ## Quipper
@@ -1739,7 +1746,7 @@ DC 0 Temple Area 2: :: 1 kobold cultist + 1 kobold guard
 DC 0 Temple Area 4: :: 5 kobold cultists + 2 kobold guards
 DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
----
+\column
 
 ### Pacing Guide (4–6 Hour Session)
 

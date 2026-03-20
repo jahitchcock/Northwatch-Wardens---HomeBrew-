@@ -971,6 +971,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ## Major Confrontations and Setpieces
 
 ### The Wolf Lair (Early Game)
@@ -1002,7 +1004,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Introduction to Aeorian tech
 - Opening to larger mystery
 
-\column
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+\page
 
 ### Croaker Cave (Early-Mid Game)
 
@@ -1040,6 +1045,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Possible cure components
 
 ---
+
+\column
 
 ### Salsvault (Mid Game)
 
@@ -1110,6 +1117,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 
 ---
 
+\column
+
 ### The Command Center
 
 ###### **Location:** Beyond Salsvault, intact Aeorian facility
@@ -1140,7 +1149,10 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Completion of thousand-year-old war
 - Future of Northreach
 
-\column
+{{pageNumber,auto}}
+{{footnote Player Investigation Paths}}
+
+\page
 
 ---
 
@@ -1171,6 +1183,8 @@ Something survived Aeor's fall and is systematically bringing its ancient weapon
 - Sell to highest bidder (temptation)
 - Give to authorities (trust issues)
 - Hide for future need
+
+\column
 
 ### Strategic Decisions
 

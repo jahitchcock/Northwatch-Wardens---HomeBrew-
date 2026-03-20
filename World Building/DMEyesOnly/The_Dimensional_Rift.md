@@ -31,6 +31,8 @@ As Aeor fell:
 
 One of those fragments—a massive section containing the research laboratory **Salsvault**—fell through a rift and landed in **The Far North of Aevoria**, hundreds or even thousands of years ago (the exact time is unclear; time flows differently between planes).
 
+\column
+
 ### Why It Stayed Hidden
 
 The fragment that became Salsvault in Aevoria:
@@ -71,6 +73,11 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 **For Season One:** The "why" matters less than the "what now"—the Echo is spreading, and the Wardens must deal with its consequences.
 
+{{pageNumber,auto}}
+{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+
+\page
+
 ---
 
 ## How This Explains Campaign Continuity
@@ -85,10 +92,6 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 - Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
 
 ### Major Differences Explained
-
----
-
-\column
 
 **Why Aevoria ≠ Exandria:**
 - Different continents, nations, pantheons, cultures
@@ -119,6 +122,8 @@ If campaigns continue:
 - High-level divination magic could reveal glimpses of Aeor's fall in Exandria
 - Players could discover OTHER Aeorian fragments scattered across Aevoria (more ruins, more echoes)
 - The dimensional rift might still be unstable—could Aevoria be pulled into Exandria's conflicts?
+
+\column
 
 ### Tier 5 (Epic Campaign): The Rift Itself
 
@@ -164,6 +169,11 @@ If campaigns reach epic levels:
 **If players use high-level divination (Legend Lore, True Seeing, etc.):**
 - They might glimpse Aeor falling through the sky in a DIFFERENT world (snow-covered mountains, twin moons, etc.)
 - This creates mystery without giving away the full answer
+
+{{pageNumber,auto}}
+{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+
+\page
 
 ---
 

@@ -41,6 +41,8 @@ Use this checklist for every session. Customize as needed for your table.
 
 ---
 
+\column
+
 ### Step 3: Create/Print Maps
 
 - [ ] Main map for this session printed or digitized
@@ -89,6 +91,11 @@ Use this checklist for every session. Customize as needed for your table.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+\page
+
 ## NIGHT-BEFORE PREPARATION (1 Day Before)
 
 ### Step 6: Read Through Your Prep
@@ -128,6 +135,8 @@ Use this checklist for every session. Customize as needed for your table.
 - [ ] Timer/Clock
 
 ---
+
+\column
 
 ### Step 8: Mental Prep
 
@@ -175,6 +184,11 @@ Use this checklist for every session. Customize as needed for your table.
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+\page
+
 ## DURING SESSION
 
 ### Step 11: Active Note-Taking
@@ -220,6 +234,8 @@ House Rulings Made:
 - They haven't discovered: ___________________
 
 ---
+
+\column
 
 ### Step 13: Managing Pacing & Energy
 
@@ -273,6 +289,11 @@ Mystery Notes:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+\page
+
 ### Step 16: Post-Session Record-Keeping
 
 - [ ] Update Campaign Tracker with session results
@@ -320,6 +341,8 @@ Mystery Notes:
 **Minimum prep:** You're ready to go
 
 ---
+
+\column
 
 ### "I'm Overprepared" (Extra Detail Level)
 
@@ -371,6 +394,11 @@ Mystery Notes:
 - Croaker Cave layout
 
 ---
+
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+\page
 
 ### WILD SHEEP CHASE
 
@@ -429,6 +457,11 @@ Mystery Notes:
 
 ---
 
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
+
+\page
+
 ## Session Prep Quick Template
 
 **Adventure:** ____________________  
@@ -466,6 +499,8 @@ Mystery Notes:
 *2:00-3:00:* _____________________  
 *Final 15 min:* ________________
 
+\column
+
 ### Materials Prepared
 
 - [ ] Maps printed
@@ -501,3 +536,6 @@ Next session hook: _____________________
 - Adventure_Quick_Reference.md
 - NPC_Quick_Reference_Cards.md
 - Mystery_Investigation_Guide.md
+
+{{pageNumber,auto}}
+{{footnote Session Prep Master Checklist}}
