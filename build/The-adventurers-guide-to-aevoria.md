@@ -1,11 +1,24 @@
 ```metadata
 title: Adventurer's Guide to Aevoria
-description: ''
+description: 
 tags: []
 systems:
   - 5e
 renderer: V3
 theme: 5ePHB
+snippets:
+  - name: brew_snippets
+    subsnippets:
+      - name: example snippet
+        gen: >-
+
+          The text between `\snippet title` lines will become a snippet of name
+          `title` as this example provides.
+
+
+          This snippet is accessible in the brew tab, and will be inherited if
+          the brew is used as a theme.
+
 ```
 
 ```css
@@ -41,64 +54,64 @@ theme: 5ePHB
 
 # Contents
 
-- Welcome to Aevoria — **1**
-- How to Use This Book — **1**
-- Character Creation — **4**
-- Creating Your Character — **4**
-- Regional Origins Guide — **11**
-- The Ten Regions — **12**
-- Cross-Regional Tensions — **22**
-- Creating Your Regional Background — **24**
-- Final Thoughts: Your Place in the World — **27**
-- Languages and Culture of Aevoria — **29**
-- Languages of Aevoria — **30**
-- Cultural Practices — **36**
-- Regional Customs and Taboos — **41**
-- Superstitions and Common Beliefs — **46**
-- Conflict Resolution Customs — **50**
-- Practical Gameplay Impact — **53**
-- Final Thoughts — **56**
-- Northreach: Your Frontier Home — **57**
-- Places of Northreach — **65**
-- Cultures of Northreach — **72**
-- People of Northreach — **80**
-- The Northwatch Wardens — **89**
-- The Northwatch Wardens — **89**
-- Roster — **89**
-- The Triad: Guild Leadership — **91**
-- Field Members — **92**
-- Guild Operations — **93**
-- The Wider World of Aevoria — **94**
-- Welcome to Aevoria — **94**
-- Northreach — **100**
-- Solaris Dominion — **102**
-- The Nullwood Expanse — **109**
-- The Stonebound Depths — **112**
-- VHAROXIS — **120**
-- THE SHATTERED COAST — **124**
-- The Emberlands — **127**
-- The Verdant Marches — **131**
-- The Sunken Dominion — **135**
-- The Far North — **138**
-- Organizations of Aevoria — **141**
-- Gods and Religion — **152**
-- Divinity’s Beacon — Pantheon — **152**
-- Religious Practices in Aevoria — **154**
-- Places of Legend — **165**
-- Divinity's Beacon — **165**
-- Solace Nexus — Ley-Port City of Magic — **166**
-- Practical Information — **167**
-- Player Quick Reference Guide — **167**
-- Currency and Trade in Northreach — **175**
-- Common Goods and Services — **185**
-- Travel and Distance in Northreach — **198**
-- Appendix — **207**
-- Glossary of Aevoria — **207**
-- Songs of the Northreach — **233**
-- THE FRONTIER BREATHES — **234**
-- Welcome to Northreach — **244**
-- 1) Northreach Lore Primer (Common Knowledge) — **245**
-- 2) Campaign Journal — **250**
+- Welcome to Aevoria — **3**
+- How to Use This Book — **3**
+- Character Creation — **6**
+- Creating Your Character — **6**
+- Regional Origins Guide — **13**
+- The Ten Regions — **14**
+- Cross-Regional Tensions — **24**
+- Creating Your Regional Background — **26**
+- Final Thoughts: Your Place in the World — **29**
+- Languages and Culture of Aevoria — **31**
+- Languages of Aevoria — **32**
+- Cultural Practices — **38**
+- Regional Customs and Taboos — **43**
+- Superstitions and Common Beliefs — **48**
+- Conflict Resolution Customs — **52**
+- Practical Gameplay Impact — **55**
+- Final Thoughts — **58**
+- Northreach: Your Frontier Home — **59**
+- Places of Northreach — **67**
+- Cultures of Northreach — **74**
+- People of Northreach — **82**
+- The Northwatch Wardens — **91**
+- The Northwatch Wardens — **91**
+- Roster — **91**
+- The Triad: Guild Leadership — **93**
+- Field Members — **94**
+- Guild Operations — **95**
+- The Wider World of Aevoria — **96**
+- Welcome to Aevoria — **96**
+- Northreach — **102**
+- Solaris Dominion — **104**
+- The Nullwood Expanse — **111**
+- The Stonebound Depths — **114**
+- VHAROXIS — **122**
+- THE SHATTERED COAST — **126**
+- The Emberlands — **129**
+- The Verdant Marches — **133**
+- The Sunken Dominion — **137**
+- The Far North — **140**
+- Organizations of Aevoria — **143**
+- Gods and Religion — **154**
+- Divinity’s Beacon — Pantheon — **154**
+- Religious Practices in Aevoria — **156**
+- Places of Legend — **167**
+- Divinity's Beacon — **167**
+- Solace Nexus — Ley-Port City of Magic — **168**
+- Practical Information — **169**
+- Player Quick Reference Guide — **169**
+- Currency and Trade in Northreach — **177**
+- Common Goods and Services — **187**
+- Travel and Distance in Northreach — **200**
+- Appendix — **209**
+- Glossary of Aevoria — **209**
+- Songs of the Northreach — **215**
+- THE FRONTIER BREATHES — **216**
+- Welcome to Northreach — **226**
+- 1) Northreach Lore Primer (Common Knowledge) — **227**
+- 2) Campaign Journal — **232**
 
 \page
 
@@ -5781,7 +5794,7 @@ About 200 permanent residents:
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
-{{watercolor8,top:533px,left:399px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:49px,left:453px,width:338px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7001,7 +7014,7 @@ Serious and steadfast. Galvena takes her oaths literally and holds others to the
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
-{{watercolor10,top:464px,left:191px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:657px,left:209px,width:276px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16351,12 +16364,7 @@ Settlement in the Far North. Minor frontier post dealing with harsh arctic condi
 *Dragon name. Common mistake: "OR-ex-ee-an"*
 Silver dragon scholar and Northwatch Warden. Curious, methodical, and somewhat awkward in social situations. Specializes in investigation and historical research. Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor7,top:651px,left:495px,width:324px,background-color:#BBAD82,opacity:80%}}
-
-\page
+\column
 
 ## B
 
@@ -16368,13 +16376,6 @@ Halfling chef and keeper of Waystone Inn. Jovial, welcoming, and observant. Prov
 
 **Brenna Thorne**
 Marshal of the Northwatch Wardens. Human fighter from Northreach. Direct, practical leader with military background. Commands field operations and makes tactical decisions. "Work smarter, not just harder." *See: People of Northreach chapter, Northwatch Wardens chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor5,top:402px,left:320px,width:368px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## C
 
@@ -16396,7 +16397,7 @@ Aevoria uses standard D&D coinage: copper pieces (cp), silver pieces (sp), gold 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor9,top:136px,left:182px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:120px,left:373px,width:364px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16407,13 +16408,6 @@ Holy city in the heartlands of the Solaris Dominion. Multi-faith center of pilgr
 
 **Dragonknights, The**
 Cult of dragon-worshippers who sought to gain draconic power through rituals and pacts. Led by Brother Alastair. Believed dragons were superior beings deserving worship and service. Defeated in the Temple of the Dragonknights adventure. *See: Temple of the Dragonknights adventure*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor3,top:15px,left:331px,width:396px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## E
 
@@ -16430,12 +16424,7 @@ Elf scholar in Palebank Village. Researches Aeorian history and the source of th
 **Emberlands**
 Region of Aevoria devastated by magical cataclysm within living memory. Landscape torn by lingering fire and earth magic. Home to resilient survivors, the Red Covenant disaster relief organization, and desperate communities. Known for improvisation and fierce determination. *See: Regions chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor1,top:536px,left:392px,width:260px,background-color:#BBAD82,opacity:80%}}
-
-\page
+\column
 
 ## F
 
@@ -16462,13 +16451,6 @@ Mysterious illness affecting Palebank Village. Victims develop icy blue veins, f
 **Flynt Wymblen**
 Gnome tinkerer and inventor working with the Northwatch Wardens. Enthusiastic gadgeteer with variable success rate. Provides experimental equipment and creative solutions (with occasional explosions). Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor1,top:576px,left:290px,width:370px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## G
 
 **Galvena Aballon** (gal-VEE-nah ah-BAL-on)
@@ -16484,7 +16466,7 @@ Half-orc laborer and Northwatch Warden. Quiet, immensely strong, kind-hearted. D
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor11,top:383px,left:19px,width:322px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:476px,left:370px,width:337px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16493,35 +16475,14 @@ Half-orc laborer and Northwatch Warden. Quiet, immensely strong, kind-hearted. D
 **Horizon Wayfinders**
 Organization of scouts, cartographers, and guides specializing in frontier exploration. Reliable sources for maps, route information, and frontier intelligence. Neutral and professional. *See: Organizations chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor11,top:523px,left:4px,width:365px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## I
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor13,top:42px,left:468px,width:300px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## J
 
 **Joel Andersmith**
 Human blacksmith in Northreach settlements. Practical craftsman providing weapon repair, horseshoes, and general metalwork. Reliable, straightforward, charges fair prices. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor6,top:85px,left:193px,width:352px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## K
 
@@ -16529,24 +16490,12 @@ Human blacksmith in Northreach settlements. Practical craftsman providing weapon
 *Dwarven name. Stress first and third syllables.*
 Capital city of the Stonebound Depths. Great underground metropolis carved into living stone. Center of dwarven craft, culture, and geomancy. Known for resonance halls and ancestral vaults. *See: Stonebound Depths chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor2,top:514px,left:396px,width:383px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## L
 
 **Leanor Slatebeard** (LEE-nor SLAYT-beerd)
 Dwarf tracker in Welton. Gruff, pragmatic, expert at reading wilderness signs. Helps investigate wolf attacks on Westly's farm. Takes contracts but cares about community safety. *See: People of Northreach chapter, Wolves of Welton adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor13,top:18px,left:471px,width:293px,background-color:#BBAD82,opacity:80%}}
-
-\page
+\column
 
 ## M
 
@@ -16556,13 +16505,6 @@ Steward of the Northwatch Wardens. Human quartermaster from merchant family back
 **Mila Teno** (MY-luh TEH-noh)
 *Common mistake: "mee-LAH"*
 Human cartographer and clerk for the Northwatch Wardens. Organized, detail-focused, maintains mission records and maps. Provides intelligence and documentation support. Based at Waystone Inn. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor12,top:59px,left:158px,width:350px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## N
 
@@ -16582,13 +16524,6 @@ Adventuring guild based at Waystone Inn in Northreach. Operates on contract syst
 **Nullwood Expanse** (NULL-wood ex-PANS)
 Elven-dominated forest region characterized by silence wards and memory preservation culture. Home to the Silent Court. Trees absorb sound; inhabitants speak in whispers and gestures. Values memory, records, and cautious change. *See: Regions chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor3,top:378px,left:204px,width:319px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## O
 
 *No major entries*
@@ -16596,7 +16531,7 @@ Elven-dominated forest region characterized by silence wards and memory preserva
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor6,top:672px,left:465px,width:302px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:150px,left:285px,width:338px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16612,23 +16547,9 @@ Human merchant in Palebank Village. Trades in furs, fish, and expedition supplie
 **Pinebrook**
 Trading village in southeast Northreach. Agricultural and commerce focus. Site of "Peril in Pinebrook" adventure involving mysterious disappearances. *See: Northreach chapter, Peril in Pinebrook adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor3,top:182px,left:490px,width:362px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## Q
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor2,top:365px,left:485px,width:308px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## R
 
@@ -16641,12 +16562,7 @@ Dwarven cultural practice of listening to stone. Geomantic technique for underst
 **Rowan Fairweather**
 Human bard and Northwatch Warden. Charismatic storyteller, morale booster, and negotiator. Performs at Waystone Inn, gathers rumors, handles diplomatic situations. "There's always a story here." Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor8,top:624px,left:218px,width:387px,background-color:#BBAD82,opacity:80%}}
-
-\page
+\column
 
 ## S
 
@@ -16692,7 +16608,7 @@ Underwater realm of aquatic peoples (merfolk, tritons, sea elves). Explored thro
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor12,top:696px,left:300px,width:252px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:296px,left:411px,width:364px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16715,13 +16631,6 @@ Human council member in Welton. Practical village leader handling administrative
 *Goliath name. Stress first syllable of each name.*
 Goliath healer in Palebank Village. Herbalist and practical medicine provider. Treats mundane injuries and illnesses with natural remedies. Caring but gruff. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor6,top:326px,left:182px,width:364px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## U
 
 **Unmasked Parliament**
@@ -16730,13 +16639,6 @@ Governing council of Vharoxis. Operates without masks (unusual for Vharoxis cult
 **Urgon Wenth** (UR-gon WENTH)
 *Dwarf name. Both parts rhyme with "fur-gone" and "tenth"*
 Dwarf blacksmith in Palebank Village. Provides weapon repair, metal goods, and smithing services. Traditional craftsman maintaining dwarven quality standards. Reliable and fair. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor1,top:477px,left:163px,width:350px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## V
 
@@ -16754,12 +16656,7 @@ Nature deity of growth, seasons, and balance. Patron of farmers, druids, and tho
 *Stress middle syllable: "vah-ROX-iss"*
 Outlaw city on the southern coast. Known for mask culture, black market trade, and absence of traditional law. "What you can keep is yours." Operates on reputation, contracts, and personal power. Dangerous but full of opportunities unavailable elsewhere. *See: Regions chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor13,top:535px,left:422px,width:395px,background-color:#BBAD82,opacity:80%}}
-
-\page
+\column
 
 ## W
 
@@ -16784,23 +16681,9 @@ Aarakocra scout and Northwatch Warden. Airborne reconnaissance specialist provid
 **Wolves of Welton**
 Adventure involving awakened wolves with developing intelligence attacking farms near Welton. First major indication of the Aeorian Echo phenomenon affecting wildlife. Moral complexity—wolves aren't evil, just hungry and confused. *See: Wolves of Welton adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor2,top:250px,left:464px,width:284px,background-color:#BBAD82,opacity:80%}}
-
-\page
-
 ## X
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-{{watercolor3,top:92px,left:288px,width:302px,background-color:#BBAD82,opacity:80%}}
-
-\page
 
 ## Y
 
@@ -16809,7 +16692,7 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor12,top:192px,left:251px,width:321px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:710px,left:314px,width:398px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16858,7 +16741,7 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor11,top:100px,left:45px,width:331px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:671px,left:477px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16917,7 +16800,7 @@ A Frontier Songbook for Season One of the Northwatch Wardens
 {{pageNumber,auto}}
 {{footnote SONGS OF THE NORTHREACH}}
 
-{{watercolor1,top:629px,left:135px,width:392px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:702px,left:439px,width:259px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17046,7 +16929,7 @@ Is colder than the bone.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor5,top:698px,left:133px,width:269px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:527px,left:398px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17172,7 +17055,7 @@ To ever sleep like a child.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor13,top:187px,left:374px,width:310px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:183px,left:481px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17300,7 +17183,7 @@ That never truly fade.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor7,top:438px,left:218px,width:258px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:702px,left:500px,width:396px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17429,7 +17312,7 @@ What the shepherd heard too much.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor4,top:663px,left:216px,width:333px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:104px,left:75px,width:348px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17555,7 +17438,7 @@ Will never turn his back.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor5,top:10px,left:294px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:319px,left:408px,width:359px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17685,7 +17568,7 @@ In the notes of tomorrow’s tune.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor4,top:213px,left:456px,width:386px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:100px,left:57px,width:351px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17813,7 +17696,7 @@ With the candle that won’t go out.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor9,top:150px,left:87px,width:347px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:212px,left:143px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -17939,7 +17822,7 @@ For a man once known as Guz.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor8,top:363px,left:182px,width:264px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:500px,left:51px,width:258px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18066,7 +17949,7 @@ Knows more than he can view.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor8,top:20px,left:347px,width:353px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:268px,left:165px,width:302px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18194,7 +18077,7 @@ With the dawn held in her hands.
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
 
-{{watercolor8,top:722px,left:374px,width:289px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:471px,left:332px,width:400px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18225,7 +18108,7 @@ This journal is your record of what you’ve seen and what you’ve chosen: the 
 {{pageNumber,auto}}
 {{footnote WELCOME TO NORTHREACH}}
 
-{{watercolor6,top:483px,left:53px,width:364px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:710px,left:324px,width:322px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18283,7 +18166,7 @@ The Northwatch Wardens are a contract-based guild headquartered at the **Wayston
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
-{{watercolor8,top:692px,left:46px,width:274px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:564px,left:176px,width:367px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18356,7 +18239,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
-{{watercolor13,top:185px,left:221px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:622px,left:165px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18378,7 +18261,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
-{{watercolor1,top:389px,left:420px,width:388px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:66px,left:287px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18396,7 +18279,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
-{{watercolor8,top:97px,left:207px,width:361px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:227px,left:390px,width:330px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18418,7 +18301,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 1) NORTHREACH LORE PRIMER (COMMON KNOWLEDGE)}}
 
-{{watercolor5,top:361px,left:118px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:750px,left:471px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18479,7 +18362,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
-{{watercolor2,top:738px,left:203px,width:253px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:145px,left:416px,width:382px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18536,7 +18419,7 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
-{{watercolor3,top:13px,left:67px,width:315px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:662px,left:252px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18583,10 +18466,10 @@ Below are the places people in the region would recognize by name. (Some are fam
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
 
-{{watercolor1,top:293px,left:440px,width:335px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:314px,left:414px,width:334px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 
-{{watercolor11,top:405px,left:216px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:306px,left:203px,width:319px,background-color:#BBAD82,opacity:80%}}
 

@@ -35,10 +35,7 @@ Settlement in the Far North. Minor frontier post dealing with harsh arctic condi
 *Dragon name. Common mistake: "OR-ex-ee-an"*
 Silver dragon scholar and Northwatch Warden. Curious, methodical, and somewhat awkward in social situations. Specializes in investigation and historical research. Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
+\column
 
 ## B
 
@@ -50,11 +47,6 @@ Halfling chef and keeper of Waystone Inn. Jovial, welcoming, and observant. Prov
 
 **Brenna Thorne**
 Marshal of the Northwatch Wardens. Human fighter from Northreach. Direct, practical leader with military background. Commands field operations and makes tactical decisions. "Work smarter, not just harder." *See: People of Northreach chapter, Northwatch Wardens chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## C
 
@@ -86,11 +78,6 @@ Holy city in the heartlands of the Solaris Dominion. Multi-faith center of pilgr
 **Dragonknights, The**
 Cult of dragon-worshippers who sought to gain draconic power through rituals and pacts. Led by Brother Alastair. Believed dragons were superior beings deserving worship and service. Defeated in the Temple of the Dragonknights adventure. *See: Temple of the Dragonknights adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## E
 
 **Eclipse Day**
@@ -106,10 +93,7 @@ Elf scholar in Palebank Village. Researches Aeorian history and the source of th
 **Emberlands**
 Region of Aevoria devastated by magical cataclysm within living memory. Landscape torn by lingering fire and earth magic. Home to resilient survivors, the Red Covenant disaster relief organization, and desperate communities. Known for improvisation and fierce determination. *See: Regions chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
+\column
 
 ## F
 
@@ -136,11 +120,6 @@ Mysterious illness affecting Palebank Village. Victims develop icy blue veins, f
 **Flynt Wymblen**
 Gnome tinkerer and inventor working with the Northwatch Wardens. Enthusiastic gadgeteer with variable success rate. Provides experimental equipment and creative solutions (with occasional explosions). Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## G
 
 **Galvena Aballon** (gal-VEE-nah ah-BAL-on)
@@ -163,29 +142,14 @@ Half-orc laborer and Northwatch Warden. Quiet, immensely strong, kind-hearted. D
 **Horizon Wayfinders**
 Organization of scouts, cartographers, and guides specializing in frontier exploration. Reliable sources for maps, route information, and frontier intelligence. Neutral and professional. *See: Organizations chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## I
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## J
 
 **Joel Andersmith**
 Human blacksmith in Northreach settlements. Practical craftsman providing weapon repair, horseshoes, and general metalwork. Reliable, straightforward, charges fair prices. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## K
 
@@ -193,20 +157,12 @@ Human blacksmith in Northreach settlements. Practical craftsman providing weapon
 *Dwarven name. Stress first and third syllables.*
 Capital city of the Stonebound Depths. Great underground metropolis carved into living stone. Center of dwarven craft, culture, and geomancy. Known for resonance halls and ancestral vaults. *See: Stonebound Depths chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## L
 
 **Leanor Slatebeard** (LEE-nor SLAYT-beerd)
 Dwarf tracker in Welton. Gruff, pragmatic, expert at reading wilderness signs. Helps investigate wolf attacks on Westly's farm. Takes contracts but cares about community safety. *See: People of Northreach chapter, Wolves of Welton adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
+\column
 
 ## M
 
@@ -216,11 +172,6 @@ Steward of the Northwatch Wardens. Human quartermaster from merchant family back
 **Mila Teno** (MY-luh TEH-noh)
 *Common mistake: "mee-LAH"*
 Human cartographer and clerk for the Northwatch Wardens. Organized, detail-focused, maintains mission records and maps. Provides intelligence and documentation support. Based at Waystone Inn. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## N
 
@@ -239,11 +190,6 @@ Adventuring guild based at Waystone Inn in Northreach. Operates on contract syst
 
 **Nullwood Expanse** (NULL-wood ex-PANS)
 Elven-dominated forest region characterized by silence wards and memory preservation culture. Home to the Silent Court. Trees absorb sound; inhabitants speak in whispers and gestures. Values memory, records, and cautious change. *See: Regions chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## O
 
@@ -266,19 +212,9 @@ Human merchant in Palebank Village. Trades in furs, fish, and expedition supplie
 **Pinebrook**
 Trading village in southeast Northreach. Agricultural and commerce focus. Site of "Peril in Pinebrook" adventure involving mysterious disappearances. *See: Northreach chapter, Peril in Pinebrook adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## Q
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## R
 
@@ -291,10 +227,7 @@ Dwarven cultural practice of listening to stone. Geomantic technique for underst
 **Rowan Fairweather**
 Human bard and Northwatch Warden. Charismatic storyteller, morale booster, and negotiator. Performs at Waystone Inn, gathers rumors, handles diplomatic situations. "There's always a story here." Based at Waystone Inn. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
+\column
 
 ## S
 
@@ -361,11 +294,6 @@ Human council member in Welton. Practical village leader handling administrative
 *Goliath name. Stress first syllable of each name.*
 Goliath healer in Palebank Village. Herbalist and practical medicine provider. Treats mundane injuries and illnesses with natural remedies. Caring but gruff. *See: People of Northreach chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## U
 
 **Unmasked Parliament**
@@ -374,11 +302,6 @@ Governing council of Vharoxis. Operates without masks (unusual for Vharoxis cult
 **Urgon Wenth** (UR-gon WENTH)
 *Dwarf name. Both parts rhyme with "fur-gone" and "tenth"*
 Dwarf blacksmith in Palebank Village. Provides weapon repair, metal goods, and smithing services. Traditional craftsman maintaining dwarven quality standards. Reliable and fair. *See: People of Northreach chapter*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## V
 
@@ -396,10 +319,7 @@ Nature deity of growth, seasons, and balance. Patron of farmers, druids, and tho
 *Stress middle syllable: "vah-ROX-iss"*
 Outlaw city on the southern coast. Known for mask culture, black market trade, and absence of traditional law. "What you can keep is yours." Operates on reputation, contracts, and personal power. Dangerous but full of opportunities unavailable elsewhere. *See: Regions chapter*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
+\column
 
 ## W
 
@@ -424,19 +344,9 @@ Aarakocra scout and Northwatch Warden. Airborne reconnaissance specialist provid
 **Wolves of Welton**
 Adventure involving awakened wolves with developing intelligence attacking farms near Welton. First major indication of the Aeorian Echo phenomenon affecting wildlife. Moral complexity—wolves aren't evil, just hungry and confused. *See: Wolves of Welton adventure*
 
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
-
 ## X
 
 *No major entries*
-
-{{pageNumber,auto}}
-{{footnote GLOSSARY OF AEVORIA}}
-
-\page
 
 ## Y
 
