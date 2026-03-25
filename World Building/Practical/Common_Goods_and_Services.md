@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Practical/Currency_and_Trade.md, World Building/Player_Quick_Reference.md
+-->
+
 # Common Goods and Services
 
 {{wide

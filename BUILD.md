@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Building the Northwatch Wardens Guides
 
 This document explains how to build the combined markdown, text, and HTML files from the content in this repository:

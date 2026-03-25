@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/Nullwood_Secrets.md, World Building/Regions/00_Master_Index.md
+-->
+
 # The Nullwood Expanse 
 
 The Elven Kingdom

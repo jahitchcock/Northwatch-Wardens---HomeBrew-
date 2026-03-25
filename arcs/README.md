@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, DM-Only
+  Status: Canon
+  Type: Index
+  Linked: arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # Narrative Arcs
 
 This directory contains **story arc files** for the Northwatch Wardens campaign — high-level throughlines that connect individual adventures into a coherent season-long narrative.

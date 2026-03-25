@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Season-1
+  Status: Canon
+  Type: Index
+  Region: Northreach
+-->
+
 # Northwatch Wardens: Season One
 
 ## Campaign Table of Contents & Encounter Checklist

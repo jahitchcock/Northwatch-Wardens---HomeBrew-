@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Retired
+  Type: DM-Resource
+-->
+
 # DM's Guide 2.0 - Quick Reference
 
 > **TL;DR**: 24 sub-issues created. Start with Phase 1 TOC reorg, then focus on 5 critical Phase 2 guides before anything else.

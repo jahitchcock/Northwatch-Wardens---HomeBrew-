@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Quick Reference: Building the Guides
 
 ## Simple Commands

@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Welton, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Welton
+  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # Wolves of Welton — Standardized v3
 
 *Campaign Inciting Incident Adventure*  

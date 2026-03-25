@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Northwatch Wardens Season 1
 ## 3D Printing Shopping List for Tabletop Miniatures
 

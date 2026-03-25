@@ -1,3 +1,11 @@
+<!--
+  Tags: Arc, Season-1, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Arc
+  Region: Northreach
+  Linked: arcs/Season_1_The_Aeorian_Echo.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+-->
+
 # The Aeorian Echo: Core Mystery Definition
 
 **Campaign Lynchpin — Master Reference for DMs**

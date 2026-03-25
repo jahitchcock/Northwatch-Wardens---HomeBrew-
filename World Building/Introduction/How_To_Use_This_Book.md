@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: World Building/README.md
+-->
+
 # How to Use This Book
 
 {{wide

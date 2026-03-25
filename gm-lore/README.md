@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, DM-Only
+  Status: Canon
+  Type: Index
+  Linked: player-lore/README.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+-->
+
 # GM Lore
 
 This directory is the **index of all DM-facing lore** in the Northwatch Wardens campaign. Content here contains spoilers, secrets, and campaign truths that should **not be shared with players**.

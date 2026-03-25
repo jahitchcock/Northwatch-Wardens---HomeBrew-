@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Season-1, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: Season 1/DM_Resources/DM Guild Roster.md, Season 1/DM_Resources/Minor_NPC_Roster_Northreach.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

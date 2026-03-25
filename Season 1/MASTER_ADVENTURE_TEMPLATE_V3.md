@@ -1,3 +1,11 @@
+<!--
+  Tags: Template, Season-1, DM-Only
+  Status: Canon
+  Type: Template
+  Region: Northreach
+  Linked: templates/Story_Arc_Template.md
+-->
+
 # MASTER ADVENTURE TEMPLATE v3
 
 *Standard template for all Northwatch Wardens adventures. Use this structure for every adventure module to ensure consistency, completeness, and DM readability.*

@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Character_Creation/Regional_Origins.md, World Building/Character_Creation/Languages_and_Culture.md
+-->
+
 {{wide
 # Creating Your Character
 

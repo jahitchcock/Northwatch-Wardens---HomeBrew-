@@ -1,4 +1,12 @@
-﻿# Scratchpad (Index)
+<!--
+  Tags: Index, Scratchpad
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: scratchpad/README.md
+-->
+
+# Scratchpad (Index)
 
 This file is an index. Draft material should live under `World Building/Drafts/`.
 

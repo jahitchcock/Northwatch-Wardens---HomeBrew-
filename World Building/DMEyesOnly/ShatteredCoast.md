@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, DM-Only, Off-Map, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Regions/06_Shattered_Coast.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

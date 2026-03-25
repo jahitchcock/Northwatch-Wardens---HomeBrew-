@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Welton, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Welton
+  Linked: Season 1/Adventures/Wolves_Of_Welton/Wolves_Of_Welton_V3_STANDARDIZED.md, World Building/DMEyesOnly/People_Secrets.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 ![homebrewery_mug](https://i.imgur.com/dY6aoPz.jpg) {width:180px,margin-right:1cm,wrapRight}
 
 ### Northwatch Wardens Integration (DM)

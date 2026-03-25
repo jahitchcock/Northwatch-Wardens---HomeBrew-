@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # DM's Guide v3 - GitHub Issues Structure
 
 This document provides the complete structure for creating GitHub issues from the `dm-guide-v3.md` implementation plan. Each issue includes title, description, labels, dependencies, and acceptance criteria.

@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Premade-PC, Player-Safe, pre-templates
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: People_of_Northreach.md
+-->
+
 # Perkia Fali
 
 ## Character Information

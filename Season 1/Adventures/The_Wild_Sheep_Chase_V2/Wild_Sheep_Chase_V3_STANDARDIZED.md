@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # The Wild Sheep Chase — Standardized v3
 
 *Campaign Comedy Adventure with Aeorian Echo Integration*  

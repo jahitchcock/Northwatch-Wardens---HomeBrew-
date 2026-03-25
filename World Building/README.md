@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Player-Safe, DM-Only
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: player-lore/README.md, gm-lore/README.md
+-->
+
 # World Building
 
 This folder is the **setting bible** for Northwatch Wardens: Northreach (Season One) plus the wider “off-map” world.

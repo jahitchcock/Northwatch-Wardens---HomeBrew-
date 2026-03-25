@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Player_Quick_Reference.md, World Building/Regions/Northreach/Places_of_Northreach.md
+-->
+
 # Travel and Distance in Northreach
 
 {{wide

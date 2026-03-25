@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Draft
+  Type: DM-Resource
+-->
+
 # Comprehensive Improvement Plan for "A DM's Guide to Aevoria"
 
 ## Executive Summary

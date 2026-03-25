@@ -1,3 +1,11 @@
+<!--
+  Tags: Faction, Warden, Season-1, Northreach, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Northreach
+  Linked: World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md
+-->
+
 # Warden Rank System
 
 **Mechanical Progression for Guild Advancement**

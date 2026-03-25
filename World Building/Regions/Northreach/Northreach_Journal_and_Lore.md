@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Northreach_Setting_Primer.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
+
 # Welcome to Northreach
 
 

@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Retired
+  Type: DM-Resource
+-->
+
 # DM's Guide 2.0 Reorganization - Complete Documentation
 
 This directory contains comprehensive documentation for implementing the DM's Guide 2.0 reorganization, which transforms the guide from a repository README into a practical, table-ready DM resource.

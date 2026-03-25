@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, Northreach
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 {{wide
 
 ### Random Encounter Tables: Downtime & Social Interactions

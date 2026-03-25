@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # DM Guide v3 Issue Tracking Documentation
 
 This folder contains complete documentation for creating and managing GitHub issues for the DM Guide v3 implementation project.

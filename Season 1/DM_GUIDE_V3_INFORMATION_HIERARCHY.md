@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # DM Guide V3: Information Hierarchy & Content Placement Rules
 
 *Internal Documentation for DM Guide Consistency*

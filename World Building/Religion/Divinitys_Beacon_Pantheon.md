@@ -1,3 +1,11 @@
+<!--
+  Tags: Faction, Religion, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Off-Map
+  Linked: World Building/Locations/Divinitys_Beacon.md
+-->
+
 
 # Divinity’s Beacon — Pantheon
 

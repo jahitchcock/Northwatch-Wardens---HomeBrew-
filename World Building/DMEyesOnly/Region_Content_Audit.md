@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, DM-Only
+  Status: Canon
+  Type: DM-Resource
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/Wild_Sheep_Chase_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 {{note
 **Arc Position:** :: Arc 2 — *Revelation*
 **Mystery Rating:** ::⭐⭐⭐ (Significant — Magical Destabilization Pattern)

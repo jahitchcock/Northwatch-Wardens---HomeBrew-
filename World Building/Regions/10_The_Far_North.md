@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/DMEyesOnly/The_Far_North_Secrets.md, World Building/Regions/01_Northreach.md
+-->
+
 # The Far North
 
 The Far North is a frozen wasteland beyond Palebank Village, where blizzards rage without end and the ice stretches to the horizon. It is one of the most inhospitable regions in the known world—a place where civilization ends and only ice remains. Few travel there by choice. Fewer return.

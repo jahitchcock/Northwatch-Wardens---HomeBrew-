@@ -1,3 +1,11 @@
+<!--
+  Tags: Location, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Places_of_Northreach.md, World Building/DMEyesOnly/Northreach.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

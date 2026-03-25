@@ -1,3 +1,10 @@
+<!--
+  Tags: Adventure, Session-0, Season-1, Northreach, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+-->
+
 # Opening Scenarios Framework — Standardized v3
 
 *Sessions 0–1: Campaign Onboarding & First Mission Briefing*  

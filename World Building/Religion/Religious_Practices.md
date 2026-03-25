@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Religion, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Religion/Divinitys_Beacon_Pantheon.md
+-->
+
 # Religious Practices in Aevoria
 *How Faith Works in Daily Life*
 

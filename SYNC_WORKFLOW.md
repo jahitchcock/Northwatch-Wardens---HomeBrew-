@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Build ↔ Unbuild Sync Workflow
 
 This document explains how to work seamlessly between VS Code and Homebrewery using the bidirectional sync system.

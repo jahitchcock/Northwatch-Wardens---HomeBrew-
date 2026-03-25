@@ -1,3 +1,9 @@
+<!--
+  Tags: Index, DM-Resource
+  Status: Canon
+  Type: Index
+-->
+
 # Northwatch Wardens — Markdown Templates
 
 This directory contains reusable Markdown templates for every major lore entity type in the Northwatch Wardens campaign. Copy the appropriate template when creating new canon content.

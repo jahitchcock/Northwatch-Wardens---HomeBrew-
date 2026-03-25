@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/10_The_Far_North.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

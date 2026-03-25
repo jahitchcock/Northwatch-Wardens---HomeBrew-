@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # DM Guide v3 Issue Tracking - Implementation Summary
 
 ## What Was Delivered

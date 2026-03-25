@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Player's Guide 2.0 - Current Status and Next Steps
 
 **Last Updated:** 2026-02-06 (After content creation and duplicate file evaluation)

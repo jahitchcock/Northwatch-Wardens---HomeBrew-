@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # DM Guide v3 - Issue Dependency Diagram
 
 This document provides visual representations of issue dependencies for the DM Guide v3 implementation project.

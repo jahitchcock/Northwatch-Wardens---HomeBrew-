@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 {{note
 ##### DUNGEON MASTER RESOURCE
 

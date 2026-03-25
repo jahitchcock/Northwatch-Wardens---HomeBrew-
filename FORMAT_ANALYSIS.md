@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Draft
+  Type: DM-Resource
+-->
+
 # DM Guide Formatting Analysis
 
 ## Overview

@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, Northreach
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Seasonal Event Calendar for Northreach
 
 **Monthly Events, Holidays, and Seasonal Transitions**

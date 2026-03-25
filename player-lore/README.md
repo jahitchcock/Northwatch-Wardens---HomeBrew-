@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Linked: gm-lore/README.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
+
 # Player Lore
 
 This directory is the **index of all player-safe lore** in the Northwatch Wardens campaign. Content here is cleared for players to read freely.

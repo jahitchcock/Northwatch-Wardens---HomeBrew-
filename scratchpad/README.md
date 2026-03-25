@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Scratchpad
+  Status: Canon
+  Type: Index
+  Linked: World Building/Scratchpad.md
+-->
+
 # Scratchpad
 
 This directory is the **unstructured idea space** for the Northwatch Wardens campaign. Anything goes here — raw fragments, half-formed concepts, transcripts, sketches, early drafts, and notes not yet ready for canon.

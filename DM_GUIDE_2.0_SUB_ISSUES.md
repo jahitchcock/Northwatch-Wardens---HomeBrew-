@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Retired
+  Type: DM-Resource
+-->
+
 # DM's Guide 2.0 - Sub-Issues to Create
 
 This document outlines all the sub-issues that need to be created in GitHub for the DM's Guide 2.0 reorganization project. Each sub-issue is structured with title, description, labels, acceptance criteria, and estimates.

@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/Adventures/Opening/Return_to_Waystone_Session0.md
+-->
+
 ### **OPENING SCENE: "Wolves at the Waystone Inn"**
 {{note
 **Campaign Note (DM):** This is a cold-open combat tutorial using ordinary wolves. These are NOT awakened wolves (that comes in Wolves of Welton). This scene establishes the frontier's danger before introducing the deeper mystery.
