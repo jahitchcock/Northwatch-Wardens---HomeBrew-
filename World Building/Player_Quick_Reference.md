@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Northreach, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: World Building/Practical/Travel_and_Distance.md, World Building/Practical/Common_Goods_and_Services.md
+-->
+
 # Player Quick Reference Guide
 
 {{toc,wide

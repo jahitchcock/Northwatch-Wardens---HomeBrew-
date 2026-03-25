@@ -1,3 +1,11 @@
+<!--
+  Tags: Faction, Northreach, Warden, Player-Safe, Season-1
+  Status: Canon
+  Type: Faction
+  Region: Northreach, Multi-Region
+  Linked: Northreach/People_of_Northreach.md, Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md
+-->
+
 # Organizations of Aevoria
 *A Guide to Major Factions and Groups*
 

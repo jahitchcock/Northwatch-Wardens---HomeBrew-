@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Season-1, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: World Building/DMEyesOnly/People_Secrets.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
+
 # Minor NPC Roster: Northreach Region
 
 {{wide

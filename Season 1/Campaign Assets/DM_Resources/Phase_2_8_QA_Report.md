@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Phase 2.8 QA & Cross-Reference Audit Report
 ## Executive Summary
 

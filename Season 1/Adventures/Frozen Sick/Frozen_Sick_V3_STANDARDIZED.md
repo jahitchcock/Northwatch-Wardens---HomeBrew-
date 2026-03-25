@@ -1,4 +1,12 @@
-﻿ surprise if not spotted
+<!--
+  Tags: Adventure, Season-1, Northreach, Palebank, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Palebank
+  Linked: Season 1/Adventures/Frozen Sick/Frozen Sick.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
+ surprise if not spotted
 
 **Chest Retrieval:**
 - Chest is locked (DC 15 Thieves' Tools OR Ferol's key)

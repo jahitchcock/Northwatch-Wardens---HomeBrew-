@@ -1,3 +1,11 @@
+<!--
+  Tags: Faction, Warden, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Northreach
+  Linked: World Building/Organizations/Organizations_Overview.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
+
 # The Northwatch Wardens
 
 ***Guild Charter***

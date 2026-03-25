@@ -1,3 +1,11 @@
+<!--
+  Tags: Faction, Season-1, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Northreach
+  Linked: World Building/Organizations/Organizations_Overview.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # Faction Response Document: The Aeorian Echo
 
 **H** *ow Different Powers React to Each Phase of the Echo*

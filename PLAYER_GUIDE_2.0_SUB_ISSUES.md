@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Player's Guide 2.0 - Sub-Issues to Create
 
 **Last Updated:** 2026-02-06

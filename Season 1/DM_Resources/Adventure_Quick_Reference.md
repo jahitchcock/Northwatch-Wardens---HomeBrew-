@@ -1,3 +1,11 @@
+<!--
+  Tags: DM-Resource, Season-1
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+  Linked: Season 1/ADVENTURE_INDEX.md
+-->
+
 # Adventure Quick Reference Sheets
 
 **Week 4 Enhancement — At-a-Glance DM Prep Tools**

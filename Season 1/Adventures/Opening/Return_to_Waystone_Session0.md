@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Session-0, Season-1, Northreach, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/SESSION_0_QUICK_START.md
+-->
+
 # Return to Waystone (Session 0)
 
 {{wide

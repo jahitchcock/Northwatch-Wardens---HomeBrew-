@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Retired
+  Type: DM-Resource
+-->
+
 # DM's Guide 2.0 - Implementation Summary
 
 ## What Was Created

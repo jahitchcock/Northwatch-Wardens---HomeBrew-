@@ -1,3 +1,11 @@
+<!--
+  Tags: DM-Resource, Session-0, Season-1
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+  Linked: Season 1/SESSION_0_QUICK_START.md
+-->
+
 # Session 0 Cheat Sheet — Northwatch Wardens
 *Print this and keep it at your table during Session 0*
 

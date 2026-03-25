@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 \page
 # Temple of the Dragonknights
 ## Northwatch Wardens Integration (DM)

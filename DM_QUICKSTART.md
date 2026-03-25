@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # DM Quick Start Guide
 ## Running Your First Northwatch Wardens Session
 

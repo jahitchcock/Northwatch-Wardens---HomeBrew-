@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+  Region: Off-Map
+-->
+
 # Aevoria ASCII Maps - README
 
 ## Files Generated

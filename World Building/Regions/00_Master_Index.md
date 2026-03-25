@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Off-Map
+  Linked: World Building/Regions/01_Northreach.md
+-->
+
 # Welcome to Aevoria
 
 *A World of Ancient Magic and Frontier Adventure*

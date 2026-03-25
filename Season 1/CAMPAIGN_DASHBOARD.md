@@ -1,3 +1,11 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+  Linked: Season 1/ADVENTURE_INDEX.md
+-->
+
 # Northwatch Wardens: Campaign Dashboard
 
 ## Campaign at a Glance

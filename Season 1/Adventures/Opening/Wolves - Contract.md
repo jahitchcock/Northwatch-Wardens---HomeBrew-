@@ -1,3 +1,11 @@
+<!--
+  Tags: Quest, Adventure, Season-1, Northreach, Welton, Player-Safe, pre-templates
+  Status: Canon
+  Type: Quest
+  Region: Northreach, Welton
+  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md, Season 1/DM_Resources/DM Guild Roster.md
+-->
+
 # **Contract: W‑17 — Disturbance Near Welton**
 {{wide
 {{note

@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Northreach_Journal_and_Lore.md
+-->
+
 # Songs of the Northreach
 A Frontier Songbook for Season One of the Northwatch Wardens
 

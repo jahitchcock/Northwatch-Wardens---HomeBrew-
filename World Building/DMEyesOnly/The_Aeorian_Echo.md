@@ -1,6 +1,12 @@
-{{note
+<!--
+  Tags: Arc, Northreach, Arc-Aeorian-Echo, DM-Only, Season-1
+  Status: Canon
+  Type: Arc
+  Region: Northreach
+  Linked: People_Secrets.md, Places_Secrets.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
 
-This document contains secret information about the central mystery of the Northwatch Wardens campaign. **DO NOT share this with players** unless they discover it through gameplay.
+{{note **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book).
 }}

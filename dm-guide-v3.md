@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # A DM's Guide to Aevoria: Publication-Ready Implementation Plan
 
 **Goal:** Transform the guide into a publication-ready DM toolkit using hybrid approach (ChatGPT structure + Claude UX enhancements)

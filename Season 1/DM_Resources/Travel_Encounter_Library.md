@@ -1,3 +1,11 @@
+<!--
+  Tags: Location, Season-1, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Places_of_Northreach.md
+-->
+
 # Travel Encounter Library
 
 **Thirty Prompts for Encounters Between Settlements**

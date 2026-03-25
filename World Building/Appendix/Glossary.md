@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Off-Map
+-->
+
 # Glossary of Aevoria
 
 *A quick reference guide to terms, places, organizations, and people of the world*

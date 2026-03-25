@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Adventure Secrets Quick Reference
 
 **Purpose:** This document provides DMs with quick navigation between adventures and their corresponding world secrets.

@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Northreach, DM-Only, Season-1
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: ../Regions/Northreach/People_of_Northreach.md, The_Aeorian_Echo.md, Places_Secrets.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

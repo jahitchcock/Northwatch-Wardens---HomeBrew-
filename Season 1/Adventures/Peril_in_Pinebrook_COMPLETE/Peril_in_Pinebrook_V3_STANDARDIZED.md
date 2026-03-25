@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Pinebrook, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Pinebrook
+  Linked: Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # Peril in Pinebrook — Standardized v3
 
 *Introductory Adventure: Baby Dragon Rescue & Frontier Vulnerability*  

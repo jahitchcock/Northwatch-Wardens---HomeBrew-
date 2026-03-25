@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Season-1, DM-Only
+  Status: Canon
+  Type: Index
+  Region: Northreach
+-->
+
 # Master Table of Contents: A DM's Guide to Northwatch Wardens
 
 ---

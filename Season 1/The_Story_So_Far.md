@@ -1,3 +1,11 @@
+<!--
+  Tags: Arc, Season-1, DM-Only, pre-templates
+  Status: Canon
+  Type: Arc
+  Region: Northreach
+  Linked: arcs/Season_1_The_Aeorian_Echo.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+-->
+
 # Northwatch Wardens: Season One — The Story So Far
 
 Use this as the living continuity log for actual play. Update it after each session.

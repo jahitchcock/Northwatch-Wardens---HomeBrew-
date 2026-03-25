@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, DM-Only, Off-Map, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Regions/07_Emberlands.md
+-->
+
 {{note
 ##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
 

@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Palebank, DM-Only, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Palebank
+  Linked: Season 1/Adventures/Frozen Sick/Frozen Sick.md
+-->
+
 # Frozen Sick — Monster Stat Blocks
 
 This document contains Homebrewery-formatted stat blocks for creatures in Frozen Sick. These can be copy-pasted into the adventure file or reference during play.

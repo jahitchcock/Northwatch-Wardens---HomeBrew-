@@ -1,4 +1,11 @@
-﻿# AEVORIA to INKARNATE - Quick Reference Guide
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+  Region: Off-Map
+-->
+
+# AEVORIA to INKARNATE - Quick Reference Guide
 
 ## Files Created
 

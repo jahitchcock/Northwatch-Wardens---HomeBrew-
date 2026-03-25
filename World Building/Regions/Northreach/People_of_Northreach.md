@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Northreach, Warden, Player-Safe, Season-1
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: Places_of_Northreach.md, Northreach_Setting_Primer.md, Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md, DMEyesOnly/People_Secrets.md
+-->
+
 {{descriptive
 ##### 🌟 PLAYER-SAFE CONTENT
 

@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Session Prep Master Checklist
 
 **Week 4 Final Tool — Complete DM Preparation Framework**

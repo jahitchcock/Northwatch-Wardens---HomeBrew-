@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # AI Tooling for Northwatch Wardens Campaign
 
 ## Overview

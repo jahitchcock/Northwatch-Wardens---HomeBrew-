@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Session-0, Season-1
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Session 0: Character Integration Prompts
 
 **Purpose:** These questions help players connect their characters to Northreach, the Wardens, and the campaign setting. Use during Session 0 or character creation to establish meaningful ties to the world.

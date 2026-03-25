@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # DM Guide v3 - Quick Start Guide
 
 This document provides a quick overview of how to use the DM Guide v3 issue tracking system.

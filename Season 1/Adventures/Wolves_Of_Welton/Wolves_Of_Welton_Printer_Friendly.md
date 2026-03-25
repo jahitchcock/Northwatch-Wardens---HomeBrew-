@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Welton, Player-Safe, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Welton
+  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md
+-->
+
 # Wolves of Welton  
 *A 2nd–3rd level adventure for 5e*  
 *Summary prepared for Northwatch Wardens campaign*

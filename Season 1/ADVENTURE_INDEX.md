@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Season-1, DM-Only
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: Season 1/CAMPAIGN_DASHBOARD.md
+-->
+
 # Adventure Index: Quick Reference Table
 
 **Purpose:** Use this table to select and prepare adventures efficiently. All information is condensed for quick lookup. For full adventure details, see Chapter 5 adventure modules.

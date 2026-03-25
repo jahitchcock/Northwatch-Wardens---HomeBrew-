@@ -1,3 +1,11 @@
+<!--
+  Tags: Location, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Off-Map
+  Linked: World Building/Regions/00_Master_Index.md, World Building/Religion/Divinitys_Beacon_Pantheon.md
+-->
+
 # Divinity's Beacon
 
 Status: **world canon (off-map)**. Not located in Northreach.

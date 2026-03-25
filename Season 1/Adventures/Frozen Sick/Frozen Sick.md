@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, Palebank, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach, Palebank
+  Linked: Season 1/Adventures/Frozen Sick/Frozen_Sick_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+-->
+
 # Frozen Sick
 ## Northwatch Wardens Integration (DM)
 

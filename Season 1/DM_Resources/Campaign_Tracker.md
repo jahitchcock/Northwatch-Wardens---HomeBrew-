@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Season-1, DM-Only
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 {{note
 **DM Note:** These are player-facing documents to be distributed during specific adventures. They contain no DM secrets and can be printed/shared directly with players when the appropriate moment arrives.
 }}

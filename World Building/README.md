@@ -1,3 +1,11 @@
+<!--
+  Tags: Index, Player-Safe, DM-Only
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: player-lore/README.md, gm-lore/README.md
+-->
+
 # World Building
 
 This folder is the **setting bible** for Northwatch Wardens: Northreach (Season One) plus the wider “off-map” world.
@@ -38,9 +46,13 @@ All content in these folders is safe for players to read:
 
 All content in World Building is safe for players, EXCEPT for files in [DMEyesOnly/](./DMEyesOnly/).
 
+See the full **[Player Lore Index](../player-lore/README.md)** for a navigable list of all player-safe content.
+
 ### DM Content (Spoilers)
 
 - [DMEyesOnly/](./DMEyesOnly/) — The truth behind the setting: secrets, motivations, and the Aeorian Echo.
+
+See the full **[GM Lore Index](../gm-lore/README.md)** for a navigable list of all DM-facing content including arcs and secrets.
 
 ### World Reference (Reusable / Canon)
 
@@ -59,6 +71,72 @@ All content in World Building is safe for players, EXCEPT for files in [DMEyesOn
 ### Workbench
 
 - [Drafts/](./Drafts/) — Work-in-progress and archived development material.
+
+---
+
+## Campaign-Wide Organizational Structure
+
+In addition to `World Building/`, the following root-level directories support the campaign workflow:
+
+| Directory | Purpose |
+|-----------|---------|
+| [`/templates/`](../templates/) | Reusable Markdown templates for NPCs, Locations, Factions, Items, Quests, Regions, and Arcs |
+| [`/arcs/`](../arcs/) | Narrative arc files: story beats, revelation ladders, character relationship tables |
+| [`/player-lore/`](../player-lore/) | Index of all player-safe content |
+| [`/gm-lore/`](../gm-lore/) | Index of all DM-facing content |
+| [`/scratchpad/`](../scratchpad/) | Unstructured idea dump: fragments, early drafts, notes not yet canon |
+
+---
+
+## Metadata & Tagging System
+
+All lore files use a standardized **HTML comment metadata header** at the top of each file. This enables fast GitHub search filtering and creates implicit relationships between entities.
+
+### Metadata Format
+
+```
+<!--
+  Tags: <comma-separated tags>
+  Status: <Canon | Draft | Retired | Speculation>
+  Type: <NPC | Location | Faction | Item | Quest | Region | Arc>
+  Region: <Northreach | Solaris Dominion | Off-Map | etc.>
+  Linked: <comma-separated related file names>
+-->
+```
+
+### Tag Vocabulary
+
+- **Entity type:** `NPC`, `Location`, `Faction`, `Item`, `Quest`, `Region`, `Arc`
+- **Region:** `Northreach`, `Palebank`, `Welton`, `Pinebrook`, `Off-Map`
+- **Affiliation:** `Warden`, `Cult`, `Consortium`, `Independent`
+- **Season:** `Season-1`, `Season-2`, etc.
+- **Arc:** `Arc-Aeorian-Echo`, `Arc-Guild-Founding`, etc.
+- **Visibility:** `Player-Safe`, `DM-Only`
+
+### Status Values
+
+| Status | Meaning |
+|--------|---------|
+| `Canon` | Finalised and in play |
+| `Draft` | Work in progress, not yet used in a session |
+| `Retired` | No longer active but kept for reference |
+| `Speculation` | Idea being explored, not committed |
+
+---
+
+## Internal Linking Convention
+
+Use standard Markdown relative links to connect related files:
+
+```markdown
+See also: [Marshal Brenna Thorne](./Regions/Northreach/People_of_Northreach.md#marshal-brenna-thorne)
+```
+
+Linking targets:
+- NPCs → their faction and home location
+- Locations → their region and resident NPCs
+- Quests → involved NPCs and target locations
+- Arcs → constituent adventures and key NPCs
 
 ---
 

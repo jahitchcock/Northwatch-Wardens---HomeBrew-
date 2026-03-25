@@ -1,3 +1,11 @@
+<!--
+  Tags: Adventure, Season-1, Northreach, pre-templates
+  Status: Canon
+  Type: Adventure
+  Region: Northreach
+  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md
+-->
+
 # The Morning After: A Warden's First Duty
 {{wide
 {{note

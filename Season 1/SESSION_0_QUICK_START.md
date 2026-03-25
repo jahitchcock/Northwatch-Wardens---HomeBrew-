@@ -1,3 +1,11 @@
+<!--
+  Tags: DM-Resource, Session-0, Season-1
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+  Linked: Season 1/SESSION_0_CHEAT_SHEET.md
+-->
+
 # Session 0 Quick Start Guide
 {{note
 ### Prep Time: 30 Minutes →<br>Run Session 0 in 2 Hours

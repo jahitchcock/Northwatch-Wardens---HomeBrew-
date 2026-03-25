@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/SunkenDominion.md, World Building/Regions/00_Master_Index.md
+-->
+
 # The Sunken Dominion
 
 Drowned Civilization of the Deep  

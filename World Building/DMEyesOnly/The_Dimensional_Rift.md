@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/The_Aeorian_Echo.md
+-->
+
 # The Dimensional Rift: Aeor's Fall Across Worlds
 
 **DM EYES ONLY — Campaign Lore Foundation**

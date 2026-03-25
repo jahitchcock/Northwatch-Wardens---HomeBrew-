@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Character_Creation/Creating_Your_Character.md, World Building/Character_Creation/Regional_Origins.md
+-->
+
 # Languages and Culture of Aevoria
 {{wide
 ## A Player's Guide to Communication and Customs

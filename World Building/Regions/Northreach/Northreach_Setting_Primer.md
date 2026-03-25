@@ -1,3 +1,11 @@
+<!--
+  Tags: Region, Northreach, Player-Safe, Season-1
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: People_of_Northreach.md, Places_of_Northreach.md, Cultures_of_Northreach.md, Northreach_Setting_Primer.md
+-->
+
 # Northreach: Your Frontier Home
 
 {{wide

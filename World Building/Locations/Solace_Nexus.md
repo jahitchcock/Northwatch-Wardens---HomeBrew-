@@ -1,3 +1,11 @@
+<!--
+  Tags: Location, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Off-Map
+  Linked: World Building/Organizations/Organizations_Overview.md
+-->
+
 # Solace Nexus — Ley-Port City of Magic
 
 Status: **world canon (off-map)**. Not located in Northreach.

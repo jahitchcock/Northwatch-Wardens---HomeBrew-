@@ -1,3 +1,10 @@
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Northreach
+-->
+
 # Welcome to Aevoria
 
 

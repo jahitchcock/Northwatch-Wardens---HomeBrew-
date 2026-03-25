@@ -1,3 +1,9 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+-->
+
 # Image Imgur Upload Inventory
 
 **Purpose:** Track all relative-path images in Season 1 source files that need to be uploaded to imgur and converted to direct links.

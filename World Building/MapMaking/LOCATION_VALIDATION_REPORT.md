@@ -1,3 +1,10 @@
+<!--
+  Tags: DM-Resource, Meta
+  Status: Canon
+  Type: DM-Resource
+  Region: Northreach
+-->
+
 # Location Validation Report
 
 ## Coordinate Space Notes

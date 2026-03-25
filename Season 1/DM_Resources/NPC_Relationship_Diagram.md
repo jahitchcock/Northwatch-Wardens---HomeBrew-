@@ -1,3 +1,11 @@
+<!--
+  Tags: NPC, Faction, Season-1, Northreach, DM-Only, pre-templates
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: Season 1/DM_Resources/DM Guild Roster.md, World Building/DMEyesOnly/People_Secrets.md
+-->
+
 {{note
 **If players miss >3 clues:**  
 Repeat through:  

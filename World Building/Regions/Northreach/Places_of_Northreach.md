@@ -1,3 +1,11 @@
+<!--
+  Tags: Location, Northreach, Player-Safe, Season-1
+  Status: Canon
+  Type: Location
+  Region: Northreach
+  Linked: People_of_Northreach.md, Cultures_of_Northreach.md, Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md
+-->
+
 # Places of Northreach
 
 
