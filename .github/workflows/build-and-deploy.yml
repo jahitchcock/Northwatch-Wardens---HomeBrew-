@@ -38,7 +38,26 @@ jobs:
     
     - name: Install dependencies
       run: npm install
-    
+
+    - name: Validate XML files
+      run: |
+        echo "Checking XML well-formedness..."
+        FAIL=0
+        for f in $(find . -name "*.xml" -not -path "./.git/*"); do
+          if ! python3 -c "import xml.etree.ElementTree as ET; ET.parse('$f')" 2>/dev/null; then
+            echo "❌ XML parse error in: $f"
+            python3 -c "import xml.etree.ElementTree as ET; ET.parse('$f')"
+            FAIL=1
+          else
+            echo "✅ $f"
+          fi
+        done
+        if [ $FAIL -ne 0 ]; then
+          echo "XML validation failed. Fix errors before building."
+          exit 1
+        fi
+        echo "All XML files valid."
+
     - name: Build guides
       run: ./build.sh
     
