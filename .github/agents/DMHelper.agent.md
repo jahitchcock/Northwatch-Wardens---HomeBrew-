@@ -1,6 +1,6 @@
 ---
 description: 'Generate and maintain Game Master 5e XML campaign content for Northwatch Wardens: Season One'
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'dnd/*', 'pylance-mcp-server/*', 'ms-python.python/getPythonEnvironmentInfo', 'ms-python.python/getPythonExecutableCommand', 'ms-python.python/installPythonPackage', 'ms-python.python/configurePythonEnvironment', 'todo']
+tools: ['read', 'edit', 'search', 'web', 'agent', 'dnd/*']
 ---
 
 # Northwatch Wardens — DMHelper Copilot Agent
@@ -31,6 +31,41 @@ This Copilot agent assists with generating, expanding, and maintaining the **Gam
 - Write compelling read-aloud text and NPC dialogue
 - Validate XML structure
 - Convert official D&D stat blocks to Homebrewery format
+
+---
+
+## Standard Workflows
+
+### Creating a New Adventure
+
+1. Confirm setting location is in canonical geography (see table below)
+2. Create `Season 1/Adventures/<Name>/` with:
+   - `<Name>.md` — Homebrewery adventure guide (use `.github/templates/adventure_template.md`)
+   - `<Name>.json` — companion stat block data
+3. Required markdown sections: hooks, scenes with `{{descriptive}}`/`{{note}}` blocks, balancing callouts, Aeorian Echo clue, consequences, future hooks
+4. Add XML `<adventure>` entry to `LionsdenGameFiles/Northwatch_Wardens.xml`
+5. Add to `build/dms-guide-toc.json`
+6. Run `./build.sh --dms` to verify output
+
+### Creating a New NPC
+
+1. Check `Season 1/Campaign Assets/DM Guild Roster.md` for existing names/conflicts
+2. Generate Homebrewery `{{monster,frame}}` stat block + `{{note}}` personality block
+3. Generate XML `<npc>` entry with unique UID (check `Northwatch_Wardens.xml` for highest existing UID)
+4. Append to `DM Guild Roster.md` using the existing format
+5. Insert XML into `Northwatch_Wardens.xml` inside `<campaign>`
+
+### Validating XML
+
+1. Confirm root is `<data version="5">` not `<compendium>`
+2. Check nesting: `campaign > adventure > encounter > combatant > monster`
+3. Verify all `<uid>` values are unique across the file
+4. Confirm all attack `<action>` blocks have both `<atk>` and `<dmg>`
+5. Confirm long `<text>` fields use `<![CDATA[...]]>`
+
+### Querying D&D 5e API (MCP Server)
+
+Use `dnd/*` tools when you need official stat blocks, spell descriptions, or equipment entries. Always adapt official content with campaign-specific flavor rather than copying verbatim. Reference the local MCP config in `.vscode/mcp.json`.
 
 ---
 
@@ -105,12 +140,6 @@ Use these when you explicitly want the wider world beyond Northreach to be “on
 | **Vharoxis** | Southern coast (off-map) | Outlaw city; masks; black-market power | Vharoxis |
 | **Solace Nexus** | Southern valleys (off-map) | Ley-port city; regulated spellwork hub | Verdant Marches |
 | **Divinity's Beacon** | Southern heartlands (off-map) | Multi-faith holy city; oaths; anti-unaccountable magic stance | Solaris Dominion |
-
-## Canonical Geography
-
-**See:** `copilot-instructions.md` for the complete canonical geography tables.
-
-**Key Reminder:** Never invent new Northreach locations. All agent-generated content must use established locations from the main instructions—this ensures consistency with campaign canon.
 
 ---
 

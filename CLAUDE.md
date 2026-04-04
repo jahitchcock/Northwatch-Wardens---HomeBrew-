@@ -100,13 +100,27 @@ Never invent new locations. All Northreach locations must use these:
 - Full NPC roster: `Season 1/Campaign Assets/DM Guild Roster.md`
 - Tone: grounded low-magic frontier, serious with occasional levity
 
+## Claude Code Slash Commands
+
+Custom commands in `.claude/commands/` are available as `/command-name`:
+
+| Command | Purpose |
+|---------|---------|
+| `/build [--players\|--dms]` | Run the guide build and report output files |
+| `/new-adventure` | Scaffold a new adventure with proper template, structure, and Aeorian Echo integration |
+| `/new-npc` | Generate a new NPC with Homebrewery stat block + XML entry + roster update |
+| `/validate-xml` | Check all XML files for structural errors, duplicate UIDs, missing fields |
+| `/canon-check [file\|text\|"check all"]` | Verify geography, NPC names, player-facing link rules, and tone |
+| `/session-prep` | Generate a focused one-page DM prep document for an upcoming session |
+
 ## Key Reference Files
 
 | File | Purpose |
 |------|---------|
 | `.github/HOMEBREWERY_V3_GUIDE.md` | Complete Homebrewery V3 syntax reference |
 | `.github/copilot-instructions.md` | Detailed coding standards and content guidelines |
-| `.github/agents/DMHelper.agent.md` | DMHelper agent for XML and stat block work |
+| `.github/agents/DMHelper.agent.md` | DMHelper agent for XML, stat blocks, and writing workflows |
+| `.github/templates/adventure_template.md` | Adventure scaffold template |
 | `build/players-guide-toc.json` | Player's guide chapter/file structure |
 | `build/dms-guide-toc.json` | DM's guide chapter/file structure |
 | `Season 1/Campaign Assets/DM Guild Roster.md` | All NPC details and secrets |
