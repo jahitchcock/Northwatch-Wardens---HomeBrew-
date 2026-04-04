@@ -24,9 +24,10 @@ async function unbuildBook(tocFile, outputName) {
     process.exit(1);
   }
   
-  // Read the compiled file
-  const compiledContent = await fs.readFile(compiledFile, 'utf-8');
-  
+  // Read the compiled file and normalize line endings (Homebrewery downloads use CRLF)
+  const rawContent = await fs.readFile(compiledFile, 'utf-8');
+  const compiledContent = rawContent.replace(/\r\n/g, '\n');
+
   // Extract file content using markers
   const filePattern = /<!-- FILE_START: (.+?) -->\n([\s\S]*?)<!-- FILE_END: \1 -->/g;
   const matches = [...compiledContent.matchAll(filePattern)];
@@ -55,16 +56,24 @@ async function unbuildBook(tocFile, outputName) {
       continue;
     }
     
-    // Read existing file
-    const existingContent = await fs.readFile(sourceFile, 'utf-8');
-    
+    // Strip auto-inserted watercolor stains — these are injected deterministically
+    // by insertRandomWaterstains() during build and must not be written back to
+    // source files. They'll be regenerated on the next build.
+    const cleanedContent = extractedContent.replace(
+      /\n?\s*\{\{watercolor\d+,[^}]*\}\}\s*\n?/g,
+      '\n'
+    );
+
+    // Read existing file (normalize CRLF for comparison)
+    const existingContent = (await fs.readFile(sourceFile, 'utf-8')).replace(/\r\n/g, '\n');
+
     // Compare content
-    if (extractedContent.trim() === existingContent.trim()) {
+    if (cleanedContent.trim() === existingContent.trim()) {
       console.log(`  ✓ ${relativeFile} (unchanged)`);
       filesUnchanged++;
     } else {
       // Write updated content back
-      await fs.writeFile(sourceFile, extractedContent);
+      await fs.writeFile(sourceFile, cleanedContent);
       console.log(`  ✓ ${relativeFile} (updated)`);
       filesUpdated++;
     }

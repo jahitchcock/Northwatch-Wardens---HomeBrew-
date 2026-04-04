@@ -197,10 +197,25 @@ async function processFiles(files, buildDir, combinedMarkdown, options = {}) {
     if (await fs.pathExists(filePath)) {
       console.log(`    Adding: ${file}`);
       let content = await fs.readFile(filePath, 'utf-8');
+
       if (!noAutoPageBreakAfter.has(file)) {
-        content = normalizePageBreak(content);
+        // Strip trailing \page from the raw content so we can emit the \page
+        // OUTSIDE the file markers. This keeps auto-inserted watercolor stains
+        // (added by insertRandomWaterstains after concatenation) outside the
+        // marker region, so unbuild.js extracts clean source content.
+        let rawContent = String(content).trimEnd();
+        rawContent = rawContent.replace(/((?:\\page|\\\\page)\s*)+$/, '').trimEnd();
+
+        combinedMarkdown += `<!-- FILE_START: ${file} -->\n`;
+        combinedMarkdown += rawContent + '\n';
+        combinedMarkdown += `<!-- FILE_END: ${file} -->\n\n`;
+        combinedMarkdown += '\\page\n';
+      } else {
+        // For files without auto page-break, keep content intact inside markers
+        combinedMarkdown += `<!-- FILE_START: ${file} -->\n`;
+        combinedMarkdown += content;
+        combinedMarkdown += `\n<!-- FILE_END: ${file} -->\n`;
       }
-      combinedMarkdown += content + '\n';
     } else {
       console.warn(`    Warning: File not found: ${file}`);
     }
