@@ -36,6 +36,21 @@ npm update
 
 First run auto-installs npm dependencies. Build output lands in `build/`.
 
+### Homebrewery Round-Trip Workflow
+
+The build system supports a full **repo → Homebrewery → repo** editing cycle:
+
+1. **Build** — generates `build/*.txt` with `<!-- FILE_START: path -->` / `<!-- FILE_END: path -->` markers
+2. **Upload** — paste the `.txt` into Homebrewery and edit in the browser UI
+3. **Download** — save the edited `.txt` from Homebrewery, replacing `build/*.txt`
+4. **Sync back** — run unbuild to write changes back to the individual source files:
+
+```bash
+./build.sh --unbuild-players   # or --unbuild-dms
+```
+
+The unbuild automatically strips Homebrewery-injected watercolor stains and normalises CRLF line endings before writing back to source. Use `/homebrewery-sync` for a guided walkthrough.
+
 ## Architecture
 
 ### Content → Build Pipeline
@@ -112,6 +127,7 @@ Custom commands in `.claude/commands/` are available as `/command-name`:
 | `/validate-xml` | Check all XML files for structural errors, duplicate UIDs, missing fields |
 | `/canon-check [file\|text\|"check all"]` | Verify geography, NPC names, player-facing link rules, and tone |
 | `/session-prep` | Generate a focused one-page DM prep document for an upcoming session |
+| `/homebrewery-sync` | Sync edits made on Homebrewery back to source files (Homebrewery → repo direction) |
 
 ## Key Reference Files
 
