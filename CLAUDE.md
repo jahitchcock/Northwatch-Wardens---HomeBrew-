@@ -38,18 +38,7 @@ First run auto-installs npm dependencies. Build output lands in `build/`.
 
 ### Homebrewery Round-Trip Workflow
 
-The build system supports a full **repo → Homebrewery → repo** editing cycle:
-
-1. **Build** — generates `build/*.txt` with `<!-- FILE_START: path -->` / `<!-- FILE_END: path -->` markers
-2. **Upload** — paste the `.txt` into Homebrewery and edit in the browser UI
-3. **Download** — save the edited `.txt` from Homebrewery, replacing `build/*.txt`
-4. **Sync back** — run unbuild to write changes back to the individual source files:
-
-```bash
-./build.sh --unbuild-players   # or --unbuild-dms
-```
-
-The unbuild automatically strips Homebrewery-injected watercolor stains and normalises CRLF line endings before writing back to source. Use `/homebrewery-sync` for a guided walkthrough.
+The build system supports a full **repo → Homebrewery → repo** editing cycle. Run `/homebrewery-sync` for a guided walkthrough of the complete workflow, including syncing edits made in the Homebrewery UI back to source files.
 
 ## Architecture
 
@@ -115,19 +104,43 @@ Never invent new locations. All Northreach locations must use these:
 - Full NPC roster: `Season 1/Campaign Assets/DM Guild Roster.md`
 - Tone: grounded low-magic frontier, serious with occasional levity
 
-## Claude Code Slash Commands
+## Claude Code Commands & Skills
 
-Custom commands in `.claude/commands/` are available as `/command-name`:
+### Slash Commands
+
+Invoked explicitly as `/command-name`. Defined in `.claude/commands/`.
 
 | Command | Purpose |
 |---------|---------|
 | `/build [--players\|--dms]` | Run the guide build and report output files |
-| `/new-adventure` | Scaffold a new adventure with proper template, structure, and Aeorian Echo integration |
-| `/new-npc` | Generate a new NPC with Homebrewery stat block + XML entry + roster update |
 | `/validate-xml` | Check all XML files for structural errors, duplicate UIDs, missing fields |
-| `/canon-check [file\|text\|"check all"]` | Verify geography, NPC names, player-facing link rules, and tone |
-| `/session-prep` | Generate a focused one-page DM prep document for an upcoming session |
-| `/homebrewery-sync` | Sync edits made on Homebrewery back to source files (Homebrewery → repo direction) |
+| `/homebrewery-sync` | Guided walkthrough: sync Homebrewery edits back to source files |
+| `/dm-assistant [intent]` | DM help router — delegates to the right skill based on what you ask |
+| `/code-review` | Review a pull request |
+
+### Skills
+
+Skills auto-activate on trigger phrases or can be invoked explicitly. Defined in `.claude/skills/`.
+
+**Campaign skills** (Northwatch Wardens-specific):
+
+| Skill | Trigger / Use |
+|-------|--------------|
+| `canon-check` | Review content for geography errors, unknown NPCs, player-facing link violations, tone |
+| `new-adventure` | Scaffold a new adventure with template, structure, and Aeorian Echo integration |
+| `new-npc` | Create an NPC with Homebrewery stat block + XML entry + roster update |
+| `session-prep` | Generate a one-page DM prep doc for an upcoming session |
+| `gm-craft` | Storytelling techniques: fail forward, NPC motivation, scene pacing, improv principles |
+
+**Utility skills** (auto-activate by workflow context):
+
+| Skill | Trigger / Use |
+|-------|--------------|
+| `brainstorming` | Before any creative work — features, content, adventures |
+| `writing-plans` | Before multi-step implementation — produces a reviewable plan |
+| `executing-plans` | When running a written plan in a new session |
+| `systematic-debugging` | When hitting a bug or unexpected build failure |
+| `verification-before-completion` | Before marking work done or opening a PR |
 
 ## Key Reference Files
 
