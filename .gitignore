@@ -11,6 +11,7 @@ Thumbs.db
 
 # One-off local logs
 filter-branch-purge-pinebrook.log
+logs/sync/*.txt
 
 # PDFs / source material not meant for GitHub
 /Season 1/Source Material/Peril_in_Pinebrook_COMPLETE.pdf

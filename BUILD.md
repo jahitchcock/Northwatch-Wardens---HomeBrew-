@@ -139,7 +139,7 @@ The build system uses JSON configuration files to define the structure of each b
 
 The build script (`build.js`) performs the following steps:
 
-1. **Update page footers** - Runs `add_page_footers.py` to ensure all `\page` breaks have proper page numbers and section footnotes
+1. **Update page footers** - Runs `scripts/build/add_page_footers.py` to ensure all `\page` breaks have proper page numbers and section footnotes
 2. **Read TOC files** - Loads the JSON configuration for each book
 3. **Concatenate markdown** - Combines all markdown files in the specified order
 4. **Render with Homebrewery** - Uses authentic Homebrewery markdown processor with all official extensions:
@@ -177,7 +177,7 @@ The stylesheet (`homebrewery-phb.css`) is included in the repository. If it's mi
 
 ### 6. Page Footer System
 
-The build system includes an automated page footer generator (`add_page_footers.py`) that runs before each build. This script:
+The build system includes an automated page footer generator (`scripts/build/add_page_footers.py`) that runs before each build. This script:
 
 **What It Does:**
 - Scans all markdown files in `World Building/` (excluding `DMEyesOnly/`)
@@ -207,7 +207,7 @@ The build system includes an automated page footer generator (`add_page_footers.
 
 **Manual Usage:**
 ```bash
-python add_page_footers.py
+python scripts/build/add_page_footers.py
 ```
 
 The script runs automatically as part of the build pipeline, so you typically don't need to run it manually.

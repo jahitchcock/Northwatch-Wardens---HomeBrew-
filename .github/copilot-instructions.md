@@ -2,407 +2,118 @@
 
 ## Repository Overview
 
-This repository contains **Northwatch Wardens: Season One**, a modular, drop-in D&D 5e guild campaign set in the frontier region of Northreach. The campaign is designed for 2–5 players per session with flexible attendance and order-independent adventures.
+**Northwatch Wardens: Season One** — modular, drop-in D&D 5e guild campaign set in Northreach (world: Aevoria). Generates two PDF-ready Homebrewery guides: **The Adventurer's Guide to Aevoria** (player-facing, printed) and **A DM's Guide to Aevoria** (adventures + secrets).
 
-**Key Features:**
-- Contract-based adventure system
-- Order-independent modular adventures
-- Guild headquarters at Waystone Inn
-- Central mystery: the Aeorian Echo
-- Format: Markdown + JSON stat blocks + Game Master 5e XML
-
-## Code Standards
-
-### Required Before Each Commit
-- **Validate XML**: Ensure all XML files are well-formed and use proper Game Master 5e v5 structure
-- **Check Geography**: Verify all location references use canonical geography (see table below)
-- **Preview Markdown**: Use Homebrewery VS Code extension to preview D&D content formatting
-- **Unique UIDs**: Ensure all XML elements have unique UIDs across the entire campaign
-
-### Development Flow
-- **Edit**: Make changes to markdown (.md), JSON (.json), or XML (.xml) files
-- **Preview**: For markdown files, use Homebrewery preview (`Ctrl+Shift+V` or `Cmd+Shift+V`)
-- **Validate**: Check XML syntax and structure, verify markdown formatting
-- **Test Import**: Test XML files in Game Master 5e application when possible
+Format: Homebrewery V3 Markdown + JSON stat blocks + Game Master 5e XML.
 
 ## Repository Structure
 
 ```
 /
 ├── .github/
-│   ├── agents/           # Custom Copilot agents
-│   │   └── DMHelper.agent.md
-│   └── templates/        # XML and content templates
+│   ├── agents/           # Custom Copilot agents (7 agents)
+│   ├── instructions/     # Always-on scoped instructions (3 files)
+│   ├── prompts/          # Reusable prompt templates (11 prompts)
+│   ├── templates/        # XML and content templates
+│   └── workflows/        # GitHub Actions (auto-build on push to main)
 ├── Season 1/
 │   ├── Adventures/       # Individual adventure modules
 │   └── Campaign Assets/  # Charter, NPCs, campaign arc
-├── Examples/             # Reference materials
 ├── Premade PCs/          # Pre-generated player characters
-├── World Building/       # Setting and lore
-├── README.md            # Campaign guide
-├── AITooling.md         # AI tooling notes
-└── Complete_Compendium_2014+2024.xml  # Game Master 5e XML file
+├── World Building/       # Setting and lore (player-facing content)
+├── build/                # Generated output (do not edit directly)
+└── LionsdenGameFiles/    # Game Master 5e XML files
 ```
+
+## Build System
+
+```bash
+./build.sh                  # Both guides
+./build.sh --players        # Player's Guide only
+./build.sh --dms            # DM's Guide only
+```
+
+TOC configs: `build/players-guide-toc.json`, `build/dms-guide-toc.json`. Edit TOC JSON to add/remove content — never edit `build/*.md` directly.
 
 ## File Formats
 
-### 1. Markdown Files (Adventure Guides)
+**Markdown** — Homebrewery V3 (NOT standard markdown). `\page` for breaks, `{{monster,frame}}` for stat blocks, `{{note}}`/`{{descriptive}}` for callouts. Full syntax: `.github/HOMEBREWERY_V3_GUIDE.md`.
 
-- Use **Homebrewery-style markdown** for D&D content
-- Page breaks: `\page` (or `\pagebreak`)
-- Snippets: Use `brew` prefix (e.g., `brewStatBlock`)
-- Preview: VS Code extension *Homebrewery Markdown Preview* (`officerhalf.homebrewery-vscode`)
+**XML** — Game Master 5e v5. Root: `<data version="5">` (NOT `<compendium>`). Nest: `campaign > adventure > encounter > combatant > monster`. Unique UIDs required. CDATA for long text. Details: `.github/agents/DMHelper.agent.md`.
 
-**📘 Formatting Reference:** See `.github/HOMEBREWERY_V3_GUIDE.md` for comprehensive V3 syntax (single source of truth).
+**JSON** — D&D 5e stat block data, companion files to markdown adventures.
 
-**Important Conventions:**
-- Keep formatting consistent with existing adventure files
-- Use descriptive headers for encounters and scenes
-- Include tactical notes for DMs
-- Reference canonical geography (see below)
+## Development Flow
 
-### 2. JSON Files (Stat Blocks)
-
-- Companion files to markdown adventures
-- Parseable creature and NPC statistics
-- Follow D&D 5e stat block structure
-- Used for programmatic reference
-
-### 3. XML Files (Game Master 5e Format)
-
-- **Format:** Game Master 5e XML (version 5)
-- **Root element:** `<data version="5">` (NOT `<compendium>`)
-- **Compatible with:** Lion's Den Game Master 5e application
-- **Reference:** See `.github/agents/DMHelper.agent.md` and `.github/templates/CampaignTemplate.md`
-
-**Critical XML Requirements:**
-- Use proper nesting: `campaign > adventure > encounter > combatant > monster`
-- Include unique UIDs for all elements
-- Use CDATA blocks for long text: `<![CDATA[...]]>`
-- Include both `<atk>` and `<dmg>` in attack blocks
-- Use reference IDs for abilities, skills, and spell schools
-
-## Player-Facing Content Guidelines
-
-**CRITICAL FOR PRINTED OUTPUT:** Player-facing content in `World Building/` is compiled into a PDF guide that will be printed and distributed. These documents must NOT contain:
-
-### ❌ Never Use in Player Content:
-- **Markdown file links**: `[text](../path/file.md)` — Won't work in printed PDF
-- **Folder/directory references**: `Premade PCs/` or `Season 1/Adventures/` — Repository structure is meaningless to players
-- **Repository-specific paths**: Any reference to file system organization
-- **GitHub-specific content**: Issues, pull requests, repository navigation
-
-### ✅ Always Use Instead:
-- **Chapter references**: "See **Chapter 4: The Northwatch Wardens**"
-- **Section references**: "See the **Appendix**" or "See **Practical Information**"
-- **Generic DM references**: "Available from your DM" or "Your DM has additional resources"
-- **Within-guide navigation**: "Earlier in this chapter..." or "See the Glossary..."
-
-### Examples of Correct References:
-
-**BAD (file reference):**
-```markdown
-Read the [Northwatch Wardens Charter](../Organizations/Northwatch_Wardens/THE%20NORTHWATCH%20WARDENS%20-%20Charter.md) for guild rules.
-```
-
-**GOOD (chapter reference):**
-```markdown
-Read **Chapter 4: The Northwatch Wardens** for the guild charter and rules.
-```
-
-**BAD (folder reference):**
-```markdown
-You can use pre-made characters from the `Premade PCs/` folder.
-```
-
-**GOOD (DM reference):**
-```markdown
-Pre-made characters are available from your DM.
-```
-
-### Files Included in Player's Guide Build:
-Check `build/players-guide-toc.json` to see which files compile into the player PDF. Only these files need to follow the above guidelines. DM-facing files (`Season 1/`, `DMEyesOnly/`, etc.) can use repository-specific references.
-
-## Canonical Geography
-
-**IMPORTANT:** Never invent new locations unless directed to explicitly do so. Always use these established locations:
-
-| Location | Position | Purpose | Region |
-|----------|----------|---------|--------|
-| **Waystone Inn** | Center | Guild headquarters, mission hub | Northreach |
-| **Welton** | Southwest | Farming village (Wolves of Welton) | Northreach |
-| **Westly's Farm** | West of Welton | Wolf attack site | Northreach |
-| **Shepherd's Crook Inn** | Inside Welton | Village social hub | Northreach |
-| **Pinebrook** | Southeast | Trading village (Peril in Pinebrook) | Northreach |
-| **Palebank Village** | Northeast coast | Seaside settlement (Frozen Sick) | Northreach |
-| **Croaker Cave** | North of Palebank | Bandit hideout | Northreach |
-| **Salsvault** | Far north of Palebank | Buried Aeorian ruins (source of Echo) | Northreach |
-| **Temple of the Dragonknights** | Northwest mountains | Cult stronghold (capstone adventure) | Northreach |
-| **Noke's Tower** | West of Waystone | Wizard's tower (Wild Sheep Chase) | Northreach |
-
-## Campaign Content Guidelines
-
-### Adventures (Season 1)
-
-1. **Wolves of Welton** (Levels 1–3)
-   - Theme: Intelligence awakening
-   - Type: Investigation with moral choices
-   - Key Discovery: Wolves are awakened by magical energy
-
-2. **Frozen Sick** (Levels 2–4)
-   - Theme: Ancient magic resurfacing
-   - Type: Survival + exploration
-   - Key Discovery: Aeorian spores from Salsvault
-
-3. **Temple of the Dragonknights** (Levels 4–5)
-   - Theme: Ambition and corruption
-   - Type: Combat + infiltration
-   - Key Discovery: Factions exploiting rising magic
-
-4. **The Wild Sheep Chase** (Levels 1–2)
-   - Theme: Magic destabilizing
-   - Type: Comedy one-shot
-   - Tone: Lighthearted but thematically significant
-
-5. **Peril in Pinebrook** (Levels 1–3)
-   - Theme: Frontier fragility
-   - Type: Investigation + social
-   - Key Discovery: All settlements are vulnerable
-
-### Guild NPCs
-
-**Leadership Triad:**
-- **Marshal Brenna Thorne** — Field commander, tactical decisions
-- **Steward Mara Fenwick** — Quartermaster, logistics
-- **Lorewarden Elric Vael** — Arcane scholar, investigation support
-
-**See:** `Season 1/Campaign Assets/DM Guild Roster.md` for complete NPC details and secrets
-
-### The Aeorian Echo (Central Mystery)
-
-All adventures connect to a spreading arcane phenomenon: magic from buried Aeorian ruins (Salsvault) is destabilizing the frontier. Each adventure provides clues without revealing the full picture.
-
-**Design Principle:** Adventures are order-independent; players can discover the mystery in any sequence.
-
-## Coding and Content Standards
-
-### When Creating New Content
-
-1. **Stay Canonical:** Use established locations, NPCs, and lore
-2. **Maintain Tone:** Low-magic frontier with grounded atmosphere
-3. **Order Independence:** Each adventure should stand alone
-4. **Scalability:** Design for 2–5 players with variable attendance
-5. **Mystery Integration:** Include subtle clues about the Aeorian Echo
-6. **Moral Complexity:** Provide multiple resolution paths
-
-### When Editing XML
-
-1. **Use DMHelper Agent:** For Game Master 5e XML work, prefer the DMHelper custom agent
-2. **Validate Structure:** Ensure proper nesting and unique UIDs
-3. **Reference Templates:** Check `.github/templates/CampaignTemplate.md` for format details
-4. **CDATA for Long Text:** Use CDATA blocks to preserve formatting
-5. **Complete Stat Blocks:** Include all required fields (AC, HP, abilities, etc.)
-
-**Note:** For detailed XML structure specifications and examples, see `.github/agents/DMHelper.agent.md` > **XML Format Requirements**.
-
-### When Working with Markdown
-
-1. **Homebrewery Compatibility:** Use `\page` for breaks, avoid incompatible syntax
-2. **Consistent Headers:** Follow existing adventure structure
-3. **Tactical Notes:** Include DM guidance for encounters
-4. **Stat References:** Link to JSON files or XML entries
-5. **Preview Settings:** Use workspace settings from `.vscode/settings.json`
-6. **Monster Stat Blocks:** Use Homebrewery `{{monster,frame}}` format (see HOMEBREWERY_V3_GUIDE.md)
-
-#### Quick Homebrewery Monster Stat Block Example
-
-**Full V3 syntax and options:** See `.github/HOMEBREWERY_V3_GUIDE.md` > **Monster Stat Blocks**
-
-**Basic structure:**
-```markdown
-{{monster,frame
-## Monster Name
-*Type, alignment*
-___
-**Armor Class** :: AC (armor type)
-**Hit Points**  :: HP (Hit Dice)
-**Speed**       :: movement speed
-___
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|score (+mod)|score (+mod)|score (+mod)|score (+mod)|score (+mod)|score (+mod)|
-___
-**Senses** :: perception and senses
-**Languages** :: languages
-**Challenge** :: CR (XP) {{bonus **Proficiency Bonus** +#}}
-___
-***Trait Name.*** Trait description and mechanics.
-:
-### Actions
-***Attack Name.*** *Melee Weapon Attack:* +# to hit, reach 5 ft., one target. *Hit:* XdY (+#) damage type.
-}}
-```
-
-**Key conventions:**
-- Use `:` to separate traits/actions
-- Use `___` for horizontal rules
-- Use `###` for section headers (Actions, Legendary Actions, etc.)
-- Other blocks: `{{note}}`, `{{descriptive}}`, `{{quote}}`, `{{wide}}`, etc.
-
-#### \page Insertion Heuristics (Based on Player-Facing Docs)
-
-Use these rules-of-thumb to keep pagination consistent with `World Building/` player-facing reference documents:
-
-- **Default page chunk size:** insert `\page` at a natural boundary around **70–85 non-empty lines** or **450–550 words** since the last break.
-- **List- / header-heavy pages:** break earlier by words (**~330–420 words**) even if line count is high.
-- **Prose-heavy pages:** you can run longer (**~500–600 words**) before inserting `\page`.
-- **Avoid orphaned headings:** if a new major heading (e.g., `##`) would start near the bottom of a page, insert `\page` immediately before it.
-- **Keep blocks intact:** don’t place `\page` inside tables or long lists; break before or after.
+1. **Edit** `.md` / `.json` / `.xml` files
+2. **Preview** markdown with Homebrewery extension (`officerhalf.homebrewery-vscode`)
+3. **Validate** XML syntax + unique UIDs; verify Homebrewery rendering
+4. **Build** with `./build.sh` to confirm output
+5. **Commit** with descriptive message referencing adventure or system modified
 
 ## Custom Agents
 
-### DMHelper Agent
+### Campaign Agents
 
-**Specialized Agent for:** XML campaign files, markdown adventures with stat blocks, D&D 5e API integration
+| Agent | File | Use When |
+|-------|------|----------|
+| **DMHelper** | `.github/agents/DMHelper.agent.md` | XML campaign files, Homebrewery stat blocks, D&D 5e API |
+| **DMAssistant** | `.github/agents/DMAssistant.agent.md` | Session prep, adventure creation, NPC design, canon checks |
+| **CanonChecker** | `.github/agents/CanonChecker.agent.md` | Validating geography, NPCs, player-facing links, tone |
+| **DnDToolkit** | `.github/agents/DnDToolkit.agent.md` | Dice rolls, spell/monster lookup, encounter building |
 
-**When to Use:**
-- Need to generate Game Master 5e XML campaign content
-- Creating markdown adventures with Homebrewery stat blocks
-- Querying D&D 5e API for monsters, spells, items
-- Converting official D&D stat blocks to Homebrewery format
+### Development Agents
 
-**Location:** `.github/agents/DMHelper.agent.md`
+| Agent | File | Use When |
+|-------|------|----------|
+| **AdversarialReviewer** | `.github/agents/AdversarialReviewer.agent.md` | Critical code review via hostile reviewer personas |
+| **SeniorArchitect** | `.github/agents/SeniorArchitect.agent.md` | Architecture decisions, ADRs, tech stack evaluation |
+| **Refine Issue** | `.github/agents/refine-issue.agent.md` | Enriching issues with acceptance criteria and edge cases |
 
-**Key Capabilities:**
-- Game Master 5e XML (v5) generation with proper nesting and UIDs
-- Homebrewery `{{monster,frame}}` markdown stat block creation
-- D&D 5e MCP server integration for official content lookup
-- Campaign lore expansion with canonical geography adherence
+## Prompt Templates
 
-**For Detailed Documentation:** See `.github/agents/DMHelper.agent.md` for XML structure, Homebrewery formatting, MCP server queries, and agent-specific best practices.
+Reusable prompts in `.github/prompts/`. Invoke via Copilot Chat prompt picker.
+
+| Prompt | File | Purpose |
+|--------|------|---------|
+| **Brainstorm** | `brainstorm.prompt.md` | Explore intent and design before implementation |
+| **Write Plan** | `write-plan.prompt.md` | Create implementation plan with bite-sized tasks |
+| **Execute Plan** | `execute-plan.prompt.md` | Run a written plan with review checkpoints |
+| **New Adventure** | `new-adventure.prompt.md` | Scaffold adventure with Aeorian Echo hooks |
+| **New NPC** | `new-npc.prompt.md` | Create NPC: stat block + XML + roster update |
+| **Session Prep** | `session-prep.prompt.md` | One-page DM session prep document |
+| **GM Craft** | `gm-craft.prompt.md` | Fail forward, NPC motivation, scene pacing |
+| **Debug** | `debug.prompt.md` | 4-phase structured root cause investigation |
+| **Code Review** | `code-review.prompt.md` | Multi-lens review with deviation analysis |
+| **Verify Completion** | `verify-completion.prompt.md` | Evidence-based completion verification |
+| **Safety Review** | `ai-prompt-engineering-safety-review.prompt.md` | Prompt safety and bias analysis |
+
+## Always-On Instructions
+
+Files in `.github/instructions/` load automatically based on `applyTo` patterns:
+
+| Instruction | Scope | Effect |
+|-------------|-------|--------|
+| `canon.instructions.md` | `**/*.md` | Canonical geography, NPCs, tone, player-facing rules |
+| `verification.instructions.md` | `**` | Require evidence before claiming work is complete |
+| `test-driven-development.instructions.md` | `*.{js,ts,py,sh}` | Write tests before implementation code |
 
 ## Git Practices
 
-### Branch Naming
-- Feature branches: `feature/description`
-- Bug fixes: `fix/description`
-- Copilot-generated: `copilot/description`
+- **Branches:** `feature/description`, `fix/description`, `copilot/description`
+- **Commits:** Descriptive, reference adventure or system. Example: *"Add Wolves of Welton encounter to XML"*
 
-### Commit Messages
-- Use descriptive, concise messages
-- Reference adventure or system being modified
-- Example: "Add Wolves of Welton encounter to XML"
+## Key References
 
-### Files to Ignore
-- Build artifacts
-- Temporary files
-- Editor-specific files (already in `.gitignore`)
-
-## Testing and Validation
-
-### For XML Changes
-1. Validate XML syntax (well-formed)
-2. Check unique UIDs across all elements
-3. Verify proper element nesting
-4. Test import in Game Master 5e application
-
-### For Markdown Changes
-1. Preview in Homebrewery VS Code extension
-2. Check page breaks render correctly
-3. Verify stat block formatting
-4. Ensure references are accurate
-
-### For Campaign Content
-1. Check against canonical geography
-2. Verify NPC consistency with roster
-3. Confirm mystery clue integration
-4. Test scalability for different party sizes
-
-## Common Patterns
-
-### Creating a New Adventure
-
-1. Create folder in `Season 1/Adventures/`
-2. Add markdown guide with Homebrewery formatting
-3. Create companion JSON file with stat blocks
-4. Update XML with `<adventure>` entry
-5. Add encounters with proper nesting
-6. Include tactical notes and DM guidance
-7. Reference in campaign arc documentation
-
-### Adding a New NPC
-
-1. Add entry to `Season 1/Campaign Assets/DM Guild Roster.md`
-2. Create XML `<npc>` entry with complete stat block
-3. Include personality, role, and hooks
-4. Add to relevant adventure encounters
-5. Note any secrets or campaign connections
-
-### Creating Custom Items
-
-1. Design mechanics following 5e guidelines
-2. Create XML `<item>` entry with proper type ID
-3. Add description and rarity
-4. Reference in appropriate adventure loot tables
-5. Consider campaign theme and balance
-
-## Design Philosophy
-
-**Core Principles:**
-- **Modular Structure:** Adventures work in any order
-- **Variable Attendance:** Support 2–5 players, drop-in friendly
-- **Mystery-Driven:** Gradual revelation of the Aeorian Echo
-- **Consequence-Rich:** Player choices affect NPCs and settlements
-- **Moral Complexity:** Multiple resolution paths, no single "right" answer
-- **Frontier Atmosphere:** Grounded, low-magic setting with arcane mysteries
-
-**Tone Guidelines:**
-- Generally serious with occasional levity (Wild Sheep Chase)
-- Focus on frontier survival and community
-- Emphasize investigation and discovery
-- Avoid power fantasy; maintain tension
-- Intelligence and negotiation are valued alongside combat
-
-## Resources
-
-### Key Files
-- `README.md` — Complete campaign guide
-- `AITooling.md` — AI tooling notes and context
-- `World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md` — Guild charter (canonical)
-- `Season 1/Campaign Assets/DM Guild Roster.md` — NPC details and secrets
-- `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md` — Mystery framework
-
-### Reference Materials
-- `.github/agents/DMHelper.agent.md` — DMHelper agent documentation
-- `.github/templates/CampaignTemplate.md` — XML format reference (if exists)
-- Individual adventure folders — Examples of structure and style
-
-### External Tools
-- **Homebrewery** — D&D content formatting
-- **Game Master 5e** — Campaign tracking and XML import
-- **VS Code Extension** — Homebrewery Markdown Preview
-HOMEBREWERY_V3_GUIDE.md` — Complete Homebrewery V3 formatting reference (single source of truth)
-- `.github/templates/CampaignTemplate.md` — XML format reference (if exists)
-- Individual adventure folders — Examples of structure and style
-
-### External Tools
-- **Homebrewery** — D&D content formatting (https://homebrewery.naturalcrit.com/)
-- **Game Master 5e** — Campaign tracking and XML import
-- **VS Code Extension** — Homebrewery Markdown Preview (`officerhalf.homebrewery-vscode`)
-### Content Consistency
-- **Problem:** New location doesn't fit
-- **Solution:** Check canonical geography table; use established locations only
-
-### Format Questions
-- **Problem:** Unsure about markdown syntax
-- **Solution:** Review existing adventure files for patterns
-
-### Agent Usage
-- **Problem:** Need to work with XML
-- **Solution:** Use DMHelper custom agent for specialized XML tasks
+| File | Purpose |
+|------|---------|
+| `.github/HOMEBREWERY_V3_GUIDE.md` | Homebrewery V3 syntax (single source of truth) |
+| `.github/agents/DMHelper.agent.md` | XML structure specs + D&D API integration |
+| `Season 1/Campaign Assets/DM Guild Roster.md` | NPC details + secrets |
+| `Season 1/Campaign Assets/NORTHWATCH WARDENS - Campaign Arc.md` | Mystery framework |
+| `build/players-guide-toc.json` | Player's guide chapter structure |
+| `build/dms-guide-toc.json` | DM's guide chapter structure |
 
 ---
 
-**Last Updated:** 2026-02-01
-
-For questions or clarifications about these instructions, refer to the repository documentation or custom agent specifications.
+**Last Updated:** 2025-07-12

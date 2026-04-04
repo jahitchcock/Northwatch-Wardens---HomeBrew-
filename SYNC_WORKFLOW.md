@@ -160,7 +160,7 @@ These are controlled by:
 
 ### Page Footers Are Auto-Generated
 
-Page footers are managed by `add_page_footers.py`:
+Page footers are managed by `scripts/build/add_page_footers.py`:
 - Run automatically during build
 - Format: `{{pageNumber,auto}}` and `{{footnote CHAPTER_NAME}}`
 - Changes to footers should be made via the Python script settings

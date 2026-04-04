@@ -118,6 +118,15 @@ snippets:
 {{resetCounting}}
 # Welcome to Aevoria
 
+<!-- FILE_START: ../World Building/Introduction/How_To_Use_This_Book.md -->
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: World Building/README.md
+-->
+
 # How to Use This Book
 
 {{wide
@@ -202,7 +211,7 @@ Additional resources including the glossary, music recommendations, the extended
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
 
-{{watercolor8,top:55px,left:383px,width:398px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:12px,left:326px,width:336px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -368,12 +377,22 @@ The best adventures come from curiosity, courage, and characters who care about 
 
 {{pageNumber,auto}}
 {{footnote HOW TO USE THIS BOOK}}
+<!-- FILE_END: ../World Building/Introduction/How_To_Use_This_Book.md -->
 
-{{watercolor7,top:333px,left:163px,width:300px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:32px,left:129px,width:288px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Character Creation
+
+<!-- FILE_START: ../World Building/Character_Creation/Creating_Your_Character.md -->
+<!--
+  Tags: Region, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Character_Creation/Regional_Origins.md, World Building/Character_Creation/Languages_and_Culture.md
+-->
 
 {{wide
 # Creating Your Character
@@ -459,7 +478,7 @@ Choose **one** of the following:
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
 
-{{watercolor1,top:450px,left:53px,width:361px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:705px,left:14px,width:290px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1039,10 +1058,20 @@ It asks only one question:
 
 {{pageNumber,auto}}
 {{footnote CREATING YOUR CHARACTER}}
+<!-- FILE_END: ../World Building/Character_Creation/Creating_Your_Character.md -->
 
-{{watercolor3,top:506px,left:225px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:674px,left:378px,width:353px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Character_Creation/Regional_Origins.md -->
+<!--
+  Tags: Region, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Character_Creation/Creating_Your_Character.md, World Building/Regions/01_Northreach.md
+-->
 
 {{wide
 
@@ -2524,10 +2553,20 @@ The frontier awaits. Bring your heritage with you, but don't be surprised when N
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS: YOUR PLACE IN THE WORLD}}
+<!-- FILE_END: ../World Building/Character_Creation/Regional_Origins.md -->
 
-{{watercolor9,top:477px,left:161px,width:271px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:136px,left:280px,width:289px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Character_Creation/Languages_and_Culture.md -->
+<!--
+  Tags: Region, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Character_Creation/Creating_Your_Character.md, World Building/Character_Creation/Regional_Origins.md
+-->
 
 # Languages and Culture of Aevoria
 {{wide
@@ -2593,7 +2632,7 @@ Choose languages that fit your character's story and will be useful in the campa
 {{pageNumber,auto}}
 {{footnote LANGUAGES AND CULTURE OF AEVORIA}}
 
-{{watercolor13,top:352px,left:258px,width:395px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:656px,left:95px,width:341px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5008,10 +5047,20 @@ Welcome to Aevoria. May your words be well-chosen and your customs respected.
 
 {{pageNumber,auto}}
 {{footnote FINAL THOUGHTS}}
+<!-- FILE_END: ../World Building/Character_Creation/Languages_and_Culture.md -->
 
-{{watercolor8,top:144px,left:64px,width:384px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:707px,left:44px,width:279px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/Northreach_Setting_Primer.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, Season-1
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: People_of_Northreach.md, Places_of_Northreach.md, Cultures_of_Northreach.md, Northreach_Setting_Primer.md
+-->
 
 # Northreach: Your Frontier Home
 
@@ -5028,7 +5077,7 @@ Northreach is a cold, sparsely settled frontier where survival depends on commun
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
-{{watercolor6,top:736px,left:449px,width:346px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:336px,left:217px,width:329px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5453,10 +5502,20 @@ The frontier rewards the bold, the clever, and the prepared. But it punishes the
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
+<!-- FILE_END: ../World Building/Regions/Northreach/Northreach_Setting_Primer.md -->
 
-{{watercolor4,top:348px,left:51px,width:352px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:554px,left:252px,width:263px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/Places_of_Northreach.md -->
+<!--
+  Tags: Location, Northreach, Player-Safe, Season-1
+  Status: Canon
+  Type: Location
+  Region: Northreach
+  Linked: People_of_Northreach.md, Cultures_of_Northreach.md, Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md
+-->
 
 # Places of Northreach
 
@@ -5529,7 +5588,7 @@ A farming and herding village built on good soil and stubborn determination. Wel
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
 
-{{watercolor1,top:288px,left:50px,width:304px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:605px,left:46px,width:305px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6055,10 +6114,20 @@ Some can't endure frontier life:
 
 {{pageNumber,auto}}
 {{footnote PLACES OF NORTHREACH}}
+<!-- FILE_END: ../World Building/Regions/Northreach/Places_of_Northreach.md -->
 
-{{watercolor1,top:556px,left:468px,width:293px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:62px,left:434px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/Cultures_of_Northreach.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/People_of_Northreach.md, World Building/Regions/01_Northreach.md
+-->
 
 # Cultures of Northreach
 
@@ -6137,7 +6206,7 @@ Nature commands respect:
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
 
-{{watercolor13,top:121px,left:253px,width:380px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:588px,left:200px,width:369px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -6791,10 +6860,20 @@ What brings people together:
 
 {{pageNumber,auto}}
 {{footnote CULTURES OF NORTHREACH}}
+<!-- FILE_END: ../World Building/Regions/Northreach/Cultures_of_Northreach.md -->
 
-{{watercolor7,top:72px,left:209px,width:306px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:453px,left:83px,width:348px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/People_of_Northreach.md -->
+<!--
+  Tags: NPC, Northreach, Warden, Player-Safe, Season-1
+  Status: Canon
+  Type: NPC
+  Region: Northreach
+  Linked: Places_of_Northreach.md, Northreach_Setting_Primer.md, Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md, DMEyesOnly/People_Secrets.md
+-->
 
 {{descriptive
 ##### 🌟 PLAYER-SAFE CONTENT
@@ -6870,7 +6949,7 @@ Efficient and no-nonsense. Mara knows exactly what's in the guild's stores at an
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
 
-{{watercolor2,top:23px,left:360px,width:372px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:541px,left:272px,width:346px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7449,12 +7528,22 @@ In a frontier region, your reputation is built through actions:
 
 {{pageNumber,auto}}
 {{footnote PEOPLE OF NORTHREACH}}
+<!-- FILE_END: ../World Building/Regions/Northreach/People_of_Northreach.md -->
 
-{{watercolor4,top:690px,left:190px,width:309px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:670px,left:71px,width:346px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # The Northwatch Wardens
+
+<!-- FILE_START: ../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md -->
+<!--
+  Tags: Faction, Warden, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Northreach
+  Linked: World Building/Organizations/Organizations_Overview.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
 
 # The Northwatch Wardens
 
@@ -7578,7 +7667,7 @@ Father Merriksonn • Willen • Flynt • Joel (ally)
 {{pageNumber,auto}}
 {{footnote ROSTER}}
 
-{{watercolor11,top:448px,left:161px,width:250px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:266px,left:417px,width:353px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -7945,12 +8034,22 @@ The Wardens believe in second chances for honest mistakes, but not for betrayal 
 
 {{pageNumber,auto}}
 {{footnote GUILD OPERATIONS}}
+<!-- FILE_END: ../World Building/Organizations/Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md -->
 
-{{watercolor1,top:115px,left:351px,width:331px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:426px,left:115px,width:347px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # The Wider World of Aevoria
+
+<!-- FILE_START: ../World Building/Regions/00_Master_Index.md -->
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Off-Map
+  Linked: World Building/Regions/01_Northreach.md
+-->
 
 # Welcome to Aevoria
 
@@ -7985,7 +8084,7 @@ The civilized heartlands—Solaris, the Stonebound Depths, Vaeltharyn—are plac
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
 
-{{watercolor5,top:736px,left:353px,width:272px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:252px,left:0px,width:363px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8217,10 +8316,20 @@ The best stories aren't the ones you read—they're the ones you live.
 
 {{pageNumber,auto}}
 {{footnote WELCOME TO AEVORIA}}
+<!-- FILE_END: ../World Building/Regions/00_Master_Index.md -->
 
-{{watercolor5,top:169px,left:149px,width:371px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:254px,left:29px,width:291px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/01_Northreach.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, Season-1
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: Northreach/People_of_Northreach.md, Northreach/Places_of_Northreach.md, Northreach/Northreach_Setting_Primer.md
+-->
 
 # Northreach 
 
@@ -8314,7 +8423,7 @@ Northreach's geography follows a practical travel network centered on **Waystone
 {{pageNumber,auto}}
 {{footnote NORTHREACH}}
 
-{{watercolor12,top:509px,left:393px,width:251px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:391px,left:236px,width:327px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -8347,10 +8456,20 @@ A frontier protection guild based at Waystone Inn, taking contracts to protect s
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH}}
+<!-- FILE_END: ../World Building/Regions/01_Northreach.md -->
 
-{{watercolor1,top:397px,left:177px,width:351px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:277px,left:1px,width:383px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/02_Solaris_Dominion.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/Solaris.md, World Building/Regions/00_Master_Index.md
+-->
 
 # Solaris Dominion
 
@@ -8449,7 +8568,7 @@ Since Eclipse Day, the Cord has become the epicenter of cultural response:
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
 
-{{watercolor7,top:347px,left:84px,width:309px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:307px,left:406px,width:285px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9008,10 +9127,20 @@ Information flows faster through Solaris than anywhere:
 
 {{pageNumber,auto}}
 {{footnote SOLARIS DOMINION}}
+<!-- FILE_END: ../World Building/Regions/02_Solaris_Dominion.md -->
 
-{{watercolor5,top:439px,left:129px,width:291px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:248px,left:74px,width:316px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/03_Nullwood_Expanse.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/Nullwood_Secrets.md, World Building/Regions/00_Master_Index.md
+-->
 
 # The Nullwood Expanse 
 
@@ -9097,7 +9226,7 @@ The city feels serene, timeless, and faintly melancholic.
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
 
-{{watercolor10,top:439px,left:335px,width:299px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:653px,left:257px,width:304px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9235,10 +9364,20 @@ Growing concern. Reports of strange magic in the frontier unsettle the elves, th
 
 {{pageNumber,auto}}
 {{footnote THE NULLWOOD EXPANSE}}
+<!-- FILE_END: ../World Building/Regions/03_Nullwood_Expanse.md -->
 
-{{watercolor10,top:77px,left:176px,width:255px,background-color:#BBAD82,opacity:80%}}
+{{watercolor1,top:278px,left:327px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/04_Stonebound_Depths.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/StoneboundDepths.md, World Building/Regions/00_Master_Index.md
+-->
 
 # The Stonebound Depths
 
@@ -9307,7 +9446,7 @@ Notable locations within the Depths:
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
 
-{{watercolor2,top:148px,left:463px,width:387px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:210px,left:294px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -9971,10 +10110,20 @@ Interest.
 
 {{pageNumber,auto}}
 {{footnote THE STONEBOUND DEPTHS}}
+<!-- FILE_END: ../World Building/Regions/04_Stonebound_Depths.md -->
 
-{{watercolor13,top:494px,left:212px,width:344px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:204px,left:436px,width:385px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/05_Vharoxis.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/Vharoxis.md, World Building/Regions/00_Master_Index.md
+-->
 
 # VHAROXIS 
 
@@ -10069,7 +10218,7 @@ The mercenary district. Arena pits, training halls, and the Ironbound Syndicate'
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
 
-{{watercolor11,top:176px,left:1px,width:338px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:724px,left:97px,width:320px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10345,10 +10494,20 @@ Extreme expeditions financed from here.
 
 {{pageNumber,auto}}
 {{footnote VHAROXIS}}
+<!-- FILE_END: ../World Building/Regions/05_Vharoxis.md -->
 
-{{watercolor12,top:84px,left:131px,width:297px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:399px,left:348px,width:361px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/06_Shattered_Coast.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/ShatteredCoast.md, World Building/Regions/00_Master_Index.md
+-->
 
 # THE SHATTERED COAST 
 
@@ -10434,7 +10593,7 @@ Locals claim the sea "speaks" to them. Outsiders aren't sure whether to believe 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
 
-{{watercolor5,top:160px,left:41px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:708px,left:419px,width:254px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -10628,10 +10787,20 @@ Dwarves distrust the sea. They prefer mountains and stone to unpredictable water
 
 {{pageNumber,auto}}
 {{footnote THE SHATTERED COAST}}
+<!-- FILE_END: ../World Building/Regions/06_Shattered_Coast.md -->
 
-{{watercolor8,top:722px,left:345px,width:393px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:734px,left:441px,width:318px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/07_Emberlands.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/Emberlands.md, World Building/Regions/00_Master_Index.md
+-->
 
 # The Emberlands 
 
@@ -10720,7 +10889,7 @@ Cindermarch is a place of constant industry. The sound of hammers on anvils echo
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
 
-{{watercolor11,top:58px,left:305px,width:289px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:318px,left:389px,width:273px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11004,10 +11173,20 @@ The Emberlands and Northreach are geographically distant, but rumors of the Aeor
 
 {{pageNumber,auto}}
 {{footnote THE EMBERLANDS}}
+<!-- FILE_END: ../World Building/Regions/07_Emberlands.md -->
 
-{{watercolor6,top:290px,left:435px,width:358px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:548px,left:225px,width:323px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/08_Verdant_Marches.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/VerdantMarches.md, World Building/Regions/00_Master_Index.md
+-->
 
 # The Verdant Marches
 
@@ -11101,7 +11280,7 @@ The Marches experience warm, rainy conditions year-round—perfect for life to f
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 
-{{watercolor7,top:156px,left:206px,width:398px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:600px,left:413px,width:328px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11351,10 +11530,20 @@ Reports from Northreach trouble Marches druids—animals behaving strangely, pla
 
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
+<!-- FILE_END: ../World Building/Regions/08_Verdant_Marches.md -->
 
-{{watercolor11,top:349px,left:274px,width:370px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:316px,left:292px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/09_Sunken_Dominion.md -->
+<!--
+  Tags: Region, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/DMEyesOnly/SunkenDominion.md, World Building/Regions/00_Master_Index.md
+-->
 
 # The Sunken Dominion
 
@@ -11439,7 +11628,7 @@ Tidebreaker Point is the safest place to observe the Dominion—from a distance.
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
 
-{{watercolor1,top:30px,left:155px,width:256px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:712px,left:68px,width:313px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11599,10 +11788,20 @@ Since then, diving operations have become more dangerous. The ruins themselves s
 
 {{pageNumber,auto}}
 {{footnote THE SUNKEN DOMINION}}
+<!-- FILE_END: ../World Building/Regions/09_Sunken_Dominion.md -->
 
-{{watercolor5,top:1px,left:415px,width:263px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:361px,left:457px,width:309px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/10_The_Far_North.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/DMEyesOnly/The_Far_North_Secrets.md, World Building/Regions/01_Northreach.md
+-->
 
 # The Far North
 
@@ -11693,7 +11892,7 @@ Some travelers report stranger sightings:
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
 
-{{watercolor11,top:62px,left:410px,width:365px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:99px,left:303px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -11878,10 +12077,20 @@ Traveling to the Far North requires extensive preparation:
 
 {{pageNumber,auto}}
 {{footnote THE FAR NORTH}}
+<!-- FILE_END: ../World Building/Regions/10_The_Far_North.md -->
 
-{{watercolor5,top:743px,left:190px,width:390px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:650px,left:397px,width:306px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Organizations/Organizations_Overview.md -->
+<!--
+  Tags: Faction, Northreach, Warden, Player-Safe, Season-1
+  Status: Canon
+  Type: Faction
+  Region: Northreach, Multi-Region
+  Linked: Northreach/People_of_Northreach.md, Northwatch_Wardens/THE NORTHWATCH WARDENS - Charter.md
+-->
 
 # Organizations of Aevoria
 *A Guide to Major Factions and Groups*
@@ -11899,7 +12108,7 @@ This guide covers what most people know about the major factions operating in Ae
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
-{{watercolor2,top:279px,left:61px,width:325px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:121px,left:371px,width:360px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12282,12 +12491,22 @@ Your DM may expand on these organizations or introduce additional factions. The 
 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
+<!-- FILE_END: ../World Building/Organizations/Organizations_Overview.md -->
 
-{{watercolor10,top:183px,left:74px,width:388px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:727px,left:184px,width:340px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Gods and Religion
+
+<!-- FILE_START: ../World Building/Religion/Divinitys_Beacon_Pantheon.md -->
+<!--
+  Tags: Faction, Religion, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Faction
+  Region: Off-Map
+  Linked: World Building/Locations/Divinitys_Beacon.md
+-->
 
 
 # Divinity’s Beacon — Pantheon
@@ -12350,7 +12569,7 @@ These are influential but don’t outrank the Great Temples or the Triad. They o
 {{pageNumber,auto}}
 {{footnote DIVINITY’S BEACON — PANTHEON}}
 
-{{watercolor5,top:339px,left:169px,width:328px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:196px,left:302px,width:302px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12390,10 +12609,20 @@ Divinity’s Beacon is not anti‑wizard by default; it is anti‑**unaccountabl
 
 {{pageNumber,auto}}
 {{footnote DIVINITY’S BEACON — PANTHEON}}
+<!-- FILE_END: ../World Building/Religion/Divinitys_Beacon_Pantheon.md -->
 
-{{watercolor9,top:665px,left:11px,width:275px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:4px,left:245px,width:262px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Religion/Religious_Practices.md -->
+<!--
+  Tags: Region, Religion, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Off-Map
+  Linked: World Building/Religion/Divinitys_Beacon_Pantheon.md
+-->
 
 # Religious Practices in Aevoria
 *How Faith Works in Daily Life*
@@ -12451,7 +12680,7 @@ If your character is a divine spellcaster, your relationship with faith is deepe
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
 
-{{watercolor12,top:33px,left:237px,width:286px,background-color:#BBAD82,opacity:80%}}
+{{watercolor12,top:685px,left:489px,width:271px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13024,12 +13253,22 @@ Even if you're not a cleric or paladin:
 
 {{pageNumber,auto}}
 {{footnote RELIGIOUS PRACTICES IN AEVORIA}}
+<!-- FILE_END: ../World Building/Religion/Religious_Practices.md -->
 
-{{watercolor12,top:522px,left:469px,width:360px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:93px,left:453px,width:311px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Places of Legend
+
+<!-- FILE_START: ../World Building/Locations/Divinitys_Beacon.md -->
+<!--
+  Tags: Location, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Off-Map
+  Linked: World Building/Regions/00_Master_Index.md, World Building/Religion/Divinitys_Beacon_Pantheon.md
+-->
 
 # Divinity's Beacon
 
@@ -13049,10 +13288,20 @@ A major holy city that welcomes all good-aligned gods (no single state religion)
 
 {{pageNumber,auto}}
 {{footnote DIVINITY'S BEACON}}
+<!-- FILE_END: ../World Building/Locations/Divinitys_Beacon.md -->
 
-{{watercolor11,top:606px,left:482px,width:376px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:561px,left:212px,width:315px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Locations/Solace_Nexus.md -->
+<!--
+  Tags: Location, Off-Map, Player-Safe, pre-templates
+  Status: Canon
+  Type: Location
+  Region: Off-Map
+  Linked: World Building/Organizations/Organizations_Overview.md
+-->
 
 # Solace Nexus — Ley-Port City of Magic
 
@@ -13275,12 +13524,22 @@ In practice, that can mean:
 
 {{pageNumber,auto}}
 {{footnote SOLACE NEXUS — LEY-PORT CITY OF MAGIC}}
+<!-- FILE_END: ../World Building/Locations/Solace_Nexus.md -->
 
-{{watercolor12,top:32px,left:413px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:550px,left:106px,width:285px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Practical Information
+
+<!-- FILE_START: ../World Building/Player_Quick_Reference.md -->
+<!--
+  Tags: Index, Northreach, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Northreach
+  Linked: World Building/Practical/Travel_and_Distance.md, World Building/Practical/Common_Goods_and_Services.md
+-->
 
 # Player Quick Reference Guide
 
@@ -13327,7 +13586,7 @@ In practice, that can mean:
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
 
-{{watercolor9,top:210px,left:290px,width:273px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:46px,left:392px,width:255px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13755,10 +14014,20 @@ Northreach experiences harsh seasonal changes that affect travel, prices, and se
 
 {{pageNumber,auto}}
 {{footnote PLAYER QUICK REFERENCE GUIDE}}
+<!-- FILE_END: ../World Building/Player_Quick_Reference.md -->
 
-{{watercolor12,top:394px,left:286px,width:295px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:707px,left:496px,width:265px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Practical/Currency_and_Trade.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Practical/Common_Goods_and_Services.md, World Building/Player_Quick_Reference.md
+-->
 
 # Currency and Trade in Northreach
 
@@ -13808,7 +14077,7 @@ Standard rates apply:
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
 
-{{watercolor9,top:613px,left:87px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:545px,left:72px,width:371px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -14601,10 +14870,20 @@ In Northreach, pure currency transactions are often impractical:
 
 {{pageNumber,auto}}
 {{footnote CURRENCY AND TRADE IN NORTHREACH}}
+<!-- FILE_END: ../World Building/Practical/Currency_and_Trade.md -->
 
-{{watercolor3,top:572px,left:32px,width:257px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:328px,left:81px,width:333px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Practical/Common_Goods_and_Services.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Practical/Currency_and_Trade.md, World Building/Player_Quick_Reference.md
+-->
 
 # Common Goods and Services
 
@@ -14663,7 +14942,7 @@ Most manufactured goods cost **1.5× standard PHB prices** in Northreach settlem
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
 
-{{watercolor6,top:324px,left:21px,width:323px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:184px,left:323px,width:352px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -15567,10 +15846,20 @@ When supplies are critically low or danger is immediate, prices skyrocket:
 
 {{pageNumber,auto}}
 {{footnote COMMON GOODS AND SERVICES}}
+<!-- FILE_END: ../World Building/Practical/Common_Goods_and_Services.md -->
 
-{{watercolor6,top:275px,left:71px,width:263px,background-color:#BBAD82,opacity:80%}}
+{{watercolor11,top:256px,left:483px,width:336px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Practical/Travel_and_Distance.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Player_Quick_Reference.md, World Building/Regions/Northreach/Places_of_Northreach.md
+-->
 
 # Travel and Distance in Northreach
 
@@ -15618,7 +15907,7 @@ The following times assume **good weather, daylight travel, and a party on foot*
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
 
-{{watercolor2,top:311px,left:153px,width:326px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:12px,left:282px,width:354px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16320,12 +16609,21 @@ _________________________________________________________________
 
 {{pageNumber,auto}}
 {{footnote TRAVEL AND DISTANCE IN NORTHREACH}}
+<!-- FILE_END: ../World Building/Practical/Travel_and_Distance.md -->
 
-{{watercolor10,top:232px,left:78px,width:389px,background-color:#BBAD82,opacity:80%}}
+{{watercolor3,top:3px,left:209px,width:377px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 # Appendix
+
+<!-- FILE_START: ../World Building/Appendix/Glossary.md -->
+<!--
+  Tags: Index, Player-Safe
+  Status: Canon
+  Type: Index
+  Region: Off-Map
+-->
 
 # Glossary of Aevoria
 
@@ -16397,7 +16695,7 @@ Aevoria uses standard D&D coinage: copper pieces (cp), silver pieces (sp), gold 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor10,top:120px,left:373px,width:364px,background-color:#BBAD82,opacity:80%}}
+{{watercolor8,top:36px,left:88px,width:380px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16740,10 +17038,20 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
+<!-- FILE_END: ../World Building/Appendix/Glossary.md -->
 
-{{watercolor7,top:671px,left:477px,width:252px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:41px,left:137px,width:270px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/SongsOfTheNorthreach.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Northreach_Journal_and_Lore.md
+-->
 
 # Songs of the Northreach
 A Frontier Songbook for Season One of the Northwatch Wardens
@@ -16800,7 +17108,7 @@ A Frontier Songbook for Season One of the Northwatch Wardens
 {{pageNumber,auto}}
 {{footnote SONGS OF THE NORTHREACH}}
 
-{{watercolor10,top:702px,left:439px,width:259px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:170px,left:479px,width:400px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18076,10 +18384,20 @@ With the dawn held in her hands.
 
 {{pageNumber,auto}}
 {{footnote THE FRONTIER BREATHES}}
+<!-- FILE_END: ../World Building/Regions/Northreach/SongsOfTheNorthreach.md -->
 
-{{watercolor13,top:471px,left:332px,width:400px,background-color:#BBAD82,opacity:80%}}
+{{watercolor4,top:522px,left:285px,width:345px,background-color:#BBAD82,opacity:80%}}
 
 \page
+
+<!-- FILE_START: ../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md -->
+<!--
+  Tags: Region, Northreach, Player-Safe, pre-templates
+  Status: Canon
+  Type: Region
+  Region: Northreach
+  Linked: World Building/Regions/Northreach/Northreach_Setting_Primer.md, World Building/Regions/Northreach/People_of_Northreach.md
+-->
 
 # Welcome to Northreach
 
@@ -18108,7 +18426,7 @@ This journal is your record of what you’ve seen and what you’ve chosen: the 
 {{pageNumber,auto}}
 {{footnote WELCOME TO NORTHREACH}}
 
-{{watercolor7,top:710px,left:324px,width:322px,background-color:#BBAD82,opacity:80%}}
+{{watercolor9,top:31px,left:88px,width:294px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -18465,8 +18783,9 @@ Below are the places people in the region would recognize by name. (Some are fam
 
 {{pageNumber,auto}}
 {{footnote 2) CAMPAIGN JOURNAL}}
+<!-- FILE_END: ../World Building/Regions/Northreach/Northreach_Journal_and_Lore.md -->
 
-{{watercolor11,top:314px,left:414px,width:334px,background-color:#BBAD82,opacity:80%}}
+{{watercolor5,top:531px,left:147px,width:376px,background-color:#BBAD82,opacity:80%}}
 
 \page
 

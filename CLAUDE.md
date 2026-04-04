@@ -1,156 +1,130 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northreach (world: Aevoria). This repo generates two PDF-ready Homebrewery guides: **The Adventurer's Guide to Aevoria** (player-facing, printed) and **A DM's Guide to Aevoria** (adventures + secrets).
 
-## Project Overview
-
-**Northwatch Wardens: Season One** is a modular D&D 5e homebrew campaign set in the frontier region of Northreach (world: Aevoria). The repository generates two compiled PDF-ready guides:
-- **The Adventurer's Guide to Aevoria** — Player-facing content
-- **A DM's Guide to Aevoria** — DM-facing content with adventures and secrets
-
-Source files are Homebrewery-flavored markdown, JSON stat blocks, and Game Master 5e XML. The build system concatenates and renders them into combined `.md`, `.txt`, and `.html` outputs.
-
-## Build Commands
-
-**Prerequisites:** Node.js 16+, npm, Python 3
+## Build
 
 ```bash
-# Build both guides
-./build.sh
-
-# Build only the Player's Guide
-./build.sh --players
-
-# Build only the DM's Guide
-./build.sh --dms
-
-# Direct Node.js (same options)
+./build.sh                  # Both guides
+./build.sh --players        # Player's Guide only
+./build.sh --dms            # DM's Guide only
 node build.js [--players | --dms]
-
-# Manually regenerate page footers (runs automatically in build)
-python add_page_footers.py
-
-# Update npm dependencies
-npm update
+python scripts/build/add_page_footers.py  # Regenerate footers (auto-runs in build)
 ```
 
-First run auto-installs npm dependencies. Build output lands in `build/`.
-
-### Homebrewery Round-Trip Workflow
-
-The build system supports a full **repo → Homebrewery → repo** editing cycle. Run `/homebrewery-sync` for a guided walkthrough of the complete workflow, including syncing edits made in the Homebrewery UI back to source files.
+First run auto-installs npm deps. Output lands in `build/`. GitHub Actions auto-builds on push to `main`.
 
 ## Architecture
 
-### Content → Build Pipeline
+1. Source `.md` files live in `World Building/`, `Season 1/Adventures/`, etc.
+2. TOC configs (`build/players-guide-toc.json`, `build/dms-guide-toc.json`) define file inclusion + order
+3. `build.js` → `scripts/build/add_page_footers.py` → concatenate → render via `homebrewery-renderer.js` → `.md`/`.txt`/`.html` in `build/`
 
-1. **Source content** lives in `World Building/`, `Season 1/Adventures/`, etc. as individual `.md` files
-2. **TOC configuration** in `build/players-guide-toc.json` and `build/dms-guide-toc.json` defines which files are included and in what order
-3. **`build.js`** reads TOC files, runs `add_page_footers.py`, concatenates all source markdown, renders through the Homebrewery engine (`homebrewery-renderer.js`), and writes combined `.md`, `.txt`, and `.html` to `build/`
-4. **GitHub Actions** (`.github/workflows/build-and-deploy.yml`) auto-builds on push to `main` and deploys HTML to GitHub Pages
+Edit TOC JSON to add/remove content — never edit `build/*.md` directly (generated outputs).
 
-To add/remove content from a guide, edit the corresponding TOC JSON file — don't edit `build/*.md` directly (they are generated outputs).
+**File formats:** `.md` = Homebrewery V3 (NOT standard markdown; see `.github/HOMEBREWERY_V3_GUIDE.md`). `.xml` = Game Master 5e v5 (root: `<data version="5">`, NOT `<compendium>`). `.json` = D&D 5e stat block data.
 
-### File Formats
+## Content Separation (Critical)
 
-- **`.md` files** — Homebrewery V3 markdown (see `.github/HOMEBREWERY_V3_GUIDE.md` as the single source of truth for syntax)
-- **`.json` files** — Companion stat block data for adventures (parseable D&D 5e stat block structure)
-- **`.xml` files** — Game Master 5e v5 format (root: `<data version="5">`, NOT `<compendium>`); used with the Lion's Den Game Master 5e app
+Player-facing files (in `build/players-guide-toc.json`) will be **physically printed**. They must NEVER contain:
+- File/path links: `[text](../path/file.md)` — use chapter refs: `**Chapter 4: The Northwatch Wardens**`
+- Repo structure refs: `Premade PCs/`, `Season 1/Adventures/` — use: `Available from your DM`
 
-### Content Separation (Critical)
+DM-facing files can use repo references freely.
 
-Player-facing files (those listed in `build/players-guide-toc.json`) will be printed as a physical guide. They must **never** contain:
-- File/path links: `[text](../path/file.md)`
-- Repository structure references: `Premade PCs/`, `Season 1/Adventures/`
+## Canonical Geography
 
-Use chapter references instead: `**Chapter 4: The Northwatch Wardens**`, `See the **Appendix**`, `Available from your DM`.
-
-DM-facing files can freely use repository-specific references.
-
-## Campaign Canonical Geography
-
-Never invent new locations. All Northreach locations must use these:
+Never invent locations. All Northreach locations:
 
 | Location | Purpose |
 |----------|---------|
-| **Waystone Inn** | Guild headquarters, mission hub |
-| **Welton** + **Westly's Farm** | Wolves of Welton adventure |
-| **Pinebrook** | Peril in Pinebrook adventure |
-| **Palebank Village** + **Croaker Cave** | Frozen Sick adventure |
-| **Salsvault** | Buried Aeorian ruins (source of the Aeorian Echo mystery) |
-| **Temple of the Dragonknights** | Capstone adventure (northwest mountains) |
-| **Noke's Tower** | Wild Sheep Chase adventure |
+| **Waystone Inn** | Guild HQ, mission hub |
+| **Welton** + **Westly's Farm** | Wolves of Welton |
+| **Pinebrook** | Peril in Pinebrook |
+| **Palebank Village** + **Croaker Cave** | Frozen Sick |
+| **Salsvault** | Aeorian ruins (Echo mystery source) |
+| **Temple of the Dragonknights** | Capstone (NW mountains) |
+| **Noke's Tower** | Wild Sheep Chase |
 
-## Key Conventions
+## Conventions
 
-### Homebrewery Markdown
-- Page breaks: `\page` | Column breaks: `\column`
-- Page footers auto-generated by `add_page_footers.py` — format: `{{pageNumber,auto}}` / `{{footnote SECTION NAME}}`
-- Monster stat blocks: `{{monster,frame}}...{{}}`  
-- Note boxes: `{{note}}...{{}}` | Read-aloud text: `{{descriptive}}...{{}}`
-- Page break heuristic: ~70–85 non-empty lines or ~450–550 words; break earlier before major `##` headings
+**Homebrewery:** `\page` breaks, `\column` columns. Stat blocks: `{{monster,frame}}`. Boxes: `{{note}}`, `{{descriptive}}`. Page footers auto-generated by `scripts/build/add_page_footers.py`. Full syntax → `.github/HOMEBREWERY_V3_GUIDE.md`.
 
-### XML (Game Master 5e)
-- Nesting: `campaign > adventure > encounter > combatant > monster`
-- All elements require unique UIDs across the entire campaign
-- Long text uses CDATA: `<![CDATA[...]]>`
-- For XML work, use the **DMHelper custom agent** (`.github/agents/DMHelper.agent.md`)
+**XML (Game Master 5e):** Nest `campaign > adventure > encounter > combatant > monster`. Unique UIDs required. CDATA for long text. For XML work → DMHelper agent (`.github/agents/DMHelper.agent.md`).
 
-### Content Design
-- Adventures are **order-independent** — each must stand alone
-- Support **2–5 players** with variable attendance
-- Include subtle **Aeorian Echo** mystery clues without revealing the full picture
-- Guild NPCs: **Marshal Brenna Thorne** (field commander), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane scholar)
-- Full NPC roster: `Season 1/Campaign Assets/DM Guild Roster.md`
-- Tone: grounded low-magic frontier, serious with occasional levity
+**Content Design:** Adventures are order-independent, support 2–5 players, include subtle Aeorian Echo clues. Guild NPCs: **Marshal Brenna Thorne** (field), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane). Full roster: `Season 1/Campaign Assets/DM Guild Roster.md`. Tone: grounded low-magic frontier.
 
-## Claude Code Commands & Skills
-
-### Slash Commands
-
-Invoked explicitly as `/command-name`. Defined in `.claude/commands/`.
+## Commands
 
 | Command | Purpose |
 |---------|---------|
-| `/build [--players\|--dms]` | Run the guide build and report output files |
-| `/validate-xml` | Check all XML files for structural errors, duplicate UIDs, missing fields |
-| `/homebrewery-sync` | Guided walkthrough: sync Homebrewery edits back to source files |
-| `/dm-assistant [intent]` | DM help router — delegates to the right skill based on what you ask |
-| `/code-review` | Review a pull request |
+| `/build [--players\|--dms]` | Build guides, report output |
+| `/validate-xml` | Check XML structure, UIDs, required fields |
+| `/homebrewery-sync` | Sync Homebrewery UI edits back to repo source files |
+| `/dm-assistant [intent]` | Route to campaign skill by intent |
+| `/code-review` | Multi-agent PR review (5 parallel reviewers) |
 
-### Skills
+## Skills
 
-Skills auto-activate on trigger phrases or can be invoked explicitly. Defined in `.claude/skills/`.
+29 skills in `.claude/skills/`. Auto-activate on matching context or invoke explicitly.
 
-**Campaign skills** (Northwatch Wardens-specific):
+### Campaign (D&D / Northwatch Wardens)
 
-| Skill | Trigger / Use |
-|-------|--------------|
-| `canon-check` | Review content for geography errors, unknown NPCs, player-facing link violations, tone |
-| `new-adventure` | Scaffold a new adventure with template, structure, and Aeorian Echo integration |
-| `new-npc` | Create an NPC with Homebrewery stat block + XML entry + roster update |
-| `session-prep` | Generate a one-page DM prep doc for an upcoming session |
-| `gm-craft` | Storytelling techniques: fail forward, NPC motivation, scene pacing, improv principles |
+| Skill | Use |
+|-------|-----|
+| `canon-check` | Validate geography, NPCs, player-facing links, tone against canon |
+| `new-adventure` | Scaffold adventure with template + Aeorian Echo hooks |
+| `new-npc` | Create NPC: Homebrewery stat block + XML entry + roster update |
+| `session-prep` | One-page DM session prep doc |
+| `gm-craft` | DM storytelling: fail forward, NPC motivation, scene pacing, improv |
+| `dm-assistant` | Intent router → delegates to session-prep / new-adventure / new-npc / canon-check |
+| `dnd` | D&D 5e SRD API: dice rolls, spell/monster lookup, character gen, encounters |
+| `dnd-map-builder` | Next.js interactive map tool for DMs |
 
-**Utility skills** (auto-activate by workflow context):
+### Development Workflow
 
-| Skill | Trigger / Use |
-|-------|--------------|
-| `brainstorming` | Before any creative work — features, content, adventures |
-| `writing-plans` | Before multi-step implementation — produces a reviewable plan |
-| `executing-plans` | When running a written plan in a new session |
-| `systematic-debugging` | When hitting a bug or unexpected build failure |
-| `verification-before-completion` | Before marking work done or opening a PR |
+| Skill | Use |
+|-------|-----|
+| `brainstorming` | **Mandatory** before creative work — explores intent, requirements, design |
+| `writing-plans` | Before multi-step tasks — produces reviewable implementation plan |
+| `executing-plans` | Run a written plan with review checkpoints |
+| `systematic-debugging` | Before proposing fixes — structured bug investigation |
+| `verification-before-completion` | Before claiming done — runs verification commands, evidence required |
+| `requesting-code-review` | Before merging — verify all requirements met |
+| `receiving-code-review` | Process review feedback with technical rigor, not blind agreement |
+| `adversarial-reviewer` | Critical self-review via hostile reviewer personas |
+| `test-driven-development` | TDD: tests before implementation code |
+| `finishing-a-development-branch` | Branch completion: merge / PR / cleanup options |
+| `using-git-worktrees` | Isolated feature work with worktree management |
 
-## Key Reference Files
+### Orchestration & Meta
+
+| Skill | Use |
+|-------|-----|
+| `dispatching-parallel-agents` | 2+ independent tasks → parallel subagents |
+| `subagent-driven-development` | Execute plan tasks via subagents in current session |
+| `using-superpowers` | Skill discovery at conversation start |
+| `skill-creator` | Create, modify, eval, and benchmark skills |
+| `writing-skills` | Author, edit, and verify skill files before deployment |
+| `senior-architect` | System architecture, ADRs, tech stack, dependency analysis |
+| `engineering-skills` | Meta-collection: 23 engineering skills (architecture → DevOps → security) |
+
+### External Tools (GoodMem)
+
+| Skill | Use |
+|-------|-----|
+| `help` | GoodMem overview and setup guide |
+| `mcp` | GoodMem MCP server tools reference |
+| `python` | GoodMem Python SDK for embedders, spaces, memories, retrieval |
+
+## Reference Files
 
 | File | Purpose |
 |------|---------|
-| `.github/HOMEBREWERY_V3_GUIDE.md` | Complete Homebrewery V3 syntax reference |
-| `.github/copilot-instructions.md` | Detailed coding standards and content guidelines |
-| `.github/agents/DMHelper.agent.md` | DMHelper agent for XML, stat blocks, and writing workflows |
-| `.github/templates/adventure_template.md` | Adventure scaffold template |
-| `build/players-guide-toc.json` | Player's guide chapter/file structure |
-| `build/dms-guide-toc.json` | DM's guide chapter/file structure |
-| `Season 1/Campaign Assets/DM Guild Roster.md` | All NPC details and secrets |
-| `World Building/DMEyesOnly/` | DM-only secrets (never include in player content) |
+| `.github/HOMEBREWERY_V3_GUIDE.md` | Homebrewery V3 syntax (single source of truth) |
+| `.github/copilot-instructions.md` | Coding standards + content guidelines |
+| `.github/agents/DMHelper.agent.md` | DMHelper agent: XML, stat blocks, D&D API |
+| `build/players-guide-toc.json` | Player's guide chapter structure |
+| `build/dms-guide-toc.json` | DM's guide chapter structure |
+| `Season 1/Campaign Assets/DM Guild Roster.md` | NPC details + secrets |
+| `World Building/DMEyesOnly/` | DM-only secrets (never in player content) |

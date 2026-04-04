@@ -924,7 +924,7 @@ async function main() {
     // Update page footers in markdown files before building
     console.log('Updating page footers...');
     try {
-      execSync('python add_page_footers.py', { 
+      execSync('python scripts/build/add_page_footers.py', { 
         stdio: 'inherit',
         cwd: __dirname 
       });
