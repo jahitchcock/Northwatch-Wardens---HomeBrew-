@@ -6,26 +6,12 @@
   Linked: ../Regions/Northreach/People_of_Northreach.md, The_Aeorian_Echo.md, Places_Secrets.md
 -->
 
-{{note
-##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
-
-**CAMPAIGN SPOILERS: NPC Secrets**
-
-This document contains hidden NPC motivations, secret backgrounds, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
-
-**For player-safe NPC information**, see *The Adventurer's Guide to Aevoria* (player companion book)
-}}
 
 # People of Northreach: DM Secrets
 
 ## Overview
 
 This document contains secret information about NPCs in the Northwatch Wardens campaign. This includes hidden motivations, connections to the Aeorian Echo plotline, secret backgrounds, and information that would spoil player discoveries.
-
-
-
----
-
 
 
 ## Guild Leadership: Hidden Depths
@@ -129,6 +115,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor4,top:484px,left:69px,width:362px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Steward Mara Fenwick
@@ -227,12 +215,17 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### Lorewarden Elric Vael
+
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor10,top:100px,left:136px,width:361px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
+
+### Lorewarden Elric Vael
 
 **Public Role:** Scholar, record-keeper, curious researcher
 
@@ -343,21 +336,23 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor3,top:521px,left:88px,width:324px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Warden Field Agents: Hidden Truths
 
 
 
-### Corel (Trailwarden)
+#### Corel (Trailwarden)
 
 
 
-**Public Persona:** Laconic veteran tracker
+**Public Persona:**:: Laconic veteran tracker
 
 
 
-**Secret:**
+**Secret:**::
 
 - Not originally from a trading family—he's a survivor of a destroyed settlement
 
@@ -369,7 +364,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - The settlement destruction matches Aeorian magical effects
 
@@ -381,7 +376,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**What He Saw (But Won't Talk About):**
+**What He Saw (But Won't Talk About):**::
 
 - People turned to ice statues (like Urgon)
 
@@ -393,22 +388,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
 
 
-
-### Rowan Fairweather (Trailwarden)
-
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
-
-**Public Persona:** Calm druid offering practical wilderness advice
+#### Rowan Fairweather (Trailwarden)
 
 
+**Public Persona:**:: Calm druid offering practical wilderness advice
 
-**Secret:**
+
+**Secret:**::
 
 - The land has been SCREAMING at them for months
 
@@ -420,7 +408,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Nature itself remembers the Calamity
 
@@ -432,7 +420,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Vision:**
+**The Vision:**::
 
 - Had a prophetic dream of the land freezing from the inside
 
@@ -448,15 +436,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 \column
 
-### Mila Teno (Rookie Trailwarden)
+#### Mila Teno (Rookie Trailwarden)
 
 
 
-**Public Persona:** Eager rookie trying to prove herself
+**Public Persona:**:: Eager rookie trying to prove herself
 
 
 
-**Secret:**
+**Secret:**::
 
 - She's not just young and enthusiastic—she's RELATED to Tulgi Lutan
 
@@ -468,7 +456,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Innocent pawn who might be targeted by the Corsairs to get to Wardens
 
@@ -480,10 +468,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
 
-\page
 
 ### Takk Oaksplitter (Lantern Guard)
 
@@ -531,56 +516,43 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-\column
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
+
+{{watercolor10,top:247px,left:86px,width:308px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 ### Galvena Aballon (Lantern Guard)
 
 
 
-**Public Persona:** Disciplined former city guard
+**Public Persona:**:: Disciplined former city guard
 
 
 
-**Secret:**
+**Secret:**::
 
 - Her city fell to political corruption BECAUSE of Aeorian artifacts
-
 - A noble house found a cache and used them as leverage
-
 - The resulting power struggle destroyed the city government
-
 - Galvena fled after seeing what people do for Aeorian power
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Recognizes the signs of Aeorian corruption
-
 - Fears it's happening again here
-
 - Will be overprotective when artifacts are involved
-
 - Might take extreme measures to prevent repeat of her city's fate
 
 
-
----
-
-
-
-### Ariodh Highwhirl (Lantern Guard)
-
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
-
-**Public Persona:** Quiet monk from distant lands
+**Public Persona:**:: Quiet monk from distant lands
 
 
 
-**Secret:**
+**Secret:**::
 
 - Fled from a monastery that was experimenting with merging martial arts and ancient magic
 
@@ -592,7 +564,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - The monastery was using Aeorian texts
 
@@ -604,7 +576,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Technique:**
+**The Technique:**::
 
 - Learned a specific fighting style designed to disrupt magical constructs
 
@@ -624,11 +596,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Public Persona:** Gruff bruiser trying to do better
+**Public Persona:**:: Gruff bruiser trying to do better
 
 
 
-**Secret:**
+**Secret:**::
 
 - Former enforcer for the Myriad (criminal organization)
 
@@ -640,7 +612,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - The Myriad is interested in Aeorian artifacts
 
@@ -659,21 +631,23 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor9,top:602px,left:64px,width:300px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## Magical Specialists: Secret Agendas
+### Magical Specialists: Secret Agendas
 
 
 
-### Sera Gelanadel (Apprentice Wizard)
+#### Sera Gelanadel (Apprentice Wizard)
 
 
 
-**Public Persona:** Bookish apprentice taking notes
+**Public Persona:**:: Bookish apprentice taking notes
 
 
 
-**Secret:**
+**Secret:**::
 
 - More talented than she lets on
 
@@ -685,7 +659,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Has been cross-referencing Elric's restricted texts with public sources
 
@@ -697,7 +671,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Discovery:**
+**The Discovery:**::
 
 - Found a pattern in the timing and location of incidents
 
@@ -709,19 +683,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
-
-\column
-
-### Aurixean Valignaak (Sorcerer)
+#### Aurixean Valignaak (Sorcerer)
 
 
 
-**Public Persona:** Dramatic dragonborn sorcerer
+**Public Persona:**:: Dramatic dragonborn sorcerer
 
 
 
-**Secret:**
+**Secret:**::
 
 - The theatrics are partially a cover for deep insecurity
 
@@ -733,7 +703,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Their bloodline includes ancient magical tampering
 
@@ -745,7 +715,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Manifestation:**
+**The Manifestation:**::
 
 - During high-stress situations, displays abilities that aren't draconic
 
@@ -757,150 +727,103 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
+\column
 
 
 
-### Finethir Shinebright (Eccentric Wizard)
+#### Finethir Shinebright (Eccentric Wizard)
 
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
 
-\page
-
-**Public Persona:** Brilliant but chaotic gnome wizard
+**Public Persona:**:: Brilliant but chaotic gnome wizard
 
 
 
-**Secret:**
+**Secret:**::
 
 - NOT as chaotic as he appears—it's a deliberate cover
-
-- Former Aeoran specialist studying pre-Calamity magic
-
+- Former Aeoran specialist studying Aeorian magic
 - The "accidents" often serve a research purpose
-
 - Deliberately keeps people away from his tower
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Knows EXACTLY what's happening
-
-- Has been studying Aeorian reactivation patterns for decades
-
+- Has been studying Aeorian artifacts for decades
 - The tower contains a massive research archive
-
-- Working on countermeasures but needs specific components
-
+- Working on countermeasures but needs components
 
 
-**The Wild Sheep Chase Connection:**
+
+**The Wild Sheep Chase Connection:**::
 
 - The polymorph "accident" was a test of modified Aeorian transformation magic
-
 - Needed to understand how Aeorian bio-transmutation works
-
 - The "Noke" identity is a cover for his research
-
 - Will reveal knowledge if players earn his trust
 
 
 
-**What He Knows:**
+**What He Knows:**::
 
 - Location of multiple Aeorian crash sites
-
 - Specifications of Aeorian magical plagues
-
 - Theory about the entity reactivating systems
-
 - Possible countermeasures but needs rare materials
 
 
+#### Baleth Cindermoon (Warlock)
 
----
+**Public Persona:**:: Charming elf with mysterious patron
 
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
-
-### Baleth Cindermoon (Warlock)
-
-
-
-**Public Persona:** Charming elf with mysterious patron
-
-
-
-**Secret:**
+**Secret:**::
 
 - His patron is an entity FROM Aeor
-
 - Survived the crash in suspended animation
-
 - Offering him power in exchange for service
-
-- Baleth is slowly realizing his patron might be dangerous
-
+- Baleth is realizing his patron might be dangerous
 
 
-**Connection to Aeorian Echo:**
+
+**Connection to Aeorian Echo:**::
 
 - HIS PATRON IS CAUSING IT
-
 - The entity is reactivating Aeorian facilities
-
 - Using Baleth as an agent without full disclosure
-
 - Baleth is beginning to suspect but is addicted to the power
 
-\column
 
-**The Dilemma:**
 
-- Genuinely likes the Wardens and doesn't want to betray them
+**The Dilemma:**::
 
+- Likes the Wardens and doesn't want to betray them
 - Compelled by pact to serve his patron
-
 - Can't fully reveal the truth without breaking the pact
-
 - Will drop increasingly obvious hints to the party
 
 
 
-**Potential Development:**
+**Potential Development:**::
 
 - Could become villain if players don't intervene
-
-- Could become tragic ally if they help him break the pact
-
+- Could become tragic ally if they help break the pact
 - His knowledge of the patron is invaluable
-
 - Ultimate fate depends on player choices
 
-
-
-**The Patron's Identity:**
-
-[DM: Decide if this is a surviving Aeorian mage, a created construct with intelligence, or something else appropriate to your campaign]
-
-
-
----
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor7,top:527px,left:469px,width:266px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## Healers and Support: Hidden Pain
+### Healers and Support: Hidden Pain
 
 
 
-### Father Johan Merriksonn (Priest)
+#### Father Johan Merriksonn (Priest)
 
 
 
@@ -948,7 +871,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 \column
 
-### Willen Featherock (Shepherd)
+#### Willen Featherock (Shepherd)
 
 
 
@@ -1009,17 +932,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor10,top:324px,left:423px,width:342px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### Flynt Wymblen (Bard)
+#### Flynt Wymblen (Bard)
 
 
 
-**Public Persona:** Cheerful storyteller collecting tales
+**Public Persona:**:: Cheerful storyteller collecting tales
 
 
 
-**Secret:**
+**Secret:**::
 
 - Former intelligence agent using bard cover
 
@@ -1031,7 +956,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Sent specifically to monitor the situation
 
@@ -1043,7 +968,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Organization:**
+**The Organization:**::
 
 - Could be Cobalt Soul, could be government, could be other
 
@@ -1057,17 +982,17 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 ---
 
-\column
+
 
 ### Joel Andersmith (Farmhand Ally)
 
 
 
-**Public Persona:** Helpful local farmhand
+**Public Persona:**:: Helpful local farmhand
 
 
 
-**Secret:**
+**Secret:**::
 
 - Descendant of first settlers who encountered Aeorian crash site
 
@@ -1079,7 +1004,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - His ancestors sealed an Aeorian site and left warnings
 
@@ -1091,7 +1016,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Legacy:**
+**The Legacy:**::
 
 - Has a key or map passed down through family
 
@@ -1106,23 +1031,20 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ---
 
 
+\column
 
-## Local Leaders: Political Secrets
+### Local Leaders: Political Secrets
 
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
 
-\page
-
-### Elro Aldataur (Palebank Leader)
+#### Elro Aldataur (Palebank Leader)
 
 
 
-**Public Persona:** Weathered retired ranger and village leader
+**Public Persona:**:: Weathered retired ranger and village leader
 
 
 
-**Secret:**
+**Secret:**::
 
 - Knows about Salsvault's true purpose
 
@@ -1134,7 +1056,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Recognizes frigid woe from previous encounter
 
@@ -1146,7 +1068,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**What He Knows:**
+**What He Knows:**::
 
 - Salsvault layout from previous expedition
 
@@ -1158,7 +1080,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Burden:**
+**The Burden:**::
 
 - Survivor's guilt from losing his team
 
@@ -1170,9 +1092,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
 
-\column
 
 ### Pelc (Reclusive Merchant) — DECEASED
 
@@ -1225,17 +1145,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor12,top:393px,left:119px,width:263px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### Tulgi Lutan (Trapper)
+#### Tulgi Lutan (Trapper)
 
 
 
-**Public Persona:** Independent trapper who keeps to herself
+**Public Persona:**:: Independent trapper who keeps to herself
 
 
 
-**Secret:**
+**Secret:**::
 
 - Works for Corsair criminal family
 
@@ -1247,7 +1169,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - the Corsairs are middlemen for someone collecting artifacts
 
@@ -1259,7 +1181,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**What She Knows (If Convinced to Talk):**
+**What She Knows (If Convinced to Talk):**::
 
 - Corsair operations in multiple settlements
 
@@ -1271,7 +1193,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Potential Development:**
+**Potential Development:**::
 
 - Might become temporary ally against the Corsairs
 
@@ -1283,19 +1205,17 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
 
-\column
 
-### Tillus Merrion (Welton Council Member)
+#### Tillus Merrion (Welton Council Member)
 
 
 
-**Public Persona:** Pragmatic farmer on village council
+**Public Persona:**:: Pragmatic farmer on village council
 
 
 
-**Secret:**
+**Secret:**::
 
 - Noticed wolves avoiding certain areas
 
@@ -1307,7 +1227,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - The markers are Aeorian experimental subjects tracking tags
 
@@ -1319,22 +1239,18 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
+\column
 
 
 
-### Leanor Slatebeard (Welton Tracker)
+#### Leanor Slatebeard (Welton Tracker)
 
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
 
-\page
-
-**Public Persona:** Skilled hunter and tracker
+**Public Persona:**:: Skilled hunter and tracker
 
 
 
-**Secret:**
+**Secret:**::
 
 - Tracked the wolves to their lair
 
@@ -1346,7 +1262,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - The lair shows signs of deliberate magical modification
 
@@ -1358,7 +1274,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**What She Saw (But Won't Easily Admit):**
+**What She Saw (But Won't Easily Admit):**::
 
 - Wolves responding to magical signals
 
@@ -1370,19 +1286,16 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
 
-\column
-
-### Westly (Shepherd)
+#### Westly (Shepherd)
 
 
 
-**Public Persona:** Isolated sheep farmer dealing with wolf problems
+**Public Persona:**:: Isolated sheep farmer dealing with wolf problems
 
 
 
-**Secret:**
+**Secret:**::
 
 - His farm is being specifically targeted
 
@@ -1394,7 +1307,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aeorian Echo:**::
 
 - Farm sits near a minor Aeorian crash site
 
@@ -1406,7 +1319,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**The Dreams:**
+**The Dreams:**::
 
 - City falling from the sky
 
@@ -1418,15 +1331,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Potential Development:**
+**Potential Development:**::
 
 - Could be abducted/tested by antagonist
 
 - Might become corrupted by Aeorian magic
 
 - Could be rescued and become information source
-
-
 
 - His farm could be nexus of investigation
 
@@ -1437,17 +1348,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
 
+{{watercolor6,top:721px,left:109px,width:303px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## The Blackwake Corsairs Connection
+### The Blackwake Corsairs Connection
 
 
 
-### The Family Business
+#### The Family Business
 
 
 
-**Public Knowledge:**
+**Public Knowledge:**::
 
 - Criminal family based in Breakwater Haven
 
@@ -1457,7 +1370,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Secret Reality:**
+**Secret Reality:**::
 
 - Contracted by mysterious buyer to acquire Aeorian artifacts
 
@@ -1469,20 +1382,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### Corsair Operatives in Northreach
+#### Corsair Operatives in Northreach
 
 
 
-**Tulgi Lutan:** Palebank thief (dying)
+**Tulgi Lutan:**:: Palebank thief (dying)
 
-**Hulil Lutan:** Tulgi's sister, currently in Croaker Cave
+**Hulil Lutan:**:: Tulgi's sister, currently in Croaker Cave
 
-**Unknown Agents:** In other settlements, identities unknown
+**Unknown Agents:**:: In other settlements, identities unknown
 
-\column
 
-### What the Corsairs Know
 
+#### What the Corsairs Know
 
 
 - Buyer wants "biological samples" above all else
@@ -1497,15 +1409,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-### Hulil Lutan (Croaker Cave)
+#### Hulil Lutan (Croaker Cave)
 
 
 
-**Role:** Tulgi's sister, mid-level Corsair operative
+**Role:**:: Tulgi's sister, mid-level Corsair operative
 
 
 
-**Knowledge:**
+**Knowledge:**::
 
 - More about the operation than Tulgi
 
@@ -1517,7 +1429,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Potential Development:**
+**Potential Development:**::
 
 - Could be fought/killed in Croaker Cave
 
@@ -1528,87 +1440,72 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - Might become recurring antagonist if escaped
 
 
-
----
-
-
-
-## The Larger Pattern: What NPCs Know Collectively
-
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
-
-### About Aeorian Reactivation
-
-
-
-**Elric Knows:** It's happening, pattern suggests intelligence
-
-**Shinebright Knows:** Specific facilities being activated, potential countermeasures
-
-**Baleth Knows:** Who's doing it (his patron) but can't fully share
-
-**Sera Deduced:** Pattern of activation suggests sequence
-
-**Brenna Suspects:** Larger threat requiring coordinated response
-
-
-
-### About Aeorian Locations
-
-
-
-**Elro Knows:** Salsvault layout and dangers
-
-**Shinebright Knows:** Multiple crash site locations
-
-**Joel's Family Knows:** One specific sealed site
-
-**Pelc Knew:** Map of suspected sites (now deceased)
-
-
-
-### About the Conspiracy
-
-
-
-**Mara Knows:** Artifact trade patterns
-
-**Flynt Knows:** Southern interest in situation
-
-**Corsairs Know:** Buyer's requirements and drop-off locations
-
-**Tulgi Knows:** Operative network
-
 \column
-
-### About Aeorian Effects
-
+### The Larger Pattern: What NPCs Know Collectively
 
 
-**Johan Knows:** How divine magic fails against it
+#### About Aeorian Reactivation
 
-**Rowan Knows:** How it violates natural order
+**Elric Knows:**:: It's happening, pattern suggests intelligence
 
-**Corel Knows:** What a completed Aeorian attack looks like
+**Shinebright Knows:**:: Specific facilities being activated, potential countermeasures
 
-**Ariodh Knows:** How to fight Aeorian constructs
+**Baleth Knows:**:: Who's doing it (his patron) but can't fully share
+
+**Sera Deduced:**:: Pattern of activation suggests sequence
+
+**Brenna Suspects:**:: Larger threat requiring coordinated response
+
+
+#### About Aeorian Locations
+
+
+**Elro Knows:**:: Salsvault layout and dangers
+
+**Shinebright Knows:**:: Multiple crash site locations
+
+**Joel's Family Knows:**:: One specific sealed site
+
+**Pelc Knew:**:: Map of suspected sites (now deceased)
 
 
 
-### About Personal Connections
+#### About the Conspiracy
+
+
+**Mara Knows:**:: Artifact trade patterns
+
+**Flynt Knows:**:: Southern interest in situation
+
+**Corsairs Know:**:: Buyer's requirements and drop-off locations
+
+**Tulgi Knows:**:: Operative network
 
 
 
-**Willen:** Carries dormant Aeorian modification
+#### About Aeorian Effects
 
-**Aurixean:** Bloodline resonates with Aeorian magic
 
-**Westly:** Under observation by antagonist
+**Johan Knows:**:: How divine magic fails against it
 
-**Multiple NPCs:** Have encountered Aeorian effects before
+**Rowan Knows:**:: How it violates natural order
+
+**Corel Knows:**:: What a completed Aeorian attack looks like
+
+**Ariodh Knows:**:: How to fight Aeorian constructs
+
+
+
+#### About Personal Connections
+
+
+**Willen:**:: Carries dormant Aeorian modification
+
+**Aurixean:**:: Bloodline resonates with Aeorian magic
+
+**Westly:**:: Under observation by antagonist
+
+**Multiple NPCs:**:: Have encountered Aeorian effects before
 
 
 
@@ -1616,72 +1513,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
+
+{{watercolor1,top:375px,left:179px,width:373px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
 ## The Big Picture: Connections Players Must Discover
 
-
-
-### The Conspiracy Chart
-
-
-
-
-
-![Diagram: The Conspiracy Chart](../Campaign%20Assets/Diagrams/people-secrets-the-conspiracy-chart-l810-79c1525f.svg)
-
-
-
-<!-- ASCII diagram source (converted to SVG):
-
-[Mysterious Buyer/Entity]
-
-         |
-
-         |—— Baleth's Patron (same entity?)
-
-         |
-
-    [Blackwake Corsairs]
-
-         |
-
-    [Operatives]
-
-         |
-
-    Tulgi/Hulil (Palebank)
-
-    Unknown (Welton)
-
-    Unknown (Pinebrook)
-
-         |
-
-   [Artifacts Stolen]
-
-         |
-
-    Urgon's Items (Palebank)
-
-    Other Thefts (ongoing)
-
-         |
-
-   [Reactivation Sequence]
-
-         |
-
-    Testing (Welton wolves)
-
-    Plague Research (Salsvault)
-
-    Unknown Next Steps
-
--->
-
-\column
 
 ### Information Web
 
@@ -1722,13 +1560,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 - The full extent of the conspiracy
 
 
-
----
-
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
 
 ## Using This Information
 
@@ -1810,16 +1641,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
----
-
-
-
-## Campaign Integration Notes
-
-{{pageNumber,auto}}
-{{footnote People of Northreach: DM Secrets}}
-
-\page
 
 ### For "Wolves of Welton"
 
@@ -1871,3 +1692,6 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{pageNumber,auto}}
 {{footnote People of Northreach: DM Secrets}}
+
+{{watercolor1,top:592px,left:191px,width:352px,background-color:#BBAD82,opacity:80%}}
+

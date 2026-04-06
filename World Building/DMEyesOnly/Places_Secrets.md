@@ -6,16 +6,6 @@
   Linked: World Building/Regions/Northreach/Places_of_Northreach.md, World Building/DMEyesOnly/Northreach.md
 -->
 
-{{note
-##### ⚠️ DUNGEON MASTER EYES ONLY ⚠️
-
-**CAMPAIGN SPOILERS: Location Secrets**
-
-This document contains hidden location features, dark histories, and plot connections. **DO NOT share this with players** unless they discover it through gameplay.
-
-**For player-safe location information**, see *The Adventurer's Guide to Aevoria* (player companion book)
-}}
-
 # Places of Northreach: DM Secrets
 
 ## Overview
@@ -23,17 +13,11 @@ This document contains hidden location features, dark histories, and plot connec
 This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
 
 
----
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-## The Waystone Inn: Hidden Depths
+### The Waystone Inn: Hidden Depths
 
 
-### The Waystone Itself
+#### The Waystone Itself
 
 
 **What Players See:**
@@ -66,7 +50,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Has been slowly "waking up" over past few years
 
-\column
+
 
 **What It Means:**
 
@@ -101,12 +85,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Map of Aeorian sites could be extracted with right magic
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
+\column
 
 ### The Inn's Secret Spaces
 
@@ -139,7 +118,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence he shouldn't have
 
 
-\column
 **Mara's Escape Cache:**
 
 - Behind false panel in her quarters
@@ -173,12 +151,14 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor2,top:28px,left:394px,width:251px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### What Happened Here Before
 
 
-**Known History:**
+**Known History:**::
 
 - Inn built around the stone 80+ years ago
 
@@ -187,7 +167,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Wardens established here 15 years ago
 
 
-**Secret History:**
+**Secret History:**::
 
 - First settlers found ruins around the stone
 
@@ -200,7 +180,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Some walls contain Aeorian metal and crystal
 
 
-**The Previous Owner:**
+**The Previous Owner:**::
 
 - Disappeared mysteriously 20 years ago
 
@@ -213,7 +193,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Last entry: "It knows I'm listening"
 
 
-**What This Means:**
+**What This Means:**::
 
 - Previous owner was sensitive to Aeorian magic
 
@@ -223,14 +203,11 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Could be encountered later as transformed being
 
-\column
-
----
 
 
-### Current Threats
+#### Current Threats
 
-**Surveillance:**
+**Surveillance:**::
 
 - Someone is watching the Waystone Inn
 
@@ -241,7 +218,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Baleth's patron receives reports about the place
 
 
-**Infiltration:**
+**Infiltration:**::
 
 - At least one staff member is reporting to outsiders
 
@@ -252,7 +229,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Players might discover spy if observant
 
 
-**Magical Monitoring:**
+**Magical Monitoring:**::
 
 - Scrying attempts on the building
 
@@ -263,21 +240,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Something is very interested in what Wardens know
 
 
----
+\column
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
+### Welton: Dark Undercurrents
 
-\page
+**Related Adventure:**:: See **Chapter 5: Wolves of Welton**
 
-## Welton: Dark Undercurrents
-
-**Related Adventure:** See **Chapter 5: Wolves of Welton**
-
-### The Wolf Problem's True Nature
+#### The Wolf Problem's True Nature
 
 
-**Visible Situation:**
+**Visible Situation:**::
 
 - Wolves attacking livestock
 
@@ -286,7 +258,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Community on edge
 
 
-**Hidden Reality:**
+**Hidden Reality:**::
 
 - Wolves are Aeorian experimental subjects
 
@@ -296,9 +268,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - This is a TRIAL RUN for larger operation
 
-\column
 
-**The Controller:**
+
+**The Controller:**::
 
 - Someone visits wolf lair regularly
 
@@ -309,7 +281,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Evaluating settlement for future targeting
 
 
-**Why Welton:**
+**Why Welton:**::
 
 - Proximity to minor Aeorian crash site
 
@@ -320,17 +292,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Small enough to be manageable
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### Westly's Farm: Ground Zero
 
 
-**Surface Situation:**
+#### Westly's Farm: Ground Zero
+
+
+**Surface Situation:**::
 
 - Sheep farmer dealing with wolf attacks
 
@@ -339,7 +306,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Recent increased activity
 
 
-**Hidden Reality:**
+**Hidden Reality:**::
 
 - Farm sits directly above sealed Aeorian facility
 
@@ -350,7 +317,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Wolves drawn to the location specifically
 
 
-**The Facility Below:**
+**The Facility Below:**::
 
 - Small research station
 
@@ -360,9 +327,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Sending signals that attract test subjects
 
-\column
 
-**What's Happening to Westly:**
+
+**What's Happening to Westly:**::
 
 - Exposure to residual magic causing dreams
 
@@ -373,7 +340,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Could become patient zero for something terrible
 
 
-**Potential Developments:**
+**Potential Developments:**::
 
 - Players might detect magic around the farm
 
@@ -389,19 +356,21 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor13,top:330px,left:229px,width:388px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### The Shepherd's Crook Inn: Information Hub
+#### The Shepherd's Crook Inn: Information Hub
 
 
-**Public Function:**
+**Public Function:**::
 
 - Village social center
 
 - Where news and gossip flow
 
 
-**Secret Function:**
+**Secret Function:**::
 
 - Darvin Crook is an information broker
 
@@ -412,7 +381,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Doesn't realize he's part of larger intelligence network
 
 
-**What He Knows:**
+**What He Knows:**::
 
 - Every rumor in the village
 
@@ -422,9 +391,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Names of everyone passing through
 
-\column
 
-**His Contact:**
+**His Contact:**::
 
 - Unknown agent from southern organization
 
@@ -435,7 +403,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Could be Cobalt Soul, government, or worse
 
 
-**Potential Discovery:**
+**Potential Discovery:**::
 
 - Players might find encoded messages
 
@@ -446,16 +414,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Could become liability if compromised
 
 
----
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
 
-\page
+#### The Old Woods North of Welton
 
-### The Old Woods North of Welton
-
-**Local Reputation:**
+**Local Reputation:**::
 
 - "Old place" locals avoid
 
@@ -464,7 +427,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Stories of people going missing
 
 
-**Reality:**
+**Reality:**::
 
 - Site of Aeorian crash
 
@@ -475,7 +438,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Source of regional magical disturbances
 
 
-**What's There:**
+**What's There:**::
 
 - Partially buried Aeorian structure
 
@@ -487,7 +450,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 \column
 
-**The Danger:**
+**The Danger:**::
 
 - Automated systems attack intruders
 
@@ -498,7 +461,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Structure unstable—could collapse
 
 
-**Connection to Campaign:**
+**Connection to Campaign:**::
 
 - This is where wolf modifications originate
 
@@ -509,12 +472,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Major adventure location for investigating wolf problem
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
 
 ## Pinebrook: Commerce and Conspiracy
 
@@ -541,7 +498,6 @@ This document contains secret information about locations in the Northwatch Ward
 - Uses legitimate business to launder criminal goods
 
 
-\column
 **The Method:**
 
 - Artifacts mixed with legitimate antiques
@@ -580,12 +536,14 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor5,top:387px,left:178px,width:379px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### The Pine Lodge: Watching Eyes
 
 
-**Public Service:**
+**Public Service:**::
 
 - Quality accommodations for merchants
 
@@ -594,7 +552,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Secure and discreet
 
 
-**Secret Function:**
+**Secret Function:**::
 
 - Merryn Pine reports on guests
 
@@ -605,7 +563,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Sells intelligence to highest bidder
 
 
-**Her Network:**
+**Her Network:**::
 
 - Contacts among merchants
 
@@ -616,7 +574,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Neutral but morally flexible
 
 
-**What She Knows:**
+**What She Knows:**::
 
 - Who's moving what goods where
 
@@ -627,7 +585,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Value of information to different parties
 
 
-**Potential Use:**
+**Potential Use:**::
 
 - Could be convinced to share information
 
@@ -637,20 +595,17 @@ This document contains secret information about locations in the Northwatch Ward
 
 - May have overheard crucial plot details
 
-\column
-
----
 
 
 ### The Market Square: Dead Drops
 
 
-**Public Space:**
+**Public Space:**::
 
 - Open market, legitimate trade
 
 
-**Secret Use:**
+**Secret Use:**::
 
 - Contains multiple dead drop locations
 
@@ -661,7 +616,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Uses market chaos for cover
 
 
-**Drop Locations:**
+**Drop Locations:**::
 
 - Hollow post of permanent stall
 
@@ -672,7 +627,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Mark on well cover indicates message waiting
 
 
-**What Players Might Find:**
+**What Players Might Find:**::
 
 - Encoded messages if they know where to look
 
@@ -683,16 +638,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Evidence of network communication
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
+\column
 
 ### Abandoned Logging Camp (North of Pinebrook)
 
-**Official Status:**
+**Official Status:**::
 
 - Shut down years ago
 
@@ -701,7 +651,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Avoid the area
 
 
-**Real Reason:**
+**Real Reason:**::
 
 - Workers found something in the earth
 
@@ -712,7 +662,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Area was quietly discouraged
 
 
-**What's There:**
+**What's There:**::
 
 - Entrance to Aeorian structure
 
@@ -722,9 +672,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Signs of recent visitation
 
-\column
 
-**The Secret:**
+
+**The Secret:**::
 
 - This is a drop-off point for artifact smuggling
 
@@ -735,7 +685,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Guarded by hired muscle
 
 
-**Potential Adventure:**
+**Potential Adventure:**::
 
 - Players track smuggling route here
 
@@ -751,15 +701,17 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor7,top:191px,left:412px,width:302px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## Palebank Village: Death and Secrets
+### Palebank Village: Death and Secrets
 
 
-### The Far North Connection
+#### The Far North Connection
 
 
-**Public Knowledge:**
+**Public Knowledge:**::
 
 - Palebank is waypoint for Far North expeditions
 
@@ -768,7 +720,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Dangerous but potentially lucrative
 
 
-**Hidden Reality:**
+**Hidden Reality:**::
 
 - SOMEONE is specifically targeting Far North relics
 
@@ -779,7 +731,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Pattern suggests organized operation
 
 
-**The Pattern:**
+**The Pattern:**::
 
 - Items are stolen soon after return
 
@@ -793,10 +745,10 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 
-### Pelc's Curiosities: The Dead Merchant's Research
+#### Pelc's Curiosities: The Dead Merchant's Research
 
 
-**Before Death:**
+**Before Death:**::
 
 - Pelc was investigating artifact patterns
 
@@ -806,9 +758,8 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Was preparing report when infected
 
-\column
 
-**What Can Be Found:**
+**What Can Be Found:**::
 
 - Hidden journal behind false panel
 
@@ -821,7 +772,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Unsent letter to northern scholar
 
 
-**The Decoded Text:**
+**The Decoded Text:**::
 
 - Warning about biological weapons
 
@@ -832,7 +783,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Fragment about "the speaking ice"
 
 
-**The Buyer Pattern:**
+**The Buyer Pattern:**::
 
 - Same entity using multiple false names
 
@@ -843,7 +794,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Willing to pay premium prices
 
 
-**Potential Discovery:**
+**Potential Discovery:**::
 
 - Players search shop thoroughly
 
@@ -854,17 +805,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Map correlates with other evidence
 
 
----
+\column
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### Urgon's Cabin: What He Brought Back
+#### Urgon's Cabin: What He Brought Back
 
 
-**Visible Items:**
+**Visible Items:**::
 
 - List of sold items on receipt
 
@@ -873,7 +819,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Mounted yeti head
 
 
-**Hidden Items:**
+**Hidden Items:**::
 
 - Journal under floorboard (DC 13 Investigation)
 
@@ -884,7 +830,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Note: "Blue ones are important—but dangerous"
 
 
-**The Journal:**
+**The Journal:**::
 
 - Details expedition to Salsvault
 
@@ -897,7 +843,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Final entry: "Felt watched the whole time"
 
 
-**What It Reveals:**
+**What It Reveals:**::
 
 - Salsvault has multiple chambers
 
@@ -908,13 +854,12 @@ This document contains secret information about locations in the Northwatch Ward
 - He had concerns before selling items
 
 
-\column
----
 
 
-### Tulgi's Cabin: The Spy's Evidence
 
-**Visible:**
+#### Tulgi's Cabin: The Spy's Evidence
+
+**Visible:**::
 
 - Dwelling of isolated trapper
 
@@ -923,7 +868,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Basic living conditions
 
 
-**Hidden:**
+**Hidden:**::
 
 - Corsair instructions (coded, hidden in bedroll)
 
@@ -934,7 +879,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Contact schedule for sister Hulil
 
 
-**The Instructions:**
+**The Instructions:**::
 
 - Steal biological research materials first
 
@@ -945,7 +890,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Drop-off location at Croaker Cave
 
 
-**What She Knows (If Interrogated):**
+**What She Knows (If Interrogated):**::
 
 - Sister has more information
 
@@ -961,19 +906,21 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor9,top:17px,left:295px,width:288px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### The Frostwatch: Compromised Security
+#### The Frostwatch: Compromised Security
 
 
-**Public Role:**
+**Public Role:**::
 
 - Village militia
 
 - Protects Palebank
 
 
-**Secret Problem:**
+**Secret Problem:**::
 
 - One member is Corsair informant
 
@@ -984,7 +931,7 @@ This document contains secret information about locations in the Northwatch Ward
 - May have infected others through contact
 
 
-**The Informant:**
+**The Informant:**::
 
 - Name: [DM choice]
 
@@ -995,7 +942,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Now dying and possibly regretful
 
 
-**Potential Development:**
+**Potential Development:**::
 
 - Could confess to players
 
@@ -1012,15 +959,15 @@ This document contains secret information about locations in the Northwatch Ward
 ### The Meeting Hall: Elro's Guilt
 
 
-\column
-**Public Use:**
+
+**Public Use:**::
 
 - Community gathering space
 
 - Elro's residence
 
 
-**Secret Storage:**
+**Secret Storage:**::
 
 - Sealed box containing expedition records
 
@@ -1031,7 +978,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Personal journal about the tragedy
 
 
-**The Records:**
+**The Records:**::
 
 - Detailed map of Salsvault (partial)
 
@@ -1044,7 +991,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Elro's guilt about surviving
 
 
-**What He Remembers:**
+**What He Remembers:**::
 
 - Exact route to Salsvault
 
@@ -1055,7 +1002,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Signs that facility was still active
 
 
-**Potential Use:**
+**Potential Use:**::
 
 - Elro can brief party before Salsvault expedition
 
@@ -1066,20 +1013,14 @@ This document contains secret information about locations in the Northwatch Ward
 - Might offer to accompany party (despite age)
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-## Croaker Cave: Criminal Base
+\column
+### Croaker Cave: Criminal Base
 
 
-### Current Occupants
+#### Current Occupants
 
 
-**Visible Threat:**
+**Visible Threat:**::
 
 - Corsair enforcers using as hideout
 
@@ -1088,7 +1029,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Defensive positions
 
 
-**Hidden Threat:**
+**Hidden Threat:**::
 
 - Hulil Lutan (mid-level operative)
 
@@ -1099,7 +1040,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Map to northern drop-off point
 
 
-**Layout Secrets:**
+**Layout Secrets:**::
 
 - Natural caves with artificial improvements
 
@@ -1116,8 +1057,8 @@ This document contains secret information about locations in the Northwatch Ward
 ### Evidence of Larger Operation
 
 
-\column
-**What's Stored Here:**
+
+**What's Stored Here:**::
 
 - Multiple Aeorian artifacts (beyond Urgon's items)
 
@@ -1128,7 +1069,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Instructions from mysterious buyer
 
 
-**The Manifest:**
+**The Manifest:**::
 
 - Items from multiple thefts
 
@@ -1141,7 +1082,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Total value indicates serious funding
 
 
-**Correspondence:**
+**Correspondence:**::
 
 - Letters from Blackwake Corsairs
 
@@ -1152,7 +1093,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Schedule for northern shipments
 
 
-**The Map:**
+**The Map:**::
 
 - Route from Palebank north
 
@@ -1168,11 +1109,13 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor6,top:750px,left:136px,width:375px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Hulil's Knowledge
 
-**What She Knows:**
+**What She Knows:**::
 
 - Full Corsair operation in region
 
@@ -1185,7 +1128,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Timeline of recent escalation
 
 
-**What She Doesn't Know:**
+**What She Doesn't Know:**::
 
 - Buyer's true identity
 
@@ -1196,7 +1139,7 @@ This document contains secret information about locations in the Northwatch Ward
 - That she's expendable
 
 
-**If Captured/Interrogated:**
+**If Captured/Interrogated:**::
 
 - Will eventually reveal information
 
@@ -1204,21 +1147,19 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Realizes operation is more dangerous than thought
 
-
 - Might be convinced to cooperate
 
 
 ---
 
 
-## Salsvault: Frozen Laboratory
-
-\column
-
-### What Elro's Expedition Learned
+### Salsvault: Frozen Laboratory
 
 
-**Layout:**
+#### What Elro's Expedition Learned
+
+
+**Layout:**::
 
 - Multi-level structure
 
@@ -1229,7 +1170,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Sealed vaults (some breached, some intact)
 
 
-**Defenses:**
+**Defenses:**::
 
 - Automated guardians (constructs)
 
@@ -1240,7 +1181,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Biological containments (some failed)
 
 
-**What They Found:**
+**What They Found:**::
 
 - Medical research chambers
 
@@ -1253,17 +1194,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Command center (sealed)
 
 
----
+\column
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### Current State
+#### Current State
 
 
-**Active Elements:**
+**Active Elements:**::
 
 - Some systems still functioning
 
@@ -1274,7 +1210,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Research data accessible to those who can read Aeorian
 
 
-**Degraded Elements:**
+**Degraded Elements:**::
 
 - Structural damage from crash
 
@@ -1285,7 +1221,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Environmental penetration (ice, wind)
 
 
-**Reactivating Elements:**
+**Reactivating Elements:**::
 
 - Central systems coming back online
 
@@ -1299,11 +1235,11 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 
-\column
-### The Frigid Woe Connection
+
+#### The Frigid Woe Connection
 
 
-**What Players Need:**
+**What Players Need:**::
 
 - Antidote vials (gold containers)
 
@@ -1314,7 +1250,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Multiple doses available
 
 
-**What They Might Learn:**
+**What They Might Learn:**::
 
 - Frigid woe was anti-divine bioweapon
 
@@ -1325,7 +1261,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Reactivation suggests intentional use
 
 
-**Additional Discovery:**
+**Additional Discovery:**::
 
 - Research notes on other plagues
 
@@ -1341,12 +1277,14 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor1,top:411px,left:321px,width:332px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### The Command Center
+#### The Command Center
 
 
-**Status:**
+**Status:**::
 
 - Sealed by Elro's expedition
 
@@ -1357,7 +1295,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Attempting to communicate with other sites
 
 
-**What's Inside:**
+**What's Inside:**::
 
 - Aeorian AI or preserved consciousness
 
@@ -1368,7 +1306,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Failsafe mechanisms (both safety and weapon)
 
 
-**The Entity:**
+**The Entity:**::
 
 - Survived Aeor's fall in protected core
 
@@ -1379,7 +1317,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Attempting to complete pre-Calamity mission
 
 
-**Connection to Campaign:**
+**Connection to Campaign:**::
 
 - This is the intelligence behind reactivation
 
@@ -1390,14 +1328,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Final confrontation location
 
 
----
 
-\column
-
-### The Northern Drop-Off Point
+#### The Northern Drop-Off Point
 
 
-**Location:**
+**Location:**::
 
 - Beyond Salsvault
 
@@ -1406,7 +1341,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Marked on Corsair map
 
 
-**What's There:**
+**What's There:**::
 
 - Another Aeorian facility
 
@@ -1417,7 +1352,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Extremely dangerous
 
 
-**Current Use:**
+**Current Use:**::
 
 - Processing stolen artifacts
 
@@ -1428,7 +1363,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Preparation for larger plan
 
 
-**The Threat:**
+**The Threat:**::
 
 - Full research facility coming online
 
@@ -1441,19 +1376,16 @@ This document contains secret information about locations in the Northwatch Ward
 
 ---
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
+\column
 
-\page
-
-## Temple of the Dragonknights: Heroic Tomb
+### Temple of the Dragonknights: Heroic Tomb
 
 **Related Adventure:** See **Chapter 5: Temple of the Dragonknights**
 
-### The Historical Truth
+#### The Historical Truth
 
 
-**Legend:**
+**Legend:**::
 
 - Order of heroes who defended the region
 
@@ -1464,7 +1396,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Disappeared mysteriously
 
 
-**Reality:**
+**Reality:**::
 
 - Dragonknights fought post-Calamity Aeorian threats
 
@@ -1475,7 +1407,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Most died in final battle; survivors disbanded
 
 
-**The Sealed Evil:**
+**The Sealed Evil:**::
 
 - Major Aeorian research complex
 
@@ -1486,14 +1418,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Still active below the temple
 
 
-\column
----
 
 
-### Current State
+#### Current State
 
 
-**Temple Structure:**
+**Temple Structure:**::
 
 - Built over Aeorian facility
 
@@ -1504,7 +1434,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Some wards failing after centuries
 
 
-**The Catacombs:**
+**The Catacombs:**::
 
 - Tombs of fallen Dragonknights
 
@@ -1515,7 +1445,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Some tombs already disturbed
 
 
-**What's Stirring:**
+**What's Stirring:**::
 
 - Aeorian facility responding to Echo
 
@@ -1531,12 +1461,14 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor6,top:197px,left:183px,width:330px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-### Adventure Hooks
+#### Adventure Hooks
 
 
-**Immediate Threat:**
+**Immediate Threat:**::
 
 - Wards failing, need reinforcement
 
@@ -1547,7 +1479,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Draconic entities drawn to corruption
 
 
-**The Descent:**
+**The Descent:**::
 
 - Path down to Aeorian facility
 
@@ -1558,7 +1490,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Final confrontation with facility core
 
 
-**The Stakes:**
+**The Stakes:**::
 
 - Facility contains dragon-killing bioweapons
 
@@ -1569,18 +1501,16 @@ This document contains secret information about locations in the Northwatch Ward
 - Must be destroyed or sealed properly
 
 
----
 
 
-## Noke's Tower: The Wizard's Arsenal
+### Noke's Tower: The Wizard's Arsenal
 
-\column
 **Related Adventure:** See **Chapter 5: The Wild Sheep Chase**
 
-### Shinebright's True Purpose
+#### Shinebright's True Purpose
 
 
-**Public Perception:**
+**Public Perception:**::
 
 - Eccentric wizard conducting random experiments
 
@@ -1589,7 +1519,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Keeps to himself
 
 
-**Reality:**
+**Reality:**::
 
 - Dedicated Aeorian researcher
 
@@ -1600,7 +1530,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Knows about Echo and is preparing
 
 
-**The Wild Sheep Chase:**
+**The Wild Sheep Chase:**::
 
 - Not an accident—a test
 
@@ -1611,17 +1541,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Results inform anti-transformation counterspells
 
 
----
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### The Tower's Contents
+#### The Tower's Contents
 
 
-**Ground Floor:**
+**Ground Floor:**::
 
 - Appears to be living space
 
@@ -1632,7 +1556,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Can animate to defend
 
 
-**Second Floor:**
+**Second Floor:**::
 
 - Working laboratory
 
@@ -1642,8 +1566,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Scrying equipment (watching Aeorian sites)
 
+\column
 
-**Third Floor:**
+**Third Floor:**::
 
 - Observatory (astronomy and divination)
 
@@ -1654,7 +1579,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Ritual space for major magic
 
 
-**Basement (Unknown to Most):**
+**Basement (Unknown to Most):**::
 
 - Extensive Aeorian research archive
 
@@ -1665,14 +1590,11 @@ This document contains secret information about locations in the Northwatch Ward
 - Countermeasure prototypes
 
 
----
+
+#### What Shinebright Knows
 
 
-\column
-### What Shinebright Knows
-
-
-**About the Echo:**
+**About the Echo:**::
 
 - Full understanding of reactivation pattern
 
@@ -1683,7 +1605,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Predictions about next activations
 
 
-**About Aeorian Magic:**
+**About Aeorian Magic:**::
 
 - How it works fundamentally
 
@@ -1694,7 +1616,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Translation of Aeorian texts
 
 
-**About the Stakes:**
+**About the Stakes:**::
 
 - Understands full danger
 
@@ -1705,7 +1627,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Working desperately on solutions
 
 
-**What He Needs:**
+**What He Needs:**::
 
 - Specific components from Aeorian sites
 
@@ -1716,16 +1638,10 @@ This document contains secret information about locations in the Northwatch Ward
 - Time to complete countermeasures
 
 
----
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
+#### Potential Alliance
 
-\page
-
-### Potential Alliance
-
-**If Players Earn Trust:**
+**If Players Earn Trust:**::
 
 - Shares research and knowledge
 
@@ -1736,7 +1652,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Becomes crucial ally
 
 
-**Requirements for Trust:**
+**Requirements for Trust:**::
 
 - Demonstrate competence
 
@@ -1747,7 +1663,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Successfully complete test (Wild Sheep Chase)
 
 
-**What He Can Provide:**
+**What He Can Provide:**::
 
 - Translation of Aeorian text
 
@@ -1759,24 +1675,29 @@ This document contains secret information about locations in the Northwatch Ward
 - Theoretical solutions to final threat
 
 
----
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
+{{watercolor7,top:27px,left:68px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+\page
 
 
-## The Wilderness: Hidden Dangers
+### The Wilderness: Hidden Dangers
 
 
-### The Roads Between
+#### The Roads Between
 
-\column
 
-**Surface Dangers:**
+
+**Surface Dangers:**::
 
 - Weather, predators, bandits
 
 - Normal frontier hazards
 
 
-**Hidden Threats:**
+**Hidden Threats:**::
 
 - Aeorian ley lines underneath
 
@@ -1787,7 +1708,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Strategic locations being observed
 
 
-**Aeorian Ley Lines:**
+**Aeorian Ley Lines:**::
 
 - Connect crash sites
 
@@ -1798,7 +1719,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Affect area around them
 
 
-**Effects:**
+**Effects:**::
 
 - Animals behave strangely near them
 
@@ -1809,17 +1730,10 @@ This document contains secret information about locations in the Northwatch Ward
 - Strange dreams for those camping nearby
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### The Old Places
+#### The Old Places
 
 
-**Local Warnings:**
+**Local Warnings:**::
 
 - Cairns mark dangerous sites
 
@@ -1828,7 +1742,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Superstitions preserve safety
 
 
-**Reality:**
+**Reality:**::
 
 - Many old places are Aeorian sites
 
@@ -1839,7 +1753,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Actually effective protective information
 
 
-**Specific Sites:**
+**Specific Sites:**::
 
 - The Weeping Stones (automated defense station)
 
@@ -1850,14 +1764,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Three Sisters Pines (marker for sealed facility)
 
 
----
 
 
-### The Split Oak Landmark
+#### The Split Oak Landmark
 
 
-\column
-**Apparent:**
+**Apparent:**::
 
 - Notable tree, navigation landmark
 
@@ -1866,7 +1778,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Popular camping spot
 
 
-**Secret:**
+**Secret:**::
 
 - Located above underground passage
 
@@ -1876,8 +1788,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Tree exhibits unusual properties
 
+\column
 
-**The Passage:**
+**The Passage:**::
 
 - Accessible through hidden entrance
 
@@ -1888,7 +1801,7 @@ This document contains secret information about locations in the Northwatch Ward
 - If reactivated, would allow rapid movement
 
 
-**Potential Discovery:**
+**Potential Discovery:**::
 
 - Players camping there might feel vibrations
 
@@ -1899,27 +1812,20 @@ This document contains secret information about locations in the Northwatch Ward
 - Could become crucial travel route
 
 
----
-
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-## The Pattern of Sites
+### The Pattern of Sites
 
 
-### Distribution
+#### Distribution
 
 
-**Known to Players:**
+**Known to Players:**::
 
 - Salsvault (far north)
 
 - Various mentioned locations
 
 
-**Unknown to Players:**
+**Unknown to Players:**::
 
 - Multiple small facilities
 
@@ -1930,38 +1836,12 @@ This document contains secret information about locations in the Northwatch Ward
 - Central command (beyond Salsvault)
 
 
-**The Map:**
 
-
-![Diagram: Distribution](../Campaign%20Assets/Diagrams/places-secrets-distribution-l1045-e24831b0.svg)
-
-
-<!-- ASCII diagram source (converted to SVG):
-
-     [Command Center]
-
-            |
-
-      [Salsvault]
-
-            |
-
-    [Temple Facility]
-
-       /    |    \
-
-[Welton] [Waystone] [Pinebrook]
-
-    Area    Marker    Area
-
--->
-
-\column
 
 ### The Reactivation Sequence
 
 
-**Phase 1 (Current):**
+**Phase 1 (Current):**::
 
 - Testing awakening magic (Welton wolves)
 
@@ -1972,7 +1852,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Establishing monitoring (Echo growing)
 
 
-**Phase 2 (Imminent):**
+**Phase 2 (Imminent):**::
 
 - Connect facility network
 
@@ -1983,7 +1863,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Expand influence
 
 
-**Phase 3 (Catastrophic):**
+**Phase 3 (Catastrophic):**::
 
 - Resume pre-Calamity objectives
 
@@ -1994,7 +1874,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Establish control
 
 
-**Timeline:**
+**Timeline:**::
 
 - Phase 1: Already happening
 
@@ -2010,19 +1890,21 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor3,top:10px,left:416px,width:370px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## Regional Threats and Connections
+### Regional Threats and Connections
 
-### The Corsair Operation
+#### The Corsair Operation
 
 
-**Visible:**
+**Visible:**::
 
 - Criminal network stealing artifacts
 
 
-**Reality:**
+**Reality:**::
 
 - Puppets of the entity
 
@@ -2033,7 +1915,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Expendable tools
 
 
-**What Happens to Them:**
+**What Happens to Them:**::
 
 - Entity doesn't care about their survival
 
@@ -2047,11 +1929,10 @@ This document contains secret information about locations in the Northwatch Ward
 ---
 
 
-### Southern Interest
+#### Southern Interest
 
-\column
 
-**Multiple Organizations:**
+**Multiple Organizations:**::
 
 - Cobalt Soul (academic/preventive)
 
@@ -2062,7 +1943,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Cults (worship/serve entity)
 
 
-**Conflicting Agendas:**
+**Conflicting Agendas:**::
 
 - Some want to study Aeorian magic
 
@@ -2073,7 +1954,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Others worship it as divine
 
 
-**How It Affects Campaign:**
+**How It Affects Campaign:**::
 
 - Additional agents may appear
 
@@ -2084,20 +1965,15 @@ This document contains secret information about locations in the Northwatch Ward
 - Potential additional allies or enemies
 
 
----
+\column
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
-
-### The Entity's Nature
+#### The Entity's Nature
 
 
-**Possibilities (DM Decides):**
+**Possibilities (DM Decides):**::
 
 
-**Option A: Aeorian Archmage**
+**Option A: Aeorian Archmage**::
 
 - Preserved in stasis or as consciousness
 
@@ -2108,7 +1984,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Can be reasoned with but alien morality
 
 
-**Option B: Aeorian AI**
+**Option B: Aeorian AI**::
 
 - Artificial intelligence running protocols
 
@@ -2119,7 +1995,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Might be reprogrammed or shut down
 
 
-**Option C: Created Deity**
+**Option C: Created Deity**::
 
 - Aeor's attempt to become divine
 
@@ -2130,7 +2006,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Most dangerous option
 
 
-**Option D: Corrupted Dragon**
+**Option D: Corrupted Dragon**::
 
 - Ancient dragon subjected to Aeorian experiments
 
@@ -2140,15 +2016,12 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Personal vendetta component
 
-\column
-
----
 
 
-### Ultimate Stakes
+#### Ultimate Stakes
 
 
-**If Entity Succeeds:**
+**If Entity Succeeds:**::
 
 - Aeorian weapons fully active
 
@@ -2161,7 +2034,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Northreach becomes base for expansion
 
 
-**If Players Partially Succeed:**
+**If Players Partially Succeed:**::
 
 - Delay activation
 
@@ -2172,7 +2045,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Buy time for evacuation/preparation
 
 
-**If Players Fully Succeed:**
+**If Players Fully Succeed:**::
 
 - Prevent complete activation
 
@@ -2188,15 +2061,17 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor5,top:486px,left:289px,width:282px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Using Location Secrets
 
 
-### Discovery Pacing
+#### Discovery Pacing
 
 
-**Early Campaign:**
+**Early Campaign:**::
 
 - Surface mysteries only
 
@@ -2205,7 +2080,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Local threats seem isolated
 
 
-**Mid Campaign:**
+**Mid Campaign:**::
 
 - Connections become clear
 
@@ -2214,7 +2089,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Scope of threat understood
 
 
-**Late Campaign:**
+**Late Campaign:**::
 
 - Full picture emerges
 
@@ -2225,11 +2100,10 @@ This document contains secret information about locations in the Northwatch Ward
 - Final facilities explored
 
 
-\column
-### Investigation Rewards
+#### Investigation Rewards
 
 
-**Thorough Exploration:**
+**Thorough Exploration:**::
 
 - Hidden journals and maps
 
@@ -2240,8 +2114,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Clues to next locations
 
 
-**Careful Research:**
-
+**Careful Research:**::
 - Pattern recognition
 
 - Historical connections
@@ -2251,7 +2124,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Strategic advantages
 
 
-**Social Intelligence:**
+**Social Intelligence:**::
 
 - NPC knowledge shared
 
@@ -2261,10 +2134,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Network exposure
 
-{{pageNumber,auto}}
-{{footnote Places of Northreach: DM Secrets}}
-
-\page
+\column
 
 ### Multiple Paths
 
@@ -2318,6 +2188,8 @@ This document contains secret information about locations in the Northwatch Ward
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
 
+{{watercolor13,top:606px,left:460px,width:393px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Campaign Integration
@@ -2357,7 +2229,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Stakes: Gaining expert on Aeorian magic
 
-\column
+
 
 ### For Temple Adventure
 
@@ -2390,3 +2262,6 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{pageNumber,auto}}
 {{footnote Places of Northreach: DM Secrets}}
+
+{{watercolor6,top:464px,left:182px,width:285px,background-color:#BBAD82,opacity:80%}}
+

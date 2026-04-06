@@ -7,8 +7,21 @@
 -->
 
 \page
+{{partCover}}
+
+# Temple 
+## of the Dragonknights
+
+{{imageMaskEdge5,--offset:10cm,--rotation:180
+  ![Background image](https://i.imgur.com/9TU96xY.jpg){position:absolute,bottom:0,left:0,height:100%}
+}}
+
+
+{{watercolor1,top:608px,left:69px,width:288px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 # Temple of the Dragonknights
-## Northwatch Wardens Integration (DM)
 
 {{note
 **Arc Position:** :: Arc 3 — *Convergence*
@@ -28,22 +41,24 @@ The Aeorian Echo is not only spreading disease, awakening wolves, and destabiliz
 - That the temple's founders knew something was sealed beneath it
 - And that stopping one dragon does not stop the signal
 
-#### **Arc 1: First Signs**
+{{note
+###### **Arc 1: First Signs**
 - Wolves of Welton → awakened animal intelligence
 - Peril in Pinebrook → smuggling and corruption
 - Wild Sheep Chase → magical item destabilization
 - Opening Adventures → frontier danger and Warden identity
 
-#### **Arc 2: Revelation**
+###### **Arc 2: Revelation**
 - Frozen Sick → Salsvault reactivated; the Echo has a source
 - Wild Sheep Chase → the Echo corrupts all magic, not just creatures
 - Arc 2 closes: source confirmed, scope terrifying
 
-#### **Arc 3: Convergence** 
+###### **Arc 3: Convergence** 
 - The Wardens encounter the first **faction response** to the Echo
 - A young dragon and her kobold cult are exploiting a convergence point
 - The temple's true purpose — sealing an Aeorian facility — is partially revealed
 - Arc 3 closes: the problem will attract worse things unless the source is addressed
+}}
 
 The Temple of the Dragonknights is the moment the campaign's stakes become geopolitical: :: **"The Echo isn't just dangerous — it's a beacon. Everything that hungers for power can feel it."**
 
@@ -83,6 +98,8 @@ These are the truths the players can uncover through exploration, interrogation,
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
+
+{{watercolor9,top:749px,left:484px,width:359px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -152,6 +169,8 @@ By completing Temple of the Dragonknights, the Wardens learn:
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
+
+{{watercolor3,top:260px,left:230px,width:335px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -224,6 +243,8 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
+{{watercolor1,top:748px,left:262px,width:369px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Key NPCs
@@ -287,6 +308,8 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
+
+{{watercolor13,top:492px,left:442px,width:342px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -361,6 +384,8 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 {{pageNumber,auto}}
 {{footnote Temple of the Dragonknights}}
 
+{{watercolor6,top:471px,left:432px,width:375px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 # DM Notes: Temple of the Dragonknights
@@ -371,15 +396,6 @@ It consolidates tone guidance, pitfalls, scaling, and improvisation tools.
 The most important note: **Venomfang is not a monster. She is a person with goals. Play her that way.**
 }}
 
-### Adventure Overview (DM Lens)
-
-**Theme:** Ambition and exploitation — factions respond to the Aeorian Echo.
-**Core Tension:** A young dragon has claimed a convergence point she doesn't fully understand, and stopping her doesn't stop the signal.
-**Tone:** Dangerous, morally complex, with room for negotiation and creative tactics.
-**Level Range:** 3–5 (campaign capstone).
-**Expected Duration:** 4–6 hours (single or two-session adventure).
-
----
 
 ### Common DM Pitfalls & Fixes
 
@@ -405,8 +421,6 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 - Captured kobolds have names (DM's choice) and opinions about Venomfang that are touching in their sincerity
 - When Venomfang flees, the kobolds' faces are the real consequence — they just watched their god leave
 
----
-\column
 #### **3. The Cavern Becomes a Grind**
 
 **Problem:** :: Verdanthorn Warren has many areas; without pacing it becomes exhausting.
@@ -416,6 +430,8 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 - The kobolds in sleeping quarters are genuinely asleep if the Wardens have been quiet
 - Let the puzzle in Area 5 feel like a discovery, not a gate
 - The bridge crossing should be tense the first time and routine after — don't make them roll every crossing
+\column
+
 
 #### **4. Venomfang Fight Is TPK-Bait**
 
@@ -449,6 +465,8 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor8,top:579px,left:269px,width:319px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -525,6 +543,8 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
+{{watercolor13,top:744px,left:133px,width:322px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## DM Prep Checklist
@@ -579,9 +599,11 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
+{{watercolor7,top:354px,left:88px,width:314px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
-## Part I: Waystone Inn
+### Part I: Waystone Inn
 
 {{note
 This section begins the adventure proper. The Wardens are at **Waystone Inn** when the kobold raid begins. This phase establishes the threat, the human cost, and the uncomfortable truth that the Echo's fallout is now close enough to touch. Keep this section fast and visceral. The raid should feel dangerous and urgent, not like an introductory tutorial.
@@ -592,20 +614,18 @@ You are spending an evening at Waystone Inn — warm light in the windows, wet b
 Then the screaming starts.
 }}
 
----
+
 
 #### Waystone Inn (Common Room → Yard)
 
 The Wardens are at Waystone Inn when the sounds of combat erupt outside. Steward Mara Fenwick is already moving — hauling bandages, barking short instructions, making the common room a triage point without asking permission.
 
-The moment the first crash of splintering wood hits the yard, Mara looks at the Wardens and says, simply: "They're back. Don't let them take anything alive."
+The moment the first crash of splintering wood hits the yard, Mara looks at the Wardens and says, simply: *"They're back. Don't let them take anything alive."*
 
-This leads directly into -  
-
----
 
 #### Kobolds vs. Auxiliaries
 
+**Scaling:** For 4–5 players, add **two** additional kobolds.
 {{descriptive
 Outside, two Warden auxiliaries and a couple of hired hands are trying to hold a line at the inn yard gate against **four** green-scaled kobolds pouring in low and fast. One auxiliary is already down. A fifth kobold has broken off from the main group and is dragging a barrel of supplies toward the treeline.
 
@@ -615,23 +635,22 @@ In the chaos, you can see a man slumped against the inn's outer wall. He is brea
 The auxiliaries are outmatched and know it. They will fight bravely but will retreat if the Wardens don't intervene. Use the **Guard** stat block for auxiliaries (see below). The kobolds are organized — one leads, the others follow tactical signals.
 
 {{note
-**Scaling:** For 4–5 players, add **two** additional kobolds (for a total of 6 + the thief).
-}}
 
-{{note
-**Running This Fight (fast):**
+
+###### **Running This Fight (fast):**
 
 - **Terrain:** The yard gate is a 10-foot choke point. Barrels, a woodpile, and a trough provide **half cover**. Lantern light means no one is fighting in full darkness.
 - **Civilians:** Any noncombatants stay behind the inn doors unless the Wardens lose the line.
 - **Kobold tactics:** Two kobolds harry whoever looks easiest to drop (Pack Tactics), while one stays near the thief to cover the retreat with sling stones.
 - **Morale:** If **half the kobolds** are dropped or the thief is captured, the remaining kobolds **Disengage and flee** north. They are raiders, not martyrs.
+- **The thief kobold** will flee north with the supplies. 
 }}
 
-**The thief kobold** will flee north with the supplies if not intercepted. If captured, he can be interrogated — see **Capturing a Kobold** below.
 
-Resolving this encounter without civilian casualties yields the Wardens immediate goodwill from Waystone Inn's staff and the surrounding travelers.
 
 \column
+
+
 
 ### Saving Joel Andersmith
 
@@ -681,11 +700,13 @@ The kobold's eyes, which have been darting to every exit, finally fix on you wit
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
+{{watercolor5,top:112px,left:153px,width:257px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## Resupply at Waystone Inn
 
-Before heading north, the Wardens may wish to resupply.
+Before heading north, the Wardens may resupply.
 
 **Steward Mara Fenwick:** :: Mara can provide arrows, rope, torches, rations, and basic equipment repair from guild stores.
 
@@ -715,8 +736,6 @@ The eastern half of the barn is caved in, with splintered wood and broken barrel
 
 The remnants of ransacked supply barrels are visible. These match the stolen goods the kobolds were carrying during the raid.
 
-\column
-
 ### The Farmhouse
 
 **Inside:** a main room that has been thoroughly overturned. Two hallways branch left and right.::
@@ -724,6 +743,10 @@ The remnants of ransacked supply barrels are visible. These match the stolen goo
 **Left Hall:** Joel's son's room — the boy is dead, a simple shortsword at his side. Across the hall, his daughter's room is empty except for ruined furniture and a bloodstained child's toy left in the bed.::
 
 **Right Hall:** A washroom and a master bedroom. In the bedroom, Joel's wife is dead. A **DC 10 Survival** check reveals footprints leading away from the house — multiple sets, heading north to the tree line, including one set that is distinctly smaller than the others and facing backward, as though someone was being carried.::
+
+
+
+\column
 
 {{note
 **Investigation DC 12:** The kobold tracks show discipline — they moved in two groups, one drawing attention while the other completed the objective. These are not random raiders. This was organized.
@@ -769,8 +792,9 @@ Dispatching them quietly allows the Wardens to approach the cave entrance withou
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
-\page
+{{watercolor11,top:236px,left:118px,width:277px,background-color:#BBAD82,opacity:80%}}
 
+\page
 
 ## Part II: Verdanthorn Warren
 
@@ -778,7 +802,7 @@ Dispatching them quietly allows the Wardens to approach the cave entrance withou
 
 ---
 
-#### The Entry Chamber
+### The Entry Chamber
 
 The cave entrance opens into a wide natural chamber. The moment the Wardens enter, a **winged kobold** drops from a ledge above the door and attacks immediately — it was waiting.
 
@@ -787,16 +811,14 @@ Dispatching it quickly (before it can call out) prevents alerting the rest of th
 {{note
 **Spotting the ambush:** If a Warden's **passive Perception is 13+**, they notice the winged kobold's shadow/wing-scrape on stone before it drops. Otherwise, it acts in the opening moment with **Drop Rock**, then tries to **fly up and shriek**.
 
-**Winged kobold goal:** Not to win — to **raise the alarm**.
-}}
+**Winged kobold goal:** :: Not to win — to **raise the alarm**.
 
-{{note
 **Lighting:** The cavern has no light source beyond the entrance. Kobolds have darkvision; the Wardens may not.::
 
 **The Bridge:** On the far side of this chamber, a rickety rope bridge crosses a 20-foot drop to an underground lake. The lake is not dangerous on its own — but see Area 3 for what lives in it.::
 }}
 
-##### Crossing the Bridge
+#### Crossing the Bridge
 
 | Weight (lbs) | DC |
 |:---|:---:|
@@ -814,6 +836,10 @@ The check uses Acrobatics. If any Warden falls, roll a d10: on a 1 they take 1d6
 
 **Crossing the bridge** safely yields the party an obvious sense of progress — the kobold encampment sounds are closer now.
 
+
+
+---
+\column
 #### The Puzzle Clue
 
 A piece of parchment pinned to the bridge post reads in Common:
@@ -824,8 +850,6 @@ A piece of parchment pinned to the bridge post reads in Common:
 Below the words is an emblem — a serpentine creature wrapped around a sword. On the back, in scrawled Draconic: *"We delivered the girl to the robed ones. The master was pleased. Whatever she wants with the human, it's not our concern."*
 }}
 
----
-\column
 #### The Kobold Barracks
 
 Up a rough-cut staircase from the lower level, this wider chamber serves as the kobold encampment. Three sleeping areas are marked by crude tents and bedrolls.
@@ -854,12 +878,17 @@ Use the **Kobold** stat block.
 - **DC 10 Perception:**  A section of the eastern wall sounds hollow. **DC 14 Athletics:** Forces it open; inside are stolen trade goods and supplies meant for Waystone Inn (worth 100 gp to the guild if returned).
 }}
 
-##### Triggering the Trap
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor12,top:355px,left:339px,width:317px,background-color:#BBAD82,opacity:80%}}
+\page
+#### Triggering the Trap
 
 Immediately past the staircase top, a pressure plate triggers if anyone over 120 lbs steps on it. **DC 12 Perception** detects it; disarming it requires **DC 10 Thieves' Tools**. If triggered, everyone in a 5-foot square takes 1d6 bludgeoning damage from a shower of rocks.
 
 
-#### The Underground Lake
+### The Underground Lake
 
 From the bridge, a narrow ledge (requiring **DC 8 Acrobatics** to traverse) leads around the edge of the underground lake to a passage on the far side. The lake is 20 feet deep and extremely cold. The quippers are more aggressive than normal — something about this place makes the wildlife agitated.
 
@@ -888,6 +917,8 @@ The stone doors grind open, revealing a carved staircase ascending into the moun
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
+
+{{watercolor12,top:355px,left:339px,width:317px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -958,6 +989,8 @@ ___
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
+{{watercolor13,top:614px,left:322px,width:368px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ## The Armory
@@ -1022,6 +1055,8 @@ They are not celebrating. They are keeping watch.
 
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
+
+{{watercolor4,top:425px,left:445px,width:331px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1102,6 +1137,8 @@ This leads directly into the Venomfang confrontation — see **The Dragon's Lair
 {{pageNumber,auto}}
 {{footnote Part III: Temple of the Dragonknights}}
 
+{{watercolor2,top:229px,left:64px,width:263px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 # The Dragon's Lair
@@ -1157,6 +1194,8 @@ Venomfang is not a monster in the moral sense — she is a creature who operates
 
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
+
+{{watercolor9,top:340px,left:219px,width:300px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1230,6 +1269,8 @@ ___
 
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
+
+{{watercolor10,top:586px,left:95px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1327,6 +1368,8 @@ ___
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
+{{watercolor9,top:672px,left:311px,width:273px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 {{monster,frame
@@ -1381,6 +1424,8 @@ ___
 
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
+
+{{watercolor1,top:299px,left:459px,width:378px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1468,7 +1513,10 @@ ___
 {{pageNumber,auto}}
 {{footnote The Dragon's Lair}}
 
+{{watercolor5,top:713px,left:481px,width:350px,background-color:#BBAD82,opacity:80%}}
+
 \page
+
 {{wide
 # Section 8: Resolution Paths
 
@@ -1549,6 +1597,8 @@ She is telling the truth.
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
 
+{{watercolor8,top:572px,left:150px,width:298px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 ### Seal or Collapse the Temple
@@ -1601,6 +1651,8 @@ Waystone Inn settles into a kind of exhausted relief — the sort that only come
 
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
+
+{{watercolor1,top:382px,left:122px,width:370px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1691,14 +1743,17 @@ The frontier is no longer just changing. It is being claimed.
 {{pageNumber,auto}}
 {{footnote Section 8: Resolution Paths}}
 
+{{watercolor11,top:562px,left:316px,width:282px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
 # Quick Reference During Play
 
 ### Key DC Checks
 
+
 ###### **Waystone Raid Response:**
-DC 10 Medicine: :: Stabilize Joel Andersmith
+-DC 10 Medicine: :: Stabilize Joel Andersmith
 DC 12 Insight: :: Joel is telling the truth — he is not confused or exaggerating
 DC 10 Survival: :: Track kobolds north to the Andersmith Farm
 
@@ -1732,7 +1787,7 @@ DC 11 Intimidation: :: Effective only after demonstrating combat ability (50% HP
 DC 12 Deception: :: Convince her the party has a tactical advantage they don't
 DC 15 Arcana: :: Explain the Aeorian facility — changes her risk calculation significantly
 
----
+\column
 
 ### Encounter Scaling Quick Reference
 
@@ -1754,7 +1809,7 @@ DC 0 Temple Area 2: :: 1 kobold cultist + 1 kobold guard
 DC 0 Temple Area 4: :: 5 kobold cultists + 2 kobold guards
 DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
-\column
+
 
 ### Pacing Guide (4–6 Hour Session)
 
@@ -1790,6 +1845,8 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
 {{pageNumber,auto}}
 {{footnote Quick Reference During Play}}
+
+{{watercolor12,top:196px,left:221px,width:387px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -1830,7 +1887,7 @@ The silence after this is the silence of a creature deciding it would prefer not
 }}
 
 \column
-### Venomfang Quick Stats
+#### Venomfang Quick Stats
 
 **AC:** :: 18 (natural armor)
 **HP:** :: 136 (16d10 + 48) | *Half-HP version:* 68
@@ -1849,7 +1906,7 @@ The silence after this is the silence of a creature deciding it would prefer not
 - Dragon eggs (3 intact): she will not Poison Breath in their direction — use this
 
 
-### Important Names
+#### Important Names
 
 **Venomfang:** :: Young green dragon; ambitious, pragmatic, not mindlessly evil
 **Joel Andersmith:** :: Farmer, quest giver, father
@@ -1859,7 +1916,7 @@ The silence after this is the silence of a creature deciding it would prefer not
 **Marshal Brenna Thorne:** :: Field commander; evaluates outcomes and sets priorities
 **Lorewarden Elric Vael:** :: Arcane scholar; debriefs and tracks convergence points
 
-## Post-Session Tasks
+#### Post-Session Tasks
 
 - [ ] Update Campaign Tracker: Temple of the Dragonknights completed
 - [ ] Note Venomfang's fate (killed / driven away / negotiated with / truce)
@@ -1867,7 +1924,11 @@ The silence after this is the silence of a creature deciding it would prefer not
 - [ ] Record if players disrupted or collapsed the convergence point
 - [ ] Note Clementine's rescue and Joel's reunion (character moment worth tracking)
 - [ ] Track Sera Gelanadel's status — she becomes a recurring contact at Waystone
-- [ ] Award XP or milestone level-up (Party → Level 4 or 5)
+- [ ] Award XP or milestone level-up 
 - [ ] Note party's reaction to the Dragonknight ward anchor revelation
 - [ ] Prepare Elric's follow-up hooks (other convergence points, Salsvault, faction movements)
 - [ ] If Venomfang escaped: note potential future encounter and her stated warning
+
+{{watercolor13,top:743px,left:325px,width:360px,background-color:#BBAD82,opacity:80%}}
+
+\page

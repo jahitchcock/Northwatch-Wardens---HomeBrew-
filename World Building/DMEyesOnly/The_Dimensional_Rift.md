@@ -6,11 +6,9 @@
   Linked: World Building/DMEyesOnly/The_Aeorian_Echo.md
 -->
 
-# The Dimensional Rift: Aeor's Fall Across Worlds
+## The Dimensional Rift: Aeor's Fall Across Worlds
 
-**DM EYES ONLY — Campaign Lore Foundation**
-
----
+DM EYES ONLY — Campaign Lore Foundation
 
 ## Overview
 
@@ -20,9 +18,8 @@
 
 ---
 
-## What Actually Happened (The Rift Event)
-
-### The Fall of Aeor (Wildemount, Age of Arcanum)
+### What Actually Happened
+#### The Fall of Aeor
 
 In Exandria's distant past, the flying city-state of **Aeor** challenged the gods themselves with weapons designed to kill divinity. The gods responded by casting down Aeor into the frozen wastes of Eiselcross, shattering the city into countless fragments.
 
@@ -30,7 +27,7 @@ In Exandria's distant past, the flying city-state of **Aeor** challenged the god
 
 ### The Dimensional Cascade
 
-As Aeor fell:
+As Aeor fell: ::
 - Massive arcane engines exploded mid-descent
 - Divine retribution collided with Aeorian anti-god weapons
 - The resulting magical shockwave created **dimensional rifts**—tears in the boundaries between worlds
@@ -39,7 +36,7 @@ As Aeor fell:
 
 One of those fragments—a massive section containing the research laboratory **Salsvault**—fell through a rift and landed in **The Far North of Aevoria**, hundreds or even thousands of years ago (the exact time is unclear; time flows differently between planes).
 
-\column
+
 
 ### Why It Stayed Hidden
 
@@ -51,7 +48,7 @@ The fragment that became Salsvault in Aevoria:
 
 **Until recently, when something triggered its reactivation.**
 
----
+\column
 
 ## The Aeorian Echo in Context
 
@@ -84,24 +81,25 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 {{pageNumber,auto}}
 {{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
 
+{{watercolor9,top:121px,left:316px,width:268px,background-color:#BBAD82,opacity:80%}}
+
 \page
 
----
 
 ## How This Explains Campaign Continuity
 
 ### Overlap Between Worlds
 
-**Canonical Wildemount Content:** Adventures like *Frozen Sick* reference places and history from Exandria/Wildemount because they were WRITTEN for that setting.
+**Canonical Wildemount Content:** ::Adventures like *Frozen Sick* reference places and history from Exandria/Wildemount because they were WRITTEN for that setting.
 
-**Aevoria Adaptation:** Those references now make sense as **dimensional echoes**:
+**Aevoria Adaptation:** ::Those references now make sense as **dimensional echoes**:
 - Names like "Aeor," "Uthodurn," and "Eiselcross" exist in legends and ancient texts found in Salsvault
 - Researchers in Aevoria (like Lorewarden Elric) have no context for these names—they're treating them as ancient languages or lost civilizations
 - Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
 
 ### Major Differences Explained
 
-**Why Aevoria ≠ Exandria:**
+**Why Aevoria ≠ Exandria:**::
 - Different continents, nations, pantheons, cultures
 - No Dwendalian Empire, no Kryn Dynasty, no Mighty Nein
 - The gods in Aevoria have different names and relationships
@@ -111,9 +109,9 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 ---
 
-## What Players Might Discover
+### What Players Might Discover
 
-### Tier 1-2 (Season One): Surface Clues
+#### Tier 1-2 (Season One): Surface Clues
 
 Players won't understand the dimensional aspect yet. They'll learn:
 - Salsvault is an ancient ruin of a civilization called "Aeor"
@@ -123,7 +121,9 @@ Players won't understand the dimensional aspect yet. They'll learn:
 
 **Key Item:** Players might find ancient texts or inscriptions in Salsvault that reference places like "Eiselcross" or "Uthodurn"—names that mean nothing to anyone in Aevoria. This creates mystery: *Where did this civilization come from?*
 
-### Tier 3-4 (Season Two+): Deeper Truths
+\column
+
+#### Tier 3-4 (Season Two+): Deeper Truths
 
 If campaigns continue:
 - Researchers (Lorewarden Elric, mages) might theorize about "planar displacement" or "dimensional echoes"
@@ -131,9 +131,9 @@ If campaigns continue:
 - Players could discover OTHER Aeorian fragments scattered across Aevoria (more ruins, more echoes)
 - The dimensional rift might still be unstable—could Aevoria be pulled into Exandria's conflicts?
 
-\column
 
-### Tier 5 (Epic Campaign): The Rift Itself
+
+#### Tier 5 (Epic Campaign): The Rift Itself
 
 If campaigns reach epic levels:
 - Players might discover the actual dimensional rift beneath The Far North
@@ -143,24 +143,32 @@ If campaigns reach epic levels:
 
 ---
 
-## DM Guidance: Using This Lore
+### DM Guidance: Using This Lore
 
-### What to Reveal, When
+#### What to Reveal, When
 
-**Session 0-5 (Early Campaign):**
+**Session 0-5 (Early Campaign):**::
 - "Aeor" is just a name—ancient civilization, unknown origins
 - Salsvault is a ruin with dangerous magic
 - The Echo is a magical disturbance spreading across the region
 
-**Session 6-12 (Mid Campaign):**
+**Session 6-12 (Mid Campaign):**::
 - Salsvault contains technology far beyond current Aevorian magic
 - Inscriptions reference places that don't exist in known geography
 - Some researchers theorize Aeor wasn't FROM Aevoria originally
 
-**Session 13+ (Late Campaign / Future Seasons):**
+**Session 13+ (Late Campaign / Future Seasons):**::
 - Evidence of dimensional displacement (planar residue, rift signatures)
 - Discovery of the actual rift site
 - Choice point: What do the Wardens do with this knowledge?
+
+{{pageNumber,auto}}
+{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+
+{{watercolor12,top:97px,left:40px,width:346px,background-color:#BBAD82,opacity:80%}}
+
+\page
+
 
 ### Improvisation Tips
 
@@ -178,12 +186,8 @@ If campaigns reach epic levels:
 - They might glimpse Aeor falling through the sky in a DIFFERENT world (snow-covered mountains, twin moons, etc.)
 - This creates mystery without giving away the full answer
 
-{{pageNumber,auto}}
-{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
 
-\page
-
----
+\column
 
 ## Why This Design Works
 
@@ -218,3 +222,4 @@ Any Wildemount-specific references in published material can be hand-waved as "a
 **Last Updated:** February 10, 2026  
 **Campaign Status:** Foundational lore for Season One and beyond  
 **Player Knowledge:** None (this is DM-only background)
+
