@@ -26,3 +26,4 @@ build/*.pdf
 # Test files
 test-*.js
 build/test-*.json
+/.claude/worktrees
