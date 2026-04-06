@@ -41,6 +41,7 @@
         "../Season 1/DM_Resources/NORTHWATCH WARDENS - Campaign Arc.md",
         "../Season 1/DM_Resources/Core_Mystery_Definition.md",
         "../Season 1/DM_Resources/Campaign_Bridge_Pinebrook_FrozenSick.md",
+        "../Season 1/DM_Resources/Adventure_Secrets_Quick_Reference.md",
         "../Season 1/DM_Resources/Foreshadowing_Database.md",
         "../Season 1/DM_Resources/DM Guild Roster.md",
         "../Season 1/DM_Resources/NPC_Relationship_Diagram.md",
@@ -70,14 +71,26 @@
         {
           "title": "Wolves of Welton",
           "files": [
-            "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md",
-            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md"
+            "../Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md"
           ]
         },
         {
           "title": "The Wild Sheep Chase",
           "files": [
             "../Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md"
+          ]
+        },
+        {
+          "title": "Peril in Pinebrook",
+          "files": [
+            "../Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md"
+          ]
+        },
+        {
+          "title": "Frozen Sick",
+          "files": [
+            "../Season 1/Adventures/Frozen Sick/Frozen Sick.md",
+            "../Season 1/Adventures/Frozen Sick/Frozen_Sick_Stat_Blocks.md"
           ]
         },
         {
@@ -94,6 +107,7 @@
       "files": [
         "../World Building/DMEyesOnly/The_Aeorian_Echo.md",
         "../World Building/DMEyesOnly/The_Dimensional_Rift.md",
+        "../World Building/DMEyesOnly/Northreach.md",
         "../World Building/DMEyesOnly/People_Secrets.md",
         "../World Building/DMEyesOnly/Places_Secrets.md",
         "../World Building/DMEyesOnly/Nullwood_Secrets.md",
@@ -103,7 +117,8 @@
         "../World Building/DMEyesOnly/StoneboundDepths.md",
         "../World Building/DMEyesOnly/SunkenDominion.md",
         "../World Building/DMEyesOnly/VerdantMarches.md",
-        "../World Building/DMEyesOnly/Vharoxis.md"
+        "../World Building/DMEyesOnly/Vharoxis.md",
+        "../World Building/DMEyesOnly/Solaris.md"
       ]
     },
     {

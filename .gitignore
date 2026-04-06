@@ -22,6 +22,9 @@ logs/sync/*.txt
 # Build system
 node_modules/
 build/*.pdf
+build/*.diff
+build/*.txt
+build/col-pos-stats.txt
 
 # Test files
 test-*.js
