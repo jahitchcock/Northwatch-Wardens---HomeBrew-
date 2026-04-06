@@ -43,7 +43,7 @@ jobs:
       run: |
         echo "Checking XML well-formedness..."
         FAIL=0
-        for f in $(find . -name "*.xml" -not -path "./.git/*"); do
+        while IFS= read -r -d '' f; do
           if ! python3 -c "import xml.etree.ElementTree as ET; ET.parse('$f')" 2>/dev/null; then
             echo "❌ XML parse error in: $f"
             python3 -c "import xml.etree.ElementTree as ET; ET.parse('$f')"
@@ -51,7 +51,7 @@ jobs:
           else
             echo "✅ $f"
           fi
-        done
+        done < <(find . -name "*.xml" -not -path "./.git/*" -not -path "./node_modules/*" -print0)
         if [ $FAIL -ne 0 ]; then
           echo "XML validation failed. Fix errors before building."
           exit 1
