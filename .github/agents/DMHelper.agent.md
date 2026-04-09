@@ -34,9 +34,26 @@ This Copilot agent assists with generating, expanding, and maintaining the **Gam
 
 ---
 
+## Agentic Loop: Observe → Plan → Act → Reflect
+
+All workflows in this agent follow an iterative loop. **Never act without first observing current state; never finish a step without reflecting on the result.**
+
+| Phase | What to do |
+|-------|-----------|
+| **🔍 Observe** | Read relevant files in full, check existing UIDs, verify canonical geography and NPC roster, run build/validate if needed |
+| **📋 Plan** | Write out the ordered steps before touching any file; identify UID conflicts, canon issues, format requirements |
+| **⚡ Act** | Execute one step at a time — write one file, then stop |
+| **🔎 Reflect** | Validate output (XML structure, Homebrewery render, build), confirm no regressions, loop back if more steps remain |
+
+Loop until the goal is verified. **"Should work" is never sufficient — show evidence from validation commands.**
+
+---
+
 ## Standard Workflows
 
 ### Creating a New Adventure
+
+**Observe first:** Read `LionsdenGameFiles/Northwatch_Wardens.xml` to find the highest existing `<uid>`, read `build/dms-guide-toc.json`, read `.github/templates/adventure_template.md`.
 
 1. Confirm setting location is in canonical geography (see table below)
 2. Create `Season 1/Adventures/<Name>/` with:
@@ -45,23 +62,29 @@ This Copilot agent assists with generating, expanding, and maintaining the **Gam
 3. Required markdown sections: hooks, scenes with `{{descriptive}}`/`{{note}}` blocks, balancing callouts, Aeorian Echo clue, consequences, future hooks
 4. Add XML `<adventure>` entry to `LionsdenGameFiles/Northwatch_Wardens.xml`
 5. Add to `build/dms-guide-toc.json`
-6. Run `./build.sh --dms` to verify output
+6. **Reflect:** Run `./build.sh --dms` to verify output; confirm XML UIDs are unique; confirm Homebrewery sections render
 
 ### Creating a New NPC
 
-1. Check `Season 1/Campaign Assets/DM Guild Roster.md` for existing names/conflicts
+**Observe first:** Read `Season 1/DM_Resources/DM Guild Roster.md` to check name conflicts; scan `LionsdenGameFiles/Northwatch_Wardens.xml` for the highest existing UID.
+
+1. Check `Season 1/DM_Resources/DM Guild Roster.md` for existing names/conflicts
 2. Generate Homebrewery `{{monster,frame}}` stat block + `{{note}}` personality block
 3. Generate XML `<npc>` entry with unique UID (check `Northwatch_Wardens.xml` for highest existing UID)
 4. Append to `DM Guild Roster.md` using the existing format
 5. Insert XML into `Northwatch_Wardens.xml` inside `<campaign>`
+6. **Reflect:** Re-read the XML entry to confirm UID is unique and nesting is correct; re-read the roster entry to confirm format matches existing entries
 
 ### Validating XML
+
+**Observe first:** Read the full XML file before proposing any changes.
 
 1. Confirm root is `<data version="5">` not `<compendium>`
 2. Check nesting: `campaign > adventure > encounter > combatant > monster`
 3. Verify all `<uid>` values are unique across the file
 4. Confirm all attack `<action>` blocks have both `<atk>` and `<dmg>`
 5. Confirm long `<text>` fields use `<![CDATA[...]]>`
+6. **Reflect:** After any fix, re-validate the entire file — one fix can reveal another issue
 
 ### Querying D&D 5e API (MCP Server)
 

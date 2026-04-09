@@ -52,7 +52,7 @@ Never invent locations. All Northreach locations:
 
 **XML (Game Master 5e):** Nest `campaign > adventure > encounter > combatant > monster`. Unique UIDs required. CDATA for long text. For XML work → DMHelper agent (`.github/agents/DMHelper.agent.md`).
 
-**Content Design:** Adventures are order-independent, support 2–5 players, include subtle Aeorian Echo clues. Guild NPCs: **Marshal Brenna Thorne** (field), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane). Full roster: `Season 1/Campaign Assets/DM Guild Roster.md`. Tone: grounded low-magic frontier.
+**Content Design:** Adventures are order-independent, support 2–5 players, include subtle Aeorian Echo clues. Guild NPCs: **Marshal Brenna Thorne** (field), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane). Full roster: `Season 1/DM_Resources/DM Guild Roster.md`. Tone: grounded low-magic frontier.
 
 ## Commands
 
@@ -85,6 +85,7 @@ Never invent locations. All Northreach locations:
 
 | Skill | Use |
 |-------|-----|
+| `observe-plan-act-reflect` | **Outer loop for all multi-step tasks** — observe state, plan, act one step, reflect and iterate |
 | `brainstorming` | **Mandatory** before creative work — explores intent, requirements, design |
 | `writing-plans` | Before multi-step tasks — produces reviewable implementation plan |
 | `executing-plans` | Run a written plan with review checkpoints |
@@ -126,5 +127,5 @@ Never invent locations. All Northreach locations:
 | `.github/agents/DMHelper.agent.md` | DMHelper agent: XML, stat blocks, D&D API |
 | `build/players-guide-toc.json` | Player's guide chapter structure |
 | `build/dms-guide-toc.json` | DM's guide chapter structure |
-| `Season 1/Campaign Assets/DM Guild Roster.md` | NPC details + secrets |
+| `Season 1/DM_Resources/DM Guild Roster.md` | NPC details + secrets |
 | `World Building/DMEyesOnly/` | DM-only secrets (never in player content) |

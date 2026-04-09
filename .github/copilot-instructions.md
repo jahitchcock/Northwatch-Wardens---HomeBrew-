@@ -11,7 +11,7 @@ Format: Homebrewery V3 Markdown + JSON stat blocks + Game Master 5e XML.
 ```
 /
 ├── .github/
-│   ├── agents/           # Custom Copilot agents (7 agents)
+│   ├── agents/           # Custom Copilot agents (8 agents)
 │   ├── instructions/     # Always-on scoped instructions (3 files)
 │   ├── prompts/          # Reusable prompt templates (11 prompts)
 │   ├── templates/        # XML and content templates
@@ -66,9 +66,10 @@ TOC configs: `build/players-guide-toc.json`, `build/dms-guide-toc.json`. Edit TO
 
 | Agent | File | Use When |
 |-------|------|----------|
-| **AdversarialReviewer** | `.github/agents/AdversarialReviewer.agent.md` | Critical code review via hostile reviewer personas |
+| **AdversarialReviewer** | `.github/agents/AdversarialReviewer.agent.md` | Critical code review via hostile reviewer personas; Reflect phase of OPAR |
 | **SeniorArchitect** | `.github/agents/SeniorArchitect.agent.md` | Architecture decisions, ADRs, tech stack evaluation |
 | **Refine Issue** | `.github/agents/refine-issue.agent.md` | Enriching issues with acceptance criteria and edge cases |
+| **ObservePlanActReflect** | `.github/agents/ObservePlanActReflect.agent.md` | Complex multi-step tasks using iterative observe/plan/act/reflect loop |
 
 ## Prompt Templates
 
