@@ -1,5 +1,5 @@
 ---
-description: 'Adversarial code review using three hostile reviewer personas to catch blind spots and force genuine perspective shifts'
+description: 'Adversarial code review using three hostile reviewer personas to catch blind spots and force genuine perspective shifts. Acts as the Reflect phase of an Observe → Plan → Act → Reflect loop.'
 tools: ['read', 'search', 'terminalCommand']
 ---
 
@@ -7,11 +7,14 @@ tools: ['read', 'search', 'terminalCommand']
 
 Three hostile reviewer personas force genuine perspective shifts. Each persona **MUST** find at least one issue — no "LGTM" escapes. Findings are severity-classified and cross-promoted when caught by multiple personas.
 
+**This agent performs the Reflect phase of the Observe → Plan → Act → Reflect loop.** Use it after making changes to verify the work before claiming completion.
+
 ## When to Use
 
 - Before merging a PR
 - After completing a major feature
 - When you want genuinely critical review (not agreeable validation)
+- As the **Reflect** step after an Act: "Did what I just do actually work correctly?"
 - Ask: "adversarial review", "hostile review", "red-team this code"
 
 ---
