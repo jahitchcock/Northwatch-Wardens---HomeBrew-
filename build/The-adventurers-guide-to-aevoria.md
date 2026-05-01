@@ -2965,7 +2965,7 @@ Dragons consider their language sacred. Speaking Draconic commands their attenti
 
 ### Deep Speech
 **Script:** None (telepathic/symbolic)  
-**Speakers:** Aboleths, mind flayers, aberrations  
+**Speakers:** Aboleths, psionic aberrations, aberrations  
 **Rarity:** Very Rare (aberrations only)
 
 **Who Speaks It:**
