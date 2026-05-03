@@ -36,16 +36,7 @@ This Copilot agent assists with generating, expanding, and maintaining the **Gam
 
 ## Agentic Loop: Observe → Plan → Act → Reflect
 
-All workflows in this agent follow an iterative loop. **Never act without first observing current state; never finish a step without reflecting on the result.**
-
-| Phase | What to do |
-|-------|-----------|
-| **🔍 Observe** | Read relevant files in full, check existing UIDs, verify canonical geography and NPC roster, run build/validate if needed |
-| **📋 Plan** | Write out the ordered steps before touching any file; identify UID conflicts, canon issues, format requirements |
-| **⚡ Act** | Execute one step at a time — write one file, then stop |
-| **🔎 Reflect** | Validate output (XML structure, Homebrewery render, build), confirm no regressions, loop back if more steps remain |
-
-Loop until the goal is verified. **"Should work" is never sufficient — show evidence from validation commands.**
+All workflows follow the iterative OPAR loop defined in `.claude/skills/observe-plan-act-reflect/SKILL.md`. **Never act without first observing; never finish a step without reflecting on the result. "Should work" is never sufficient — show evidence.**
 
 ---
 

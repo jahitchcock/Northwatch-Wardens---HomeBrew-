@@ -9,14 +9,7 @@ Your campaign management hub. Tell me what you need and I'll route to the right 
 
 ## Agentic Loop
 
-All workflows use an iterative **Observe → Plan → Act → Reflect** loop:
-
-1. **🔍 Observe** — Read relevant files, understand current campaign state, check constraints
-2. **📋 Plan** — Write out the ordered steps before touching any file
-3. **⚡ Act** — Execute one step at a time
-4. **🔎 Reflect** — Verify the result; loop until the goal is fully verified
-
-**Never claim a task is done without showing evidence from validation.**
+All workflows use the iterative **Observe → Plan → Act → Reflect** loop defined in `.claude/skills/observe-plan-act-reflect/SKILL.md`. **Never claim a task is done without showing evidence from validation.**
 
 ## Available Workflows
 
