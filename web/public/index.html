@@ -79,5 +79,27 @@
   <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.js"></script>
   <script src="app.js"></script>
+
+  <!-- Modal overlay (primary) -->
+  <div id="modal" class="modal-overlay" hidden>
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="modal-title"></span>
+        <button class="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Modal overlay (nested, max 2 deep) -->
+  <div id="modal2" class="modal-overlay" hidden>
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="modal-title"></span>
+        <button class="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"></div>
+    </div>
+  </div>
 </body>
 </html>
