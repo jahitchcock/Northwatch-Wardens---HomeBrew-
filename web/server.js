@@ -504,6 +504,82 @@ app.get('/api/tables', (req, res) => {
   }
 });
 
+// ─── Tool endpoints ────────────────────────────────────────────────────────────
+
+app.get('/tools/random-encounter', async (req, res) => {
+  const cr = encodeURIComponent(req.query.cr || '1');
+  try {
+    const r = await fetch(`https://www.dnd5eapi.co/api/monsters?challenge_rating=${cr}`);
+    const data = await r.json();
+    if (!data.results?.length) {
+      return res.send(`<p style="color:#888;font-family:sans-serif;padding:8px">No monsters found for CR ${esc(req.query.cr || '1')}</p>`);
+    }
+    const pick = data.results[Math.floor(Math.random() * data.results.length)];
+    const detail = await fetch(`https://www.dnd5eapi.co${pick.url}`);
+    const m = await detail.json();
+    const ac = Array.isArray(m.armor_class) ? m.armor_class[0]?.value : m.armor_class;
+    const speed = Object.entries(m.speed || {}).map(([k, v]) => `${k} ${v}`).join(', ');
+    const actions = (m.actions || []).slice(0, 4).map(a => esc(a.name)).join(', ');
+    res.send(`
+      <div style="font-family:'Palatino Linotype',serif;padding:4px">
+        <h3 style="margin:0 0 6px;color:#58180d;font-size:1.2em">${esc(m.name)}</h3>
+        <p style="margin:3px 0;font-size:0.9em;color:#555;font-style:italic">${esc(m.size)} ${esc(m.type)}, CR ${m.challenge_rating}</p>
+        <hr style="border:none;border-top:1px solid #c9ad6a;margin:8px 0">
+        <p style="margin:3px 0"><strong>AC</strong> ${ac ?? '—'} &nbsp;&nbsp; <strong>HP</strong> ${m.hit_points} &nbsp;&nbsp; <strong>Speed</strong> ${esc(speed)}</p>
+        <table style="width:100%;border-collapse:collapse;margin:8px 0;font-size:0.85em;text-align:center">
+          <tr style="background:#58180d;color:#f5f0e8">
+            <th style="padding:4px">STR</th><th style="padding:4px">DEX</th><th style="padding:4px">CON</th>
+            <th style="padding:4px">INT</th><th style="padding:4px">WIS</th><th style="padding:4px">CHA</th>
+          </tr>
+          <tr>
+            <td style="padding:4px">${m.strength}</td><td style="padding:4px">${m.dexterity}</td><td style="padding:4px">${m.constitution}</td>
+            <td style="padding:4px">${m.intelligence}</td><td style="padding:4px">${m.wisdom}</td><td style="padding:4px">${m.charisma}</td>
+          </tr>
+        </table>
+        ${actions ? `<p style="margin:4px 0;font-size:0.9em"><strong>Actions:</strong> ${actions}</p>` : ''}
+      </div>`);
+  } catch (e) {
+    res.status(500).send(`<p style="color:red;font-family:sans-serif;padding:8px">${esc(e.message)}</p>`);
+  }
+});
+
+app.get('/tools/treasure-hoard', (req, res) => {
+  const level = Math.min(20, Math.max(1, parseInt(req.query.level, 10) || 1));
+  const roll = (n, d) => Array.from({ length: n }, () => Math.ceil(Math.random() * d)).reduce((a, b) => a + b, 0);
+
+  let coins, gems, art, magic;
+  if (level <= 4) {
+    coins = `${roll(6, 6)} cp, ${roll(3, 6) * 10} sp, ${roll(2, 6) * 10} gp`;
+    gems  = roll(1, 6) >= 4 ? `${roll(2, 6)} × 10gp gems` : null;
+    art   = null; magic = null;
+  } else if (level <= 10) {
+    coins = `${roll(2, 6) * 100} sp, ${roll(6, 6) * 100} gp`;
+    gems  = `${roll(2, 4)} × 25gp gems`;
+    art   = roll(1, 6) >= 4 ? `${roll(2, 4)} × 25gp art objects` : null;
+    magic = roll(1, 6) >= 5 ? 'Roll on Magic Item Table A' : null;
+  } else if (level <= 16) {
+    coins = `${roll(4, 6) * 1000} gp, ${roll(5, 6) * 100} pp`;
+    gems  = `${roll(2, 6)} × 500gp gems`;
+    art   = `${roll(2, 4)} × 250gp art objects`;
+    magic = `Roll on Magic Item Table ${['C', 'D', 'E'][roll(1, 3) - 1]}`;
+  } else {
+    coins = `${roll(12, 6) * 1000} gp, ${roll(8, 6) * 1000} pp`;
+    gems  = `${roll(3, 6)} × 1000gp gems`;
+    art   = `${roll(2, 4)} × 2500gp art objects`;
+    magic = `Roll on Magic Item Tables ${['E', 'F', 'G', 'H', 'I'][roll(1, 5) - 1]}`;
+  }
+
+  const items = [coins, gems, art, magic].filter(Boolean);
+  res.send(`
+    <div style="font-family:'Palatino Linotype',serif;padding:4px">
+      <h3 style="margin:0 0 8px;color:#58180d">Treasure Hoard — Level ${level}</h3>
+      <ul style="margin:0;padding-left:20px;line-height:1.8">
+        ${items.map(i => `<li>${esc(i)}</li>`).join('')}
+      </ul>
+      <p style="margin-top:12px;font-size:0.85em;color:#888;font-style:italic">Roll again for a new hoard.</p>
+    </div>`);
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
