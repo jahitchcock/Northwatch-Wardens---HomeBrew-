@@ -18,53 +18,9 @@ Structure any complex task as an iterative loop: observe current state, plan a d
 
 ## The Loop
 
-### 🔍 OBSERVE — Understand Current State
+For full phase definitions, exit criteria, and decision logic see `.claude/skills/observe-plan-act-reflect/SKILL.md`.
 
-Before doing anything:
-1. Read every file you plan to change (full file, not excerpts)
-2. Run any relevant commands to see current output (build, validate, lint)
-3. Check constraints: canon geography, NPC roster, XML UIDs, existing patterns
-4. Describe the current state explicitly — what exists, what's missing, what's broken
-
-**You cannot Plan until you can accurately describe the current state.**
-
----
-
-### 📋 PLAN — Commit Before Acting
-
-Write out your plan before touching any file:
-1. Define the goal: what specific change makes this task "done"?
-2. List steps in order, one action each — no bundling
-3. Identify risks: what could break, what might conflict
-4. Confirm the plan against constraints discovered in Observe
-
-**You cannot Act until the plan is explicit and ordered.**
-
----
-
-### ⚡ ACT — One Step at a Time
-
-Execute the first planned step only:
-1. Make the smallest meaningful change
-2. Do not fix "while you're here" — stay in scope
-3. Document which plan step you're executing
-4. Stop if complexity is higher than expected — return to Observe
-
-**You cannot skip verification — Act only executes one step before Reflect.**
-
----
-
-### 🔎 REFLECT — Verify Before Continuing
-
-After every Act step:
-1. Run verification: rebuild, re-validate, re-read the changed file
-2. Confirm the step achieved its intended effect
-3. Check for unintended side effects
-4. Decide:
-   - **Goal complete** → Report with evidence and stop
-   - **More steps remain** → Loop back to Observe with updated context
-   - **Unexpected problem** → Return to Plan with new information
-   - **3+ loops with no progress** → Stop and report the blocker
+The loop is: **OBSERVE → PLAN → ACT → REFLECT → (loop or done)**. Complete each phase before entering the next. Reflect after every action before deciding whether to loop or stop. Never claim completion without running verification.
 
 ---
 
