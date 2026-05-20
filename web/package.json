@@ -1,0 +1,15 @@
+{
+  "name": "dm-panel",
+  "version": "1.0.0",
+  "description": "DM Control Panel for Northwatch Wardens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^12.0.0",
+    "node-pty": "^1.0.0",
+    "ws": "^8.17.0"
+  }
+}
