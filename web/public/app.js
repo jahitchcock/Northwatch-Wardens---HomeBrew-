@@ -27,6 +27,8 @@ let currentPath    = null;
 
 const btnCtx   = $('btn-ctx');
 const toast    = $('toast');
+const modal1 = $('modal');
+const modal2 = $('modal2');
 const backdrop = $('drawer-backdrop');
 const mobFiles = $('mob-files');
 const mobTerm  = $('mob-term');
@@ -322,6 +324,90 @@ function initTerminal() {
 
   connect();
 }
+
+// ─── Modal ────────────────────────────────────────────────────────────────────
+
+function getTopModal() {
+  if (modal2 && !modal2.hidden) return modal2;
+  if (modal1 && !modal1.hidden) return modal1;
+  return null;
+}
+
+function getFreeModal() {
+  if (!modal1 || modal1.hidden) return modal1;
+  return modal2;
+}
+
+async function openModal(relPath) {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = '…';
+  m.querySelector('.modal-body').innerHTML =
+    '<div style="padding:24px;color:#888;font-family:sans-serif;font-size:13px">Loading…</div>';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  try {
+    const r = await fetch(`/preview?path=${encodeURIComponent(relPath)}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const html = await r.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const title = doc.body?.dataset.title || doc.title ||
+      relPath.split('/').pop().replace(/\.md$/, '').replace(/[-_]/g, ' ');
+    const content = doc.querySelector('.web-content');
+    m.querySelector('.modal-title').textContent = title;
+    m.querySelector('.modal-body').innerHTML = content
+      ? `<div class="web-content" style="padding:20px 24px">${content.innerHTML}</div>`
+      : doc.body?.innerHTML || '';
+  } catch (err) {
+    m.querySelector('.modal-title').textContent = 'Error';
+    m.querySelector('.modal-body').innerHTML =
+      `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${err.message}</div>`;
+  }
+}
+
+function open5eModal(url) {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = '5etools';
+  m.querySelector('.modal-body').innerHTML = `<iframe src="${url}" title="5etools"></iframe>`;
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+}
+
+function closeTopModal() {
+  const m = getTopModal();
+  if (!m) return;
+  m.classList.remove('visible');
+  setTimeout(() => {
+    m.hidden = true;
+    m.querySelector('.modal-body').innerHTML = '';
+    m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  }, 180);
+}
+
+// Document-level click handler for modal links and close targets
+document.addEventListener('click', e => {
+  // data-modal links (NPC, location, faction cross-refs)
+  const modalLink = e.target.closest('[data-modal]');
+  if (modalLink) { e.preventDefault(); openModal(modalLink.dataset.modal); return; }
+
+  // data-modal-5e links (5etools)
+  const e5Link = e.target.closest('[data-modal-5e]');
+  if (e5Link) { e.preventDefault(); open5eModal(e5Link.dataset.modal5e); return; }
+
+  // Close button
+  if (e.target.closest('.modal-close')) { closeTopModal(); return; }
+
+  // Backdrop click (click on overlay itself, not the box)
+  if (e.target.classList.contains('modal-overlay')) closeTopModal();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeTopModal();
+});
 
 // ─── Search ───────────────────────────────────────────────────────────────────
 
