@@ -247,6 +247,54 @@ const FRAME_SCREEN_CSS = `
   img { max-width: 100%; height: auto; }
 `;
 
+const WEB_CONTENT_CSS = `
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #f5f0e8;
+    color: #1a1a1a;
+    font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .web-content { max-width: 760px; margin: 0 auto; padding: 28px 24px 60px; }
+  h1 { font-size: 1.8em; color: #58180d; text-transform: uppercase;
+       letter-spacing: 1px; border-bottom: 3px solid #c9ad6a; padding-bottom: 6px; margin-top: 0; }
+  h2 { font-size: 1.35em; color: #58180d; border-bottom: 1px solid #c9ad6a; padding-bottom: 4px; }
+  h3 { font-size: 1.1em; color: #58180d; font-variant: small-caps; }
+  h4, h5 { font-size: 1em; color: #58180d; }
+  a { color: #58180d; }
+  a[data-modal], a[data-modal-5e] {
+    color: #58180d; border-bottom: 1px dotted #58180d;
+    text-decoration: none; cursor: pointer;
+  }
+  a[data-modal]:hover, a[data-modal-5e]:hover { border-bottom-style: solid; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.9em; }
+  th { background: #58180d; color: #f5f0e8; padding: 6px 10px; text-align: left; }
+  td { padding: 5px 10px; border-bottom: 1px solid #ddd; }
+  tr:nth-child(even) td { background: #ede8da; }
+  hr { border: none; border-top: 2px solid #c9ad6a; margin: 1.8em 0; }
+  code { background: #ede8da; padding: 2px 5px; border-radius: 3px; font-size: 0.88em; font-family: Consolas, monospace; }
+  blockquote { border-left: 4px solid #c9ad6a; margin: 1em 0; padding: 8px 16px; background: #ede8da; }
+  strong { color: #3b0d0d; }
+  .callout { border-radius: 3px; padding: 12px 16px; margin: 1.2em 0; }
+  .callout.note {
+    background: #fdf6e3; border: 1px solid #c9ad6a; border-left: 4px solid #c9ad6a;
+  }
+  .callout.descriptive {
+    background: #ede8da; border: 1px solid #8b7d5a; border-left: 4px solid #8b7d5a;
+    font-style: italic;
+  }
+  .callout.wide {
+    background: #f5f0e8; border-top: 2px solid #c9ad6a; border-bottom: 2px solid #c9ad6a;
+    padding: 12px 0;
+  }
+  .callout h4, .callout h5 { margin-top: 0; }
+  img { max-width: 100%; height: auto; }
+  ul, ol { padding-left: 1.4em; }
+  li { margin: 0.2em 0; }
+`;
+
 function previewHtml(body) {
   return `<!DOCTYPE html>
 <html>
@@ -287,6 +335,34 @@ function previewHtml(body) {
 </html>`;
 }
 
+function webPreviewHtml(title, bodyHtml) {
+  return `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>${esc(title)}</title>
+  <style>${WEB_CONTENT_CSS}</style>
+</head>
+<body data-title="${esc(title)}">
+  <div class="web-content">${bodyHtml}</div>
+</body>
+</html>`;
+}
+
+function renderWebMarkdown(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const fm = extractFrontmatter(raw);
+  const title = fm.name || path.basename(filePath, '.md').replace(/[-_]/g, ' ');
+  const preprocessed = preprocessMarkdown(raw);
+  let html = marked.parse(preprocessed);
+  // Post-process: inject data-modal on cross-reference links
+  html = html.replace(
+    /<a href="((?:npcs|locations|factions|arcs)\/[^"]+)">/g,
+    (_, p) => `<a href="#" data-modal="${esc(p)}">`
+  );
+  return { html, title };
+}
+
 app.get('/preview', (req, res) => {
   try {
     const filePath = safePath(req.query.path);
@@ -324,9 +400,14 @@ app.get('/preview', (req, res) => {
       return;
     }
     if (ext === '.md') {
-      const content = fs.readFileSync(filePath, 'utf8');
-      const season = req.query.season != null ? parseInt(req.query.season, 10) : null;
-      res.send(previewHtml(renderPages(content, season)));
+      if (isWebPath(filePath)) {
+        const { html, title } = renderWebMarkdown(filePath);
+        res.send(webPreviewHtml(title, html));
+      } else {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const season = req.query.season != null ? parseInt(req.query.season, 10) : null;
+        res.send(previewHtml(renderPages(content, season)));
+      }
     } else {
       const content = fs.readFileSync(filePath, 'utf8');
       res.send(`<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
