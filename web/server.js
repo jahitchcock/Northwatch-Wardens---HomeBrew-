@@ -5,6 +5,7 @@ const http     = require('http');
 const WebSocket = require('ws');
 const path     = require('path');
 const fs       = require('fs');
+const { marked } = require('marked');
 
 // Optional deps — degrade gracefully if missing
 let pty;
@@ -23,6 +24,64 @@ const EXCLUDE = new Set([
   '.git', '.github', 'dm-panel', 'web', 'node_modules', 'build',
   'logs', 'scratchpad', 'scripts', 'templates', 'LionsdenGameFiles',
 ]);
+
+// Directories rendered with marked (web-native markdown)
+const WEB_DIRS = new Set([
+  'adventures', 'npcs', 'locations', 'factions',
+  'arcs', 'gm-lore', 'player-lore', 'timeline', 'tables',
+]);
+
+function isWebPath(filePath) {
+  const rel = path.relative(CAMPAIGN_ROOT, filePath).replace(/\\/g, '/');
+  return WEB_DIRS.has(rel.split('/')[0]);
+}
+
+function extractFrontmatter(content) {
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!m) return {};
+  const result = {};
+  for (const line of m[1].split('\n')) {
+    const colon = line.indexOf(':');
+    if (colon < 1) continue;
+    const key = line.slice(0, colon).trim();
+    const val = line.slice(colon + 1).trim().replace(/^["']|["']$/g, '');
+    if (key) result[key] = val;
+  }
+  return result;
+}
+
+function preprocessMarkdown(raw) {
+  let md = raw;
+
+  // Strip frontmatter
+  md = md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
+
+  // Strip HTML comment headers (old format)
+  md = md.replace(/^<!--[\s\S]*?-->\s*\n/, '');
+
+  // {{note ...}} blocks → callout div
+  md = md.replace(/\{\{note[^\n]*\n([\s\S]*?)\n\}\}/g,
+    (_, content) => `<div class="callout note">\n\n${content}\n\n</div>\n`);
+
+  // {{descriptive ...}} blocks
+  md = md.replace(/\{\{descriptive[^\n]*\n([\s\S]*?)\n\}\}/g,
+    (_, content) => `<div class="callout descriptive">\n\n${content}\n\n</div>\n`);
+
+  // {{wide ...}} blocks — strip wrapper, keep content
+  md = md.replace(/\{\{wide[^\n]*\n([\s\S]*?)\n\}\}/g,
+    (_, content) => `<div class="callout wide">\n\n${content}\n\n</div>\n`);
+
+  // 5etools: links → raw anchor with data-modal-5e
+  md = md.replace(/\[([^\]]+)\]\(5etools:([\w.]+)#([\w_-]+)\)/g,
+    (_, text, page, hash) =>
+      `<a href="#" data-modal-5e="http://localhost:2014/${page}.html#${hash}" class="link-5e">${esc(text)}</a>`);
+
+  // Strip any remaining {{...}} blocks — keep inner content
+  md = md.replace(/\{\{[\w,\s]*\n([\s\S]*?)\n\}\}/g, (_, content) => content + '\n');
+  md = md.replace(/\{\{[^}\n]*\}\}/g, '');
+
+  return md;
+}
 
 // File extensions allowed in file browser and directory listings
 const SHOW_EXTS = new Set(['.md', '.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']);
