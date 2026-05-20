@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, Welton, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, Welton, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach, Welton
-  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 # Wolves of Welton — Standardized v3
@@ -32,7 +32,7 @@ Standardized to Master Adventure Template v3
 | **Mystery Clues** | 4 primary clues reveal akin awakening symptom (not source) |
 | **Core Consequence** | Wolves killed OR allied OR territory compromise (permanent world change) |
 | **Alternative Paths** | 3 major branches (extermination / negotiation / deception) |
-| **Echo Manifestation** | Wolf sentience is symptom of Aeorian magic spreading (source unknown until Frozen Sick) |
+| **Echo Manifestation** | Wolf sentience is symptom of Aevorian magic spreading (source unknown until The Pale Sickness) |
 | **Prep Time Needed** | 1–2 hours |
 | **Materials Needed** | Maps (provided), NPC personality cards, wolf tokens, stat blocks |
 
@@ -56,20 +56,20 @@ This is your campaign's opening mystery: a moral dilemma that rewards investigat
 1. **Moral Complexity:** Not all threats are evil; intelligence doesn't guarantee malice. Killing the wolves is easy—but is it right?
 2. **Investigation Rewards:** Discovering the wolves' intelligence changes everything. Combat becomes negotiation; threat becomes potential alliance.
 3. **Community Consequence:** Player choices reshape village politics. A successful negotiation makes the wolves allies; extermination closes off their future aid.
-4. **Mystery Integration:** The wolves' awakening is a symptom of something larger. The clues point to Salsvault and the Aeorian Echo (revealed in Frozen Sick).
+4. **Mystery Integration:** The wolves' awakening is a symptom of something larger. The clues point to Salsvault and the Aevorian Echo (revealed in The Pale Sickness).
 5. **Agency & Choice:** There is no "correct" ending. Extermination, alliance, compromise, or deception—each path has consequences players will carry forward.
 
-### The Aeorian Echo Connection
+### The Aevorian Echo Connection
 
 *What Players Discover Here:*
 
 Something magical caused wolves to become sapient overnight. They can speak, plan, and reason—impossible for animals. The awakening coincided with the disappearance of Alexi Merriksonn, a local sorcerer. The wolves possess strange magical residue (if detected).
 
-If players investigate thoroughly, they may find ancient Aeorian symbols buried north of Welton.
+If players investigate thoroughly, they may find ancient Aevorian symbols buried north of Welton.
 
 *What Players Don't Know Yet:*
 
-Alexi Merriksonn triggered a dormant Aeorian facility (Salsvault) while researching magical phenomena. The activation released a surge of transformative magic that killed him and, as a side effect, awakened the wolves' latent consciousness. This is not an isolated incident—other magical disturbances are occurring across Northreach (discovered in Frozen Sick, Wild Sheep Chase, Temple of DK).
+Alexi Merriksonn triggered a dormant Aevorian facility (Salsvault) while researching magical phenomena. The activation released a surge of transformative magic that killed him and, as a side effect, awakened the wolves' latent consciousness. This is not an isolated incident—other magical disturbances are occurring across Northreach (discovered in The Pale Sickness, Wild Sheep Chase, Temple of DK).
 
 The Echo is spreading. The wolves are the first visible symptom.
 
@@ -234,7 +234,7 @@ Introduce the wolf threat through action. Establish that these are no ordinary w
 - **Surprise?** No; action is visible from distance
 
 **Wolves Present**
-- 8 **Wolves** (MM p341) attacking
+- 8 **Wolves** attacking
 - **Stat Block:** AC 13 | HP 11 (2d8+2) | Speed 40 ft | STR 12 (+1) DEX 15 (+2) CON 13 (+1) INT 3 (-4) WIS 12 (+1) CHA 6 (-2)
 - **Skills:** Perception +3, Stealth +4
 - **Challenge:** 1/4 (50 XP each)
@@ -490,7 +490,7 @@ A: Good tactical idea! Corel offers his flock as bait (Scene 3 option). Wolves t
 A: Only rumors and speculation. Unusual intelligence, but no confirmation they can *negotiate*. Party will discover this through investigation or direct encounter.
 
 **Q: "Can we talk to Alexi to understand what happened?"**
-A: Alexi is missing (possibly dead). Father Merriksonn will share what he knows (his brother studied transformation magic, went to research something, never returned). Party doesn't learn truth until Frozen Sick adventure reveals Salsvault.
+A: Alexi is missing (possibly dead). Father Merriksonn will share what he knows (his brother studied transformation magic, went to research something, never returned). Party doesn't learn truth until The Pale Sickness adventure reveals Salsvault.
 
 ### DM Notes
 
@@ -549,7 +549,7 @@ If party camps at edge of woods, wolves may approach for evening hunt. Corel war
 
 **If Visiting Westly's Farm**
 - **Perception DC 13:** Buried pieces of metal or strange symbols in ground nearby
-- **Arcana DC 15:** "These symbols match pre-Calamity designs. Aeorian. This land was inhabited by ancient people."
+- **Arcana DC 15:** "These symbols match pre-Fall designs. Aevorian. This land was inhabited by ancient people."
 - **History/Arcana DC 16:** "This is an archaeological site. These ruins predate the current kingdom by centuries."
 
 **All Clues Point Here:** Magic was involved. Alexi was involved. Something ancient is stirring.
@@ -564,7 +564,7 @@ If party camps at edge of woods, wolves may approach for evening hunt. Corel war
 >
 > *An enormous creature emerges—part owl, part bear, wholly terrifying. It's thin, limping, nursing deep wounds. Its fur is matted with old blood. Worse, you see deep *claw marks*—fresh ones. Whatever did this... it was no ordinary predator.*
 
-**NPC: Wounded Owlbear** (MM p249, modified)
+**NPC: Wounded Owlbear** (modified)
 - **AC:** 14 (natural armor)
 - **HP:** 40 (reduced from normal 59 due to injuries)
 - **Threat Level:** Dangerous for party; lethal if unprepared
@@ -745,7 +745,7 @@ Party makes contact with Bolt and Flame. Depending on party choices, this is eit
 ---
 
 **Other Pack Wolves** (6–8 visible, ~3–4 hiding in cave)
-- Standard **Wolves** (MM p341) | **AC** 13 | **HP** 5 (1d6+2) | **Speed** 40 ft | **Challenge** 1/8 (25 XP)
+- Standard **Wolves** | **AC** 13 | **HP** 5 (1d6+2) | **Speed** 40 ft | **Challenge** 1/8 (25 XP)
 - 4 wolves wear crude **leather armor** (+1 AC, total AC 14)
 
 ### Combat: Wolf Den Battle
@@ -928,7 +928,7 @@ A: 30–50 minutes depending on roleplay depth. Can compress to 15 min if needed
 - **Tone:** This is the *heart* of the adventure. Weight the moment. The party is meeting a *people*, not a monster.
 - **Emotional Resonance:** Allow players to *feel* the wolves' desperation and Bolt's hope. This makes the choice matter.
 - **No "Right" Answer:** Killing, negotiating, deceiving—each has costs and benefits. Player choice should be respected.
-- **Future Hooks:** Whichever path is chosen determines consequences in future adventures (Frozen Sick, Temple, etc.)
+- **Future Hooks:** Whichever path is chosen determines consequences in future adventures (The Pale Sickness, Temple, etc.)
 
 ---
 
@@ -996,9 +996,9 @@ Wrap up adventure. Pay rewards. Establish world consequences. Set up future adve
 - [ ] Father Merriksonn stance: **[Allied / Neutral / Disappointed]**
 - [ ] Bolt's pack status: **[Eliminated / Ally / Relocated / Unknown]**
 - [ ] Alexi Merriksonn: **Deceased (player discovery: body not found, but magical surge confirms death)**
-- [ ] Mystery clue: Alexi's magic caused wolf awakening; source of magic unknown (will be revealed in Frozen Sick)
+- [ ] Mystery clue: Alexi's magic caused wolf awakening; source of magic unknown (will be revealed in The Pale Sickness)
 
-### The Aeorian Echo: What Players Have Learned
+### The Aevorian Echo: What Players Have Learned
 
 **Facts established this adventure:**
 1. Wolves became intelligent overnight (not gradual evolution)
@@ -1007,7 +1007,7 @@ Wrap up adventure. Pay rewards. Establish world consequences. Set up future adve
 4. Multiple evidence points (Featherock, residue, pups showing intelligence) confirm: something *external* changed the wolves
 
 **Questions planted (answered in later adventures):**
-- What caused the magical surge? (Salsvault activation—answered in Frozen Sick)
+- What caused the magical surge? (Salsvault activation—answered in The Pale Sickness)
 - Is this an isolated incident? (No; other phenomena occurring across Northreach—hinted in next sessions)
 - Was it intentional or accidental? (Accidental; but triggering entity unknown—answered in Temple of DK)
 
@@ -1026,7 +1026,7 @@ Wrap up adventure. Pay rewards. Establish world consequences. Set up future adve
 >
 > *"Something is happening. Something is waking the old magic. I need you to investigate further. There's a village called Palebank on the northern coast. The plague there may be connected to your wolves. Will you go?"*
 
-**This launches the next adventure:** Frozen Sick (the revelation adventure where players discover Salsvault and learn the truth about the Echo).
+**This launches the next adventure:** The Pale Sickness (the revelation adventure where players discover Salsvault and learn the truth about the Echo).
 
 ### Opportunity: Bonus Rewards
 
@@ -1039,14 +1039,14 @@ Wrap up adventure. Pay rewards. Establish world consequences. Set up future adve
 **If Party Excelled at Investigation:**
 - **Bonus: Westly's Farm Location** (marked on map)
   - Corel reveals: "The oldest attacks were near Westly's Farm. The Old Woods beyond. If there's a lair or origin point, it's there."
-  - This becomes a future investigation location (used in Frozen Sick or later adventures)
+  - This becomes a future investigation location (used in The Pale Sickness or later adventures)
 
 ### Consequences Established (Branching Campaign Paths)
 
 **Path A — Wolves Killed (Dead Ending):**
 - No future wolf content
 - No Bolt/Flame cooperation
-- Mystery remains "unsolved" until Frozen Sick revealed
+- Mystery remains "unsolved" until The Pale Sickness revealed
 - Reputation in Northreach: Strong (dead threat)
 - Future: Can't use wolves as allies; some NPCs (Father Merriksonn) remain disappointed
 
@@ -1420,7 +1420,7 @@ Wolves of Welton: RELOCATED (Party Lied)
 
 ---
 
-### Aeorian Echo Mystery Progress
+### Aevorian Echo Mystery Progress
 
 **Players Discover:**
 - Wolves became sapient overnight (not gradual)
@@ -1429,7 +1429,7 @@ Wolves of Welton: RELOCATED (Party Lied)
 - Multiple evidence suggests: *external force changed them*
 
 **Major Questions Still Unanswered:**
-1. **What caused the transformation?** (Salsvault activation—answered in Frozen Sick)
+1. **What caused the transformation?** (Salsvault activation—answered in The Pale Sickness)
 2. **Who or what triggered it?** (Unknown entity—answered in Temple of DK)
 3. **Is this isolated?** (No; other phenomena occurring—hinted in next session)
 4. **Can this be reversed?** (Campaign-wide question)
@@ -1438,7 +1438,7 @@ Wolves of Welton: RELOCATED (Party Lied)
 **Mystery Arc Progress:**
 - **Before Wolves:** 0% aware of Echo
 - **After Wolves:** 15% aware (know *something* magical is awakening; don't know source)
-- **After Frozen Sick:** 60% aware (know Salsvault exists, is active; don't know why or who triggered)
+- **After The Pale Sickness:** 60% aware (know Salsvault exists, is active; don't know why or who triggered)
 - **After Temple:** 85% aware (know factions are involved; conflict underway)
 - **After Final Confrontation:** 100% aware (truth revealed, confrontation possible)
 
@@ -1458,7 +1458,7 @@ Wolves of Welton: RELOCATED (Party Lied)
 **Worldscape Changes:**
 - Western woods: [Wolf territory / Abandoned / Dangerous / Resettled by humans]
 - Westly's Farm: [Normal / Haunted by memory / Ruins accessible for investigation]
-- Old Aeorian symbols: [Discovered or missed; known only if party investigated]
+- Old Aevorian symbols: [Discovered or missed; known only if party investigated]
 
 ### Campaign Tracker: Permanent Record
 
@@ -1490,11 +1490,11 @@ NPC Relationship Changes:
 Alexi Merriksonn:
 - Status: DECEASED (magical feedback)
 - Spellbook: [In party possession / In Father's possession]
-- Research: [Aeorian phenomena; notes in book]
+- Research: [Aevorian phenomena; notes in book]
 
 Next Adventure Hooks:
 - Lorewarden Elric's briefing on regional anomalies
-- Travel to Palebank Village (Frozen Sick adventure)
+- Travel to Palebank Village (The Pale Sickness adventure)
 - Investigation of other magical disturbances
 - Follow-up on Alexi's research (if spellbook acquired)
 ```
@@ -1520,8 +1520,8 @@ A: Not recommended. Bolt and Flame are sapient individuals with agency. Attempti
 **Q: "What if party kills Father Merriksonn or an important NPC?"**
 A: Consequences follow. Killing Father Merriksonn turns Welton against party (reputation - 5); makes council voting impossible (can't negotiate peace without him). Adventure can still conclude if party commits fully to extermination. Campaign continues with reduced NPC support going forward.
 
-**Q: "How do we keep the mystery feeling fresh when answer comes in Frozen Sick?"**
-A: Awesome question. Plant subtle clues in Wolves that make sense once Frozen Sick hits. The Aeorian symbols, the "oldness" of the magic, Elexi's notes about research—these all click into place. Good foreshadowing makes revelation feel satisfying, not cheap.
+**Q: "How do we keep the mystery feeling fresh when answer comes in The Pale Sickness?"**
+A: Awesome question. Plant subtle clues in Wolves that make sense once The Pale Sickness hits. The Aevorian symbols, the "oldness" of the magic, Elexi's notes about research—these all click into place. Good foreshadowing makes revelation feel satisfying, not cheap.
 
 **Q: "Can party kill Bolt and keep Flame as ally?"**
 A: Technically yes, but Flame will *hate* party forever. She'll take "alliance" but will betray at worst moment. Not recommended; creates negative ally. Better to negotiate with Bolt early or just kill whole pack.
@@ -1535,9 +1535,9 @@ A: Give them personalities, backstories, dilemmas. Bolt struggles with leadershi
 A: Excellent. Bolt can offer multiple meeting points (neutral ground, party's camp, inside cave). Spend 2–3 roleplayed scenes with him before final vote. Let Flame's aggression escalate—maybe she attacks Bolt mid-treaty, forcing party to take sides.
 
 **Q: "Can I make Alexi still alive?"**
-A: Yes, but changes adventure significantly. If Alexi is found alive in wolf den, he's magically weakened / traumatized by the surge. He can explain EXACTLY what Salsvault is and what he triggered. This shortcuts Frozen Sick's revelation. Good variant for higher-level parties or if you want to accelerate mystery.
+A: Yes, but changes adventure significantly. If Alexi is found alive in wolf den, he's magically weakened / traumatized by the surge. He can explain EXACTLY what Salsvault is and what he triggered. This shortcuts The Pale Sickness's revelation. Good variant for higher-level parties or if you want to accelerate mystery.
 
-**Q: "How do I hint at larger mystery without spoiling Frozen Sick?"**
+**Q: "How do I hint at larger mystery without spoiling The Pale Sickness?"**
 A: Have Elric mention other phenomena (cold plague, magical accident, prophecies of awakening). Have Alexi's notes hint at "underground facility" and "automatic defense systems still active." Have Bolt describe the magic as "old, older than memory, and *still working.*" Flavor clues without spoiling facts.
 
 ### DM Tips for Best Experience
@@ -1587,7 +1587,7 @@ A: Have Elric mention other phenomena (cold plague, magical accident, prophecies
 | Welton | 30 miles | — | 2 days walking |
 | Wolf Lair (west of Welton) | ~35 miles | 5 miles | 4–6 hours walk |
 | Westly's Farm | ~28 miles | 2 miles south | 30 min walk |
-| Old Aeorian Ruins (north of farm) | ~30 miles | 4 miles north | 1.5 hour trek |
+| Old Aevorian Ruins (north of farm) | ~30 miles | 4 miles north | 1.5 hour trek |
 
 #### NPC Quick Reference
 
@@ -1726,7 +1726,7 @@ KEY DCs:
 - Wolves are sapient: DC 12 Nature
 - Magic involved: DC 12 Arcana
 - Persuade council member: DC 12–15 Persuasion
-- Detect Aeorian symbols: DC 15 Arcana
+- Detect Aevorian symbols: DC 15 Arcana
 
 STAT BLOCKS TO HAVE READY:
 ☐ Wolf (1/8, 5 HP, AC 13)

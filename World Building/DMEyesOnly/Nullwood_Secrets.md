@@ -11,14 +11,14 @@
 
 **MAJOR CAMPAIGN SPOILERS: Nullwood Expanse Secrets**
 
-This document contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+This document contains the hidden truth about the Nullwood Elves and their connection to the Aevorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # The Nullwood Expanse — DM Eyes Only
 
-This file contains the hidden truth about the Nullwood Elves and their connection to the Aeorian Echo. This information should be revealed gradually throughout the campaign.
+This file contains the hidden truth about the Nullwood Elves and their connection to the Aevorian Echo. This information should be revealed gradually throughout the campaign.
 
 ---
 
@@ -28,12 +28,12 @@ This file contains the hidden truth about the Nullwood Elves and their connectio
 
 The Nullwood Elves are **artifact refugees**.
 
-Long ago, their ancestors lived near several ancient Aeorian artifacts. When the artifacts first stirred—not fully awakening, but enough to warp magic and memory—the elves fled south, seeking a region untouched by their influence.
+Long ago, their ancestors lived near several ancient Aevorian artifacts. When the artifacts first stirred—not fully awakening, but enough to warp magic and memory—the elves fled south, seeking a region untouched by their influence.
 
 ### The Flight (Millennia Ago)
 
 **The Trigger:**
-- Elves lived near several Aeorian artifacts
+- Elves lived near several Aevorian artifacts
 - Witnessed first stirrings of power (not full awakening)
 - Effects were devastating enough:
   - Warped magic in the region
@@ -122,7 +122,7 @@ Memory rituals are systematic suppression designed to erase knowledge of what th
 Veilwatchers have been monitoring artifact sites for millennia, logging activity without understanding what they're watching.
 
 **What Their Records Contain:**
-- Centuries of observations of Aeorian sites
+- Centuries of observations of Aevorian sites
 - Patterns of magical activity
 - Correlations with regional events
 - Unintentional map of the artifact network
@@ -133,7 +133,7 @@ If someone analyzed the Veilwatch archives, they would discover:
 - Consistent monitoring of specific ancient sites
 - Correlation between site activity and elven anxiety
 - Their entire culture is structured around avoiding specific locations
-- Those locations are all Aeorian facilities
+- Those locations are all Aevorian facilities
 
 \column
 
@@ -198,14 +198,14 @@ Deep in the restricted sections lie sealed records of:
 - Memories surfacing that should be impossible
 - Fragments of forgotten history
 - Ancient fear in its original context
-- Geometric patterns (Aeorian architecture)
+- Geometric patterns (Aevorian architecture)
 - Cold places far north (Salsvault)
 - Something awakening
 
 ### Why It Affected Them
 
-**The Aeorian Network Activation:**
-Eclipse Day was the Aeorian network activation pulse touching every region, even through the Nullwood's dampening.
+**The Aevorian Network Activation:**
+Eclipse Day was the Aevorian network activation pulse touching every region, even through the Nullwood's dampening.
 
 **What It Did:**
 - Brief connection to what they fled
@@ -243,18 +243,18 @@ Three factions emerging:
 
 ---
 
-## Connection to the Aeorian Echo
+## Connection to the Aevorian Echo
 
 ### What the Elves Fled
 
-The elves fled from the **first stirring** of Aeorian artifacts, millennia ago. Not the current awakening—the original one.
+The elves fled from the **first stirring** of Aevorian artifacts, millennia ago. Not the current awakening—the original one.
 
 **Timeline:**
-- Aeor falls during the Calamity
+- Aevor falls during the Great Fall
 - Centuries pass
 - First minor activation of artifact network
 - Elves living near facilities experience devastating effects
-- Flee to the Nullwood (Age of Arcanum/early post-Calamity)
+- Flee to the Nullwood (Age of Arcanum/early post-Fall)
 - Implement memory suppression
 - Thousands of years of "peaceful" forgetting
 - Current day: Full awakening begins
@@ -262,7 +262,7 @@ The elves fled from the **first stirring** of Aeorian artifacts, millennia ago. 
 ### Why They're Experiencing It Again
 
 **The Network Spans the Continent:**
-The Aeorian facilities their ancestors fled were part of the same network now awakening in Northreach.
+The Aevorian facilities their ancestors fled were part of the same network now awakening in Northreach.
 
 **The Echo Reaches Everywhere:**
 - Salsvault's awakening sent pulse across network
@@ -286,7 +286,7 @@ The Aeorian facilities their ancestors fled were part of the same network now aw
 The elves' recovered memories could provide:
 - Early warning signs of full artifact awakening
 - Maps of the complete artifact network
-- Understanding of Aeorian goals and methods
+- Understanding of Aevorian goals and methods
 - Knowledge of what happened last time
 - Warnings about specific dangers
 - Possible countermeasures (if any exist)
@@ -414,7 +414,7 @@ The elves' recovered memories could provide:
 
 **Late Campaign (Levels 11-16):**
 **What Players Uncover:**
-- Elves fled Aeorian artifacts
+- Elves fled Aevorian artifacts
 - Amnesia was intentional protection
 - Protected memories hold crucial data
 - They're experiencing same threat their ancestors fled

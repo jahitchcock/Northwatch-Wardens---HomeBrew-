@@ -3,7 +3,7 @@
   Status: Canon
   Type: NPC
   Region: Northreach
-  Linked: ../Regions/Northreach/People_of_Northreach.md, The_Aeorian_Echo.md, Places_Secrets.md
+  Linked: ../Regions/Northreach/People_of_Northreach.md, The_Aevorian_Echo.md, Places_Secrets.md
 -->
 
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-This document contains secret information about NPCs in the Northwatch Wardens campaign. This includes hidden motivations, connections to the Aeorian Echo plotline, secret backgrounds, and information that would spoil player discoveries.
+This document contains secret information about NPCs in the Northwatch Wardens campaign. This includes hidden motivations, connections to the Aevorian Echo plotline, secret backgrounds, and information that would spoil player discoveries.
 
 
 ## Guild Leadership: Hidden Depths
@@ -38,7 +38,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
 - Has been documenting strange occurrences for longer than the guild has existed
 
@@ -88,13 +88,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What She Knows (But Hasn't Shared):**
 
-- At least three "minor" incidents in the past five years match Aeorian magical signatures
+- At least three "minor" incidents in the past five years match Aevorian magical signatures
 
 - The wolves of Welton aren't the first awakened creatures in the region
 
-- Salsvault isn't the only Aeorian fragment in the area
+- Salsvault isn't the only Aevorian fragment in the area
 
-- Someone is deliberately seeking Aeorian artifacts
+- Someone is deliberately seeking Aevorian artifacts
 
 
 
@@ -116,6 +116,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor4,top:484px,left:69px,width:362px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -139,11 +142,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
 - Notices unusual purchasing patterns from merchants
 
-- Tracks flow of Aeorian artifacts through black market channels
+- Tracks flow of Aevorian artifacts through black market channels
 
 - Her old contacts occasionally provide useful (and dangerous) information
 
@@ -191,11 +194,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Blackwake Corsairs has been increasing Far North operations
 
-- Several Aeorian artifacts have been sold through specific channels
+- Several Aevorian artifacts have been sold through specific channels
 
 - Criminal organizations are interested in arcane plague research
 
-- Someone with deep pockets is buying any Aeorian biological samples
+- Someone with deep pockets is buying any Aevorian biological samples
 
 
 
@@ -222,6 +225,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{watercolor10,top:100px,left:136px,width:361px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
+
 \page
 
 
@@ -237,19 +243,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Was expelled for pursuing research into "dangerous historical magics"
 
-- Specifically studying pre-Calamity magical warfare
+- Specifically studying pre-Fall magical warfare
 
 - Came north because this is where evidence is
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
-- KNOWS this is Aeorian magic
+- KNOWS this is Aevorian magic
 
 - Has been documenting the "Echo" for years
 
-- Recognizes signs of specific Aeorian experiments
+- Recognizes signs of specific Aevorian experiments
 
 - Understands the implications better than anyone else in the region
 
@@ -259,7 +265,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Hidden Motivations:**
 
-- Seeking to prevent Aeorian weapons from being rediscovered
+- Seeking to prevent Aevorian weapons from being rediscovered
 
 - Building evidence to present to southern authorities (if necessary)
 
@@ -273,9 +279,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Forbidden Cobalt Soul texts smuggled out before expulsion
 
-- Detailed maps of suspected Aeorian crash sites
+- Detailed maps of suspected Aevorian crash sites
 
-- Working theory about what Aeor was developing when it fell
+- Working theory about what Aevor was developing when it fell
 
 - Encrypted notes using academic code only Cobalt Soul members know
 
@@ -295,23 +301,23 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What He Knows (But Hasn't Shared):**
 
-- Aeor was developing biological weapons that couldn't be cured by divine magic
+- Aevor was developing biological weapons that couldn't be cured by divine magic
 
-- Multiple Aeorian facilities crashed in the Northreach/Far North region
+- Multiple Aevorian facilities crashed in the Northreach/Far North region
 
-- The "Aeorian Echo" suggests something is reactivating ancient systems
+- The "Aevorian Echo" suggests something is reactivating ancient systems
 
-- Frigid woe is just ONE of many Aeorian plagues
+- Frigid woe is just ONE of many Aevorian plagues
 
-- Something or someone is deliberately triggering Aeorian tech
+- Something or someone is deliberately triggering Aevorian tech
 
 
 
 **The Big Secret:**
 
-- He has a theory about WHO is behind the Aeorian Echo
+- He has a theory about WHO is behind the Aevorian Echo
 
-- Suspects an entity that survived Aeor's fall
+- Suspects an entity that survived Aevor's fall
 
 - Has evidence but needs more before making accusations
 
@@ -337,6 +343,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor3,top:521px,left:88px,width:324px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -364,9 +373,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- The settlement destruction matches Aeorian magical effects
+- The settlement destruction matches Aevorian magical effects
 
 - Finding similar traces now is why he's been increasingly tense
 
@@ -408,13 +417,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- Nature itself remembers the Calamity
+- Nature itself remembers the Great Fall
 
 - The Echo is "wrong" on a fundamental level—magic that violates natural law
 
-- Some druids want to destroy all Aeorian remnants; others want to seal them
+- Some druids want to destroy all Aevorian remnants; others want to seal them
 
 - Rowan is caught between factions
 
@@ -456,13 +465,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Innocent pawn who might be targeted by the Corsairs to get to Wardens
 
 - Could be manipulated through family connections she's unaware of
 
-- Her presence in Palebank during "Frozen Sick" is partially coincidental, partially not
+- Her presence in Palebank during "The Pale Sickness" is partially coincidental, partially not
 
 
 
@@ -490,11 +499,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
 - His mercenary company was hired to raid an archaeological site
 
-- Recovered Aeorian artifacts and delivered them to client
+- Recovered Aevorian artifacts and delivered them to client
 
 - Didn't understand what they were at the time
 
@@ -521,6 +530,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{watercolor10,top:247px,left:86px,width:308px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
+
 \page
 
 ### Galvena Aballon (Lantern Guard)
@@ -533,16 +545,16 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret:**::
 
-- Her city fell to political corruption BECAUSE of Aeorian artifacts
+- Her city fell to political corruption BECAUSE of Aevorian artifacts
 - A noble house found a cache and used them as leverage
 - The resulting power struggle destroyed the city government
-- Galvena fled after seeing what people do for Aeorian power
+- Galvena fled after seeing what people do for Aevorian power
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- Recognizes the signs of Aeorian corruption
+- Recognizes the signs of Aevorian corruption
 - Fears it's happening again here
 - Will be overprotective when artifacts are involved
 - Might take extreme measures to prevent repeat of her city's fate
@@ -564,11 +576,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- The monastery was using Aeorian texts
+- The monastery was using Aevorian texts
 
-- Recognizes Aeorian magical signatures from bitter experience
+- Recognizes Aevorian magical signatures from bitter experience
 
 - Knows techniques for fighting magically enhanced creatures
 
@@ -584,7 +596,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - If he uses it, players will see a different side of him
 
-- Effective against Aeorian guardians
+- Effective against Aevorian guardians
 
 
 
@@ -612,9 +624,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- The Myriad is interested in Aeorian artifacts
+- The Myriad is interested in Aevorian artifacts
 
 - Guz knows their operations and methods
 
@@ -632,6 +644,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor9,top:602px,left:64px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -653,17 +668,17 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Deliberately downplaying abilities to avoid attention
 
-- Figured out more about the Aeorian Echo than Elric realizes
+- Figured out more about the Aevorian Echo than Elric realizes
 
 - Terrified of what she's learned
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Has been cross-referencing Elric's restricted texts with public sources
 
-- Deduced that someone is deliberately reactivating Aeorian facilities
+- Deduced that someone is deliberately reactivating Aevorian facilities
 
 - Created a predictive model of where next incident will occur
 
@@ -703,15 +718,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Their bloodline includes ancient magical tampering
 
-- Aeorian experiments on draconic subjects
+- Aevorian experiments on draconic subjects
 
 - Echo is resonating with their corrupted bloodline
 
-- They can sense Aeorian magic but don't understand why
+- They can sense Aevorian magic but don't understand why
 
 
 
@@ -719,9 +734,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - During high-stress situations, displays abilities that aren't draconic
 
-- Brief moments of ancient Aeorian language
+- Brief moments of ancient Aevorian language
 
-- Can intuitively understand Aeorian devices (frightening)
+- Can intuitively understand Aevorian devices (frightening)
 
 - May become key to understanding or fighting the Echo
 
@@ -741,16 +756,16 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 **Secret:**::
 
 - NOT as chaotic as he appears—it's a deliberate cover
-- Former Aeoran specialist studying Aeorian magic
+- Former Aeoran specialist studying Aevorian magic
 - The "accidents" often serve a research purpose
 - Deliberately keeps people away from his tower
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Knows EXACTLY what's happening
-- Has been studying Aeorian artifacts for decades
+- Has been studying Aevorian artifacts for decades
 - The tower contains a massive research archive
 - Working on countermeasures but needs components
 
@@ -758,8 +773,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **The Wild Sheep Chase Connection:**::
 
-- The polymorph "accident" was a test of modified Aeorian transformation magic
-- Needed to understand how Aeorian bio-transmutation works
+- The polymorph "accident" was a test of modified Aevorian transformation magic
+- Needed to understand how Aevorian bio-transmutation works
 - The "Noke" identity is a cover for his research
 - Will reveal knowledge if players earn his trust
 
@@ -767,8 +782,8 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **What He Knows:**::
 
-- Location of multiple Aeorian crash sites
-- Specifications of Aeorian magical plagues
+- Location of multiple Aevorian crash sites
+- Specifications of Aevorian magical plagues
 - Theory about the entity reactivating systems
 - Possible countermeasures but needs rare materials
 
@@ -779,17 +794,17 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret:**::
 
-- His patron is an entity FROM Aeor
+- His patron is an entity FROM Aevor
 - Survived the crash in suspended animation
 - Offering him power in exchange for service
 - Baleth is realizing his patron might be dangerous
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - HIS PATRON IS CAUSING IT
-- The entity is reactivating Aeorian facilities
+- The entity is reactivating Aevorian facilities
 - Using Baleth as an agent without full disclosure
 - Baleth is beginning to suspect but is addicted to the power
 
@@ -817,6 +832,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 {{watercolor7,top:527px,left:469px,width:266px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
+
 \page
 
 ### Healers and Support: Hidden Pain
@@ -843,15 +861,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
-- Studied the Calamity extensively during his faith crisis
+- Studied the Great Fall extensively during his faith crisis
 
-- Understands Aeor's weapons were designed to fight gods
+- Understands Aevor's weapons were designed to fight gods
 
 - Recognizes when divine magic is being suppressed
 
-- Can identify Aeorian magical effects by how they resist healing
+- Can identify Aevorian magical effects by how they resist healing
 
 
 
@@ -859,7 +877,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - During his crisis, couldn't heal people dying from "frigid woe"
 
-- Wasn't at Palebank but saw a similar Aeorian plague elsewhere
+- Wasn't at Palebank but saw a similar Aevorian plague elsewhere
 
 - Never spoke of it because he blamed himself
 
@@ -891,15 +909,15 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
 - The attacks were testing a modification to awakening magic
 
-- His sheep were infected with prototype Aeorian bio-magic
+- His sheep were infected with prototype Aevorian bio-magic
 
 - He survived because he was "compatible" with the modification
 
-- Carries dormant Aeorian magic that could be triggered
+- Carries dormant Aevorian magic that could be triggered
 
 
 
@@ -919,7 +937,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Could be key to understanding awakened creature creation
 
-- Might have partial immunity to certain Aeorian effects
+- Might have partial immunity to certain Aevorian effects
 
 - Could be targeted again for further testing
 
@@ -933,6 +951,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor10,top:324px,left:423px,width:342px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -950,19 +971,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Still reports to southern organization
 
-- Collecting information on Aeorian activity
+- Collecting information on Aevorian activity
 
 - Not necessarily hostile but definitely has agenda
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Sent specifically to monitor the situation
 
 - Reports back coded messages through songs
 
-- Has standing orders to acquire Aeorian artifacts if possible
+- Has standing orders to acquire Aevorian artifacts if possible
 
 - Torn between duty and genuine friendships with Wardens
 
@@ -972,7 +993,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Could be Cobalt Soul, could be government, could be other
 
-- Interested in Aeorian knowledge for various reasons
+- Interested in Aevorian knowledge for various reasons
 
 - May send additional agents if situation escalates
 
@@ -994,19 +1015,19 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret:**::
 
-- Descendant of first settlers who encountered Aeorian crash site
+- Descendant of first settlers who encountered Aevorian crash site
 
 - Family has protected secret for generations
 
-- Knows location of hidden Aeorian facility
+- Knows location of hidden Aevorian facility
 
 - Sworn to keep it secret
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- His ancestors sealed an Aeorian site and left warnings
+- His ancestors sealed an Aevorian site and left warnings
 
 - Recent activity suggests seals are weakening
 
@@ -1022,7 +1043,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Told it must only be used in dire circumstances
 
-- Recognizes symbols on Aeorian artifacts
+- Recognizes symbols on Aevorian artifacts
 
 - Could guide party to crucial location when needed
 
@@ -1050,13 +1071,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Led expedition there decades ago
 
-- Team died horribly from Aeorian defenses
+- Team died horribly from Aevorian defenses
 
 - Has been warning people away ever since
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - Recognizes frigid woe from previous encounter
 
@@ -1104,9 +1125,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret (To Be Discovered):**
 
-- Was researching Aeorian artifacts, not just selling them
+- Was researching Aevorian artifacts, not just selling them
 
-- Had decoded some Aeorian texts
+- Had decoded some Aevorian texts
 
 - Realized the items were dangerous but died before warning anyone
 
@@ -1114,7 +1135,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**
+**Connection to Aevorian Echo:**
 
 - Figured out someone was buying specific types of artifacts
 
@@ -1132,7 +1153,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - List of buyers (including false identities)
 
-- Decoded fragments of Aeorian text
+- Decoded fragments of Aevorian text
 
 - Map marking suspected crash sites
 
@@ -1146,6 +1167,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor12,top:393px,left:119px,width:263px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1169,7 +1193,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - the Corsairs are middlemen for someone collecting artifacts
 
@@ -1227,9 +1251,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- The markers are Aeorian experimental subjects tracking tags
+- The markers are Aevorian experimental subjects tracking tags
 
 - Wolves are test subjects for awakening process
 
@@ -1262,13 +1286,13 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
 - The lair shows signs of deliberate magical modification
 
 - Wolves are being directed by something intelligent
 
-- She saw evidence of Aeorian technology but didn't recognize it
+- She saw evidence of Aevorian technology but didn't recognize it
 
 - Will lead party there if pressed
 
@@ -1307,9 +1331,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-**Connection to Aeorian Echo:**::
+**Connection to Aevorian Echo:**::
 
-- Farm sits near a minor Aeorian crash site
+- Farm sits near a minor Aevorian crash site
 
 - Residual magic is affecting the area
 
@@ -1335,7 +1359,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Could be abducted/tested by antagonist
 
-- Might become corrupted by Aeorian magic
+- Might become corrupted by Aevorian magic
 
 - Could be rescued and become information source
 
@@ -1349,6 +1373,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor6,top:721px,left:109px,width:303px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1372,7 +1399,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 **Secret Reality:**::
 
-- Contracted by mysterious buyer to acquire Aeorian artifacts
+- Contracted by mysterious buyer to acquire Aevorian artifacts
 
 - Don't understand what they're collecting or why
 
@@ -1444,7 +1471,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 ### The Larger Pattern: What NPCs Know Collectively
 
 
-#### About Aeorian Reactivation
+#### About Aevorian Reactivation
 
 **Elric Knows:**:: It's happening, pattern suggests intelligence
 
@@ -1457,7 +1484,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 **Brenna Suspects:**:: Larger threat requiring coordinated response
 
 
-#### About Aeorian Locations
+#### About Aevorian Locations
 
 
 **Elro Knows:**:: Salsvault layout and dangers
@@ -1483,29 +1510,29 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 
 
-#### About Aeorian Effects
+#### About Aevorian Effects
 
 
 **Johan Knows:**:: How divine magic fails against it
 
 **Rowan Knows:**:: How it violates natural order
 
-**Corel Knows:**:: What a completed Aeorian attack looks like
+**Corel Knows:**:: What a completed Aevorian attack looks like
 
-**Ariodh Knows:**:: How to fight Aeorian constructs
+**Ariodh Knows:**:: How to fight Aevorian constructs
 
 
 
 #### About Personal Connections
 
 
-**Willen:**:: Carries dormant Aeorian modification
+**Willen:**:: Carries dormant Aevorian modification
 
-**Aurixean:**:: Bloodline resonates with Aeorian magic
+**Aurixean:**:: Bloodline resonates with Aevorian magic
 
 **Westly:**:: Under observation by antagonist
 
-**Multiple NPCs:**:: Have encountered Aeorian effects before
+**Multiple NPCs:**:: Have encountered Aevorian effects before
 
 
 
@@ -1515,6 +1542,9 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 {{footnote People of Northreach: DM Secrets}}
 
 {{watercolor1,top:375px,left:179px,width:373px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote People of Northreach: DM Secrets}}
 
 \page
 
@@ -1533,7 +1563,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - **Corel + Elro:** Historical precedents
 
-- **Johan + Rowan:** Understanding of Aeorian violations
+- **Johan + Rowan:** Understanding of Aevorian violations
 
 - **Corsair Operatives:** Conspiracy structure
 
@@ -1547,7 +1577,7 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - The buyer's ultimate goal
 
-- How many Aeorian sites exist in the region
+- How many Aevorian sites exist in the region
 
 - What the "complete" reactivation would do
 
@@ -1652,11 +1682,11 @@ This document contains secret information about NPCs in the Northwatch Wardens c
 
 - Westly is being specifically targeted
 
-- This is a TEST of Aeorian awakening magic
+- This is a TEST of Aevorian awakening magic
 
 
 
-### For "Frozen Sick"
+### For "The Pale Sickness"
 
 
 

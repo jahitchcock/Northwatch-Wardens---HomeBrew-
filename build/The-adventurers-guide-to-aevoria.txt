@@ -145,7 +145,7 @@ If you're new to the campaign, start here:
 
 2. **Learn About Northreach** — Your adventures begin in the cold frontier. **Chapter 3: Northreach: Your Starting Point** gives you everything you need to know.
 
-3. **Choose or Create a Character** — You can use one of the pre-made characters available from your DM, or create your own using standard 5e 5e rules.
+3. **Choose or Create a Character** — You can use one of the pre-made characters available from your DM, or create your own using standard D&D 5e rules.
 
 4. **Arrive at the Waystone Inn** — Your adventure begins at the guild headquarters, where contracts are posted and Wardens gather.
 
@@ -587,7 +587,7 @@ All Player's Handbook classes work in this campaign, but some fit the frontier t
 
 ### Less Common (But Viable)
 
-**Artificer** — Researching Aevorian ruins or developing frontier survival tools. *Requires Tasha's Cauldron*
+**Artificer** — Researching Aeorian ruins or developing frontier survival tools. *Requires Tasha's Cauldron*
 
 **Monk** — Unusual in Northreach. Perhaps you're from a distant monastery or seeking enlightenment. *Consider training origin*
 
@@ -596,7 +596,7 @@ All Player's Handbook classes work in this campaign, but some fit the frontier t
 
 ## Ancestries in Northreach
 
-All standard 5e species exist in Aevoria. Here's what you'll find in Northreach and how they're perceived:
+All standard D&D species exist in Aevoria. Here's what you'll find in Northreach and how they're perceived:
 
 ### Common
 
@@ -646,7 +646,7 @@ Your background represents your life before joining the Northwatch Wardens.
 
 **Criminal** — Everyone deserves a second chance. Northreach doesn't judge your past if you contribute now.
 
-**Sage** — You're researching strange phenomena in Northreach. The Aevorian ruins call to you.
+**Sage** — You're researching strange phenomena in Northreach. The Aeorian ruins call to you.
 
 **Guild Artisan** — Skilled craftspeople are always needed: smiths, carpenters, tanners, brewers.
 
@@ -956,7 +956,7 @@ Need inspiration? Here are concepts that fit the campaign:
 
 **The Desperate Seeker** — Any class looking for someone or something in Northreach.
 
-**The Curious Tinkerer** — Artificer investigating Aevorian ruins and ancient technology.
+**The Curious Tinkerer** — Artificer investigating Aeorian ruins and ancient technology.
 
 **The Haunted Veteran** — Fighter or Ranger who came north to escape war's aftermath.
 
@@ -1021,7 +1021,7 @@ Follow these steps to create your Northwatch Warden:
 {{note
 ##### Total Time: ~60-75 minutes
 
-Experienced 5e players can complete this faster. New players should take their time and ask questions. Your DM is there to help!
+Experienced D&D players can complete this faster. New players should take their time and ask questions. Your DM is there to help!
 }}
 
 ## Final Thoughts
@@ -1095,7 +1095,7 @@ Your character's origin isn't just flavor text. It's the foundation of who they 
 
 This guide provides:
 - **Cultural context** for each of Aevoria's ten regions
-- **Background adaptations** showing how standard 5e backgrounds manifest in different regions
+- **Background adaptations** showing how standard D&D backgrounds manifest in different regions
 - **Character concepts** to inspire your creation process
 - **Roleplay hooks** connecting your origin to the campaign
 - **Mechanical guidance** for regional customization
@@ -1435,7 +1435,7 @@ Where stone sings and metal hums, where dwarves carve cities from living rock an
 
 ### Overview
 
-Deep beneath the mountains lies the dwarven kingdom known as the Stonebound Depths—a vast subterranean realm built around massive crystalline formations and metallic structures the dwarves call "Deep Roots." The Stonebound Dwarves believe these are natural geological features, not understanding their true Aevorian origin. Their culture revolves around geomancy, resonance magic, and the deep patience of stone.
+Deep beneath the mountains lies the dwarven kingdom known as the Stonebound Depths—a vast subterranean realm built around massive crystalline formations and metallic structures the dwarves call "Deep Roots." The Stonebound Dwarves believe these are natural geological features, not understanding their true Aeorian origin. Their culture revolves around geomancy, resonance magic, and the deep patience of stone.
 
 - **Climate:** Stable subterranean (cool, dry)  
 - **Population:** ~40,000 (majority dwarven)  
@@ -1678,7 +1678,7 @@ The coast's maze of reefs and coves makes it perfect for moving contraband. You 
 - Investigating strange salvage or phenomena
 - Crew disbanded after disaster
 - Seeking steady work away from storms
-- Following rumors of Aevorian artifacts inland
+- Following rumors of Aeorian artifacts inland
 }}
 
 ### Sample Character Concepts
@@ -2244,7 +2244,7 @@ Regional tensions should enhance roleplay, not hinder it. If friction between ch
 
 ## Adapting Standard Backgrounds
 
-Every 5e 5e background can be adapted to reflect regional origin. The mechanical benefits (skills, tools, languages, equipment) remain the same, but the narrative and feature flavors change.
+Every D&D 5e background can be adapted to reflect regional origin. The mechanical benefits (skills, tools, languages, equipment) remain the same, but the narrative and feature flavors change.
 
 ### Regional Background Features
 
@@ -2370,7 +2370,7 @@ You can assess ice safety, predict blizzards, and navigate by stars even in whit
 Far North exposure grants you resistance to extreme cold. You can function normally in conditions that would give others exhaustion.
 
 - **Ruin Knowledge (Sage/Hermit)**  
-You've explored Far North ruins and survived. You recognize Aevorian architectural patterns and can identify similar structures elsewhere. This knowledge unsettles you.
+You've explored Far North ruins and survived. You recognize Aeorian architectural patterns and can identify similar structures elsewhere. This knowledge unsettles you.
 
 ![cat warrior](https://i.imgur.com/VMmZ0MC.jpeg) {width:355px,mix-blend-mode:multiply,position:absolute,right:0px,bottom:-100px,transform:"scaleX(-1)"}
 
@@ -5437,12 +5437,12 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 **Elro Aldataur:**
 - **Role:** Retired scholar
 - **Public Persona:** Eccentric, obsessed with ancient history
-- **Value:** Knowledge about ruins and pre-Calamity civilizations
+- **Value:** Knowledge about ruins and pre-Fall civilizations
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}
 
-{{watercolor9,top:297px,left:222px,width:292px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:678px,left:143px,width:318px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -5815,7 +5815,7 @@ About 90 permanent residents, plus floating population of travelers:
 
 
 ### What It Is
-A cold coastal settlement that survives on fishing, sealing, and the determination of people who've chosen to live at the edge of the known world. Palebank serves as the last outpost before the frozen wilderness of Icecross.
+A cold coastal settlement that survives on fishing, sealing, and the determination of people who've chosen to live at the edge of the known world. Palebank serves as the last outpost before the frozen wilderness of Eiselcross.
 
 ### Geography
 - **Location:** Northeast of the Waystone Inn, about three days' travel
@@ -5834,7 +5834,7 @@ Palebank is built for survival:
 - Fishing (cod, herring, other cold-water species)
 - Sealing (meat, skins, oil)
 - Limited trade with southern settlements
-- Serving as a waypoint for Icecross expeditions (risky but profitable)
+- Serving as a waypoint for Eiselcross expeditions (risky but profitable)
 - Artifact trade (quietly, when explorers return)
 
 ### Population
@@ -5878,7 +5878,7 @@ Life here is hard but honest:
 
 #### Pelc's Curiosities
 - **Proprietor:** Verla Pelc (elf, reclusive)
-- **Specialty:** Artifacts from Icecross expeditions
+- **Specialty:** Artifacts from Eiselcross expeditions
 - **Schedule:** Opens irregularly
 - **Reputation:** Knowledgeable but antisocial
 
@@ -7307,7 +7307,7 @@ Weathered and wise. Elro has seen winters that would break lesser folk and leads
 ![alt-text](https://i.imgur.com/kaLHuR3_d.jpeg?maxwidth=520&shape=thumb&fidelity=high) {width:100px,border:"2px solid",border-radius:10px,float:"left",margin:"2px"}
 
 ###### Merchant and collector
-An introverted elf who runs Pelc's Curiosities, trading in artifacts and relics from Icecross. Pelc values objects more than social interaction.
+An introverted elf who runs Pelc's Curiosities, trading in artifacts and relics from Eiselcross. Pelc values objects more than social interaction.
 
 #### Reputation:
 Reclusive but knowledgeable. Pelc can identify almost any artifact that passes through their shop.
@@ -9097,7 +9097,7 @@ Information flows faster through Solaris than anywhere:
 
 ::**With Northreach:**
 - Distant frontier viewed as romantic/dangerous
-- Scholars interested in Aevorian reports
+- Scholars interested in Aeorian reports
 - Some Wardens have Solarian backgrounds
 - Trade limited but present
 - News arrives weeks late
@@ -9408,7 +9408,7 @@ The dwarves are not isolationists, but they are deliberate. They move at the pac
 
 Deep beneath the mountains lies the realm of the Stonebound Dwarves, a people who believe the world's oldest truths are written in stone. They have built their entire civilization around massive crystalline formations and strange metallic structures they call "Deep Roots"—treating them as natural geological features rather than what they truly are.
 
-The dwarves are master craftsmen, resonance-mages, and geomancers. Their magic developed from studying the subtle vibrations of the very artifacts they live among. They record tremors, interpret stone-songs, and forge with harmonic precision, never realizing they're dancing to the rhythm of dormant Aevorian technology.
+The dwarves are master craftsmen, resonance-mages, and geomancers. Their magic developed from studying the subtle vibrations of the very artifacts they live among. They record tremors, interpret stone-songs, and forge with harmonic precision, never realizing they're dancing to the rhythm of dormant Aeorian technology.
 
 Eclipse Day sent shockwaves through the Depths. The Heartstone—a massive artifact core they worship as a natural wonder—hummed for the first time in recorded history. The dwarves believe a new "verse" in the world's song has begun. They have no idea their sacred geological marvel is awakening.
 
@@ -10452,7 +10452,7 @@ Contempt. Dwarves see Vharoxis as reckless and dangerous.
 - But business continues  
 
 ### Northreach
-Opportunity. The Aevorian Echo has increased demand for relics — and Vharoxis profits.
+Opportunity. The Aeorian Echo has increased demand for relics — and Vharoxis profits.
 
 - Artifact smuggling routes  
 - Warden infiltration attempts  
@@ -11164,7 +11164,7 @@ The Emberlands supply rare minerals and magical materials to the outlaw city—f
 
 **Status:** Minimal direct contact, growing awareness
 
-The Emberlands and Northreach are geographically distant, but rumors of the Aevorian Echo have reached the south. Some Emberlands scholars are beginning to compare notes with Northreach researchers.
+The Emberlands and Northreach are geographically distant, but rumors of the Aeorian Echo have reached the south. Some Emberlands scholars are beginning to compare notes with Northreach researchers.
 
 **Shared Interest:**
 - Both regions experienced dramatic phenomena on Eclipse Day
@@ -11220,7 +11220,7 @@ Travelers speak of a land that feels alive in a way it never did before.
 **Region Level:** 4-7 (mid-tier adventures)  
 **Themes:** Primal awakening, druidic mysteries, ecological transformation, frontier resilience  
 **Key Conflict:** The Green Stirring and its implications for civilization  
-**Aevorian Connection:** Biological resonance field
+**Aeorian Connection:** Biological resonance field
 
 
 ## Geography & Climate
@@ -11230,7 +11230,7 @@ The Marches are lush, humid, and vibrant—a region where life flourishes with a
 ### Key Features
 
 #### The Elderbough Forest
-An ancient woodland where trees grow impossibly tall, their trunks as wide as houses and their canopies reaching toward the sky like cathedral spires. Druids claim some of these trees remember the world before the Calamity.
+An ancient woodland where trees grow impossibly tall, their trunks as wide as houses and their canopies reaching toward the sky like cathedral spires. Druids claim some of these trees remember the world before the Great Fall.
 
 **Terrain:** Dense old-growth forest  
 **Travel:** Difficult terrain; 1 mile per hour  
@@ -11280,7 +11280,7 @@ The Marches experience warm, rainy conditions year-round—perfect for life to f
 {{pageNumber,auto}}
 {{footnote THE VERDANT MARCHES}}
 
-{{watercolor3,top:600px,left:413px,width:328px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:227px,left:328px,width:340px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12223,17 +12223,17 @@ Wherever adventurers gather—major cities, frontier towns, and dangerous region
 
 \page
 
-## The Archivists of Aevoria
+## The Archivists of Aevor
 
 **Type:** Scholarly Society | **Headquarters:** Multiple Libraries | **Public Reputation:** Obsessive, Secretive, Dangerous Knowledge
 
-The Archivists of Aevoria are dedicated to recovering, studying, and cataloging relics from the fallen civilization of Aevoria. Operating from scattered libraries and research outposts, the Archivists are viewed with a mixture of respect (for their knowledge) and suspicion (for what they might uncover).
+The Archivists of Aevor are dedicated to recovering, studying, and cataloging relics from the fallen civilization of Aevor. Operating from scattered libraries and research outposts, the Archivists are viewed with a mixture of respect (for their knowledge) and suspicion (for what they might uncover).
 
 ### What People Know
 
 - **Relic Hunters:** They pay well for authentic Aevorian artifacts and information about ruin sites
 - **Secretive Research:** What they learn from their studies is rarely shared publicly
-- **Magic Obsessed:** The Archivists are particularly interested in Aevoria's advanced magical techniques
+- **Magic Obsessed:** The Archivists are particularly interested in Aevor's advanced magical techniques
 - **Dangerous Work:** Many Archivists have died in pursuit of their research
 
 ### How to Interact
@@ -12257,7 +12257,7 @@ The Archivists of Aevoria are dedicated to recovering, studying, and cataloging 
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
-{{watercolor9,top:406px,left:36px,width:379px,background-color:#BBAD82,opacity:80%}}
+{{watercolor10,top:578px,left:54px,width:396px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -12441,7 +12441,7 @@ Community-focused organization helping small farmers share resources, negotiate 
 ### Conflicting Loyalties
 
 Some organizations have conflicting interests:
-- **Covenant of the Silent Vigil vs. Archivists of Aevoria:** The Covenant views some Aevorian research as dangerous
+- **Covenant of the Silent Vigil vs. Archivists of Aevor:** The Covenant views some Aevorian research as dangerous
 - **Solace Trade Consortium vs. Vharoxis Markets:** Legitimate trade vs. black markets
 - **Stonebound Assembly vs. Mining Companies:** Traditional dwarven methods vs. profit-focused extraction
 
@@ -12457,7 +12457,7 @@ Reputation with one organization may help or hinder you with others:
 {{pageNumber,auto}}
 {{footnote ORGANIZATIONS OF AEVORIA}}
 
-{{watercolor6,top:55px,left:409px,width:353px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:554px,left:14px,width:252px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -13876,7 +13876,7 @@ In practice, that can mean:
 
 ### Northreach Modifiers
 
-**The frontier is not the city.** Prices, availability, and services differ from core 5e assumptions.
+**The frontier is not the city.** Prices, availability, and services differ from core D&D assumptions.
 
 ### Price Adjustments
 
@@ -14428,7 +14428,7 @@ In Northreach, pure currency transactions are often impractical:
 - Fishing and trapping based
 - Regular contact with southern traders (when sea permits)
 - Access to coastal goods
-- Some wealth from Icecross relics
+- Some wealth from Eiselcross relics
 
 **Currency Notes:**
 - More coin circulates than inland settlements
@@ -16642,8 +16642,8 @@ This glossary provides pronunciation guides and brief definitions for important 
 
 ## A
 
-**Aevoria** (AY-or)
-Ancient civilization of powerful mages that fell in a cataclysm. Ruins of Aevoria lie buried in the Far North, and Aevorian artifacts occasionally surface. Known for ambitious arcane experiments and magical hubris. *See: The Far North, Salsvault*
+**Aevor** (AY-or)
+Ancient civilization of powerful mages that fell in a cataclysm. Ruins of Aevor lie buried in the Far North, and Aevorian artifacts occasionally surface. Known for ambitious arcane experiments and magical hubris. *See: The Far North, Salsvault*
 
 **Aevorian Echo**
 Phenomenon of rising magical energy emanating from buried Aevorian ruins, particularly Salsvault. Causes unpredictable magical effects, awakening intelligence in creatures, and destabilizing arcane workings. Central mystery of the Northwatch Wardens campaign. *See: The Pale Sickness adventure*
@@ -16651,7 +16651,7 @@ Phenomenon of rising magical energy emanating from buried Aevorian ruins, partic
 **Aevoria** (ay-VOR-ee-uh)
 The continent and world in which the Northwatch Wardens campaign takes place. Divided into ten major regions with diverse cultures, climates, and peoples.
 
-**Archivists of Aevoria**
+**Archivists of Aevor**
 Scholarly organization dedicated to studying Aevorian ruins and recovering lost knowledge safely and responsibly. Based primarily in northern research stations. Viewed with a mix of respect and caution—their work is valuable but dangerous. *See: Organizations chapter*
 
 **Argyle** (AR-gyle)
@@ -16690,12 +16690,12 @@ Religious order dedicated to protecting society from unaccountable magical power
 Bandit hideout north of Palebank Village. Named for the croaking sounds echoing from within (frogs, not bandits). Site of conflict during The Pale Sickness adventure. *See: The The Pale Sickness adventure*
 
 **Currency**
-Aevoria uses standard 5e coinage: copper pieces (cp), silver pieces (sp), gold pieces (gp), and platinum pieces (pp). Regional currencies exist but are easily exchanged. *See: Currency and Trade chapter*
+Aevoria uses standard D&D coinage: copper pieces (cp), silver pieces (sp), gold pieces (gp), and platinum pieces (pp). Regional currencies exist but are easily exchanged. *See: Currency and Trade chapter*
 
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor8,top:36px,left:88px,width:380px,background-color:#BBAD82,opacity:80%}}
+{{watercolor2,top:571px,left:279px,width:272px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16727,7 +16727,7 @@ Region of Aevoria devastated by magical cataclysm within living memory. Landscap
 ## F
 
 **Far North, The**
-Arctic region at the top of the world. Home to buried Aevorian ruins, extreme weather, and isolated settlements. Inhabited by hardy folk, nomadic tribes, and researchers studying Aevoria. Source of the Aevorian Echo phenomenon. *See: Regions chapter*
+Arctic region at the top of the world. Home to buried Aevorian ruins, extreme weather, and isolated settlements. Inhabited by hardy folk, nomadic tribes, and researchers studying Aevor. Source of the Aevorian Echo phenomenon. *See: Regions chapter*
 
 **Father Johan Merriksonn** (YOH-han MEH-rik-sun)
 *"Father Johan" is fine; full name rarely used*
@@ -16764,7 +16764,7 @@ Half-orc laborer and Northwatch Warden. Quiet, immensely strong, kind-hearted. D
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor1,top:476px,left:370px,width:337px,background-color:#BBAD82,opacity:80%}}
+{{watercolor13,top:220px,left:4px,width:324px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16906,7 +16906,7 @@ Underwater realm of aquatic peoples (merfolk, tritons, sea elves). Explored thro
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor10,top:296px,left:411px,width:364px,background-color:#BBAD82,opacity:80%}}
+{{watercolor6,top:460px,left:44px,width:301px,background-color:#BBAD82,opacity:80%}}
 
 \page
 
@@ -16990,7 +16990,7 @@ Adventure involving awakened wolves with developing intelligence attacking farms
 {{pageNumber,auto}}
 {{footnote GLOSSARY OF AEVORIA}}
 
-{{watercolor8,top:710px,left:314px,width:398px,background-color:#BBAD82,opacity:80%}}
+{{watercolor7,top:719px,left:485px,width:308px,background-color:#BBAD82,opacity:80%}}
 
 \page
 

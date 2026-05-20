@@ -12,7 +12,7 @@
 
 **Northwatch Wardens** is a modular, drop-in guild campaign for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session** with flexible attendance and order-independent adventures, this campaign emphasizes **investigation, choice, and consequence** unified by a spreading arcane mystery.
 
-**Your Campaign Hub:** The Waystone Inn, guild headquarters where contracts are posted and adventurers gather. **Your Mission:** Protect the frontier settlements, investigate strange phenomena, and uncover the secrets of the Aeorian Echo awakening beneath Northreach.
+**Your Campaign Hub:** The Waystone Inn, guild headquarters where contracts are posted and adventurers gather. **Your Mission:** Protect the frontier settlements, investigate strange phenomena, and uncover the secrets of the Aevorian Echo awakening beneath Northreach.
 
 **Campaign Highlights:**
 - ✅ Order-independent adventures (run in any sequence)
@@ -61,7 +61,7 @@ START: "I need to..."
 │     └─ Secrets → Chapter 6 - Location Secrets
 │
 ├─ TRACK THE MYSTERY
-│  └─ See: Chapter 6 - The Aeorian Echo
+│  └─ See: Chapter 6 - The Aevorian Echo
 │     └─ Clue checklist → Chapter 4 - Foreshadowing Database
 │
 ├─ MAKE FACTION DECISIONS
@@ -79,24 +79,24 @@ START: "I need to..."
 
 ---
 
-## The Aeorian Echo: What Players Are Discovering
+## The Aevorian Echo: What Players Are Discovering
 
 **What Players Know Gradually:**
 1. **Wolves of Welton** — Animals are becoming smarter and more purposeful
-2. **Frozen Sick** — A sickness is spreading; something ancient is waking
+2. **The Pale Sickness** — A sickness is spreading; something ancient is waking
 3. **Temple of the Dragonknights** — Powerful forces are mobilizing to exploit the awakening
 4. **Wild Sheep Chase** — Magic itself is becoming unstable and unpredictable
 5. **Peril in Pinebrook** — Every frontier settlement is vulnerable to what's coming
 
 **What Players Don't Know (Yet):**
-- The Aeorian Echo originates from buried ruins (Salsvault) far north of Palebank
-- Aeorian artifacts are spreading magical contamination across Northreach
+- The Aevorian Echo originates from buried ruins (Salsvault) far north of Palebank
+- Aevorian artifacts are spreading magical contamination across Northreach
 - Multiple factions (cult, dragon, others) are competing to exploit/control the magic
 - The Echo is causing intelligent awakening and magical destabilization
 - Regional stability is declining regardless of player actions
 
 **DM's Secret Truth:**
-The Aeorian Echo represents a fragment of pre-Calamity magic waking up after millennia of dormancy. It's neither inherently good nor evil—it's simply *happening*. What matters is what the players (and factions) do with this knowledge. Their choices determine if Northreach adapts and survives, or if the magic overwhelms the frontier.
+The Aevorian Echo represents a fragment of pre-Calamity magic waking up after millennia of dormancy. It's neither inherently good nor evil—it's simply *happening*. What matters is what the players (and factions) do with this knowledge. Their choices determine if Northreach adapts and survives, or if the magic overwhelms the frontier.
 
 **Mystery Rating Key:**
 - ★☆☆☆☆ — Minor clue or setup element
@@ -146,7 +146,7 @@ The Aeorian Echo represents a fragment of pre-Calamity magic waking up after mil
 
 ---
 
-### For Experienced Parties: "Frozen Sick" (Maximum Mystery Impact)
+### For Experienced Parties: "The Pale Sickness" (Maximum Mystery Impact)
 
 **Why This Adventure?**
 - Highest mystery revelation (★★★★★)
@@ -160,7 +160,7 @@ The Aeorian Echo represents a fragment of pre-Calamity magic waking up after mil
 
 **Typical Pacing:** 3-4 sessions
 
-**See:** Chapter 5 - Frozen Sick
+**See:** Chapter 5 - The Pale Sickness
 
 ---
 
@@ -216,7 +216,7 @@ Sentient beings thrust into sudden consciousness. Desperate, frightened, dangero
 ## Core Campaign Principles
 
 ### ✅ Order-Independent Design
-Every adventure is self-contained. Party discovered the Echo in Frozen Sick? Great—they understand the mystery. Discovered it in Temple? Different understanding, equally valid. Discoveries build knowledge regardless of sequence.
+Every adventure is self-contained. Party discovered the Echo in The Pale Sickness? Great—they understand the mystery. Discovered it in Temple? Different understanding, equally valid. Discoveries build knowledge regardless of sequence.
 
 ### ✅ Moral Complexity
 No binary good/evil. Awoken wolves aren't monsters; they're conscious beings seeking safety. Cult members believe they're saving the world. Venomfang seeks survival. Settlements have legitimate concerns. Players navigate competing valid interests.
@@ -235,7 +235,7 @@ Northreach is **fragile**. Adventures show settlements under stress, communities
 New player joining mid-campaign? They get briefing at Waystone Inn, pick a contract, dive in. No campaign history required. This is intentional design.
 
 ### ✅ Mystery-First Design
-Every adventure includes clues about the Aeorian Echo. Some obvious (Frozen Sick), some subtle (Wolves). Discovery is player choice, not forced.
+Every adventure includes clues about the Aevorian Echo. Some obvious (The Pale Sickness), some subtle (Wolves). Discovery is player choice, not forced.
 
 ---
 
@@ -245,7 +245,7 @@ Every adventure includes clues about the Aeorian Echo. Some obvious (Frozen Sick
 → **Fine.** They're order-independent. Move to next contract. You can revisit skipped adventures later if mystery gaps emerge.
 
 ### "How Do I Know If They've Discovered the Mystery Yet?"
-→ **Read them.** Have they figured out: (1) Animals are awakening? (2) Aeorian ruins are the source? (3) Factions are exploiting it? Track their knowledge in your notes.
+→ **Read them.** Have they figured out: (1) Animals are awakening? (2) Aevorian ruins are the source? (3) Factions are exploiting it? Track their knowledge in your notes.
 
 ### "What If They Kill an Important NPC?"
 → **That's valid.** Replace them with similar role. Bolt dies? Flame becomes problem. NPC disappears? Their ally takes over their role. Game adapts.

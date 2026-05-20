@@ -22,7 +22,7 @@ This document contains DM-only secrets about the Sunken Dominion. **DO NOT share
 
 The Sunken Dominion is not a drowned mortal civilization.
 
-It is the oceanic branch of the ancient artifact network—a megastructure spanning the ocean floor, built long before Aeor, long before elves or dwarves, long before any known culture.
+It is the oceanic branch of the ancient artifact network—a megastructure spanning the ocean floor, built long before Aevor, long before elves or dwarves, long before any known culture.
 
 ---
 
@@ -624,7 +624,7 @@ A diver returns with a fragment that whispers in their sleep. They become obsess
 
 ### Campaign Integration
 
-**The Aeorian Connection**  
+**The Aevorian Connection**  
 Relics from the Dominion match patterns found in the Far North. Someone is collecting fragments from both regions. Why? What are they building? And what happens when they succeed?
 
 ---

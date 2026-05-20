@@ -323,7 +323,7 @@ These are data storage crystals—the Aeorian equivalent of archives. They're at
 **What They Contain:**
 - Maps of the artifact network
 - Technical documentation (in Aeorian script)
-- Historical records of pre-Calamity events
+- Historical records of pre-Fall events
 - Warning messages about system limitations
 
 **Campaign Use:**

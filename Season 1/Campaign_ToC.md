@@ -12,7 +12,7 @@
 **Campaign Name:** Northwatch Wardens: Season One  
 **System:** D&D 5e (GM5e XML v5)  
 **Level Range:** 1-5  
-**Theme:** Frontier mystery, Aeorian Echo, low-magic grounded adventure  
+**Theme:** Frontier mystery, Aevorian Echo, low-magic grounded adventure  
 **Combat Encounters:** 12 encounters with full stat blocks (45 combatants, 18,175 XP total)
 
 ## Quick Links
@@ -107,12 +107,12 @@
 
 ---
 
-### 4. Frozen Sick (uid: 2017)
+### 4. The Pale Sickness (uid: 2017)
 
 \page
 
 **Levels:** 1-3  
-**Type:** Survival adventure, plague investigation, Aeorian ruins  
+**Type:** Survival adventure, plague investigation, Aevorian ruins  
 **Theme:** Disease mystery, harsh environment, ancient magic
 
 #### Encounters:
@@ -122,7 +122,7 @@
 
 2. ✅ **Urgon's Cabin Search** (uid: 2222)
    - Clue gathering, Mila Teno interaction
-   - Aeorian connection discovered
+   - Aevorian connection discovered
 
 3. ✅ **Tulgi's Cabin Interview** (uid: 2223)
    - Social encounter, Tulgi's confession
@@ -132,7 +132,7 @@
    - **COMBAT:** 5 Elf Bandits | **XP:** 625
    - Verla's death confirmed, journal evidence
 
-5. ✅ **Frozen Sick: Croaker Cave Ambush** (uid: 2103)
+5. ✅ **The Pale Sickness: Croaker Cave Ambush** (uid: 2103)
    - **COMBAT:** 3 Giant Ice Frogs | **XP:** 1,350
    - Cave entrance, stealth options
 
@@ -164,7 +164,7 @@
     - Crevasse traps, frozen forest, yeti avoidance
 
 13. ✅ **Salsvault - Security Construct Ambush** (uid: 2236)
-    - **COMBAT:** 1 Aeorian Security Construct | **XP:** 450
+    - **COMBAT:** 1 Aevorian Security Construct | **XP:** 450
     - Pre-Calamity security, Freeze Ray attacks
 
 14. ✅ **Salsvault - Entrance Hall** (uid: 2231)
@@ -186,7 +186,7 @@
     - Cure distribution, moral choices
     - Village celebration, epilogue hooks
 
-**Frozen Sick Combat:** 5 encounters (13 combatants, 4,475 XP)  
+**The Pale Sickness Combat:** 5 encounters (13 combatants, 4,475 XP)  
 **Status:** ✅ Complete (19 encounters)
 
 ---
@@ -330,7 +330,7 @@
 
 | Opening Session | 2013 | ✅ |
 | Wolves of Welton | 2016, 2102, 2180-2184 | ✅ |
-| Frozen Sick | 2017, 2103, 2221-2236 | ✅ |
+| The Pale Sickness | 2017, 2103, 2221-2236 | ✅ |
 | Temple of Dragonknights | 2018, 2104, 2170-2179, 2185-2186 | ✅ |
 | Wild Sheep Chase | 2019, 2105, 2160-2162, 2187 | ✅ |
 | Peril in Pinebrook | 2020, 2150-2157, 2188-2189 | ✅ |
@@ -343,7 +343,7 @@
 - Opening Skirmish: 1 encounter (2 combatants, 100 XP)
 - The Morning After: No combat encounters (ceremony)
 - Wolves of Welton: 6 encounters (25 combatants, 6,300 XP)
-- Frozen Sick: 19 encounters (13 combatants, 4,475 XP)
+- The Pale Sickness: 19 encounters (13 combatants, 4,475 XP)
 - Temple of Dragonknights: 13 encounters (3 combatants, 5,900 XP)
 - Wild Sheep Chase: 5 encounters (2 combatants, 1,400 XP)
 - Peril in Pinebrook: 4 encounters (8 combatants, 725 XP)
@@ -360,7 +360,7 @@
 
 ## Next Steps / Todo List
 
-### ✅ Priority 1: Complete Frozen Sick Encounters - **DONE!**
+### ✅ Priority 1: Complete The Pale Sickness Encounters - **DONE!**
 - [x] Create uid 2221: Funeral and Investigation
 - [x] Create uid 2222: Urgon's Cabin Search
 - [x] Create uid 2223: Tulgi's Cabin Interview
@@ -412,7 +412,7 @@
 ### Design Philosophy
 - **Grounded low-magic**: Encounters feel dangerous and realistic
 - **Moral choices**: Many encounters have non-combat resolutions
-- **Interconnected lore**: Aeorian Echo connects all adventures
+- **Interconnected lore**: Aevorian Echo connects all adventures
 - **Frontier theme**: Survival, isolation, community stakes
 
 ### Encounter Design Standards
@@ -427,7 +427,7 @@
 - 2100-2199: Special/legacy encounters
 - 2150-2189: Adventure-specific encounter ranges
 - 2180-2189: Priority 2 enhancement encounters
-- 2221-2236: Frozen Sick encounters (reserved)
+- 2221-2236: The Pale Sickness encounters (reserved)
 - 3000+: NPC UIDs
 
 ---
@@ -445,13 +445,13 @@
 - **Campaign_Tracker_BLANK.md** - Fillable tracker for choices, NPCs, and continuity
 
 ### Campaign Flow
-- ✅ Strong narrative thread (Aeorian Echo connects all adventures)
+- ✅ Strong narrative thread (Aevorian Echo connects all adventures)
 - ✅ Natural session structure (Guild hub at Waystone Inn)
 - ✅ Player-led recaps work naturally (Guild briefings create recap moments)
 - ✅ West Marches compatible (episodic structure handles flexible schedules)
 
 ### Cohesion Assessment
 - **Recurring themes:** Frontier survival, magical corruption, moral complexity
-- **Inter-adventure connections:** All link through Aeorian Echo
+- **Inter-adventure connections:** All link through Aevorian Echo
 - **NPC continuity:** 9 recurring NPCs with campaign-wide relevance
 - **Geographic consistency:** 6 locations all referenced from Waystone Inn hub

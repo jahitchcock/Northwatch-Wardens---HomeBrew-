@@ -11,7 +11,7 @@
 {{note
 **Campaign Note (DM):** 
 
-This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aeorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (Frozen Sick, broader mystery).
+This scene transitions players from Session 0 into their first contract (Wolves of Welton), which is the **campaign's inciting incident**. The "wolves acting strange" is the first sign of the Aevorian Echo—ancient magic destabilizing the frontier. Use the optional flavor beats to foreshadow other adventures (The Pale Sickness, broader mystery).
 
 :
 A narrative tie‑in to launch Wolves of Welton as Contract #1. Charter signing ceremony transitions into first official guild contract.
@@ -106,7 +106,7 @@ She hands them a sealed letter for the Welton Council—official recognition tha
 
 ### **5. Optional Flavor Beats to Tie Your Whole Campaign Together**
 
-#### **If you want Frozen Sick to connect later:**
+#### **If you want The Pale Sickness to connect later:**
 {{descriptive
 **A trader at the inn mutters:**
 

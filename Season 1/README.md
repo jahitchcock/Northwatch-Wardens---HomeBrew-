@@ -18,13 +18,13 @@
 
 **This README contains campaign overview information that may spoil mysteries for players.**
 
-**Players:** Avoid reading the "The Aeorian Echo" and "DM Resources" sections below. For player-safe information, consult *The Adventurer's Guide to Aevoria* (the player-facing companion to this book).
+**Players:** Avoid reading the "The Aevorian Echo" and "DM Resources" sections below. For player-safe information, consult *The Adventurer's Guide to Aevoria* (the player-facing companion to this book).
 
 **DMs:** For complete campaign secrets, see **Chapter 6: World Secrets**
 }}
 
 ## Overview
-**Northwatch Wardens** is a **modular, drop-in guild campaign** for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session**, it emphasizes **contract-based adventure** unified by a single overarching mystery: the **Aeorian Echo**, a spreading wave of arcane disturbance awakening magic and corruption across the frontier.
+**Northwatch Wardens** is a **modular, drop-in guild campaign** for D&D 5e set in the frontier region of Northreach. Designed for **2–5 players per session**, it emphasizes **contract-based adventure** unified by a single overarching mystery: the **Aevorian Echo**, a spreading wave of arcane disturbance awakening magic and corruption across the frontier.
 
 The campaign is **order-independent** — each adventure stands alone while building toward revealed connections. Perfect for variable attendance, rotating groups, and flexible scheduling.
 
@@ -48,13 +48,13 @@ The campaign is **order-independent** — each adventure stands alone while buil
 \column
 ---
 
-### The Aeorian Echo: Core Mystery
+### The Aevorian Echo: Core Mystery
 
-All adventures connect to a single spreading phenomenon: **arcane magic from buried Aeorian ruins (Salsvault, far north) is destabilizing the frontier**. No single adventure reveals the full picture; each provides clues.
+All adventures connect to a single spreading phenomenon: **arcane magic from buried Aevorian ruins (Salsvault, far north) is destabilizing the frontier**. No single adventure reveals the full picture; each provides clues.
 
 **Progression of revelation (regardless of play order):**
 1. **Wolves of Welton** — Intelligence awakening (first symptom)
-2. **Frozen Sick** — Source discovered (Aeorian spores/active Salsvault)
+2. **The Pale Sickness** — Source discovered (Aevorian spores/active Salsvault)
 3. **Temple of the Dragonknights** — Factions exploiting the magic (cult + Venomfang)
 4. **Wild Sheep Chase** — Magic destabilizing everywhere (wand malfunction, Shinebright's transformation)
 5. **Peril in Pinebrook** — Frontier fragility exposed (community in crossfire)
@@ -80,15 +80,15 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 
 \page
 
-### Frozen Sick (Levels 2–4)
+### The Pale Sickness (Levels 2–4)
 - **Theme**: Ancient magic resurfacing with deadly consequences
 - **Adventure Type**: Survival + exploration + investigation
 - **Setting**: Palebank village, Croaker Cave, Salsvault ruins
-- **Encounters**: Plague investigation, bandit hideout, active Aeorian constructs, environmental hazards
-- **Key Discovery**: Aeorian spores are the source of all disturbances; ruins are actively destabilizing
+- **Encounters**: Plague investigation, bandit hideout, active Aevorian constructs, environmental hazards
+- **Key Discovery**: Aevorian spores are the source of all disturbances; ruins are actively destabilizing
 - **Outcomes**: Evacuate, cleanse the source, or exploit it for power
 - **Reward**: Variable (loot, political favor, or dangerous knowledge)
-- **Adventure Module**: See **Chapter 5: Frozen Sick**
+- **Adventure Module**: See **Chapter 5: The Pale Sickness**
 
 ### Temple of the Dragonknights (Levels 4–5)
 - **Theme**: Ambition, corruption, and misused awakening magic
@@ -157,9 +157,9 @@ All adventures connect to a single spreading phenomenon: **arcane magic from bur
 | **Welton** | Agricultural village | Wolves of Welton |
 | **Westly's Farm** | Outlying homestead | Wolf attacks occur here |
 | **Pinebrook** | Trading village | Peril in Pinebrook |
-| **Palebank Village** | Seaside settlement | Frozen Sick |
-| **Croaker Cave** | Bandit hideout | Frozen Sick side path |
-| **Salsvault** | Buried Aeorian ruins (far north) | Source of Echo, Frozen Sick capstone |
+| **Palebank Village** | Seaside settlement | The Pale Sickness |
+| **Croaker Cave** | Bandit hideout | The Pale Sickness side path |
+| **Salsvault** | Buried Aevorian ruins (far north) | Source of Echo, The Pale Sickness capstone |
 | **Temple of the Dragonknights** | Cult stronghold (NW mountains) | Temple adventure |
 | **Noke's Tower** | Wizard's tower (W of Waystone) | Wild Sheep Chase |
 
@@ -226,7 +226,7 @@ All Wardens shall:
 **Lorewarden Elric Vael** — Arcane Scholar
 - **Public Role**: Investigation support, magical research, frontier lore, threat analysis
 - **Background**: Soft-spoken elven mage; catalogues arcane phenomena
-- **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aeorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
+- **Secret**: Investigating mysterious arcane disturbances across frontier; believes they trace to buried Aevorian engine beneath Northreach; has prophetic dreams of ice cracking and towers collapsing
 
 
 \page
@@ -284,7 +284,7 @@ For quick navigation between adventures and their hidden lore, this guide provid
 - Navigation tips for session prep
 
 **World Secrets (DM Eyes Only):**
-- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: The Aevorian Echo** — Complete Echo documentation
 - **Chapter 6: Northreach Secrets** — Regional secrets and adventure integration
 - **Chapter 6: Places Secrets** — Location-specific hidden truths
 
@@ -300,7 +300,7 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 1. **Pick an adventure** — Choose based on party level or let players select from posted contracts
 2. **Review adventure secrets** — See **Chapter 6: World Secrets** for relevant clues
 3. **Review NPC secrets** — See **Chapter 4: DM Guild Roster** for motivations
-4. **Note the mystery clue** — Each adventure hints at the Aeorian Echo; decide what party discovers
+4. **Note the mystery clue** — Each adventure hints at the Aevorian Echo; decide what party discovers
 5. **Scale for party size** — 2 players = tighter encounters; 5 players = add reinforcements
 6. **Prepare battle maps** — Use markdown descriptions or generate tactical maps externally
 
@@ -321,7 +321,7 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 - **Order-independent**: No adventure depends on prior completion; each stands alone
 - **Variable party size**: Adventures scale for 2–5 players per session
 - **Drop-in friendly**: New players can join anytime with new or returning characters
-- **Mystery-driven**: Each adventure provides clues; reveal the Aeorian Echo on your schedule
+- **Mystery-driven**: Each adventure provides clues; reveal the Aevorian Echo on your schedule
 - **Consequence-rich**: Player choices echo across NPCs and settlements
 - **Moral complexity**: Multiple resolution paths; no single "right" answer
 - **Frontier atmosphere**: Low magic, grounded, but with arcane mysteries lurking
@@ -331,7 +331,7 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 ## Campaign Themes
 
 - **The frontier is awakening** — Magic long buried is rising and destabilizing everything
-- **Local problems reflect global threats** — Symptoms of the Aeorian Echo manifest differently in each location
+- **Local problems reflect global threats** — Symptoms of the Aevorian Echo manifest differently in each location
 - **Communities are resilient but fragile** — Small choices impact entire settlements
 - **Intelligence and agency** — Even monsters can think, negotiate, and plan
 - **Power corrupts** — Cults, dragons, and ambitious NPCs seek to exploit magic for dominance
@@ -340,13 +340,13 @@ Each adventure in Chapter 5 includes a "Northwatch Wardens Integration (DM)" sec
 
 ## How the Mystery Unfolds
 
-With each adventure, reveal more about the Aeorian Echo. Example progression:
+With each adventure, reveal more about the Aevorian Echo. Example progression:
 
 **Session 1 (Wolves)**: "Why are wolves suddenly intelligent?"
 → *Answer*: Magical energy from somewhere is awakening things.
 
-**Session 2 (Frozen Sick)**: "What is this plague? Where does it come from?"
-→ *Answer*: Aeorian spores from an active ruin to the far north.
+**Session 2 (The Pale Sickness)**: "What is this plague? Where does it come from?"
+→ *Answer*: Aevorian spores from an active ruin to the far north.
 
 **Session 3 (Temple)**: "Why are cults and dragons moving now?"
 → *Answer*: They sense rising magic and want to exploit it.
@@ -398,7 +398,7 @@ With each adventure, reveal more about the Aeorian Echo. Example progression:
 1. **Pick an adventure** — Start with Opening + Wolves of Welton, or jump to any adventure
 2. **Gather your 2–5 players** — Variable attendance welcomed
 3. **Post the contract** — Read the contract briefing to party
-4. **Let them earn their badges** — Watch as they uncover the Aeorian Echo
+4. **Let them earn their badges** — Watch as they uncover the Aevorian Echo
 
 -- *The frontier awaits. The Northwatch Wardens have work to do.*
 

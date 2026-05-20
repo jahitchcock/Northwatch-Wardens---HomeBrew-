@@ -1,4 +1,4 @@
-# Canonical Data — Northwatch Wardens
+﻿# Canonical Data â€” Northwatch Wardens
 
 ## Valid Northreach Locations
 
@@ -13,7 +13,7 @@ Any location name **not** on this list is a flag.
 | Pinebrook | Peril in Pinebrook |
 | Palebank Village | Frozen Sick |
 | Croaker Cave | Frozen Sick |
-| Salsvault | Buried Aeorian ruins — source of the Echo mystery |
+| Salsvault | Buried Aeorian ruins â€” source of the Echo mystery |
 | Temple of the Dragonknights | Capstone adventure (northwest mountains) |
 | Noke's Tower | Wild Sheep Chase |
 
@@ -23,7 +23,7 @@ These exist in the world of Aevoria but the party doesn't visit them in Season O
 
 - Solaris
 - Nullwood / Vaeltharyn
-- Stonebound Depths / Khardûn-Tharum
+- Stonebound Depths / KhardÃ»n-Tharum
 - Vharoxis
 - Solace Nexus
 - Divinity's Beacon
@@ -34,7 +34,7 @@ These exist in the world of Aevoria but the party doesn't visit them in Season O
 
 ## Core Guild NPCs (always canonical)
 
-These characters are always valid — no need to check against the roster.
+These characters are always valid â€” no need to check against the roster.
 
 | NPC | Role |
 |-----|------|
@@ -42,7 +42,7 @@ These characters are always valid — no need to check against the roster.
 | Steward Mara Fenwick | Quartermaster |
 | Lorewarden Elric Vael | Arcane scholar |
 
-**Authoritative NPC roster:** `Season 1/Campaign Assets/DM Guild Roster.md`
+**Authoritative NPC roster:** `Season 1/DM_Resources/DM Guild Roster.md`
 
 ---
 
@@ -67,7 +67,7 @@ Files in `build/players-guide-toc.json` must **never** contain:
 - "you are overcome with"
 - "you notice a feeling of"
 
-### Generic fantasy clichés
+### Generic fantasy clichÃ©s
 - "ancient evil"
 - "mystical power" / "mystical energies"
 - "dark forces awakening"

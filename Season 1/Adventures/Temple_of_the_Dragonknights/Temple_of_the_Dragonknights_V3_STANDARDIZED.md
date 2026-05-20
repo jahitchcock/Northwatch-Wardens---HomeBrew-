@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach
-  Linked: Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 # Temple of the Dragonknights — Standardized v3
@@ -22,7 +22,7 @@ Standardized to Master Adventure Template v3
 | **Levels** | 3–5 (Level 4-5 recommended) |
 | **Sessions** | 1-2 sessions (4–6 hours) |
 | **Themes** | Ambition • Convergence • Faction exploitation • Dragon agency |
-| **Mystery Rating** | ★★★★ (Critical: Aeorian Echo convergence points; magic attracting predators) |
+| **Mystery Rating** | ★★★★ (Critical: Aevorian Echo convergence points; magic attracting predators) |
 | **Type** | Investigation + Combat + Exploration + Social Encounter |
 | **Starting Location** | Northcrest (frontier town) |
 | **Ending Location** | Temple of the Dragonknights (mountain ruins) |
@@ -43,14 +43,14 @@ Standardized to Master Adventure Template v3
 
 **Where This Fits**
 - **Campaign Arc:** Arc 3 — Convergence: Rising Threats (Part 1 of 1)
-- **Best Played After:** Frozen Sick (to recognize magical convergence patterns)
+- **Best Played After:** The Pale Sickness (to recognize magical convergence patterns)
 - **Enhanced By:** Wolves of Welton (pattern of creatures exploiting magic)
 - **Recommended Party Size:** 3–5 players, Levels 4–5
 - **Tone:** Dramatic, faction-focused, dragon-centric
 
 ### Adventure Premise
 
-*The Temple of the Dragonknights, an ancient burial ground for legendary dragon slayers, sits atop intersecting ley lines that are amplified by the Aeorian Echo. Venomfang, a young green dragon, senses this magical power and claims the temple as her lair, gathering kobold cultists to serve her ambitions. The party must investigate the threat, navigate the temple's dangers, and ultimately decide Venomfang's fate—knowing that they're witnessing a larger pattern: the Aeorian Echo is creating magical beacons that attract powerful, ambitious creatures.*
+*The Temple of the Dragonknights, an ancient burial ground for legendary dragon slayers, sits atop intersecting ley lines that are amplified by the Aevorian Echo. Venomfang, a young green dragon, senses this magical power and claims the temple as her lair, gathering kobold cultists to serve her ambitions. The party must investigate the threat, navigate the temple's dangers, and ultimately decide Venomfang's fate—knowing that they're witnessing a larger pattern: the Aevorian Echo is creating magical beacons that attract powerful, ambitious creatures.*
 
 ### Core Themes
 
@@ -98,7 +98,7 @@ Standardized to Master Adventure Template v3
   - Sera Gelanadel (young wizard apprentice, potentially rescueable)
 - [ ] Print stat blocks:
   - **Venomfang** (Young Green Dragon, CR 8) — PRIMARY BOSS
-  - Kobold (MM p195)
+  - Kobold
   - Kobold Cultist (Volo's Guide)
   - Zombie (nerfed, 11 HP, 1d4 damage)
   - Green Dragon Wyrmling (CR 2, if you want to include it)
@@ -428,7 +428,7 @@ Once the trail is found:
 ## SCENE 3: THE TRAIL TO POISONTIP CAVERN
 
 **Scene Purpose**
-Build atmosphere and dread, introduce environmental hazards, deliver mystery clues about the Aeorian Echo, and transition to cavern exploration.
+Build atmosphere and dread, introduce environmental hazards, deliver mystery clues about the Aevorian Echo, and transition to cavern exploration.
 
 **Time & Location**
 - **Timing:** Afternoon (late)
@@ -706,7 +706,7 @@ The doors are sealed by an ancient **Dragonknight ward** requiring blood initiat
 **Lore Implication (if players investigate):**
 - Dragonknight emblem appears throughout cavern (this is prep for **Temple above**)
 - The ward is designed to test blood commitment ("Only those willing to risk themselves may enter")
-- **Inscription on bowl (DC 12 History):** "Sealed by divine will. Do not disturb. — Dragonknights, Age of the Calamity"
+- **Inscription on bowl (DC 12 History):** "Sealed by divine will. Do not disturb. — Dragonknights, Age of the Great Fall"
 
 ### AREA 5: Staircase to Temple (Transition)
 
@@ -858,9 +858,9 @@ Once the cultist is defeated:
 
 **Historical Investigation (Optional but Rewarding):**
 
-**DC 12 History or Arcana:** The frieze depicts a **Post-Calamity War** between the Dragonknights and surviving Aeorian constructs (the dragons are likely **dragon-like magical automatons**, not true dragons).
+**DC 12 History or Arcana:** The frieze depicts a **post-Fall War** between the Dragonknights and surviving Aevorian constructs (the dragons are likely **dragon-like magical automatons**, not true dragons).
 
-**DC 15 History (Deep Lore):** The battles shown are from the **Age of the Calamity** (ancient history, 1000+ years ago). The Dragonknights were **protectors who kept ancient things sealed beneath the earth**.
+**DC 15 History (Deep Lore):** The battles shown are from the **Age of the Great Fall** (ancient history, 1000+ years ago). The Dragonknights were **protectors who kept ancient things sealed beneath the earth**.
 
 **DC 18 Investigation (Hidden Groove):** Discover a **hidden alcove carved into the stone**. Inside: a **platinum ring worth 250 gp** (no magical properties, just treasure).
 
@@ -1120,7 +1120,7 @@ Party realizes they can't win a straight fight. Alternative approach:
 
 ### Monster Stat Blocks
 
-**Kobold (MM p195) — CR 1/8**
+**Kobold — CR 1/8**
 - AC 12, HP 5 (1d8+1), Speed 30 ft
 - Shortsword +3 to hit, 1d6+1 slashing
 - Pack Tactics (advantage if ally flanking)
@@ -1183,7 +1183,7 @@ If party loots other areas:
 
 ### Core Campaign Consequence
 
-**FACTIONS ARE MOBILIZING:** The Aeorian Echo is creating magical convergence points across Northreach. Powerful, ambitious creatures (dragons, cults, wizards) are responding. The party has addressed one symptom (Venomfang); the underlying cause (Salsvault, the Echo) remains active and will attract more threats.
+**FACTIONS ARE MOBILIZING:** The Aevorian Echo is creating magical convergence points across Northreach. Powerful, ambitious creatures (dragons, cults, wizards) are responding. The party has addressed one symptom (Venomfang); the underlying cause (Salsvault, the Echo) remains active and will attract more threats.
 
 ### Branching Consequences (By Resolution)
 
@@ -1199,14 +1199,14 @@ If party loots other areas:
 - **Northreach Wardens:** Elite status, promoted to senior rank
 - **Common Folk:** Legendary dragon-slayers
 
-**Aeorian Echo Consequence:**
+**Aevorian Echo Consequence:**
 - Temple remains a convergence point (magic doesn't cease)
 - Another creature **may** attempt to claim it later (future campaign hook)
 - Venomfang's death does NOT stop the Echo; it will attract others
 
 **Lorewarden Elric's Debrief (in next session):**
 
-> "A young dragon drawn to a ley line convergence? The pattern is clear. The Aeorian Echo isn't just reactivating ruins — it's creating **beacons** across Northreach. Every creature with magical sensitivity can feel it. Venomfang was opportunistic but intelligent. What about creatures less reasonable? We need to find a way to stop this at the source — or accept that Northreach will become a battleground for every ambitious creature in the region."
+> "A young dragon drawn to a ley line convergence? The pattern is clear. The Aevorian Echo isn't just reactivating ruins — it's creating **beacons** across Northreach. Every creature with magical sensitivity can feel it. Venomfang was opportunistic but intelligent. What about creatures less reasonable? We need to find a way to stop this at the source — or accept that Northreach will become a battleground for every ambitious creature in the region."
 
 #### Resolution B: Venomfang Driven Away
 
@@ -1255,7 +1255,7 @@ If party loots other areas:
 - **Practical folks:** Respect for strategic thinking
 - **Profit-seekers:** Frustration (no hoard to loot)
 
-**Aeorian Echo Consequence (Unique):**
+**Aevorian Echo Consequence (Unique):**
 - Demonstrates that sealing/destroying convergence points is *possible*
 - Sets up future adventures: "Can we find and seal other convergence points?"
 - Gives party agency over the Echo's spread (strategic gameplay, not just reactive)
@@ -1277,19 +1277,19 @@ If party loots other areas:
 - **After:** Relieved, grateful, emotionally recovered
 - **Future Role:** Community contact in Northcrest, can vouch for party's heroism, provides local support
 
-### Aeorian Echo Progress Summary
+### Aevorian Echo Progress Summary
 
 **What the party learns:**
 1. Magical convergence points are **real**, **detectable**, and **dangerous**
 2. The Echo is **attracting powerful creatures** (dragons, factions, intelligent beings)
 3. Multiple groups are **mobilizing simultaneously** to exploit magical surges
-4. The temple's ley lines are connected to **something deeper** (Salsvault — revealed previously in Frozen Sick)
+4. The temple's ley lines are connected to **something deeper** (Salsvault — revealed previously in The Pale Sickness)
 5. **Stopping individual threats (Venomfang) doesn't stop the regional phenomenon**
 
 **What remains hidden:**
 - Other convergence points across Northreach
 - The number and types of creatures responding to the Echo
-- How to actually *stop* the Aeorian Echo (requires Salsvault adventure or equivalent)
+- How to actually *stop* the Aevorian Echo (requires Salsvault adventure or equivalent)
 - Whether the Echo is sentient or just a natural phenomenon
 
 ### Campaign Arc Completion
@@ -1297,7 +1297,7 @@ If party loots other areas:
 **Arc 3 Status:** CONVERGENCE — Rising Threats is **complete** after this adventure.
 
 **Arc Progression Summary:**
-- **Arc 1 (Awakening):** Wolves of Welton, Frozen Sick — players discover the Echo exists
+- **Arc 1 (Awakening):** Wolves of Welton, The Pale Sickness — players discover the Echo exists
 - **Arc 2 (Revelation):** Wild Sheep Chase, Peril in Pinebrook — players learn magic is destabilizing, dragons are allies
 - **Arc 3 (Convergence):** Temple of the Dragonknights — players realize factions are mobilizing, the Echo attracts danger
 
@@ -1343,7 +1343,7 @@ A: **Allow creative solutions**: Poisoned gold, trapped hoard, magical contamina
 A: Play cultists as **fanatical believers**, not mercenaries. They quote prophecies, refuse surrender, continue the ritual even as comrades die. When one dies, another steps in ("Our mistress will rise!"). This shows the ritual's *power* — creatures are willing to *sacrifice* for it. That's menacing.
 
 **Q: "Can I tie Salsvault more directly into this adventure?"**
-A: Yes. Have **Sera recognize Aeorian architecture** in the temple's lower sections. Have **cultists speak of contacting entities below**. Drop a *clue that the ritual is a *downward conduit* — attempting to communicate with or awaken something beneath the temple. This bridges Temple to future Salsvault-specific adventure.
+A: Yes. Have **Sera recognize Aevorian architecture** in the temple's lower sections. Have **cultists speak of contacting entities below**. Drop a *clue that the ritual is a *downward conduit* — attempting to communicate with or awaken something beneath the temple. This bridges Temple to future Salsvault-specific adventure.
 
 ---
 

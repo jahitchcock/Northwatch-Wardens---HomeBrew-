@@ -69,7 +69,7 @@ None (campaign opener)
 #### **Hidden Clue — The Old Woods:**
 - If players explore north of Welton, they find geometric frost patterns and buried metallic structures
 - **Discovery Method:** Active exploration, following wolf tracks to lair
-- **Investigation DC 16 (History/Arcana):** "These symbols match pre-Calamity Aeorian designs"
+- **Investigation DC 16 (History/Arcana):** "These symbols match pre-Fall Aeorian designs"
 - **Connects to:** Frozen Sick revelation (Aeorian facilities exist throughout region)
 
 

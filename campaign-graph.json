@@ -1,0 +1,806 @@
+{
+  "nodes": [
+    {
+      "id": "npc-brenna-thorne",
+      "type": "npc",
+      "name": "Marshal Brenna Thorne",
+      "path": "npcs/core/brenna-thorne.md",
+      "tags": ["core", "warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-mara-fenwick",
+      "type": "npc",
+      "name": "Steward Mara Fenwick",
+      "path": "npcs/core/mara-fenwick.md",
+      "tags": ["core", "warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-elric-vael",
+      "type": "npc",
+      "name": "Lorewarden Elric Vael",
+      "path": "npcs/core/elric-vael.md",
+      "tags": ["core", "warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-sera-gelanadel",
+      "type": "npc",
+      "name": "Sera Gelanadel",
+      "path": "npcs/season-1/sera-gelanadel.md",
+      "tags": ["warden", "recurring", "ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-takk-oaksplitter",
+      "type": "npc",
+      "name": "Takk Oaksplitter",
+      "path": "npcs/season-1/takk-oaksplitter.md",
+      "tags": ["warden", "recurring", "ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-bordel-barleywind",
+      "type": "npc",
+      "name": "Bordel Barleywind",
+      "path": "npcs/season-1/bordel-barleywind.md",
+      "tags": ["warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-rowan-fairweather",
+      "type": "npc",
+      "name": "Rowan Fairweather",
+      "path": "npcs/season-1/rowan-fairweather.md",
+      "tags": ["warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-galvena-aballon",
+      "type": "npc",
+      "name": "Galvena Aballon",
+      "path": "npcs/season-1/galvena-aballon.md",
+      "tags": ["warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-ariodh-highwhirl",
+      "type": "npc",
+      "name": "Ariodh Highwhirl",
+      "path": "npcs/season-1/ariodh-highwhirl.md",
+      "tags": ["warden", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-mila-teno",
+      "type": "npc",
+      "name": "Mila Teno",
+      "path": "npcs/season-1/mila-teno.md",
+      "tags": ["warden"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-aurixean-valignaak",
+      "type": "npc",
+      "name": "Aurixean Valignaak",
+      "path": "npcs/season-1/aurixean-valignaak.md",
+      "tags": ["warden"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-flynt-wymblen",
+      "type": "npc",
+      "name": "Flynt Wymblen",
+      "path": "npcs/season-1/flynt-wymblen.md",
+      "tags": ["warden"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-corel",
+      "type": "npc",
+      "name": "Corel",
+      "path": "npcs/season-1/corel.md",
+      "tags": ["recurring", "ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-father-merriksonn",
+      "type": "npc",
+      "name": "Father Johan Merriksonn",
+      "path": "npcs/season-1/father-johan-merriksonn.md",
+      "tags": ["recurring", "ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-alexi-merriksonn",
+      "type": "npc",
+      "name": "Alexi Merriksonn",
+      "path": "npcs/season-1/alexi-merriksonn.md",
+      "tags": ["missing"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-willen-featherock",
+      "type": "npc",
+      "name": "Willen Featherock",
+      "path": "npcs/season-1/willen-featherock.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-tillus-merrion",
+      "type": "npc",
+      "name": "Tillus Merrion",
+      "path": "npcs/season-1/tillus-merrion.md",
+      "tags": ["council"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-leanor-slatebeard",
+      "type": "npc",
+      "name": "Leanor Slatebeard",
+      "path": "npcs/season-1/leanor-slatebeard.md",
+      "tags": ["ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-banteth-slatebeard",
+      "type": "npc",
+      "name": "Banteth Slatebeard",
+      "path": "npcs/season-1/banteth-slatebeard.md",
+      "tags": ["ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-marta-henwick",
+      "type": "npc",
+      "name": "Marta Henwick",
+      "path": "npcs/season-1/marta-henwick.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-irven-liel",
+      "type": "npc",
+      "name": "Irven Liel",
+      "path": "npcs/season-1/irven-liel.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-arl-bortock",
+      "type": "npc",
+      "name": "Arl Bortock",
+      "path": "npcs/season-1/arl-bortock.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-fenton-tethwick",
+      "type": "npc",
+      "name": "Fenton Tethwick",
+      "path": "npcs/season-1/fenton-tethwick.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-bolt",
+      "type": "npc",
+      "name": "Bolt",
+      "path": "npcs/season-1/bolt.md",
+      "tags": ["creature", "recurring", "ally"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-flame",
+      "type": "npc",
+      "name": "Flame",
+      "path": "npcs/season-1/flame.md",
+      "tags": ["creature", "recurring", "hostile"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "npc-emmajeen-kole",
+      "type": "npc",
+      "name": "Captain Emmajeen Kole",
+      "path": "npcs/season-1/emmajeen-kole.md",
+      "tags": ["ally", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-hysvearorn",
+      "type": "npc",
+      "name": "Hysvearorn",
+      "path": "npcs/season-1/hysvearorn.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-elro-aldataur",
+      "type": "npc",
+      "name": "Elro Aldataur",
+      "path": "npcs/season-1/elro-aldataur.md",
+      "tags": ["ally", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-verla-pelc",
+      "type": "npc",
+      "name": "Verla Pelc",
+      "path": "npcs/season-1/verla-pelc.md",
+      "tags": ["merchant", "neutral", "recurring"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-urgon",
+      "type": "npc",
+      "name": "Urgon",
+      "path": "npcs/season-1/urgon.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-tulgi",
+      "type": "npc",
+      "name": "Tulgi",
+      "path": "npcs/season-1/tulgi.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-hulil-lutan",
+      "type": "npc",
+      "name": "Hulil Lutan",
+      "path": "npcs/season-1/hulil-lutan.md",
+      "tags": ["villain", "hostile", "recurring"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "npc-raegrin-mau",
+      "type": "npc",
+      "name": "Raegrin Mau",
+      "path": "npcs/season-1/raegrin-mau.md",
+      "tags": ["villain", "hostile"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "npc-morgo-delwur",
+      "type": "npc",
+      "name": "Morgo Delwur",
+      "path": "npcs/season-1/morgo-delwur.md",
+      "tags": ["neutral", "ally"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-orvo-mustave",
+      "type": "npc",
+      "name": "Orvo Mustave",
+      "path": "npcs/season-1/orvo-mustave.md",
+      "tags": ["ally"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-the-buyer",
+      "type": "npc",
+      "name": "The Buyer",
+      "path": "npcs/season-1/the-buyer.md",
+      "tags": ["merchant", "neutral", "recurring"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-dew",
+      "type": "npc",
+      "name": "Dew",
+      "path": "npcs/season-1/dew.md",
+      "tags": ["neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-ferol-sal",
+      "type": "npc",
+      "name": "Ferol Sal",
+      "path": "npcs/season-1/ferol-sal.md",
+      "tags": ["villain", "hostile"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "npc-finethir-shinebright",
+      "type": "npc",
+      "name": "Finethir Shinebright",
+      "path": "npcs/season-1/finethir-shinebright.md",
+      "tags": ["ally", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-ahmed-noke",
+      "type": "npc",
+      "name": "Ahmed Noke",
+      "path": "npcs/season-1/ahmed-noke.md",
+      "tags": ["villain", "hostile"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "npc-guz",
+      "type": "npc",
+      "name": "Guz",
+      "path": "npcs/season-1/guz.md",
+      "tags": ["recurring", "neutral"],
+      "status": "neutral",
+      "season": 1
+    },
+    {
+      "id": "npc-joel-andersmith",
+      "type": "npc",
+      "name": "Joel Andersmith",
+      "path": "npcs/season-1/joel-andersmith.md",
+      "tags": ["ally", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-clementine-andersmith",
+      "type": "npc",
+      "name": "Clementine Andersmith",
+      "path": "npcs/season-1/clementine-andersmith.md",
+      "tags": ["child", "ally", "recurring"],
+      "status": "ally",
+      "season": 1
+    },
+    {
+      "id": "npc-venomfang",
+      "type": "npc",
+      "name": "Venomfang",
+      "path": "npcs/season-1/venomfang.md",
+      "tags": ["villain", "hostile", "recurring"],
+      "status": "hostile",
+      "season": 1
+    },
+    {
+      "id": "location-waystone-inn",
+      "type": "location",
+      "name": "Waystone Inn",
+      "path": "locations/northreach/waystone-inn.md",
+      "tags": ["hub", "echo-site", "social", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-welton",
+      "type": "location",
+      "name": "Welton",
+      "path": "locations/northreach/welton.md",
+      "tags": ["settlement", "social", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-westlys-farm",
+      "type": "location",
+      "name": "Westly's Farm",
+      "path": "locations/northreach/westlys-farm.md",
+      "tags": ["wilderness", "quest-site", "echo-site"],
+      "season": 1
+    },
+    {
+      "id": "location-pinebrook",
+      "type": "location",
+      "name": "Pinebrook",
+      "path": "locations/northreach/pinebrook.md",
+      "tags": ["hub", "settlement", "social", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-palebank-village",
+      "type": "location",
+      "name": "Palebank Village",
+      "path": "locations/northreach/palebank-village.md",
+      "tags": ["settlement", "echo-site", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-salsvault",
+      "type": "location",
+      "name": "Salsvault",
+      "path": "locations/northreach/salsvault.md",
+      "tags": ["ruins", "echo-site", "combat", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-temple-dragonknights",
+      "type": "location",
+      "name": "Temple of the Dragonknights",
+      "path": "locations/northreach/temple-of-the-dragonknights.md",
+      "tags": ["ruins", "echo-site", "combat", "quest-site"],
+      "season": 1
+    },
+    {
+      "id": "location-nokes-tower",
+      "type": "location",
+      "name": "Noke's Tower",
+      "path": "locations/northreach/nokes-tower.md",
+      "tags": ["echo-site", "quest-site", "wilderness"],
+      "season": 1
+    },
+    {
+      "id": "faction-northwatch-wardens",
+      "type": "faction",
+      "name": "The Northwatch Wardens",
+      "path": "factions/northwatch-wardens.md",
+      "alignment": "ally",
+      "season": 1
+    },
+    {
+      "id": "faction-archivists-of-aevor",
+      "type": "faction",
+      "name": "The Archivists of Aevor",
+      "path": "factions/archivists-of-aevor.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-covenant-silent-vigil",
+      "type": "faction",
+      "name": "The Covenant of the Silent Vigil",
+      "path": "factions/covenant-of-the-silent-vigil.md",
+      "alignment": "ally",
+      "season": 1
+    },
+    {
+      "id": "faction-solace-trade-consortium",
+      "type": "faction",
+      "name": "The Solace Trade Consortium",
+      "path": "factions/solace-trade-consortium.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-freelance-brotherhood",
+      "type": "faction",
+      "name": "The Freelance Brotherhood",
+      "path": "factions/freelance-brotherhood.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-red-covenant",
+      "type": "faction",
+      "name": "The Red Covenant",
+      "path": "factions/red-covenant.md",
+      "alignment": "ally",
+      "season": 1
+    },
+    {
+      "id": "faction-silent-court",
+      "type": "faction",
+      "name": "The Silent Court",
+      "path": "factions/silent-court.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-unmasked-parliament",
+      "type": "faction",
+      "name": "The Unmasked Parliament",
+      "path": "factions/unmasked-parliament.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-stonebound-assembly",
+      "type": "faction",
+      "name": "The Stonebound Assembly",
+      "path": "factions/stonebound-assembly.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-tide-callers-guild",
+      "type": "faction",
+      "name": "The Tide Callers' Guild",
+      "path": "factions/tide-callers-guild.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-horizon-wayfinders",
+      "type": "faction",
+      "name": "The Horizon Wayfinders",
+      "path": "factions/horizon-wayfinders.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-silver-chain",
+      "type": "faction",
+      "name": "The Silver Chain",
+      "path": "factions/silver-chain.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "faction-gleaners",
+      "type": "faction",
+      "name": "The Gleaners",
+      "path": "factions/gleaners.md",
+      "alignment": "neutral",
+      "season": 1
+    },
+    {
+      "id": "adventure-wolves-at-waystone",
+      "type": "adventure",
+      "name": "Opening — Wolves at the Waystone",
+      "path": "adventures/season-1/opening-wolves-at-the-waystone.md",
+      "season": 1,
+      "levels": "1"
+    },
+    {
+      "id": "adventure-wolves-of-welton",
+      "type": "adventure",
+      "name": "Wolves of Welton",
+      "path": "adventures/season-1/wolves-of-welton.md",
+      "season": 1,
+      "levels": "1-3"
+    },
+    {
+      "id": "adventure-bleating-grimoire",
+      "type": "adventure",
+      "name": "The Bleating Grimoire",
+      "path": "adventures/season-1/the-bleating-grimoire.md",
+      "season": 1,
+      "levels": "1-2"
+    },
+    {
+      "id": "adventure-wild-sheep-chase",
+      "type": "adventure",
+      "name": "The Wild Sheep Chase",
+      "path": "adventures/season-1/the-wild-sheep-chase.md",
+      "season": 1,
+      "levels": "1-2"
+    },
+    {
+      "id": "adventure-bleached-reach",
+      "type": "adventure",
+      "name": "The Bleached Reach",
+      "path": "adventures/season-2/the-bleached-reach.md",
+      "season": 2,
+      "levels": "5-6"
+    },
+    {
+      "id": "adventure-sunken-archive",
+      "type": "adventure",
+      "name": "The Sunken Archive",
+      "path": "adventures/season-2/the-sunken-archive.md",
+      "season": 2,
+      "levels": "5-7"
+    }
+  ],
+  "edges": [
+    { "from": "npc-brenna-thorne", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-brenna-thorne", "to": "faction-northwatch-wardens", "rel": "leads" },
+    { "from": "npc-brenna-thorne", "to": "adventure-wolves-at-waystone", "rel": "appears-in" },
+    { "from": "npc-brenna-thorne", "to": "adventure-wolves-of-welton", "rel": "quest-giver-in" },
+    { "from": "npc-brenna-thorne", "to": "adventure-bleached-reach", "rel": "appears-in" },
+    { "from": "npc-brenna-thorne", "to": "adventure-sunken-archive", "rel": "appears-in" },
+
+    { "from": "npc-mara-fenwick", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-mara-fenwick", "to": "faction-northwatch-wardens", "rel": "member-of" },
+    { "from": "npc-mara-fenwick", "to": "adventure-wolves-at-waystone", "rel": "appears-in" },
+
+    { "from": "npc-elric-vael", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-elric-vael", "to": "faction-northwatch-wardens", "rel": "member-of" },
+    { "from": "npc-elric-vael", "to": "adventure-wolves-at-waystone", "rel": "appears-in" },
+    { "from": "npc-elric-vael", "to": "adventure-sunken-archive", "rel": "quest-giver-in" },
+    { "from": "npc-elric-vael", "to": "faction-archivists-of-aevor", "rel": "knows", "secret": true, "note": "Knows about the Palebank Archive's restricted Aevorian operational text" },
+
+    { "from": "npc-sera-gelanadel", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-sera-gelanadel", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-takk-oaksplitter", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-takk-oaksplitter", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-bordel-barleywind", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-bordel-barleywind", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-rowan-fairweather", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-rowan-fairweather", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-galvena-aballon", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-galvena-aballon", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-ariodh-highwhirl", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-ariodh-highwhirl", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-mila-teno", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-mila-teno", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-aurixean-valignaak", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-aurixean-valignaak", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "npc-flynt-wymblen", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "npc-flynt-wymblen", "to": "faction-northwatch-wardens", "rel": "member-of" },
+
+    { "from": "faction-northwatch-wardens", "to": "location-waystone-inn", "rel": "operates-in" },
+    { "from": "faction-northwatch-wardens", "to": "location-welton", "rel": "operates-in" },
+    { "from": "faction-northwatch-wardens", "to": "location-palebank-village", "rel": "operates-in" },
+    { "from": "faction-northwatch-wardens", "to": "location-pinebrook", "rel": "operates-in" },
+    { "from": "faction-northwatch-wardens", "to": "faction-red-covenant", "rel": "allied-with" },
+    { "from": "faction-northwatch-wardens", "to": "faction-covenant-silent-vigil", "rel": "allied-with" },
+    { "from": "faction-northwatch-wardens", "to": "faction-freelance-brotherhood", "rel": "rivals" },
+    { "from": "faction-northwatch-wardens", "to": "faction-archivists-of-aevor", "rel": "allied-with" },
+    { "from": "faction-northwatch-wardens", "to": "faction-solace-trade-consortium", "rel": "allied-with" },
+
+    { "from": "npc-corel", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-corel", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+
+    { "from": "npc-father-merriksonn", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-father-merriksonn", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+    { "from": "npc-father-merriksonn", "to": "adventure-wolves-at-waystone", "rel": "appears-in" },
+
+    { "from": "npc-alexi-merriksonn", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-alexi-merriksonn", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+    { "from": "npc-alexi-merriksonn", "to": "npc-father-merriksonn", "rel": "family" },
+
+    { "from": "npc-willen-featherock", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-willen-featherock", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+
+    { "from": "npc-tillus-merrion", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-tillus-merrion", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+
+    { "from": "npc-leanor-slatebeard", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-leanor-slatebeard", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+    { "from": "npc-leanor-slatebeard", "to": "npc-banteth-slatebeard", "rel": "family" },
+
+    { "from": "npc-banteth-slatebeard", "to": "location-welton", "rel": "located-at" },
+
+    { "from": "npc-marta-henwick", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-marta-henwick", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+
+    { "from": "npc-irven-liel", "to": "location-welton", "rel": "located-at" },
+
+    { "from": "npc-arl-bortock", "to": "location-welton", "rel": "located-at" },
+
+    { "from": "npc-fenton-tethwick", "to": "location-welton", "rel": "located-at" },
+
+    { "from": "npc-bolt", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-bolt", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+    { "from": "npc-bolt", "to": "npc-flame", "rel": "rivals" },
+
+    { "from": "npc-flame", "to": "location-welton", "rel": "located-at" },
+    { "from": "npc-flame", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+
+    { "from": "npc-emmajeen-kole", "to": "location-pinebrook", "rel": "located-at" },
+    { "from": "npc-hysvearorn", "to": "location-pinebrook", "rel": "located-at" },
+
+    { "from": "npc-elro-aldataur", "to": "location-palebank-village", "rel": "located-at" },
+    { "from": "npc-elro-aldataur", "to": "location-salsvault", "rel": "knows" },
+
+    { "from": "npc-verla-pelc", "to": "location-palebank-village", "rel": "located-at" },
+    { "from": "npc-verla-pelc", "to": "faction-archivists-of-aevor", "rel": "knows", "secret": true },
+
+    { "from": "npc-urgon", "to": "location-palebank-village", "rel": "located-at" },
+    { "from": "npc-urgon", "to": "location-salsvault", "rel": "knows" },
+
+    { "from": "npc-tulgi", "to": "location-palebank-village", "rel": "located-at" },
+    { "from": "npc-tulgi", "to": "npc-hulil-lutan", "rel": "family", "secret": true },
+
+    { "from": "npc-hulil-lutan", "to": "adventure-wolves-of-welton", "rel": "appears-in" },
+    { "from": "npc-hulil-lutan", "to": "location-palebank-village", "rel": "operates-in" },
+    { "from": "npc-hulil-lutan", "to": "npc-raegrin-mau", "rel": "knows" },
+    { "from": "npc-hulil-lutan", "to": "npc-the-buyer", "rel": "secretly-works-for", "secret": true },
+
+    { "from": "npc-raegrin-mau", "to": "location-palebank-village", "rel": "operates-in" },
+    { "from": "npc-raegrin-mau", "to": "npc-hulil-lutan", "rel": "member-of" },
+
+    { "from": "npc-morgo-delwur", "to": "location-salsvault", "rel": "located-at" },
+    { "from": "npc-morgo-delwur", "to": "location-palebank-village", "rel": "knows" },
+
+    { "from": "npc-orvo-mustave", "to": "location-salsvault", "rel": "located-at" },
+
+    { "from": "npc-the-buyer", "to": "location-salsvault", "rel": "located-at" },
+    { "from": "npc-the-buyer", "to": "faction-archivists-of-aevor", "rel": "secretly-works-for", "secret": true },
+
+    { "from": "npc-dew", "to": "location-salsvault", "rel": "located-at" },
+
+    { "from": "npc-ferol-sal", "to": "location-salsvault", "rel": "located-at" },
+
+    { "from": "npc-finethir-shinebright", "to": "location-nokes-tower", "rel": "located-at" },
+    { "from": "npc-finethir-shinebright", "to": "adventure-wild-sheep-chase", "rel": "appears-in" },
+    { "from": "npc-finethir-shinebright", "to": "adventure-bleating-grimoire", "rel": "appears-in" },
+    { "from": "npc-finethir-shinebright", "to": "npc-ahmed-noke", "rel": "rivals" },
+
+    { "from": "npc-ahmed-noke", "to": "location-nokes-tower", "rel": "located-at" },
+    { "from": "npc-ahmed-noke", "to": "adventure-wild-sheep-chase", "rel": "antagonist-in" },
+
+    { "from": "npc-guz", "to": "location-nokes-tower", "rel": "located-at" },
+    { "from": "npc-guz", "to": "adventure-wild-sheep-chase", "rel": "appears-in" },
+    { "from": "npc-guz", "to": "npc-ahmed-noke", "rel": "member-of" },
+
+    { "from": "npc-joel-andersmith", "to": "location-temple-dragonknights", "rel": "located-at" },
+    { "from": "npc-clementine-andersmith", "to": "location-temple-dragonknights", "rel": "located-at" },
+    { "from": "npc-joel-andersmith", "to": "npc-clementine-andersmith", "rel": "family" },
+    { "from": "npc-venomfang", "to": "location-temple-dragonknights", "rel": "located-at" },
+    { "from": "npc-venomfang", "to": "adventure-wolves-of-welton", "rel": "antagonist-in" },
+
+    { "from": "location-waystone-inn", "to": "adventure-wolves-at-waystone", "rel": "quest-site" },
+    { "from": "location-waystone-inn", "to": "adventure-wild-sheep-chase", "rel": "quest-site" },
+    { "from": "location-waystone-inn", "to": "adventure-bleached-reach", "rel": "quest-site" },
+    { "from": "location-waystone-inn", "to": "adventure-sunken-archive", "rel": "quest-site" },
+
+    { "from": "location-welton", "to": "adventure-wolves-of-welton", "rel": "quest-site" },
+    { "from": "location-westlys-farm", "to": "adventure-wolves-of-welton", "rel": "quest-site" },
+    { "from": "location-welton", "to": "location-westlys-farm", "rel": "located-at" },
+
+    { "from": "location-pinebrook", "to": "location-waystone-inn", "rel": "located-at" },
+    { "from": "location-palebank-village", "to": "location-salsvault", "rel": "located-at" },
+    { "from": "location-salsvault", "to": "location-palebank-village", "rel": "located-at" },
+
+    { "from": "location-nokes-tower", "to": "adventure-wild-sheep-chase", "rel": "quest-site" },
+    { "from": "location-nokes-tower", "to": "adventure-bleating-grimoire", "rel": "quest-site" },
+
+    { "from": "location-temple-dragonknights", "to": "location-salsvault", "rel": "echo-connected" },
+    { "from": "location-temple-dragonknights", "to": "adventure-bleached-reach", "rel": "echo-connected" },
+    { "from": "location-salsvault", "to": "location-waystone-inn", "rel": "echo-connected" },
+
+    { "from": "faction-archivists-of-aevor", "to": "location-palebank-village", "rel": "operates-in" },
+    { "from": "faction-archivists-of-aevor", "to": "faction-covenant-silent-vigil", "rel": "rivals" },
+    { "from": "faction-archivists-of-aevor", "to": "npc-the-buyer", "rel": "secretly-works-for", "secret": true },
+
+    { "from": "faction-covenant-silent-vigil", "to": "location-waystone-inn", "rel": "operates-in" },
+
+    { "from": "faction-silent-court", "to": "location-salsvault", "rel": "knows", "secret": true, "note": "Nullwood wardings were designed to block Aevorian long-range signals; the Court knows this but has lost the specific knowledge" },
+    { "from": "faction-silent-court", "to": "faction-archivists-of-aevor", "rel": "rivals" },
+
+    { "from": "faction-solace-trade-consortium", "to": "location-pinebrook", "rel": "operates-in" },
+    { "from": "faction-solace-trade-consortium", "to": "faction-freelance-brotherhood", "rel": "secretly-works-for", "secret": true },
+
+    { "from": "adventure-wolves-at-waystone", "to": "adventure-wolves-of-welton", "rel": "located-at" },
+    { "from": "adventure-wolves-of-welton", "to": "adventure-bleating-grimoire", "rel": "located-at" },
+    { "from": "adventure-wild-sheep-chase", "to": "adventure-bleating-grimoire", "rel": "located-at" },
+    { "from": "adventure-bleached-reach", "to": "adventure-sunken-archive", "rel": "located-at" },
+
+    { "from": "npc-brenna-thorne", "to": "npc-elric-vael", "rel": "knows" },
+    { "from": "npc-brenna-thorne", "to": "npc-mara-fenwick", "rel": "knows" },
+    { "from": "npc-elric-vael", "to": "npc-sera-gelanadel", "rel": "knows" },
+
+    { "from": "npc-mara-fenwick", "to": "location-waystone-inn", "rel": "secretly-works-for", "secret": true, "note": "Maintains black-market supplier relationship; embezzled funds from past thieves' guild used to establish the Wardens" }
+  ]
+}

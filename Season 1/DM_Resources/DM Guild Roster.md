@@ -22,7 +22,7 @@
 
 ---
 {{wide
-### FROZEN SICK (Levels 2-4)
+### The Pale Sickness (Levels 2-4)
 
 **Primary Revelation:** The phenomenon is biological, ancient, and spreading
 
@@ -38,7 +38,7 @@
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
-| Disease samples contain crystalline structures | Palebank, if examined with detect magic/expertise | Tiny geometric crystals in blood; glow faintly when exposed to moonlight | **Mystery K:** Disease has magical component (not biological) | Any adventure (supports Aeor theory) |
+| Disease samples contain crystalline structures | Palebank, if examined with detect magic/expertise | Tiny geometric crystals in blood; glow faintly when exposed to moonlight | **Mystery K:** Disease has magical component (not biological) | Any adventure (supports Aevor theory) |
 | Dead animals show same crystalline patterns | Palebank outskirts | Frozen carcasses contain same formations; suggests animals were infected before death | **Mystery L:** Infection precedes visible sickness | Temple of Dragonknights (timeline reveals) |
 | Infection spreads from thermal vents beneath village | Palebank investigation, if pursuing carefully | Where thermal vents rise, disease is strongest; underground connection confirmed | **Mystery M:** Underground conduits connecting distant sites | Peril in Pinebrook (same pattern) |
 
@@ -46,22 +46,22 @@
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
-| Tulgi mentions old maps showing Aeorian ruins | Palebank, healer/scholar | Old settlements buried under ice show similar patterns in *old records*; disease isn't new—it's *ancient* | **Mystery N:** Aeor created this weapon | Any adventure (confirms historical origin) |
-| Refugees from far north mention same sickness | Palebank, if anyone arrives | Scattered survivors from Salsvault region report disease there first; wave is spreading southward | **Mystery O:** Source is definitely far north | Frozen Sick (confirms) |
-| Elro Aldataur discovers Aeorian text | Palebank, scholar investigation | Ancient manuscript describes "preservation protocol" and "biological asset testing"; this IS Aeorian | **Mystery P:** Deliberate weapon system | Temple of Dragonknights (full understanding) |
+| Tulgi mentions old maps showing Aevorian ruins | Palebank, healer/scholar | Old settlements buried under ice show similar patterns in *old records*; disease isn't new—it's *ancient* | **Mystery N:** Aevor created this weapon | Any adventure (confirms historical origin) |
+| Refugees from far north mention same sickness | Palebank, if anyone arrives | Scattered survivors from Salsvault region report disease there first; wave is spreading southward | **Mystery O:** Source is definitely far north | The Pale Sickness (confirms) |
+| Elro Aldataur discovers Aevorian text | Palebank, scholar investigation | Ancient manuscript describes "preservation protocol" and "biological asset testing"; this IS Aevorian | **Mystery P:** Deliberate weapon system | Temple of Dragonknights (full understanding) |
 
 #### Clue Set 4: The Remedy and Mystery
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
-| Ancient Aeorian medical kit found | Palebank ruins or investigation | Contains vials marked (in Celestial) "Thaw Agent" and "Stasis Reversal"; could cure or accelerate disease | **Mystery Q:** Aeor has solutions (but using them = accepting Aeor tech) | Any adventure (moral choice) |
+| Ancient Aevorian medical kit found | Palebank ruins or investigation | Contains vials marked (in Celestial) "Thaw Agent" and "Stasis Reversal"; could cure or accelerate disease | **Mystery Q:** Aevor has solutions (but using them = accepting Aevor tech) | Any adventure (moral choice) |
 | Refugees report cure attempts make disease worse | Palebank interviews | Using fire or healing magic *accelerates* crystallization; only rest and cold help | **Mystery R:** Contradiction—cold causes disease but cold also heals it? | Temple of Dragonknights (explained by resonance) |
 
 <div class="row" style="display:flex; gap:1rem;">
 
 <div class="column" style="flex: 2;">
   
-#### How to Track: Frozen Sick Discovery Sheet
+#### How to Track: The Pale Sickness Discovery Sheet
 
 
 ```
@@ -73,7 +73,7 @@
 [ ] Underground vents concentrate disease
 [ ] Old records match current patterns
 [ ] Refugees confirm northern origin
-[ ] Aeorian medical text discovered
+[ ] Aevorian medical text discovered
 [ ] Ancient remedy equipment found
 [ ] Cold helps but heat accelerates disease
 ```

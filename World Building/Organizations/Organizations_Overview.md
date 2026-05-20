@@ -129,22 +129,22 @@ Wherever adventurers gather—major cities, frontier towns, and dangerous region
 
 \page
 
-## The Archivists of Aeor
+## The Archivists of Aevor
 
 **Type:** Scholarly Society | **Headquarters:** Multiple Libraries | **Public Reputation:** Obsessive, Secretive, Dangerous Knowledge
 
-The Archivists of Aeor are dedicated to recovering, studying, and cataloging relics from the fallen civilization of Aeor. Operating from scattered libraries and research outposts, the Archivists are viewed with a mixture of respect (for their knowledge) and suspicion (for what they might uncover).
+The Archivists of Aevor are dedicated to recovering, studying, and cataloging relics from the fallen civilization of Aevor. Operating from scattered libraries and research outposts, the Archivists are viewed with a mixture of respect (for their knowledge) and suspicion (for what they might uncover).
 
 ### What People Know
 
-- **Relic Hunters:** They pay well for authentic Aeorian artifacts and information about ruin sites
+- **Relic Hunters:** They pay well for authentic Aevorian artifacts and information about ruin sites
 - **Secretive Research:** What they learn from their studies is rarely shared publicly
-- **Magic Obsessed:** The Archivists are particularly interested in Aeor's advanced magical techniques
+- **Magic Obsessed:** The Archivists are particularly interested in Aevor's advanced magical techniques
 - **Dangerous Work:** Many Archivists have died in pursuit of their research
 
 ### How to Interact
 
-- **Sell Relics:** Archivists pay premium prices for verified Aeorian artifacts
+- **Sell Relics:** Archivists pay premium prices for verified Aevorian artifacts
 - **Seek Knowledge:** They have extensive libraries, but access requires proving trustworthiness
 - **Contract Work:** Occasionally hire adventurers to retrieve specific items or explore dangerous sites
 - **Join:** Requires scholarly credentials or unique expertise in ancient civilizations
@@ -337,7 +337,7 @@ Community-focused organization helping small farmers share resources, negotiate 
 ### Conflicting Loyalties
 
 Some organizations have conflicting interests:
-- **Covenant of the Silent Vigil vs. Archivists of Aeor:** The Covenant views some Aeorian research as dangerous
+- **Covenant of the Silent Vigil vs. Archivists of Aevor:** The Covenant views some Aevorian research as dangerous
 - **Solace Trade Consortium vs. Vharoxis Markets:** Legitimate trade vs. black markets
 - **Stonebound Assembly vs. Mining Companies:** Traditional dwarven methods vs. profit-focused extraction
 

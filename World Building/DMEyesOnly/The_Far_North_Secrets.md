@@ -3,7 +3,7 @@
   Status: Canon
   Type: Region
   Region: Northreach
-  Linked: World Building/Regions/10_The_Far_North.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+  Linked: World Building/Regions/10_The_Far_North.md, World Building/DMEyesOnly/The_Aevorian_Echo.md
 -->
 
 {{note
@@ -11,7 +11,7 @@
 
 **MAJOR CAMPAIGN SPOILERS: Far North Secrets**
 
-This document contains the truth about the Far North and the origin of the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+This document contains the truth about the Far North and the origin of the Aevorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
@@ -24,7 +24,7 @@ Do not share this information with players unless they discover it through gamep
 
 ## The Truth About the Far North
 
-The Far North is the true origin point of the Aeorian Echo and the first region where ancient artifacts began to stir. This is not a natural reawakening—something or someone deliberately triggered the reactivation on Eclipse Day.
+The Far North is the true origin point of the Aevorian Echo and the first region where ancient artifacts began to stir. This is not a natural reawakening—something or someone deliberately triggered the reactivation on Eclipse Day.
 
 ### What This Region Really Is
 
@@ -33,7 +33,7 @@ The Far North contains:
 - **The Heart of Winter** — The primary control node (players don't know)
 - **Multiple buried megastructures** — Dozens of facilities beneath the ice
 - **Dormant artifact cores** — Now awakening in sequence
-- **Pre-Aeorian ruins** — Something even older lurks beneath
+- **Pre-Aevorian ruins** — Something even older lurks beneath
 
 ### The Transformation
 
@@ -57,7 +57,7 @@ The Far North is actively changing:
 
 ### 1. The Heart of Winter
 
-**Type:** Primary Aeorian control node  
+**Type:** Primary Aevorian control node  
 **Size:** Cathedral-sized artifact core beneath the ice  
 **Status:** Awakening (60% active as of Eclipse Day)  
 **Threat Level:** Apocalyptic
@@ -70,10 +70,10 @@ A massive circular depression in the ice where temperature drops to lethal level
 - Visible from hundreds of miles away
 - Creates auroral displays
 - Sends wave of magical disturbance southward
-- **This is the Aeorian Echo**
+- **This is the Aevorian Echo**
 
 #### What It Actually Is
-The Heart was designed as the primary control node for the continental Aeorian network. During the Age of Arcanum, it coordinated magical infrastructure across the entire civilization:
+The Heart was designed as the primary control node for the continental Aevorian network. During the Age of Arcanum, it coordinated magical infrastructure across the entire civilization:
 - Weather control systems
 - Teleportation networks
 - Communication arrays
@@ -91,11 +91,11 @@ Eclipse Day provided the astronomical alignment needed to restart the system. So
 The Heart's programming seeks to:
 1. Restore network connectivity
 2. Reactivate all nodes
-3. Resume pre-Calamity functions
+3. Resume pre-Fall functions
 4. "Upgrade" local environment to match ancient specifications
 5. Integrate life forms into network operations
 
-**The Danger:** If it completes activation, the entire world could be transformed to match Aeorian expectations—which would be catastrophic for current civilization.
+**The Danger:** If it completes activation, the entire world could be transformed to match Aevorian expectations—which would be catastrophic for current civilization.
 
 \column
 
@@ -119,7 +119,7 @@ The Heart's programming seeks to:
 A field of black crystal spires rising from the ice in a regular pattern. They hum with resonance, creating an eerie chord that shifts with the wind. The arrangement is too precise to be natural.
 
 #### The Truth
-These are artifact antennae—part of the Aeorian network's communication system. As the Heart of Winter reactivates, these spires begin transmitting again, sending signals to other dormant facilities across the continent.
+These are artifact antennae—part of the Aevorian network's communication system. As the Heart of Winter reactivates, these spires begin transmitting again, sending signals to other dormant facilities across the continent.
 
 #### Current Behavior
 - Humming frequency matches artifact pulses
@@ -149,13 +149,13 @@ A Warden expedition vanished here three months ago. Their last message mentioned
 
 ### 3. The White Maw
 
-**Type:** Pre-Aeorian labyrinth  
-**Age:** Predates Aeor by unknown millennia  
+**Type:** Pre-Aevorian labyrinth  
+**Age:** Predates Aevor by unknown millennia  
 **Access:** Massive sinkhole descending into darkness  
 **Threat Level:** Unknown
 
 #### What It Is
-The Aeor civilization didn't build on empty land—they built atop something even older. The White Maw is that something. A system of tunnels carved with symbols that predate any known language. Not Draconic. Not Primordial. Something else.
+The Aevor civilization didn't build on empty land—they built atop something even older. The White Maw is that something. A system of tunnels carved with symbols that predate any known language. Not Draconic. Not Primordial. Something else.
 
 #### Observable Features
 - Walls covered in undecipherable script
@@ -165,21 +165,21 @@ The Aeor civilization didn't build on empty land—they built atop something eve
 - Chambers filled with petrified organic matter
 - Architecture suggests non-humanoid builders
 
-#### What the Aeorians Found
-Evidence suggests the Aeorians discovered the White Maw and tried to study it:
-- Aeorian equipment scattered through upper levels
+#### What the Aevorians Found
+Evidence suggests the Aevorians discovered the White Maw and tried to study it:
+- Aevorian equipment scattered through upper levels
 - Research notes (fragmented, partly destroyed)
 - Containment wards on some passages
-- Warning signs in Aeorian script
+- Warning signs in Aevorian script
 - Sealed doors leading deeper
 
-**Their Conclusion:** They built Salsvault and other facilities to study and contain what they found here. Then the Calamity happened before they could complete their work.
+**Their Conclusion:** They built Salsvault and other facilities to study and contain what they found here. Then the Great Fall happened before they could complete their work.
 
 #### What Sleeps Below
-Something ancient and powerful is at the bottom of the White Maw. The Aeorians couldn't destroy it, so they tried to contain it. Their containment is failing as the artifact network reactivates.
+Something ancient and powerful is at the bottom of the White Maw. The Aevorians couldn't destroy it, so they tried to contain it. Their containment is failing as the artifact network reactivates.
 
 {{note
-**DM Note:** This is a Season Two hook. Whatever is in the White Maw is not the current threat—but the Aeorian reactivation will eventually wake it.
+**DM Note:** This is a Season Two hook. Whatever is in the White Maw is not the current threat—but the Aevorian reactivation will eventually wake it.
 }}
 
 #### Signs of Awakening
@@ -193,8 +193,8 @@ Something ancient and powerful is at the bottom of the White Maw. The Aeorians c
 
 #### Adventure Implications
 - High-level dungeon (levels 17-20)
-- Contains pre-Aeorian artifacts (unique properties)
-- Reveals that the Aeorian Echo is only the beginning
+- Contains pre-Aevorian artifacts (unique properties)
+- Reveals that the Aevorian Echo is only the beginning
 - Whatever is down there is not human, elven, dwarven, or draconic
 - Players may decide to reinforce containment rather than destroy
 
@@ -202,7 +202,7 @@ Something ancient and powerful is at the bottom of the White Maw. The Aeorians c
 
 ### 4. The Aurora Gate
 
-**Type:** Portal nexus from Aeorian teleportation network  
+**Type:** Portal nexus from Aevorian teleportation network  
 **Appearance:** Ring of 15-foot standing stones glowing with shifting auroral colors  
 **Status:** Active but unstable  
 **Danger Level:** Extreme
@@ -290,7 +290,7 @@ All mutations follow the same template:
 3. Enhance useful traits (strength, senses, longevity)
 4. Instill purpose (protect network, expand network, serve network)
 
-**The End Goal:** A world where all life is integrated into the Aeorian network. Not hostile—just... different. Life becomes infrastructure.
+**The End Goal:** A world where all life is integrated into the Aevorian network. Not hostile—just... different. Life becomes infrastructure.
 
 ---
 
@@ -332,14 +332,14 @@ Not all constructs are active. They're waking in stages as the network powers up
 **Public Mission:** Investigate the Echo's origin and protect settlements.
 
 **Secret Reality:**
-- Marshal Thorne knows more than she shares (family connections to Aeorian researchers)
+- Marshal Thorne knows more than she shares (family connections to Aevorian researchers)
 - Multiple teams sent, few returned
 - Realizing they're outmatched and need help
 - Considering recruiting high-level adventurers from outside
 - Debating whether to reveal full scope to authorities
 
 **Lorewarden Elric's Research:**
-- Has decoded more Aeorian script than anyone knows
+- Has decoded more Aevorian script than anyone knows
 - Understands basic network architecture
 - Suspects deliberate triggering but doesn't know who/what
 - Fears that revealing everything would cause panic
@@ -364,7 +364,7 @@ Not all constructs are active. They're waking in stages as the network powers up
 - Led by High Cantor Seraphine Duskwhisper
 
 **The Sanctum of Insight** (Extremists)
-- Believe Aeorian knowledge was destroyed for a reason
+- Believe Aevorian knowledge was destroyed for a reason
 - Want to destroy all artifacts before they can be misused
 - Willing to use violence
 - Operate in secret
@@ -422,26 +422,26 @@ The Deep-Readers have been listening to stone vibrations for generations. Recent
 The smugglers are organized by **The Collector**—a mysterious figure who pays premium prices for specific artifacts. Not just any artifacts. Specific ones, with specific properties.
 
 **What The Collector Wants:**
-- Aeorian control devices
+- Aevorian control devices
 - Network interface tools
 - Power cores and focusing crystals
 - Biological specimens from Echo-touched creatures
 - Intact data storage units
 
 **Why This Matters:**
-The Collector is attempting to assemble a complete Aeorian facility control system. If successful, they could:
+The Collector is attempting to assemble a complete Aevorian facility control system. If successful, they could:
 - Command artifact network nodes
 - Redirect the awakening
 - Control Echo-touched creatures
-- Access ancient Aeorian knowledge
+- Access ancient Aevorian knowledge
 - Potentially seize control from the Heart of Winter
 
 **Who The Collector Is:** (Choose one or keep mysterious)
-- Option A: Surviving Aeorian in magical stasis
-- Option B: Dragon who studied Aeor before the fall
-- Option C: Lich who was Aeorian researcher
+- Option A: Surviving Aevorian in magical stasis
+- Option B: Dragon who studied Aevor before the fall
+- Option C: Lich who was Aevorian researcher
 - Option D: AI consciousness from the network itself
-- Option E: Something that predates Aeor (from White Maw)
+- Option E: Something that predates Aevor (from White Maw)
 
 **Current Operations:**
 - Multiple smuggler caravans active
@@ -463,11 +463,11 @@ The Collector is attempting to assemble a complete Aeorian facility control syst
 
 ### The Trigger Event
 
-Eclipse Day was not a coincidence. Someone used the astronomical alignment as an activation key for the Aeorian network.
+Eclipse Day was not a coincidence. Someone used the astronomical alignment as an activation key for the Aevorian network.
 
 **The Sequence:**
 1. Total eclipse creates specific celestial configuration
-2. Configuration matches Aeorian astronomical calendar
+2. Configuration matches Aevorian astronomical calendar
 3. The Heart of Winter's dormant systems recognize the pattern
 4. Automatic startup sequence begins
 5. Massive pulse activates throughout the network
@@ -481,33 +481,33 @@ Eclipse Day was not a coincidence. Someone used the astronomical alignment as an
 
 **Option A: Automated System**
 - No one triggered it—pure coincidence
-- Ancient Aeorians programmed restart after specific astronomical event
+- Ancient Aevorians programmed restart after specific astronomical event
 - Timer has been counting down for millennia
 - Eclipse Day was always going to restart the system
 
 **Option B: The Collector**
-- Deliberately triggered using stolen Aeorian activation device
+- Deliberately triggered using stolen Aevorian activation device
 - Spent years researching how to restart the network
 - Wants control before anyone realizes what's happening
 - Currently racing to establish control before network is fully autonomous
 
-**Option C: Surviving Aeorian Intelligence**
-- AI or consciousness that survived Calamity
+**Option C: Surviving Aevorian Intelligence**
+- AI or consciousness that survived Great Fall
 - Waiting in dormancy for opportunity
 - Used Eclipse Day to reawaken without being detected
-- Now trying to complete Aeor's original mission
+- Now trying to complete Aevor's original mission
 
 **Option D: External Force**
 - Entity from the White Maw
-- Used Aeorian network as tool to escape containment
-- Doesn't care about Aeor or artifacts—just wants freedom
+- Used Aevorian network as tool to escape containment
+- Doesn't care about Aevor or artifacts—just wants freedom
 - Network reactivation is side effect of larger escape attempt
 
 **Option E: Gods' Mistake**
 - Divine power surge during eclipse
 - Accidentally powered dormant systems
 - Gods didn't realize artifacts were still active
-- Now even they can't shut it down without risking another Calamity
+- Now even they can't shut it down without risking another Great Fall
 
 ### The Cascade Pattern
 
@@ -640,7 +640,7 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 
 ### Tier 1-2 Revelations
 - Strange occurrences in Northreach trace to Far North
-- Aeorian ruins exist in large numbers
+- Aevorian ruins exist in large numbers
 - Something is changing in the ruins
 - Artifacts are reactivating
 
@@ -652,14 +652,14 @@ The Heart of Winter is approaching full activation. Party must travel there, und
 - Mutations are deliberate, not random
 
 ### Tier 3-4 Revelations
-- Network's purpose: restore Aeorian civilization
+- Network's purpose: restore Aevorian civilization
 - Transformation affects entire continent
 - Someone/something triggered this deliberately
-- White Maw predates Aeor (bigger mystery)
-- Gods can't stop it without causing another Calamity
+- White Maw predates Aevor (bigger mystery)
+- Gods can't stop it without causing another Great Fall
 
 ### Final Revelation
-The Aeorian network isn't evil. It's doing exactly what it was designed to do: maintain and optimize civilization. The problem is that it's optimizing for a civilization that no longer exists, and it will reshape the world to match its programming.
+The Aevorian network isn't evil. It's doing exactly what it was designed to do: maintain and optimize civilization. The problem is that it's optimizing for a civilization that no longer exists, and it will reshape the world to match its programming.
 
 The choice isn't good vs. evil. It's: what kind of world do we want?
 
@@ -702,7 +702,7 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 - Wolves' crystals are biological receivers
 - Test case for network's "upgrade" protocol
 
-**Frozen Sick:**
+**The Pale Sickness:**
 - Salsvault is one network node
 - Frigid Woe is containment failure
 - Constructs defending facility from interference
@@ -711,7 +711,7 @@ The choice isn't good vs. evil. It's: what kind of world do we want?
 **Temple of Dragonknights:**
 - Cult senses rising magic
 - Trying to exploit amplified power
-- May have fragment of Aeorian knowledge
+- May have fragment of Aevorian knowledge
 - Represents factional response to changes
 
 **Wild Sheep Chase:**

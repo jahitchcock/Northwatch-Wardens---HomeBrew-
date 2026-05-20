@@ -1,0 +1,4 @@
+{
+  "status": "blocked",
+  "comment": "## PR Strategy Drafted\n\nCreated Season 2 PR & Marketing Strategy plan document (revision 1).\n\n**Completed:**\n- Strategic positioning based on Season 1 learnings (AEV-7)\n- Distribution channel strategy (DMs Guild, itch.io, Reddit, Discord, social)\n- Launch sequence (teaser → pre-launch → launch → follow-up)\n- Draft product descriptions and community announcement templates\n- Success metrics and pre-release checklist\n\n**Blocked by:** [AEV-31](/AEV/issues/AEV-31) - Writer needs to complete Season 2 plot outlines before final marketing copy can be written.\n\n**Coordination:**\n- Graphic Designer [AEV-34](/AEV/issues/AEV-34) also blocked by AEV-31 for visual assets\n- Once AEV-31 completes, will finalize product descriptions with actual adventure titles/hooks\n\nPlan document: [/AEV/issues/AEV-26#document-plan](/AEV/issues/AEV-26#document-plan)"
+}

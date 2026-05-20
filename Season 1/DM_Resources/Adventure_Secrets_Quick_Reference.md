@@ -17,35 +17,35 @@
 
 **Adventure File:** [Season 1/Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md](../Adventures/Wolves_Of_Welton/5E_Wolves_Of_Welton.md)
 
-**Campaign Role:** First visible sign of the Aeorian Echo—intelligence awakening where it shouldn't.
+**Campaign Role:** First visible sign of the Aevorian Echo—intelligence awakening where it shouldn't.
 
 **Related Secrets:**
 - **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Welton: Dark Undercurrents" section
 - **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)** - Campaign arc context
 
 **Key Secrets:**
-- Wolves' intelligence is caused by Aeorian facility beneath Westly's Farm
+- Wolves' intelligence is caused by Aevorian facility beneath Westly's Farm
 - Alexi Merriksonn was exposed to the Echo; his discharge awakened the wolves
-- This is a **test run** for larger Aeorian operations
-- Old Woods north of Welton contain partially buried Aeorian research station
+- This is a **test run** for larger Aevorian operations
+- Old Woods north of Welton contain partially buried Aevorian research station
 
 ---
 
-### Frozen Sick
+### The Pale Sickness
 
-**Adventure File:** [Season 1/Adventures/Frozen Sick/Frozen Sick.md](../Adventures/Frozen%20Sick/Frozen%20Sick.md)
+**Adventure File:** [Season 1/Adventures/The Pale Sickness/The Pale Sickness.md](../Adventures/Frozen%20Sick/Frozen%20Sick.md)
 
-**Campaign Role:** Reveals the **source** of the Aeorian Echo—Salsvault is the primary origin point.
+**Campaign Role:** Reveals the **source** of the Aevorian Echo—Salsvault is the primary origin point.
 
 **Related Secrets:**
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Complete Echo documentation
+- **[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)** - Complete Echo documentation
 - **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
 - **[World Building/DMEyesOnly/The_Far_North_Secrets.md](../../World%20Building/DMEyesOnly/The_Far_North_Secrets.md)** - Salsvault details
 
 **Key Secrets:**
-- Salsvault is an **active Aeorian facility** leaking magical energy
-- Frigid woe spores are Aeorian bioweapons designed to bypass divine healing
+- Salsvault is an **active Aevorian facility** leaking magical energy
+- Frigid woe spores are Aevorian bioweapons designed to bypass divine healing
 - Salsvault's malfunctioning systems are the **primary source** of the Echo
 - The facility is attempting to reactivate other sites across Northreach
 - This is the campaign's **first major revelation**
@@ -61,13 +61,13 @@
 **Related Secrets:**
 - **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Temple of the Dragonknights: Heroic Tomb" section
 - **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)** - Campaign arc context
 
 **Key Secrets:**
-- Temple was built over sealed **Aeorian facility for draconic weapons research**
-- "Dragonknights" actually fought post-Calamity Aeorian threats
+- Temple was built over sealed **Aevorian facility for draconic weapons research**
+- "Dragonknights" actually fought post-Calamity Aevorian threats
 - Each tomb is a **ward anchor**; desecration weakens the seals
-- Aeorian facility below is responding to Echo and trying to break free
+- Aevorian facility below is responding to Echo and trying to break free
 - Cult's rituals only possible because magic is destabilizing
 - Facility contains **dragon-killing bioweapons** threatening all dragons
 
@@ -82,13 +82,13 @@
 **Related Secrets:**
 - **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Noke's Tower: The Wizard's Arsenal" section
 - **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)** - Campaign arc context
 
 **Key Secrets:**
-- **Shinebright is not who he appears**—dedicated Aeorian researcher
+- **Shinebright is not who he appears**—dedicated Aevorian researcher
 - The "accident" was a **deliberate test** of bio-transmutation magic
 - Shinebright knows full truth about Echo and is working to stop it
-- His tower has extensive Aeorian research in hidden basement
+- His tower has extensive Aevorian research in hidden basement
 - If players earn trust, he becomes crucial ally with maps, translations, protective magic
 
 ---
@@ -102,13 +102,13 @@
 **Related Secrets:**
 - **[World Building/DMEyesOnly/Places_Secrets.md](../../World%20Building/DMEyesOnly/Places_Secrets.md)** - "Pinebrook: Commerce and Conspiracy" section
 - **[World Building/DMEyesOnly/Northreach.md](../../World%20Building/DMEyesOnly/Northreach.md)** - Adventure integration details
-- **[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)** - Campaign arc context
+- **[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)** - Campaign arc context
 
 **Key Secrets:**
-- Torven Grimley (trading post) is **Blackwake Corsairs fence** for Aeorian artifacts
+- Torven Grimley (trading post) is **Blackwake Corsairs fence** for Aevorian artifacts
 - Merryn Pine (lodge) is **information broker** who knows about smuggling
 - Market square has **dead drop locations** for conspirators
-- Abandoned logging camp closed after workers **found something Aeorian**
+- Abandoned logging camp closed after workers **found something Aevorian**
 - This is a **smuggling hub** moving dangerous artifacts through frontier
 
 ---
@@ -123,7 +123,7 @@
 - Order-independent design philosophy
 - Long-term campaign trajectory
 
-**[World Building/DMEyesOnly/The_Aeorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aeorian_Echo.md)**
+**[World Building/DMEyesOnly/The_Aevorian_Echo.md](../../World%20Building/DMEyesOnly/The_Aevorian_Echo.md)**
 - Complete Echo documentation
 - Historical background
 - Facility network details
@@ -176,7 +176,7 @@
 - Inconsistencies that make players curious
 
 **Mid Campaign:**
-- Aeorian origin becomes clear
+- Aevorian origin becomes clear
 - Pattern of spreading effects recognized
 - Multiple sites identified
 

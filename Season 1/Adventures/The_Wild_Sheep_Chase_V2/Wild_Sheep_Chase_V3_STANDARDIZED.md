@@ -1,14 +1,14 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach
-  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/892902-The_Wild_Sheep_Chase_V2.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 # The Wild Sheep Chase — Standardized v3
 
-*Campaign Comedy Adventure with Aeorian Echo Integration*  
+*Campaign Comedy Adventure with Aevorian Echo Integration*  
 When a wizard becomes a sheep, things get weird  
 Standardized to Master Adventure Template v3
 
@@ -29,10 +29,10 @@ Standardized to Master Adventure Template v3
 | **Key NPCs** | **Finethir Shinebright** (polymorphed wizard) • **Ahmed Noke** (apprentice villain) • **Guz** (half-orc enforcer) |
 | **Combat Encounters** | 3–4 encounters (Guz street fight, tower guards, Noke confrontation) |
 | **Non-Combat Encounters** | 2+ (chase scenes, negotiation opportunities) |
-| **Mystery Clues** | Magical item malfunction proves Aeorian Echo destabilizes artifacts |
+| **Mystery Clues** | Magical item malfunction proves Aevorian Echo destabilizes artifacts |
 | **Core Consequence** | Party learns that wizards' tools are failing across the frontier |
 | **Alternative Paths** | Defeat Noke / negotiate / let him escape / wand explodes wildly |
-| **Echo Manifestation** | Wand of True Polymorph corrupted by external magical interference (Aeorian Echo) |
+| **Echo Manifestation** | Wand of True Polymorph corrupted by external magical interference (Aevorian Echo) |
 | **Prep Time Needed** | 45–60 minutes |
 | **Materials Needed** | NPC cards (Shinebright, Noke, Guz), stat blocks, tower layout, wand rules |
 
@@ -44,7 +44,7 @@ Standardized to Master Adventure Template v3
 
 **Where This Fits**
 - **Campaign Arc:** Arc 2 — Revelation: The Hidden Truth (Part 2 of 2)
-- **Follows:** Frozen Sick (optional but thematic)
+- **Follows:** The Pale Sickness (optional but thematic)
 - **Precedes:** Temple of the Dragonknights
 - **Standalone Play:** Excellent as one-shot or palate cleanser
 - **Recommended Party Size:** 2–5 players, Levels 1–2
@@ -62,7 +62,7 @@ This adventure provides comic relief while reinforcing a critical campaign myste
 3. **Ambition & Obsession:** Noke's desire for power blinded him to the consequences.
 4. **Second Chances:** Helping Shinebright opens dialogue with a powerful ally.
 
-### The Aeorian Echo Connection
+### The Aevorian Echo Connection
 
 *What Players Learn:*
 
@@ -72,7 +72,7 @@ This adventure provides comic relief while reinforcing a critical campaign myste
 - If this continues, every wizard's tools become unreliable (major threat)
 
 *What Remains Hidden:*
-- Source of the interference (Salsvault — revealed in Frozen Sick)
+- Source of the interference (Salsvault — revealed in The Pale Sickness)
 - Scope of artifact failures (widespread across the region)
 - Whether the malfunction can be reversed (campaign-ongoing mystery)
 
@@ -98,10 +98,10 @@ This adventure provides comic relief while reinforcing a critical campaign myste
   - Ahmed Noke (paranoid, theatrical, ambitious)
   - Guz (dim-witted, loyal, intimidating)
 - [ ] Print stat blocks:
-  - Guz (use Thug from MM, CR 2)
-  - Polymorphed wolves (MM, intelligent)
-  - Brown Bear polymorphed (MM)
-  - Mage / Ahmed Noke (MM p347, Wizard spellcaster)
+  - Guz (use Thug, CR 2)
+  - Polymorphed wolves (intelligent)
+  - Brown Bear polymorphed
+  - Mage / Ahmed Noke (Wizard spellcaster)
   - Flying Swords + Animated Armor (tower guards)
   - Shinebright as pony with INT/WIS 18/14
 - [ ] Wand of True Polymorph mechanics sheet (charges, backfire rules, instability)
@@ -379,7 +379,7 @@ Exploration and puzzle-solving; allow players to use tactics, stealth, or negoti
 > *Around the base: tents, wooden huts, outhouses. Several armed figures move about—some polymorphed (animals moving with human intelligence), others normal mercenaries.*
 
 **Guards & Defenses:**
-- **3 Apes** (MM p317, polymorphed mercenaries) playing dice on the lawn, greatswords nearby
+ - **3 Apes** (polymorphed mercenaries) playing dice on the lawn, greatswords nearby
 - **1 Brown Bear** (polymorphed, currently in the outhouse—available later as reinforcement)
 - **Total visible guard count: 4** (plus more inside the tower)
 
@@ -409,7 +409,7 @@ Exploration and puzzle-solving; allow players to use tactics, stealth, or negoti
 
 **Ground Level (Entry Hall):**
 - Scattered spellbooks, notes, adventuring gear
-- 2 **Flying Swords** (MM p20, magical constructs) patrol here, behaving erratically
+  - 2 **Flying Swords** (magical constructs) patrol here, behaving erratically
 - **DC 12 Arcana:** Notice the swords are moving oddly—they're destabilized, sometimes attacking friendlies
 
 **Second Level (Library & Study):**
@@ -587,7 +587,7 @@ Climactic confrontation; option for combat, negotiation, or chaos; wand malfunct
 - 300 gp in coins and gems
 - 2d4 spell scrolls (1st/2nd level)
 - Component pouch, ink, quills
-- Aeorian artifacts (if campaign emphasizes; 1-2 items, 100+ gp each)
+- Aevorian artifacts (if campaign emphasizes; 1-2 items, 100+ gp each)
 
 **The Wand Itself:**
 - **Unstable Wand of True Polymorph** (Rare, Cursed)
@@ -648,7 +648,7 @@ Climactic confrontation; option for combat, negotiation, or chaos; wand malfunct
 
 **Finethir Shinebright (Scholar/Wizard, Neutral Good)**
 - **True Form:** Elf, thin, straw-haired, distinguished
-- **Current Form:** Pony (use MM p325 stats with INT 18, WIS 14)
+- **Current Form:** Pony (use stats with INT 18, WIS 14)
 - **AC** 10 | **HP** 11 (2d8+2)
 - **Cantrips:** Minor Illusion, Mage Hand, Light
 - **Personality:** Snobbish, cowardly, brilliant, occasionally bleats mid-sentence
@@ -670,10 +670,10 @@ Climactic confrontation; option for combat, negotiation, or chaos; wand malfunct
 - *From Scene 2 stat block above*
 
 **Animated Armor (Tower Guard)**
-- Use MM p19 stat block (AC 18, HP 33, CR 1)
+- Use stat block (AC 18, HP 33, CR 1)
 
 **Flying Sword (Tower Guard)**
-- Use MM p20 stat block (AC 17, HP 17, CR 1/4)
+- Use stat block (AC 17, HP 17, CR 1/4)
 
 ---
 
@@ -740,7 +740,7 @@ Magical artifacts across the frontier are destabilizing. If this continues, ever
 - Shinebright becomes a powerful ally and contact
 - Potential enemies: Noke's family or associates seeking revenge (campaign hook)
 
-**Aeorian Echo Signal:**
+**Aevorian Echo Signal:**
 - Confirms that magic is destabilizing unpredictably
 - Proof that artifacts can malfunction catastrophically
 
@@ -763,7 +763,7 @@ Magical artifacts across the frontier are destabilizing. If this continues, ever
 
 **Result:**
 - Wand is destroyed; no method to restore Shinebright easily
-- Party must seek alternative cure (Greater Restoration, other wizards, Aeorian research)
+- Party must seek alternative cure (Greater Restoration, other wizards, Aevorian research)
 - Noke is likely polymorphed or killed by backfire
 
 **Reputation:**
@@ -783,7 +783,7 @@ Magical artifacts across the frontier are destabilizing. If this continues, ever
 - Noke becomes a complex NPC: rival who owes party life debt but harbors resentment
 - Campaign introduces moral ambiguity
 
-### Aeorian Echo Mystery Progress
+### Aevorian Echo Mystery Progress
 
 **Before Adventure:**
 - Magical phenomena: wolves awakened, disease spreading
@@ -792,7 +792,7 @@ Magical artifacts across the frontier are destabilizing. If this continues, ever
 **After Wild Sheep Chase:**
 - **Proof:** Magical artifacts are malfunctioning
 - **New Question:** "Why are ALL magical items destabilizing?"
-- **Connection:** External interference (Aeorian Echo) is corrupting enchantments
+- **Connection:** External interference (Aevorian Echo) is corrupting enchantments
 - **Implication:** If Salsvault (source) isn't stopped, magic across the frontier will fail completely
 
 ### NPC Relationship Changes

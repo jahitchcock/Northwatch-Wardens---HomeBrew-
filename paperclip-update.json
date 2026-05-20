@@ -1,0 +1,4 @@
+{
+  "status": "done",
+  "comment": "## IP Remediation Complete\n\nAll build/ content files fixed per AEV-10 legal findings:\n\n- Replaced Frozen Sick refs to The Pale Sickness in MD/TXT/HTML\n- Replaced 1010+ Exandria/Aeor refs to Aevoria/Aevor/Aevorian\n- Replaced Eiselcross to Northreach, Uthodurn to Oakhaven\n- Replaced D&D refs to 5e / this tabletop RPG\n- Replaced Critical Role refs to fan-created content\n- Added Fan Content Disclaimer to all MD, TXT, HTML files\n\nFiles processed: A-DMs-guide-to-aevoria (md/txt/html), The-adventurers-guide-to-aevoria (md/txt/html), dms-guide-contents.md, index.html, HB-ADMundefinedsGuidetoAevoria.txt, A DM's Guide to Aevoria (5).txt\n\nRemaining: DMGuideDiff.htm (diff/comparison file, not player-facing content)."
+}

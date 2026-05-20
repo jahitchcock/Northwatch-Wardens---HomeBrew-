@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, Pinebrook, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, Pinebrook, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach, Pinebrook
-  Linked: Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_V3_STANDARDIZED.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 **PERIL**
@@ -33,9 +33,9 @@ Welcome to Dungeons & Dragons:
 ## DM Prep Checklist
 
 - [ ] Read entire adventure (45-60 minutes)
-- [ ] Familiarize yourself with Silver Dragon Wyrmling stats (MM p118)
+ - [ ] Familiarize yourself with Silver Dragon Wyrmling stats
 - [ ] Decide on Rorn's corruption level
-- [ ] Mark key revelation moments (Aeorian artifact, restoration option)
+- [ ] Mark key revelation moments (Aevorian artifact, restoration option)
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Peril in Pinebrook}}
@@ -55,7 +55,7 @@ Welcome to Dungeons & Dragons:
 
 **Arc Progress Notes:** This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
 
-**Campaign Connection:** This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
+**Campaign Connection:** This adventure shows the **human cost** of the Aevorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
 **Prerequisite Adventures:** None (works as standalone or side quest)
 
@@ -67,19 +67,19 @@ Welcome to Dungeons & Dragons:
 **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
-- **Chapter 6: The Aeorian Echo** — Campaign arc context
+- **Chapter 6: The Aevorian Echo** — Campaign arc context
 }}
 
 **Key Secrets:**
-- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aeorian artifacts
+- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aevorian artifacts
 - Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
 - The market square contains **dead drop locations** for conspirators
-- An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
+- An abandoned logging camp north of Pinebrook was closed after workers **found something Aevorian**
 - This is a **smuggling hub** moving dangerous artifacts through the frontier
 
-**Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+**Player Discovery:** Characters should uncover crime and corruption in Pinebrook, but the deeper Aevorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
 
-### Mystery Clues (Aeorian Echo Investigation)
+### Mystery Clues (Aevorian Echo Investigation)
 
 **Primary Clue — Frontier Vulnerability:**
 - Even "safe" settlements like Pinebrook are affected by rising tensions and instability
@@ -88,21 +88,21 @@ Welcome to Dungeons & Dragons:
 - **Connects to:** Campaign theme — no place is truly safe from the Echo's effects
 
 **Secondary Clue — Artifact Smuggling (Optional):**
-- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
+- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aevorian artifacts
 - **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
 - **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
-- **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
+- **Connects to:** The Pale Sickness (artifacts from Salsvault being smuggled), future conspiracy threads
 
 **Tertiary Clue — Information Brokering:**
 - Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
 - **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
 - **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
-- **Connects to:** Black market networks responding to Aeorian discoveries
+- **Connects to:** Black market networks responding to Aevorian discoveries
 
 ### Investigation Thread Summary
 
 **If players complete this adventure, they learn:**
-1. The Aeorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
+1. The Aevorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
 2. Opportunists are exploiting the chaos (smuggling, profiteering, corruption)
 3. Frontier settlements lack resources to handle escalating problems
 4. The Northwatch Wardens' role is vital for maintaining stability

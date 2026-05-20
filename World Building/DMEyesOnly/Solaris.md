@@ -55,12 +55,8 @@ This document contains DM-only secrets about the Solaris Dominion. **DO NOT shar
 - Nullwood scouts with dire warnings
 - Foreign powers exploiting divisions
 
-
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Solaris Dominion: DM Secrets}}
 
 \page
 
@@ -172,11 +168,8 @@ Instead of pure Charisma checks:
 - See civilization under different stress
 - Recognize shared threats
 
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Solaris Dominion: DM Secrets}}
 
 \page
 

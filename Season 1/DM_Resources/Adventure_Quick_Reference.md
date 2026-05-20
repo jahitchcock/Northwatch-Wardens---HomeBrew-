@@ -41,10 +41,10 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 **Primary Clue:** Wolves are sapient (open doors, speak, plan)  
 **Secondary Clue:** Timing matches Alexi's disappearance (2-3 weeks ago)  
 **Tertiary Clue:** Magical residue (detect magic shows transmutation aura, DC 15 Arcana)  
-**Hidden Clue:** The Old Woods contain geometric frost and buried Aeorian metal (DC 16)
+**Hidden Clue:** The Old Woods contain geometric frost and buried Aevorian metal (DC 16)
 
 **Connects To:**
-- ✓ Frozen Sick (Salsvault activation caused awakening)
+- ✓ The Pale Sickness (Salsvault activation caused awakening)
 - ✓ Wild Sheep Chase (transformation theme)
 - ✓ All future adventures (establishes Echo as ongoing threat)
 
@@ -89,7 +89,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 
 \page
 
-## 2. FROZEN SICK — One-Page Reference
+## 2. The Pale Sickness — One-Page Reference
 
 **Session Duration:** 8-12 hours | **Level Range:** 2-4 | **Party Size:** 2-5 players
 
@@ -99,7 +99,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 |-----------|----------|---------|----|----|-----|
 | **Hag Scout** | Road to Palebank | Green Hag variant | 82 | 15 | 5 |
 | **Bandits (Croaker Cave)** | Bandit Hideout | Bandit Captain + x3 | 65 | 15 | 1/8 ea |
-| **Aeorian Constructs** | Salsvault | Animated Armor-type | 40 | 15 | 2 ea |
+| **Aevorian Constructs** | Salsvault | Animated Armor-type | 40 | 15 | 2 ea |
 | **Animated Turrets** | Salsvault Lab | Magical Trap Effect | - | - | 3 ea |
 
 ### Session Checklist
@@ -117,9 +117,9 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 
 **Primary Clue:** Salsvault is the source (frigid woe traced to ruins, DC 10 Medicine)  
 **Secondary Clue:** Activation timeline matches wolf awakening (2-3 months ago, DC 14 Arcana)  
-**Tertiary Clue:** Aeorian weapons lab (bio-weapons research, DC 15 History)  
+**Tertiary Clue:** Aevorian weapons lab (bio-weapons research, DC 15 History)  
 **Critical Clue:** Deliberate activation (manually triggered, DC 16-17 investigation)  
-**Hidden Clue:** Other Aeorian sites exist (maps reference dozens, DC 16 exploration)
+**Hidden Clue:** Other Aevorian sites exist (maps reference dozens, DC 16 exploration)
 
 **Connects To:**
 - ✓ Wolves of Welton (Alexi's death caused by Salsvault activation)
@@ -172,7 +172,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 - **Lab Area:** Multiple rooms, constructs, magical traps
 - **Preservation Chamber:** Where gold vials are stored (central location, well-guarded)
 - **Control Room:** Evidence of manual activation sequence (investigation DC 16-17)
-- **Deep Levels:** Sealed with Aeorian symbols (hook for future)
+- **Deep Levels:** Sealed with Aevorian symbols (hook for future)
 
 ### Common Pitfalls & Solutions
 
@@ -228,7 +228,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 
 **Connects To:**
 - ✓ Wolves of Welton (transformation theme)
-- ✓ Frozen Sick (magical interference source)
+- ✓ The Pale Sickness (magical interference source)
 - ✓ Shows pattern: magic itself is destabilizing
 
 ### NPC Quick Stats
@@ -284,9 +284,9 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 ### Optional Scene: Tower Basement
 
 **If party explores basement thoroughly (Investigation DC 16):**
-- Shinebright's research library (Aeorian maps, notes on magical anomalies)
+- Shinebright's research library (Aevorian maps, notes on magical anomalies)
 - Mentions "Salsvault" and "The Far North"
-- Direct foreshadowing for Frozen Sick adventure
+- Direct foreshadowing for The Pale Sickness adventure
 - Trust-building moment: If party helps Shinebright, he shares research freely
 
 {{pageNumber,auto}}
@@ -320,12 +320,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 **Mystery Rating:** ⭐⭐ (Human Cost & Smuggling)
 
 **Primary Clue:** Frontier vulnerability (instability affecting settlement, DC 12 Insight)  
-**Secondary Clue:** Artifact smuggling (hidden Aeorian items, Investigation DC 15)  
+**Secondary Clue:** Artifact smuggling (hidden Aevorian items, Investigation DC 15)  
 **Tertiary Clue:** Information brokering (unusual traffic through town, Persuasion DC 13)
 
 **Connects To:**
 - ✓ Shows consequences of Echo (every settlement affected)
-- ✓ Smuggling networks exploit Aeorian discoveries (conspiracy theme)
+- ✓ Smuggling networks exploit Aevorian discoveries (conspiracy theme)
 
 \column
 
@@ -396,12 +396,12 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 **Primary Clue:** Magical convergence point (ley lines amplified by Salsvault, DC 13 Arcana)  
 **Secondary Clue:** Predator attraction (Venomfang drawn by rising magic, Insight DC 14)  
 **Tertiary Clue:** Cult empowerment (kobolds more capable than normal, Arcana DC 15)  
-**Hidden Clue:** Aeorian facility sealed below (Investigation DC 16, Architecture)  
+**Hidden Clue:** Aevorian facility sealed below (Investigation DC 16, Architecture)  
 **Critical Clue:** Ward weakening (desecration breaks seals, Arcana DC 17/Religion DC 15)
 
 **Connects To:**
 - ✓ Wolves of Welton (predator pattern)
-- ✓ Frozen Sick (magical convergence points)
+- ✓ The Pale Sickness (magical convergence points)
 - ✓ Shows escalation: threats intensifying
 
 ### NPC Quick Stats
@@ -446,7 +446,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 **Temple Tombs = Ward Anchors**
 
 - Each desecrated tomb weakens containment
-- Beneath temple: Sealed Aeorian facility (weapons lab, draconic research)
+- Beneath temple: Sealed Aevorian facility (weapons lab, draconic research)
 - Desecration risk: If all seals break, facility reactivates automatically
 - Investigation (Arcana DC 17, Religion DC 15) reveals stakes
 
@@ -485,7 +485,7 @@ Use these one-page reference sheets for fast session prep. Print and tape to you
 | Adventure | Duration | Level | Party | Mystery | Reward | Primary Theme |
 |-----------|----------|-------|-------|---------|--------|-----------------|
 | **Wolves of Welton** | 4-6 hr | 1-3 | 2-5 | ⭐⭐⭐⭐⭐ | 800 gp | Awakening intelligence |
-| **Frozen Sick** | 8-12 hr | 2-4 | 2-5 | ⭐⭐⭐⭐⭐ | 300 gp | Ancient source revealed |
+| **The Pale Sickness** | 8-12 hr | 2-4 | 2-5 | ⭐⭐⭐⭐⭐ | 300 gp | Ancient source revealed |
 | **Wild Sheep Chase** | 3-4 hr | 1-2/4-5 | 2-5 | ⭐⭐⭐ | 150 gp | Magic destabilizing |
 | **Peril in Pinebrook** | 2-3 hr | 1-3 | 2-5 | ⭐⭐ | 200 gp | Frontier consequence |
 | **Temple of Dragonknights** | 4-6 hr | 3-5 | 2-5 | ⭐⭐⭐⭐ | 400 gp | Predator escalation |

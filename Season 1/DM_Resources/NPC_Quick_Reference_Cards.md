@@ -116,7 +116,7 @@ ___
 - Believes Echo isn't random
 :
 ### In-Scene Use
-Identifies magic; provides lore; recognizes Aeorian artifacts
+Identifies magic; provides lore; recognizes Aevorian artifacts
 }}
 
 \column
@@ -321,7 +321,7 @@ Council skeptic; requires party to "prove themselves"; morale test
 
 \page
 
-## FROZEN SICK
+## The Pale Sickness
 
 {{monster,frame
 ## Elro Aldataur
@@ -478,7 +478,7 @@ ___
 - Hidden research library
 - Maps marking anomaly sites
 - Mentions "Salsvault" in notes
-- Direct Frozen Sick foreshadowing
+- Direct The Pale Sickness foreshadowing
 :
 ### In-Scene Use
 Comic relief character; knowledge source; potential ally; NPC to return to
@@ -526,7 +526,7 @@ ___
 ### Motivations
 - Establish power base in region
 - Use magical convergence (temple) as stronghold
-- Exploit Aeorian Echo for personal gain
+- Exploit Aevorian Echo for personal gain
 - Avoid direct conflict with adventurers if possible
 :
 ### Negotiation Options
@@ -597,7 +597,7 @@ Non-negotiable enemy; zealot; requires defeat or flight
 | Adventure | Ally | Neutral | Enemy | Info Source |
 |-----------|------|---------|-------|------------|
 | **Wolves** | Father Merriksonn | Leanor, Tillus | Flame (maybe) | Corel (ranger) |
-| **Frozen Sick** | Elro, Morgo | Tulgi (gruff) | Bandits | Pelc (if rescued) |
+| **The Pale Sickness** | Elro, Morgo | Tulgi (gruff) | Bandits | Pelc (if rescued) |
 | **Wild Sheep** | Shinebright (if rescued) | Noke's Staff | Noke, Guz | Tower Library |
 | **Pinebrook** | Derendil, Gwyn | Town Guard | Rorn, Undead | Dragon Wyrmling |
 | **Temple** | - | Joel Andersmith | Venomfang*, Kobolds | Oracle/Scouts |

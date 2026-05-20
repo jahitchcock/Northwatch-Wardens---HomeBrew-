@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, Pinebrook, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, Pinebrook, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach, Pinebrook
-  Linked: Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_COMPLETE.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 # Peril in Pinebrook — Standardized v3
@@ -22,7 +22,7 @@ Standardized to Master Adventure Template v3
 | **Levels** | 1–3 (beginner-friendly) |
 | **Sessions** | 1–2 sessions (1–1.5 hours core) |
 | **Themes** | Heroism • Mercy • Frontier vulnerability • Dragon allies |
-| **Mystery Rating** | ★★ (Secondary: Frontier is fragile; Aeorian Echo a factor) |
+| **Mystery Rating** | ★★ (Secondary: Frontier is fragile; Aevorian Echo a factor) |
 | **Type** | Exploration + Investigation + Combat + Roleplaying |
 | **Starting Location** | Pinebrook (merchant village) |
 | **Ending Location** | Lair of Rorn (adult silver dragon) |
@@ -31,7 +31,7 @@ Standardized to Master Adventure Template v3
 | **Non-Combat Encounters** | 4+ (patrol intro, baby discovery, lair challenges, reunion) |
 | **Mystery Clues** | Pinebrook is vulnerable to magical threats; frontiers lack resources to defend |
 | **Core Consequence** | Party gains dragon ally; understands frontier fragility |
-| **Echo Manifestation** | Frozen conditions (secondary hook) from Aeorian corruption |
+| **Echo Manifestation** | Frozen conditions (secondary hook) from Aevorian corruption |
 | **Prep Time Needed** | 45–60 minutes |
 | **Materials Needed** | NPC cards (Kole, Nytha, Rorn), stat blocks, lair map, patrol guides |
 
@@ -60,7 +60,7 @@ Standardized to Master Adventure Template v3
 3. **Dragons as Individuals:** Dragons aren't just monsters; they're people with families and agency.
 4. **Consequences of Indifference:** If no one helps the dragon, Rorn's wrath falls on Pinebrook.
 
-### The Aeorian Echo Connection
+### The Aevorian Echo Connection
 
 *What Players Learn:*
 - Magical phenomenon is creating **frozen conditions** in places where no winter exists
@@ -572,7 +572,7 @@ Rorn's speech is **ancient, formal, and deeply grateful:**
 
 **1. "What trapped you and Nytha in ice?"**
 - Response: "A force of magic—ancient and cold. It came from the north, from a place my kind remembers as defiled. The ice came without warning, without mercy. It is not natural. Something has awakened beneath the earth."
-- **Implication:** Aeorian Echo / Salsvault (campaign mystery)
+- **Implication:** Aevorian Echo / Salsvault (campaign mystery)
 
 **2. "What happened to the egg?"**
 - Response (sorrowful): "My firstborn. Lost to the cold before the barrier formed. Nytha was my second; fortune blessed me that she survived."
@@ -757,7 +757,7 @@ Rorn asks if the party needs guidance to leave:
 - Kole will call on them for future aid
 - Merchants offer discounts; townsfolk are friendly
 
-**Aeorian Echo Discovery:**
+**Aevorian Echo Discovery:**
 - Confirms magical interference is affecting **weather and natural phenomena**
 - Supernatural cold is beyond normal winter
 - Source unknown but growing in power
@@ -799,7 +799,7 @@ Rorn asks if the party needs guidance to leave:
 - Pinebrook becomes less friendly
 - Long-term reputation damage
 
-### Aeorian Echo Mystery Progress
+### Aevorian Echo Mystery Progress
 
 **Before Adventure:**
 - Unknown magical phenomenon
@@ -870,7 +870,7 @@ A: Give her alien perspectives. She might not understand human economy, morality
 A: Absolutely. If they escape, they could become: mercenary contacts, moral dilemmas in future adventures, or antagonists working for a larger villain. Use them to explore moral ambiguity.
 
 **Q: "What if the party wants to find the source of the ice?"**
-A: Perfect segue into Frozen Sick or other Echo-hunting adventures. Give them clues: "The ice came from the north, carried on a wind from somewhere deep and ancient." Let curiosity guide them toward the next adventure.
+A: Perfect segue into The Pale Sickness or other Echo-hunting adventures. Give them clues: "The ice came from the north, carried on a wind from somewhere deep and ancient." Let curiosity guide them toward the next adventure.
 
 ---
 

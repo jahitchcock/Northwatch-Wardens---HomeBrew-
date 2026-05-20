@@ -137,7 +137,7 @@ Once the wolves flee or fall, give a beat of silence:
 Then offer **three natural prompts** for the players to introduce themselves:
 
 - The innkeeper bursts out: “By the gods! Are you all right? Come inside, quickly!” → Forces the group to enter together.
-- A shared clue: One wolf has a strange frost-rimmed patch of fur — a hint toward Frozen Sick. → Gives them something to discuss.
+- A shared clue: One wolf has a strange frost-rimmed patch of fur — a hint toward The Pale Sickness. → Gives them something to discuss.
 - A practical need: Someone is injured and needs help. → Encourages cooperation.
 
 ##### Pick whichever fits your tone.

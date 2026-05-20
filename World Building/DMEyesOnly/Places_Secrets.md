@@ -10,7 +10,7 @@
 
 ## Overview
 
-This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aeorian Echo plotline, and information that would spoil player discoveries.
+This document contains secret information about locations in the Northwatch Wardens campaign, including hidden features, dark histories, connections to the Aevorian Echo plotline, and information that would spoil player discoveries.
 
 
 
@@ -31,22 +31,22 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's Really There:**
 
-- Pre-Calamity magical beacon
+- pre-Fall magical beacon
 
-- Part of Aeorian experimental communication network
+- Part of Aevorian experimental communication network
 
 - Still partially functional
 
-- Resonates with other Aeorian artifacts in the region
+- Resonates with other Aevorian artifacts in the region
 
 
 **Hidden Features:**
 
-- Carvings are Aeorian script (heavily weathered)
+- Carvings are Aevorian script (heavily weathered)
 
 - Contains dormant magical receiver
 
-- Responds to specific Aeorian frequencies
+- Responds to specific Aevorian frequencies
 
 - Has been slowly "waking up" over past few years
 
@@ -54,13 +54,13 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What It Means:**
 
-- Originally marked Aeorian facility location
+- Originally marked Aevorian facility location
 
-- When Aeor crashed, this survived as marker
+- When Aevor crashed, this survived as marker
 
-- Current reactivation of Aeorian tech is making it active again
+- Current reactivation of Aevorian tech is making it active again
 
-- Could be used to locate other Aeorian sites
+- Could be used to locate other Aevorian sites
 
 
 **What Elric Knows:**
@@ -82,7 +82,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - During dramatic moments, stone could activate
 
-- Map of Aeorian sites could be extracted with right magic
+- Map of Aevorian sites could be extracted with right magic
 
 
 \column
@@ -96,7 +96,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Contains encrypted correspondence
 
-- Maps with marked locations (Aeorian sites she suspects)
+- Maps with marked locations (Aevorian sites she suspects)
 
 - Journal documenting patterns over 15 years
 
@@ -109,9 +109,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Forbidden Cobalt Soul texts
 
-- Detailed Aeorian research
+- Detailed Aevorian research
 
-- Working translation of Aeorian script
+- Working translation of Aevorian script
 
 - Theory documents about the "Echo"
 
@@ -141,7 +141,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Passage leads toward the Waystone's base
 
-- Contains ancient Aeorian construction
+- Contains ancient Aevorian construction
 
 - Could be explored with right motivation
 
@@ -152,6 +152,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor2,top:28px,left:394px,width:251px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -171,13 +174,13 @@ This document contains secret information about locations in the Northwatch Ward
 
 - First settlers found ruins around the stone
 
-- Those ruins were Aeorian structure
+- Those ruins were Aevorian structure
 
 - Ruins cleared away and forgotten
 
-- Foundation of inn incorporates Aeorian materials
+- Foundation of inn incorporates Aevorian materials
 
-- Some walls contain Aeorian metal and crystal
+- Some walls contain Aevorian metal and crystal
 
 
 **The Previous Owner:**::
@@ -195,7 +198,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What This Means:**::
 
-- Previous owner was sensitive to Aeorian magic
+- Previous owner was sensitive to Aevorian magic
 
 - Echo was active even then, just quieter
 
@@ -260,7 +263,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden Reality:**::
 
-- Wolves are Aeorian experimental subjects
+- Wolves are Aevorian experimental subjects
 
 - Being controlled through biological modification
 
@@ -274,7 +277,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Someone visits wolf lair regularly
 
-- Uses Aeorian device to issue commands
+- Uses Aevorian device to issue commands
 
 - Testing how much intelligence can be granted
 
@@ -283,7 +286,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Why Welton:**::
 
-- Proximity to minor Aeorian crash site
+- Proximity to minor Aevorian crash site
 
 - Isolated enough for testing
 
@@ -308,7 +311,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden Reality:**::
 
-- Farm sits directly above sealed Aeorian facility
+- Farm sits directly above sealed Aevorian facility
 
 - Residual magic leaking through soil
 
@@ -357,6 +360,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor13,top:330px,left:229px,width:388px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -429,7 +435,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Reality:**::
 
-- Site of Aeorian crash
+- Site of Aevorian crash
 
 - Heavily damaged but still dangerous
 
@@ -440,7 +446,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's There:**::
 
-- Partially buried Aeorian structure
+- Partially buried Aevorian structure
 
 - Biological research materials (degraded)
 
@@ -491,7 +497,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Torven Grimley is Blackwake Corsairs fence
 
-- Handles stolen Aeorian artifacts
+- Handles stolen Aevorian artifacts
 
 - Maintains plausible deniability through layers
 
@@ -538,6 +544,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{watercolor5,top:387px,left:178px,width:379px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
 \page
 
 ### The Pine Lodge: Watching Eyes
@@ -578,7 +587,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Who's moving what goods where
 
-- Recent conversations about Aeorian artifacts
+- Recent conversations about Aevorian artifacts
 
 - Identities of multiple conspirators
 
@@ -631,7 +640,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Encoded messages if they know where to look
 
-- Aeorian artifacts in transit
+- Aevorian artifacts in transit
 
 - Instructions for operatives
 
@@ -664,7 +673,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's There:**::
 
-- Entrance to Aeorian structure
+- Entrance to Aevorian structure
 
 - Covered by collapsed building
 
@@ -702,6 +711,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor7,top:191px,left:412px,width:302px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -754,7 +766,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Noticed same buyer through multiple fronts
 
-- Decoded some Aeorian text from artifacts
+- Decoded some Aevorian text from artifacts
 
 - Was preparing report when infected
 
@@ -765,7 +777,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - List of artifact sales with notes
 
-- Decoded Aeorian text fragments
+- Decoded Aevorian text fragments
 
 - Map with suspected crash sites marked
 
@@ -800,7 +812,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Find hidden panel (DC 15 Investigation)
 
-- Elric or Sera could translate Aeorian text
+- Elric or Sera could translate Aevorian text
 
 - Map correlates with other evidence
 
@@ -825,7 +837,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Map with Salsvault marked and annotated
 
-- Rough sketch of Aeorian symbols
+- Rough sketch of Aevorian symbols
 
 - Note: "Blue ones are important—but dangerous"
 
@@ -907,6 +919,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor9,top:17px,left:295px,width:288px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -1035,7 +1050,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Intelligence documents
 
-- Aeorian artifacts in transit
+- Aevorian artifacts in transit
 
 - Map to northern drop-off point
 
@@ -1060,7 +1075,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's Stored Here:**::
 
-- Multiple Aeorian artifacts (beyond Urgon's items)
+- Multiple Aevorian artifacts (beyond Urgon's items)
 
 - Manifest of recent acquisitions
 
@@ -1111,6 +1126,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{watercolor6,top:750px,left:136px,width:375px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
 \page
 
 ### Hulil's Knowledge
@@ -1134,7 +1152,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Buyer's ultimate goal
 
-- Extent of Aeorian reactivation
+- Extent of Aevorian reactivation
 
 - That she's expendable
 
@@ -1207,7 +1225,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Magical defenses responding to intrusion
 
-- Research data accessible to those who can read Aeorian
+- Research data accessible to those who can read Aevorian
 
 
 **Degraded Elements:**::
@@ -1254,7 +1272,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Frigid woe was anti-divine bioweapon
 
-- Created to fight gods during Calamity
+- Created to fight gods during Great Fall
 
 - One of many such weapons
 
@@ -1267,7 +1285,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Cure formulas for multiple weapons
 
-- Evidence of Aeorian atrocities
+- Evidence of Aevorian atrocities
 
 - Warning about "reawakening protocol"
 
@@ -1278,6 +1296,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor1,top:411px,left:321px,width:332px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -1297,7 +1318,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's Inside:**::
 
-- Aeorian AI or preserved consciousness
+- Aevorian AI or preserved consciousness
 
 - Control system for regional facilities
 
@@ -1308,13 +1329,13 @@ This document contains secret information about locations in the Northwatch Ward
 
 **The Entity:**::
 
-- Survived Aeor's fall in protected core
+- Survived Aevor's fall in protected core
 
 - Has been dormant for centuries
 
 - Recent events have awakened it
 
-- Attempting to complete pre-Calamity mission
+- Attempting to complete pre-Fall mission
 
 
 **Connection to Campaign:**::
@@ -1343,7 +1364,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's There:**::
 
-- Another Aeorian facility
+- Another Aevorian facility
 
 - Larger and more intact than Salsvault
 
@@ -1356,7 +1377,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Processing stolen artifacts
 
-- Reactivating Aeorian systems
+- Reactivating Aevorian systems
 
 - Research into biological weapons
 
@@ -1398,18 +1419,18 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Reality:**::
 
-- Dragonknights fought post-Calamity Aeorian threats
+- Dragonknights fought post-Fall Aevorian threats
 
-- "Dragons" were actually draconic allies fighting Aeor
+- "Dragons" were actually draconic allies fighting Aevor
 
-- Sealed Aeorian facility beneath temple
+- Sealed Aevorian facility beneath temple
 
 - Most died in final battle; survivors disbanded
 
 
 **The Sealed Evil:**::
 
-- Major Aeorian research complex
+- Major Aevorian research complex
 
 - Focused on draconic subjects
 
@@ -1425,7 +1446,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Temple Structure:**::
 
-- Built over Aeorian facility
+- Built over Aevorian facility
 
 - Designed to contain, not just commemorate
 
@@ -1447,7 +1468,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What's Stirring:**::
 
-- Aeorian facility responding to Echo
+- Aevorian facility responding to Echo
 
 - Attempting to break through seals
 
@@ -1462,6 +1483,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor6,top:197px,left:183px,width:330px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -1481,7 +1505,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **The Descent:**::
 
-- Path down to Aeorian facility
+- Path down to Aevorian facility
 
 - Dragonknight ghosts as guardians or guides
 
@@ -1521,9 +1545,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Reality:**::
 
-- Dedicated Aeorian researcher
+- Dedicated Aevorian researcher
 
-- Building countermeasures to Aeorian threats
+- Building countermeasures to Aevorian threats
 
 - "Accidents" are often field tests
 
@@ -1534,7 +1558,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Not an accident—a test
 
-- Studying Aeorian bio-transmutation magic
+- Studying Aevorian bio-transmutation magic
 
 - Needed to understand transformation mechanics
 
@@ -1564,7 +1588,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Reference library
 
-- Scrying equipment (watching Aeorian sites)
+- Scrying equipment (watching Aevorian sites)
 
 \column
 
@@ -1581,9 +1605,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Basement (Unknown to Most):**::
 
-- Extensive Aeorian research archive
+- Extensive Aevorian research archive
 
-- Captured/acquired Aeorian artifacts
+- Captured/acquired Aevorian artifacts
 
 - Contained biological samples
 
@@ -1605,7 +1629,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Predictions about next activations
 
 
-**About Aeorian Magic:**::
+**About Aevorian Magic:**::
 
 - How it works fundamentally
 
@@ -1613,7 +1637,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Countermeasure theory
 
-- Translation of Aeorian texts
+- Translation of Aevorian texts
 
 
 **About the Stakes:**::
@@ -1629,7 +1653,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What He Needs:**::
 
-- Specific components from Aeorian sites
+- Specific components from Aevorian sites
 
 - Data from active facilities
 
@@ -1665,12 +1689,12 @@ This document contains secret information about locations in the Northwatch Ward
 
 **What He Can Provide:**::
 
-- Translation of Aeorian text
+- Translation of Aevorian text
 
 
 - Maps of facilities
 
-- Protective magic against Aeorian effects
+- Protective magic against Aevorian effects
 
 - Theoretical solutions to final threat
 
@@ -1679,6 +1703,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor7,top:27px,left:68px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -1699,7 +1726,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Hidden Threats:**::
 
-- Aeorian ley lines underneath
+- Aevorian ley lines underneath
 
 - Residual magic affecting animals
 
@@ -1708,7 +1735,7 @@ This document contains secret information about locations in the Northwatch Ward
 - Strategic locations being observed
 
 
-**Aeorian Ley Lines:**::
+**Aevorian Ley Lines:**::
 
 - Connect crash sites
 
@@ -1744,7 +1771,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Reality:**::
 
-- Many old places are Aeorian sites
+- Many old places are Aevorian sites
 
 - Warnings based on past tragedies
 
@@ -1782,9 +1809,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Located above underground passage
 
-- Connects two Aeorian sites
+- Connects two Aevorian sites
 
-- Root system has grown into Aeorian structure
+- Root system has grown into Aevorian structure
 
 - Tree exhibits unusual properties
 
@@ -1796,7 +1823,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Connects to multiple sites
 
-- Contains Aeorian transportation system (inactive)
+- Contains Aevorian transportation system (inactive)
 
 - If reactivated, would allow rapid movement
 
@@ -1805,7 +1832,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Players camping there might feel vibrations
 
-- Tree responds to Aeorian artifacts
+- Tree responds to Aevorian artifacts
 
 - Entrance visible to those who know where to look
 
@@ -1865,7 +1892,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Phase 3 (Catastrophic):**::
 
-- Resume pre-Calamity objectives
+- Resume pre-Fall objectives
 
 - Deploy weapons
 
@@ -1891,6 +1918,9 @@ This document contains secret information about locations in the Northwatch Ward
 {{footnote Places of Northreach: DM Secrets}}
 
 {{watercolor3,top:10px,left:416px,width:370px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
 
 \page
 
@@ -1945,7 +1975,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Conflicting Agendas:**::
 
-- Some want to study Aeorian magic
+- Some want to study Aevorian magic
 
 - Others want to prevent catastrophe
 
@@ -1973,18 +2003,18 @@ This document contains secret information about locations in the Northwatch Ward
 **Possibilities (DM Decides):**::
 
 
-**Option A: Aeorian Archmage**::
+**Option A: Aevorian Archmage**::
 
 - Preserved in stasis or as consciousness
 
-- Completing pre-Calamity work
+- Completing pre-Fall work
 
 - Sees mortals as subjects/resources
 
 - Can be reasoned with but alien morality
 
 
-**Option B: Aeorian AI**::
+**Option B: Aevorian AI**::
 
 - Artificial intelligence running protocols
 
@@ -1997,7 +2027,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Option C: Created Deity**::
 
-- Aeor's attempt to become divine
+- Aevor's attempt to become divine
 
 - Partial success before crash
 
@@ -2008,7 +2038,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **Option D: Corrupted Dragon**::
 
-- Ancient dragon subjected to Aeorian experiments
+- Ancient dragon subjected to Aevorian experiments
 
 - Transformed into something else
 
@@ -2023,7 +2053,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 **If Entity Succeeds:**::
 
-- Aeorian weapons fully active
+- Aevorian weapons fully active
 
 - Divine magic suppressed in region
 
@@ -2063,6 +2093,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{watercolor5,top:486px,left:289px,width:282px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
 \page
 
 ## Using Location Secrets
@@ -2084,7 +2117,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Connections become clear
 
-- Aeorian origin revealed
+- Aevorian origin revealed
 
 - Scope of threat understood
 
@@ -2176,7 +2209,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Research countermeasures
 
-- Use Aeorian tech against itself
+- Use Aevorian tech against itself
 
 - Ritual solutions
 
@@ -2190,6 +2223,9 @@ This document contains secret information about locations in the Northwatch Ward
 
 {{watercolor13,top:606px,left:460px,width:393px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Places of Northreach: DM Secrets}}
+
 \page
 
 ## Campaign Integration
@@ -2199,19 +2235,19 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Surface problem: wolf attacks
 
-- Investigation reveals: Aeorian facility
+- Investigation reveals: Aevorian facility
 
 - Leads to: Understanding of awakening magic
 
 - Stakes: Test run for larger operation
 
 
-### For "Frozen Sick"
+### For "The Pale Sickness"
 
 
 - Surface problem: mysterious plague
 
-- Investigation reveals: Aeorian bioweapon
+- Investigation reveals: Aevorian bioweapon
 
 - Leads to: Salsvault and cure
 
@@ -2227,7 +2263,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Leads to: Ally with knowledge
 
-- Stakes: Gaining expert on Aeorian magic
+- Stakes: Gaining expert on Aevorian magic
 
 
 
@@ -2236,7 +2272,7 @@ This document contains secret information about locations in the Northwatch Ward
 
 - Surface problem: disturbed ancient site
 
-- Investigation reveals: Sealed Aeorian facility
+- Investigation reveals: Sealed Aevorian facility
 
 - Leads to: Dragon-specific weapons
 

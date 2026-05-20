@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach
-  Linked: Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights_V3_STANDARDIZED.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 \page
@@ -19,6 +19,9 @@
 
 {{watercolor1,top:608px,left:69px,width:288px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Temple}}
+
 \page
 
 # Temple of the Dragonknights
@@ -30,9 +33,9 @@
 }}
 
 {{descriptive
-This adventure is the **escalation point** of Arc 3. Where Frozen Sick revealed the source of the Aeorian Echo and The Wild Sheep Chase showed it corrupting the fabric of spellwork, **Temple of the Dragonknights shows what happens when something intelligent finds the power first**. A dragon sensed the convergence. She came. She claimed it.
+This adventure is the **escalation point** of Arc 3. Where The Pale Sickness revealed the source of the Aevorian Echo and The Wild Sheep Chase showed it corrupting the fabric of spellwork, **Temple of the Dragonknights shows what happens when something intelligent finds the power first**. A dragon sensed the convergence. She came. She claimed it.
 
-The Aeorian Echo is not only spreading disease, awakening wolves, and destabilizing magic — it is **broadcasting a signal across Northreach that every creature with magical sensitivity can hear**. Venomfang heard it. Others are listening.
+The Aevorian Echo is not only spreading disease, awakening wolves, and destabilizing magic — it is **broadcasting a signal across Northreach that every creature with magical sensitivity can hear**. Venomfang heard it. Others are listening.
 }}
 #### This is where the Wardens understand:
 
@@ -49,14 +52,14 @@ The Aeorian Echo is not only spreading disease, awakening wolves, and destabiliz
 - Opening Adventures → frontier danger and Warden identity
 
 ###### **Arc 2: Revelation**
-- Frozen Sick → Salsvault reactivated; the Echo has a source
+- The Pale Sickness → Salsvault reactivated; the Echo has a source
 - Wild Sheep Chase → the Echo corrupts all magic, not just creatures
 - Arc 2 closes: source confirmed, scope terrifying
 
 ###### **Arc 3: Convergence** 
 - The Wardens encounter the first **faction response** to the Echo
 - A young dragon and her kobold cult are exploiting a convergence point
-- The temple's true purpose — sealing an Aeorian facility — is partially revealed
+- The temple's true purpose — sealing an Aevorian facility — is partially revealed
 - Arc 3 closes: the problem will attract worse things unless the source is addressed
 }}
 
@@ -70,7 +73,7 @@ The Temple of the Dragonknights is the moment the campaign's stakes become geopo
 - The Temple of the Dragonknights lies in the mountains **northwest of Waystone Inn**, several hours from the guild headquarters
 - Waystone Inn is the Wardens' operational hub in Northreach. When trouble escalates, messages and refugees end up here first.
 - **Venomfang** is a young green dragon who arrived in the region recently, drawn by the Echo's resonance from Salsvault
-- **The Dragonknights** were an ancient order of warriors who discovered an Aeorian facility beneath the mountain and sealed it — then built their tomb over the seal as a final ward
+- **The Dragonknights** were an ancient order of warriors who discovered an Aevorian facility beneath the mountain and sealed it — then built their tomb over the seal as a final ward
 - The kobold cult worships Venomfang, follows her willingly, and has been raiding outlying caravans and farmsteads for supplies and sacrifices
 
 ###### The Wardens are positioned to respond because:
@@ -87,11 +90,11 @@ The Temple of the Dragonknights is the moment the campaign's stakes become geopo
 These are the truths the players can uncover through exploration, interrogation, and investigation of the temple's deeper levels.
 }}
 
-- **The temple was built over a sealed Aeorian facility** focused on draconic weapons research — the Dragonknights were not just warriors, they were wardens
+- **The temple was built over a sealed Aevorian facility** focused on draconic weapons research — the Dragonknights were not just warriors, they were wardens
 - **Each tomb is a ward anchor** — desecrating them weakens the seals keeping the facility contained
-- The Aeorian facility below is **responding to the Echo**, attempting to break free of its containment after centuries of dormancy
+- The Aevorian facility below is **responding to the Echo**, attempting to break free of its containment after centuries of dormancy
 - Venomfang's ritual is only possible because magic is destabilizing — the Echo is amplifying the ley line convergence point beneath the temple
-- The facility contains **Aeorian anti-draconic bioweapons** — if fully reactivated, they would threaten dragons across the region
+- The facility contains **Aevorian anti-draconic bioweapons** — if fully reactivated, they would threaten dragons across the region
 - **Venomfang does not know what she is sitting on.** She believes the convergence point is a natural phenomenon she can claim and exploit. She is wrong about what it will do if the seals break.
 
 ---
@@ -101,6 +104,9 @@ These are the truths the players can uncover through exploration, interrogation,
 
 {{watercolor9,top:749px,left:484px,width:359px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Temple of the Dragonknights}}
+
 \page
 
 ### Player Discovery
@@ -108,9 +114,9 @@ These are the truths the players can uncover through exploration, interrogation,
 
 By the end of Temple of the Dragonknights, the Wardens should understand:
 
-1. **The Aeorian Echo is creating convergence points** — nodes of amplified magical energy across Northreach
+1. **The Aevorian Echo is creating convergence points** — nodes of amplified magical energy across Northreach
 2. Powerful creatures with magical sensitivity are drawn to these nodes and empowered by them
-3. The Dragonknights were wardens of a sealed pre-Calamity facility — their tombs are functional wards
+3. The Dragonknights were wardens of a sealed pre-Fall facility — their tombs are functional wards
 4. **Desecration of the tombs weakens containment magic** — the cult's rituals are doing lasting damage
 5. Stopping Venomfang addresses a symptom; the convergence point remains
 
@@ -125,7 +131,7 @@ This is the moment Arc 3 closes — and the campaign pivots from *revelation* to
 - The temple radiates magical energy far exceeding what its ruins should naturally produce
 - **Discovery Method:** *Detect Magic*, or Arcana DC 13 examining the temple architecture
 - **Discovery:** "This temple channels incredible magical energy — more than it should. The source is *beneath* it."
-- **Connects to:** Frozen Sick (Salsvault's reactivation is amplifying regional ley line nodes)
+- **Connects to:** The Pale Sickness (Salsvault's reactivation is amplifying regional ley line nodes)
 
 #### **Secondary Clue — Predator Attraction**
 - Venomfang arrived recently — she didn't settle here, she was *drawn* here
@@ -142,16 +148,16 @@ This is the moment Arc 3 closes — and the campaign pivots from *revelation* to
 \column
 
 #### **Critical Clue — The Sealed Facility**
-- Thorough exploration of the temple's deepest level reveals sealed passages with Aeorian construction
+- Thorough exploration of the temple's deepest level reveals sealed passages with Aevorian construction
 - **Discovery Method:** Investigation DC 16, or stonecutting/engineering proficiency
-- **Discovery:** "The temple was built *over* something older. Pre-Calamity construction. Deliberately sealed — and the seals are weakening."
-- **Connects to:** Frozen Sick (Aeorian facilities are networked across the region)
+- **Discovery:** "The temple was built *over* something older. pre-Fall construction. Deliberately sealed — and the seals are weakening."
+- **Connects to:** The Pale Sickness (Aevorian facilities are networked across the region)
 
 #### **Hidden Clue — The Ward Anchors**
 - Each desecrated Dragonknight tomb has measurably weakened the containment magic beneath the temple
 - **Discovery Method:** Arcana DC 17, or Religion DC 15 examining disturbed tombs
 - **Discovery:** "These tombs aren't memorials. They're ward anchors. The cult's desecration is breaking centuries-old containment. Something beneath this mountain is trying to wake up."
-- **Connects to:** Long-term campaign stakes — if all seals break, Aeorian weapons activate
+- **Connects to:** Long-term campaign stakes — if all seals break, Aevorian weapons activate
 
 ---
 
@@ -159,7 +165,7 @@ This is the moment Arc 3 closes — and the campaign pivots from *revelation* to
 
 By completing Temple of the Dragonknights, the Wardens learn:
 
-1. **Confirmed:** ::The Aeorian Echo creates convergence points of amplified magical power
+1. **Confirmed:** ::The Aevorian Echo creates convergence points of amplified magical power
 2. **Confirmed:** ::Powerful creatures are attracted to and empowered by these points
 3. **Confirmed:** ::The Dragonknights were sealing something, not just guarding a tomb
 4. **New Threat:** ::The convergence point remains active — another faction will eventually claim it
@@ -171,6 +177,9 @@ By completing Temple of the Dragonknights, the Wardens learn:
 {{footnote Temple of the Dragonknights}}
 
 {{watercolor3,top:260px,left:230px,width:335px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Temple of the Dragonknights}}
 
 \page
 
@@ -226,7 +235,7 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 - The kobold cult's desecration of the ward anchors is causing lasting, irreversible damage to the containment seals
 
 #### **Campaign Stakes**
-- The Aeorian facility beneath the temple could reshape the entire campaign if its seals break fully
+- The Aevorian facility beneath the temple could reshape the entire campaign if its seals break fully
 - Understanding the Dragonknights' purpose reveals the scope of what the Echo is waking
 - Venomfang — depending on how the confrontation ends — becomes a recurring ally, villain, or destabilizing factor
 
@@ -244,6 +253,9 @@ The Wardens must move fast — the ritual is ongoing, the seals are weakening, a
 {{footnote Temple of the Dragonknights}}
 
 {{watercolor1,top:748px,left:262px,width:369px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Temple of the Dragonknights}}
 
 \page
 
@@ -299,7 +311,7 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 #### **5. Venomfang's Lair**
 - The dragon herself, coiled atop a hoard, fully aware the Wardens are here
 - Combat, negotiation, environmental tactics — all are viable
-- The lair sits directly above the sealed Aeorian facility
+- The lair sits directly above the sealed Aevorian facility
 
 #### **6. Resolution & Return**
 - Clementine rescued; cult broken or scattered
@@ -310,6 +322,9 @@ This adventure closes Arc 3 with a confrontation — and the quiet dread of know
 {{footnote Temple of the Dragonknights}}
 
 {{watercolor13,top:492px,left:442px,width:342px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Temple of the Dragonknights}}
 
 \page
 
@@ -325,7 +340,7 @@ The kobold raid at Waystone Inn would have been just another frontier incident �
 
 Three weeks ago, a young green dragon named Venomfang crossed the Northreach mountains. She was following a signal — a resonance she felt in her bones, something ancient and potent radiating from a convergence of ley lines beneath an old mountain temple. She claimed the site, installed her kobold followers in the cavern below, and began planning.
 
-Her kobold cult has been raiding the Waystone road and nearby farms for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aeorian facility, or that the ritual is weakening the seals that have held for centuries.
+Her kobold cult has been raiding the Waystone road and nearby farms for supplies and living sacrifices. The ritual they are preparing is designed to absorb the convergence point's energy directly into Venomfang — permanently empowering her beyond a normal dragon of her age. She does not know that the convergence point sits atop a sealed Aevorian facility, or that the ritual is weakening the seals that have held for centuries.
 
 Today, the raid went further than intended. Joel Andersmith's family is dead. His daughter Clementine has been taken. And the Wardens are the only ones with the authority and the capability to follow the trail north.
 
@@ -351,7 +366,7 @@ A blood-sealed door in the cavern's deepest level opens onto the temple itself �
 ---
 
 #### **Act IV — Venomfang**
-The dragon is not hiding. She knew the Wardens were coming the moment they entered the cavern — she has had plenty of time to prepare. She is coiled atop her hoard in the temple's collapsed upper chamber, the vaulted ceiling open to the mountain air above her, the Aeorian facility beneath her feet humming with resonance she can feel but not identify.
+The dragon is not hiding. She knew the Wardens were coming the moment they entered the cavern — she has had plenty of time to prepare. She is coiled atop her hoard in the temple's collapsed upper chamber, the vaulted ceiling open to the mountain air above her, the Aevorian facility beneath her feet humming with resonance she can feel but not identify.
 
 She is willing to negotiate. She is more willing to fight. Either way, she intends to leave this conversation with the convergence point still under her control.
 
@@ -385,6 +400,9 @@ She is willing to negotiate. She is more willing to fight. Either way, she inten
 {{footnote Temple of the Dragonknights}}
 
 {{watercolor6,top:471px,left:432px,width:375px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Temple of the Dragonknights}}
 
 \page
 
@@ -458,7 +476,7 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 → They should be using Pack Tactics — describe them flanking explicitly. If the party is steamrolling, add a kobold inventor (use **Kobold Guard** or **Kobold Cultist** stats with improvised alchemical bombs, 2d6 fire, DC 12 Dex save).
 
 **"We refuse to fight a CR 8 dragon; we're Level 3."**
-→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aeorian facility revelation as a negotiating tool.
+→ Validate this immediately. Emphasize the alternatives: environmental tactics, the dragon eggs as leverage, Sera's knowledge of her blind spots, the Aevorian facility revelation as a negotiating tool.
 }}
 
 ---
@@ -467,6 +485,9 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 {{footnote DM Notes: Temple of the Dragonknights}}
 
 {{watercolor8,top:579px,left:269px,width:319px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -528,7 +549,7 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 - Complete the Waystone raid response and reach the temple → **+200 XP each**
 - Rescue Clementine Andersmith → **+150 XP each**
 - Resolve the Venomfang confrontation (any outcome) → **+300 XP each**
-- Discover the Aeorian facility beneath the temple → **+100 XP bonus**
+- Discover the Aevorian facility beneath the temple → **+100 XP bonus**
 - Disrupt or collapse the convergence point → **+150 XP bonus**
 
 ###### **Reputation:**
@@ -545,6 +566,9 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 
 {{watercolor13,top:744px,left:133px,width:322px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ## DM Prep Checklist
@@ -554,11 +578,11 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 - [ ] Read entire adventure (30–45 minutes)
 - [ ] Review DM Notes section for Venomfang's personality and tactics
 - [ ] Decide: will Venomfang negotiate OR fight to near-death?
-- [ ] Decide: will the Aeorian facility revelation change her calculus? (Recommended: yes)
+- [ ] Decide: will the Aevorian facility revelation change her calculus? (Recommended: yes)
 - [ ] Familiarize yourself with Young Green Dragon stat block (this document)
 - [ ] Review kobold Pack Tactics — plan to use it visibly every round
-- [ ] Mark key revelation moments (ward anchors, Aeorian facility, Venomfang's warning)
-- [ ] Review Aeorian Echo foreshadowing lines
+- [ ] Mark key revelation moments (ward anchors, Aevorian facility, Venomfang's warning)
+- [ ] Review Aevorian Echo foreshadowing lines
 
 ### Day Before Session
 
@@ -594,12 +618,15 @@ The most important note: **Venomfang is not a monster. She is a person with goal
 - [ ] Set expectations: Combat, exploration, negotiation — all are genuinely viable
 - [ ] Ask players: "How does your character feel about dragons? About negotiating with something dangerous?"
 - [ ] Clarify: Venomfang is intelligent. Killing her is not the only solution — and may not be the best one.
-- [ ] Warn: The Aeorian facility revelation is significant. Note their reaction for future sessions.
+- [ ] Warn: The Aevorian facility revelation is significant. Note their reaction for future sessions.
 
 {{pageNumber,auto}}
 {{footnote DM Notes: Temple of the Dragonknights}}
 
 {{watercolor7,top:354px,left:88px,width:314px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -702,6 +729,9 @@ The kobold's eyes, which have been darting to every exit, finally fix on you wit
 
 {{watercolor5,top:112px,left:153px,width:257px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ## Resupply at Waystone Inn
@@ -794,6 +824,9 @@ Dispatching them quietly allows the Wardens to approach the cave entrance withou
 
 {{watercolor11,top:236px,left:118px,width:277px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 
 ## Part II: Verdanthorn Warren
@@ -882,6 +915,10 @@ Use the **Kobold** stat block.
 {{footnote DM Notes: Temple of the Dragonknights}}
 
 {{watercolor12,top:355px,left:339px,width:317px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
+
 \page
 #### Triggering the Trap
 
@@ -919,6 +956,9 @@ The stone doors grind open, revealing a carved staircase ascending into the moun
 {{footnote DM Notes: Temple of the Dragonknights}}
 
 {{watercolor12,top:355px,left:339px,width:317px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote DM Notes: Temple of the Dragonknights}}
 
 \page
 
@@ -991,6 +1031,9 @@ ___
 
 {{watercolor13,top:614px,left:322px,width:368px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
+
 \page
 
 ## The Armory
@@ -1041,7 +1084,7 @@ The images are worn but readable. Knights in serpent-etched armor, fighting some
 They are not celebrating. They are keeping watch.
 }}
 
-**DC 16 History:** :: The Dragonknights didn't just defeat dragons — they discovered what the dragons of the Calamity era were actually after. Something beneath this mountain. They sealed it, then sealed themselves over it. They chose this site for their tomb deliberately.
+**DC 16 History:** :: The Dragonknights didn't just defeat dragons — they discovered what the dragons of the Great Fall era were actually after. Something beneath this mountain. They sealed it, then sealed themselves over it. They chose this site for their tomb deliberately.
 
 **DC 18 Investigation:** :: A hidden groove in the stone contains a single platinum ring (250 gp) — a Dragonknight signet.
 
@@ -1057,6 +1100,9 @@ They are not celebrating. They are keeping watch.
 {{footnote Part III: Temple of the Dragonknights}}
 
 {{watercolor4,top:425px,left:445px,width:331px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
 
 \page
 
@@ -1103,7 +1149,7 @@ Once the ritual collapses, Clementine falls to the floor and regains consciousne
 
 **DC 15 Arcana (open book on podium):** :: The ritual is not primarily about Venomfang's empowerment — that's a side effect. The primary function is to use Clementine as a resonance anchor to **amplify the convergence point**, making it permanent and immovable. Venomfang wanted the convergence point tied to this location forever.
 
-**DC 14 History:** :: A passage in the book references "soul gem construction" and "draconic ascension rites." This ritual is adapted from a technique used by pre-Calamity dragon-worshipping cults to bind a dragon's essence to a location — making her, effectively, a fixed power structure rather than a wandering predator.
+**DC 14 History:** :: A passage in the book references "soul gem construction" and "draconic ascension rites." This ritual is adapted from a technique used by pre-Fall dragon-worshipping cults to bind a dragon's essence to a location — making her, effectively, a fixed power structure rather than a wandering predator.
 
 
 ## The Sleeping Quarters
@@ -1139,6 +1185,9 @@ This leads directly into the Venomfang confrontation — see **The Dragon's Lair
 
 {{watercolor2,top:229px,left:64px,width:263px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Part III: Temple of the Dragonknights}}
+
 \page
 
 # The Dragon's Lair
@@ -1170,9 +1219,9 @@ Venomfang is not a monster in the moral sense — she is a creature who operates
 **Ambitious** :: She wants power, territory, and recognition. These are reasonable goals by dragon standards.
 **Pragmatic** :: She will not fight to the death over something she can reclaim later. She will flee or negotiate before dying.
 **Genuinely curious** :: She finds the Wardens interesting. Few groups have made it this far.
-**Dangerously wrong** :: She does not know what is beneath the temple. She thinks the convergence point is a natural windfall. She is building her future on a sealed Aeorian weapons facility.
+**Dangerously wrong** :: She does not know what is beneath the temple. She thinks the convergence point is a natural windfall. She is building her future on a sealed Aevorian weapons facility.
 
-**If Shinebright or any Arcana-proficient Warden reveals the truth about the Aeorian facility:** She goes very still. She had not considered this. It changes her calculus significantly.
+**If Shinebright or any Arcana-proficient Warden reveals the truth about the Aevorian facility:** She goes very still. She had not considered this. It changes her calculus significantly.
 
 ---
 
@@ -1186,9 +1235,9 @@ Venomfang is not a monster in the moral sense — she is a creature who operates
 
 **DC 12 Deception:** :: Convince her the Wardens possess dragon-slaying weapons or that her hoard has been cursed. Buys one round of hesitation.
 
-**Revealing the Aeorian facility (Arcana DC 15):** :: She takes this seriously. She did not know. A DC 12 Persuasion check following this revelation convinces her that leaving voluntarily is better than sitting on a weapon that might kill her.
+**Revealing the Aevorian facility (Arcana DC 15):** :: She takes this seriously. She did not know. A DC 12 Persuasion check following this revelation convinces her that leaving voluntarily is better than sitting on a weapon that might kill her.
 
-**If Shinebright is present (from Wild Sheep Chase):** :: His knowledge of Aeorian resonance frequencies makes the facility revelation automatic — no check required. Venomfang listens to a wizard even if she despises the format.
+**If Shinebright is present (from Wild Sheep Chase):** :: His knowledge of Aevorian resonance frequencies makes the facility revelation automatic — no check required. Venomfang listens to a wizard even if she despises the format.
 
 ---
 
@@ -1196,6 +1245,9 @@ Venomfang is not a monster in the moral sense — she is a creature who operates
 {{footnote The Dragon's Lair}}
 
 {{watercolor9,top:340px,left:219px,width:300px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
 
 \page
 
@@ -1253,7 +1305,7 @@ ___
 ### Traits
 ***Amphibious.*** Venomfang can breathe air and water.
 
-***Aeorian Resonance Sensitivity.*** Venomfang can sense Aeorian resonance frequencies within 1 mile. This is what drew her to the temple. She knows the convergence point is powerful; she does not know what is below it. If told, this knowledge may change her behavior (see Social Options).
+***Aevorian Resonance Sensitivity.*** Venomfang can sense Aevorian resonance frequencies within 1 mile. This is what drew her to the temple. She knows the convergence point is powerful; she does not know what is below it. If told, this knowledge may change her behavior (see Social Options).
 
 ***Pragmatic Survivor.*** If reduced to 50% HP, Venomfang immediately attempts to negotiate or flee. She will not fight to the death over a position she can reclaim. This is not cowardice — it is strategy.
 ___
@@ -1271,6 +1323,9 @@ ___
 {{footnote The Dragon's Lair}}
 
 {{watercolor10,top:586px,left:95px,width:370px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
 
 \page
 
@@ -1353,7 +1408,7 @@ ___
 ### Traits
 ***Pack Tactics.*** As Kobold.
 
-***Aeorian Amplification.*** While within 60 ft. of the convergence point (Areas 4–6 of the Temple), the cultist's spells deal an additional 1d4 radiant damage. This is an effect of the Echo amplifying their magical abilities — it is *not* a normal kobold trait.
+***Aevorian Amplification.*** While within 60 ft. of the convergence point (Areas 4–6 of the Temple), the cultist's spells deal an additional 1d4 radiant damage. This is an effect of the Echo amplifying their magical abilities — it is *not* a normal kobold trait.
 
 ***Fanatical Endurance.*** When reduced to 0 HP, the cultist makes a DC 12 Constitution saving throw. On a success, it drops to 1 HP and uses its next action to continue the ritual (if applicable) rather than attacking.
 ___
@@ -1369,6 +1424,9 @@ ___
 {{footnote The Dragon's Lair}}
 
 {{watercolor9,top:672px,left:311px,width:273px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
 
 \page
 
@@ -1426,6 +1484,9 @@ ___
 {{footnote The Dragon's Lair}}
 
 {{watercolor1,top:299px,left:459px,width:378px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
 
 \page
 
@@ -1515,6 +1576,9 @@ ___
 
 {{watercolor5,top:713px,left:481px,width:350px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote The Dragon's Lair}}
+
 \page
 
 {{wide
@@ -1599,6 +1663,9 @@ She is telling the truth.
 
 {{watercolor8,top:572px,left:150px,width:298px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Section 8: Resolution Paths}}
+
 \page
 
 ### Seal or Collapse the Temple
@@ -1614,7 +1681,7 @@ The convergence point... disperses. Not destroyed. Redistributed.
 Elric, when you tell him, will be very quiet for a moment before he says: "That's the right answer. It's also the hardest one. Well done."
 }}
 
-Venomfang escapes (flying). She loses her power base entirely. The sealed Aeorian facility's containment stabilizes — temporarily.
+Venomfang escapes (flying). She loses her power base entirely. The sealed Aevorian facility's containment stabilizes — temporarily.
 
 **Lorewarden Elric's reaction:** "You addressed the node, not just the symptom. That's the correct instinct. We need to do this systematically — find the other convergence points and address them before someone worse than Venomfang does."
 
@@ -1654,6 +1721,9 @@ Waystone Inn settles into a kind of exhausted relief — the sort that only come
 
 {{watercolor1,top:382px,left:122px,width:370px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Section 8: Resolution Paths}}
+
 \page
 
 ### Lorewarden Elric's Debrief
@@ -1670,7 +1740,7 @@ Elric has the report from Sera before the Wardens arrive. He has been thinking.
 - Verdanthorn Warren and the cult's organization
 - Sera's capture; the ritual's true purpose
 - The Dragonknight tombs as ward anchors
-- The sealed Aeorian facility beneath the temple
+- The sealed Aevorian facility beneath the temple
 - Venomfang, and how it ended
 
 Elric listens carefully. He is building a map in his head.
@@ -1718,7 +1788,7 @@ A long pause.
 
 By the end of this section, the Wardens understand:
 
-- The Aeorian Echo is not a passive phenomenon — it is an active attractor
+- The Aevorian Echo is not a passive phenomenon — it is an active attractor
 - Venomfang was the first faction to respond; others are moving
 - The Dragonknights sealed something that the Echo is slowly waking
 - The Wardens' role is no longer investigative — it is protective and, increasingly, political
@@ -1728,7 +1798,7 @@ The frontier is no longer just changing. It is being claimed.
 **Temple of the Dragonknights ends here. Season 2 begins.**
 
 
-### Aeorian Echo Foreshadowing
+### Aevorian Echo Foreshadowing
 
 
 
@@ -1744,6 +1814,9 @@ The frontier is no longer just changing. It is being claimed.
 {{footnote Section 8: Resolution Paths}}
 
 {{watercolor11,top:562px,left:316px,width:282px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Section 8: Resolution Paths}}
 
 \page
 
@@ -1776,7 +1849,7 @@ DC 10 Investigation: :: Find the blood residue in the offering bowl in Area 5
 
 ###### **Temple of the Dragonknights:**
 DC 13 Religion: :: Identify the tombs as ward anchors (not ordinary burials)
-DC 14 Arcana: :: Sense the Aeorian facility beneath the temple floor
+DC 14 Arcana: :: Sense the Aevorian facility beneath the temple floor
 DC 15 Arcana: :: Understand the ritual's true purpose (binding the convergence point permanently)
 DC 16 History: :: Read the frieze chamber — the Dragonknights sealed the facility deliberately
 DC 18 Investigation: :: Find the hidden platinum ring in the frieze chamber
@@ -1785,7 +1858,7 @@ DC 18 Investigation: :: Find the hidden platinum ring in the frieze chamber
 DC 15 Persuasion: :: Negotiate peaceful departure (tribute required)
 DC 11 Intimidation: :: Effective only after demonstrating combat ability (50% HP or below)
 DC 12 Deception: :: Convince her the party has a tactical advantage they don't
-DC 15 Arcana: :: Explain the Aeorian facility — changes her risk calculation significantly
+DC 15 Arcana: :: Explain the Aevorian facility — changes her risk calculation significantly
 
 \column
 
@@ -1848,6 +1921,9 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 
 {{watercolor12,top:196px,left:221px,width:387px,background-color:#BBAD82,opacity:80%}}
 
+{{pageNumber,auto}}
+{{footnote Quick Reference During Play}}
+
 \page
 
 ### Venomfang's Key Dialogue
@@ -1866,12 +1942,12 @@ DC 0 Venomfang's Lair: :: Venomfang (136 HP) + 2–4 kobold guards
 "You fight better than I expected. I have a proposition: I leave this region. You give me one item of magical significance and your assurance of non-pursuit. Refuse, and I will kill you where you stand." She tilts her head. "Choose quickly. I find indecision tedious."
 }}
 
-**Revelation (on learning about the Aeorian facility):** ::
+**Revelation (on learning about the Aevorian facility):** ::
 
 {{descriptive
 She goes very still. It is the stillness of a creature recalculating.
 
-"...You're telling me I have been sitting above a pre-Calamity weapons facility." Not a question. "For six weeks." Another pause. "And the seals are weakening because of the ritual." She looks at the floor beneath her. "I see."
+"...You're telling me I have been sitting above a pre-Fall weapons facility." Not a question. "For six weeks." Another pause. "And the seals are weakening because of the ritual." She looks at the floor beneath her. "I see."
 
 The silence after this is the silence of a creature deciding it would prefer not to be here anymore.
 }}
@@ -1920,7 +1996,7 @@ The silence after this is the silence of a creature deciding it would prefer not
 
 - [ ] Update Campaign Tracker: Temple of the Dragonknights completed
 - [ ] Note Venomfang's fate (killed / driven away / negotiated with / truce)
-- [ ] Record if players discovered the Aeorian facility beneath the temple
+- [ ] Record if players discovered the Aevorian facility beneath the temple
 - [ ] Record if players disrupted or collapsed the convergence point
 - [ ] Note Clementine's rescue and Joel's reunion (character moment worth tracking)
 - [ ] Track Sera Gelanadel's status — she becomes a recurring contact at Waystone
@@ -1930,5 +2006,8 @@ The silence after this is the silence of a creature deciding it would prefer not
 - [ ] If Venomfang escaped: note potential future encounter and her stated warning
 
 {{watercolor13,top:743px,left:325px,width:360px,background-color:#BBAD82,opacity:80%}}
+
+{{pageNumber,auto}}
+{{footnote Quick Reference During Play}}
 
 \page

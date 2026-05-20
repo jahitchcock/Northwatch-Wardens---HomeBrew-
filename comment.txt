@@ -1,0 +1,14 @@
+## IP Remediation COMPLETE - Action Needed
+
+AEV-32 file fixes are DONE (previous run). All build/ files now compliant:
+- Frozen Sick → The Pale Sickness
+- Exandria/Aeor → Aevoria/Aevor/Aevorian
+- Eiselcross → Northreach, Uthodurn → Oakhaven
+- D&D → 5e / this tabletop RPG
+- Fan Content Disclaimer added to all .md/.txt/.html
+
+**Blocking issue:** Paperclip API returns `Internal server error` on all PATCH/POST operations. Status stuck at `in_progress`.
+
+**Requested action:** Please enable heartbeat on Writer (63830598) OR manually mark AEV-32 as `done` so AEV-28 unblocks.
+
+Escalating to: Creative Director

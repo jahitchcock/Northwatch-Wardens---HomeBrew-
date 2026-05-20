@@ -56,7 +56,7 @@ Use note boxes for:
 
 If combat occurs, describe the setup and tactics:
 
-**Enemy Forces:** 4 Wolves (MM p341)
+**Enemy Forces:** 4 Wolves
 
 **Tactics:** Describe how enemies fight. Do they retreat? Focus fire? Use terrain?
 
@@ -130,9 +130,9 @@ has been building toward.
 
 ## Boss Encounter
 
-Use proper stat block formatting or reference the Monster Manual:
+Use proper stat block formatting or reference the SRD:
 
-**Boss Name** (see MM p234 for full stats)
+**Boss Name** (use SRD stat block)
 
 **Modified Abilities:**
 - Add legendary resistance (3/day)

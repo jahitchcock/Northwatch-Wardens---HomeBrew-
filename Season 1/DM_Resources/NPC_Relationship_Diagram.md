@@ -32,7 +32,7 @@ Repeat through:
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
 | Noke's wand produces sheep instead of fireballs | Noke's Tower, magical investigation | Wand is malfunctioning in specific ways (fire → conjuration); suggests magical interference | **Mystery S:** Echo is disrupting magical items | Any adventure (shows scope) |
-| Sheep emit faint geometric frost when conjured | Tower, observation | Noke's sheep have same crystalline patterns as Palebank patients; **same source** | **Mystery I+S:** Echo reaches through magical channels | Frozen Sick (connection confirmed) |
+| Sheep emit faint geometric frost when conjured | Tower, observation | Noke's sheep have same crystalline patterns as Palebank patients; **same source** | **Mystery I+S:** Echo reaches through magical channels | The Pale Sickness (connection confirmed) |
 | Other magical items fail differently | Tower/Finethir's camp, if players investigate | Finethir's bard spells produce wrong effects; effects vary per caster; suggests magical interference is *adaptive* | **Mystery T:** Echo is intelligent (not random malfunction) | Temple of Dragonknights (confirmed) |
 
 #### Clue Set 2: The Broader Pattern
@@ -72,7 +72,7 @@ Repeat through:
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
-| Bandits seeking "Aeorian artifacts" | Pinebrook investigation | Bandits are deliberately collecting specific items from Aeor; someone is directing them | **Mystery W:** Organized groups are exploiting the Echo | Any adventure (stakes increase) |
+| Bandits seeking "Aevorian artifacts" | Pinebrook investigation | Bandits are deliberately collecting specific items from Aevor; someone is directing them | **Mystery W:** Organized groups are exploiting the Echo | Any adventure (stakes increase) |
 | Bandit leader receives coded messages | Pinebrook, if captured/interrogated | Messages from "The Architect" directing artifact collection; organized command structure | **Mystery X:** A central intelligence is coordinating activities | Temple of Dragonknights (entity revealed) |
 
 #### Clue Set 2: Underground Spread
@@ -80,8 +80,8 @@ Repeat through:
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
 | Merchants report increased caravan thefts | Pinebrook, trade hub investigation | Specific items being targeted across multiple regions; coordinated theft ring | **Mystery Y:** Artifacts are being collected *systematically* | Any adventure (pattern visible) |
-| Thermal vents beneath Pinebrook | Pinebrook investigation | Underground connections similar to Palebank; suggests network of sites | **Mystery M+Z:** Multiple sites connected underground | Frozen Sick (connection confirmed) |
-| Underground ruins ruins explored | If investigation permits | Smaller Aeorian facility beneath Pinebrook; similar design to Salsvault descriptions | **Mystery AA:** Entire region has buried network | Temple of Dragonknights (full scope) |
+| Thermal vents beneath Pinebrook | Pinebrook investigation | Underground connections similar to Palebank; suggests network of sites | **Mystery M+Z:** Multiple sites connected underground | The Pale Sickness (connection confirmed) |
+| Underground ruins ruins explored | If investigation permits | Smaller Aevorian facility beneath Pinebrook; similar design to Salsvault descriptions | **Mystery AA:** Entire region has buried network | Temple of Dragonknights (full scope) |
 
 #### Clue Set 3: Moral Complexity
 
@@ -94,7 +94,7 @@ Repeat through:
 #### How to Track: Peril in Pinebrook Discovery Sheet
 
 ```
-[ ] Bandits seeking Aeorian artifacts
+[ ] Bandits seeking Aevorian artifacts
 [ ] Bandit leader receives coded messages
 [ ] Messages from "The Architect"
 [ ] Systematic artifact collection across region
@@ -124,7 +124,7 @@ Repeat through:
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|-----------------|
-| Temple contains records of Aeor's final project | Temple archives, investigation | Documents detail Project Ascension and entity experiments; which entity matches this facility? | **Mystery DD:** Choose entity based on records | Temple (DM decision point) |
+| Temple contains records of Aevor's final project | Temple archives, investigation | Documents detail Project Ascension and entity experiments; which entity matches this facility? | **Mystery DD:** Choose entity based on records | Temple (DM decision point) |
 | Ancient machine awakens and communicates | Temple, deep exploration | Entity speaks (or communicates through intermediary); reveals its nature directly | **Mystery EE:** Entity identity confirmed | Core Mystery Definition payoff |
 | Facility contains weapons of immense power | Temple, investigation | Anti-divine weapons, dragon-targeting systems, mass destruction capability | **Mystery FF:** Threat scope is continental, not regional | Any adventure (urgency to act) |
 
@@ -143,7 +143,7 @@ Repeat through:
 
 | Clue | Location | DM Note | Reveals | Payoff Adventure |
 |------|----------|---------|---------|------------------|
-| Ancient texts describe Aeor's pre-Calamity objectives | Temple libraries | Aeor sought independence from divine control; built weapons to threaten gods; had *reasons* even if methods were terrible | **Mystery JJ:** Moral complexity confirmed | Any adventure (moral choice) |
+| Ancient texts describe Aevor's pre-Calamity objectives | Temple libraries | Aevor sought independence from divine control; built weapons to threaten gods; had *reasons* even if methods were terrible | **Mystery JJ:** Moral complexity confirmed | Any adventure (moral choice) |
 | Dragons begin mobilizing (or disappearing) | Temple, world effects | Dragons either attack temples or flee; entity sees dragons as threat | **Mystery KK:** Entity's political position revealed | Any adventure (faction alignment) |
 | Cities begin recruiting defense forces | World effects, NPCs across region | Divine healers report failures; military leaders begin fortifying; region enters defensive posture | **Mystery LL:** Entire region responding | Any adventure (stakes visible) |
 
@@ -158,7 +158,7 @@ Repeat through:
 [ ] Network coordination confirmed
 [ ] Timeline shows imminent Consolidation Phase
 [ ] Pre-Calamity context researched
-[ ] Aeor's *reasons* understood (if not agreed with)
+[ ] Aevor's *reasons* understood (if not agreed with)
 [ ] Dragon mobilization noticed
 [ ] Regional military responses observed
 ```
@@ -179,7 +179,7 @@ Repeat through:
 - **Discover Instead:** Through captured enemies or NPC debriefings afterward
 - **Compensation:** NPC mentors (Guild veterans) explain what intelligence awakening means
 
-- **Miss:** Frozen Sick disease details
+- **Miss:** The Pale Sickness disease details
 - **Discover Instead:** When visiting Palebank independently
 - **Compensation:** Resident NPCs already have theories (Elro's research)
 
@@ -221,19 +221,19 @@ Use this to track which story threads have been resolved vs. which remain:
 
 | Mystery Thread | Introduced In | Resolved In | Status | Notes |
 |---|---|---|---|---|
-| A: Animals becoming intelligent | Wolves | Frozen Sick confirmation | ✓ | Players understand awakening is spreading |
+| A: Animals becoming intelligent | Wolves | The Pale Sickness confirmation | ✓ | Players understand awakening is spreading |
 | B: Intentional acts not accidents | Wolves | Temple records | ✓ | Deliberate activation confirmed |
 | C: Unnatural magic present | Wolves/Frozen | Wild Sheep confirmation | ✓ | Echo's presence confirmed everywhere |
-| D: Something spreading from north | Wolves | Frozen Sick (confirmed) | ✓ | Direction confirmed |
+| D: Something spreading from north | Wolves | The Pale Sickness (confirmed) | ✓ | Direction confirmed |
 | E: Salsvault is the source | Wolves (hints) | Temple (confirmed) | ✓ | Origin location confirmed |
 | F: Intentional, not accidental | Wolves (theory) | Temple (confirmation) | ✓ | Deliberate activation confirmed |
 | G: Creatures aren't evil | Wolves (negotiation) | Peril/Any (developed) | □ | Developed throughout |
-| H: Consciousness is contagion | Wolves | Frozen Sick (bio explanation) | ✓ | Disease vector confirmed |
+| H: Consciousness is contagion | Wolves | The Pale Sickness (bio explanation) | ✓ | Disease vector confirmed |
 | I: Same source, different forms | Frozen/Sheep | Confirmed by connection | ✓ | Echo manifests multiple ways |
 | J: Disease responds to magic | Frozen | Temple (resonance theory) | ✓ | Ley lines/resonance explained |
 | K: Disease has magical component | Frozen | Temple (confirmed) | ✓ | Weapon system understood |
 | M: Underground network | Frozen/Pinebrook | Temple (confirmed) | ✓ | Facility network mapped |
-| N: Aeor created weapon | Frozen (theory) | Temple (records) | ✓ | Historical origin confirmed |
+| N: Aevor created weapon | Frozen (theory) | Temple (records) | ✓ | Historical origin confirmed |
 | O: Source is far north | Frozen (evidence) | Temple (confirmed) | ✓ | Salsvault is primary source |
 | P: Deliberate weapon system | Frozen (evidence) | Temple (records) | ✓ | Purpose confirmed |
 | T: Echo disrupts magic | Sheep | Temple (entity effect) | ✓ | Magical interference confirmed |
@@ -271,7 +271,7 @@ Use this to track which story threads have been resolved vs. which remain:
 **Key Principle:** Players should discover these mysteries through *play*, not exposition. If they miss clues, provide alternate routes—don't force information to get repeated.
 
 **Master List of All Mysteries:**
-A (Intelligence) → B (Intentional) → C (Unnatural Magic) → D (Direction North) → E (Salsvault Source) → F (Deliberately triggered) → G (Creatures have agency) → H (Consciousness spread) → I (Same source manifestations) → J (responds to magic) → K (Magical disease) → M (Underground network) → N (Aeor origin) → O (Confirmed north) → P (Weapon system) → T (Magic disruption) → U (Regional span) → V (Accelerating) → W (Faction response) → X (Central command) → **DD-LL (Full threat scope)** → **Entity identity (DM choice)**
+A (Intelligence) → B (Intentional) → C (Unnatural Magic) → D (Direction North) → E (Salsvault Source) → F (Deliberately triggered) → G (Creatures have agency) → H (Consciousness spread) → I (Same source manifestations) → J (responds to magic) → K (Magical disease) → M (Underground network) → N (Aevor origin) → O (Confirmed north) → P (Weapon system) → T (Magic disruption) → U (Regional span) → V (Accelerating) → W (Faction response) → X (Central command) → **DD-LL (Full threat scope)** → **Entity identity (DM choice)**
 
 ---
 
@@ -320,12 +320,12 @@ alongside **Corel of Welton** during the
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Brenna recognizes the wolf behavior as wrong and quietly suspects magical influence. She will push the party to investigate thoroughly, not just kill wolves.
-- Frozen Sick: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
+- The Pale Sickness: Brenna has seen strange diseases before and will immediately recognize the blue-vein symptoms as unnatural.
 - Wild Sheep Chase: Brenna once met Shinebright decades ago; she remembers him as brilliant but arrogant. She will be deeply suspicious of any magical mishap involving him.
 
 #### **Secrets:**
 1. **Sealed Letter**: Brenna has a sealed letter from a northern contact warning of "arcane disturbances" across the frontier. She hasn't shared it with anyone, not even Elric. This is your campaign-wide foreshadowing.
-2. **The Creature**: The thing that killed her brother during the Greywinter Hunts was never identified. She still has nightmares about its howl—a sound she's never heard before or since. If players investigate deeply, this might connect to ancient Aeorian experiments.
+2. **The Creature**: The thing that killed her brother during the Greywinter Hunts was never identified. She still has nightmares about its howl—a sound she's never heard before or since. If players investigate deeply, this might connect to ancient Aevorian experiments.
 3. **Survivor's Guilt**: Brenna secretly believes she should have died that night instead of her brother. She's reckless in combat when protecting younger Wardens, especially rookies like Mila.
 
 \column
@@ -350,7 +350,7 @@ fled after crossing the Blackwake Corsairs. She hides her past well, but she kno
 
 #### **Campaign Tie‑ins:**
 
-- Frozen Sick: Mara recognizes the Corsair name immediately and warns the party that they are dangerous, organized, and everywhere.
+- The Pale Sickness: Mara recognizes the Corsair name immediately and warns the party that they are dangerous, organized, and everywhere.
 - Pinebrook: She has traded with Pinebrook’s merchants before and knows the local gossip.
 - Wolves of Welton: She suspects the wolves are being manipulated by someone with resources—possibly a rival smuggling ring.
 
@@ -382,7 +382,7 @@ disturbances stretching from Pinebrook  to Welton to Palebank. He believes they 
 #### **Campaign Tie‑ins:**
 
 - Wild Sheep Chase: Elric knows Shinebright’s reputation and will be delighted to study the Wand of True Polymorph if the party brings it back.
-- Frozen Sick: He recognizes Aeorian relics instantly and will push the party to secure samples.
+- The Pale Sickness: He recognizes Aevorian relics instantly and will push the party to secure samples.
 - Temple of the Dragonknights: Elric has studied the Dragonknights extensively and believes Venomfang’s presence is not a coincidence.
 
 #### **Secrets:**
@@ -419,7 +419,7 @@ besides Brenna. He has a deep,instinctive understanding of wolf behavior—and h
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Corel becomes the emotional anchor of the arc. He will be devastated if the wolves must be killed and relieved if the party negotiates peace.
-- Frozen Sick: Corel’s cousin lives in Palebank; he will recommend the party visit her if they need a safe place.
+- The Pale Sickness: Corel’s cousin lives in Palebank; he will recommend the party visit her if they need a safe place.
 - Pinebrook: Corel has traded wool with Pinebrook’s merchants for years.
 
 #### **Secrets:**
@@ -448,7 +448,7 @@ ashamed.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: If the party negotiates with Bolt, Bordel will break down, realizing the wolves he fought were intelligent even then.
-- Frozen Sick: Bordel knows the northern trails and can guide the party to Croaker Cave.
+- The Pale Sickness: Bordel knows the northern trails and can guide the party to Croaker Cave.
 - Temple of the Dragonknights: He recognizes kobold tracks instantly.
 
 #### **Secrets:**
@@ -481,11 +481,11 @@ awakening.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Rowan can sense the wolves’ intelligence and will urge the party to seek peace.
-- Frozen Sick: She recognizes the disease as unnatural and will be horrified by its origin.
+- The Pale Sickness: She recognizes the disease as unnatural and will be horrified by its origin.
 - Pinebrook: Rowan has visited Pinebrook’s sacred grove and knows the local druids.
 
 #### **Secrets:**
-1. **Ice Dragon Vision:** Rowan has had recurring visions of a dragon made of ice and shadow for the past four months. The visions began when the Aeorian disturbances intensified. She doesn't know if it's prophetic or a warning.  
+1. **Ice Dragon Vision:** Rowan has had recurring visions of a dragon made of ice and shadow for the past four months. The visions began when the Aevorian disturbances intensified. She doesn't know if it's prophetic or a warning.  
 2. **Druidic Circle Concerns:** Rowan's druidic circle has noticed the disturbance and sent her to Northreach to investigate. She reports back monthly via animal messengers.  
 3. **Plant Sensitivity:** Plants in Rowan's quarters grow unusually fast and sometimes seem to “reach” toward her. Some have begun showing unusual properties—glowing faintly, shifting colors. This may be tied to the awakening magic.
 
@@ -508,7 +508,7 @@ sibling to a pack years ago.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Mila will beg the party to kill the wolves, not realizing they are intelligent.
-- Frozen Sick: Mila knows Verla Pelc and will be devastated by her fate.
+- The Pale Sickness: Mila knows Verla Pelc and will be devastated by her fate.
 - Temple of the Dragonknights: Mila’s brother disappeared near the ruins.
 
 #### **Secrets:**
@@ -545,7 +545,7 @@ magic affecting  the wolves.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Takk respects wolves and will hesitate to kill them.
-- Frozen Sick: Takk recognizes the symptoms from a tribe member who died years ago.
+- The Pale Sickness: Takk recognizes the symptoms from a tribe member who died years ago.
 - Wild Sheep Chase: Takk finds Shinebright hilarious.
 
 #### **Secrets:**
@@ -575,7 +575,7 @@ once served.
 #### **Campaign Tie‑ins:**
 
 - Temple of the Dragonknights: Galvena becomes a major emotional anchor for this arc.
-- Frozen Sick: She sees the disease as a test of faith.
+- The Pale Sickness: She sees the disease as a test of faith.
 - Wolves of Welton: She will push for justice, not slaughter.
 
 #### **Secrets:**
@@ -597,20 +597,20 @@ philosophical.
 
 under a master who vanished while  
 
-investigating Aeorian ruins.
+investigating Aevorian ruins.
 
 :::
 
 #### **Campaign Tie‑ins:**
 
-- Frozen Sick: Ariodh recognizes Aeorian symbols instantly.
+- The Pale Sickness: Ariodh recognizes Aevorian symbols instantly.
 - Wild Sheep Chase: He finds Noke’s misuse of magic deeply offensive.
 - Wolves of Welton: Ariodh will attempt diplomacy first.
 
 #### **Secrets:**
 1. **Master in Salsvault:** Ariodh’s master, Grandmaster Keiji, is alive and trapped in Salsvault—though Ariodh doesn’t yet know. He will feel a “pull” near the ruins.  
-2. **Aeorian Research:** Ariodh has his master’s journal, filled with notes on Aeorian ruins and “consciousness preservation” experiments. He’s been decoding it for years.  
-3. **Philosophical Crisis:** Evidence of chaos—awakened wolves, Aeorian disturbances—challenges Ariodh’s belief in universal harmony.
+2. **Aevorian Research:** Ariodh has his master’s journal, filled with notes on Aevorian ruins and “consciousness preservation” experiments. He’s been decoding it for years.  
+3. **Philosophical Crisis:** Evidence of chaos—awakened wolves, Aevorian disturbances—challenges Ariodh’s belief in universal harmony.
 
 
 #### Guz  
@@ -634,7 +634,7 @@ Wardens.
 
 - Wild Sheep Chase: Guz becomes a recurring ally.
 - Wolves of Welton: Guz respects Bolt and Flame’s intelligence.
-- Frozen Sick: Guz fears magic deeply and avoids Aeorian relics.
+- The Pale Sickness: Guz fears magic deeply and avoids Aevorian relics.
 
 #### **Secret:**
 Guz still hears Noke’s voice in his dreams.
@@ -664,7 +664,7 @@ frontier.
 #### **Campaign Tie‑ins:**
 
 - Temple of the Dragonknights: Sera becomes a major recurring NPC.
-- Frozen Sick: She recognizes Aeorian script and can translate it.
+- The Pale Sickness: She recognizes Aevorian script and can translate it.
 - Wild Sheep Chase: She is fascinated by the Wand of True Polymorph.
 
 #### **Secrets:**
@@ -692,7 +692,7 @@ whenever Venomfang is near.
 #### **Campaign Tie‑ins:**
 
 - Temple of the Dragonknights: Aurixean senses Venomfang’s presence before anyone else.
-- Frozen Sick: His fire magic is especially effective in Salsvault.
+- The Pale Sickness: His fire magic is especially effective in Salsvault.
 - Wolves of Welton: Aurixean respects Bolt’s leadership.
 
 #### **Secrets:**
@@ -733,12 +733,12 @@ disturbances across the frontier.
 :::
 #### **Campaign Tie‑ins:**
 
-- Frozen Sick: Baleth senses the Aeorian magic as “wrong.”
+- The Pale Sickness: Baleth senses the Aevorian magic as “wrong.”
 - Wolves of Welton: Baleth is fascinated by the awakened wolves.
 - Temple of the Dragonknights: Baleth’s patron wants something hidden in the ruins.
 
 #### **Secrets:**
-1. **False Patron:** Baleth believes they serve an archfey, but the patron is actually something Aeorian—possibly a preserved consciousness.  
+1. **False Patron:** Baleth believes they serve an archfey, but the patron is actually something Aevorian—possibly a preserved consciousness.  
 2. **Compelled Investigation:** Baleth was *compelled* to come to Northreach. They resent being used.  
 3. **Warning Signs:** Baleth’s magic sometimes acts on its own—whispers, visions, sudden knowledge. They’re beginning to fear their patron’s true nature.
 
@@ -767,12 +767,12 @@ the missing sorcerer from
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: His grief becomes a major emotional beat.
-- Frozen Sick: He will beg the party to save the infected.
+- The Pale Sickness: He will beg the party to save the infected.
 - Wild Sheep Chase: He distrusts wizards deeply.
 
 #### **Secrets:**
 1. **Lingering Spirit:** Alexi’s spirit lingers near the wolves’ den, bound by guilt and unfinished business. He can be contacted, but he is confused and fragmented.  
-2. **Accidental Awakening:** Alexi tapped into dormant Aeorian energy while researching wild magic surges. He was trying to protect the village, not create awakened wolves.  
+2. **Accidental Awakening:** Alexi tapped into dormant Aevorian energy while researching wild magic surges. He was trying to protect the village, not create awakened wolves.  
 3. **Final Message:** If contacted, Alexi’s last words for Johan are: “I’m sorry. I only wanted to protect them.” This devastates Johan and forces him to confront his anger.
 
 
@@ -794,7 +794,7 @@ hallucinating.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Willen becomes the emotional heart of the arc.
-- Frozen Sick: He knows a trader who once dealt with Verla Pelc.
+- The Pale Sickness: He knows a trader who once dealt with Verla Pelc.
 - Temple of the Dragonknights: Willen’s family once guarded the ruins.
 
 #### **Secrets:**
@@ -819,7 +819,7 @@ an epic ballad about the  Wardens.
 #### **Campaign Tie‑ins:**
 
 - Wolves of Welton: Flynt will accompany the party if invited.
-- Frozen Sick: Flynt knows a sailor who can get them to The Far North.
+- The Pale Sickness: Flynt knows a sailor who can get them to The Far North.
 - Wild Sheep Chase: Flynt loves Shinebright’s story.
 
 #### **Secrets:**
@@ -849,12 +849,12 @@ powerful mage.
  
  emotional beat.
 - Wolves of Welton: Joel will beg the party to save other families.
-- Frozen Sick: Joel knows a trader who handled the blue vials.
+- The Pale Sickness: Joel knows a trader who handled the blue vials.
 
 #### **Secrets:**
 1. **Magic Awakening:** Clementine’s latent magic awakened something in the Temple ruins. She may be the key to a magical lock Venomfang wants opened.  
 2. **Mage Destiny:** Clementine is destined to become a powerful mage—either a future Warden or a tragic antagonist if corrupted.  
-3. **Aeorian Resonance:** Clementine’s magic resonates with Aeorian relics. She glows faintly near them, which is why Venomfang wants her.
+3. **Aevorian Resonance:** Clementine’s magic resonates with Aevorian relics. She glows faintly near them, which is why Venomfang wants her.
 
 
 \page
@@ -905,7 +905,7 @@ rivals, always interesting.
 ### **AFFILIATED SETTLEMENTS**
 
 - Welton — Wolves of Welton arc
-- Palebank Village — Frozen Sick arc
+- Palebank Village — The Pale Sickness arc
 - Pinebrook — Peril in Pinebrook arc
 
 These settlements form the “Northreach Triangle,” the region the Wardens protect.
@@ -938,7 +938,7 @@ This document maps the major relationships and connections between NPCs in the N
 |:----|:-----|:----------------|
 | **Marshal Brenna Thorne** | Field Commander | Former comrade of Corel (Greywinter Hunts); knows Shinebright from decades ago; suspicious of magical anomalies |
 | **Steward Mara Fenwick** | Quartermaster | Criminal past with Blackwake Corsairs; knows Verla Pelc through smuggling networks; trading contact with Emmajeen Kole |
-| **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aeorian relics; connected to The Buyer; fascinated by Shinebright's magic |
+| **Lorewarden Elric Vael** | Arcane Scholar | Studies anomalies with Sera; recognizes Aevorian relics; connected to The Buyer; fascinated by Shinebright's magic |
 }}
 
 ### Wardens — Trailwardens
@@ -948,7 +948,7 @@ This document maps the major relationships and connections between NPCs in the N
 |:----|:-----|:----------------|
 | **Corel** | Senior Shepherd | Former comrade of Brenna (Greywinter Hunts); mentor to Willen; diplomatic contact with Bolt; cousin in Palebank (Elro) |
 | **Bordel Barleywind** | Ranger | Ashamed past with Bolt's pack; guides to Croaker Cave; recognizes kobold tracks from Temple |
-| **Rowan Fairweather** | Druid | Senses Bolt's intelligence; visited Pinebrook's sacred grove; horrified by Aeorian disease origins |
+| **Rowan Fairweather** | Druid | Senses Bolt's intelligence; visited Pinebrook's sacred grove; horrified by Aevorian disease origins |
 | **Mila Teno** | Rookie Scout | Brother Teris taken by Venomfang's kobolds; knows Verla Pelc; traumatized by wolf attacks |
 }}
 
@@ -962,9 +962,9 @@ This document maps the major relationships and connections between NPCs in the N
 {{wide
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
-| **Takk Oaksplitter** | Barbarian | Respects awakened wolves; recognizes Frozen Sick symptoms from tribe; finds Shinebright hilarious |
+| **Takk Oaksplitter** | Barbarian | Respects awakened wolves; recognizes The Pale Sickness symptoms from tribe; finds Shinebright hilarious |
 | **Galvena Aballon** | Paladin | Sworn enemy of Venomfang (destroyed her shrine); divine visions corrupting; pushes for justice |
-| **Ariodh Highwhirl** | Monk | Master trapped in Salsvault; recognizes Aeorian symbols; attempts diplomacy with wolves |
+| **Ariodh Highwhirl** | Monk | Master trapped in Salsvault; recognizes Aevorian symbols; attempts diplomacy with wolves |
 | **Guz** | Reformed Thug | Reformed after Wild Sheep Chase; respects Bolt and Flame; haunted by Noke's voice |
 }}
 
@@ -973,10 +973,10 @@ This document maps the major relationships and connections between NPCs in the N
 {{wide
 | NPC | Role | Key Connections |
 |:----|:-----|:----------------|
-| **Sera Gelanadel** | Apprentice Wizard | Studies under Elric; mentor rivals Shinebright; can translate Aeorian script; connected to The Buyer |
+| **Sera Gelanadel** | Apprentice Wizard | Studies under Elric; mentor rivals Shinebright; can translate Aevorian script; connected to The Buyer |
 | **Aurixean Valignaak** | Dragonborn Sorcerer | Ancestor served Dragonknights (then betrayed them); bloodline resonates with Venomfang; respects Bolt |
 | **Finethir Shinebright** | Polymorphed Wizard | Known to Brenna (decades ago); rivals Sera's mentor; studied by Elric after restoration |
-| **Baleth Cindermoon** | Tiefling Warlock | Patron interested in Aeorian magic (possibly Aeorian consciousness); fascinated by awakened wolves |
+| **Baleth Cindermoon** | Tiefling Warlock | Patron interested in Aevorian magic (possibly Aevorian consciousness); fascinated by awakened wolves |
 }}
 
 
@@ -1000,7 +1000,7 @@ This document maps the major relationships and connections between NPCs in the N
 | **Bolt** | Awakened Alpha (Diplomatic) | Awakened by Alexi; alpha rivalry with Flame; respected by many Wardens; terrified of awakening cause |
 | **Flame** | Awakened Alpha (Aggressive) | Awakened by Alexi; alpha rivalry with Bolt; tempted by domination |
 | **Venomfang** | Green Dragon (Antagonist) | Destroyed Galvena's shrine; Aurixean's ancestor betrayed to dragon's predecessor; kidnapped Clementine; took Mila's brother |
-| **The Buyer** | Relic Broker (Mystery) | Collects Aeorian relics; connected to Elric and Sera; deals with Hulil (cult); possibly knows where Ariodh's master is |
+| **The Buyer** | Relic Broker (Mystery) | Collects Aevorian relics; connected to Elric and Sera; deals with Hulil (cult); possibly knows where Ariodh's master is |
 }}
 
 ### Palebank Village NPCs
@@ -1035,7 +1035,7 @@ This document maps the major relationships and connections between NPCs in the N
 
 The only two survivors of the "Greywinter Hunts," a brutal season when monsters spilled from the northern woods. Both lost people they cared about. This shared trauma makes them instinctively wary of "easy solutions" to monster problems.
 
-**Campaign Hook**: Both recognize unnatural patterns in the awakened wolves and the Frozen Sick outbreak.
+**Campaign Hook**: Both recognize unnatural patterns in the awakened wolves and the The Pale Sickness outbreak.
 
 ### 2. The Criminal Network
 **NPCs**: Mara Fenwick, Verla Pelc, Hulil Lutan
@@ -1047,9 +1047,9 @@ Mara fled Breakwater Haven after crossing the Blackwake Corsairs. Verla has dang
 ### 3. The Arcane Investigation
 **NPCs**: Elric Vael, Sera Gelanadel, Ariodh Highwhirl, The Buyer
 
-These NPCs are all investigating the magical disturbances across the frontier from different angles. Elric suspects an ancient arcane engine. Sera is cataloging anomalies. Ariodh's master is trapped in Salsvault. The Buyer collects Aeorian relics.
+These NPCs are all investigating the magical disturbances across the frontier from different angles. Elric suspects an ancient arcane engine. Sera is cataloging anomalies. Ariodh's master is trapped in Salsvault. The Buyer collects Aevorian relics.
 
-**Campaign Hook**: These NPCs can piece together the Aeorian Echo mystery if players share information.
+**Campaign Hook**: These NPCs can piece together the Aevorian Echo mystery if players share information.
 
 ### 4. The Merriksonn Tragedy
 **NPCs**: Father Johan Merriksonn, Alexi Merriksonn, Bolt, Flame
@@ -1090,7 +1090,7 @@ See next section for detailed "appears in these adventures" notes for each major
 **Appears In:**
 - Opening: Return to Waystone (Session 0) — Introduces the guild
 - Wolves of Welton — Pushes party to investigate thoroughly, recognizes wrong behavior
-- Frozen Sick — Immediately recognizes blue-vein symptoms as unnatural
+- The Pale Sickness — Immediately recognizes blue-vein symptoms as unnatural
 - Wild Sheep Chase — Suspicious of Shinebright's mishap
 - **Recurring**: Available at Waystone between all adventures for briefings
 
@@ -1099,7 +1099,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Steward Mara Fenwick
 **Appears In:**
 - Opening: Return to Waystone (Session 0) — Handles supplies and logistics
-- Frozen Sick — Warns about Blackwake Corsairs connections
+- The Pale Sickness — Warns about Blackwake Corsairs connections
 - Peril in Pinebrook — Knows Pinebrook merchants
 - Wolves of Welton — Suspects organized manipulation
 - **Recurring**: Available at Waystone for supplies, contracts, and underworld information
@@ -1110,7 +1110,7 @@ See next section for detailed "appears in these adventures" notes for each major
 **Appears In:**
 - Opening: Return to Waystone (Session 0) — Explains magical threats
 - Wild Sheep Chase — Delighted to study the Wand of True Polymorph
-- Frozen Sick — Recognizes Aeorian relics instantly, pushes for samples
+- The Pale Sickness — Recognizes Aevorian relics instantly, pushes for samples
 - Temple of the Dragonknights — Has studied the Dragonknights extensively
 - **Recurring**: Available at Waystone for arcane research, clue connections
 
@@ -1122,7 +1122,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Corel (Senior Shepherd)
 **Appears In:**
 - Wolves of Welton — Emotional anchor, shepherd mentor, diplomatic advisor
-- Frozen Sick — Has cousin in Palebank Village
+- The Pale Sickness — Has cousin in Palebank Village
 - Peril in Pinebrook — Trading partner with merchants
 - **Available**: Can accompany party on wilderness missions
 
@@ -1131,7 +1131,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Bordel Barleywind
 **Appears In:**
 - Wolves of Welton — Reveals ashamed past with the wolf pack
-- Frozen Sick — Knows northern trails, can guide to Croaker Cave
+- The Pale Sickness — Knows northern trails, can guide to Croaker Cave
 - Temple of the Dragonknights — Recognizes kobold tracks
 - **Available**: Can accompany party as scout
 
@@ -1140,7 +1140,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Rowan Fairweather
 **Appears In:**
 - Wolves of Welton — Senses wolves' intelligence, urges peace
-- Frozen Sick — Recognizes disease as unnatural
+- The Pale Sickness — Recognizes disease as unnatural
 - Peril in Pinebrook — Knows local druids and sacred grove
 - **Available**: Can accompany party on nature-related missions
 
@@ -1149,7 +1149,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Mila Teno (Frostwatch Rookie)
 **Appears In:**
 - Wolves of Welton — Begs party to kill wolves (trauma response)
-- Frozen Sick — Knows Verla Pelc, devastated by her fate
+- The Pale Sickness — Knows Verla Pelc, devastated by her fate
 - Temple of the Dragonknights — Brother disappeared near ruins (major hook)
 - **Available**: Eager to prove herself on missions
 
@@ -1165,7 +1165,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Takk Oaksplitter
 **Appears In:**
 - Wolves of Welton — Respects wolves, hesitates to kill
-- Frozen Sick — Recognizes symptoms from dead tribe member
+- The Pale Sickness — Recognizes symptoms from dead tribe member
 - Wild Sheep Chase — Finds Shinebright hilarious
 - **Available**: Always volunteers first for dangerous missions
 
@@ -1174,7 +1174,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Galvena Aballon
 **Appears In:**
 - Temple of the Dragonknights — Major emotional anchor (sworn to hunt Venomfang)
-- Frozen Sick — Sees disease as test of faith
+- The Pale Sickness — Sees disease as test of faith
 - Wolves of Welton — Pushes for justice, not slaughter
 - **Available**: Accepts missions requiring discipline and moral clarity
 
@@ -1182,18 +1182,18 @@ See next section for detailed "appears in these adventures" notes for each major
 
 ### Ariodh Highwhirl
 **Appears In:**
-- Frozen Sick — Recognizes Aeorian symbols (master vanished investigating ruins)
+- The Pale Sickness — Recognizes Aevorian symbols (master vanished investigating ruins)
 - Wild Sheep Chase — Offended by Noke's misuse of magic
 - Wolves of Welton — Attempts diplomacy first
 - **Available**: Joins missions requiring investigation or philosophy
 
-**Role**: Diplomat, Aeorian mystery connection, master-in-Salsvault subplot
+**Role**: Diplomat, Aevorian mystery connection, master-in-Salsvault subplot
 
 ### Guz (Reformed)
 **Appears In:**
 - Wild Sheep Chase — Can become recurring ally after redemption
 - Wolves of Welton — Respects Bolt and Flame's intelligence
-- Frozen Sick — Fears Aeorian relics deeply
+- The Pale Sickness — Fears Aevorian relics deeply
 - **Available**: Seeks redemption, trying to prove himself
 
 **Role**: Redemption arc, moral complexity, haunted by past
@@ -1205,7 +1205,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Sera Gelanadel
 **Appears In:**
 - Temple of the Dragonknights — Major recurring NPC, arcane support
-- Frozen Sick — Can translate Aeorian script
+- The Pale Sickness — Can translate Aevorian script
 - Wild Sheep Chase — Fascinated by Wand of True Polymorph
 - **Available**: Eager assistant for magical investigations
 
@@ -1214,7 +1214,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Aurixean Valignaak
 **Appears In:**
 - Temple of the Dragonknights — Senses Venomfang before anyone else (bloodline resonance)
-- Frozen Sick — Fire magic especially effective in Salsvault
+- The Pale Sickness — Fire magic especially effective in Salsvault
 - Wolves of Welton — Respects Bolt's leadership
 - **Available**: Dramatic volunteer for high-stakes missions
 
@@ -1230,7 +1230,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 ### Baleth Cindermoon
 **Appears In:**
-- Frozen Sick — Senses Aeorian magic as "wrong"
+- The Pale Sickness — Senses Aevorian magic as "wrong"
 - Wolves of Welton — Fascinated by awakened wolves
 - Temple of the Dragonknights — Patron wants something in ruins
 - **Available**: Mysterious volunteer with hidden agendas
@@ -1247,7 +1247,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Flynt Wymblen
 **Appears In:**
 - Wolves of Welton — Can accompany party if invited
-- Frozen Sick — Knows sailor who can reach Far North
+- The Pale Sickness — Knows sailor who can reach Far North
 - Wild Sheep Chase — Loves Shinebright's story
 - **Available**: Joins adventures for "ballad material"
 
@@ -1260,7 +1260,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Father Johan Merriksonn
 **Appears In:**
 - Wolves of Welton — Grieving father, emotional anchor, moral voice
-- Frozen Sick — Begs party to save infected
+- The Pale Sickness — Begs party to save infected
 - Wild Sheep Chase — Distrusts wizards deeply
 - **Available**: Can provide spiritual guidance, village perspective
 
@@ -1277,7 +1277,7 @@ See next section for detailed "appears in these adventures" notes for each major
 ### Willen Featherock
 **Appears In:**
 - Wolves of Welton — Traumatized witness, emotional heart
-- Frozen Sick — Knows trader who dealt with Verla Pelc
+- The Pale Sickness — Knows trader who dealt with Verla Pelc
 - Temple of the Dragonknights — Family once guarded ruins
 - **Available**: Recovering, can provide local knowledge
 
@@ -1348,7 +1348,7 @@ See next section for detailed "appears in these adventures" notes for each major
 
 ### Elro Aldataur
 **Appears In:**::
-- Frozen Sick — Quest giver, village leader
+- The Pale Sickness — Quest giver, village leader
 - **Available**: Careful, protective leadership voice
 
 **Role**: :: Authority figure, pushes party into Salsvault mystery. 
@@ -1366,13 +1366,13 @@ Elro is a weathered elven ranger with frost‑white hair and a calm, steady pres
 {{note
 #### Private Truth 
 
-Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel**. He recognizes the same unnatural patterns in the Frozen Sick outbreak that he saw during the Greywinter Hunts. He has been quietly corresponding with **Lorewarden Elric Vael** about strange frost patterns and magical disturbances. 
+Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel**. He recognizes the same unnatural patterns in the The Pale Sickness outbreak that he saw during the Greywinter Hunts. He has been quietly corresponding with **Lorewarden Elric Vael** about strange frost patterns and magical disturbances. 
 }}
 
 \column
 
 #### Campaign Tie‑ins 
-**Frozen Sick:** :: Immediately recognizes the blue‑vein symptoms as unnatural 
+**The Pale Sickness:** :: Immediately recognizes the blue‑vein symptoms as unnatural 
 **Wolves of Welton:** :: Trusts Corel’s instincts; concerned about awakened wolves 
 **Peril in Pinebrook:** :: Has heard rumors of frost‑tainted wildlife 
 **Echo Arc:**::  Suspects the outbreak is tied to the same arcane disturbances Elric is tracking 
@@ -1389,14 +1389,14 @@ Elro once patrolled the frontier alongside **Marshal Brenna Thorne** and **Corel
 
 ### Verla Pelc
 **Appears In:**
-- Frozen Sick — Merchant with dangerous connections
+- The Pale Sickness — Merchant with dangerous connections
 - **Available**: Leverage, desperation, criminal network
 
 **Role**: Moral complexity, Corsair subplot, information source
 
 ### Tulgi (Healer)
 **Appears In:**
-- Frozen Sick — Tense healer, defensive, knows more than she admits
+- The Pale Sickness — Tense healer, defensive, knows more than she admits
 - **Available**: Ally or suspect depending on approach
 
 **Role**: Medical expert, potential ally, defensive NPC
@@ -1424,7 +1424,7 @@ Urgon was a seasoned explorer who spent a year charting the ice‑isles of the F
 Urgon discovered **Salsvault** by accident. He never understood what he found — only that it was “wrong,” glowing blue beneath the ice.
 
 #### Campaign Tie‑ins
-- **Frozen Sick:** His death is the inciting incident  
+- **The Pale Sickness:** His death is the inciting incident  
 - **Echo Arc:** His journal contains the first concrete clues about Salsvault  
 - **Wardens:**  
   - Knew **Mira Frostborn** (trapper)  
@@ -1463,7 +1463,7 @@ A shadowy trader from Breakwater Haven who deals in curiosities, relics, and con
 The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network**, the same network Mara Fenwick fled.
 
 #### Campaign Tie‑ins
-**Frozen Sick:**:: Sold the vials to Irven 
+**The Pale Sickness:**:: Sold the vials to Irven 
 
 **Criminal Network:** :: 
 - Knows Verla Pelc  
@@ -1486,8 +1486,8 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 ### The Buyer
 **Appears In:**::
-- Frozen Sick — Mysterious patron, relic broker
-- **Recurring**: Long-term faction contact, Aeorian mystery connection
+- The Pale Sickness — Mysterious patron, relic broker
+- **Recurring**: Long-term faction contact, Aevorian mystery connection
 - **Role**: Mystery broker, faction representative, morally ambiguous patron
 
 {{pageNumber,auto}}
@@ -1499,25 +1499,25 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 #### Hulil Lutan
 **Appears In:**::
-- Frozen Sick — Cult operative, smart and ruthless
+- The Pale Sickness — Cult operative, smart and ruthless
 - **Role**: Antagonist, cult connection, escape artist
 
 #### Raegrin Mau
 **Appears In:**::
-- Frozen Sick — Cult lieutenant, zealous
+- The Pale Sickness — Cult lieutenant, zealous
 - **Role**: Antagonist, can crack under pressure
 
 ### Salsvault NPCs
 
 #### Morgo Delwur
 **Appears In:**::
-- Frozen Sick — Expedition guide, calm competence
+- The Pale Sickness — Expedition guide, calm competence
 - **Available**: Hard truths about survival and risk
 - **Role**: Guide, practical wisdom, survival expert
 
 #### Orvo Mustave
 **Appears In:**::
-- Frozen Sick — Anxious survivor, witness
+- The Pale Sickness — Anxious survivor, witness
 - **Role**: Urgency, time pressure, emotional impact
 
 ### Temple of the Dragonknights
@@ -1525,7 +1525,7 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 **Appears In:**::
 - Temple of the Dragonknights — Grieving parent, emotional pressure
 - Wolves of Welton — Begs party to save families
-- Frozen Sick — Knows trader who handled blue vials
+- The Pale Sickness — Knows trader who handled blue vials
 - **Role**: Moral stakes, personal investment
 
 #### Clementine Andersmith
@@ -1571,6 +1571,6 @@ The Fence is a mid‑level operator in the **Blackwake Corsairs criminal network
 
 ### For Mystery Revelation
 - NPCs in "Arcane Investigation" network can help piece together clues
-- Each connection reveals different aspects of the Aeorian Echo
+- Each connection reveals different aspects of the Aevorian Echo
 - Players who cultivate relationships get better information
 - Some secrets only revealed through specific NPC relationships

@@ -370,7 +370,7 @@ No one knows what's causing it. The Northwatch Wardens are investigating.
 **Elro Aldataur:**
 - **Role:** Retired scholar
 - **Public Persona:** Eccentric, obsessed with ancient history
-- **Value:** Knowledge about ruins and pre-Calamity civilizations
+- **Value:** Knowledge about ruins and pre-Fall civilizations
 
 {{pageNumber,auto}}
 {{footnote NORTHREACH: YOUR FRONTIER HOME}}

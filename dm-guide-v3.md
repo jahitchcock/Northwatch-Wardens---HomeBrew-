@@ -46,7 +46,7 @@ Create a 2-page "DM Campaign Dashboard" that serves as the primary onboarding to
 **Input:**
 - Current Chapter 1 (Welcome to Aevoria)
 - Current Chapter 3 (Campaign Overview, lines 590-900)
-- Chapter 6 (Aeorian Echo section, lines 9445-9598)
+- Chapter 6 (Aevorian Echo section, lines 9445-9598)
 
 **Output:**  
 New section: "Campaign Dashboard" (insert after Welcome, before Quick Start)
@@ -130,7 +130,7 @@ Create an Adventure Index Table for these adventures:
 
 Include: Level, Sessions, Mystery Rating (1-5 stars), Type (Combat/Social/Investigation/Exploration), Key NPCs, Echo Clue Revealed, Consequences.
 
-Format as markdown table. Rate mystery importance based on how much it reveals about the Aeorian Echo.
+Format as markdown table. Rate mystery importance based on how much it reveals about the Aevorian Echo.
 ```
 
 ---
@@ -326,22 +326,22 @@ To this adventure content:
 Using these secrets:
 [paste relevant Chapter 6 content]
 
-Ensure Mystery Box clearly states what players should discover about the Aeorian Echo.
+Ensure Mystery Box clearly states what players should discover about the Aevorian Echo.
 ```
 
 ---
 
-#### 2.2.2 Standardize "Frozen Sick" [PARALLEL]
+#### 2.2.2 Standardize "The Pale Sickness" [PARALLEL]
 
 **Status:** ☐ Not Started
 
 **Input:**
 - Master Adventure Template (2.1)
-- Current Frozen Sick content
+- Current The Pale Sickness content
 - Chapter 6 Salsvault secrets
 
 **Output:**
-- Reformatted Frozen Sick adventure following template
+- Reformatted The Pale Sickness adventure following template
 
 **Acceptance Criteria:**
 - [ ] Follows template exactly
@@ -458,7 +458,7 @@ Review all standardized adventures for consistency and completeness.
 Create comprehensive database of all mystery clues with redundancy tracking.
 
 **Input:**
-- Chapter 6 Aeorian Echo explanation (lines 9445-9598)
+- Chapter 6 Aevorian Echo explanation (lines 9445-9598)
 - All standardized adventures with Mystery Boxes
 - Current clue tracker (lines 1418-1443)
 
@@ -472,7 +472,7 @@ Structure:
 ### Tier 1: Early Campaign (Strange Symptoms)
 | Clue ID | Description | Appears In | Backup Locations | What It Reveals |
 |---------|-------------|------------|------------------|-----------------|
-| E01 | Blue veins in awakened creatures | Wolves, Frozen Sick, Temple | Any wildlife encounter | Magic is corrupting living things |
+| E01 | Blue veins in awakened creatures | Wolves, The Pale Sickness, Temple | Any wildlife encounter | Magic is corrupting living things |
 | E02 | Artifacts malfunctioning | Wild Sheep Chase, [custom] | Any magic item use | Ambient magic destabilizing |
 
 [Continue for 10-12 early clues]
@@ -487,7 +487,7 @@ Structure:
 **What Changes When Players Learn:**
 - Clue E01 → Understand something is affecting wildlife
 - Clues E01 + E02 + E03 → Pattern recognition: "This is widespread"
-- Clue M05 → "Aeor" name first encountered
+- Clue M05 → "Aevor" name first encountered
 - Clue M08 → Salsvault identified as source
 - Clue L01 → Someone activated it deliberately
 - Clue L04 → Dimensional origin (optional reveal)
@@ -505,7 +505,7 @@ Structure:
 
 **AI Prompt Template:**
 ```
-Create a Master Clue Bank for the Aeorian Echo mystery using:
+Create a Master Clue Bank for the Aevorian Echo mystery using:
 
 Echo explanation:
 [paste Chapter 6 Echo section]
@@ -731,7 +731,7 @@ graph TD
 ```
 Create an NPC relationship diagram showing:
 1. Guild hierarchy
-2. Who knows what about the Aeorian Echo
+2. Who knows what about the Aevorian Echo
 3. Secret connections between NPCs
 4. Compromised agents with hidden agendas
 
@@ -773,7 +773,7 @@ Contents:
 [List all chains longer than 2 hops]
 
 ### Redundant Content
-- Aeorian Echo explained in: Chapter 3 (brief), Chapter 6 (full)
+- Aevorian Echo explained in: Chapter 3 (brief), Chapter 6 (full)
 - Charter appears in: Chapter 2 (condensed), Chapter 3 (full)
 [List all duplicated content]
 
@@ -857,11 +857,11 @@ Example:
 
 **Quick Navigation:**
 - Wolves of Welton → page XX
-- Frozen Sick → page XX
+- The Pale Sickness → page XX
 - Temple of the Dragonknights → page XX
 [etc.]
 
-**For mystery context:** See Chapter 6: The Aeorian Echo
+**For mystery context:** See Chapter 6: The Aevorian Echo
 **For NPC secrets:** See Chapter 6: NPC Secrets
 **For tracking:** See Chapter 4: Campaign Tracker
 ```
@@ -959,17 +959,17 @@ Example:
 ```mermaid
 graph LR
     A[Wolves of Welton] -->|Awakening Magic| B[Temple of Dragonknights]
-    A -->|Blue Veins| C[Frozen Sick]
+    A -->|Blue Veins| C[The Pale Sickness]
     C -->|Salsvault Active| D[Wild Sheep Chase]
-    C -->|Aeorian Source| E[All Future Adventures]
+    C -->|Aevorian Source| E[All Future Adventures]
     B -->|Faction Response| E
 ```
 
 **Clue Themes:**
 - **Awakening:** Wolves, Temple
-- **Corruption:** Frozen Sick, Wolves
+- **Corruption:** The Pale Sickness, Wolves
 - **Instability:** Wild Sheep Chase
-- **Source:** Frozen Sick
+- **Source:** The Pale Sickness
 ```
 
 **Acceptance Criteria:**
@@ -1003,18 +1003,18 @@ Example:
 ```
 Level 1 → Opening Adventures → Wolves of Welton
 Level 2 → Wild Sheep Chase (optional) OR Peril in Pinebrook
-Level 3 → Frozen Sick (major revelation)
+Level 3 → The Pale Sickness (major revelation)
 Level 4 → Temple of Dragonknights (capstone)
 ```
 
 ### Flexible Path (Experienced Tables)
 ```
-Any Level 1-2 adventure → Frozen Sick when ready → Others as desired
+Any Level 1-2 adventure → The Pale Sickness when ready → Others as desired
 ```
 
 ### Mystery-Focused Path
 ```
-Wolves (★★★★) → Frozen Sick (★★★★★) → Temple (★★★) → Others
+Wolves (★★★★) → The Pale Sickness (★★★★★) → Temple (★★★) → Others
 ```
 ```
 
@@ -1391,7 +1391,7 @@ Regions to cover:
 **Acceptance Criteria:**
 - [ ] 3 hooks per region
 - [ ] Each hook is a complete contract premise
-- [ ] All hooks connect to Aeorian Echo somehow
+- [ ] All hooks connect to Aevorian Echo somehow
 - [ ] Variety of adventure types (combat/social/exploration)
 
 **AI Prompt Template:**
@@ -1401,7 +1401,7 @@ For this region:
 
 Create 3 adventure hooks (contract premises) that:
 1. Fit the region's theme and culture
-2. Connect to the Aeorian Echo mystery
+2. Connect to the Aevorian Echo mystery
 3. Could be run as 1-3 session adventures
 4. Provide variety (combat, social, exploration)
 
@@ -1423,7 +1423,7 @@ Format as contract postings with:
 Random tables showing how Echo affects different regions.
 
 **Input:**
-- Chapter 6 Aeorian Echo mechanics
+- Chapter 6 Aevorian Echo mechanics
 - Region descriptions
 
 **Output:**  
@@ -1484,7 +1484,7 @@ For major campaign decision points, add:
 
 Key decision points:
 - Wolves of Welton outcome (kill/negotiate/deceive)
-- Frozen Sick Salsvault resolution
+- The Pale Sickness Salsvault resolution
 - Temple cult outcome
 - Echo revelation response
 
@@ -1515,7 +1515,7 @@ Ensure all proper nouns, terms, and references are consistent.
 - Style guide for future additions
 
 Check:
-- [ ] "Aeorian Echo" vs "The Echo" - consistent usage
+- [ ] "Aevorian Echo" vs "The Echo" - consistent usage
 - [ ] "Northwatch Wardens" vs "the Wardens" - consistent capitalization
 - [ ] "Waystone Inn" - never "Waystone" alone
 - [ ] Chapter references - consistent format
@@ -1590,7 +1590,7 @@ Remove or consolidate duplicate information.
 - Duplicate content removed or reduced to references
 
 Key redundancies to fix:
-- [ ] Aeorian Echo explanation (Chapter 3 vs Chapter 6)
+- [ ] Aevorian Echo explanation (Chapter 3 vs Chapter 6)
 - [ ] Charter text (Chapter 2 vs Chapter 3)
 - [ ] NPC descriptions (multiple chapters)
 - [ ] Geography info (scattered)

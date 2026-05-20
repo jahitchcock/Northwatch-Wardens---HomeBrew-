@@ -29,14 +29,14 @@ This document contains secrets about Vharoxis that should be revealed gradually 
 
 ## The Core Truth
 
-**Vharoxis is the primary black-market distributor of Aeorian artifact fragments.**
+**Vharoxis is the primary black-market distributor of Aevorian artifact fragments.**
 
-The syndicates do not understand the artifacts' true nature—but they know they are valuable, dangerous, and unpredictable. What they don't realize is that they're trafficking in active Aeorian technology, some of which is still connected to the ancient network.
+The syndicates do not understand the artifacts' true nature—but they know they are valuable, dangerous, and unpredictable. What they don't realize is that they're trafficking in active Aevorian technology, some of which is still connected to the ancient network.
 
 ### Where the Fragments Come From
 
 Most fragments arrive from:
-- **The Far North:** Expeditions to Aeorian ruins  
+- **The Far North:** Expeditions to Aevorian ruins  
 - **The Shattered Coast:** Sea-glass relics washed ashore  
 - **Dwarven mining accidents:** Deep excavations hitting artifact caches  
 - **Stolen research from Solaris:** Confiscated or smuggled studies  
@@ -66,7 +66,7 @@ Vharoxis becomes the clearinghouse for continental artifact trade:
 ### Late Campaign Role
 The city becomes a battleground:
 - Multiple factions seek to control the artifact trade  
-- Some "buyers" are revealed to be Aeorian intelligences using proxies  
+- Some "buyers" are revealed to be Aevorian intelligences using proxies  
 - The party must decide: shut down the black market or utilize it?  
 - Vharoxis could become a major threat—or a major asset  
 
@@ -87,7 +87,7 @@ The blackout in the Masked Market was caused by **a fragment reacting to the Ecl
 
 **The Fragment:**
 - Located in the Gilded Knives' information vault  
-- Part of an Aeorian communication array  
+- Part of an Aevorian communication array  
 - Synchronized with other fragments during the Eclipse  
 - Created a localized magical dead zone  
 - No one knows it was the cause  
@@ -102,7 +102,7 @@ The blackout in the Masked Market was caused by **a fragment reacting to the Ecl
 The fragment is still in the vault. It hums occasionally. The Curator (leader of the Gilded Knives) has been experiencing strange dreams since touching it.
 
 **The Dreams:**
-- Visions of ancient Aeor  
+- Visions of ancient Aevor  
 - Mathematical patterns  
 - A sense of being watched  
 - Instructions in a language they don't understand  
@@ -119,7 +119,7 @@ The Curator believes they're visions from a patron. **They're actually memories 
 
 **Identity:** The Curator is actually a warlock bound to what they believe is a powerful fey patron.
 
-**Reality:** The patron is an Aeorian intelligence fragment using the Curator as a proxy. The Curator unknowingly serves the Echo, gathering information that is being fed back to the network.
+**Reality:** The patron is an Aevorian intelligence fragment using the Curator as a proxy. The Curator unknowingly serves the Echo, gathering information that is being fed back to the network.
 
 **Signs:**
 - The Curator has been pushing for more artifact acquisition  
@@ -132,7 +132,7 @@ The Curator could become an ally (horrified at manipulation) or a tragic villain
 
 ### The Blackwake Corsairs — Captain Bloodtide's Map
 
-**Secret:** Captain Mara Bloodtide has a map to a major underwater Aeorian facility.
+**Secret:** Captain Mara Bloodtide has a map to a major underwater Aevorian facility.
 
 **Origin:**
 - Found in a sealed chest on a sunken ship  
@@ -140,7 +140,7 @@ The Curator could become an ally (horrified at manipulation) or a tragic villain
 - It opened on Eclipse Day  
 
 **The Map:**
-- Shows an Aeorian installation beneath the Shattered Coast  
+- Shows an Aevorian installation beneath the Shattered Coast  
 - Location of a major artifact cache  
 - Guarded by something ancient and hostile  
 
@@ -148,7 +148,7 @@ The Curator could become an ally (horrified at manipulation) or a tragic villain
 She's planning an expedition. She needs specialists. She might hire the party.
 
 **The Truth:**
-The facility is a command node. If activated, it could control all Aeorian fragments on the continent. It's also defended by autonomous guardians.
+The facility is a command node. If activated, it could control all Aevorian fragments on the continent. It's also defended by autonomous guardians.
 
 {{pageNumber,auto}}
 {{footnote VHAROXIS — DM SECRETS}}
@@ -184,7 +184,7 @@ An accident could trigger a catastrophic chain reaction. The entire Ember Warren
 - He's started having philosophical discussions  
 
 **The Cause:**
-The fragment is slowly integrating with his mind. He's becoming a hybrid—part orc, part Aeorian intelligence.
+The fragment is slowly integrating with his mind. He's becoming a hybrid—part orc, part Aevorian intelligence.
 
 \column
 
@@ -213,7 +213,7 @@ Through meticulous record-keeping, the Accountant noticed:
 Someone—or something—is systematically collecting artifacts. The Accountant doesn't know who. But they've started to feel watched.
 
 **The Truth:**
-The buyers are Aeorian intelligence fragments using human proxies. They're reassembling themselves. The Accountant has stumbled onto the conspiracy.
+The buyers are Aevorian intelligence fragments using human proxies. They're reassembling themselves. The Accountant has stumbled onto the conspiracy.
 
 **If Discovered:**
 The Accountant could provide crucial intelligence about trafficking patterns—if they can be convinced to share (expensive) and protected (difficult).
@@ -298,7 +298,7 @@ Some syndicate members are beginning to notice:
 - **Opportunistic:** Trying to profit from the knowledge  
 - **Doomed:** About to be silenced  
 
-### The Aeorian Intelligence Network
+### The Aevorian Intelligence Network
 
 Fragments in Vharoxis are part of a larger network:
 - Some are communication nodes  
@@ -559,7 +559,7 @@ Anything magical is for sale:
 
 **Post-Eclipse Day:**
 - Surge in "awakened" items  
-- Artifacts from Aeorian sites  
+- Artifacts from Aevorian sites  
 - Fragments with unknown properties  
 - Maps to ruin locations  
 

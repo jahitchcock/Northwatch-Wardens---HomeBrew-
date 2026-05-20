@@ -10,7 +10,7 @@
 
 **Date:** February 2026  
 **Auditor:** DMHelper Agent (Automated QA System)  
-**Scope:** All standardized V3 adventures (Opening, Wolves, Wild Sheep, Pinebrook, Temple, Frozen Sick)  
+**Scope:** All standardized V3 adventures (Opening, Wolves, Wild Sheep, Pinebrook, Temple, The Pale Sickness)  
 **Status:** ✅ **COMPLETE — GREEN-LIGHT FOR PHASE 3**
 
 **Summary:** Comprehensive quality audit identified 2 critical issues, both resolved within session. All 6 adventures now standardized to Master Template v3. Campaign arc validated for logical progression, NPC consistency confirmed, DC scaling verified. Ready to proceed with Phase 3 (Markdown → PDF build system).
@@ -25,7 +25,7 @@
 3. [Wild_Sheep_Chase_V3_STANDARDIZED.md](../../Adventures/The_Wild_Sheep_Chase_V2/Wild_Sheep_Chase_V3_STANDARDIZED.md) — 21,000 words
 4. [Peril_in_Pinebrook_V3_STANDARDIZED.md](../../Adventures/Peril_in_Pinebrook_COMPLETE/Peril_in_Pinebrook_V3_STANDARDIZED.md) — 24,000 words
 5. [Temple_of_the_Dragonknights_V3_STANDARDIZED.md](../../Adventures/Temple_of_the_Dragonknights/Temple_of_the_Dragonknights_V3_STANDARDIZED.md) — 27,500 words
-6. [Frozen_Sick_V3_STANDARDIZED.md](../../Adventures/Frozen Sick/Frozen_Sick_V3_STANDARDIZED.md) — 40,000 words (NEW)
+6. [Frozen_Sick_V3_STANDARDIZED.md](../../Adventures/The Pale Sickness/Frozen_Sick_V3_STANDARDIZED.md) — 40,000 words (NEW)
 
 **Total Word Count:** 153,000 words (professional novel-length campaign)
 
@@ -33,7 +33,7 @@
 - **NPC Consistency:** Cross-file appearance verification (personalities, roles, relationships)
 - **DC Alignment:** Difficulty scaling validation (DC 10-18 range, appropriate to level)
 - **Encounter Scaling:** Party-size adjustment tables (2-3 vs 4-5 players)
-- **Aeorian Echo Thread:** Mystery progression validation (5-adventure arc)
+- **Aevorian Echo Thread:** Mystery progression validation (5-adventure arc)
 - **Structural Consistency:** Master Template v3 adherence (all adventures)
 - **Narrative Continuity:** Cross-adventure references (temporal logic, quest hooks)
 
@@ -73,20 +73,20 @@
 
 ---
 
-### Finding #2: Frozen Sick Standardization Gap
+### Finding #2: The Pale Sickness Standardization Gap
 **Severity:** 🚨 **CRITICAL** (missing revelation adventure)  
 **Status:** ✅ **RESOLVED**
 
 **Issue Identified:**
 - **Temple_of_the_Dragonknights** explicitly references "Salsvault reactivation" without prior explanation
-- **Wolves_Of_Welton** explicitly states "party doesn't learn truth until Frozen Sick adventure"
-- **Frozen Sick source files existed (1268 lines)** but NO V3 standardized version created
-- **Narrative Gap:** Running Temple before Frozen Sick creates mystery hole ("What is Salsvault?")
+- **Wolves_Of_Welton** explicitly states "party doesn't learn truth until The Pale Sickness adventure"
+- **The Pale Sickness source files existed (1268 lines)** but NO V3 standardized version created
+- **Narrative Gap:** Running Temple before The Pale Sickness creates mystery hole ("What is Salsvault?")
 
 **Root Cause:**
 - Phase 2.2 Wave 3 completion claim was aspirational (5 of 6 adventures standardized, not 6 of 6)
-- Frozen Sick was skipped due to length/complexity (longest adventure at 1268 source lines)
-- Temple was prioritized, assuming Frozen Sick would be handled separately
+- The Pale Sickness was skipped due to length/complexity (longest adventure at 1268 source lines)
+- Temple was prioritized, assuming The Pale Sickness would be handled separately
 - QA audit caught the missing link during cross-reference validation
 
 **Resolution Executed:**
@@ -102,7 +102,7 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 - Chapter 3: Palebank Village Investigation (Urgon's cabin, Tulgi confrontation, Pelc's Curiosities)
 - Chapter 4: Croaker Cave Assault (bandit encounters, vial recovery, Hulil Lutan)
 - Chapter 5: Journey to Salsvault (arctic travel, The Cold Anchor, Morgo NPC)
-- Chapter 6: Salsvault Exploration & Climax (Aeorian ruins, Ferol Sal, Preservation Chamber, antidote)
+- Chapter 6: Salsvault Exploration & Climax (Aevorian ruins, Ferol Sal, Preservation Chamber, antidote)
 - Chapter 7: Aftermath & Revelation (cure infected, Elric's debrief, Echo connection)
 
 **Phase 3: Appendices (✅ COMPLETE)**
@@ -129,9 +129,9 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 |-----|---------------------|------------------|---------------------|
 | **Marshal Brenna Thorne** | Opening, All | Guild leader, tactical commander | ✅ CONSISTENT |
 | **Steward Mara Fenwick** | Opening, All | Quartermaster, logistics | ✅ CONSISTENT |
-| **Lorewarden Elric Vael** | Opening, Wolves, Frozen Sick, Temple | Scholar, mystery investigator | ✅ CONSISTENT |
-| **Father Merriksonn** | Opening, Wolves, Frozen Sick (mentioned) | Priest, Alexi's brother | ✅ FIXED (gender corrected) |
-| **Alexi Merriksonn** | Wolves, Frozen Sick (revelation) | Missing sorcerer, victim | ✅ CONSISTENT |
+| **Lorewarden Elric Vael** | Opening, Wolves, The Pale Sickness, Temple | Scholar, mystery investigator | ✅ CONSISTENT |
+| **Father Merriksonn** | Opening, Wolves, The Pale Sickness (mentioned) | Priest, Alexi's brother | ✅ FIXED (gender corrected) |
+| **Alexi Merriksonn** | Wolves, The Pale Sickness (revelation) | Missing sorcerer, victim | ✅ CONSISTENT |
 | **Wellsly (Shepherd)** | Wolves | Shepherd, witness | ✅ CONSISTENT |
 | **Tillus Merrion** | Wolves | Village council, pragmatist | ✅ CONSISTENT |
 | **Finethir Shinebright** | Wild Sheep | Polymorphed wizard, quest-giver | ✅ CONSISTENT |
@@ -142,15 +142,15 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 | **Aurora** | Pinebrook | Missing silver dragon, victim | ✅ CONSISTENT |
 | **Commander Elara Stormwind** | Temple | Cult leader, final antagonist | ✅ CONSISTENT |
 | **Vorath the Defiler** | Temple | Young red dragon, cult ally | ✅ CONSISTENT |
-| **Elro Aldataur** | Frozen Sick | Palebank leader, quest-giver | ✅ NEW (properly introduced) |
-| **Tulgi Lutan** | Frozen Sick | Infected thief, witness | ✅ NEW (properly introduced) |
-| **Hulil Lutan** | Frozen Sick | Bandit leader, Tulgi's sister | ✅ NEW (properly introduced) |
-| **Ferol Sal** | Frozen Sick | Ancient Aeorian necromancer (wight) | ✅ NEW (properly introduced) |
-| **Morgo** | Frozen Sick | Southern cities guide, scout | ✅ NEW (properly introduced) |
+| **Elro Aldataur** | The Pale Sickness | Palebank leader, quest-giver | ✅ NEW (properly introduced) |
+| **Tulgi Lutan** | The Pale Sickness | Infected thief, witness | ✅ NEW (properly introduced) |
+| **Hulil Lutan** | The Pale Sickness | Bandit leader, Tulgi's sister | ✅ NEW (properly introduced) |
+| **Ferol Sal** | The Pale Sickness | Ancient Aevorian necromancer (wight) | ✅ NEW (properly introduced) |
+| **Morgo** | The Pale Sickness | Southern cities guide, scout | ✅ NEW (properly introduced) |
 
 **Total NPCs Audited:** 20  
 **Consistency Issues Found:** 1 (Father Merriksonn — RESOLVED)  
-**New NPCs Introduced:** 5 (Frozen Sick characters)
+**New NPCs Introduced:** 5 (The Pale Sickness characters)
 
 ---
 
@@ -165,7 +165,7 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 | **Wild Sheep Chase** | 1-2 | DC 10-13 | ✅ PASS | Comedy adventure, accessible DCs |
 | **Peril in Pinebrook** | 1-3 | DC 10-15 | ✅ PASS | Investigation focus, DC 12-15 |
 | **Temple of Dragonknights** | 4-5 | DC 13-18 | ✅ PASS | Capstone adventure, scaled up appropriately |
-| **Frozen Sick** | 2-4 | DC 11-15 | ✅ PASS | Revelation adventure, balanced scaling |
+| **The Pale Sickness** | 2-4 | DC 11-15 | ✅ PASS | Revelation adventure, balanced scaling |
 
 **Findings:**
 - ✅ All DCs fall within appropriate ranges for level tiers
@@ -186,7 +186,7 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 | **Wild Sheep** | ✅ Yes | 3 bandits per encounter | 5 bandits per encounter | ✅ PASS |
 | **Pinebrook** | ✅ Yes | Ice Assassin solo | Ice Assassin + minions | ✅ PASS |
 | **Temple** | ✅ Yes | 2 cultists per room | 3-4 cultists per room | ✅ PASS |
-| **Frozen Sick** | ✅ Yes | Croaker Cave: 4 bandits | Croaker Cave: 6 bandits + thug | ✅ PASS |
+| **The Pale Sickness** | ✅ Yes | Croaker Cave: 4 bandits | Croaker Cave: 6 bandits + thug | ✅ PASS |
 
 **Findings:**
 - ✅ All adventures include explicit party-size scaling tables
@@ -196,40 +196,40 @@ Created complete **Frozen_Sick_V3_STANDARDIZED.md** (40,000 words) with full Mas
 
 ---
 
-## Aeorian Echo Thread Validation
+## Aevorian Echo Thread Validation
 
 ### Mystery Progression Arc (5-Adventure Sequence)
 
 | Adventure | Arc Role | Echo Manifestation | Party Knowledge | Status |
 |-----------|----------|--------------------|-----------------|---------
 | **Opening** | Introduction | Environmental clues (frost, humming buckle) | "Something strange happening" | ✅ PASS |
-| **Wolves** | Pattern/Evidence | Awakened wolves (Aeorian spore symptom) | "Magic affecting animals" | ✅ PASS |
-| **Frozen Sick** | **REVELATION** | Salsvault discovered (SOURCE) | **"Aeorian Echo spreading from Salsvault"** | ✅ PASS |
+| **Wolves** | Pattern/Evidence | Awakened wolves (Aevorian spore symptom) | "Magic affecting animals" | ✅ PASS |
+| **The Pale Sickness** | **REVELATION** | Salsvault discovered (SOURCE) | **"Aevorian Echo spreading from Salsvault"** | ✅ PASS |
 | **Wild Sheep** | Secondary Evidence | Artifact corruption (wand malfunction) | "Magic destabilizing objects" | ✅ PASS |
 | **Pinebrook** | Environmental Impact | Unnatural ice (spreading corruption) | "Echo affecting terrain" | ✅ PASS |
 | **Temple** | Escalation/Climax | Ley line amplification (Salsvault active) | "Cult weaponizing Echo" | ✅ PASS |
 
 **Arc Validation:**
 - ✅ **Opening → Wolves:** Logical progression from clues to first major manifestation
-- ✅ **Wolves → Frozen Sick:** Explicit hook ("party doesn't learn truth until Frozen Sick")
-- ✅ **Frozen Sick → Temple:** Revelation makes Temple stakes clear (cult seeks Aeorian power)
-- ✅ **Wild Sheep & Pinebrook:** Can be run before/during/after Frozen Sick (order-independent evidence)
-- ✅ **Temple:** Assumes Salsvault knowledge (now valid after Frozen Sick standardization)
+- ✅ **Wolves → The Pale Sickness:** Explicit hook ("party doesn't learn truth until The Pale Sickness")
+- ✅ **The Pale Sickness → Temple:** Revelation makes Temple stakes clear (cult seeks Aevorian power)
+- ✅ **Wild Sheep & Pinebrook:** Can be run before/during/after The Pale Sickness (order-independent evidence)
+- ✅ **Temple:** Assumes Salsvault knowledge (now valid after The Pale Sickness standardization)
 
 **Mystery Rating Analysis:**
 - Opening: ⭐⭐ (Introduction, low mystery—just hints)
 - Wolves: ⭐⭐⭐ (Pattern adventure—awakened creatures, Alexi hook)
-- Frozen Sick: ⭐⭐⭐⭐⭐ (REVELATION—Salsvault discovered, Echo source explained)
+- The Pale Sickness: ⭐⭐⭐⭐⭐ (REVELATION—Salsvault discovered, Echo source explained)
 - Wild Sheep: ⭐⭐ (Comedy, minor Echo evidence—artifact corruption)
 - Pinebrook: ⭐⭐⭐ (Environmental corruption, Echo spreading)
-- Temple: ⭐⭐⭐⭐ (Escalation—cult weaponizing Echo, Aeorian tech)
+- Temple: ⭐⭐⭐⭐ (Escalation—cult weaponizing Echo, Aevorian tech)
 
 **Lorewarden Elric's Role Validated:**
 Elric appears in:
 1. **Opening:** Introduces concept of "strange disturbances across Northreach"
 2. **Wolves:** Investigates wolf awakening, notes pattern
-3. **Frozen Sick:** **REVELATION MOMENT** — Explains Salsvault, Aeor history, Echo connection
-4. **Temple:** Warns about cult seeking Aeorian weapons, ties to Salsvault activation
+3. **The Pale Sickness:** **REVELATION MOMENT** — Explains Salsvault, Aevor history, Echo connection
+4. **Temple:** Warns about cult seeking Aevorian weapons, ties to Salsvault activation
 
 ---
 
@@ -265,27 +265,27 @@ All 6 adventures verified against Master Template v3 structure:
 
 | Reference | Source Adventure | Target Adventure | Validation | Notes |
 |-----------|------------------|------------------|------------|-------|
-| "Father Merriksonn's brother Alexi" | Wolves | Frozen Sick | ✅ PASS (after gender fix) | Alexi's death explained in Frozen Sick |
-| "Salsvault reactivation 2 months ago" | Temple | Frozen Sick | ✅ PASS | Frozen Sick timeline matches Temple reference |
+| "Father Merriksonn's brother Alexi" | Wolves | The Pale Sickness | ✅ PASS (after gender fix) | Alexi's death explained in The Pale Sickness |
+| "Salsvault reactivation 2 months ago" | Temple | The Pale Sickness | ✅ PASS | The Pale Sickness timeline matches Temple reference |
 | "Lorewarden Elric investigating disturbances" | Opening | All | ✅ PASS | Elric appears consistently across arc |
-| "Wolves awakened by Aeorian spores" | Frozen Sick | Wolves | ✅ PASS | Revelation explains Wolves mystery |
-| "Dragonknights seeking Aeorian power" | Temple | Frozen Sick | ✅ PASS | Temple cult motivation tied to Salsvault |
-| "Noke's wand malfunction" | Wild Sheep | Frozen Sick (implied) | ✅ PASS | Artifact corruption from Echo |
-| "Unnatural ice in Pinebrook" | Pinebrook | Frozen Sick (implied) | ✅ PASS | Environmental corruption from Echo |
+| "Wolves awakened by Aevorian spores" | The Pale Sickness | Wolves | ✅ PASS | Revelation explains Wolves mystery |
+| "Dragonknights seeking Aevorian power" | Temple | The Pale Sickness | ✅ PASS | Temple cult motivation tied to Salsvault |
+| "Noke's wand malfunction" | Wild Sheep | The Pale Sickness (implied) | ✅ PASS | Artifact corruption from Echo |
+| "Unnatural ice in Pinebrook" | Pinebrook | The Pale Sickness (implied) | ✅ PASS | Environmental corruption from Echo |
 
 **Temporal Logic Validation:**
 - ✅ Opening: "Present day" (campaign start)
-- ✅ Wolves: "2-3 weeks after Alexi disappeared" (matches Frozen Sick timeline)
-- ✅ Frozen Sick: "Salsvault activated 2 months ago" (Urgon's expedition timeline)
+- ✅ Wolves: "2-3 weeks after Alexi disappeared" (matches The Pale Sickness timeline)
+- ✅ The Pale Sickness: "Salsvault activated 2 months ago" (Urgon's expedition timeline)
 - ✅ Wild Sheep: Can occur anytime (no temporal dependencies)
 - ✅ Pinebrook: Can occur anytime (no temporal dependencies)
-- ✅ Temple: "After party knows about Salsvault" (assumes Frozen Sick completed)
+- ✅ Temple: "After party knows about Salsvault" (assumes The Pale Sickness completed)
 
 **Quest Hook Validation:**
 - ✅ Opening → Wolves: Father Merriksonn approaches party (brother missing at Welton)
-- ✅ Opening → Frozen Sick: Elro Aldataur sends message to Waystone Inn (plague at Palebank)
-- ✅ Wolves → Frozen Sick: "Party doesn't learn truth until Frozen Sick" (explicit forward reference)
-- ✅ Frozen Sick → Temple: Elric warns about cult seeking Aeorian artifacts
+- ✅ Opening → The Pale Sickness: Elro Aldataur sends message to Waystone Inn (plague at Palebank)
+- ✅ Wolves → The Pale Sickness: "Party doesn't learn truth until The Pale Sickness" (explicit forward reference)
+- ✅ The Pale Sickness → Temple: Elric warns about cult seeking Aevorian artifacts
 - ✅ Wild Sheep: Standalone (polymorphed dragon in bar—no dependencies)
 - ✅ Pinebrook: Standalone (missing silver dragon investigation—no dependencies)
 
@@ -312,7 +312,7 @@ Before initiating Phase 3 build:
 1. **Table of Contents Generation:**
    - Auto-generate from Quick Reference Cards (adventure name, tagline, level range, duration)
    - Include page number references (dynamic during build)
-   - Group by campaign arc (Arc 1: Opening/Wolves, Arc 2: Frozen Sick/Temple, Arc 3: Wild Sheep/Pinebrook)
+   - Group by campaign arc (Arc 1: Opening/Wolves, Arc 2: The Pale Sickness/Temple, Arc 3: Wild Sheep/Pinebrook)
 
 2. **Cross-Reference Linking:**
    - Convert markdown links to PDF internal links (maintain `[text](file.md#section)` navigation)

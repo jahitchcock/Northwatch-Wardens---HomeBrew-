@@ -48,7 +48,7 @@
 ### Campaign Overview
 - The Northwatch Wardens Campaign (modular design principles)
 - How It Works (typical session flow)
-- The Aeorian Echo: Core Mystery (what players are discovering)
+- The Aevorian Echo: Core Mystery (what players are discovering)
 - Adventures (introduction to all 5 core adventures)
 - Opening Encounters (starter scenarios)
 - Geography (canonical locations and travel distances)
@@ -67,7 +67,7 @@
 ### Campaign Dashboard (NEW: Phase 1.1)
 - Campaign at a Glance (pitch + highlights)
 - Information Flowchart (how to find what you need)
-- The Aeorian Echo: What Players Are Discovering (mystery progression)
+- The Aevorian Echo: What Players Are Discovering (mystery progression)
 - Starter Adventure Recommendations (where to begin)
 - Key Factions (overview of major powers)
 - Escalation Timeline (what changes over campaign)
@@ -134,10 +134,10 @@
   - Council voting mechanics
   - Scaling for party size
 
-- **Frozen Sick** (Levels 2-4: Aeorian origin revelation)
+- **The Pale Sickness** (Levels 2-4: Aevorian origin revelation)
   - Scenes 1-6 with environmental hazards
   - Salsvault ruins exploration
-  - Aeorian construct encounters
+  - Aevorian construct encounters
   - Mystery revelation framework
   - Creature statistics
 
@@ -176,7 +176,7 @@
 **Purpose:** Complete campaign secrets and lore for DM knowledge
 
 ### The Core Mystery
-- **The Aeorian Echo** (complete documentation)
+- **The Aevorian Echo** (complete documentation)
   - What it is (definition and manifestations)
   - Where it came from (Salsvault and pre-Calamity origins)
   - How it spreads (mechanism of contamination)
@@ -201,7 +201,7 @@
 
 ### Faction & Politics
 - Detailed faction agendas and long-term goals
-- How factions view the Aeorian Echo
+- How factions view the Aevorian Echo
 - Faction leader motivations and secrets
 - Political implications of adventure outcomes
 

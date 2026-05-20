@@ -22,17 +22,17 @@ This glossary provides pronunciation guides and brief definitions for important 
 
 ## A
 
-**Aeor** (AY-or)
-Ancient civilization of powerful mages that fell in a cataclysm. Ruins of Aeor lie buried in the Far North, and Aeorian artifacts occasionally surface. Known for ambitious arcane experiments and magical hubris. *See: The Far North, Salsvault*
+**Aevor** (AY-or)
+Ancient civilization of powerful mages that fell in a cataclysm. Ruins of Aevor lie buried in the Far North, and Aevorian artifacts occasionally surface. Known for ambitious arcane experiments and magical hubris. *See: The Far North, Salsvault*
 
-**Aeorian Echo**
-Phenomenon of rising magical energy emanating from buried Aeorian ruins, particularly Salsvault. Causes unpredictable magical effects, awakening intelligence in creatures, and destabilizing arcane workings. Central mystery of the Northwatch Wardens campaign. *See: Frozen Sick adventure*
+**Aevorian Echo**
+Phenomenon of rising magical energy emanating from buried Aevorian ruins, particularly Salsvault. Causes unpredictable magical effects, awakening intelligence in creatures, and destabilizing arcane workings. Central mystery of the Northwatch Wardens campaign. *See: The Pale Sickness adventure*
 
 **Aevoria** (ay-VOR-ee-uh)
 The continent and world in which the Northwatch Wardens campaign takes place. Divided into ten major regions with diverse cultures, climates, and peoples.
 
-**Archivists of Aeor**
-Scholarly organization dedicated to studying Aeorian ruins and recovering lost knowledge safely and responsibly. Based primarily in northern research stations. Viewed with a mix of respect and caution—their work is valuable but dangerous. *See: Organizations chapter*
+**Archivists of Aevor**
+Scholarly organization dedicated to studying Aevorian ruins and recovering lost knowledge safely and responsibly. Based primarily in northern research stations. Viewed with a mix of respect and caution—their work is valuable but dangerous. *See: Organizations chapter*
 
 **Argyle** (AR-gyle)
 *Common pronunciation mistake: "ar-GYE-luh"*
@@ -67,7 +67,7 @@ Wood elf ranger-druid hybrid working with the Northwatch Wardens. Speaks little,
 Religious order dedicated to protecting society from unaccountable magical power. Opposes reckless arcane experimentation, demonic pacts, and dangerous artifacts. Not anti-magic, but pro-responsibility. Views vary by region—respected enforcers or zealous opposition. *See: Organizations chapter, Gods and Religion chapter*
 
 **Croaker Cave**
-Bandit hideout north of Palebank Village. Named for the croaking sounds echoing from within (frogs, not bandits). Site of conflict during Frozen Sick adventure. *See: The Frozen Sick adventure*
+Bandit hideout north of Palebank Village. Named for the croaking sounds echoing from within (frogs, not bandits). Site of conflict during The Pale Sickness adventure. *See: The The Pale Sickness adventure*
 
 **Currency**
 Aevoria uses standard D&D coinage: copper pieces (cp), silver pieces (sp), gold pieces (gp), and platinum pieces (pp). Regional currencies exist but are easily exchanged. *See: Currency and Trade chapter*
@@ -95,7 +95,7 @@ Lorewarden of the Northwatch Wardens. Half-elf scholar and divination wizard. Pr
 
 **Elro Aldataur** (EL-roh al-DAH-tor)
 *Common mistake: "el-ROH al-duh-TAR"*
-Elf scholar in Palebank Village. Researches Aeorian history and the source of the mysterious illness. Knowledgeable but somewhat reckless in pursuit of discovery. *See: People of Northreach chapter, Frozen Sick adventure*
+Elf scholar in Palebank Village. Researches Aevorian history and the source of the mysterious illness. Knowledgeable but somewhat reckless in pursuit of discovery. *See: People of Northreach chapter, The Pale Sickness adventure*
 
 **Emberlands**
 Region of Aevoria devastated by magical cataclysm within living memory. Landscape torn by lingering fire and earth magic. Home to resilient survivors, the Red Covenant disaster relief organization, and desperate communities. Known for improvisation and fierce determination. *See: Regions chapter*
@@ -105,7 +105,7 @@ Region of Aevoria devastated by magical cataclysm within living memory. Landscap
 ## F
 
 **Far North, The**
-Arctic region at the top of the world. Home to buried Aeorian ruins, extreme weather, and isolated settlements. Inhabited by hardy folk, nomadic tribes, and researchers studying Aeor. Source of the Aeorian Echo phenomenon. *See: Regions chapter*
+Arctic region at the top of the world. Home to buried Aevorian ruins, extreme weather, and isolated settlements. Inhabited by hardy folk, nomadic tribes, and researchers studying Aevor. Source of the Aevorian Echo phenomenon. *See: Regions chapter*
 
 **Father Johan Merriksonn** (YOH-han MEH-rik-sun)
 *"Father Johan" is fine; full name rarely used*
@@ -121,8 +121,8 @@ Historical group that established Northreach settlements generations ago. Arrive
 **Freelance Brotherhood**
 Loose network of independent adventurers, mercenaries, and problem-solvers. Not a formal organization—more of a mutual aid society. Helps members find work, share information, and avoid dangerous contracts. Viewed as pragmatic professionals or unreliable freelancers depending on perspective. *See: Organizations chapter*
 
-**Frozen Sick**
-Mysterious illness affecting Palebank Village. Victims develop icy blue veins, fever despite cold skin, and eventual crystallization. Caused by exposure to Aeorian spores from Salsvault. Curable with frigid woe antidote. *See: Frozen Sick adventure*
+**The Pale Sickness**
+Mysterious illness affecting Palebank Village. Victims develop icy blue veins, fever despite cold skin, and eventual crystallization. Caused by exposure to Aevorian spores from Salsvault. Curable with frigid woe antidote. *See: The Pale Sickness adventure*
 
 **Flynt Wymblen**
 Gnome tinkerer and inventor working with the Northwatch Wardens. Enthusiastic gadgeteer with variable success rate. Provides experimental equipment and creative solutions (with occasional explosions). Based at Waystone Inn. *See: People of Northreach chapter*
@@ -210,7 +210,7 @@ Elven-dominated forest region characterized by silence wards and memory preserva
 ## P
 
 **Palebank Village**
-Coastal settlement in northeast Northreach. Fishing and trade community near frozen wilderness. Site of the Frozen Sick adventure where mysterious illness strikes. Gateway to northern exploration. *See: Northreach chapter, Frozen Sick adventure*
+Coastal settlement in northeast Northreach. Fishing and trade community near frozen wilderness. Site of the The Pale Sickness adventure where mysterious illness strikes. Gateway to northern exploration. *See: Northreach chapter, The Pale Sickness adventure*
 
 **Pelc** (PELK)
 *Rhymes with "elk"*
@@ -240,7 +240,7 @@ Human bard and Northwatch Warden. Charismatic storyteller, morale booster, and n
 
 **Salsvault** (SALZ-volt)
 *Stress first syllable*
-Buried Aeorian ruin far north of Palebank Village. Source of frigid woe spores and the Aeorian Echo phenomenon. Dangerous research site containing ancient magical experiments. *See: Frozen Sick adventure, The Far North chapter*
+Buried Aevorian ruin far north of Palebank Village. Source of frigid woe spores and the Aevorian Echo phenomenon. Dangerous research site containing ancient magical experiments. *See: The Pale Sickness adventure, The Far North chapter*
 
 **Sera Gelanadel** (SAIR-uh gel-AN-uh-del)
 *Elven name. Common mistake: "suh-RAH"*
@@ -349,7 +349,7 @@ Comic relief adventure involving polymorphing wizard Noke, his sheep-brother Fin
 Aarakocra scout and Northwatch Warden. Airborne reconnaissance specialist providing aerial perspective and scouting. Enthusiastic, helpful, sometimes fails to understand ground-based limitations. Based at Waystone Inn. *See: People of Northreach chapter*
 
 **Wolves of Welton**
-Adventure involving awakened wolves with developing intelligence attacking farms near Welton. First major indication of the Aeorian Echo phenomenon affecting wildlife. Moral complexity—wolves aren't evil, just hungry and confused. *See: Wolves of Welton adventure*
+Adventure involving awakened wolves with developing intelligence attacking farms near Welton. First major indication of the Aevorian Echo phenomenon affecting wildlife. Moral complexity—wolves aren't evil, just hungry and confused. *See: Wolves of Welton adventure*
 
 ## X
 

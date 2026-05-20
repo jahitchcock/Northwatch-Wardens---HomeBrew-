@@ -6,50 +6,23 @@ argument-hint: [adventure-name] [level-range] [location] [premise]
 allowed-tools: Read Write Glob Bash
 ---
 
-Scaffold a new adventure for Northwatch Wardens: Season One.
-
 $ARGUMENTS
 
-## Step 1 — Gather inputs
+Infer name, level range, location, premise from $ARGUMENTS. Offer to suggest a premise if not given.
 
-Collect anything not in $ARGUMENTS:
-- Adventure name?
-- Level range?
-- Setting location? *(must be from the canonical list in [requirements.md](references/requirements.md))*
-- Brief premise? (or ask if you should suggest one based on the location)
+**Parallel:** `validate-canon <location>` + read `.github/templates/adventure_template.md`
 
-## Step 2 — Canonical fit check
+Stop if location fails canon check — present the valid list and ask which to use.
 
-Look up the location in the canonical geography table in [requirements.md](references/requirements.md).
+Read [requirements.md](references/requirements.md) for the checklist, Homebrewery syntax, and tone rules.
 
-If it's **not listed**, stop and ask:
-> "That location isn't in canonical Northreach. Available locations: [list]. Use one of these, or should we discuss adding a new one?"
+**Parallel:** create `Season 1/Adventures/<Name>/<Name>.md` + `Season 1/Adventures/<Name>/<Name>.json`
 
-Do not proceed until the location is confirmed canonical.
+`validate-canon` on generated files. Fix silently.
 
-## Step 3 — Read the template
+Ask once: "Add XML entry to `Northwatch_Wardens.xml`? Add to `build/dms-guide-toc.json`?"
+→ XML: `xml-manager insert-adventure`
 
-Read `.github/templates/adventure_template.md` to understand the required structure before generating content.
+Report file paths. Remind: "Run `/build` to verify."
 
-## Step 4 — Create the adventure files
-
-Create:
-- `Season 1/Adventures/<AdventureName>/<AdventureName>.md` — full Homebrewery-formatted adventure
-- `Season 1/Adventures/<AdventureName>/<AdventureName>.json` — companion JSON with NPC/creature stat blocks
-
-See [requirements.md](references/requirements.md) for the complete adventure `.md` checklist and tone guidance.
-
-Key tone rules (applied throughout):
-- Grounded frontier realism: tactile, visceral, understated menace
-- Read-aloud text: 2–4 sentences, sensory-first, end with a hook
-- Avoid: dictating PC emotions, "ancient evil", "mystical power", overwrought adjectives
-
-## Step 5 — Ask about optional additions
-
-After the files are created:
-1. "Add an `<adventure>` XML entry to `LionsdenGameFiles/Northwatch_Wardens.xml`?"
-2. "Add this adventure to `build/dms-guide-toc.json`?"
-
-## Step 6 — Report
-
-Show the file paths created. Remind the user to run `/build` to verify the adventure compiles correctly.
+`skill-self-review new-adventure` (add `--agentic` if running inside an agent)

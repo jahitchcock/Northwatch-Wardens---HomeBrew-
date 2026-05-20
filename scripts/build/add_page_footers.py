@@ -201,7 +201,7 @@ def main():
             if changes > 0:
                 files_changed += 1
                 total_changes += changes
-                print(f"  ✓ {filepath.relative_to(world_building_path)}: {changes} footer(s) updated")
+                print(f"  [OK] {filepath.relative_to(world_building_path)}: {changes} footer(s) updated")
 
     if dm_files:
         print(f"\nUpdating page footers in {len(dm_files)} DM guide markdown files...")
@@ -212,16 +212,16 @@ def main():
                 files_changed += 1
                 total_changes += changes
                 rel_path = filepath.relative_to(repo_root)
-                print(f"  ✓ {rel_path}: {changes} footer(s) updated")
+                print(f"  [OK] {rel_path}: {changes} footer(s) updated")
 
     if files_processed == 0:
         print("No markdown files found to process.")
         return
 
     if total_changes > 0:
-        print(f"\n✓ Updated {total_changes} page footer(s) in {files_changed} file(s)")
+        print(f"\n[OK] Updated {total_changes} page footer(s) in {files_changed} file(s)")
     else:
-        print("\n✓ All page footers are up to date")
+        print("\n[OK] All page footers are up to date")
 
 if __name__ == '__main__':
     main()

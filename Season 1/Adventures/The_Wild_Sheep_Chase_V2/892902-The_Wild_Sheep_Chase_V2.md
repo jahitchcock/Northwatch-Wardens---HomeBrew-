@@ -1,9 +1,9 @@
 <!--
-  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Adventure, Season-1, Northreach, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Adventure
   Region: Northreach
-  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/Wild_Sheep_Chase_V3_STANDARDIZED.md, arcs/Season_1_The_Aeorian_Echo.md
+  Linked: Season 1/Adventures/The_Wild_Sheep_Chase_V2/Wild_Sheep_Chase_V3_STANDARDIZED.md, arcs/Season_1_The_Aevorian_Echo.md
 -->
 
 {{note
@@ -14,9 +14,9 @@
 
 #### Northwatch Wardens Integration (DM)
 
-This adventure is the **tonal counterpoint** of Arc 2. Where Frozen Sick reveals the source of the Aeorian Echo with cold dread and urgency, **The Wild Sheep Chase shows it through absurdity**.
+This adventure is the **tonal counterpoint** of Arc 2. Where The Pale Sickness reveals the source of the Aevorian Echo with cold dread and urgency, **The Wild Sheep Chase shows it through absurdity**.
 
-A wand that should have killed instead transformed. Magic that should be reliable has become chaotic. The Aeorian Echo is not only spreading disease and awakening wolves — it is **corrupting the fabric of spellwork itself**.
+A wand that should have killed instead transformed. Magic that should be reliable has become chaotic. The Aevorian Echo is not only spreading disease and awakening wolves — it is **corrupting the fabric of spellwork itself**.
 
 This is where the Wardens understand: ::
 
@@ -38,14 +38,14 @@ This is where the Wardens understand: ::
 - The Wardens encounter a Wand of True Polymorph behaving impossibly
 - They meet **Finethir Shinebright**, a researcher quietly documenting Echo disturbances
 - They confirm the Echo is not just biological — it is **corrupting all magic**
-- Combined with Frozen Sick, Arc 2 closes: the source is known, the scope is terrifying
+- Combined with The Pale Sickness, Arc 2 closes: the source is known, the scope is terrifying
 
-**Campaign Connection:** :: This adventure shows magic destabilizing across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aeorian Echo affecting magical items and spellwork.
+**Campaign Connection:** :: This adventure shows magic destabilizing across the frontier. The Wand of True Polymorph's malfunction is a symptom of the Aevorian Echo affecting magical items and spellwork.
 
 **Prerequisite Adventures:** :: Enhanced if players have completed Wolves of Welton (recognizes transformation theme)
 
 ###### **Leads To:**
-**Frozen Sick**:: (theme: magic behaving unpredictably has a source)
+**The Pale Sickness**:: (theme: magic behaving unpredictably has a source)
 **Temple of Dragonknights** ::(magical convergence points attract power)
 
 
@@ -55,7 +55,7 @@ This is where the Wardens understand: ::
 
 - This adventure is set near **any established Northreach town** — Welton works well
 - **Noke's Tower** lies southeast of town, in sparse woodland off the main road
-- **Finethir Shinebright** is a traveling wizard and secret Aeorian Echo researcher
+- **Finethir Shinebright** is a traveling wizard and secret Aevorian Echo researcher
 - **Guz** is a local enforcer hired by Noke; the "wolves" and "bear" are polymorphed hired thugs
 
 The Wardens are positioned to respond because: ::
@@ -70,7 +70,7 @@ These are the truths the players can uncover through investigation, trust-buildi
 }}
 
 - **Shinebright is not just a victim** — he is a dedicated Echo researcher with a hidden archive in his tower basement
-- **The wand didn't malfunction randomly** — Aeorian Echo interference corrupted its enchantment matrix
+- **The wand didn't malfunction randomly** — Aevorian Echo interference corrupted its enchantment matrix
 - The "accident" was actually Noke's **deliberate attempt** to test the wand's instability for personal gain
 - Shinebright has **maps marking magical anomaly sites** across Northreach — including notes referencing Salsvault
 - If the Wardens earn his trust, Shinebright becomes a crucial long-term ally with translations, protective magic, and research
@@ -80,13 +80,13 @@ These are the truths the players can uncover through investigation, trust-buildi
 \page
 
 ### Mystery Clues
-###### (Aeorian Echo Investigation)
+###### (Aevorian Echo Investigation)
 
 #### **Primary Clue — Magical Item Malfunction**
 - The Wand of True Polymorph behaved impossibly — intended to kill, instead transformed
 - **Discovery Method:** Shinebright's explanation, examination of wand
 - **Arcana DC 13:** "This wand should be stable. Something external is interfering with its enchantment matrix."
-- **Connects to:** Wolves of Welton (transformation theme), Frozen Sick (source of interference)
+- **Connects to:** Wolves of Welton (transformation theme), The Pale Sickness (source of interference)
 
 #### **Secondary Clue — Widespread Magical Instability**
 - Noke's tower contains multiple failing enchantments: animated objects arguing, traps misfiring, rooms rearranging
@@ -97,13 +97,13 @@ These are the truths the players can uncover through investigation, trust-buildi
 #### **Tertiary Clue — Shinebright's Knowledge**
 - If the Wardens earn his trust, Shinebright admits he's been documenting similar malfunctions across Northreach for months
 - **Discovery Method:** Social interaction; **Insight DC 15** reveals he knows more than he's saying
-- **Connects to:** Frozen Sick (he can provide research notes or guidance), future allies
+- **Connects to:** The Pale Sickness (he can provide research notes or guidance), future allies
 
 #### Hidden Clue — Tower Basement
 - Thorough exploration after defeating Noke reveals Shinebright's hidden research library
 - **Investigation DC 16**, or Shinebright grants access if trust is maximum
-- **Discovery:** Maps marking magical anomaly sites, sketches of Aeorian symbols, notes mentioning "Salsvault" and "pre-Calamity resonance frequencies"
-- **Connects to:** Direct foreshadowing of Frozen Sick, establishes Shinebright as expert ally
+- **Discovery:** Maps marking magical anomaly sites, sketches of Aevorian symbols, notes mentioning "Salsvault" and "pre-Fall resonance frequencies"
+- **Connects to:** Direct foreshadowing of The Pale Sickness, establishes Shinebright as expert ally
 
 \column
 ### Investigation Thread Summary
@@ -122,7 +122,7 @@ By completing The Wild Sheep Chase, the Wardens learn:
 ### Adventure Overview
 
 {{note
-**Theme:**:: Magic behaving unpredictably — the Aeorian Echo corrupts artifacts and spells
+**Theme:**:: Magic behaving unpredictably — the Aevorian Echo corrupts artifacts and spells
 **Tone:**:: Comedy, chaos, revelation — absurdity w/ real stakes
 **Adventure Tier:**:: Levels 1–2 (scalable to 4–5)
 **Campaign Arc:**:: Arc 2 — *Revelation*
@@ -241,8 +241,8 @@ Once upon a time the local nobles, merchants, and arcanists spoke the name of Fi
 - He needs the wand used on him one more time to restore his form
 
 **What Shinebright Will Not Share Yet:** ::
-- That he has been secretly researching the Aeorian Echo for eighteen months
-- That his tower contains a hidden archive with maps, notes, and Aeorian symbol sketches
+- That he has been secretly researching the Aevorian Echo for eighteen months
+- That his tower contains a hidden archive with maps, notes, and Aevorian symbol sketches
 - That he suspects the wand's malfunction was not random
 
 {{note
@@ -291,7 +291,7 @@ Guz isn't particularly intelligent and can be easily confused by quick-talking f
 **DC 10 Insight:** Guz genuinely believes the sheep is just a sheep. He has not been told the truth.
 
 {{note
-**If the Wardens mention the disease, the wolves, or the Aeorian Echo:** Guz stares blankly. "Master Noke doesn't pay me to understand things. He pays me to collect things."
+**If the Wardens mention the disease, the wolves, or the Aevorian Echo:** Guz stares blankly. "Master Noke doesn't pay me to understand things. He pays me to collect things."
 }}
 
 ---
@@ -896,7 +896,7 @@ ___
 ### Traits
 ***Antimagic Susceptibility.***:: The sword is incapacitated while in the area of an *antimagic field*. If targeted by *dispel magic*, the sword must succeed on a DC 12 Constitution saving throw or fall unconscious for 1 minute.
 ***False Appearance.***:: While motionless and not flying, the sword is indistinguishable from a normal sword.
-***Echo Instability.***:: Due to Aeorian Echo interference, roll a d6 at the start of each of the sword's turns. On a 1, it spends its action flying in a random direction rather than attacking (roll 1d8 for direction).
+***Echo Instability.***:: Due to Aevorian Echo interference, roll a d6 at the start of each of the sword's turns. On a 1, it spends its action flying in a random direction rather than attacking (roll 1d8 for direction).
 ___
 ### Actions
 ***Longsword.*** ::*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage.
@@ -1049,13 +1049,13 @@ Maps cover every surface. Notes in a precise, cramped hand fill dozens of journa
 #### What the Archive Contains
 
 - **Maps of Northreach** with annotated sites of magical anomalies — including Welton's frost patterns, Pinebrook's unstable enchantments, and three unmarked sites in the Far North
-- **Aeorian symbol sketches** from ancient texts, with partial translations
+- **Aevorian symbol sketches** from ancient texts, with partial translations
 - **Notes on "resonance frequency interference"** — Shinebright's theory that an ancient facility is emitting a signal disrupting modern magical enchantments
 - **A partial essay** titled *On the Deliberate Nature of the Current Disruption* — arguing the activation is not random
 - **One line, circled twice:** *"Someone turned this on."*
 
 {{note
-This is the same conclusion the Wardens reach through Salsvault's control room (Frozen Sick). If they complete Wild Sheep Chase first, they arrive at Salsvault already knowing what they're about to confirm.
+This is the same conclusion the Wardens reach through Salsvault's control room (The Pale Sickness). If they complete Wild Sheep Chase first, they arrive at Salsvault already knowing what they're about to confirm.
 }}
 
 #### Archive Skill Checks
@@ -1092,7 +1092,7 @@ He looks at his hands for a long moment.
 - **Tower Access:** Safe house and research location for the Wardens
 - **Archive Access:** Full access to his hidden research
 - **Wand:** He recommends destroying it immediately
-- **Aeorian Echo outcome:** Proof that magic items are destabilizing; Shinebright is now a full ally
+- **Aevorian Echo outcome:** Proof that magic items are destabilizing; Shinebright is now a full ally
 
 ---
 
@@ -1109,7 +1109,7 @@ Roll on the Wand Instability Table. On a 1, Shinebright becomes a Gibbering Mout
 - Shinebright's estate (the tower, lab equipment worth ~1,000 gp) passes to the Wardens by his spoken promise
 - The archive still exists and can still be found
 - Lorewarden Elric receives the news badly
-- **Aeorian Echo outcome:** Partial — party learns magic is unstable, but lost their best ally
+- **Aevorian Echo outcome:** Partial — party learns magic is unstable, but lost their best ally
 
 ---
 \column
@@ -1229,10 +1229,10 @@ If Shinebright was restored and accompanies the party: ::
 {{descriptive
 Elric greets him with a handshake that becomes an embrace. They have been writing to each other for eight months. Neither will admit to being relieved the other is alive.
 *Shinebright adjusts his robes and clears his throat.*::
-"The archive is intact. I was careful. Everything I documented — the anomaly sites, the resonance patterns, the partial Aeorian translations — it is all there."
+"The archive is intact. I was careful. Everything I documented — the anomaly sites, the resonance patterns, the partial Aevorian translations — it is all there."
 
 *A pause.*
-"I should mention: I've been teaching myself to read pre-Calamity inscription for eighteen months. I am moderately good at it."
+"I should mention: I've been teaching myself to read pre-Fall inscription for eighteen months. I am moderately good at it."
 
 **Elric stares at him.**
 "That," he says carefully, "is the most useful thing anyone has said to me this year."
@@ -1257,7 +1257,7 @@ The frontier is changing. Magic that was reliable is not. People who were safe a
 
 \page
 
-### Aeorian Echo Foreshadowing
+### Aevorian Echo Foreshadowing
 
 *Use these throughout the adventure:*
 
@@ -1279,7 +1279,7 @@ The most important note: **this is a comedy adventure. Play it that way.**
 
 ### Adventure Overview (DM Lens)
 
-**Theme:** Magic behaving unpredictably — the Aeorian Echo corrupts artifacts.
+**Theme:** Magic behaving unpredictably — the Aevorian Echo corrupts artifacts.
 **Core Tension:** A polymorphed wizard needs the wand that transformed him to undo it — and that wand is in the hands of a paranoid, overmatched villain.
 **Tone:** Absurdist comedy with genuine campaign stakes underneath.
 **Level Range:** 1–2 (scalable to 4–5).
@@ -1410,7 +1410,7 @@ The most important note: **this is a comedy adventure. Play it that way.**
 - [ ] Decide on Guz's personality voice — dim-witted thug, loyal to Noke
 - [ ] Decide on Noke's personality voice — hammy villain, overconfident
 - [ ] Mark key comedy moments (sheep with scroll, bear reveal, wand backfires)
-- [ ] Review Aeorian Echo foreshadowing lines (p. XX)
+- [ ] Review Aevorian Echo foreshadowing lines (p. XX)
 
 ## Day Before Session
 
@@ -1425,7 +1425,7 @@ The most important note: **this is a comedy adventure. Play it that way.**
   - [ ] Flying Sword (this document)
   - [ ] Animated Armor (this document)
   - [ ] Gibbering Mouther (this document)
-- [ ] Print/bookmark Finethir Shinebright stats (use Pony MM p325, INT/WIS 18/14)
+  - [ ] Print/bookmark Finethir Shinebright stats (use Pony stats with INT/WIS 18/14)
 - [ ] Prepare Wand Instability Table (p. XX) — consider a physical d6 to roll visibly
 - [ ] Review chase scene rules (DMG p252) OR prepare a 3-check skill challenge
 - [ ] Decide on tower layout approach (use quick map below)
@@ -1561,7 +1561,7 @@ DC 17 Arcana: :: Wand fires cleanly (DC increases by 1 after each use)
 - Noke Fight: Noke + 2 Animated Armor (staircase landing)
 
 #### **Higher Levels (4–5):**
-- Add polymorphed tigers (Tiger, MM p339)
+  - Add polymorphed tigers (Tiger)
 - Noke gains legendary actions (Move, Cantrip, Polymorph Ray)
 - Guz gains Berserker's Frenzy trait
 
@@ -1604,7 +1604,7 @@ DC 17 Arcana: :: Wand fires cleanly (DC increases by 1 after each use)
 - Archive access (if discovered)
 - Wand (cursed — party's choice)
 
-#### Aeorian Artifact Examples 
+#### Aevorian Artifact Examples 
 **(from Tower Loot):**::
 
 - **Noke's Spellbook:** *polymorph*, *fly*, *enlarge/reduce*, *detect magic*, *identify*
@@ -1682,11 +1682,11 @@ DC 17 Arcana: :: Wand fires cleanly (DC increases by 1 after each use)
 This adventure reinforces that the frontier's instability is widespread, not isolated. By completing this adventure alongside Wolves of Welton, players should recognize that every settlement is vulnerable to the Echo's effects. The arc concludes with the Wardens understanding they face a regional threat requiring investigation, not just local problem-solving. This sets up the transition to Arc 2's revelation.
 
 #### **Campaign Connection:** 
-This adventure shows the **human cost** of the Aeorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
+This adventure shows the **human cost** of the Aevorian Echo. While Pinebrook's troubles may seem minor compared to awakened wolves or deadly diseases, they reveal how the destabilizing frontier affects every settlement.
 
 {{note
 #### **Player Discovery:** 
-Characters should uncover crime and corruption in Pinebrook, but the deeper Aeorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
+Characters should uncover crime and corruption in Pinebrook, but the deeper Aevorian artifact smuggling angle should only emerge through careful investigation. This adventure emphasizes that **every settlement is vulnerable** to the Echo's effects.
 }}
 #### **Leads To:**
 - **Future campaigns:** Artifact smuggling networks 
@@ -1696,16 +1696,16 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 ##### **DM Secret Resources:** For the truth behind this adventure, see:
 - **Chapter 6: Places Secrets** — "Pinebrook: Commerce and Conspiracy" section
 - **Chapter 6: Northreach Secrets** — Adventure integration details
-- **Chapter 6: The Aeorian Echo** — Campaign arc context
+- **Chapter 6: The Aevorian Echo** — Campaign arc context
 }}
 
 \column
 ### **Key Secrets:**
 {{note
-- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aeorian artifacts
+- Torven Grimley (trading post owner) is an **Blackwake Corsairs fence** handling stolen Aevorian artifacts
 - Merryn Pine (lodge owner) is an **information broker** who knows about the artifact smuggling
 - The market square contains **dead drop locations** for conspirators
-- An abandoned logging camp north of Pinebrook was closed after workers **found something Aeorian**
+- An abandoned logging camp north of Pinebrook was closed after workers **found something Aevorian**
 - This is a **smuggling hub** moving dangerous artifacts through the frontier
 }}
 
@@ -1720,17 +1720,17 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 }}
 {{note
 ##### **Secondary Clue — Artifact Smuggling:**
-- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aeorian artifacts
+- If players thoroughly investigate Torven Grimley's trading post, they find hidden Aevorian artifacts
 - **Discovery Method:** Investigation DC 15 in trading post, questioning Torven (Intimidation/Persuasion DC 14)
 - **Discovery:** Small metallic objects with geometric patterns, faintly magical (transmutation aura)
-- **Connects to:** Frozen Sick (artifacts from Salsvault being smuggled), future conspiracy threads
+- **Connects to:** The Pale Sickness (artifacts from Salsvault being smuggled), future conspiracy threads
 }}
 {{note
 #### **Tertiary Clue — Information Brokering:**
 - Merryn Pine (lodge owner) knows about unusual traffic through Pinebrook — merchants avoiding main roads
 - **Discovery Method:** Social interaction, Persuasion DC 13 or offering coin (50+ gp)
 - **Discovery:** "People have been moving strange goods north and south — paying well for discretion"
-- **Connects to:** Black market networks responding to Aeorian discoveries
+- **Connects to:** Black market networks responding to Aevorian discoveries
 }}
 
 {{pageNumber,auto}}
@@ -1741,7 +1741,7 @@ Characters should uncover crime and corruption in Pinebrook, but the deeper Aeor
 ### Investigation Thread Summary
 
 **If players complete this adventure, they learn:**
-1. The Aeorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
+1. The Aevorian Echo's effects extend beyond direct magical phenomena — social disruption, crime, desperation
 2. Opportunists are exploiting the chaos (smuggling, profiteering, corruption)
 3. Frontier settlements lack resources to handle escalating problems
 4. The Northwatch Wardens' role is vital for maintaining stability

@@ -11,17 +11,17 @@
 
 **CAMPAIGN SPOILERS: Northreach Regional Secrets**
 
-This document contains DM-only information about Northreach and the Aeorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
+This document contains DM-only information about Northreach and the Aevorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
 
 # Northreach: DM Secrets
 
-## The Aeorian Echo
+## The Aevorian Echo
 
 ### What It Is
-A spreading wave of arcane disturbance emanating from Salsvault and other buried Aeorian facilities. Ancient magic awakening after millennia of dormancy, leaking outward through stone and earth, affecting everything it touches.
+A spreading wave of arcane disturbance emanating from Salsvault and other buried Aevorian facilities. Ancient magic awakening after millennia of dormancy, leaking outward through stone and earth, affecting everything it touches.
 
 ### Observable Effects
 - **Intelligence awakening** in animals (Welton wolves)
@@ -40,7 +40,7 @@ The Echo spreads in concentric rings from Salsvault, with intensity decreasing b
 5. **Frontier edge:** Subtle changes, dismissed as coincidence
 
 ### Mystery Structure
-The Aeorian Echo operates as the campaign's central mystery, with revelations designed to work in any order:
+The Aevorian Echo operates as the campaign's central mystery, with revelations designed to work in any order:
 
 **Early clues:**
 - Strange animal behavior
@@ -49,7 +49,7 @@ The Aeorian Echo operates as the campaign's central mystery, with revelations de
 - Ancient sites becoming active
 
 **Mid-campaign revelations:**
-- Aeorian origin discovered
+- Aevorian origin discovered
 - Pattern of spreading effects recognized
 - Multiple sites identified
 - Faction involvement exposed
@@ -65,7 +65,7 @@ The Aeorian Echo operates as the campaign's central mystery, with revelations de
 No matter which adventures players complete first, they accumulate pieces of the puzzle:
 
 - **Wolves of Welton:** Intelligence awakening (symptom)
-- **Frozen Sick:** Aeorian spores and active ruins (source)
+- **The Pale Sickness:** Aevorian spores and active ruins (source)
 - **Temple of Dragonknights:** Faction exploitation (consequence)
 - **Wild Sheep Chase:** Magic destabilizing (symptom)
 - **Peril in Pinebrook:** Community vulnerability (impact)
@@ -85,11 +85,11 @@ No matter which adventures players complete first, they accumulate pieces of the
 - **Resolution Paths:** Combat, negotiation, deception
 - **Impact:** First undeniable evidence of unnatural change
 
-**Frozen Sick** (Levels 2-4)
-- **Adventure Module:** See **Chapter 5: Frozen Sick**
+**The Pale Sickness** (Levels 2-4)
+- **Adventure Module:** See **Chapter 5: The Pale Sickness**
 - **Location:** Palebank Village, Croaker Cave, Salsvault
 - **Hook:** Mysterious illness spreading
-- **Discovery:** Aeorian spores from active ruins
+- **Discovery:** Aevorian spores from active ruins
 - **Echo Connection:** Direct exposure to source facility
 - **Resolution Paths:** Find cure, contain outbreak, explore ruins
 - **Impact:** Identifies Salsvault as origin point
@@ -225,9 +225,8 @@ Organizations from other regions notice Northreach:
 
 ---
 
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Northreach: DM Secrets}}
 
 \page
 
@@ -241,7 +240,7 @@ Organizations from other regions notice Northreach:
 - Lorewarden Vael was expelled from Solaris academy
 
 **About Salsvault:**
-- Pre-Calamity research facility, not just ruins
+- pre-Fall research facility, not just ruins
 - Contains active AI/intelligence directing reawakening
 - Multiple facilities exist across the continent
 - Salsvault is regional node in larger network
@@ -261,7 +260,7 @@ Organizations from other regions notice Northreach:
 
 ### Revelation Timing
 - **Tier 1 (1-4):** Local mysteries, undeniable strangeness
-- **Tier 2 (5-10):** Aeorian origin, spreading pattern
+- **Tier 2 (5-10):** Aevorian origin, spreading pattern
 - **Tier 3 (11-16):** Full network revealed, other regions affected
 - **Tier 4 (17-20):** Source confronted, continental resolution
 
@@ -306,7 +305,7 @@ Organizations from other regions notice Northreach:
 - Competent heroes facing impossible odds
 
 **Core Mysteries:**
-- What is causing the changes? (Aeorian Echo from Salsvault)
+- What is causing the changes? (Aevorian Echo from Salsvault)
 - How far does it spread? (Continental network)
 - Why now? (Deliberate reactivation)
 - Can it be stopped? (Campaign question)
@@ -343,7 +342,7 @@ Each region document includes:
 - **Overview and history**
 - **Geography and key locations**
 - **Cultural details and factions**
-- **Connection to the Aeorian Echo**
+- **Connection to the Aevorian Echo**
 - **Adventure hooks and complications**
 - **NPCs and organizations**
 - **Secrets and revelations**
@@ -368,11 +367,8 @@ Each region document includes:
 
 ---
 
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Northreach: DM Secrets}}
 
 \page
 
@@ -399,7 +395,7 @@ Each region document includes:
 
 ### Tier 4 (Levels 17-20): Epic Conclusion
 - Coordinate responses across multiple regions
-- Confront the source of the Aeorian Echo
+- Confront the source of the Aevorian Echo
 - Shape the future of the Known World
 - Resolve the continental threat
 
@@ -426,7 +422,7 @@ Each region document includes:
 
 ### Non-Negotiable Elements
 - **Northreach geography:** All canonical locations remain fixed
-- **Aeorian Echo:** Central mystery originates from Salsvault
+- **Aevorian Echo:** Central mystery originates from Salsvault
 - **Guild structure:** Wardens remain campaign hub
 - **Adventure integration:** All existing modules fit seamlessly
 - **Tone and atmosphere:** Grounded frontier mystery
@@ -440,11 +436,8 @@ Each region document includes:
 
 ---
 
-
-
-
 {{pageNumber,auto}}
-{{footnote [MarkdownFirstLevelHeading]}}
+{{footnote Northreach: DM Secrets}}
 
 \page
 
@@ -454,7 +447,7 @@ Each region document includes:
 
 **For world-building:** Reference individual region files as needed.
 
-**For mystery connections:** See each region's "Aeorian Echo Connection" section.
+**For mystery connections:** See each region's "Aevorian Echo Connection" section.
 
 **For campaign planning:** Use the escalation guide and regional summary matrix.
 

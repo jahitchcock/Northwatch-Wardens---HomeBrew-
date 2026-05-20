@@ -1,9 +1,9 @@
 <!--
-  Tags: Arc, Faction, Warden, Season-1, Northreach, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Arc, Faction, Warden, Season-1, Northreach, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Arc
   Region: Northreach
-  Linked: arcs/Season_1_The_Aeorian_Echo.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+  Linked: arcs/Season_1_The_Aevorian_Echo.md, World Building/DMEyesOnly/The_Aevorian_Echo.md
 -->
 
 {{note
@@ -23,8 +23,8 @@ This document contains the complete campaign structure and mystery reveals. **DO
 **📚 DM Resources**
 
 For deeper secrets and campaign mechanics, see:
-- **Chapter 6: The Dimensional Rift** — How Aeorian ruins reached Aevoria (foundational lore)
-- **Chapter 6: The Aeorian Echo** — Complete Echo documentation
+- **Chapter 6: The Dimensional Rift** — How Aevorian ruins reached Aevoria (foundational lore)
+- **Chapter 6: The Aevorian Echo** — Complete Echo documentation
 - **Chapter 6: Northreach Secrets** — Adventure integration details
 - **Chapter 6: Places Secrets** — Location-specific secrets
 
@@ -35,7 +35,7 @@ For deeper secrets and campaign mechanics, see:
 Across the frontier, **ancient magic is waking up** — not in one place, but everywhere.
 Each adventure the players take is a *symptom* of a deeper, spreading disturbance:
 
-**The Aeorian Echo**
+**The Aevorian Echo**
 
 A ripple of unstable arcane energy — originating from the buried ruins of **Salsvault** deep beneath The Far North — has begun to:
 
@@ -45,7 +45,7 @@ A ripple of unstable arcane energy — originating from the buried ruins of **Sa
 - stir old spirits and forgotten guardians (Peril in Pinebrook)
 
 **What the Wardens Don't Know Yet:**
-Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aeor** from another world (Wildemount/Exandria), displaced across dimensions during Aeor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
+Salsvault isn't native to Aevoria. It's a fragment of the ancient flying city **Aevor** from another world, displaced across dimensions during Aevor's catastrophic fall. The ruins sat dormant beneath glaciers for centuries—**until something triggered their reactivation ~2-3 months ago**.
 
 The Wardens don’t know this yet.
 But every contract they take is another puzzle piece.
@@ -60,7 +60,7 @@ Below is the “why it matters” for each adventure, independent of order.
 **1. Wolves of Welton — The First Contract**
 
 **Theme:** Intelligence awakening where it shouldn’t.
-**Arc Connection:** The wolves’ sudden sentience is the *first visible sign* of the Aeorian Echo.
+**Arc Connection:** The wolves’ sudden sentience is the *first visible sign* of the Aevorian Echo.
 
 - Alexi Merriksonn (missing sorcerer) was exposed to the Echo.
 - His accidental magical discharge awakened the wolves.
@@ -72,19 +72,19 @@ The Wardens learn that something is *changing the frontier itself*.
 This is the campaign’s inciting incident.
 
 
-**2. Frozen Sick — The First Major Threat**
+**2. The Pale Sickness — The First Major Threat**
 
 **Theme:** Ancient magic resurfacing with deadly consequences.
 **Arc Connection:** This is the **source** of the Echo.
 
-- The blue vials contain Aeorian spores.
+- The blue vials contain Aevorian spores.
 - The disease is a byproduct of the same arcane instability that awakened the wolves.
 - Salsvault’s malfunctioning systems are still pulsing magical energy into the region.
 
 **Outcome:**
 The Wardens discover:
 
-- Aeor is real.
+- Aevor is real.
 - Its ruins are active.
 - Its magic is leaking into the world.
 
@@ -157,7 +157,7 @@ This is the campaign’s *worldbuilding anchor*.
 
 ↓
 
-**Frozen Sick reveals the source.**
+**The Pale Sickness reveals the source.**
 
 ↓
 
@@ -182,7 +182,7 @@ The order doesn’t matter because each adventure:
 
 **CAMPAIGN ARC STRUCTURE**
 
-While adventures can be played in any order due to their modular nature, they naturally group into three thematic arcs that track the Wardens' growing understanding of the Aeorian Echo and their role in protecting the frontier.
+While adventures can be played in any order due to their modular nature, they naturally group into three thematic arcs that track the Wardens' growing understanding of the Aevorian Echo and their role in protecting the frontier.
 
 ## Arc 1: First Signs — Learning the Land
 **Theme:** The Wardens establish themselves as a frontier guild while encountering their first signs that something is awakening across Northreach. Strange events that seem unrelated slowly reveal an underlying pattern of magical disturbance.
@@ -199,7 +199,7 @@ While adventures can be played in any order due to their modular nature, they na
 
 **What Players Know:** Something magical is causing impossible changes. The effect is spreading. No one knows why.
 
-**What Players Don't Know Yet:** The source (Salsvault), the cause (Aeorian ruins), or the scope (regional, not local).
+**What Players Don't Know Yet:** The source (Salsvault), the cause (Aevorian ruins), or the scope (regional, not local).
 
 ---
 
@@ -207,19 +207,19 @@ While adventures can be played in any order due to their modular nature, they na
 **Theme:** The mystery deepens as the Wardens uncover ancient connections. What seemed like random magical disturbances reveals itself as symptoms of a far older, more dangerous source. The Wardens transition from frontier protectors to investigators of an ancient secret.
 
 **Adventures:**
-- **Frozen Sick** — The revelation (Salsvault discovery)
+- **The Pale Sickness** — The revelation (Salsvault discovery)
 - **Wild Sheep Chase** — Magical destabilization (Echo effects spreading)
 
 **Arc Progress Marker:** By the end of Arc 2, the Wardens should understand that:
-- The source is Salsvault, an ancient Aeorian laboratory buried in The Far North
+- The source is Salsvault, an ancient Aevorian laboratory buried in The Far North
 - All previous magical disturbances trace back to Salsvault's reactivation
 - The facility was deliberately triggered (not natural awakening)
-- Aeorian magic is fundamentally different from modern wizardry — older, more powerful, more dangerous
+- Aevorian magic is fundamentally different from modern wizardry — older, more powerful, more dangerous
 - This problem is far bigger than they initially realized
 
-**What Players Know:** Salsvault is the source. It's Aeorian. It's active. Someone turned it on deliberately.
+**What Players Know:** Salsvault is the source. It's Aevorian. It's active. Someone turned it on deliberately.
 
-**What Players Don't Know Yet:** Who activated Salsvault and why. Whether other Aeorian facilities exist. What can be done to stop it.
+**What Players Don't Know Yet:** Who activated Salsvault and why. Whether other Aevorian facilities exist. What can be done to stop it.
 
 ---
 
@@ -227,21 +227,21 @@ While adventures can be played in any order due to their modular nature, they na
 \page
 
 ## Arc 3: Convergence — Rising Threats
-**Theme:** With the source revealed, dangerous factions mobilize to exploit or control the awakening magic. The Wardens must protect the frontier from those who would weaponize the Aeorian Echo while investigating who triggered the ancient ruins and why.
+**Theme:** With the source revealed, dangerous factions mobilize to exploit or control the awakening magic. The Wardens must protect the frontier from those who would weaponize the Aevorian Echo while investigating who triggered the ancient ruins and why.
 
 **Adventures:**
 - **Temple of the Dragonknights** — Corruption and ambition (factions exploiting the Echo)
 
 **Arc Progress Marker:** By the end of Arc 3, the Wardens should recognize that:
 - Intelligent predators (dragons, cults, ambitious wizards) are drawn to the rising magic
-- Multiple factions are aware of the Aeorian Echo and seeking to exploit it
+- Multiple factions are aware of the Aevorian Echo and seeking to exploit it
 - The frontier is caught between ancient dangers awakening and modern threats mobilizing
 - The Wardens are uniquely positioned to investigate, mediate, or confront these converging forces
 - Their choices will shape the frontier's future
 
 **What Players Know:** Dragons, cults, and wizards are all being drawn to the Echo. The frontier is becoming a battleground. The Wardens must decide their role.
 
-**What Players Don't Know Yet:** The full extent of Aeorian facilities. The identity of whoever triggered Salsvault. Whether the Echo can be stopped or contained.
+**What Players Don't Know Yet:** The full extent of Aevorian facilities. The identity of whoever triggered Salsvault. Whether the Echo can be stopped or contained.
 
 ---
 
@@ -271,7 +271,7 @@ The guild structure is the glue that makes the modular format work.
 **Every session ends with:**
 
 - A report to the guild
-- A new clue about the Aeorian Echo
+- A new clue about the Aevorian Echo
 - A sense of growing responsibility
 
 This keeps the campaign cohesive even when the cast changes week to week.
@@ -281,14 +281,14 @@ This keeps the campaign cohesive even when the cast changes week to week.
 
 As the Wardens complete contracts, they uncover:
 
-**1. The Aeorian Echo is growing stronger.**
+**1. The Aevorian Echo is growing stronger.**
 
 More mutations. More magical anomalies. More cult activity.
 
 **2. Something in Salsvault is still active.**
 
 A malfunctioning arcane engine?
-A surviving Aeorian intelligence?
+A surviving Aevorian intelligence?
 A containment breach?
 
 **3. Factions are mobilizing.**
@@ -312,7 +312,7 @@ A multi‑session arc returning to **The Far North** to confront the true source
 
 **In One Sentence**
 
-**The campaign is about a frontier guild discovering that ancient Aeorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
+**The campaign is about a frontier guild discovering that ancient Aevorian magic (displaced from another world) is awakening across the land, mutating creatures, empowering villains, destabilizing spells, and forcing the Wardens to rise as the only force capable of holding the frontier together.**
 
 
 \page
@@ -367,7 +367,7 @@ Steward Mara Fenwick enters with a new contract. "Speaking of which, we've recei
 ## Transition 2: Arc 2 → Arc 3
 ### "Word Spreads"
 
-**When to Use:** After players complete Frozen Sick (the revelation adventure) and before starting Arc 3.
+**When to Use:** After players complete The Pale Sickness (the revelation adventure) and before starting Arc 3.
 
 **Setting:** Two weeks after the Salsvault expedition, in the Waystone Inn's newly designated "War Room."
 
@@ -381,9 +381,9 @@ Lorewarden Elric nods gravely. "I've received three separate inquiries in the pa
 
 Steward Mara adds, "We're also seeing an increase in unusual travelers passing through Northreach. Wizards. Mercenary companies. People asking questions about ancient ruins."
 
-Brenna's expression is grim. "Whatever you found in Salsvault, whatever the Aeorian Echo really is—people with power want it. Dragons, cults, ambitious wizards... they're all drawn to rising magic like wolves to wounded prey."
+Brenna's expression is grim. "Whatever you found in Salsvault, whatever the Aevorian Echo really is—people with power want it. Dragons, cults, ambitious wizards... they're all drawn to rising magic like wolves to wounded prey."
 
-She meets each Warden's eyes. "The frontier is about to become much more dangerous. Not from beasts or bandits, but from people who see Aeorian magic as a weapon or a prize. We need to be ready."
+She meets each Warden's eyes. "The frontier is about to become much more dangerous. Not from beasts or bandits, but from people who see Aevorian magic as a weapon or a prize. We need to be ready."
 
 A new contract is pinned to the board: reports of cult activity near a temple in the mountains, and rumors of a dragon's interest in the region.
 }}
@@ -417,7 +417,7 @@ Marshal Brenna joins the Wardens on the balcony, two mugs of hot cider in hand. 
 
 "You've done well," Brenna says quietly. "Better than I dared hope when we first opened these doors. You've saved Welton from awakened wolves. Protected Pinebrook. Uncovered the truth at Salsvault. Stopped a dragon cult from creating a dracolich." She pauses. "Most guilds would be celebrating. But you... you understand what's really at stake, don't you?"
 
-She gazes out at the frontier. "The Aeorian Echo isn't going away. Salsvault is still active, still pulsing magic into the region. There are other facilities out there—we just don't know where yet. And now that word has spread, every ambitious wizard, power-hungry noble, and territorial dragon knows there's ancient magic for the taking."
+She gazes out at the frontier. "The Aevorian Echo isn't going away. Salsvault is still active, still pulsing magic into the region. There are other facilities out there—we just don't know where yet. And now that word has spread, every ambitious wizard, power-hungry noble, and territorial dragon knows there's ancient magic for the taking."
 
 Brenna turns to face the Wardens fully. "The frontier needs protectors who understand what's coming. The Northwatch Wardens started as a simple idea: help people who can't help themselves. But you've become something more. You're the ones who stand between desperate settlements and ancient dangers. Between greedy factions and catastrophic power."
 
@@ -425,7 +425,7 @@ She raises her mug. "To the Wardens. To the frontier. And to whatever comes next
 
 As the Wardens drink, Lorewarden Elric emerges onto the balcony, wrapped in a heavy cloak. "I hate to interrupt the moment," he says, "but I've been corresponding with scholars in Solaris. There are... theories about why Salsvault activated when it did. And some of those theories suggest this is just the beginning." He looks at the Wardens with a mixture of concern and hope. "We'll need you for what's ahead."
 
-In the distance, barely visible through the falling snow, strange lights flicker on the northern horizon—a reminder that the Aeorian Echo continues its work.
+In the distance, barely visible through the falling snow, strange lights flicker on the northern horizon—a reminder that the Aevorian Echo continues its work.
 }}
 
 \column

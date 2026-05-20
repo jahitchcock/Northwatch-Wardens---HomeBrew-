@@ -27,7 +27,7 @@ Standardized to Master Adventure Template v3
 | **Key NPCs** | **Marshal Brenna Thorne** (guild leader) • **Veteran Scout** (party guide) • **Steward Mara Fenwick** (quartermaster) • **Lorewarden Elric Vael** (scholar) • **Father Merriksonn** (cleric, NPC hook) |
 | **Combat Encounters** | 2 (cold-open wolves, optional bandits on road) |
 | **Non-Combat Encounters** | 3+ (charter ceremony, contract briefing, party bonding) |
-| **Mystery Clues** | Unusual frost, cold humming buckle (Aeorian Echo introduction) |
+| **Mystery Clues** | Unusual frost, cold humming buckle (Aevorian Echo introduction) |
 | **Hook to Next Adventure** | **Wolves of Welton** contract (800 gp reward, full campaign hook) |
 | **Prep Time** | 30–45 minutes |
 | **Materials** | NPC cards (Brenna, Scout, Merriksonn), stat blocks (wolves, bandits), contract documents, party formation mechanics |
@@ -43,7 +43,7 @@ The **Opening Scenarios Framework** is not a single adventure but a **structured
 1. **Establish party cohesion** — Bring together individual player characters into a functioning team
 2. **Introduce campaign tone** — Grounded, frontier-focused, morally complex
 3. **Teach game mechanics** — Combat, skill checks, investigation, social encounters
-4. **Plant first mystery** — Whispers of the Aeorian Echo (geometric frost, wrong magic)
+4. **Plant first mystery** — Whispers of the Aevorian Echo (geometric frost, wrong magic)
 5. **Launch first mission** — **Wolves of Welton** becomes the party's first contract
 
 ### Campaign Context
@@ -574,7 +574,7 @@ If party investigates the frost patterns thoroughly:
 
 **DC 12 Arcana:** Identify the humming as **magical resonance** (similar to aura but tactile/auditory).
 
-**Implication:** Something magical is corrupting the natural world—trees, stones, cloth. This is the **Aeorian Echo's first manifestation**.
+**Implication:** Something magical is corrupting the natural world—trees, stones, cloth. This is the **Aevorian Echo's first manifestation**.
 
 **Scout's Reaction:**
 > *The scout's expression hardens. "I've heard reports of this. Three others described the same wrongness. Whatever it is, it's spreading." She carefully wraps the cloth in leather and pockets it. "We report this to Brenna."*
@@ -697,7 +697,7 @@ Scout leads party south toward Welton:
 ✅ Party introduced & formed  
 ✅ Guild induction & charter signed  
 ✅ First mission assigned (Wolves of Welton)  
-✅ Mystery clues planted (Aeorian Echo)  
+✅ Mystery clues planted (Aevorian Echo)  
 ✅ Team competence established (wolf combat success)  
 ✅ Forward camp established as base  
 ✅ Campaign proper about to launch  
@@ -757,7 +757,7 @@ Scout leads party south toward Welton:
 **Abilities:**
 - **Spell Casting:** Can cast *Detect Magic*, *Identify*, divination spells (supporting role)
 - **Lore Knowledge:** Knows history, magic, ancient mysteries
-- **Mystery Connection:** Hints at larger patterns (Aeorian Echo)
+- **Mystery Connection:** Hints at larger patterns (Aevorian Echo)
 
 **Key Dialogue:**
 - "Magic is stirring, and we need people who can think."
@@ -854,7 +854,7 @@ Scout leads party south toward Welton:
 
 The Opening Scenarios are **direct prelude** to the **Wolves of Welton** adventure:
 - Cold-open wolves are foreshadowing (awakened intelligence, organized behavior)
-- Aeorian Echo clues (frost, humming metal) establish larger mystery
+- Aevorian Echo clues (frost, humming metal) establish larger mystery
 - Party receives contract directly for Wolves adventure
 - Forward Camp becomes base for Welton operations
 
@@ -940,7 +940,7 @@ After completing Opening Scenarios Scene 3, immediately launch into **Wolves of 
 
 **Arc 1: Awakening**
 - Wolves of Welton (investigation begins)
-- Frozen Sick (magic confirmed)
+- The Pale Sickness (magic confirmed)
 
 **Arc 2: Revelation**
 - Wild Sheep Chase (lightness before darkness)
@@ -960,7 +960,7 @@ After completing Opening Scenarios Scene 3, immediately launch into **Wolves of 
 - [ ] Party collectively understands guild structure
 - [ ] Party has accepted Wolves of Welton contract
 - [ ] Party possesses equipment for adventure
-- [ ] Party recognizes Aeorian Echo mystery thread
+- [ ] Party recognizes Aevorian Echo mystery thread
 - [ ] Party has identified NPC contacts (Scout, Brenna, Elric)
 - [ ] All players confident in next step (Wolves of Welton)
 - [ ] Campaign tone established (grounded, professional, mysterious)

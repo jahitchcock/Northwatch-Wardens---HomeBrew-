@@ -3,7 +3,7 @@
   Status: Canon
   Type: Arc
   Region: Northreach
-  Linked: arcs/Season_1_The_Aeorian_Echo.md, World Building/DMEyesOnly/The_Aeorian_Echo.md
+  Linked: arcs/Season_1_The_Aevorian_Echo.md, World Building/DMEyesOnly/The_Aevorian_Echo.md
 -->
 
 # Northwatch Wardens: Season One — The Story So Far
@@ -33,14 +33,14 @@ Use this as the living continuity log for actual play. Update it after each sess
 | Session | Real Date | In‑Game Date | Location(s) | Summary | Consequences / Notes |
 |---:|---|---|---|---|---|
 | 0 |  |  |  | Campaign kickoff notes |  |
-| 1 | 2026-01-25 |  | Welton | Wolves of Welton contract completed via negotiation; truce established. | Level 2 reached; “Aeorian” clue found; Bolt/Flame alive; return to Waystone Inn pending. |
+| 1 | 2026-01-25 |  | Welton | Wolves of Welton contract completed via negotiation; truce established. | Level 2 reached; “Aevorian” clue found; Bolt/Flame alive; return to Waystone Inn pending. |
 
 ### Session 1 Notes — Wolves of Welton Resolution
 - **Resolution:** Negotiation (no final-battle slaughter); the party secured a **council vote** approving a **tentative truce** with the awakened wolves.
 - **Mercy shown:** The wolf pups were spared.
 - **Political outcome:** Tillus Merrion backed the truce after the vote.
 - **Awakened Wolves:** Bolt and Flame both survived; the faction remains a potential future threat if relations sour.
-- **Aeorian Echo:** The party recovered a note from Alexi written in indecipherable magical shorthand; the word **“Aeorian”** was legible.
+- **Aevorian Echo:** The party recovered a note from Alexi written in indecipherable magical shorthand; the word **“Aevorian”** was legible.
 - **Advancement:** Party reached **Level 2** at contract end.
 - **Treasure:** 800 gp total, split three ways (266 gp each; 2 gp held as party funds or assigned later).
 - **Next objective:** Travel back to Waystone Inn and report in to the Wardens.
@@ -55,9 +55,9 @@ Use this as the living continuity log for actual play. Update it after each sess
 
 ## Major Threads (track status)
 
-### Aeorian Echo (campaign throughline)
-- **What’s known:** A note attributed to Alexi uses indecipherable magical shorthand; the party could make out the word “Aeorian.”
-- **Loose ends:** Who is Alexi? What does “Aeorian” refer to in the Northreach frontier? How to decode the shorthand?
+### Aevorian Echo (campaign throughline)
+- **What’s known:** A note attributed to Alexi uses indecipherable magical shorthand; the party could make out the word “Aevorian.”
+- **Loose ends:** Who is Alexi? What does “Aevorian” refer to in the Northreach frontier? How to decode the shorthand?
 - **Status:** ☐ Dormant ☒ Active ☐ Resolved
 
 ### Wolves of Welton
@@ -66,7 +66,7 @@ Use this as the living continuity log for actual play. Update it after each sess
 
 **Current state:** Contract completed, but the peace is fragile. The party negotiated a tentative truce with the awakened wolves; Bolt and Flame both survived.
 
-### Frozen Sick (Frigid Woe)
+### The Pale Sickness (Frigid Woe)
 - **Key events to track:** Urgon’s death/funeral, Tulgi’s confession, Croaker Cave, Salsvault, antidote handling.
 - **Status:** ☐ Not started ☐ In progress ☐ Resolved
 
@@ -106,9 +106,9 @@ Use this as the living continuity log for actual play. Update it after each sess
 \column
 
 ### Other
-- Alexi — Left a note in magical shorthand; “Aeorian” was legible.
+- Alexi — Left a note in magical shorthand; “Aevorian” was legible.
 
-### Palebank Village / Frozen Sick
+### Palebank Village / The Pale Sickness
 - Pelc — 
 - Tulgi — 
 - Urgon — 
@@ -163,7 +163,7 @@ Use this section as a quick reference for what the prepared material covers. Rep
 - **Opening Skirmish (Waystone Inn):** 2 starving wolves attack outside the inn at dusk.
 - **The Morning After:** charter signing ceremony; first contract assignment (Wolves of Welton).
 - **Wolves of Welton:** road ambush; Welton social/investigation; plan and travel; optional injured owlbear; den battle with Flame/Bolt; optional council clash.
-- **Frozen Sick:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to the Cold Anchor; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
+- **The Pale Sickness:** funeral/investigation; cabin interviews; Pelc’s Curiosities; Croaker Cave (ice frogs, bandits, Hulil/Raegrin); travel to the Cold Anchor; trek to Salsvault; security construct; lab/archives; containment vault; resolution and return.
 - **Temple of the Dragonknights:** kobolds vs guards; farm investigation; trail to cavern; cavern approach/puzzles; constructs; temple exploration; ritual chamber; final ritual with Venomfang.
 - **The Wild Sheep Chase:** Shinebright’s introduction; Guz and polymorphed guards; Noke’s Tower; compound; tower skirmish finale.
 - **Peril in Pinebrook:** investigation (troll tracks/missing patrols); baby silver dragon discovery; living icicles; egg snatchers; dragon alliance.

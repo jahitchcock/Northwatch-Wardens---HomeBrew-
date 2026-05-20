@@ -48,7 +48,7 @@ The Marches are lush, humid, and vibrant—a region where life flourishes with a
 ### Key Features
 
 #### The Elderbough Forest
-An ancient woodland where trees grow impossibly tall, their trunks as wide as houses and their canopies reaching toward the sky like cathedral spires. Druids claim some of these trees remember the world before the Calamity.
+An ancient woodland where trees grow impossibly tall, their trunks as wide as houses and their canopies reaching toward the sky like cathedral spires. Druids claim some of these trees remember the world before the Great Fall.
 
 **Terrain:** Dense old-growth forest  
 **Travel:** Difficult terrain; 1 mile per hour  

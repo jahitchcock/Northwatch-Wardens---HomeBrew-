@@ -28,8 +28,8 @@
 - Wolves of Welton — **153**
 - The Pale Sickness — **168**
 - Section 7: Salsvault — The Frozen Laboratory — **179**
-- DM Notes: The Wild Sheep Chase — **192**
-- DM Prep Checklist: The Wild Sheep Chase — **195**
+- DM Notes: The The Pale Sickness — **192**
+- DM Prep Checklist: The The Pale Sickness — **195**
 - Summary — **196**
 - Using This Adventure — **196**
 - Adventure Hooks — **196**

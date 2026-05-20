@@ -29,7 +29,7 @@
 | Wolves Contract | Any | 0.5 | ★☆☆☆☆ | Briefing | Brenna, Dornan | Plot setup | Potential threat | Adventure pickup |
 | **[Core Adventures]** | — | — | — | — | — | — | — | — |
 | Wolves of Welton | 1-3 | 2-3 | ★★☆☆☆ | Investigation | Dornan, Werethekau (Bolt/Flame) | Negotiation+Combat | Intelligence awakening | Council politics, pack choice |
-| Frozen Sick | 2-4 | 3-4 | ★★★★★ | Horror+Exploration | Tulgi, Urgon, Elro | Deep dive | Aeorian origin/Salsvault | Plague response, source knowledge |
+| The Pale Sickness | 2-4 | 3-4 | ★★★★★ | Horror+Exploration | Tulgi, Urgon, Elro | Deep dive | Aevorian origin/Salsvault | Plague response, source knowledge |
 | Temple of the Dragonknights | 4-5 | 4-5 | ★★★★☆ | Combat+Infiltration | Cult Leader, Venomfang | Escalation | Faction exploitation | Dragon/Cult fate |
 | Wild Sheep Chase | 1-2 | 1-2 | ★★☆☆☆ | Comedy | Finethir, Noke | Levity | Magic instability | Loot, memorable story |
 | Peril in Pinebrook | 1-3 | 2-3 | ★★★☆☆ | Investigation | Garthok, traders | Community focus | Fragility + manifestation | Settlement fate |
@@ -50,7 +50,7 @@
 - The Morning After (social setup)
 
 **Levels 2-4 (Mid):**
-- Frozen Sick (major horror/mystery push)
+- The Pale Sickness (major horror/mystery push)
 
 **Levels 4-5 (Advanced):**
 - Temple of the Dragonknights (climactic, faction warfare)
@@ -59,7 +59,7 @@
 
 **Investigation** (Figure it out):
 - Wolves of Welton
-- Frozen Sick
+- The Pale Sickness
 - Peril in Pinebrook
 
 **Combat** (Fight it):
@@ -73,7 +73,7 @@
 - Peril in Pinebrook (town politics)
 
 **Exploration**:
-- Frozen Sick (ruins crawl)
+- The Pale Sickness (ruins crawl)
 - Wild Sheep Chase (wilderness chase)
 
 **Comedy/Levity**:
@@ -92,14 +92,14 @@
 - Wolves of Welton (if second/third adventure)
 
 **Major Mystery** (★★★★☆ or higher):
-- Frozen Sick (★★★★★ — THE mystery revelation)
+- The Pale Sickness (★★★★★ — THE mystery revelation)
 - Temple of the Dragonknights (★★★★☆ — faction exploitation)
 
 **Recommended Play Order** (builds mystery naturally):
 1. Open Skirmish + Wolves of Welton (intro, first clue)
 2. Wild Sheep Chase (palate cleanser, magic instability hint)
 3. Peril in Pinebrook (mid-game, secondary mystery)
-4. Frozen Sick (revelation, answers main question)
+4. The Pale Sickness (revelation, answers main question)
 5. Temple of the Dragonknights (capstone, faction conflict)
 
 **Flexible Play Order** (adventures work in any sequence):
@@ -115,7 +115,7 @@
 | Adventure | Primary NPC | Role | Archetype |
 |-----------|-------------|------|-----------|
 | Wolves of Welton | Dornan (shepherd) / Werethekau (alpha wolf) | Victim / Antagonist | Innocent / Sympathetic villain |
-| Frozen Sick | Tulgi (healer) / Elro (scholar) | Helper / Guide | Ally / Mentor |
+| The Pale Sickness | Tulgi (healer) / Elro (scholar) | Helper / Guide | Ally / Mentor |
 | Temple DK | Cult Leader / Venomfang (dragon) | Mastermind / Force | Manipulator / Amoral predator |
 | Wild Sheep Chase | Finethir Shinebright / Noke (wizard) | Victim / Antagonist | Comedy victim / Arrogant mage |
 | Peril Pinebrook | Garthok (elder) / Mysterious trader | Helper / Complication | Ally / Mystery |
@@ -134,7 +134,7 @@
 
 **★★★★☆ (Major):** Adventure provides significant explanation. Players understand: "A larger force is at work."
 
-**★★★★★ (Central):** Adventure reveals core mystery. Players know: "Aeorian magic from ancient ruins is awakening and destabilizing the frontier."
+**★★★★★ (Central):** Adventure reveals core mystery. Players know: "Aevorian magic from ancient ruins is awakening and destabilizing the frontier."
 
 ---
 
@@ -146,7 +146,7 @@
 - **Wild Sheep Chase** — 1-2 sessions (light, can be played quick or extended)
 - **Wolves of Welton** — 2-3 sessions (investigation + combat)
 - **Peril in Pinebrook** — 2-3 sessions (shorter, good mid-campaign)
-- **Frozen Sick** — 3-4 sessions (longest, most complex)
+- **The Pale Sickness** — 3-4 sessions (longest, most complex)
 - **Temple of the Dragonknights** — 4-5 sessions (epic capstone, multiple paths)
 
 **Planning Tips:**
@@ -182,7 +182,7 @@ All adventures support 2-5 player scaling. Typical adjustments:
 3. **Relationship Changes** — How did NPCs react?
    - *Example:* "Brenna appreciates thorough investigation; Wardens respect party"
 4. **Mystery Progress** — What did players learn?
-   - *Example:* "Discovered Aeorian spores are source; know Salsvault exists but location unknown"
+   - *Example:* "Discovered Aevorian spores are source; know Salsvault exists but location unknown"
 5. **World Changes** — What happens next session?
    - *Example:* "Welton wolf pack now allies; Flame organizing eastern packs as rival faction"
 
@@ -197,8 +197,8 @@ All adventures support 2-5 player scaling. Typical adjustments:
 **"Party is Level 2. What should I run?"**
 → Wolves of Welton (standard) or Wild Sheep Chase (if want lighthearted)
 
-**"Party is Level 4. Haven't run Frozen Sick yet."**
-→ Run Frozen Sick (mystery revelation time) OR Temple (if more combat-focused)
+**"Party is Level 4. Haven't run The Pale Sickness yet."**
+→ Run The Pale Sickness (mystery revelation time) OR Temple (if more combat-focused)
 
 **"Party wants to skip Wolves of Welton."**
 → Go directly to any other adventure (all order-independent). Come back to Wolves later if you want.
@@ -207,10 +207,10 @@ All adventures support 2-5 player scaling. Typical adjustments:
 → Shift tone: If in serious investigations, run Wild Sheep Chase next. If they want challenge, go to Temple.
 
 **"I need to finish campaign soon."**
-→ Run Frozen Sick (mystery answered) then skip to Temple (capstone). Peril is optional.
+→ Run The Pale Sickness (mystery answered) then skip to Temple (capstone). Peril is optional.
 
 **"I want maximum mystery drama."**
-→ Run Frozen Sick LAST (maximum revelation). Start with Wolves, add others, save Frozen Sick for penultimate session.
+→ Run The Pale Sickness LAST (maximum revelation). Start with Wolves, add others, save The Pale Sickness for penultimate session.
 
 ---
 
@@ -237,7 +237,7 @@ Waystone Inn (Campaign Hub)
     │                  └─ Shepherd's Crook Inn
     │                  └─ Westly's Farm
     │
-    ├─ [5 days NE] → Palebank Village (Frozen Sick)
+    ├─ [5 days NE] → Palebank Village (The Pale Sickness)
     │                  └─ Jolly Dwarf Tavern
     │                  └─ Croaker Cave (bandit hideout)
     │                  └─ North to Salsvault (ancient ruins)
@@ -259,7 +259,7 @@ Waystone Inn (Campaign Hub)
 📍 **See full adventure modules in Chapter 5:**
 - **Opening Adventures:** Chapter 5 (Starting Point)
 - **Wolves of Welton:** Chapter 5 (Investigation adventure)
-- **Frozen Sick:** Chapter 5 (Horror/Revelation adventure)
+- **The Pale Sickness:** Chapter 5 (Horror/Revelation adventure)
 - **Temple of the Dragonknights:** Chapter 5 (Combat adventure)
 - **Wild Sheep Chase:** Chapter 5 (Comedy adventure)
 - **Peril in Pinebrook:** Chapter 5 (Community adventure)
@@ -279,7 +279,7 @@ Session:  3 | Adventure: Wild Sheep Chase
 Notes: Party laughed constantly; discovered magic instability
 Echo Knowledge: "Is wizard's fault? Or something bigger?"
 
-Session:  4-5 | Adventure: Frozen Sick
+Session:  4-5 | Adventure: The Pale Sickness
 Notes: [To be filled in after running...]
 
 ```

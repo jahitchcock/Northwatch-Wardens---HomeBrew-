@@ -2,23 +2,9 @@
 
 ## Canonical Geography — Northreach
 
-**Only use locations from this table.** If a new location is needed, ask the user before proceeding.
+**Single source of truth:** `canon-check/references/canonical-data.md`
 
-| Location | Purpose |
-|----------|---------|
-| Waystone Inn | Guild HQ, mission hub |
-| Welton | Town — Wolves of Welton adventure |
-| Westly's Farm | Farm outside Welton |
-| Shepherd's Crook Inn | Inn in the Welton area |
-| Pinebrook | Town — Peril in Pinebrook adventure |
-| Palebank Village | Village — Frozen Sick adventure |
-| Croaker Cave | Cave — Frozen Sick adventure |
-| Salsvault | Buried Aeorian ruins (source of the Echo mystery) |
-| Temple of the Dragonknights | Capstone adventure, northwest mountains |
-| Noke's Tower | Wild Sheep Chase adventure |
-
-**Acceptable off-map references** (exist in Aevoria, but the party doesn't go there in Season One):
-Solaris, Nullwood/Vaeltharyn, Stonebound Depths/Khardûn-Tharum, Vharoxis, Solace Nexus, Divinity's Beacon
+Load that file for the authoritative location list and off-map references. Do not add locations here — update canonical-data.md instead.
 
 ---
 
@@ -60,6 +46,7 @@ Page break heuristic: break at ~70–85 non-empty lines or ~450–550 words; pre
 ## Aeorian Echo Clue Design
 
 The Echo is a spreading phenomenon tied to Salsvault and the buried Aeorian ruins. Clues should be:
+
 - **Specific and sensory** — a behavior, a physical detail, an absence
 - **Unexplained** — the party notices it; no NPC interprets it for them
 - **Deniable** — could be coincidence, local folklore, or something mundane going wrong

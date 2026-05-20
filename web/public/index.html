@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>DM Panel — Northwatch Wardens</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="tabbar">
+    <!-- Mobile-only drawer toggles -->
+    <button class="mob-btn" id="mob-files" aria-label="Toggle file browser">☰</button>
+
+    <nav class="tab-group">
+      <button class="tab" data-path="Season 1/DM_Resources/DM Guild Roster.md">NPCs</button>
+      <button class="tab" data-path="Season 1/DM_Resources/NPC Roster — By Location &amp; Adventure (DM).md">NPC Map</button>
+      <button class="tab" data-path="Season 1/DM_Resources">Session Notes</button>
+      <button class="tab" data-path="Season 2/season2-continuity-review.md">S2 Review</button>
+      <button class="tab" data-path="Season 2">Season 2</button>
+    </nav>
+
+    <div id="search-wrap">
+      <input id="search-input" type="search" placeholder="Search files…" autocomplete="off" spellcheck="false">
+    </div>
+
+    <div id="season-wrap">
+      <label for="season-sel">Season</label>
+      <select id="season-sel">
+        <option value="">All</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+
+    <div id="breadcrumb" title="Current path"></div>
+    <button id="btn-ctx" title="Send file path to terminal" hidden>⌨ Path</button>
+
+    <!-- Mobile-only terminal toggle -->
+    <button class="mob-btn" id="mob-term" aria-label="Toggle terminal">⌨</button>
+
+    <div id="toast" aria-live="polite"></div>
+  </header>
+
+  <!-- Backdrop for mobile drawers -->
+  <div id="drawer-backdrop"></div>
+
+  <div id="workspace">
+
+    <aside id="panel-left">
+      <div class="panel-hdr">Files</div>
+      <div id="file-tree"></div>
+    </aside>
+
+    <div class="rh" id="rh-l" title="Drag to resize · click ‹ to collapse">
+      <button class="cbt" id="cbt-l" aria-label="Toggle file browser">‹</button>
+    </div>
+
+    <main id="panel-center">
+      <iframe id="viewer" src="about:blank" title="Content viewer"></iframe>
+    </main>
+
+    <div class="rh" id="rh-r" title="Drag to resize · click › to collapse">
+      <button class="cbt" id="cbt-r" aria-label="Toggle terminal">›</button>
+    </div>
+
+    <aside id="panel-right">
+      <div class="panel-hdr">Terminal</div>
+      <div id="term-wrap"></div>
+    </aside>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@
 
 **MAJOR CAMPAIGN SPOILERS: Verdant Marches Secrets**
 
-This document contains the hidden truth about the Verdant Marches and their role in the Aeorian Echo mystery. **DO NOT share this with players** unless they discover it through gameplay.
+This document contains the hidden truth about the Verdant Marches and their role in the Aevorian Echo mystery. **DO NOT share this with players** unless they discover it through gameplay.
 
 **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
 }}
@@ -20,7 +20,7 @@ This document contains the hidden truth about the Verdant Marches and their role
 
 ## The Hidden Truth
 
-The Verdant Marches sit atop a network of dormant artifact influence zones—not full Aeorian nodes like the Emberlands or Far North, but **resonance fields** where the artifacts subtly affect biological life over vast areas.
+The Verdant Marches sit atop a network of dormant artifact influence zones—not full Aevorian nodes like the Emberlands or Far North, but **resonance fields** where the artifacts subtly affect biological life over vast areas.
 
 Unlike the technological or geological manifestations of the Echo in other regions, the Marches experience **biological resonance**—the artifacts' energy pattern interacting with living systems rather than stone or machinery.
 
@@ -28,7 +28,7 @@ Unlike the technological or geological manifestations of the Echo in other regio
 
 ## Why the Marches Are Changing
 
-As the Aeorian artifacts begin their reactivation sequence across the world, the resonance fields beneath the Marches have started to pulse with increasing intensity. This energy affects biological systems in profound ways:
+As the Aevorian artifacts begin their reactivation sequence across the world, the resonance fields beneath the Marches have started to pulse with increasing intensity. This energy affects biological systems in profound ways:
 
 ### Primal Magic Intensification
 The background level of primal magical energy in the region has increased by an order of magnitude. Druids and rangers can sense this—it's why they describe the land as "waking up" or "remembering itself."
@@ -79,16 +79,16 @@ Druids in the Marches find their magic more responsive, more powerful, and somet
 
 ## The Wildheart Basin — Deepest Secret
 
-Beneath the Wildheart Basin lies something that predates even Aeor's fall:
+Beneath the Wildheart Basin lies something that predates even Aevor's fall:
 
 ### The Biological Harmonics Chamber
-An Aeorian experimental facility designed to:
+An Aevorian experimental facility designed to:
 - Study biological systems at the deepest level
 - Manipulate evolutionary pathways
 - Create "ideal" ecosystems for specific purposes
 - Produce biological weapons and defenses
 
-**The "Seed":** At the chamber's heart is what Aeorian scientists called a Genesis Seed—a device capable of rewriting the genetic and neurological structure of all life within a vast radius. It was designed to terraform hostile regions or create adaptive bioweapons.
+**The "Seed":** At the chamber's heart is what Aevorian scientists called a Genesis Seed—a device capable of rewriting the genetic and neurological structure of all life within a vast radius. It was designed to terraform hostile regions or create adaptive bioweapons.
 
 ### Current Status
 The Genesis Seed has been dormant for millennia. Eclipse Day triggered its preliminary startup sequence—the "heartbeat" druids sense is the Seed running diagnostic cycles and gathering environmental data.
@@ -147,7 +147,7 @@ The massive sound heard across the Marches on Eclipse Day was:
 }}
 
 ### Why Druids Misinterpreted It
-Druids have no frame of reference for Aeorian biotechnology. To them, this feels like:
+Druids have no frame of reference for Aevorian biotechnology. To them, this feels like:
 - The land's spirit awakening
 - A prophecy fulfilling itself
 - Natural evolution accelerating
@@ -164,7 +164,7 @@ They're not entirely wrong—but they're missing the artificial component. This 
 
 ## Long-Term Campaign Role
 
-The Verdant Marches serve multiple functions in the larger Aeorian Echo campaign:
+The Verdant Marches serve multiple functions in the larger Aevorian Echo campaign:
 
 ### 1. The Primal Front
 While the Emberlands represent elemental chaos and Northreach represents frontier mystery, the Marches represent **biological awakening**. This creates diversity in how the Echo manifests.
@@ -181,7 +181,7 @@ The awakening forces difficult questions:
 **DM Use:** No easy answers. Let players struggle with these questions.
 
 ### 3. Clue Repository
-The Genesis Seed and Biological Harmonics Chamber provide evidence of Aeor's capabilities and intentions:
+The Genesis Seed and Biological Harmonics Chamber provide evidence of Aevor's capabilities and intentions:
 - Biotechnology rivaling divine creation
 - Experimental ethics (or lack thereof)
 - Integration with other Echo sites
@@ -229,17 +229,17 @@ Players might discover:
 ### Mid-Level Discovery (Levels 5-6)
 Players might discover:
 - Ancient ruins beneath the Basin
-- Aeorian symbols and architecture
+- Aevorian symbols and architecture
 - Connection to Northreach phenomena
 - The "Seed" or similar artifact
 - Druids are wrong about the source (but not the effects)
 
-**DM Reveal:** "The Aeorian Echo is triggering biological change, not spiritual awakening."
+**DM Reveal:** "The Aevorian Echo is triggering biological change, not spiritual awakening."
 
 ### High-Level Discovery (Levels 6-7)
 Players might discover:
 - The Genesis Seed itself
-- Aeorian documentation (partial)
+- Aevorian documentation (partial)
 - The transformation timeline
 - The irreversibility threshold
 - Possible intervention methods
@@ -340,7 +340,7 @@ When players discover the truth, they have several potential paths:
 **Conflict:** Neither side fully trusts her; she's lonely and torn
 
 ### Scholar Petris Vellum (Solaris Observer)
-**Secret:** He recognizes Aeorian architectural elements in the stone circles. He knows this is artificial but is suppressing the information to study it privately. He wants to understand the biotechnology before anyone destroys it. His curiosity outweighs his ethics.
+**Secret:** He recognizes Aevorian architectural elements in the stone circles. He knows this is artificial but is suppressing the information to study it privately. He wants to understand the biotechnology before anyone destroys it. His curiosity outweighs his ethics.
 
 **Agenda:** Study and document; delay intervention
 
@@ -377,20 +377,20 @@ Players must prevent civil war between druid circles while investigating what's 
 
 ### The Underground Facility
 Players discover an entrance to the Biological Harmonics Chamber. Exploration reveals:
-- Aeorian laboratories (preserved)
+- Aevorian laboratories (preserved)
 - Creature containment areas (some still occupied)
 - The Genesis Seed chamber (active)
-- Documentation in Aeorian (requires translation)
+- Documentation in Aevorian (requires translation)
 - Biological defenses (guardians, diseases, environmental hazards)
 
-**Twist:** The facility isn't empty. Aeorian security systems are waking up alongside the Seed.
+**Twist:** The facility isn't empty. Aevorian security systems are waking up alongside the Seed.
 
 ---
 
 ## Connections to Other Regions
 
 ### Far North/Salsvault
-**Connection:** The Genesis Seed receives activation signals from the primary Aeorian network centered at Salsvault. Disabling Salsvault would stop the Marches' transformation.
+**Connection:** The Genesis Seed receives activation signals from the primary Aevorian network centered at Salsvault. Disabling Salsvault would stop the Marches' transformation.
 
 **DM Use:** High-level solution requiring continental-scale adventure
 
@@ -437,7 +437,7 @@ Players discover an entrance to the Biological Harmonics Chamber. Exploration re
 1. **First intelligent animal conversation:** Make it memorable and unsettling
 2. **Witnessing an awakening:** Show the transformation happening
 3. **The Seed's pulse:** Let players feel the heartbeat beneath the earth
-4. **Entering the Chamber:** Reveal the scale of Aeorian ambition
+4. **Entering the Chamber:** Reveal the scale of Aevorian ambition
 5. **The choice:** Force players to decide the Marches' fate
 
 ### Balancing Player Agency
@@ -497,7 +497,7 @@ The best outcome isn't saving everyone—it's making a choice players can live w
 ## Using the Verdant Marches in Your Campaign
 
 ### Campaign Integration
-The Verdant Marches serve as a mid-tier region where the themes of awakening and transformation explored in Northreach (Wolves of Welton, Frozen Sick) reach a larger scale. While Northreach deals with isolated incidents, the Marches face regional transformation.
+The Verdant Marches serve as a mid-tier region where the themes of awakening and transformation explored in Northreach (Wolves of Welton, The Pale Sickness) reach a larger scale. While Northreach deals with isolated incidents, the Marches face regional transformation.
 
 ### Escalation Path
 - **Early Rumors:** Players hear about strange occurrences in the southern wilderness
@@ -511,7 +511,7 @@ The Marches ask fundamental questions:
 - How do we relate to a land that can think?
 - What rights do awakened animals have?
 - Can civilization and primal wilderness coexist?
-- What is the relationship between the Green Stirring and the Aeorian Echo?
+- What is the relationship between the Green Stirring and the Aevorian Echo?
 
 ### Tone and Atmosphere
 - **Beauty and danger intertwined**

@@ -1,68 +1,71 @@
 <!--
-  Tags: Region, DM-Only, Arc-Aeorian-Echo, pre-templates
+  Tags: Region, DM-Only, Arc-Aevorian-Echo, pre-templates
   Status: Canon
   Type: Region
   Region: Off-Map
-  Linked: World Building/DMEyesOnly/The_Aeorian_Echo.md
+  Linked: World Building/DMEyesOnly/The_Aevorian_Echo.md
 -->
 
-## The Dimensional Rift: Aeor's Fall Across Worlds
+## The Aevorian Fall: Cataclysm of the Ancient World
 
 DM EYES ONLY — Campaign Lore Foundation
 
 ## Overview
 
-**The Truth:** Aeorian technology and ruins in Aevoria are NOT native to this world. They are dimensional echoes from the fall of Aeor in Wildemount (Exandria), displaced across the planes during the city's catastrophic destruction.
+**The Truth:** The ruins buried across Aevoria's Far North are remnants of the ancient arcane civilization of Aevor — a flying city-state that existed in a forgotten age before written history. Aevor was not from another world. It was Aevoria's own Age of Arcanum, a civilization of such power that it challenged the very gods of this world.
 
-**In-World Framing:** No one in Aevoria knows this. To them, "Aeor" is simply an ancient civilization that existed in The Far North before some cataclysmic event buried it beneath the ice.
+**In-World Framing:** No one in Aevoria knows the full truth. To most, "Aevor" is simply a legendary civilization that existed in The Far North before some cataclysmic event buried it beneath the ice. Scholars debate whether it was real or myth.
 
 ---
 
 ### What Actually Happened
-#### The Fall of Aeor
+#### The War Against the Gods
 
-In Exandria's distant past, the flying city-state of **Aeor** challenged the gods themselves with weapons designed to kill divinity. The gods responded by casting down Aeor into the frozen wastes of Eiselcross, shattering the city into countless fragments.
+In an age before recorded history, the flying city-state of **Aevor** achieved unmatched arcane mastery. Its archmages learned to weaponize magic itself, developing technologies that could wound divine beings. Aevor's leaders believed magic could surpass the gods — and set out to prove it.
 
-**But the destruction was so violent, so infused with divine and arcane power, that it ripped holes in the fabric of reality itself.**
+The gods of Aevoria responded.
 
-### The Dimensional Cascade
+The divine war that followed shattered the world's understanding of magic. The gods cast down Aevor, but the city did not simply fall — it exploded, scattering fragments across the northern continent. The cataclysm was so violent, so infused with divine and arcane power, that it scarred the land itself.
 
-As Aeor fell: ::
-- Massive arcane engines exploded mid-descent
-- Divine retribution collided with Aeorian anti-god weapons
-- The resulting magical shockwave created **dimensional rifts**—tears in the boundaries between worlds
+### The Scattering
 
-**Fragments of Aeor didn't just crash into Eiselcross. They crashed into MULTIPLE realities simultaneously.**
+As Aevor fell:
+- Massive arcane engines detonated mid-descent
+- Divine retribution shattered the city's wards
+- Aevor's death throes rained magical contamination across Northreach
+- The central spire and its surrounding districts crashed into what is now the Far North
 
-One of those fragments—a massive section containing the research laboratory **Salsvault**—fell through a rift and landed in **The Far North of Aevoria**, hundreds or even thousands of years ago (the exact time is unclear; time flows differently between planes).
+**The city did not just break apart. Parts of it continued operating on their own surviving magical cores.**
 
+One of those fragments — a massive section containing the research laboratory **Salsvault** — was buried deep beneath glaciers and permafrost, its systems entering magical stasis for millennia.
 
+---
 
 ### Why It Stayed Hidden
 
-The fragment that became Salsvault in Aevoria:
+The fragment that became Salsvault:
 - Landed deep beneath glaciers and permafrost
-- Was magically sealed/dormant for centuries
-- Had no supporting civilization or context (Aeor existed in Exandria, not Aevoria)
-- Appeared as strange, inexplicable ruins to anyone who found fragments
+- Was magically sealed and dormant for centuries
+- Left behind no surviving civilization to tell the tale
+- Appeared as strange, inexplicable ruins to later explorers
 
 **Until recently, when something triggered its reactivation.**
 
 \column
 
-## The Aeorian Echo in Context
+## The Aevorian Echo in Context
 
-### What IS the Aeorian Echo?
+### What IS the Aevorian Echo?
 
-The **Aeorian Echo** is the destabilization event caused by Salsvault's sudden reactivation ~2-3 months ago.
+The **Aevorian Echo** is the destabilization event caused by Salsvault's sudden reactivation ~2-3 months ago.
 
 When Salsvault's dormant systems powered back on:
 - Ancient arcane reactors restarted
 - Magical containment fields failed
-- Aeorian spores (frigid woe) leaked into the environment
+- Aevorian spores (frigid woe) leaked into the environment
 - A pulse of unstable arcane energy radiated outward across Northreach
 
-This pulse is the Echo—a cascading magical disturbance that affects:
+This pulse is the Echo — a cascading magical disturbance that affects:
 - Wildlife (Wolves of Welton: intelligence awakening)
 - Magical artifacts (Wild Sheep Chase: polymorph wand instability)
 - Ambient magic (Temple of Dragonknights: empowered rituals)
@@ -73,13 +76,13 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 **The trigger is unknown** (and can remain a mystery for future campaigns). Possible explanations:
 1. **Natural decay:** Containment seals finally failed after centuries
 2. **External trigger:** Someone or something intentionally activated it
-3. **Planar resonance:** A magical event in Exandria (Wildemount) resonated across the dimensional rift
-4. **Aeorian failsafe:** A pre-programmed reactivation sequence (Aeor's last revenge)
+3. **Magical accumulation:** Millennia of ambient magic finally reached a critical threshold
+4. **Aevorian failsafe:** A pre-programmed reactivation sequence (Aevor's last contingency)
 
-**For Season One:** The "why" matters less than the "what now"—the Echo is spreading, and the Wardens must deal with its consequences.
+**For Season One:** The "why" matters less than the "what now" — the Echo is spreading, and the Wardens must deal with its consequences.
 
 {{pageNumber,auto}}
-{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+{{footnote The Aevorian Fall: Cataclysm of the Ancient World}}
 
 {{watercolor9,top:121px,left:316px,width:268px,background-color:#BBAD82,opacity:80%}}
 
@@ -88,24 +91,23 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 ## How This Explains Campaign Continuity
 
-### Overlap Between Worlds
+### Aevor's Legacy
 
-**Canonical Wildemount Content:** ::Adventures like *Frozen Sick* reference places and history from Exandria/Wildemount because they were WRITTEN for that setting.
+The advanced magic of Aevor explains why its ruins contain technology far beyond modern Aevorian understanding. Aevor achieved in centuries what modern kingdoms haven't approached in millennia.
 
-**Aevoria Adaptation:** ::Those references now make sense as **dimensional echoes**:
-- Names like "Aeor," "Uthodurn," and "Eiselcross" exist in legends and ancient texts found in Salsvault
-- Researchers in Aevoria (like Lorewarden Elric) have no context for these names—they're treating them as ancient languages or lost civilizations
-- Some stolen or transported Aeorian texts reference "impossible" geography that doesn't match Aevoria (because it's from Exandria)
+**Evidence in the World:**
+- Inscriptions found in ruins reference a geography that no longer exists — the land has changed since Aevor's time
+- Magical principles found in Aevorian texts were lost after the Fall
+- Some Aevorian facilities reference pre-Fall kingdoms and places that later cultures have forgotten
+- Researchers (like Lorewarden Elric) treat these as ancient mysteries, not proof of other worlds
 
-### Major Differences Explained
+### What Actually Happened to Aevor
 
-**Why Aevoria ≠ Exandria:**::
-- Different continents, nations, pantheons, cultures
-- No Dwendalian Empire, no Kryn Dynasty, no Mighty Nein
-- The gods in Aevoria have different names and relationships
-- Magic works similarly but has different cultural contexts
+Aevor wasn't the only civilization of its age, but it was the most powerful. When its archmages declared war on the gods, other nations either hid, fled, or were destroyed. The divine judgment that fell upon Aevor was so complete that nearly all records of the pre-Fall age were buried or destroyed.
 
-**But:** A fragment of Aeor exists in both worlds because it fell through the rift during its destruction.
+**The gods did not just destroy Aevor. They erased its age from history.**
+
+Everything that came after — the current nations, cultures, and magical traditions — grew from the ashes of that fallen age. The dwarves of the Stonebound Depths mine through Aevorian ruins without recognizing them. The elves of the Nullwood remember fragments of the truth in their oldest songs. Humanity has forgotten entirely.
 
 ---
 
@@ -113,33 +115,34 @@ This pulse is the Echo—a cascading magical disturbance that affects:
 
 #### Tier 1-2 (Season One): Surface Clues
 
-Players won't understand the dimensional aspect yet. They'll learn:
-- Salsvault is an ancient ruin of a civilization called "Aeor"
-- Aeor was destroyed in some cataclysm (the Calamity? A god-war? Unknown in Aevoria)
-- Aeorian magic is dangerous, advanced, and god-defying
-- The ruins are leaking magical contamination (the Aeorian Echo)
+Players won't understand the full scope yet. They'll learn:
+- Salsvault is an ancient ruin of a civilization called "Aevor"
+- Aevor was destroyed in a cataclysm (the Great Fall, a divine war — unknown details)
+- Aevorian magic is dangerous, advanced, and god-defying
+- The ruins are leaking magical contamination (the Aevorian Echo)
 
-**Key Item:** Players might find ancient texts or inscriptions in Salsvault that reference places like "Eiselcross" or "Uthodurn"—names that mean nothing to anyone in Aevoria. This creates mystery: *Where did this civilization come from?*
+**Key Item:** Players might find ancient texts or inscriptions in Salsvault that reference pre-Fall places and kingdoms — names that no longer appear on any map. This creates mystery: *What happened to the world before our history began?*
 
 \column
 
 #### Tier 3-4 (Season Two+): Deeper Truths
 
 If campaigns continue:
-- Researchers (Lorewarden Elric, mages) might theorize about "planar displacement" or "dimensional echoes"
-- High-level divination magic could reveal glimpses of Aeor's fall in Exandria
-- Players could discover OTHER Aeorian fragments scattered across Aevoria (more ruins, more echoes)
-- The dimensional rift might still be unstable—could Aevoria be pulled into Exandria's conflicts?
+- Researchers (Lorewarden Elric, mages) might theorize about a pre-Fall age
+- High-level divination magic could reveal glimpses of Aevor's final days
+- Players could discover OTHER Aevorian fragments scattered across Aevoria
+- The full story of the divine war could reshape understanding of the gods
+- Some might wonder: could Aevor have been right about the gods?
 
 
 
-#### Tier 5 (Epic Campaign): The Rift Itself
+#### Tier 5 (Epic Campaign): Divine Revelations
 
 If campaigns reach epic levels:
-- Players might discover the actual dimensional rift beneath The Far North
-- They could choose to **seal it** (preventing further contamination) or **stabilize it** (allowing controlled access to both worlds)
-- This opens the possibility of traveling between Aevoria and Exandria
-- Epic antagonists: Someone trying to weaponize the rift or summon Aeorian technology intentionally
+- Players might discover the truth about the divine war
+- They could choose to **seal Aevorian magic** (preventing further catastrophes) or **preserve its knowledge** (advancing civilization at great risk)
+- This opens the possibility of communicating with the gods themselves about what happened
+- Epic antagonists: Someone who wants to finish what Aevor started, or a divine agent ensuring it never happens again
 
 ---
 
@@ -147,23 +150,23 @@ If campaigns reach epic levels:
 
 #### What to Reveal, When
 
-**Session 0-5 (Early Campaign):**::
-- "Aeor" is just a name—ancient civilization, unknown origins
+**Session 0-5 (Early Campaign)::**
+- "Aevor" is just a name — ancient civilization, unknown origins
 - Salsvault is a ruin with dangerous magic
 - The Echo is a magical disturbance spreading across the region
 
-**Session 6-12 (Mid Campaign):**::
+**Session 6-12 (Mid Campaign)::**
 - Salsvault contains technology far beyond current Aevorian magic
-- Inscriptions reference places that don't exist in known geography
-- Some researchers theorize Aeor wasn't FROM Aevoria originally
+- Inscriptions reference places and kingdoms that don't match known geography
+- Some researchers theorize Aevor existed in a pre-Fall age that was deliberately erased
 
-**Session 13+ (Late Campaign / Future Seasons):**::
-- Evidence of dimensional displacement (planar residue, rift signatures)
-- Discovery of the actual rift site
-- Choice point: What do the Wardens do with this knowledge?
+**Session 13+ (Late Campaign / Future Seasons)::**
+- Evidence of the divine war (ancient battlefields, god-scars on the land)
+- Discovery of what triggered the Echo
+- Choice point: What do the Wardens do with Aevor's surviving knowledge?
 
 {{pageNumber,auto}}
-{{footnote The Dimensional Rift: Aeor's Fall Across Worlds}}
+{{footnote The Aevorian Fall: Cataclysm of the Ancient World}}
 
 {{watercolor12,top:97px,left:40px,width:346px,background-color:#BBAD82,opacity:80%}}
 
@@ -172,18 +175,20 @@ If campaigns reach epic levels:
 
 ### Improvisation Tips
 
-**If players ask "Where did Aeor come from?"**
-- Early campaign: "No one knows—it's lost to history."
-- Mid campaign: "The texts reference places that don't match any known maps."
-- Late campaign: "There are theories about planar displacement or dimensional rifts, but no proof."
+**If players ask "Where did Aevor come from?"**
+- Early campaign: "No one knows — it's lost to history."
+- Mid campaign: "The texts reference places that don't match any known maps. Some scholars believe Aevor predates every modern nation."
+- Late campaign: "There are theories about a pre-Fall age, a divine war... but most of the evidence was destroyed. Intentionally."
 
-**If players try to research "Uthodurn" or "Eiselcross" in Aevoria:**
-- No libraries have records of these places
-- They sound like ancient names, possibly from Aeor's own language
-- Lorewarden Elric might theorize they're locations in Aeor's original homeland (wherever that was)
+**If players try to research "pre-Fall" history:**
+- Most libraries have nothing — the records were destroyed
+- Elven oral traditions contain fragments of a "great burning from the sky"
+- Dwarven deep-mines occasionally unearth structures that don't match any known architectural style
+- The Cobalt Soul (or equivalent scholarly organization) may have fragments locked in vaults
 
 **If players use high-level divination (Legend Lore, True Seeing, etc.):**
-- They might glimpse Aeor falling through the sky in a DIFFERENT world (snow-covered mountains, twin moons, etc.)
+- They might glimpse Aevor's fall: a flying city, wreathed in fire and lightning, crashing into a world that looked very different
+- They might see the gods — not as modern faiths depict them, but as they were during the war
 - This creates mystery without giving away the full answer
 
 
@@ -191,35 +196,36 @@ If campaigns reach epic levels:
 
 ## Why This Design Works
 
-### 1. Respects Source Material
-Published adventures like *Frozen Sick* remain usable without heavy rewrites—we're just recontextualizing the setting.
+### 1. 100% Original
+Aevor is native to Aevoria. The entire backstory belongs to this setting — no cross-world references, no borrowed IP, no reliance on published campaign settings.
 
 ### 2. Creates Mystery
-Players can engage with Aeorian ruins without knowing the full dimensional truth, making discoveries feel earned.
+Players can engage with Aevorian ruins without knowing the full ancient history, making discoveries feel earned.
 
 ### 3. Allows Flexibility
 DMs can:
-- Keep Aeor purely historical (never reveal the rift)
-- Make the rift a late-campaign reveal
-- Use the rift as a gateway to Exandria crossovers (optional)
+- Keep Aevor purely historical (never reveal the divine war)
+- Make the divine war a late-campaign reveal
+- Use the god-weapon remnants as epic-tier plot hooks
 
 ### 4. Explains Inconsistencies
-Any Wildemount-specific references in published material can be hand-waved as "ancient texts from Aeor's original world."
+Any confusing references in Aevorian texts are "pre-Fall" — from a world that was fundamentally different before the divine cataclysm reshaped it.
 
 ---
 
 ## Campaign Integration Checklist
 
-- [ ] Update *Frozen Sick* to use "The Far North" instead of "Eiselcross"
-- [ ] Replace "Uthodurn" references with "the Cold Anchor" (a Northreach frontier research station)
-- [ ] Treat "Aeor" as an ancient, mysterious civilization (don't explain the rift yet)
-- [ ] Add inscriptions/texts in Salsvault referencing unfamiliar places
-- [ ] Have Lorewarden Elric express confusion about Aeorian geography ("These maps don't match anything we know")
-- [ ] Keep the rift itself a mystery for now—hint at it through evidence, but don't reveal it explicitly
+- [x] Renamed ancient city to "Aevor" (native Aevorian civilization)
+- [x] Rewrote Dimensional Rift as ancient Aevorian history
+- [x] Removed all cross-world references � Aevor is native to Aevoria
+- [x] Updated adventure name to "The Pale Sickness"
+- [x] Treat "Aevor" as an ancient, mysterious civilization (don't reveal the divine war yet)
+- [ ] Add inscriptions/texts in Salsvault referencing pre-Fall places
+- [ ] Have Lorewarden Elric express confusion about Aevorian geography ("These maps don't match anything we know — the land must have changed")
+- [ ] Keep the divine war itself a mystery for now — hint at it through evidence, but don't reveal it explicitly
 
 ---
 
-**Last Updated:** February 10, 2026  
+**Last Updated:** May 8, 2026  
 **Campaign Status:** Foundational lore for Season One and beyond  
 **Player Knowledge:** None (this is DM-only background)
-
