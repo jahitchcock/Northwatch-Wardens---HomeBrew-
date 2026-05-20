@@ -23,6 +23,7 @@ const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
 const EXCLUDE = new Set([
   '.git', '.github', 'dm-panel', 'web', 'node_modules', 'build',
   'logs', 'scratchpad', 'scripts', 'templates', 'LionsdenGameFiles',
+  'temp', 'docs',
 ]);
 
 // Directories rendered with marked (web-native markdown)
@@ -478,6 +479,29 @@ app.get('/api/search', (req, res) => {
   }
 
   res.json(out);
+});
+
+// ─── Tables API ───────────────────────────────────────────────────────────────
+
+app.get('/api/tables', (req, res) => {
+  try {
+    const dir = path.join(CAMPAIGN_ROOT, 'tables');
+    if (!fs.existsSync(dir)) return res.json([]);
+    const tables = fs.readdirSync(dir)
+      .filter(f => f.endsWith('.md') && !f.startsWith('_'))
+      .map(file => {
+        const content = fs.readFileSync(path.join(dir, file), 'utf8');
+        const fm = extractFrontmatter(content);
+        return {
+          name: fm.name || file.replace(/\.md$/, '').replace(/[-_]/g, ' '),
+          path: `tables/${file}`,
+        };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+    res.json(tables);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
 });
 
 // ─── WebSocket terminal ────────────────────────────────────────────────────
