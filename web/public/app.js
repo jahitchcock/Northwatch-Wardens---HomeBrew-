@@ -610,9 +610,134 @@ document.addEventListener('paste', e => {
   reader.readAsDataURL(blob);
 }, { capture: true });
 
+// ─── Tools dropdown ───────────────────────────────────────────────────────────
+
+const btnTools       = $('btn-tools');
+const toolsDropdown  = $('tools-dropdown');
+const worldTablesDiv = $('tools-world-tables');
+
+function closeTools() {
+  toolsDropdown.hidden = true;
+  btnTools.classList.remove('open');
+}
+
+btnTools.addEventListener('click', e => {
+  e.stopPropagation();
+  const opening = toolsDropdown.hidden;
+  toolsDropdown.hidden = !opening;
+  btnTools.classList.toggle('open', opening);
+});
+
+document.addEventListener('click', () => closeTools());
+
+// Populate World Tables from /api/tables
+async function loadWorldTables() {
+  try {
+    const r = await fetch('/api/tables');
+    const tables = await r.json();
+    if (tables.length === 0) {
+      worldTablesDiv.innerHTML =
+        '<div class="tool-item" style="color:var(--subtext);cursor:default;font-style:italic">No tables found</div>';
+      return;
+    }
+    worldTablesDiv.innerHTML = '';
+    for (const t of tables) {
+      const btn = document.createElement('button');
+      btn.className = 'tool-item';
+      btn.textContent = t.name;
+      btn.addEventListener('click', () => { closeTools(); openModal(t.path); });
+      worldTablesDiv.appendChild(btn);
+    }
+  } catch {
+    worldTablesDiv.innerHTML =
+      '<div class="tool-item" style="color:var(--red);cursor:default">Failed to load</div>';
+  }
+}
+
+// Random Encounter tool
+$('tool-random-encounter').addEventListener('click', () => {
+  closeTools();
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Random Encounter';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-body').innerHTML = `
+    <div style="padding:16px;font-family:'Segoe UI',sans-serif">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+        <label style="font-size:12px;color:var(--subtext)">Challenge Rating</label>
+        <select id="re-cr" style="background:var(--overlay);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:4px;font-size:12px">
+          ${[0,'1/8','1/4','1/2',1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+            .map(cr => `<option value="${cr}">${cr}</option>`).join('')}
+        </select>
+        <button onclick="rollEncounter()" style="background:var(--accent);border:none;color:#1e1e2e;padding:5px 12px;border-radius:4px;cursor:pointer;font-size:12px;font-weight:600">Roll</button>
+      </div>
+      <div id="re-result"></div>
+    </div>`;
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+});
+
+window.rollEncounter = async function() {
+  const cr = $('re-cr')?.value || '1';
+  const el = $('re-result');
+  if (!el) return;
+  el.innerHTML = '<div style="color:var(--subtext);font-size:12px">Rolling…</div>';
+  try {
+    const r = await fetch(`/tools/random-encounter?cr=${encodeURIComponent(cr)}`);
+    el.innerHTML = await r.text();
+  } catch (e) {
+    el.innerHTML = `<div style="color:var(--red);font-size:12px">${e.message}</div>`;
+  }
+};
+
+// Treasure Hoard tool
+$('tool-treasure-hoard').addEventListener('click', () => {
+  closeTools();
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Treasure Hoard';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-body').innerHTML = `
+    <div style="padding:16px;font-family:'Segoe UI',sans-serif">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+        <label style="font-size:12px;color:var(--subtext)">Party Level</label>
+        <select id="th-level" style="background:var(--overlay);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:4px;font-size:12px">
+          ${Array.from({ length: 20 }, (_, i) => i + 1)
+            .map(l => `<option value="${l}">${l}</option>`).join('')}
+        </select>
+        <button onclick="rollHoard()" style="background:var(--accent);border:none;color:#1e1e2e;padding:5px 12px;border-radius:4px;cursor:pointer;font-size:12px;font-weight:600">Generate</button>
+      </div>
+      <div id="th-result"></div>
+    </div>`;
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+});
+
+window.rollHoard = async function() {
+  const level = $('th-level')?.value || '1';
+  const el = $('th-result');
+  if (!el) return;
+  el.innerHTML = '<div style="color:var(--subtext);font-size:12px">Generating…</div>';
+  try {
+    const r = await fetch(`/tools/treasure-hoard?level=${level}`);
+    el.innerHTML = await r.text();
+  } catch (e) {
+    el.innerHTML = `<div style="color:var(--red);font-size:12px">${e.message}</div>`;
+  }
+};
+
+// 5etools buttons
+document.querySelectorAll('.tool-5e').forEach(btn => {
+  btn.addEventListener('click', () => {
+    closeTools();
+    open5eModal(btn.dataset['5eUrl']);
+  });
+});
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
   fillTree('', fileTree);
   initTerminal();
+  loadWorldTables();
 });

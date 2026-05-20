@@ -14,11 +14,32 @@
     <button class="mob-btn" id="mob-files" aria-label="Toggle file browser">☰</button>
 
     <nav class="tab-group">
-      <button class="tab" data-path="Season 1/DM_Resources/DM Guild Roster.md">NPCs</button>
-      <button class="tab" data-path="Season 1/DM_Resources/NPC Roster — By Location &amp; Adventure (DM).md">NPC Map</button>
-      <button class="tab" data-path="Season 1/DM_Resources">Session Notes</button>
-      <button class="tab" data-path="Season 2/season2-continuity-review.md">S2 Review</button>
-      <button class="tab" data-path="Season 2">Season 2</button>
+      <button class="tab" data-path="adventures">Adventures</button>
+      <button class="tab" data-path="npcs">NPCs</button>
+      <button class="tab" data-path="locations">Locations</button>
+      <button class="tab" data-path="gm-lore">GM Lore</button>
+      <div id="tools-wrap">
+        <button id="btn-tools">Tools ▾</button>
+        <div id="tools-dropdown" hidden>
+          <div class="tools-section">
+            <div class="tools-section-label">World Tables</div>
+            <div id="tools-world-tables">
+              <div class="tool-item" style="color:var(--subtext);cursor:default;font-style:italic">Loading…</div>
+            </div>
+          </div>
+          <div class="tools-section">
+            <div class="tools-section-label">SRD Tools</div>
+            <button id="tool-random-encounter" class="tool-item">⚔ Random Encounter</button>
+            <button id="tool-treasure-hoard" class="tool-item">💰 Treasure Hoard</button>
+          </div>
+          <div class="tools-section">
+            <div class="tools-section-label">5etools</div>
+            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014">🎲 5etools</button>
+            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/bestiary.html">🐉 Bestiary</button>
+            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/spells.html">✨ Spells</button>
+          </div>
+        </div>
+      </div>
     </nav>
 
     <div id="search-wrap">
