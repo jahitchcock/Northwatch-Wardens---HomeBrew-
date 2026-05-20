@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+// NOTE: Season 1-6, World Building, Characters, Premade PCs have moved to _print/.
+// The TOC JSON paths in build/players-guide-toc.json and build/dms-guide-toc.json
+// need updating before the build system will work again. Not a dashboard priority.
+
 const fs = require('fs-extra');
 const path = require('path');
 const { pathToFileURL } = require('url');
