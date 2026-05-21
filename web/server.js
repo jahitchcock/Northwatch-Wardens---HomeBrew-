@@ -270,6 +270,11 @@ const WEB_CONTENT_CSS = `
     text-decoration: none; cursor: pointer;
   }
   a[data-modal]:hover, a[data-modal-5e]:hover { border-bottom-style: solid; }
+  .npc-modal-trigger {
+    color: #58180d; border-bottom: 1px dotted #58180d;
+    cursor: pointer; font-weight: bold;
+  }
+  .npc-modal-trigger:hover { border-bottom-style: solid; }
   table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.9em; }
   th { background: #58180d; color: #f5f0e8; padding: 6px 10px; text-align: left; }
   td { padding: 5px 10px; border-bottom: 1px solid #ddd; }
@@ -350,7 +355,7 @@ function webPreviewHtml(title, bodyHtml) {
 </html>`;
 }
 
-function renderWebMarkdown(filePath) {
+function renderWebMarkdown(filePath, baseRel) {
   const raw = fs.readFileSync(filePath, 'utf8');
   const fm = extractFrontmatter(raw);
   const title = fm.name || path.basename(filePath, '.md').replace(/[-_]/g, ' ');
@@ -361,6 +366,24 @@ function renderWebMarkdown(filePath) {
     /<a href="((?:npcs|locations|factions|arcs)\/[^"]+)">/g,
     (_, p) => `<a href="#" data-modal="${esc(p)}">`
   );
+  if (baseRel) {
+    // Rewrite relative .md links to data-modal with full path
+    html = html.replace(
+      /<a href="([^"#/][^"]*\.md)">/g,
+      (_, href) => `<a href="#" data-modal="${esc(baseRel + '/' + href)}">`
+    );
+    // Mark NPC tables (detected by Name/Voice/Wants/Key Secret header) for inline modals
+    html = html.replace(
+      /(<table>)([\s\S]*?<th>Name<\/th>[\s\S]*?<\/thead>)([\s\S]*?)(<\/table>)/g,
+      (_, open, thead, tbody, close) => {
+        const markedTbody = tbody.replace(
+          /(<td>)<strong>([^<]+)<\/strong>(<\/td>)/g,
+          '$1<span class="npc-modal-trigger" role="button" tabindex="0">$2</span>$3'
+        );
+        return `<table class="npc-table">${thead}${markedTbody}${close}`;
+      }
+    );
+  }
   return { html, title };
 }
 
@@ -372,7 +395,7 @@ app.get('/preview', (req, res) => {
     if (stat.isDirectory()) {
       const indexMd = path.join(filePath, 'index.md');
       if (isWebPath(filePath) && fs.existsSync(indexMd)) {
-        const { html, title } = renderWebMarkdown(indexMd);
+        const { html, title } = renderWebMarkdown(indexMd, toRel(filePath));
         res.send(webPreviewHtml(title, html));
         return;
       }

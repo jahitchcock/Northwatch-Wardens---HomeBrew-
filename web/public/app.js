@@ -396,6 +396,33 @@ document.addEventListener('click', e => {
   const e5Link = e.target.closest('[data-modal-5e]');
   if (e5Link) { e.preventDefault(); open5eModal(e5Link.dataset.modal5e); return; }
 
+  // NPC table inline modals
+  const npcTrigger = e.target.closest('.npc-modal-trigger');
+  if (npcTrigger) {
+    e.preventDefault();
+    const row = npcTrigger.closest('tr');
+    const table = npcTrigger.closest('table.npc-table');
+    if (!row || !table) return;
+    const headers = [...table.querySelectorAll('thead th')].map(th => th.textContent.trim());
+    const cells = [...row.querySelectorAll('td')];
+    const name = cells[0]?.textContent.trim() || npcTrigger.textContent.trim();
+    let content = '<dl style="margin:0;padding:20px 24px;font-family:\'Palatino Linotype\',Georgia,serif">';
+    headers.forEach((header, i) => {
+      if (i === 0 || !cells[i]) return;
+      content += `<dt style="font-weight:700;color:#8b7355;margin-top:14px;font-size:11px;text-transform:uppercase;letter-spacing:.05em">${header}</dt>`;
+      content += `<dd style="margin:4px 0 0 0;color:#2c1810;font-size:14px;line-height:1.6">${cells[i].textContent.trim()}</dd>`;
+    });
+    content += '</dl>';
+    const m = getFreeModal();
+    if (!m) return;
+    m.querySelector('.modal-title').textContent = name;
+    m.querySelector('.modal-body').innerHTML = content;
+    m.querySelector('.modal-box').classList.remove('modal-box--tall');
+    m.hidden = false;
+    requestAnimationFrame(() => m.classList.add('visible'));
+    return;
+  }
+
   // Close button
   if (e.target.closest('.modal-close')) { closeTopModal(); return; }
 
