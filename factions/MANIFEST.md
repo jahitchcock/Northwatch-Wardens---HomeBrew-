@@ -23,3 +23,4 @@
 
 - [index.md](index.md) — Organizations overview
 - [northwatch-wardens-charter.md](northwatch-wardens-charter.md) — Warden Charter and founding documents
+- [faction-dynamics.md](faction-dynamics.md) — Faction interaction table, reputation tracking, war scenarios, quest hooks
