@@ -632,6 +632,8 @@ mark {
   overflow-y: auto;
   min-height: 0;
   background: #f5f0e8;
+  color: #2c1810;
+  font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
 }
 .modal-body iframe {
   width: 100%;

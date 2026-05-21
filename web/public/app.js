@@ -701,8 +701,8 @@ $('tool-random-encounter').addEventListener('click', () => {
   m.querySelector('.modal-body').innerHTML = `
     <div style="padding:16px;font-family:'Segoe UI',sans-serif">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
-        <label style="font-size:12px;color:var(--subtext)">Challenge Rating</label>
-        <select id="re-cr" style="background:var(--overlay);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:4px;font-size:12px">
+        <label style="font-size:12px;color:#5a4030;font-weight:600">Challenge Rating</label>
+        <select id="re-cr" style="background:#ede8da;border:1px solid #b8a88a;color:#2c1810;padding:4px 8px;border-radius:4px;font-size:12px">
           ${[0,'1/8','1/4','1/2',1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
             .map(cr => `<option value="${cr}">${cr}</option>`).join('')}
         </select>
@@ -737,8 +737,8 @@ $('tool-treasure-hoard').addEventListener('click', () => {
   m.querySelector('.modal-body').innerHTML = `
     <div style="padding:16px;font-family:'Segoe UI',sans-serif">
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
-        <label style="font-size:12px;color:var(--subtext)">Party Level</label>
-        <select id="th-level" style="background:var(--overlay);border:1px solid var(--border);color:var(--text);padding:4px 8px;border-radius:4px;font-size:12px">
+        <label style="font-size:12px;color:#5a4030;font-weight:600">Party Level</label>
+        <select id="th-level" style="background:#ede8da;border:1px solid #b8a88a;color:#2c1810;padding:4px 8px;border-radius:4px;font-size:12px">
           ${Array.from({ length: 20 }, (_, i) => i + 1)
             .map(l => `<option value="${l}">${l}</option>`).join('')}
         </select>

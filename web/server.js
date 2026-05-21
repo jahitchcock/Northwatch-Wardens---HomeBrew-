@@ -605,7 +605,7 @@ app.get('/tools/treasure-hoard', (req, res) => {
       <ul style="margin:0;padding-left:20px;line-height:1.8">
         ${items.map(i => `<li>${esc(i)}</li>`).join('')}
       </ul>
-      <p style="margin-top:12px;font-size:0.85em;color:#888;font-style:italic">Roll again for a new hoard.</p>
+      <p style="margin-top:12px;font-size:0.85em;color:#7a6050;font-style:italic">Roll again for a new hoard.</p>
     </div>`);
 });
 
