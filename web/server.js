@@ -632,6 +632,51 @@ app.get('/tools/roll-table', (req, res) => {
   }
 });
 
+// ─── Seasonal Calendar ────────────────────────────────────────────────────────
+
+function parseSeasonalCalendar() {
+  const filePath = path.join(CAMPAIGN_ROOT, 'gm-lore', 'seasonal-event-calendar.md');
+  if (!fs.existsSync(filePath)) return [];
+  let content = fs.readFileSync(filePath, 'utf8');
+  // Strip HTML comment header, Homebrewery syntax
+  content = content.replace(/^<!--[\s\S]*?-->\n?/, '');
+  content = content.replace(/\{\{[^}]*\n[\s\S]*?\}\}/g, '').replace(/\{\{[^\n}]*\}\}/g, '');
+  content = content.replace(/\\(page|column)/g, '').replace(/^:{1,2}\s*/gm, '');
+
+  const months = [];
+  const monthRe = /^## MONTH (\d+): ([^\n]+)/gm;
+  const specialIdx = content.search(/^## SPECIAL EVENTS/m);
+  let m;
+  const found = [];
+  while ((m = monthRe.exec(content)) !== null) found.push(m);
+
+  for (let i = 0; i < found.length; i++) {
+    const start = found[i].index;
+    const end = i + 1 < found.length ? found[i + 1].index : (specialIdx > 0 ? specialIdx : content.length);
+    const name = found[i][2].trim();
+    const section = content.slice(start, end).trim();
+    months.push({ num: parseInt(found[i][1]), name, section });
+  }
+  return months;
+}
+
+app.get('/tools/seasonal-calendar', (req, res) => {
+  const months = parseSeasonalCalendar();
+  if (!months.length) return res.status(404).send('<p>Calendar not found</p>');
+
+  const monthNum = parseInt(req.query.month, 10);
+  if (isNaN(monthNum)) {
+    // Return month index
+    return res.json(months.map(m => ({ num: m.num, name: m.name })));
+  }
+
+  const month = months.find(m => m.num === monthNum);
+  if (!month) return res.status(404).send('<p>Month not found</p>');
+
+  const html = marked.parse(month.section);
+  res.send(`<div style="padding:16px 20px">${html}</div>`);
+});
+
 // ─── Tool endpoints ────────────────────────────────────────────────────────────
 
 app.get('/tools/random-encounter', async (req, res) => {

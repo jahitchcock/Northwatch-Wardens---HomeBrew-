@@ -794,6 +794,69 @@ window.rollHoard = async function() {
   }
 };
 
+// Seasonal Calendar tool
+$('tool-seasonal-calendar').addEventListener('click', () => {
+  closeTools();
+  openSeasonalCalendar();
+});
+
+async function openSeasonalCalendar() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Seasonal Calendar';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-body').innerHTML =
+    '<div style="padding:12px 16px"><em style="color:#7a6050;font-size:13px">Loading…</em></div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  try {
+    const r = await fetch('/tools/seasonal-calendar');
+    const months = await r.json();
+
+    m.querySelector('.modal-body').innerHTML = `
+      <div style="padding:12px 16px 0;font-family:'Palatino Linotype',serif">
+        <div class="cal-tabs" style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:14px;border-bottom:2px solid #c9ad6a;padding-bottom:10px"></div>
+        <div class="cal-content"></div>
+      </div>`;
+
+    const tabs = m.querySelector('.cal-tabs');
+    months.forEach(mo => {
+      const btn = document.createElement('button');
+      const shortName = mo.name.replace(/\s*\([^)]+\)/, '').trim();
+      btn.textContent = shortName.charAt(0) + shortName.slice(1).toLowerCase();
+      btn.dataset.num = mo.num;
+      btn.style.cssText = 'background:#ede8da;border:1px solid #b8a88a;color:#3b0d0d;padding:4px 10px;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600;font-family:inherit';
+      btn.addEventListener('click', () => {
+        tabs.querySelectorAll('button').forEach(b => { b.style.background='#ede8da'; b.style.color='#3b0d0d'; });
+        btn.style.background = '#8b7355'; btn.style.color = '#f5f0e8';
+        loadCalMonth(m, mo.num);
+      });
+      tabs.appendChild(btn);
+    });
+
+    // Load month 1 by default
+    if (months.length) {
+      tabs.querySelector('button').click();
+    }
+  } catch (e) {
+    m.querySelector('.modal-body').innerHTML =
+      `<div style="padding:16px;color:#c0392b">${e.message}</div>`;
+  }
+}
+
+async function loadCalMonth(m, num) {
+  const el = m.querySelector('.cal-content');
+  if (!el) return;
+  el.innerHTML = '<em style="color:#7a6050;font-size:13px;padding:8px;display:block">Loading…</em>';
+  try {
+    const r = await fetch(`/tools/seasonal-calendar?month=${num}`);
+    el.innerHTML = await r.text();
+  } catch (e) {
+    el.innerHTML = `<span style="color:#c0392b">${e.message}</span>`;
+  }
+}
+
 // 5etools buttons
 document.querySelectorAll('.tool-5e').forEach(btn => {
   btn.addEventListener('click', () => {

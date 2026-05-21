@@ -641,6 +641,20 @@ mark {
   border: none;
   display: block;
 }
+/* Web content typography inside modals */
+.modal-body h1 { font-size:1.5em; color:#58180d; text-transform:uppercase; letter-spacing:1px; border-bottom:3px solid #c9ad6a; padding-bottom:6px; margin-top:0; }
+.modal-body h2 { font-size:1.2em; color:#58180d; border-bottom:1px solid #c9ad6a; padding-bottom:4px; margin-top:1.2em; }
+.modal-body h3 { font-size:1.05em; color:#58180d; font-variant:small-caps; margin-top:1em; }
+.modal-body h4, .modal-body h5, .modal-body h6 { font-size:0.95em; color:#58180d; margin-top:0.8em; }
+.modal-body strong { color:#3b0d0d; }
+.modal-body em { color:#5a3a1a; }
+.modal-body blockquote { border-left:4px solid #c9ad6a; margin:1em 0; padding:8px 16px; background:#ede8da; }
+.modal-body hr { border:none; border-top:2px solid #c9ad6a; margin:1.5em 0; }
+.modal-body ul, .modal-body ol { padding-left:1.4em; line-height:1.7; }
+.modal-body table { border-collapse:collapse; width:100%; margin:1em 0; font-size:0.9em; }
+.modal-body th { background:#58180d; color:#f5f0e8; padding:6px 10px; text-align:left; }
+.modal-body td { padding:5px 10px; border-bottom:1px solid #ddd; color:#2c1810; }
+.modal-body tr:nth-child(even) td { background:#ede8da; }
 
 /* ─── Tools dropdown ──────────────────────────────────────────────────────── */
 
