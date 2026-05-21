@@ -74,6 +74,11 @@ function preprocessMarkdown(raw) {
   md = md.replace(/\{\{wide[^\n]*\n([\s\S]*?)\n\}\}/g,
     (_, content) => `<div class="callout wide">\n\n${content}\n\n</div>\n`);
 
+  // loc: links → modal anchors: [text](loc:path/to/file.md)
+  md = md.replace(/\[([^\]]+)\]\(loc:([^)]+)\)/g,
+    (_, text, locPath) =>
+      `<a href="#" data-modal="${locPath.trim()}" class="link-loc">${esc(text)}</a>`);
+
   // 5etools: links → raw anchor with data-modal-5e
   md = md.replace(/\[([^\]]+)\]\(5etools:([\w.]+)#([\w_-]+)\)/g,
     (_, text, page, hash) =>
@@ -136,8 +141,15 @@ app.get('/api/files', (req, res) => {
   try {
     const dir = safePath(req.query.path);
     const isRoot = dir === CAMPAIGN_ROOT;
+    const season = req.query.season ? parseInt(req.query.season, 10) : null;
     const entries = fs.readdirSync(dir, { withFileTypes: true })
       .filter(e => showEntry(e) && !(isRoot && e.isFile()))
+      .filter(e => {
+        // Hide season-N directories that don't match the selected season filter
+        if (season == null || !e.isDirectory()) return true;
+        const m = e.name.match(/^season-(\d+)$/i);
+        return !m || parseInt(m[1], 10) === season;
+      })
       .map(e => ({
         name: e.name,
         type: e.isDirectory() ? 'dir' : 'file',

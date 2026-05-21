@@ -142,6 +142,9 @@ function openPath(p) {
 }
 
 seasonSel.addEventListener('change', () => {
+  // Re-render the file tree so season-N subdirs are filtered/restored
+  fillTree('', fileTree);
+  // Refresh the viewer so season-gates are applied to the current file
   if (currentPath) {
     viewer.src = buildPreviewUrl(currentPath);
   }
@@ -199,7 +202,10 @@ function buildItem(entry) {
 
 async function fillTree(dirPath, container) {
   try {
-    const r = await fetch(`/api/files?path=${encodeURIComponent(dirPath || '')}`);
+    let url = `/api/files?path=${encodeURIComponent(dirPath || '')}`;
+    const s = seasonSel.value;
+    if (s) url += `&season=${s}`;
+    const r = await fetch(url);
     if (!r.ok) throw new Error(await r.text());
     const entries = await r.json();
     container.innerHTML = '';
