@@ -370,6 +370,12 @@ app.get('/preview', (req, res) => {
     const stat = fs.statSync(filePath);
 
     if (stat.isDirectory()) {
+      const indexMd = path.join(filePath, 'index.md');
+      if (isWebPath(filePath) && fs.existsSync(indexMd)) {
+        const { html, title } = renderWebMarkdown(indexMd);
+        res.send(webPreviewHtml(title, html));
+        return;
+      }
       const entries = fs.readdirSync(filePath, { withFileTypes: true })
         .filter(showEntry)
         .sort((a, b) => (a.isDirectory() === b.isDirectory() ? a.name.localeCompare(b.name) : a.isDirectory() ? -1 : 1));
