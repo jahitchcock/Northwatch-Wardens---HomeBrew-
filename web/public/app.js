@@ -320,6 +320,19 @@ function initTerminal() {
     }
   });
 
+  // Ctrl+V / Ctrl+Shift+V → paste from clipboard into terminal
+  term.attachCustomKeyEventHandler(e => {
+    if (e.type === 'keydown' && e.key === 'v' && (e.ctrlKey || e.metaKey)) {
+      navigator.clipboard.readText().then(text => {
+        if (text && ws && ws.readyState === WebSocket.OPEN) {
+          ws.send(JSON.stringify({ type: 'input', data: text }));
+        }
+      }).catch(() => {});
+      return false; // prevent xterm default handling
+    }
+    return true;
+  });
+
   connect();
 }
 
