@@ -512,24 +512,123 @@ app.get('/api/search', (req, res) => {
 
 // ─── Tables API ───────────────────────────────────────────────────────────────
 
+// Parse a /tables/*.md file into rollable groups.
+// Two strategies: markdown tables (d20/d12 rolls) and numbered-heading lists.
+function parseTableFile(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  // Strip frontmatter and Homebrewery syntax
+  let content = raw.replace(/^---[\s\S]*?---\n?/, '');
+  content = content.replace(/\{\{\w[^\n}]*\n/g, '').replace(/^\}\}\s*$/gm, '');
+  content = content.replace(/\\(page|column)/g, '');
+
+  const groups = [];
+  const lines = content.split('\n');
+  let lastHeading = '';
+  let die = 20;
+  let inTable = false;
+  let headerCells = null;
+  let rows = [];
+
+  function flush() {
+    if (headerCells && rows.length > 0) {
+      // Only treat as a rollable table if rows start with numbers
+      if (/^\d/.test(rows[0]?.[0] || '')) {
+        groups.push({ name: lastHeading, die, rows: rows.map(r => ({ roll: r[0], text: r.slice(1).join(' — ') })) });
+      }
+    }
+    headerCells = null; rows = []; inTable = false;
+  }
+
+  for (const line of lines) {
+    const t = line.trim();
+    if (/^#{1,4}\s/.test(t)) {
+      flush();
+      lastHeading = t.replace(/^#{1,4}\s+/, '').replace(/\*\*/g, '').trim();
+      const m = lastHeading.match(/\(d(\d+)\)/i);
+      if (m) die = parseInt(m[1]);
+      continue;
+    }
+    if (t.startsWith('|') && !t.match(/^\|[-: ]+\|/)) {
+      if (!inTable) {
+        headerCells = t.split('|').slice(1, -1).map(c => c.trim());
+        inTable = true;
+      } else {
+        const cells = t.split('|').slice(1, -1).map(c => c.trim());
+        if (cells.length >= 2 && /^\d/.test(cells[0])) rows.push(cells);
+      }
+    } else if (inTable) {
+      if (!t.match(/^\|[-: ]+\|/)) flush(); // non-separator, non-pipe → end of table
+    }
+  }
+  flush();
+
+  // Fallback: numbered heading list (### N. Name + optional Setup line)
+  if (groups.length === 0) {
+    const fm = extractFrontmatter(raw);
+    const entries = [];
+    let current = null;
+    for (const line of lines) {
+      const m = line.match(/^#{2,4}\s+(\d+)\.\s+(.+)/);
+      if (m) {
+        if (current) entries.push(current);
+        current = { roll: m[1], name: m[2].replace(/\*/g, '').trim(), setup: '' };
+      } else if (current && !current.setup && line.includes('**Setup:**')) {
+        current.setup = line.replace(/.*\*\*Setup:\*\*\s*/g, '').replace(/\*\*/g, '').trim();
+      }
+    }
+    if (current) entries.push(current);
+    if (entries.length > 0) {
+      groups.push({
+        name: fm.name || 'Encounters',
+        die: entries.length,
+        rows: entries.map(e => ({ roll: e.roll, text: `**${e.name}**${e.setup ? ' — ' + e.setup : ''}` })),
+      });
+    }
+  }
+
+  return groups;
+}
+
 app.get('/api/tables', (req, res) => {
   try {
     const dir = path.join(CAMPAIGN_ROOT, 'tables');
     if (!fs.existsSync(dir)) return res.json([]);
-    const tables = fs.readdirSync(dir)
-      .filter(f => f.endsWith('.md') && !f.startsWith('_'))
-      .map(file => {
-        const content = fs.readFileSync(path.join(dir, file), 'utf8');
-        const fm = extractFrontmatter(content);
-        return {
-          name: fm.name || file.replace(/\.md$/, '').replace(/[-_]/g, ' '),
-          path: `tables/${file}`,
-        };
-      })
-      .sort((a, b) => a.name.localeCompare(b.name));
-    res.json(tables);
+    const result = [];
+    for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md') && !f.startsWith('_'))) {
+      const groups = parseTableFile(path.join(dir, file));
+      const key = file.replace('.md', '');
+      groups.forEach((g, idx) => result.push({ name: g.name, file: key, tableIdx: idx, die: g.die }));
+    }
+    result.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(result);
   } catch (e) {
     res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/tools/roll-table', (req, res) => {
+  const { file, tableIdx = '0' } = req.query;
+  if (!file || !/^[\w-]+$/.test(file)) return res.status(400).send('<p>Invalid file</p>');
+  const filePath = path.join(CAMPAIGN_ROOT, 'tables', file + '.md');
+  if (!fs.existsSync(filePath)) return res.status(404).send('<p>Table not found</p>');
+  try {
+    const groups = parseTableFile(filePath);
+    const group = groups[parseInt(tableIdx, 10)];
+    if (!group?.rows.length) return res.send('<p style="padding:8px;color:#7a6050">No entries found</p>');
+    const entry = group.rows[Math.floor(Math.random() * group.rows.length)];
+    const html = entry.text
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    res.send(`
+      <div style="font-family:'Palatino Linotype',serif;padding:4px">
+        <p style="margin:0 0 10px;font-size:11px;color:#7a6050;text-transform:uppercase;letter-spacing:.04em">
+          ${esc(group.name)} &mdash; rolled ${esc(entry.roll)} on d${group.die}
+        </p>
+        <div style="font-size:14px;line-height:1.7;color:#2c1810">${html}</div>
+      </div>`);
+  } catch (e) {
+    res.status(500).send(`<p style="color:#c0392b;padding:8px">${esc(e.message)}</p>`);
   }
 });
 

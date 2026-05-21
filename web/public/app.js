@@ -667,7 +667,7 @@ btnTools.addEventListener('click', e => {
 
 document.addEventListener('click', () => closeTools());
 
-// Populate World Tables from /api/tables
+// Populate World Tables from /api/tables — each becomes a roll button
 async function loadWorldTables() {
   try {
     const r = await fetch('/api/tables');
@@ -681,14 +681,45 @@ async function loadWorldTables() {
     for (const t of tables) {
       const btn = document.createElement('button');
       btn.className = 'tool-item';
-      btn.textContent = t.name;
-      btn.addEventListener('click', () => { closeTools(); openModal(t.path); });
+      btn.textContent = `🎲 ${t.name}`;
+      btn.addEventListener('click', () => { closeTools(); openWorldTableTool(t); });
       worldTablesDiv.appendChild(btn);
     }
   } catch {
     worldTablesDiv.innerHTML =
       '<div class="tool-item" style="color:var(--red);cursor:default">Failed to load</div>';
   }
+}
+
+function openWorldTableTool(t) {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = t.name;
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-body').innerHTML = `
+    <div style="padding:16px;font-family:'Palatino Linotype',serif">
+      <div style="margin-bottom:14px">
+        <button class="wt-reroll" style="background:#8b7355;border:none;color:#f5f0e8;padding:5px 14px;border-radius:4px;cursor:pointer;font-size:12px;font-weight:600">🎲 Roll Again</button>
+      </div>
+      <div class="wt-result" style="min-height:40px"><em style="color:#7a6050;font-size:13px">Rolling…</em></div>
+    </div>`;
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  async function doRoll() {
+    const el = m.querySelector('.wt-result');
+    if (!el) return;
+    el.innerHTML = '<em style="color:#7a6050;font-size:13px">Rolling…</em>';
+    try {
+      const resp = await fetch(`/tools/roll-table?file=${encodeURIComponent(t.file)}&tableIdx=${t.tableIdx}`);
+      el.innerHTML = await resp.text();
+    } catch (err) {
+      el.innerHTML = `<span style="color:#c0392b">${err.message}</span>`;
+    }
+  }
+
+  m.querySelector('.wt-reroll').addEventListener('click', doRoll);
+  doRoll();
 }
 
 // Random Encounter tool
