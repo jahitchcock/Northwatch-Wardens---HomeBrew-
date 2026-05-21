@@ -24,6 +24,8 @@ const EXCLUDE = new Set([
   '.git', '.github', 'dm-panel', 'web', 'node_modules', 'build',
   'logs', 'scratchpad', 'scripts', 'templates', 'LionsdenGameFiles',
   'temp', 'docs',
+  // UI hidden — content accessible via Tools dropdown instead
+  'tables', 'seasonal-event-calendar.md',
 ]);
 
 // Directories rendered with marked (web-native markdown)
@@ -133,8 +135,9 @@ function esc(str) {
 app.get('/api/files', (req, res) => {
   try {
     const dir = safePath(req.query.path);
+    const isRoot = dir === CAMPAIGN_ROOT;
     const entries = fs.readdirSync(dir, { withFileTypes: true })
-      .filter(showEntry)
+      .filter(e => showEntry(e) && !(isRoot && e.isFile()))
       .map(e => ({
         name: e.name,
         type: e.isDirectory() ? 'dir' : 'file',
