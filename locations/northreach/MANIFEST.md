@@ -8,3 +8,6 @@
 - [Salsvault](salsvault.md) — Ancient Aevorian ruin in the Far North
 - [Temple of the Dragonknights](temple-of-the-dragonknights.md) — Remote mountain temple, northwest peaks
 - [Noke's Tower](nokes-tower.md) — Wizard's tower west of Waystone
+- [index.md](index.md) — Places of Northreach overview
+- [divinitys-beacon.md](divinitys-beacon.md) — Divinity's Beacon
+- [solace-nexus.md](solace-nexus.md) — Solace Nexus
