@@ -18,3 +18,8 @@
 - [The Horizon Wayfinders](horizon-wayfinders.md) — arctic explorer society, Far North
 - [The Silver Chain](silver-chain.md) — slave liberation underground, unknown alignment
 - [The Gleaners](gleaners.md) — rural farmer cooperative, Verdant Marches
+
+## Reference Files
+
+- [index.md](index.md) — Organizations overview
+- [northwatch-wardens-charter.md](northwatch-wardens-charter.md) — Warden Charter and founding documents
