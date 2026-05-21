@@ -685,6 +685,12 @@ async function loadWorldTables() {
       btn.addEventListener('click', () => { closeTools(); openWorldTableTool(t); });
       worldTablesDiv.appendChild(btn);
     }
+    // Seasonal Calendar
+    const calBtn = document.createElement('button');
+    calBtn.className = 'tool-item';
+    calBtn.textContent = '📅 Seasonal Calendar';
+    calBtn.addEventListener('click', () => { closeTools(); openSeasonalCalendar(); });
+    worldTablesDiv.appendChild(calBtn);
   } catch {
     worldTablesDiv.innerHTML =
       '<div class="tool-item" style="color:var(--red);cursor:default">Failed to load</div>';
@@ -794,11 +800,7 @@ window.rollHoard = async function() {
   }
 };
 
-// Seasonal Calendar tool
-$('tool-seasonal-calendar').addEventListener('click', () => {
-  closeTools();
-  openSeasonalCalendar();
-});
+// Seasonal Calendar tool (button added dynamically in loadWorldTables)
 
 async function openSeasonalCalendar() {
   const m = getFreeModal();
