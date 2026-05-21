@@ -116,9 +116,7 @@ function toggleDrawer(panel, btn) {
   }
 }
 
-if (mobFiles) mobFiles.addEventListener('click', () => toggleDrawer(panelL, mobFiles));
-if (mobTerm)  mobTerm.addEventListener('click',  () => toggleDrawer(panelR, mobTerm));
-if (backdrop) backdrop.addEventListener('click',  closeAllDrawers);
+// Mobile drawer click listeners are registered below (with isMobile guard)
 
 // ─── File tree ────────────────────────────────────────────────────────────────
 
@@ -619,13 +617,25 @@ const worldTablesDiv = $('tools-world-tables');
 function closeTools() {
   toolsDropdown.hidden = true;
   btnTools.classList.remove('open');
+  document.body.classList.remove('tools-open');
+}
+
+function positionDropdown() {
+  const r = btnTools.getBoundingClientRect();
+  const ddW = 240;
+  let left = r.left;
+  if (left + ddW > window.innerWidth - 8) left = window.innerWidth - ddW - 8;
+  toolsDropdown.style.top  = (r.bottom + 6) + 'px';
+  toolsDropdown.style.left = left + 'px';
 }
 
 btnTools.addEventListener('click', e => {
   e.stopPropagation();
   const opening = toolsDropdown.hidden;
+  if (opening) positionDropdown();
   toolsDropdown.hidden = !opening;
   btnTools.classList.toggle('open', opening);
+  document.body.classList.toggle('tools-open', opening);
 });
 
 document.addEventListener('click', () => closeTools());

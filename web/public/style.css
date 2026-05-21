@@ -643,7 +643,6 @@ mark {
 /* ─── Tools dropdown ──────────────────────────────────────────────────────── */
 
 #tools-wrap {
-  position: relative;
   flex-shrink: 0;
 }
 
@@ -666,18 +665,21 @@ mark {
 }
 
 #tools-dropdown {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
+  position: fixed;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 8px;
   min-width: 230px;
-  z-index: 150;
+  z-index: 9999;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
 }
 #tools-dropdown[hidden] { display: none; }
+
+/* Hide iframe while tools dropdown is open (iframes ignore z-index) */
+body.tools-open #viewer { visibility: hidden; }
 
 .tools-section {
   padding: 6px 0 2px;

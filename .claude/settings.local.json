@@ -13,7 +13,13 @@
       "Bash(powershell.exe:*)",
       "Bash(curl -s \"http://localhost:5050/preview?path=Season%201%2FAdventures%2FFrozen%20Sick%2FFrozen_Sick_V3_STANDARDIZED.md\")",
       "Bash(npm install:*)",
-      "Bash(node -e \"const { marked } = require\\('marked'\\); console.log\\(marked.parse\\('# Hello'\\)\\);\")"
+      "Bash(node -e \"const { marked } = require\\('marked'\\); console.log\\(marked.parse\\('# Hello'\\)\\);\")",
+      "Bash(ls _print/)",
+      "Bash(ls \"Season 1/\")",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:5050/api/tables)",
+      "Bash(xargs wc:*)",
+      "Bash(ipconfig)"
     ]
   }
 }

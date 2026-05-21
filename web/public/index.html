@@ -20,25 +20,6 @@
       <button class="tab" data-path="gm-lore">GM Lore</button>
       <div id="tools-wrap">
         <button id="btn-tools">Tools ▾</button>
-        <div id="tools-dropdown" hidden>
-          <div class="tools-section">
-            <div class="tools-section-label">World Tables</div>
-            <div id="tools-world-tables">
-              <div class="tool-item" style="color:var(--subtext);cursor:default;font-style:italic">Loading…</div>
-            </div>
-          </div>
-          <div class="tools-section">
-            <div class="tools-section-label">SRD Tools</div>
-            <button id="tool-random-encounter" class="tool-item">⚔ Random Encounter</button>
-            <button id="tool-treasure-hoard" class="tool-item">💰 Treasure Hoard</button>
-          </div>
-          <div class="tools-section">
-            <div class="tools-section-label">5etools</div>
-            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014">🎲 5etools</button>
-            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/bestiary.html">🐉 Bestiary</button>
-            <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/spells.html">✨ Spells</button>
-          </div>
-        </div>
       </div>
     </nav>
 
@@ -67,6 +48,27 @@
 
     <div id="toast" aria-live="polite"></div>
   </header>
+
+  <!-- Tools dropdown (body-level so it escapes tabbar overflow clipping) -->
+  <div id="tools-dropdown" hidden>
+    <div class="tools-section">
+      <div class="tools-section-label">World Tables</div>
+      <div id="tools-world-tables">
+        <div class="tool-item" style="color:var(--subtext);cursor:default;font-style:italic">Loading…</div>
+      </div>
+    </div>
+    <div class="tools-section">
+      <div class="tools-section-label">SRD Tools</div>
+      <button id="tool-random-encounter" class="tool-item">⚔ Random Encounter</button>
+      <button id="tool-treasure-hoard" class="tool-item">💰 Treasure Hoard</button>
+    </div>
+    <div class="tools-section">
+      <div class="tools-section-label">5etools</div>
+      <button class="tool-item tool-5e" data-5e-url="http://localhost:2014">🎲 5etools</button>
+      <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/bestiary.html">🐉 Bestiary</button>
+      <button class="tool-item tool-5e" data-5e-url="http://localhost:2014/spells.html">✨ Spells</button>
+    </div>
+  </div>
 
   <!-- Backdrop for mobile drawers -->
   <div id="drawer-backdrop"></div>
