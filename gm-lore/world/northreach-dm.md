@@ -1,11 +1,3 @@
-> **DUNGEON MASTER EYES ONLY**
->
-> **CAMPAIGN SPOILERS: Northreach Regional Secrets**
->
-> This document contains DM-only information about Northreach and the Aevorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
->
-> **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
-
 # Northreach: DM Secrets
 
 ## The Aevorian Echo

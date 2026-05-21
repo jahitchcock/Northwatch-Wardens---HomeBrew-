@@ -10,8 +10,9 @@
 <body>
 
   <header id="tabbar">
-    <!-- Mobile-only drawer toggles -->
+    <!-- Mobile-only drawer toggles — grouped at start so they're always visible without scrolling -->
     <button class="mob-btn" id="mob-files" aria-label="Toggle file browser">☰</button>
+    <button class="mob-btn" id="mob-term" aria-label="Toggle terminal">⌨</button>
 
     <nav class="tab-group">
       <button class="tab" data-path="adventures">Adventures</button>
@@ -42,9 +43,6 @@
 
     <div id="breadcrumb" title="Current path"></div>
     <button id="btn-ctx" title="Send file path to terminal" hidden>⌨ Path</button>
-
-    <!-- Mobile-only terminal toggle -->
-    <button class="mob-btn" id="mob-term" aria-label="Toggle terminal">⌨</button>
 
     <div id="toast" aria-live="polite"></div>
   </header>

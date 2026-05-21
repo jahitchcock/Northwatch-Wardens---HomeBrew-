@@ -1,7 +1,3 @@
-> **DO NOT share this with players** unless they discover it through gameplay.
->
-> **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book).
-
 ### The Aevorian Echo: Campaign Master Document
 
 #### Overview

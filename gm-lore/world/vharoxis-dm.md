@@ -1,24 +1,3 @@
-# VHAROXIS — DM SECRETS
-**The Hidden Truth About the City of Masks**
-
----
-
-> **⚠️ DUNGEON MASTER EYES ONLY ⚠️**
->
-> **CAMPAIGN SPOILERS: Vharoxis Secrets**
->
-> This document contains the hidden truth about the City of Masks. **DO NOT share this with players** unless they discover it through gameplay.
->
-> **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
-
----
-
-## ⚠️ DM ONLY — DO NOT SHARE WITH PLAYERS ⚠️
-
-This document contains secrets about Vharoxis that should be revealed gradually through play. The information here is not known to most NPCs in the city—and discovering it could change the course of the campaign.
-
----
-
 ## The Core Truth
 
 **Vharoxis is the primary black-market distributor of Aevorian artifact fragments.**

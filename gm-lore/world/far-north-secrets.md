@@ -1,11 +1,3 @@
-> **DUNGEON MASTER EYES ONLY**
->
-> **MAJOR CAMPAIGN SPOILERS: Far North Secrets**
->
-> This document contains the truth about the Far North and the origin of the Aevorian Echo. **DO NOT share this with players** unless they discover it through gameplay.
->
-> **For player-safe content**, see *The Adventurer's Guide to Aevoria* (player companion book)
-
 # The Far North: DM Secrets
 
 Do not share this information with players unless they discover it through gameplay.
