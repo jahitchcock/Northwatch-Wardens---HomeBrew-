@@ -345,7 +345,7 @@ After asking questions:
 - PC who fears magic → Awakened wolves trigger that fear
 - PC who left sibling behind → Kasira reminds them of a younger sibling
 
-**Frozen Sick:**
+**The Pale Sickness:**
 - PC with medical knowledge → Tulgi seeks their help
 - PC who fears isolation → Palebank's remoteness triggers that fear
 - PC who lost someone to illness → Victims' suffering is personal
