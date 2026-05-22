@@ -12,6 +12,7 @@
 - [The Wild Sheep Chase](the-wild-sheep-chase.md)
 - [Wild Sheep Chase Handouts](the-wild-sheep-chase-handouts)
 - [The Pale Sickness](the-pale-sickness)
+- [Pale Sickness Handouts](the-pale-sickness/handouts)
 - [Temple of the Dragonknights](temple-of-the-dragonknights.md)
 - [Temple Handouts](temple-of-the-dragonknights-handouts)
 - [General Handouts](general-handouts)
