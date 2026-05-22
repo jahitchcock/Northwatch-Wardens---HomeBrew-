@@ -2,7 +2,6 @@
 
 All campaign NPCs. Core guild roster first, then season-specific characters.
 
-- [player-characters](player-characters) — Party character sheets
 - [core](core) — Guild leadership and permanent Waystone Inn fixtures
 - [season-1](season-1) — All NPCs introduced in Season 1
 - [season-2](season-2) — NPCs introduced in Season 2
