@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <style>
     #panel-tracker {
-      flex: 1;
+      position: absolute;
+      inset: 0;
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      background: var(--bg, #1a1a1a);
-      min-width: 0;
+      background: #1a1a1a;
+      z-index: 1;
     }
     #tracker-subnav {
       display: flex;
@@ -224,20 +225,20 @@
 
     <main id="panel-center">
       <iframe id="viewer" src="about:blank" title="Content viewer"></iframe>
+      <div id="panel-tracker" hidden>
+        <nav id="tracker-subnav">
+          <button class="tr-tab active" data-section="contracts">Contracts</button>
+          <button class="tr-tab" data-section="party">Party</button>
+          <button class="tr-tab" data-section="npcs">NPCs</button>
+          <button class="tr-tab" data-section="clues">Echo</button>
+          <button class="tr-tab" data-section="promises">Promises</button>
+          <button class="tr-tab" data-section="treasure">Treasure</button>
+          <button class="tr-tab" data-section="sessions">Sessions</button>
+          <span id="tracker-saved"></span>
+        </nav>
+        <div id="tracker-content"></div>
+      </div>
     </main>
-    <div id="panel-tracker" hidden>
-      <nav id="tracker-subnav">
-        <button class="tr-tab active" data-section="contracts">Contracts</button>
-        <button class="tr-tab" data-section="party">Party</button>
-        <button class="tr-tab" data-section="npcs">NPCs</button>
-        <button class="tr-tab" data-section="clues">Echo</button>
-        <button class="tr-tab" data-section="promises">Promises</button>
-        <button class="tr-tab" data-section="treasure">Treasure</button>
-        <button class="tr-tab" data-section="sessions">Sessions</button>
-        <span id="tracker-saved"></span>
-      </nav>
-      <div id="tracker-content"></div>
-    </div>
 
     <div class="rh" id="rh-r" title="Drag to resize · click › to collapse">
       <button class="cbt" id="cbt-r" aria-label="Toggle terminal">›</button>
