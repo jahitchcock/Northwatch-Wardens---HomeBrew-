@@ -1126,6 +1126,161 @@ function serializeMarkdownTable({ headers, rows }) {
   return [fmt(headers), fmt(sep), ...rows.map(fmt)].join('\n');
 }
 
+function renderTrackerSection(section, content) {
+  const renderers = { party: renderParty, contracts: renderContracts,
+    npcs: renderNpcs, clues: renderClues, promises: renderPromises,
+    treasure: renderTreasure };
+  const fn = renderers[section];
+  if (fn) fn(content);
+  else trackerContent.innerHTML = `<div class="tr-section"><p style="color:#888">Unknown section: ${section}</p></div>`;
+}
+
+function renderContracts(content) {
+  // Split content into per-adventure blocks by ## headings
+  const blocks = content.split(/^## /m).filter(Boolean);
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Contract Outcomes</h2>';
+
+  blocks.forEach(block => {
+    const lines = block.split('\n');
+    const title = lines[0].trim();
+    const rest = lines.slice(1).join('\n');
+
+    // Split checkboxes from notes
+    const notesMatch = rest.match(/^### Notes\n([\s\S]*?)(?=^### |\Z)/m);
+    const notesText = notesMatch ? notesMatch[1].trim() : '';
+    const checkboxText = rest.replace(/^### Notes[\s\S]*/, '').trim();
+    const items = parseCheckboxBlock(checkboxText);
+
+    const contract = document.createElement('div');
+    contract.className = 'tr-contract';
+
+    const titleEl = document.createElement('div');
+    titleEl.className = 'tr-contract-title';
+    titleEl.innerHTML = `<span class="arrow">▶</span> ${title}`;
+    titleEl.addEventListener('click', () => {
+      titleEl.classList.toggle('open');
+      body.classList.toggle('open');
+    });
+
+    const body = document.createElement('div');
+    body.className = 'tr-contract-body';
+
+    // Checkboxes
+    const ul = document.createElement('ul');
+    ul.className = 'tr-checklist';
+    items.forEach((item, idx) => {
+      const li = document.createElement('li');
+      if (item.checked) li.classList.add('checked');
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.checked = item.checked;
+      cb.addEventListener('change', () => {
+        items[idx].checked = cb.checked;
+        li.classList.toggle('checked', cb.checked);
+        serializeAndSaveContracts(div);
+      });
+      li.appendChild(cb);
+      li.appendChild(document.createTextNode(item.label));
+      ul.appendChild(li);
+    });
+    body.appendChild(ul);
+
+    // Notes
+    const notesLabel = document.createElement('div');
+    notesLabel.style.cssText = 'font-size:11px;color:#666;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px';
+    notesLabel.textContent = 'Notes';
+    const notes = document.createElement('textarea');
+    notes.className = 'tr-notes';
+    notes.value = notesText;
+    notes.placeholder = 'Session notes…';
+    notes.addEventListener('input', () => serializeAndSaveContracts(div));
+
+    body.appendChild(notesLabel);
+    body.appendChild(notes);
+    contract.appendChild(titleEl);
+    contract.appendChild(body);
+    div.appendChild(contract);
+  });
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
+function serializeAndSaveContracts(div) {
+  const blocks = [];
+  div.querySelectorAll('.tr-contract').forEach(contract => {
+    const title = contract.querySelector('.tr-contract-title').textContent.replace('▶', '').replace('▼', '').trim();
+    const items = [...contract.querySelectorAll('.tr-checklist li')].map(li => {
+      const cb = li.querySelector('input[type=checkbox]');
+      const label = li.textContent.trim();
+      return `- [${cb.checked ? 'x' : ' '}] ${label}`;
+    });
+    const notes = contract.querySelector('.tr-notes').value;
+    blocks.push(`## ${title}\n${items.join('\n')}\n\n### Notes\n${notes}`);
+  });
+  saveTrackerSection('contracts', '# Contract Outcomes\n\n' + blocks.join('\n\n'));
+}
+
+function renderParty(content) {
+  const { headers, rows } = parseMarkdownTable(content);
+  const workingRows = rows.length ? rows.map(r => [...r]) : [['','','',''],['','','',''],['','','',''],['','','',''],['','','','']];
+
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Party Roster</h2>';
+
+  const table = document.createElement('table');
+  table.className = 'tr-table';
+  const thead = document.createElement('thead');
+  thead.innerHTML = '<tr>' + (headers.length ? headers : ['Player','Character','Class / Level','Status']).map(h => `<th>${h}</th>`).join('') + '<th></th></tr>';
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  const saveParty = () => {
+    const rows = [...tbody.querySelectorAll('tr')].map(tr =>
+      [...tr.querySelectorAll('input')].map(i => i.value)
+    );
+    const hdrs = headers.length ? headers : ['Player','Character','Class / Level','Status'];
+    saveTrackerSection('party', '# Party Roster\n\n' + serializeMarkdownTable({ headers: hdrs, rows }));
+  };
+
+  const addRow = (cells) => {
+    const tr = document.createElement('tr');
+    cells.forEach(cell => {
+      const td = document.createElement('td');
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.value = cell;
+      input.addEventListener('blur', saveParty);
+      td.appendChild(input);
+      tr.appendChild(td);
+    });
+    const removeTd = document.createElement('td');
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'tr-remove-btn';
+    removeBtn.textContent = '✕';
+    removeBtn.addEventListener('click', () => { tr.remove(); saveParty(); });
+    removeTd.appendChild(removeBtn);
+    tr.appendChild(removeTd);
+    tbody.appendChild(tr);
+  };
+
+  workingRows.forEach(row => addRow(row));
+  table.appendChild(tbody);
+  div.appendChild(table);
+
+  const addBtn = document.createElement('button');
+  addBtn.className = 'tr-add-btn';
+  addBtn.textContent = '+ Add player';
+  addBtn.addEventListener('click', () => { addRow(['','','','']); });
+  div.appendChild(addBtn);
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
