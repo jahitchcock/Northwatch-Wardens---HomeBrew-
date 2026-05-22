@@ -262,6 +262,7 @@ function tabPath(base) {
 
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
+    if (tab.dataset.tab) return; // handled by dedicated tab listener (e.g. Tracker)
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     openPath(tabPath(tab.dataset.path));
