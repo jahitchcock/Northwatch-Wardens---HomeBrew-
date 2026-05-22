@@ -10,11 +10,14 @@
     #panel-tracker {
       position: absolute;
       inset: 0;
-      display: flex;
       flex-direction: column;
       overflow: hidden;
       background: #1a1a1a;
       z-index: 1;
+      display: none;
+    }
+    #panel-tracker:not([hidden]) {
+      display: flex;
     }
     #tracker-subnav {
       display: flex;

@@ -136,6 +136,7 @@ function buildPreviewUrl(p) {
 
 function openPath(p) {
   currentPath = p;
+  if (typeof hideTrackerPanel === 'function') hideTrackerPanel();
   viewer.src = buildPreviewUrl(p);
   breadcrumb.textContent = p;
   btnCtx.hidden = false;
