@@ -141,12 +141,38 @@ function openPath(p) {
   closeAllDrawers();
 }
 
-seasonSel.addEventListener('change', () => {
-  // Re-render the file tree so season-N subdirs are filtered/restored
-  fillTree('', fileTree);
-  // Refresh the viewer so season-gates are applied to the current file
+seasonSel.addEventListener('change', async () => {
+  const s = seasonSel.value;
+  await fillTree('', fileTree);
+
+  // After tree is built, expand season-aware dirs so season filtering is visible
+  if (s) {
+    for (const item of fileTree.querySelectorAll('.ti')) {
+      const nameTxt = item.querySelector('.ti-name')?.textContent.trim();
+      if (!SEASON_TABS.has(nameTxt)) continue;
+      const tc  = item.querySelector('.tc');
+      const ico = item.querySelector('.ti-icon');
+      const lbl = item.querySelector('.tl');
+      if (!tc || !ico || !lbl) continue;
+      tc.innerHTML = '<div class="tree-spinner">Loading…</div>';
+      await fillTree(lbl.title, tc);
+      tc._preloaded = true;
+      tc.classList.add('open');
+      ico.classList.add('open');
+    }
+  }
+
+  // Refresh viewer — jump to season subdir if currently viewing a season-aware dir
   if (currentPath) {
-    viewer.src = buildPreviewUrl(currentPath);
+    const base = currentPath.split('/')[0];
+    if (SEASON_TABS.has(currentPath) || (SEASON_TABS.has(base) && /^season-\d+$/i.test(currentPath.split('/')[1] || ''))) {
+      const newPath = s ? tabPath(base) : base;
+      currentPath = newPath;
+      viewer.src = buildPreviewUrl(newPath);
+      breadcrumb.textContent = newPath;
+    } else {
+      viewer.src = buildPreviewUrl(currentPath);
+    }
   }
 });
 
@@ -179,7 +205,7 @@ function buildItem(entry) {
     label.addEventListener('click', async e => {
       e.stopPropagation();
       const open = children.classList.contains('open');
-      if (!loaded && !open) {
+      if (!loaded && !children._preloaded && !open) {
         children.innerHTML = '<div class="tree-spinner">Loading…</div>';
         await fillTree(entry.path, children);
         loaded = true;
@@ -220,11 +246,20 @@ async function fillTree(dirPath, container) {
 
 // ─── Quick-access tabs ────────────────────────────────────────────────────────
 
+// Tabs that have season-N subdirectories
+const SEASON_TABS = new Set(['adventures', 'npcs']);
+
+function tabPath(base) {
+  const s = seasonSel.value;
+  if (s && SEASON_TABS.has(base)) return `${base}/season-${s}`;
+  return base;
+}
+
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
-    openPath(tab.dataset.path);
+    openPath(tabPath(tab.dataset.path));
     setActive(null);
     if (isMobile()) closeDrawers();
   });
@@ -890,6 +925,7 @@ document.querySelectorAll('.tool-5e').forEach(btn => {
 
 document.addEventListener('DOMContentLoaded', () => {
   fillTree('', fileTree);
+  openPath('gm-lore/welcome.md');
   initTerminal();
   loadWorldTables();
 });
