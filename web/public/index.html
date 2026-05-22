@@ -6,6 +6,142 @@
   <title>DM Panel — Northwatch Wardens</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    #panel-tracker {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--bg, #1a1a1a);
+      min-width: 0;
+    }
+    #tracker-subnav {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      padding: 6px 12px;
+      background: #111;
+      border-bottom: 1px solid #2a2a2a;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+    .tr-tab {
+      background: none;
+      border: 1px solid transparent;
+      color: #888;
+      font-family: inherit;
+      font-size: 12px;
+      padding: 4px 12px;
+      cursor: pointer;
+      border-radius: 3px;
+      letter-spacing: 0.03em;
+    }
+    .tr-tab:hover { color: #ccc; background: #1e1e1e; }
+    .tr-tab.active { color: #f5f0e8; border-color: #444; background: #2a2a2a; }
+    #tracker-saved {
+      margin-left: auto;
+      font-size: 11px;
+      color: #558855;
+      font-family: sans-serif;
+    }
+    #tracker-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 28px;
+      color: #cdd6f4;
+      font-family: 'Palatino Linotype', Palatino, serif;
+    }
+    .tr-section { max-width: 900px; }
+    .tr-section h2 {
+      font-size: 1.1em; font-weight: normal; color: #f5f0e8;
+      border-bottom: 1px solid #333; padding-bottom: 6px; margin-bottom: 16px;
+    }
+    .tr-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 13px; }
+    .tr-table th {
+      text-align: left; padding: 6px 10px; background: #222;
+      color: #888; font-weight: normal; font-size: 11px;
+      text-transform: uppercase; letter-spacing: 0.05em;
+    }
+    .tr-table td { padding: 6px 10px; border-bottom: 1px solid #222; }
+    .tr-table td input, .tr-table td select, .tr-table td textarea {
+      background: transparent; border: none; color: #cdd6f4;
+      font-family: inherit; font-size: 13px; width: 100%;
+      outline: none; padding: 0;
+    }
+    .tr-table td input:focus, .tr-table td select:focus, .tr-table td textarea:focus {
+      background: #222; border-radius: 2px; padding: 2px 4px;
+    }
+    .tr-table td select { cursor: pointer; }
+    select option { background: #1a1a1a; }
+    .tr-contract { margin-bottom: 24px; }
+    .tr-contract-title {
+      font-size: 1em; color: #f5f0e8; cursor: pointer;
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 0; border-bottom: 1px solid #2a2a2a;
+      user-select: none;
+    }
+    .tr-contract-title .arrow { font-size: 10px; color: #666; transition: transform 0.15s; }
+    .tr-contract-title.open .arrow { transform: rotate(90deg); }
+    .tr-contract-body { padding: 12px 0 0 0; display: none; }
+    .tr-contract-body.open { display: block; }
+    .tr-checklist { list-style: none; padding: 0; margin: 0 0 12px 0; }
+    .tr-checklist li {
+      display: flex; align-items: center; gap: 8px;
+      padding: 3px 0; font-size: 13px; cursor: pointer;
+      color: #aaa;
+    }
+    .tr-checklist li.checked { color: #cdd6f4; text-decoration: none; }
+    .tr-checklist li input[type=checkbox] { cursor: pointer; accent-color: #58180d; flex-shrink: 0; }
+    .tr-notes {
+      width: 100%; min-height: 60px; background: #161616;
+      border: 1px solid #2a2a2a; border-radius: 3px;
+      color: #cdd6f4; font-family: inherit; font-size: 13px;
+      padding: 8px 10px; resize: vertical; margin-top: 8px;
+      box-sizing: border-box;
+    }
+    .tr-notes:focus { outline: 1px solid #444; }
+    .tr-add-btn {
+      background: none; border: 1px dashed #444; color: #666;
+      font-family: inherit; font-size: 12px; padding: 4px 12px;
+      cursor: pointer; border-radius: 3px; margin-top: 8px;
+    }
+    .tr-add-btn:hover { border-color: #888; color: #aaa; }
+    .tr-remove-btn {
+      background: none; border: none; color: #555; cursor: pointer;
+      font-size: 14px; padding: 0 4px; line-height: 1;
+    }
+    .tr-remove-btn:hover { color: #f38ba8; }
+    .tr-gold-row { display: flex; gap: 24px; margin-bottom: 20px; align-items: center; font-size: 13px; }
+    .tr-gold-row label { color: #888; }
+    .tr-gold-row input {
+      background: #161616; border: 1px solid #2a2a2a; border-radius: 3px;
+      color: #cdd6f4; font-family: inherit; font-size: 13px;
+      padding: 4px 8px; width: 120px;
+    }
+    .tr-session-list { list-style: none; padding: 0; margin: 0 0 16px 0; }
+    .tr-session-item {
+      padding: 10px 14px; border: 1px solid #2a2a2a; border-radius: 4px;
+      margin-bottom: 8px; cursor: pointer; font-size: 13px;
+    }
+    .tr-session-item:hover { border-color: #444; background: #1e1e1e; }
+    .tr-session-item .session-meta { color: #888; font-size: 11px; margin-bottom: 2px; }
+    .tr-session-item .session-preview { color: #aaa; }
+    .tr-session-form { border: 1px solid #333; border-radius: 4px; padding: 16px; margin-bottom: 16px; }
+    .tr-session-form label { display: block; color: #888; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; margin-top: 12px; }
+    .tr-session-form label:first-child { margin-top: 0; }
+    .tr-session-form input, .tr-session-form textarea {
+      width: 100%; background: #161616; border: 1px solid #2a2a2a;
+      border-radius: 3px; color: #cdd6f4; font-family: inherit;
+      font-size: 13px; padding: 6px 10px; box-sizing: border-box;
+    }
+    .tr-session-form textarea { min-height: 100px; resize: vertical; }
+    .tr-session-save {
+      background: #58180d; color: #f5f0e8; border: none;
+      padding: 7px 18px; font-family: inherit; font-size: 13px;
+      cursor: pointer; border-radius: 3px; margin-top: 12px;
+    }
+    .tr-session-save:hover { background: #7a2010; }
+  </style>
 </head>
 <body>
 
@@ -16,6 +152,7 @@
 
     <nav class="tab-group">
       <button class="tab" data-path="gm-lore/welcome.md">Home</button>
+      <button class="tab" id="tab-tracker" data-tab="tracker">Tracker</button>
       <button class="tab" data-path="adventures">Adventures</button>
       <button class="tab" data-path="npcs">NPCs</button>
       <button class="tab" data-path="locations">Locations</button>
@@ -44,6 +181,8 @@
 
     <div id="breadcrumb" title="Current path"></div>
     <button id="btn-ctx" title="Send file path to terminal" hidden>⌨ Path</button>
+    <button id="btn-manifest" title="Edit MANIFEST.md for current directory" hidden>✎ Manifest</button>
+    <button id="btn-print" title="Print this handout" hidden>🖨 Print</button>
 
     <div id="toast" aria-live="polite"></div>
   </header>
@@ -86,6 +225,19 @@
     <main id="panel-center">
       <iframe id="viewer" src="about:blank" title="Content viewer"></iframe>
     </main>
+    <div id="panel-tracker" hidden>
+      <nav id="tracker-subnav">
+        <button class="tr-tab active" data-section="contracts">Contracts</button>
+        <button class="tr-tab" data-section="party">Party</button>
+        <button class="tr-tab" data-section="npcs">NPCs</button>
+        <button class="tr-tab" data-section="clues">Echo</button>
+        <button class="tr-tab" data-section="promises">Promises</button>
+        <button class="tr-tab" data-section="treasure">Treasure</button>
+        <button class="tr-tab" data-section="sessions">Sessions</button>
+        <span id="tracker-saved"></span>
+      </nav>
+      <div id="tracker-content"></div>
+    </div>
 
     <div class="rh" id="rh-r" title="Drag to resize · click › to collapse">
       <button class="cbt" id="cbt-r" aria-label="Toggle terminal">›</button>
