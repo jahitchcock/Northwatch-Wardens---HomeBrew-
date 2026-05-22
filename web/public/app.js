@@ -138,6 +138,7 @@ function openPath(p) {
   viewer.src = buildPreviewUrl(p);
   breadcrumb.textContent = p;
   btnCtx.hidden = false;
+  if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
 }
 
@@ -439,6 +440,19 @@ function closeTopModal() {
     m.querySelector('.modal-box').classList.remove('modal-box--tall');
   }, 180);
 }
+
+// Expose modal functions for iframe bridge (web-rendered files use these via window.parent)
+window.dmOpenModal = openModal;
+window.dmOpen5eModal = open5eModal;
+window.dmOpenModalRaw = (title, bodyHtml) => {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = title;
+  m.querySelector('.modal-body').innerHTML = bodyHtml;
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+};
 
 // Document-level click handler for modal links and close targets
 document.addEventListener('click', e => {
@@ -921,11 +935,203 @@ document.querySelectorAll('.tool-5e').forEach(btn => {
   });
 });
 
+// ─── Manifest editor ──────────────────────────────────────────────────────────
+
+const btnManifest = $('btn-manifest');
+
+function currentDir() {
+  if (!currentPath) return null;
+  // If currentPath ends with .md it's a file — take parent dir
+  return currentPath.endsWith('.md')
+    ? currentPath.split('/').slice(0, -1).join('/') || ''
+    : currentPath;
+}
+
+async function openManifestEditor() {
+  const dir = '';
+
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Edit MANIFEST.md — root';
+  m.querySelector('.modal-body').innerHTML =
+    '<div style="padding:16px;color:#888;font-family:sans-serif;font-size:13px">Loading…</div>';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  let content = '';
+  try {
+    const r = await fetch('/api/manifest?path=' + encodeURIComponent(dir));
+    const data = await r.json();
+    content = data.content || '';
+  } catch (e) {
+    m.querySelector('.modal-body').innerHTML =
+      `<div style="padding:16px;color:#f38ba8;font-family:sans-serif;font-size:13px">Error: ${e.message}</div>`;
+    return;
+  }
+
+  const body = m.querySelector('.modal-body');
+  body.innerHTML = `
+    <div style="display:flex;flex-direction:column;height:100%;padding:12px;box-sizing:border-box;gap:8px">
+      <div style="font-size:11px;color:#888;font-family:sans-serif">
+        One link per line, e.g. <code>- [Label](filename.md)</code>. Order determines tree sort.
+      </div>
+      <textarea id="manifest-textarea" spellcheck="false" style="
+        flex:1;width:100%;box-sizing:border-box;
+        background:#1e1e1e;color:#cdd6f4;border:1px solid #444;
+        font-family:'Cascadia Code',Consolas,monospace;font-size:13px;
+        line-height:1.5;padding:10px;resize:none;border-radius:4px;
+      ">${content.replace(/</g, '&lt;')}</textarea>
+      <div style="display:flex;gap:8px;justify-content:flex-end">
+        <button id="manifest-save-btn" style="
+          background:#58180d;color:#f5f0e8;border:none;padding:6px 18px;
+          font-family:inherit;font-size:13px;border-radius:4px;cursor:pointer;
+        ">Save</button>
+      </div>
+    </div>`;
+
+  body.querySelector('#manifest-save-btn').addEventListener('click', async () => {
+    const text = body.querySelector('#manifest-textarea').value;
+    try {
+      const r = await fetch('/api/manifest?path=' + encodeURIComponent(dir), {
+        method: 'POST',
+        body: text,
+        headers: { 'Content-Type': 'text/plain' },
+      });
+      if (!r.ok) throw new Error((await r.json()).error || r.statusText);
+      showToast('MANIFEST.md saved');
+      closeTopModal();
+      // Refresh the tree so new sort order takes effect
+      const activeTab = document.querySelector('.tab.active');
+      if (activeTab) activeTab.click();
+    } catch (e) {
+      showToast('Save failed: ' + e.message);
+    }
+  });
+}
+
+btnManifest.addEventListener('click', openManifestEditor);
+
+// Root manifest button is always visible
+function updateManifestBtn() {
+  btnManifest.hidden = false;
+}
+
+// ─── Campaign Tracker ─────────────────────────────────────────────────────────
+
+const panelTracker   = $('panel-tracker');
+const trackerContent = $('tracker-content');
+const trackerSaved   = $('tracker-saved');
+const btnPrint       = $('btn-print');
+const tabTracker     = $('tab-tracker');
+
+let trackerSection  = 'contracts';
+let trackerSaveTimer = null;
+
+function showTrackerPanel() {
+  viewer.hidden = true;
+  panelTracker.hidden = false;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tabTracker.classList.add('active');
+  loadTrackerSection(trackerSection);
+}
+
+function hideTrackerPanel() {
+  panelTracker.hidden = true;
+  viewer.hidden = false;
+}
+
+tabTracker.addEventListener('click', () => {
+  hideTrackerPanel(); // reset first
+  showTrackerPanel();
+  setActive(null);
+  if (isMobile()) closeDrawers();
+});
+
+// When any other tab is clicked, hide the tracker panel
+document.querySelectorAll('.tab:not(#tab-tracker)').forEach(tab => {
+  tab.addEventListener('click', hideTrackerPanel);
+});
+
+document.querySelectorAll('.tr-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tr-tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    trackerSection = btn.dataset.section;
+    loadTrackerSection(trackerSection);
+  });
+});
+
+async function loadTrackerSection(section) {
+  trackerContent.innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading…</div>';
+  if (section === 'sessions') {
+    await renderSessionsSection();
+    return;
+  }
+  try {
+    const r = await fetch(`/api/tracker?section=${section}`);
+    const { content } = await r.json();
+    renderTrackerSection(section, content);
+  } catch (e) {
+    trackerContent.innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">Error: ${e.message}</div>`;
+  }
+}
+
+async function saveTrackerSection(section, content) {
+  try {
+    await fetch(`/api/tracker?section=${section}`, {
+      method: 'POST', body: content, headers: { 'Content-Type': 'text/plain' }
+    });
+    trackerSaved.textContent = 'Saved ✓';
+    clearTimeout(trackerSaveTimer);
+    trackerSaveTimer = setTimeout(() => { trackerSaved.textContent = ''; }, 2000);
+  } catch (e) {
+    trackerSaved.textContent = 'Save failed';
+  }
+}
+
+function scheduleSave(section, getContentFn) {
+  clearTimeout(trackerSaveTimer);
+  trackerSaveTimer = setTimeout(() => saveTrackerSection(section, getContentFn()), 600);
+}
+
+// Parse "- [x] label" lines from a markdown string
+function parseCheckboxBlock(text) {
+  return text.split('\n')
+    .filter(l => /^- \[[ x]\]/.test(l))
+    .map(l => ({ checked: l[3] === 'x', label: l.slice(6).trim() }));
+}
+
+// Serialize checkbox items back to markdown lines
+function serializeCheckboxBlock(items) {
+  return items.map(i => `- [${i.checked ? 'x' : ' '}] ${i.label}`).join('\n');
+}
+
+// Parse a markdown table into { headers, rows }
+function parseMarkdownTable(text) {
+  const lines = text.split('\n').filter(l => l.trim().startsWith('|'));
+  if (lines.length < 2) return { headers: [], rows: [] };
+  const headers = lines[0].split('|').slice(1, -1).map(h => h.trim());
+  const rows = lines.slice(2).map(l =>
+    l.split('|').slice(1, -1).map(c => c.trim())
+  );
+  return { headers, rows };
+}
+
+// Serialize { headers, rows } back to a markdown table
+function serializeMarkdownTable({ headers, rows }) {
+  const sep = headers.map(h => '-'.repeat(Math.max(h.length, 3)));
+  const fmt = cells => '| ' + cells.join(' | ') + ' |';
+  return [fmt(headers), fmt(sep), ...rows.map(fmt)].join('\n');
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
   fillTree('', fileTree);
   openPath('gm-lore/welcome.md');
+  updateManifestBtn();
   initTerminal();
   loadWorldTables();
 });
