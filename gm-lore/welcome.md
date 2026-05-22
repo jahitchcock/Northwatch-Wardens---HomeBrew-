@@ -35,7 +35,7 @@ The Echo is not a villain with a plan — it is a residual effect, like radiatio
 - **Steward Mara Fenwick** — Quartermaster. Controls guild coin, equipment, and favors owed. Knows everyone's business.
 - **Lorewarden Elric Vael** — Arcane advisor. Handles research, artifacts, and inter-faction correspondence. Knows more than he says, and says less than he knows.
 
-Full NPC details: `gm-lore/npc-roster-by-location.md`
+Full NPC details: `npcs/core/` — or use the NPCs tab in the dashboard.
 
 ---
 
@@ -47,7 +47,7 @@ Full NPC details: `gm-lore/npc-roster-by-location.md`
 - **Archivists of Aevor** — Scholars hunting Aeorian artifacts. Academically motivated but willing to bend ethics for a good find.
 - **Freelance Brotherhood** — Rival contractors. Compete for the same guild contracts. Not evil, just competition — and sometimes useful allies.
 
-Full faction dynamics, relationships, and hidden agendas: [factions/faction-dynamics.md](../factions/faction-dynamics.md)
+Full faction dynamics, relationships, and hidden agendas: `factions/faction-dynamics.md`
 
 ---
 
@@ -72,7 +72,7 @@ This is a quick-reference for features used at the table — not a tutorial.
 | **Treasure Hoard** | Generate loot by party level — coins, gems, magic items |
 | **World Tables** | Roll on custom tables stored in the `tables/` directory |
 | **Seasonal Calendar** | Browse Aevorian months, holidays, and weather patterns by season |
-| **5etools links** | Open spells, conditions, and rules in a popup overlay without leaving the doc |
+| **5etools links** | Open spells, bestiary, and full rules in a popup overlay without leaving the doc |
 
 ### Terminal
 
