@@ -1281,6 +1281,227 @@ function renderParty(content) {
   trackerContent.appendChild(div);
 }
 
+function renderNpcs(content) {
+  const { headers, rows } = parseMarkdownTable(content);
+  const hdrs = headers.length ? headers : ['NPC','Location','Status','Relationship','Notes'];
+  const workingRows = rows.length ? rows.map(r => [...r]) : [['','','Alive','Neutral','']];
+
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>NPC Status</h2>';
+
+  const table = document.createElement('table');
+  table.className = 'tr-table';
+  const thead = document.createElement('thead');
+  thead.innerHTML = '<tr>' + hdrs.map(h => `<th>${h}</th>`).join('') + '<th></th></tr>';
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  const saveNpcs = () => {
+    const rows = [...tbody.querySelectorAll('tr')].map(tr => {
+      return [...tr.querySelectorAll('input, select')].map(el => el.value);
+    });
+    saveTrackerSection('npcs', '# NPC Status\n\n' + serializeMarkdownTable({ headers: hdrs, rows }));
+  };
+
+  const addRow = (cells) => {
+    const tr = document.createElement('tr');
+    cells.forEach((cell, i) => {
+      const td = document.createElement('td');
+      if (i === 2) {
+        const sel = document.createElement('select');
+        ['Alive','Dead','Unknown'].forEach(opt => {
+          const o = document.createElement('option');
+          o.value = o.textContent = opt;
+          if (cell === opt) o.selected = true;
+          sel.appendChild(o);
+        });
+        sel.addEventListener('change', saveNpcs);
+        td.appendChild(sel);
+      } else if (i === 3) {
+        const sel = document.createElement('select');
+        ['Ally','Neutral','Enemy','Unknown'].forEach(opt => {
+          const o = document.createElement('option');
+          o.value = o.textContent = opt;
+          if (cell === opt) o.selected = true;
+          sel.appendChild(o);
+        });
+        sel.addEventListener('change', saveNpcs);
+        td.appendChild(sel);
+      } else {
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.value = cell;
+        input.addEventListener('blur', saveNpcs);
+        td.appendChild(input);
+      }
+      tr.appendChild(td);
+    });
+    const removeTd = document.createElement('td');
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'tr-remove-btn';
+    removeBtn.textContent = '✕';
+    removeBtn.addEventListener('click', () => { tr.remove(); saveNpcs(); });
+    removeTd.appendChild(removeBtn);
+    tr.appendChild(removeTd);
+    tbody.appendChild(tr);
+  };
+
+  workingRows.forEach(row => {
+    while (row.length < 5) row.push('');
+    addRow(row);
+  });
+  table.appendChild(tbody);
+  div.appendChild(table);
+
+  const addBtn = document.createElement('button');
+  addBtn.className = 'tr-add-btn';
+  addBtn.textContent = '+ Add NPC';
+  addBtn.addEventListener('click', () => { addRow(['','','Alive','Neutral','']); });
+  div.appendChild(addBtn);
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
+function renderClues(content) {
+  const theoriesMatch = content.match(/^## Party Theories\n([\s\S]*)/m);
+  const theoriesText = theoriesMatch ? theoriesMatch[1].trim() : '';
+  const checkboxText = content.replace(/^## Party Theories[\s\S]*/m, '').replace(/^# .*\n/m, '').trim();
+  const items = parseCheckboxBlock(checkboxText);
+
+  const saveClues = () => {
+    const cbLines = [...ul.querySelectorAll('li')].map(li => {
+      const cb = li.querySelector('input[type=checkbox]');
+      const label = li.textContent.trim();
+      return `- [${cb.checked ? 'x' : ' '}] ${label}`;
+    }).join('\n');
+    const theories = textarea.value;
+    saveTrackerSection('clues', `# Aevorian Echo — Clue Tracker\n\n${cbLines}\n\n## Party Theories\n\n${theories}`);
+  };
+
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Aevorian Echo — Clue Tracker</h2>';
+
+  const ul = document.createElement('ul');
+  ul.className = 'tr-checklist';
+  items.forEach(item => {
+    const li = document.createElement('li');
+    if (item.checked) li.classList.add('checked');
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = item.checked;
+    cb.addEventListener('change', () => {
+      li.classList.toggle('checked', cb.checked);
+      saveClues();
+    });
+    li.appendChild(cb);
+    li.appendChild(document.createTextNode(item.label));
+    ul.appendChild(li);
+  });
+  div.appendChild(ul);
+
+  const theoriesHeading = document.createElement('div');
+  theoriesHeading.style.cssText = 'font-size:11px;color:#666;text-transform:uppercase;letter-spacing:.05em;margin:16px 0 6px';
+  theoriesHeading.textContent = 'Party Theories';
+  div.appendChild(theoriesHeading);
+
+  const textarea = document.createElement('textarea');
+  textarea.className = 'tr-notes';
+  textarea.style.minHeight = '120px';
+  textarea.value = theoriesText;
+  textarea.placeholder = 'What do the players think is going on…';
+  textarea.addEventListener('input', saveClues);
+  div.appendChild(textarea);
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
+function renderPromises(content) {
+  const sections = [
+    { key: 'party', heading: 'Party Said They Would', placeholder: 'Something the party promised to do…' },
+    { key: 'hooks', heading: 'Open Hooks', placeholder: 'A dangling thread for a future session…' },
+  ];
+
+  const parseSection = (heading) => {
+    const re = new RegExp(`^## ${heading}\\n([\\s\\S]*?)(?=^## |\\Z)`, 'm');
+    const m = content.match(re);
+    return m ? parseCheckboxBlock(m[1]) : [];
+  };
+
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Promises & Open Hooks</h2>';
+
+  const sectionData = {};
+  const sectionUls = {};
+
+  const savePromises = () => {
+    const blocks = sections.map(s => {
+      const lines = [...sectionUls[s.key].querySelectorAll('li')].map(li => {
+        const cb = li.querySelector('input[type=checkbox]');
+        const span = li.querySelector('span');
+        return `- [${cb.checked ? 'x' : ' '}] ${span.textContent}`;
+      }).join('\n');
+      return `## ${s.heading}\n${lines}`;
+    }).join('\n\n');
+    saveTrackerSection('promises', `# Promises & Open Hooks\n\n${blocks}`);
+  };
+
+  sections.forEach(s => {
+    sectionData[s.key] = parseSection(s.heading);
+
+    const heading = document.createElement('h3');
+    heading.style.cssText = 'font-size:0.95em;font-weight:normal;color:#f5f0e8;margin:20px 0 8px';
+    heading.textContent = s.heading;
+    div.appendChild(heading);
+
+    const ul = document.createElement('ul');
+    ul.className = 'tr-checklist';
+    sectionUls[s.key] = ul;
+
+    const addItem = (item) => {
+      const li = document.createElement('li');
+      if (item.checked) li.classList.add('checked');
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.checked = item.checked;
+      cb.addEventListener('change', () => { li.classList.toggle('checked', cb.checked); savePromises(); });
+
+      const span = document.createElement('span');
+      span.contentEditable = true;
+      span.textContent = item.label;
+      span.style.cssText = 'outline:none;flex:1;';
+      span.addEventListener('blur', savePromises);
+      span.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); span.blur(); } });
+
+      const removeBtn = document.createElement('button');
+      removeBtn.className = 'tr-remove-btn';
+      removeBtn.textContent = '✕';
+      removeBtn.addEventListener('click', () => { li.remove(); savePromises(); });
+
+      li.appendChild(cb);
+      li.appendChild(span);
+      li.appendChild(removeBtn);
+      ul.appendChild(li);
+    };
+
+    (sectionData[s.key].length ? sectionData[s.key] : [{ checked: false, label: '' }]).forEach(addItem);
+    div.appendChild(ul);
+
+    const addBtn = document.createElement('button');
+    addBtn.className = 'tr-add-btn';
+    addBtn.textContent = '+ Add item';
+    addBtn.addEventListener('click', () => { addItem({ checked: false, label: '' }); });
+    div.appendChild(addBtn);
+  });
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
