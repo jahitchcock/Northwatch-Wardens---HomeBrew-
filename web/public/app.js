@@ -138,6 +138,9 @@ function openPath(p) {
   viewer.src = buildPreviewUrl(p);
   breadcrumb.textContent = p;
   btnCtx.hidden = false;
+  // Show print button for handout files (files in *-handouts/ or handouts/ directories)
+  const isHandout = /[\\/]handouts[\\/]|[\\/][^/]+-handouts[\\/]/.test(p) && p.endsWith('.md');
+  btnPrint.hidden = !isHandout;
   if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
 }
@@ -1012,6 +1015,10 @@ async function openManifestEditor() {
 }
 
 btnManifest.addEventListener('click', openManifestEditor);
+
+btnPrint.addEventListener('click', () => {
+  if (currentPath) window.open(`/print?path=${encodeURIComponent(currentPath)}`, '_blank');
+});
 
 // Root manifest button is always visible
 function updateManifestBtn() {
