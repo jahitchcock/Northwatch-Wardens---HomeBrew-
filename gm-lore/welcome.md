@@ -20,10 +20,10 @@ An ancient arcane disturbance is spreading outward from **Salsvault**, ruins of 
 
 | Symptom | Adventure | Manifestation |
 |---|---|---|
-| Animal intelligence | Wolves of Welton | Welton wolves coordinating, herding livestock deliberately |
-| Magical disease | Frozen Sick | Frigid Woe afflicting Palebank villagers near the ruins |
-| Reality distortion | Wild Sheep Chase | Noke's wand warping local space around the tower |
-| Construct activation | Salsvault | Dormant Aeorian constructs waking inside the ruins |
+| Animal intelligence | [Wolves of Welton](adventures/season-1/wolves-of-welton.md) | Welton wolves coordinating, herding livestock deliberately |
+| Magical disease | [Frozen Sick](adventures/season-1/frozen-sick.md) | Frigid Woe afflicting Palebank villagers near the ruins |
+| Reality distortion | [Wild Sheep Chase](adventures/season-1/the-wild-sheep-chase.md) | Noke's wand warping local space around the tower |
+| Construct activation | [Salsvault](locations/the-far-north/salsvault.md) | Dormant Aeorian constructs waking inside the ruins |
 
 The Echo is not a villain with a plan — it is a residual effect, like radiation from a buried source. It is growing. The Lorewarden suspects. The Covenant knows and is watching.
 
@@ -31,23 +31,23 @@ The Echo is not a villain with a plan — it is a residual effect, like radiatio
 
 ## Key Guild NPCs
 
-- **Marshal Brenna Thorne** — Field commander. Assigns contracts, runs threat assessments. Direct, pragmatic, protective of her people.
-- **Steward Mara Fenwick** — Quartermaster. Controls guild coin, equipment, and favors owed. Knows everyone's business.
-- **Lorewarden Elric Vael** — Arcane advisor. Handles research, artifacts, and inter-faction correspondence. Knows more than he says, and says less than he knows.
+- **[Marshal Brenna Thorne](npcs/core/brenna-thorne.md)** — Field commander. Assigns contracts, runs threat assessments. Direct, pragmatic, protective of her people.
+- **[Steward Mara Fenwick](npcs/core/mara-fenwick.md)** — Quartermaster. Controls guild coin, equipment, and favors owed. Knows everyone's business.
+- **[Lorewarden Elric Vael](npcs/core/elric-vael.md)** — Arcane advisor. Handles research, artifacts, and inter-faction correspondence. Knows more than he says, and says less than he knows.
 
-Full NPC details: `npcs/core/` — or use the NPCs tab in the dashboard.
+Full NPC roster: [npcs/core/](npcs/core/MANIFEST.md) — or use the NPCs tab in the dashboard.
 
 ---
 
 ## Factions at a Glance
 
-- **Northwatch Wardens** — The party's guild. Neutral frontier organization, recently chartered, operating on thin resources and reputation.
-- **Solace Trade Consortium** — Merchant interests. Friendly on the surface, profit-motivated underneath. Have agents in most settlements.
-- **Covenant of the Silent Vigil** — Ancient order that monitors Aeorian remnants. Aware of Salsvault. Their silence on the Echo is deliberate.
-- **Archivists of Aevor** — Scholars hunting Aeorian artifacts. Academically motivated but willing to bend ethics for a good find.
-- **Freelance Brotherhood** — Rival contractors. Compete for the same guild contracts. Not evil, just competition — and sometimes useful allies.
+- **[Northwatch Wardens](factions/northwatch-wardens.md)** — The party's guild. Neutral frontier organization, recently chartered, operating on thin resources and reputation.
+- **[Solace Trade Consortium](factions/solace-trade-consortium.md)** — Merchant interests. Friendly on the surface, profit-motivated underneath. Have agents in most settlements.
+- **[Covenant of the Silent Vigil](factions/covenant-of-the-silent-vigil.md)** — Ancient order that monitors Aeorian remnants. Aware of Salsvault. Their silence on the Echo is deliberate.
+- **[Archivists of Aevor](factions/archivists-of-aevor.md)** — Scholars hunting Aeorian artifacts. Academically motivated but willing to bend ethics for a good find.
+- **[Freelance Brotherhood](factions/freelance-brotherhood.md)** — Rival contractors. Compete for the same guild contracts. Not evil, just competition — and sometimes useful allies.
 
-Full faction dynamics, relationships, and hidden agendas: `factions/faction-dynamics.md`
+Full faction dynamics, relationships, and quest hooks: [faction-dynamics.md](factions/faction-dynamics.md)
 
 ---
 

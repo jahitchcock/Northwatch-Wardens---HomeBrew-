@@ -378,7 +378,7 @@ function renderWebMarkdown(filePath, baseRel) {
   let html = marked.parse(preprocessed);
   // Post-process: inject data-modal on cross-reference links
   html = html.replace(
-    /<a href="((?:npcs|locations|factions|arcs)\/[^"]+)">/g,
+    /<a href="((?:npcs|locations|factions|arcs|gm-lore|player-lore|adventures|timeline)\/[^"]+)">/g,
     (_, p) => `<a href="#" data-modal="${esc(p)}">`
   );
   if (baseRel) {
