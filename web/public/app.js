@@ -26,6 +26,7 @@ let sendToTerminal = null; // set by initTerminal
 let currentPath    = null;
 
 const btnCtx   = $('btn-ctx');
+const btnPrint = $('btn-print');
 const toast    = $('toast');
 const modal1 = $('modal');
 const modal2 = $('modal2');
@@ -139,7 +140,7 @@ function openPath(p) {
   breadcrumb.textContent = p;
   btnCtx.hidden = false;
   // Show print button for handout files (files in *-handouts/ or handouts/ directories)
-  const isHandout = /[\\/]handouts[\\/]|[\\/][^/]+-handouts[\\/]/.test(p) && p.endsWith('.md');
+  const isHandout = /[\\/]handouts[\\/]|[\\/][^/]+-handouts[\\/]/.test(p) && p.endsWith('.md') && !p.endsWith('MANIFEST.md');
   btnPrint.hidden = !isHandout;
   if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
@@ -1030,7 +1031,6 @@ function updateManifestBtn() {
 const panelTracker   = $('panel-tracker');
 const trackerContent = $('tracker-content');
 const trackerSaved   = $('tracker-saved');
-const btnPrint       = $('btn-print');
 const tabTracker     = $('tab-tracker');
 
 let trackerSection  = 'contracts';
@@ -1143,8 +1143,9 @@ function renderTrackerSection(section, content) {
 }
 
 function renderContracts(content) {
-  // Split content into per-adventure blocks by ## headings
-  const blocks = content.split(/^## /m).filter(Boolean);
+  // Strip everything before the first ## heading, then split into per-adventure blocks
+  const strippedContent = content.replace(/^[\s\S]*?(?=^## )/m, '');
+  const blocks = strippedContent.split(/^## /m).filter(Boolean);
   const div = document.createElement('div');
   div.className = 'tr-section';
   div.innerHTML = '<h2>Contract Outcomes</h2>';
