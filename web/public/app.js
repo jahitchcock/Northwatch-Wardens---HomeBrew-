@@ -1502,6 +1502,192 @@ function renderPromises(content) {
   trackerContent.appendChild(div);
 }
 
+function renderTreasure(content) {
+  const { headers, rows } = parseMarkdownTable(content);
+  const hdrs = headers.length ? headers : ['Item','Found Where','Attuned By','Notes'];
+
+  const goldMatch = content.match(/\*\*Party Gold:\*\* (.+)/);
+  const storedMatch = content.match(/\*\*Stored at Waystone:\*\* (.+)/);
+  const goldVal = goldMatch ? goldMatch[1].trim() : '0 gp';
+  const storedVal = storedMatch ? storedMatch[1].trim() : '0 gp';
+
+  const workingRows = rows.length ? rows.map(r => [...r]) : [['','','','']];
+
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Treasure & Magic Items</h2>';
+
+  const goldRow = document.createElement('div');
+  goldRow.className = 'tr-gold-row';
+  goldRow.innerHTML = `
+    <label>Party Gold: <input id="tr-gold" type="text" value="${goldVal}" style="margin-left:6px"></label>
+    <label>Stored at Waystone: <input id="tr-stored" type="text" value="${storedVal}" style="margin-left:6px"></label>
+  `;
+  div.appendChild(goldRow);
+
+  const table = document.createElement('table');
+  table.className = 'tr-table';
+  const thead = document.createElement('thead');
+  thead.innerHTML = '<tr>' + hdrs.map(h => `<th>${h}</th>`).join('') + '<th></th></tr>';
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+
+  const saveTreasure = () => {
+    const rows = [...tbody.querySelectorAll('tr')].map(tr =>
+      [...tr.querySelectorAll('input')].map(i => i.value)
+    );
+    const gold = div.querySelector('#tr-gold').value;
+    const stored = div.querySelector('#tr-stored').value;
+    const tableStr = serializeMarkdownTable({ headers: hdrs, rows });
+    saveTrackerSection('treasure', `# Treasure & Magic Items\n\n${tableStr}\n\n**Party Gold:** ${gold}\n**Stored at Waystone:** ${stored}`);
+  };
+
+  div.querySelector('#tr-gold').addEventListener('blur', saveTreasure);
+  div.querySelector('#tr-stored').addEventListener('blur', saveTreasure);
+
+  const addRow = (cells) => {
+    const tr = document.createElement('tr');
+    cells.forEach(cell => {
+      const td = document.createElement('td');
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.value = cell;
+      input.addEventListener('blur', saveTreasure);
+      td.appendChild(input);
+      tr.appendChild(td);
+    });
+    const removeTd = document.createElement('td');
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'tr-remove-btn';
+    removeBtn.textContent = '✕';
+    removeBtn.addEventListener('click', () => { tr.remove(); saveTreasure(); });
+    removeTd.appendChild(removeBtn);
+    tr.appendChild(removeTd);
+    tbody.appendChild(tr);
+  };
+
+  workingRows.forEach(row => { while (row.length < 4) row.push(''); addRow(row); });
+  table.appendChild(tbody);
+  div.appendChild(table);
+
+  const addBtn = document.createElement('button');
+  addBtn.className = 'tr-add-btn';
+  addBtn.textContent = '+ Add item';
+  addBtn.addEventListener('click', () => { addRow(['','','','']); });
+  div.appendChild(addBtn);
+
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
+async function renderSessionsSection() {
+  const div = document.createElement('div');
+  div.className = 'tr-section';
+  div.innerHTML = '<h2>Session Logs</h2>';
+
+  let sessions = [];
+  try {
+    const r = await fetch('/api/tracker/sessions');
+    sessions = await r.json();
+  } catch (e) { /* show empty */ }
+
+  const newBtn = document.createElement('button');
+  newBtn.className = 'tr-add-btn';
+  newBtn.style.marginBottom = '16px';
+  newBtn.textContent = '＋ New Session';
+  newBtn.addEventListener('click', async () => {
+    const r = await fetch('/api/tracker/session/new', { method: 'POST' });
+    const { id } = await r.json();
+    await renderSessionsSection();
+    const item = trackerContent.querySelector(`[data-session-id="${id}"]`);
+    if (item) item.click();
+  });
+  div.appendChild(newBtn);
+
+  const list = document.createElement('ul');
+  list.className = 'tr-session-list';
+
+  const openSessionForm = async (id, listItem) => {
+    const existing = div.querySelector('.tr-session-form');
+    if (existing) existing.remove();
+
+    const r = await fetch(`/api/tracker/session?id=${id}`);
+    const { content } = await r.json();
+    const fm = content.match(/^---\r?\n/) ? extractFrontmatterClient(content) : {};
+    const body = content.replace(/^---[\s\S]*?---\n?/, '');
+    const eventsMatch = body.match(/^## Key Events\n([\s\S]*?)(?=^## |\Z)/m);
+    const mvpMatch = body.match(/^## MVP Moment\n([\s\S]*)/m);
+
+    const form = document.createElement('div');
+    form.className = 'tr-session-form';
+    form.innerHTML = `
+      <label>Date</label>
+      <input type="text" id="sf-date" value="${fm.date || ''}" placeholder="e.g. 2026-05-22">
+      <label>Adventure</label>
+      <input type="text" id="sf-adventure" value="${fm.adventure || ''}" placeholder="e.g. Wolves of Welton">
+      <label>Party Level</label>
+      <input type="text" id="sf-level" value="${fm.level || ''}" placeholder="e.g. 2">
+      <label>Key Events</label>
+      <textarea id="sf-events" placeholder="What happened this session…">${(eventsMatch ? eventsMatch[1] : '').trim()}</textarea>
+      <label>MVP Moment</label>
+      <input type="text" id="sf-mvp" value="${(mvpMatch ? mvpMatch[1] : '').trim()}" placeholder="The standout moment">
+      <button class="tr-session-save">Save Session</button>
+    `;
+
+    form.querySelector('.tr-session-save').addEventListener('click', async () => {
+      const date = form.querySelector('#sf-date').value;
+      const adventure = form.querySelector('#sf-adventure').value;
+      const level = form.querySelector('#sf-level').value;
+      const events = form.querySelector('#sf-events').value;
+      const mvp = form.querySelector('#sf-mvp').value;
+      const sessionNum = id.replace('session-', '');
+      const fileContent = `---\nsession: ${sessionNum}\ndate: ${date}\nadventure: ${adventure}\nlevel: ${level}\n---\n\n## Key Events\n\n${events}\n\n## MVP Moment\n\n${mvp}\n`;
+      await fetch(`/api/tracker/session?id=${id}`, {
+        method: 'POST', body: fileContent, headers: { 'Content-Type': 'text/plain' }
+      });
+      trackerSaved.textContent = 'Session saved ✓';
+      setTimeout(() => { trackerSaved.textContent = ''; }, 2000);
+      await renderSessionsSection();
+    });
+
+    listItem.insertAdjacentElement('afterend', form);
+  };
+
+  sessions.forEach(s => {
+    const li = document.createElement('li');
+    li.className = 'tr-session-item';
+    li.dataset.sessionId = s.id;
+    li.innerHTML = `
+      <div class="session-meta">Session ${s.session}${s.date ? ' — ' + s.date : ''}${s.adventure ? ' · ' + s.adventure : ''}${s.level ? ' · Level ' + s.level : ''}</div>
+      <div class="session-preview">${s.preview || '(no content yet)'}</div>
+    `;
+    li.addEventListener('click', () => openSessionForm(s.id, li));
+    list.appendChild(li);
+  });
+
+  if (!sessions.length) {
+    list.innerHTML = '<li style="color:#555;font-size:13px;padding:8px 0">No sessions logged yet. Click ＋ New Session to start.</li>';
+  }
+
+  div.appendChild(list);
+  trackerContent.innerHTML = '';
+  trackerContent.appendChild(div);
+}
+
+// Client-side frontmatter parser (mirrors server's extractFrontmatter)
+function extractFrontmatterClient(content) {
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!m) return {};
+  const result = {};
+  for (const line of m[1].split('\n')) {
+    const colon = line.indexOf(':');
+    if (colon < 1) continue;
+    result[line.slice(0, colon).trim()] = line.slice(colon + 1).trim().replace(/^["']|["']$/g, '');
+  }
+  return result;
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
