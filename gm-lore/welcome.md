@@ -21,7 +21,7 @@ An ancient arcane disturbance is spreading outward from **Salsvault**, ruins of 
 | Symptom | Adventure | Manifestation |
 |---|---|---|
 | Animal intelligence | [Wolves of Welton](adventures/season-1/wolves-of-welton.md) | Welton wolves coordinating, herding livestock deliberately |
-| Magical disease | [Frozen Sick](adventures/season-1/frozen-sick.md) | Frigid Woe afflicting Palebank villagers near the ruins |
+| Magical disease | [The Pale Sickness](adventures/season-1/the-pale-sickness/index.md) | Frigid Woe afflicting Palebank villagers near the ruins |
 | Reality distortion | [Wild Sheep Chase](adventures/season-1/the-wild-sheep-chase.md) | Noke's wand warping local space around the tower |
 | Construct activation | [Salsvault](locations/the-far-north/salsvault.md) | Dormant Aeorian constructs waking inside the ruins |
 
