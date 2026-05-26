@@ -64,7 +64,7 @@ window.SoundPlayer = (() => {
       for (const f of customFiles) {
         const id = f.replace(/\.[^.]+$/, '');
         const label = id.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        scenes.push({ id, label, file: `custom/${f}`, keywords: [], custom: true });
+        scenes.push({ id, label, files: [`custom/${f}`], keywords: [], custom: true });
       }
 
       renderQuickButtons();
@@ -146,7 +146,8 @@ window.SoundPlayer = (() => {
     if (!scene) return;
 
     const toEl = activeEl === sndA ? sndB : sndA;
-    toEl.src = '/sounds/' + scene.file;
+    const file = scene.files[Math.floor(Math.random() * scene.files.length)];
+    toEl.src = '/sounds/' + file;
     toEl.loop = looping;
     toEl.volume = 0;
     toEl.play().catch(() => {});
