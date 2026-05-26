@@ -2617,4 +2617,5 @@ document.addEventListener('DOMContentLoaded', () => {
   updateManifestBtn();
   initTerminal();
   loadWorldTables();
+  SoundPlayer.init();
 });
