@@ -111,10 +111,86 @@ window.SoundPlayer = (() => {
     suggestLabel.hidden = !suggestedScene;
   }
 
-  // ── Playback stubs (implemented in Task 5) ─────────────────────────────────
-  function crossfade(fromEl, toEl, targetVol, done) { if (done) done(); }
-  function play(sceneId) { console.log('SoundPlayer: play stub -', sceneId); }
-  function stop() { console.log('SoundPlayer: stop stub'); }
+  // ── Playback ───────────────────────────────────────────────────────────────
+  function crossfade(fromEl, toEl, targetVol, done) {
+    const duration = 1500;
+    const startTime = performance.now();
+    const fromStartVol = fromEl ? fromEl.volume : 0;
+
+    function tick(now) {
+      const t = Math.min((now - startTime) / duration, 1);
+      toEl.volume = t * targetVol;
+      if (fromEl) fromEl.volume = (1 - t) * fromStartVol;
+
+      if (t < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        if (fromEl) {
+          fromEl.pause();
+          fromEl.src = '';
+        }
+        if (done) done();
+      }
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  function play(sceneId) {
+    const scene = scenes.find(s => s.id === sceneId);
+    if (!scene) return;
+
+    const toEl = activeEl === sndA ? sndB : sndA;
+    toEl.src = '/sounds/' + scene.file;
+    toEl.loop = looping;
+    toEl.volume = 0;
+    toEl.play().catch(() => {});
+
+    toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
+
+    crossfade(activeEl, toEl, volume, () => {
+      activeEl = toEl;
+      currentScene = scene.id;
+      updateQuickButtonStates();
+    });
+
+    nameEl.textContent = scene.label;
+    localStorage.setItem('soundbar-scene', scene.id);
+  }
+
+  function stop() {
+    nameEl.textContent = '— stopped —';
+    localStorage.setItem('soundbar-scene', '');
+
+    if (!activeEl || activeEl.paused) {
+      activeEl = null;
+      currentScene = null;
+      updateQuickButtonStates();
+      return;
+    }
+
+    const elToStop = activeEl;
+    const startVol = elToStop.volume;
+    activeEl = null;
+    currentScene = null;
+    updateQuickButtonStates();
+
+    const duration = 1500;
+    const startTime = performance.now();
+
+    function tick(now) {
+      const t = Math.min((now - startTime) / duration, 1);
+      elToStop.volume = (1 - t) * startVol;
+      if (t < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        elToStop.pause();
+        elToStop.src = '';
+      }
+    }
+
+    requestAnimationFrame(tick);
+  }
 
   // ── Suggestion stub (implemented in Task 7) ────────────────────────────────
   function suggest(filepath) {}
