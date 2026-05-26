@@ -427,6 +427,7 @@ async function openModal(relPath) {
 }
 
 function open5eModal(url) {
+  if (!url) return;
   const m = getFreeModal();
   if (!m) return;
   m.querySelector('.modal-title').textContent = '5etools';
@@ -468,7 +469,7 @@ document.addEventListener('click', e => {
 
   // data-modal-5e links (5etools)
   const e5Link = e.target.closest('[data-modal-5e]');
-  if (e5Link) { e.preventDefault(); open5eModal(e5Link.dataset.modal5e); return; }
+  if (e5Link) { e.preventDefault(); open5eModal(e5Link.getAttribute('data-modal-5e')); return; }
 
   // NPC table inline modals
   const npcTrigger = e.target.closest('.npc-modal-trigger');
@@ -874,6 +875,740 @@ window.rollHoard = async function() {
   }
 };
 
+// ─── Combat Tracker ────────────────────────────────────────────────────────────
+
+const CONDITIONS = ['Blinded','Charmed','Deafened','Frightened','Grappled',
+  'Incapacitated','Invisible','Paralyzed','Petrified','Poisoned','Prone',
+  'Restrained','Stunned','Unconscious','Exhaustion'];
+
+let combatState = null; // { round, turnIndex, combatants: [] }
+let ctAddPanelOpen = false;
+let ctAddPanelTab = 'players'; // 'players' | 'npcs' | 'monsters' | 'manual'
+let ctAddMonsterTab = 'adventure'; // 'adventure' | '5etools'
+let ctAddAdventurePath = ''; // selected adventure file path
+let ctAddSearchQuery = ''; // 5etools search query
+
+function initCombatState() {
+  combatState = { round: 1, turnIndex: 0, combatants: [] };
+}
+
+function ctUid() { return Math.random().toString(36).slice(2, 9); }
+
+$('tab-combat-tracker').addEventListener('click', () => {
+  if (!combatState) initCombatState();
+  openCombatTracker();
+});
+
+function openCombatTracker() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Combat Tracker';
+  m.querySelector('.modal-box').classList.remove('modal-box--tall');
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+  renderCombatTracker(m);
+}
+
+function renderCombatTracker(m, view = 'combat') {
+  const s = combatState;
+
+  if (view === 'load') {
+    m.querySelector('.modal-body').innerHTML = `
+      <div class="ct-wrap">
+        <div class="ct-header">
+          <span style="color:#888;font-size:13px">Saved Encounters</span>
+          <button class="ct-reset-btn" id="ct-back" style="margin-left:auto">← Back</button>
+        </div>
+        <div class="ct-list" id="ct-enc-list-wrap"></div>
+      </div>`;
+    m.querySelector('#ct-back').addEventListener('click', () => renderCombatTracker(m));
+    renderEncounterList(m);
+    return;
+  }
+
+  const sorted = [...s.combatants].sort((a, b) => b.initiative - a.initiative);
+  const activeCombatant = sorted[s.turnIndex % Math.max(sorted.length, 1)];
+
+  m.querySelector('.modal-body').innerHTML = `
+    <div class="ct-wrap">
+      <div class="ct-header">
+        <div class="ct-round">Round <strong>${s.round}</strong></div>
+        <button class="ct-next-btn" id="ct-next">Next Turn ▶</button>
+        <div style="margin-left:auto;display:flex;gap:6px;align-items:center">
+          <button class="ct-load-btn" id="ct-load">Load</button>
+          <button class="ct-save-btn" id="ct-save">Save</button>
+          <button class="ct-reset-btn" id="ct-reset">Reset</button>
+          <button class="ct-add-toggle-btn${ctAddPanelOpen ? ' open' : ''}" id="ct-add-toggle">${ctAddPanelOpen ? '✕ Close' : '+ Add'}</button>
+        </div>
+      </div>
+      <div class="ct-save-bar" id="ct-save-bar" hidden></div>
+      <div class="ct-list" id="ct-list"></div>
+      <div class="ct-add-panel" id="ct-add-panel"${ctAddPanelOpen ? '' : ' hidden'}>
+        <div class="ct-add-tabs" id="ct-add-tabs">
+          <button class="ct-add-tab${ctAddPanelTab === 'players' ? ' active' : ''}" data-tab="players">Players</button>
+          <button class="ct-add-tab${ctAddPanelTab === 'npcs' ? ' active' : ''}" data-tab="npcs">NPCs</button>
+          <button class="ct-add-tab${ctAddPanelTab === 'monsters' ? ' active' : ''}" data-tab="monsters">Monsters</button>
+          <button class="ct-add-tab${ctAddPanelTab === 'manual' ? ' active' : ''}" data-tab="manual">Manual</button>
+        </div>
+        <div class="ct-add-body" id="ct-add-body"></div>
+      </div>
+    </div>`;
+
+  renderCombatList(m, sorted, activeCombatant);
+
+  m.querySelector('#ct-next').addEventListener('click', () => {
+    s.turnIndex++;
+    if (s.turnIndex >= s.combatants.length) { s.turnIndex = 0; s.round++; }
+    renderCombatTracker(m);
+  });
+
+  m.querySelector('#ct-reset').addEventListener('click', () => {
+    if (!confirm('Reset combat? This clears all combatants and the round counter.')) return;
+    initCombatState();
+    renderCombatTracker(m);
+  });
+
+  m.querySelector('#ct-load').addEventListener('click', () => renderCombatTracker(m, 'load'));
+
+  m.querySelector('#ct-save').addEventListener('click', () => {
+    const bar = m.querySelector('#ct-save-bar');
+    if (!bar.hidden) { bar.hidden = true; return; }
+    bar.hidden = false;
+    bar.innerHTML = `
+      <input id="ct-save-name" placeholder="Encounter name…" autocomplete="off">
+      <button class="ct-save-confirm" id="ct-save-confirm">Save</button>
+      <button class="ct-save-cancel" id="ct-save-cancel">✕</button>
+      <span class="ct-saved-msg" id="ct-saved-msg"></span>`;
+    bar.querySelector('#ct-save-name').focus();
+
+    bar.querySelector('#ct-save-cancel').addEventListener('click', () => { bar.hidden = true; });
+
+    const doSave = async () => {
+      const name = bar.querySelector('#ct-save-name').value.trim();
+      if (!name) { bar.querySelector('#ct-save-name').focus(); return; }
+      try {
+        const r = await fetch(`/api/encounters/${encodeURIComponent(name)}`, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(combatState),
+        });
+        if (!r.ok) throw new Error((await r.json()).error);
+        const msg = bar.querySelector('#ct-saved-msg');
+        msg.textContent = `Saved "${name}" ✓`;
+        setTimeout(() => { msg.textContent = ''; bar.hidden = true; }, 2000);
+      } catch (e) {
+        bar.querySelector('#ct-saved-msg').textContent = `Error: ${e.message}`;
+        bar.querySelector('#ct-saved-msg').style.color = '#f38ba8';
+      }
+    };
+    bar.querySelector('#ct-save-confirm').addEventListener('click', doSave);
+    bar.querySelector('#ct-save-name').addEventListener('keydown', e => { if (e.key === 'Enter') doSave(); });
+  });
+
+  m.querySelector('#ct-add-toggle').addEventListener('click', () => {
+    ctAddPanelOpen = !ctAddPanelOpen;
+    renderCombatTracker(m);
+    if (ctAddPanelOpen) renderAddTab(m);
+  });
+
+  if (ctAddPanelOpen) {
+    m.querySelectorAll('.ct-add-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        ctAddPanelTab = tab.dataset.tab;
+        m.querySelectorAll('.ct-add-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderAddTab(m);
+      });
+    });
+    renderAddTab(m);
+  }
+}
+
+function renderAddTab(m) {
+  switch (ctAddPanelTab) {
+    case 'players':   renderAddPlayers(m);  break;
+    case 'npcs':      renderAddNpcs(m);     break;
+    case 'monsters':  renderAddMonsters(m); break;
+    case 'manual':    renderAddManual(m);   break;
+  }
+}
+
+function renderAddManual(m) {
+  const body = m.querySelector('#ct-add-body');
+  if (!body) return;
+  body.innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:4px 0">
+      <label style="font-size:11px;color:#888">Name</label>
+      <input name="name" placeholder="Goblin" autocomplete="off"
+        style="flex:1;min-width:80px;background:#1e1e2e;border:1px solid #444;border-radius:3px;color:#cdd6f4;padding:3px 6px;font-size:12px;font-family:inherit">
+      <label style="font-size:11px;color:#888">Init</label>
+      <input name="init" type="number" placeholder="12"
+        style="width:48px;background:#1e1e2e;border:1px solid #444;border-radius:3px;color:#cdd6f4;padding:3px 4px;font-size:12px;font-family:inherit;text-align:center">
+      <label style="font-size:11px;color:#888">AC</label>
+      <input name="ac" type="number" placeholder="13"
+        style="width:44px;background:#1e1e2e;border:1px solid #444;border-radius:3px;color:#cdd6f4;padding:3px 4px;font-size:12px;font-family:inherit;text-align:center">
+      <label style="font-size:11px;color:#888">HP</label>
+      <input name="hp" type="number" placeholder="7"
+        style="width:52px;background:#1e1e2e;border:1px solid #444;border-radius:3px;color:#cdd6f4;padding:3px 4px;font-size:12px;font-family:inherit;text-align:center">
+      <select name="type"
+        style="background:#1e1e2e;border:1px solid #444;border-radius:3px;color:#cdd6f4;padding:3px 4px;font-size:12px;font-family:inherit">
+        <option value="monster">Monster</option>
+        <option value="player">Player</option>
+        <option value="npc">NPC</option>
+      </select>
+      <button class="ct-add-btn-sm" id="ct-manual-add-btn">+ Add</button>
+    </div>`;
+
+  const doAdd = () => {
+    const name = body.querySelector('[name=name]').value.trim() || 'Unknown';
+    const init = parseInt(body.querySelector('[name=init]').value) || 0;
+    const ac   = parseInt(body.querySelector('[name=ac]').value)   || 10;
+    const hp   = parseInt(body.querySelector('[name=hp]').value)   || 1;
+    const type = body.querySelector('[name=type]').value;
+    combatState.combatants.push({ id: ctUid(), name, initiative: init, ac, hpMax: hp, hpCur: hp, type, conditions: [] });
+    body.querySelector('[name=name]').value = '';
+    body.querySelector('[name=init]').value = '';
+    body.querySelector('[name=ac]').value   = '';
+    body.querySelector('[name=hp]').value   = '';
+    renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
+      combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
+    body.querySelector('[name=name]').focus();
+  };
+
+  body.querySelector('#ct-manual-add-btn').addEventListener('click', doAdd);
+  body.querySelector('[name=hp]').addEventListener('keydown', e => { if (e.key === 'Enter') doAdd(); });
+}
+
+function renderAddMonsters5etools(m) {
+  const wrap = m.querySelector('#ct-add-monster-body');
+  if (!wrap) return;
+  wrap.innerHTML = `
+    <input class="ct-add-search" id="ct-5e-search" placeholder="Search bestiary (e.g. wolf, goblin, dragon)…" value="${ctAddSearchQuery}">
+    <div id="ct-5e-results"></div>`;
+
+  const searchInput = wrap.querySelector('#ct-5e-search');
+  const resultsWrap = wrap.querySelector('#ct-5e-results');
+
+  let debounceTimer;
+  searchInput.addEventListener('input', () => {
+    ctAddSearchQuery = searchInput.value;
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => run5eSearch(resultsWrap), 350);
+  });
+
+  if (ctAddSearchQuery.length >= 2) run5eSearch(resultsWrap);
+  else searchInput.focus();
+
+  async function run5eSearch(wrap) {
+    const q = ctAddSearchQuery.trim();
+    if (q.length < 2) { wrap.innerHTML = ''; return; }
+    wrap.innerHTML = '<div class="ct-add-loading">Searching…</div>';
+    let monsters;
+    try {
+      const r = await fetch(`/api/5etools/search?q=${encodeURIComponent(q)}`);
+      if (!r.ok) throw new Error((await r.json()).error || 'Search failed');
+      monsters = await r.json();
+    } catch (e) {
+      wrap.innerHTML = `<div class="ct-add-error">Error: ${e.message}</div>`;
+      return;
+    }
+    if (!monsters.length) {
+      wrap.innerHTML = '<div class="ct-add-loading">No results.</div>';
+      return;
+    }
+    wrap.innerHTML = '';
+    monsters.forEach(mon => {
+      const row = document.createElement('div');
+      row.className = 'ct-add-row';
+      row.innerHTML = `
+        <span class="ct-add-name">${mon.name}</span>
+        <span class="ct-add-stat">AC ${mon.ac} · HP ${mon.hp} · CR ${mon.cr}</span>
+        <button class="ct-add-btn-sm ct-5e-add-btn">+ Add</button>`;
+      wrap.appendChild(row);
+
+      row.querySelector('.ct-5e-add-btn').addEventListener('click', () => {
+        const initiative = Math.floor(Math.random() * 20) + 1;
+        combatState.combatants.push({
+          id: ctUid(), name: mon.name,
+          initiative, ac: mon.ac,
+          hpMax: mon.hp, hpCur: mon.hp,
+          type: 'monster', conditions: [],
+        });
+        renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
+          combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
+      });
+    });
+  }
+}
+
+function renderAddMonsters(m) {
+  const body = m.querySelector('#ct-add-body');
+  if (!body) return;
+
+  body.innerHTML = `
+    <div class="ct-add-sub-tabs">
+      <button class="ct-add-sub-tab${ctAddMonsterTab === 'adventure' ? ' active' : ''}" data-mtab="adventure">Adventure</button>
+      <button class="ct-add-sub-tab${ctAddMonsterTab === '5etools' ? ' active' : ''}" data-mtab="5etools">5etools</button>
+    </div>
+    <div id="ct-add-monster-body"></div>`;
+
+  body.querySelectorAll('.ct-add-sub-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      ctAddMonsterTab = tab.dataset.mtab;
+      body.querySelectorAll('.ct-add-sub-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderAddMonstersBody(m);
+    });
+  });
+
+  renderAddMonstersBody(m);
+}
+
+function renderAddMonstersBody(m) {
+  if (ctAddMonsterTab === 'adventure') renderAddMonstersAdventure(m);
+  else renderAddMonsters5etools(m);
+}
+
+async function renderAddMonstersAdventure(m) {
+  const wrap = m.querySelector('#ct-add-monster-body');
+  if (!wrap) return;
+  wrap.innerHTML = '<div class="ct-add-loading">Loading adventures…</div>';
+
+  let adventures;
+  try {
+    const r = await fetch('/api/adventures');
+    if (!r.ok) throw new Error('Failed to load adventures');
+    adventures = await r.json();
+  } catch (e) {
+    wrap.innerHTML = `<div class="ct-add-error">Error: ${e.message}</div>`;
+    return;
+  }
+
+  // Seed selection to first adventure if not set
+  if (!ctAddAdventurePath && adventures.length) ctAddAdventurePath = adventures[0].path;
+
+  const options = adventures.map(a =>
+    `<option value="${a.path}"${a.path === ctAddAdventurePath ? ' selected' : ''}>${a.season.replace('season-', 'S')} — ${a.label}</option>`
+  ).join('');
+
+  wrap.innerHTML = `
+    <select class="ct-add-adv-select" id="ct-adv-select">${options}</select>
+    <div id="ct-adv-monsters"></div>`;
+
+  wrap.querySelector('#ct-adv-select').addEventListener('change', e => {
+    ctAddAdventurePath = e.target.value;
+    loadAdvMonsters(m);
+  });
+
+  loadAdvMonsters(m);
+}
+
+async function loadAdvMonsters(m) {
+  const wrap = m.querySelector('#ct-adv-monsters');
+  if (!wrap) return;
+  if (!ctAddAdventurePath) { wrap.innerHTML = '<div class="ct-add-loading">Select an adventure.</div>'; return; }
+  wrap.innerHTML = '<div class="ct-add-loading">Loading monsters…</div>';
+
+  let monsters;
+  try {
+    const r = await fetch(`/api/adventure-monsters?path=${encodeURIComponent(ctAddAdventurePath)}`);
+    if (!r.ok) throw new Error('Failed to load monsters');
+    monsters = await r.json();
+  } catch (e) {
+    wrap.innerHTML = `<div class="ct-add-error">Error: ${e.message}</div>`;
+    return;
+  }
+
+  if (!monsters.length) {
+    wrap.innerHTML = '<div class="ct-add-loading">No parseable monsters found in this adventure.</div>';
+    return;
+  }
+
+  wrap.innerHTML = `
+    <div style="display:flex;justify-content:flex-end;margin-bottom:4px">
+      <button class="ct-add-all-btn" id="ct-adv-add-all">Add All</button>
+    </div>
+    ${monsters.map((mon, i) => `
+      <div class="ct-add-row" data-idx="${i}">
+        <span class="ct-add-name">${mon.name}</span>
+        <span class="ct-add-stat">AC ${mon.ac} · HP ${mon.hp}${mon.cr ? ` · CR ${mon.cr}` : ''}</span>
+        <input class="ct-add-count" type="number" value="${mon.count}" min="1" max="20">
+        <button class="ct-add-btn-sm ct-adv-add-btn">+ Add</button>
+      </div>`).join('')}`;
+
+  const addMonsterRows = (subset) => {
+    subset.forEach(({ name, ac, hp, count }) => {
+      for (let i = 0; i < count; i++) {
+        const initiative = Math.floor(Math.random() * 20) + 1;
+        combatState.combatants.push({
+          id: ctUid(), name, initiative, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [],
+        });
+      }
+    });
+    renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
+      combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
+  };
+
+  wrap.querySelector('#ct-adv-add-all').addEventListener('click', () => {
+    const rows = [...wrap.querySelectorAll('.ct-add-row')];
+    addMonsterRows(rows.map((row, i) => ({
+      ...monsters[i],
+      count: Math.max(1, parseInt(row.querySelector('.ct-add-count').value) || 1),
+    })));
+  });
+
+  wrap.querySelectorAll('.ct-adv-add-btn').forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      const count = Math.max(1, parseInt(btn.closest('.ct-add-row').querySelector('.ct-add-count').value) || 1);
+      addMonsterRows([{ ...monsters[i], count }]);
+    });
+  });
+}
+
+async function renderAddNpcs(m) {
+  const body = m.querySelector('#ct-add-body');
+  if (!body) return;
+  body.innerHTML = '<div class="ct-add-loading">Loading…</div>';
+  let npcs;
+  try {
+    const r = await fetch('/api/npcs');
+    if (!r.ok) throw new Error('Failed to load NPCs');
+    npcs = await r.json();
+  } catch (e) {
+    body.innerHTML = `<div class="ct-add-error">Error: ${e.message}</div>`;
+    return;
+  }
+
+  if (!npcs.length) {
+    body.innerHTML = '<div class="ct-add-loading">No NPC stat blocks found.</div>';
+    return;
+  }
+
+  body.innerHTML = '';
+  npcs.forEach(npc => {
+    const row = document.createElement('div');
+    row.className = 'ct-add-row';
+    const acLabel = npc.ac != null ? `AC ${npc.ac}` : 'AC ?';
+    const hpLabel = npc.hp != null ? `HP ${npc.hp}` : 'HP ?';
+    row.innerHTML = `
+      <span class="ct-add-name">${npc.name}</span>
+      <span class="ct-add-stat">${acLabel} · ${hpLabel}</span>
+      <button class="ct-add-btn-sm ct-npc-add-btn">+ Add</button>`;
+    body.appendChild(row);
+
+    row.querySelector('.ct-npc-add-btn').addEventListener('click', () => {
+      const dexMod = npc.dexMod ?? 0;
+      const initiative = Math.floor(Math.random() * 20) + 1 + dexMod;
+      combatState.combatants.push({
+        id: ctUid(), name: npc.name,
+        initiative, ac: npc.ac ?? 10,
+        hpMax: npc.hp ?? 1, hpCur: npc.hp ?? 1,
+        type: 'npc', conditions: [],
+      });
+      renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
+        combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
+    });
+  });
+}
+
+async function renderAddPlayers(m) {
+  const body = m.querySelector('#ct-add-body');
+  if (!body) return;
+  body.innerHTML = '<div class="ct-add-loading">Loading…</div>';
+  let chars;
+  try {
+    const r = await fetch('/api/characters');
+    if (!r.ok) throw new Error('Failed to load party');
+    chars = await r.json();
+  } catch (e) {
+    body.innerHTML = `<div class="ct-add-error">Error: ${e.message}</div>`;
+    return;
+  }
+
+  const inCombat = new Set(
+    combatState.combatants.filter(c => c.type === 'player').map(c => c.name)
+  );
+
+  body.innerHTML = '';
+  chars.forEach(ch => {
+    const already = inCombat.has(ch.name);
+    const row = document.createElement('div');
+    row.className = 'ct-add-row' + (already ? ' ct-add-dim' : '');
+    row.innerHTML = `
+      <span class="ct-add-name">${ch.name} <span class="ct-add-sub">${ch.classLevel || ''}</span></span>
+      <span class="ct-add-stat">AC ${ch.ac} · HP ${ch.maxHp}</span>
+      ${already
+        ? '<span class="ct-add-check">✓ in combat</span>'
+        : `<div class="ct-add-init-wrap">
+             <input class="ct-add-init" type="number" placeholder="Init" min="-5" max="30" aria-label="Initiative">
+             <button class="ct-add-btn-sm ct-player-add-btn">+ Add</button>
+           </div>`
+      }`;
+    body.appendChild(row);
+
+    if (already) return;
+
+    const initInput = row.querySelector('.ct-add-init');
+    const addBtn = row.querySelector('.ct-player-add-btn');
+
+    const doAdd = () => {
+      const init = parseInt(initInput.value);
+      if (isNaN(init)) {
+        initInput.classList.add('error');
+        initInput.focus();
+        return;
+      }
+      combatState.combatants.push({
+        id: ctUid(), name: ch.name,
+        initiative: init, ac: ch.ac,
+        hpMax: ch.maxHp, hpCur: ch.maxHp,
+        type: 'player', conditions: [],
+      });
+      renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
+        combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
+      renderAddPlayers(m); // refresh to show "in combat"
+    };
+
+    addBtn.addEventListener('click', doAdd);
+    initInput.addEventListener('keydown', e => { if (e.key === 'Enter') doAdd(); });
+    initInput.addEventListener('input', () => initInput.classList.remove('error'));
+  });
+}
+
+async function renderEncounterList(m) {
+  const wrap = m.querySelector('#ct-enc-list-wrap');
+  wrap.innerHTML = '<div class="ct-empty">Loading…</div>';
+  try {
+    const r = await fetch('/api/encounters');
+    const list = await r.json();
+    if (!list.length) { wrap.innerHTML = '<div class="ct-empty">No saved encounters yet.</div>'; return; }
+    const ul = document.createElement('ul');
+    ul.className = 'ct-enc-list';
+    list.forEach(enc => {
+      const li = document.createElement('li');
+      li.className = 'ct-enc-item';
+      const date = new Date(enc.modified).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+      li.innerHTML = `
+        <span class="ct-enc-name">${enc.name}</span>
+        <span class="ct-enc-date">${date}</span>
+        <button class="ct-enc-load">Load</button>
+        <button class="ct-enc-del" title="Delete">✕</button>`;
+      li.querySelector('.ct-enc-load').addEventListener('click', async () => {
+        try {
+          const r = await fetch(`/api/encounters/${encodeURIComponent(enc.name)}`);
+          if (!r.ok) throw new Error('Failed to load');
+          combatState = await r.json();
+          // Re-stamp IDs in case they're missing
+          combatState.combatants.forEach(c => { if (!c.id) c.id = ctUid(); });
+          renderCombatTracker(m);
+        } catch (e) { alert(`Load failed: ${e.message}`); }
+      });
+      li.querySelector('.ct-enc-del').addEventListener('click', async () => {
+        if (!confirm(`Delete "${enc.name}"?`)) return;
+        await fetch(`/api/encounters/${encodeURIComponent(enc.name)}`, { method: 'DELETE' });
+        li.remove();
+        if (!ul.children.length) wrap.innerHTML = '<div class="ct-empty">No saved encounters yet.</div>';
+      });
+      ul.appendChild(li);
+    });
+    wrap.innerHTML = '';
+    wrap.appendChild(ul);
+  } catch (e) {
+    wrap.innerHTML = `<div class="ct-empty" style="color:#f38ba8">Error: ${e.message}</div>`;
+  }
+}
+
+function renderCombatList(m, sorted, activeCombatant) {
+  const list = m.querySelector('#ct-list');
+  if (!sorted.length) {
+    list.innerHTML = '<div class="ct-empty">No combatants yet — add one below.</div>';
+    return;
+  }
+
+  list.innerHTML = '';
+  sorted.forEach((c, idx) => {
+    const isActive = activeCombatant && c.id === activeCombatant.id;
+    const isDead   = c.hpCur <= 0;
+    const isLow    = !isDead && c.hpCur <= Math.floor(c.hpMax / 2);
+
+    const row = document.createElement('div');
+    row.className = `ct-row${isActive ? ' ct-active' : ''}${isDead ? ' ct-dead' : ''}`;
+    row.dataset.id = c.id;
+
+    row.innerHTML = `
+      <input class="ct-init" type="number" value="${c.initiative}" title="Initiative" aria-label="Initiative">
+      <span class="ct-name" contenteditable="true" spellcheck="false">${c.name}</span>
+      <input class="ct-ac" type="number" value="${c.ac}" title="Armor Class" aria-label="AC">
+      <div class="ct-hp-ctrl">
+        <button class="ct-hp-btn ct-dmg" title="Damage">−</button>
+        <input class="ct-hp-cur" type="number" value="${c.hpCur}" ${isLow || isDead ? 'data-low="true"' : ''} aria-label="Current HP">
+        <span class="ct-hp-sep">/</span>
+        <input class="ct-hp-max" type="number" value="${c.hpMax}" aria-label="Max HP">
+        <button class="ct-hp-btn ct-heal" title="Heal">+</button>
+      </div>
+      <div class="ct-actions">
+        <button class="ct-cond-btn" title="Add condition">± cond</button>
+        <button class="ct-remove-btn" title="Remove combatant">✕</button>
+      </div>`;
+
+    list.appendChild(row);
+
+    // Condition pills row (always rendered, hidden if empty)
+    if (c.conditions.length || row.querySelector('.ct-cond-btn')._pickerOpen) {
+      const condRow = document.createElement('div');
+      condRow.className = 'ct-cond-wrap';
+      condRow.dataset.for = c.id;
+      c.conditions.forEach(cond => {
+        const pill = document.createElement('span');
+        pill.className = 'ct-cond';
+        pill.textContent = cond;
+        pill.title = 'Click to remove';
+        pill.addEventListener('click', () => {
+          c.conditions = c.conditions.filter(x => x !== cond);
+          renderCombatList(m, sorted, activeCombatant);
+        });
+        condRow.appendChild(pill);
+      });
+      list.appendChild(condRow);
+    }
+
+    // Initiative edit
+    row.querySelector('.ct-init').addEventListener('change', e => {
+      c.initiative = parseInt(e.target.value) || 0;
+      renderCombatTracker(m);
+    });
+
+    // Name edit
+    row.querySelector('.ct-name').addEventListener('blur', e => {
+      c.name = e.target.textContent.trim() || c.name;
+    });
+
+    // AC edit
+    row.querySelector('.ct-ac').addEventListener('change', e => {
+      c.ac = parseInt(e.target.value) || 0;
+    });
+
+    // HP current edit
+    row.querySelector('.ct-hp-cur').addEventListener('change', e => {
+      c.hpCur = parseInt(e.target.value) ?? c.hpCur;
+      renderCombatList(m, sorted, activeCombatant);
+    });
+
+    // HP max edit
+    row.querySelector('.ct-hp-max').addEventListener('change', e => {
+      c.hpMax = parseInt(e.target.value) || c.hpMax;
+    });
+
+    // Damage button
+    row.querySelector('.ct-dmg').addEventListener('click', () => {
+      const amt = parseInt(prompt('Damage amount:', '')) || 0;
+      c.hpCur = Math.max(0, c.hpCur - amt);
+      renderCombatList(m, sorted, activeCombatant);
+    });
+
+    // Heal button
+    row.querySelector('.ct-heal').addEventListener('click', () => {
+      const amt = parseInt(prompt('Heal amount:', '')) || 0;
+      c.hpCur = Math.min(c.hpMax, c.hpCur + amt);
+      renderCombatList(m, sorted, activeCombatant);
+    });
+
+    // Condition picker toggle
+    row.querySelector('.ct-cond-btn').addEventListener('click', e => {
+      // Toggle inline condition picker below this row
+      const existingPicker = list.querySelector(`.ct-cond-picker[data-for="${c.id}"]`);
+      if (existingPicker) { existingPicker.remove(); return; }
+      const picker = document.createElement('div');
+      picker.className = 'ct-cond-picker';
+      picker.dataset.for = c.id;
+      CONDITIONS.forEach(cond => {
+        const btn = document.createElement('button');
+        btn.className = 'ct-cond-opt' + (c.conditions.includes(cond) ? ' selected' : '');
+        btn.textContent = cond;
+        btn.addEventListener('click', () => {
+          if (c.conditions.includes(cond)) {
+            c.conditions = c.conditions.filter(x => x !== cond);
+          } else {
+            c.conditions.push(cond);
+          }
+          renderCombatList(m, sorted, activeCombatant);
+        });
+        picker.appendChild(btn);
+      });
+      // Insert picker after the condition row (or after this row if no cond row)
+      const condRow = list.querySelector(`.ct-cond-wrap[data-for="${c.id}"]`);
+      const insertAfter = condRow || row;
+      insertAfter.insertAdjacentElement('afterend', picker);
+    });
+
+    // Remove combatant
+    row.querySelector('.ct-remove-btn').addEventListener('click', () => {
+      combatState.combatants = combatState.combatants.filter(x => x.id !== c.id);
+      if (combatState.turnIndex >= combatState.combatants.length) {
+        combatState.turnIndex = 0;
+      }
+      renderCombatTracker(m);
+    });
+  });
+}
+
+async function renderImportPanel(m, advPath) {
+  const panel = m.querySelector('#ct-import-panel');
+  panel.innerHTML = '<div class="ct-import-hdr"><span>Loading monsters from adventure…</span></div>';
+
+  let monsters;
+  try {
+    const r = await fetch(`/api/adventure-monsters?path=${encodeURIComponent(advPath)}`);
+    monsters = await r.json();
+  } catch (e) {
+    panel.innerHTML = `<div class="ct-import-hdr"><span style="color:#f38ba8">Error: ${e.message}</span></div>`;
+    return;
+  }
+
+  if (!monsters.length) {
+    panel.innerHTML = '<div class="ct-import-hdr"><span style="color:#666">No parseable monsters found in this adventure.</span></div>';
+    return;
+  }
+
+  const addMonsters = (subset) => {
+    subset.forEach(({ name, ac, hp, count }) => {
+      for (let i = 0; i < count; i++) {
+        combatState.combatants.push({ id: ctUid(), name, initiative: 0, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [] });
+      }
+    });
+    renderCombatTracker(m);
+  };
+
+  panel.innerHTML = `
+    <div class="ct-import-hdr">
+      <span>${monsters.length} monster${monsters.length !== 1 ? 's' : ''} found</span>
+      <button class="ct-import-add-all" id="ct-import-all">Add All</button>
+    </div>
+    ${monsters.map((mon, i) => `
+      <div class="ct-import-row" data-idx="${i}">
+        <span class="ct-import-name">${mon.name}</span>
+        <span class="ct-import-stats">AC ${mon.ac} · HP ${mon.hp}${mon.cr ? ` · CR ${mon.cr}` : ''}</span>
+        <input class="ct-import-count" type="number" value="${mon.count}" min="1" max="20" title="Count">
+        <button class="ct-import-btn">+ Add</button>
+      </div>`).join('')}`;
+
+  panel.querySelector('#ct-import-all').addEventListener('click', () => {
+    const rows = [...panel.querySelectorAll('.ct-import-row')];
+    const subset = rows.map((row, i) => ({
+      ...monsters[i],
+      count: Math.max(1, parseInt(row.querySelector('.ct-import-count').value) || 1),
+    }));
+    addMonsters(subset);
+  });
+
+  panel.querySelectorAll('.ct-import-row').forEach((row, i) => {
+    row.querySelector('.ct-import-btn').addEventListener('click', () => {
+      const count = Math.max(1, parseInt(row.querySelector('.ct-import-count').value) || 1);
+      addMonsters([{ ...monsters[i], count }]);
+    });
+  });
+}
+
 // Seasonal Calendar tool (button added dynamically in loadWorldTables)
 
 async function openSeasonalCalendar() {
@@ -937,7 +1672,8 @@ async function loadCalMonth(m, num) {
 document.querySelectorAll('.tool-5e').forEach(btn => {
   btn.addEventListener('click', () => {
     closeTools();
-    open5eModal(btn.dataset['5eUrl']);
+    const path = btn.getAttribute('data-5e-path');
+    open5eModal(path ? `${BASE_5E}/${path}` : BASE_5E);
   });
 });
 
@@ -1697,6 +2433,181 @@ function extractFrontmatterClient(content) {
   }
   return result;
 }
+
+// ─── Party Modal ──────────────────────────────────────────────────────────────
+
+const BASE_5E = `http://${location.hostname}:2014`;
+
+const CLASS_5E = {
+  paladin: 'classes.html#paladin',
+  warlock: 'classes.html#warlock',
+  ranger:  'classes.html#ranger',
+};
+
+const FEATURE_5E = {
+  'divine smite':     'classes.html#paladin_phb',
+  'lay on hands':     'classes.html#paladin_phb,state:feature=s0-1~ishideoutline=b1',
+  "hunter's mark":    "spells.html#hunter's mark_phb",
+  'eldritch blast':   'spells.html#eldritch blast_phb',
+  'chill touch':      'spells.html#chill touch_phb',
+};
+
+const ABILITY_FULL = {
+  STR: 'Strength', DEX: 'Dexterity', CON: 'Constitution',
+  INT: 'Intelligence', WIS: 'Wisdom', CHA: 'Charisma',
+};
+
+function link5eInline(text, slug) {
+  return `<a href="#" class="link-5e-inline" data-modal-5e="${BASE_5E}/${slug}">${text}</a>`;
+}
+
+function renderCharacterSheet(char) {
+  const classSlug = CLASS_5E[char.class.toLowerCase()];
+  const classLink = classSlug
+    ? link5eInline(`${char.classLevel}`, classSlug)
+    : char.classLevel;
+
+  const abilitiesHtml = ['STR','DEX','CON','INT','WIS','CHA'].map(ab => {
+    const a = char.abilities[ab] || { score: '—', mod: '—' };
+    return `<div class="pc-ability">
+      <div class="pc-ability-name">${ab}</div>
+      <div class="pc-ability-mod">${a.mod}</div>
+      <div class="pc-ability-score">${a.score}</div>
+    </div>`;
+  }).join('');
+
+  const combatHtml = [
+    ['AC', char.ac], ['Initiative', char.initiative], ['HP', char.maxHp],
+    ['Hit Dice', char.hitDice], ['Speed', char.speed], ['Prof. Bonus', char.profBonus],
+  ].map(([label, val]) => `<div class="pc-combat-stat">
+    <div class="pc-cs-label">${label}</div>
+    <div class="pc-cs-value">${val || '—'}</div>
+  </div>`).join('');
+
+  const savesHtml = (char.savingThrows || []).map(s => {
+    const ab = Object.entries(ABILITY_FULL).find(([,v]) => v === s)?.[0];
+    const mod = ab ? char.abilities[ab]?.mod : '';
+    return `<span class="pc-save">${s.slice(0,3)} ${mod}</span>`;
+  }).join('');
+
+  let defensesHtml = '';
+  if (char.defenses?.resistances?.length) defensesHtml += `<div class="pc-def-row"><span class="pc-def-label">Resist: </span>${char.defenses.resistances.join(', ')}</div>`;
+  if (char.defenses?.immunities?.length)  defensesHtml += `<div class="pc-def-row"><span class="pc-def-label">Immune: </span>${char.defenses.immunities.join(', ')}</div>`;
+  if (char.defenses?.advantages?.length)  defensesHtml += `<div class="pc-def-row"><span class="pc-def-label">Adv: </span>${char.defenses.advantages.join('; ')}</div>`;
+
+  const passivesHtml = Object.entries(char.passives || {}).map(([k,v]) =>
+    `<div class="pc-passive-row"><span style="color:#7a6050;font-size:10px;text-transform:uppercase;letter-spacing:.06em">${k}:</span> <strong>${v}</strong></div>`
+  ).join('');
+
+  const skillsHtml = `<div class="pc-skills-grid">${(char.skills || []).map(s =>
+    `<div class="pc-skill"><span class="pc-skill-mod">${s.mod}</span>${s.name}</div>`
+  ).join('')}</div>`;
+
+  const featuresHtml = (char.features || []).map(f => {
+    const slug = FEATURE_5E[f.name.toLowerCase()];
+    const nameHtml = slug ? link5eInline(f.name, slug) : `<strong>${f.name}</strong>`;
+    return `<div class="pc-feature">
+      <div class="pc-feature-name">${nameHtml}${f.subtitle ? ` <span class="pc-feature-sub">— ${f.subtitle}</span>` : ''}</div>
+      ${f.description ? `<div class="pc-feature-desc">${f.description}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  const hasNotes = (char.attacks || []).some(a => a.notes);
+  const attacksHtml = `<table class="pc-attacks">
+    <thead><tr><th>Attack</th><th>Bonus</th><th>Damage</th>${hasNotes ? '<th>Notes</th>' : ''}</tr></thead>
+    <tbody>${(char.attacks || []).map(a => {
+      const slug = FEATURE_5E[a.name.toLowerCase()];
+      const nameHtml = slug ? link5eInline(a.name, slug) : a.name;
+      return `<tr><td>${nameHtml}</td><td>${a.bonus || '—'}</td><td>${a.damage || '—'}</td>${hasNotes ? `<td>${a.notes || ''}</td>` : ''}</tr>`;
+    }).join('')}</tbody>
+  </table>`;
+
+  const profHtml = [
+    char.armorProf  ? `<div class="pc-prof-row"><span class="pc-def-label">Armor: </span>${char.armorProf}</div>` : '',
+    char.weaponProf ? `<div class="pc-prof-row"><span class="pc-def-label">Weapons: </span>${char.weaponProf}</div>` : '',
+    char.toolProf   ? `<div class="pc-prof-row"><span class="pc-def-label">Tools: </span>${char.toolProf}</div>` : '',
+  ].join('');
+
+  const playerLine = char.isCompanion
+    ? `Companion of <strong>Perkia</strong>`
+    : `Played by <strong>${char.player}</strong>`;
+
+  return `<div class="pc-sheet">
+    <div class="pc-header">
+      <div class="pc-name">${char.name}${char.isCompanion ? ' <span class="pc-companion-badge">Companion</span>' : ''}</div>
+      <div class="pc-meta">${classLink} &middot; ${char.species} &middot; ${char.background} &middot; ${playerLine}</div>
+    </div>
+    <div class="pc-body">
+      <div class="pc-col-left">
+        <div class="pc-abilities">${abilitiesHtml}</div>
+        <div class="pc-section"><div class="pc-section-title">Saving Throws</div><div class="pc-saves">${savesHtml || '<em style="font-size:12px;color:#aaa">None listed</em>'}</div></div>
+        <div class="pc-section"><div class="pc-section-title">Senses</div>${passivesHtml}</div>
+        ${defensesHtml ? `<div class="pc-section"><div class="pc-section-title">Defenses</div>${defensesHtml}</div>` : ''}
+        ${char.languages?.length ? `<div class="pc-section"><div class="pc-section-title">Languages</div><div class="pc-lang">${char.languages.join(', ')}</div></div>` : ''}
+        ${profHtml ? `<div class="pc-section"><div class="pc-section-title">Proficiencies</div>${profHtml}</div>` : ''}
+      </div>
+      <div class="pc-col-center">
+        <div class="pc-combat">${combatHtml}</div>
+        <div class="pc-section"><div class="pc-section-title">Attacks</div>${attacksHtml}</div>
+        ${featuresHtml ? `<div class="pc-section"><div class="pc-section-title">Features & Abilities</div>${featuresHtml}</div>` : ''}
+      </div>
+      <div class="pc-col-right">
+        <div class="pc-section"><div class="pc-section-title">Skills</div>${skillsHtml}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+let partyData = null;
+
+async function showPartyModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'The Party';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.querySelector('.modal-body').style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#f4e8c1';
+  m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#7a6050;font-family:sans-serif;font-size:13px">Loading…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  if (!partyData) {
+    try {
+      const r = await fetch('/api/characters');
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      partyData = await r.json();
+    } catch (err) {
+      m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${err.message}</div>`;
+      return;
+    }
+  }
+
+  let activeIdx = 0;
+
+  function renderPartyModal() {
+    const tabsHtml = partyData.map((c, i) =>
+      `<button class="pc-tab${i === activeIdx ? ' active' : ''}" data-idx="${i}">${c.name}</button>`
+    ).join('');
+
+    m.querySelector('.modal-body').innerHTML = `
+      <div class="pc-tabs">${tabsHtml}</div>
+      <div class="pc-scroll">${renderCharacterSheet(partyData[activeIdx])}</div>
+    `;
+
+    m.querySelector('.modal-body').querySelectorAll('.pc-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeIdx = parseInt(btn.dataset.idx);
+        renderPartyModal();
+      });
+    });
+  }
+
+  renderPartyModal();
+}
+
+$('tab-party').addEventListener('click', () => {
+  showPartyModal();
+  if (isMobile()) closeDrawers();
+});
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 

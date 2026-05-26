@@ -31,7 +31,7 @@ const EXCLUDE = new Set([
 // Directories rendered with marked (web-native markdown)
 const WEB_DIRS = new Set([
   'adventures', 'npcs', 'locations', 'factions',
-  'arcs', 'gm-lore', 'player-lore', 'timeline', 'tables',
+  'arcs', 'gm-lore', 'player-lore', 'timeline', 'tables', 'player-characters', 'homebrew',
 ]);
 
 function isWebPath(filePath) {
@@ -53,11 +53,99 @@ function extractFrontmatter(content) {
   return result;
 }
 
+// SRD spell names (slug = lowercase, non-alpha stripped) for auto-linking to 5etools
+const SRD_SPELLS = new Set([
+  // Short spells
+  'fly','web','aid','blight','bless','fear','geas','harm','heal','jump','knock',
+  'slow','wish',
+  // Cantrips
+  'firebolt','light','magehand','prestidigitation','sacredflame','thaumaturgy',
+  'shockinggrasp','rayoffrost','poisonspray','eldritchblast','tollhedead','produceflame',
+  'druidcraft','shillelagh','minorillusion','dancinglights','message','viciousmockery',
+  'chilltough','friends',
+  // 1st level
+  'burninghands','charmperson','command','comprehendlanguages','curewounds','detectmagic',
+  'disguiseself','entangle','fairiefire','findfamiliar','fogcloud','guidingbolt',
+  'healingword','hellishrebuke','hideouslaughter','huntersmark','identify','inflictwounds',
+  'jump','longstrider','magearmor','magicmissile','protectionfromevil','sanctuary',
+  'shield','shieldoffaith','sleep','speakwithanimals','thunderwave','witchbolt',
+  'protectionfromeviilandgood',
+  // 2nd level
+  'aid','animalmessenger','barkskin','blindnessdeafness','blur','calmemotions',
+  'darkness','darkvision','detectthoughts','enlargereduce','flamingsphere','holdperson',
+  'invisibility','knock','lesserrestoration','levitate','mirrorimage','mistystep',
+  'moonbeam','passwithouttrace','phantasmalforce','prayerofhealing','seeinvisibility',
+  'shatter','silence','spiderclimb','spiritualweapon','suggestion','web',
+  // 3rd level
+  'animatedead','bestowcurse','blink','calllightning','clairvoyance','conjureanimals',
+  'counterspell','createfoodandwater','daylight','dispelmagic','fear','fireball','fly',
+  'gaseousform','haste','hypnoticpattern','lightningbolt','masshealingword',
+  'meldintstone','nondetection','plantgrowth','protectionfromenergy','removecurse',
+  'revivify','sending','sleetstorm','slow','speakwithdead','spiritguardians',
+  'stinkingcloud','tongues','vampirictouch','waterbreathing','waterwalk','windwall',
+  // 4th level
+  'arcaneeye','banishment','blight','compulsion','confusion','controlwater','deathward',
+  'dimensiondoor','divination','dominatebeast','fabricate','fireshield',
+  'freedomofmovement','giantinsect','greaterinvisibility','guardianoffaith',
+  'hallucinatoryterrain','icestorm','locatecreature','polymorph','stoneskin',
+  'walloffire','otilukesresilientsphere','phantasmalkiller',
+  // 5th level
+  'animateobjects','cloudkill','coneofcold','conjureelemental','contagion','creation',
+  'dispelevilandgood','dominateperson','dream','flamestrike','geas','greaterrestoration',
+  'holdmonster','holyweapon','insectplague','legendlore','masscurewounds','mislead',
+  'modifymemory','passwall','planarbinding','raisedead','reincarnate','scrying',
+  'seeming','telepathicbond','teleportationcircle','wallofforce','wallofstone',
+  // 6th level
+  'arcanagate','bladebarrier','chainlightning','circleofdeath','contingency',
+  'createundead','disintegrate','eyebite','findthepath','fleshetostone','forbiddance',
+  'globeofinvulnerability','harm','heal','heroesfeast','masssuggestion','moveearth',
+  'sunbeam','trueseeing','wallofice','wallofthorns',
+  // 7th level
+  'delayedblastfireball','divineword','etherealness','fingerofdeath','firestorm',
+  'forcecage','planeshift','prismaticspray','projectimage','regenerate','resurrection',
+  'reversegravity','simulacrum','symbol','teleport',
+  // 8th level
+  'antimagicfield','clone','controlweather','demiplane','dominatemonster','earthquake',
+  'feeblemind','mindblank','powwordstun','sunburst','tsunami',
+  // 9th level
+  'astralproject','foresight','gate','imprisonment','massheal','meteorswarm',
+  'powerwordkill','prismaticwall','shapechange','timestop','truepolymorph',
+  'trueresurrection','weird','wish',
+]);
+
+const SRD_CONDITIONS = new Set([
+  'blinded','charmed','deafened','exhaustion','frightened','grappled',
+  'incapacitated','invisible','paralyzed','petrified','poisoned','prone',
+  'restrained','stunned','unconscious',
+]);
+
+// Parse Homebrewery image curly-style shorthand into a CSS string.
+// e.g. "width:130px,float:right,margin:0 0 10px 15px" → "width:130px;float:right;margin:0 0 10px 15px"
+function parseHbImageStyles(rawStyles) {
+  const boolMap = { wrapRight: 'float:right', wrapLeft: 'float:left' };
+  return rawStyles.split(',').map(part => {
+    part = part.trim();
+    if (boolMap[part]) return boolMap[part];
+    const i = part.indexOf(':');
+    if (i === -1) return '';
+    const key = part.substring(0, i).trim();
+    const val = part.substring(i + 1).trim().replace(/"/g, '');
+    return key && val ? `${key}:${val}` : '';
+  }).filter(Boolean).join(';');
+}
+
 function preprocessMarkdown(raw) {
   let md = raw;
 
   // Strip frontmatter
   md = md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
+
+  // Convert Homebrewery image curly-style syntax to inline HTML before Marked escapes it.
+  // e.g. ![alt](url) {width:130px,float:right,margin:"0 0 10px 15px"}
+  md = md.replace(/!\[([^\]]*)\]\(([^)]+)\)\s*\{([^}]+)\}/g, (_, alt, src, rawStyles) => {
+    const styles = parseHbImageStyles(rawStyles);
+    return `<img src="${src}" alt="${alt.replace(/"/g, '&quot;')}"${styles ? ` style="${styles}"` : ''}>`;
+  });
 
   // Strip HTML comment headers (old format)
   md = md.replace(/^<!--[\s\S]*?-->\s*\n/, '');
@@ -87,6 +175,20 @@ function preprocessMarkdown(raw) {
   // Strip any remaining {{...}} blocks — keep inner content
   md = md.replace(/\{\{[\w,\s]*\n([\s\S]*?)\n\}\}/g, (_, content) => content + '\n');
   md = md.replace(/\{\{[^}\n]*\}\}/g, '');
+
+  // Auto-link SRD spell names and conditions in italic to 5etools
+  md = md.replace(/\*([a-z][a-z '/-]+[a-z])\*/g, (full, name) => {
+    const slug = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (SRD_SPELLS.has(slug)) {
+      const url = `http://localhost:2014/spells.html#${slug}_phb`;
+      return `<a href="#" data-modal-5e="${url}" class="link-5e">${name}</a>`;
+    }
+    if (SRD_CONDITIONS.has(slug)) {
+      const url = `http://localhost:2014/conditionsdiseases.html#${slug}_phb`;
+      return `<a href="#" data-modal-5e="${url}" class="link-5e">${name}</a>`;
+    }
+    return full;
+  });
 
   return md;
 }
@@ -135,6 +237,45 @@ function esc(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+// ─── MANIFEST.md ordering ─────────────────────────────────────────────────
+
+// Parse a MANIFEST.md (or index.md fallback) and return an ordered list of filenames/dirnames.
+// Extracts link targets from lines like: - [Label](filename.md) — description
+function getManifestOrder(dir) {
+  for (const name of ['MANIFEST.md', 'index.md']) {
+    const p = path.join(dir, name);
+    try {
+      const content = fs.readFileSync(p, 'utf8');
+      const order = [];
+      const re = /\[([^\]]*)\]\(([^)]+)\)/g;
+      let m;
+      while ((m = re.exec(content)) !== null) {
+        const target = m[2].trim();
+        if (!target.startsWith('http')) order.push(path.basename(target));
+      }
+      if (order.length) return order;
+    } catch {}
+  }
+  return [];
+}
+
+function manifestSort(entries, dir) {
+  const order = getManifestOrder(dir);
+  if (!order.length) {
+    return entries.sort((a, b) =>
+      a.type !== b.type ? (a.type === 'dir' ? -1 : 1) : a.name.localeCompare(b.name));
+  }
+  return entries.sort((a, b) => {
+    if (a.type !== b.type) return a.type === 'dir' ? -1 : 1;
+    const ai = order.indexOf(a.name);
+    const bi = order.indexOf(b.name);
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return a.name.localeCompare(b.name);
+  });
+}
+
 // ─── File listing API ──────────────────────────────────────────────────────
 
 app.get('/api/files', (req, res) => {
@@ -154,9 +295,8 @@ app.get('/api/files', (req, res) => {
         name: e.name,
         type: e.isDirectory() ? 'dir' : 'file',
         path: toRel(path.join(dir, e.name))
-      }))
-      .sort((a, b) => (a.type !== b.type ? (a.type === 'dir' ? -1 : 1) : a.name.localeCompare(b.name)));
-    res.json(entries);
+      }));
+    res.json(manifestSort(entries, dir));
   } catch (e) {
     res.status(400).json({ error: e.message });
   }
@@ -314,6 +454,29 @@ const WEB_CONTENT_CSS = `
   img { max-width: 100%; height: auto; }
   ul, ol { padding-left: 1.4em; }
   li { margin: 0.2em 0; }
+  .npc-header {
+    display: flex; gap: 20px; align-items: flex-start;
+    margin-bottom: 20px; padding-bottom: 16px;
+    border-bottom: 2px solid #c9ad6a;
+  }
+  .npc-portrait {
+    width: 120px; height: 120px; object-fit: cover;
+    border-radius: 4px; border: 2px solid #c9ad6a;
+    flex-shrink: 0;
+  }
+  .npc-meta { display: flex; flex-direction: column; gap: 4px; padding-top: 4px; }
+  .npc-role { font-size: 1em; font-weight: bold; color: #58180d; }
+  .npc-affil { font-size: 0.85em; color: #6b4c2a; font-style: italic; }
+  .npc-loc { font-size: 0.85em; color: #555; }
+  .npc-status {
+    display: inline-block; margin-top: 4px; padding: 2px 8px;
+    border-radius: 10px; font-size: 0.75em; text-transform: uppercase;
+    letter-spacing: 0.05em; font-weight: bold;
+  }
+  .status-ally    { background: #d4edda; color: #155724; }
+  .status-enemy   { background: #f8d7da; color: #721c24; }
+  .status-neutral { background: #fff3cd; color: #856404; }
+  .status-deceased { background: #e2e3e5; color: #383d41; }
 `;
 
 function previewHtml(body) {
@@ -366,6 +529,32 @@ function webPreviewHtml(title, bodyHtml) {
 </head>
 <body data-title="${esc(title)}">
   <div class="web-content">${bodyHtml}</div>
+  <script>
+    document.addEventListener('click', e => {
+      const ml = e.target.closest('[data-modal]');
+      if (ml) { e.preventDefault(); try { window.parent.dmOpenModal(ml.dataset.modal); } catch {} return; }
+      const e5 = e.target.closest('[data-modal-5e]');
+      if (e5) { e.preventDefault(); try { window.parent.dmOpen5eModal(e5.getAttribute('data-modal-5e').replace('localhost', window.parent.location.hostname)); } catch {} return; }
+      const npc = e.target.closest('.npc-modal-trigger');
+      if (npc) {
+        e.preventDefault();
+        const row = npc.closest('tr'), table = npc.closest('table.npc-table');
+        if (!row || !table) return;
+        const headers = [...table.querySelectorAll('thead th')].map(th => th.textContent.trim());
+        const cells = [...row.querySelectorAll('td')];
+        const name = cells[0]?.textContent.trim() || npc.textContent.trim();
+        let html = '<dl style="margin:0;padding:20px 24px;font-family:\\'Palatino Linotype\\',Georgia,serif">';
+        headers.forEach((h, i) => {
+          if (i === 0 || !cells[i]) return;
+          html += \`<dt style="font-weight:700;color:#8b7355;margin-top:14px;font-size:11px;text-transform:uppercase;letter-spacing:.05em">\${h}</dt>\`;
+          html += \`<dd style="margin:4px 0 0 0;color:#2c1810;font-size:14px;line-height:1.6">\${cells[i].textContent.trim()}</dd>\`;
+        });
+        html += '</dl>';
+        try { window.parent.dmOpenModalRaw(name, html); } catch {}
+        return;
+      }
+    });
+  <\/script>
 </body>
 </html>`;
 }
@@ -373,12 +562,28 @@ function webPreviewHtml(title, bodyHtml) {
 function renderWebMarkdown(filePath, baseRel) {
   const raw = fs.readFileSync(filePath, 'utf8');
   const fm = extractFrontmatter(raw);
-  const title = fm.name || path.basename(filePath, '.md').replace(/[-_]/g, ' ');
+  const title = fm.name || fm.title || path.basename(filePath, '.md').replace(/[-_]/g, ' ');
   const preprocessed = preprocessMarkdown(raw);
   let html = marked.parse(preprocessed);
+
+  // Inject NPC portrait + metadata header when frontmatter fields are present
+  if (fm.role || fm.location || fm.status || fm.affiliation) {
+    let header = '<div class="npc-header">';
+    // Portrait is rendered inline in the ## Profile section (float:right), not duplicated here.
+    header += '<div class="npc-meta">';
+    if (fm.role)        header += `<div class="npc-role">${esc(fm.role)}</div>`;
+    if (fm.affiliation) header += `<div class="npc-affil">${esc(fm.affiliation)}</div>`;
+    if (fm.location)    header += `<div class="npc-loc">📍 ${esc(fm.location)}</div>`;
+    if (fm.status) {
+      const statusClass = { ally: 'status-ally', enemy: 'status-enemy', neutral: 'status-neutral', deceased: 'status-deceased' }[fm.status] || 'status-neutral';
+      header += `<div class="npc-status ${statusClass}">${esc(fm.status)}</div>`;
+    }
+    header += '</div></div>';
+    html = header + html;
+  }
   // Post-process: inject data-modal on cross-reference links
   html = html.replace(
-    /<a href="((?:npcs|locations|factions|arcs|gm-lore|player-lore|adventures|timeline)\/[^"]+)">/g,
+    /<a href="((?:npcs|locations|factions|arcs|gm-lore|player-lore|adventures|timeline|homebrew)\/[^"]+)">/g,
     (_, p) => `<a href="#" data-modal="${esc(p)}">`
   );
   if (baseRel) {
@@ -768,6 +973,641 @@ app.get('/tools/treasure-hoard', (req, res) => {
     </div>`);
 });
 
+// ─── Character sheet parser & API ────────────────────────────────────────────
+
+function parseCharacterSheet(raw, filename) {
+  function tableVal(block, key) {
+    const re = new RegExp(`\\|\\s*\\*\\*${key}\\*\\*\\s*\\|\\s*([^|\\n]+?)\\s*\\|`);
+    const m = block.match(re);
+    return m ? m[1].trim() : '';
+  }
+
+  function getSection(name) {
+    const re = new RegExp(`## ${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\n([\\s\\S]*?)(?=\\n## |$)`);
+    const m = raw.match(re);
+    return m ? m[1] : '';
+  }
+
+  const nameMatch = raw.match(/^# (.+)/m);
+  const name = nameMatch ? nameMatch[1].trim() : filename.replace('.md', '');
+
+  const infoBlock = getSection('Character Information');
+  const classLevel = tableVal(infoBlock, 'Class & Level');
+  const classMatch = classLevel.match(/^(\S+)\s+(\d+)/);
+  const cls = classMatch ? classMatch[1] : classLevel;
+  const level = classMatch ? parseInt(classMatch[2]) : 0;
+
+  const abilityBlock = getSection('Ability Scores');
+  const abilities = {};
+  [['Strength','STR'],['Dexterity','DEX'],['Constitution','CON'],
+   ['Intelligence','INT'],['Wisdom','WIS'],['Charisma','CHA']].forEach(([full, ab]) => {
+    const re = new RegExp(`\\|\\s*\\*\\*${full}\\*\\*\\s*\\|\\s*(\\d+)\\s*\\|\\s*([+\\-]\\d+)\\s*\\|`);
+    const m = abilityBlock.match(re);
+    if (m) abilities[ab] = { score: m[1], mod: m[2] };
+  });
+
+  const combatBlock = getSection('Combat Statistics');
+  const defenses = { resistances: [], immunities: [], advantages: [] };
+  const resM = combatBlock.match(/\*\*Resistances:\*\*\s*([^\n]+)/);
+  if (resM) defenses.resistances = resM[1].split(',').map(s => s.trim());
+  const immM = combatBlock.match(/\*\*Immunities:\*\*\s*([^\n]+)/);
+  if (immM) defenses.immunities = immM[1].split(',').map(s => s.trim());
+  const advM = combatBlock.match(/\*\*Advantage\*\*\s*on\s*([^\n]+)/i);
+  if (advM) defenses.advantages.push('Advantage on ' + advM[1].trim());
+
+  const profBlock = getSection('Proficiencies');
+  const savesM = profBlock.match(/### Saving Throws\n([\s\S]*?)(?=###|$)/);
+  const savingThrows = [];
+  if (savesM) {
+    for (const line of savesM[1].split('\n')) {
+      const m = line.match(/^-\s+(.+)/);
+      if (m) savingThrows.push(m[1].trim());
+    }
+  }
+
+  const skills = [];
+  const skillsMatch = profBlock.match(/### Skills\n([\s\S]*?)(?=###|$)/);
+  if (skillsMatch) {
+    for (const line of skillsMatch[1].split('\n')) {
+      const m = line.match(/^\|\s*([^|]+?)\s*\|\s*([+\-]\d+)\s*\|\s*([^|]+?)\s*\|\s*([+\-]\d+)\s*\|/);
+      if (m && !m[1].includes('---') && !/skill/i.test(m[1])) {
+        skills.push({ name: m[1].trim(), mod: m[2] });
+        skills.push({ name: m[3].trim(), mod: m[4] });
+      }
+      // Single-entry row (Falcor's skills table)
+      const m2 = line.match(/^\|\s*([^|]+?)\s*\|\s*([+\-]\d+)\s*\|$/);
+      if (m2 && !m2[1].includes('---') && !/skill/i.test(m2[1])) {
+        skills.push({ name: m2[1].trim(), mod: m2[2] });
+      }
+    }
+  }
+
+  const armorM  = profBlock.match(/\*\*Armor:\*\*\s*([^\n]+)/);
+  const weaponM = profBlock.match(/\*\*Weapons:\*\*\s*([^\n]+)/);
+  const toolM   = profBlock.match(/\*\*Tools:\*\*\s*([^\n]+)/);
+  const langMatch = profBlock.match(/### Languages\n([\s\S]*?)(?=###|$)/);
+  const languages = [];
+  if (langMatch) {
+    for (const line of langMatch[1].split('\n')) {
+      const m = line.match(/^-\s+(.+)/);
+      if (m) languages.push(m[1].trim());
+    }
+  }
+
+  const sensesBlock = getSection('Senses & Passive Abilities');
+  const passives = {};
+  for (const line of sensesBlock.split('\n')) {
+    const m = line.match(/\|\s*\*\*([^*]+)\*\*\s*\|\s*([^|]+?)\s*\|/);
+    if (m) passives[m[1].trim()] = m[2].trim();
+  }
+
+  const featBlock = getSection('Special Abilities');
+  const features = [];
+  if (featBlock.trim()) {
+    const parts = featBlock.split(/\n(?=### )/);
+    for (const part of parts) {
+      const lines = part.trim().split('\n');
+      const featName = lines[0].replace(/^### /, '').trim();
+      if (!featName) continue;
+      let subtitle = '';
+      const descLines = [];
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!subtitle && /^\*\*[^*]+:\*\*/.test(line)) {
+          subtitle = line.replace(/\*\*/g, '');
+        } else if (line) {
+          descLines.push(line);
+        }
+      }
+      features.push({ name: featName, subtitle, description: descLines.join(' ').trim() });
+    }
+  }
+
+  // Support both "Attacks" and "Attacks & Cantrips"
+  const attacksRaw = raw.match(/## Attacks[^\n]*\n([\s\S]*?)(?=\n## |$)/);
+  const attacks = [];
+  if (attacksRaw) {
+    const parts = attacksRaw[1].split(/\n(?=### )/);
+    for (const part of parts) {
+      const lines = part.trim().split('\n');
+      const atkName = lines[0].replace(/^### /, '').trim();
+      if (!atkName) continue;
+      let bonus = '', damage = '', notes = '';
+      for (const line of lines) {
+        const bonusM2 = line.match(/\*\*Attack Bonus:\*\*\s*([^\n]+)/);
+        if (bonusM2) bonus = bonusM2[1].trim();
+        const dmgM2 = line.match(/\*\*Damage:\*\*\s*([^\n]+)/);
+        if (dmgM2) damage = dmgM2[1].trim();
+        const compM2 = line.match(/\*\*Components:\*\*\s*([^\n]+)/);
+        if (compM2) notes = compM2[1].trim();
+      }
+      attacks.push({ name: atkName, bonus, damage, notes });
+    }
+  }
+
+  return {
+    name,
+    player: tableVal(infoBlock, 'Player Name'),
+    classLevel,
+    class: cls,
+    level,
+    species: tableVal(infoBlock, 'Species'),
+    background: tableVal(infoBlock, 'Background'),
+    xp: tableVal(infoBlock, 'Experience Points'),
+    ac: tableVal(combatBlock, 'Armor Class'),
+    initiative: tableVal(combatBlock, 'Initiative'),
+    maxHp: tableVal(combatBlock, 'Max HP'),
+    hitDice: tableVal(combatBlock, 'Hit Dice'),
+    speed: tableVal(combatBlock, 'Speed').replace(/\s*\(Walking\)/i, ''),
+    profBonus: tableVal(combatBlock, 'Proficiency Bonus'),
+    abilities, savingThrows, skills,
+    armorProf: armorM ? armorM[1].trim() : '',
+    weaponProf: weaponM ? weaponM[1].trim() : '',
+    toolProf: toolM ? toolM[1].trim() : '',
+    languages, passives, defenses, features, attacks,
+    isCompanion: /falcor/i.test(filename),
+  };
+}
+
+app.get('/api/characters', (req, res) => {
+  try {
+    const dir = path.join(CAMPAIGN_ROOT, 'player-characters');
+    const files = fs.readdirSync(dir)
+      .filter(f => f.endsWith('.md') && f !== 'MANIFEST.md' && f !== 'index.md');
+    // Order: john, kuetis, perkia, falcor
+    const ORDER = ['john-paladin.md', 'kuetis-grlevr.md', 'perkia-fali.md', 'falcor.md'];
+    files.sort((a, b) => {
+      const ai = ORDER.indexOf(a); const bi = ORDER.indexOf(b);
+      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
+    });
+    const characters = files.map(f => {
+      const raw = fs.readFileSync(path.join(dir, f), 'utf8');
+      return parseCharacterSheet(raw, f);
+    });
+    res.json(characters);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Manifest editor API ──────────────────────────────────────────────────────
+
+app.get('/api/manifest', (req, res) => {
+  try {
+    const dir = safePath(req.query.path);
+    if (!fs.statSync(dir).isDirectory()) return res.status(400).json({ error: 'Not a directory' });
+    const manifestPath = path.join(dir, 'MANIFEST.md');
+    const content = fs.existsSync(manifestPath) ? fs.readFileSync(manifestPath, 'utf8') : '';
+    res.json({ content, path: toRel(manifestPath) });
+  } catch (e) {
+    res.status(400).json({ error: e.message });
+  }
+});
+
+app.post('/api/manifest', express.text({ type: '*/*' }), (req, res) => {
+  try {
+    const dir = safePath(req.query.path);
+    if (!fs.statSync(dir).isDirectory()) return res.status(400).json({ error: 'Not a directory' });
+    const manifestPath = path.join(dir, 'MANIFEST.md');
+    fs.writeFileSync(manifestPath, req.body, 'utf8');
+    res.json({ ok: true, path: toRel(manifestPath) });
+  } catch (e) {
+    res.status(400).json({ error: e.message });
+  }
+});
+
+// ─── Campaign Tracker API ─────────────────────────────────────────────────────
+
+const TRACKER_SECTIONS = new Set(['party', 'contracts', 'npcs', 'clues', 'promises', 'treasure']);
+
+app.get('/api/tracker', (req, res) => {
+  const section = req.query.section;
+  if (!TRACKER_SECTIONS.has(section)) return res.status(400).json({ error: 'Invalid section' });
+  const filePath = path.join(CAMPAIGN_ROOT, 'timeline', `${section}.md`);
+  try {
+    const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
+    res.json({ content });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/tracker', express.text({ type: '*/*' }), (req, res) => {
+  const section = req.query.section;
+  if (!TRACKER_SECTIONS.has(section)) return res.status(400).json({ error: 'Invalid section' });
+  const filePath = path.join(CAMPAIGN_ROOT, 'timeline', `${section}.md`);
+  try {
+    fs.writeFileSync(filePath, req.body, 'utf8');
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/tracker/sessions', (req, res) => {
+  const dir = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions');
+  try {
+    if (!fs.existsSync(dir)) return res.json([]);
+    const files = fs.readdirSync(dir)
+      .filter(f => /^session-\d+\.md$/.test(f))
+      .sort();
+    const sessions = files.map(f => {
+      const content = fs.readFileSync(path.join(dir, f), 'utf8');
+      const fm = extractFrontmatter(content);
+      const body = content.replace(/^---[\s\S]*?---\n?/, '');
+      const preview = body.split('\n').find(l => l.trim() && !l.startsWith('#')) || '';
+      return { id: f.replace('.md', ''), session: fm.session || '', date: fm.date || '',
+               adventure: fm.adventure || '', level: fm.level || '',
+               preview: preview.slice(0, 100) };
+    });
+    res.json(sessions);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/tracker/session', (req, res) => {
+  const id = req.query.id;
+  if (!/^session-\d+$/.test(id)) return res.status(400).json({ error: 'Invalid session id' });
+  const filePath = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions', `${id}.md`);
+  try {
+    const content = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
+    res.json({ content });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/tracker/session', express.text({ type: '*/*' }), (req, res) => {
+  const id = req.query.id;
+  if (!/^session-\d+$/.test(id)) return res.status(400).json({ error: 'Invalid session id' });
+  const filePath = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions', `${id}.md`);
+  try {
+    fs.writeFileSync(filePath, req.body, 'utf8');
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/tracker/session/new', (req, res) => {
+  const dir = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions');
+  try {
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    const existing = fs.readdirSync(dir).filter(f => /^session-\d+\.md$/.test(f));
+    const nums = existing.map(f => parseInt(f.match(/\d+/)[0], 10));
+    const next = nums.length ? Math.max(...nums) + 1 : 1;
+    const id = `session-${String(next).padStart(3, '0')}`;
+    const content = `---\nsession: ${next}\ndate: \nadventure: \nlevel: \n---\n\n## Key Events\n\n\n## MVP Moment\n\n`;
+    fs.writeFileSync(path.join(dir, `${id}.md`), content, 'utf8');
+    res.json({ ok: true, id });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Print endpoint (handouts) ────────────────────────────────────────────────
+
+app.get('/print', (req, res) => {
+  try {
+    const filePath = safePath(req.query.path);
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const fm = extractFrontmatter(raw);
+    const body = raw.replace(/^---[\s\S]*?---\n?/, '');
+    const html = marked.parse(body);
+    res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>${esc(fm.title || 'Handout')}</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
+      background: #f4e8c1;
+      color: #1a0a00;
+      max-width: 680px;
+      margin: 40px auto;
+      padding: 48px 56px;
+      border: 1px solid #8b6914;
+      outline: 3px double #c4a862;
+      outline-offset: -8px;
+      box-shadow: inset 0 0 60px rgba(139,105,20,0.06), 0 2px 12px rgba(0,0,0,0.15);
+      min-height: calc(100vh - 80px);
+    }
+    h1, h2, h3 { font-weight: normal; margin-bottom: 0.75em; color: #3a1a00; }
+    h1 { font-size: 1.4em; border-bottom: 1px solid #c4a862; padding-bottom: 0.4em; }
+    h2 { font-size: 1.1em; }
+    p { line-height: 1.75; margin-bottom: 0.85em; }
+    pre {
+      font-family: 'Courier New', Consolas, monospace;
+      font-size: 0.82em; white-space: pre-wrap; line-height: 1.65;
+      background: rgba(139,105,20,0.06); padding: 12px 16px;
+      border-left: 3px solid #c4a862; margin-bottom: 0.85em;
+    }
+    ul, ol { margin: 0 0 0.85em 1.6em; line-height: 1.75; }
+    hr { border: none; border-top: 1px solid #c4a862; margin: 1.2em 0; }
+    .reveal-note {
+      font-size: 0.78em; color: #7a5c1e; font-style: italic;
+      margin-bottom: 1.8em; padding-bottom: 1em;
+      border-bottom: 1px dashed #c4a862;
+    }
+    .print-btn {
+      position: fixed; bottom: 24px; right: 24px;
+      background: #58180d; color: #f5f0e8; border: none;
+      padding: 10px 22px; font-family: inherit; font-size: 13px;
+      cursor: pointer; border-radius: 3px; letter-spacing: 0.03em;
+    }
+    .print-btn:hover { background: #7a2010; }
+    @media print {
+      body { margin: 0; box-shadow: none; min-height: auto; }
+      .reveal-note, .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+  ${fm.when ? `<div class="reveal-note">⏱ Reveal when: ${esc(fm.when)}</div>` : ''}
+  ${html}
+  <button class="print-btn" onclick="window.print()">🖨 Print / Save PDF</button>
+</body>
+</html>`);
+  } catch (e) {
+    res.status(400).send(`<p style="color:red;font-family:sans-serif;padding:20px">${esc(e.message)}</p>`);
+  }
+});
+
+// ─── Adventure monster extractor ─────────────────────────────────────────────
+
+function extractMonstersFromAdventure(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const monsters = [];
+  const seen = new Set();
+
+  function add(name, ac, hp, cr, count) {
+    name = name.replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+    // Strip leading digit count (e.g. "4 zombies")
+    const countPrefix = name.match(/^(\d+)\s+(.+)/);
+    if (countPrefix) { count = count || parseInt(countPrefix[1]); name = countPrefix[2]; }
+    // Strip word-number prefix ("One fanatical cultist" → "fanatical cultist")
+    name = name.replace(/^(One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten)\s+/i, '');
+    if (!name || ac < 1 || hp < 1) return;
+    const key = `${name}|${ac}|${hp}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    monsters.push({ name, ac: parseInt(ac), hp: parseInt(hp), cr: cr || null, count: count || 1 });
+  }
+
+  // Pattern 1: list item — "- Name: AC X, HP Y" (with optional bold, count prefix)
+  const listRe = /^[-*]\s+(?:\d+\s+)?(?:\*{0,2})([^:(*\n]{2,50}?)(?:\*{0,2})\s*:\s+AC\s+(\d+),\s*HP\s+(\d+)(?:,\s*CR\s*([^\s,\-—\n)]+))?/gm;
+  let m;
+  while ((m = listRe.exec(raw)) !== null) {
+    // Grab count if line starts like "- 5 cultists:"
+    const countM = m[0].match(/^[-*]\s+(\d+)\s+/);
+    add(m[1], m[2], m[3], m[4], countM ? parseInt(countM[1]) : 1);
+  }
+
+  // Pattern 2: parenthetical — "N name (AC X, HP Y[, ...])" — no closing paren required
+  // Handles "4 zombie Dragonknights (AC 12, HP 11, slow...)" and "1 winged kobold (AC 13, HP 8, fly...)"
+  const parenRe = /(?:^|[\s.!?,])(\d+\s+)?([A-Za-z][a-zA-Z '\/\-]{2,50}?)\s+\(AC\s+(\d+),\s*HP\s+(\d+)(?:,\s*CR\s*([^\s,\-—\n)]+))?/gm;
+  while ((m = parenRe.exec(raw)) !== null) {
+    add(m[2], m[3], m[4], m[5], m[1] ? parseInt(m[1]) : 1);
+  }
+
+  return monsters;
+}
+
+app.get('/api/adventure-monsters', (req, res) => {
+  try {
+    const filePath = safePath(req.query.path);
+    if (!filePath.endsWith('.md')) return res.status(400).json({ error: 'Not a markdown file' });
+    const monsters = extractMonstersFromAdventure(filePath);
+    res.json(monsters);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── NPC list API ─────────────────────────────────────────────────────────────
+
+function parseNpcFile(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+
+  // Name from frontmatter
+  const nameMatch = raw.match(/^name:\s*(.+)$/m);
+  if (!nameMatch) return null;
+  const name = nameMatch[1].trim();
+
+  // AC from stat block table: | **Armor Class** | 17 (splint) |
+  const acMatch = raw.match(/\|\s*\*\*Armor Class\*\*\s*\|\s*(\d+)/i);
+  const ac = acMatch ? parseInt(acMatch[1]) : null;
+
+  // HP from stat block table: | **Hit Points** | 58 (9d8 + 18) |
+  const hpMatch = raw.match(/\|\s*\*\*Hit Points\*\*\s*\|\s*(\d+)/i);
+  const hp = hpMatch ? parseInt(hpMatch[1]) : null;
+
+  // DEX mod from ability scores row: | 16 (+3) | 13 (+1) | ...
+  // Find the first row with the pattern "| N (+X) | N (+Y) |"
+  const abilityMatch = raw.match(/\|\s*\d+\s*\([^)]+\)\s*\|\s*\d+\s*\(([+-]?\d+)\)\s*\|/);
+  const dexMod = abilityMatch ? parseInt(abilityMatch[1]) : null;
+
+  return { name, ac, hp, dexMod };
+}
+
+app.get('/api/npcs', (req, res) => {
+  try {
+    const dirs = [
+      path.join(CAMPAIGN_ROOT, 'npcs', 'core'),
+      path.join(CAMPAIGN_ROOT, 'npcs', 'season-1'),
+    ];
+    const npcs = [];
+    for (const dir of dirs) {
+      if (!fs.existsSync(dir)) continue;
+      for (const file of fs.readdirSync(dir)) {
+        if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md') continue;
+        try {
+          const npc = parseNpcFile(path.join(dir, file));
+          if (npc) npcs.push(npc);
+        } catch { /* skip malformed files */ }
+      }
+    }
+    npcs.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(npcs);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Adventures list API ──────────────────────────────────────────────────────
+
+function labelFromFilename(filename) {
+  return filename
+    .replace(/\.md$/, '')
+    .replace(/[-_]/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+app.get('/api/adventures', (req, res) => {
+  try {
+    const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
+    const results = [];
+
+    // Walk season subdirectories only
+    const seasonDirs = fs.readdirSync(adventuresRoot)
+      .filter(d => /^season-\d+$/i.test(d))
+      .map(d => ({ season: d, full: path.join(adventuresRoot, d) }))
+      .filter(d => fs.statSync(d.full).isDirectory());
+
+    const SKIP = new Set(['index.md', '_template.md', 'MANIFEST.md', 'session-0-character-integration.md']);
+
+    for (const { season, full } of seasonDirs) {
+      for (const entry of fs.readdirSync(full)) {
+        const entryPath = path.join(full, entry);
+        const stat = fs.statSync(entryPath);
+
+        if (stat.isFile() && entry.endsWith('.md') && !SKIP.has(entry) && !entry.endsWith('-handouts')) {
+          const rel = path.relative(CAMPAIGN_ROOT, entryPath).replace(/\\/g, '/');
+          results.push({ label: labelFromFilename(entry), path: rel, season });
+        } else if (stat.isDirectory() && !entry.endsWith('-handouts') && entry !== 'general-handouts') {
+          // Multi-part adventures: look for index.md inside
+          const indexFile = path.join(entryPath, 'index.md');
+          if (fs.existsSync(indexFile)) {
+            const rel = path.relative(CAMPAIGN_ROOT, indexFile).replace(/\\/g, '/');
+            results.push({ label: labelFromFilename(entry), path: rel, season });
+          }
+        }
+      }
+    }
+
+    results.sort((a, b) => a.season.localeCompare(b.season) || a.label.localeCompare(b.label));
+    res.json(results);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── 5etools / open5e bestiary search API ─────────────────────────────────────
+
+let bestiaryCache = null; // [{ name, ac, hp, cr }]
+
+async function load5etoolsBestiary() {
+  if (bestiaryCache) return bestiaryCache;
+  // 5etools stores an index at /data/bestiary/index.json mapping source codes to filenames
+  const indexRes = await fetch('http://localhost:2014/data/bestiary/index.json');
+  const index = await indexRes.json();
+  const files = Object.values(index);
+
+  const fetches = files.map(f =>
+    fetch(`http://localhost:2014/data/bestiary/${f}`)
+      .then(r => r.json())
+      .catch(() => null)
+  );
+  const results = await Promise.all(fetches);
+
+  const monsters = [];
+  for (const data of results) {
+    if (!data || !Array.isArray(data.monster)) continue;
+    for (const m of data.monster) {
+      const ac = Array.isArray(m.ac) ? (m.ac[0]?.ac ?? m.ac[0] ?? 10) : (m.ac ?? 10);
+      const hp = m.hp?.average ?? 0;
+      const cr = m.cr?.cr ?? m.cr ?? '?';
+      monsters.push({ name: m.name, ac: parseInt(ac) || 10, hp: parseInt(hp) || 0, cr: String(cr) });
+    }
+  }
+  bestiaryCache = monsters;
+  return monsters;
+}
+
+async function searchOpen5e(q) {
+  const url = `https://api.open5e.com/v1/monsters/?search=${encodeURIComponent(q)}&limit=20`;
+  const res = await fetch(url);
+  const data = await res.json();
+  return (data.results || []).map(m => ({
+    name: m.name,
+    ac: typeof m.armor_class === 'number' ? m.armor_class : 10,
+    hp: m.hit_points ?? 0,
+    cr: String(m.challenge_rating ?? '?'),
+  }));
+}
+
+app.get('/api/5etools/search', async (req, res) => {
+  const q = (req.query.q || '').trim().toLowerCase();
+  if (q.length < 2) return res.json([]);
+
+  // Try 5etools local first
+  try {
+    const all = await load5etoolsBestiary();
+    const results = all
+      .filter(m => m.name.toLowerCase().includes(q))
+      .slice(0, 20);
+    if (results.length > 0) return res.json(results);
+  } catch { /* fall through to open5e */ }
+
+  // Fallback: open5e SRD API
+  try {
+    const results = await searchOpen5e(q);
+    return res.json(results);
+  } catch (e) {
+    res.status(502).json({ error: 'Bestiary search unavailable: ' + e.message });
+  }
+});
+
+// ─── Encounter persistence API ────────────────────────────────────────────────
+
+const ENCOUNTERS_DIR = path.join(CAMPAIGN_ROOT, 'encounters');
+
+app.get('/api/encounters', (req, res) => {
+  try {
+    fs.mkdirSync(ENCOUNTERS_DIR, { recursive: true });
+    const files = fs.readdirSync(ENCOUNTERS_DIR)
+      .filter(f => f.endsWith('.json'))
+      .map(f => {
+        const name = f.replace(/\.json$/, '');
+        const stat = fs.statSync(path.join(ENCOUNTERS_DIR, f));
+        return { name, modified: stat.mtimeMs };
+      })
+      .sort((a, b) => b.modified - a.modified);
+    res.json(files);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/encounters/:name', (req, res) => {
+  const name = req.params.name.replace(/[^a-zA-Z0-9 _-]/g, '').trim();
+  if (!name) return res.status(400).json({ error: 'Invalid name' });
+  const filePath = path.join(ENCOUNTERS_DIR, `${name}.json`);
+  try {
+    if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Not found' });
+    res.json(JSON.parse(fs.readFileSync(filePath, 'utf8')));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/encounters/:name', (req, res) => {
+  const name = req.params.name.replace(/[^a-zA-Z0-9 _-]/g, '').trim();
+  if (!name) return res.status(400).json({ error: 'Invalid name' });
+  try {
+    fs.mkdirSync(ENCOUNTERS_DIR, { recursive: true });
+    fs.writeFileSync(path.join(ENCOUNTERS_DIR, `${name}.json`), JSON.stringify(req.body, null, 2), 'utf8');
+    res.json({ ok: true, name });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.delete('/api/encounters/:name', (req, res) => {
+  const name = req.params.name.replace(/[^a-zA-Z0-9 _-]/g, '').trim();
+  if (!name) return res.status(400).json({ error: 'Invalid name' });
+  try {
+    const filePath = path.join(ENCOUNTERS_DIR, `${name}.json`);
+    if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
@@ -795,6 +1635,10 @@ if (pty) {
     });
     const s = { proc, buf: '', ws: null, idleTimer: null };
     sessions.set(id, s);
+
+    if (process.platform === 'win32') {
+      proc.write('$env:PATH += \';C:\\Users\\joshu\\AppData\\Roaming\\npm\'\r\n');
+    }
 
     proc.onData(d => {
       const sess = sessions.get(id);
