@@ -1536,10 +1536,18 @@ app.get('/api/5etools/search', async (req, res) => {
   // Try 5etools local first
   try {
     const all = await load5etoolsBestiary();
-    const results = all
-      .filter(m => m.name.toLowerCase().includes(q))
-      .slice(0, 20);
-    if (results.length > 0) return res.json(results);
+    const scored = [];
+    for (const m of all) {
+      const name = m.name.toLowerCase();
+      if (name === q)                    scored.push({ m, score: 0 });        // exact
+      else if (name.startsWith(q))       scored.push({ m, score: 1 });        // prefix
+      else if (new RegExp(`\\b${q}`).test(name)) scored.push({ m, score: 2 }); // word boundary
+      else if (name.includes(q))         scored.push({ m, score: 3 });        // substring
+    }
+    if (scored.length > 0) {
+      scored.sort((a, b) => a.score - b.score || a.m.name.localeCompare(b.m.name));
+      return res.json(scored.slice(0, 20).map(s => s.m));
+    }
   } catch { /* fall through to open5e */ }
 
   // Fallback: open5e SRD API
