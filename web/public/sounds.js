@@ -3,7 +3,6 @@
 window.SoundPlayer = (() => {
   // ── State ──────────────────────────────────────────────────────────────────
   const FADE_MS = 1500;
-  let crossfadeGen = 0;
 
   let scenes = [];
   let effects = [];
@@ -132,33 +131,51 @@ window.SoundPlayer = (() => {
     suggestLabel.hidden = !suggestedScene;
   }
 
-  // ── Playback ───────────────────────────────────────────────────────────────
-  function crossfade(fromEl, toEl, targetVol, done) {
-    const gen = ++crossfadeGen;
-    const duration = FADE_MS;
-    const startTime = performance.now();
-    const fromStartVol = fromEl ? fromEl.volume : 0;
-
-    function tick(now) {
-      if (crossfadeGen !== gen) return;
-      const t = Math.min((now - startTime) / duration, 1);
-      toEl.volume = t * targetVol;
-      if (fromEl) fromEl.volume = (1 - t) * fromStartVol;
-
-      if (t < 1) {
-        requestAnimationFrame(tick);
-      } else {
-        if (fromEl) {
-          fromEl.pause();
-          fromEl.src = '';
-        }
-        if (done) done();
-      }
-    }
-
-    requestAnimationFrame(tick);
+  // ── Fade engine (per-element generation counters via WeakMap) ─────────────
+  const _fadeGen = new WeakMap();
+  function _nextGen(el) {
+    const g = (_fadeGen.get(el) || 0) + 1;
+    _fadeGen.set(el, g);
+    return g;
   }
 
+  function fadeOut(el) {
+    if (!el || el.paused) { if (el) { el.pause(); el.src = ''; } return; }
+    const gen = _nextGen(el);
+    const startVol = el.volume;
+    const startTime = performance.now();
+    (function tick(now) {
+      if (_fadeGen.get(el) !== gen) return;
+      const t = Math.min((now - startTime) / FADE_MS, 1);
+      el.volume = (1 - t) * startVol;
+      if (t < 1) requestAnimationFrame(tick);
+      else { el.pause(); el.src = ''; }
+    })(performance.now());
+  }
+
+  function fadeIn(el, targetVol, done) {
+    const gen = _nextGen(el);
+    const startTime = performance.now();
+    (function tick(now) {
+      if (_fadeGen.get(el) !== gen) return;
+      const t = Math.min((now - startTime) / FADE_MS, 1);
+      el.volume = t * targetVol;
+      if (t < 1) requestAnimationFrame(tick);
+      else { el.volume = targetVol; if (done) done(); }
+    })(performance.now());
+  }
+
+  function showError(file, err) {
+    const code = err && err.code;
+    const msg = code === 4 ? 'not supported' : code === 3 ? 'decode error' : code === 2 ? 'network error' : 'failed';
+    console.error(`SoundPlayer ⚠ ${file} — ${msg}`, err);
+    const prev = nameEl.textContent;
+    nameEl.textContent = `⚠ ${file.split('/').pop()} — ${msg}`;
+    nameEl.style.color = '#f38ba8';
+    setTimeout(() => { nameEl.textContent = prev; nameEl.style.color = ''; }, 4000);
+  }
+
+  // ── Playback ───────────────────────────────────────────────────────────────
   function play(sceneId, specificFile) {
     const scene = scenes.find(s => s.id === sceneId);
     if (!scene) return;
@@ -168,66 +185,47 @@ window.SoundPlayer = (() => {
       ? scene.files.find(f => f === specificFile || f.endsWith('/' + specificFile)) || scene.files[0]
       : scene.files[Math.floor(Math.random() * scene.files.length)];
 
-    toEl.src = '/sounds/' + file;
-    toEl.loop = looping;
-    toEl.volume = 0;
+    // Fade out current track immediately — don't wait for new track to load
+    const fromEl = activeEl;
+    activeEl = null;
+    if (fromEl) fadeOut(fromEl);
 
     currentScene = scene.id;
     nameEl.textContent = scene.label + ' …';
     localStorage.setItem('soundbar-scene', scene.id);
+    updateQuickButtonStates();
 
-    const fromEl = activeEl;
-    const doPlay = () => {
+    toEl.src = '/sounds/' + file;
+    toEl.loop = looping;
+    toEl.volume = 0;
+
+    const doFadeIn = () => {
       nameEl.textContent = scene.label;
-      toEl.play().catch(() => {});
+      toEl.play().catch(err => showError(file, toEl.error));
       toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
-      crossfade(fromEl, toEl, volume, () => {
+      fadeIn(toEl, volume, () => {
         activeEl = toEl;
         updateQuickButtonStates();
       });
     };
 
+    toEl.addEventListener('error', () => showError(file, toEl.error), { once: true });
+
     if (toEl.readyState >= 3) {
-      doPlay();
+      doFadeIn();
     } else {
-      toEl.addEventListener('canplay', doPlay, { once: true });
+      toEl.addEventListener('canplay', doFadeIn, { once: true });
     }
   }
 
   function stop() {
     nameEl.textContent = '— stopped —';
     localStorage.setItem('soundbar-scene', '');
-
-    if (!activeEl || activeEl.paused) {
-      activeEl = null;
-      currentScene = null;
-      updateQuickButtonStates();
-      return;
-    }
-
-    const elToStop = activeEl;
-    const startVol = elToStop.volume;
-    activeEl = null;
     currentScene = null;
+    const elToStop = activeEl;
+    activeEl = null;
     updateQuickButtonStates();
-
-    const gen = ++crossfadeGen;
-    const duration = FADE_MS;
-    const startTime = performance.now();
-
-    function tick(now) {
-      if (crossfadeGen !== gen) return;
-      const t = Math.min((now - startTime) / duration, 1);
-      elToStop.volume = (1 - t) * startVol;
-      if (t < 1) {
-        requestAnimationFrame(tick);
-      } else {
-        elToStop.pause();
-        elToStop.src = '';
-      }
-    }
-
-    requestAnimationFrame(tick);
+    if (elToStop) fadeOut(elToStop);
   }
 
   // ── Suggestion ────────────────────────────────────────────────────────────
@@ -363,7 +361,8 @@ window.SoundPlayer = (() => {
   function playEffect(fx) {
     const el = new Audio('/sounds/' + fx.file);
     el.volume = volume;
-    el.play().catch(() => {});
+    el.play().catch(() => showError(fx.file, el.error));
+    el.addEventListener('error', () => showError(fx.file, el.error), { once: true });
     el.addEventListener('ended', () => el.src = '', { once: true });
   }
 
