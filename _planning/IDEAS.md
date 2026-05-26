@@ -88,7 +88,7 @@ Enhance the `switch-claude` profile function to auto-detect what project the ter
 
 ### DM Panel: Initiative tracker
 
-**Status:** draft | **Area:** DM Panel
+**Status:** done | **Area:** DM Panel
 
 A simple initiative order widget in the DM Panel — add combatants, roll initiative, cycle turns, track HP, and show saving throw info per combatant (display save bonuses, quick-click to roll a save). Syncs via WebSocket to the terminal.
 
@@ -98,13 +98,34 @@ HP adjustment has two modes:
 
 Buff/debuff tracking alongside conditions — add/remove buffs per combatant, show remaining duration (e.g., "Bless — 3 more rounds"), auto-expiry on turn end. Conditions as separate trackable afflictions (stunned, poisoned, prone, etc.) with rules text on hover.
 
+**Location:**
+- Combat tracker logic: `web/public/app.js` (`combatState`, `renderCombatTracker`, `renderCombatList`, `ctUid` — from ~line 884)
+- Add panel (Players/NPCs/Monsters/Manual tabs): `web/public/app.js` (`renderAddTab`, `renderAddPlayers`, `renderAddNpcs`, `renderAddMonsters`, `renderAddManual` — after `renderCombatTracker`)
+- Styles: `web/public/style.css` (`.ct-*` classes)
+- Encounter save/load API: `web/server.js` (`GET/POST/DELETE /api/encounters`)
+- NPC data API: `web/server.js` (`GET /api/npcs`, `parseNpcFile`)
+- Adventure monster API: `web/server.js` (`GET /api/adventure-monsters`, `GET /api/adventures`)
+- 5etools search API: `web/server.js` (`GET /api/5etools/search`, `load5etoolsBestiary`, `searchOpen5e`)
+- Spec: `docs/superpowers/specs/2026-05-25-combat-tracker-add-combatants-design.md`
+
 ---
 
 ### Adventure soundboard
 
-**Status:** draft | **Area:** DM Panel / Adventures
+**Status:** done | **Area:** DM Panel / Adventures
 
 Support custom audio files alongside adventures. A sounds folder per adventure (e.g., `adventures/wolves-of-welton/sounds/`) with a soundboard UI — click a button in the adventure view to trigger the sound. Useful for ambient tracks, battle stingers, NPC voice clips, etc.
+
+**Location:**
+- Audio engine: `web/public/sounds.js` (`SoundPlayer` module — init, play, stop, crossfade, suggest, quick buttons)
+- Scene manifest: `web/public/sounds/sounds.json` (scene definitions with file lists and keywords)
+- Bundled audio files: `web/public/sounds/*.mp3/.wav/.wav` (ambient loops) and `web/public/sounds/sfx/` (one-shot effects)
+- Custom drop-in folder: `web/public/sounds/custom/` (user-supplied files served via API)
+- Custom sounds API: `web/server.js` (`GET /api/sounds/custom` — line 1643)
+- Sound bar HTML: `web/public/index.html` (`#sound-bar` footer element)
+- Sound bar + effects panel styles: `web/public/style.css` (`#sound-bar`, `#snd-fx-panel`, `.snd-*` classes)
+- Inline adventure cue buttons: `adventures/season-1/the-pale-sickness/` (e.g. `[▶ Cave Drip]` markup)
+- Spec: `docs/superpowers/specs/2026-05-25-ambient-sounds-design.md`
 
 ---
 
@@ -142,9 +163,15 @@ Login state stored in a session cookie — clears when the browser closes. No pe
 
 ### Party sheet
 
-**Status:** draft | **Area:** DM Panel
+**Status:** done | **Area:** DM Panel
 
 Quick-reference card per player character: AC, max HP, passives (Perception/Insight/Investigation), spell save DC, key skills, proficiencies. Import from `player-characters/` directory. Editable during session for level-ups or magic item changes.
+
+**Location:**
+- Character data files: `player-characters/*.md` (frontmatter: name, class, level, ac, maxHp, etc.)
+- Characters API: `web/server.js` (`GET /api/characters` — line 1156, parses frontmatter from `player-characters/`)
+- Viewer: NPC viewer tab in `web/public/app.js` (characters appear alongside NPCs; type `player` distinguishes them)
+- Used by combat tracker Players tab: `web/public/app.js` (`renderAddPlayers` fetches `/api/characters`)
 
 ### Inspiration & rest tracker
 
