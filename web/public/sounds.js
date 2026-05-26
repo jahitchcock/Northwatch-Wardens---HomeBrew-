@@ -201,7 +201,10 @@ window.SoundPlayer = (() => {
     toEl.loop = looping;
     toEl.volume = 0;
 
+    const onLoadError = () => showError(file, toEl.error);
+
     const doFadeIn = () => {
+      toEl.removeEventListener('error', onLoadError);
       nameEl.classList.remove('snd-buffering');
       toEl.play().catch(err => showError(file, toEl.error));
       toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
@@ -211,7 +214,7 @@ window.SoundPlayer = (() => {
       });
     };
 
-    toEl.addEventListener('error', () => showError(file, toEl.error), { once: true });
+    toEl.addEventListener('error', onLoadError, { once: true });
 
     if (toEl.readyState >= 3) {
       doFadeIn();
