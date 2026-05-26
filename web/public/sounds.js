@@ -24,7 +24,8 @@ window.SoundPlayer = (() => {
     suggestLabel = document.getElementById('snd-suggest-label');
 
     // Restore persisted state
-    volume = parseFloat(localStorage.getItem('soundbar-volume') ?? '0.7');
+    const storedVol = parseFloat(localStorage.getItem('soundbar-volume'));
+    volume = isNaN(storedVol) ? 0.7 : Math.min(1, Math.max(0, storedVol));
     looping = localStorage.getItem('soundbar-loop') !== 'false';
     const lastScene = localStorage.getItem('soundbar-scene');
 
@@ -70,6 +71,7 @@ window.SoundPlayer = (() => {
         const sc = scenes.find(s => s.id === lastScene);
         if (sc) { currentScene = sc.id; nameEl.textContent = sc.label; }
       }
+      updateQuickButtonStates();
     } catch (e) {
       console.warn('SoundPlayer: failed to load manifest', e);
     }
@@ -92,8 +94,6 @@ window.SoundPlayer = (() => {
     moreBtn.textContent = '+ More…';
     moreBtn.addEventListener('click', openMoreModal);
     quickArea.appendChild(moreBtn);
-
-    updateQuickButtonStates();
   }
 
   function updateQuickButtonStates() {
