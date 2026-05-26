@@ -426,6 +426,14 @@
   <audio id="snd-a"></audio>
   <audio id="snd-b"></audio>
 
+  <div id="snd-fx-panel" hidden>
+    <div id="snd-fx-header">
+      <span>Spell Effects</span>
+      <button id="snd-fx-close">✕</button>
+    </div>
+    <div id="snd-fx-grid"></div>
+  </div>
+
   <!-- Ambient sound bar -->
   <div id="sound-bar">
     <span id="snd-icon">♪</span>
@@ -438,6 +446,8 @@
       <span>🔊</span>
       <input id="snd-vol" type="range" min="0" max="100" value="70">
     </div>
+    <span class="snd-divider">│</span>
+    <button id="snd-fx-btn" title="Spell Effects">⚡ FX</button>
   </div>
 </body>
 </html>

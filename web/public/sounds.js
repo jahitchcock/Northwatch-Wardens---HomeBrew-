@@ -6,6 +6,7 @@ window.SoundPlayer = (() => {
   let crossfadeGen = 0;
 
   let scenes = [];
+  let effects = [];
   let activeEl = null;
   let currentScene = null;
   let suggestedScene = null;
@@ -14,6 +15,7 @@ window.SoundPlayer = (() => {
 
   // ── DOM refs ───────────────────────────────────────────────────────────────
   let sndA, sndB, nameEl, playBtn, loopBtn, volSlider, quickArea, suggestLabel;
+  let fxPanelEl, fxBtnEl;
 
   // ── Init ───────────────────────────────────────────────────────────────────
   async function init() {
@@ -25,6 +27,8 @@ window.SoundPlayer = (() => {
     volSlider = document.getElementById('snd-vol');
     quickArea = document.getElementById('snd-quick');
     suggestLabel = document.getElementById('snd-suggest-label');
+    fxPanelEl = document.getElementById('snd-fx-panel');
+    fxBtnEl   = document.getElementById('snd-fx-btn');
 
     // Restore persisted state
     const storedVol = parseFloat(localStorage.getItem('soundbar-volume'));
@@ -55,10 +59,24 @@ window.SoundPlayer = (() => {
       if (activeEl && !activeEl.paused) activeEl.volume = volume;
     });
 
+    // FX panel toggle
+    if (fxBtnEl) {
+      fxBtnEl.addEventListener('click', toggleFxPanel);
+    }
+    const fxClose = document.getElementById('snd-fx-close');
+    if (fxClose) fxClose.addEventListener('click', closeFxPanel);
+
+    // Close panel when clicking outside
+    document.addEventListener('click', e => {
+      if (!fxPanelEl || fxPanelEl.hidden) return;
+      if (!fxPanelEl.contains(e.target) && e.target !== fxBtnEl) closeFxPanel();
+    });
+
     // Load manifest + custom files
     try {
       const manifest = await fetch('/sounds/sounds.json').then(r => r.json());
       scenes = [...manifest.scenes];
+      effects = manifest.effects || [];
 
       const customFiles = await fetch('/api/sounds/custom').then(r => r.json()).catch(() => []);
       for (const f of customFiles) {
@@ -266,5 +284,69 @@ window.SoundPlayer = (() => {
     });
   }
 
-  return { init, play, stop, suggest };
+  // ── Effects panel ─────────────────────────────────────────────────────────
+  function renderEffectsPanel() {
+    const grid = document.getElementById('snd-fx-grid');
+    if (!grid || !effects.length) return;
+
+    // Group by category
+    const categories = [];
+    const catMap = {};
+    effects.forEach(fx => {
+      if (!catMap[fx.category]) {
+        catMap[fx.category] = [];
+        categories.push(fx.category);
+      }
+      catMap[fx.category].push(fx);
+    });
+
+    grid.innerHTML = '';
+    categories.forEach(cat => {
+      const label = document.createElement('div');
+      label.className = 'snd-fx-category';
+      label.textContent = cat;
+      grid.appendChild(label);
+
+      const row = document.createElement('div');
+      row.className = 'snd-fx-row';
+      catMap[cat].forEach(fx => {
+        const btn = document.createElement('button');
+        btn.className = 'snd-fx-btn';
+        btn.textContent = fx.label;
+        btn.title = fx.id;
+        btn.addEventListener('click', () => {
+          playEffect(fx);
+          btn.classList.add('snd-fx-flash');
+          setTimeout(() => btn.classList.remove('snd-fx-flash'), 300);
+        });
+        row.appendChild(btn);
+      });
+      grid.appendChild(row);
+    });
+  }
+
+  function toggleFxPanel() {
+    if (!fxPanelEl) return;
+    if (fxPanelEl.hidden) {
+      fxPanelEl.hidden = false;
+      fxBtnEl.classList.add('snd-fx-open');
+      if (!document.getElementById('snd-fx-grid').children.length) renderEffectsPanel();
+    } else {
+      closeFxPanel();
+    }
+  }
+
+  function closeFxPanel() {
+    if (fxPanelEl) fxPanelEl.hidden = true;
+    if (fxBtnEl) fxBtnEl.classList.remove('snd-fx-open');
+  }
+
+  function playEffect(fx) {
+    const el = new Audio('/sounds/' + fx.file);
+    el.volume = volume;
+    el.play().catch(() => {});
+    el.addEventListener('ended', () => el.src = '', { once: true });
+  }
+
+  return { init, play, stop, suggest, playEffect };
 })();
