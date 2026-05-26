@@ -20,6 +20,11 @@ Each entry should include:
 
 Add a configurable hotbar in the DM Panel for rapid D&D rolls (Perception, Stealth, Initiative buttons). Rolling would broadcast to the WebSocket terminal.
 
+**Related code:**
+- WebSocket terminal: `web/server.js` (line 1654 — `wss` setup, broadcast pattern)
+- Existing roll table infrastructure: `web/server.js` (`GET /tools/roll-table`, `parseRollableTable` ~line 759)
+- Panel HTML entry point: `web/public/index.html`
+
 ---
 
 ### Print Build: Auto-fix TOC paths
@@ -27,6 +32,10 @@ Add a configurable hotbar in the DM Panel for rapid D&D rolls (Perception, Steal
 **Status:** draft | **Area:** Print Build
 
 Write a small script that reads the TOC JSON files and automatically prepends `_print/` to source paths so the build doesn't fail after content reorganization. Could be a build pre-step in `build.js`.
+
+**Related code:**
+- TOC configs: `build/players-guide-toc.json`, `build/dms-guide-toc.json`
+- Build entry point: `build.js`
 
 ---
 
@@ -36,6 +45,12 @@ Write a small script that reads the TOC JSON files and automatically prepends `_
 
 A skill or script that reads the latest session log from `timeline/sessions/` and generates a structured recap (what happened, NPCs met, items gained, hooks for next session).
 
+**Related code:**
+- Session log files: `timeline/sessions/`
+- Session tracker API: `web/server.js` (`GET/POST /api/tracker/sessions`, `GET/POST /api/tracker/session`)
+- Session tracker UI: `web/public/app.js` (section `'sessions'` in `renderTrackerSection` ~line 1814)
+- Session-scribe agent skill: `.claude/skills/session-scribe/`
+
 ---
 
 ### AGENTS.md: Auto-generated TOC
@@ -43,6 +58,10 @@ A skill or script that reads the latest session log from `timeline/sessions/` an
 **Status:** draft | **Area:** AGENTS.md
 
 As AGENTS.md grows, add a table of contents section at the top with links to each major section. Could be maintained manually or generated via a pre-commit hook.
+
+**Related code:**
+- Target file: `AGENTS.md`
+- Hook config: `.claude/settings.json` (hooks section)
 
 ---
 
@@ -52,6 +71,11 @@ As AGENTS.md grows, add a table of contents section at the top with links to eac
 
 When clicking a map or image in the file browser, open a full-screen lightbox with zoom/pan. Useful for battle maps displayed to players on a second monitor.
 
+**Related code:**
+- File open handler: `web/public/app.js` (`openPath` ~line 137, handles `.md`, image paste ~line 674)
+- File browser rendering: `web/public/app.js` (file list click handlers ~line 229)
+- Panel layout: `web/public/index.html`
+
 ---
 
 ### Verify-build: Check XML well-formedness
@@ -59,6 +83,11 @@ When clicking a map or image in the file browser, open a full-screen lightbox wi
 **Status:** draft | **Area:** Print Build / CI
 
 The verify-build script already checks for duplicate `\page` and TOC page numbers. Extend it to validate that `LionsdenGameFiles/Northwatch_Wardens.xml` is well-formed before deploying.
+
+**Related code:**
+- XML source: `LionsdenGameFiles/Northwatch_Wardens.xml`
+- Build pipeline: `build.js`, `build.sh`
+- CI: `.github/workflows/`
 
 ---
 
@@ -68,6 +97,13 @@ The verify-build script already checks for duplicate `\page` and TOC page number
 
 A skill that reads the next adventure/encounter from `adventures/` or `encounters/` and generates a one-page DM prep sheet: expected NPCs, DCs, treasure, and story beats.
 
+**Related code:**
+- Adventure files: `adventures/season-1/*/index.md`
+- NPC files: `npcs/core/`, `npcs/season-1/`
+- Encounter files: `encounters/*.json`
+- Existing session-prep skill stub: `.claude/skills/session-prep/` (if present)
+- NPC API: `web/server.js` (`GET /api/npcs`)
+
 ---
 
 ### AI notes
@@ -75,6 +111,11 @@ A skill that reads the next adventure/encounter from `adventures/` or `encounter
 **Status:** ready | **Area:** Skills
 
 Expose a skill endpoint that the DM Panel calls to narrativize DM notes into player-facing recaps. Input: bullet-point DM notes → Output: prose paragraph with story flavor.
+
+**Related code:**
+- Session tracker UI (where notes live): `web/public/app.js` (`renderTrackerSection` ~line 1875)
+- Session tracker API: `web/server.js` (`GET/POST /api/tracker?section=sessions`)
+- Author agent skill (prose writing): `.claude/skills/author/`
 
 ---
 
@@ -149,6 +190,12 @@ A stripped-down second-monitor view for players. Shows only:
 
 Accessible at a separate URL or toggled from the main panel.
 
+**Related code:**
+- Combat state (initiative order to expose): `web/public/app.js` (`combatState` ~line 884)
+- WebSocket server (for pushing updates): `web/server.js` (line 1654)
+- Current file path state (for map display): `web/public/app.js` (`currentPath` ~line 137)
+- Express server entry point for new route: `web/server.js`
+
 ---
 
 ### DM login gate
@@ -158,6 +205,10 @@ Accessible at a separate URL or toggled from the main panel.
 All DM-facing routes (adventure notes, NPC stats, combat tracker, encounter builder, maps) protected behind an initial login. Player-facing routes (maps, initiative order only) remain open. Default password: `TPK`. Configurable via `.env`.
 
 Login state stored in a session cookie — clears when the browser closes. No persistent auth, no database needed. Server validates against the configured password on each protected route or API call.
+
+**Related code:**
+- All routes to protect: `web/server.js` (Express `app.get`/`app.post` handlers)
+- Entry point for middleware: `web/server.js` (near top, after `app` is created)
 
 ---
 
@@ -179,11 +230,22 @@ Quick-reference card per player character: AC, max HP, passives (Perception/Insi
 
 Track who has inspiration, hand it out, mark when used. Short/long rest buttons that reset abilities, hit dice, spell slots, and expiration-based buffs per character. Party-wide rest option for one-click reset.
 
+**Related code:**
+- Character data: `player-characters/*.md` (hp, spell slots, hit dice in frontmatter)
+- Characters API: `web/server.js` (`GET /api/characters` ~line 1156)
+- Campaign tracker (where this could live as a section): `web/public/app.js` (`renderTrackerSection` ~line 1875)
+- Tracker persistence API: `web/server.js` (`GET/POST /api/tracker`)
+
 ### Downtime tracker
 
 **Status:** draft | **Area:** DM Panel
 
 Track in-game days, what each player is doing during downtime (training, crafting, research, carousing), roll results, and outcomes. Timeline view showing elapsed days.
+
+**Related code:**
+- Timeline data: `timeline/` (session logs, calendar)
+- Campaign tracker sections: `web/public/app.js` (`renderTrackerSection` ~line 1875 — could add a downtime section)
+- Tracker persistence API: `web/server.js` (`GET/POST /api/tracker`)
 
 ---
 
@@ -201,6 +263,11 @@ Import an OMI (Overheard Meeting Intelligence) transcript and auto-generate a st
 
 Save the result to `timeline/sessions/` as a structured session note. Optionally edit before finalizing.
 
+**Related code:**
+- Session output destination: `timeline/sessions/`
+- Session tracker API: `web/server.js` (`POST /api/tracker/session/new`, `POST /api/tracker/session?id=`)
+- Session-scribe agent skill: `.claude/skills/session-scribe/`
+
 ---
 
 ### Combat Tracker: Buff/Debuff & Condition Enhancements
@@ -208,6 +275,12 @@ Save the result to `timeline/sessions/` as a structured session note. Optionally
 **Status:** draft | **Area:** DM Panel
 
 Buff/debuff duration tracking with auto-expiry on turn end (e.g., "Bless — 3 more rounds"). Hover rules text on conditions (stunned, poisoned, prone, etc.). Quick save DC roll buttons per combatant showing their save bonuses.
+
+**Related code:**
+- CONDITIONS array: `web/public/app.js` (line 881 — `['Blinded','Charmed',…]`)
+- Condition picker + rendering: `web/public/app.js` (`renderCombatList` ~line 1458–1525)
+- Combatant data shape: `web/public/app.js` (`combatState.combatants` — each has `conditions: []`)
+- Next turn handler (where auto-expiry would fire): `web/public/app.js` (`#ct-next` click handler ~line 964)
 
 ---
 
@@ -217,6 +290,12 @@ Buff/debuff duration tracking with auto-expiry on turn end (e.g., "Bless — 3 m
 
 Click any NPC or monster name in the combat tracker to open their full stat block in a popup — no need to hunt for the file mid-combat. Pulls from `npcs/core/`, `npcs/season-1/`, or 5etools bestiary data.
 
+**Related code:**
+- NPC files: `npcs/core/*.md`, `npcs/season-1/*.md`
+- NPC API: `web/server.js` (`GET /api/npcs`, `parseNpcFile`)
+- Combatant row rendering: `web/public/app.js` (`renderCombatList`)
+- 5etools bestiary cache: `web/server.js` (`load5etoolsBestiary`, `bestiaryCache`)
+
 ---
 
 ### Weather & Environment Widget
@@ -224,6 +303,12 @@ Click any NPC or monster name in the combat tracker to open their full stat bloc
 **Status:** draft | **Area:** DM Panel
 
 Track current weather, time of day, and visibility conditions — Northreach-flavored (blizzard, dense fog, midnight, overcast). Displayed as a persistent widget in the panel. Affects encounter narration cues and can trigger ambient sound suggestions.
+
+**Related code:**
+- Sound suggestion hook (weather could feed this): `web/public/sounds.js` (`SoundPlayer.suggest`)
+- Sound scene manifest (weather scenes exist): `web/public/sounds/sounds.json`
+- Panel header HTML: `web/public/index.html`
+- Campaign tracker persistence (for storing current weather): `web/server.js` (`GET/POST /api/tracker`)
 
 ---
 
@@ -233,6 +318,12 @@ Track current weather, time of day, and visibility conditions — Northreach-fla
 
 A search bar (global hotkey or panel header) that queries 5etools data for spells, magic items, and conditions. Shows a popup with full rules text in place. No page navigation or tab-switching needed mid-session.
 
+**Related code:**
+- Existing 5etools bestiary search: `web/server.js` (`GET /api/5etools/search`, `load5etoolsBestiary`)
+- 5etools data server (port 2014): spells at `/data/spells/`, items at `/data/items/`
+- Panel header HTML: `web/public/index.html`
+- `openPath` / modal pattern to follow: `web/public/app.js` (~line 137)
+
 ---
 
 ### Encounter Templates
@@ -240,5 +331,10 @@ A search bar (global hotkey or panel header) that queries 5etools data for spell
 **Status:** draft | **Area:** DM Panel
 
 Save a named encounter setup (combatants, HP, type) as a reusable template. One click loads a standard wolf pack, bandit patrol, or boss encounter into the combat tracker. Templates stored as JSON alongside saved encounters.
+
+**Related code:**
+- Encounter save/load API: `web/server.js` (`GET/POST/DELETE /api/encounters`, stores in `encounters/*.json`)
+- Encounter list UI: `web/public/app.js` (`renderEncounterList` ~line 1036)
+- Combat state shape to template: `web/public/app.js` (`combatState.combatants`)
 
 ---
