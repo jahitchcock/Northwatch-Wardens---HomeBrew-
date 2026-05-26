@@ -159,27 +159,39 @@ window.SoundPlayer = (() => {
     requestAnimationFrame(tick);
   }
 
-  function play(sceneId) {
+  function play(sceneId, specificFile) {
     const scene = scenes.find(s => s.id === sceneId);
     if (!scene) return;
 
     const toEl = activeEl === sndA ? sndB : sndA;
-    const file = scene.files[Math.floor(Math.random() * scene.files.length)];
+    const file = specificFile
+      ? scene.files.find(f => f === specificFile || f.endsWith('/' + specificFile)) || scene.files[0]
+      : scene.files[Math.floor(Math.random() * scene.files.length)];
+
     toEl.src = '/sounds/' + file;
     toEl.loop = looping;
     toEl.volume = 0;
-    toEl.play().catch(() => {});
-
-    toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
 
     currentScene = scene.id;
-    crossfade(activeEl, toEl, volume, () => {
-      activeEl = toEl;
-      updateQuickButtonStates();
-    });
-
-    nameEl.textContent = scene.label;
+    nameEl.textContent = scene.label + ' …';
     localStorage.setItem('soundbar-scene', scene.id);
+
+    const fromEl = activeEl;
+    const doPlay = () => {
+      nameEl.textContent = scene.label;
+      toEl.play().catch(() => {});
+      toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
+      crossfade(fromEl, toEl, volume, () => {
+        activeEl = toEl;
+        updateQuickButtonStates();
+      });
+    };
+
+    if (toEl.readyState >= 3) {
+      doPlay();
+    } else {
+      toEl.addEventListener('canplay', doPlay, { once: true });
+    }
   }
 
   function stop() {
@@ -241,44 +253,51 @@ window.SoundPlayer = (() => {
 
   // ── More modal ─────────────────────────────────────────────────────────────
   function openMoreModal() {
-    const rows = scenes.map(sc => {
+    const sceneRows = scenes.map(sc => {
       const tag = sc.custom ? ' <em style="opacity:0.6">(custom)</em>' : '';
-      return `<div class="snd-modal-row" data-scene-id="${sc.id}" style="padding:6px 10px;cursor:pointer;border-radius:4px;">${sc.label}${tag}</div>`;
+      const multiFile = sc.files && sc.files.length > 1;
+      const fileList = multiFile ? sc.files.map(f => {
+        const fname = f.split('/').pop();
+        return `<div class="snd-modal-ver" data-scene-id="${sc.id}" data-file="${fname}" style="padding:4px 10px 4px 24px;cursor:pointer;border-radius:4px;font-size:0.85em;color:#888;">↳ ${fname}</div>`;
+      }).join('') : '';
+      return `<div class="snd-modal-row" data-scene-id="${sc.id}" style="padding:6px 10px;cursor:pointer;border-radius:4px;">
+      ${sc.label}${tag}${multiFile ? ' <span style="font-size:0.75em;opacity:0.5">(random)</span>' : ''}
+    </div>${fileList}`;
     }).join('');
 
     const html = `
-      <input id="snd-modal-search" type="text" placeholder="Search scenes…"
-        style="width:100%;box-sizing:border-box;padding:6px 8px;margin-bottom:10px;background:#1a1a1a;border:1px solid #333;color:#cdd6f4;border-radius:4px;">
-      <div id="snd-modal-list">${rows}</div>
-    `;
+    <input id="snd-modal-search" type="text" placeholder="Search scenes…"
+      style="width:100%;box-sizing:border-box;padding:6px 8px;margin-bottom:10px;background:#1a1a1a;border:1px solid #333;color:#cdd6f4;border-radius:4px;">
+    <div id="snd-modal-list">${sceneRows}</div>
+  `;
 
     window.dmOpenModalRaw('Ambient Scenes', html);
 
-    // Wire up after modal is in DOM
     requestAnimationFrame(() => {
       const search = document.getElementById('snd-modal-search');
       const list = document.getElementById('snd-modal-list');
       if (search) {
         search.addEventListener('input', () => {
           const q = search.value.toLowerCase();
-          list.querySelectorAll('.snd-modal-row').forEach(row => {
+          list.querySelectorAll('.snd-modal-row, .snd-modal-ver').forEach(row => {
             row.style.display = row.textContent.toLowerCase().includes(q) ? '' : 'none';
           });
         });
       }
       if (list) {
         list.addEventListener('click', e => {
+          const ver = e.target.closest('.snd-modal-ver');
+          if (ver) { SoundPlayer.playFile(ver.dataset.sceneId, ver.dataset.file); return; }
           const row = e.target.closest('.snd-modal-row');
-          if (!row) return;
-          SoundPlayer.play(row.dataset.sceneId);
+          if (row) SoundPlayer.play(row.dataset.sceneId);
         });
         list.addEventListener('mouseover', e => {
-          const row = e.target.closest('.snd-modal-row');
-          if (row) row.style.background = '#2a2a2a';
+          const t = e.target.closest('.snd-modal-row, .snd-modal-ver');
+          if (t) t.style.background = '#2a2a2a';
         });
         list.addEventListener('mouseout', e => {
-          const row = e.target.closest('.snd-modal-row');
-          if (row) row.style.background = '';
+          const t = e.target.closest('.snd-modal-row, .snd-modal-ver');
+          if (t) t.style.background = '';
         });
       }
     });
@@ -353,5 +372,9 @@ window.SoundPlayer = (() => {
     if (fx) playEffect(fx);
   }
 
-  return { init, play, stop, suggest, playEffect, sfx };
+  function playFile(sceneId, filename) {
+    play(sceneId, filename);
+  }
+
+  return { init, play, stop, suggest, playEffect, sfx, playFile };
 })();
