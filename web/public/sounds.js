@@ -201,9 +201,11 @@ window.SoundPlayer = (() => {
 
   // ── Suggestion ────────────────────────────────────────────────────────────
   function suggest(filepath) {
+    if (!suggestLabel) return;
+
     suggestedScene = null;
 
-    const tokens = filepath.toLowerCase().split(/[\\/\-_\.]/);
+    const tokens = filepath.toLowerCase().split(/[/\\._-]/);
 
     for (const scene of scenes) {
       if (!scene.keywords || scene.keywords.length === 0) continue;
@@ -216,11 +218,52 @@ window.SoundPlayer = (() => {
     }
 
     updateQuickButtonStates();
-    suggestLabel.hidden = !suggestedScene;
   }
 
-  // ── More modal stub (implemented in Task 8) ────────────────────────────────
-  function openMoreModal() {}
+  // ── More modal ─────────────────────────────────────────────────────────────
+  function openMoreModal() {
+    const rows = scenes.map(sc => {
+      const tag = sc.custom ? ' <em style="opacity:0.6">(custom)</em>' : '';
+      return `<div class="snd-modal-row" data-scene-id="${sc.id}" style="padding:6px 10px;cursor:pointer;border-radius:4px;">${sc.label}${tag}</div>`;
+    }).join('');
+
+    const html = `
+      <input id="snd-modal-search" type="text" placeholder="Search scenes…"
+        style="width:100%;box-sizing:border-box;padding:6px 8px;margin-bottom:10px;background:#1a1a1a;border:1px solid #333;color:#cdd6f4;border-radius:4px;">
+      <div id="snd-modal-list">${rows}</div>
+    `;
+
+    window.dmOpenModalRaw('Ambient Scenes', html);
+
+    // Wire up after modal is in DOM
+    requestAnimationFrame(() => {
+      const search = document.getElementById('snd-modal-search');
+      const list = document.getElementById('snd-modal-list');
+      if (search) {
+        search.addEventListener('input', () => {
+          const q = search.value.toLowerCase();
+          list.querySelectorAll('.snd-modal-row').forEach(row => {
+            row.style.display = row.textContent.toLowerCase().includes(q) ? '' : 'none';
+          });
+        });
+      }
+      if (list) {
+        list.addEventListener('click', e => {
+          const row = e.target.closest('.snd-modal-row');
+          if (!row) return;
+          SoundPlayer.play(row.dataset.sceneId);
+        });
+        list.addEventListener('mouseover', e => {
+          const row = e.target.closest('.snd-modal-row');
+          if (row) row.style.background = '#2a2a2a';
+        });
+        list.addEventListener('mouseout', e => {
+          const row = e.target.closest('.snd-modal-row');
+          if (row) row.style.background = '';
+        });
+      }
+    });
+  }
 
   return { init, play, stop, suggest };
 })();
