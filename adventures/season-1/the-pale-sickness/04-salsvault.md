@@ -21,6 +21,8 @@ Six rooms in sequence. The party enters at Room 1 and must reach Room 5. Room 6 
 
 ---
 
+<div class="sound-strip">🔊 Set ambience: <button class="snd-cue" data-scene="dungeon">🎵 Dungeon</button></div>
+
 ## Room 1: Entrance Hall
 
 ### Read Aloud
@@ -39,6 +41,8 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 - **Left dead-end:** A collapsed guard post. Contains a dead construct (inert — parts salvageable) and a sealed container with 2 potions of healing.
 
 ### Stat Blocks
+
+<div class="sound-strip">🔊 Swords activate: <button class="snd-cue" data-scene="combat">🎵 Combat</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="arcane">🔮 Arcane</button></div>
 
 #### Flying Sword (×2)
 *Small construct, unaligned*
@@ -65,6 +69,8 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 *Note: Flying Swords in Salsvault are malfunctioning — they occasionally attack each other (DM's discretion, 1-in-6 chance per round of targeting the other sword instead of a player). This can be exploited.*
 
 ---
+
+<div class="sound-strip">🔊 Armor activates: <button class="snd-cue" data-scene="combat">🎵 Combat</button></div>
 
 ## Room 2: Research Laboratories
 
@@ -113,6 +119,8 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 
 ---
 
+<div class="sound-strip">🔊 After combat: <button class="snd-cue" data-scene="dungeon">🎵 Dungeon</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
+
 ## Room 3: Containment Hall
 
 ### Read Aloud
@@ -147,6 +155,8 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 
 ---
 
+<div class="sound-strip">🔊 Antidote found: <button class="snd-sfx" data-sfx="success">✅ Success</button> &nbsp; Calm: <button class="snd-cue" data-scene="night">🎵 Night</button></div>
+
 ## Room 5: Preservation Chamber
 
 ### Read Aloud
@@ -164,6 +174,8 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 
 ---
 
+<div class="sound-strip">🔊 SFX: <button class="snd-sfx" data-sfx="ritual">🔔 Ritual</button></div>
+
 ## Room 6: Central Control Room
 
 *Optional — the party does not need to come here for the antidote. But this room answers the campaign's central question.*
@@ -179,6 +191,9 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 **Interactive elements:**
 - **Activation logs (DC 12 Arcana):** Manual activation of Salsvault 3–4 months ago, precise date logged. Cross-referenced against Wolves of Welton timeline: the activation happened 2 days before the Welton wolves changed. This was not a coincidence — Salsvault's reactivation sent a pulse of Aevorian energy across the region.
 - **Facility map (DC 14 Arcana):** References to "Site Theta," "Site Vharos," "Site 9-B." Salsvault is one node in a network. The map shows approximate locations — all in the Far North.
+
+<div class="sound-strip">🔊 Hooded figure revealed: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
+
 - **The hooded figure image:** Non-human (wrong proportions — too tall, too thin, joints not quite right). At the console. The image is from the activation event — a security recording. DC 17 Arcana: the figure's movements at the console are deliberate and knowledgeable. This was not accidental discovery. Someone knew exactly how to turn Salsvault on.
 - **Emergency shutdown (DC 15 Arcana to operate):** Party can shut down Salsvault. This reduces Echo interference in the region for 2d6 months. Elric will be conflicted about this ("invaluable research, lost").
 

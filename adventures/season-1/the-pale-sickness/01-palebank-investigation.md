@@ -10,6 +10,8 @@ location: Palebank Village — Urgon's cabin, Pelc's Curiosities, Tulgi's cabin,
 
 ---
 
+<div class="sound-strip">🔊 Set ambience: <button class="snd-cue" data-scene="winter">🎵 Winter Wind</button></div>
+
 ## Read Aloud — Arrival
 
 > *"Snow falls softly over the coastal settlement of Palebank Village. Lanterns glow behind frosted windows. A cold wind sweeps in from the northern icefields, carrying a quiet dread. As you arrive, villagers gather at a respectful distance around a frozen statue — a dwarf locked mid-stride, hands raised, face a mask of terror. Every detail is perfect. It is not stone. It is him.*
@@ -19,6 +21,8 @@ location: Palebank Village — Urgon's cabin, Pelc's Curiosities, Tulgi's cabin,
 ---
 
 ## Room Descriptions
+
+<div class="sound-strip">🔊 SFX on Arcana discovery: <button class="snd-sfx" data-sfx="arcane">🔮 Arcane</button></div>
 
 ### Urgon's Cabin
 
@@ -36,6 +40,8 @@ A cluttered trading post — every shelf crammed with oddities, preserved specim
 - **Receipt (DC 10 Investigation):** Urgon sold two blue glass vials to Pelc three weeks ago, marked *"Aevorian — northern site, unidentified."* One sold to Tulgi Lutan (cash). One sold to Irven Liel's household via traveling fence.
 - **Broken window:** Tulgi's break-in. She couldn't afford Pelc's price; took the receipt instead to find where the second vial went.
 - **Pelc's account:** "I thought they were decorative. Pretty things. Urgon said he'd found them north. I didn't ask more." He is genuinely frightened now.
+
+<div class="sound-strip">🔊 SFX on confession moment: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
 
 ### Tulgi's Cabin
 

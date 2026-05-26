@@ -10,15 +10,21 @@ location: Icefields north of Palebank, via The Cold Anchor research station
 
 ---
 
+<div class="sound-strip">🔊 Set ambience: <button class="snd-cue" data-scene="winter">🎵 Winter Wind</button></div>
+
 ## Read Aloud — Departure
 
 > *"The road north out of Palebank is well-worn for the first hour, then thins to a trail, then to suggestions of a path in the snow. The air gets colder faster than it should. By midday, you can see your breath even in full sun. The icefields begin gradually: first patches of permanent frost, then sheets of blue-white ice spreading between the rocks, then nothing but ice and sky ahead."*
+
+<div class="sound-strip">🔊 Arriving at shelter: <button class="snd-cue" data-scene="tavern">🎵 Cold Anchor</button></div>
 
 ## Read Aloud — The Cold Anchor
 
 > *"A low stone building emerges from the snow — thick walls, shuttered windows, a chimney smoking steadily. A hand-painted sign above the door reads THE COLD ANCHOR. Inside: oil lamps, a stove burning hard against the cold, and a man the size of a wardrobe who looks up from a half-repaired pack harness.*
 >
 > *'You're heading north,' he says. It's not a question."*
+
+<div class="sound-strip">🔊 Approaching the ruins: <button class="snd-cue" data-scene="dungeon">🎵 Dungeon</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="ritual">🔔 Ritual</button></div>
 
 ## Read Aloud — Salsvault Approach
 

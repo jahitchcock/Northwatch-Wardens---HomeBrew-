@@ -10,6 +10,8 @@ location: Smuggler hideout, cliffs west of Palebank (30-minute walk)
 
 ---
 
+<div class="sound-strip">🔊 Set ambience: <button class="snd-cue" data-scene="cave">🎵 Cave</button></div>
+
 ## Read Aloud — Approach
 
 > *"The path west follows the cliff line for half a mile before the land drops toward a rocky shore. A fissure in the cliff face — wider than it looks from a distance — opens onto a cave mouth ringed with supply crates and the smell of woodsmoke. You can hear voices echoing inside. Arguing voices."*
@@ -44,11 +46,15 @@ One bandit — Sett, a young woman with blue-tinged fingers — is sitting apart
 4. DC 14 Persuasion: Brynn actively helps — opens the chest, tells them everything he knows about Salsvault.
 5. If party offers to cure Sett on return: Brynn gives them detailed directions, Morgo's contact information, and the second map.
 
+<div class="sound-strip">🔊 If combat starts: <button class="snd-cue" data-scene="combat">🎵 Combat</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="explosion">💥 Explosion</button></div>
+
 **Combat path:**
 1. Brynn opens with "This is our camp. State your business or leave." He won't attack first.
 2. If combat starts: 4 bandits + Brynn engage. Sett does not fight — she retreats to the back.
 3. At 50% casualties, Brynn calls for surrender. "We're done. Take what you need."
 4. Chest is accessible once bandits are subdued. Sett's condition is discovered during search.
+
+<div class="sound-strip">🔊 After combat / surrender: <button class="snd-cue" data-scene="cave">🎵 Cave</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
 
 **Sett's moral moment:**
 Regardless of path, if the party notices Sett's fingers and asks:

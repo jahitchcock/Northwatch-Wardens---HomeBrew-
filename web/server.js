@@ -477,6 +477,26 @@ const WEB_CONTENT_CSS = `
   .status-enemy   { background: #f8d7da; color: #721c24; }
   .status-neutral { background: #fff3cd; color: #856404; }
   .status-deceased { background: #e2e3e5; color: #383d41; }
+  /* ── Sound cue buttons ──────────────────────────────────────── */
+  .sound-strip {
+    font-size: 0.78rem; margin: 6px 0 10px;
+    padding: 5px 10px; background: #f0ebf8;
+    border-left: 3px solid #9b6ec8; border-radius: 0 4px 4px 0;
+    color: #6b4c90; display: flex; align-items: center;
+    gap: 6px; flex-wrap: wrap;
+  }
+  .snd-cue {
+    background: #6b3fa0; border: 1px solid #8b5fc8; color: #fff;
+    padding: 2px 9px; font-size: 0.72rem; border-radius: 3px;
+    cursor: pointer; font-family: system-ui, sans-serif; line-height: 1.6;
+  }
+  .snd-cue:hover { background: #8b5fc8; }
+  .snd-sfx {
+    background: #2a6a2a; border: 1px solid #4a8a4a; color: #fff;
+    padding: 2px 9px; font-size: 0.72rem; border-radius: 3px;
+    cursor: pointer; font-family: system-ui, sans-serif; line-height: 1.6;
+  }
+  .snd-sfx:hover { background: #4a8a4a; }
 `;
 
 function previewHtml(body) {
@@ -553,6 +573,10 @@ function webPreviewHtml(title, bodyHtml) {
         try { window.parent.dmOpenModalRaw(name, html); } catch {}
         return;
       }
+      const sc = e.target.closest('[data-scene]');
+      if (sc) { e.preventDefault(); try { window.parent.SoundPlayer && window.parent.SoundPlayer.play(sc.dataset.scene); } catch {} return; }
+      const sfxBtn = e.target.closest('[data-sfx]');
+      if (sfxBtn) { e.preventDefault(); try { window.parent.SoundPlayer && window.parent.SoundPlayer.sfx(sfxBtn.dataset.sfx); } catch {} return; }
     });
   <\/script>
 </body>

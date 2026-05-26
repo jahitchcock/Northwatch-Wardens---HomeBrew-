@@ -348,5 +348,10 @@ window.SoundPlayer = (() => {
     el.addEventListener('ended', () => el.src = '', { once: true });
   }
 
-  return { init, play, stop, suggest, playEffect };
+  function sfx(id) {
+    const fx = effects.find(e => e.id === id);
+    if (fx) playEffect(fx);
+  }
+
+  return { init, play, stop, suggest, playEffect, sfx };
 })();
