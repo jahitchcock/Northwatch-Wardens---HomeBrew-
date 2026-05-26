@@ -2,6 +2,9 @@
 
 window.SoundPlayer = (() => {
   // ── State ──────────────────────────────────────────────────────────────────
+  const FADE_MS = 1500;
+  let crossfadeGen = 0;
+
   let scenes = [];
   let activeEl = null;
   let currentScene = null;
@@ -113,11 +116,13 @@ window.SoundPlayer = (() => {
 
   // ── Playback ───────────────────────────────────────────────────────────────
   function crossfade(fromEl, toEl, targetVol, done) {
-    const duration = 1500;
+    const gen = ++crossfadeGen;
+    const duration = FADE_MS;
     const startTime = performance.now();
     const fromStartVol = fromEl ? fromEl.volume : 0;
 
     function tick(now) {
+      if (crossfadeGen !== gen) return;
       const t = Math.min((now - startTime) / duration, 1);
       toEl.volume = t * targetVol;
       if (fromEl) fromEl.volume = (1 - t) * fromStartVol;
@@ -148,9 +153,9 @@ window.SoundPlayer = (() => {
 
     toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
 
+    currentScene = scene.id;
     crossfade(activeEl, toEl, volume, () => {
       activeEl = toEl;
-      currentScene = scene.id;
       updateQuickButtonStates();
     });
 
@@ -175,10 +180,12 @@ window.SoundPlayer = (() => {
     currentScene = null;
     updateQuickButtonStates();
 
-    const duration = 1500;
+    const gen = ++crossfadeGen;
+    const duration = FADE_MS;
     const startTime = performance.now();
 
     function tick(now) {
+      if (crossfadeGen !== gen) return;
       const t = Math.min((now - startTime) / duration, 1);
       elToStop.volume = (1 - t) * startVol;
       if (t < 1) {
