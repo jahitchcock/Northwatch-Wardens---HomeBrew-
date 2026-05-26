@@ -145,6 +145,7 @@ function openPath(p) {
   btnPrint.hidden = !isHandout;
   if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
+  if (window.SoundPlayer) SoundPlayer.suggest(p);
 }
 
 seasonSel.addEventListener('change', async () => {

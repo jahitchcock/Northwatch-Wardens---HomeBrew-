@@ -199,8 +199,25 @@ window.SoundPlayer = (() => {
     requestAnimationFrame(tick);
   }
 
-  // ── Suggestion stub (implemented in Task 7) ────────────────────────────────
-  function suggest(filepath) {}
+  // ── Suggestion ────────────────────────────────────────────────────────────
+  function suggest(filepath) {
+    suggestedScene = null;
+
+    const tokens = filepath.toLowerCase().split(/[\\/\-_\.]/);
+
+    for (const scene of scenes) {
+      if (!scene.keywords || scene.keywords.length === 0) continue;
+      const match = scene.keywords.some(kw => tokens.includes(kw.toLowerCase()));
+      if (match) {
+        if (scene.id === currentScene) break; // already playing, no suggestion needed
+        suggestedScene = scene.id;
+        break;
+      }
+    }
+
+    updateQuickButtonStates();
+    suggestLabel.hidden = !suggestedScene;
+  }
 
   // ── More modal stub (implemented in Task 8) ────────────────────────────────
   function openMoreModal() {}
