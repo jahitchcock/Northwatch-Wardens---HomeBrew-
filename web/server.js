@@ -1608,6 +1608,13 @@ app.delete('/api/encounters/:name', (req, res) => {
   }
 });
 
+app.get('/api/sounds/custom', (req, res) => {
+  const dir = path.join(__dirname, 'public', 'sounds', 'custom');
+  if (!fs.existsSync(dir)) return res.json([]);
+  const files = fs.readdirSync(dir).filter(f => /\.(mp3|ogg|wav)$/i.test(f));
+  res.json(files);
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
