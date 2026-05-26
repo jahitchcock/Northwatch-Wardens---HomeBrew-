@@ -986,6 +986,15 @@ body.tools-open #viewer { visibility: hidden; }
 /* Push workspace content above the sound bar */
 #workspace { padding-bottom: 38px; }
 
+@keyframes snd-spin { to { transform: rotate(360deg); } }
+#snd-name.snd-buffering::before {
+  content: '⟳';
+  display: inline-block;
+  animation: snd-spin 0.9s linear infinite;
+  margin-right: 5px;
+  color: var(--accent);
+}
+
 /* ── Effects Panel ─────────────────────────────────────────────────────────── */
 #snd-fx-panel {
   position: fixed;

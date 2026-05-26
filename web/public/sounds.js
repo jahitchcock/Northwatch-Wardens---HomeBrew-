@@ -166,6 +166,7 @@ window.SoundPlayer = (() => {
   }
 
   function showError(file, err) {
+    nameEl.classList.remove('snd-buffering');
     const code = err && err.code;
     const msg = code === 4 ? 'not supported' : code === 3 ? 'decode error' : code === 2 ? 'network error' : 'failed';
     console.error(`SoundPlayer ⚠ ${file} — ${msg}`, err);
@@ -191,7 +192,8 @@ window.SoundPlayer = (() => {
     if (fromEl) fadeOut(fromEl);
 
     currentScene = scene.id;
-    nameEl.textContent = scene.label + ' …';
+    nameEl.textContent = scene.label;
+    nameEl.classList.add('snd-buffering');
     localStorage.setItem('soundbar-scene', scene.id);
     updateQuickButtonStates();
 
@@ -200,7 +202,7 @@ window.SoundPlayer = (() => {
     toEl.volume = 0;
 
     const doFadeIn = () => {
-      nameEl.textContent = scene.label;
+      nameEl.classList.remove('snd-buffering');
       toEl.play().catch(err => showError(file, toEl.error));
       toEl.addEventListener('ended', () => { if (!looping) stop(); }, { once: true });
       fadeIn(toEl, volume, () => {
