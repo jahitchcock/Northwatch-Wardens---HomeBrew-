@@ -1025,6 +1025,39 @@ function renderCombatTracker(m, view = 'combat') {
   }
 }
 
+async function showStatBlockPopup(name, type) {
+  // Remove any existing popup
+  document.querySelector('.sb-overlay')?.remove();
+
+  const overlay = document.createElement('div');
+  overlay.className = 'sb-overlay';
+  overlay.innerHTML = `
+    <div class="sb-popup">
+      <div class="sb-header">
+        <span>${name}</span>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span class="sb-source" id="sb-source"></span>
+          <button class="sb-close" id="sb-close">✕</button>
+        </div>
+      </div>
+      <div class="sb-body" id="sb-body"><div class="sb-loading">Loading…</div></div>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  overlay.querySelector('#sb-close').addEventListener('click', () => overlay.remove());
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+
+  try {
+    const r = await fetch(`/api/combatant-detail?name=${encodeURIComponent(name)}&type=${encodeURIComponent(type)}`);
+    const data = await r.json();
+    overlay.querySelector('#sb-body').innerHTML = data.html;
+    const sourceLabels = { npc: 'NPC file', player: 'Character sheet', '5etools': '5etools', none: '' };
+    overlay.querySelector('#sb-source').textContent = sourceLabels[data.source] || '';
+  } catch (e) {
+    overlay.querySelector('#sb-body').innerHTML = `<p style="color:#f38ba8">Error: ${e.message}</p>`;
+  }
+}
+
 function renderAddTab(m) {
   switch (ctAddPanelTab) {
     case 'players':   renderAddPlayers(m);  break;
@@ -1482,6 +1515,13 @@ function renderCombatList(m, sorted, activeCombatant) {
     // Name edit
     row.querySelector('.ct-name').addEventListener('blur', e => {
       c.name = e.target.textContent.trim() || c.name;
+    });
+
+    // Name click → stat block popup
+    row.querySelector('.ct-name').addEventListener('click', e => {
+      // Don't open popup when user is editing (contenteditable focus)
+      if (document.activeElement === e.target) return;
+      showStatBlockPopup(c.name, c.type);
     });
 
     // AC edit
