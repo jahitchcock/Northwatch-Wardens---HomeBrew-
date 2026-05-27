@@ -977,6 +977,13 @@ function renderCombatTracker(m, view = 'combat') {
   renderCombatList(m, sorted, activeCombatant);
 
   m.querySelector('#ct-next').addEventListener('click', () => {
+    // Decrement buff durations on the combatant whose turn just ended
+    const ending = s.combatants[s.turnIndex % Math.max(s.combatants.length, 1)];
+    if (ending && ending.buffs) {
+      ending.buffs = ending.buffs
+        .map(b => b.duration === -1 ? b : { ...b, duration: b.duration - 1 })
+        .filter(b => b.duration !== 0);
+    }
     s.turnIndex++;
     if (s.turnIndex >= s.combatants.length) { s.turnIndex = 0; s.round++; }
     renderCombatTracker(m);
