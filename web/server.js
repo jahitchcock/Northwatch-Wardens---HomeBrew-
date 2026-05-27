@@ -7,6 +7,13 @@ const path     = require('path');
 const fs       = require('fs');
 const { marked } = require('marked');
 
+const cookieParser = require('cookie-parser');
+const crypto = require('crypto');
+
+const DM_PASSWORD = process.env.DM_PASSWORD || 'TPK';
+const COOKIE_SECRET = process.env.COOKIE_SECRET || crypto.randomBytes(32).toString('hex');
+const COOKIE_NAME = 'dm_auth';
+
 // Optional deps — degrade gracefully if missing
 let pty;
 try { pty = require('node-pty'); } catch { console.warn('node-pty not found — terminal disabled'); }
@@ -218,6 +225,70 @@ const server = http.createServer(app);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json({ limit: '20mb' }));
+app.use(cookieParser());
+
+// ─── Auth middleware ───────────────────────────────────────────────────────────
+
+// Routes that bypass auth (player-facing + login itself)
+const PUBLIC_PREFIXES = ['/login', '/api/login', '/api/logout'];
+
+function signValue(val) {
+  return val + '.' + crypto.createHmac('sha256', COOKIE_SECRET).update(val).digest('hex');
+}
+
+function verifyValue(signed) {
+  if (!signed) return null;
+  const dot = signed.lastIndexOf('.');
+  if (dot === -1) return null;
+  const val = signed.slice(0, dot);
+  const expected = signValue(val);
+  return crypto.timingSafeEqual(Buffer.from(signed), Buffer.from(expected)) ? val : null;
+}
+
+function requireAuth(req, res, next) {
+  // Always allow public routes
+  if (PUBLIC_PREFIXES.some(p => req.path.startsWith(p))) return next();
+
+  const token = verifyValue(req.cookies[COOKIE_NAME]);
+  if (token === 'dm') return next();
+
+  // API request → 401
+  if (req.path.startsWith('/api/') || req.headers['accept']?.includes('application/json')) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
+  // HTML request → redirect to login
+  res.redirect('/login');
+}
+
+app.use(requireAuth);
+
+// ─── Login / logout routes ─────────────────────────────────────────────────────
+
+app.get('/login', (req, res) => {
+  // Already logged in → redirect home
+  if (verifyValue(req.cookies[COOKIE_NAME]) === 'dm') return res.redirect('/');
+  res.sendFile(path.join(__dirname, 'public', 'login.html'));
+});
+
+app.post('/api/login', express.json(), (req, res) => {
+  const { password } = req.body || {};
+  if (!password || password !== DM_PASSWORD) {
+    return res.status(401).json({ error: 'Wrong password' });
+  }
+  const signed = signValue('dm');
+  res.cookie(COOKIE_NAME, signed, {
+    httpOnly: true,
+    sameSite: 'lax',
+    // No maxAge → session cookie (clears when browser closes)
+  });
+  res.json({ ok: true });
+});
+
+app.get('/api/logout', (req, res) => {
+  res.clearCookie(COOKIE_NAME);
+  res.redirect('/login');
+});
 
 // ─── Path helpers ──────────────────────────────────────────────────────────
 
