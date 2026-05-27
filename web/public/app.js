@@ -1034,7 +1034,7 @@ async function showStatBlockPopup(name, type) {
   overlay.innerHTML = `
     <div class="sb-popup">
       <div class="sb-header">
-        <span>${name}</span>
+        <span>${escHtml(name)}</span>
         <div style="display:flex;align-items:center;gap:8px">
           <span class="sb-source" id="sb-source"></span>
           <button class="sb-close" id="sb-close">✕</button>
@@ -1049,6 +1049,7 @@ async function showStatBlockPopup(name, type) {
 
   try {
     const r = await fetch(`/api/combatant-detail?name=${encodeURIComponent(name)}&type=${encodeURIComponent(type)}`);
+    if (!r.ok) throw new Error(`Server error ${r.status}`);
     const data = await r.json();
     overlay.querySelector('#sb-body').innerHTML = data.html;
     const sourceLabels = { npc: 'NPC file', player: 'Character sheet', '5etools': '5etools', none: '' };
