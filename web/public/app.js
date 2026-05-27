@@ -1922,108 +1922,140 @@ document.querySelectorAll('.tab:not(#tab-tracker)').forEach(tab => {
   tab.addEventListener('click', hideTrackerPanel);
 });
 
-// ─── Adventures Panel ─────────────────────────────────────────────────────────
+// ─── Adventures Modal ─────────────────────────────────────────────────────────
 
-const panelAdventures   = $('panel-adventures');
-const adventuresContent = $('adventures-content');
-const tabAdventures     = $('tab-adventures');
-
-function showAdventuresPanel() {
-  viewer.hidden = true;
-  panelAdventures.hidden = false;
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  tabAdventures.classList.add('active');
-  renderAdventures();
-}
-
-function hideAdventuresPanel() {
-  panelAdventures.hidden = true;
-  viewer.hidden = false;
-}
-
-tabAdventures.addEventListener('click', () => {
-  hideAdventuresPanel(); // reset first
-  showAdventuresPanel();
-  setActive(null);
+$('tab-adventures').addEventListener('click', () => {
+  showAdventuresModal();
   if (isMobile()) closeDrawers();
 });
 
-// When any other tab is clicked, hide the adventures panel
-document.querySelectorAll('.tab:not(#tab-adventures)').forEach(tab => {
-  tab.addEventListener('click', hideAdventuresPanel);
-});
+async function showAdventuresModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Adventures';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.querySelector('.modal-body').style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#1a1a1a';
+  m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading adventures…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
 
-async function renderAdventures() {
-  adventuresContent.innerHTML = '<div style="padding:24px 28px;color:#888;font-family:sans-serif;font-size:13px">Loading adventures…</div>';
   try {
     const r = await fetch('/api/adventures');
     if (!r.ok) throw new Error('Failed to load adventures');
     const adventures = await r.json();
-
     if (!adventures.length) {
-      adventuresContent.innerHTML = '<div style="padding:24px 28px;color:#888;font-family:sans-serif;font-size:13px">No adventures found.</div>';
+      m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">No adventures found.</div>';
       return;
     }
-
-    // Group by season
-    const bySeason = {};
-    for (const a of adventures) {
-      if (!bySeason[a.season]) bySeason[a.season] = [];
-      bySeason[a.season].push(a);
-    }
-
-    const container = document.createElement('div');
-
-    for (const season of Object.keys(bySeason).sort()) {
-      const seasonAdventures = bySeason[season];
-      const header = document.createElement('div');
-      header.className = 'adv-header';
-      header.innerHTML = `<span class="adv-season-badge">${season.replace('season-', 'Season ')}</span> Adventures`;
-      container.appendChild(header);
-
-      const grid = document.createElement('div');
-      grid.className = 'adv-grid';
-
-      for (const adv of seasonAdventures) {
-        const card = document.createElement('div');
-        card.className = `adv-card ${adv.status}`;
-        card.addEventListener('click', () => openPath(adv.path));
-
-        const mysteryDots = [];
-        const rating = parseInt(adv.mysteryRating, 10) || 0;
-        for (let i = 0; i < 5; i++) {
-          mysteryDots.push(`<span class="adv-mystery-dot ${i < rating ? 'active' : ''}"></span>`);
-        }
-
-        const metaItems = [];
-        if (adv.levels) metaItems.push(`<span><span class="adv-meta-label">Levels</span> <span class="adv-meta-value">${adv.levels}</span></span>`);
-        if (adv.sessions) metaItems.push(`<span><span class="adv-meta-label">Sessions</span> <span class="adv-meta-value">${adv.sessions}</span></span>`);
-        if (adv.duration) metaItems.push(`<span><span class="adv-meta-label">Duration</span> <span class="adv-meta-value">${adv.duration}</span></span>`);
-        if (adv.type) metaItems.push(`<span><span class="adv-meta-label">Type</span> <span class="adv-meta-value">${adv.type}</span></span>`);
-
-        card.innerHTML = `
-          <div class="adv-card-header">
-            <div class="adv-title">${escapeHtml(adv.label)}</div>
-            <span class="adv-status ${adv.status}">${adv.status}</span>
-          </div>
-          <div class="adv-meta">
-            ${metaItems.join('')}
-            <span class="adv-mystery" title="Mystery rating: ${rating}/5">${mysteryDots.join('')}</span>
-          </div>
-          ${adv.arc ? `<span class="adv-arc">${escapeHtml(adv.arc)}</span>` : ''}
-          ${adv.synopsis ? `<div class="adv-synopsis">${escapeHtml(adv.synopsis)}</div>` : ''}
-        `;
-        grid.appendChild(card);
-      }
-
-      container.appendChild(grid);
-    }
-
-    adventuresContent.innerHTML = '';
-    adventuresContent.appendChild(container);
-  } catch (e) {
-    adventuresContent.innerHTML = `<div style="padding:24px 28px;color:#f38ba8;font-family:sans-serif;font-size:13px">Error: ${escapeHtml(e.message)}</div>`;
+    renderAdventuresModal(m, adventures);
+  } catch (err) {
+    m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${escapeHtml(err.message)}</div>`;
   }
+}
+
+function renderAdventuresModal(m, adventures) {
+  const bySeason = {};
+  for (const a of adventures) {
+    if (!bySeason[a.season]) bySeason[a.season] = [];
+    bySeason[a.season].push(a);
+  }
+
+  const scroll = document.createElement('div');
+  scroll.style.cssText = 'flex:1;overflow-y:auto;padding:20px 24px;';
+
+  let openCard = null;
+
+  for (const season of Object.keys(bySeason).sort()) {
+    const header = document.createElement('div');
+    header.className = 'adv-header';
+    header.innerHTML = `<span class="adv-season-badge">${season.replace('season-', 'Season ')}</span> Adventures`;
+    scroll.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'adv-grid';
+
+    for (const adv of bySeason[season]) {
+      const card = document.createElement('div');
+      card.className = `adv-card ${adv.status}`;
+
+      const rating = parseInt(adv.mysteryRating, 10) || 0;
+      const dots = Array.from({length: 5}, (_, i) =>
+        `<span class="adv-mystery-dot ${i < rating ? 'active' : ''}"></span>`).join('');
+
+      const metaItems = [];
+      if (adv.levels) metaItems.push(`<span><span class="adv-meta-label">Levels</span> <span class="adv-meta-value">${escapeHtml(adv.levels)}</span></span>`);
+      if (adv.sessions) metaItems.push(`<span><span class="adv-meta-label">Sessions</span> <span class="adv-meta-value">${escapeHtml(adv.sessions)}</span></span>`);
+      if (adv.duration) metaItems.push(`<span><span class="adv-meta-label">Duration</span> <span class="adv-meta-value">${escapeHtml(adv.duration)}</span></span>`);
+      if (adv.type) metaItems.push(`<span><span class="adv-meta-label">Type</span> <span class="adv-meta-value">${escapeHtml(adv.type)}</span></span>`);
+
+      card.innerHTML = `
+        <div class="adv-card-header">
+          <div class="adv-title">${escapeHtml(adv.label)}</div>
+          <span class="adv-status-badge ${adv.status}">${adv.status}</span>
+        </div>
+        <div class="adv-meta">
+          ${metaItems.join('')}
+          <span class="adv-mystery" title="Mystery rating: ${rating}/5">${dots}</span>
+        </div>
+        ${adv.arc ? `<span class="adv-arc">${escapeHtml(adv.arc)}</span>` : ''}
+        ${adv.synopsis ? `<div class="adv-synopsis">${escapeHtml(adv.synopsis)}</div>` : ''}
+        <div class="adv-actions" hidden>
+          <button class="adv-open-btn">Open Adventure ↗</button>
+          <div class="adv-status-row">
+            <span class="adv-status-label">Status:</span>
+            <button class="adv-set-status ${adv.status === 'upcoming' ? 'active' : ''}" data-status="upcoming">Upcoming</button>
+            <button class="adv-set-status ${adv.status === 'current' ? 'active' : ''}" data-status="current">Current</button>
+            <button class="adv-set-status ${adv.status === 'completed' ? 'active' : ''}" data-status="completed">Completed</button>
+          </div>
+        </div>`;
+
+      const actionsEl = card.querySelector('.adv-actions');
+
+      // Card click toggles action row (ignore clicks inside the action row)
+      card.addEventListener('click', e => {
+        if (e.target.closest('.adv-actions')) return;
+        const wasOpen = !actionsEl.hidden;
+        if (openCard && openCard !== card) {
+          openCard.querySelector('.adv-actions').hidden = true;
+          openCard.classList.remove('adv-selected');
+        }
+        actionsEl.hidden = wasOpen;
+        card.classList.toggle('adv-selected', !wasOpen);
+        openCard = wasOpen ? null : card;
+      });
+
+      // Open button
+      card.querySelector('.adv-open-btn').addEventListener('click', () => {
+        openPath(adv.path);
+        closeTopModal();
+      });
+
+      // Status buttons
+      card.querySelectorAll('.adv-set-status').forEach(btn => {
+        btn.addEventListener('click', async () => {
+          const newStatus = btn.dataset.status;
+          // Optimistic update
+          card.className = `adv-card ${newStatus} adv-selected`;
+          card.querySelector('.adv-status-badge').className = `adv-status-badge ${newStatus}`;
+          card.querySelector('.adv-status-badge').textContent = newStatus;
+          card.querySelectorAll('.adv-set-status').forEach(b =>
+            b.classList.toggle('active', b.dataset.status === newStatus));
+          adv.status = newStatus;
+          await fetch('/api/adventures/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ path: adv.path, status: newStatus }),
+          });
+        });
+      });
+
+      grid.appendChild(card);
+    }
+    scroll.appendChild(grid);
+  }
+
+  m.querySelector('.modal-body').innerHTML = '';
+  m.querySelector('.modal-body').appendChild(scroll);
 }
 
 // ─── NPC Modal ─────────────────────────────────────────────────────────────────

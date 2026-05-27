@@ -1887,7 +1887,43 @@ app.get('/api/adventures', (req, res) => {
       }
       return a.label.localeCompare(b.label);
     });
+    // Merge manual status overrides (override takes precedence over session-derived status)
+    const overrides = loadAdventureStatusOverrides();
+    for (const adv of results) {
+      if (overrides[adv.path]) adv.status = overrides[adv.path];
+    }
+
     res.json(results);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Adventure status override ─────────────────────────────────────────────────
+
+const ADVENTURE_STATUS_FILE = path.join(CAMPAIGN_ROOT, 'timeline', 'adventure-status.json');
+
+function loadAdventureStatusOverrides() {
+  try {
+    if (fs.existsSync(ADVENTURE_STATUS_FILE)) {
+      return JSON.parse(fs.readFileSync(ADVENTURE_STATUS_FILE, 'utf8'));
+    }
+  } catch { /* ignore */ }
+  return {};
+}
+
+app.post('/api/adventures/status', express.json(), (req, res) => {
+  const { path: advPath, status } = req.body || {};
+  const VALID = new Set(['upcoming', 'current', 'completed']);
+  if (!advPath || !VALID.has(status)) {
+    return res.status(400).json({ error: 'path and status (upcoming|current|completed) required' });
+  }
+  try {
+    const overrides = loadAdventureStatusOverrides();
+    overrides[advPath] = status;
+    fs.mkdirSync(path.dirname(ADVENTURE_STATUS_FILE), { recursive: true });
+    fs.writeFileSync(ADVENTURE_STATUS_FILE, JSON.stringify(overrides, null, 2));
+    res.json({ ok: true });
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
