@@ -1000,12 +1000,14 @@ body.tools-open #viewer { visibility: hidden; }
   position: fixed;
   bottom: 38px;
   right: 14px;
-  width: 420px;
+  width: 540px;
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
   background: #111;
   border: 1px solid #2a2a2a;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
-  padding: 10px 12px;
+  padding: 8px 12px;
   z-index: 101;
 }
 #snd-fx-header {
@@ -1027,17 +1029,17 @@ body.tools-open #viewer { visibility: hidden; }
   padding: 2px 4px;
 }
 #snd-fx-close:hover { color: #cdd6f4; }
-#snd-fx-grid { display: flex; flex-direction: column; gap: 6px; }
-.snd-fx-category { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-top: 4px; }
-.snd-fx-row { display: flex; flex-wrap: wrap; gap: 5px; }
+#snd-fx-grid { display: flex; flex-direction: column; gap: 4px; }
+.snd-fx-category { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-top: 2px; }
+.snd-fx-row { display: flex; flex-wrap: wrap; gap: 4px; }
 .snd-fx-btn {
   background: #1a1a1a;
   border: 1px solid #333;
   border-radius: 4px;
   color: #cdd6f4;
   cursor: pointer;
-  font-size: 0.75rem;
-  padding: 4px 8px;
+  font-size: 0.72rem;
+  padding: 3px 7px;
   transition: background 0.1s, border-color 0.1s;
 }
 .snd-fx-btn:hover { background: #2a1a3a; border-color: var(--accent); }
