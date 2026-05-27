@@ -1501,6 +1501,7 @@ function renderCombatList(m, sorted, activeCombatant) {
       </div>
       <div class="ct-actions">
         <button class="ct-cond-btn" title="Add condition">± cond</button>
+        <button class="ct-buff-btn" title="Add buff/debuff">+ buff</button>
         <button class="ct-remove-btn" title="Remove combatant">✕</button>
       </div>`;
 
@@ -1524,6 +1525,25 @@ function renderCombatList(m, sorted, activeCombatant) {
         condRow.appendChild(pill);
       });
       list.appendChild(condRow);
+    }
+
+    // Buff pills row
+    if (c.buffs && c.buffs.length) {
+      const buffRow = document.createElement('div');
+      buffRow.className = 'ct-buff-wrap';
+      buffRow.dataset.for = c.id;
+      c.buffs.forEach(buff => {
+        const pill = document.createElement('span');
+        pill.className = 'ct-buff';
+        const durText = buff.duration === -1 ? '∞' : `${buff.duration}r`;
+        pill.innerHTML = `<span>${escHtml(buff.name)}</span><span class="ct-buff-dur">${durText}</span><button class="ct-buff-remove" title="Remove buff">✕</button>`;
+        pill.querySelector('.ct-buff-remove').addEventListener('click', () => {
+          c.buffs = c.buffs.filter(b => b !== buff);
+          renderCombatList(m, sorted, activeCombatant);
+        });
+        buffRow.appendChild(pill);
+      });
+      list.appendChild(buffRow);
     }
 
     // Initiative edit
@@ -1600,6 +1620,40 @@ function renderCombatList(m, sorted, activeCombatant) {
       const condRow = list.querySelector(`.ct-cond-wrap[data-for="${c.id}"]`);
       const insertAfter = condRow || row;
       insertAfter.insertAdjacentElement('afterend', picker);
+    });
+
+    // Buff form toggle
+    row.querySelector('.ct-buff-btn').addEventListener('click', () => {
+      const existingForm = list.querySelector(`.ct-buff-form[data-for="${c.id}"]`);
+      if (existingForm) { existingForm.remove(); return; }
+
+      const form = document.createElement('div');
+      form.className = 'ct-buff-form';
+      form.dataset.for = c.id;
+      form.innerHTML = `
+        <input class="ct-buff-input" placeholder="Bless, Bane, Haste…" style="flex:1;min-width:100px">
+        <input class="ct-buff-input ct-buff-dur-input" type="number" placeholder="rnds" min="-1" title="-1 = permanent">
+        <button class="ct-add-btn-sm">+ Add</button>`;
+      const buffRow = list.querySelector(`.ct-buff-wrap[data-for="${c.id}"]`);
+      const insertAfter = buffRow || list.querySelector(`.ct-cond-wrap[data-for="${c.id}"]`) || row;
+      insertAfter.insertAdjacentElement('afterend', form);
+
+      const nameInput = form.querySelector('[placeholder="Bless, Bane, Haste…"]');
+      const durInput  = form.querySelector('.ct-buff-dur-input');
+      const addBtn    = form.querySelector('button');
+
+      const doAdd = () => {
+        const name = nameInput.value.trim();
+        if (!name) return;
+        const duration = parseInt(durInput.value);
+        c.buffs = c.buffs || [];
+        c.buffs.push({ name, duration: isNaN(duration) ? -1 : duration });
+        renderCombatList(m, sorted, activeCombatant);
+      };
+      addBtn.addEventListener('click', doAdd);
+      nameInput.addEventListener('keydown', e => { if (e.key === 'Enter') durInput.focus(); });
+      durInput.addEventListener('keydown', e => { if (e.key === 'Enter') doAdd(); });
+      nameInput.focus();
     });
 
     // Remove combatant
