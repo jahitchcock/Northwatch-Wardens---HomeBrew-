@@ -1461,6 +1461,90 @@ app.get('/api/npcs', (req, res) => {
   }
 });
 
+// ─── Combatant detail API ──────────────────────────────────────────────────────
+
+function markdownToStatBlockHtml(raw) {
+  // Convert Homebrewery stat block markdown to readable HTML
+  return raw
+    // Strip frontmatter
+    .replace(/^---[\s\S]*?---\n?/, '')
+    // Bold
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    // Italic
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    // Table rows → div rows
+    .replace(/^\|(.+)\|$/gm, (_, cells) => {
+      const cols = cells.split('|').map(c => c.trim()).filter(Boolean);
+      return `<div class="sb-row">${cols.map(c => `<span>${c}</span>`).join('')}</div>`;
+    })
+    // Separator rows (---|---) → hr
+    .replace(/<div class="sb-row">(<span>-+<\/span>)+<\/div>/g, '<hr>')
+    // Headings
+    .replace(/^#{1,3}\s+(.+)$/gm, '<h4>$1</h4>')
+    // Blank lines → paragraph breaks
+    .replace(/\n{2,}/g, '<br><br>')
+    .trim();
+}
+
+app.get('/api/combatant-detail', async (req, res) => {
+  const name = (req.query.name || '').trim();
+  const type = (req.query.type || '').trim(); // 'npc' | 'player' | 'monster'
+  if (!name) return res.status(400).json({ error: 'name required' });
+
+  // 1. Try NPC files (npc or monster type)
+  if (type !== 'player') {
+    const dirs = [
+      path.join(CAMPAIGN_ROOT, 'npcs', 'core'),
+      path.join(CAMPAIGN_ROOT, 'npcs', 'season-1'),
+    ];
+    for (const dir of dirs) {
+      if (!fs.existsSync(dir)) continue;
+      for (const file of fs.readdirSync(dir)) {
+        if (!file.endsWith('.md')) continue;
+        try {
+          const raw = fs.readFileSync(path.join(dir, file), 'utf8');
+          const nameMatch = raw.match(/^name:\s*(.+)$/m);
+          if (nameMatch && nameMatch[1].trim().toLowerCase() === name.toLowerCase()) {
+            return res.json({ html: markdownToStatBlockHtml(raw), source: 'npc' });
+          }
+        } catch { /* skip */ }
+      }
+    }
+  }
+
+  // 2. Try player characters
+  if (type === 'player' || type !== 'monster') {
+    const pcDir = path.join(CAMPAIGN_ROOT, 'player-characters');
+    if (fs.existsSync(pcDir)) {
+      for (const file of fs.readdirSync(pcDir)) {
+        if (!file.endsWith('.md')) continue;
+        try {
+          const raw = fs.readFileSync(path.join(pcDir, file), 'utf8');
+          const nameMatch = raw.match(/^name:\s*(.+)$/m);
+          if (nameMatch && nameMatch[1].trim().toLowerCase() === name.toLowerCase()) {
+            return res.json({ html: markdownToStatBlockHtml(raw), source: 'player' });
+          }
+        } catch { /* skip */ }
+      }
+    }
+  }
+
+  // 3. Try 5etools bestiary cache (monsters)
+  if (bestiaryCache) {
+    const entry = bestiaryCache.find(m => m.name.toLowerCase() === name.toLowerCase());
+    if (entry) {
+      const html = `<h4>${entry.name}</h4>
+        <div class="sb-row"><span><strong>AC</strong> ${entry.ac}</span><span><strong>HP</strong> ${entry.hp}</span><span><strong>CR</strong> ${entry.cr}</span></div>
+        <p style="color:#888;font-size:11px;margin-top:8px">Full stat block available in 5etools at port 2014.</p>`;
+      return res.json({ html, source: '5etools' });
+    }
+  }
+
+  // 4. Fallback: show basic info from name alone
+  const html = `<h4>${name}</h4><p style="color:#888">No stat block found for this combatant.</p>`;
+  res.json({ html, source: 'none' });
+});
+
 // ─── Adventures list API ──────────────────────────────────────────────────────
 
 function labelFromFilename(filename) {
@@ -1682,6 +1766,7 @@ if (pty) {
     if (process.platform === 'win32') {
       proc.write('$env:PATH += \';C:\\Users\\joshu\\AppData\\Roaming\\npm\'\r\n');
     }
+    proc.write('claude --resume "webportal"\r\n');
 
     proc.onData(d => {
       const sess = sessions.get(id);
