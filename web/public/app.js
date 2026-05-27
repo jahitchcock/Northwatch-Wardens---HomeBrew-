@@ -882,6 +882,24 @@ const CONDITIONS = ['Blinded','Charmed','Deafened','Frightened','Grappled',
   'Incapacitated','Invisible','Paralyzed','Petrified','Poisoned','Prone',
   'Restrained','Stunned','Unconscious','Exhaustion'];
 
+const CONDITION_RULES = {
+  Blinded:       'Can\'t see. Auto-fail sight checks. Attack rolls against it have advantage; its attacks have disadvantage.',
+  Charmed:       'Can\'t attack the charmer. Charmer has advantage on social checks against it.',
+  Deafened:      'Can\'t hear. Auto-fail hearing checks.',
+  Frightened:    'Disadvantage on ability checks and attack rolls while source of fear is in sight. Can\'t willingly move closer.',
+  Grappled:      'Speed = 0. Ends if grappler is incapacitated or creature is moved out of reach.',
+  Incapacitated: 'Can\'t take actions or reactions.',
+  Invisible:     'Can\'t be seen without magic. Heavily obscured for hiding. Attacks have advantage; attacks against it have disadvantage.',
+  Paralyzed:     'Incapacitated, can\'t move or speak. Auto-fail STR/DEX saves. Attacks against have advantage. Hits from within 5 ft are critical.',
+  Petrified:     'Transformed to stone. Incapacitated, can\'t move/speak. Resistance to all damage. Immune to poison/disease.',
+  Poisoned:      'Disadvantage on attack rolls and ability checks.',
+  Prone:         'Crawling costs extra movement. Attacks in melee have advantage; ranged attacks have disadvantage. Its attacks have disadvantage.',
+  Restrained:    'Speed = 0. Attack rolls against have advantage. Its attacks/DEX saves have disadvantage.',
+  Stunned:       'Incapacitated, can\'t move, can barely speak. Auto-fail STR/DEX saves. Attacks against have advantage.',
+  Unconscious:   'Incapacitated, can\'t move/speak, unaware. Drop what\'s held, fall prone. Auto-fail STR/DEX saves. Attacks have advantage; hits within 5 ft are critical.',
+  Exhaustion:    'Level 1: Disadv on ability checks. 2: Speed halved. 3: Disadv on attacks/saves. 4: HP max halved. 5: Speed = 0. 6: Death.',
+};
+
 let combatState = null; // { round, turnIndex, combatants: [] }
 let ctAddPanelOpen = false;
 let ctAddPanelTab = 'players'; // 'players' | 'npcs' | 'monsters' | 'manual'
@@ -1497,7 +1515,8 @@ function renderCombatList(m, sorted, activeCombatant) {
         const pill = document.createElement('span');
         pill.className = 'ct-cond';
         pill.textContent = cond;
-        pill.title = 'Click to remove';
+        const rules = CONDITION_RULES[cond];
+        pill.title = rules ? `${cond}: ${rules}\n\nClick to remove` : 'Click to remove';
         pill.addEventListener('click', () => {
           c.conditions = c.conditions.filter(x => x !== cond);
           renderCombatList(m, sorted, activeCombatant);
