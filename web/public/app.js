@@ -1118,7 +1118,7 @@ function renderAddManual(m) {
     const ac   = parseInt(body.querySelector('[name=ac]').value)   || 10;
     const hp   = parseInt(body.querySelector('[name=hp]').value)   || 1;
     const type = body.querySelector('[name=type]').value;
-    combatState.combatants.push({ id: ctUid(), name, initiative: init, ac, hpMax: hp, hpCur: hp, type, conditions: [] });
+    combatState.combatants.push({ id: ctUid(), name, initiative: init, ac, hpMax: hp, hpCur: hp, type, conditions: [], buffs: [] });
     body.querySelector('[name=name]').value = '';
     body.querySelector('[name=init]').value = '';
     body.querySelector('[name=ac]').value   = '';
@@ -1185,7 +1185,7 @@ function renderAddMonsters5etools(m) {
           id: ctUid(), name: mon.name,
           initiative, ac: mon.ac,
           hpMax: mon.hp, hpCur: mon.hp,
-          type: 'monster', conditions: [],
+          type: 'monster', conditions: [], buffs: [],
         });
         renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
           combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
@@ -1294,7 +1294,7 @@ async function loadAdvMonsters(m) {
       for (let i = 0; i < count; i++) {
         const initiative = Math.floor(Math.random() * 20) + 1;
         combatState.combatants.push({
-          id: ctUid(), name, initiative, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [],
+          id: ctUid(), name, initiative, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [], buffs: [],
         });
       }
     });
@@ -1356,7 +1356,7 @@ async function renderAddNpcs(m) {
         id: ctUid(), name: npc.name,
         initiative, ac: npc.ac ?? 10,
         hpMax: npc.hp ?? 1, hpCur: npc.hp ?? 1,
-        type: 'npc', conditions: [],
+        type: 'npc', conditions: [], buffs: [],
       });
       renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
         combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
@@ -1415,7 +1415,7 @@ async function renderAddPlayers(m) {
         id: ctUid(), name: ch.name,
         initiative: init, ac: ch.ac,
         hpMax: ch.maxHp, hpCur: ch.maxHp,
-        type: 'player', conditions: [],
+        type: 'player', conditions: [], buffs: [],
       });
       renderCombatList(m, [...combatState.combatants].sort((a, b) => b.initiative - a.initiative),
         combatState.combatants[combatState.turnIndex % Math.max(combatState.combatants.length, 1)]);
@@ -1634,7 +1634,7 @@ async function renderImportPanel(m, advPath) {
   const addMonsters = (subset) => {
     subset.forEach(({ name, ac, hp, count }) => {
       for (let i = 0; i < count; i++) {
-        combatState.combatants.push({ id: ctUid(), name, initiative: 0, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [] });
+        combatState.combatants.push({ id: ctUid(), name, initiative: 0, ac, hpMax: hp, hpCur: hp, type: 'monster', conditions: [], buffs: [] });
       }
     });
     renderCombatTracker(m);
