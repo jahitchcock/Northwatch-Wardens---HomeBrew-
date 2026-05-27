@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DM Panel — Login</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body class="login-page">
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="login-title">Northwatch Wardens</div>
+      <div class="login-subtitle">DM Panel</div>
+      <form id="login-form" autocomplete="off">
+        <input
+          id="login-pw"
+          type="password"
+          class="login-input"
+          placeholder="Password"
+          autofocus
+          autocomplete="current-password">
+        <div id="login-error" class="login-error" hidden>Wrong password.</div>
+        <button type="submit" class="login-btn">Enter</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.getElementById('login-form').addEventListener('submit', async e => {
+      e.preventDefault();
+      const pw = document.getElementById('login-pw').value;
+      const errEl = document.getElementById('login-error');
+      errEl.hidden = true;
+      const r = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: pw }),
+      });
+      if (r.ok) {
+        window.location.href = '/';
+      } else {
+        errEl.hidden = false;
+        document.getElementById('login-pw').value = '';
+        document.getElementById('login-pw').focus();
+      }
+    });
+  </script>
+</body>
+</html>

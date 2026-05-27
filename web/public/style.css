@@ -1179,3 +1179,75 @@ body.tools-open #viewer { visibility: hidden; }
   width: 44px;
   text-align: center;
 }
+
+/* ── Login Page ──────────────────────────────────────── */
+.login-page {
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.login-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.login-card {
+  background: #1e1e2e;
+  border: 1px solid #313244;
+  border-radius: 10px;
+  padding: 36px 40px;
+  width: min(340px, 90vw);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  text-align: center;
+}
+.login-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #cdd6f4;
+  margin-bottom: 4px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+.login-subtitle {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 28px;
+}
+.login-input {
+  width: 100%;
+  background: #111;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #cdd6f4;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+.login-input:focus { outline: none; border-color: #89b4fa; }
+.login-error {
+  color: #f38ba8;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.login-btn {
+  width: 100%;
+  background: #89b4fa;
+  border: none;
+  border-radius: 6px;
+  color: #1e1e2e;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.login-btn:hover { background: #b4d0ff; }
