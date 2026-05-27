@@ -1463,6 +1463,10 @@ app.get('/api/npcs', (req, res) => {
 
 // ─── Combatant detail API ──────────────────────────────────────────────────────
 
+function escHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 function markdownToStatBlockHtml(raw) {
   // Convert Homebrewery stat block markdown to readable HTML
   return raw
@@ -1513,7 +1517,7 @@ app.get('/api/combatant-detail', async (req, res) => {
   }
 
   // 2. Try player characters
-  if (type === 'player' || type !== 'monster') {
+  if (type === 'player' || type === '') {
     const pcDir = path.join(CAMPAIGN_ROOT, 'player-characters');
     if (fs.existsSync(pcDir)) {
       for (const file of fs.readdirSync(pcDir)) {
@@ -1533,7 +1537,7 @@ app.get('/api/combatant-detail', async (req, res) => {
   if (bestiaryCache) {
     const entry = bestiaryCache.find(m => m.name.toLowerCase() === name.toLowerCase());
     if (entry) {
-      const html = `<h4>${entry.name}</h4>
+      const html = `<h4>${escHtml(entry.name)}</h4>
         <div class="sb-row"><span><strong>AC</strong> ${entry.ac}</span><span><strong>HP</strong> ${entry.hp}</span><span><strong>CR</strong> ${entry.cr}</span></div>
         <p style="color:#888;font-size:11px;margin-top:8px">Full stat block available in 5etools at port 2014.</p>`;
       return res.json({ html, source: '5etools' });
@@ -1541,7 +1545,7 @@ app.get('/api/combatant-detail', async (req, res) => {
   }
 
   // 4. Fallback: show basic info from name alone
-  const html = `<h4>${name}</h4><p style="color:#888">No stat block found for this combatant.</p>`;
+  const html = `<h4>${escHtml(name)}</h4><p style="color:#888">No stat block found for this combatant.</p>`;
   res.json({ html, source: 'none' });
 });
 
