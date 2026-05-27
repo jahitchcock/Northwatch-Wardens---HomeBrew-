@@ -332,7 +332,7 @@ function getManifestOrder(dir) {
       let m;
       while ((m = re.exec(content)) !== null) {
         const target = m[2].trim();
-        if (!target.startsWith('http')) order.push(path.basename(target));
+        if (!target.startsWith('http')) order.push(path.basename(target).replace(/\.md$/, ''));
       }
       if (order.length) return order;
     } catch {}
@@ -1496,11 +1496,8 @@ app.get('/api/adventure-monsters', (req, res) => {
 
 function parseNpcFile(filePath) {
   const raw = fs.readFileSync(filePath, 'utf8');
-
-  // Name from frontmatter
-  const nameMatch = raw.match(/^name:\s*(.+)$/m);
-  if (!nameMatch) return null;
-  const name = nameMatch[1].trim();
+  const fm = extractFrontmatter(raw);
+  if (!fm.name) return null;
 
   // AC from stat block table: | **Armor Class** | 17 (splint) |
   const acMatch = raw.match(/\|\s*\*\*Armor Class\*\*\s*\|\s*(\d+)/i);
@@ -1511,11 +1508,28 @@ function parseNpcFile(filePath) {
   const hp = hpMatch ? parseInt(hpMatch[1]) : null;
 
   // DEX mod from ability scores row: | 16 (+3) | 13 (+1) | ...
-  // Find the first row with the pattern "| N (+X) | N (+Y) |"
   const abilityMatch = raw.match(/\|\s*\d+\s*\([^)]+\)\s*\|\s*\d+\s*\(([+-]?\d+)\)\s*\|/);
   const dexMod = abilityMatch ? parseInt(abilityMatch[1]) : null;
 
-  return { name, ac, hp, dexMod };
+  // Extract first paragraph after ## Profile as a brief description
+  const profileMatch = raw.match(/## Profile\s*\n+([\s\S]*?)(?=\n## |\n---|\Z)/);
+  let synopsis = '';
+  if (profileMatch) {
+    synopsis = profileMatch[1].split('\n\n')[0].trim().replace(/^\*\*.*?\*\*\s*/, '').trim();
+  }
+
+  return {
+    name: fm.name,
+    ac, hp, dexMod,
+    role: fm.role || '',
+    affiliation: fm.affiliation || '',
+    location: fm.location || '',
+    status: fm.status || '',
+    introduced: fm.introduced || '',
+    tags: fm.tags || '',
+    synopsis,
+    path: path.relative(CAMPAIGN_ROOT, filePath).replace(/\\/g, '/')
+  };
 }
 
 app.get('/api/npcs', (req, res) => {
@@ -1537,6 +1551,61 @@ app.get('/api/npcs', (req, res) => {
     }
     npcs.sort((a, b) => a.name.localeCompare(b.name));
     res.json(npcs);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Location list API ─────────────────────────────────────────────────────────
+
+function parseLocationFile(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const fm = extractFrontmatter(raw);
+  if (!fm.name) return null;
+
+  // Extract first paragraph after ## Description
+  const descMatch = raw.match(/## Description\s*\n+([\s\S]*?)(?=\n## |\n---|\Z)/);
+  let synopsis = '';
+  if (descMatch) {
+    synopsis = descMatch[1].split('\n\n')[0].trim().replace(/^\*\*.*?\*\*\s*/, '').trim();
+  }
+
+  return {
+    name: fm.name,
+    type: fm.type || '',
+    region: fm.region || '',
+    introduced: fm.introduced || '',
+    status: fm.status || '',
+    tags: fm.tags || '',
+    synopsis,
+    path: path.relative(CAMPAIGN_ROOT, filePath).replace(/\\/g, '/')
+  };
+}
+
+app.get('/api/locations', (req, res) => {
+  try {
+    const locationsRoot = path.join(CAMPAIGN_ROOT, 'locations');
+    const results = [];
+    if (!fs.existsSync(locationsRoot)) {
+      res.json([]);
+      return;
+    }
+    for (const region of fs.readdirSync(locationsRoot)) {
+      const regionPath = path.join(locationsRoot, region);
+      if (!fs.statSync(regionPath).isDirectory()) continue;
+      for (const file of fs.readdirSync(regionPath)) {
+        if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md' || file === 'MANIFEST.md') continue;
+        try {
+          const loc = parseLocationFile(path.join(regionPath, file));
+          if (loc) {
+            loc.regionDir = region;
+            results.push(loc);
+          }
+        } catch { /* skip malformed files */ }
+      }
+    }
+    results.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(results);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -1639,6 +1708,87 @@ function labelFromFilename(filename) {
     .replace(/\b\w/g, c => c.toUpperCase());
 }
 
+// Parse MANIFEST.md to extract adventure order for a given season directory
+function parseManifestOrder(manifestPath) {
+  try {
+    const content = fs.readFileSync(manifestPath, 'utf8');
+    // Find "## Adventure Order" section and extract numbered list items
+    const match = content.match(/## Adventure Order\s*\n([\s\S]*?)(?=\n## |\n---|\Z)/);
+    if (!match) return null;
+    const lines = match[1].trim().split('\n');
+    const order = [];
+    for (const line of lines) {
+      // Match: "1. [Label](target)" or "2. [Label](target.md)"
+      const m = line.match(/^\s*\d+\.\s*\[.*?\]\(([^)]+)\)/);
+      if (m) {
+        // Strip .md to get the sort key (matches both file names and folder names)
+        order.push(m[1].replace(/\.md$/, ''));
+      }
+    }
+    return order.length ? order : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// Parse adventure frontmatter with array support for tags
+function parseAdventureFrontmatter(content) {
+  const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!m) return {};
+  const result = {};
+  for (const line of m[1].split('\n')) {
+    const colon = line.indexOf(':');
+    if (colon < 1) continue;
+    const key = line.slice(0, colon).trim();
+    const val = line.slice(colon + 1).trim();
+    // Handle arrays: tags: [a, b, c]
+    const arrMatch = val.match(/^\[(.*)\]$/);
+    if (arrMatch) {
+      result[key] = arrMatch[1].split(',').map(s => s.trim()).filter(Boolean);
+    } else {
+      result[key] = val.replace(/^["']|["']$/g, '');
+    }
+  }
+  return result;
+}
+
+// Extract the first paragraph after "## Quick Brief" as synopsis
+function extractSynopsis(content) {
+  const match = content.match(/## Quick Brief\s*\n+([\s\S]*?)(?=\n## |\n---|\Z)/);
+  if (!match) return '';
+  return match[1].split('\n\n')[0].trim();
+}
+
+// Determine adventure statuses by reading session logs
+function getAdventureStatuses() {
+  const sessionsDir = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions');
+  const statuses = {}; // normalized adventure name -> { completed: true, sessionDate: string }
+  let latestSession = null;
+  let latestDate = '';
+
+  try {
+    const files = fs.readdirSync(sessionsDir).filter(f => /^session-\d+\.md$/i.test(f));
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(sessionsDir, file), 'utf8');
+      const fm = extractFrontmatter(content);
+      if (fm.adventure) {
+        const date = fm.date || '';
+        // Normalize adventure name for matching
+        const norm = fm.adventure.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
+        statuses[norm] = { completed: true, date, raw: fm.adventure };
+        if (date > latestDate) {
+          latestDate = date;
+          latestSession = norm;
+        }
+      }
+    }
+  } catch (e) {
+    // sessions dir may not exist
+  }
+
+  return { statuses, latestSession };
+}
+
 app.get('/api/adventures', (req, res) => {
   try {
     const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
@@ -1659,19 +1809,84 @@ app.get('/api/adventures', (req, res) => {
 
         if (stat.isFile() && entry.endsWith('.md') && !SKIP.has(entry) && !entry.endsWith('-handouts')) {
           const rel = path.relative(CAMPAIGN_ROOT, entryPath).replace(/\\/g, '/');
-          results.push({ label: labelFromFilename(entry), path: rel, season });
+          const raw = fs.readFileSync(entryPath, 'utf8');
+          const fm = parseAdventureFrontmatter(raw);
+          const synopsis = extractSynopsis(raw);
+          results.push({
+            label: fm.name || labelFromFilename(entry),
+            path: rel,
+            season,
+            sortKey: entry.replace(/\.md$/, ''),
+            levels: fm.levels || '',
+            sessions: fm.sessions || '',
+            duration: fm.duration || '',
+            type: fm.type || '',
+            mysteryRating: fm['mystery-rating'] || '',
+            arc: fm.arc || '',
+            tags: fm.tags || [],
+            synopsis
+          });
         } else if (stat.isDirectory() && !entry.endsWith('-handouts') && entry !== 'general-handouts') {
           // Multi-part adventures: look for index.md inside
           const indexFile = path.join(entryPath, 'index.md');
           if (fs.existsSync(indexFile)) {
             const rel = path.relative(CAMPAIGN_ROOT, indexFile).replace(/\\/g, '/');
-            results.push({ label: labelFromFilename(entry), path: rel, season });
+            const raw = fs.readFileSync(indexFile, 'utf8');
+            const fm = parseAdventureFrontmatter(raw);
+            const synopsis = extractSynopsis(raw);
+            results.push({
+              label: fm.name || labelFromFilename(entry),
+              path: rel,
+              season,
+              sortKey: entry,
+              levels: fm.levels || '',
+              sessions: fm.sessions || '',
+              duration: fm.duration || '',
+              type: fm.type || '',
+              mysteryRating: fm['mystery-rating'] || '',
+              arc: fm.arc || '',
+              tags: fm.tags || [],
+              synopsis
+            });
           }
         }
       }
     }
 
-    results.sort((a, b) => a.season.localeCompare(b.season) || a.label.localeCompare(b.label));
+    // Determine statuses from session logs
+    const { statuses, latestSession } = getAdventureStatuses();
+
+    for (const adv of results) {
+      const norm = adv.label.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
+      // Also check if any session adventure field contains this adventure name
+      let status = 'upcoming';
+      for (const [sessionNorm, info] of Object.entries(statuses)) {
+        if (sessionNorm.includes(norm) || norm.includes(sessionNorm)) {
+          status = 'completed';
+          if (sessionNorm === latestSession) {
+            status = 'current';
+          }
+          break;
+        }
+      }
+      adv.status = status;
+    }
+
+    results.sort((a, b) => {
+      const seasonCmp = a.season.localeCompare(b.season);
+      if (seasonCmp !== 0) return seasonCmp;
+      // Load manifest order for this season if available
+      const manifestPath = path.join(adventuresRoot, a.season, 'MANIFEST.md');
+      const order = parseManifestOrder(manifestPath);
+      if (order) {
+        const idxA = order.indexOf(a.sortKey);
+        const idxB = order.indexOf(b.sortKey);
+        if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+        if (idxA !== -1) return -1;
+        if (idxB !== -1) return 1;
+      }
+      return a.label.localeCompare(b.label);
+    });
     res.json(results);
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -1841,10 +2056,16 @@ if (pty) {
   function spawnSession() {
     const id   = crypto.randomBytes(8).toString('hex');
     const shell = process.platform === 'win32' ? 'powershell.exe' : (process.env.SHELL || 'bash');
-    const proc  = pty.spawn(shell, [], {
-      name: 'xterm-color', cols: 120, rows: 30,
-      cwd: CAMPAIGN_ROOT, env: process.env,
-    });
+    let proc;
+    try {
+      proc = pty.spawn(shell, [], {
+        name: 'xterm-color', cols: 120, rows: 30,
+        cwd: CAMPAIGN_ROOT, env: process.env,
+      });
+    } catch (e) {
+      console.warn('Failed to spawn PTY:', e.message);
+      return null;
+    }
     const s = { proc, buf: '', ws: null, idleTimer: null };
     sessions.set(id, s);
 
@@ -1905,6 +2126,10 @@ if (pty) {
             try { id = spawnSession(); }
             catch (e) {
               ws.send(JSON.stringify({ type: 'output', data: `\r\nTerminal error: ${e.message}\r\n` }));
+              ws.close(); return;
+            }
+            if (!id) {
+              ws.send(JSON.stringify({ type: 'output', data: '\r\nTerminal unavailable: PTY spawn failed\r\n' }));
               ws.close(); return;
             }
             attachTo(id);

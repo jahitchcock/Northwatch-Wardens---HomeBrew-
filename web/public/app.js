@@ -521,8 +521,9 @@ function hl(text, q) {
 }
 
 function escHtml(s) {
-  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
+const escapeHtml = escHtml;
 
 function showSearchResults(results, q) {
   searchActive = true;
@@ -1919,6 +1920,249 @@ tabTracker.addEventListener('click', () => {
 // When any other tab is clicked, hide the tracker panel
 document.querySelectorAll('.tab:not(#tab-tracker)').forEach(tab => {
   tab.addEventListener('click', hideTrackerPanel);
+});
+
+// ─── Adventures Panel ─────────────────────────────────────────────────────────
+
+const panelAdventures   = $('panel-adventures');
+const adventuresContent = $('adventures-content');
+const tabAdventures     = $('tab-adventures');
+
+function showAdventuresPanel() {
+  viewer.hidden = true;
+  panelAdventures.hidden = false;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tabAdventures.classList.add('active');
+  renderAdventures();
+}
+
+function hideAdventuresPanel() {
+  panelAdventures.hidden = true;
+  viewer.hidden = false;
+}
+
+tabAdventures.addEventListener('click', () => {
+  hideAdventuresPanel(); // reset first
+  showAdventuresPanel();
+  setActive(null);
+  if (isMobile()) closeDrawers();
+});
+
+// When any other tab is clicked, hide the adventures panel
+document.querySelectorAll('.tab:not(#tab-adventures)').forEach(tab => {
+  tab.addEventListener('click', hideAdventuresPanel);
+});
+
+async function renderAdventures() {
+  adventuresContent.innerHTML = '<div style="padding:24px 28px;color:#888;font-family:sans-serif;font-size:13px">Loading adventures…</div>';
+  try {
+    const r = await fetch('/api/adventures');
+    if (!r.ok) throw new Error('Failed to load adventures');
+    const adventures = await r.json();
+
+    if (!adventures.length) {
+      adventuresContent.innerHTML = '<div style="padding:24px 28px;color:#888;font-family:sans-serif;font-size:13px">No adventures found.</div>';
+      return;
+    }
+
+    // Group by season
+    const bySeason = {};
+    for (const a of adventures) {
+      if (!bySeason[a.season]) bySeason[a.season] = [];
+      bySeason[a.season].push(a);
+    }
+
+    const container = document.createElement('div');
+
+    for (const season of Object.keys(bySeason).sort()) {
+      const seasonAdventures = bySeason[season];
+      const header = document.createElement('div');
+      header.className = 'adv-header';
+      header.innerHTML = `<span class="adv-season-badge">${season.replace('season-', 'Season ')}</span> Adventures`;
+      container.appendChild(header);
+
+      const grid = document.createElement('div');
+      grid.className = 'adv-grid';
+
+      for (const adv of seasonAdventures) {
+        const card = document.createElement('div');
+        card.className = `adv-card ${adv.status}`;
+        card.addEventListener('click', () => openPath(adv.path));
+
+        const mysteryDots = [];
+        const rating = parseInt(adv.mysteryRating, 10) || 0;
+        for (let i = 0; i < 5; i++) {
+          mysteryDots.push(`<span class="adv-mystery-dot ${i < rating ? 'active' : ''}"></span>`);
+        }
+
+        const metaItems = [];
+        if (adv.levels) metaItems.push(`<span><span class="adv-meta-label">Levels</span> <span class="adv-meta-value">${adv.levels}</span></span>`);
+        if (adv.sessions) metaItems.push(`<span><span class="adv-meta-label">Sessions</span> <span class="adv-meta-value">${adv.sessions}</span></span>`);
+        if (adv.duration) metaItems.push(`<span><span class="adv-meta-label">Duration</span> <span class="adv-meta-value">${adv.duration}</span></span>`);
+        if (adv.type) metaItems.push(`<span><span class="adv-meta-label">Type</span> <span class="adv-meta-value">${adv.type}</span></span>`);
+
+        card.innerHTML = `
+          <div class="adv-card-header">
+            <div class="adv-title">${escapeHtml(adv.label)}</div>
+            <span class="adv-status ${adv.status}">${adv.status}</span>
+          </div>
+          <div class="adv-meta">
+            ${metaItems.join('')}
+            <span class="adv-mystery" title="Mystery rating: ${rating}/5">${mysteryDots.join('')}</span>
+          </div>
+          ${adv.arc ? `<span class="adv-arc">${escapeHtml(adv.arc)}</span>` : ''}
+          ${adv.synopsis ? `<div class="adv-synopsis">${escapeHtml(adv.synopsis)}</div>` : ''}
+        `;
+        grid.appendChild(card);
+      }
+
+      container.appendChild(grid);
+    }
+
+    adventuresContent.innerHTML = '';
+    adventuresContent.appendChild(container);
+  } catch (e) {
+    adventuresContent.innerHTML = `<div style="padding:24px 28px;color:#f38ba8;font-family:sans-serif;font-size:13px">Error: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+// ─── NPC Modal ─────────────────────────────────────────────────────────────────
+
+async function showNpcsModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'NPCs';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.querySelector('.modal-body').style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#1a1a1a';
+  m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading NPCs…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  try {
+    const r = await fetch('/api/npcs');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const npcs = await r.json();
+    renderRefModal(m, npcs, 'npc');
+  } catch (err) {
+    m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${err.message}</div>`;
+  }
+}
+
+// ─── Location Modal ────────────────────────────────────────────────────────────
+
+async function showLocationsModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Locations';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.querySelector('.modal-body').style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#1a1a1a';
+  m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading locations…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  try {
+    const r = await fetch('/api/locations');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const locations = await r.json();
+    renderRefModal(m, locations, 'location');
+  } catch (err) {
+    m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${err.message}</div>`;
+  }
+}
+
+// Shared renderer for NPC / Location modals
+function renderRefModal(m, items, type) {
+  const isNpc = type === 'npc';
+
+  // Build filter buttons from unique values
+  const filterMap = {};
+  for (const item of items) {
+    const val = isNpc ? (item.affiliation || 'Unaffiliated') : (item.region || 'Unknown');
+    if (!filterMap[val]) filterMap[val] = 0;
+    filterMap[val]++;
+  }
+  const filters = Object.keys(filterMap).sort();
+  let activeFilter = 'All';
+  let searchTerm = '';
+
+  function build() {
+    const filtered = items.filter(item => {
+      const group = isNpc ? (item.affiliation || 'Unaffiliated') : (item.region || 'Unknown');
+      if (activeFilter !== 'All' && group !== activeFilter) return false;
+      if (!searchTerm) return true;
+      const term = searchTerm.toLowerCase();
+      return (item.name || '').toLowerCase().includes(term) ||
+        (item.synopsis || '').toLowerCase().includes(term) ||
+        (item.tags || '').toLowerCase().includes(term);
+    });
+
+    const filterHtml = `<div class="ref-filter">
+      <span style="color:#666;font-size:10px;text-transform:uppercase;letter-spacing:0.05em">Filter:</span>
+      <button class="${activeFilter === 'All' ? 'active' : ''}" data-filter="All">All (${items.length})</button>
+      ${filters.map(f => `<button class="${activeFilter === f ? 'active' : ''}" data-filter="${escapeHtml(f)}">${escapeHtml(f)} (${filterMap[f]})</button>`).join('')}
+    </div>`;
+
+    const gridHtml = filtered.length ? filtered.map(item => {
+      const metaItems = [];
+      if (isNpc) {
+        if (item.role) metaItems.push(`<span class="ref-tag">${escapeHtml(item.role)}</span>`);
+        if (item.status) metaItems.push(`<span class="ref-tag">${escapeHtml(item.status)}</span>`);
+        if (item.location) metaItems.push(`<span>${escapeHtml(item.location)}</span>`);
+      } else {
+        if (item.type) metaItems.push(`<span class="ref-tag">${escapeHtml(item.type)}</span>`);
+        if (item.status) metaItems.push(`<span class="ref-tag">${escapeHtml(item.status)}</span>`);
+        if (item.region) metaItems.push(`<span>${escapeHtml(item.region)}</span>`);
+      }
+
+      return `<div class="ref-card" data-path="${escapeHtml(item.path)}">
+        <div class="ref-title">${escapeHtml(item.name)}</div>
+        <div class="ref-meta">${metaItems.join('')}</div>
+        ${item.synopsis ? `<div class="ref-synopsis">${escapeHtml(item.synopsis)}</div>` : ''}
+      </div>`;
+    }).join('') : '<div class="ref-empty">No matches</div>';
+
+    m.querySelector('.modal-body').innerHTML = `
+      <div class="ref-search">
+        <input type="text" placeholder="Search ${type}s…" value="${escapeHtml(searchTerm)}">
+      </div>
+      ${filterHtml}
+      <div class="ref-scroll">
+        <div class="ref-grid">${gridHtml}</div>
+      </div>
+    `;
+
+    // Wire search
+    const input = m.querySelector('.ref-search input');
+    input.addEventListener('input', () => { searchTerm = input.value; build(); });
+
+    // Wire filters
+    m.querySelectorAll('.ref-filter button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeFilter = btn.dataset.filter;
+        build();
+      });
+    });
+
+    // Wire card clicks
+    m.querySelectorAll('.ref-card').forEach(card => {
+      card.addEventListener('click', () => {
+        openPath(card.dataset.path);
+        closeTopModal();
+      });
+    });
+  }
+
+  build();
+}
+
+$('tab-npcs').addEventListener('click', () => {
+  showNpcsModal();
+  if (isMobile()) closeDrawers();
+});
+
+$('tab-locations').addEventListener('click', () => {
+  showLocationsModal();
+  if (isMobile()) closeDrawers();
 });
 
 document.querySelectorAll('.tr-tab').forEach(btn => {
