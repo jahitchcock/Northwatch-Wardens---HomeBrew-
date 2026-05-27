@@ -242,7 +242,10 @@ function verifyValue(signed) {
   if (dot === -1) return null;
   const val = signed.slice(0, dot);
   const expected = signValue(val);
-  return crypto.timingSafeEqual(Buffer.from(signed), Buffer.from(expected)) ? val : null;
+  const a = Buffer.from(signed);
+  const b = Buffer.from(expected);
+  if (a.length !== b.length) return null;
+  return crypto.timingSafeEqual(a, b) ? val : null;
 }
 
 function requireAuth(req, res, next) {
@@ -273,7 +276,14 @@ app.get('/login', (req, res) => {
 
 app.post('/api/login', express.json(), (req, res) => {
   const { password } = req.body || {};
-  if (!password || password !== DM_PASSWORD) {
+  if (!password) return res.status(401).json({ error: 'Wrong password' });
+  try {
+    const a = Buffer.from(password);
+    const b = Buffer.from(DM_PASSWORD);
+    if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) {
+      return res.status(401).json({ error: 'Wrong password' });
+    }
+  } catch {
     return res.status(401).json({ error: 'Wrong password' });
   }
   const signed = signValue('dm');
@@ -286,7 +296,7 @@ app.post('/api/login', express.json(), (req, res) => {
 });
 
 app.get('/api/logout', (req, res) => {
-  res.clearCookie(COOKIE_NAME);
+  res.clearCookie(COOKIE_NAME, { httpOnly: true, sameSite: 'lax' });
   res.redirect('/login');
 });
 
