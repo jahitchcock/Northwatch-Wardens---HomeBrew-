@@ -7,6 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^4.18.2",
     "marked": "^12.0.0",
     "node-pty": "^1.0.0",
