@@ -28,6 +28,8 @@ const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
 const MAPS_OUTPUT_DIR = 'f:/NewProject/image-gen/output/maps';
 const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
 const BATTLEMAP_WORKFLOWS_DIR = 'f:/NewProject/image-gen/workflows';
+const BATTLEMAP_TOPDOWN_NEGATIVE = "isometric, perspective view, 3d render, people, tokens, figures, text, watermark, blurry, low quality, worst quality";
+const BATTLEMAP_SCENE_NEGATIVE = "grid, top-down, map, overhead view, photorealistic, text, watermark, nsfw, low quality, worst quality";
 
 // Directories never shown in file browser
 const EXCLUDE = new Set([
@@ -826,7 +828,8 @@ app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => 
   const resolvedCfg = cfg || (style === 'topdown' ? 7.0 : 8.0);
 
   wf['3']['inputs']['text'] = prompt;
-  if (negative_prompt) wf['4']['inputs']['text'] = negative_prompt;
+  const defaultNeg = style === 'topdown' ? BATTLEMAP_TOPDOWN_NEGATIVE : BATTLEMAP_SCENE_NEGATIVE;
+  wf['4']['inputs']['text'] = negative_prompt || defaultNeg;
   if (model) wf['1']['inputs']['ckpt_name'] = model;
   wf['6']['inputs']['seed'] = resolvedSeed;
   wf['6']['inputs']['steps'] = resolvedSteps;
