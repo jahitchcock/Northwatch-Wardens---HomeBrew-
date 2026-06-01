@@ -25,6 +25,9 @@ try {
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
+const MAPS_OUTPUT_DIR = 'f:/NewProject/image-gen/output/maps';
+const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
+const BATTLEMAP_WORKFLOWS_DIR = 'f:/NewProject/image-gen/workflows';
 
 // Directories never shown in file browser
 const EXCLUDE = new Set([
@@ -773,6 +776,123 @@ app.get('/preview', (req, res) => {
   } catch (e) {
     res.status(400).send(`<html><body style="background:#1e1e2e;color:#f38ba8;padding:16px;font-family:sans-serif">${esc(e.message)}</body></html>`);
   }
+});
+
+// ─── Maps generation ──────────────────────────────────────────────────────
+
+app.use('/maps-output', requireAuth, (req, res) => {
+  const fname = decodeURIComponent(req.path.replace(/^\//, ''));
+  if (!/^[\w\-. ]+\.(png|jpg|webp)$/i.test(fname)) return res.status(400).end();
+  const resolvedBase = path.resolve(MAPS_OUTPUT_DIR);
+  const full = path.resolve(MAPS_OUTPUT_DIR, fname);
+  if (!full.startsWith(resolvedBase)) return res.status(403).end();
+  res.sendFile(full, { root: '/' });
+});
+
+app.get('/api/maps', requireAuth, (req, res) => {
+  try {
+    if (!fs.existsSync(MAPS_OUTPUT_DIR)) return res.json([]);
+    const files = fs.readdirSync(MAPS_OUTPUT_DIR)
+      .filter(f => /\.(png|jpg|webp)$/i.test(f))
+      .map(f => {
+        const stat = fs.statSync(path.join(MAPS_OUTPUT_DIR, f));
+        return { filename: f, url: `/maps-output/${encodeURIComponent(f)}`, mtime: stat.mtimeMs };
+      })
+      .sort((a, b) => b.mtime - a.mtime);
+    res.json(files);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => {
+  const { style, prompt, negative_prompt, seed, steps, cfg, model } = req.body || {};
+  if (!prompt) return res.status(400).json({ error: 'prompt required' });
+  if (!['topdown', 'scene'].includes(style)) return res.status(400).json({ error: 'style must be topdown or scene' });
+
+  const workflowFile = style === 'topdown'
+    ? path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_topdown.json')
+    : path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_scene.json');
+
+  let wf;
+  try {
+    wf = JSON.parse(fs.readFileSync(workflowFile, 'utf8'));
+  } catch (e) {
+    return res.status(500).json({ error: `Failed to load workflow: ${e.message}` });
+  }
+
+  const resolvedSeed = (seed != null) ? seed : Math.floor(Math.random() * 2**32);
+  const resolvedSteps = steps || 25;
+  const resolvedCfg = cfg || (style === 'topdown' ? 7.0 : 8.0);
+
+  wf['3']['inputs']['text'] = prompt;
+  if (negative_prompt) wf['4']['inputs']['text'] = negative_prompt;
+  if (model) wf['1']['inputs']['ckpt_name'] = model;
+  wf['6']['inputs']['seed'] = resolvedSeed;
+  wf['6']['inputs']['steps'] = resolvedSteps;
+  wf['6']['inputs']['cfg'] = resolvedCfg;
+
+  const clientId = require('crypto').randomUUID();
+  let promptId;
+  try {
+    const submitResp = await fetch(`${COMFYUI_URL}/prompt`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt: wf, client_id: clientId }),
+    });
+    if (!submitResp.ok) {
+      const text = await submitResp.text();
+      return res.status(502).json({ error: `ComfyUI rejected workflow: ${text}` });
+    }
+    const submitData = await submitResp.json();
+    if (submitData.error) return res.status(502).json({ error: submitData.error });
+    promptId = submitData.prompt_id;
+  } catch (e) {
+    return res.status(502).json({ error: `ComfyUI unreachable: ${e.message}` });
+  }
+
+  let imageInfo = null;
+  const deadline = Date.now() + 120_000;
+  while (Date.now() < deadline) {
+    await new Promise(r => setTimeout(r, 2000));
+    try {
+      const histResp = await fetch(`${COMFYUI_URL}/history/${promptId}`);
+      const hist = await histResp.json();
+      if (hist[promptId]) {
+        const entry = hist[promptId];
+        if (entry.status?.status_str === 'error') {
+          return res.status(502).json({ error: `ComfyUI error: ${JSON.stringify(entry.status.messages)}` });
+        }
+        for (const nodeOut of Object.values(entry.outputs || {})) {
+          for (const img of (nodeOut.images || [])) {
+            imageInfo = img;
+          }
+        }
+        if (imageInfo) break;
+      }
+    } catch { /* keep polling */ }
+  }
+
+  if (!imageInfo) return res.status(504).json({ error: 'Generation timed out after 120s' });
+
+  let imgBytes;
+  try {
+    const viewResp = await fetch(
+      `${COMFYUI_URL}/view?filename=${encodeURIComponent(imageInfo.filename)}&subfolder=${encodeURIComponent(imageInfo.subfolder || '')}&type=${imageInfo.type || 'output'}`
+    );
+    if (!viewResp.ok) return res.status(502).json({ error: 'Failed to fetch image from ComfyUI' });
+    imgBytes = Buffer.from(await viewResp.arrayBuffer());
+  } catch (e) {
+    return res.status(502).json({ error: `Failed to fetch image: ${e.message}` });
+  }
+
+  fs.mkdirSync(MAPS_OUTPUT_DIR, { recursive: true });
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  const filename = `${style}_${timestamp}_${resolvedSeed}.png`;
+  const outPath = path.join(MAPS_OUTPUT_DIR, filename);
+  fs.writeFileSync(outPath, imgBytes);
+
+  res.json({ filename, url: `/maps-output/${encodeURIComponent(filename)}` });
 });
 
 // ─── Save image (clipboard paste) ─────────────────────────────────────────
