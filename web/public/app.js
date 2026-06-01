@@ -986,6 +986,7 @@ document.addEventListener('click', () => closeTools());
 toolsDropdown.addEventListener('click', e => {
   const item = e.target.closest('.theme-item');
   if (!item) return;
+  e.stopPropagation();
   setTheme(item.dataset.theme);
   closeTools();
 });
