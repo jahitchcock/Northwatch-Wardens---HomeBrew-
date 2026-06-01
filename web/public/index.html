@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>DM Panel — Northwatch Wardens</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.css">
+  <script>
+    (function () {
+      var T = {
+        mocha:     { '--bg':'#1e1e2e','--panel':'#181825','--overlay':'#313244','--text':'#cdd6f4','--subtext':'#a6adc8','--accent':'#cba6f7','--border':'#45475a','--red':'#f38ba8' },
+        tavern:    { '--bg':'#1a1208','--panel':'#140e06','--overlay':'#2e2010','--text':'#f0e0c0','--subtext':'#b89060','--accent':'#d4a849','--border':'#4a3820','--red':'#d45a3a' },
+        midnight:  { '--bg':'#0a0a0f','--panel':'#060608','--overlay':'#141420','--text':'#e8f0ff','--subtext':'#8898cc','--accent':'#5b8fff','--border':'#1e2a44','--red':'#ff4d6a' },
+        forest:    { '--bg':'#0e1a10','--panel':'#0a1209','--overlay':'#1a2e1c','--text':'#c8dcc8','--subtext':'#7a9e7a','--accent':'#5cba6c','--border':'#2a4a2e','--red':'#d45a5a' },
+        arcane:    { '--bg':'#0d0a1a','--panel':'#080612','--overlay':'#1a1430','--text':'#c8d8f0','--subtext':'#7a88c8','--accent':'#48d0c8','--border':'#2a2050','--red':'#f05080' },
+        parchment: { '--bg':'#f0e8d0','--panel':'#e8ddc0','--overlay':'#d8c8a0','--text':'#2c1810','--subtext':'#6a4a30','--accent':'#8b2020','--border':'#c0a878','--red':'#c82020' },
+      };
+      try {
+        var entry = document.cookie.split('; ').find(function(r){ return r.startsWith('dm_prefs='); });
+        var prefs = entry ? JSON.parse(decodeURIComponent(entry.substring(entry.indexOf('=') + 1))) : {};
+        var vars = T[prefs.theme];
+        if (vars) {
+          var root = document.documentElement;
+          for (var k in vars) root.style.setProperty(k, vars[k]);
+        }
+      } catch(e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
   <style>
     #panel-tracker {
