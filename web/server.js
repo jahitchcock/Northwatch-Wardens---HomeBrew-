@@ -25,6 +25,11 @@ try {
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
+const PDF_DIRS = {
+  core:    'C:/Users/joshu/OneDrive/Documents/dnd/01 - Core Books',
+  setting: 'C:/Users/joshu/OneDrive/Documents/dnd/02 - Setting Books',
+};
+const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json');
 const MAPS_OUTPUT_DIR = process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps';
 const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
 const BATTLEMAP_WORKFLOWS_DIR = process.env.BATTLEMAP_WORKFLOWS_DIR || 'f:/NewProject/image-gen/workflows';
@@ -2550,6 +2555,33 @@ app.get('/api/sounds/custom', (req, res) => {
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
+});
+
+// ─── Rulebook routes ─────────────────────────────────────────────────────────
+
+app.get('/api/books', (req, res) => {
+  const result = {};
+  for (const [cat, dir] of Object.entries(PDF_DIRS)) {
+    result[cat] = [];
+    if (!fs.existsSync(dir)) continue;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.isFile() && entry.name.toLowerCase().endsWith('.pdf')) {
+        result[cat].push({ name: entry.name, bookId: `${cat}/${entry.name}` });
+      } else if (entry.isDirectory()) {
+        const subDir = path.join(dir, entry.name);
+        for (const sub of fs.readdirSync(subDir, { withFileTypes: true })) {
+          if (sub.isFile() && sub.name.toLowerCase().endsWith('.pdf')) {
+            result[cat].push({
+              name: sub.name,
+              subcategory: entry.name,
+              bookId: `${cat}/${entry.name}/${sub.name}`,
+            });
+          }
+        }
+      }
+    }
+  }
+  res.json(result);
 });
 
 // ─── WebSocket terminal ────────────────────────────────────────────────────
