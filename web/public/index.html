@@ -585,6 +585,11 @@
       </select>
     </div>
 
+    <div id="season-tracker" title="Current campaign season — click to change">
+      <span id="season-tracker-icon"></span>
+      <span id="season-tracker-name"></span>
+    </div>
+
     <div id="breadcrumb" title="Current path"></div>
     <button id="btn-ctx" title="Send file path to terminal" hidden>⌨ Path</button>
     <button id="btn-manifest" title="Edit MANIFEST.md for current directory" hidden>✎ Manifest</button>
@@ -592,6 +597,9 @@
 
     <div id="toast" aria-live="polite"></div>
   </header>
+
+  <!-- Season picker (body-level so it escapes tabbar overflow clipping) -->
+  <div id="season-picker" hidden></div>
 
   <!-- Tools dropdown (body-level so it escapes tabbar overflow clipping) -->
   <div id="tools-dropdown" hidden>

@@ -68,6 +68,70 @@ body {
   color: var(--accent);
 }
 
+/* ─── Season tracker ─────────────────────────────────────────────────────── */
+
+#season-tracker {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: inherit;
+  white-space: nowrap;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  transition: background 0.15s, border-color 0.15s;
+  user-select: none;
+}
+#season-tracker:hover { border-color: var(--border); background: var(--overlay); }
+#season-tracker-icon { font-size: 14px; line-height: 1; }
+#season-tracker-name { color: var(--text); font-weight: 500; }
+
+/* Season-specific accent colours */
+#season-tracker[data-season="greenrise"] { color: #a8d8a8; }
+#season-tracker[data-season="greenrise"] #season-tracker-name { color: #a8d8a8; }
+#season-tracker[data-season="blooming"]  { color: #f4a5c0; }
+#season-tracker[data-season="blooming"]  #season-tracker-name { color: #f4a5c0; }
+#season-tracker[data-season="highsummer"]{ color: #f9c74f; }
+#season-tracker[data-season="highsummer"]#season-tracker-name { color: #f9c74f; }
+#season-tracker[data-season="waning"]    { color: #e8a87c; }
+#season-tracker[data-season="waning"]    #season-tracker-name { color: #e8a87c; }
+#season-tracker[data-season="deepfall"]  { color: #d4845a; }
+#season-tracker[data-season="deepfall"]  #season-tracker-name { color: #d4845a; }
+#season-tracker[data-season="deepwinter"]{ color: #89b4fa; }
+#season-tracker[data-season="deepwinter"]#season-tracker-name { color: #89b4fa; }
+#season-tracker[data-season="thawthaw"]  { color: #94e2d5; }
+#season-tracker[data-season="thawthaw"]  #season-tracker-name { color: #94e2d5; }
+
+#season-picker {
+  position: fixed;
+  z-index: 200;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+  padding: 6px;
+  min-width: 180px;
+}
+.season-picker-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--subtext);
+  transition: background 0.1s, color 0.1s;
+}
+.season-picker-item:hover { background: var(--overlay); color: var(--text); }
+.season-picker-item.active { color: var(--accent); font-weight: 600; }
+.season-picker-item .sp-icon { font-size: 16px; width: 22px; text-align: center; }
+.season-picker-item .sp-sub  { font-size: 10px; color: var(--subtext); margin-left: auto; opacity: 0.7; }
+
 /* ─── Season selector ────────────────────────────────────────────────────── */
 
 #season-wrap {
@@ -985,6 +1049,77 @@ body.tools-open #viewer { visibility: hidden; }
 
 /* Push workspace content above the sound bar */
 #workspace { padding-bottom: 38px; }
+
+@media (max-width: 900px) {
+  /* Larger touch targets */
+  #snd-play, #snd-loop, #snd-fx-btn, .snd-quick-btn, .snd-more-btn {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+  #snd-loop { padding: 6px 10px; }
+
+  /* Quick buttons can wrap and are scrollable */
+  #snd-quick {
+    flex-wrap: wrap;
+    overflow-x: auto;
+    max-height: 60px;
+    scrollbar-width: none;
+  }
+  #snd-quick::-webkit-scrollbar { display: none; }
+
+  /* FX panel: don't overflow screen */
+  #snd-fx-panel {
+    width: min(540px, 100vw);
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Two-row layout */
+  #sound-bar {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 6px 10px;
+    gap: 6px;
+    row-gap: 6px;
+  }
+
+  /* Row 1: icon + name + play + loop + vol + FX */
+  #snd-icon  { order: 1; }
+  #snd-name  { order: 2; min-width: 0; flex: 1 1 auto; }
+  #snd-play  { order: 3; }
+  #snd-loop  { order: 4; }
+  #snd-vol-wrap { order: 5; margin-left: 0; }
+  .snd-divider  { order: 6; }
+  #snd-fx-btn   { order: 7; }
+  #snd-suggest-label { order: 8; width: 100%; }
+
+  /* Row 2: quick buttons scrollable strip */
+  #snd-quick {
+    order: 9;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    max-height: none;
+    padding-bottom: 2px;
+  }
+
+  /* Hide volume text label, keep slider */
+  #snd-vol-wrap > span { display: none; }
+  #snd-vol { width: 60px; }
+
+  /* FX panel: full width, anchored to left, bottom tracks the taller bar */
+  #snd-fx-panel {
+    width: 100vw;
+    right: 0;
+    left: 0;
+    bottom: 86px;
+  }
+
+  /* Workspace needs more bottom padding for 2-row bar */
+  #workspace { padding-bottom: 86px; }
+}
 
 @keyframes snd-spin { to { transform: rotate(360deg); } }
 #snd-name.snd-buffering::before {

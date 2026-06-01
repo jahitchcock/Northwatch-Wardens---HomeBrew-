@@ -122,6 +122,71 @@ function toggleDrawer(panel, btn) {
 
 // Mobile drawer click listeners are registered below (with isMobile guard)
 
+// ─── Season Tracker ───────────────────────────────────────────────────────────
+
+const CAMPAIGN_SEASONS = [
+  { id: 'greenrise',  label: 'Greenrise',   sub: 'Month 1 · Spring Equinox',  icon: '🌱', pricingKey: 'spring'  },
+  { id: 'blooming',   label: 'Blooming',    sub: 'Month 2 · Late Spring',     icon: '🌸', pricingKey: 'spring'  },
+  { id: 'highsummer', label: 'Highsummer',  sub: 'Month 3 · Summer',          icon: '☀️', pricingKey: 'summer'  },
+  { id: 'waning',     label: 'Waning',      sub: 'Month 4 · Early Autumn',    icon: '🍂', pricingKey: 'autumn'  },
+  { id: 'deepfall',   label: 'Deepfall',    sub: 'Month 5 · Autumn',          icon: '🍁', pricingKey: 'autumn'  },
+  { id: 'deepwinter', label: 'Deepwinter',  sub: 'Month 6 · Winter Solstice', icon: '❄️', pricingKey: 'winter'  },
+  { id: 'thawthaw',   label: 'Thawthaw',    sub: 'Month 7 · Late Winter',     icon: '💧', pricingKey: 'winter'  },
+];
+
+let currentCampaignSeason = localStorage.getItem('campaignSeason') || 'greenrise';
+
+function setCampaignSeason(id) {
+  currentCampaignSeason = id;
+  localStorage.setItem('campaignSeason', id);
+  renderSeasonTracker();
+  // Sync shop season selector if the shops modal is open
+  const sel = document.getElementById('shop-season-sel');
+  if (sel) {
+    const s = CAMPAIGN_SEASONS.find(s => s.id === id);
+    shopSeason = s?.pricingKey || '';
+    sel.value = shopSeason;
+    sel.dispatchEvent(new Event('change'));
+  }
+}
+
+function renderSeasonTracker() {
+  const s = CAMPAIGN_SEASONS.find(s => s.id === currentCampaignSeason) || CAMPAIGN_SEASONS[0];
+  const tracker = $('season-tracker');
+  $('season-tracker-icon').textContent = s.icon;
+  $('season-tracker-name').textContent = s.label;
+  tracker.dataset.season = s.id;
+}
+
+function openSeasonPicker() {
+  const picker = $('season-picker');
+  if (!picker.hidden) { picker.hidden = true; return; }
+
+  picker.innerHTML = '';
+  for (const s of CAMPAIGN_SEASONS) {
+    const item = document.createElement('div');
+    item.className = 'season-picker-item' + (s.id === currentCampaignSeason ? ' active' : '');
+    item.innerHTML = `<span class="sp-icon">${s.icon}</span><span>${s.label}</span><span class="sp-sub">${s.sub}</span>`;
+    item.addEventListener('click', () => {
+      setCampaignSeason(s.id);
+      picker.hidden = true;
+    });
+    picker.appendChild(item);
+  }
+
+  // Position below the tracker button
+  const rect = $('season-tracker').getBoundingClientRect();
+  picker.style.top  = (rect.bottom + 6) + 'px';
+  picker.style.left = rect.left + 'px';
+  picker.hidden = false;
+}
+
+$('season-tracker').addEventListener('click', e => { e.stopPropagation(); openSeasonPicker(); });
+document.addEventListener('click', () => { $('season-picker').hidden = true; });
+
+// Init on load
+renderSeasonTracker();
+
 // ─── File tree ────────────────────────────────────────────────────────────────
 
 function setActive(label) {
@@ -2719,6 +2784,9 @@ async function showShopsModal() {
       body.innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">No shops found.</div>';
       return;
     }
+    // Sync shopSeason from the campaign season tracker
+    const trackerSeason = CAMPAIGN_SEASONS.find(s => s.id === currentCampaignSeason);
+    if (trackerSeason) shopSeason = trackerSeason.pricingKey;
     // Load persisted stock or roll fresh
     if (!loadStockFromSession()) rollStockForShops(shops);
     renderShopsModal(m, shops);
