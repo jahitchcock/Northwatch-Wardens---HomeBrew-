@@ -28,6 +28,126 @@ let shopCart = []; // { name, shopId, gp, sp, qty }
 let shopStock = new Map(); // key: `${shopId}::${itemName}` → { qty: number }
 let shopStockDate = null; // ISO string of last restock
 
+// ─── Themes ───────────────────────────────────────────────────────────────────
+
+const THEMES = {
+  mocha: {
+    label: 'Mocha',
+    swatch: '#cba6f7',
+    vars: {
+      '--bg':      '#1e1e2e',
+      '--panel':   '#181825',
+      '--overlay': '#313244',
+      '--text':    '#cdd6f4',
+      '--subtext': '#a6adc8',
+      '--accent':  '#cba6f7',
+      '--border':  '#45475a',
+      '--red':     '#f38ba8',
+    },
+  },
+  tavern: {
+    label: 'Tavern',
+    swatch: '#d4a849',
+    vars: {
+      '--bg':      '#1a1208',
+      '--panel':   '#140e06',
+      '--overlay': '#2e2010',
+      '--text':    '#f0e0c0',
+      '--subtext': '#b89060',
+      '--accent':  '#d4a849',
+      '--border':  '#4a3820',
+      '--red':     '#d45a3a',
+    },
+  },
+  midnight: {
+    label: 'Midnight',
+    swatch: '#5b8fff',
+    vars: {
+      '--bg':      '#0a0a0f',
+      '--panel':   '#060608',
+      '--overlay': '#141420',
+      '--text':    '#e8f0ff',
+      '--subtext': '#8898cc',
+      '--accent':  '#5b8fff',
+      '--border':  '#1e2a44',
+      '--red':     '#ff4d6a',
+    },
+  },
+  forest: {
+    label: 'Forest',
+    swatch: '#5cba6c',
+    vars: {
+      '--bg':      '#0e1a10',
+      '--panel':   '#0a1209',
+      '--overlay': '#1a2e1c',
+      '--text':    '#c8dcc8',
+      '--subtext': '#7a9e7a',
+      '--accent':  '#5cba6c',
+      '--border':  '#2a4a2e',
+      '--red':     '#d45a5a',
+    },
+  },
+  arcane: {
+    label: 'Arcane',
+    swatch: '#48d0c8',
+    vars: {
+      '--bg':      '#0d0a1a',
+      '--panel':   '#080612',
+      '--overlay': '#1a1430',
+      '--text':    '#c8d8f0',
+      '--subtext': '#7a88c8',
+      '--accent':  '#48d0c8',
+      '--border':  '#2a2050',
+      '--red':     '#f05080',
+    },
+  },
+  parchment: {
+    label: 'Parchment',
+    swatch: '#8b2020',
+    vars: {
+      '--bg':      '#f0e8d0',
+      '--panel':   '#e8ddc0',
+      '--overlay': '#d8c8a0',
+      '--text':    '#2c1810',
+      '--subtext': '#6a4a30',
+      '--accent':  '#8b2020',
+      '--border':  '#c0a878',
+      '--red':     '#c82020',
+    },
+  },
+};
+
+function applyThemeVars(id) {
+  const theme = THEMES[id] || THEMES.mocha;
+  const root = document.documentElement;
+  for (const [prop, val] of Object.entries(theme.vars)) {
+    root.style.setProperty(prop, val);
+  }
+}
+
+function readPrefs() {
+  try {
+    const entry = document.cookie.split('; ').find(r => r.startsWith('dm_prefs='));
+    return entry ? JSON.parse(decodeURIComponent(entry.split('=')[1])) : {};
+  } catch { return {}; }
+}
+
+function writePrefs(patch) {
+  const prefs = { ...readPrefs(), ...patch };
+  document.cookie = 'dm_prefs=' + encodeURIComponent(JSON.stringify(prefs))
+    + '; path=/; max-age=31536000; SameSite=Lax';
+}
+
+function setTheme(id) {
+  if (!THEMES[id]) id = 'mocha';
+  applyThemeVars(id);
+  writePrefs({ theme: id });
+  // Update active indicator in the Tools dropdown
+  document.querySelectorAll('.theme-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.theme === id);
+  });
+}
+
 const btnCtx   = $('btn-ctx');
 const btnPrint = $('btn-print');
 const toast    = $('toast');
@@ -4142,6 +4262,7 @@ $('tab-party').addEventListener('click', () => {
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
+  setTheme(readPrefs().theme || 'mocha');
   fillTree('', fileTree);
   openPath('gm-lore/welcome.md');
   updateManifestBtn();
