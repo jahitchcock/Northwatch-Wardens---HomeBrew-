@@ -18,11 +18,9 @@
       try {
         var entry = document.cookie.split('; ').find(function(r){ return r.startsWith('dm_prefs='); });
         var prefs = entry ? JSON.parse(decodeURIComponent(entry.substring(entry.indexOf('=') + 1))) : {};
-        var vars = T[prefs.theme];
-        if (vars) {
-          var root = document.documentElement;
-          for (var k in vars) root.style.setProperty(k, vars[k]);
-        }
+        var vars = T[prefs.theme] || T.mocha;
+        var root = document.documentElement;
+        for (var k in vars) root.style.setProperty(k, vars[k]);
       } catch(e) {}
     })();
   </script>
