@@ -25,6 +25,8 @@ let termFit        = null; // set by initTerminal
 let sendToTerminal = null; // set by initTerminal
 let currentPath    = null;
 let shopCart = []; // { name, shopId, gp, sp, qty }
+let shopStock = new Map(); // key: `${shopId}::${itemName}` → { qty: number }
+let shopStockDate = null; // ISO string of last restock
 
 const btnCtx   = $('btn-ctx');
 const btnPrint = $('btn-print');
@@ -2592,6 +2594,56 @@ document.getElementById('tab-homebrew') && document.getElementById('tab-homebrew
   if (isMobile()) closeDrawers();
 });
 
+// ─── Shop Stock Randomizer ────────────────────────────────────────────────────
+
+const STOCK_ODDS = { available: 0.85, limited: 0.50, rare: 0.20 };
+const STOCK_QTY  = {
+  available: () => Math.floor(Math.random() * 6) + 3,  // 3–8
+  limited:   () => Math.floor(Math.random() * 3) + 1,  // 1–3
+  rare:      () => 1,
+};
+
+function isServiceItem(it) {
+  // Free services and section-header rows are always available with no qty
+  return (it.gp === 0 && it.sp === 0) || it.name.startsWith('—');
+}
+
+function rollStockForShops(shops) {
+  shopStock.clear();
+  for (const shop of shops) {
+    for (const it of shop.items) {
+      const key = `${shop.id}::${it.name}`;
+      if (isServiceItem(it)) {
+        shopStock.set(key, { qty: null }); // always available, no qty
+        continue;
+      }
+      const odds = STOCK_ODDS[it.stock] ?? 0.5;
+      const inStock = Math.random() < odds;
+      const qty = inStock ? (STOCK_QTY[it.stock] ?? STOCK_QTY.limited)() : 0;
+      shopStock.set(key, { qty });
+    }
+  }
+  shopStockDate = new Date().toLocaleString('en-US', { month:'short', day:'numeric', hour:'numeric', minute:'2-digit' });
+  try {
+    sessionStorage.setItem('shopStock', JSON.stringify([...shopStock.entries()]));
+    sessionStorage.setItem('shopStockDate', shopStockDate);
+  } catch {}
+}
+
+function loadStockFromSession() {
+  try {
+    const raw = sessionStorage.getItem('shopStock');
+    if (!raw) return false;
+    shopStock = new Map(JSON.parse(raw));
+    shopStockDate = sessionStorage.getItem('shopStockDate') || null;
+    return shopStock.size > 0;
+  } catch { return false; }
+}
+
+function getItemStock(shopId, itemName) {
+  return shopStock.get(`${shopId}::${itemName}`) ?? { qty: null };
+}
+
 // ─── Shops Modal ──────────────────────────────────────────────────────────────
 
 document.getElementById('tab-shops') && document.getElementById('tab-shops').addEventListener('click', () => {
@@ -2618,6 +2670,8 @@ async function showShopsModal() {
       body.innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">No shops found.</div>';
       return;
     }
+    // Load persisted stock or roll fresh
+    if (!loadStockFromSession()) rollStockForShops(shops);
     renderShopsModal(m, shops);
   } catch (err) {
     body.innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${escapeHtml(err.message)}</div>`;
@@ -2640,6 +2694,11 @@ function renderShopsModal(m, shops) {
           style="padding:6px 8px;background:#2a2a2a;border:1px solid #444;color:#e0e0e0;border-radius:4px;font-size:13px">
           <option value="">All shops</option>
         </select>
+        <label style="display:flex;align-items:center;gap:6px;font-family:sans-serif;font-size:12px;color:#888;cursor:pointer">
+          <input type="checkbox" id="shop-hide-oos" style="cursor:pointer"> Hide out of stock
+        </label>
+        <button id="shop-restock-btn" style="padding:4px 10px;background:#2a2035;border:1px solid #5a3a7a;color:#c9a0f0;border-radius:4px;cursor:pointer;font-size:12px;white-space:nowrap">🎲 Restock</button>
+        <span id="shop-stock-date" style="font-family:sans-serif;font-size:11px;color:#555;white-space:nowrap"></span>
       </div>
       <div id="shop-items-list"></div>
       <div style="margin-top:24px;border-top:1px solid #2a2a2a;padding-top:16px">
@@ -2682,16 +2741,26 @@ function renderShopsModal(m, shops) {
     s.items.map(it => ({ ...it, shopId: s.id, shopName: s.name, shopLocation: s.location, guildDiscount: s.guildDiscount }))
   );
 
+  function updateStockDate() {
+    const el = body.querySelector('#shop-stock-date');
+    if (el && shopStockDate) el.textContent = `Stocked: ${shopStockDate}`;
+  }
+
   function renderItems() {
     const q = body.querySelector('#shop-search').value.trim().toLowerCase();
     const cat = catSel.value;
     const shopId = shopSel.value;
+    const hideOos = body.querySelector('#shop-hide-oos')?.checked;
     const list = body.querySelector('#shop-items-list');
 
-    const filtered = allItems.filter(it => {
+    let filtered = allItems.filter(it => {
       if (shopId && it.shopId !== shopId) return false;
       if (cat && it.category !== cat) return false;
       if (q && !it.name.toLowerCase().includes(q) && !it.category.toLowerCase().includes(q)) return false;
+      if (hideOos && !isServiceItem(it)) {
+        const s = getItemStock(it.shopId, it.name);
+        if (s.qty === 0) return false;
+      }
       return true;
     });
 
@@ -2723,6 +2792,15 @@ function renderShopsModal(m, shops) {
   body.querySelector('#shop-search').addEventListener('input', renderItems);
   catSel.addEventListener('change', renderItems);
   shopSel.addEventListener('change', renderItems);
+  body.querySelector('#shop-hide-oos').addEventListener('change', renderItems);
+
+  body.querySelector('#shop-restock-btn').addEventListener('click', () => {
+    rollStockForShops(shops);
+    shopCart = []; // clear cart on restock — stale items may no longer be available
+    updateCartBar(body);
+    updateStockDate();
+    renderItems();
+  });
 
   body.querySelector('#shop-cart-clear').addEventListener('click', () => {
     shopCart = [];
@@ -2734,6 +2812,7 @@ function renderShopsModal(m, shops) {
     showCartDetail(body);
   });
 
+  updateStockDate();
   renderItems();
   updateCartBar(body);
 
@@ -2787,36 +2866,70 @@ function buildItemRow(it, body) {
   const row = document.createElement('div');
   const inCart = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
   const stockColor = SHOP_STOCK_STYLE[it.stock] || '#888';
-  const url5e = it['5etoolsId']
-    ? `http://localhost:2014/items.html#${it['5etoolsId']}`
-    : null;
+  const url5e = it['5etoolsId'] ? `http://localhost:2014/items.html#${it['5etoolsId']}` : null;
+  const isHeader = it.name.startsWith('—');
 
-  row.style.cssText = 'display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #242424;font-family:sans-serif;font-size:13px';
+  // Header/separator rows — no qty, no add button
+  if (isHeader) {
+    row.style.cssText = 'padding:10px 0 4px;font-family:sans-serif;font-size:11px;font-weight:600;color:#7a5a9a;letter-spacing:.06em;border-top:1px solid #2a2a2a;margin-top:8px';
+    row.textContent = it.name;
+    return row;
+  }
+
+  // Determine current stock quantity
+  const snap = getItemStock(it.shopId, it.name);
+  const isService = isServiceItem(it);
+  const qty = snap.qty; // null = always available (service), number = actual qty
+  const outOfStock = !isService && qty === 0;
+
+  // Qty display
+  let qtyBadge = '';
+  if (!isService && qty !== null) {
+    if (outOfStock) {
+      qtyBadge = `<span style="font-size:11px;color:#555;font-style:italic">out of stock</span>`;
+    } else {
+      qtyBadge = `<span style="font-size:11px;color:#888">×${qty}</span>`;
+    }
+  }
+
+  row.style.cssText = `display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #242424;font-family:sans-serif;font-size:13px;${outOfStock ? 'opacity:0.38' : ''}`;
   row.innerHTML = `
     <div style="flex:1;min-width:0">
       ${url5e
-        ? `<a href="${url5e}" target="_blank" style="color:#c9b37e;text-decoration:none;font-weight:500">${escapeHtml(it.name)}</a>`
-        : `<span style="color:#d4c5a0;font-weight:500">${escapeHtml(it.name)}</span>`}
-      <span style="color:#484848;font-size:11px;margin-left:6px">${escapeHtml(it.category.replace(/-/g, ' '))}</span>
-      ${it.priceNote ? `<span style="color:#555;font-size:11px;margin-left:4px">· ${escapeHtml(it.priceNote)}</span>` : ''}
-      ${it.notes ? `<div style="color:#666;font-size:11px;margin-top:2px;line-height:1.4">${escapeHtml(it.notes)}</div>` : ''}
+        ? `<a href="${url5e}" target="_blank" style="color:${outOfStock ? '#666' : '#c9b37e'};text-decoration:none;font-weight:500;pointer-events:${outOfStock ? 'none' : 'auto'}">${escapeHtml(it.name)}</a>`
+        : `<span style="color:${outOfStock ? '#555' : '#d4c5a0'};font-weight:500">${escapeHtml(it.name)}</span>`}
+      <span style="color:#404040;font-size:11px;margin-left:6px">${escapeHtml(it.category.replace(/-/g, ' '))}</span>
+      ${it.priceNote ? `<span style="color:#4a4a4a;font-size:11px;margin-left:4px">· ${escapeHtml(it.priceNote)}</span>` : ''}
+      ${it.notes ? `<div style="color:#585858;font-size:11px;margin-top:2px;line-height:1.4">${escapeHtml(it.notes)}</div>` : ''}
     </div>
     <div style="text-align:right;white-space:nowrap;min-width:70px">${formatShopPrice(it.gp, it.sp)}</div>
-    <div style="min-width:55px;text-align:right;white-space:nowrap;font-size:11px;color:${stockColor}">${it.stock}</div>
-    <div style="min-width:54px;text-align:right">
-      <button class="shop-add-btn" style="padding:3px 8px;background:#2a3a2a;border:1px solid #3a5a3a;color:#a8d8a8;border-radius:4px;cursor:pointer;font-size:11px">
-        ${inCart ? `+1 (${inCart})` : '+ Add'}
+    <div style="min-width:55px;text-align:right;white-space:nowrap;font-size:11px;color:${outOfStock ? '#444' : stockColor}">${outOfStock ? '—' : it.stock}</div>
+    <div style="min-width:70px;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px">
+      ${qtyBadge}
+      <button class="shop-add-btn" ${outOfStock ? 'disabled' : ''}
+        style="padding:3px 8px;background:${outOfStock ? '#1a1a1a' : '#2a3a2a'};border:1px solid ${outOfStock ? '#333' : '#3a5a3a'};color:${outOfStock ? '#444' : '#a8d8a8'};border-radius:4px;cursor:${outOfStock ? 'not-allowed' : 'pointer'};font-size:11px">
+        ${outOfStock ? 'N/A' : (inCart ? `+1 (${inCart})` : '+ Add')}
       </button>
     </div>`;
 
-  row.querySelector('.shop-add-btn').addEventListener('click', function () {
-    const existing = shopCart.find(c => c.name === it.name && c.shopId === it.shopId);
-    if (existing) existing.qty++;
-    else shopCart.push({ name: it.name, shopId: it.shopId, shopName: it.shopName, gp: it.gp, sp: it.sp, qty: 1 });
-    const qty = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
-    this.textContent = `+1 (${qty})`;
-    if (body) updateCartBar(body);
-  });
+  if (!outOfStock) {
+    row.querySelector('.shop-add-btn').addEventListener('click', function () {
+      // Respect available qty
+      const currentSnap = getItemStock(it.shopId, it.name);
+      const cartEntry = shopCart.find(c => c.name === it.name && c.shopId === it.shopId);
+      const alreadyInCart = cartEntry?.qty || 0;
+      if (currentSnap.qty !== null && alreadyInCart >= currentSnap.qty) {
+        this.style.borderColor = '#f38ba8';
+        setTimeout(() => { this.style.borderColor = '#3a5a3a'; }, 600);
+        return; // can't add more than available
+      }
+      if (cartEntry) cartEntry.qty++;
+      else shopCart.push({ name: it.name, shopId: it.shopId, shopName: it.shopName, gp: it.gp, sp: it.sp, qty: 1 });
+      const newQty = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
+      this.textContent = `+1 (${newQty})`;
+      if (body) updateCartBar(body);
+    });
+  }
 
   return row;
 }
