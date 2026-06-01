@@ -790,6 +790,17 @@ body.tools-open #viewer { visibility: hidden; }
   transition: background 0.1s;
 }
 .tool-item:hover { background: var(--overlay); color: var(--accent); }
+.theme-item { display: flex; align-items: center; gap: 8px; }
+.theme-item.active { color: var(--accent); }
+.theme-item.active::after { content: '✓'; margin-left: auto; font-size: 11px; color: var(--accent); }
+.theme-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 1px solid rgba(255,255,255,0.15);
+}
 
 /* ── Combat Tracker Add Panel ────────────────────────── */
 .ct-add-panel {

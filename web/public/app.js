@@ -982,6 +982,14 @@ btnTools.addEventListener('click', e => {
 
 document.addEventListener('click', () => closeTools());
 
+// Theme picker — delegated click on the dropdown
+toolsDropdown.addEventListener('click', e => {
+  const item = e.target.closest('.theme-item');
+  if (!item) return;
+  setTheme(item.dataset.theme);
+  closeTools();
+});
+
 // Populate World Tables from /api/tables — each becomes a roll button
 async function loadWorldTables() {
   try {
