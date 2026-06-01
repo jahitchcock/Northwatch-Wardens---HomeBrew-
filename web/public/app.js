@@ -2602,27 +2602,27 @@ let shopSeason = ''; // '', 'spring', 'summer', 'autumn', 'winter'
 // mult: null = not available this season
 const SEASON_RULES = {
   spring: [
-    { cats: ['healing', 'potions'],                          mult: 1.25, label: '+25% (healing scarce after winter)' },
-    { cats: ['mounts'], nameMatch: /horse|mule|pony|donkey|camel|rental/i, mult: 0.75, label: '-25% (caravans resume)' },
-    { cats: ['mounts'],                                      mult: 0.75, label: '-25% (caravans resume)' },
-    { cats: ['services'], nameMatch: /guide/i,               mult: 0.75, label: '-25% (caravans resume)' },
+    { cats: ['healing', 'potions'],                          mult: 1.25, label: '+25% Greenrise (healing scarce after Deepwinter)' },
+    { cats: ['mounts'], nameMatch: /horse|mule|pony|donkey|camel|rental/i, mult: 0.75, label: '-25% Greenrise (caravans resume)' },
+    { cats: ['mounts'],                                      mult: 0.75, label: '-25% Greenrise (caravans resume)' },
+    { cats: ['services'], nameMatch: /guide/i,               mult: 0.75, label: '-25% Greenrise (caravans resume)' },
   ],
   summer: [
-    { cats: ['food-drink'],                                  mult: 0.90, label: '-10% (fresh produce)' },
+    { cats: ['food-drink'],                                  mult: 0.90, label: '-10% Highsummer (fresh produce)' },
   ],
   autumn: [
-    { cats: ['food-drink'],                                  mult: 0.80, label: '-20% (harvest surplus)' },
-    { cats: ['clothing'],                                    mult: 1.50, label: '+50% (winter gear demand)' },
-    { cats: ['mounts'],                                      mult: 1.25, label: '+25% (last caravans)' },
-    { cats: ['services'], nameMatch: /guide/i,               mult: 1.25, label: '+25% (last caravans)' },
+    { cats: ['food-drink'],                                  mult: 0.80, label: '-20% Deepfall (harvest surplus)' },
+    { cats: ['clothing'],                                    mult: 1.50, label: '+50% Deepfall (Deepwinter gear demand)' },
+    { cats: ['mounts'],                                      mult: 1.25, label: '+25% Deepfall (last caravans before Deepwinter)' },
+    { cats: ['services'], nameMatch: /guide/i,               mult: 1.25, label: '+25% Deepfall (last caravans before Deepwinter)' },
   ],
   winter: [
-    { nameMatch: /firewood/i,                                mult: 5.00, label: '5× (winter firewood)' },
-    { cats: ['food-drink'],                                  mult: 1.50, label: '+50% (stored goods only)' },
-    { cats: ['potions'], nameMatch: /healing/i,              mult: 2.00, label: '+100% (life-saving; scarce)' },
-    { cats: ['healing', 'magical-healing'],                  mult: 2.00, label: '+100% (winter scarcity)' },
-    { cats: ['mounts'],                                      mult: null,  label: 'Not available in winter' },
-    { cats: ['services'], nameMatch: /guide|rental/i,        mult: null,  label: 'Not available in winter' },
+    { nameMatch: /firewood/i,                                mult: 5.00, label: '5× Deepwinter (firewood)' },
+    { cats: ['food-drink'],                                  mult: 1.50, label: '+50% Deepwinter (stored goods only)' },
+    { cats: ['potions'], nameMatch: /healing/i,              mult: 2.00, label: '+100% Deepwinter (life-saving; scarce)' },
+    { cats: ['healing', 'magical-healing'],                  mult: 2.00, label: '+100% Deepwinter (scarcity)' },
+    { cats: ['mounts'],                                      mult: null,  label: 'Unavailable — Deepwinter roads closed' },
+    { cats: ['services'], nameMatch: /guide|rental/i,        mult: null,  label: 'Unavailable — Deepwinter roads closed' },
   ],
 };
 
@@ -2749,10 +2749,10 @@ function renderShopsModal(m, shops) {
         <select id="shop-season-sel"
           style="padding:6px 8px;background:#2a2035;border:1px solid #4a3a6a;color:#c9a0f0;border-radius:4px;font-size:13px">
           <option value="">No season</option>
-          <option value="spring">🌱 Spring</option>
-          <option value="summer">☀️ Summer</option>
-          <option value="autumn">🍂 Autumn</option>
-          <option value="winter">❄️ Winter</option>
+          <option value="spring">🌱 Greenrise</option>
+          <option value="summer">☀️ Highsummer</option>
+          <option value="autumn">🍂 Deepfall</option>
+          <option value="winter">❄️ Deepwinter</option>
         </select>
         <button id="shop-restock-btn" style="padding:4px 10px;background:#2a2035;border:1px solid #5a3a7a;color:#c9a0f0;border-radius:4px;cursor:pointer;font-size:12px;white-space:nowrap">🎲 Restock</button>
         <span id="shop-stock-date" style="font-family:sans-serif;font-size:11px;color:#555;white-space:nowrap"></span>
