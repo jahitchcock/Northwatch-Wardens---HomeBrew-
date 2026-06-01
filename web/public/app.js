@@ -4326,8 +4326,12 @@ async function showMapsModal() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ style, prompt }),
         });
+        if (!r.ok) {
+          let msg = 'Generation failed';
+          try { msg = (await r.json()).error || msg; } catch { /* non-JSON body */ }
+          throw new Error(msg);
+        }
         const data = await r.json();
-        if (!r.ok) throw new Error(data.error || 'Generation failed');
         maps.unshift(data);
         status.innerHTML = '';
         renderModal();
@@ -4349,6 +4353,7 @@ async function showMapsModal() {
             <img src="${thumb.dataset.url}" alt="${escapeHtml(thumb.dataset.name)}">
             <div class="maps-lightbox-name">${escapeHtml(thumb.dataset.name)}</div>
           </div>`;
+        lb.hidden = false;
         lb.classList.add('visible');
       });
     });
@@ -4357,11 +4362,12 @@ async function showMapsModal() {
   // Fetch existing maps
   try {
     const r = await fetch('/api/maps');
-    if (r.ok) maps = await r.json();
+    if (r.ok) { const d = await r.json(); if (Array.isArray(d)) maps = d; }
   } catch { /* show empty gallery */ }
 
+  m.hidden = false;
   renderModal();
-  m.classList.add('visible');
+  requestAnimationFrame(() => m.classList.add('visible'));
 }
 
 document.getElementById('tab-maps')?.addEventListener('click', () => showMapsModal());
