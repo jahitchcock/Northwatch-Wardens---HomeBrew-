@@ -128,7 +128,7 @@ function applyThemeVars(id) {
 function readPrefs() {
   try {
     const entry = document.cookie.split('; ').find(r => r.startsWith('dm_prefs='));
-    return entry ? JSON.parse(decodeURIComponent(entry.split('=')[1])) : {};
+    return entry ? JSON.parse(decodeURIComponent(entry.substring(entry.indexOf('=') + 1))) : {};
   } catch { return {}; }
 }
 
