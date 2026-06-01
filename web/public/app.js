@@ -2594,6 +2594,55 @@ document.getElementById('tab-homebrew') && document.getElementById('tab-homebrew
   if (isMobile()) closeDrawers();
 });
 
+// ─── Shop Seasonal Pricing ────────────────────────────────────────────────────
+
+let shopSeason = ''; // '', 'spring', 'summer', 'autumn', 'winter'
+
+// Rules from gm-lore/practical/common-goods.md
+// mult: null = not available this season
+const SEASON_RULES = {
+  spring: [
+    { cats: ['healing', 'potions'],                          mult: 1.25, label: '+25% (healing scarce after winter)' },
+    { cats: ['mounts'], nameMatch: /horse|mule|pony|donkey|camel|rental/i, mult: 0.75, label: '-25% (caravans resume)' },
+    { cats: ['mounts'],                                      mult: 0.75, label: '-25% (caravans resume)' },
+    { cats: ['services'], nameMatch: /guide/i,               mult: 0.75, label: '-25% (caravans resume)' },
+  ],
+  summer: [
+    { cats: ['food-drink'],                                  mult: 0.90, label: '-10% (fresh produce)' },
+  ],
+  autumn: [
+    { cats: ['food-drink'],                                  mult: 0.80, label: '-20% (harvest surplus)' },
+    { cats: ['clothing'],                                    mult: 1.50, label: '+50% (winter gear demand)' },
+    { cats: ['mounts'],                                      mult: 1.25, label: '+25% (last caravans)' },
+    { cats: ['services'], nameMatch: /guide/i,               mult: 1.25, label: '+25% (last caravans)' },
+  ],
+  winter: [
+    { nameMatch: /firewood/i,                                mult: 5.00, label: '5× (winter firewood)' },
+    { cats: ['food-drink'],                                  mult: 1.50, label: '+50% (stored goods only)' },
+    { cats: ['potions'], nameMatch: /healing/i,              mult: 2.00, label: '+100% (life-saving; scarce)' },
+    { cats: ['healing', 'magical-healing'],                  mult: 2.00, label: '+100% (winter scarcity)' },
+    { cats: ['mounts'],                                      mult: null,  label: 'Not available in winter' },
+    { cats: ['services'], nameMatch: /guide|rental/i,        mult: null,  label: 'Not available in winter' },
+  ],
+};
+
+function getSeasonMod(season, category, itemName) {
+  if (!season || !SEASON_RULES[season]) return null;
+  const lname = itemName.toLowerCase();
+  for (const rule of SEASON_RULES[season]) {
+    const catOk  = !rule.cats || rule.cats.includes(category);
+    const nameOk = !rule.nameMatch || rule.nameMatch.test(lname);
+    if (catOk && nameOk) return rule; // first match wins
+  }
+  return null;
+}
+
+function applySeasonMult(gp, sp, mult) {
+  if (mult === null) return null; // item unavailable
+  const totalSp = Math.round((gp * 10 + sp) * mult);
+  return { gp: Math.floor(totalSp / 10), sp: totalSp % 10 };
+}
+
 // ─── Shop Stock Randomizer ────────────────────────────────────────────────────
 
 const STOCK_ODDS = { available: 0.85, limited: 0.50, rare: 0.20 };
@@ -2697,6 +2746,14 @@ function renderShopsModal(m, shops) {
         <label style="display:flex;align-items:center;gap:6px;font-family:sans-serif;font-size:12px;color:#888;cursor:pointer">
           <input type="checkbox" id="shop-hide-oos" style="cursor:pointer"> Hide out of stock
         </label>
+        <select id="shop-season-sel"
+          style="padding:6px 8px;background:#2a2035;border:1px solid #4a3a6a;color:#c9a0f0;border-radius:4px;font-size:13px">
+          <option value="">No season</option>
+          <option value="spring">🌱 Spring</option>
+          <option value="summer">☀️ Summer</option>
+          <option value="autumn">🍂 Autumn</option>
+          <option value="winter">❄️ Winter</option>
+        </select>
         <button id="shop-restock-btn" style="padding:4px 10px;background:#2a2035;border:1px solid #5a3a7a;color:#c9a0f0;border-radius:4px;cursor:pointer;font-size:12px;white-space:nowrap">🎲 Restock</button>
         <span id="shop-stock-date" style="font-family:sans-serif;font-size:11px;color:#555;white-space:nowrap"></span>
       </div>
@@ -2793,6 +2850,12 @@ function renderShopsModal(m, shops) {
   catSel.addEventListener('change', renderItems);
   shopSel.addEventListener('change', renderItems);
   body.querySelector('#shop-hide-oos').addEventListener('change', renderItems);
+  body.querySelector('#shop-season-sel').addEventListener('change', function () {
+    shopSeason = this.value;
+    renderItems();
+  });
+  // Restore season state if set
+  body.querySelector('#shop-season-sel').value = shopSeason;
 
   body.querySelector('#shop-restock-btn').addEventListener('click', () => {
     rollStockForShops(shops);
@@ -2876,11 +2939,18 @@ function buildItemRow(it, body) {
     return row;
   }
 
+  // Seasonal modifier
+  const mod = getSeasonMod(shopSeason, it.category, it.name);
+  const seasonUnavailable = mod?.mult === null;
+  const adjPrice = (!isHeader && mod && mod.mult !== null && !isServiceItem(it))
+    ? applySeasonMult(it.gp, it.sp, mod.mult)
+    : null; // null = use base price
+
   // Determine current stock quantity
   const snap = getItemStock(it.shopId, it.name);
   const isService = isServiceItem(it);
   const qty = snap.qty; // null = always available (service), number = actual qty
-  const outOfStock = !isService && qty === 0;
+  const outOfStock = (!isService && qty === 0) || seasonUnavailable;
 
   // Qty display
   let qtyBadge = '';
@@ -2902,7 +2972,15 @@ function buildItemRow(it, body) {
       ${it.priceNote ? `<span style="color:#4a4a4a;font-size:11px;margin-left:4px">· ${escapeHtml(it.priceNote)}</span>` : ''}
       ${it.notes ? `<div style="color:#585858;font-size:11px;margin-top:2px;line-height:1.4">${escapeHtml(it.notes)}</div>` : ''}
     </div>
-    <div style="text-align:right;white-space:nowrap;min-width:70px">${formatShopPrice(it.gp, it.sp)}</div>
+    <div style="text-align:right;white-space:nowrap;min-width:80px">
+      ${adjPrice
+        ? `${formatShopPrice(adjPrice.gp, adjPrice.sp)}
+           <div style="text-decoration:line-through;color:#444;font-size:10px">${it.gp || it.sp ? (it.gp ? it.gp+'gp ' : '') + (it.sp ? it.sp+'sp' : '') : 'Free'}</div>
+           <div style="color:#c9a0f0;font-size:10px">${escapeHtml(mod.label)}</div>`
+        : seasonUnavailable
+          ? `<span style="color:#555;font-size:11px;font-style:italic">${escapeHtml(mod.label)}</span>`
+          : formatShopPrice(it.gp, it.sp)}
+    </div>
     <div style="min-width:55px;text-align:right;white-space:nowrap;font-size:11px;color:${outOfStock ? '#444' : stockColor}">${outOfStock ? '—' : it.stock}</div>
     <div style="min-width:70px;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:2px">
       ${qtyBadge}
@@ -2923,8 +3001,10 @@ function buildItemRow(it, body) {
         setTimeout(() => { this.style.borderColor = '#3a5a3a'; }, 600);
         return; // can't add more than available
       }
+      const effGp = adjPrice ? adjPrice.gp : it.gp;
+      const effSp = adjPrice ? adjPrice.sp : it.sp;
       if (cartEntry) cartEntry.qty++;
-      else shopCart.push({ name: it.name, shopId: it.shopId, shopName: it.shopName, gp: it.gp, sp: it.sp, qty: 1 });
+      else shopCart.push({ name: it.name, shopId: it.shopId, shopName: it.shopName, gp: effGp, sp: effSp, qty: 1 });
       const newQty = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
       this.textContent = `+1 (${newQty})`;
       if (body) updateCartBar(body);
