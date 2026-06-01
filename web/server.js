@@ -813,7 +813,7 @@ app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => 
   if (!['topdown', 'scene'].includes(style)) return res.status(400).json({ error: 'style must be topdown or scene' });
 
   const workflowFile = style === 'topdown'
-    ? path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_topdown.json')
+    ? path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_topdown_sdxl.json')
     : path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_scene.json');
 
   let wf;
@@ -827,7 +827,7 @@ app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => 
     ? seed
     : Math.floor(Math.random() * 2**32);
   const resolvedSteps = steps || 25;
-  const resolvedCfg = cfg || (style === 'topdown' ? 7.0 : 8.0);
+  const resolvedCfg = cfg || (style === 'topdown' ? 3.0 : 8.0);
 
   const defaultNeg = style === 'topdown' ? BATTLEMAP_TOPDOWN_NEGATIVE : BATTLEMAP_SCENE_NEGATIVE;
   try {
