@@ -24,6 +24,7 @@ let activeLabel    = null;
 let termFit        = null; // set by initTerminal
 let sendToTerminal = null; // set by initTerminal
 let currentPath    = null;
+let shopCart = []; // { name, shopId, gp, sp, qty }
 
 const btnCtx   = $('btn-ctx');
 const btnPrint = $('btn-print');
@@ -471,6 +472,56 @@ document.addEventListener('click', e => {
   // data-modal-5e links (5etools)
   const e5Link = e.target.closest('[data-modal-5e]');
   if (e5Link) { e.preventDefault(); open5eModal(e5Link.getAttribute('data-modal-5e')); return; }
+
+  // data-gen-homebrew links — generate stub on first click, then show in modal
+  const genLink = e.target.closest('[data-gen-name]');
+  if (genLink) {
+    e.preventDefault();
+    const name  = genLink.dataset.genName;
+    const type  = genLink.dataset.genType  || 'ability';
+    const desc  = genLink.dataset.genDesc  || '';
+    const char  = genLink.dataset.genChar  || '';
+    const m = getFreeModal();
+    if (!m) return;
+    m.querySelector('.modal-title').textContent = name;
+    m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-size:13px">Generating homebrew entry…</div>';
+    m.querySelector('.modal-box').classList.remove('modal-box--tall');
+    m.hidden = false;
+    requestAnimationFrame(() => m.classList.add('visible'));
+    fetch('/api/homebrew/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, type, description: desc, character: char }),
+    })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(({ html, path: filePath }) => {
+        m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;font-family:'Palatino Linotype',Georgia,serif;font-size:13px;color:#2c1810;line-height:1.6">${html}</div>`;
+        // Upgrade the link so future clicks use the file directly
+        genLink.removeAttribute('data-gen-name');
+        genLink.setAttribute('data-modal-file', filePath);
+      })
+      .catch(() => { m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#f38ba8;font-size:13px">Generation failed.</div>'; });
+    return;
+  }
+
+  // data-modal-file links (homebrew markdown files)
+  const fileLink = e.target.closest('[data-modal-file]');
+  if (fileLink) {
+    e.preventDefault();
+    const filePath = fileLink.getAttribute('data-modal-file');
+    const m = getFreeModal();
+    if (!m) return;
+    m.querySelector('.modal-title').textContent = fileLink.textContent.trim();
+    m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-size:13px">Loading…</div>';
+    m.querySelector('.modal-box').classList.remove('modal-box--tall');
+    m.hidden = false;
+    requestAnimationFrame(() => m.classList.add('visible'));
+    fetch(`/api/homebrew-content?path=${encodeURIComponent(filePath)}`)
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(({ html }) => { m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;font-family:'Palatino Linotype',Georgia,serif;font-size:13px;color:#2c1810;line-height:1.6">${html}</div>`; })
+      .catch(() => { m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#f38ba8;font-size:13px">Could not load file.</div>'; });
+    return;
+  }
 
   // NPC table inline modals
   const npcTrigger = e.target.closest('.npc-modal-trigger');
@@ -1954,105 +2005,178 @@ async function showAdventuresModal() {
 }
 
 function renderAdventuresModal(m, adventures) {
-  const bySeason = {};
-  for (const a of adventures) {
-    if (!bySeason[a.season]) bySeason[a.season] = [];
-    bySeason[a.season].push(a);
-  }
+  // Persistent filter state via localStorage
+  let filterSeason = localStorage.getItem('adv-filter-season') || 'all';
+  let filterStatus = localStorage.getItem('adv-filter-status') || 'all';
+
+  const allSeasons = [...new Set(adventures.map(a => a.season))].sort();
 
   const scroll = document.createElement('div');
-  scroll.style.cssText = 'flex:1;overflow-y:auto;padding:20px 24px;';
+  scroll.style.cssText = 'flex:1;overflow-y:auto;padding:16px 20px;display:flex;flex-direction:column;';
 
-  let openCard = null;
+  // ── Summary + filter bar ─────────────────────────────────────────────────────
+  const bar = document.createElement('div');
+  bar.className = 'adv-bar';
+  scroll.appendChild(bar);
 
-  for (const season of Object.keys(bySeason).sort()) {
-    const header = document.createElement('div');
-    header.className = 'adv-header';
-    header.innerHTML = `<span class="adv-season-badge">${season.replace('season-', 'Season ')}</span> Adventures`;
-    scroll.appendChild(header);
+  function recount() {
+    const counts = { current: 0, completed: 0, upcoming: 0 };
+    for (const a of adventures) counts[a.status] = (counts[a.status] || 0) + 1;
+    return counts;
+  }
 
-    const grid = document.createElement('div');
-    grid.className = 'adv-grid';
+  function renderBar() {
+    const counts = recount();
+    const seasonBtns = allSeasons.map(s => {
+      const n = s.replace('season-', '');
+      const active = filterSeason === s ? 'active' : '';
+      return `<button class="adv-filter-btn ${active}" data-fs="${s}">${n}</button>`;
+    }).join('');
+    const statusBtns = ['upcoming','current','completed'].map(st => {
+      const labels = { upcoming:'Upcoming', current:'Current', completed:'Done' };
+      const active = filterStatus === st ? 'active' : '';
+      return `<button class="adv-filter-btn adv-filter-btn--${st} ${active}" data-fst="${st}">${labels[st]}</button>`;
+    }).join('');
 
-    for (const adv of bySeason[season]) {
-      const card = document.createElement('div');
-      card.className = `adv-card ${adv.status}`;
+    bar.innerHTML = `
+      <div class="adv-counts">
+        <span class="adv-summary-stat"><span class="adv-summary-n current">${counts.current}</span> Current</span>
+        <span class="adv-summary-stat"><span class="adv-summary-n completed">${counts.completed}</span> Done</span>
+        <span class="adv-summary-stat"><span class="adv-summary-n upcoming">${counts.upcoming}</span> Upcoming</span>
+      </div>
+      <div class="adv-filters">
+        <span class="adv-filter-label">Season</span>
+        <button class="adv-filter-btn ${filterSeason === 'all' ? 'active' : ''}" data-fs="all">All</button>
+        ${seasonBtns}
+        <span class="adv-filter-sep"></span>
+        <span class="adv-filter-label">Status</span>
+        <button class="adv-filter-btn ${filterStatus === 'all' ? 'active' : ''}" data-fst="all">All</button>
+        ${statusBtns}
+      </div>
+    `;
 
-      const rating = parseInt(adv.mysteryRating, 10) || 0;
-      const dots = Array.from({length: 5}, (_, i) =>
-        `<span class="adv-mystery-dot ${i < rating ? 'active' : ''}"></span>`).join('');
+    bar.querySelectorAll('[data-fs]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterSeason = btn.dataset.fs;
+        localStorage.setItem('adv-filter-season', filterSeason);
+        buildGrids();
+        renderBar();
+      });
+    });
+    bar.querySelectorAll('[data-fst]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterStatus = btn.dataset.fst;
+        localStorage.setItem('adv-filter-status', filterStatus);
+        buildGrids();
+        renderBar();
+      });
+    });
+  }
 
-      const metaItems = [];
-      if (adv.levels) metaItems.push(`<span><span class="adv-meta-label">Levels</span> <span class="adv-meta-value">${escapeHtml(adv.levels)}</span></span>`);
-      if (adv.sessions) metaItems.push(`<span><span class="adv-meta-label">Sessions</span> <span class="adv-meta-value">${escapeHtml(adv.sessions)}</span></span>`);
-      if (adv.duration) metaItems.push(`<span><span class="adv-meta-label">Duration</span> <span class="adv-meta-value">${escapeHtml(adv.duration)}</span></span>`);
-      if (adv.type) metaItems.push(`<span><span class="adv-meta-label">Type</span> <span class="adv-meta-value">${escapeHtml(adv.type)}</span></span>`);
+  // ── Grid area ────────────────────────────────────────────────────────────────
+  const gridArea = document.createElement('div');
+  gridArea.style.cssText = 'flex:1;';
+  scroll.appendChild(gridArea);
 
-      card.innerHTML = `
-        <div class="adv-card-header">
-          <div class="adv-title">${escapeHtml(adv.label)}</div>
-          <span class="adv-status-badge ${adv.status}">${adv.status}</span>
-        </div>
-        <div class="adv-meta">
-          ${metaItems.join('')}
-          <span class="adv-mystery" title="Mystery rating: ${rating}/5">${dots}</span>
-        </div>
+  function buildCard(adv) {
+    const card = document.createElement('div');
+    card.className = `adv-card adv-card--${adv.status}`;
+
+    const rating = parseInt(adv.mysteryRating, 10) || 0;
+    const dots = Array.from({length: 5}, (_, i) =>
+      `<span class="adv-dot ${i < rating ? 'on' : ''}"></span>`).join('');
+    const metaParts = [];
+    if (adv.levels) metaParts.push(`<b>Lv</b> ${escapeHtml(adv.levels)}`);
+    if (adv.sessions) metaParts.push(`<b>Sess</b> ${escapeHtml(adv.sessions)}`);
+    if (adv.duration) metaParts.push(`<b>Dur</b> ${escapeHtml(adv.duration)}`);
+
+    card.innerHTML = `
+      <div class="adv-card-top">
+        <div class="adv-title">${escapeHtml(adv.label)}</div>
+        <button class="adv-open-btn" title="Open adventure file">↗</button>
+      </div>
+      <div class="adv-meta2">
+        ${metaParts.join('<span class="adv-sep">·</span>')}
+      </div>
+      <div class="adv-meta2" style="margin-top:2px">
+        ${adv.type ? `<span style="color:#777">${escapeHtml(adv.type)}</span>` : ''}
+        <span class="adv-dots" title="Mystery ${rating}/5">${dots}</span>
         ${adv.arc ? `<span class="adv-arc">${escapeHtml(adv.arc)}</span>` : ''}
-        ${adv.synopsis ? `<div class="adv-synopsis">${escapeHtml(adv.synopsis)}</div>` : ''}
-        <div class="adv-actions" hidden>
-          <button class="adv-open-btn">Open Adventure ↗</button>
-          <div class="adv-status-row">
-            <span class="adv-status-label">Status:</span>
-            <button class="adv-set-status ${adv.status === 'upcoming' ? 'active' : ''}" data-status="upcoming">Upcoming</button>
-            <button class="adv-set-status ${adv.status === 'current' ? 'active' : ''}" data-status="current">Current</button>
-            <button class="adv-set-status ${adv.status === 'completed' ? 'active' : ''}" data-status="completed">Completed</button>
-          </div>
-        </div>`;
+      </div>
+      ${adv.synopsis ? `<div class="adv-synopsis">${escapeHtml(adv.synopsis)}</div>` : ''}
+      <div class="adv-status-row">
+        <button class="adv-set-status ${adv.status==='upcoming'?'active':''}" data-status="upcoming">Upcoming</button>
+        <button class="adv-set-status ${adv.status==='current'?'active':''}" data-status="current">Current</button>
+        <button class="adv-set-status ${adv.status==='completed'?'active':''}" data-status="completed">Done</button>
+      </div>`;
 
-      const actionsEl = card.querySelector('.adv-actions');
+    card.querySelector('.adv-open-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      openPath(adv.path);
+      closeTopModal();
+    });
 
-      // Card click toggles action row (ignore clicks inside the action row)
-      card.addEventListener('click', e => {
-        if (e.target.closest('.adv-actions')) return;
-        const wasOpen = !actionsEl.hidden;
-        if (openCard && openCard !== card) {
-          openCard.querySelector('.adv-actions').hidden = true;
-          openCard.classList.remove('adv-selected');
-        }
-        actionsEl.hidden = wasOpen;
-        card.classList.toggle('adv-selected', !wasOpen);
-        openCard = wasOpen ? null : card;
-      });
-
-      // Open button
-      card.querySelector('.adv-open-btn').addEventListener('click', () => {
-        openPath(adv.path);
-        closeTopModal();
-      });
-
-      // Status buttons
-      card.querySelectorAll('.adv-set-status').forEach(btn => {
-        btn.addEventListener('click', async () => {
-          const newStatus = btn.dataset.status;
-          // Optimistic update
-          card.className = `adv-card ${newStatus} adv-selected`;
-          card.querySelector('.adv-status-badge').className = `adv-status-badge ${newStatus}`;
-          card.querySelector('.adv-status-badge').textContent = newStatus;
+    card.querySelectorAll('.adv-set-status').forEach(btn => {
+      btn.addEventListener('click', async e => {
+        e.stopPropagation();
+        const newStatus = btn.dataset.status;
+        adv.status = newStatus;
+        // If status filter is active and card no longer matches, rebuild
+        if (filterStatus !== 'all' && filterStatus !== newStatus) {
+          buildGrids();
+        } else {
+          card.className = `adv-card adv-card--${newStatus}`;
           card.querySelectorAll('.adv-set-status').forEach(b =>
             b.classList.toggle('active', b.dataset.status === newStatus));
-          adv.status = newStatus;
-          await fetch('/api/adventures/status', {
+        }
+        renderBar(); // update counts
+        try {
+          const r = await fetch('/api/adventures/status', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ path: adv.path, status: newStatus }),
           });
-        });
+          if (!r.ok) console.warn('Status save failed:', await r.text());
+        } catch (err) {
+          console.warn('Status save error:', err);
+        }
       });
+    });
 
-      grid.appendChild(card);
-    }
-    scroll.appendChild(grid);
+    return card;
   }
+
+  function buildGrids() {
+    gridArea.innerHTML = '';
+    const filtered = adventures.filter(a =>
+      (filterSeason === 'all' || a.season === filterSeason) &&
+      (filterStatus === 'all' || a.status === filterStatus)
+    );
+
+    if (!filtered.length) {
+      gridArea.innerHTML = '<div style="padding:40px;text-align:center;color:#555;font-family:sans-serif;font-size:13px">No adventures match the current filters.</div>';
+      return;
+    }
+
+    const bySeason = {};
+    for (const a of filtered) {
+      if (!bySeason[a.season]) bySeason[a.season] = [];
+      bySeason[a.season].push(a);
+    }
+    for (const season of Object.keys(bySeason).sort()) {
+      const header = document.createElement('div');
+      header.className = 'adv-header';
+      header.innerHTML = `<span class="adv-season-badge">Season ${season.replace('season-', '')}</span>`;
+      gridArea.appendChild(header);
+      const grid = document.createElement('div');
+      grid.className = 'adv-grid';
+      for (const adv of bySeason[season]) grid.appendChild(buildCard(adv));
+      gridArea.appendChild(grid);
+    }
+  }
+
+  renderBar();
+  buildGrids();
 
   m.querySelector('.modal-body').innerHTML = '';
   m.querySelector('.modal-body').appendChild(scroll);
@@ -2138,18 +2262,27 @@ function renderRefModal(m, items, type) {
       const metaItems = [];
       if (isNpc) {
         if (item.role) metaItems.push(`<span class="ref-tag">${escapeHtml(item.role)}</span>`);
-        if (item.status) metaItems.push(`<span class="ref-tag">${escapeHtml(item.status)}</span>`);
+        if (item.status) metaItems.push(`<span class="ref-tag ref-tag--${escapeHtml((item.status||'').toLowerCase())}">${escapeHtml(item.status)}</span>`);
         if (item.location) metaItems.push(`<span>${escapeHtml(item.location)}</span>`);
+        if (item.ac != null) metaItems.push(`<span class="ref-stat">AC&nbsp;${item.ac}</span>`);
+        if (item.hp != null) metaItems.push(`<span class="ref-stat">HP&nbsp;${item.hp}</span>`);
       } else {
         if (item.type) metaItems.push(`<span class="ref-tag">${escapeHtml(item.type)}</span>`);
         if (item.status) metaItems.push(`<span class="ref-tag">${escapeHtml(item.status)}</span>`);
         if (item.region) metaItems.push(`<span>${escapeHtml(item.region)}</span>`);
       }
 
-      return `<div class="ref-card" data-path="${escapeHtml(item.path)}">
-        <div class="ref-title">${escapeHtml(item.name)}</div>
-        <div class="ref-meta">${metaItems.join('')}</div>
-        ${item.synopsis ? `<div class="ref-synopsis">${escapeHtml(item.synopsis)}</div>` : ''}
+      const thumb = (isNpc && item.portrait)
+        ? `<img class="ref-thumb" src="${escapeHtml(item.portrait)}" alt="" loading="lazy">`
+        : '';
+
+      return `<div class="ref-card${isNpc ? ' ref-card--npc' : ''}" data-path="${escapeHtml(item.path)}" data-idx="${escapeHtml(String(items.indexOf(item)))}">
+        ${thumb}
+        <div class="ref-card-body">
+          <div class="ref-title">${escapeHtml(item.name)}</div>
+          <div class="ref-meta">${metaItems.join('')}</div>
+          ${item.synopsis ? `<div class="ref-synopsis">${escapeHtml(item.synopsis)}</div>` : ''}
+        </div>
       </div>`;
     }).join('') : '<div class="ref-empty">No matches</div>';
 
@@ -2178,13 +2311,133 @@ function renderRefModal(m, items, type) {
     // Wire card clicks
     m.querySelectorAll('.ref-card').forEach(card => {
       card.addEventListener('click', () => {
-        openPath(card.dataset.path);
-        closeTopModal();
+        const idx = parseInt(card.dataset.idx, 10);
+        if (isNpc) {
+          showNpcDetail(m, items[idx], items, build);
+        } else if (type === 'location') {
+          showLocationDetail(m, items[idx], build);
+        } else {
+          openPath(card.dataset.path);
+          closeTopModal();
+        }
       });
     });
   }
 
   build();
+}
+
+// ─── NPC Detail View ────────────────────────────────────────────────────────────
+
+async function showNpcDetail(m, npc, allNpcs, backFn) {
+  const metaParts = [];
+  if (npc.role) metaParts.push(`<span class="ref-tag">${escapeHtml(npc.role)}</span>`);
+  if (npc.affiliation) metaParts.push(`<span class="ref-tag">${escapeHtml(npc.affiliation)}</span>`);
+  if (npc.status) metaParts.push(`<span class="ref-tag ref-tag--${escapeHtml((npc.status||'').toLowerCase())}">${escapeHtml(npc.status)}</span>`);
+
+  const statParts = [];
+  if (npc.location) statParts.push(`<span><b>Location:</b> ${escapeHtml(npc.location)}</span>`);
+  if (npc.introduced) statParts.push(`<span><b>Introduced:</b> ${escapeHtml(npc.introduced)}</span>`);
+
+  m.querySelector('.modal-body').innerHTML = `
+    <div class="npc-detail">
+      <button class="npc-back-btn">← Back to NPCs</button>
+      <div class="npc-detail-hero">
+        ${npc.portrait ? `<img class="npc-detail-portrait" src="${escapeHtml(npc.portrait)}" alt="${escapeHtml(npc.name)}">` : '<div class="npc-detail-portrait npc-no-portrait"></div>'}
+        <div class="npc-detail-info">
+          <div class="npc-detail-name">${escapeHtml(npc.name)}</div>
+          <div class="ref-meta" style="margin-bottom:6px">${metaParts.join('')}</div>
+          <div class="npc-detail-stats">${statParts.join('')}</div>
+          ${npc.synopsis ? `<div class="npc-detail-synopsis">${escapeHtml(npc.synopsis)}</div>` : ''}
+          <div class="npc-hero-actions">
+            ${npc.ac != null ? `<div class="npc-stat-frame"><span class="nsf-label">AC</span><span class="nsf-val">${npc.ac}</span></div>` : ''}
+            ${npc.hp != null ? `<div class="npc-stat-frame"><span class="nsf-label">HP</span><span class="nsf-val">${npc.hp}</span></div>` : ''}
+            ${npc.speed ? `<div class="npc-stat-frame"><span class="nsf-label">SPD</span><span class="nsf-val">${escapeHtml(npc.speed)}</span></div>` : ''}
+            <button class="npc-detail-open">Open full file</button>
+          </div>
+        </div>
+      </div>
+      <div class="npc-stat-block" style="padding:0 20px 20px">
+        <div style="color:#666;font-family:sans-serif;font-size:12px;padding:12px 0">Loading stat block…</div>
+      </div>
+    </div>
+  `;
+
+  m.querySelector('.npc-back-btn').addEventListener('click', backFn);
+  m.querySelector('.npc-detail-open').addEventListener('click', () => {
+    openPath(npc.path);
+    closeTopModal();
+  });
+
+  // Load stat block section asynchronously
+  try {
+    const r = await fetch(`/api/npc-statblock?path=${encodeURIComponent(npc.path)}`);
+    const data = await r.json();
+    const statEl = m.querySelector('.npc-stat-block');
+    if (statEl) {
+      if (data.html) {
+        statEl.innerHTML = `<div class="npc-stat-section-label">Stat Block</div><div class="npc-stat-html">${data.html}</div>`;
+      } else {
+        statEl.innerHTML = '';
+      }
+    }
+  } catch {
+    const statEl = m.querySelector('.npc-stat-block');
+    if (statEl) statEl.innerHTML = '';
+  }
+}
+
+// ─── Location Detail View ──────────────────────────────────────────────────────
+
+async function showLocationDetail(m, loc, backFn) {
+  const metaParts = [];
+  if (loc.type) metaParts.push(`<span class="ref-tag">${escapeHtml(loc.type)}</span>`);
+  if (loc.region) metaParts.push(`<span class="ref-tag">${escapeHtml(loc.region)}</span>`);
+  if (loc.status) metaParts.push(`<span class="ref-tag ref-tag--${escapeHtml((loc.status||'').toLowerCase())}">${escapeHtml(loc.status)}</span>`);
+
+  const statParts = [];
+  if (loc.introduced) statParts.push(`<span><b>Introduced:</b> ${escapeHtml(loc.introduced)}</span>`);
+
+  m.querySelector('.modal-body').innerHTML = `
+    <div class="npc-detail">
+      <button class="npc-back-btn">← Back to Locations</button>
+      <div class="loc-detail-hero">
+        <div class="loc-detail-icon">${escapeHtml((loc.type || '?').slice(0,1).toUpperCase())}</div>
+        <div class="npc-detail-info">
+          <div class="npc-detail-name">${escapeHtml(loc.name)}</div>
+          <div class="ref-meta" style="margin-bottom:6px">${metaParts.join('')}</div>
+          <div class="npc-detail-stats">${statParts.join('')}</div>
+          ${loc.synopsis ? `<div class="npc-detail-synopsis">${escapeHtml(loc.synopsis)}</div>` : ''}
+          <div class="npc-hero-actions">
+            <button class="npc-detail-open">Open full file</button>
+          </div>
+        </div>
+      </div>
+      <div class="npc-stat-block" style="padding:0 20px 20px">
+        <div style="color:#666;font-family:sans-serif;font-size:12px;padding:12px 0">Loading…</div>
+      </div>
+    </div>
+  `;
+
+  m.querySelector('.npc-back-btn').addEventListener('click', backFn);
+  m.querySelector('.npc-detail-open').addEventListener('click', () => {
+    openPath(loc.path);
+    closeTopModal();
+  });
+
+  try {
+    const r = await fetch(`/api/location-content?path=${encodeURIComponent(loc.path)}`);
+    const data = await r.json();
+    const el = m.querySelector('.npc-stat-block');
+    if (el && data.html) {
+      el.innerHTML = `<div class="npc-stat-html loc-content-html">${data.html}</div>`;
+    } else if (el) {
+      el.innerHTML = '';
+    }
+  } catch {
+    const el = m.querySelector('.npc-stat-block');
+    if (el) el.innerHTML = '';
+  }
 }
 
 $('tab-npcs').addEventListener('click', () => {
@@ -2196,6 +2449,439 @@ $('tab-locations').addEventListener('click', () => {
   showLocationsModal();
   if (isMobile()) closeDrawers();
 });
+
+// ─── Homebrew Modal ────────────────────────────────────────────────────────────
+
+async function showHomebrewModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Homebrew';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  m.querySelector('.modal-body').style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#1a1a1a';
+  m.querySelector('.modal-body').innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading homebrew…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+  try {
+    const r = await fetch('/api/homebrew');
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const items = await r.json();
+    renderHomebrewModal(m, items);
+  } catch (err) {
+    m.querySelector('.modal-body').innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${escapeHtml(err.message)}</div>`;
+  }
+}
+
+const HB_RARITY_CLASS = {
+  'common': 'hb-r-common', 'uncommon': 'hb-r-uncommon', 'rare': 'hb-r-rare',
+  'very rare': 'hb-r-very-rare', 'legendary': 'hb-r-legendary', 'artifact': 'hb-r-artifact',
+};
+
+function renderHomebrewModal(m, items) {
+  // Collect unique types for filter buttons
+  const typeCounts = {};
+  for (const it of items) {
+    const t = it.type || 'item';
+    typeCounts[t] = (typeCounts[t] || 0) + 1;
+  }
+  const types = Object.keys(typeCounts).sort();
+
+  let activeType = 'all';
+  let searchTerm = '';
+
+  function build() {
+    const filtered = items.filter(it => {
+      if (activeType !== 'all' && it.type !== activeType) return false;
+      if (!searchTerm) return true;
+      const q = searchTerm.toLowerCase();
+      return it.name.toLowerCase().includes(q) ||
+        (it.synopsis || '').toLowerCase().includes(q) ||
+        (it.tags || '').toLowerCase().includes(q) ||
+        (it.source || '').toLowerCase().includes(q);
+    });
+
+    const filterHtml = `<div class="ref-filter">
+      <span style="color:#666;font-size:10px;text-transform:uppercase;letter-spacing:0.05em">Type:</span>
+      <button class="${activeType === 'all' ? 'active' : ''}" data-type="all">All (${items.length})</button>
+      ${types.map(t => `<button class="${activeType === t ? 'active' : ''}" data-type="${escapeHtml(t)}">${escapeHtml(t.charAt(0).toUpperCase() + t.slice(1))} (${typeCounts[t]})</button>`).join('')}
+    </div>`;
+
+    const gridHtml = filtered.length ? filtered.map((it, idx) => {
+      const rarityClass = HB_RARITY_CLASS[(it.rarity || '').toLowerCase()] || '';
+      const rarityLabel = it.rarity ? `<span class="hb-rarity ${rarityClass}">${escapeHtml(it.rarity)}</span>` : '';
+      const attuneLabel = it.attunement ? `<span class="ref-tag">Attunement</span>` : '';
+      const typeTag = `<span class="ref-tag hb-type-tag">${escapeHtml(it.type)}</span>`;
+      const sourceSpan = it.source ? `<span style="color:#666;font-size:10px">${escapeHtml(it.source)}</span>` : '';
+
+      return `<div class="ref-card hb-card" data-idx="${idx}">
+        <div class="hb-card-header">
+          <div class="ref-title">${escapeHtml(it.name)}</div>
+          ${rarityLabel}
+        </div>
+        <div class="ref-meta">${typeTag}${attuneLabel}${sourceSpan}</div>
+        ${it.synopsis ? `<div class="ref-synopsis">${escapeHtml(it.synopsis)}</div>` : ''}
+      </div>`;
+    }).join('') : '<div class="ref-empty">No matches</div>';
+
+    m.querySelector('.modal-body').innerHTML = `
+      <div class="ref-search">
+        <input type="text" placeholder="Search homebrew…" value="${escapeHtml(searchTerm)}">
+      </div>
+      ${filterHtml}
+      <div class="ref-scroll"><div class="ref-grid">${gridHtml}</div></div>
+    `;
+
+    m.querySelector('.ref-search input').addEventListener('input', e => { searchTerm = e.target.value; build(); });
+    m.querySelectorAll('.ref-filter button').forEach(btn =>
+      btn.addEventListener('click', () => { activeType = btn.dataset.type; build(); }));
+    m.querySelectorAll('.hb-card').forEach(card =>
+      card.addEventListener('click', () => {
+        const idx = parseInt(card.dataset.idx, 10);
+        showHomebrewDetail(m, filtered[idx], build);
+      }));
+  }
+
+  build();
+}
+
+async function showHomebrewDetail(m, item, backFn) {
+  const rarityClass = HB_RARITY_CLASS[(item.rarity || '').toLowerCase()] || '';
+  const metaParts = [
+    `<span class="ref-tag hb-type-tag">${escapeHtml(item.type)}</span>`,
+    item.rarity ? `<span class="hb-rarity ${rarityClass}">${escapeHtml(item.rarity)}</span>` : '',
+    item.attunement ? `<span class="ref-tag">Requires Attunement</span>` : '',
+  ].filter(Boolean);
+
+  m.querySelector('.modal-body').innerHTML = `
+    <div class="npc-detail">
+      <button class="npc-back-btn">← Back to Homebrew</button>
+      <div class="hb-detail-hero">
+        <div class="hb-detail-type-icon">${escapeHtml((item.type||'?').slice(0,2).toUpperCase())}</div>
+        <div class="npc-detail-info">
+          <div class="npc-detail-name">${escapeHtml(item.name)}</div>
+          <div class="ref-meta" style="margin-bottom:6px">${metaParts.join('')}</div>
+          ${item.source ? `<div class="npc-detail-stats"><span><b>Source:</b> ${escapeHtml(item.source)}</span></div>` : ''}
+          ${item.synopsis ? `<div class="npc-detail-synopsis">${escapeHtml(item.synopsis)}</div>` : ''}
+          <div class="npc-hero-actions">
+            <button class="npc-detail-open">Open full file</button>
+          </div>
+        </div>
+      </div>
+      <div class="npc-stat-block" style="padding:0 20px 20px">
+        <div style="color:#666;font-family:sans-serif;font-size:12px;padding:8px 0">Loading…</div>
+      </div>
+    </div>
+  `;
+
+  m.querySelector('.npc-back-btn').addEventListener('click', backFn);
+  m.querySelector('.npc-detail-open').addEventListener('click', () => { openPath(item.path); closeTopModal(); });
+
+  try {
+    const r = await fetch(`/api/homebrew-content?path=${encodeURIComponent(item.path)}`);
+    const data = await r.json();
+    const el = m.querySelector('.npc-stat-block');
+    if (el && data.html) {
+      el.innerHTML = `<div class="npc-stat-html hb-content-html">${data.html}</div>`;
+    } else if (el) el.innerHTML = '';
+  } catch {
+    const el = m.querySelector('.npc-stat-block'); if (el) el.innerHTML = '';
+  }
+}
+
+document.getElementById('tab-homebrew') && document.getElementById('tab-homebrew').addEventListener('click', () => {
+  showHomebrewModal();
+  if (isMobile()) closeDrawers();
+});
+
+// ─── Shops Modal ──────────────────────────────────────────────────────────────
+
+document.getElementById('tab-shops') && document.getElementById('tab-shops').addEventListener('click', () => {
+  showShopsModal();
+  if (isMobile()) closeDrawers();
+});
+
+async function showShopsModal() {
+  const m = getFreeModal();
+  if (!m) return;
+  m.querySelector('.modal-title').textContent = 'Shops';
+  m.querySelector('.modal-box').classList.add('modal-box--tall');
+  const body = m.querySelector('.modal-body');
+  body.style.cssText = 'padding:0;display:flex;flex-direction:column;overflow:hidden;background:#1a1a1a';
+  body.innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">Loading shops…</div>';
+  m.hidden = false;
+  requestAnimationFrame(() => m.classList.add('visible'));
+
+  try {
+    const r = await fetch('/api/shops');
+    if (!r.ok) throw new Error('Failed to load shops');
+    const shops = await r.json();
+    if (!shops.length) {
+      body.innerHTML = '<div style="padding:20px;color:#888;font-family:sans-serif;font-size:13px">No shops found.</div>';
+      return;
+    }
+    renderShopsModal(m, shops);
+  } catch (err) {
+    body.innerHTML = `<div style="padding:20px;color:#f38ba8;font-family:sans-serif;font-size:13px">${escapeHtml(err.message)}</div>`;
+  }
+}
+
+function renderShopsModal(m, shops) {
+  const body = m.querySelector('.modal-body');
+
+  body.innerHTML = `
+    <div id="shop-scroll" style="flex:1;overflow-y:auto;padding:16px 20px">
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+        <input id="shop-search" type="search" placeholder="Search items…"
+          style="flex:1;min-width:150px;padding:6px 10px;background:#2a2a2a;border:1px solid #444;color:#e0e0e0;border-radius:4px;font-size:13px">
+        <select id="shop-cat-filter"
+          style="padding:6px 8px;background:#2a2a2a;border:1px solid #444;color:#e0e0e0;border-radius:4px;font-size:13px">
+          <option value="">All categories</option>
+        </select>
+        <select id="shop-shop-filter"
+          style="padding:6px 8px;background:#2a2a2a;border:1px solid #444;color:#e0e0e0;border-radius:4px;font-size:13px">
+          <option value="">All shops</option>
+        </select>
+      </div>
+      <div id="shop-items-list"></div>
+      <div style="margin-top:24px;border-top:1px solid #2a2a2a;padding-top:16px">
+        <div style="color:#666;font-size:11px;font-weight:600;letter-spacing:.08em;margin-bottom:8px">SEARCH 5ETOOLS ITEMS</div>
+        <input id="shop-5e-search" type="search" placeholder="Search 5etools item database…"
+          style="width:100%;box-sizing:border-box;padding:6px 10px;background:#2a2a2a;border:1px solid #444;color:#e0e0e0;border-radius:4px;font-size:13px;margin-bottom:8px">
+        <div id="shop-5e-results"></div>
+      </div>
+    </div>
+    <div id="shop-cart-bar" style="border-top:1px solid #333;padding:8px 20px;background:#111;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-family:sans-serif;font-size:13px">
+      <span style="color:#888">Cart:</span>
+      <span id="shop-cart-count" style="color:#cba135;font-weight:600">0 items</span>
+      <span id="shop-cart-total" style="color:#aaa"></span>
+      <button id="shop-cart-view" style="padding:3px 9px;background:#1a2a3a;border:1px solid #2a4a6a;color:#89b4fa;border-radius:4px;cursor:pointer;font-size:12px" hidden>View</button>
+      <button id="shop-cart-clear" style="padding:3px 9px;background:#3a2020;border:1px solid #6a3030;color:#f38ba8;border-radius:4px;cursor:pointer;font-size:12px" hidden>Clear</button>
+    </div>`;
+
+  // Populate shop filter
+  const shopSel = body.querySelector('#shop-shop-filter');
+  for (const s of shops) {
+    const opt = document.createElement('option');
+    opt.value = s.id;
+    opt.textContent = `${s.name} (${s.location})`;
+    shopSel.appendChild(opt);
+  }
+
+  // Collect all categories
+  const allCats = new Set();
+  for (const s of shops) for (const it of s.items) allCats.add(it.category);
+  const catSel = body.querySelector('#shop-cat-filter');
+  for (const c of [...allCats].sort()) {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c.replace(/-/g, ' ');
+    catSel.appendChild(opt);
+  }
+
+  // Flatten items with shop metadata
+  const allItems = shops.flatMap(s =>
+    s.items.map(it => ({ ...it, shopId: s.id, shopName: s.name, shopLocation: s.location, guildDiscount: s.guildDiscount }))
+  );
+
+  function renderItems() {
+    const q = body.querySelector('#shop-search').value.trim().toLowerCase();
+    const cat = catSel.value;
+    const shopId = shopSel.value;
+    const list = body.querySelector('#shop-items-list');
+
+    const filtered = allItems.filter(it => {
+      if (shopId && it.shopId !== shopId) return false;
+      if (cat && it.category !== cat) return false;
+      if (q && !it.name.toLowerCase().includes(q) && !it.category.toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    if (!filtered.length) {
+      list.innerHTML = '<div style="color:#555;font-size:13px;padding:16px 0">No items match.</div>';
+      return;
+    }
+
+    // Group by shop when showing all shops
+    list.innerHTML = '';
+    if (!shopId) {
+      const byShop = {};
+      for (const it of filtered) {
+        if (!byShop[it.shopId]) byShop[it.shopId] = { name: it.shopName, location: it.shopLocation, items: [] };
+        byShop[it.shopId].items.push(it);
+      }
+      for (const [, group] of Object.entries(byShop)) {
+        const header = document.createElement('div');
+        header.style.cssText = 'color:#888;font-size:11px;font-weight:600;letter-spacing:.08em;padding:12px 0 6px;border-top:1px solid #2a2a2a;margin-top:4px';
+        header.textContent = `${group.name.toUpperCase()} — ${group.location}`;
+        list.appendChild(header);
+        for (const it of group.items) list.appendChild(buildItemRow(it, body));
+      }
+    } else {
+      for (const it of filtered) list.appendChild(buildItemRow(it, body));
+    }
+  }
+
+  body.querySelector('#shop-search').addEventListener('input', renderItems);
+  catSel.addEventListener('change', renderItems);
+  shopSel.addEventListener('change', renderItems);
+
+  body.querySelector('#shop-cart-clear').addEventListener('click', () => {
+    shopCart = [];
+    updateCartBar(body);
+    renderItems();
+  });
+
+  body.querySelector('#shop-cart-view').addEventListener('click', () => {
+    showCartDetail(body);
+  });
+
+  renderItems();
+  updateCartBar(body);
+
+  // Live 5etools item search
+  let searchTimer = null;
+  body.querySelector('#shop-5e-search').addEventListener('input', function () {
+    clearTimeout(searchTimer);
+    const q = this.value.trim();
+    const resultsEl = body.querySelector('#shop-5e-results');
+    if (q.length < 2) { resultsEl.innerHTML = ''; return; }
+    resultsEl.innerHTML = '<span style="color:#555;font-size:12px">Searching…</span>';
+    searchTimer = setTimeout(async () => {
+      try {
+        const r = await fetch(`/api/5etools/item-search?q=${encodeURIComponent(q)}`);
+        const items = await r.json();
+        if (!items.length) {
+          resultsEl.innerHTML = '<span style="color:#555;font-size:12px">No results from 5etools.</span>';
+          return;
+        }
+        resultsEl.innerHTML = '';
+        for (const it of items) {
+          const slug = it.name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+          const src  = (it.source || 'phb').toLowerCase();
+          const url  = `http://localhost:2014/items.html#${slug}_${src}`;
+          const div  = document.createElement('div');
+          div.style.cssText = 'padding:5px 0;border-bottom:1px solid #222;font-family:sans-serif;font-size:13px;display:flex;gap:10px;align-items:baseline';
+          div.innerHTML = `
+            <a href="${url}" target="_blank" style="color:#c9b37e;text-decoration:none;flex:1">${escapeHtml(it.name)}</a>
+            <span style="color:#555;font-size:11px">${escapeHtml(it.source || 'PHB')}</span>
+            ${it.rarity && it.rarity !== 'none' ? `<span style="color:#888;font-size:11px">${escapeHtml(it.rarity)}</span>` : ''}`;
+          resultsEl.appendChild(div);
+        }
+      } catch {
+        resultsEl.innerHTML = '<span style="color:#f38ba8;font-size:12px">5etools offline or unavailable.</span>';
+      }
+    }, 300);
+  });
+}
+
+function formatShopPrice(gp, sp) {
+  if (gp === 0 && sp === 0) return '<span style="color:#a8d8a8;font-weight:600">Free</span>';
+  const parts = [];
+  if (gp) parts.push(`<span style="color:#cba135;font-weight:600">${gp}gp</span>`);
+  if (sp) parts.push(`<span style="color:#aaa">${sp}sp</span>`);
+  return parts.join(' ');
+}
+
+const SHOP_STOCK_STYLE = { available: '#a8d8a8', limited: '#f9c74f', rare: '#f38ba8' };
+
+function buildItemRow(it, body) {
+  const row = document.createElement('div');
+  const inCart = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
+  const stockColor = SHOP_STOCK_STYLE[it.stock] || '#888';
+  const url5e = it['5etoolsId']
+    ? `http://localhost:2014/items.html#${it['5etoolsId']}`
+    : null;
+
+  row.style.cssText = 'display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid #242424;font-family:sans-serif;font-size:13px';
+  row.innerHTML = `
+    <div style="flex:1;min-width:0">
+      ${url5e
+        ? `<a href="${url5e}" target="_blank" style="color:#c9b37e;text-decoration:none;font-weight:500">${escapeHtml(it.name)}</a>`
+        : `<span style="color:#d4c5a0;font-weight:500">${escapeHtml(it.name)}</span>`}
+      <span style="color:#484848;font-size:11px;margin-left:6px">${escapeHtml(it.category.replace(/-/g, ' '))}</span>
+      ${it.priceNote ? `<span style="color:#555;font-size:11px;margin-left:4px">· ${escapeHtml(it.priceNote)}</span>` : ''}
+      ${it.notes ? `<div style="color:#666;font-size:11px;margin-top:2px;line-height:1.4">${escapeHtml(it.notes)}</div>` : ''}
+    </div>
+    <div style="text-align:right;white-space:nowrap;min-width:70px">${formatShopPrice(it.gp, it.sp)}</div>
+    <div style="min-width:55px;text-align:right;white-space:nowrap;font-size:11px;color:${stockColor}">${it.stock}</div>
+    <div style="min-width:54px;text-align:right">
+      <button class="shop-add-btn" style="padding:3px 8px;background:#2a3a2a;border:1px solid #3a5a3a;color:#a8d8a8;border-radius:4px;cursor:pointer;font-size:11px">
+        ${inCart ? `+1 (${inCart})` : '+ Add'}
+      </button>
+    </div>`;
+
+  row.querySelector('.shop-add-btn').addEventListener('click', function () {
+    const existing = shopCart.find(c => c.name === it.name && c.shopId === it.shopId);
+    if (existing) existing.qty++;
+    else shopCart.push({ name: it.name, shopId: it.shopId, shopName: it.shopName, gp: it.gp, sp: it.sp, qty: 1 });
+    const qty = shopCart.find(c => c.name === it.name && c.shopId === it.shopId)?.qty || 0;
+    this.textContent = `+1 (${qty})`;
+    if (body) updateCartBar(body);
+  });
+
+  return row;
+}
+
+function updateCartBar(body) {
+  const countEl = body.querySelector('#shop-cart-count');
+  const totalEl = body.querySelector('#shop-cart-total');
+  const clearBtn = body.querySelector('#shop-cart-clear');
+  const viewBtn  = body.querySelector('#shop-cart-view');
+  if (!countEl) return;
+
+  const totalItems = shopCart.reduce((s, c) => s + c.qty, 0);
+  countEl.textContent = `${totalItems} item${totalItems !== 1 ? 's' : ''}`;
+
+  let totalGp = shopCart.reduce((s, c) => s + c.gp * c.qty, 0);
+  let totalSp = shopCart.reduce((s, c) => s + c.sp * c.qty, 0);
+  totalGp += Math.floor(totalSp / 10);
+  totalSp = totalSp % 10;
+  const parts = [];
+  if (totalGp) parts.push(`${totalGp}gp`);
+  if (totalSp) parts.push(`${totalSp}sp`);
+  totalEl.textContent = parts.length ? `— ${parts.join(' ')} total` : '';
+  if (clearBtn) clearBtn.hidden = totalItems === 0;
+  if (viewBtn)  viewBtn.hidden  = totalItems === 0;
+}
+
+function showCartDetail(body) {
+  if (!shopCart.length) return;
+  let html = '<div style="font-family:sans-serif;font-size:13px;padding:4px 0">';
+  const byShop = {};
+  for (const c of shopCart) {
+    if (!byShop[c.shopId]) byShop[c.shopId] = { name: c.shopName, items: [] };
+    byShop[c.shopId].items.push(c);
+  }
+  for (const [, group] of Object.entries(byShop)) {
+    html += `<div style="color:#888;font-size:11px;font-weight:600;letter-spacing:.06em;margin-bottom:4px">${escapeHtml(group.name.toUpperCase())}</div>`;
+    for (const c of group.items) {
+      const lineGp = c.gp * c.qty + Math.floor((c.sp * c.qty) / 10);
+      const lineSp = (c.sp * c.qty) % 10;
+      const priceStr = [lineGp ? `${lineGp}gp` : '', lineSp ? `${lineSp}sp` : ''].filter(Boolean).join(' ') || 'Free';
+      html += `<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #222">
+        <span style="color:#d4c5a0">${escapeHtml(c.name)} ×${c.qty}</span>
+        <span style="color:#cba135">${priceStr}</span>
+      </div>`;
+    }
+    html += '<div style="margin-bottom:10px"></div>';
+  }
+  let totalGp = shopCart.reduce((s, c) => s + c.gp * c.qty, 0);
+  let totalSp = shopCart.reduce((s, c) => s + c.sp * c.qty, 0);
+  totalGp += Math.floor(totalSp / 10);
+  totalSp = totalSp % 10;
+  const totalStr = [totalGp ? `${totalGp}gp` : '', totalSp ? `${totalSp}sp` : ''].filter(Boolean).join(' ') || 'Free';
+  html += `<div style="border-top:2px solid #444;padding-top:8px;margin-top:4px;display:flex;justify-content:space-between;font-weight:600">
+    <span style="color:#aaa">Total</span>
+    <span style="color:#cba135">${totalStr}</span>
+  </div></div>`;
+
+  const n = getFreeModal();
+  if (!n) return;
+  n.querySelector('.modal-title').textContent = 'Cart';
+  n.querySelector('.modal-box').classList.remove('modal-box--tall');
+  n.querySelector('.modal-body').innerHTML = `<div style="padding:16px">${html}</div>`;
+  n.hidden = false;
+  requestAnimationFrame(() => n.classList.add('visible'));
+}
 
 document.querySelectorAll('.tr-tab').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -2837,17 +3523,127 @@ function extractFrontmatterClient(content) {
 const BASE_5E = `http://${location.hostname}:2014`;
 
 const CLASS_5E = {
-  paladin: 'classes.html#paladin',
-  warlock: 'classes.html#warlock',
-  ranger:  'classes.html#ranger',
+  paladin: 'classes.html#paladin_phb',
+  warlock: 'classes.html#warlock_phb',
+  ranger:  'classes.html#ranger_phb',
+  bard:    'classes.html#bard_phb',
+  cleric:  'classes.html#cleric_phb',
 };
 
+// 5etools slugs for class features and abilities
 const FEATURE_5E = {
-  'divine smite':     'classes.html#paladin_phb',
-  'lay on hands':     'classes.html#paladin_phb,state:feature=s0-1~ishideoutline=b1',
-  "hunter's mark":    "spells.html#hunter's mark_phb",
-  'eldritch blast':   'spells.html#eldritch blast_phb',
-  'chill touch':      'spells.html#chill touch_phb',
+  // Paladin
+  'divine smite':                   'classes.html#paladin_phb',
+  'lay on hands':                   'classes.html#paladin_phb',
+  'divine sense':                   'classes.html#paladin_phb',
+  'fighting style: great weapon fighting': 'classes.html#paladin_phb',
+  'sacred oath: oath of devotion':  'classes.html#paladin_phb',
+  'channel divinity: sacred weapon':'classes.html#paladin_phb',
+  'channel divinity: turn the unholy': 'classes.html#paladin_phb',
+  'savage attacker':                'feats.html#savage attacker_phb',
+  // Cleric
+  'eyes of night':                  'classes.html#cleric_phb',
+  'vigilant blessing':              'classes.html#cleric_phb',
+  'channel divinity: turn undead':  'classes.html#cleric_phb',
+  'channel divinity: twilight sanctuary': 'classes.html#cleric_phb',
+  // Elf / Half-Elf
+  'fey ancestry':                   'races.html#elf_phb',
+  'trance':                         'races.html#elf_phb',
+  'keen senses':                    'races.html#elf_phb',
+  'fey step':                       'races.html#eladrin_(variant)_mtf',
+  // Bard
+  'bardic inspiration':             'classes.html#bard_phb',
+  'song of rest':                   'classes.html#bard_phb',
+  'mantle of inspiration':          'classes.html#bard_phb',
+  'countercharm':                   'classes.html#bard_phb',
+  'darkvision':                     'races.html#tiefling_phb',
+  'hellish resistance':             'races.html#tiefling_phb',
+  // Ranger
+  'favored enemy':                  'classes.html#ranger_phb',
+  'natural explorer':               'classes.html#ranger_phb',
+  'fighting style: archery':        'classes.html#ranger_phb',
+  "ranger's companion":             'classes.html#ranger_phb',
+  'primeval awareness':             'classes.html#ranger_phb',
+  // Warlock
+  'awakened mind':                  'classes.html#warlock_phb',
+  'pact of the chain':              'classes.html#warlock_phb',
+  'armor of shadows':               'classes.html#warlock_phb',
+  'fiendish vigor':                 'classes.html#warlock_phb',
+  // Feats
+  'resourceful':                    'feats.html#resourceful_xphb',
+  // Twilight Cleric (TCE)
+  'heart of darkness':              'classes.html#cleric_tce',
+  // Beastmaster Ranger
+  'ranger archetype: beastmaster':  'classes.html#ranger_phb',
+};
+
+// 5etools slugs for spells (spells.html#name_source)
+const SPELL_5E = {
+  // Paladin
+  'protection from evil and good':  'spells.html#protection from evil and good_phb',
+  'sanctuary':                      'spells.html#sanctuary_phb',
+  'searing smite':                  'spells.html#searing smite_phb',
+  'thunderous smite':               'spells.html#thunderous smite_phb',
+  // Cleric / Twilight Domain
+  'faerie fire':                    'spells.html#faerie fire_phb',
+  'sleep':                          'spells.html#sleep_phb',
+  'guidance':                       'spells.html#guidance_phb',
+  'toll the dead':                  'spells.html#toll the dead_xge',
+  'sacred flame':                   'spells.html#sacred flame_phb',
+  // Bard
+  'mage hand':                      'spells.html#mage hand_phb',
+  'message':                        'spells.html#message_phb',
+  'prestidigitation':               'spells.html#prestidigitation_phb',
+  'charm person':                   'spells.html#charm person_phb',
+  'disguise self':                  'spells.html#disguise self_phb',
+  'healing word':                   'spells.html#healing word_phb',
+  'thunderwave':                    'spells.html#thunderwave_phb',
+  'burning hands':                  'spells.html#burning hands_phb',
+  'flame blade':                    'spells.html#flame blade_phb',
+  // Ranger
+  "hunter's mark":                  "spells.html#hunter's mark_phb",
+  'ensnaring strike':               'spells.html#ensnaring strike_phb',
+  'speak with animals':             'spells.html#speak with animals_phb',
+  // Warlock
+  'eldritch blast':                 'spells.html#eldritch blast_phb',
+  'chill touch':                    'spells.html#chill touch_phb',
+  'false life':                     'spells.html#false life_phb',
+};
+
+// 5etools slugs for weapons (items.html#name_phb)
+const WEAPON_5E = {
+  'longsword':       'items.html#longsword_phb',
+  'shortsword':      'items.html#shortsword_phb',
+  'short sword':     'items.html#shortsword_phb',
+  'scimitar':        'items.html#scimitar_phb',
+  'rapier':          'items.html#rapier_phb',
+  'dagger':          'items.html#dagger_phb',
+  'javelin':         'items.html#javelin_phb',
+  'mace':            'items.html#mace_phb',
+  'sickle':          'items.html#sickle_phb',
+  'longbow':         'items.html#longbow_phb',
+  'long bow':        'items.html#longbow_phb',
+  'shortbow':        'items.html#shortbow_phb',
+  'light crossbow':  'items.html#crossbow, light_phb',
+  'hand crossbow':   'items.html#crossbow, hand_phb',
+  'heavy crossbow':  'items.html#crossbow, heavy_phb',
+  'greataxe':        'items.html#greataxe_phb',
+  'greatsword':      'items.html#greatsword_phb',
+  'handaxe':         'items.html#handaxe_phb',
+  'spear':           'items.html#spear_phb',
+  'quarterstaff':    'items.html#quarterstaff_phb',
+  'warhammer':       'items.html#warhammer_phb',
+  'unarmed strike':  'actions.html#unarmed strike_phb',
+};
+
+// Homebrew file paths (relative to campaign root, served via /api/homebrew-content)
+const HOMEBREW_LINKS = {
+  'antlers of the first fallen': 'homebrew/items/antlers-of-the-first-fallen.md',
+  'legacy of cania':             'homebrew/abilities/legacy-of-cania.md',
+  'bonded companion':            'homebrew/abilities/bonded-companion.md',
+  'bite':                        'homebrew/abilities/bonded-companion.md',
+  'cold puff':                   'homebrew/abilities/cold-puff.md',
+  'glide':                       'homebrew/abilities/glide.md',
 };
 
 const ABILITY_FULL = {
@@ -2857,6 +3653,32 @@ const ABILITY_FULL = {
 
 function link5eInline(text, slug) {
   return `<a href="#" class="link-5e-inline" data-modal-5e="${BASE_5E}/${slug}">${text}</a>`;
+}
+
+function linkHomebrew(text, filePath) {
+  return `<a href="#" class="link-5e-inline" data-modal-file="${filePath}">${text}</a>`;
+}
+
+// Link a single spell name: checks SPELL_5E then FEATURE_5E, falls back to homebrew generate link
+function linkSpell(name, character) {
+  const key = name.trim().toLowerCase();
+  if (SPELL_5E[key])   return link5eInline(name.trim(), SPELL_5E[key]);
+  if (FEATURE_5E[key]) return link5eInline(name.trim(), FEATURE_5E[key]);
+  return linkGenerate(name.trim(), 'spell', '', character);
+}
+
+// Link each spell in a comma-separated cell value
+function linkSpellList(csv, character) {
+  return csv.split(/,\s*/).map(s => linkSpell(s, character)).join(', ');
+}
+
+// Render a "generate homebrew" link for unknown spells/abilities
+function linkGenerate(name, type, description, character) {
+  const enc = s => s.replace(/"/g, '&quot;');
+  return `<a href="#" class="link-5e-inline link-homebrew-gen" `
+    + `data-gen-name="${enc(name)}" data-gen-type="${type}" `
+    + `data-gen-desc="${enc(description || '')}" data-gen-char="${enc(character || '')}">`
+    + `${name}</a>`;
 }
 
 function renderCharacterSheet(char) {
@@ -2902,8 +3724,11 @@ function renderCharacterSheet(char) {
   ).join('')}</div>`;
 
   const featuresHtml = (char.features || []).map(f => {
-    const slug = FEATURE_5E[f.name.toLowerCase()];
-    const nameHtml = slug ? link5eInline(f.name, slug) : `<strong>${f.name}</strong>`;
+    const key = f.name.toLowerCase();
+    let nameHtml;
+    if (FEATURE_5E[key])                               nameHtml = link5eInline(f.name, FEATURE_5E[key]);
+    else if (key in HOMEBREW_LINKS && HOMEBREW_LINKS[key]) nameHtml = linkHomebrew(f.name, HOMEBREW_LINKS[key]);
+    else                                               nameHtml = linkGenerate(f.name, 'ability', f.description || '', char.name);
     return `<div class="pc-feature">
       <div class="pc-feature-name">${nameHtml}${f.subtitle ? ` <span class="pc-feature-sub">— ${f.subtitle}</span>` : ''}</div>
       ${f.description ? `<div class="pc-feature-desc">${f.description}</div>` : ''}
@@ -2914,8 +3739,13 @@ function renderCharacterSheet(char) {
   const attacksHtml = `<table class="pc-attacks">
     <thead><tr><th>Attack</th><th>Bonus</th><th>Damage</th>${hasNotes ? '<th>Notes</th>' : ''}</tr></thead>
     <tbody>${(char.attacks || []).map(a => {
-      const slug = FEATURE_5E[a.name.toLowerCase()];
-      const nameHtml = slug ? link5eInline(a.name, slug) : a.name;
+      const key = a.name.toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+      let nameHtml;
+      if (WEAPON_5E[key])        nameHtml = link5eInline(a.name, WEAPON_5E[key]);
+      else if (SPELL_5E[key])    nameHtml = link5eInline(a.name, SPELL_5E[key]);
+      else if (FEATURE_5E[key])  nameHtml = link5eInline(a.name, FEATURE_5E[key]);
+      else if (key in HOMEBREW_LINKS && HOMEBREW_LINKS[key]) nameHtml = linkHomebrew(a.name, HOMEBREW_LINKS[key]);
+      else                       nameHtml = linkGenerate(a.name, 'ability', '', char.name);
       return `<tr><td>${nameHtml}</td><td>${a.bonus || '—'}</td><td>${a.damage || '—'}</td>${hasNotes ? `<td>${a.notes || ''}</td>` : ''}</tr>`;
     }).join('')}</tbody>
   </table>`;
@@ -2925,6 +3755,46 @@ function renderCharacterSheet(char) {
     char.weaponProf ? `<div class="pc-prof-row"><span class="pc-def-label">Weapons: </span>${char.weaponProf}</div>` : '',
     char.toolProf   ? `<div class="pc-prof-row"><span class="pc-def-label">Tools: </span>${char.toolProf}</div>` : '',
   ].join('');
+
+  let spellsHtml = '';
+  if (char.spellcasting) {
+    const sc = char.spellcasting;
+    const statsHtml = [
+      sc.ability   ? `<span class="pc-spell-stat"><span class="pc-def-label">Ability: </span>${sc.ability}</span>` : '',
+      sc.attackMod ? `<span class="pc-spell-stat"><span class="pc-def-label">Attack: </span>${sc.attackMod}</span>` : '',
+      sc.saveDC    ? `<span class="pc-spell-stat"><span class="pc-def-label">Save DC: </span>${sc.saveDC}</span>` : '',
+    ].filter(Boolean).join('');
+
+    const slotsHtml = sc.slots.length ? `
+      <table class="pc-spell-table">
+        <thead><tr><th>Slot</th><th>Total</th><th>Used</th></tr></thead>
+        <tbody>${sc.slots.map(s => `<tr><td>${s.level}</td><td>${s.total}</td><td>${s.used}</td></tr>`).join('')}</tbody>
+      </table>` : '';
+
+    const prepHtml = sc.prepared.length ? `
+      <table class="pc-spell-table pc-spell-table--wide">
+        <thead><tr><th>Level</th><th>Spells</th></tr></thead>
+        <tbody>${sc.prepared.map(p => `<tr><td style="white-space:nowrap">${p.level}</td><td>${linkSpellList(p.spells, char.name)}</td></tr>`).join('')}</tbody>
+      </table>` : '';
+
+    const extraHtml = (sc.extraSpellLists || []).map(list => `
+      <div class="pc-spell-extra">
+        <div class="pc-spell-extra-title">${list.title}</div>
+        <table class="pc-spell-table pc-spell-table--wide">
+          <thead><tr><th>Level</th><th>Spells</th></tr></thead>
+          <tbody>${list.entries.map(e => `<tr><td style="white-space:nowrap">${e.level}</td><td>${linkSpellList(e.spells, char.name)}</td></tr>`).join('')}</tbody>
+        </table>
+      </div>`).join('');
+
+    spellsHtml = `<div class="pc-section">
+      <div class="pc-section-title">Spellcasting</div>
+      ${statsHtml ? `<div class="pc-spell-stats">${statsHtml}</div>` : ''}
+      <div class="pc-spell-grid">
+        ${slotsHtml}${prepHtml}
+      </div>
+      ${extraHtml}
+    </div>`;
+  }
 
   const playerLine = char.isCompanion
     ? `Companion of <strong>Perkia</strong>`
@@ -2947,6 +3817,7 @@ function renderCharacterSheet(char) {
       <div class="pc-col-center">
         <div class="pc-combat">${combatHtml}</div>
         <div class="pc-section"><div class="pc-section-title">Attacks</div>${attacksHtml}</div>
+        ${spellsHtml}
         ${featuresHtml ? `<div class="pc-section"><div class="pc-section-title">Features & Abilities</div>${featuresHtml}</div>` : ''}
       </div>
       <div class="pc-col-right">

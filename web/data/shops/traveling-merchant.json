@@ -1,0 +1,33 @@
+{
+  "id": "traveling-merchant",
+  "name": "Caravin Silk — Traveling Merchant",
+  "location": "Wandering (Northreach circuit)",
+  "region": "northreach",
+  "keeper": "Caravin Silk",
+  "description": "A gnome merchant who runs a painted wagon along the Northreach circuit — Waystone to Welton to Pinebrook to Palebank and back. Caravin has an eye for unusual goods, a gift for gossip, and a complete unwillingness to explain where certain items came from. His prices are negotiable but his starting point is aggressive. He appears roughly every 3–4 weeks unless the roads are bad, in which case he appears whenever he feels like it.",
+  "tags": ["special", "exotic", "rare", "negotiable"],
+  "guildDiscount": false,
+  "notes": "Caravin's stock rotates — not everything here is always available. Roll or choose 1d6+4 items from the list as current stock. He responds well to Persuasion (DC 12 for 10% discount, DC 16 for 20%). He always knows one useful rumor; it costs 5gp or a drink.",
+  "items": [
+    { "name": "Potion of Healing",           "category": "potions",     "gp": 90,  "sp": 0,  "priceNote": "Above market; he knows you need it",    "stock": "limited",   "notes": "2–3 vials at most. 'Supply and demand, friend.'" },
+    { "name": "Potion of Greater Healing",   "category": "potions",     "gp": 350, "sp": 0,  "priceNote": "Very rare in Northreach",               "stock": "rare",      "notes": "One vial. He won't say where it came from." },
+    { "name": "Potion of Climbing",          "category": "potions",     "gp": 75,  "sp": 0,  "priceNote": "Specialty item",                        "stock": "rare",      "5etoolsId": "potion_of_climbing_dmg" },
+    { "name": "Scroll of Identify (1st)",    "category": "scrolls",     "gp": 50,  "sp": 0,  "priceNote": "Standard scroll pricing",               "stock": "limited",   "notes": "Useful for that mystery artifact." },
+    { "name": "Scroll of Comprehend Languages (1st)", "category": "scrolls", "gp": 50, "sp": 0, "priceNote": "Standard scroll pricing",          "stock": "rare",      "5etoolsId": "spell_scroll_(1st_level)_dmg" },
+    { "name": "Spell Scroll (2nd level)",    "category": "scrolls",     "gp": 150, "sp": 0,  "priceNote": "Standard; spell varies by stock",      "stock": "rare",      "5etoolsId": "spell_scroll_(2nd_level)_dmg", "notes": "Ask Caravin what spells are available. He usually has 1–2." },
+    { "name": "Dust of Disappearance",       "category": "exotic",      "gp": 300, "sp": 0,  "priceNote": "Rare; he enjoys the drama",             "stock": "rare",      "notes": "One small pouch. 'Very limited supply, very unlimited usefulness.'" },
+    { "name": "Magnifying Glass",            "category": "tools",       "gp": 100, "sp": 0,  "priceNote": "Rare; imported from Solaris",           "stock": "rare",      "5etoolsId": "magnifying_glass_phb" },
+    { "name": "Spyglass",                    "category": "tools",       "gp": 1000,"sp": 0,  "priceNote": "Frontier rarity; he knows it",          "stock": "rare",      "5etoolsId": "spyglass_phb", "notes": "Negotiable down to ~750gp. Maybe." },
+    { "name": "Hourglass",                   "category": "tools",       "gp": 15,  "sp": 0,  "priceNote": "Standard",                              "stock": "limited",   "5etoolsId": "hourglass_phb" },
+    { "name": "Merchant's Scale",            "category": "tools",       "gp": 5,   "sp": 0,  "priceNote": "Standard",                              "stock": "limited",   "5etoolsId": "merchant's_scale_phb" },
+    { "name": "Perfume (vial)",              "category": "luxury",      "gp": 5,   "sp": 0,  "priceNote": "Standard",                              "stock": "available", "5etoolsId": "perfume_(vial)_phb" },
+    { "name": "Playing Cards",              "category": "luxury",      "gp": 0,   "sp": 5,  "priceNote": "Standard",                              "stock": "available",  "5etoolsId": "playing_card_set_phb" },
+    { "name": "Dice Set",                    "category": "luxury",      "gp": 0,   "sp": 1,  "priceNote": "Standard",                              "stock": "available",  "5etoolsId": "dice_set_phb" },
+    { "name": "Fine Wine (Solaris vintage)", "category": "luxury",      "gp": 15,  "sp": 0,  "priceNote": "Frontier rarity price",                 "stock": "limited",   "notes": "One case (6 bottles). 'For special occasions only. Or Tuesdays.'" },
+    { "name": "Ink and Quill (per bottle)",  "category": "supplies",    "gp": 10,  "sp": 0,  "priceNote": "1.5× PHB; limited",                    "stock": "limited",   "5etoolsId": "ink_(1_ounce_bottle)_phb" },
+    { "name": "Parchment (per sheet)",       "category": "supplies",    "gp": 0,   "sp": 2,  "priceNote": "Standard",                              "stock": "available", "5etoolsId": "parchment_(one_sheet)_phb" },
+    { "name": "Map, local area",             "category": "information", "gp": 5,   "sp": 0,  "priceNote": "Variable quality",                      "stock": "limited",   "notes": "Caravin sells route maps of varying accuracy. Some are genuinely useful." },
+    { "name": "Rumor (current)",             "category": "information", "gp": 5,   "sp": 0,  "priceNote": "One piece of local intelligence",       "stock": "available", "notes": "Caravin always has one good rumor. Price is a drink or 5gp." },
+    { "name": "Aeorian Trinket",             "category": "exotic",      "gp": 50,  "sp": 0,  "priceNote": "He claims it's genuine",                "stock": "rare",      "notes": "Small object of uncertain origin. Faintly warm to the touch. Detect Magic shows a faint transmutation aura. What it does — if anything — is unknown." }
+  ]
+}

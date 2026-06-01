@@ -1,0 +1,33 @@
+{
+  "id": "waystone-services",
+  "name": "Waystone Services",
+  "location": "Waystone Inn",
+  "region": "northreach",
+  "keeper": "Mara Fenwick / Lorewarden Elric Vael",
+  "description": "Services available at the Waystone Inn. Most are free or reduced for Warden members in good standing. Elric handles arcane services; Mara handles logistics and healing.",
+  "tags": ["services", "healing", "information", "lodging"],
+  "guildDiscount": true,
+  "notes": "Wardens in good standing receive lodging, meals, and basic healing at no cost.",
+  "items": [
+    { "name": "Lodging — Common Bunk",          "category": "lodging",          "gp": 0,    "sp": 0,  "priceNote": "Free for Wardens; 1gp/night non-members",    "stock": "available", "notes": "Bunk in common quarters. Clean, warm, and safe." },
+    { "name": "Lodging — Private Room",          "category": "lodging",          "gp": 5,    "sp": 0,  "priceNote": "5gp/night (non-members only)",               "stock": "available" },
+    { "name": "Meals (breakfast)",               "category": "lodging",          "gp": 0,    "sp": 3,  "priceNote": "Free for Wardens; 3sp non-members",          "stock": "available" },
+    { "name": "Meals (dinner)",                  "category": "lodging",          "gp": 0,    "sp": 5,  "priceNote": "Free for Wardens; 5sp non-members",          "stock": "available" },
+    { "name": "Stable (per animal/night)",       "category": "lodging",          "gp": 0,    "sp": 0,  "priceNote": "Free for Wardens on guild business; 5sp/night non-members", "stock": "available" },
+    { "name": "First Aid (Medicine check)",      "category": "healing",          "gp": 0,    "sp": 5,  "priceNote": "Free for Wardens",                           "stock": "available", "notes": "Mundane treatment. Practitioner makes Medicine check — failure may worsen condition." },
+    { "name": "Disease / Poison Treatment",      "category": "healing",          "gp": 5,    "sp": 0,  "priceNote": "Per day; free for Wardens",                  "stock": "available" },
+    { "name": "Surgery (bones, arrows)",         "category": "healing",          "gp": 25,   "sp": 0,  "priceNote": "Standard",                                   "stock": "available" },
+    { "name": "Cure Wounds (1st level)",         "category": "magical-healing",  "gp": 50,   "sp": 0,  "priceNote": "Standard spellcasting rate",                 "stock": "limited",   "notes": "Requires available spellcaster. Not always on hand." },
+    { "name": "Lesser Restoration (2nd)",        "category": "magical-healing",  "gp": 100,  "sp": 0,  "priceNote": "Standard",                                   "stock": "limited" },
+    { "name": "Remove Curse (3rd)",              "category": "magical-healing",  "gp": 300,  "sp": 0,  "priceNote": "Rare; requires Elric's contacts",            "stock": "rare" },
+    { "name": "Arcane Identification",           "category": "information",      "gp": 25,   "sp": 0,  "priceNote": "Lorewarden Elric; free for Wardens on Aeorian items", "stock": "available", "notes": "Equivalent to Identify spell. Elric takes special interest in Aeorian artifacts." },
+    { "name": "Lore Research — General",         "category": "information",      "gp": 10,   "sp": 0,  "priceNote": "Per question + 1 day; free for Wardens",     "stock": "available" },
+    { "name": "Lore Research — Ancient Texts",   "category": "information",      "gp": 50,   "sp": 0,  "priceNote": "Minimum + 1d4 days",                         "stock": "available", "notes": "Subject to Elric's library holdings and discretion." },
+    { "name": "Lore Research — Rare / Aeorian",  "category": "information",      "gp": 100,  "sp": 0,  "priceNote": "Minimum + weeks; discretionary",             "stock": "rare",      "notes": "Elric will not share everything he knows. Persuasion or trust required for full disclosure." },
+    { "name": "Scribe — Copy Document",          "category": "services",         "gp": 1,    "sp": 0,  "priceNote": "Per page",                                   "stock": "available" },
+    { "name": "Contract Drafting",               "category": "services",         "gp": 5,    "sp": 0,  "priceNote": "Standard",                                   "stock": "available" },
+    { "name": "Witness / Notary",                "category": "services",         "gp": 0,    "sp": 5,  "priceNote": "Standard",                                   "stock": "available" },
+    { "name": "Translation (per page)",          "category": "services",         "gp": 2,    "sp": 0,  "priceNote": "Standard; Elric handles Aeorian script",     "stock": "available" },
+    { "name": "Library Access",                  "category": "information",      "gp": 0,    "sp": 0,  "priceNote": "Free for Wardens; 5gp/session non-members",  "stock": "available", "notes": "Lorewarden Elric's curated collection of maps, expedition reports, and historical documents." }
+  ]
+}

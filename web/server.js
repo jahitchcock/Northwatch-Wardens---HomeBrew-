@@ -1210,6 +1210,79 @@ function parseCharacterSheet(raw, filename) {
     }
   }
 
+  // ── Spellcasting ──────────────────────────────────────────────────────────
+  const spellBlock = getSection('Spellcasting');
+  let spellcasting = null;
+  if (spellBlock.trim()) {
+    const attackM = spellBlock.match(/\*\*Spell Attack Modifier:\*\*\s*([^\n]+)/);
+    const dcM     = spellBlock.match(/\*\*Spell Save DC:\*\*\s*([^\n]+)/);
+    const abilM   = spellBlock.match(/\*\*Spellcasting Ability:\*\*\s*([^\n]+)/);
+
+    // Spell slots: | Level | Total | Used |
+    const slots = [];
+    const slotSection = spellBlock.match(/### Spell Slots\n([\s\S]*?)(?=###|$)/);
+    if (slotSection) {
+      for (const line of slotSection[1].split('\n')) {
+        const m = line.match(/^\|\s*(\d+(?:st|nd|rd|th)?)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|/i);
+        if (m) slots.push({ level: m[1], total: m[2], used: m[3] });
+      }
+    }
+
+    // Prepared spells: | Level | Spells |
+    const prepared = [];
+    const prepSection = spellBlock.match(/### Prepared Spells\n([\s\S]*?)(?=###|$)/);
+    if (prepSection) {
+      for (const line of prepSection[1].split('\n')) {
+        const m = line.match(/^\|\s*(\d+(?:st|nd|rd|th)?|Cantrips?)\s*\|\s*([^|]+?)\s*\|/i);
+        if (m && !/level/i.test(m[1]) && !m[1].includes('---')) {
+          prepared.push({ level: m[1], spells: m[2].trim() });
+        }
+      }
+    }
+
+    // Cantrips: | Cantrip | ... | or ### Cantrips section
+    const cantripSection = spellBlock.match(/### Cantrips?\n([\s\S]*?)(?=###|$)/);
+    if (cantripSection) {
+      const names = [];
+      for (const line of cantripSection[1].split('\n')) {
+        const m = line.match(/^-\s+(.+)/);
+        if (m) names.push(m[1].trim());
+      }
+      if (names.length) prepared.unshift({ level: 'Cantrips', spells: names.join(', ') });
+    }
+
+    spellcasting = {
+      attackMod: attackM ? attackM[1].trim() : '',
+      saveDC:    dcM     ? dcM[1].trim()     : '',
+      ability:   abilM   ? abilM[1].trim()   : '',
+      slots,
+      prepared,
+      extraSpellLists: [],
+    };
+  }
+
+  // Scan Special Abilities for any "### * Spells *" subsections with a Level|Spells table
+  // (e.g. Oath Spells, Domain Spells, Expanded Spells)
+  const spellListRe = /### ([^\n]*Spells[^\n]*)\n([\s\S]*?)(?=\n### |\n## |$)/gi;
+  let slMatch;
+  while ((slMatch = spellListRe.exec(featBlock)) !== null) {
+    const title = slMatch[1].trim();
+    const body  = slMatch[2];
+    const entries = [];
+    for (const line of body.split('\n')) {
+      const m = line.match(/^\|\s*(\d+(?:st|nd|rd|th)?|Cantrips?)\s*\|\s*([^|]+?)\s*\|/i);
+      if (m && !/level/i.test(m[1]) && !m[1].includes('---')) {
+        entries.push({ level: m[1], spells: m[2].trim() });
+      }
+    }
+    if (entries.length) {
+      if (!spellcasting) {
+        spellcasting = { attackMod: '', saveDC: '', ability: '', slots: [], prepared: [], extraSpellLists: [] };
+      }
+      spellcasting.extraSpellLists.push({ title, entries });
+    }
+  }
+
   return {
     name,
     player: tableVal(infoBlock, 'Player Name'),
@@ -1229,7 +1302,7 @@ function parseCharacterSheet(raw, filename) {
     armorProf: armorM ? armorM[1].trim() : '',
     weaponProf: weaponM ? weaponM[1].trim() : '',
     toolProf: toolM ? toolM[1].trim() : '',
-    languages, passives, defenses, features, attacks,
+    languages, passives, defenses, features, attacks, spellcasting,
     isCompanion: /falcor/i.test(filename),
   };
 }
@@ -1511,11 +1584,31 @@ function parseNpcFile(filePath) {
   const abilityMatch = raw.match(/\|\s*\d+\s*\([^)]+\)\s*\|\s*\d+\s*\(([+-]?\d+)\)\s*\|/);
   const dexMod = abilityMatch ? parseInt(abilityMatch[1]) : null;
 
-  // Extract first paragraph after ## Profile as a brief description
-  const profileMatch = raw.match(/## Profile\s*\n+([\s\S]*?)(?=\n## |\n---|\Z)/);
+  // Speed from stat block table: | **Speed** | 30 ft. |
+  const speedMatch = raw.match(/\|\s*\*\*Speed\*\*\s*\|\s*([^|\n]+)/i);
+  const speed = speedMatch ? speedMatch[1].trim() : null;
+
+  // Extract portrait: frontmatter first, then inline image in Profile section
+  let portrait = fm.portrait || '';
+  if (!portrait) {
+    const inlineImg = raw.match(/## Profile[\s\S]*?!\[[^\]]*\]\(([^)]+)\)/);
+    if (inlineImg) portrait = inlineImg[1];
+  }
+
+  // Extract synopsis: first non-image paragraph after ## Profile, first 2 sentences max
+  const profileMatch = raw.match(/## Profile\s*\n+([\s\S]*?)(?=\n## |\n---|$)/);
   let synopsis = '';
   if (profileMatch) {
-    synopsis = profileMatch[1].split('\n\n')[0].trim().replace(/^\*\*.*?\*\*\s*/, '').trim();
+    for (const para of profileMatch[1].split(/\n\n+/)) {
+      const cleaned = para.replace(/!\[[^\]]*\]\([^)]*\)(?:\s*\{[^}]*\})?/g, '').trim();
+      if (cleaned) {
+        // Strip all **Label:** bold prefixes, then take first sentence only
+        const text = cleaned.replace(/\*\*[^*]+:\*\*\s*/g, '').trim();
+        const firstSentence = text.match(/^[^.!?]+[.!?]+/);
+        synopsis = (firstSentence ? firstSentence[0] : text.slice(0, 160)).trim();
+        break;
+      }
+    }
   }
 
   return {
@@ -1528,6 +1621,8 @@ function parseNpcFile(filePath) {
     introduced: fm.introduced || '',
     tags: fm.tags || '',
     synopsis,
+    portrait,
+    speed,
     path: path.relative(CAMPAIGN_ROOT, filePath).replace(/\\/g, '/')
   };
 }
@@ -1563,11 +1658,18 @@ function parseLocationFile(filePath) {
   const fm = extractFrontmatter(raw);
   if (!fm.name) return null;
 
-  // Extract first paragraph after ## Description
-  const descMatch = raw.match(/## Description\s*\n+([\s\S]*?)(?=\n## |\n---|\Z)/);
+  // Extract synopsis: strip all **Label:** prefixes, first sentence of Description
+  const descMatch = raw.match(/## Description\s*\n+([\s\S]*?)(?=\n## |\n---|$)/);
   let synopsis = '';
   if (descMatch) {
-    synopsis = descMatch[1].split('\n\n')[0].trim().replace(/^\*\*.*?\*\*\s*/, '').trim();
+    for (const para of descMatch[1].split(/\n\n+/)) {
+      const cleaned = para.replace(/\*\*[^*]+:\*\*\s*/g, '').trim();
+      if (cleaned) {
+        const first = cleaned.match(/^[^.!?]+[.!?]+/);
+        synopsis = (first ? first[0] : cleaned.slice(0, 160)).trim();
+        break;
+      }
+    }
   }
 
   return {
@@ -1618,27 +1720,234 @@ function escHtml(s) {
 }
 
 function markdownToStatBlockHtml(raw) {
-  // Convert Homebrewery stat block markdown to readable HTML
-  return raw
-    // Strip frontmatter
-    .replace(/^---[\s\S]*?---\n?/, '')
-    // Bold
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    // Italic
-    .replace(/\*(.+?)\*/g, '<em>$1</em>')
-    // Table rows → div rows
-    .replace(/^\|(.+)\|$/gm, (_, cells) => {
-      const cols = cells.split('|').map(c => c.trim()).filter(Boolean);
-      return `<div class="sb-row">${cols.map(c => `<span>${c}</span>`).join('')}</div>`;
-    })
-    // Separator rows (---|---) → hr
-    .replace(/<div class="sb-row">(<span>-+<\/span>)+<\/div>/g, '<hr>')
-    // Headings
-    .replace(/^#{1,3}\s+(.+)$/gm, '<h4>$1</h4>')
-    // Blank lines → paragraph breaks
-    .replace(/\n{2,}/g, '<br><br>')
-    .trim();
+  // Mark separator rows (|:---:|) BEFORE processing table rows
+  raw = raw.replace(/^---[\s\S]*?---\n?/, '');
+  raw = raw.replace(/^\|[\s:|-]+\|$/gm, '[[HR]]');
+  raw = raw.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  raw = raw.replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+  raw = raw.replace(/^#{1,3}\s+(.+)$/gm, '<h4>$1</h4>');
+  // Table rows → sb-row divs (detect ability score header row)
+  const ABILITY_HEADERS = new Set(['STR','DEX','CON','INT','WIS','CHA']);
+  raw = raw.replace(/^\|(.+)\|$/gm, (_, cells) => {
+    const cols = cells.split('|').map(c => c.trim()).filter(Boolean);
+    const isAbilityHeader = cols.length === 6 && cols.every(c => ABILITY_HEADERS.has(c.toUpperCase()));
+    const cls = isAbilityHeader ? 'sb-row sb-row--ab-header' : 'sb-row';
+    return `<div class="${cls}">${cols.map(c => `<span>${c}</span>`).join('')}</div>`;
+  });
+  raw = raw.replace(/\[\[HR\]\]/g, '<hr>');
+  // Bullet items → li, then wrap consecutive li in ul
+  raw = raw.replace(/^[-*]\s+(.+)$/gm, '<li>$1</li>');
+  raw = raw.replace(/(<li>[^\n]*<\/li>\n?)+/g, m =>
+    `<ul style="margin:4px 0 8px;padding-left:18px">${m.trim()}</ul>`);
+  // Double newlines → paragraph break
+  raw = raw.replace(/\n{2,}/g, '<br>');
+  return raw.trim();
 }
+
+// Returns only the ## Stat Block Reference section of an NPC file as HTML
+app.get('/api/npc-statblock', (req, res) => {
+  const relPath = (req.query.path || '').replace(/\\/g, '/');
+  const full = path.resolve(path.join(CAMPAIGN_ROOT, relPath));
+  if (!full.startsWith(path.resolve(path.join(CAMPAIGN_ROOT, 'npcs')))) {
+    return res.status(403).json({ error: 'Forbidden' });
+  }
+  try {
+    const raw = fs.readFileSync(full, 'utf8');
+    const m = raw.match(/## Stat Block Reference\s*\n+([\s\S]*?)(?=\n## |\n---|$)/);
+    if (!m) return res.json({ html: '' });
+    // Strip AC, HP, Speed rows — shown in the stat frames above the stat block
+    const section = m[1].trim()
+      .replace(/^\|[^|]*\*\*Armor Class\*\*[^|]*\|[^\n]*/gm, '')
+      .replace(/^\|[^|]*\*\*Hit Points\*\*[^|]*\|[^\n]*/gm, '')
+      .replace(/^\|[^|]*\*\*Speed\*\*[^|]*\|[^\n]*/gm, '');
+    res.json({ html: markdownToStatBlockHtml(section) });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Returns Description + Notable Features sections of a location file as HTML
+app.get('/api/location-content', (req, res) => {
+  const relPath = (req.query.path || '').replace(/\\/g, '/');
+  const full = path.resolve(path.join(CAMPAIGN_ROOT, relPath));
+  if (!full.startsWith(path.resolve(path.join(CAMPAIGN_ROOT, 'locations')))) {
+    return res.status(403).json({ error: 'Forbidden' });
+  }
+  try {
+    const raw = fs.readFileSync(full, 'utf8');
+    // Extract Description and Notable Features sections
+    const sections = [];
+    for (const heading of ['Description', 'Notable Features', 'Key NPCs Present']) {
+      const m = raw.match(new RegExp(`## ${heading}\\s*\\n+([\\s\\S]*?)(?=\\n## |\\n---|$)`));
+      if (m) sections.push(`## ${heading}\n\n${m[1].trim()}`);
+    }
+    res.json({ html: sections.length ? markdownToStatBlockHtml(sections.join('\n\n')) : '' });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Homebrew API ──────────────────────────────────────────────────────────────
+
+function parseHomebrewFile(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  const fm = extractFrontmatter(raw);
+  const name = fm.title || fm.name || '';
+  if (!name || fm.type === 'index') return null;
+
+  // Synopsis: first non-heading, non-divider, non-italic-subtitle paragraph
+  const body = raw.replace(/^---[\s\S]*?---\n?/, '');
+  let synopsis = '';
+  for (const para of body.split(/\n\n+/)) {
+    const t = para.trim();
+    if (!t || t.startsWith('#') || t === '---' || /^\*[^*\n]+\*$/.test(t)) continue;
+    const cleaned = t
+      .replace(/!\[[^\]]*\]\([^)]*\)(?:\s*\{[^}]*\})?/g, '')
+      .replace(/\*\*[^*]+:\*\*\s*/g, '')
+      .replace(/\*\*(.+?)\*\*/g, '$1')
+      .replace(/\*(.+?)\*/g, '$1')
+      .replace(/{{[^}]*}}/g, '') // strip Homebrewery blocks
+      .trim();
+    if (cleaned) {
+      const first = cleaned.match(/^[^.!?]+[.!?]+/);
+      synopsis = (first ? first[0] : cleaned.slice(0, 160)).trim();
+      break;
+    }
+  }
+
+  return {
+    name,
+    type: fm.type || 'item',
+    subtype: fm.subtype || '',
+    rarity: fm.rarity || '',
+    attunement: String(fm['requires-attunement']) === 'true',
+    source: fm.source || '',
+    tags: Array.isArray(fm.tags) ? fm.tags.join(', ') : (fm.tags || ''),
+    synopsis,
+    path: path.relative(CAMPAIGN_ROOT, filePath).replace(/\\/g, '/')
+  };
+}
+
+app.get('/api/homebrew', (req, res) => {
+  try {
+    const homebrewRoot = path.join(CAMPAIGN_ROOT, 'homebrew');
+    const results = [];
+    function walk(dir) {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) { walk(fullPath); continue; }
+        if (!entry.name.endsWith('.md')) continue;
+        if (['index.md', 'MANIFEST.md'].includes(entry.name) || entry.name.startsWith('_')) continue;
+        try {
+          const item = parseHomebrewFile(fullPath);
+          if (item) results.push(item);
+        } catch { /* skip malformed */ }
+      }
+    }
+    walk(homebrewRoot);
+    results.sort((a, b) => a.name.localeCompare(b.name));
+    res.json(results);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Returns rendered HTML of a homebrew file's body (minus frontmatter + title heading)
+app.get('/api/homebrew-content', (req, res) => {
+  const relPath = (req.query.path || '').replace(/\\/g, '/');
+  const full = path.resolve(path.join(CAMPAIGN_ROOT, relPath));
+  if (!full.startsWith(path.resolve(path.join(CAMPAIGN_ROOT, 'homebrew')))) {
+    return res.status(403).json({ error: 'Forbidden' });
+  }
+  try {
+    const raw = fs.readFileSync(full, 'utf8');
+    const body = raw
+      .replace(/^---[\s\S]*?---\n?/, '')  // strip frontmatter
+      .replace(/^#[^\n]*\n?/, '')          // strip title heading
+      .replace(/{{note[\s\S]*?}}/g, m => {  // render Homebrewery note blocks
+        const inner = m.replace(/^{{note\s*/, '').replace(/}}$/, '').trim();
+        return `\n\n> **Note:** ${inner}\n\n`;
+      })
+      .trim();
+    res.json({ html: markdownToStatBlockHtml(body) });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Generate (or fetch) a homebrew stub for an unknown spell / ability
+app.post('/api/homebrew/generate', (req, res) => {
+  const { name, type, description, character } = req.body || {};
+  if (!name) return res.status(400).json({ error: 'name required' });
+
+  const typeDir = (type === 'spell') ? 'spells' : 'abilities';
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const relPath = `homebrew/${typeDir}/${slug}.md`;
+  const fullPath = path.join(CAMPAIGN_ROOT, relPath);
+
+  // Return existing file if already generated
+  if (fs.existsSync(fullPath)) {
+    try {
+      const raw = fs.readFileSync(fullPath, 'utf8');
+      const body = raw.replace(/^---[\s\S]*?---\n?/, '').replace(/^#[^\n]*\n?/, '').trim();
+      return res.json({ path: relPath, html: markdownToStatBlockHtml(body) });
+    } catch (e) {
+      return res.status(500).json({ error: e.message });
+    }
+  }
+
+  // Build a clean markdown stub from whatever description we have
+  const typeLabel = type === 'spell' ? 'Spell' : 'Ability';
+  const sourceNote = character ? `*From the character sheet of **${character}**.*` : '*Source: Character sheet.*';
+  const descSection = description
+    ? description.trim()
+    : '*No description available in character sheet.*';
+
+  const content = `---
+name: ${name}
+type: homebrew-${type || 'ability'}
+generated: true
+---
+
+# ${name}
+
+*${typeLabel} — Homebrew / Custom*
+
+${sourceNote}
+
+${descSection}
+`;
+
+  try {
+    fs.mkdirSync(path.dirname(fullPath), { recursive: true });
+    fs.writeFileSync(fullPath, content, 'utf8');
+    const body = content.replace(/^---[\s\S]*?---\n?/, '').replace(/^#[^\n]*\n?/, '').trim();
+    res.json({ path: relPath, html: markdownToStatBlockHtml(body) });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// ─── Shops API ────────────────────────────────────────────────────────────────
+
+const SHOPS_DIR = path.join(__dirname, 'data', 'shops');
+
+app.get('/api/shops', (req, res) => {
+  try {
+    if (!fs.existsSync(SHOPS_DIR)) return res.json([]);
+    const shops = fs.readdirSync(SHOPS_DIR)
+      .filter(f => f.endsWith('.json'))
+      .sort()
+      .map(f => {
+        try { return JSON.parse(fs.readFileSync(path.join(SHOPS_DIR, f), 'utf8')); }
+        catch { return null; }
+      })
+      .filter(Boolean);
+    res.json(shops);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
 
 app.get('/api/combatant-detail', async (req, res) => {
   const name = (req.query.name || '').trim();
@@ -2000,6 +2309,49 @@ app.get('/api/5etools/search', async (req, res) => {
     return res.json(results);
   } catch (e) {
     res.status(502).json({ error: 'Bestiary search unavailable: ' + e.message });
+  }
+});
+
+// ─── 5etools item search API ──────────────────────────────────────────────────
+
+let itemsCache = null; // [{ name, source, type, rarity }]
+
+async function load5etoolsItems() {
+  if (itemsCache) return itemsCache;
+  try {
+    const r = await fetch('http://localhost:2014/data/items.json');
+    const data = await r.json();
+    const items = (data.item || []).map(it => ({
+      name: it.name,
+      source: it.source || 'PHB',
+      type: it.type || '',
+      rarity: it.rarity || 'none',
+    }));
+    itemsCache = items;
+    return items;
+  } catch {
+    itemsCache = [];
+    return [];
+  }
+}
+
+app.get('/api/5etools/item-search', async (req, res) => {
+  const q = (req.query.q || '').trim().toLowerCase();
+  if (q.length < 2) return res.json([]);
+  try {
+    const all = await load5etoolsItems();
+    const scored = [];
+    for (const it of all) {
+      const name = it.name.toLowerCase();
+      if (name === q)                           scored.push({ it, score: 0 });
+      else if (name.startsWith(q))              scored.push({ it, score: 1 });
+      else if (new RegExp(`\\b${q}`).test(name)) scored.push({ it, score: 2 });
+      else if (name.includes(q))                scored.push({ it, score: 3 });
+    }
+    scored.sort((a, b) => a.score - b.score || a.it.name.localeCompare(b.it.name));
+    res.json(scored.slice(0, 20).map(s => s.it));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
   }
 });
 

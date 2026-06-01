@@ -1,0 +1,31 @@
+{
+  "id": "welton-blacksmith",
+  "name": "Welton Forge",
+  "location": "Welton",
+  "region": "northreach",
+  "keeper": "Torven Ash (blacksmith)",
+  "description": "Welton's only smithy — a squat stone building behind the Shepherd's Crook inn. Torven Ash is a taciturn dwarf who inherited the forge from his father. He does good work but slow work, and he has opinions about proper steel. Primarily serves the farming community; keeps a small stock of practical weapons and tools.",
+  "tags": ["weapons", "armor", "tools", "repair"],
+  "guildDiscount": false,
+  "notes": "Torven respects the Wardens and will give a 10% discount after the party helps Welton. Custom orders take 1 day per 50gp value. Frontier smith premium applies (PHB price × 2 for custom work).",
+  "items": [
+    { "name": "Handaxe",                    "category": "weapons",  "gp": 7,   "sp": 5,  "priceNote": "1.5× PHB",                              "stock": "available" },
+    { "name": "Dagger",                     "category": "weapons",  "gp": 3,   "sp": 0,  "priceNote": "1.5× PHB",                              "stock": "available" },
+    { "name": "Spear",                      "category": "weapons",  "gp": 1,   "sp": 5,  "priceNote": "1.5× PHB",                              "stock": "available" },
+    { "name": "Woodcutter's Axe (as battleaxe)", "category": "weapons", "gp": 15, "sp": 0, "priceNote": "1.5× PHB; utilitarian design",        "stock": "available", "5etoolsId": "battleaxe_phb", "notes": "Functional, not decorative. Torven frowns on the 'battleaxe' label." },
+    { "name": "Hunting Knife (as shortsword)", "category": "weapons", "gp": 15, "sp": 0, "priceNote": "1.5× PHB; local design",               "stock": "available", "5etoolsId": "shortsword_phb" },
+    { "name": "Shield",                     "category": "armor",    "gp": 15,  "sp": 0,  "priceNote": "1.5× PHB",                              "stock": "available" },
+    { "name": "Leather Armor",              "category": "armor",    "gp": 15,  "sp": 0,  "priceNote": "1.5× PHB; Torven commissions leatherwork", "stock": "limited" },
+    { "name": "Weapon Sharpening",          "category": "repair",   "gp": 0,   "sp": 5,  "priceNote": "Standard",                              "stock": "available", "notes": "Restores a dulled weapon to full effectiveness." },
+    { "name": "Armor Repair — Light",       "category": "repair",   "gp": 2,   "sp": 0,  "priceNote": "Standard",                              "stock": "available" },
+    { "name": "Armor Repair — Medium",      "category": "repair",   "gp": 5,   "sp": 0,  "priceNote": "Standard",                              "stock": "available" },
+    { "name": "Armor Repair — Heavy",       "category": "repair",   "gp": 10,  "sp": 0,  "priceNote": "Standard",                              "stock": "available" },
+    { "name": "Weapon Repair",              "category": "repair",   "gp": 3,   "sp": 0,  "priceNote": "Per weapon",                            "stock": "available" },
+    { "name": "Specialty Arrows — Silvered (per 10)", "category": "ammunition", "gp": 5, "sp": 0, "priceNote": "Frontier price", "stock": "limited", "notes": "Special order; takes 1 day. Torven keeps limited silver on hand." },
+    { "name": "Arrows (20)",               "category": "ammunition", "gp": 1,  "sp": 0,  "priceNote": "Frontier price",                        "stock": "available" },
+    { "name": "Iron Spikes (10)",           "category": "tools",    "gp": 1,   "sp": 0,  "priceNote": "Standard",                              "stock": "available",  "5etoolsId": "piton_phb" },
+    { "name": "Hammer",                     "category": "tools",    "gp": 1,   "sp": 0,  "priceNote": "1.5× PHB",                              "stock": "available",  "5etoolsId": "hammer_phb" },
+    { "name": "Crowbar",                    "category": "tools",    "gp": 3,   "sp": 0,  "priceNote": "1.5× PHB",                              "stock": "available",  "5etoolsId": "crowbar_phb" },
+    { "name": "Chain (10 ft)",              "category": "tools",    "gp": 7,   "sp": 5,  "priceNote": "1.5× PHB (5gp base)",                  "stock": "available",  "5etoolsId": "chain_(10_feet)_phb" }
+  ]
+}
