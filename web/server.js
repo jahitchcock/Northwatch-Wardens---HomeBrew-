@@ -25,9 +25,9 @@ try {
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
-const MAPS_OUTPUT_DIR = 'f:/NewProject/image-gen/output/maps';
+const MAPS_OUTPUT_DIR = process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps';
 const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
-const BATTLEMAP_WORKFLOWS_DIR = 'f:/NewProject/image-gen/workflows';
+const BATTLEMAP_WORKFLOWS_DIR = process.env.BATTLEMAP_WORKFLOWS_DIR || 'f:/NewProject/image-gen/workflows';
 const BATTLEMAP_TOPDOWN_NEGATIVE = "isometric, perspective view, 3d render, people, tokens, figures, text, watermark, blurry, low quality, worst quality";
 const BATTLEMAP_SCENE_NEGATIVE = "grid, top-down, map, overhead view, photorealistic, text, watermark, nsfw, low quality, worst quality";
 
@@ -823,19 +823,25 @@ app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => 
     return res.status(500).json({ error: `Failed to load workflow: ${e.message}` });
   }
 
-  const resolvedSeed = (seed != null) ? seed : Math.floor(Math.random() * 2**32);
+  const resolvedSeed = (seed != null && Number.isInteger(seed) && seed >= 0)
+    ? seed
+    : Math.floor(Math.random() * 2**32);
   const resolvedSteps = steps || 25;
   const resolvedCfg = cfg || (style === 'topdown' ? 7.0 : 8.0);
 
-  wf['3']['inputs']['text'] = prompt;
   const defaultNeg = style === 'topdown' ? BATTLEMAP_TOPDOWN_NEGATIVE : BATTLEMAP_SCENE_NEGATIVE;
-  wf['4']['inputs']['text'] = negative_prompt || defaultNeg;
-  if (model) wf['1']['inputs']['ckpt_name'] = model;
-  wf['6']['inputs']['seed'] = resolvedSeed;
-  wf['6']['inputs']['steps'] = resolvedSteps;
-  wf['6']['inputs']['cfg'] = resolvedCfg;
+  try {
+    wf['3']['inputs']['text'] = prompt;
+    wf['4']['inputs']['text'] = negative_prompt || defaultNeg;
+    if (model) wf['1']['inputs']['ckpt_name'] = model;
+    wf['6']['inputs']['seed'] = resolvedSeed;
+    wf['6']['inputs']['steps'] = resolvedSteps;
+    wf['6']['inputs']['cfg'] = resolvedCfg;
+  } catch (e) {
+    return res.status(500).json({ error: `Workflow schema mismatch: ${e.message}` });
+  }
 
-  const clientId = require('crypto').randomUUID();
+  const clientId = crypto.randomUUID();
   let promptId;
   try {
     const submitResp = await fetch(`${COMFYUI_URL}/prompt`, {
