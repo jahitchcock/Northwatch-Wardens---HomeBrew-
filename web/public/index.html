@@ -393,6 +393,28 @@
       background: #1a1a2a; border-radius: 3px; color: #aaa; font-style: italic;
     }
 
+    /* ── Maps tab ─────────────────────────────────────────────────────── */
+    .maps-form { padding: 16px 20px; border-bottom: 1px solid #2a2a2a; }
+    .maps-style-toggle { display: flex; gap: 8px; margin-bottom: 12px; }
+    .maps-style-btn { padding: 6px 16px; border: 1px solid #444; background: #1a1a1a; color: #aaa; border-radius: 4px; cursor: pointer; font-size: 13px; }
+    .maps-style-btn.active { background: #1e3a5a; border-color: #3a7abf; color: #c8d8e8; }
+    .maps-prompt-label { font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+    .maps-prompt { width: 100%; box-sizing: border-box; background: #111; border: 1px solid #333; color: #e8e0d0; border-radius: 4px; padding: 8px; resize: vertical; min-height: 60px; font-family: inherit; font-size: 13px; margin-bottom: 8px; }
+    .maps-prompt:focus { outline: none; border-color: #3a7abf; }
+    .maps-generate-btn { padding: 8px 24px; background: #1e3a1e; border: 1px solid #3a7a3a; color: #7ada7a; border-radius: 4px; cursor: pointer; font-size: 13px; }
+    .maps-generate-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .maps-spinner { text-align: center; padding: 12px; color: #666; font-size: 13px; }
+    .maps-gen-error { color: #e05050; font-size: 13px; padding: 8px 0; }
+    .maps-gallery { padding: 16px 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+    .maps-gallery-empty { padding: 32px; text-align: center; color: #555; font-size: 13px; }
+    .maps-thumb { border-radius: 4px; overflow: hidden; cursor: pointer; border: 1px solid #2a2a2a; transition: border-color .15s; }
+    .maps-thumb:hover { border-color: #3a7abf; }
+    .maps-thumb img { width: 100%; display: block; }
+    .maps-thumb-name { font-size: 11px; color: #666; padding: 4px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #111; }
+    .maps-lightbox { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; }
+    .maps-lightbox img { max-width: 100%; max-height: 70vh; border-radius: 4px; }
+    .maps-lightbox-name { margin-top: 8px; font-size: 12px; color: #666; }
+
     /* ── Party Modal ──────────────────────────────────────────── */
     .pc-tabs { display:flex; gap:4px; padding:12px 16px 0; border-bottom:1px solid #c9ad6a; background:#f4e8c1; flex-shrink:0; overflow-x:auto; scrollbar-width:none; }
     .pc-tabs::-webkit-scrollbar { display:none; }
@@ -562,6 +584,7 @@
       <button class="tab" id="tab-locations" data-tab="locations">Locations</button>
       <button class="tab" id="tab-combat-tracker" data-tab="combat-tracker">Combat Tracker</button>
       <button class="tab" id="tab-homebrew" data-tab="homebrew">Homebrew</button>
+      <button class="tab" id="tab-maps" data-tab="maps">Maps</button>
       <button class="tab" id="tab-shops" data-tab="shops">Shops</button>
       <div id="tools-wrap">
         <button id="btn-tools">Tools ▾</button>

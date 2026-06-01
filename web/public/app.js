@@ -4270,3 +4270,98 @@ document.addEventListener('DOMContentLoaded', () => {
   loadWorldTables();
   if (window.SoundPlayer) SoundPlayer.init();
 });
+
+// ── Maps tab ──────────────────────────────────────────────────────────────
+
+async function showMapsModal() {
+  const m = getFreeModal();
+  if (!m) return;
+
+  let style = 'topdown';
+  let maps = [];
+
+  function renderModal() {
+    m.innerHTML = `
+      <div class="ref-modal-header">
+        <span class="ref-modal-title">Maps</span>
+        <button class="ref-modal-close" onclick="closeTopModal()">✕</button>
+      </div>
+      <div class="maps-form">
+        <div class="maps-style-toggle">
+          <button class="maps-style-btn ${style === 'topdown' ? 'active' : ''}" data-style="topdown">Top-down</button>
+          <button class="maps-style-btn ${style === 'scene' ? 'active' : ''}" data-style="scene">Scene</button>
+        </div>
+        <div class="maps-prompt-label">Prompt</div>
+        <textarea class="maps-prompt" id="maps-prompt-input" placeholder="${style === 'topdown' ? 'dungeon throne room, cracked stone floor, torches, pit trap' : 'ancient forest shrine at dusk, glowing runes, mist'}"></textarea>
+        <button class="maps-generate-btn" id="maps-gen-btn">Generate</button>
+        <div id="maps-gen-status"></div>
+      </div>
+      <div class="maps-gallery" id="maps-gallery">
+        ${maps.length === 0
+          ? '<div class="maps-gallery-empty">No maps yet — generate one above.</div>'
+          : maps.map(mp => `
+            <div class="maps-thumb" data-url="${escapeHtml(mp.url)}" data-name="${escapeHtml(mp.filename)}">
+              <img src="${escapeHtml(mp.url)}" alt="${escapeHtml(mp.filename)}" loading="lazy">
+              <div class="maps-thumb-name">${escapeHtml(mp.filename)}</div>
+            </div>`).join('')}
+      </div>`;
+
+    m.querySelectorAll('.maps-style-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        style = btn.dataset.style;
+        renderModal();
+      });
+    });
+
+    m.querySelector('#maps-gen-btn').addEventListener('click', async () => {
+      const prompt = m.querySelector('#maps-prompt-input').value.trim();
+      if (!prompt) return;
+      const btn = m.querySelector('#maps-gen-btn');
+      const status = m.querySelector('#maps-gen-status');
+      btn.disabled = true;
+      status.innerHTML = '<div class="maps-spinner">Generating… (30-90s)</div>';
+      try {
+        const r = await fetch('/api/maps/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ style, prompt }),
+        });
+        const data = await r.json();
+        if (!r.ok) throw new Error(data.error || 'Generation failed');
+        maps.unshift(data);
+        status.innerHTML = '';
+        renderModal();
+      } catch (e) {
+        btn.disabled = false;
+        status.innerHTML = `<div class="maps-gen-error">${escapeHtml(e.message)}</div>`;
+      }
+    });
+
+    m.querySelectorAll('.maps-thumb').forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        const lb = getFreeModal();
+        if (!lb) return;
+        lb.innerHTML = `
+          <div class="ref-modal-header">
+            <button class="ref-modal-close" onclick="closeTopModal()">✕</button>
+          </div>
+          <div class="maps-lightbox">
+            <img src="${thumb.dataset.url}" alt="${escapeHtml(thumb.dataset.name)}">
+            <div class="maps-lightbox-name">${escapeHtml(thumb.dataset.name)}</div>
+          </div>`;
+        lb.classList.add('visible');
+      });
+    });
+  }
+
+  // Fetch existing maps
+  try {
+    const r = await fetch('/api/maps');
+    if (r.ok) maps = await r.json();
+  } catch { /* show empty gallery */ }
+
+  renderModal();
+  m.classList.add('visible');
+}
+
+document.getElementById('tab-maps')?.addEventListener('click', () => showMapsModal());
