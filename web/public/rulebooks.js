@@ -758,6 +758,8 @@ function bindEvents() {
   searchScopeEl.addEventListener('change', scheduleSearch);
 
   pdfSearchInput.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeSearchDropdown(); return; }
+
     const dd   = document.getElementById('search-dropdown');
     const rows = Array.from(dd.querySelectorAll('.sd-result'));
     if (!rows.length) return;
@@ -773,8 +775,6 @@ function bindEvents() {
     } else if (e.key === 'Enter' && _searchActive >= 0) {
       e.preventDefault();
       rows[_searchActive].click();
-    } else if (e.key === 'Escape') {
-      closeSearchDropdown();
     }
   });
 
