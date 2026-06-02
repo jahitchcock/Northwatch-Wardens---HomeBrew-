@@ -7,6 +7,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
 // ── State ─────────────────────────────────────────────────────────────────────
 const state = {
   books: { core: [], setting: [] },
+  favorites: new Set(),
   currentBookId: null,
   pdfDoc: null,
   currentPage: 1,
@@ -146,6 +147,25 @@ function removeAnnotation(annId) {
   if (i !== -1) anns.splice(i, 1);
 }
 
+// ── Favorites ─────────────────────────────────────────────────────────────────
+function loadFavorites() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('rulebooks_favorites_v1') || '[]');
+    state.favorites = new Set(saved);
+  } catch { state.favorites = new Set(); }
+}
+
+function saveFavorites() {
+  localStorage.setItem('rulebooks_favorites_v1', JSON.stringify([...state.favorites]));
+}
+
+function toggleFavorite(bookId) {
+  if (state.favorites.has(bookId)) state.favorites.delete(bookId);
+  else state.favorites.add(bookId);
+  saveFavorites();
+  renderLibrary(document.getElementById('book-search').value);
+}
+
 // ── Library panel ─────────────────────────────────────────────────────────────
 function renderLibrary(filter = '') {
   const panel = document.getElementById('library-panel');
@@ -156,6 +176,50 @@ function renderLibrary(filter = '') {
     { key: 'core',    label: 'Core Books' },
     { key: 'setting', label: 'Setting Books' },
   ];
+
+  const makeBookLi = (book) => {
+    const displayName = book.name.replace(/\.pdf$/i, '');
+    const isFaved = state.favorites.has(book.bookId);
+    const li = document.createElement('li');
+    li.className = 'library-book' + (book.bookId === state.currentBookId ? ' active' : '');
+    li.title = book.name;
+
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'lib-book-name';
+    nameSpan.textContent = displayName;
+
+    const favBtn = document.createElement('span');
+    favBtn.className = 'lib-fav-btn' + (isFaved ? ' faved' : '');
+    favBtn.textContent = isFaved ? '★' : '☆';
+    favBtn.title = isFaved ? 'Remove from favorites' : 'Add to favorites';
+    favBtn.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(book.bookId); });
+
+    li.appendChild(nameSpan);
+    li.appendChild(favBtn);
+    li.addEventListener('click', () => openBook(book.bookId));
+    return li;
+  };
+
+  // Favorites section (top, only if any)
+  const allBooks = [...(state.books.core || []), ...(state.books.setting || [])];
+  const favBooks = allBooks.filter(b => state.favorites.has(b.bookId) && b.name.toLowerCase().includes(lf));
+  if (favBooks.length) {
+    const favDiv = document.createElement('div');
+    favDiv.className = 'library-category';
+    const favHeader = document.createElement('div');
+    favHeader.className = 'library-category-header';
+    favHeader.innerHTML = '<span class="arrow">▾</span> ★ Favorites';
+    const favUl = document.createElement('ul');
+    favUl.className = 'library-books';
+    favHeader.addEventListener('click', () => {
+      favHeader.classList.toggle('collapsed');
+      favUl.classList.toggle('hidden');
+    });
+    for (const book of favBooks) favUl.appendChild(makeBookLi(book));
+    favDiv.appendChild(favHeader);
+    favDiv.appendChild(favUl);
+    panel.appendChild(favDiv);
+  }
 
   for (const { key, label } of cats) {
     const books = (state.books[key] || []).filter(b => b.name.toLowerCase().includes(lf));
@@ -184,14 +248,7 @@ function renderLibrary(filter = '') {
     });
 
     const appendBooks = (bookList) => {
-      for (const book of bookList) {
-        const li = document.createElement('li');
-        li.className = 'library-book' + (book.bookId === state.currentBookId ? ' active' : '');
-        li.textContent = book.name.replace(/\.pdf$/i, '');
-        li.title = book.name;
-        li.addEventListener('click', () => openBook(book.bookId));
-        ul.appendChild(li);
-      }
+      for (const book of bookList) ul.appendChild(makeBookLi(book));
     };
 
     if (groups['__main__']) appendBooks(groups['__main__']);
@@ -793,6 +850,7 @@ async function init() {
   } catch (e) {
     console.error('Rulebooks init error:', e);
   }
+  loadFavorites();
   renderLibrary();
   renderBookmarksPanel();
   loadLocalState();
