@@ -2047,6 +2047,16 @@ document.querySelectorAll('.tool-5e').forEach(btn => {
   });
 });
 
+// ─── Rulebooks tab ────────────────────────────────────────────────────────────
+let _rulebooksTab = null;
+$('btn-rulebooks').addEventListener('click', () => {
+  if (_rulebooksTab && !_rulebooksTab.closed) {
+    _rulebooksTab.focus();
+  } else {
+    _rulebooksTab = window.open('/rulebooks', 'rulebooks');
+  }
+});
+
 // ─── Manifest editor ──────────────────────────────────────────────────────────
 
 const btnManifest = $('btn-manifest');
