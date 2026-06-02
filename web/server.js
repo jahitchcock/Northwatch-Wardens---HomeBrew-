@@ -2611,7 +2611,11 @@ app.get('/api/pdf/:category/*', (req, res) => {
 
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', 'inline');
-  fs.createReadStream(fullPath).pipe(res);
+  const stream = fs.createReadStream(fullPath);
+  stream.on('error', (err) => {
+    if (!res.headersSent) res.status(500).send('Error reading file');
+  });
+  stream.pipe(res);
 });
 
 // ─── WebSocket terminal ────────────────────────────────────────────────────
