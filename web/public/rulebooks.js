@@ -21,6 +21,82 @@ const state = {
   saveTimer: null,
 };
 
+// ── Search ────────────────────────────────────────────────────────────────────
+let _searchTimer   = null;
+let _searchActive  = -1; // index of keyboard-focused result row
+
+function closeSearchDropdown() {
+  const dd = document.getElementById('search-dropdown');
+  dd.classList.remove('open');
+  dd.innerHTML = '';
+  _searchActive = -1;
+}
+
+function openBook_andClose(bookId, page) {
+  closeSearchDropdown();
+  openBook(bookId, page);
+}
+
+async function performSearch(q, scope) {
+  const dd = document.getElementById('search-dropdown');
+
+  if (q.length < 2) { closeSearchDropdown(); return; }
+
+  dd.innerHTML = '<div class="sd-status">Searching…</div>';
+  dd.classList.add('open');
+
+  let data;
+  try {
+    const effectiveScope = scope === 'book:'
+      ? (state.currentBookId ? `book:${state.currentBookId}` : 'all')
+      : scope;
+    const res = await fetch(`/api/pdf-search?q=${encodeURIComponent(q)}&scope=${encodeURIComponent(effectiveScope)}`);
+    data = await res.json();
+  } catch {
+    dd.innerHTML = '<div class="sd-status">Search failed — is the server running?</div>';
+    return;
+  }
+
+  renderSearchResults(data, q);
+}
+
+function renderSearchResults({ results, indexing }, q) {
+  const dd = document.getElementById('search-dropdown');
+  dd.innerHTML = '';
+  _searchActive = -1;
+
+  if (!results.length && !indexing.length) {
+    dd.innerHTML = `<div class="sd-status">No results for "<strong>${esc(q)}</strong>"</div>`;
+    return;
+  }
+
+  for (const r of results) {
+    const row = document.createElement('div');
+    row.className = 'sd-result';
+    row.innerHTML = `
+      <div class="sd-result-header">
+        <span>📄 ${esc(r.bookName)}</span>
+        <span class="sd-result-page">p. ${r.page}</span>
+      </div>
+      <div class="sd-result-snippet">${r.snippet}</div>
+    `;
+    row.addEventListener('click', () => openBook_andClose(r.bookId, r.page));
+    dd.appendChild(row);
+  }
+
+  if (indexing.length) {
+    const footer = document.createElement('div');
+    footer.className = 'sd-footer';
+    footer.textContent = `⏳ Indexing ${indexing.length} book(s) — results may be incomplete`;
+    dd.appendChild(footer);
+  } else if (results.length === 20) {
+    const footer = document.createElement('div');
+    footer.className = 'sd-footer';
+    footer.textContent = 'Showing first 20 results — refine your search';
+    dd.appendChild(footer);
+  }
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
 async function apiLoadBooks() {
   const res = await fetch('/api/books');
@@ -138,6 +214,15 @@ function renderLibrary(filter = '') {
 async function openBook(bookId, startPage = 1) {
   state.currentBookId = bookId;
   state.currentPage = startPage;
+
+  // Sync "Current Book" scope option label
+  const scopeCurrentEl = document.getElementById('scope-current-book');
+  if (scopeCurrentEl) {
+    scopeCurrentEl.value       = `book:${bookId}`;
+    scopeCurrentEl.textContent = bookId.split('/').pop().replace(/\.pdf$/i, '');
+    scopeCurrentEl.disabled    = false;
+  }
+
   renderLibrary();
 
   document.getElementById('empty-state').style.display = 'none';
@@ -655,6 +740,47 @@ function bindEvents() {
   document.getElementById('new-collection-btn').addEventListener('click', () => {
     const name = prompt('Collection name:');
     if (name && name.trim()) createCollection(name.trim());
+  });
+
+  // ── Full-text search ──────────────────────────────────────────────────────
+  const pdfSearchInput = document.getElementById('pdf-search');
+  const searchScopeEl  = document.getElementById('search-scope');
+  const scopeCurrentEl = document.getElementById('scope-current-book');
+
+  function scheduleSearch() {
+    clearTimeout(_searchTimer);
+    _searchTimer = setTimeout(() => {
+      performSearch(pdfSearchInput.value.trim(), searchScopeEl.value);
+    }, 300);
+  }
+
+  pdfSearchInput.addEventListener('input', scheduleSearch);
+  searchScopeEl.addEventListener('change', scheduleSearch);
+
+  pdfSearchInput.addEventListener('keydown', e => {
+    const dd   = document.getElementById('search-dropdown');
+    const rows = Array.from(dd.querySelectorAll('.sd-result'));
+    if (!rows.length) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      _searchActive = Math.min(_searchActive + 1, rows.length - 1);
+      rows.forEach((r, i) => r.classList.toggle('active', i === _searchActive));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      _searchActive = Math.max(_searchActive - 1, 0);
+      rows.forEach((r, i) => r.classList.toggle('active', i === _searchActive));
+    } else if (e.key === 'Enter' && _searchActive >= 0) {
+      e.preventDefault();
+      rows[_searchActive].click();
+    } else if (e.key === 'Escape') {
+      closeSearchDropdown();
+    }
+  });
+
+  document.addEventListener('mousedown', e => {
+    const wrap = document.getElementById('search-wrap');
+    if (!wrap.contains(e.target)) closeSearchDropdown();
   });
 }
 
