@@ -2630,9 +2630,14 @@ app.get('/api/annotations', (req, res) => {
 });
 
 app.post('/api/annotations', express.json({ limit: '10mb' }), (req, res) => {
+  const body = req.body;
+  if (!body || typeof body !== 'object' || Array.isArray(body) ||
+      !('annotations' in body) || !('bookmarks' in body) || !('collections' in body)) {
+    return res.status(400).json({ error: 'Invalid annotations shape' });
+  }
   try {
     fs.mkdirSync(path.dirname(ANNOTATIONS_FILE), { recursive: true });
-    fs.writeFileSync(ANNOTATIONS_FILE, JSON.stringify(req.body, null, 2), 'utf8');
+    fs.writeFileSync(ANNOTATIONS_FILE, JSON.stringify(body, null, 2), 'utf8');
     res.json({ ok: true });
   } catch (e) {
     res.status(500).json({ error: e.message });

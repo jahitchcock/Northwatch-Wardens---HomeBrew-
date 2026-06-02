@@ -135,9 +135,9 @@ function renderLibrary(filter = '') {
   }
 }
 
-async function openBook(bookId) {
+async function openBook(bookId, startPage = 1) {
   state.currentBookId = bookId;
-  state.currentPage = 1;
+  state.currentPage = startPage;
   renderLibrary();
 
   document.getElementById('empty-state').style.display = 'none';
@@ -280,10 +280,10 @@ function handleTextSelection() {
   if (!sel || sel.isCollapsed || !sel.toString().trim()) return;
 
   const text = sel.toString();
-  const container = document.getElementById('page-container');
-  const cr0 = container.getBoundingClientRect();
-  const W = document.getElementById('pdf-canvas').width;
-  const H = document.getElementById('pdf-canvas').height;
+  const canvas = document.getElementById('pdf-canvas');
+  const cr0 = canvas.getBoundingClientRect();
+  const W = canvas.width;
+  const H = canvas.height;
 
   const rects = [];
   for (let i = 0; i < sel.rangeCount; i++) {
@@ -420,8 +420,7 @@ function removeBookmark(bmId) {
 }
 
 async function jumpToBookmark(bm) {
-  await openBook(bm.bookId);
-  goToPage(bm.page);
+  await openBook(bm.bookId, bm.page);
 }
 
 let _pendingBmCallback = null;
@@ -594,8 +593,7 @@ function loadLocalState() {
     document.getElementById('bookmarks-panel').classList.add('hidden');
   }
   if (saved.currentBookId) {
-    state.currentPage = saved.currentPage || 1;
-    openBook(saved.currentBookId);
+    openBook(saved.currentBookId, saved.currentPage || 1);
   }
 }
 function bindEvents() {
