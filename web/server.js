@@ -2590,6 +2590,30 @@ app.get('/api/books', (req, res) => {
   }
 });
 
+// ─── PDF streaming route ───────────────────────────────────────────────────
+
+app.get('/api/pdf/:category/*', (req, res) => {
+  const category = req.params.category;
+  const filename  = req.params[0]; // everything after /api/pdf/:category/
+
+  if (!PDF_DIRS[category]) return res.status(400).send('Invalid category');
+  if (!filename.toLowerCase().endsWith('.pdf')) return res.status(400).send('Invalid file type');
+
+  const baseDir  = path.resolve(PDF_DIRS[category]);
+  const fullPath = path.resolve(path.join(baseDir, filename));
+
+  // Path traversal guard — resolved path must remain inside baseDir
+  if (fullPath !== baseDir && !fullPath.startsWith(baseDir + path.sep)) {
+    return res.status(403).send('Forbidden');
+  }
+
+  if (!fs.existsSync(fullPath)) return res.status(404).send('Not found');
+
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'inline');
+  fs.createReadStream(fullPath).pipe(res);
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
