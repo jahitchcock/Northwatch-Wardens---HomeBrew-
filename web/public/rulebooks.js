@@ -571,8 +571,33 @@ function showBmContextMenu(bm, x, y) {
   const dismiss = (e) => { if (!menu.contains(e.target)) { menu.remove(); document.removeEventListener('mousedown', dismiss); } };
   setTimeout(() => document.addEventListener('mousedown', dismiss), 0);
 }
-function saveLocalState() { /* Task 13 */ }
-function loadLocalState()  { /* Task 13 */ }
+// ── localStorage state ────────────────────────────────────────────────────────
+function saveLocalState() {
+  localStorage.setItem('rulebooks_v1', JSON.stringify({
+    currentBookId: state.currentBookId,
+    currentPage:   state.currentPage,
+    zoom:          state.zoom,
+    bmPanelHidden: document.getElementById('bookmarks-panel').classList.contains('hidden'),
+  }));
+}
+
+function loadLocalState() {
+  let saved;
+  try { saved = JSON.parse(localStorage.getItem('rulebooks_v1') || 'null'); } catch { return; }
+  if (!saved) return;
+
+  if (saved.zoom) {
+    state.zoom = saved.zoom;
+    document.getElementById('zoom-display').textContent = Math.round(state.zoom * 100) + '%';
+  }
+  if (saved.bmPanelHidden) {
+    document.getElementById('bookmarks-panel').classList.add('hidden');
+  }
+  if (saved.currentBookId) {
+    state.currentPage = saved.currentPage || 1;
+    openBook(saved.currentBookId);
+  }
+}
 function bindEvents() {
   document.getElementById('book-search').addEventListener('input', e => renderLibrary(e.target.value));
   document.getElementById('prev-btn').addEventListener('click', () => goToPage(state.currentPage - 1));
