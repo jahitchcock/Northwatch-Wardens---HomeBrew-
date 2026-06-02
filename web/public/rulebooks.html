@@ -21,7 +21,7 @@
     }
     #header h1 { font-size: 15px; font-weight: 600; color: #c5a56a; white-space: nowrap; }
     #book-search {
-      flex: 1; max-width: 320px; padding: 4px 10px;
+      width: 160px; flex-shrink: 0; padding: 4px 10px;
       background: #222; border: 1px solid #444; border-radius: 4px;
       color: #e0d8c8; font-size: 13px;
     }
@@ -164,6 +164,56 @@
     }
     #new-collection-btn:hover { border-color: #c5a56a; color: #c5a56a; }
 
+    /* ── Full-text search ── */
+    #search-wrap {
+      flex: 1; position: relative; display: flex; gap: 6px; align-items: center;
+      max-width: 500px;
+    }
+    #pdf-search {
+      flex: 1; padding: 4px 10px;
+      background: #222; border: 1px solid #444; border-radius: 4px;
+      color: #e0d8c8; font-size: 13px;
+    }
+    #pdf-search::placeholder { color: #666; }
+    #pdf-search:focus { outline: none; border-color: #c5a56a; }
+    #search-scope {
+      padding: 4px 6px; background: #222; border: 1px solid #444;
+      border-radius: 4px; color: #e0d8c8; font-size: 12px; cursor: pointer;
+    }
+    #search-scope:focus { outline: none; border-color: #c5a56a; }
+
+    #search-dropdown {
+      display: none; position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+      background: #1e1e1e; border: 1px solid #444; border-radius: 6px;
+      z-index: 500; max-height: 380px; overflow-y: auto;
+      box-shadow: 0 8px 32px rgba(0,0,0,.7);
+    }
+    #search-dropdown.open { display: block; }
+
+    .sd-status {
+      padding: 10px 14px; color: #888; font-size: 13px; font-style: italic;
+    }
+    .sd-result {
+      display: flex; flex-direction: column; gap: 2px;
+      padding: 8px 14px; cursor: pointer; border-bottom: 1px solid #2a2a2a;
+    }
+    .sd-result:last-child { border-bottom: none; }
+    .sd-result:hover, .sd-result.active { background: #2a2018; }
+    .sd-result-header {
+      display: flex; gap: 8px; align-items: baseline;
+      font-size: 12px; font-weight: 600; color: #c5a56a;
+    }
+    .sd-result-page { color: #888; font-weight: 400; font-size: 11px; }
+    .sd-result-snippet { font-size: 12px; color: #a09880; line-height: 1.4; }
+    .sd-result-snippet mark {
+      background: rgba(197,165,106,0.3); color: #e0d8c8;
+      border-radius: 2px; padding: 0 1px;
+    }
+    .sd-footer {
+      padding: 6px 14px; color: #666; font-size: 11px;
+      border-top: 1px solid #2a2a2a; font-style: italic;
+    }
+
     /* ── Spinner ── */
     #pdf-spinner {
       display: none; position: absolute; inset: 0;
@@ -277,7 +327,18 @@
 
 <div id="header">
   <h1>📖 Rulebooks</h1>
-  <input id="book-search" type="text" placeholder="Search books...">
+  <input id="book-search" type="text" placeholder="Filter library…">
+  <div id="search-wrap">
+    <input id="pdf-search" type="search" placeholder="Search rulebooks…" autocomplete="off">
+    <select id="search-scope">
+      <option value="all">All Books</option>
+      <option value="core">Core Books</option>
+      <option value="setting">Setting Books</option>
+      <option value="ua">Unearthed Arcana</option>
+      <option value="book:" id="scope-current-book" disabled>Current Book</option>
+    </select>
+    <div id="search-dropdown"></div>
+  </div>
   <button id="toggle-bookmarks">⭐ Bookmarks</button>
 </div>
 
