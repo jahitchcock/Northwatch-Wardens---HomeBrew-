@@ -2609,13 +2609,37 @@ app.get('/api/pdf/:category/*', (req, res) => {
 
   if (!fs.existsSync(fullPath)) return res.status(404).send('Not found');
 
+  const stat = fs.statSync(fullPath);
+  const fileSize = stat.size;
+  const rangeHeader = req.headers.range;
+
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', 'inline');
-  const stream = fs.createReadStream(fullPath);
-  stream.on('error', (err) => {
-    if (!res.headersSent) res.status(500).send('Error reading file');
-  });
-  stream.pipe(res);
+  res.setHeader('Accept-Ranges', 'bytes');
+
+  if (rangeHeader) {
+    // Parse "bytes=start-end" (end is optional)
+    const [, startStr, endStr] = /bytes=(\d+)-(\d*)/.exec(rangeHeader) || [];
+    const start = parseInt(startStr, 10);
+    const end   = endStr ? parseInt(endStr, 10) : fileSize - 1;
+
+    if (isNaN(start) || start >= fileSize || end >= fileSize || start > end) {
+      res.setHeader('Content-Range', `bytes */${fileSize}`);
+      return res.status(416).send('Range Not Satisfiable');
+    }
+
+    res.setHeader('Content-Range',  `bytes ${start}-${end}/${fileSize}`);
+    res.setHeader('Content-Length', end - start + 1);
+    res.status(206);
+    const stream = fs.createReadStream(fullPath, { start, end });
+    stream.on('error', () => { if (!res.headersSent) res.status(500).send('Error reading file'); });
+    stream.pipe(res);
+  } else {
+    res.setHeader('Content-Length', fileSize);
+    const stream = fs.createReadStream(fullPath);
+    stream.on('error', () => { if (!res.headersSent) res.status(500).send('Error reading file'); });
+    stream.pipe(res);
+  }
 });
 
 app.get('/api/annotations', (req, res) => {

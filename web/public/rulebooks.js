@@ -141,7 +141,10 @@ async function openBook(bookId, startPage = 1) {
   renderLibrary();
 
   document.getElementById('empty-state').style.display = 'none';
-  document.getElementById('page-container').style.display = 'inline-block';
+  document.getElementById('page-container').style.display = 'none';
+  document.getElementById('reader-loading-label').textContent =
+    bookId.split('/').pop().replace(/\.pdf$/i, '') + '…';
+  document.getElementById('reader-loading').classList.add('visible');
 
   ['prev-btn','next-btn','zoom-in-btn','zoom-out-btn','highlight-btn','note-btn','bookmark-btn','page-input']
     .forEach(id => { const el = document.getElementById(id); if (el) el.disabled = false; });
@@ -157,18 +160,23 @@ async function loadPdf(bookId) {
   const fileParts = parts.slice(1);
   const url = `/api/pdf/${encodeURIComponent(category)}/${fileParts.map(encodeURIComponent).join('/')}`;
 
-  state.pdfDoc = await pdfjsLib.getDocument(url).promise;
+  state.pdfDoc = await pdfjsLib.getDocument({ url, rangeChunkSize: 262144 }).promise;
   state.totalPages = state.pdfDoc.numPages;
   document.getElementById('page-total').textContent = state.totalPages;
   document.getElementById('page-input').max = state.totalPages;
 
   await renderPage(state.currentPage);
+
+  document.getElementById('reader-loading').classList.remove('visible');
+  document.getElementById('page-container').style.display = 'inline-block';
 }
 
 async function renderPage(pageNum) {
   if (!state.pdfDoc) return;
   pageNum = Math.max(1, Math.min(pageNum, state.totalPages));
   state.currentPage = pageNum;
+
+  document.getElementById('pdf-spinner').classList.add('visible');
 
   const page = await state.pdfDoc.getPage(pageNum);
   const viewport = page.getViewport({ scale: state.zoom * 1.5 });
@@ -179,6 +187,8 @@ async function renderPage(pageNum) {
   canvas.height = viewport.height;
 
   await page.render({ canvasContext: ctx, viewport }).promise;
+
+  document.getElementById('pdf-spinner').classList.remove('visible');
 
   document.getElementById('page-input').value = pageNum;
   document.getElementById('prev-btn').disabled = pageNum <= 1;

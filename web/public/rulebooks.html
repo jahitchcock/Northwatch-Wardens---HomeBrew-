@@ -164,6 +164,30 @@
     }
     #new-collection-btn:hover { border-color: #c5a56a; color: #c5a56a; }
 
+    /* ── Spinner ── */
+    #pdf-spinner {
+      display: none; position: absolute; inset: 0;
+      align-items: center; justify-content: center;
+      background: rgba(26,26,26,0.75); z-index: 20; border-radius: 2px;
+    }
+    #pdf-spinner.visible { display: flex; }
+    .spinner-ring {
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 3px solid #333; border-top-color: #c5a56a;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Loading overlay (full reader, for initial book load) ── */
+    #reader-loading {
+      display: none; position: absolute; inset: 0;
+      align-items: center; justify-content: center;
+      background: #1a1a1a; z-index: 30; flex-direction: column; gap: 12px;
+    }
+    #reader-loading.visible { display: flex; }
+    #reader-loading .spinner-ring { width: 48px; height: 48px; border-width: 4px; }
+    #reader-loading p { color: #888; font-size: 13px; margin: 0; }
+
     /* ── Empty state ── */
     #empty-state {
       display: flex; flex-direction: column;
@@ -262,10 +286,15 @@
 
   <div id="reader-panel">
     <div id="scroll-area">
+      <div id="reader-loading">
+        <div class="spinner-ring"></div>
+        <p id="reader-loading-label">Loading…</p>
+      </div>
       <div id="page-container" style="display:none">
         <canvas id="pdf-canvas"></canvas>
         <div id="text-layer"></div>
         <div id="annotation-layer"></div>
+        <div id="pdf-spinner"><div class="spinner-ring"></div></div>
       </div>
       <div id="empty-state">
         <p>📚 Select a book from the library</p>
