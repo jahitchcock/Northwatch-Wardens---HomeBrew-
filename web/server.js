@@ -25,6 +25,7 @@ try {
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
 const pdfIndexer = require('./lib/pdf-indexer');
+const send       = require('send');
 
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
 const PDF_DIRS = {
@@ -892,17 +893,17 @@ app.get('/api/map-library', requireAuth, (req, res) => {
     }
   } catch { /* metadata optional */ }
 
-  // 1. Scan 07 - Maps top-level (numbered commercial maps, skip gridless + skip downloads/)
+  // 1. Scan 07 - Maps top-level (numbered commercial maps, skip gridless versions)
   try {
     const files = fs.readdirSync(MAPS_LIBRARY_DIR)
       .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f) && !f.includes('gridless'));
     for (const f of files) {
-      const base = path.basename(f, path.extname(f)); // "130", "178" etc.
+      const base = path.basename(f, path.extname(f));
       const gridlessName = `${base} (gridless)${path.extname(f)}`;
       const m = meta[base] || {};
       maps.push({
         id: `lib-${base}`,
-        name: m.description ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
+        name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
         filename: f,
         url: `/maps-library/${encodeURIComponent(f)}`,
         gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
@@ -915,6 +916,69 @@ app.get('/api/map-library', requireAuth, (req, res) => {
       });
     }
   } catch { /* skip if inaccessible */ }
+
+  // 1b. Scan 07 - Maps/downloads subfolders (The Fateful Force free maps)
+  // Each subfolder is a terrain category; each map folder contains variants.
+  // Show only the primary day/grid variant per map (skip: no grid, night, low res, dark).
+  const downloadsDir = path.join(MAPS_LIBRARY_DIR, 'downloads');
+  function isSecondaryVariant(filename) {
+    const lower = filename.toLowerCase();
+    return lower.includes('no grid') || lower.includes('nogrid') ||
+           lower.includes('night') || lower.includes('low res') ||
+           lower.includes('lowres') || lower.includes('dark') ||
+           lower.includes('_bg') || lower.includes('gridless');
+  }
+  try {
+    for (const category of fs.readdirSync(downloadsDir)) {
+      const categoryDir = path.join(downloadsDir, category);
+      if (!fs.statSync(categoryDir).isDirectory()) continue;
+      for (const mapFolder of fs.readdirSync(categoryDir)) {
+        const mapDir = path.join(categoryDir, mapFolder);
+        if (!fs.statSync(mapDir).isDirectory()) continue;
+        // Collect all images, separate primary from variants
+        const allImgs = [];
+        try {
+          for (const e of fs.readdirSync(mapDir, { withFileTypes: true })) {
+            if (e.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(e.name)) {
+              allImgs.push(e.name);
+            }
+          }
+        } catch { continue; }
+        if (allImgs.length === 0) continue;
+        // Pick the primary: prefer non-secondary, shortest filename as tiebreak
+        const primary = allImgs
+          .sort((a, b) => a.length - b.length)
+          .find(f => !isSecondaryVariant(f)) || allImgs[0];
+        const variants = allImgs.filter(f => f !== primary);
+        const relPath = `downloads/${category}/${mapFolder}/${primary}`;
+        const mapName = mapFolder.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        // Match to downloaded_maps metadata by id
+        const dlMeta = (() => {
+          try {
+            const rawMeta = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
+            const folders = rawMeta?.map_resources?.downloaded_maps?.folders || {};
+            for (const cat of Object.values(folders)) {
+              const found = cat.find && cat.find(m => m.file && m.file.replace('.zip', '') === mapFolder);
+              if (found) return found;
+            }
+          } catch { /* */ }
+          return {};
+        })();
+        maps.push({
+          id: `dl-${category}-${mapFolder}`,
+          name: mapName,
+          filename: primary,
+          url: `/maps-library/${relPath.split('/').map(encodeURIComponent).join('/')}`,
+          source: 'downloads',
+          terrain: category.replace(/-/g, ' '),
+          tags: [category.replace(/-/g, ' ')],
+          northwatch_uses: dlMeta.northwatch_uses || [],
+          description: dlMeta.terrain || '',
+          variant_count: variants.length,
+        });
+      }
+    }
+  } catch { /* skip if downloads dir not accessible */ }
 
   // 2. Walk adventures/ directory recursively for any image files
   const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
@@ -2817,37 +2881,12 @@ app.get('/api/pdf/:category/*', (req, res) => {
 
   if (!fs.existsSync(fullPath)) return res.status(404).send('Not found');
 
-  const stat = fs.statSync(fullPath);
-  const fileSize = stat.size;
-  const rangeHeader = req.headers.range;
-
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', 'inline');
-  res.setHeader('Accept-Ranges', 'bytes');
 
-  if (rangeHeader) {
-    // Parse "bytes=start-end" (end is optional)
-    const [, startStr, endStr] = /bytes=(\d+)-(\d*)/.exec(rangeHeader) || [];
-    const start = parseInt(startStr, 10);
-    const end   = endStr ? parseInt(endStr, 10) : fileSize - 1;
-
-    if (isNaN(start) || start >= fileSize || end >= fileSize || start > end) {
-      res.setHeader('Content-Range', `bytes */${fileSize}`);
-      return res.status(416).send('Range Not Satisfiable');
-    }
-
-    res.setHeader('Content-Range',  `bytes ${start}-${end}/${fileSize}`);
-    res.setHeader('Content-Length', end - start + 1);
-    res.status(206);
-    const stream = fs.createReadStream(fullPath, { start, end });
-    stream.on('error', () => { if (!res.headersSent) res.status(500).send('Error reading file'); });
-    stream.pipe(res);
-  } else {
-    res.setHeader('Content-Length', fileSize);
-    const stream = fs.createReadStream(fullPath);
-    stream.on('error', () => { if (!res.headersSent) res.status(500).send('Error reading file'); });
-    stream.pipe(res);
-  }
+  send(req, fullPath, { dotfiles: 'deny' })
+    .on('error', err => { if (!res.headersSent) res.status(err.status || 500).end(); })
+    .pipe(res);
 });
 
 app.get('/api/annotations', (req, res) => {
