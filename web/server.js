@@ -2618,6 +2618,31 @@ app.get('/api/pdf/:category/*', (req, res) => {
   stream.pipe(res);
 });
 
+app.get('/api/annotations', (req, res) => {
+  if (!fs.existsSync(ANNOTATIONS_FILE)) {
+    return res.json({ collections: [], bookmarks: [], annotations: {} });
+  }
+  try {
+    res.json(JSON.parse(fs.readFileSync(ANNOTATIONS_FILE, 'utf8')));
+  } catch {
+    res.json({ collections: [], bookmarks: [], annotations: {} });
+  }
+});
+
+app.post('/api/annotations', express.json({ limit: '10mb' }), (req, res) => {
+  try {
+    fs.mkdirSync(path.dirname(ANNOTATIONS_FILE), { recursive: true });
+    fs.writeFileSync(ANNOTATIONS_FILE, JSON.stringify(req.body, null, 2), 'utf8');
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/rulebooks', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'rulebooks.html'));
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
