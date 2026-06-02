@@ -396,8 +396,117 @@ function cancelNote() {
   document.getElementById('note-editor-overlay').classList.add('hidden');
 }
 
+// ── Bookmarks ─────────────────────────────────────────────────────────────────
+function addBookmark(label) {
+  const bm = {
+    id: crypto.randomUUID(),
+    bookId: state.currentBookId,
+    page: state.currentPage,
+    label,
+    collectionIds: [],
+  };
+  state.annotations.bookmarks.push(bm);
+  scheduleSave();
+  renderBookmarksPanel();
+}
+
+function removeBookmark(bmId) {
+  state.annotations.bookmarks = state.annotations.bookmarks.filter(b => b.id !== bmId);
+  for (const col of state.annotations.collections) {
+    col.bookmarkIds = col.bookmarkIds.filter(id => id !== bmId);
+  }
+  scheduleSave();
+  renderBookmarksPanel();
+}
+
+async function jumpToBookmark(bm) {
+  await openBook(bm.bookId);
+  goToPage(bm.page);
+}
+
+let _pendingBmCallback = null;
+
+function promptBookmarkLabel(onSave) {
+  _pendingBmCallback = onSave;
+  const existing = state.annotations.bookmarks.find(
+    b => b.bookId === state.currentBookId && b.page === state.currentPage
+  );
+  document.getElementById('bm-label-input').value = existing ? existing.label : `Page ${state.currentPage}`;
+  document.getElementById('bm-label-overlay').classList.remove('hidden');
+  setTimeout(() => document.getElementById('bm-label-input').select(), 50);
+}
+
 // ── Stub functions (implemented in later tasks) ───────────────────────────────
-function renderBookmarksPanel(){ /* Task 11 */ }
+function renderBookmarksPanel() {
+  const container = document.getElementById('collections-container');
+  container.innerHTML = '';
+
+  const bms  = state.annotations.bookmarks;
+  const cols = state.annotations.collections;
+
+  // Named collections
+  for (const col of cols) {
+    const colBms = col.bookmarkIds.map(id => bms.find(b => b.id === id)).filter(Boolean);
+
+    const block = document.createElement('div');
+    block.className = 'collection-block';
+
+    const header = document.createElement('div');
+    header.className = 'collection-header';
+    header.innerHTML = `<span class="arrow">▾</span> ${esc(col.name)}`;
+
+    const ul = document.createElement('ul');
+    ul.className = 'bm-list';
+    for (const bm of colBms) ul.appendChild(makeBmItem(bm));
+
+    header.addEventListener('click', () => {
+      header.classList.toggle('collapsed');
+      ul.classList.toggle('hidden');
+    });
+
+    block.appendChild(header);
+    block.appendChild(ul);
+    container.appendChild(block);
+  }
+
+  // Unsorted bookmarks
+  const unsorted = bms.filter(b => !b.collectionIds.length);
+  if (unsorted.length) {
+    const section = document.createElement('div');
+    section.className = 'unassigned-section';
+    const label = document.createElement('div');
+    label.className = 'bm-panel-header';
+    label.textContent = 'Unsorted';
+    const ul = document.createElement('ul');
+    ul.className = 'bm-list';
+    for (const bm of unsorted) ul.appendChild(makeBmItem(bm));
+    section.appendChild(label);
+    section.appendChild(ul);
+    container.appendChild(section);
+  }
+}
+
+function makeBmItem(bm) {
+  const bookName = bm.bookId.split('/').pop().replace(/\.pdf$/i, '');
+  const li = document.createElement('li');
+  li.className = 'bm-item';
+  li.innerHTML = `
+    <span class="bm-label" title="${esc(bm.label)} — ${esc(bookName)} p.${bm.page}">${esc(bm.label)}</span>
+    <span class="bm-delete" title="Remove">✕</span>
+  `;
+  li.querySelector('.bm-label').addEventListener('click', () => jumpToBookmark(bm));
+  li.querySelector('.bm-delete').addEventListener('click', e => {
+    e.stopPropagation();
+    removeBookmark(bm.id);
+  });
+  li.addEventListener('contextmenu', e => {
+    e.preventDefault();
+    showBmContextMenu(bm, e.clientX, e.clientY);
+  });
+  return li;
+}
+
+function showBmContextMenu(bm, x, y) { /* Task 12 */ }
 function saveLocalState() { /* Task 13 */ }
 function loadLocalState()  { /* Task 13 */ }
 function bindEvents() {
@@ -425,7 +534,28 @@ function bindEvents() {
   document.getElementById('save-note-btn').addEventListener('click', saveNote);
   document.getElementById('delete-note-btn').addEventListener('click', deleteNote);
   document.getElementById('cancel-note-btn').addEventListener('click', cancelNote);
-  // More events wired in Tasks 11-13
+  document.getElementById('bookmark-btn').addEventListener('click', () => {
+    if (!state.currentBookId) return;
+    promptBookmarkLabel(label => addBookmark(label));
+  });
+  document.getElementById('toggle-bookmarks').addEventListener('click', () => {
+    document.getElementById('bookmarks-panel').classList.toggle('hidden');
+    saveLocalState();
+  });
+  document.getElementById('save-bm-btn').addEventListener('click', () => {
+    const label = document.getElementById('bm-label-input').value.trim() || `Page ${state.currentPage}`;
+    document.getElementById('bm-label-overlay').classList.add('hidden');
+    if (_pendingBmCallback) { _pendingBmCallback(label); _pendingBmCallback = null; }
+  });
+  document.getElementById('cancel-bm-btn').addEventListener('click', () => {
+    document.getElementById('bm-label-overlay').classList.add('hidden');
+    _pendingBmCallback = null;
+  });
+  document.getElementById('bm-label-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter') document.getElementById('save-bm-btn').click();
+    if (e.key === 'Escape') document.getElementById('cancel-bm-btn').click();
+  });
+  // Task 12 will add new-collection-btn
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
