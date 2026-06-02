@@ -78,6 +78,10 @@ function triggerIndexBuild(book) {
     .finally(() => indexingNow.delete(book.bookId));
 }
 
+function escapeHtml(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 function extractSnippet(text, q) {
   const lc  = text.toLowerCase();
   const lq  = q.toLowerCase();
@@ -85,7 +89,7 @@ function extractSnippet(text, q) {
   if (idx === -1) return '';
   const start = Math.max(0, idx - 60);
   const end   = Math.min(text.length, idx + q.length + 80);
-  const raw   = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+  const raw   = (start > 0 ? '…' : '') + escapeHtml(text.slice(start, end)) + (end < text.length ? '…' : '');
   return raw.replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
     m => `<mark>${m}</mark>`);
 }
