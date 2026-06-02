@@ -218,14 +218,182 @@ async function buildTextLayer(page, viewport) {
   }
 }
 
-// ── Annotations (stub — full impl in Task 9) ──────────────────────────────────
+// ── Annotations ───────────────────────────────────────────────────────────────
 function renderAnnotations() {
   const layer  = document.getElementById('annotation-layer');
   const canvas = document.getElementById('pdf-canvas');
-  layer.style.width  = canvas.width  + 'px';
-  layer.style.height = canvas.height + 'px';
+  const W = canvas.width;
+  const H = canvas.height;
+  layer.style.width  = W + 'px';
+  layer.style.height = H + 'px';
   layer.innerHTML = '';
-  // Full implementation in Task 9
+
+  for (const ann of pageAnnotations()) {
+    if (ann.type === 'highlight') {
+      for (const r of ann.rects) {
+        const div = document.createElement('div');
+        div.className = 'highlight-rect';
+        div.dataset.color = ann.color;
+        div.dataset.annId = ann.id;
+        div.style.left   = (r.x * W) + 'px';
+        div.style.top    = (r.y * H) + 'px';
+        div.style.width  = (r.w * W) + 'px';
+        div.style.height = (r.h * H) + 'px';
+        div.title = ann.selectedText ? `"${ann.selectedText}"\n(Shift+click to remove)` : 'Shift+click to remove';
+        div.addEventListener('click', e => {
+          e.stopPropagation();
+          if (e.shiftKey) { removeAnnotation(ann.id); renderAnnotations(); scheduleSave(); }
+        });
+        layer.appendChild(div);
+      }
+    } else if (ann.type === 'note') {
+      const pin = document.createElement('div');
+      pin.className = 'note-pin';
+      pin.textContent = '📝';
+      pin.style.left = (ann.x * W) + 'px';
+      pin.style.top  = (ann.y * H) + 'px';
+      pin.title = ann.text;
+      pin.addEventListener('click', e => {
+        e.stopPropagation();
+        state.editingNoteId = ann.id;
+        state.pendingNotePos = { x: ann.x, y: ann.y };
+        openNoteEditor(ann.text, true);
+      });
+      layer.appendChild(pin);
+    }
+  }
+}
+
+// ── Highlight mode ────────────────────────────────────────────────────────────
+function toggleHighlightMode() {
+  state.highlightMode = !state.highlightMode;
+  if (state.highlightMode) state.noteMode = false;
+  document.body.classList.toggle('highlight-mode', state.highlightMode);
+  document.body.classList.toggle('note-mode', false);
+  document.getElementById('highlight-btn').classList.toggle('active', state.highlightMode);
+  document.getElementById('note-btn').classList.remove('active');
+}
+
+function handleTextSelection() {
+  if (!state.highlightMode) return;
+  const sel = window.getSelection();
+  if (!sel || sel.isCollapsed || !sel.toString().trim()) return;
+
+  const text = sel.toString();
+  const container = document.getElementById('page-container');
+  const cr0 = container.getBoundingClientRect();
+  const W = document.getElementById('pdf-canvas').width;
+  const H = document.getElementById('pdf-canvas').height;
+
+  const rects = [];
+  for (let i = 0; i < sel.rangeCount; i++) {
+    for (const r of sel.getRangeAt(i).getClientRects()) {
+      if (r.width < 1 || r.height < 1) continue;
+      rects.push({
+        x: (r.left - cr0.left) / W,
+        y: (r.top  - cr0.top)  / H,
+        w: r.width  / W,
+        h: r.height / H,
+      });
+    }
+  }
+
+  if (!rects.length) return;
+  state.pendingHighlight = { rects, text };
+  sel.removeAllRanges();
+  document.getElementById('color-picker-overlay').classList.remove('hidden');
+}
+
+function saveHighlight(color) {
+  if (!state.pendingHighlight || !state.currentBookId) return;
+  document.getElementById('color-picker-overlay').classList.add('hidden');
+
+  addAnnotation({
+    id: crypto.randomUUID(),
+    type: 'highlight',
+    color,
+    rects: state.pendingHighlight.rects,
+    selectedText: state.pendingHighlight.text,
+  });
+  state.pendingHighlight = null;
+
+  renderAnnotations();
+  scheduleSave();
+}
+
+function cancelHighlight() {
+  state.pendingHighlight = null;
+  document.getElementById('color-picker-overlay').classList.add('hidden');
+}
+
+// ── Notes ─────────────────────────────────────────────────────────────────────
+function toggleNoteMode() {
+  state.noteMode = !state.noteMode;
+  if (state.noteMode) state.highlightMode = false;
+  document.body.classList.toggle('note-mode', state.noteMode);
+  document.body.classList.toggle('highlight-mode', false);
+  document.getElementById('note-btn').classList.toggle('active', state.noteMode);
+  document.getElementById('highlight-btn').classList.remove('active');
+}
+
+function handlePageClick(e) {
+  if (!state.noteMode) return;
+  if (e.target.classList.contains('note-pin') || e.target.classList.contains('highlight-rect')) return;
+
+  const container = document.getElementById('page-container');
+  const rect = container.getBoundingClientRect();
+  const W = document.getElementById('pdf-canvas').width;
+  const H = document.getElementById('pdf-canvas').height;
+
+  state.pendingNotePos = {
+    x: (e.clientX - rect.left) / W,
+    y: (e.clientY - rect.top)  / H,
+  };
+  state.editingNoteId = null;
+  openNoteEditor('', false);
+}
+
+function openNoteEditor(text, showDelete) {
+  document.getElementById('note-editor-title').textContent = showDelete ? 'Edit Note' : 'Add Note';
+  document.getElementById('note-textarea').value = text;
+  document.getElementById('delete-note-btn').classList.toggle('hidden', !showDelete);
+  document.getElementById('note-editor-overlay').classList.remove('hidden');
+  setTimeout(() => document.getElementById('note-textarea').focus(), 50);
+}
+
+function saveNote() {
+  const text = document.getElementById('note-textarea').value.trim();
+  if (!text) { cancelNote(); return; }
+
+  if (state.editingNoteId) {
+    const ann = pageAnnotations().find(a => a.id === state.editingNoteId);
+    if (ann) ann.text = text;
+  } else {
+    addAnnotation({
+      id: crypto.randomUUID(),
+      type: 'note',
+      x: state.pendingNotePos.x,
+      y: state.pendingNotePos.y,
+      text,
+    });
+  }
+  state.editingNoteId = null;
+  state.pendingNotePos = null;
+  cancelNote();
+  renderAnnotations();
+  scheduleSave();
+}
+
+function deleteNote() {
+  if (state.editingNoteId) removeAnnotation(state.editingNoteId);
+  state.editingNoteId = null;
+  cancelNote();
+  renderAnnotations();
+  scheduleSave();
+}
+
+function cancelNote() {
+  document.getElementById('note-editor-overlay').classList.add('hidden');
 }
 
 // ── Stub functions (implemented in later tasks) ───────────────────────────────
@@ -244,7 +412,20 @@ function bindEvents() {
     if (e.key === 'ArrowRight' || e.key === 'ArrowDown') goToPage(state.currentPage + 1);
     if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   goToPage(state.currentPage - 1);
   });
-  // More events wired in Tasks 8-13
+
+  document.getElementById('highlight-btn').addEventListener('click', toggleHighlightMode);
+  document.getElementById('text-layer').addEventListener('mouseup', handleTextSelection);
+  document.querySelectorAll('.color-swatch').forEach(swatch => {
+    swatch.addEventListener('click', () => saveHighlight(swatch.dataset.color));
+  });
+  document.getElementById('cancel-highlight-btn').addEventListener('click', cancelHighlight);
+
+  document.getElementById('note-btn').addEventListener('click', toggleNoteMode);
+  document.getElementById('page-container').addEventListener('click', handlePageClick);
+  document.getElementById('save-note-btn').addEventListener('click', saveNote);
+  document.getElementById('delete-note-btn').addEventListener('click', deleteNote);
+  document.getElementById('cancel-note-btn').addEventListener('click', cancelNote);
+  // More events wired in Tasks 11-13
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
