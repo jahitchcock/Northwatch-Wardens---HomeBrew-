@@ -37,7 +37,7 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
 function pdfPathForBook(book) {
-  const baseDir = PDF_DIRS[book.bookId.startsWith('core') ? 'core' : 'setting'];
+  const baseDir = PDF_DIRS[book.bookId.startsWith('core/') ? 'core' : 'setting'];
   const rel = book.bookId.split('/').slice(1).join(path.sep);
   return path.join(baseDir, rel);
 }
@@ -875,143 +875,158 @@ app.use('/maps-library', requireAuth, (req, res) => {
   const full = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
   if (!full.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
   if (!/\.(png|jpg|jpeg|webp)$/i.test(full)) return res.status(400).end();
-  res.sendFile(full, { root: '/' });
+  res.sendFile(full);
 });
 
-// ─── Map library API (07-Maps + adventure image folders) ─────────────────
+// ─── Map library API (07-Maps + downloads + adventure image folders) ────────
+
+function isSecondaryMapVariant(filename) {
+  const l = filename.toLowerCase();
+  return l.includes('no grid') || l.includes('nogrid') || l.includes('night') ||
+         l.includes('low res') || l.includes('lowres') || l.includes('dark') ||
+         l.includes('gridless') || l.includes('_bg');
+}
 
 app.get('/api/map-library', requireAuth, (req, res) => {
-  const maps = [];
-
-  // Load metadata from map-resources.json for richer descriptions
-  let meta = {};
   try {
-    const raw = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
-    const digitalMaps = raw?.map_resources?.digital_maps?.maps || [];
-    for (const m of digitalMaps) {
-      meta[m.filename_base] = m;
-    }
-  } catch { /* metadata optional */ }
+    const maps = [];
 
-  // 1. Scan 07 - Maps top-level (numbered commercial maps, skip gridless versions)
-  try {
-    const files = fs.readdirSync(MAPS_LIBRARY_DIR)
-      .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f) && !f.includes('gridless'));
-    for (const f of files) {
-      const base = path.basename(f, path.extname(f));
-      const gridlessName = `${base} (gridless)${path.extname(f)}`;
-      const m = meta[base] || {};
-      maps.push({
-        id: `lib-${base}`,
-        name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
-        filename: f,
-        url: `/maps-library/${encodeURIComponent(f)}`,
-        gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
-          ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
-        source: '07-maps',
-        terrain: m.terrain || '',
-        tags: m.tags || [],
-        northwatch_uses: m.northwatch_uses || [],
-        description: m.description || '',
-      });
-    }
-  } catch { /* skip if inaccessible */ }
+    // Load map-resources.json once for metadata enrichment
+    let digitalMeta = {};  // keyed by filename_base e.g. "130"
+    let downloadsMeta = {}; // keyed by folder name e.g. "wave-echo-cavern"
+    try {
+      const raw = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
+      for (const m of (raw?.map_resources?.digital_maps?.maps || [])) {
+        if (m.filename_base) digitalMeta[m.filename_base] = m;
+      }
+      const dlFolders = raw?.map_resources?.downloaded_maps?.folders || {};
+      for (const cat of Object.values(dlFolders)) {
+        if (!Array.isArray(cat)) continue;
+        for (const m of cat) {
+          if (m.file) downloadsMeta[m.file.replace('.zip', '')] = m;
+        }
+      }
+    } catch { /* metadata optional */ }
 
-  // 1b. Scan 07 - Maps/downloads subfolders (The Fateful Force free maps)
-  // Each subfolder is a terrain category; each map folder contains variants.
-  // Show only the primary day/grid variant per map (skip: no grid, night, low res, dark).
-  const downloadsDir = path.join(MAPS_LIBRARY_DIR, 'downloads');
-  function isSecondaryVariant(filename) {
-    const lower = filename.toLowerCase();
-    return lower.includes('no grid') || lower.includes('nogrid') ||
-           lower.includes('night') || lower.includes('low res') ||
-           lower.includes('lowres') || lower.includes('dark') ||
-           lower.includes('_bg') || lower.includes('gridless');
-  }
-  try {
-    for (const category of fs.readdirSync(downloadsDir)) {
-      const categoryDir = path.join(downloadsDir, category);
-      if (!fs.statSync(categoryDir).isDirectory()) continue;
-      for (const mapFolder of fs.readdirSync(categoryDir)) {
-        const mapDir = path.join(categoryDir, mapFolder);
-        if (!fs.statSync(mapDir).isDirectory()) continue;
-        // Collect all images, separate primary from variants
-        const allImgs = [];
-        try {
-          for (const e of fs.readdirSync(mapDir, { withFileTypes: true })) {
-            if (e.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(e.name)) {
-              allImgs.push(e.name);
-            }
-          }
-        } catch { continue; }
-        if (allImgs.length === 0) continue;
-        // Pick the primary: prefer non-secondary, shortest filename as tiebreak
-        const primary = allImgs
-          .sort((a, b) => a.length - b.length)
-          .find(f => !isSecondaryVariant(f)) || allImgs[0];
-        const variants = allImgs.filter(f => f !== primary);
-        const relPath = `downloads/${category}/${mapFolder}/${primary}`;
-        const mapName = mapFolder.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        // Match to downloaded_maps metadata by id
-        const dlMeta = (() => {
-          try {
-            const rawMeta = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
-            const folders = rawMeta?.map_resources?.downloaded_maps?.folders || {};
-            for (const cat of Object.values(folders)) {
-              const found = cat.find && cat.find(m => m.file && m.file.replace('.zip', '') === mapFolder);
-              if (found) return found;
-            }
-          } catch { /* */ }
-          return {};
-        })();
+    // ── 1. Top-level numbered commercial maps (07 - Maps/*.jpg) ──────────────
+    try {
+      for (const f of fs.readdirSync(MAPS_LIBRARY_DIR)) {
+        if (!/\.(jpg|jpeg|png|webp)$/i.test(f)) continue;
+        if (f.toLowerCase().includes('gridless')) continue;
+        const base = path.basename(f, path.extname(f));
+        const gridlessName = `${base} (gridless)${path.extname(f)}`;
+        const m = digitalMeta[base] || {};
         maps.push({
-          id: `dl-${category}-${mapFolder}`,
-          name: mapName,
-          filename: primary,
-          url: `/maps-library/${relPath.split('/').map(encodeURIComponent).join('/')}`,
-          source: 'downloads',
-          terrain: category.replace(/-/g, ' '),
-          tags: [category.replace(/-/g, ' ')],
-          northwatch_uses: dlMeta.northwatch_uses || [],
-          description: dlMeta.terrain || '',
-          variant_count: variants.length,
+          id: `lib-${base}`,
+          name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
+          filename: f,
+          url: `/maps-library/${encodeURIComponent(f)}`,
+          gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
+            ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
+          source: '07-maps',
+          terrain: m.terrain || '',
+          tags: m.tags || [],
+          northwatch_uses: m.northwatch_uses || [],
+          description: m.description || '',
         });
       }
-    }
-  } catch { /* skip if downloads dir not accessible */ }
+    } catch { /* dir unreadable */ }
 
-  // 2. Walk adventures/ directory recursively for any image files
-  const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
-  function walkForImages(dir) {
-    try {
-      for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    // ── 2. Downloads subfolders (The Fateful Force free maps) ────────────────
+    const downloadsDir = path.join(MAPS_LIBRARY_DIR, 'downloads');
+    if (fs.existsSync(downloadsDir)) {
+      try {
+        for (const category of fs.readdirSync(downloadsDir)) {
+          const catDir = path.join(downloadsDir, category);
+          let catStat;
+          try { catStat = fs.statSync(catDir); } catch { continue; }
+          if (!catStat.isDirectory()) continue;
+
+          for (const mapFolder of fs.readdirSync(catDir)) {
+            const mapDir = path.join(catDir, mapFolder);
+            let mapStat;
+            try { mapStat = fs.statSync(mapDir); } catch { continue; }
+            if (!mapStat.isDirectory()) continue;
+
+            // Walk mapDir recursively to find images (some packs extract into a sub-folder)
+            const allImgPaths = []; // { rel: relative-to-MAPS_LIBRARY_DIR, name: filename }
+            function collectImgs(d) {
+              let ents;
+              try { ents = fs.readdirSync(d, { withFileTypes: true }); } catch { return; }
+              for (const ent of ents) {
+                const fp = path.join(d, ent.name);
+                if (ent.isDirectory()) collectImgs(fp);
+                else if (ent.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(ent.name)) {
+                  allImgPaths.push({
+                    rel: path.relative(MAPS_LIBRARY_DIR, fp).replace(/\\/g, '/'),
+                    name: ent.name,
+                  });
+                }
+              }
+            }
+            collectImgs(mapDir);
+            if (allImgPaths.length === 0) continue;
+
+            // Pick primary: shortest non-secondary filename
+            const sorted = [...allImgPaths].sort((a, b) => a.name.length - b.name.length);
+            const primaryEntry = sorted.find(e => !isSecondaryMapVariant(e.name)) || sorted[0];
+            const variants = allImgPaths.filter(e => e !== primaryEntry);
+            const dm = downloadsMeta[mapFolder] || {};
+            const mapName = mapFolder.replace(/-/g, ' ')
+              .replace(/\b\w/g, c => c.toUpperCase());
+
+            maps.push({
+              id: `dl-${category}-${mapFolder}`,
+              name: mapName,
+              filename: primaryEntry.name,
+              url: `/maps-library/${primaryEntry.rel.split('/').map(encodeURIComponent).join('/')}`,
+              source: 'downloads',
+              terrain: category.replace(/-/g, ' '),
+              tags: [category.replace(/-/g, ' ')],
+              northwatch_uses: dm.northwatch_uses || [],
+              description: dm.terrain || dm.name || '',
+              variant_count: variants.length,
+            });
+
+          }
+        }
+      } catch { /* downloads dir unreadable */ }
+    }
+
+    // ── 3. Walk adventures/ for any image files ───────────────────────────────
+    function walkAdventures(dir) {
+      let entries;
+      try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+      for (const e of entries) {
         const full = path.join(dir, e.name);
         if (e.isDirectory()) {
-          walkForImages(full);
+          walkAdventures(full);
         } else if (e.isFile() && /\.(png|jpg|jpeg|webp)$/i.test(e.name)) {
           const rel = path.relative(CAMPAIGN_ROOT, full).replace(/\\/g, '/');
-          // Derive a human-readable label from the path
-          const parts = rel.split('/'); // adventures/season-1/the-pale-sickness/handouts/file.png
-          const adventurePart = parts.length >= 3 ? parts[2].replace(/-/g, ' ') : '';
+          const parts = rel.split('/');
+          const adventureName = parts.length >= 3
+            ? parts[2].replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : '';
           maps.push({
             id: `adv-${rel.replace(/[^a-z0-9]/gi, '-')}`,
-            name: adventurePart ? `${adventurePart} — ${e.name}` : e.name,
+            name: adventureName ? `${adventureName} — ${e.name}` : e.name,
             filename: e.name,
             url: `/raw?path=${encodeURIComponent(rel)}`,
             source: 'adventure',
-            adventure: adventurePart,
+            adventure: adventureName,
             terrain: '',
-            tags: [],
+            tags: adventureName ? [adventureName.toLowerCase()] : [],
             northwatch_uses: [],
           });
         }
       }
-    } catch { /* skip unreadable dirs */ }
+    }
+    walkAdventures(path.join(CAMPAIGN_ROOT, 'adventures'));
+
+    res.json(maps);
+  } catch (e) {
+    console.error('[map-library]', e.message);
+    res.status(500).json({ error: e.message });
   }
-
-  walkForImages(adventuresRoot);
-
-  res.json(maps);
 });
 
 app.get('/api/maps', requireAuth, (req, res) => {
@@ -2784,12 +2799,12 @@ app.get('/api/pdf-search', (req, res) => {
   const q     = (req.query.q || '').trim();
   const scope = (req.query.scope || 'all').trim();
 
-  if (q.length < 2) return res.json({ results: [], indexing: [] });
+  if (q.length < 2 || q.length > 200) return res.json({ results: [], indexing: [] });
 
   const all  = allBooksFlat();
   let books;
   if (scope === 'all')          books = all;
-  else if (scope === 'core')    books = all.filter(b => b.bookId.startsWith('core/') && !b.subcategory);
+  else if (scope === 'core')    books = all.filter(b => b.bookId.startsWith('core/') && b.subcategory !== 'Unearthed Arcana');
   else if (scope === 'setting') books = all.filter(b => b.bookId.startsWith('setting/'));
   else if (scope === 'ua')      books = all.filter(b => b.subcategory === 'Unearthed Arcana');
   else if (scope.startsWith('book:')) {
