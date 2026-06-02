@@ -24,13 +24,75 @@ try {
   hbRender = render;
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
+const pdfIndexer = require('./lib/pdf-indexer');
+
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
 const PDF_DIRS = {
   core:    process.env.PDF_DIR_CORE    || 'C:/Users/joshu/OneDrive/Documents/dnd/01 - Core Books',
   setting: process.env.PDF_DIR_SETTING || 'C:/Users/joshu/OneDrive/Documents/dnd/02 - Setting Books',
 };
 const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json');
-const MAPS_OUTPUT_DIR = process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps';
+
+const indexingNow = new Set(); // bookIds currently being indexed in background
+
+function pdfPathForBook(book) {
+  const baseDir = PDF_DIRS[book.bookId.startsWith('core') ? 'core' : 'setting'];
+  const rel = book.bookId.split('/').slice(1).join(path.sep);
+  return path.join(baseDir, rel);
+}
+
+function allBooksFlat() {
+  const result = [];
+  for (const [cat, dir] of Object.entries(PDF_DIRS)) {
+    if (!fs.existsSync(dir)) continue;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      if (entry.isFile() && entry.name.toLowerCase().endsWith('.pdf')) {
+        result.push({ bookId: `${cat}/${entry.name}`, name: entry.name });
+      } else if (entry.isDirectory()) {
+        const subDir = path.join(dir, entry.name);
+        try {
+          for (const sub of fs.readdirSync(subDir, { withFileTypes: true })) {
+            if (sub.isFile() && sub.name.toLowerCase().endsWith('.pdf')) {
+              result.push({
+                bookId: `${cat}/${entry.name}/${sub.name}`,
+                name: sub.name,
+                subcategory: entry.name,
+              });
+            }
+          }
+        } catch { /* skip unreadable subdirectory */ }
+      }
+    }
+  }
+  return result;
+}
+
+function triggerIndexBuild(book) {
+  if (indexingNow.has(book.bookId)) return;
+  if (pdfIndexer.isIndexed(book.bookId)) return;
+  const pdfPath = pdfPathForBook(book);
+  if (!fs.existsSync(pdfPath)) return;
+  indexingNow.add(book.bookId);
+  pdfIndexer.buildIndex(book.bookId, pdfPath)
+    .catch(e => console.error(`[pdf-indexer] Failed ${book.bookId}:`, e.message))
+    .finally(() => indexingNow.delete(book.bookId));
+}
+
+function extractSnippet(text, q) {
+  const lc  = text.toLowerCase();
+  const lq  = q.toLowerCase();
+  const idx = lc.indexOf(lq);
+  if (idx === -1) return '';
+  const start = Math.max(0, idx - 60);
+  const end   = Math.min(text.length, idx + q.length + 80);
+  const raw   = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+  return raw.replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
+    m => `<mark>${m}</mark>`);
+}
+
+const MAPS_OUTPUT_DIR = path.resolve(process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps');
+const MAPS_LIBRARY_DIR = path.resolve(process.env.MAPS_LIBRARY_DIR || 'C:/Users/joshu/OneDrive/Documents/dnd/07 - Maps');
+const MAP_RESOURCES_FILE = path.join(CAMPAIGN_ROOT, 'docs/map-resources.json');
 const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
 const BATTLEMAP_WORKFLOWS_DIR = process.env.BATTLEMAP_WORKFLOWS_DIR || 'f:/NewProject/image-gen/workflows';
 const BATTLEMAP_TOPDOWN_NEGATIVE = "isometric, perspective view, 3d render, people, tokens, figures, text, watermark, blurry, low quality, worst quality";
@@ -244,6 +306,7 @@ const PUBLIC_PREFIXES = [
   '/login', '/api/login', '/api/logout',
   // Rulebook viewer — public so players can be given the link
   '/rulebooks', '/api/pdf', '/api/books', '/api/annotations',
+  '/api/pdf-search',
 ];
 
 function signValue(val) {
@@ -800,14 +863,100 @@ app.use('/maps-output', requireAuth, (req, res) => {
   res.sendFile(full, { root: '/' });
 });
 
+// ─── Serve images from the 07-Maps library directory ─────────────────────
+
+app.use('/maps-library', requireAuth, (req, res) => {
+  const rel = decodeURIComponent(req.path.replace(/^\//, ''));
+  const full = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
+  if (!full.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
+  if (!/\.(png|jpg|jpeg|webp)$/i.test(full)) return res.status(400).end();
+  res.sendFile(full, { root: '/' });
+});
+
+// ─── Map library API (07-Maps + adventure image folders) ─────────────────
+
+app.get('/api/map-library', requireAuth, (req, res) => {
+  const maps = [];
+
+  // Load metadata from map-resources.json for richer descriptions
+  let meta = {};
+  try {
+    const raw = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
+    const digitalMaps = raw?.map_resources?.digital_maps?.maps || [];
+    for (const m of digitalMaps) {
+      meta[m.filename_base] = m;
+    }
+  } catch { /* metadata optional */ }
+
+  // 1. Scan 07 - Maps top-level (numbered commercial maps, skip gridless + skip downloads/)
+  try {
+    const files = fs.readdirSync(MAPS_LIBRARY_DIR)
+      .filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f) && !f.includes('gridless'));
+    for (const f of files) {
+      const base = path.basename(f, path.extname(f)); // "130", "178" etc.
+      const gridlessName = `${base} (gridless)${path.extname(f)}`;
+      const m = meta[base] || {};
+      maps.push({
+        id: `lib-${base}`,
+        name: m.description ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
+        filename: f,
+        url: `/maps-library/${encodeURIComponent(f)}`,
+        gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
+          ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
+        source: '07-maps',
+        terrain: m.terrain || '',
+        tags: m.tags || [],
+        northwatch_uses: m.northwatch_uses || [],
+        description: m.description || '',
+      });
+    }
+  } catch { /* skip if inaccessible */ }
+
+  // 2. Walk adventures/ directory recursively for any image files
+  const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
+  function walkForImages(dir) {
+    try {
+      for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, e.name);
+        if (e.isDirectory()) {
+          walkForImages(full);
+        } else if (e.isFile() && /\.(png|jpg|jpeg|webp)$/i.test(e.name)) {
+          const rel = path.relative(CAMPAIGN_ROOT, full).replace(/\\/g, '/');
+          // Derive a human-readable label from the path
+          const parts = rel.split('/'); // adventures/season-1/the-pale-sickness/handouts/file.png
+          const adventurePart = parts.length >= 3 ? parts[2].replace(/-/g, ' ') : '';
+          maps.push({
+            id: `adv-${rel.replace(/[^a-z0-9]/gi, '-')}`,
+            name: adventurePart ? `${adventurePart} — ${e.name}` : e.name,
+            filename: e.name,
+            url: `/raw?path=${encodeURIComponent(rel)}`,
+            source: 'adventure',
+            adventure: adventurePart,
+            terrain: '',
+            tags: [],
+            northwatch_uses: [],
+          });
+        }
+      }
+    } catch { /* skip unreadable dirs */ }
+  }
+
+  walkForImages(adventuresRoot);
+
+  res.json(maps);
+});
+
 app.get('/api/maps', requireAuth, (req, res) => {
   try {
     if (!fs.existsSync(MAPS_OUTPUT_DIR)) return res.json([]);
     const files = fs.readdirSync(MAPS_OUTPUT_DIR)
       .filter(f => /\.(png|jpg|webp)$/i.test(f))
-      .map(f => {
-        const stat = fs.statSync(path.join(MAPS_OUTPUT_DIR, f));
-        return { filename: f, url: `/maps-output/${encodeURIComponent(f)}`, mtime: stat.mtimeMs };
+      .flatMap(f => {
+        try {
+          const full = path.join(path.resolve(MAPS_OUTPUT_DIR), f);
+          const stat = fs.statSync(full);
+          return [{ filename: f, url: `/maps-output/${encodeURIComponent(f)}`, mtime: stat.mtimeMs }];
+        } catch { return []; }
       })
       .sort((a, b) => b.mtime - a.mtime);
     res.json(files);
@@ -2559,6 +2708,57 @@ app.get('/api/sounds/custom', (req, res) => {
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
+});
+
+// ─── PDF full-text search ─────────────────────────────────────────────────────
+
+app.get('/api/pdf-search', (req, res) => {
+  const q     = (req.query.q || '').trim();
+  const scope = (req.query.scope || 'all').trim();
+
+  if (q.length < 2) return res.json({ results: [], indexing: [] });
+
+  const all  = allBooksFlat();
+  let books;
+  if (scope === 'all')          books = all;
+  else if (scope === 'core')    books = all.filter(b => b.bookId.startsWith('core/') && !b.subcategory);
+  else if (scope === 'setting') books = all.filter(b => b.bookId.startsWith('setting/'));
+  else if (scope === 'ua')      books = all.filter(b => b.subcategory === 'Unearthed Arcana');
+  else if (scope.startsWith('book:')) {
+    const id = scope.slice(5);
+    books = all.filter(b => b.bookId === id);
+  } else books = all;
+
+  const results  = [];
+  const indexing = [];
+
+  for (const book of books) {
+    if (results.length >= 20) break;
+
+    if (!pdfIndexer.isIndexed(book.bookId)) {
+      triggerIndexBuild(book);
+      if (indexingNow.has(book.bookId)) indexing.push(book.bookId);
+      continue;
+    }
+
+    const index = pdfIndexer.loadIndex(book.bookId);
+    if (!index) continue;
+
+    const bookName = book.name.replace(/\.pdf$/i, '');
+
+    for (const { page, text } of index.pages) {
+      if (results.length >= 20) break;
+      if (!text.toLowerCase().includes(q.toLowerCase())) continue;
+      results.push({
+        bookId:  book.bookId,
+        bookName,
+        page,
+        snippet: extractSnippet(text, q),
+      });
+    }
+  }
+
+  res.json({ results, indexing });
 });
 
 // ─── Rulebook routes ─────────────────────────────────────────────────────────
