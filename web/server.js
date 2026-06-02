@@ -26,8 +26,8 @@ try {
 
 const CAMPAIGN_ROOT = path.resolve(__dirname, '..');
 const PDF_DIRS = {
-  core:    'C:/Users/joshu/OneDrive/Documents/dnd/01 - Core Books',
-  setting: 'C:/Users/joshu/OneDrive/Documents/dnd/02 - Setting Books',
+  core:    process.env.PDF_DIR_CORE    || 'C:/Users/joshu/OneDrive/Documents/dnd/01 - Core Books',
+  setting: process.env.PDF_DIR_SETTING || 'C:/Users/joshu/OneDrive/Documents/dnd/02 - Setting Books',
 };
 const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json');
 const MAPS_OUTPUT_DIR = process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps';
@@ -2560,28 +2560,34 @@ app.get('/api/sounds/custom', (req, res) => {
 // ─── Rulebook routes ─────────────────────────────────────────────────────────
 
 app.get('/api/books', (req, res) => {
-  const result = {};
-  for (const [cat, dir] of Object.entries(PDF_DIRS)) {
-    result[cat] = [];
-    if (!fs.existsSync(dir)) continue;
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      if (entry.isFile() && entry.name.toLowerCase().endsWith('.pdf')) {
-        result[cat].push({ name: entry.name, bookId: `${cat}/${entry.name}` });
-      } else if (entry.isDirectory()) {
-        const subDir = path.join(dir, entry.name);
-        for (const sub of fs.readdirSync(subDir, { withFileTypes: true })) {
-          if (sub.isFile() && sub.name.toLowerCase().endsWith('.pdf')) {
-            result[cat].push({
-              name: sub.name,
-              subcategory: entry.name,
-              bookId: `${cat}/${entry.name}/${sub.name}`,
-            });
-          }
+  try {
+    const result = {};
+    for (const [cat, dir] of Object.entries(PDF_DIRS)) {
+      result[cat] = [];
+      if (!fs.existsSync(dir)) continue;
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        if (entry.isFile() && entry.name.toLowerCase().endsWith('.pdf')) {
+          result[cat].push({ name: entry.name, bookId: `${cat}/${entry.name}` });
+        } else if (entry.isDirectory()) {
+          try {
+            const subDir = path.join(dir, entry.name);
+            for (const sub of fs.readdirSync(subDir, { withFileTypes: true })) {
+              if (sub.isFile() && sub.name.toLowerCase().endsWith('.pdf')) {
+                result[cat].push({
+                  name: sub.name,
+                  subcategory: entry.name,
+                  bookId: `${cat}/${entry.name}/${sub.name}`,
+                });
+              }
+            }
+          } catch { /* skip unreadable subdirectory */ }
         }
       }
     }
+    res.json(result);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
   }
-  res.json(result);
 });
 
 // ─── WebSocket terminal ────────────────────────────────────────────────────
