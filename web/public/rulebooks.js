@@ -506,7 +506,71 @@ function makeBmItem(bm) {
   return li;
 }
 
-function showBmContextMenu(bm, x, y) { /* Task 12 */ }
+// ── Collections ───────────────────────────────────────────────────────────────
+function createCollection(name) {
+  state.annotations.collections.push({ id: crypto.randomUUID(), name, bookmarkIds: [] });
+  scheduleSave();
+  renderBookmarksPanel();
+}
+
+function addBookmarkToCollection(bmId, colId) {
+  const col = state.annotations.collections.find(c => c.id === colId);
+  const bm  = state.annotations.bookmarks.find(b => b.id === bmId);
+  if (!col || !bm || col.bookmarkIds.includes(bmId)) return;
+  col.bookmarkIds.push(bmId);
+  bm.collectionIds.push(colId);
+  scheduleSave();
+  renderBookmarksPanel();
+}
+
+function removeBookmarkFromCollection(bmId, colId) {
+  const col = state.annotations.collections.find(c => c.id === colId);
+  const bm  = state.annotations.bookmarks.find(b => b.id === bmId);
+  if (col) col.bookmarkIds = col.bookmarkIds.filter(id => id !== bmId);
+  if (bm)  bm.collectionIds = bm.collectionIds.filter(id => id !== colId);
+  scheduleSave();
+  renderBookmarksPanel();
+}
+
+function showBmContextMenu(bm, x, y) {
+  document.getElementById('bm-ctx-menu')?.remove();
+
+  const menu = document.createElement('div');
+  menu.id = 'bm-ctx-menu';
+  menu.className = 'ctx-menu';
+  menu.style.left = x + 'px';
+  menu.style.top  = y + 'px';
+
+  const cols = state.annotations.collections;
+  if (!cols.length) {
+    const empty = document.createElement('div');
+    empty.className = 'ctx-menu-empty';
+    empty.textContent = 'No collections yet';
+    menu.appendChild(empty);
+  } else {
+    const lbl = document.createElement('div');
+    lbl.className = 'ctx-menu-label';
+    lbl.textContent = 'Add to collection';
+    menu.appendChild(lbl);
+
+    for (const col of cols) {
+      const inCol = col.bookmarkIds.includes(bm.id);
+      const item = document.createElement('div');
+      item.className = 'ctx-menu-item';
+      item.innerHTML = `<span style="color:${inCol ? '#c5a56a' : '#444'}">${inCol ? '✓' : '○'}</span> ${esc(col.name)}`;
+      item.addEventListener('click', () => {
+        if (inCol) removeBookmarkFromCollection(bm.id, col.id);
+        else addBookmarkToCollection(bm.id, col.id);
+        menu.remove();
+      });
+      menu.appendChild(item);
+    }
+  }
+
+  document.body.appendChild(menu);
+  const dismiss = (e) => { if (!menu.contains(e.target)) { menu.remove(); document.removeEventListener('mousedown', dismiss); } };
+  setTimeout(() => document.addEventListener('mousedown', dismiss), 0);
+}
 function saveLocalState() { /* Task 13 */ }
 function loadLocalState()  { /* Task 13 */ }
 function bindEvents() {
@@ -555,7 +619,10 @@ function bindEvents() {
     if (e.key === 'Enter') document.getElementById('save-bm-btn').click();
     if (e.key === 'Escape') document.getElementById('cancel-bm-btn').click();
   });
-  // Task 12 will add new-collection-btn
+  document.getElementById('new-collection-btn').addEventListener('click', () => {
+    const name = prompt('Collection name:');
+    if (name && name.trim()) createCollection(name.trim());
+  });
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
