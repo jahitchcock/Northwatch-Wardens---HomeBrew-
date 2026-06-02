@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rulebooks — Northwatch Wardens</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      display: flex; flex-direction: column; height: 100vh; overflow: hidden;
+      background: #1a1a1a; color: #e0d8c8;
+      font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px;
+    }
+
+    /* ── Header ── */
+    #header {
+      display: flex; align-items: center; gap: 12px;
+      padding: 8px 16px; background: #111; border-bottom: 1px solid #333; flex-shrink: 0;
+    }
+    #header h1 { font-size: 15px; font-weight: 600; color: #c5a56a; white-space: nowrap; }
+    #book-search {
+      flex: 1; max-width: 320px; padding: 4px 10px;
+      background: #222; border: 1px solid #444; border-radius: 4px;
+      color: #e0d8c8; font-size: 13px;
+    }
+    #book-search::placeholder { color: #666; }
+    #toggle-bookmarks {
+      margin-left: auto; padding: 4px 12px;
+      background: #2a2a2a; border: 1px solid #444; border-radius: 4px;
+      color: #c5a56a; cursor: pointer; font-size: 13px;
+    }
+    #toggle-bookmarks:hover { background: #333; }
+
+    /* ── Main layout ── */
+    #main { display: flex; flex: 1; overflow: hidden; }
+
+    /* ── Library panel ── */
+    #library-panel {
+      width: 220px; flex-shrink: 0; overflow-y: auto;
+      border-right: 1px solid #333; background: #151515; padding: 8px 0;
+    }
+    .library-category { padding: 4px 0; }
+    .library-category-header {
+      display: flex; align-items: center; gap: 6px;
+      cursor: pointer; color: #888; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 4px 12px; user-select: none;
+    }
+    .library-category-header:hover { color: #c5a56a; }
+    .library-category-header .arrow { transition: transform 0.15s; display: inline-block; }
+    .library-category-header.collapsed .arrow { transform: rotate(-90deg); }
+    .library-books { list-style: none; }
+    .library-books.hidden { display: none; }
+    .sub-label {
+      padding: 6px 8px 2px 20px; font-size: 10px; color: #555;
+      text-transform: uppercase; letter-spacing: .05em;
+    }
+    .library-book {
+      padding: 5px 8px 5px 20px; cursor: pointer; border-radius: 3px;
+      font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      color: #b0a890; margin: 0 4px;
+    }
+    .library-book:hover { background: #222; color: #e0d8c8; }
+    .library-book.active { background: #2a2018; color: #c5a56a; }
+
+    /* ── Reader panel ── */
+    #reader-panel { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+    #scroll-area {
+      flex: 1; overflow: auto; display: flex;
+      justify-content: center; align-items: flex-start;
+      padding: 24px 16px; background: #1a1a1a;
+    }
+
+    #page-container { position: relative; display: inline-block; box-shadow: 0 4px 32px rgba(0,0,0,.8); }
+    #pdf-canvas { display: block; }
+    #text-layer {
+      position: absolute; inset: 0; overflow: hidden; line-height: 1;
+      pointer-events: auto;
+    }
+    #text-layer span {
+      position: absolute; white-space: pre; cursor: text;
+      transform-origin: 0% 0%; color: transparent;
+    }
+    #text-layer ::selection { background: rgba(197,165,106,0.35); color: transparent; }
+    #annotation-layer { position: absolute; inset: 0; pointer-events: none; }
+
+    .highlight-rect {
+      position: absolute; opacity: 0.35; border-radius: 2px;
+      pointer-events: auto; cursor: pointer;
+    }
+    .highlight-rect[data-color="yellow"] { background: #ffe066; }
+    .highlight-rect[data-color="orange"] { background: #ff9a3c; }
+    .highlight-rect[data-color="green"]  { background: #6bff7a; }
+    .highlight-rect[data-color="blue"]   { background: #66b3ff; }
+
+    .note-pin {
+      position: absolute; font-size: 18px; cursor: pointer;
+      pointer-events: auto; transform: translate(-50%, -100%);
+      z-index: 10; line-height: 1; user-select: none;
+    }
+    .note-pin:hover { filter: brightness(1.3); }
+
+    /* ── Toolbar ── */
+    #toolbar {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 12px; background: #111; border-top: 1px solid #333;
+      flex-shrink: 0; flex-wrap: wrap;
+    }
+    #toolbar button {
+      padding: 4px 10px; background: #2a2a2a; border: 1px solid #444;
+      border-radius: 4px; color: #e0d8c8; cursor: pointer; font-size: 13px;
+    }
+    #toolbar button:hover { background: #333; }
+    #toolbar button.active { background: #3a2a10; border-color: #c5a56a; color: #c5a56a; }
+    #toolbar button:disabled { opacity: 0.4; cursor: default; pointer-events: none; }
+    #page-input {
+      width: 52px; text-align: center; padding: 3px 6px;
+      background: #222; border: 1px solid #444; border-radius: 4px;
+      color: #e0d8c8; font-size: 13px;
+    }
+    #page-total { color: #888; }
+    #zoom-display { color: #888; font-size: 13px; min-width: 44px; text-align: center; }
+    .toolbar-sep { width: 1px; height: 20px; background: #333; margin: 0 2px; }
+
+    /* ── Bookmarks panel ── */
+    #bookmarks-panel {
+      width: 240px; flex-shrink: 0; overflow-y: auto;
+      border-left: 1px solid #333; background: #151515;
+      display: flex; flex-direction: column;
+    }
+    #bookmarks-panel.hidden { display: none; }
+    .bm-panel-header {
+      padding: 8px 12px 4px; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.08em; color: #888; flex-shrink: 0;
+    }
+    .collection-block { margin-bottom: 2px; }
+    .collection-header {
+      display: flex; align-items: center; gap: 6px;
+      padding: 5px 12px; cursor: pointer; font-size: 12px;
+      font-weight: 600; color: #c5a56a; user-select: none;
+    }
+    .collection-header:hover { background: #1f1f1f; }
+    .collection-header .arrow { transition: transform 0.15s; display: inline-block; font-size: 10px; }
+    .collection-header.collapsed .arrow { transform: rotate(-90deg); }
+    .bm-list { list-style: none; }
+    .bm-list.hidden { display: none; }
+    .bm-item {
+      display: flex; align-items: center; gap: 6px;
+      padding: 4px 12px 4px 22px; cursor: pointer; font-size: 12px; color: #b0a890;
+    }
+    .bm-item:hover { background: #222; color: #e0d8c8; }
+    .bm-label { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .bm-delete { color: #555; font-size: 10px; cursor: pointer; flex-shrink: 0; }
+    .bm-delete:hover { color: #e06060; }
+    .unassigned-section { border-top: 1px solid #222; padding-top: 4px; margin-top: 4px; }
+    #new-collection-btn {
+      margin: 8px 12px 12px; padding: 5px 10px;
+      background: transparent; border: 1px dashed #444;
+      border-radius: 4px; color: #666; cursor: pointer;
+      font-size: 12px; text-align: left; flex-shrink: 0;
+    }
+    #new-collection-btn:hover { border-color: #c5a56a; color: #c5a56a; }
+
+    /* ── Empty state ── */
+    #empty-state {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      height: 100%; color: #555; gap: 8px; text-align: center;
+    }
+    #empty-state p { font-size: 15px; }
+    #empty-state small { font-size: 12px; }
+
+    /* ── Overlays ── */
+    .overlay-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,.55);
+      z-index: 200; display: flex; align-items: center; justify-content: center;
+    }
+    .overlay-backdrop.hidden { display: none; }
+    .overlay-box {
+      background: #222; border: 1px solid #444; border-radius: 6px;
+      padding: 16px; min-width: 260px;
+    }
+    .overlay-box h3 { font-size: 13px; color: #c5a56a; margin-bottom: 12px; }
+    .overlay-actions { display: flex; gap: 8px; justify-content: flex-end; }
+    .overlay-actions button {
+      padding: 5px 12px; border-radius: 4px; border: 1px solid #444;
+      cursor: pointer; font-size: 13px; background: transparent; color: #e0d8c8;
+    }
+    .overlay-actions button:hover { background: #333; }
+
+    /* Color picker */
+    #color-picker-box { display: flex; gap: 12px; align-items: center; }
+    .color-swatch {
+      width: 30px; height: 30px; border-radius: 50%;
+      cursor: pointer; border: 2px solid transparent; flex-shrink: 0;
+    }
+    .color-swatch:hover { border-color: #fff; transform: scale(1.1); }
+    .color-swatch[data-color="yellow"] { background: #ffe066; }
+    .color-swatch[data-color="orange"] { background: #ff9a3c; }
+    .color-swatch[data-color="green"]  { background: #6bff7a; }
+    .color-swatch[data-color="blue"]   { background: #66b3ff; }
+    #cancel-highlight-btn {
+      background: transparent; border: none; color: #888;
+      cursor: pointer; font-size: 20px; line-height: 1;
+    }
+    #cancel-highlight-btn:hover { color: #e0d8c8; }
+
+    /* Note editor */
+    #note-textarea {
+      width: 100%; min-height: 80px; background: #1a1a1a; border: 1px solid #444;
+      border-radius: 4px; color: #e0d8c8; font-size: 13px; padding: 6px 8px;
+      resize: vertical; font-family: inherit; margin-bottom: 10px; display: block;
+    }
+    #save-note-btn  { background: #3a2a10; border-color: #c5a56a; color: #c5a56a; }
+    #delete-note-btn { color: #e06060; }
+    #delete-note-btn.hidden { display: none; }
+
+    /* Bookmark label input */
+    #bm-label-input {
+      width: 100%; padding: 5px 8px; background: #1a1a1a; border: 1px solid #444;
+      border-radius: 4px; color: #e0d8c8; font-size: 13px;
+      margin-bottom: 10px; display: block;
+    }
+    #save-bm-btn { background: #3a2a10; border-color: #c5a56a; color: #c5a56a; }
+
+    /* Context menu */
+    .ctx-menu {
+      position: fixed; background: #222; border: 1px solid #444; border-radius: 4px;
+      padding: 4px 0; z-index: 300; min-width: 170px;
+      box-shadow: 0 4px 16px rgba(0,0,0,.6); font-size: 13px;
+    }
+    .ctx-menu-label {
+      padding: 4px 14px 2px; font-size: 10px; color: #555;
+      text-transform: uppercase; letter-spacing: .05em;
+    }
+    .ctx-menu-item {
+      padding: 6px 14px; cursor: pointer; color: #e0d8c8;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .ctx-menu-item:hover { background: #333; }
+    .ctx-menu-empty { padding: 6px 14px; color: #555; font-size: 12px; }
+
+    /* Cursor modes */
+    body.highlight-mode #text-layer { cursor: text; }
+    body.note-mode #page-container { cursor: crosshair; }
+    body.note-mode #text-layer { pointer-events: none; }
+  </style>
+</head>
+<body>
+
+<div id="header">
+  <h1>📖 Rulebooks</h1>
+  <input id="book-search" type="text" placeholder="Search books...">
+  <button id="toggle-bookmarks">⭐ Bookmarks</button>
+</div>
+
+<div id="main">
+  <div id="library-panel"></div>
+
+  <div id="reader-panel">
+    <div id="scroll-area">
+      <div id="page-container" style="display:none">
+        <canvas id="pdf-canvas"></canvas>
+        <div id="text-layer"></div>
+        <div id="annotation-layer"></div>
+      </div>
+      <div id="empty-state">
+        <p>📚 Select a book from the library</p>
+        <small>Your annotations and bookmarks will persist across sessions</small>
+      </div>
+    </div>
+
+    <div id="toolbar">
+      <button id="prev-btn" disabled>◀</button>
+      <input id="page-input" type="number" min="1" value="1" disabled>
+      <span>/ <span id="page-total">—</span></span>
+      <button id="next-btn" disabled>▶</button>
+      <div class="toolbar-sep"></div>
+      <button id="zoom-out-btn" disabled>−</button>
+      <span id="zoom-display">100%</span>
+      <button id="zoom-in-btn" disabled>+</button>
+      <div class="toolbar-sep"></div>
+      <button id="highlight-btn" disabled title="Toggle highlight mode (select text to highlight)">🖊 Highlight</button>
+      <button id="note-btn" disabled title="Click page to place a note">📝 Note</button>
+      <button id="bookmark-btn" disabled title="Bookmark this page">⭐ Bookmark</button>
+    </div>
+  </div>
+
+  <div id="bookmarks-panel">
+    <div class="bm-panel-header">Bookmarks</div>
+    <div id="collections-container"></div>
+    <button id="new-collection-btn">＋ New Collection</button>
+  </div>
+</div>
+
+<!-- Color picker overlay -->
+<div id="color-picker-overlay" class="overlay-backdrop hidden">
+  <div class="overlay-box">
+    <h3>Choose highlight color</h3>
+    <div id="color-picker-box">
+      <div class="color-swatch" data-color="yellow" title="Yellow"></div>
+      <div class="color-swatch" data-color="orange" title="Orange"></div>
+      <div class="color-swatch" data-color="green"  title="Green"></div>
+      <div class="color-swatch" data-color="blue"   title="Blue"></div>
+      <button id="cancel-highlight-btn" title="Cancel">✕</button>
+    </div>
+  </div>
+</div>
+
+<!-- Note editor overlay -->
+<div id="note-editor-overlay" class="overlay-backdrop hidden">
+  <div class="overlay-box">
+    <h3 id="note-editor-title">Add Note</h3>
+    <textarea id="note-textarea" placeholder="Write your DM note..."></textarea>
+    <div class="overlay-actions">
+      <button id="delete-note-btn" class="hidden">🗑 Delete</button>
+      <button id="cancel-note-btn">Cancel</button>
+      <button id="save-note-btn">Save</button>
+    </div>
+  </div>
+</div>
+
+<!-- Bookmark label overlay -->
+<div id="bm-label-overlay" class="overlay-backdrop hidden">
+  <div class="overlay-box">
+    <h3>Bookmark label</h3>
+    <input id="bm-label-input" type="text" placeholder="e.g. Grapple rules">
+    <div class="overlay-actions">
+      <button id="cancel-bm-btn">Cancel</button>
+      <button id="save-bm-btn">Save</button>
+    </div>
+  </div>
+</div>
+
+<script src="/rulebooks.js"></script>
+</body>
+</html>
