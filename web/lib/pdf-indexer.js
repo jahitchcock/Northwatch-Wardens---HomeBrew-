@@ -45,7 +45,10 @@ async function buildIndex(bookId, pdfPath) {
   }
 
   const index = { bookId, builtAt: new Date().toISOString(), pages };
-  fs.writeFileSync(getIndexPath(bookId), JSON.stringify(index));
+  const finalPath = getIndexPath(bookId);
+  const tempPath  = finalPath + '.tmp';
+  fs.writeFileSync(tempPath, JSON.stringify(index));
+  fs.renameSync(tempPath, finalPath);
   return index;
 }
 
