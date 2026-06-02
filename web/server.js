@@ -240,7 +240,11 @@ app.use(cookieParser());
 // ─── Auth middleware ───────────────────────────────────────────────────────────
 
 // Routes that bypass auth (player-facing + login itself)
-const PUBLIC_PREFIXES = ['/login', '/api/login', '/api/logout'];
+const PUBLIC_PREFIXES = [
+  '/login', '/api/login', '/api/logout',
+  // Rulebook viewer — public so players can be given the link
+  '/rulebooks', '/api/pdf', '/api/books', '/api/annotations',
+];
 
 function signValue(val) {
   return val + '.' + crypto.createHmac('sha256', COOKIE_SECRET).update(val).digest('hex');
