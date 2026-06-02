@@ -30,3 +30,6 @@ build/col-pos-stats.txt
 test-*.js
 build/test-*.json
 /.claude/worktrees
+
+# PDF search index (generated at runtime)
+web/data/search-index/
