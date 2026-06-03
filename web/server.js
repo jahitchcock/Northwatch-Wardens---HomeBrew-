@@ -882,6 +882,38 @@ app.use('/maps-library', requireAuth, (req, res) => {
   res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
 
+// ─── On-demand thumbnail generation (200px wide JPEG, cached to .thumbs/) ────
+
+app.use('/maps-thumb', requireAuth, async (req, res) => {
+  const rel = decodeURIComponent(req.path.replace(/^\//, ''));
+  const sourceFull = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
+  if (!sourceFull.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
+  if (!/\.(png|jpg|jpeg|webp)$/i.test(sourceFull)) return res.status(400).end();
+
+  const thumbPath = path.join(THUMBS_DIR, rel.replace(/\.[^.]+$/, '.jpg'));
+
+  if (fs.existsSync(thumbPath)) {
+    return res.sendFile(path.basename(thumbPath), { root: path.dirname(thumbPath) });
+  }
+
+  if (!fs.existsSync(sourceFull)) return res.status(404).end();
+
+  if (!sharp) {
+    const encodedRel = rel.split('/').map(encodeURIComponent).join('/');
+    return res.redirect(302, `/maps-library/${encodedRel}`);
+  }
+
+  try {
+    fs.mkdirSync(path.dirname(thumbPath), { recursive: true });
+    await sharp(sourceFull).resize(200, null, { fit: 'inside' }).jpeg({ quality: 80 }).toFile(thumbPath);
+    res.sendFile(path.basename(thumbPath), { root: path.dirname(thumbPath) });
+  } catch (e) {
+    console.error('[maps-thumb] generation failed:', rel, e.message);
+    const encodedRel = rel.split('/').map(encodeURIComponent).join('/');
+    res.redirect(302, `/maps-library/${encodedRel}`);
+  }
+});
+
 // ─── Map library API (07-Maps + downloads + adventure image folders) ────────
 
 function isSecondaryMapVariant(filename) {
