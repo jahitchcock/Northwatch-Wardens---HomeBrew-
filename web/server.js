@@ -24,6 +24,9 @@ try {
   hbRender = render;
 } catch (e) { console.warn('homebrewery-renderer unavailable — raw fallback'); }
 
+let sharp;
+try { sharp = require('sharp'); } catch { console.warn('sharp not found — thumbnail generation disabled'); }
+
 const pdfIndexer = require('./lib/pdf-indexer');
 const send       = require('send');
 
@@ -97,6 +100,7 @@ function extractSnippet(text, q) {
 
 const MAPS_OUTPUT_DIR = path.resolve(process.env.MAPS_OUTPUT_DIR || 'f:/NewProject/image-gen/output/maps');
 const MAPS_LIBRARY_DIR = path.resolve(process.env.MAPS_LIBRARY_DIR || 'C:/Users/joshu/OneDrive/Documents/dnd/07 - Maps');
+const THUMBS_DIR = path.join(MAPS_LIBRARY_DIR, '.thumbs');
 const MAP_RESOURCES_FILE = path.join(CAMPAIGN_ROOT, 'docs/map-resources.json');
 const COMFYUI_URL = process.env.COMFYUI_URL || 'http://127.0.0.1:8000';
 const BATTLEMAP_WORKFLOWS_DIR = process.env.BATTLEMAP_WORKFLOWS_DIR || 'f:/NewProject/image-gen/workflows';
@@ -865,7 +869,7 @@ app.use('/maps-output', requireAuth, (req, res) => {
   const resolvedBase = path.resolve(MAPS_OUTPUT_DIR);
   const full = path.resolve(MAPS_OUTPUT_DIR, fname);
   if (!full.startsWith(resolvedBase)) return res.status(403).end();
-  res.sendFile(full, { root: '/' });
+  res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
 
 // ─── Serve images from the 07-Maps library directory ─────────────────────
@@ -875,7 +879,7 @@ app.use('/maps-library', requireAuth, (req, res) => {
   const full = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
   if (!full.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
   if (!/\.(png|jpg|jpeg|webp)$/i.test(full)) return res.status(400).end();
-  res.sendFile(full);
+  res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
 
 // ─── Map library API (07-Maps + downloads + adventure image folders) ────────
