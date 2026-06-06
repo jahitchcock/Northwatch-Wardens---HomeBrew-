@@ -39,6 +39,19 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
+// ─── In-memory TTL cache for expensive list endpoints ─────────────────────────
+const _cache = new Map(); // key → { data, expires }
+
+function apiCacheGet(key, ttl, fn) {
+  const entry = _cache.get(key);
+  if (entry && Date.now() < entry.expires) return entry.data;
+  const data = fn();
+  _cache.set(key, { data, expires: Date.now() + ttl });
+  return data;
+}
+
+function apiCacheInvalidate(key) { _cache.delete(key); }
+
 function pdfPathForBook(book) {
   const baseDir = PDF_DIRS[book.bookId.startsWith('core/') ? 'core' : 'setting'];
   const rel = book.bookId.split('/').slice(1).join(path.sep);
@@ -868,7 +881,7 @@ app.use('/maps-output', requireAuth, (req, res) => {
   if (!/^[\w\-. ]+\.(png|jpg|webp)$/i.test(fname)) return res.status(400).end();
   const resolvedBase = path.resolve(MAPS_OUTPUT_DIR);
   const full = path.resolve(MAPS_OUTPUT_DIR, fname);
-  if (!full.startsWith(resolvedBase)) return res.status(403).end();
+  if (!full.startsWith(resolvedBase + path.sep)) return res.status(403).end();
   res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
 
@@ -923,85 +936,87 @@ function isSecondaryMapVariant(filename) {
          l.includes('gridless') || l.includes('_bg');
 }
 
+function collectImgs(baseDir, allImgPaths) {
+  let ents;
+  try { ents = fs.readdirSync(baseDir, { withFileTypes: true }); } catch { return; }
+  for (const ent of ents) {
+    const fp = path.join(baseDir, ent.name);
+    if (ent.isDirectory()) collectImgs(fp, allImgPaths);
+    else if (ent.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(ent.name)) {
+      allImgPaths.push({
+        rel: path.relative(MAPS_LIBRARY_DIR, fp).replace(/\\/g, '/'),
+        name: ent.name,
+      });
+    }
+  }
+}
+
 app.get('/api/map-library', requireAuth, (req, res) => {
   try {
-    const maps = [];
+    const maps = apiCacheGet('mapLibrary', 300_000, () => {
+      const result = [];
 
-    // Load map-resources.json once for metadata enrichment
-    let digitalMeta = {};  // keyed by filename_base e.g. "130"
-    let downloadsMeta = {}; // keyed by folder name e.g. "wave-echo-cavern"
-    try {
-      const raw = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
-      for (const m of (raw?.map_resources?.digital_maps?.maps || [])) {
-        if (m.filename_base) digitalMeta[m.filename_base] = m;
-      }
-      const dlFolders = raw?.map_resources?.downloaded_maps?.folders || {};
-      for (const cat of Object.values(dlFolders)) {
-        if (!Array.isArray(cat)) continue;
-        for (const m of cat) {
-          if (m.file) downloadsMeta[m.file.replace('.zip', '')] = m;
-        }
-      }
-    } catch { /* metadata optional */ }
-
-    // ── 1. Top-level numbered commercial maps (07 - Maps/*.jpg) ──────────────
-    try {
-      for (const f of fs.readdirSync(MAPS_LIBRARY_DIR)) {
-        if (!/\.(jpg|jpeg|png|webp)$/i.test(f)) continue;
-        if (f.toLowerCase().includes('gridless')) continue;
-        const base = path.basename(f, path.extname(f));
-        const gridlessName = `${base} (gridless)${path.extname(f)}`;
-        const m = digitalMeta[base] || {};
-        maps.push({
-          id: `lib-${base}`,
-          name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
-          filename: f,
-          url: `/maps-library/${encodeURIComponent(f)}`,
-          thumb_url: `/maps-thumb/${encodeURIComponent(f)}`,
-          gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
-            ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
-          source: '07-maps',
-          terrain: m.terrain || '',
-          tags: m.tags || [],
-          northwatch_uses: m.northwatch_uses || [],
-          description: m.description || '',
-        });
-      }
-    } catch { /* dir unreadable */ }
-
-    // ── 2. Downloads subfolders (The Fateful Force free maps) ────────────────
-    const downloadsDir = path.join(MAPS_LIBRARY_DIR, 'downloads');
-    if (fs.existsSync(downloadsDir)) {
+      // Load map-resources.json once for metadata enrichment
+      let digitalMeta = {};  // keyed by filename_base e.g. "130"
+      let downloadsMeta = {}; // keyed by folder name e.g. "wave-echo-cavern"
       try {
-        for (const category of fs.readdirSync(downloadsDir)) {
-          const catDir = path.join(downloadsDir, category);
-          let catStat;
-          try { catStat = fs.statSync(catDir); } catch { continue; }
-          if (!catStat.isDirectory()) continue;
+        const raw = JSON.parse(fs.readFileSync(MAP_RESOURCES_FILE, 'utf8'));
+        for (const m of (raw?.map_resources?.digital_maps?.maps || [])) {
+          if (m.filename_base) digitalMeta[m.filename_base] = m;
+        }
+        const dlFolders = raw?.map_resources?.downloaded_maps?.folders || {};
+        for (const cat of Object.values(dlFolders)) {
+          if (!Array.isArray(cat)) continue;
+          for (const m of cat) {
+            if (m.file) downloadsMeta[m.file.replace('.zip', '')] = m;
+          }
+        }
+      } catch { /* metadata optional */ }
 
-          for (const mapFolder of fs.readdirSync(catDir)) {
-            const mapDir = path.join(catDir, mapFolder);
-            let mapStat;
-            try { mapStat = fs.statSync(mapDir); } catch { continue; }
-            if (!mapStat.isDirectory()) continue;
+      // ── 1. Top-level numbered commercial maps (07 - Maps/*.jpg) ──────────────
+      try {
+        for (const f of fs.readdirSync(MAPS_LIBRARY_DIR)) {
+          if (!/\.(jpg|jpeg|png|webp)$/i.test(f)) continue;
+          if (f.toLowerCase().includes('gridless')) continue;
+          const base = path.basename(f, path.extname(f));
+          const gridlessName = `${base} (gridless)${path.extname(f)}`;
+          const m = digitalMeta[base] || {};
+          result.push({
+            id: `lib-${base}`,
+            name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
+            filename: f,
+            url: `/maps-library/${encodeURIComponent(f)}`,
+            thumb_url: `/maps-thumb/${encodeURIComponent(f)}`,
+            gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
+              ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
+            source: '07-maps',
+            terrain: m.terrain || '',
+            tags: m.tags || [],
+            northwatch_uses: m.northwatch_uses || [],
+            description: m.description || '',
+          });
+        }
+      } catch { /* dir unreadable */ }
 
-            // Walk mapDir recursively to find images (some packs extract into a sub-folder)
-            const allImgPaths = []; // { rel: relative-to-MAPS_LIBRARY_DIR, name: filename }
-            function collectImgs(d) {
-              let ents;
-              try { ents = fs.readdirSync(d, { withFileTypes: true }); } catch { return; }
-              for (const ent of ents) {
-                const fp = path.join(d, ent.name);
-                if (ent.isDirectory()) collectImgs(fp);
-                else if (ent.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(ent.name)) {
-                  allImgPaths.push({
-                    rel: path.relative(MAPS_LIBRARY_DIR, fp).replace(/\\/g, '/'),
-                    name: ent.name,
-                  });
-                }
-              }
-            }
-            collectImgs(mapDir);
+      // ── 2. Downloads subfolders (The Fateful Force free maps) ────────────────
+      const downloadsDir = path.join(MAPS_LIBRARY_DIR, 'downloads');
+      if (fs.existsSync(downloadsDir)) {
+        try {
+          for (const category of fs.readdirSync(downloadsDir)) {
+            const catDir = path.join(downloadsDir, category);
+            let catStat;
+            try { catStat = fs.statSync(catDir); } catch { continue; }
+            if (!catStat.isDirectory()) continue;
+
+            for (const mapFolder of fs.readdirSync(catDir)) {
+              const mapDir = path.join(catDir, mapFolder);
+              let mapStat;
+              try { mapStat = fs.statSync(mapDir); } catch { continue; }
+              if (!mapStat.isDirectory()) continue;
+
+              // Walk mapDir recursively to find images (some packs extract into a sub-folder)
+              const allImgPaths = []; // { rel: relative-to-MAPS_LIBRARY_DIR, name: filename }
+              collectImgs(mapDir, allImgPaths);
             if (allImgPaths.length === 0) continue;
 
             // Pick primary: shortest non-secondary filename
@@ -1012,7 +1027,7 @@ app.get('/api/map-library', requireAuth, (req, res) => {
             const mapName = mapFolder.replace(/-/g, ' ')
               .replace(/\b\w/g, c => c.toUpperCase());
 
-            maps.push({
+            result.push({
               id: `dl-${category}-${mapFolder}`,
               name: mapName,
               filename: primaryEntry.name,
@@ -1029,37 +1044,40 @@ app.get('/api/map-library', requireAuth, (req, res) => {
           }
         }
       } catch { /* downloads dir unreadable */ }
-    }
+      }
 
-    // ── 3. Walk adventures/ for any image files ───────────────────────────────
-    function walkAdventures(dir) {
-      let entries;
-      try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
-      for (const e of entries) {
-        const full = path.join(dir, e.name);
-        if (e.isDirectory()) {
-          walkAdventures(full);
-        } else if (e.isFile() && /\.(png|jpg|jpeg|webp)$/i.test(e.name)) {
-          const rel = path.relative(CAMPAIGN_ROOT, full).replace(/\\/g, '/');
-          const parts = rel.split('/');
-          const adventureName = parts.length >= 3
-            ? parts[2].replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : '';
-          maps.push({
-            id: `adv-${rel.replace(/[^a-z0-9]/gi, '-')}`,
-            name: adventureName ? `${adventureName} — ${e.name}` : e.name,
-            filename: e.name,
-            url: `/raw?path=${encodeURIComponent(rel)}`,
-            thumb_url: null,
-            source: 'adventure',
-            adventure: adventureName,
-            terrain: '',
-            tags: adventureName ? [adventureName.toLowerCase()] : [],
-            northwatch_uses: [],
-          });
+      // ── 3. Walk adventures/ for any image files ─────────────────────────────
+      function walkAdventures(dir) {
+        let entries;
+        try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+        for (const e of entries) {
+          const full = path.join(dir, e.name);
+          if (e.isDirectory()) {
+            walkAdventures(full);
+          } else if (e.isFile() && /\.(png|jpg|jpeg|webp)$/i.test(e.name)) {
+            const rel = path.relative(CAMPAIGN_ROOT, full).replace(/\\/g, '/');
+            const parts = rel.split('/');
+            const adventureName = parts.length >= 3
+              ? parts[2].replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()) : '';
+            result.push({
+              id: `adv-${rel.replace(/[^a-z0-9]/gi, '-')}`,
+              name: adventureName ? `${adventureName} — ${e.name}` : e.name,
+              filename: e.name,
+              url: `/raw?path=${encodeURIComponent(rel)}`,
+              thumb_url: null,
+              source: 'adventure',
+              adventure: adventureName,
+              terrain: '',
+              tags: adventureName ? [adventureName.toLowerCase()] : [],
+              northwatch_uses: [],
+            });
+          }
         }
       }
-    }
-    walkAdventures(path.join(CAMPAIGN_ROOT, 'adventures'));
+      walkAdventures(path.join(CAMPAIGN_ROOT, 'adventures'));
+
+      return result;
+    });
 
     res.json(maps);
   } catch (e) {
@@ -1325,16 +1343,19 @@ function parseTableFile(filePath) {
 
 app.get('/api/tables', (req, res) => {
   try {
-    const dir = path.join(CAMPAIGN_ROOT, 'tables');
-    if (!fs.existsSync(dir)) return res.json([]);
-    const result = [];
-    for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md') && !f.startsWith('_'))) {
-      const groups = parseTableFile(path.join(dir, file));
-      const key = file.replace('.md', '');
-      groups.forEach((g, idx) => result.push({ name: g.name, file: key, tableIdx: idx, die: g.die }));
-    }
-    result.sort((a, b) => a.name.localeCompare(b.name));
-    res.json(result);
+    const tables = apiCacheGet('tables', 120_000, () => {
+      const dir = path.join(CAMPAIGN_ROOT, 'tables');
+      if (!fs.existsSync(dir)) return [];
+      const result = [];
+      for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md') && !f.startsWith('_'))) {
+        const groups = parseTableFile(path.join(dir, file));
+        const key = file.replace('.md', '');
+        groups.forEach((g, idx) => result.push({ name: g.name, file: key, tableIdx: idx, die: g.die }));
+      }
+      result.sort((a, b) => a.name.localeCompare(b.name));
+      return result;
+    });
+    res.json(tables);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -1718,18 +1739,19 @@ function parseCharacterSheet(raw, filename) {
 
 app.get('/api/characters', (req, res) => {
   try {
-    const dir = path.join(CAMPAIGN_ROOT, 'player-characters');
-    const files = fs.readdirSync(dir)
-      .filter(f => f.endsWith('.md') && f !== 'MANIFEST.md' && f !== 'index.md');
-    // Order: john, kuetis, perkia, falcor
-    const ORDER = ['john-paladin.md', 'kuetis-grlevr.md', 'perkia-fali.md', 'falcor.md'];
-    files.sort((a, b) => {
-      const ai = ORDER.indexOf(a); const bi = ORDER.indexOf(b);
-      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
-    });
-    const characters = files.map(f => {
-      const raw = fs.readFileSync(path.join(dir, f), 'utf8');
-      return parseCharacterSheet(raw, f);
+    const characters = apiCacheGet('characters', 120_000, () => {
+      const dir = path.join(CAMPAIGN_ROOT, 'player-characters');
+      const files = fs.readdirSync(dir)
+        .filter(f => f.endsWith('.md') && f !== 'MANIFEST.md' && f !== 'index.md');
+      const ORDER = ['john-paladin.md', 'kuetis-grlevr.md', 'perkia-fali.md', 'falcor.md'];
+      files.sort((a, b) => {
+        const ai = ORDER.indexOf(a); const bi = ORDER.indexOf(b);
+        return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
+      });
+      return files.map(f => {
+        const raw = fs.readFileSync(path.join(dir, f), 'utf8');
+        return parseCharacterSheet(raw, f);
+      });
     });
     res.json(characters);
   } catch (e) {
@@ -1792,20 +1814,22 @@ app.post('/api/tracker', express.text({ type: '*/*' }), (req, res) => {
 });
 
 app.get('/api/tracker/sessions', (req, res) => {
-  const dir = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions');
   try {
-    if (!fs.existsSync(dir)) return res.json([]);
-    const files = fs.readdirSync(dir)
-      .filter(f => /^session-\d+\.md$/.test(f))
-      .sort();
-    const sessions = files.map(f => {
-      const content = fs.readFileSync(path.join(dir, f), 'utf8');
-      const fm = extractFrontmatter(content);
-      const body = content.replace(/^---[\s\S]*?---\n?/, '');
-      const preview = body.split('\n').find(l => l.trim() && !l.startsWith('#')) || '';
-      return { id: f.replace('.md', ''), session: fm.session || '', date: fm.date || '',
-               adventure: fm.adventure || '', level: fm.level || '',
-               preview: preview.slice(0, 100) };
+    const sessions = apiCacheGet('sessions', 60_000, () => {
+      const dir = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions');
+      if (!fs.existsSync(dir)) return [];
+      const files = fs.readdirSync(dir)
+        .filter(f => /^session-\d+\.md$/.test(f))
+        .sort();
+      return files.map(f => {
+        const content = fs.readFileSync(path.join(dir, f), 'utf8');
+        const fm = extractFrontmatter(content);
+        const body = content.replace(/^---[\s\S]*?---\n?/, '');
+        const preview = body.split('\n').find(l => l.trim() && !l.startsWith('#')) || '';
+        return { id: f.replace('.md', ''), session: fm.session || '', date: fm.date || '',
+                 adventure: fm.adventure || '', level: fm.level || '',
+                 preview: preview.slice(0, 100) };
+      });
     });
     res.json(sessions);
   } catch (e) {
@@ -2038,22 +2062,25 @@ function parseNpcFile(filePath) {
 
 app.get('/api/npcs', (req, res) => {
   try {
-    const dirs = [
-      path.join(CAMPAIGN_ROOT, 'npcs', 'core'),
-      path.join(CAMPAIGN_ROOT, 'npcs', 'season-1'),
-    ];
-    const npcs = [];
-    for (const dir of dirs) {
-      if (!fs.existsSync(dir)) continue;
-      for (const file of fs.readdirSync(dir)) {
-        if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md') continue;
-        try {
-          const npc = parseNpcFile(path.join(dir, file));
-          if (npc) npcs.push(npc);
-        } catch { /* skip malformed files */ }
+    const npcs = apiCacheGet('npcs', 60_000, () => {
+      const dirs = [
+        path.join(CAMPAIGN_ROOT, 'npcs', 'core'),
+        path.join(CAMPAIGN_ROOT, 'npcs', 'season-1'),
+      ];
+      const result = [];
+      for (const dir of dirs) {
+        if (!fs.existsSync(dir)) continue;
+        for (const file of fs.readdirSync(dir)) {
+          if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md') continue;
+          try {
+            const npc = parseNpcFile(path.join(dir, file));
+            if (npc) result.push(npc);
+          } catch { /* skip malformed files */ }
+        }
       }
-    }
-    npcs.sort((a, b) => a.name.localeCompare(b.name));
+      result.sort((a, b) => a.name.localeCompare(b.name));
+      return result;
+    });
     res.json(npcs);
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -2095,28 +2122,28 @@ function parseLocationFile(filePath) {
 
 app.get('/api/locations', (req, res) => {
   try {
-    const locationsRoot = path.join(CAMPAIGN_ROOT, 'locations');
-    const results = [];
-    if (!fs.existsSync(locationsRoot)) {
-      res.json([]);
-      return;
-    }
-    for (const region of fs.readdirSync(locationsRoot)) {
-      const regionPath = path.join(locationsRoot, region);
-      if (!fs.statSync(regionPath).isDirectory()) continue;
-      for (const file of fs.readdirSync(regionPath)) {
-        if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md' || file === 'MANIFEST.md') continue;
-        try {
-          const loc = parseLocationFile(path.join(regionPath, file));
-          if (loc) {
-            loc.regionDir = region;
-            results.push(loc);
-          }
-        } catch { /* skip malformed files */ }
+    const locations = apiCacheGet('locations', 60_000, () => {
+      const locationsRoot = path.join(CAMPAIGN_ROOT, 'locations');
+      if (!fs.existsSync(locationsRoot)) return [];
+      const results = [];
+      for (const region of fs.readdirSync(locationsRoot)) {
+        const regionPath = path.join(locationsRoot, region);
+        if (!fs.statSync(regionPath).isDirectory()) continue;
+        for (const file of fs.readdirSync(regionPath)) {
+          if (!file.endsWith('.md') || file === 'index.md' || file === '_template.md' || file === 'MANIFEST.md') continue;
+          try {
+            const loc = parseLocationFile(path.join(regionPath, file));
+            if (loc) {
+              loc.regionDir = region;
+              results.push(loc);
+            }
+          } catch { /* skip malformed files */ }
+        }
       }
-    }
-    results.sort((a, b) => a.name.localeCompare(b.name));
-    res.json(results);
+      results.sort((a, b) => a.name.localeCompare(b.name));
+      return results;
+    });
+    res.json(locations);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -2239,23 +2266,26 @@ function parseHomebrewFile(filePath) {
 
 app.get('/api/homebrew', (req, res) => {
   try {
-    const homebrewRoot = path.join(CAMPAIGN_ROOT, 'homebrew');
-    const results = [];
-    function walk(dir) {
-      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-        const fullPath = path.join(dir, entry.name);
-        if (entry.isDirectory()) { walk(fullPath); continue; }
-        if (!entry.name.endsWith('.md')) continue;
-        if (['index.md', 'MANIFEST.md'].includes(entry.name) || entry.name.startsWith('_')) continue;
-        try {
-          const item = parseHomebrewFile(fullPath);
-          if (item) results.push(item);
-        } catch { /* skip malformed */ }
+    const items = apiCacheGet('homebrew', 60_000, () => {
+      const homebrewRoot = path.join(CAMPAIGN_ROOT, 'homebrew');
+      const results = [];
+      function walk(dir) {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+          const fullPath = path.join(dir, entry.name);
+          if (entry.isDirectory()) { walk(fullPath); continue; }
+          if (!entry.name.endsWith('.md')) continue;
+          if (['index.md', 'MANIFEST.md'].includes(entry.name) || entry.name.startsWith('_')) continue;
+          try {
+            const item = parseHomebrewFile(fullPath);
+            if (item) results.push(item);
+          } catch { /* skip malformed */ }
+        }
       }
-    }
-    walk(homebrewRoot);
-    results.sort((a, b) => a.name.localeCompare(b.name));
-    res.json(results);
+      walk(homebrewRoot);
+      results.sort((a, b) => a.name.localeCompare(b.name));
+      return results;
+    });
+    res.json(items);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
