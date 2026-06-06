@@ -877,7 +877,7 @@ app.use('/maps-output', requireAuth, (req, res) => {
 app.use('/maps-library', requireAuth, (req, res) => {
   const rel = decodeURIComponent(req.path.replace(/^\//, ''));
   const full = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
-  if (!full.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
+  if (!full.startsWith(MAPS_LIBRARY_DIR + path.sep)) return res.status(403).end();
   if (!/\.(png|jpg|jpeg|webp)$/i.test(full)) return res.status(400).end();
   res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
@@ -887,7 +887,7 @@ app.use('/maps-library', requireAuth, (req, res) => {
 app.use('/maps-thumb', requireAuth, async (req, res) => {
   const rel = decodeURIComponent(req.path.replace(/^\//, ''));
   const sourceFull = path.resolve(path.join(MAPS_LIBRARY_DIR, rel));
-  if (!sourceFull.startsWith(MAPS_LIBRARY_DIR)) return res.status(403).end();
+  if (!sourceFull.startsWith(MAPS_LIBRARY_DIR + path.sep)) return res.status(403).end();
   if (!/\.(png|jpg|jpeg|webp)$/i.test(sourceFull)) return res.status(400).end();
 
   const thumbPath = path.join(THUMBS_DIR, rel.replace(/\.[^.]+$/, '.jpg'));
