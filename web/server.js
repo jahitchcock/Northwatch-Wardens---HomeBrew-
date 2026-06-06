@@ -957,6 +957,7 @@ app.get('/api/map-library', requireAuth, (req, res) => {
           name: m.terrain ? `Map ${base} — ${m.terrain}` : `Map ${base}`,
           filename: f,
           url: `/maps-library/${encodeURIComponent(f)}`,
+          thumb_url: `/maps-thumb/${encodeURIComponent(f)}`,
           gridless_url: fs.existsSync(path.join(MAPS_LIBRARY_DIR, gridlessName))
             ? `/maps-library/${encodeURIComponent(gridlessName)}` : null,
           source: '07-maps',
@@ -1016,6 +1017,7 @@ app.get('/api/map-library', requireAuth, (req, res) => {
               name: mapName,
               filename: primaryEntry.name,
               url: `/maps-library/${primaryEntry.rel.split('/').map(encodeURIComponent).join('/')}`,
+              thumb_url: `/maps-thumb/${primaryEntry.rel.split('/').map(encodeURIComponent).join('/')}`,
               source: 'downloads',
               terrain: category.replace(/-/g, ' '),
               tags: [category.replace(/-/g, ' ')],
@@ -1047,6 +1049,7 @@ app.get('/api/map-library', requireAuth, (req, res) => {
             name: adventureName ? `${adventureName} — ${e.name}` : e.name,
             filename: e.name,
             url: `/raw?path=${encodeURIComponent(rel)}`,
+            thumb_url: null,
             source: 'adventure',
             adventure: adventureName,
             terrain: '',
