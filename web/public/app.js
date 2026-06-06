@@ -4290,103 +4290,143 @@ document.addEventListener('DOMContentLoaded', () => {
   if (window.SoundPlayer) SoundPlayer.init();
 });
 
-// ── Maps tab ──────────────────────────────────────────────────────────────
+// ── Left-panel Maps section ───────────────────────────────────────────────
 
-async function showMapsModal() {
-  const m = getFreeModal();
-  if (!m) return;
+(function initLeftMaps() {
+  const gallery   = document.getElementById('left-maps-gallery');
+  const genBtn    = document.getElementById('left-maps-gen-btn');
+  const genForm   = document.getElementById('left-maps-gen-form');
+  const promptEl  = document.getElementById('left-maps-prompt');
+  const submitBtn = document.getElementById('left-maps-submit');
+  const status    = document.getElementById('left-maps-status');
+  if (!gallery || !genBtn) return;
 
-  let style = 'topdown';
-  let maps = [];
+  let mapStyle = 'topdown';
+  let allMaps  = [];
+  let filter   = '';
 
-  function renderModal() {
-    m.innerHTML = `
+  function openLightbox(url, name, meta) {
+    const lb = getFreeModal();
+    if (!lb) return;
+    const tags = (meta.tags || []).map(t => `<span class="lm-tag">${escapeHtml(t)}</span>`).join('');
+    const uses = (meta.northwatch_uses || []).map(u => `<span class="lm-use">${escapeHtml(u)}</span>`).join('');
+    const gridless = meta.gridless_url
+      ? `<a href="${escapeHtml(meta.gridless_url)}" target="_blank" class="lm-lb-link">Gridless version ↗</a>` : '';
+    lb.innerHTML = `
       <div class="ref-modal-header">
-        <span class="ref-modal-title">Maps</span>
+        <span class="ref-modal-title">${escapeHtml(name)}</span>
         <button class="ref-modal-close" onclick="closeTopModal()">✕</button>
       </div>
-      <div class="maps-form">
-        <div class="maps-style-toggle">
-          <button class="maps-style-btn ${style === 'topdown' ? 'active' : ''}" data-style="topdown">Top-down</button>
-          <button class="maps-style-btn ${style === 'scene' ? 'active' : ''}" data-style="scene">Scene</button>
-        </div>
-        <div class="maps-prompt-label">Prompt</div>
-        <textarea class="maps-prompt" id="maps-prompt-input" placeholder="${style === 'topdown' ? 'dungeon throne room, cracked stone floor, torches, pit trap' : 'ancient forest shrine at dusk, glowing runes, mist'}"></textarea>
-        <button class="maps-generate-btn" id="maps-gen-btn">Generate</button>
-        <div id="maps-gen-status"></div>
-      </div>
-      <div class="maps-gallery" id="maps-gallery">
-        ${maps.length === 0
-          ? '<div class="maps-gallery-empty">No maps yet — generate one above.</div>'
-          : maps.map(mp => `
-            <div class="maps-thumb" data-url="${escapeHtml(mp.url)}" data-name="${escapeHtml(mp.filename)}">
-              <img src="${escapeHtml(mp.url)}" alt="${escapeHtml(mp.filename)}" loading="lazy">
-              <div class="maps-thumb-name">${escapeHtml(mp.filename)}</div>
-            </div>`).join('')}
+      <div class="maps-lightbox">
+        <img src="${escapeHtml(url)}" alt="${escapeHtml(name)}" style="max-width:100%;max-height:65vh;object-fit:contain;display:block;margin:0 auto">
+        ${meta.description ? `<div class="lm-lb-desc">${escapeHtml(meta.description)}</div>` : ''}
+        ${tags ? `<div class="lm-lb-tags">${tags}</div>` : ''}
+        ${uses ? `<div class="lm-lb-uses"><strong>Good for:</strong> ${uses}</div>` : ''}
+        ${gridless}
       </div>`;
+    lb.hidden = false;
+    lb.classList.add('visible');
+  }
 
-    m.querySelectorAll('.maps-style-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        style = btn.dataset.style;
-        renderModal();
-      });
-    });
+  function renderGallery() {
+    const shown = filter
+      ? allMaps.filter(m =>
+          m.name.toLowerCase().includes(filter) ||
+          (m.terrain || '').toLowerCase().includes(filter) ||
+          (m.tags || []).some(t => t.toLowerCase().includes(filter)) ||
+          (m.northwatch_uses || []).some(u => u.toLowerCase().includes(filter)) ||
+          (m.adventure || '').toLowerCase().includes(filter)
+        )
+      : allMaps;
 
-    m.querySelector('#maps-gen-btn').addEventListener('click', async () => {
-      const prompt = m.querySelector('#maps-prompt-input').value.trim();
-      if (!prompt) return;
-      const btn = m.querySelector('#maps-gen-btn');
-      const status = m.querySelector('#maps-gen-status');
-      btn.disabled = true;
-      status.innerHTML = '<div class="maps-spinner">Generating… (30-90s)</div>';
-      try {
-        const r = await fetch('/api/maps/generate', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ style, prompt }),
-        });
-        if (!r.ok) {
-          let msg = 'Generation failed';
-          try { msg = (await r.json()).error || msg; } catch { /* non-JSON body */ }
-          throw new Error(msg);
-        }
-        const data = await r.json();
-        maps.unshift(data);
-        status.innerHTML = '';
-        renderModal();
-      } catch (e) {
-        btn.disabled = false;
-        status.innerHTML = `<div class="maps-gen-error">${escapeHtml(e.message)}</div>`;
-      }
-    });
+    if (shown.length === 0) {
+      gallery.innerHTML = `<div style="font-size:10px;color:var(--subtext);padding:4px;grid-column:1/-1">${filter ? 'No matches.' : 'No maps found.'}</div>`;
+      return;
+    }
 
-    m.querySelectorAll('.maps-thumb').forEach(thumb => {
+    gallery.innerHTML = shown.map(mp => `
+      <div class="lm-thumb"
+           data-url="${escapeHtml(mp.url)}"
+           data-name="${escapeHtml(mp.name)}"
+           data-gridless="${escapeHtml(mp.gridless_url || '')}"
+           data-desc="${escapeHtml(mp.description || '')}"
+           data-tags="${escapeHtml((mp.tags||[]).join(','))}"
+           data-uses="${escapeHtml((mp.northwatch_uses||[]).join(','))}"
+           title="${escapeHtml(mp.name)}${mp.terrain ? ' · ' + mp.terrain : ''}">
+        <img src="${escapeHtml(mp.thumb_url || mp.url)}" alt="${escapeHtml(mp.name)}" loading="lazy">
+        <div class="lm-thumb-name">${escapeHtml(mp.name)}</div>
+      </div>`).join('');
+
+    gallery.querySelectorAll('.lm-thumb').forEach(thumb => {
       thumb.addEventListener('click', () => {
-        const lb = getFreeModal();
-        if (!lb) return;
-        lb.innerHTML = `
-          <div class="ref-modal-header">
-            <button class="ref-modal-close" onclick="closeTopModal()">✕</button>
-          </div>
-          <div class="maps-lightbox">
-            <img src="${thumb.dataset.url}" alt="${escapeHtml(thumb.dataset.name)}">
-            <div class="maps-lightbox-name">${escapeHtml(thumb.dataset.name)}</div>
-          </div>`;
-        lb.hidden = false;
-        lb.classList.add('visible');
+        const tags = thumb.dataset.tags ? thumb.dataset.tags.split(',').filter(Boolean) : [];
+        const uses = thumb.dataset.uses ? thumb.dataset.uses.split(',').filter(Boolean) : [];
+        openLightbox(thumb.dataset.url, thumb.dataset.name, {
+          description: thumb.dataset.desc,
+          tags, northwatch_uses: uses,
+          gridless_url: thumb.dataset.gridless || null,
+        });
       });
     });
   }
 
-  // Fetch existing maps
-  try {
-    const r = await fetch('/api/maps');
-    if (r.ok) { const d = await r.json(); if (Array.isArray(d)) maps = d; }
-  } catch { /* show empty gallery */ }
+  // Load map library on page load
+  fetch('/api/map-library').then(r => r.ok ? r.json() : []).then(d => {
+    if (Array.isArray(d)) { allMaps = d; renderGallery(); }
+  }).catch(() => {
+    gallery.innerHTML = '<div style="font-size:10px;color:var(--subtext);padding:4px;grid-column:1/-1">Could not load map library.</div>';
+  });
 
-  m.hidden = false;
-  renderModal();
-  requestAnimationFrame(() => m.classList.add('visible'));
-}
+  // Filter input (injected into the panel header via JS below)
+  const filterInput = document.getElementById('left-maps-filter');
+  if (filterInput) {
+    filterInput.addEventListener('input', () => {
+      filter = filterInput.value.trim().toLowerCase();
+      renderGallery();
+    });
+  }
 
-document.getElementById('tab-maps')?.addEventListener('click', () => showMapsModal());
+  // Toggle generate form
+  genBtn.addEventListener('click', () => {
+    const hidden = genForm.hidden;
+    genForm.hidden = !hidden;
+    genBtn.textContent = hidden ? '− Cancel' : '+ Generate Map';
+  });
+
+  // Style toggle
+  genForm.querySelectorAll('.left-maps-style-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      mapStyle = btn.dataset.style;
+      genForm.querySelectorAll('.left-maps-style-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Generate
+  submitBtn.addEventListener('click', async () => {
+    const p = promptEl.value.trim();
+    if (!p) return;
+    submitBtn.disabled = true;
+    status.textContent = 'Generating… (30–90s)';
+    try {
+      const r = await fetch('/api/maps/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ style: mapStyle, prompt: p }),
+      });
+      if (!r.ok) {
+        let msg = 'Generation failed';
+        try { msg = (await r.json()).error || msg; } catch { /* */ }
+        throw new Error(msg);
+      }
+      status.textContent = 'Done — save the output to your adventure folder, then reload to see it here.';
+      promptEl.value = '';
+      genForm.hidden = true;
+      genBtn.textContent = '+ Generate Map';
+    } catch (e) {
+      status.textContent = e.message;
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+})();
