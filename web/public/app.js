@@ -4328,36 +4328,27 @@ document.addEventListener('DOMContentLoaded', () => {
     lb.classList.add('visible');
   }
 
-  function renderGallery() {
-    const shown = filter
-      ? allMaps.filter(m =>
-          m.name.toLowerCase().includes(filter) ||
-          (m.terrain || '').toLowerCase().includes(filter) ||
-          (m.tags || []).some(t => t.toLowerCase().includes(filter)) ||
-          (m.northwatch_uses || []).some(u => u.toLowerCase().includes(filter)) ||
-          (m.adventure || '').toLowerCase().includes(filter)
-        )
-      : allMaps;
+  const GALLERY_PAGE = 40;
+  let galleryShown = null; // current filtered list
+  let galleryRenderedCount = 0;
 
-    if (shown.length === 0) {
-      gallery.innerHTML = `<div style="font-size:10px;color:var(--subtext);padding:4px;grid-column:1/-1">${filter ? 'No matches.' : 'No maps found.'}</div>`;
-      return;
-    }
+  function thumbHtml(mp) {
+    return `<div class="lm-thumb"
+         data-url="${escapeHtml(mp.url)}"
+         data-name="${escapeHtml(mp.name)}"
+         data-gridless="${escapeHtml(mp.gridless_url || '')}"
+         data-desc="${escapeHtml(mp.description || '')}"
+         data-tags="${escapeHtml((mp.tags||[]).join(','))}"
+         data-uses="${escapeHtml((mp.northwatch_uses||[]).join(','))}"
+         title="${escapeHtml(mp.name)}${mp.terrain ? ' · ' + mp.terrain : ''}">
+      <img src="${escapeHtml(mp.thumb_url || mp.url)}" alt="${escapeHtml(mp.name)}">
+      <div class="lm-thumb-name">${escapeHtml(mp.name)}</div>
+    </div>`;
+  }
 
-    gallery.innerHTML = shown.map(mp => `
-      <div class="lm-thumb"
-           data-url="${escapeHtml(mp.url)}"
-           data-name="${escapeHtml(mp.name)}"
-           data-gridless="${escapeHtml(mp.gridless_url || '')}"
-           data-desc="${escapeHtml(mp.description || '')}"
-           data-tags="${escapeHtml((mp.tags||[]).join(','))}"
-           data-uses="${escapeHtml((mp.northwatch_uses||[]).join(','))}"
-           title="${escapeHtml(mp.name)}${mp.terrain ? ' · ' + mp.terrain : ''}">
-        <img src="${escapeHtml(mp.thumb_url || mp.url)}" alt="${escapeHtml(mp.name)}" loading="lazy">
-        <div class="lm-thumb-name">${escapeHtml(mp.name)}</div>
-      </div>`).join('');
-
-    gallery.querySelectorAll('.lm-thumb').forEach(thumb => {
+  function attachThumbClicks(container) {
+    container.querySelectorAll('.lm-thumb:not([data-bound])').forEach(thumb => {
+      thumb.dataset.bound = '1';
       thumb.addEventListener('click', () => {
         const tags = thumb.dataset.tags ? thumb.dataset.tags.split(',').filter(Boolean) : [];
         const uses = thumb.dataset.uses ? thumb.dataset.uses.split(',').filter(Boolean) : [];
@@ -4368,6 +4359,56 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
     });
+  }
+
+  function renderGallery() {
+    galleryShown = filter
+      ? allMaps.filter(m =>
+          m.name.toLowerCase().includes(filter) ||
+          (m.terrain || '').toLowerCase().includes(filter) ||
+          (m.tags || []).some(t => t.toLowerCase().includes(filter)) ||
+          (m.northwatch_uses || []).some(u => u.toLowerCase().includes(filter)) ||
+          (m.adventure || '').toLowerCase().includes(filter)
+        )
+      : allMaps;
+
+    galleryRenderedCount = 0;
+    gallery.innerHTML = '';
+
+    if (galleryShown.length === 0) {
+      gallery.innerHTML = `<div style="font-size:10px;color:var(--subtext);padding:4px;grid-column:1/-1">${filter ? 'No matches.' : 'No maps found.'}</div>`;
+      return;
+    }
+
+    renderGalleryPage();
+  }
+
+  function renderGalleryPage() {
+    const batch = galleryShown.slice(galleryRenderedCount, galleryRenderedCount + GALLERY_PAGE);
+    if (batch.length === 0) return;
+
+    // Remove existing "load more" button if present
+    const existing = gallery.querySelector('.lm-load-more');
+    if (existing) existing.remove();
+
+    const frag = document.createDocumentFragment();
+    batch.forEach(mp => {
+      const el = document.createElement('div');
+      el.innerHTML = thumbHtml(mp);
+      frag.appendChild(el.firstElementChild);
+    });
+    gallery.appendChild(frag);
+    attachThumbClicks(gallery);
+    galleryRenderedCount += batch.length;
+
+    if (galleryRenderedCount < galleryShown.length) {
+      const btn = document.createElement('div');
+      btn.className = 'lm-load-more';
+      btn.style.cssText = 'grid-column:1/-1;text-align:center;padding:6px;font-size:10px;color:var(--accent);cursor:pointer';
+      btn.textContent = `Load more (${galleryShown.length - galleryRenderedCount} remaining)`;
+      btn.addEventListener('click', renderGalleryPage);
+      gallery.appendChild(btn);
+    }
   }
 
   // Load map library on page load
