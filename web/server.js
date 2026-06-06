@@ -52,6 +52,56 @@ function apiCacheGet(key, ttl, fn) {
 
 function apiCacheInvalidate(key) { _cache.delete(key); }
 
+// ─── CDN proxy (fetch-once, serve locally, browser-cacheable) ─────────────────
+// Every preview iframe loads 5 external CDN URLs. Proxying them through the
+// local server eliminates external round-trips after the first fetch.
+const _cdnCache = new Map(); // url → { body, ct }
+
+async function fetchCdnCached(url) {
+  if (_cdnCache.has(url)) return _cdnCache.get(url);
+  const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+  if (!r.ok) throw new Error(`CDN ${r.status}`);
+  let body = await r.text();
+  const ct = (r.headers.get('content-type') || 'text/css').split(';')[0];
+  // Rewrite relative url() in CSS → absolute CDN paths so webfonts still resolve
+  if (ct.includes('css')) {
+    body = body.replace(/url\(\s*['"]?([^'")\s]+)['"]?\s*\)/g, (m, ref) => {
+      if (/^(https?:|data:|#)/.test(ref)) return m;
+      try { return `url('${new URL(ref, url).href}')`; } catch { return m; }
+    });
+  }
+  const entry = { body, ct };
+  _cdnCache.set(url, entry);
+  return entry;
+}
+
+// ─── Preview render cache (keyed by file path + mtime + season) ───────────────
+// Avoids re-rendering unchanged markdown files on every click.
+const _previewCache = new Map(); // key → { mtimeMs, html }
+const PREVIEW_CACHE_MAX = 200;
+
+function getPreviewCache(filePath, season) {
+  const key = filePath + '|' + (season ?? '');
+  const entry = _previewCache.get(key);
+  if (!entry) return null;
+  try {
+    if (fs.statSync(filePath).mtimeMs === entry.mtimeMs) return entry.html;
+  } catch { /* file gone */ }
+  _previewCache.delete(key);
+  return null;
+}
+
+function setPreviewCache(filePath, season, html) {
+  try {
+    const mtimeMs = fs.statSync(filePath).mtimeMs;
+    const key = filePath + '|' + (season ?? '');
+    if (_previewCache.size >= PREVIEW_CACHE_MAX) {
+      _previewCache.delete(_previewCache.keys().next().value);
+    }
+    _previewCache.set(key, { mtimeMs, html });
+  } catch { /* skip */ }
+}
+
 function pdfPathForBook(book) {
   const baseDir = PDF_DIRS[book.bookId.startsWith('core/') ? 'core' : 'setting'];
   const rel = book.bookId.split('/').slice(1).join(path.sep);
@@ -365,6 +415,8 @@ function requireAuth(req, res, next) {
 
 app.use(requireAuth);
 
+app.get('/favicon.ico', (req, res) => res.redirect('/favicon.svg'));
+
 // ─── Login / logout routes ─────────────────────────────────────────────────────
 
 app.get('/login', (req, res) => {
@@ -397,6 +449,32 @@ app.post('/api/login', express.json(), (req, res) => {
 app.get('/api/logout', (req, res) => {
   res.clearCookie(COOKIE_NAME, { httpOnly: true, sameSite: 'lax' });
   res.redirect('/login');
+});
+
+// ─── CDN proxy route ──────────────────────────────────────────────────────────
+// Allowed CDN origins — whitelist prevents abuse
+const CDN_ALLOWLIST = new Set([
+  'use.fontawesome.com',
+  'fonts.googleapis.com',
+  'fonts.gstatic.com',
+  'assets.dungeonsandmarkdown.spjak.com',
+]);
+
+app.get('/cdn-proxy', async (req, res) => {
+  const url = req.query.url;
+  if (!url) return res.status(400).end();
+  let parsed;
+  try { parsed = new URL(url); } catch { return res.status(400).end(); }
+  if (!CDN_ALLOWLIST.has(parsed.hostname)) return res.status(403).end();
+  try {
+    const { body, ct } = await fetchCdnCached(url);
+    res.setHeader('Content-Type', ct);
+    res.setHeader('Cache-Control', 'public, max-age=86400');
+    res.send(body);
+  } catch (e) {
+    console.warn('[cdn-proxy] failed:', url, e.message);
+    res.status(502).end();
+  }
 });
 
 // ─── Path helpers ──────────────────────────────────────────────────────────
@@ -679,19 +757,21 @@ const WEB_CONTENT_CSS = `
   .snd-sfx:hover { background: #4a8a4a; }
 `;
 
+const CDN = u => `/cdn-proxy?url=${encodeURIComponent(u)}`;
+
 function previewHtml(body) {
   return `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet">
-  <link href="https://assets.dungeonsandmarkdown.spjak.com/bundle.css" rel="stylesheet">
+  <link href="${CDN('https://use.fontawesome.com/releases/v5.15.1/css/all.css')}" rel="stylesheet">
+  <link href="${CDN('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')}" rel="stylesheet">
+  <link href="${CDN('https://assets.dungeonsandmarkdown.spjak.com/bundle.css')}" rel="stylesheet">
 </head>
 <body>
   <div><div class="frame-content"><div class="brewRenderer">
-    <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css" rel="stylesheet">
-    <link href="https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css" rel="stylesheet">
+    <link href="${CDN('https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css')}" rel="stylesheet">
+    <link href="${CDN('https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css')}" rel="stylesheet">
     <style>${FRAME_SCREEN_CSS}</style>
     <div class="pages">${body}</div>
   </div></div></div>
@@ -854,14 +934,20 @@ app.get('/preview', (req, res) => {
       return;
     }
     if (ext === '.md') {
+      const season = req.query.season != null ? parseInt(req.query.season, 10) : null;
+      const cached = getPreviewCache(filePath, season);
+      if (cached) { res.setHeader('X-Cache', 'HIT'); return res.send(cached); }
+
+      let rendered;
       if (isWebPath(filePath)) {
         const { html, title } = renderWebMarkdown(filePath);
-        res.send(webPreviewHtml(title, html));
+        rendered = webPreviewHtml(title, html);
       } else {
         const content = fs.readFileSync(filePath, 'utf8');
-        const season = req.query.season != null ? parseInt(req.query.season, 10) : null;
-        res.send(previewHtml(renderPages(content, season)));
+        rendered = previewHtml(renderPages(content, season));
       }
+      setPreviewCache(filePath, season, rendered);
+      res.send(rendered);
     } else {
       const content = fs.readFileSync(filePath, 'utf8');
       res.send(`<!DOCTYPE html><html><head><meta charset="UTF-8"><style>
@@ -895,6 +981,45 @@ app.use('/maps-library', requireAuth, (req, res) => {
   res.sendFile(path.basename(full), { root: path.dirname(full) });
 });
 
+// ─── Thumbnail generation queue ───────────────────────────────────────────────
+// Limits concurrent sharp operations and deduplicates in-flight requests for
+// the same thumbnail so 100 simultaneous gallery requests don't flood the CPU.
+
+const THUMB_MAX_CONCURRENT = 3;
+let _thumbActive = 0;
+const _thumbQueue = []; // pending { fn, resolve, reject } entries
+const _thumbInFlight = new Map(); // thumbPath → Promise<void>
+
+function thumbEnqueue(fn) {
+  return new Promise((resolve, reject) => {
+    function run() {
+      _thumbActive++;
+      fn().then(resolve, reject).finally(() => {
+        _thumbActive--;
+        if (_thumbQueue.length) {
+          const next = _thumbQueue.shift();
+          next.run();
+        }
+      });
+    }
+    if (_thumbActive < THUMB_MAX_CONCURRENT) {
+      run();
+    } else {
+      _thumbQueue.push({ run });
+    }
+  });
+}
+
+function generateThumb(sourceFull, thumbPath) {
+  if (_thumbInFlight.has(thumbPath)) return _thumbInFlight.get(thumbPath);
+  const p = thumbEnqueue(() => {
+    fs.mkdirSync(path.dirname(thumbPath), { recursive: true });
+    return sharp(sourceFull).resize(200, 150, { fit: 'cover', position: 'centre' }).jpeg({ quality: 80 }).toFile(thumbPath);
+  }).finally(() => _thumbInFlight.delete(thumbPath));
+  _thumbInFlight.set(thumbPath, p);
+  return p;
+}
+
 // ─── On-demand thumbnail generation (200px wide JPEG, cached to .thumbs/) ────
 
 app.use('/maps-thumb', requireAuth, async (req, res) => {
@@ -906,6 +1031,7 @@ app.use('/maps-thumb', requireAuth, async (req, res) => {
   const thumbPath = path.join(THUMBS_DIR, rel.replace(/\.[^.]+$/, '.jpg'));
 
   if (fs.existsSync(thumbPath)) {
+    res.setHeader('Cache-Control', 'public, max-age=86400');
     return res.sendFile(path.basename(thumbPath), { root: path.dirname(thumbPath) });
   }
 
@@ -917,8 +1043,8 @@ app.use('/maps-thumb', requireAuth, async (req, res) => {
   }
 
   try {
-    fs.mkdirSync(path.dirname(thumbPath), { recursive: true });
-    await sharp(sourceFull).resize(200, null, { fit: 'inside' }).jpeg({ quality: 80 }).toFile(thumbPath);
+    await generateThumb(sourceFull, thumbPath);
+    res.setHeader('Cache-Control', 'public, max-age=86400');
     res.sendFile(path.basename(thumbPath), { root: path.dirname(thumbPath) });
   } catch (e) {
     console.error('[maps-thumb] generation failed:', rel, e.message);
@@ -1855,6 +1981,8 @@ app.post('/api/tracker/session', express.text({ type: '*/*' }), (req, res) => {
   const filePath = path.join(CAMPAIGN_ROOT, 'timeline', 'sessions', `${id}.md`);
   try {
     fs.writeFileSync(filePath, req.body, 'utf8');
+    apiCacheInvalidate('sessions');
+    apiCacheInvalidate('adventures'); // session data affects adventure statuses
     res.json({ ok: true });
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -2081,6 +2209,7 @@ app.get('/api/npcs', (req, res) => {
       result.sort((a, b) => a.name.localeCompare(b.name));
       return result;
     });
+    res.setHeader('Cache-Control', 'private, max-age=15');
     res.json(npcs);
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -2143,6 +2272,7 @@ app.get('/api/locations', (req, res) => {
       results.sort((a, b) => a.name.localeCompare(b.name));
       return results;
     });
+    res.setHeader('Cache-Control', 'private, max-age=15');
     res.json(locations);
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -2539,109 +2669,97 @@ function getAdventureStatuses() {
 
 app.get('/api/adventures', (req, res) => {
   try {
-    const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
-    const results = [];
+    const adventures = apiCacheGet('adventures', 30_000, () => {
+      const adventuresRoot = path.join(CAMPAIGN_ROOT, 'adventures');
+      const results = [];
 
-    // Walk season subdirectories only
-    const seasonDirs = fs.readdirSync(adventuresRoot)
-      .filter(d => /^season-\d+$/i.test(d))
-      .map(d => ({ season: d, full: path.join(adventuresRoot, d) }))
-      .filter(d => fs.statSync(d.full).isDirectory());
+      const seasonDirs = fs.readdirSync(adventuresRoot)
+        .filter(d => /^season-\d+$/i.test(d))
+        .map(d => ({ season: d, full: path.join(adventuresRoot, d) }))
+        .filter(d => fs.statSync(d.full).isDirectory());
 
-    const SKIP = new Set(['index.md', '_template.md', 'MANIFEST.md', 'session-0-character-integration.md']);
+      const SKIP = new Set(['index.md', '_template.md', 'MANIFEST.md', 'session-0-character-integration.md']);
 
-    for (const { season, full } of seasonDirs) {
-      for (const entry of fs.readdirSync(full)) {
-        const entryPath = path.join(full, entry);
-        const stat = fs.statSync(entryPath);
+      for (const { season, full } of seasonDirs) {
+        for (const entry of fs.readdirSync(full)) {
+          const entryPath = path.join(full, entry);
+          const stat = fs.statSync(entryPath);
 
-        if (stat.isFile() && entry.endsWith('.md') && !SKIP.has(entry) && !entry.endsWith('-handouts')) {
-          const rel = path.relative(CAMPAIGN_ROOT, entryPath).replace(/\\/g, '/');
-          const raw = fs.readFileSync(entryPath, 'utf8');
-          const fm = parseAdventureFrontmatter(raw);
-          const synopsis = extractSynopsis(raw);
-          results.push({
-            label: fm.name || labelFromFilename(entry),
-            path: rel,
-            season,
-            sortKey: entry.replace(/\.md$/, ''),
-            levels: fm.levels || '',
-            sessions: fm.sessions || '',
-            duration: fm.duration || '',
-            type: fm.type || '',
-            mysteryRating: fm['mystery-rating'] || '',
-            arc: fm.arc || '',
-            tags: fm.tags || [],
-            synopsis
-          });
-        } else if (stat.isDirectory() && !entry.endsWith('-handouts') && entry !== 'general-handouts') {
-          // Multi-part adventures: look for index.md inside
-          const indexFile = path.join(entryPath, 'index.md');
-          if (fs.existsSync(indexFile)) {
-            const rel = path.relative(CAMPAIGN_ROOT, indexFile).replace(/\\/g, '/');
-            const raw = fs.readFileSync(indexFile, 'utf8');
+          if (stat.isFile() && entry.endsWith('.md') && !SKIP.has(entry) && !entry.endsWith('-handouts')) {
+            const rel = path.relative(CAMPAIGN_ROOT, entryPath).replace(/\\/g, '/');
+            const raw = fs.readFileSync(entryPath, 'utf8');
             const fm = parseAdventureFrontmatter(raw);
             const synopsis = extractSynopsis(raw);
             results.push({
               label: fm.name || labelFromFilename(entry),
-              path: rel,
-              season,
-              sortKey: entry,
-              levels: fm.levels || '',
-              sessions: fm.sessions || '',
-              duration: fm.duration || '',
-              type: fm.type || '',
-              mysteryRating: fm['mystery-rating'] || '',
-              arc: fm.arc || '',
-              tags: fm.tags || [],
-              synopsis
+              path: rel, season,
+              sortKey: entry.replace(/\.md$/, ''),
+              levels: fm.levels || '', sessions: fm.sessions || '',
+              duration: fm.duration || '', type: fm.type || '',
+              mysteryRating: fm['mystery-rating'] || '', arc: fm.arc || '',
+              tags: fm.tags || [], synopsis
             });
+          } else if (stat.isDirectory() && !entry.endsWith('-handouts') && entry !== 'general-handouts') {
+            const indexFile = path.join(entryPath, 'index.md');
+            if (fs.existsSync(indexFile)) {
+              const rel = path.relative(CAMPAIGN_ROOT, indexFile).replace(/\\/g, '/');
+              const raw = fs.readFileSync(indexFile, 'utf8');
+              const fm = parseAdventureFrontmatter(raw);
+              const synopsis = extractSynopsis(raw);
+              results.push({
+                label: fm.name || labelFromFilename(entry),
+                path: rel, season, sortKey: entry,
+                levels: fm.levels || '', sessions: fm.sessions || '',
+                duration: fm.duration || '', type: fm.type || '',
+                mysteryRating: fm['mystery-rating'] || '', arc: fm.arc || '',
+                tags: fm.tags || [], synopsis
+              });
+            }
           }
         }
       }
-    }
 
-    // Determine statuses from session logs
-    const { statuses, latestSession } = getAdventureStatuses();
-
-    for (const adv of results) {
-      const norm = adv.label.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
-      // Also check if any session adventure field contains this adventure name
-      let status = 'upcoming';
-      for (const [sessionNorm, info] of Object.entries(statuses)) {
-        if (sessionNorm.includes(norm) || norm.includes(sessionNorm)) {
-          status = 'completed';
-          if (sessionNorm === latestSession) {
-            status = 'current';
+      const { statuses, latestSession } = getAdventureStatuses();
+      for (const adv of results) {
+        const norm = adv.label.toLowerCase().replace(/[^a-z0-9\s]/g, '').trim();
+        let status = 'upcoming';
+        for (const [sessionNorm] of Object.entries(statuses)) {
+          if (sessionNorm.includes(norm) || norm.includes(sessionNorm)) {
+            status = sessionNorm === latestSession ? 'current' : 'completed';
+            break;
           }
-          break;
         }
+        adv.status = status;
       }
-      adv.status = status;
-    }
 
-    results.sort((a, b) => {
-      const seasonCmp = a.season.localeCompare(b.season);
-      if (seasonCmp !== 0) return seasonCmp;
-      // Load manifest order for this season if available
-      const manifestPath = path.join(adventuresRoot, a.season, 'MANIFEST.md');
-      const order = parseManifestOrder(manifestPath);
-      if (order) {
-        const idxA = order.indexOf(a.sortKey);
-        const idxB = order.indexOf(b.sortKey);
-        if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-        if (idxA !== -1) return -1;
-        if (idxB !== -1) return 1;
+      // Read each season's manifest once before sorting (avoids O(n²) file reads)
+      const manifestOrders = {};
+      for (const { season } of seasonDirs) {
+        manifestOrders[season] = parseManifestOrder(path.join(adventuresRoot, season, 'MANIFEST.md'));
       }
-      return a.label.localeCompare(b.label);
+      results.sort((a, b) => {
+        const seasonCmp = a.season.localeCompare(b.season);
+        if (seasonCmp !== 0) return seasonCmp;
+        const order = manifestOrders[a.season];
+        if (order) {
+          const idxA = order.indexOf(a.sortKey);
+          const idxB = order.indexOf(b.sortKey);
+          if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+          if (idxA !== -1) return -1;
+          if (idxB !== -1) return 1;
+        }
+        return a.label.localeCompare(b.label);
+      });
+
+      const overrides = loadAdventureStatusOverrides();
+      for (const adv of results) {
+        if (overrides[adv.path]) adv.status = overrides[adv.path];
+      }
+
+      return results;
     });
-    // Merge manual status overrides (override takes precedence over session-derived status)
-    const overrides = loadAdventureStatusOverrides();
-    for (const adv of results) {
-      if (overrides[adv.path]) adv.status = overrides[adv.path];
-    }
-
-    res.json(results);
+    res.setHeader('Cache-Control', 'private, max-age=15');
+    res.json(adventures);
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -2671,6 +2789,7 @@ app.post('/api/adventures/status', express.json(), (req, res) => {
     overrides[advPath] = status;
     fs.mkdirSync(path.dirname(ADVENTURE_STATUS_FILE), { recursive: true });
     fs.writeFileSync(ADVENTURE_STATUS_FILE, JSON.stringify(overrides, null, 2));
+    apiCacheInvalidate('adventures');
     res.json({ ok: true });
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -3126,4 +3245,16 @@ const HOST = process.env.HOST || '0.0.0.0';
 server.listen(PORT, HOST, () => {
   console.log(`\nDM Panel → http://${HOST}:${PORT}`);
   console.log(`Root: ${CAMPAIGN_ROOT}\n`);
+
+  // Pre-warm CDN cache at startup so the first preview doesn't wait on external fetches
+  const CDN_URLS = [
+    'https://use.fontawesome.com/releases/v5.15.1/css/all.css',
+    'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700',
+    'https://assets.dungeonsandmarkdown.spjak.com/bundle.css',
+    'https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css',
+    'https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css',
+  ];
+  for (const url of CDN_URLS) {
+    fetchCdnCached(url).catch(e => console.warn(`[cdn-warmup] ${url}: ${e.message}`));
+  }
 });

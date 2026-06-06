@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>DM Panel — Northwatch Wardens</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.css">
   <script>
     (function () {
@@ -603,7 +604,6 @@
       <button class="tab" id="tab-locations" data-tab="locations">Locations</button>
       <button class="tab" id="tab-combat-tracker" data-tab="combat-tracker">Combat Tracker</button>
       <button class="tab" id="tab-homebrew" data-tab="homebrew">Homebrew</button>
-      <button class="tab" id="tab-maps" data-tab="maps">Maps</button>
       <button class="tab" id="tab-shops" data-tab="shops">Shops</button>
       <div id="tools-wrap">
         <button id="btn-tools">Tools ▾</button>
@@ -694,6 +694,21 @@
     <aside id="panel-left">
       <div class="panel-hdr">Files</div>
       <div id="file-tree"></div>
+      <div class="panel-hdr panel-hdr-maps">Maps</div>
+      <div id="left-maps-panel">
+        <input id="left-maps-filter" class="left-maps-filter" type="search" placeholder="Filter maps…" autocomplete="off">
+        <div id="left-maps-gallery"></div>
+        <button id="left-maps-gen-btn" class="left-maps-generate-btn">+ Generate Map</button>
+        <div id="left-maps-gen-form" hidden>
+          <div class="left-maps-style-row">
+            <button class="left-maps-style-btn active" data-style="topdown">Top-down</button>
+            <button class="left-maps-style-btn" data-style="scene">Scene</button>
+          </div>
+          <textarea id="left-maps-prompt" class="left-maps-prompt" placeholder="dungeon room, stone floor, torches…" rows="3"></textarea>
+          <button id="left-maps-submit" class="left-maps-submit-btn">Generate</button>
+          <div id="left-maps-status"></div>
+        </div>
+      </div>
     </aside>
 
     <div class="rh" id="rh-l" title="Drag to resize · click ‹ to collapse">
