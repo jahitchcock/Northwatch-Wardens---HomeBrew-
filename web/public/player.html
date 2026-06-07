@@ -132,12 +132,14 @@ const views = {
 const content      = document.getElementById('content');
 const reconnectEl  = document.getElementById('reconnect-indicator');
 
+// ── HTML escape helper (module scope so title interpolation can use it) ──
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 // ── Minimal markdown renderer (headings, bold, italic, lists, hr, paragraphs) ──
 function renderMd(md) {
-  function esc(s) {
-    return String(s)
-      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  }
   function inline(s) {
     return esc(s)
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -189,7 +191,7 @@ function applyState(state) {
     } else if (state.type === 'handout') {
       const el = views.handout;
       const titleHtml = state.title
-        ? `<div class="handout-title">${state.title}</div>`
+        ? `<div class="handout-title">${esc(state.title)}</div>`
         : '';
       el.innerHTML = titleHtml + renderMd(state.markdown);
       el.classList.remove('ps-hidden');
