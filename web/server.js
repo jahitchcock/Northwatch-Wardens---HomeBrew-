@@ -40,7 +40,8 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
 let playerScreenState = { type: 'idle', idleMessage: null };
-let playerWss = null; // assigned later after server is created
+let playerWss = null;    // assigned later after server is created
+let terminalWss = null;  // assigned inside if(pty) block
 
 function broadcastPlayerScreen() {
   if (!playerWss) return;
@@ -3236,7 +3237,8 @@ if (pty) {
     return id;
   }
 
-  const wss = new WebSocket.Server({ server, path: '/terminal' });
+  const wss = new WebSocket.Server({ noServer: true });
+  terminalWss = wss;
 
   wss.on('connection', ws => {
     let sessionId = null;
@@ -3295,10 +3297,25 @@ if (pty) {
 }
 
 // Player screen WebSocket — push state to all /player clients
-playerWss = new WebSocket.Server({ server, path: '/ws/player' });
+playerWss = new WebSocket.Server({ noServer: true });
 playerWss.on('connection', ws => {
   // Send current state immediately so clients joining mid-session are in sync
   ws.send(JSON.stringify(playerScreenState));
+});
+
+// Single upgrade handler routes by path — avoids interference when multiple
+// WebSocket.Server instances each register their own upgrade listener, which
+// causes the non-matching instance to call abortHandshake on an already-
+// upgraded socket (resulting in "Invalid frame header" on the client).
+server.on('upgrade', (req, socket, head) => {
+  const url = req.url.split('?')[0];
+  if (url === '/terminal' && terminalWss) {
+    terminalWss.handleUpgrade(req, socket, head, ws => terminalWss.emit('connection', ws, req));
+  } else if (url === '/ws/player') {
+    playerWss.handleUpgrade(req, socket, head, ws => playerWss.emit('connection', ws, req));
+  } else {
+    socket.destroy();
+  }
 });
 
 const HOST = process.env.HOST || '0.0.0.0';
