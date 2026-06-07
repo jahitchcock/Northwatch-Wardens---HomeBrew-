@@ -11,7 +11,7 @@ const cookieParser = require('cookie-parser');
 const crypto = require('crypto');
 
 const DM_PASSWORD = process.env.DM_PASSWORD || 'TPK';
-const COOKIE_SECRET = process.env.COOKIE_SECRET || crypto.randomBytes(32).toString('hex');
+const COOKIE_SECRET = process.env.COOKIE_SECRET || 'nw-dm-panel-secret-2026';
 const COOKIE_NAME = 'dm_auth';
 
 // Optional deps — degrade gracefully if missing
