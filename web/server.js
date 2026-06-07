@@ -3294,6 +3294,13 @@ if (pty) {
   });
 }
 
+// Player screen WebSocket — push state to all /player clients
+playerWss = new WebSocket.Server({ server, path: '/ws/player' });
+playerWss.on('connection', ws => {
+  // Send current state immediately so clients joining mid-session are in sync
+  ws.send(JSON.stringify(playerScreenState));
+});
+
 const HOST = process.env.HOST || '0.0.0.0';
 server.listen(PORT, HOST, () => {
   console.log(`\nDM Panel → http://${HOST}:${PORT}`);
