@@ -148,8 +148,9 @@ function setTheme(id) {
   });
 }
 
-const btnCtx   = $('btn-ctx');
-const btnPrint = $('btn-print');
+const btnCtx        = $('btn-ctx');
+const btnPrint      = $('btn-print');
+const btnSendPlayer = $('btn-send-player');
 const toast    = $('toast');
 const modal1 = $('modal');
 const modal2 = $('modal2');
@@ -331,22 +332,7 @@ function openPath(p) {
   // Show print button for handout files (files in *-handouts/ or handouts/ directories)
   const isHandout = /[\\/]handouts[\\/]|[\\/][^/]+-handouts[\\/]/.test(p) && p.endsWith('.md') && !p.endsWith('MANIFEST.md');
   btnPrint.hidden = !isHandout;
-  const btnSendPlayer = $('btn-send-player');
   btnSendPlayer.hidden = !isHandout;
-  if (isHandout) {
-    btnSendPlayer.onclick = async () => {
-      try {
-        const raw      = await fetch(`/raw?file=${encodeURIComponent(p)}`);
-        const markdown = await raw.text();
-        // If markdown starts with a # heading, omit title (heading serves as title)
-        const filename = p.split('/').pop().replace(/\.md$/i, '');
-        const title    = markdown.trimStart().startsWith('#') ? '' : filename;
-        sendToPlayerScreen({ type: 'handout', title, markdown });
-      } catch (e) {
-        console.error('Send handout failed:', e);
-      }
-    };
-  }
   if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
   if (window.SoundPlayer) SoundPlayer.suggest(p);
@@ -2264,6 +2250,20 @@ btnManifest.addEventListener('click', openManifestEditor);
 
 btnPrint.addEventListener('click', () => {
   if (currentPath) window.open(`/print?path=${encodeURIComponent(currentPath)}`, '_blank');
+});
+
+btnSendPlayer.addEventListener('click', async () => {
+  if (!currentPath) return;
+  try {
+    const raw = await fetch(`/raw?file=${encodeURIComponent(currentPath)}`);
+    if (!raw.ok) throw new Error(`HTTP ${raw.status}`);
+    const markdown = await raw.text();
+    const filename = currentPath.split('/').pop().replace(/\.md$/i, '');
+    const title    = markdown.trimStart().startsWith('#') ? '' : filename;
+    sendToPlayerScreen({ type: 'handout', title, markdown });
+  } catch (e) {
+    console.error('Send handout failed:', e);
+  }
 });
 
 // Root manifest button is always visible
