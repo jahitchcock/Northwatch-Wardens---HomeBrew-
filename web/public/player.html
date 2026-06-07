@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Screen — Northwatch Wardens</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #111; color: #e0d8c8;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      width: 100vw; height: 100vh; overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* ── Content wrapper (fades on transition) ── */
+    #content {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      transition: opacity 0.2s;
+    }
+
+    #content.fading { opacity: 0; }
+
+    /* ── Idle ── */
+    #view-idle { text-align: center; padding: 40px; }
+    #view-idle h1 {
+      font-size: clamp(2rem, 6vw, 5rem); color: #c5a56a;
+      letter-spacing: 0.05em;
+      font-family: 'Palatino Linotype', Palatino, serif;
+    }
+    #idle-message {
+      font-size: clamp(1rem, 2.5vw, 2rem); color: #555;
+      margin-top: 1rem; min-height: 1em;
+    }
+
+    /* ── Image ── */
+    #view-image {
+      display: flex; flex-direction: column; align-items: center; gap: 16px;
+    }
+    #img-el {
+      max-width: 90vw; max-height: 85vh;
+      object-fit: contain; border-radius: 4px;
+    }
+    #img-caption {
+      font-size: clamp(0.9rem, 2vw, 1.4rem); color: #c5a56a; text-align: center;
+    }
+
+    /* ── Text ── */
+    #view-text { max-width: 80vw; text-align: center; }
+    #text-content {
+      font-size: clamp(1.5rem, 4vw, 3.5rem); color: #e0d8c8;
+      line-height: 1.4; font-family: 'Palatino Linotype', Palatino, serif;
+    }
+
+    /* ── Handout ── */
+    #view-handout {
+      background: #f5e9c8; color: #3a2a10;
+      padding: clamp(24px, 4vw, 60px);
+      border-radius: 4px;
+      max-width: min(700px, 90vw);
+      max-height: 90vh; overflow-y: auto;
+      font-family: 'Palatino Linotype', Palatino, serif;
+      box-shadow: 0 8px 40px rgba(0,0,0,.7);
+    }
+    #view-handout .handout-title {
+      font-size: clamp(1.3rem, 3.5vw, 2.2rem); color: #58180d;
+      margin-bottom: 1em; border-bottom: 2px solid #c5a56a;
+      padding-bottom: 0.4em; font-weight: bold;
+    }
+    #view-handout h1 { font-size: clamp(1.2rem, 3vw, 2rem); color: #58180d; margin: 0.8em 0 0.4em; border-bottom: 1px solid #c5a56a; padding-bottom: 0.2em; }
+    #view-handout h2 { font-size: clamp(1rem, 2vw, 1.4rem); color: #58180d; margin: 0.8em 0 0.3em; }
+    #view-handout h3 { font-size: clamp(0.9rem, 1.8vw, 1.2rem); color: #7a3010; margin: 0.6em 0 0.2em; }
+    #view-handout p  { margin: 0.5em 0; line-height: 1.6; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
+    #view-handout ul { margin: 0.5em 0 0.5em 1.5em; }
+    #view-handout li { margin: 0.3em 0; line-height: 1.5; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
+    #view-handout hr { border: none; border-top: 1px solid #c5a56a; margin: 1em 0; }
+
+    /* ── Rulebook (full-screen iframe) ── */
+    #view-rulebook { position: absolute; inset: 0; }
+    #view-rulebook iframe { width: 100%; height: 100%; border: none; }
+
+    /* ── Reconnect indicator ── */
+    #reconnect-indicator {
+      position: fixed; bottom: 12px; right: 12px;
+      background: rgba(0,0,0,.75); color: #666;
+      font-size: 11px; padding: 4px 10px; border-radius: 3px;
+      display: none; font-family: sans-serif;
+    }
+    #reconnect-indicator.visible { display: block; }
+
+    .ps-hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+<div id="content">
+  <div id="view-idle">
+    <h1>Northwatch Wardens</h1>
+    <p id="idle-message"></p>
+  </div>
+
+  <div id="view-image" class="ps-hidden">
+    <img id="img-el" src="" alt="">
+    <div id="img-caption"></div>
+  </div>
+
+  <div id="view-text" class="ps-hidden">
+    <p id="text-content"></p>
+  </div>
+
+  <div id="view-handout" class="ps-hidden"></div>
+
+  <div id="view-rulebook" class="ps-hidden">
+    <iframe id="rulebook-frame" src="" title="Rulebook page"></iframe>
+  </div>
+</div>
+
+<div id="reconnect-indicator">⚡ reconnecting…</div>
+
+<script>
+'use strict';
+
+const views = {
+  idle:     document.getElementById('view-idle'),
+  image:    document.getElementById('view-image'),
+  text:     document.getElementById('view-text'),
+  handout:  document.getElementById('view-handout'),
+  rulebook: document.getElementById('view-rulebook'),
+};
+const content      = document.getElementById('content');
+const reconnectEl  = document.getElementById('reconnect-indicator');
+
+// ── Minimal markdown renderer (headings, bold, italic, lists, hr, paragraphs) ──
+function renderMd(md) {
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function inline(s) {
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g,     '<em>$1</em>');
+  }
+  const lines = md.split('\n');
+  let html = '';
+  let inList = false;
+  const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
+
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+    if      (/^---+$/.test(line))  { closeList(); html += '<hr>'; }
+    else if (/^### (.*)/.test(line)) { closeList(); html += `<h3>${inline(line.slice(4))}</h3>`; }
+    else if (/^## (.*)/.test(line))  { closeList(); html += `<h2>${inline(line.slice(3))}</h2>`; }
+    else if (/^# (.*)/.test(line))   { closeList(); html += `<h1>${inline(line.slice(2))}</h1>`; }
+    else if (/^- (.*)/.test(line))   {
+      if (!inList) { html += '<ul>'; inList = true; }
+      html += `<li>${inline(line.slice(2))}</li>`;
+    }
+    else if (line === '') { closeList(); }
+    else                  { closeList(); html += `<p>${inline(line)}</p>`; }
+  }
+  closeList();
+  return html;
+}
+
+// ── Apply a state object to the screen ────────────────────────────────────────
+function applyState(state) {
+  content.classList.add('fading');
+  setTimeout(() => {
+    Object.values(views).forEach(v => v.classList.add('ps-hidden'));
+
+    if (state.type === 'idle') {
+      document.getElementById('idle-message').textContent = state.idleMessage || '';
+      views.idle.classList.remove('ps-hidden');
+
+    } else if (state.type === 'image') {
+      document.getElementById('img-el').src = state.url;
+      const cap = document.getElementById('img-caption');
+      cap.textContent = state.caption || '';
+      cap.style.display = state.caption ? '' : 'none';
+      views.image.classList.remove('ps-hidden');
+
+    } else if (state.type === 'text') {
+      document.getElementById('text-content').textContent = state.content;
+      views.text.classList.remove('ps-hidden');
+
+    } else if (state.type === 'handout') {
+      const el = views.handout;
+      const titleHtml = state.title
+        ? `<div class="handout-title">${state.title}</div>`
+        : '';
+      el.innerHTML = titleHtml + renderMd(state.markdown);
+      el.classList.remove('ps-hidden');
+
+    } else if (state.type === 'rulebook') {
+      const params = new URLSearchParams({
+        book:  state.bookId,
+        page:  String(state.page),
+        embed: '1',
+      });
+      document.getElementById('rulebook-frame').src = `/rulebooks?${params}`;
+      views.rulebook.classList.remove('ps-hidden');
+    }
+
+    content.classList.remove('fading');
+  }, 200);
+}
+
+// ── WebSocket with auto-reconnect ──────────────────────────────────────────────
+function connect() {
+  const ws = new WebSocket(`ws://${location.host}/ws/player`);
+
+  ws.addEventListener('open', () => {
+    reconnectEl.classList.remove('visible');
+  });
+
+  ws.addEventListener('message', e => {
+    try { applyState(JSON.parse(e.data)); } catch {}
+  });
+
+  ws.addEventListener('close', () => {
+    reconnectEl.classList.add('visible');
+    setTimeout(connect, 3000);
+  });
+}
+
+connect();
+</script>
+</body>
+</html>
