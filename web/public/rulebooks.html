@@ -328,6 +328,14 @@
     body.highlight-mode #text-layer { cursor: text; }
     body.note-mode #page-container { cursor: crosshair; }
     body.note-mode #text-layer { pointer-events: none; }
+
+/* ── Embed mode (player screen via iframe) ── */
+body.embed #header,
+body.embed #library-panel,
+body.embed #toolbar,
+body.embed #bookmarks-panel { display: none !important; }
+body.embed #main { height: 100vh; }
+body.embed #scroll-area { padding: 0; }
   </style>
 </head>
 <body>
@@ -383,6 +391,8 @@
       <button id="highlight-btn" disabled title="Toggle highlight mode (select text to highlight)">🖊 Highlight</button>
       <button id="note-btn" disabled title="Click page to place a note">📝 Note</button>
       <button id="bookmark-btn" disabled title="Bookmark this page">⭐ Bookmark</button>
+      <div class="toolbar-sep"></div>
+      <button id="send-player-btn" disabled title="Send current page to player screen">📺 Send Page</button>
     </div>
   </div>
 

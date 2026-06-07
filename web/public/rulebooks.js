@@ -288,7 +288,7 @@ async function openBook(bookId, startPage = 1) {
     bookId.split('/').pop().replace(/\.pdf$/i, '') + '…';
   document.getElementById('reader-loading').classList.add('visible');
 
-  ['prev-btn','next-btn','zoom-in-btn','zoom-out-btn','highlight-btn','note-btn','bookmark-btn','page-input']
+  ['prev-btn','next-btn','zoom-in-btn','zoom-out-btn','highlight-btn','note-btn','bookmark-btn','send-player-btn','page-input']
     .forEach(id => { const el = document.getElementById(id); if (el) el.disabled = false; });
 
   saveLocalState();
@@ -799,6 +799,24 @@ function bindEvents() {
     if (name && name.trim()) createCollection(name.trim());
   });
 
+  // ── Send current page to player screen ───────────────────────────────────
+  document.getElementById('send-player-btn').addEventListener('click', async () => {
+    if (!state.currentBookId) return;
+    try {
+      await fetch('/api/player-screen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type:   'rulebook',
+          bookId: state.currentBookId,
+          page:   state.currentPage,
+        }),
+      });
+    } catch (e) {
+      console.error('Send page failed:', e);
+    }
+  });
+
   // ── Full-text search ──────────────────────────────────────────────────────
   const pdfSearchInput = document.getElementById('pdf-search');
   const searchScopeEl  = document.getElementById('search-scope');
@@ -843,6 +861,14 @@ function bindEvents() {
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
+  // Embed mode: hide UI chrome, auto-open book from URL params
+  const _params    = new URLSearchParams(location.search);
+  const _isEmbed   = _params.get('embed') === '1';
+  const _embedBook = _params.get('book');
+  const _embedPage = parseInt(_params.get('page'), 10) || 1;
+
+  if (_isEmbed) document.body.classList.add('embed');
+
   try {
     const [books, annotations] = await Promise.all([apiLoadBooks(), apiLoadAnnotations()]);
     state.books = books;
@@ -850,11 +876,18 @@ async function init() {
   } catch (e) {
     console.error('Rulebooks init error:', e);
   }
-  loadFavorites();
-  renderLibrary();
-  renderBookmarksPanel();
-  loadLocalState();
-  bindEvents();
+
+  if (!_isEmbed) {
+    loadFavorites();
+    renderLibrary();
+    renderBookmarksPanel();
+    loadLocalState();
+    bindEvents();
+  }
+
+  if (_embedBook) {
+    openBook(_embedBook, _embedPage);
+  }
 }
 
 init();
