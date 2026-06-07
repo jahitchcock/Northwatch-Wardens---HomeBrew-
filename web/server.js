@@ -39,6 +39,17 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
+let playerScreenState = { type: 'idle', idleMessage: null };
+let playerWss = null; // assigned later after server is created
+
+function broadcastPlayerScreen() {
+  if (!playerWss) return;
+  const msg = JSON.stringify(playerScreenState);
+  playerWss.clients.forEach(ws => {
+    if (ws.readyState === WebSocket.OPEN) ws.send(msg);
+  });
+}
+
 // ─── In-memory TTL cache for expensive list endpoints ─────────────────────────
 const _cache = new Map(); // key → { data, expires }
 
@@ -379,6 +390,8 @@ const PUBLIC_PREFIXES = [
   // Rulebook viewer — public so players can be given the link
   '/rulebooks', '/api/pdf', '/api/books', '/api/annotations',
   '/api/pdf-search',
+  // Player screen — public display + DM reads state (POST auth checked inside handler)
+  '/player', '/api/player-screen',
 ];
 
 function signValue(val) {
@@ -3120,6 +3133,46 @@ app.post('/api/annotations', express.json({ limit: '10mb' }), (req, res) => {
 
 app.get('/rulebooks', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'rulebooks.html'));
+});
+
+// ─── Player Screen ────────────────────────────────────────────────────────────
+
+app.get('/player', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'player.html'));
+});
+
+app.get('/api/player-screen', (req, res) => {
+  res.json(playerScreenState);
+});
+
+app.post('/api/player-screen', (req, res) => {
+  // POST is auth-gated even though route prefix is in PUBLIC_PREFIXES (GET is public)
+  if (verifyValue(req.cookies[COOKIE_NAME]) !== 'dm') {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
+  const { type, url, caption, content, title, markdown, bookId, page, idleMessage } = req.body;
+  const VALID_TYPES = ['idle', 'image', 'text', 'handout', 'rulebook'];
+  if (!VALID_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid type' });
+  if (type === 'image'    && !url)      return res.status(400).json({ error: 'url required' });
+  if (type === 'text'     && !content)  return res.status(400).json({ error: 'content required' });
+  if (type === 'handout'  && !markdown) return res.status(400).json({ error: 'markdown required' });
+  if (type === 'rulebook' && !bookId)   return res.status(400).json({ error: 'bookId required' });
+
+  if (type === 'idle') {
+    playerScreenState = { type: 'idle', idleMessage: idleMessage || null };
+  } else if (type === 'image') {
+    playerScreenState = { type: 'image', url, caption: caption || null };
+  } else if (type === 'text') {
+    playerScreenState = { type: 'text', content };
+  } else if (type === 'handout') {
+    playerScreenState = { type: 'handout', title: title || '', markdown };
+  } else if (type === 'rulebook') {
+    playerScreenState = { type: 'rulebook', bookId, page: Number(page) || 1 };
+  }
+
+  broadcastPlayerScreen();
+  res.json({ ok: true });
 });
 
 // ─── WebSocket terminal ────────────────────────────────────────────────────
