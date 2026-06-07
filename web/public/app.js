@@ -2047,6 +2047,117 @@ document.querySelectorAll('.tool-5e').forEach(btn => {
   });
 });
 
+// ─── Player Screen ────────────────────────────────────────────────────────────
+
+async function sendToPlayerScreen(payload) {
+  try {
+    const r = await fetch('/api/player-screen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (!r.ok) console.error('sendToPlayerScreen failed:', r.status);
+  } catch (e) {
+    console.error('sendToPlayerScreen error:', e);
+  }
+}
+
+function psDescribe(state) {
+  if (!state) return 'Idle';
+  if (state.type === 'idle') {
+    return state.idleMessage ? `Idle — "${state.idleMessage}"` : 'Idle';
+  }
+  if (state.type === 'image') {
+    return `Image: ${state.caption || state.url.split('/').pop()}`;
+  }
+  if (state.type === 'text') {
+    const preview = state.content.length > 40 ? state.content.slice(0, 40) + '…' : state.content;
+    return `Message: "${preview}"`;
+  }
+  if (state.type === 'handout') return `Handout: ${state.title || '(untitled)'}`;
+  if (state.type === 'rulebook') return `Rulebook p.${state.page}`;
+  return 'Idle';
+}
+
+function psUpdateStrip(state) {
+  $('ps-status-text').textContent = psDescribe(state);
+  const isIdle = !state || (state.type === 'idle' && !state.idleMessage);
+  $('ps-clear').hidden = isIdle;
+}
+
+function initPlayerStrip() {
+  // Fetch initial state
+  fetch('/api/player-screen')
+    .then(r => r.json())
+    .then(psUpdateStrip)
+    .catch(() => {});
+
+  // Live updates via WebSocket
+  function connectPlayerWs() {
+    const ws = new WebSocket(`ws://${location.host}/ws/player`);
+    ws.addEventListener('message', e => {
+      try { psUpdateStrip(JSON.parse(e.data)); } catch {}
+    });
+    ws.addEventListener('close', () => setTimeout(connectPlayerWs, 5000));
+  }
+  connectPlayerWs();
+
+  // Clear — resets to idle, preserving idleMessage
+  $('ps-clear').addEventListener('click', () => {
+    fetch('/api/player-screen')
+      .then(r => r.json())
+      .then(state => sendToPlayerScreen({ type: 'idle', idleMessage: state.idleMessage || null }))
+      .catch(() => sendToPlayerScreen({ type: 'idle', idleMessage: null }));
+  });
+
+  // Open player screen in new tab
+  $('ps-open').addEventListener('click', () => {
+    window.open('/player', 'player-screen');
+  });
+
+  // Message form
+  $('ps-msg-btn').addEventListener('click', () => {
+    const wrap = $('ps-msg-wrap');
+    wrap.hidden = !wrap.hidden;
+    if (!wrap.hidden) { $('ps-idle-wrap').hidden = true; $('ps-msg-input').focus(); }
+  });
+  $('ps-msg-send').addEventListener('click', () => {
+    const content = $('ps-msg-input').value.trim();
+    if (!content) return;
+    sendToPlayerScreen({ type: 'text', content });
+    $('ps-msg-input').value = '';
+    $('ps-msg-wrap').hidden = true;
+  });
+  $('ps-msg-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter')  $('ps-msg-send').click();
+    if (e.key === 'Escape') $('ps-msg-cancel').click();
+  });
+  $('ps-msg-cancel').addEventListener('click', () => {
+    $('ps-msg-wrap').hidden = true;
+    $('ps-msg-input').value = '';
+  });
+
+  // Idle message edit form
+  $('ps-idle-btn').addEventListener('click', () => {
+    const wrap = $('ps-idle-wrap');
+    wrap.hidden = !wrap.hidden;
+    if (!wrap.hidden) { $('ps-msg-wrap').hidden = true; $('ps-idle-input').focus(); }
+  });
+  $('ps-idle-save').addEventListener('click', () => {
+    const idleMessage = $('ps-idle-input').value.trim() || null;
+    sendToPlayerScreen({ type: 'idle', idleMessage });
+    $('ps-idle-wrap').hidden = true;
+  });
+  $('ps-idle-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter')  $('ps-idle-save').click();
+    if (e.key === 'Escape') $('ps-idle-cancel').click();
+  });
+  $('ps-idle-cancel').addEventListener('click', () => {
+    $('ps-idle-wrap').hidden = true;
+    $('ps-idle-input').value = '';
+  });
+}
+
 // ─── Rulebooks tab ────────────────────────────────────────────────────────────
 let _rulebooksTab = null;
 $('btn-rulebooks').addEventListener('click', () => {
@@ -4286,6 +4397,7 @@ document.addEventListener('DOMContentLoaded', () => {
   openPath('gm-lore/welcome.md');
   updateManifestBtn();
   initTerminal();
+  initPlayerStrip();
   loadWorldTables();
   if (window.SoundPlayer) SoundPlayer.init();
 });

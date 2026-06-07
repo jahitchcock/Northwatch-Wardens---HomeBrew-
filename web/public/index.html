@@ -586,6 +586,34 @@
     .ct-cond-opt { font-size:10px; background:none; border:1px solid #333; color:#666; border-radius:2px; padding:2px 7px; cursor:pointer; }
     .ct-cond-opt:hover { border-color:#888; color:#aaa; }
     .ct-cond-opt.selected { background:#2a1a1a; border-color:#58180d; color:#f38ba8; }
+
+    /* ── Player Screen strip ── */
+    #player-strip {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 12px; background: #0a0a0a; border-bottom: 1px solid #1e1e1e;
+      flex-shrink: 0; font-size: 12px; font-family: sans-serif; min-height: 28px;
+    }
+    #ps-icon { font-size: 13px; flex-shrink: 0; }
+    #ps-status-text { color: #666; flex-shrink: 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px; }
+    .ps-action {
+      padding: 2px 8px; background: #181818; border: 1px solid #2a2a2a;
+      border-radius: 3px; color: #aaa; cursor: pointer; font-size: 11px;
+      font-family: sans-serif; white-space: nowrap; flex-shrink: 0;
+    }
+    .ps-action:hover { background: #222; border-color: #444; color: #ccc; }
+    .ps-action--muted { color: #555; }
+    .ps-action--open  { color: #c5a56a; border-color: #4a3820; }
+    .ps-action--open:hover { background: #2a1e08; }
+    #ps-clear { color: #666; }
+    #ps-clear:hover { color: #f38ba8; border-color: #f38ba8; }
+    #ps-msg-wrap, #ps-idle-wrap { display: flex; align-items: center; gap: 4px; }
+    #ps-msg-input, #ps-idle-input {
+      background: #181818; border: 1px solid #2a2a2a; color: #ccc;
+      border-radius: 3px; padding: 2px 8px; font-size: 11px;
+      font-family: sans-serif; width: 200px;
+    }
+    #ps-msg-input:focus, #ps-idle-input:focus { outline: 1px solid #c5a56a; border-color: #4a3820; }
+    .ps-right { margin-left: auto; display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -637,9 +665,32 @@
     <button id="btn-ctx" title="Send file path to terminal" hidden>⌨ Path</button>
     <button id="btn-manifest" title="Edit MANIFEST.md for current directory" hidden>✎ Manifest</button>
     <button id="btn-print" title="Print this handout" hidden>🖨 Print</button>
+    <button id="btn-send-player" title="Send handout to player screen" hidden>📺 Send</button>
 
     <div id="toast" aria-live="polite"></div>
   </header>
+
+  <!-- Player screen Now Showing strip -->
+  <div id="player-strip">
+    <span id="ps-icon">📺</span>
+    <span id="ps-status-text">Idle</span>
+    <button id="ps-clear" class="ps-action" hidden>✕ Clear</button>
+    <div id="ps-msg-wrap" hidden>
+      <input id="ps-msg-input" type="text" placeholder="Message to players…" maxlength="500">
+      <button id="ps-msg-send" class="ps-action">Send</button>
+      <button id="ps-msg-cancel" class="ps-action ps-action--muted">✕</button>
+    </div>
+    <div id="ps-idle-wrap" hidden>
+      <input id="ps-idle-input" type="text" placeholder="Idle screen message…" maxlength="200">
+      <button id="ps-idle-save" class="ps-action">Save</button>
+      <button id="ps-idle-cancel" class="ps-action ps-action--muted">✕</button>
+    </div>
+    <div class="ps-right">
+      <button id="ps-msg-btn"  class="ps-action" title="Send a message to players">✉</button>
+      <button id="ps-idle-btn" class="ps-action" title="Edit idle screen message">✏ Idle</button>
+      <button id="ps-open"     class="ps-action ps-action--open" title="Open player screen in new tab">Open ↗</button>
+    </div>
+  </div>
 
   <!-- Season picker (body-level so it escapes tabbar overflow clipping) -->
   <div id="season-picker" hidden></div>
