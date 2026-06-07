@@ -2253,7 +2253,7 @@ btnPrint.addEventListener('click', () => {
 btnSendPlayer.addEventListener('click', async () => {
   if (!currentPath) return;
   try {
-    const raw = await fetch(`/raw?file=${encodeURIComponent(currentPath)}`);
+    const raw = await fetch(`/raw?path=${encodeURIComponent(currentPath)}`);
     if (!raw.ok) throw new Error(`HTTP ${raw.status}`);
     const markdown = await raw.text();
     const filename = currentPath.split('/').pop().replace(/\.md$/i, '');
@@ -2685,7 +2685,7 @@ async function showNpcDetail(m, npc, allNpcs, backFn) {
             ${npc.hp != null ? `<div class="npc-stat-frame"><span class="nsf-label">HP</span><span class="nsf-val">${npc.hp}</span></div>` : ''}
             ${npc.speed ? `<div class="npc-stat-frame"><span class="nsf-label">SPD</span><span class="nsf-val">${escapeHtml(npc.speed)}</span></div>` : ''}
             <button class="npc-detail-open">Open full file</button>
-            ${npc.portrait ? `<button class="npc-send-portrait" data-portrait="${escapeHtml(npc.portrait)}" data-caption="${escapeHtml(npc.name)}">📺 Send Portrait</button>` : ''}
+            <button class="npc-send-portrait" data-portrait="${npc.portrait ? escapeHtml(npc.portrait) : ''}" data-caption="${escapeHtml(npc.name)}">📺 Send to Screen</button>
           </div>
         </div>
       </div>
@@ -2700,16 +2700,14 @@ async function showNpcDetail(m, npc, allNpcs, backFn) {
     openPath(npc.path);
     closeTopModal();
   });
-  const sendPortraitBtn = m.querySelector('.npc-send-portrait');
-  if (sendPortraitBtn) {
-    sendPortraitBtn.addEventListener('click', () => {
-      sendToPlayerScreen({
-        type:    'image',
-        url:     sendPortraitBtn.dataset.portrait,
-        caption: sendPortraitBtn.dataset.caption,
-      });
-    });
-  }
+  m.querySelector('.npc-send-portrait').addEventListener('click', () => {
+    const btn = m.querySelector('.npc-send-portrait');
+    if (btn.dataset.portrait) {
+      sendToPlayerScreen({ type: 'image', url: btn.dataset.portrait, caption: btn.dataset.caption });
+    } else {
+      sendToPlayerScreen({ type: 'text', content: btn.dataset.caption });
+    }
+  });
 
   // Load stat block section asynchronously
   try {
