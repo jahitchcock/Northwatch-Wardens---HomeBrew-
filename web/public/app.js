@@ -2087,29 +2087,26 @@ function psUpdateStrip(state) {
   $('ps-clear').hidden = isIdle;
 }
 
-function initPlayerStrip() {
-  // Fetch initial state
-  fetch('/api/player-screen')
-    .then(r => r.json())
-    .then(psUpdateStrip)
-    .catch(() => {});
+let _playerScreenState = { type: 'idle', idleMessage: null };
 
-  // Live updates via WebSocket
+function initPlayerStrip() {
+  // Live updates via WebSocket (also delivers initial state on connect)
   function connectPlayerWs() {
     const ws = new WebSocket(`ws://${location.host}/ws/player`);
     ws.addEventListener('message', e => {
-      try { psUpdateStrip(JSON.parse(e.data)); } catch {}
+      try {
+        const state = JSON.parse(e.data);
+        _playerScreenState = state;
+        psUpdateStrip(state);
+      } catch {}
     });
     ws.addEventListener('close', () => setTimeout(connectPlayerWs, 5000));
   }
   connectPlayerWs();
 
-  // Clear — resets to idle, preserving idleMessage
+  // Clear — resets to idle, preserving idleMessage from last known state
   $('ps-clear').addEventListener('click', () => {
-    fetch('/api/player-screen')
-      .then(r => r.json())
-      .then(state => sendToPlayerScreen({ type: 'idle', idleMessage: state.idleMessage || null }))
-      .catch(() => sendToPlayerScreen({ type: 'idle', idleMessage: null }));
+    sendToPlayerScreen({ type: 'idle', idleMessage: _playerScreenState.idleMessage || null });
   });
 
   // Open player screen in new tab
