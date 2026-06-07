@@ -331,6 +331,22 @@ function openPath(p) {
   // Show print button for handout files (files in *-handouts/ or handouts/ directories)
   const isHandout = /[\\/]handouts[\\/]|[\\/][^/]+-handouts[\\/]/.test(p) && p.endsWith('.md') && !p.endsWith('MANIFEST.md');
   btnPrint.hidden = !isHandout;
+  const btnSendPlayer = $('btn-send-player');
+  btnSendPlayer.hidden = !isHandout;
+  if (isHandout) {
+    btnSendPlayer.onclick = async () => {
+      try {
+        const raw      = await fetch(`/raw?file=${encodeURIComponent(p)}`);
+        const markdown = await raw.text();
+        // If markdown starts with a # heading, omit title (heading serves as title)
+        const filename = p.split('/').pop().replace(/\.md$/i, '');
+        const title    = markdown.trimStart().startsWith('#') ? '' : filename;
+        sendToPlayerScreen({ type: 'handout', title, markdown });
+      } catch (e) {
+        console.error('Send handout failed:', e);
+      }
+    };
+  }
   if (typeof updateManifestBtn === 'function') updateManifestBtn();
   closeAllDrawers();
   if (window.SoundPlayer) SoundPlayer.suggest(p);
@@ -2671,6 +2687,7 @@ async function showNpcDetail(m, npc, allNpcs, backFn) {
             ${npc.hp != null ? `<div class="npc-stat-frame"><span class="nsf-label">HP</span><span class="nsf-val">${npc.hp}</span></div>` : ''}
             ${npc.speed ? `<div class="npc-stat-frame"><span class="nsf-label">SPD</span><span class="nsf-val">${escapeHtml(npc.speed)}</span></div>` : ''}
             <button class="npc-detail-open">Open full file</button>
+            ${npc.portrait ? `<button class="npc-send-portrait" data-portrait="${escapeHtml(npc.portrait)}" data-caption="${escapeHtml(npc.name)}">📺 Send Portrait</button>` : ''}
           </div>
         </div>
       </div>
@@ -2685,6 +2702,16 @@ async function showNpcDetail(m, npc, allNpcs, backFn) {
     openPath(npc.path);
     closeTopModal();
   });
+  const sendPortraitBtn = m.querySelector('.npc-send-portrait');
+  if (sendPortraitBtn) {
+    sendPortraitBtn.addEventListener('click', () => {
+      sendToPlayerScreen({
+        type:    'image',
+        url:     sendPortraitBtn.dataset.portrait,
+        caption: sendPortraitBtn.dataset.caption,
+      });
+    });
+  }
 
   // Load stat block section asynchronously
   try {
