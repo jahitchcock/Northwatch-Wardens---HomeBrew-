@@ -634,7 +634,8 @@ function closeTopModal() {
   m.classList.remove('visible');
   setTimeout(() => {
     m.hidden = true;
-    m.querySelector('.modal-body').innerHTML = '';
+    const mb = m.querySelector('.modal-body');
+    if (mb) mb.innerHTML = '';
     m.querySelector('.modal-box').classList.remove('modal-box--tall');
   }, 180);
 }

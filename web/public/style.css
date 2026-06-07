@@ -21,8 +21,8 @@ html, body { height: 100%; overflow: hidden; }
 
 body {
   display: grid;
-  grid-template-rows: var(--tab-h) 1fr;
-  grid-template-areas: "tab" "ws";
+  grid-template-rows: var(--tab-h) auto 1fr;
+  grid-template-areas: "tab" "ps" "ws";
   background: var(--bg);
   color: var(--text);
   font-family: 'Segoe UI', system-ui, sans-serif;
