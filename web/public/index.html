@@ -717,6 +717,24 @@
       <button id="tool-treasure-hoard" class="tool-item">💰 Treasure Hoard</button>
     </div>
     <div class="tools-section">
+      <div class="tools-section-label">🗺️ VTT Screen</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;padding:4px 12px 6px">
+        <button class="vtt-fx-btn" data-fx="rain">🌧 Rain</button>
+        <button class="vtt-fx-btn" data-fx="fog">🌫 Fog</button>
+        <button class="vtt-fx-btn" data-fx="snow">❄️ Snow</button>
+        <button class="vtt-fx-btn" data-fx="fire">🔥 Fire</button>
+      </div>
+      <div class="vtt-dark-row">
+        <span>🌑</span>
+        <input type="range" id="vtt-dark-slider" min="0" max="100" value="0">
+        <span id="vtt-dark-val">0%</span>
+      </div>
+      <div style="display:flex;gap:4px;padding:4px 12px 8px">
+        <button id="vtt-clear-fx" class="tool-item" style="flex:1;padding:5px 8px;font-size:11px">✕ Clear</button>
+        <button id="vtt-open" class="tool-item" style="flex:1;padding:5px 8px;font-size:11px;color:var(--accent)">↗ Open VTT</button>
+      </div>
+    </div>
+    <div class="tools-section">
       <div class="tools-section-label">5etools</div>
       <button class="tool-item tool-5e" data-5e-path="">🎲 5etools</button>
       <button class="tool-item tool-5e" data-5e-path="bestiary.html">🐉 Bestiary</button>
