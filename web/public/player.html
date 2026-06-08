@@ -76,6 +76,14 @@
     #view-handout ul { margin: 0.5em 0 0.5em 1.5em; }
     #view-handout li { margin: 0.3em 0; line-height: 1.5; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
     #view-handout hr { border: none; border-top: 1px solid #c5a56a; margin: 1em 0; }
+    #view-handout pre {
+      font-family: 'Courier New', Consolas, monospace;
+      white-space: pre; line-height: 1.55;
+      font-size: clamp(0.72rem, 1.4vw, 0.95rem);
+      text-align: center; margin: 0.75em auto;
+      color: #2a1800;
+    }
+    #view-handout pre code { font-family: inherit; }
 
     /* ── Rulebook (full-screen iframe) ── */
     #view-rulebook { position: absolute; inset: 0; }
@@ -138,8 +146,11 @@ function esc(s) {
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-// ── Minimal markdown renderer (headings, bold, italic, lists, hr, paragraphs) ──
+// ── Minimal markdown renderer (headings, bold, italic, lists, hr, code, paragraphs) ──
 function renderMd(md) {
+  // Strip YAML frontmatter if present
+  md = md.replace(/^---\s*\n[\s\S]*?\n---\s*\n?/, '');
+
   function inline(s) {
     return esc(s)
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -148,21 +159,29 @@ function renderMd(md) {
   const lines = md.split('\n');
   let html = '';
   let inList = false;
+  let inCode = false;
+  let codeBuf = '';
   const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
 
   for (const raw of lines) {
     const line = raw.trimEnd();
-    if      (/^---+$/.test(line))  { closeList(); html += '<hr>'; }
-    else if (/^### (.*)/.test(line)) { closeList(); html += `<h3>${inline(line.slice(4))}</h3>`; }
-    else if (/^## (.*)/.test(line))  { closeList(); html += `<h2>${inline(line.slice(3))}</h2>`; }
-    else if (/^# (.*)/.test(line))   { closeList(); html += `<h1>${inline(line.slice(2))}</h1>`; }
-    else if (/^- (.*)/.test(line))   {
+    if (/^```/.test(line)) {
+      if (!inCode) { closeList(); inCode = true; codeBuf = ''; }
+      else { html += `<pre><code>${esc(codeBuf)}</code></pre>`; inCode = false; }
+    } else if (inCode) {
+      codeBuf += (codeBuf ? '\n' : '') + raw;
+    } else if (/^---+$/.test(line))    { closeList(); html += '<hr>'; }
+    else if (/^### (.*)/.test(line))   { closeList(); html += `<h3>${inline(line.slice(4))}</h3>`; }
+    else if (/^## (.*)/.test(line))    { closeList(); html += `<h2>${inline(line.slice(3))}</h2>`; }
+    else if (/^# (.*)/.test(line))     { closeList(); html += `<h1>${inline(line.slice(2))}</h1>`; }
+    else if (/^- (.*)/.test(line))     {
       if (!inList) { html += '<ul>'; inList = true; }
       html += `<li>${inline(line.slice(2))}</li>`;
     }
     else if (line === '') { closeList(); }
     else                  { closeList(); html += `<p>${inline(line)}</p>`; }
   }
+  if (inCode) html += `<pre><code>${esc(codeBuf)}</code></pre>`;
   closeList();
   return html;
 }
