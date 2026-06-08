@@ -246,6 +246,13 @@
     }
     .ref-card--npc { flex-direction: row; gap: 12px; padding: 10px 12px; align-items: flex-start; }
     .ref-card--npc .ref-card-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+    .ref-card-send {
+      flex-shrink: 0; align-self: flex-start;
+      background: none; border: 1px solid #333; border-radius: 4px;
+      color: #666; font-size: 14px; padding: 3px 6px; cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .ref-card-send:hover { border-color: #c5a56a; color: #c5a56a; }
     .ref-thumb {
       width: 56px; height: 56px; border-radius: 4px; object-fit: cover; object-position: top;
       flex-shrink: 0; border: 1px solid #333; background: #111;

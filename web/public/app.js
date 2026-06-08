@@ -2607,6 +2607,10 @@ function renderRefModal(m, items, type) {
         ? `<img class="ref-thumb" src="${escapeHtml(item.portrait)}" alt="" loading="lazy">`
         : '';
 
+      const sendBtn = isNpc
+        ? `<button class="ref-card-send" data-portrait="${item.portrait ? escapeHtml(item.portrait) : ''}" data-caption="${escapeHtml(item.name)}" title="Send to player screen">📺</button>`
+        : '';
+
       return `<div class="ref-card${isNpc ? ' ref-card--npc' : ''}" data-path="${escapeHtml(item.path)}" data-idx="${escapeHtml(String(items.indexOf(item)))}">
         ${thumb}
         <div class="ref-card-body">
@@ -2614,6 +2618,7 @@ function renderRefModal(m, items, type) {
           <div class="ref-meta">${metaItems.join('')}</div>
           ${item.synopsis ? `<div class="ref-synopsis">${escapeHtml(item.synopsis)}</div>` : ''}
         </div>
+        ${sendBtn}
       </div>`;
     }).join('') : '<div class="ref-empty">No matches</div>';
 
@@ -2650,6 +2655,18 @@ function renderRefModal(m, items, type) {
         } else {
           openPath(card.dataset.path);
           closeTopModal();
+        }
+      });
+    });
+
+    // Wire NPC send-to-screen buttons (stopPropagation so card click doesn't fire)
+    m.querySelectorAll('.ref-card-send').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        if (btn.dataset.portrait) {
+          sendToPlayerScreen({ type: 'image', url: btn.dataset.portrait, caption: btn.dataset.caption });
+        } else {
+          sendToPlayerScreen({ type: 'text', content: btn.dataset.caption });
         }
       });
     });
