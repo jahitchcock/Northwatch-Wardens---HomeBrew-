@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player Screen — Northwatch Wardens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=IM+Fell+English:ital@0;1&display=swap">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -56,48 +58,55 @@
 
     /* ── Handout ── */
     #view-handout {
-      background: #f5e9c8; color: #3a2a10;
-      padding: clamp(24px, 4vw, 60px);
-      border-radius: 4px;
-      max-width: min(700px, 90vw);
+      background: #f0e6c4;
+      background-image:
+        radial-gradient(ellipse at 20% 10%, rgba(139,105,20,0.10) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 90%, rgba(100,60,10,0.10) 0%, transparent 60%);
+      color: #2a1800;
+      padding: clamp(28px, 5vw, 64px) clamp(24px, 5vw, 60px);
+      border-radius: 2px;
+      max-width: min(660px, 90vw);
       max-height: 90vh; overflow-y: auto;
-      font-family: 'Palatino Linotype', Palatino, serif;
-      box-shadow: 0 8px 40px rgba(0,0,0,.7);
-    }
-    #view-handout .handout-title {
-      font-size: clamp(1.3rem, 3.5vw, 2.2rem); color: #58180d;
-      margin-bottom: 1em; border-bottom: 2px solid #c5a56a;
-      padding-bottom: 0.4em; font-weight: bold; text-align: center;
-      letter-spacing: 0.04em;
+      font-family: 'IM Fell English', 'Palatino Linotype', serif;
+      font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+      box-shadow: 0 2px 6px rgba(0,0,0,.4), 0 12px 48px rgba(0,0,0,.7);
+      border: 1px solid #b8963a;
+      outline: 2px solid #c5a56a;
+      outline-offset: -10px;
     }
     #view-handout h1 {
-      font-size: clamp(1.4rem, 3.5vw, 2.4rem); color: #58180d;
-      margin: 0.6em 0 0.4em; text-align: center; font-weight: bold;
-      letter-spacing: 0.08em;
+      font-family: 'Cinzel', serif;
+      font-size: clamp(1.5rem, 4vw, 2.6rem);
+      font-weight: 900; color: #3d0a00;
+      text-align: center; letter-spacing: 0.12em;
+      margin: 0.3em 0 0.4em;
+      text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
     }
     #view-handout h2 {
-      font-size: clamp(1rem, 2.2vw, 1.5rem); color: #58180d;
-      margin: 0.7em 0 0.3em; text-align: center; font-weight: normal;
-      font-style: italic;
+      font-family: 'IM Fell English', serif;
+      font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+      font-weight: normal; font-style: italic;
+      color: #3d0a00; text-align: center;
+      margin: 0.5em 0 0.3em; letter-spacing: 0.03em;
     }
     #view-handout h3 {
-      font-size: clamp(0.9rem, 1.8vw, 1.2rem); color: #7a3010;
-      margin: 0.6em 0 0.2em; text-align: center; font-weight: normal;
+      font-family: 'Cinzel', serif;
+      font-size: clamp(0.85rem, 1.8vw, 1.1rem);
+      font-weight: 400; color: #5a2800;
+      text-align: center; letter-spacing: 0.1em;
+      margin: 0.5em 0 0.3em;
     }
-    #view-handout p  { margin: 0.5em 0; line-height: 1.7; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
-    #view-handout ul { margin: 0.5em 0 0.5em 1.8em; }
-    #view-handout li { margin: 0.35em 0; line-height: 1.6; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
+    #view-handout p  { margin: 0.55em 0; line-height: 1.75; }
+    #view-handout ul { margin: 0.4em 0 0.6em 1.8em; }
+    #view-handout li { margin: 0.4em 0; line-height: 1.7; }
+    #view-handout strong {
+      font-family: 'Cinzel', serif;
+      font-size: 0.9em; letter-spacing: 0.05em; color: #2a1000;
+    }
+    #view-handout em { font-style: italic; color: #3a1a00; }
     #view-handout hr {
-      border: none; margin: 1.1em 0;
-      background: none;
-      height: 12px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='12' width='100%25'%3E%3Cline x1='0' y1='6' x2='100%25' y2='6' stroke='%23c5a56a' stroke-width='1'/%3E%3Cline x1='0' y1='9' x2='100%25' y2='9' stroke='%23c5a56a' stroke-width='0.5' stroke-dasharray='4 4'/%3E%3C/svg%3E");
-    }
-    #view-handout strong { color: #3a1a00; }
-    #view-handout .reward {
-      font-size: clamp(1.1rem, 2.5vw, 1.6rem); color: #58180d;
-      text-align: center; font-weight: bold; margin: 0.8em 0;
-      letter-spacing: 0.05em;
+      border: none; margin: 1.2em 0; height: 10px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' width='100%25'%3E%3Cline x1='0' y1='5' x2='100%25' y2='5' stroke='%23a07830' stroke-width='1'/%3E%3C/svg%3E");
     }
 
     /* ── Rulebook (full-screen iframe) ── */
