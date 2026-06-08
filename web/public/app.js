@@ -2263,6 +2263,7 @@ btnSendPlayer.addEventListener('click', async () => {
     if (fmMatch) {
       const tmatch = fmMatch[1].match(/^title:\s*(.+)$/m);
       if (tmatch) title = tmatch[1].trim();
+      markdown = markdown.slice(fmMatch[0].length); // strip frontmatter before sending
     } else if (markdown.trimStart().startsWith('#')) {
       title = '';
     }
