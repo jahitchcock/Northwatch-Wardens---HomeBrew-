@@ -2250,6 +2250,81 @@ btnPrint.addEventListener('click', () => {
   if (currentPath) window.open(`/print?path=${encodeURIComponent(currentPath)}`, '_blank');
 });
 
+// ─── VTT Effects Controls ─────────────────────────────────────────────────────
+
+{
+  // Mirror of server vttState effects/darkness fields
+  let _vttActive  = new Set();   // currently active effect names
+  let _vttDark    = 0;           // 0–1
+  let _darkTimer  = null;
+
+  const fxBtns   = document.querySelectorAll('.vtt-fx-btn');
+  const darkSlider = document.getElementById('vtt-dark-slider');
+  const darkVal    = document.getElementById('vtt-dark-val');
+  const clearBtn   = document.getElementById('vtt-clear-fx');
+  const openBtn    = document.getElementById('vtt-open');
+
+  function postVttEffects() {
+    // No `type` field — server preserves existing type/url and only updates effects/darkness
+    fetch('/api/vtt-screen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        effects: [..._vttActive],
+        darkness: _vttDark,
+      }),
+    }).catch(() => {});
+  }
+
+  function refreshBtnUI() {
+    fxBtns.forEach(btn => {
+      btn.classList.toggle('active', _vttActive.has(btn.dataset.fx));
+    });
+    darkVal.textContent = Math.round(_vttDark * 100) + '%';
+    darkSlider.value    = Math.round(_vttDark * 100);
+  }
+
+  // Toggle effect buttons
+  fxBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const fx = btn.dataset.fx;
+      if (_vttActive.has(fx)) _vttActive.delete(fx);
+      else _vttActive.add(fx);
+      refreshBtnUI();
+      postVttEffects();
+    });
+  });
+
+  // Darkness slider — debounced 50ms
+  darkSlider.addEventListener('input', () => {
+    _vttDark = darkSlider.value / 100;
+    darkVal.textContent = darkSlider.value + '%';
+    clearTimeout(_darkTimer);
+    _darkTimer = setTimeout(postVttEffects, 50);
+  });
+
+  // Clear all effects
+  clearBtn.addEventListener('click', () => {
+    _vttActive.clear();
+    _vttDark = 0;
+    refreshBtnUI();
+    postVttEffects();
+  });
+
+  // Open VTT in new tab
+  openBtn.addEventListener('click', () => {
+    window.open('/vtt', 'vtt-screen');
+  });
+
+  // Sync with server state on load
+  fetch('/api/vtt-screen').then(r => r.ok ? r.json() : null).then(state => {
+    if (!state) return;
+    _vttActive = new Set(state.effects || []);
+    _vttDark   = state.darkness || 0;
+    refreshBtnUI();
+  }).catch(() => {});
+}
+
 btnSendPlayer.addEventListener('click', async () => {
   if (!currentPath) return;
   try {
