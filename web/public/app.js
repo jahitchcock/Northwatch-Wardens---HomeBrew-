@@ -2259,15 +2259,10 @@ btnSendPlayer.addEventListener('click', async () => {
     const filename = currentPath.split('/').pop().replace(/\.md$/i, '');
     // Extract title from YAML frontmatter if present, else fall back to filename
     const fmMatch = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-    let title = filename;
     if (fmMatch) {
-      const tmatch = fmMatch[1].match(/^title:\s*(.+)$/m);
-      if (tmatch) title = tmatch[1].trim();
       markdown = markdown.slice(fmMatch[0].length); // strip frontmatter before sending
-    } else if (markdown.trimStart().startsWith('#')) {
-      title = '';
     }
-    sendToPlayerScreen({ type: 'handout', title, markdown });
+    sendToPlayerScreen({ type: 'handout', title: '', markdown });
   } catch (e) {
     console.error('Send handout failed:', e);
   }
