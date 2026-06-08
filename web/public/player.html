@@ -39,15 +39,14 @@
 
     /* ── Image ── */
     #view-image {
-      display: flex; flex-direction: column; align-items: center; gap: 16px;
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
     }
     #img-el {
-      max-width: 90vw; max-height: 85vh;
-      object-fit: contain; border-radius: 4px;
+      width: 100vw; height: 100vh;
+      object-fit: contain; display: block;
     }
-    #img-caption {
-      font-size: clamp(0.9rem, 2vw, 1.4rem); color: #c5a56a; text-align: center;
-    }
+    #img-caption { display: none; }
 
     /* ── Text ── */
     #view-text { max-width: 80vw; text-align: center; }

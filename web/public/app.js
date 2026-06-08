@@ -4488,7 +4488,7 @@ document.addEventListener('DOMContentLoaded', () => {
     lb.classList.add('visible');
     lb.querySelectorAll('.lm-send-btn').forEach(btn => {
       btn.addEventListener('click', () => {
-        sendToPlayerScreen({ type: 'image', url: btn.dataset.url, caption: btn.dataset.name });
+        sendToPlayerScreen({ type: 'image', url: btn.dataset.url, caption: null });
         showToast('Sent to player screen');
       });
     });
