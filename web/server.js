@@ -40,13 +40,23 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
 let playerScreenState = { type: 'idle', idleMessage: null };
+let vttState          = { type: 'idle' };
 let playerWss = null;    // assigned later after server is created
+let vttWss    = null;
 let terminalWss = null;  // assigned inside if(pty) block
 
 function broadcastPlayerScreen() {
   if (!playerWss) return;
   const msg = JSON.stringify(playerScreenState);
   playerWss.clients.forEach(ws => {
+    if (ws.readyState === WebSocket.OPEN) ws.send(msg);
+  });
+}
+
+function broadcastVtt() {
+  if (!vttWss) return;
+  const msg = JSON.stringify(vttState);
+  vttWss.clients.forEach(ws => {
     if (ws.readyState === WebSocket.OPEN) ws.send(msg);
   });
 }
@@ -393,6 +403,8 @@ const PUBLIC_PREFIXES = [
   '/api/pdf-search',
   // Player screen — public display + DM reads state (POST auth checked inside handler)
   '/player', '/api/player-screen',
+  // VTT screen — public display + DM reads state (POST auth checked inside handler)
+  '/vtt', '/api/vtt-screen',
 ];
 
 function signValue(val) {
@@ -3176,6 +3188,32 @@ app.post('/api/player-screen', (req, res) => {
   res.json({ ok: true });
 });
 
+// ─── VTT screen ───────────────────────────────────────────────────────────────
+
+app.get('/vtt', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'vtt.html'));
+});
+
+app.get('/api/vtt-screen', (req, res) => {
+  res.json(vttState);
+});
+
+app.post('/api/vtt-screen', express.json(), (req, res) => {
+  if (verifyValue(req.cookies[COOKIE_NAME]) !== 'dm') {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  const { type, url } = req.body;
+  if (type === 'idle') {
+    vttState = { type: 'idle' };
+  } else if (type === 'map' && url) {
+    vttState = { type: 'map', url };
+  } else {
+    return res.status(400).json({ error: 'Invalid payload' });
+  }
+  broadcastVtt();
+  res.json({ ok: true });
+});
+
 // ─── WebSocket terminal ────────────────────────────────────────────────────
 
 if (pty) {
@@ -3299,8 +3337,12 @@ if (pty) {
 // Player screen WebSocket — push state to all /player clients
 playerWss = new WebSocket.Server({ noServer: true });
 playerWss.on('connection', ws => {
-  // Send current state immediately so clients joining mid-session are in sync
   ws.send(JSON.stringify(playerScreenState));
+});
+
+vttWss = new WebSocket.Server({ noServer: true });
+vttWss.on('connection', ws => {
+  ws.send(JSON.stringify(vttState));
 });
 
 // Single upgrade handler routes by path — avoids interference when multiple
@@ -3313,6 +3355,8 @@ server.on('upgrade', (req, socket, head) => {
     terminalWss.handleUpgrade(req, socket, head, ws => terminalWss.emit('connection', ws, req));
   } else if (url === '/ws/player') {
     playerWss.handleUpgrade(req, socket, head, ws => playerWss.emit('connection', ws, req));
+  } else if (url === '/ws/vtt') {
+    vttWss.handleUpgrade(req, socket, head, ws => vttWss.emit('connection', ws, req));
   } else {
     socket.destroy();
   }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VTT — Northwatch Wardens</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+    #map {
+      width: 100vw; height: 100vh;
+      object-fit: contain; display: block;
+      opacity: 0; transition: opacity 0.4s ease;
+    }
+    #map.loaded { opacity: 1; }
+    #idle {
+      position: fixed; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="idle"></div>
+  <img id="map" src="" alt="">
+
+  <script>
+    const mapEl  = document.getElementById('map');
+    const idleEl = document.getElementById('idle');
+
+    function applyState(state) {
+      if (state.type === 'map' && state.url) {
+        idleEl.style.display = 'none';
+        mapEl.classList.remove('loaded');
+        mapEl.src = state.url;
+        mapEl.onload = () => mapEl.classList.add('loaded');
+      } else {
+        mapEl.src = '';
+        mapEl.classList.remove('loaded');
+        idleEl.style.display = 'flex';
+      }
+    }
+
+    // Load initial state
+    fetch('/api/vtt-screen').then(r => r.json()).then(applyState).catch(() => {});
+
+    // Live updates via WebSocket
+    function connect() {
+      const ws = new WebSocket(`ws://${location.host}/ws/vtt`);
+      ws.onmessage = e => { try { applyState(JSON.parse(e.data)); } catch {} };
+      ws.onclose   = () => setTimeout(connect, 2000);
+    }
+    connect();
+  </script>
+</body>
+</html>

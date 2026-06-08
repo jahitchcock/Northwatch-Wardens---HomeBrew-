@@ -4476,8 +4476,9 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="maps-lightbox">
         <img src="${escapeHtml(url)}" alt="${escapeHtml(name)}" style="max-width:100%;max-height:60vh;object-fit:contain;display:block;margin:0 auto">
         <div style="display:flex;gap:8px;justify-content:center;margin-top:10px;flex-wrap:wrap">
-          <button class="lm-send-btn" data-url="${escapeHtml(url)}" data-name="${escapeHtml(name)}">📺 Send to Player Screen</button>
-          ${meta.gridless_url ? `<button class="lm-send-btn lm-send-gridless" data-url="${escapeHtml(meta.gridless_url)}" data-name="${escapeHtml(name)} (gridless)">📺 Send Gridless</button>` : ''}
+          <button class="lm-send-btn" data-target="player" data-url="${escapeHtml(url)}">📺 Player Screen</button>
+          <button class="lm-send-btn" data-target="vtt" data-url="${escapeHtml(url)}">🗺️ VTT Screen</button>
+          ${meta.gridless_url ? `<button class="lm-send-btn" data-target="vtt" data-url="${escapeHtml(meta.gridless_url)}">🗺️ VTT Gridless</button>` : ''}
         </div>
         ${meta.description ? `<div class="lm-lb-desc">${escapeHtml(meta.description)}</div>` : ''}
         ${tags ? `<div class="lm-lb-tags">${tags}</div>` : ''}
@@ -4487,9 +4488,17 @@ document.addEventListener('DOMContentLoaded', () => {
     lb.hidden = false;
     lb.classList.add('visible');
     lb.querySelectorAll('.lm-send-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        sendToPlayerScreen({ type: 'image', url: btn.dataset.url, caption: null });
-        showToast('Sent to player screen');
+      btn.addEventListener('click', async () => {
+        if (btn.dataset.target === 'vtt') {
+          await fetch('/api/vtt-screen', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ type: 'map', url: btn.dataset.url }),
+          });
+          showToast('Sent to VTT screen');
+        } else {
+          sendToPlayerScreen({ type: 'image', url: btn.dataset.url, caption: null });
+          showToast('Sent to player screen');
+        }
       });
     });
   }
