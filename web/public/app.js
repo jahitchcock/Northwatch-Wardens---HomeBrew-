@@ -2258,7 +2258,7 @@ btnSendPlayer.addEventListener('click', async () => {
     const markdown = await raw.text();
     const filename = currentPath.split('/').pop().replace(/\.md$/i, '');
     // Extract title from YAML frontmatter if present, else fall back to filename
-    const fmMatch = markdown.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+    const fmMatch = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
     let title = filename;
     if (fmMatch) {
       const tmatch = fmMatch[1].match(/^title:\s*(.+)$/m);

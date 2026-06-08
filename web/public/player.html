@@ -67,23 +67,38 @@
     #view-handout .handout-title {
       font-size: clamp(1.3rem, 3.5vw, 2.2rem); color: #58180d;
       margin-bottom: 1em; border-bottom: 2px solid #c5a56a;
-      padding-bottom: 0.4em; font-weight: bold;
+      padding-bottom: 0.4em; font-weight: bold; text-align: center;
+      letter-spacing: 0.04em;
     }
-    #view-handout h1 { font-size: clamp(1.2rem, 3vw, 2rem); color: #58180d; margin: 0.8em 0 0.4em; border-bottom: 1px solid #c5a56a; padding-bottom: 0.2em; }
-    #view-handout h2 { font-size: clamp(1rem, 2vw, 1.4rem); color: #58180d; margin: 0.8em 0 0.3em; }
-    #view-handout h3 { font-size: clamp(0.9rem, 1.8vw, 1.2rem); color: #7a3010; margin: 0.6em 0 0.2em; }
-    #view-handout p  { margin: 0.5em 0; line-height: 1.6; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
-    #view-handout ul { margin: 0.5em 0 0.5em 1.5em; }
-    #view-handout li { margin: 0.3em 0; line-height: 1.5; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
-    #view-handout hr { border: none; border-top: 1px solid #c5a56a; margin: 1em 0; }
-    #view-handout pre {
-      font-family: 'Courier New', Consolas, monospace;
-      white-space: pre; line-height: 1.55;
-      font-size: clamp(0.72rem, 1.4vw, 0.95rem);
-      text-align: center; margin: 0.75em auto;
-      color: #2a1800;
+    #view-handout h1 {
+      font-size: clamp(1.4rem, 3.5vw, 2.4rem); color: #58180d;
+      margin: 0.6em 0 0.4em; text-align: center; font-weight: bold;
+      letter-spacing: 0.08em;
     }
-    #view-handout pre code { font-family: inherit; }
+    #view-handout h2 {
+      font-size: clamp(1rem, 2.2vw, 1.5rem); color: #58180d;
+      margin: 0.7em 0 0.3em; text-align: center; font-weight: normal;
+      font-style: italic;
+    }
+    #view-handout h3 {
+      font-size: clamp(0.9rem, 1.8vw, 1.2rem); color: #7a3010;
+      margin: 0.6em 0 0.2em; text-align: center; font-weight: normal;
+    }
+    #view-handout p  { margin: 0.5em 0; line-height: 1.7; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
+    #view-handout ul { margin: 0.5em 0 0.5em 1.8em; }
+    #view-handout li { margin: 0.35em 0; line-height: 1.6; font-size: clamp(0.85rem, 1.5vw, 1.1rem); }
+    #view-handout hr {
+      border: none; margin: 1.1em 0;
+      background: none;
+      height: 12px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='12' width='100%25'%3E%3Cline x1='0' y1='6' x2='100%25' y2='6' stroke='%23c5a56a' stroke-width='1'/%3E%3Cline x1='0' y1='9' x2='100%25' y2='9' stroke='%23c5a56a' stroke-width='0.5' stroke-dasharray='4 4'/%3E%3C/svg%3E");
+    }
+    #view-handout strong { color: #3a1a00; }
+    #view-handout .reward {
+      font-size: clamp(1.1rem, 2.5vw, 1.6rem); color: #58180d;
+      text-align: center; font-weight: bold; margin: 0.8em 0;
+      letter-spacing: 0.05em;
+    }
 
     /* ── Rulebook (full-screen iframe) ── */
     #view-rulebook { position: absolute; inset: 0; }
@@ -148,8 +163,8 @@ function esc(s) {
 
 // ── Minimal markdown renderer (headings, bold, italic, lists, hr, code, paragraphs) ──
 function renderMd(md) {
-  // Strip YAML frontmatter if present
-  md = md.replace(/^---\s*\n[\s\S]*?\n---\s*\n?/, '');
+  // Strip YAML frontmatter (handles both LF and CRLF)
+  md = md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, '');
 
   function inline(s) {
     return esc(s)
