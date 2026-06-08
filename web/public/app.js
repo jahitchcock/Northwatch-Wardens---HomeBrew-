@@ -4474,7 +4474,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <button class="ref-modal-close" onclick="closeTopModal()">✕</button>
       </div>
       <div class="maps-lightbox">
-        <img src="${escapeHtml(url)}" alt="${escapeHtml(name)}" style="max-width:100%;max-height:65vh;object-fit:contain;display:block;margin:0 auto">
+        <img src="${escapeHtml(url)}" alt="${escapeHtml(name)}" style="max-width:100%;max-height:60vh;object-fit:contain;display:block;margin:0 auto">
+        <div style="display:flex;gap:8px;justify-content:center;margin-top:10px;flex-wrap:wrap">
+          <button class="lm-send-btn" data-url="${escapeHtml(url)}" data-name="${escapeHtml(name)}">📺 Send to Player Screen</button>
+          ${meta.gridless_url ? `<button class="lm-send-btn lm-send-gridless" data-url="${escapeHtml(meta.gridless_url)}" data-name="${escapeHtml(name)} (gridless)">📺 Send Gridless</button>` : ''}
+        </div>
         ${meta.description ? `<div class="lm-lb-desc">${escapeHtml(meta.description)}</div>` : ''}
         ${tags ? `<div class="lm-lb-tags">${tags}</div>` : ''}
         ${uses ? `<div class="lm-lb-uses"><strong>Good for:</strong> ${uses}</div>` : ''}
@@ -4482,6 +4486,12 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>`;
     lb.hidden = false;
     lb.classList.add('visible');
+    lb.querySelectorAll('.lm-send-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        sendToPlayerScreen({ type: 'image', url: btn.dataset.url, caption: btn.dataset.name });
+        showToast('Sent to player screen');
+      });
+    });
   }
 
   const GALLERY_PAGE = 40;
