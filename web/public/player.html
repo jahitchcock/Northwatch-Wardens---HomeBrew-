@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player Screen — Northwatch Wardens</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=IM+Fell+English:ital@0;1&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+SC:wght@500;700&display=swap">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -58,55 +58,58 @@
 
     /* ── Handout ── */
     #view-handout {
-      background: #f0e6c4;
+      background: #e8d9a8;
       background-image:
-        radial-gradient(ellipse at 20% 10%, rgba(139,105,20,0.10) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 90%, rgba(100,60,10,0.10) 0%, transparent 60%);
-      color: #2a1800;
-      padding: clamp(28px, 5vw, 64px) clamp(24px, 5vw, 60px);
-      border-radius: 2px;
-      max-width: min(660px, 90vw);
+        radial-gradient(ellipse at 15% 85%, rgba(80,40,0,0.18) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 10%, rgba(60,30,0,0.12) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(180,140,60,0.06) 0%, transparent 80%);
+      color: #1c0e00;
+      padding: clamp(28px, 5vw, 56px) clamp(28px, 5vw, 56px);
+      border-radius: 1px;
+      max-width: min(620px, 90vw);
       max-height: 90vh; overflow-y: auto;
-      font-family: 'IM Fell English', 'Palatino Linotype', serif;
-      font-size: clamp(0.9rem, 1.6vw, 1.1rem);
-      box-shadow: 0 2px 6px rgba(0,0,0,.4), 0 12px 48px rgba(0,0,0,.7);
-      border: 1px solid #b8963a;
-      outline: 2px solid #c5a56a;
-      outline-offset: -10px;
+      font-family: 'Cormorant Garamond', 'Palatino Linotype', serif;
+      font-size: clamp(1rem, 1.8vw, 1.18rem);
+      line-height: 1.7;
+      box-shadow: 2px 3px 0 rgba(0,0,0,.25), 0 14px 50px rgba(0,0,0,.75);
+      border-top: 3px solid #7a5820;
+      border-left: 1px solid #9a7030;
+      border-right: 1px solid #9a7030;
+      border-bottom: 3px solid #7a5820;
     }
     #view-handout h1 {
-      font-family: 'Cinzel', serif;
-      font-size: clamp(1.5rem, 4vw, 2.6rem);
-      font-weight: 900; color: #3d0a00;
-      text-align: center; letter-spacing: 0.12em;
-      margin: 0.3em 0 0.4em;
-      text-shadow: 1px 1px 0 rgba(0,0,0,0.15);
+      font-family: 'Cormorant SC', serif;
+      font-size: clamp(1.6rem, 4.5vw, 2.8rem);
+      font-weight: 700; color: #1c0e00;
+      text-align: center; letter-spacing: 0.06em;
+      margin: 0.1em 0 0.35em;
+      line-height: 1.15;
     }
     #view-handout h2 {
-      font-family: 'IM Fell English', serif;
-      font-size: clamp(1.1rem, 2.4vw, 1.6rem);
-      font-weight: normal; font-style: italic;
-      color: #3d0a00; text-align: center;
-      margin: 0.5em 0 0.3em; letter-spacing: 0.03em;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.15rem, 2.6vw, 1.65rem);
+      font-weight: 600; font-style: italic;
+      color: #2a1400; text-align: center;
+      margin: 0.3em 0 0.25em;
     }
     #view-handout h3 {
-      font-family: 'Cinzel', serif;
-      font-size: clamp(0.85rem, 1.8vw, 1.1rem);
-      font-weight: 400; color: #5a2800;
-      text-align: center; letter-spacing: 0.1em;
-      margin: 0.5em 0 0.3em;
+      font-family: 'Cormorant SC', serif;
+      font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+      font-weight: 500; color: #2a1400;
+      text-align: center; letter-spacing: 0.07em;
+      margin: 0.4em 0 0.25em;
     }
-    #view-handout p  { margin: 0.55em 0; line-height: 1.75; }
-    #view-handout ul { margin: 0.4em 0 0.6em 1.8em; }
-    #view-handout li { margin: 0.4em 0; line-height: 1.7; }
+    #view-handout p  { margin: 0.5em 0; }
+    #view-handout ul { margin: 0.3em 0 0.5em 1.6em; }
+    #view-handout li { margin: 0.3em 0; }
     #view-handout strong {
-      font-family: 'Cinzel', serif;
-      font-size: 0.9em; letter-spacing: 0.05em; color: #2a1000;
+      font-weight: 700; font-variant: small-caps;
+      letter-spacing: 0.04em;
     }
-    #view-handout em { font-style: italic; color: #3a1a00; }
+    #view-handout em { font-style: italic; }
     #view-handout hr {
-      border: none; margin: 1.2em 0; height: 10px;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' width='100%25'%3E%3Cline x1='0' y1='5' x2='100%25' y2='5' stroke='%23a07830' stroke-width='1'/%3E%3C/svg%3E");
+      border: none; border-top: 1px solid #8a6420;
+      margin: 1.1em 0; opacity: 0.6;
     }
 
     /* ── Rulebook (full-screen iframe) ── */

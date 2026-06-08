@@ -4,29 +4,29 @@ type: handout
 when: Posted in settlements during travel, especially near Pinebrook
 ---
 
-# ★  WANTED  ★
+# WANTED
 
-## "The Fox"
+## *"The Fox"*
 
 ### Fox-Masked Bandit
 
 ---
 
-**CRIMES:** Armed Robbery · Murder · Conspiracy
+**Crimes:** Armed Robbery · Murder · Conspiracy against the peace
 
 ---
 
-**DESCRIPTION:**
+**Description:**
 
 - Wears a distinctive fox mask at all times
 - Speaks with an educated, articulate manner
-- Commands an organized bandit gang
+- Commands an organised bandit gang
 - Last seen in the Pinebrook region
 
 ---
 
-**REWARD: 50 Gold Pieces**
+**Reward: 50 Gold Crowns**
 
-*Report to local authorities or the Northwatch Wardens*
+*By order of the Northwatch Wardens and local authorities.*
 
-*Do not attempt to apprehend alone*
+*Do not attempt to apprehend alone. Report any sightings immediately.*
