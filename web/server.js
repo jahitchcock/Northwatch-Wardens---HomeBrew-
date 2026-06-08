@@ -40,7 +40,7 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
 let playerScreenState = { type: 'idle', idleMessage: null };
-let vttState          = { type: 'idle' };
+let vttState          = { type: 'idle', effects: [], darkness: 0 };
 let playerWss = null;    // assigned later after server is created
 let vttWss    = null;
 let terminalWss = null;  // assigned inside if(pty) block
@@ -3202,11 +3202,33 @@ app.post('/api/vtt-screen', express.json(), (req, res) => {
   if (verifyValue(req.cookies[COOKIE_NAME]) !== 'dm') {
     return res.status(401).json({ error: 'Unauthorized' });
   }
-  const { type, url } = req.body;
-  if (type === 'idle') {
-    vttState = { type: 'idle' };
+  const { type, url, effects, darkness } = req.body;
+  const VALID_FX = new Set(['rain', 'fog', 'snow', 'fire']);
+
+  // effects and darkness are optional — preserve existing values if not sent
+  let newEffects = vttState.effects;
+  if (effects !== undefined) {
+    if (!Array.isArray(effects) || !effects.every(f => VALID_FX.has(f))) {
+      return res.status(400).json({ error: 'invalid effects' });
+    }
+    newEffects = effects;
+  }
+
+  let newDarkness = vttState.darkness;
+  if (darkness !== undefined) {
+    if (typeof darkness !== 'number' || darkness < 0 || darkness > 1) {
+      return res.status(400).json({ error: 'darkness must be 0–1' });
+    }
+    newDarkness = darkness;
+  }
+
+  if (type === undefined) {
+    // Effects/darkness-only update — preserve existing type and url
+    vttState = { ...vttState, effects: newEffects, darkness: newDarkness };
+  } else if (type === 'idle') {
+    vttState = { type: 'idle', effects: newEffects, darkness: newDarkness };
   } else if (type === 'map' && url) {
-    vttState = { type: 'map', url };
+    vttState = { type: 'map', url, effects: newEffects, darkness: newDarkness };
   } else {
     return res.status(400).json({ error: 'Invalid payload' });
   }
