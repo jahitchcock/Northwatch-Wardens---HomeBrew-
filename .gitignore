@@ -33,3 +33,6 @@ build/test-*.json
 
 # PDF search index (generated at runtime)
 web/data/search-index/
+
+# Audio files
+*.wav
