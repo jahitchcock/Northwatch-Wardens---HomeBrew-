@@ -36,3 +36,12 @@ web/data/search-index/
 
 # Audio files
 *.wav
+*.mp3
+*.flac
+*.ogg
+
+# Print-ready output
+_print/
+
+# Build HTML diffs
+build/*.htm
