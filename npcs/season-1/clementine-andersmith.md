@@ -10,6 +10,8 @@ tags: [child, ally, recurring]
 
 ## Profile
 
+![portrait](/portraits/ClementineAndersmith.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A girl of perhaps ten, with the specific quality of stillness that children develop when they have decided that panic is not going to help and they are waiting for something to change.
 
 **Voice:** Careful and observant — she asks better questions than the situation implies she should be able to.
@@ -39,4 +41,4 @@ Clementine is older now, and what she experienced in the Temple has given her a 
 
 ## Stat Block Reference
 
-`[No combat stat block — rescue NPC only]`
+*No combat role — use Commoner statistics if needed.*

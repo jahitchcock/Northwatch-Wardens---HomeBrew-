@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/JessamineColdwater.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Blonde teenager with blue eyes and her mother's amulet at her collar, perpetually practicing chord progressions on a lute that goes slightly out of tune in the cold.
 
 **Voice:** Optimistic and warm, with a habit of composing observation-songs about mundane things in real time, quietly, as though she's not aware she's doing it.
@@ -28,4 +30,21 @@ Jessamine is a tonal counterpoint to Palebank's cold, subdued atmosphere. Her en
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

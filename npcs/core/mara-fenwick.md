@@ -5,11 +5,13 @@ affiliation: Northwatch Wardens
 location: Waystone Inn (Guild HQ)
 introduced: season-1
 status: ally
-portrait: https://i.imgur.com/7zDKfWX.jpg
+portrait: /portraits/StewardMaraFenwick.jpg
 tags: [core, warden, recurring]
 ---
 
 ## Profile
+
+![Steward Mara Fenwick](/portraits/StewardMaraFenwick.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
 
 **Appearance:** Round-faced, always smiling, with ink-stained fingers and a ledger that seems to materialize from nowhere whenever numbers are discussed.
 
@@ -40,6 +42,30 @@ The demands of a larger threat begin to strain the Guild's supply lines. Mara's 
 
 ## Stat Block Reference
 
-`[No combat stat block needed; use Spy or Noble (MM) if required]`
+**Spy** · *Medium humanoid (any race), any alignment* · CR 1 (200 XP)
 
-![Steward Mara Fenwick](https://i.imgur.com/7zDKfWX.jpg)
+| | |
+|---|---|
+| **Armor Class** | 12 |
+| **Hit Points** | 27 (6d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 15 (+2) | 10 (+0) | 12 (+1) | 14 (+2) | 16 (+3) |
+
+**Skills** Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Stealth +4
+**Senses** passive Perception 16
+**Languages** any two languages
+
+**Cunning Action.** On each of its turns, the spy can use a bonus action to Dash, Disengage, or Hide.
+
+**Sneak Attack (1/Turn).** The spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage, or when the target is adjacent to an ally of the spy.
+
+**Actions**
+
+**Multiattack.** The spy makes two melee attacks.
+
+**Shortsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+**Hand Crossbow.** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.

@@ -10,6 +10,8 @@ tags: [ally]
 
 ## Profile
 
+![portrait](/portraits/OrvoMustave.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A young gnome with the look of someone who has been frightened for long enough that it has become his resting expression; he keeps his pack on even when seated, as if leaving may become necessary at any moment.
 
 **Voice:** Fast and slightly too loud, with the cadence of someone who has been alone with the same frightening information for too long.
@@ -30,4 +32,4 @@ His guilt about the person he left behind is a quiet secondary thread — it doe
 
 ## Stat Block Reference
 
-`[No combat stat block needed]`
+*No combat role — use Commoner statistics if needed.*

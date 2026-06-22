@@ -39,7 +39,7 @@ A minor Aevorian crash site lies in the old woods north of Welton — the source
 
 ## Adventure Connections
 
-- **Wolves of Welton** — Welton is the primary location for this adventure; the Council and named NPCs drive the investigation and the wolf lair is accessible from here.
+- **Wolves of Welton** — Welton is the primary location for this adventure; the Council and named NPCs drive the investigation and the wolf lair is accessible from here. See also [Westly's Farm](loc:locations/northreach/westlys-farm.md) for the ground-zero location.
 
 ---
 

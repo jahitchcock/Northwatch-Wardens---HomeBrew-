@@ -10,6 +10,8 @@ tags: [minor, recurring, antagonist]
 
 ## Profile
 
+![portrait](/portraits/HaggardIronfist.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Scarred dwarf who carries the smell of cheap spirits, wearing a tarnished Guild badge he hasn't removed despite everything — the one thing he will not let go of.
 
 **Voice:** Bitter and slurring — starts calm enough, slides into accusation and self-pity within a few minutes, occasionally cuts through to something sharp and lucid before the drink pulls him back.
@@ -28,4 +30,28 @@ Haggard is the party's dark mirror — what a Warden looks like when they fail t
 
 ## Stat Block Reference
 
-`[Veteran — impaired; use Guard stat block if significantly drunk]`
+**Veteran** · *Medium humanoid (any race), any alignment* · CR 3 (700 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 17 (splint armor) |
+| **Hit Points** | 58 (9d8 + 18) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (+3) | 13 (+1) | 14 (+2) | 10 (+0) | 11 (+0) | 10 (+0) |
+
+**Skills** Athletics +5, Perception +2
+**Senses** passive Perception 12
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Multiattack.** The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.
+
+**Longsword.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+
+**Shortsword.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage.
+
+**Heavy Crossbow.** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 6 (1d10 + 1) piercing damage.

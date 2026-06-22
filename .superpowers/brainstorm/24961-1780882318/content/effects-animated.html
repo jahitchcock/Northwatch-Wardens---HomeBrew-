@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VTT Effects Preview</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e2e; color: #cdd6f4; font-family: 'Segoe UI', sans-serif; padding: 24px; }
+  h2 { font-size: 18px; margin-bottom: 6px; color: #cba6f7; }
+  .sub { font-size: 12px; color: #a6adc8; margin-bottom: 24px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  .card { border-radius: 8px; overflow: hidden; border: 1px solid #313244; }
+  .card-label {
+    background: #181825; padding: 8px 12px;
+    font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #a6adc8;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .card-label span { font-size: 14px; }
+
+  /* Fake battle map */
+  .map {
+    position: relative; height: 180px; overflow: hidden;
+    background: linear-gradient(135deg, #2a3a2a 0%, #3a4a3a 30%, #2a3530 60%, #1a2520 100%);
+  }
+  .map::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 29px, rgba(255,255,255,0.04) 30px),
+      repeating-linear-gradient(90deg, transparent, transparent 29px, rgba(255,255,255,0.04) 30px);
+  }
+
+  /* ── RAIN ── */
+  @keyframes rain-fall {
+    0%   { transform: translateY(-100%) translateX(0); }
+    100% { transform: translateY(200%) translateX(-30px); }
+  }
+  .rain-layer {
+    position: absolute; inset: -20px;
+    pointer-events: none;
+  }
+  .raindrop {
+    position: absolute;
+    width: 1px; background: rgba(180,215,255,0.5);
+    border-radius: 1px;
+    animation: rain-fall linear infinite;
+  }
+
+  /* ── FOG ── */
+  @keyframes fog-drift-1 {
+    0%   { transform: translateX(-20%) translateY(0); opacity: 0.55; }
+    50%  { transform: translateX(5%)  translateY(-6px); opacity: 0.75; }
+    100% { transform: translateX(-20%) translateY(0); opacity: 0.55; }
+  }
+  @keyframes fog-drift-2 {
+    0%   { transform: translateX(10%)  translateY(0); opacity: 0.45; }
+    50%  { transform: translateX(-15%) translateY(8px); opacity: 0.65; }
+    100% { transform: translateX(10%)  translateY(0); opacity: 0.45; }
+  }
+  @keyframes fog-drift-3 {
+    0%   { transform: translateX(-5%)  translateY(4px); opacity: 0.35; }
+    50%  { transform: translateX(20%)  translateY(-4px); opacity: 0.5; }
+    100% { transform: translateX(-5%)  translateY(4px); opacity: 0.35; }
+  }
+  .fog-layer { position: absolute; inset: 0; pointer-events: none; }
+  .fog-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(28px);
+    background: rgba(200,215,230,0.5);
+  }
+
+  /* ── SNOW ── */
+  @keyframes snow-fall {
+    0%   { transform: translateY(-10px) translateX(0); opacity: 0.9; }
+    50%  { transform: translateY(90px)  translateX(8px); opacity: 0.7; }
+    100% { transform: translateY(190px) translateX(-4px); opacity: 0; }
+  }
+  .snow-layer { position: absolute; inset: 0; pointer-events: none; }
+  .snowflake {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(220,240,255,0.9);
+    animation: snow-fall ease-in infinite;
+  }
+
+  /* ── FIRE ── */
+  @keyframes fire-pulse {
+    0%   { opacity: 0.55; transform: scaleY(1)   scaleX(1); }
+    30%  { opacity: 0.75; transform: scaleY(1.05) scaleX(1.02); }
+    60%  { opacity: 0.60; transform: scaleY(0.97) scaleX(0.99); }
+    100% { opacity: 0.55; transform: scaleY(1)   scaleX(1); }
+  }
+  @keyframes fire-flicker {
+    0%   { opacity: 0.35; }
+    25%  { opacity: 0.55; }
+    50%  { opacity: 0.30; }
+    75%  { opacity: 0.50; }
+    100% { opacity: 0.35; }
+  }
+  .fire-layer { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+  .fire-glow {
+    position: absolute; bottom: -20px; left: -10%; right: -10%;
+    height: 75%; border-radius: 50% 50% 0 0;
+    background: radial-gradient(ellipse at 50% 100%,
+      rgba(255,120,0,0.55) 0%,
+      rgba(255,60,0,0.30) 35%,
+      rgba(180,20,0,0.12) 65%,
+      transparent 100%);
+    animation: fire-pulse 1.8s ease-in-out infinite;
+    transform-origin: bottom center;
+  }
+  .fire-top {
+    position: absolute; top: 0; left: 0; right: 0; height: 35%;
+    background: linear-gradient(180deg, rgba(255,80,0,0.12) 0%, transparent 100%);
+    animation: fire-flicker 0.9s ease-in-out infinite;
+  }
+  .fire-ember {
+    position: absolute;
+    width: 2px; height: 2px;
+    border-radius: 50%;
+    background: rgba(255,200,80,0.9);
+    animation: snow-fall linear infinite;
+  }
+</style>
+</head>
+<body>
+  <h2>VTT Effect Animations</h2>
+  <p class="sub">These are the actual CSS animations that will run on the VTT screen, overlaid on a mock battle map grid.</p>
+
+  <div class="grid">
+
+    <!-- RAIN -->
+    <div class="card">
+      <div class="card-label"><span>🌧</span> Rain</div>
+      <div class="map" id="rain-map">
+        <div class="rain-layer" id="rain-layer"></div>
+      </div>
+    </div>
+
+    <!-- FOG -->
+    <div class="card">
+      <div class="card-label"><span>🌫</span> Fog</div>
+      <div class="map">
+        <div class="fog-layer">
+          <div class="fog-blob" style="width:200%;height:80px;top:20%;left:-50%;animation:fog-drift-1 7s ease-in-out infinite"></div>
+          <div class="fog-blob" style="width:180%;height:60px;top:45%;left:-30%;background:rgba(190,210,225,0.45);animation:fog-drift-2 9s ease-in-out infinite"></div>
+          <div class="fog-blob" style="width:220%;height:70px;top:65%;left:-60%;background:rgba(210,220,235,0.40);animation:fog-drift-3 11s ease-in-out infinite"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SNOW -->
+    <div class="card">
+      <div class="card-label"><span>❄️</span> Snow</div>
+      <div class="map" id="snow-map">
+        <div class="snow-layer" id="snow-layer"></div>
+      </div>
+    </div>
+
+    <!-- FIRE -->
+    <div class="card">
+      <div class="card-label"><span>🔥</span> Fire Glow</div>
+      <div class="map">
+        <div class="fire-layer">
+          <div class="fire-top"></div>
+          <div class="fire-glow"></div>
+          <div class="fire-ember" id="e1"></div>
+          <div class="fire-ember" id="e2"></div>
+          <div class="fire-ember" id="e3"></div>
+          <div class="fire-ember" id="e4"></div>
+          <div class="fire-ember" id="e5"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Generate rain drops
+    const rainLayer = document.getElementById('rain-layer');
+    for (let i = 0; i < 60; i++) {
+      const d = document.createElement('div');
+      d.className = 'raindrop';
+      d.style.left = Math.random() * 120 + '%';
+      d.style.top = Math.random() * 100 + '%';
+      d.style.height = (8 + Math.random() * 12) + 'px';
+      d.style.opacity = 0.3 + Math.random() * 0.5;
+      d.style.animationDuration = (0.4 + Math.random() * 0.4) + 's';
+      d.style.animationDelay = -(Math.random() * 1.2) + 's';
+      rainLayer.appendChild(d);
+    }
+
+    // Generate snowflakes
+    const snowLayer = document.getElementById('snow-layer');
+    for (let i = 0; i < 40; i++) {
+      const s = document.createElement('div');
+      s.className = 'snowflake';
+      const size = 2 + Math.random() * 3;
+      s.style.width = s.style.height = size + 'px';
+      s.style.left = Math.random() * 100 + '%';
+      s.style.top = -(size) + 'px';
+      s.style.opacity = 0.5 + Math.random() * 0.5;
+      s.style.animationDuration = (2 + Math.random() * 3) + 's';
+      s.style.animationDelay = -(Math.random() * 5) + 's';
+      snowLayer.appendChild(s);
+    }
+
+    // Position fire embers
+    ['e1','e2','e3','e4','e5'].forEach((id, i) => {
+      const e = document.getElementById(id);
+      e.style.left = (15 + i * 18) + '%';
+      e.style.bottom = '0';
+      e.style.animationDuration = (1.5 + Math.random()) + 's';
+      e.style.animationDelay = -(Math.random() * 2) + 's';
+    });
+  </script>
+</body>
+</html>

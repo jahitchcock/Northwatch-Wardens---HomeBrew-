@@ -1,0 +1,91 @@
+<h2>How should adding combatants work?</h2>
+<p class="subtitle">The tracker needs to add players, NPCs, and monsters. Which flow feels right?</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:12px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <div style="background:#111;padding:6px 10px;border-bottom:1px solid #333;display:flex;gap:6px">
+          <span style="background:#2a2a4a;color:#89b4fa;padding:2px 8px;border-radius:3px;border-bottom:2px solid #89b4fa;font-size:11px">Players</span>
+          <span style="color:#666;padding:2px 8px;font-size:11px">NPCs</span>
+          <span style="color:#666;padding:2px 8px;font-size:11px">Monsters</span>
+          <span style="color:#666;padding:2px 8px;font-size:11px">Manual</span>
+        </div>
+        <div style="padding:8px 10px;display:flex;flex-direction:column;gap:4px">
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 6px;background:#1e1e3a;border-radius:3px">
+            <span style="color:#cdd6f4;font-size:11px">⚔ John (Paladin 5)</span>
+            <span style="color:#a6e3a1;font-size:10px">AC 18 · HP 45</span>
+            <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 6px;border-radius:2px;font-size:10px;cursor:pointer">+ Add</button>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 6px;background:#1e1e3a;border-radius:3px">
+            <span style="color:#cdd6f4;font-size:11px">🧙 Kuetis (Warlock 5)</span>
+            <span style="color:#a6e3a1;font-size:10px">AC 13 · HP 38</span>
+            <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 6px;border-radius:2px;font-size:10px;cursor:pointer">+ Add</button>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 6px;background:#1e1e3a;border-radius:3px">
+            <span style="color:#cdd6f4;font-size:11px">🏹 Perkia (Ranger 5)</span>
+            <span style="color:#a6e3a1;font-size:10px">AC 15 · HP 42</span>
+            <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 6px;border-radius:2px;font-size:10px;cursor:pointer">+ Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Tabbed Add Panel</h3>
+      <p>A panel below the tracker header with four tabs: Players, NPCs, Monsters, Manual. Each tab shows a list to click-add. Clean and organized.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:12px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <div style="background:#111;padding:6px 10px;border-bottom:1px solid #333;display:flex;gap:6px;align-items:center">
+          <span style="color:#89b4fa;font-size:13px;font-weight:bold;margin-right:auto">⚔ Combat Tracker</span>
+          <button style="background:#313244;border:1px solid #444;color:#cdd6f4;padding:2px 7px;border-radius:3px;font-size:10px">+ Player</button>
+          <button style="background:#313244;border:1px solid #444;color:#cdd6f4;padding:2px 7px;border-radius:3px;font-size:10px">+ NPC</button>
+          <button style="background:#313244;border:1px solid #444;color:#cdd6f4;padding:2px 7px;border-radius:3px;font-size:10px">+ Monster</button>
+        </div>
+        <div style="padding:8px 10px;font-size:11px;color:#888">
+          ↑ Each button opens a quick dropdown picker inline
+        </div>
+        <div style="margin:0 10px 8px;background:#1e1e3a;border:1px solid #444;border-radius:3px;padding:6px">
+          <div style="color:#89b4fa;font-size:10px;margin-bottom:4px">+ Player ▾</div>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="display:flex;justify-content:space-between;padding:2px 4px;background:#313244;border-radius:2px"><span style="color:#cdd6f4;font-size:10px">John (Paladin)</span><span style="color:#a6e3a1;font-size:10px">↵</span></div>
+            <div style="display:flex;justify-content:space-between;padding:2px 4px;border-radius:2px"><span style="color:#888;font-size:10px">Kuetis (Warlock)</span><span style="color:#888;font-size:10px">↵</span></div>
+            <div style="display:flex;justify-content:space-between;padding:2px 4px;border-radius:2px"><span style="color:#888;font-size:10px">Perkia (Ranger)</span><span style="color:#888;font-size:10px">↵</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Separate Add Buttons</h3>
+      <p>Three buttons in the tracker header: <em>+ Player</em>, <em>+ NPC</em>, <em>+ Monster</em>. Each opens a small inline dropdown. Fast and focused for experienced users.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:12px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <div style="background:#111;padding:6px 10px;border-bottom:1px solid #333;display:flex;gap:6px;align-items:center">
+          <span style="color:#89b4fa;font-size:13px;font-weight:bold;margin-right:auto">⚔ Combat Tracker</span>
+          <button style="background:#89b4fa;border:none;color:#1a1a2e;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:bold">+ Add Combatant</button>
+        </div>
+        <div style="padding:8px 10px">
+          <input style="width:100%;background:#1e1e3a;border:1px solid #444;color:#cdd6f4;padding:4px 8px;border-radius:3px;font-size:11px;box-sizing:border-box" placeholder="Search players, NPCs, monsters…" value="wolf">
+          <div style="margin-top:4px;display:flex;flex-direction:column;gap:2px">
+            <div style="padding:3px 6px;background:#1e1e3a;border-radius:2px;display:flex;justify-content:space-between"><span style="color:#cdd6f4;font-size:10px">🐺 Wolf <span style="color:#666">(Monster)</span></span><span style="color:#a6e3a1;font-size:10px">AC 13 · HP 11 · CR¼</span></div>
+            <div style="padding:3px 6px;border-radius:2px;display:flex;justify-content:space-between"><span style="color:#888;font-size:10px">🐺 Wolf Pack Leader <span style="color:#666">(Adventure)</span></span><span style="color:#888;font-size:10px">AC 14 · HP 22</span></div>
+            <div style="padding:3px 6px;border-radius:2px;display:flex;justify-content:space-between"><span style="color:#888;font-size:10px">🐺 Dire Wolf <span style="color:#666">(5etools)</span></span><span style="color:#888;font-size:10px">AC 14 · HP 37 · CR1</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Unified Search</h3>
+      <p>Single "Add Combatant" button opens a search box that finds players, NPCs, and monsters in one place. Type to filter across all sources. Most powerful but slightly more complex.</p>
+    </div>
+  </div>
+
+</div>

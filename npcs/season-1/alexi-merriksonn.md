@@ -11,6 +11,8 @@ tags: [recurring, neutral]
 
 ## Profile
 
+![Alexi Merriksonn](https://i.imgur.com/UUuiBcg.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Described by those who knew them: slight build, restless hands, always carrying something to read; the kind of person whose energy is bigger than their body and frequently gets them into trouble.
 
 **Voice:** (If encountered) Rapid and self-correcting — they think faster than they speak and speak faster than they should.
@@ -33,6 +35,36 @@ Their survival past the arc and their relationship with Bolt and Flame are both 
 
 ## Stat Block Reference
 
-`[Use Sorcerer build, Wild Magic subclass recommended for thematic resonance]`
+**Sorcerer** · *Medium humanoid (any race), any alignment* · CR 6 (2,300 XP)
 
-![Alexi Merriksonn](https://i.imgur.com/UUuiBcg.jpg)
+| | |
+|---|---|
+| **Armor Class** | 12 (15 with *mage armor*) |
+| **Hit Points** | 45 (7d8 + 14) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 14 (+2) | 14 (+2) | 12 (+1) | 12 (+1) | 18 (+4) |
+
+**Saving Throws** Con +5, Cha +7
+**Skills** Arcana +4, Persuasion +7
+**Senses** passive Perception 11
+**Languages** any two languages
+
+**Spellcasting.** The sorcerer is a 9th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It knows the following sorcerer spells:
+
+- Cantrips (at will): *fire bolt, light, mage hand, prestidigitation, shocking grasp*
+- 1st level (4 slots): *chromatic orb, mage armor, magic missile, shield*
+- 2nd level (3 slots): *mirror image, misty step, scorching ray*
+- 3rd level (3 slots): *counterspell, fireball, lightning bolt*
+- 4th level (3 slots): *greater invisibility, polymorph*
+- 5th level (1 slot): *cone of cold*
+
+**Wild Magic Surge.** When the sorcerer casts a spell of 1st level or higher, roll a d20. On a roll of 1, roll on the Wild Magic Surge table to create a random magical effect.
+
+**Tides of Chaos (1/Day).** The sorcerer can gain advantage on one attack roll, ability check, or saving throw. Reset when Wild Magic Surge triggers.
+
+**Actions**
+
+**Dagger.** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.

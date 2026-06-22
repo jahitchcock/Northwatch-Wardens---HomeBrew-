@@ -10,6 +10,8 @@ tags: [minor, recurring, child]
 
 ## Profile
 
+![portrait](/portraits/ElaraMoonstone.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Half-elf teenager with round spectacles and ink-stained hands perpetually in motion — always carrying at least two books, always with a third balanced somewhere impractical.
 
 **Voice:** Precise and serious, with the particular intensity of someone who has decided competence is the only currency that matters.
@@ -28,4 +30,21 @@ Elara is an active research asset — she can investigate topics for the party f
 
 ## Stat Block Reference
 
-`[Commoner — non-combatant]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

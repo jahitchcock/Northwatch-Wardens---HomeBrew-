@@ -31,15 +31,15 @@ tags: [settlement, social, quest-site, echo-site]
 
 ## Season 1: The Frozen Sick
 
-A strange illness — frigid woe — has killed at least one resident and fear of contagion is spreading. Others are showing symptoms. The community is tightly wound between its ethic of mutual aid (no one gets left behind) and the terrifying possibility that close contact is making things worse. Elro Aldataur is holding things together through force of personal authority, but he is frightened. The community is looking to outsiders for help — specifically, for anyone willing to trace the illness to its source and find a cure. The cure, Elro suspects, lies north — past where most sane people go.
+A strange illness — frigid woe — has killed at least one resident and fear of contagion is spreading. Others are showing symptoms. The community is tightly wound between its ethic of mutual aid (no one gets left behind) and the terrifying possibility that close contact is making things worse. Elro Aldataur is holding things together through force of personal authority, but he is frightened. The community is looking to outsiders for help — specifically, for anyone willing to trace the illness to its source and find a cure. The cure, Elro suspects, lies north — past where most sane people go, somewhere in [Salsvault](loc:locations/northreach/salsvault.md).
 
 ## Aeorian Echo Presence
 
-Palebank is a collection point for Aevorian artifacts retrieved from Eiselcross expeditions, and someone has been systematically stealing the most significant pieces — specifically biological research materials and blue crystal structures. The Echo's presence here is felt through its agents: the Blackwake Corsairs are using Palebank as a staging ground, and frigid woe itself is an Aevorian bioweapon reactivated from Salsvault. The illness in the village is the Echo made physical — a preview of what full Aevorian reactivation could mean. Verla Pelc was investigating the artifact-theft pattern before she was infected.
+Palebank is a collection point for Aevorian artifacts retrieved from Eiselcross expeditions, and someone has been systematically stealing the most significant pieces — specifically biological research materials and blue crystal structures. The Echo's presence here is felt through its agents: the Blackwake Corsairs are using Palebank as a staging ground, and frigid woe itself is an Aevorian bioweapon reactivated from [Salsvault](loc:locations/northreach/salsvault.md). The illness in the village is the Echo made physical — a preview of what full Aevorian reactivation could mean. Verla Pelc was investigating the artifact-theft pattern before she was infected.
 
 ## Adventure Connections
 
-- **The Frozen Sick** — Palebank is the adventure's base of operations; the illness, Urgon's death, the Corsair conspiracy threads, and the push north to Salsvault all originate here.
+- **The Frozen Sick** — Palebank is the adventure's base of operations; the illness, Urgon's death, the Corsair conspiracy threads, and the push north to [Salsvault](loc:locations/northreach/salsvault.md) all originate here.
 
 ---
 

@@ -10,6 +10,8 @@ tags: [minor, recurring, guide, exile]
 
 ## Profile
 
+![portrait](/portraits/KaelSwiftarrow.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Wood elf in a weathered traveling cloak, a recurve bow always within reach or already in hand, with alert eyes that assess every new person as a potential threat before downgrading to something warmer.
 
 **Voice:** Cautious and spare — watches longer than he speaks, asks clarifying questions before offering anything, values demonstrated character over stated intention.
@@ -28,4 +30,28 @@ Kael crosses paths with the party during wilderness travel. He will not attach t
 
 ## Stat Block Reference
 
-`[Scout / Archer variant]`
+**Scout** · *Medium humanoid (any race), any alignment* · CR 1/2 (100 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 13 (leather armor) |
+| **Hit Points** | 16 (3d8 + 3) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (+0) | 14 (+2) | 12 (+1) | 11 (+0) | 13 (+1) | 11 (+0) |
+
+**Skills** Nature +4, Perception +5, Stealth +6, Survival +5
+**Senses** passive Perception 15
+**Languages** any one language (usually Common)
+
+**Keen Hearing and Sight.** The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+
+**Actions**
+
+**Multiattack.** The scout makes two melee attacks or two ranged attacks.
+
+**Shortsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+**Longbow.** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage.

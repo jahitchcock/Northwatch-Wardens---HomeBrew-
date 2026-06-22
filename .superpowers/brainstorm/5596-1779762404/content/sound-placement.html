@@ -1,0 +1,62 @@
+<h2>Where should the ambient sound controls live?</h2>
+<p class="subtitle">Pick the placement that fits best into your session flow</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Persistent Footer Bar</h3>
+      <p>A slim bar pinned to the bottom of the screen — always visible, never in the way. Shows current scene, volume, and quick-switch buttons. Like a Spotify mini-player.</p>
+      <div style="margin-top:10px;border:1px solid #444;border-radius:4px;overflow:hidden;">
+        <div style="background:#1a1a1a;padding:4px 12px;font-size:11px;color:#666;text-align:center;">…DM Panel content…</div>
+        <div style="background:#111;border-top:1px solid #333;padding:6px 16px;display:flex;align-items:center;gap:12px;font-size:12px;">
+          <span style="color:#cba6f7">♪</span>
+          <span style="color:#cdd6f4">Tavern Ambience</span>
+          <span style="color:#666">|</span>
+          <button style="background:#2a2a2a;border:1px solid #444;color:#aaa;border-radius:3px;padding:2px 8px;font-size:11px;cursor:pointer">▶ Playing</button>
+          <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:2px 8px;font-size:11px;cursor:pointer">Forest</button>
+          <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:2px 8px;font-size:11px;cursor:pointer">Combat</button>
+          <span style="margin-left:auto;color:#888;font-size:11px">🔊 70%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Sounds Tab in Top Nav</h3>
+      <p>A dedicated tab alongside Tracker and Combat Tracker — opens a full panel with scene browser, layered tracks, and volume controls. Out of sight until you need it.</p>
+      <div style="margin-top:10px;border:1px solid #444;border-radius:4px;overflow:hidden;">
+        <div style="background:#111;padding:5px 12px;display:flex;gap:8px;border-bottom:1px solid #333;font-size:11px;">
+          <span style="color:#666">Home</span>
+          <span style="color:#666">Tracker</span>
+          <span style="color:#666">Party</span>
+          <span style="color:#cba6f7;border-bottom:1px solid #cba6f7;padding-bottom:2px">♪ Sounds</span>
+          <span style="color:#666">Combat Tracker</span>
+        </div>
+        <div style="background:#1a1a1a;padding:12px 16px;font-size:12px;color:#888;">Scene picker, volume sliders, layered track controls…</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Tools Dropdown Entry</h3>
+      <p>An item in the existing Tools ▾ menu that opens a floating modal or slide-over panel. Keeps the nav clean — sound is just another DM tool.</p>
+      <div style="margin-top:10px;border:1px solid #444;border-radius:4px;overflow:hidden;">
+        <div style="background:#111;padding:5px 12px;display:flex;gap:8px;border-bottom:1px solid #333;font-size:11px;align-items:center;">
+          <span style="color:#666">Home</span>
+          <span style="color:#666">Tracker</span>
+          <span style="color:#cba6f7">Tools ▾</span>
+        </div>
+        <div style="background:#161616;padding:8px 0;font-size:12px;width:180px;border:1px solid #333;margin:6px;border-radius:4px;">
+          <div style="padding:5px 14px;color:#666">World Tables</div>
+          <div style="padding:5px 14px;color:#666">⚔ Random Encounter</div>
+          <div style="padding:5px 14px;color:#cba6f7">♪ Ambient Sounds</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

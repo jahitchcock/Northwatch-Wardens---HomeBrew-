@@ -5,10 +5,19 @@ affiliation: Faction or Group
 location: Primary Location
 introduced: season-1
 status: ally
+portrait:                          # Imgur direct link when available, e.g. https://i.imgur.com/abc123.jpg
 tags: [core, merchant, villain, recurring]
 ---
 
 ## Profile
+
+<!-- PORTRAIT: two options — use one, delete the other.                    -->
+<!--                                                                        -->
+<!-- A) Portrait exists — replace URL and name to match frontmatter:       -->
+<!--    ![NPC Full Name](https://i.imgur.com/abc123.jpg) {width:130px,float:right,margin:"0 0 10px 15px"} -->
+<!--                                                                        -->
+<!-- B) No portrait yet — placeholder silhouette:                          -->
+![NPC Full Name](https://i.imgur.com/fRthpBM.png) {width:130px,float:right,margin:"0 0 10px 15px"}
 
 **Appearance:** One sentence — what the players notice first.
 

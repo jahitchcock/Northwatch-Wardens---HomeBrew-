@@ -43,6 +43,7 @@ Season 1 — Northreach Region. 30 minor NPCs organized by location.
 - [Fenwick "Old Moss"](fenwick-old-moss.md) — hermit, former druid, monitors Echo-affected zones
 - [Kael Swiftarrow](kael-swiftarrow.md) — scout, Nullwood exile, grief-carrying loner
 - [Grimbosh the Unfortunate](grimbosh-the-unfortunate.md) — failed adventurer, hag-cursed disaster magnet
+- [The Awakened Fawn](the-awakened-fawn.md) — Echo-touched deer, newly sapient, wandering witness
 
 ## Children & Youth
 

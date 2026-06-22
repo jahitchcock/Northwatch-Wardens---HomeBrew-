@@ -56,6 +56,10 @@ All named NPCs introduced in Season 1, grouped by location/adventure.
 - [Dew](dew.md)
 - [Ferol Sal](ferol-sal.md)
 
+## Northreach Wilderness (Mobile)
+
+- [The Awakened Fawn](../minor/the-awakened-fawn.md) — Echo-touched fawn, witness to the first casualty
+
 ## Noke's Tower (Wild Sheep Chase)
 
 - [Finethir Shinebright](finethir-shinebright.md)

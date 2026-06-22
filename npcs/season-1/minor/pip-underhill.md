@@ -10,6 +10,8 @@ tags: [minor, recurring, child]
 
 ## Profile
 
+![portrait](/portraits/PipUnderhill.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Halfling child with curly red hair, a missing front tooth, and a toy sword on his belt worn with complete seriousness — as though it is just as real as any other weapon.
 
 **Voice:** Fearless and declarative — says dangerous things with cheerful confidence, asks adults questions they find uncomfortable, and follows up on answers he doesn't understand with more questions.
@@ -28,4 +30,21 @@ Pip is the party's conscience made small. He will follow them, idolize them, and
 
 ## Stat Block Reference
 
-`[Commoner — child, non-combatant]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

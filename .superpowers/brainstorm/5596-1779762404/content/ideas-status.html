@@ -1,0 +1,128 @@
+<h2>DM Panel — Ideas & Enhancement Backlog</h2>
+<p class="subtitle">Select any ideas you want to explore further. Multi-select is on.</p>
+
+<h3 style="margin-top:24px;color:#a6e3a1;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em">✓ Recently Shipped</h3>
+<div style="display:flex;flex-direction:column;gap:6px;margin-bottom:24px">
+  <div style="background:#1a2a1a;border:1px solid #2a4a2a;border-radius:6px;padding:10px 14px;display:flex;align-items:center;gap:12px">
+    <span style="color:#a6e3a1;font-size:1.1rem">✓</span>
+    <div><strong style="color:#a6e3a1">Combat Tracker — full add panel</strong><br><span style="color:#666;font-size:0.8rem">Players / NPCs / Monsters (Adventure + 5etools) / Manual tabs. Just shipped.</span></div>
+  </div>
+  <div style="background:#1a2a1a;border:1px solid #2a4a2a;border-radius:6px;padding:10px 14px;display:flex;align-items:center;gap:12px">
+    <span style="color:#a6e3a1;font-size:1.1rem">✓</span>
+    <div><strong style="color:#a6e3a1">Ambient Sound Bar</strong><br><span style="color:#666;font-size:0.8rem">Persistent footer, scene suggestions on file open, crossfade, spell effects panel, inline adventure cues.</span></div>
+  </div>
+  <div style="background:#1a2a1a;border:1px solid #2a4a2a;border-radius:6px;padding:10px 14px;display:flex;align-items:center;gap:12px">
+    <span style="color:#a6e3a1;font-size:1.1rem">✓</span>
+    <div><strong style="color:#a6e3a1">Campaign Tracker</strong><br><span style="color:#666;font-size:0.8rem">Contracts, party, NPCs, Echo clues, Promises, Treasure, Sessions — all saved locally.</span></div>
+  </div>
+  <div style="background:#1a2a1a;border:1px solid #2a4a2a;border-radius:6px;padding:10px 14px;display:flex;align-items:center;gap:12px">
+    <span style="color:#a6e3a1;font-size:1.1rem">✓</span>
+    <div><strong style="color:#a6e3a1">Party Character Sheets</strong><br><span style="color:#666;font-size:0.8rem">Player characters visible in NPC viewer via /api/characters.</span></div>
+  </div>
+</div>
+
+<h3 style="color:#89b4fa;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em">From the Ideas Backlog</h3>
+<div class="options" data-multiselect style="margin-bottom:24px">
+  <div class="option" data-choice="quickroll" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Quick-Roll Hotbar</h3>
+      <p>Configurable buttons for common D&D checks — Perception, Stealth, Initiative. Results broadcast to WebSocket terminal.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="lightbox" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Image Lightbox for Maps</h3>
+      <p>Click any map/image in the file browser to open a full-screen lightbox with zoom/pan. Great for a second monitor.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="playerscreen" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Player-Facing Screen</h3>
+      <p>Stripped-down second-monitor URL: shows initiative order (no HP/stats), current map, status messages. No DM controls visible.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="logingate" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>DM Login Gate</h3>
+      <p>Protect DM routes behind a simple password (default: TPK). Player routes stay open. Session cookie, no database needed.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="resttracker" onclick="toggleSelect(this)">
+    <div class="letter">E</div>
+    <div class="content">
+      <h3>Inspiration & Rest Tracker</h3>
+      <p>Track inspiration per player, short/long rest buttons that reset abilities/HP/spell slots, party-wide one-click rest.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="downtime" onclick="toggleSelect(this)">
+    <div class="letter">F</div>
+    <div class="content">
+      <h3>Downtime Tracker</h3>
+      <p>Track in-game days, per-player downtime activities (crafting, training, carousing), roll results, and timeline view.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="sessionrecap" onclick="toggleSelect(this)">
+    <div class="letter">G</div>
+    <div class="content">
+      <h3>Session Recap Auto-Generation</h3>
+      <p>Read latest session log → generate structured recap (what happened, NPCs met, items gained, hooks for next session).</p>
+    </div>
+  </div>
+  <div class="option" data-choice="omi" onclick="toggleSelect(this)">
+    <div class="letter">H</div>
+    <div class="content">
+      <h3>OMI Transcript Import</h3>
+      <p>Paste a meeting transcript → auto-extract PCs present, NPCs met, loot, plot hooks, key moments. Save to timeline/sessions/.</p>
+    </div>
+  </div>
+</div>
+
+<h3 style="color:#cba6f7;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em">New Ideas (Not Yet in Backlog)</h3>
+<div class="options" data-multiselect>
+  <div class="option" data-choice="combatenhancements" onclick="toggleSelect(this)">
+    <div class="letter">I</div>
+    <div class="content">
+      <h3>Combat Tracker Enhancements</h3>
+      <p>Buff/debuff duration tracking with auto-expiry, hover rules text on conditions, quick save DC rolls per combatant, click-NPC to open full stat block popup.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="npcpopup" onclick="toggleSelect(this)">
+    <div class="letter">J</div>
+    <div class="content">
+      <h3>NPC Stat Block Popup in Combat</h3>
+      <p>Click any NPC or monster name in the tracker to open their full stat block in a popup — no need to find the file separately mid-combat.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="weatherenv" onclick="toggleSelect(this)">
+    <div class="letter">K</div>
+    <div class="content">
+      <h3>Weather & Environment Widget</h3>
+      <p>Track current weather, time of day, visibility, temperature — Northreach-flavored (blizzard, fog, midnight). Affects encounter narration cues.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="sessiontimer" onclick="toggleSelect(this)">
+    <div class="letter">L</div>
+    <div class="content">
+      <h3>Session Timer</h3>
+      <p>Real-time clock showing elapsed session time. Optional "Act 1/2/3" markers so the DM can pace the session against a target runtime.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="spelllookup" onclick="toggleSelect(this)">
+    <div class="letter">M</div>
+    <div class="content">
+      <h3>Spell & Item Quick Lookup</h3>
+      <p>Search bar in the panel header that queries 5etools for spells, items, and conditions — shows a popup with full text. No page navigation needed.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="encountertemplates" onclick="toggleSelect(this)">
+    <div class="letter">N</div>
+    <div class="content">
+      <h3>Encounter Templates</h3>
+      <p>Save a named encounter setup (combatants + HP + init order) as a reusable template. One click to load a standard bandit patrol or wolf pack into the tracker.</p>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/GarthIronfoot.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Stocky dwarf with a white beard braided with copper rings, a stained apron worn over an old chainmail shirt, and a left hand missing two fingers.
 
 **Voice:** Gruff and economical — short sentences, long pauses, food metaphors for everything.
@@ -28,4 +30,21 @@ Garth is the heart of the Waystone Inn's common room. He notices everything from
 
 ## Stat Block Reference
 
-`[Commoner / Veteran — use Veteran if combat required]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

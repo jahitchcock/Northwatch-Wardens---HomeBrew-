@@ -10,6 +10,8 @@ tags: [villain, hostile, creature]
 
 ## Profile
 
+![portrait](/portraits/FerolSal.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Whatever form the undead transformation has taken, there is still something recognizably deliberate about it — the impression is of a mind, working, even if the body is wrong.
 
 **Voice:** Unhurried and precise, with the specific quality of someone who has no more urgency because they no longer have a timeline to worry about.
@@ -34,4 +36,55 @@ How the party handles this determines what they know about the larger arc going 
 
 ## Stat Block Reference
 
-`[Use Lich stat block (MM p.202) or custom undead scholar build; adjust CR based on party level]`
+**Lich** · *Medium undead, any evil alignment* · CR 21 (33,000 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 17 (natural armor) |
+| **Hit Points** | 135 (18d8 + 54) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (+0) | 16 (+3) | 16 (+3) | 20 (+5) | 14 (+2) | 16 (+3) |
+
+**Saving Throws** Con +10, Int +12, Wis +9
+**Skills** Arcana +18, History +12, Insight +9, Perception +9
+**Damage Resistances** cold, lightning, necrotic
+**Damage Immunities** poison; bludgeoning, piercing, and slashing from nonmagical weapons
+**Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+**Senses** truesight 120 ft., passive Perception 19
+**Languages** Common plus up to five other languages
+
+**Legendary Resistance (3/Day).** If the lich fails a saving throw, it can choose to succeed instead.
+
+**Rejuvenation.** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points.
+
+**Turn Resistance.** The lich has advantage on saving throws against any effect that turns undead.
+
+**Spellcasting.** The lich is an 18th-level spellcaster (spell save DC 20, +12 to hit). Wizard spells prepared:
+
+- Cantrips: *mage hand, prestidigitation, ray of frost*
+- 1st (4 slots): *detect magic, magic missile, shield, thunderwave*
+- 2nd (3 slots): *acid arrow, detect thoughts, invisibility, mirror image*
+- 3rd (3 slots): *animate dead, counterspell, dispel magic, fireball*
+- 4th (3 slots): *blight, dimension door*
+- 5th (3 slots): *cloudkill, scrying*
+- 6th (1 slot): *disintegrate, globe of invulnerability*
+- 7th (1 slot): *finger of death, plane shift*
+- 8th (1 slot): *dominate monster, power word stun*
+- 9th (1 slot): *power word kill*
+
+**Actions**
+
+**Paralyzing Touch.** *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute.
+
+**Legendary Actions** (3/turn)
+
+**Cantrip.** The lich casts a cantrip.
+
+**Paralyzing Touch (Costs 2 Actions).** The lich uses its Paralyzing Touch.
+
+**Frightening Gaze (Costs 2 Actions).** The lich fixes its gaze on one creature within 10 ft. DC 18 Wisdom save or frightened for 1 minute.
+
+**Disrupt Life (Costs 3 Actions).** Each living creature within 20 ft. makes a DC 18 Constitution saving throw, taking 21 (6d6) necrotic damage on a failed save, half on a success.

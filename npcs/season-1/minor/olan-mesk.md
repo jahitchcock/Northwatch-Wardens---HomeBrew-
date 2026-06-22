@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/OlanMesk.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Lanky human with sawdust perpetually worked into his hair and spectacles held together with a knot of cord, wearing an apron that has more pencil marks than tool marks.
 
 **Voice:** Distracted and enthusiastic — starts sentences about one thing, pivots mid-way to something more interesting he just thought of, then forgets where he was.
@@ -28,4 +30,21 @@ Olan is the connective tissue between Palebank Village and any Echo-related dung
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

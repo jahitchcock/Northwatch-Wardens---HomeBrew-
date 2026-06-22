@@ -10,6 +10,8 @@ tags: [minor, recurring, traveler]
 
 ## Profile
 
+![portrait](/portraits/SisterAmara.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Human woman in simple brown road-worn robes, carrying a walking staff carved with seven divine symbols from different traditions, with kind eyes that hold more sorrow than her calm expression suggests.
 
 **Voice:** Quiet and unhurried — she speaks as though she has time, and she extends that gift to whoever she's listening to.
@@ -28,4 +30,27 @@ Sister Amara appears where there is suffering — a village after a hard winter,
 
 ## Stat Block Reference
 
-`[Acolyte / Priest]`
+**Acolyte** · *Medium humanoid (any race), any alignment* · CR 1/4 (50 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 9 (2d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 14 (+2) | 11 (+0) |
+
+**Skills** Medicine +4, Religion +2
+**Senses** passive Perception 12
+**Languages** any two languages (usually including Common)
+
+**Spellcasting.** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has the following cleric spells prepared:
+
+- Cantrips (at will): *light, sacred flame, thaumaturgy*
+- 1st level (3 slots): *bless, cure wounds, sanctuary*
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

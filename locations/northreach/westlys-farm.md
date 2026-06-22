@@ -17,7 +17,7 @@ tags: [wilderness, quest-site, echo-site]
 
 - **The Sheep Pens** — Sturdy wooden enclosures, recently reinforced with extra timber and additional latching. The wolves have been getting in anyway. Tracks around the perimeter show unusual coordination.
 - **The Main House** — Single-story stone and timber, functional and spare. Westly lives alone; signs of sleepless nights are evident.
-- **The Forest Edge** — The old woods begin about two hundred yards west of the farm. Locals don't go in. The wolves come out of that direction.
+- **The Forest Edge** — The old woods begin about two hundred yards west of the farm. Locals don't go in. The wolves come out of that direction. The woods lie between the farm and [Welton](loc:locations/northreach/welton.md).
 - **The Well** — Deep and reliable, and the farm's greatest practical asset. The water has tasted faintly metallic for weeks.
 - **Open Grazing Land** — Good pasture compared to closer farms, which is why Westly chose the isolation in the first place.
 

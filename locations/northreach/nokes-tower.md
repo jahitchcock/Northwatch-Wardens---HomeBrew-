@@ -29,7 +29,7 @@ tags: [echo-site, social, quest-site, wilderness]
 
 ## Season 1: Eccentric Neighbor
 
-Finethir Shinebright is well-known in the region by reputation and mostly left alone by preference. Local stories about the tower include the week it rained fish, the incident with the animated furniture, the bandit that got polymorphed into a sheep, and various unexplained lights during storms. Travelers are warned to stay on the road and not touch anything that glows. Shinebright occasionally emerges for supplies at the Waystone Inn, where he is treated with the particular wary courtesy reserved for people who are both clearly intelligent and clearly dangerous. He is, currently, conducting an experiment that involves sheep.
+Finethir Shinebright is well-known in the region by reputation and mostly left alone by preference. Local stories about the tower include the week it rained fish, the incident with the animated furniture, the bandit that got polymorphed into a sheep, and various unexplained lights during storms. Travelers are warned to stay on the road and not touch anything that glows. Shinebright occasionally emerges for supplies at the [Waystone Inn](loc:locations/northreach/waystone-inn.md), where he is treated with the particular wary courtesy reserved for people who are both clearly intelligent and clearly dangerous. He is, currently, conducting an experiment that involves sheep.
 
 ## Aeorian Echo Presence
 
@@ -59,7 +59,7 @@ The tower is one of the best-informed locations in Northreach regarding the Echo
 **What Shinebright Knows:**
 - Full understanding of the reactivation pattern and which sites are activating in which order.
 - A theory about the specific entity (or entities) driving reactivation.
-- Knowledge of major facility locations including the command center beyond Salsvault.
+- Knowledge of major facility locations including the command center beyond [Salsvault](loc:locations/northreach/salsvault.md).
 - Predictions about the next activation events and approximate timeline.
 - Fundamental mechanics of Aevorian magic, its weaknesses, and how to work against it.
 - Translation of Aevorian texts (he is one of very few people in the region who can read them).

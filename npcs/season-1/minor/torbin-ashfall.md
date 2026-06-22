@@ -10,6 +10,8 @@ tags: [minor, recurring, child]
 
 ## Profile
 
+![portrait](/portraits/TorbinAshfall.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Scruffy human boy in patched clothing, with quick hands, a defensive set to his shoulders, and eyes that are always reading the room for exits and threats.
 
 **Voice:** Guarded and clipped with strangers — short answers, deflections, no personal information until he decides you've earned it; warm and unguarded with people he trusts.
@@ -28,4 +30,21 @@ Torbin will not trust easily — he has been let down by adults before. PCs must
 
 ## Stat Block Reference
 
-`[Commoner — child, non-combatant]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

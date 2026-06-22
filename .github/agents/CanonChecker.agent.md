@@ -33,7 +33,7 @@ Flag any location name **not** in the canonical Northreach list:
 | **Waystone Inn** | Guild HQ, mission hub |
 | **Welton** + **Westly's Farm** | Wolves of Welton |
 | **Pinebrook** | Peril in Pinebrook |
-| **Palebank Village** + **Croaker Cave** | Frozen Sick |
+| **Palebank Village** + **Croaker Cave** | The Pale Sickness |
 | **Salsvault** | Aeorian ruins (Echo mystery source) |
 | **Temple of the Dragonknights** | Capstone (NW mountains) |
 | **Noke's Tower** | Wild Sheep Chase |

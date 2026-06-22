@@ -1,29 +1,55 @@
 ---
 name: Joel Andersmith
-role: Hearthwarden (allied farmhand)
-affiliation: Northwatch Wardens (unofficial ally)
-location: Farm near Waystone Inn / surrounding region
+role: Grieving Parent, Temple of Dragonknights
+affiliation: Independent
+location: Temple of the Dragonknights
 introduced: season-1
 status: ally
-portrait: https://i.imgur.com/gqfEDrT_d.png
-tags: [core, warden, healer, local]
+portrait: /portraits/JoelAndersmith.png
+tags: [core, ally, recurring]
 ---
 
-# Joel Andersmith
+## Profile
 
-**Role:** Hearthwarden — allied farmhand
-**Location:** Local farm; available when the Wardens need extra hands
+![Joel Andersmith](/portraits/JoelAndersmith.png) {width:130px,float:right,margin:"0 0 10px 15px"}
 
-## Description
+**Appearance:** A middle-aged human man with the specific exhaustion of someone who has been searching for something and is trying not to do the math on the odds; his hands are scraped from the terrain and he hasn't slept properly in days.
 
-A local farmer's son who helps the Wardens when they need extra hands. Friendly and dependable, Joel is strong from years of farm work, knows everyone in the region, and will drop everything to help a neighbour.
+**Voice:** Controlled and direct, with the occasional sentence that comes out wrong because the emotion underneath it is larger than the words he chose.
 
-## Background
+**Signature line:** "Just tell me she's alive. You can tell me the rest after. Just tell me she's alive."
 
-Joel isn't officially a warden but is trusted by the guild. He represents the community members who support the Wardens' work — people who have no special training but show up anyway when it matters.
+## Knows / Wants / Secret
 
-## Reputation / What People Say
+- **Knows:** Everything about Clementine — her habits, her resilience, what will frighten her and what won't; the circumstances of her disappearance in more detail than he has been able to tell anyone coherently yet.
+- **Wants:** His daughter back. Everything else is negotiable.
+- **Secret:** He knows more about the Temple of the Dragonknights than he has admitted — he came here specifically because he heard stories about it that he should not have known to look for. The question of how he knew is relevant to the capstone arc's larger context.
 
-- Strong from years of farm work
-- Knows everyone in the region
-- Will drop everything to help a neighbour
+## Season 1: Temple of Dragonknights — Moral Pressure
+
+Joel's function is to make the stakes personal and immediate. The party's mission is not an abstract rescue — it is a specific child and a specific parent. His grief and his control are both tools: the grief makes the stakes human, the control makes him useful as a source of information.
+
+His secret about why he knew to look at the Temple specifically is a hook for the capstone's deeper layer. Surface it through the natural conversation of a long march or a quiet moment after the party has established trust.
+
+He should not be helpless — he will fight if fighting is required — but he is not a combatant and he knows it.
+
+## Stat Block Reference
+
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (10 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

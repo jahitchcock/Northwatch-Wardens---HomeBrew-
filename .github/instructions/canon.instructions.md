@@ -18,7 +18,7 @@ Never invent new locations unless explicitly directed. All valid Northreach loca
 | Westly's Farm | West of Welton | Wolf attack site |
 | Shepherd's Crook Inn | Inside Welton | Village social hub |
 | Pinebrook | Southeast | Trading village (Peril in Pinebrook) |
-| Palebank Village | Northeast coast | Seaside settlement (Frozen Sick) |
+| Palebank Village | Northeast coast | Seaside settlement (The Pale Sickness) |
 | Croaker Cave | North of Palebank | Bandit hideout |
 | Salsvault | Far north of Palebank | Buried Aeorian ruins (source of Echo) |
 | Temple of the Dragonknights | Northwest mountains | Cult stronghold (capstone) |
@@ -40,7 +40,7 @@ Solaris · Nullwood / Vaeltharyn · Stonebound Depths / Khardûn-Tharum · Vharo
 | Steward Mara Fenwick | Quartermaster, logistics |
 | Lorewarden Elric Vael | Arcane scholar, investigation support |
 
-**Full roster:** `Season 1/Campaign Assets/DM Guild Roster.md` — check before introducing any named NPC.
+**Full roster:** `npcs/core/` — browse via web dashboard (http://localhost:5050) or read files directly. Check before introducing any named NPC.
 
 ## The Aeorian Echo
 

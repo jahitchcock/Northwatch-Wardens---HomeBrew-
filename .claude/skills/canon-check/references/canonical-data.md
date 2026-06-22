@@ -11,8 +11,8 @@ Any location name **not** on this list is a flag.
 | Westly's Farm | Wolves of Welton |
 | Shepherd's Crook Inn | Welton area |
 | Pinebrook | Peril in Pinebrook |
-| Palebank Village | Frozen Sick |
-| Croaker Cave | Frozen Sick |
+| Palebank Village | The Pale Sickness |
+| Croaker Cave | The Pale Sickness |
 | Salsvault | Buried Aeorian ruins â€” source of the Echo mystery |
 | Temple of the Dragonknights | Capstone adventure (northwest mountains) |
 | Noke's Tower | Wild Sheep Chase |

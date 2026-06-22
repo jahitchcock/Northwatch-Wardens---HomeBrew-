@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VTT Effects v3</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e2e; color: #cdd6f4; font-family: 'Segoe UI', sans-serif; padding: 24px; }
+  h2 { font-size: 18px; margin-bottom: 6px; color: #cba6f7; }
+  .sub { font-size: 12px; color: #a6adc8; margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { border-radius: 8px; overflow: hidden; border: 1px solid #313244; }
+  .card-label { background: #181825; padding: 8px 12px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #a6adc8; display: flex; align-items: center; gap: 6px; }
+  .card-label span { font-size: 14px; }
+  .map { position: relative; height: 200px; overflow: hidden; background: linear-gradient(135deg,#2a3a2a 0%,#3a4a3a 30%,#2a3530 60%,#1a2520 100%); }
+  .map::before { content:''; position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 29px,rgba(255,255,255,0.04) 30px),repeating-linear-gradient(90deg,transparent,transparent 29px,rgba(255,255,255,0.04) 30px); }
+
+  @keyframes rain-fall { 0%{transform:translateY(-100%) translateX(0)} 100%{transform:translateY(300%) translateX(-30px)} }
+  .raindrop { position:absolute;width:1px;border-radius:1px;background:rgba(180,215,255,0.5);animation:rain-fall linear infinite; }
+
+  .fog-layer { position:absolute;inset:0;pointer-events:none; }
+  .fog-patch { position:absolute;border-radius:50%;filter:blur(32px);background:rgba(200,218,232,0.52); }
+
+  .fire-layer { position:absolute;inset:0;pointer-events:none;overflow:hidden; }
+  .fire-hotspot { position:absolute;border-radius:50%;pointer-events:none; }
+  @keyframes hotspot-pulse {
+    0%  { transform:scale(1)    rotate(0deg);  opacity:0.7; }
+    25% { transform:scale(1.08) rotate(2deg);  opacity:0.9; }
+    50% { transform:scale(0.95) rotate(-2deg); opacity:0.75; }
+    75% { transform:scale(1.05) rotate(1deg);  opacity:0.85; }
+    100%{ transform:scale(1)    rotate(0deg);  opacity:0.7; }
+  }
+  @keyframes fire-ambient { 0%{opacity:0.18} 33%{opacity:0.28} 66%{opacity:0.14} 100%{opacity:0.18} }
+  .fire-ambient { position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(255,90,0,0.35) 0%,transparent 70%);animation:fire-ambient 3s ease-in-out infinite;pointer-events:none; }
+</style>
+</head>
+<body>
+  <h2>VTT Effects — Slower Movement</h2>
+  <p class="sub">Fire and fog now drift at a slower, more atmospheric pace.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="card-label"><span>🌫</span> Fog</div>
+      <div class="map" id="fog-map"><div class="fog-layer" id="fog-layer"></div></div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span>🔥</span> Fire</div>
+      <div class="map" id="fire-map"><div class="fire-layer" id="fire-layer"><div class="fire-ambient"></div></div></div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span>🌧</span> Rain</div>
+      <div class="map"><div id="rain-layer" style="position:absolute;inset:-20px"></div></div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span>❄️</span> Snow</div>
+      <div class="map"><div id="snow-layer" style="position:absolute;inset:0"></div></div>
+    </div>
+  </div>
+
+<script>
+/* FOG — slow random walk */
+(function() {
+  const layer = document.getElementById('fog-layer');
+  const map   = document.getElementById('fog-map');
+  const W = () => map.offsetWidth;
+  const H = () => map.offsetHeight;
+  const patches = [];
+
+  for (let i = 0; i < 5; i++) {
+    const el = document.createElement('div');
+    el.className = 'fog-patch';
+    const size = 120 + Math.random() * 140;
+    el.style.width   = size + 'px';
+    el.style.height  = (size * 0.55) + 'px';
+    el.style.opacity = (0.45 + Math.random() * 0.35).toFixed(2);
+    layer.appendChild(el);
+    patches.push({
+      el, size,
+      x: Math.random() * 1.4 - 0.2,
+      y: Math.random() * 1.2 - 0.1,
+      vx: (Math.random() - 0.5) * 0.00015,   // ← 4× slower than v2
+      vy: (Math.random() - 0.5) * 0.00008,
+    });
+    el.style.left = (patches[i].x * 100) + '%';
+    el.style.top  = (patches[i].y * 100) + '%';
+  }
+
+  let last = null;
+  function tick(ts) {
+    if (!last) last = ts;
+    const dt = Math.min(ts - last, 50);
+    last = ts;
+    for (const p of patches) {
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.vx += (Math.random() - 0.5) * 0.000004;   // gentle nudge
+      p.vy += (Math.random() - 0.5) * 0.000003;
+      const maxV = 0.00020;
+      p.vx = Math.max(-maxV, Math.min(maxV, p.vx));
+      p.vy = Math.max(-maxV * 0.5, Math.min(maxV * 0.5, p.vy));
+      if (p.x >  1.3) p.x = -p.size / W();
+      if (p.x < -p.size / W() - 0.1) p.x = 1.2;
+      if (p.y >  1.2) p.y = -p.size / H();
+      if (p.y < -p.size / H() - 0.1) p.y = 1.1;
+      p.el.style.left = (p.x * 100) + '%';
+      p.el.style.top  = (p.y * 100) + '%';
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+})();
+
+/* FIRE — slow roaming hotspots */
+(function() {
+  const layer = document.getElementById('fire-layer');
+  const spots = [];
+  const hues  = ['rgba(255,110,0,', 'rgba(255,50,0,', 'rgba(255,160,20,', 'rgba(220,60,0,'];
+
+  for (let i = 0; i < 4; i++) {
+    const el = document.createElement('div');
+    el.className = 'fire-hotspot';
+    const size = 60 + Math.random() * 80;
+    el.style.width      = size + 'px';
+    el.style.height     = size + 'px';
+    el.style.marginLeft = -(size / 2) + 'px';
+    el.style.marginTop  = -(size / 2) + 'px';
+    const h = hues[i % hues.length];
+    el.style.background        = `radial-gradient(circle,${h}0.75) 0%,${h}0.35) 40%,transparent 75%)`;
+    el.style.animation         = `hotspot-pulse ${1.2 + Math.random() * 1.4}s ease-in-out infinite`;
+    el.style.animationDelay    = -(Math.random() * 2) + 's';
+    layer.appendChild(el);
+    spots.push({
+      el,
+      x: 0.15 + Math.random() * 0.7,
+      y: 0.15 + Math.random() * 0.7,
+      vx: (Math.random() - 0.5) * 0.00012,   // ← 4× slower than v2
+      vy: (Math.random() - 0.5) * 0.00012,
+    });
+    el.style.left = (spots[i].x * 100) + '%';
+    el.style.top  = (spots[i].y * 100) + '%';
+  }
+
+  let last = null;
+  function tick(ts) {
+    if (!last) last = ts;
+    const dt = Math.min(ts - last, 50);
+    last = ts;
+    for (const s of spots) {
+      s.x += s.vx * dt;
+      s.y += s.vy * dt;
+      s.vx += (Math.random() - 0.5) * 0.000006;   // gentle nudge
+      s.vy += (Math.random() - 0.5) * 0.000006;
+      const maxV = 0.00018;
+      s.vx = Math.max(-maxV, Math.min(maxV, s.vx));
+      s.vy = Math.max(-maxV, Math.min(maxV, s.vy));
+      if (s.x < 0.05) { s.x = 0.05; s.vx =  Math.abs(s.vx); }
+      if (s.x > 0.95) { s.x = 0.95; s.vx = -Math.abs(s.vx); }
+      if (s.y < 0.05) { s.y = 0.05; s.vy =  Math.abs(s.vy); }
+      if (s.y > 0.95) { s.y = 0.95; s.vy = -Math.abs(s.vy); }
+      s.el.style.left = (s.x * 100) + '%';
+      s.el.style.top  = (s.y * 100) + '%';
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+})();
+
+/* RAIN */
+(function() {
+  const layer = document.getElementById('rain-layer');
+  for (let i = 0; i < 60; i++) {
+    const d = document.createElement('div');
+    d.className = 'raindrop';
+    d.style.cssText = `left:${Math.random()*120}%;top:${Math.random()*100}%;height:${8+Math.random()*12}px;opacity:${0.3+Math.random()*0.5};animation:rain-fall ${0.4+Math.random()*0.4}s linear ${-(Math.random()*1.2)}s infinite`;
+    layer.appendChild(d);
+  }
+})();
+
+/* SNOW */
+(function() {
+  const layer = document.getElementById('snow-layer');
+  for (let i = 0; i < 40; i++) {
+    const s = document.createElement('div');
+    const sz = 2 + Math.random() * 3;
+    s.style.cssText = `position:absolute;border-radius:50%;background:rgba(220,240,255,0.9);width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${-sz}px;opacity:${0.5+Math.random()*0.5};animation:rain-fall ${2+Math.random()*3}s ease-in ${-(Math.random()*5)}s infinite`;
+    layer.appendChild(s);
+  }
+})();
+</script>
+</body>
+</html>

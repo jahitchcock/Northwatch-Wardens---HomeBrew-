@@ -27,17 +27,20 @@ All workflows use the iterative **Observe → Plan → Act → Reflect** loop de
 Just describe what you need:
 - "I need to prep for tonight's session — we're running Wolves of Welton"
 - "Create a corrupt town guard captain NPC for Pinebrook"
-- "Check the Frozen Sick adventure for canon issues"
+- "Check the Pale Sickness adventure for canon issues"
 - "Help me design a new side quest near Waystone Inn"
 
 ## Campaign Quick Reference
 
+**Web Dashboard:** `cd web && node server.js` → http://localhost:5050 — file browser, NPC viewer, party sheets, session tracker, 5etools integration.
+
 **Guild NPCs:** Marshal Brenna Thorne (field), Steward Mara Fenwick (quartermaster), Lorewarden Elric Vael (arcane)
 
 **Key files:**
-- `Season 1/DM_Resources/DM Guild Roster.md` — NPC details + secrets
-- `build/dms-guide-toc.json` — DM guide structure
-- `Season 1/Adventures/` — All adventure modules
+- `npcs/core/` — Canonical NPC files (recurring across seasons)
+- `npcs/season-1/` — Adventure-specific NPCs
+- `player-characters/` — Player character sheets
+- `adventures/season-1/` — Adventure modules
 - `.github/templates/adventure_template.md` — Adventure scaffold
 
 **Canonical locations:** Waystone Inn, Welton, Westly's Farm, Pinebrook, Palebank Village, Croaker Cave, Salsvault, Temple of the Dragonknights, Noke's Tower

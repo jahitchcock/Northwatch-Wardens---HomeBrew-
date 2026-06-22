@@ -1,0 +1,78 @@
+<h2>VTT Effects — Proposed Design</h2>
+<p class="subtitle">Here's what the full feature looks like. Check the mockups and let me know if anything needs changing.</p>
+
+<div class="split">
+
+  <div class="mockup">
+    <div class="mockup-header">DM Panel — Tools Dropdown (new VTT section)</div>
+    <div class="mockup-body" style="background:#181825;padding:12px;font-family:'Segoe UI',sans-serif;font-size:12px;color:#cdd6f4">
+
+      <div style="color:#a6adc8;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px">World Tables</div>
+      <div style="color:#585b70;font-style:italic;font-size:11px;margin-bottom:10px">Loading…</div>
+
+      <div style="color:#a6adc8;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px">SRD Tools</div>
+      <div style="display:flex;gap:6px;margin-bottom:10px">
+        <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer">⚔ Random Encounter</button>
+        <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 8px;border-radius:4px;font-size:11px;cursor:pointer">💰 Treasure</button>
+      </div>
+
+      <div style="border-top:1px solid #313244;margin:8px 0"></div>
+
+      <!-- NEW VTT SECTION -->
+      <div style="color:#cba6f7;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px">🗺️ VTT Screen</div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px">
+        <button style="background:#313244;border:1px solid #6ab4ff;color:#6ab4ff;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer">🌧 Rain</button>
+        <button style="background:#1e1e2e;border:1px solid #45475a;color:#6c7086;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer">🌫 Fog</button>
+        <button style="background:#1e1e2e;border:1px solid #45475a;color:#6c7086;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer">❄️ Snow</button>
+        <button style="background:#1e1e2e;border:1px solid #45475a;color:#6c7086;padding:4px 10px;border-radius:4px;font-size:11px;cursor:pointer">🔥 Fire</button>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <span style="color:#a6adc8;font-size:10px;white-space:nowrap">🌑 Darkness</span>
+        <input type="range" min="0" max="100" value="40" style="flex:1;accent-color:#cba6f7">
+        <span style="color:#cdd6f4;font-size:10px;width:28px">40%</span>
+      </div>
+
+      <div style="display:flex;gap:5px">
+        <button style="background:#313244;border:1px solid #45475a;color:#a6adc8;padding:3px 8px;border-radius:4px;font-size:10px;cursor:pointer">✕ Clear Effects</button>
+        <button style="background:#313244;border:1px solid #45475a;color:#cba6f7;padding:3px 8px;border-radius:4px;font-size:10px;cursor:pointer">↗ Open VTT</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">VTT Screen — effects layered on map</div>
+    <div class="mockup-body" style="background:#000;height:220px;position:relative;overflow:hidden;border-radius:4px">
+
+      <!-- Fake map -->
+      <div style="position:absolute;inset:0;background:linear-gradient(135deg,#2a3a2a 0%,#3a4a3a 30%,#2a3530 60%,#1a2520 100%);opacity:0.85"></div>
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 19px,rgba(255,255,255,0.04) 20px),repeating-linear-gradient(90deg,transparent,transparent 19px,rgba(255,255,255,0.04) 20px)"></div>
+
+      <!-- Rain overlay -->
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(170deg,transparent 0px,transparent 3px,rgba(180,210,255,0.12) 3px,rgba(180,210,255,0.12) 4px,transparent 4px,transparent 12px);pointer-events:none"></div>
+
+      <!-- Darkness vignette -->
+      <div style="position:absolute;inset:0;background:rgba(0,0,0,0.4);pointer-events:none"></div>
+
+      <!-- Labels -->
+      <div style="position:absolute;top:8px;left:8px;font-size:9px;color:rgba(255,255,255,0.5);letter-spacing:1px">MAP LAYER</div>
+      <div style="position:absolute;top:8px;right:8px;font-size:9px;color:#6ab4ff;letter-spacing:1px">🌧 RAIN ON</div>
+      <div style="position:absolute;bottom:8px;right:8px;font-size:9px;color:#cba6f7;letter-spacing:1px">🌑 40% DARK</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="section" style="margin-top:20px">
+  <h3>How it works</h3>
+  <ul style="margin-top:8px;line-height:1.8;color:#cdd6f4;font-size:13px">
+    <li><strong>Effect buttons toggle</strong> — active effects are highlighted, inactive are dimmed. Multiple can be on simultaneously (e.g. rain + darkness for a stormy night).</li>
+    <li><strong>Darkness slider</strong> — independent of the effect buttons, ranges 0–100%, updates live on the VTT screen.</li>
+    <li><strong>All changes push instantly</strong> via the existing WebSocket — no page refresh on the VTT screen.</li>
+    <li><strong>Effects are CSS animations</strong> on the VTT screen — rain (diagonal streaks), fog (drifting layers), snow (falling particles), fire (warm pulsing glow at bottom). Lightweight, no canvas, no libraries.</li>
+    <li><strong>"Clear Effects"</strong> resets all toggles and darkness to zero in one click.</li>
+    <li><strong>"Open VTT"</strong> opens <code>/vtt</code> in a new tab (convenience shortcut).</li>
+  </ul>
+</div>

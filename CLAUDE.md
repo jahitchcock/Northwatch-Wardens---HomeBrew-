@@ -2,7 +2,25 @@
 
 Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northreach (world: Aevoria). This repo generates two PDF-ready Homebrewery guides: **The Adventurer's Guide to Aevoria** (player-facing, printed) and **A DM's Guide to Aevoria** (adventures + secrets).
 
-## Build
+## DM Panel (Primary Interface)
+
+The web dashboard is the primary runtime tool for campaign management. It runs persistently via **pm2** (auto-starts on boot, auto-restarts on crash or file changes).
+
+```bash
+pm2 status dm-panel         # Check if running
+pm2 restart dm-panel        # Redeploy after changes (or: cd web && npm run deploy)
+pm2 logs dm-panel           # Tail logs
+pm2 stop dm-panel           # Stop
+cd web && npm run up        # Start if not running
+```
+
+Config: `web/ecosystem.config.js`. Logs: `web/logs/`. File watcher auto-restarts on changes to `server.js`, `lib/`, `public/`, `views/`.
+
+Features: file browser (all campaign markdown), NPC viewer, party character sheets, session tracker, seasonal calendar, random encounter/treasure generators, 5etools integration (at port 2014 on same host), WebSocket terminal.
+
+NPC files: `npcs/core/` (canonical, recurring), `npcs/season-1/` (adventure-specific). Portrait images served from `web/public/portraits/`.
+
+## Build (Print Pipeline)
 
 ```bash
 ./build.sh                  # Both guides
@@ -32,6 +50,24 @@ Player-facing files (in `build/players-guide-toc.json`) will be **physically pri
 
 DM-facing files can use repo references freely.
 
+## Adventure File Structure (Standard)
+
+Every adventure lives in its own folder under `adventures/season-N/`. Never create a flat `.md` file for an adventure.
+
+```text
+adventures/season-N/
+  adventure-name/
+    index.md          ← main table-reader doc (required)
+    01-scene-one.md   ← optional scene splits for long adventures
+    02-scene-two.md
+    handouts/
+      xx-1-handout.md
+      MANIFEST.md
+  general-handouts/   ← season-level handouts not tied to one adventure
+```
+
+When scaffolding a new adventure use the `/new-adventure` skill — it follows this layout automatically.
+
 ## Canonical Geography
 
 Never invent locations. All Northreach locations:
@@ -41,7 +77,7 @@ Never invent locations. All Northreach locations:
 | **Waystone Inn** | Guild HQ, mission hub |
 | **Welton** + **Westly's Farm** | Wolves of Welton |
 | **Pinebrook** | Peril in Pinebrook |
-| **Palebank Village** + **Croaker Cave** | Frozen Sick |
+| **Palebank Village** + **Croaker Cave** | The Pale Sickness |
 | **Salsvault** | Aeorian ruins (Echo mystery source) |
 | **Temple of the Dragonknights** | Capstone (NW mountains) |
 | **Noke's Tower** | Wild Sheep Chase |
@@ -52,7 +88,7 @@ Never invent locations. All Northreach locations:
 
 **XML (Game Master 5e):** Nest `campaign > adventure > encounter > combatant > monster`. Unique UIDs required. CDATA for long text. For XML work → DMHelper agent (`.github/agents/DMHelper.agent.md`).
 
-**Content Design:** Adventures are order-independent, support 2–5 players, include subtle Aeorian Echo clues. Guild NPCs: **Marshal Brenna Thorne** (field), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane). Full roster: `Season 1/DM_Resources/DM Guild Roster.md`. Tone: grounded low-magic frontier.
+**Content Design:** Adventures are order-independent, support 2–5 players, include subtle Aeorian Echo clues. Guild NPCs: **Marshal Brenna Thorne** (field), **Steward Mara Fenwick** (quartermaster), **Lorewarden Elric Vael** (arcane). Full roster: `npcs/core/` (browse via web dashboard). Tone: grounded low-magic frontier.
 
 ## Commands
 
@@ -63,6 +99,8 @@ Never invent locations. All Northreach locations:
 | `/homebrewery-sync` | Sync Homebrewery UI edits back to repo source files |
 | `/dm-assistant [intent]` | Route to campaign skill by intent |
 | `/code-review` | Multi-agent PR review (5 parallel reviewers) |
+
+To start the web dashboard: `cd web && node server.js` → open `http://localhost:5050`
 
 ## Skills
 
@@ -127,5 +165,20 @@ Never invent locations. All Northreach locations:
 | `.github/agents/DMHelper.agent.md` | DMHelper agent: XML, stat blocks, D&D API |
 | `build/players-guide-toc.json` | Player's guide chapter structure |
 | `build/dms-guide-toc.json` | DM's guide chapter structure |
-| `Season 1/DM_Resources/DM Guild Roster.md` | NPC details + secrets |
-| `World Building/DMEyesOnly/` | DM-only secrets (never in player content) |
+| `npcs/core/` | Canonical NPC files (browse via web dashboard) |
+| `npcs/season-1/` | Adventure-specific NPCs |
+| `web/public/portraits/` | NPC portrait images |
+| `player-characters/` | Player character sheets |
+
+## Physical & Digital Map Resources
+
+Available for scanning, referencing, or borrowing tiles for adventures:
+
+| Resource | Location | Notes |
+| -------- | --------- | ----- |
+| Digital dungeon tiles | `C:\Users\joshu\OneDrive\Documents\dnd\08 - DungeonTiles` | Ready to use in VTT or print |
+| Digital maps library | `C:\Users\joshu\OneDrive\Documents\dnd\07 - Maps` | Pre-made maps for reference |
+| **Tactical Maps Reincarnated** | Physical (owned) | Double-sided poster maps, mix-and-match for encounters |
+| **Gloomhaven** | Physical (owned) | Modular dungeon tiles — borrow for cave/dungeon layouts |
+
+When designing encounter spaces: check these resources before generating new maps. Gloomhaven tiles work especially well for cave systems (Croaker Cave) and modular dungeon corridors (Salsvault).

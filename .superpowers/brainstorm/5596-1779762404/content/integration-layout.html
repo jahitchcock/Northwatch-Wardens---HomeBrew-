@@ -1,0 +1,38 @@
+<h2>Where should the PDF library live?</h2>
+<p class="subtitle">How the rulebook viewer integrates into the existing dashboard at localhost:5050</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Dedicated top-level tab</h3>
+      <p>A "Rulebooks" tab in the main nav alongside NPCs, Characters, etc. Full-screen PDF experience — library sidebar on the left, reader on the right. Feels like its own app within the dashboard.</p>
+      <div style="margin-top:10px; padding:8px; background:rgba(255,255,255,0.05); border-radius:4px; font-size:12px; font-family:monospace; color:#aaa;">
+        [Files] [NPCs] [Characters] [<span style="color:#c5a56a">Rulebooks</span>] [Calendar] [Tools ▾]
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Tools dropdown entry → opens modal/overlay</h3>
+      <p>PDF viewer launches as a full-screen modal from the existing "Tools" dropdown. Keeps the nav clean. Easy to access mid-session without leaving your current file.</p>
+      <div style="margin-top:10px; padding:8px; background:rgba(255,255,255,0.05); border-radius:4px; font-size:12px; font-family:monospace; color:#aaa;">
+        [Files] [NPCs] [Characters] [Calendar] [Tools ▾]<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ <span style="color:#c5a56a">📖 Rulebooks</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Separate browser tab / standalone route</h3>
+      <p>The server adds a <code>/rulebooks</code> route that opens in a new tab. Fully independent of the main dashboard — you can have both open side-by-side. No nav clutter, maximum screen real estate for the reader.</p>
+      <div style="margin-top:10px; padding:8px; background:rgba(255,255,255,0.05); border-radius:4px; font-size:12px; font-family:monospace; color:#aaa;">
+        localhost:5050 &nbsp; | &nbsp; <span style="color:#c5a56a">localhost:5050/rulebooks</span> ← new tab
+      </div>
+    </div>
+  </div>
+</div>

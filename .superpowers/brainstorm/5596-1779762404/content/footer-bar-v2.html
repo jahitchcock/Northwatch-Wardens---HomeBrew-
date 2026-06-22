@@ -1,0 +1,86 @@
+<h2>Section 2: Footer Bar UI (with loop toggle)</h2>
+<p class="subtitle">Loop toggle added next to play/stop</p>
+
+<div class="mockup">
+  <div class="mockup-header">Playing — loop ON</div>
+  <div class="mockup-body" style="padding:0;background:#0d0d0d;">
+    <div style="background:#1a1a1a;padding:20px 24px;font-size:12px;color:#555;min-height:50px;display:flex;align-items:center;justify-content:center;">
+      …DM Panel content…
+    </div>
+    <div style="
+      background:#0d0d0d;
+      border-top:1px solid #2a2a2a;
+      padding:7px 16px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-family:'Segoe UI',sans-serif;
+      font-size:12px;
+    ">
+      <span style="color:#cba6f7;font-size:14px">♪</span>
+      <span style="color:#f5f0e8;min-width:130px">Tavern — Waystone Inn</span>
+
+      <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 12px;border-radius:3px;cursor:pointer;font-size:11px">■ Stop</button>
+
+      <!-- Loop toggle ON -->
+      <button title="Loop: on" style="background:#2a1a3a;border:1px solid #6c3d8c;color:#cba6f7;border-radius:3px;padding:4px 8px;font-size:13px;cursor:pointer;line-height:1">⟳</button>
+
+      <div style="display:flex;gap:5px;margin-left:4px">
+        <button style="background:#2a1a3a;border:1px solid #6c3d8c;color:#cba6f7;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Tavern</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Forest</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Dungeon</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Combat</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Cave</button>
+        <button style="background:none;border:1px solid #333;color:#555;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">+ More…</button>
+      </div>
+
+      <div style="margin-left:auto;display:flex;align-items:center;gap:8px;color:#888;font-size:11px">
+        <span>🔊</span>
+        <input type="range" min="0" max="100" value="70" style="width:70px;accent-color:#cba6f7">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top:20px">
+  <div class="mockup-header">Playing — loop OFF (plays once then stops)</div>
+  <div class="mockup-body" style="padding:0;background:#0d0d0d;">
+    <div style="background:#1a1a1a;padding:20px 24px;font-size:12px;color:#555;min-height:50px;display:flex;align-items:center;justify-content:center;">
+      …DM Panel content…
+    </div>
+    <div style="
+      background:#0d0d0d;
+      border-top:1px solid #2a2a2a;
+      padding:7px 16px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-family:'Segoe UI',sans-serif;
+      font-size:12px;
+    ">
+      <span style="color:#cba6f7;font-size:14px">♪</span>
+      <span style="color:#f5f0e8;min-width:130px">Tavern — Waystone Inn</span>
+
+      <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 12px;border-radius:3px;cursor:pointer;font-size:11px">■ Stop</button>
+
+      <!-- Loop toggle OFF -->
+      <button title="Loop: off" style="background:none;border:1px solid #333;color:#444;border-radius:3px;padding:4px 8px;font-size:13px;cursor:pointer;line-height:1">⟳</button>
+
+      <div style="display:flex;gap:5px;margin-left:4px">
+        <button style="background:#2a1a3a;border:1px solid #6c3d8c;color:#cba6f7;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Tavern</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Forest</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Dungeon</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Combat</button>
+        <button style="background:none;border:1px solid #333;color:#555;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Cave</button>
+        <button style="background:none;border:1px solid #333;color:#555;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">+ More…</button>
+      </div>
+
+      <div style="margin-left:auto;display:flex;align-items:center;gap:8px;color:#888;font-size:11px">
+        <span>🔊</span>
+        <input type="range" min="0" max="100" value="70" style="width:70px;accent-color:#cba6f7">
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:16px">⟳ highlighted = looping. Dimmed = play once. Loop defaults to ON (ambient sounds almost always loop).</p>

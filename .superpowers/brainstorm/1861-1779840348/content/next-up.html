@@ -1,0 +1,116 @@
+<h2>What Should We Build Next?</h2>
+<p class="subtitle">Grouped by effort and session-table impact. Click to vote — multi-select on.</p>
+
+<h3 style="color:#a6e3a1;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-top:8px">Quick Wins — small effort, immediate table value</h3>
+<div class="options" data-multiselect style="margin-bottom:20px">
+
+  <div class="option" data-choice="npcpopup" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>NPC Stat Block Popup in Combat</h3>
+      <p>Click a name in the tracker → full stat block popup. Hooks already exist: <code>/api/npcs</code>, <code>bestiaryCache</code>, <code>renderCombatList</code>. Mostly DOM work.</p>
+      <p style="color:#a6e3a1;font-size:0.75rem;margin-top:4px">~1–2 hrs · High impact mid-combat</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="conditionenhancements" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Combat: Buff/Debuff Duration + Condition Hover Text</h3>
+      <p>Add duration field to buffs, auto-decrement on Next Turn. Condition hover shows rules text. <code>CONDITIONS</code> array and <code>renderCombatList</code> already in place.</p>
+      <p style="color:#a6e3a1;font-size:0.75rem;margin-top:4px">~2–3 hrs · Removes mid-combat rule lookups</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="spelllookup" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Spell & Item Quick Lookup</h3>
+      <p>Search bar → 5etools spell/item popup. <code>load5etoolsBestiary</code> pattern already proven. Just needs spell/item endpoints + modal UI.</p>
+      <p style="color:#a6e3a1;font-size:0.75rem;margin-top:4px">~2–3 hrs · Kills the "hold on let me look that up" moment</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="encountertemplates" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Encounter Templates</h3>
+      <p>Save/load named encounter setups. <code>/api/encounters</code> and <code>renderEncounterList</code> already exist — templates are just encounters with a "template" flag.</p>
+      <p style="color:#a6e3a1;font-size:0.75rem;margin-top:4px">~1–2 hrs · Speeds up recurring enemy groups</p>
+    </div>
+  </div>
+
+</div>
+
+<h3 style="color:#89b4fa;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em">Medium Effort — meaningful features, moderate build time</h3>
+<div class="options" data-multiselect style="margin-bottom:20px">
+
+  <div class="option" data-choice="resttracker" onclick="toggleSelect(this)">
+    <div class="letter">E</div>
+    <div class="content">
+      <h3>Inspiration & Rest Tracker</h3>
+      <p>Per-player inspiration toggle + short/long rest buttons that reset HP/slots. Fits naturally as a new tracker section alongside existing Party/Contracts tabs.</p>
+      <p style="color:#89b4fa;font-size:0.75rem;margin-top:4px">~3–4 hrs · Good between-combat utility</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="weatherenv" onclick="toggleSelect(this)">
+    <div class="letter">F</div>
+    <div class="content">
+      <h3>Weather & Environment Widget</h3>
+      <p>Persistent widget in header — cycle weather/time presets. Can auto-suggest ambient sound scenes (blizzard → winter sound). Northreach-flavored options.</p>
+      <p style="color:#89b4fa;font-size:0.75rem;margin-top:4px">~2–3 hrs · Adds atmosphere, hooks into SoundPlayer</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="quickroll" onclick="toggleSelect(this)">
+    <div class="letter">G</div>
+    <div class="content">
+      <h3>Quick-Roll Hotbar</h3>
+      <p>Configurable row of skill check buttons — rolls broadcast to WebSocket terminal. WebSocket infra already live in <code>server.js</code>.</p>
+      <p style="color:#89b4fa;font-size:0.75rem;margin-top:4px">~3–4 hrs · Speeds up passive checks, group rolls</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="lightbox" onclick="toggleSelect(this)">
+    <div class="letter">H</div>
+    <div class="content">
+      <h3>Image Lightbox for Maps</h3>
+      <p>Click map image → full-screen zoom/pan overlay. <code>openPath</code> and image handling already in <code>app.js</code>. Pure client-side, no server changes needed.</p>
+      <p style="color:#89b4fa;font-size:0.75rem;margin-top:4px">~2–3 hrs · Essential for second-monitor battle maps</p>
+    </div>
+  </div>
+
+</div>
+
+<h3 style="color:#cba6f7;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em">Larger Projects — high value, more design + build time</h3>
+<div class="options" data-multiselect>
+
+  <div class="option" data-choice="playerscreen" onclick="toggleSelect(this)">
+    <div class="letter">I</div>
+    <div class="content">
+      <h3>Player-Facing Screen</h3>
+      <p>Separate URL showing initiative order (no stats), current map, status messages. Needs WebSocket push from server + new Express route + new HTML page.</p>
+      <p style="color:#cba6f7;font-size:0.75rem;margin-top:4px">~1 day · Changes how players engage at the table</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="downtime" onclick="toggleSelect(this)">
+    <div class="letter">J</div>
+    <div class="content">
+      <h3>Downtime Tracker</h3>
+      <p>In-game day counter, per-player activity log, roll results, timeline view. New tracker section + timeline data model.</p>
+      <p style="color:#cba6f7;font-size:0.75rem;margin-top:4px">~4–6 hrs · Between-session campaign management</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="logingate" onclick="toggleSelect(this)">
+    <div class="letter">K</div>
+    <div class="content">
+      <h3>DM Login Gate</h3>
+      <p>Password-protect DM routes, leave player routes open. Express middleware + session cookie. Required before player-facing screen goes live on a real network.</p>
+      <p style="color:#cba6f7;font-size:0.75rem;margin-top:4px">~3–4 hrs · Prerequisite for network-accessible panel</p>
+    </div>
+  </div>
+
+</div>

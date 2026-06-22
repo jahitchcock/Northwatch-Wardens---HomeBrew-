@@ -970,7 +970,14 @@ app.get('/preview', (req, res) => {
         rendered = webPreviewHtml(title, html);
       } else {
         const content = fs.readFileSync(filePath, 'utf8');
-        rendered = previewHtml(renderPages(content, season));
+        let pages = renderPages(content, season);
+        // Rewrite relative .md links so they navigate inside the preview iframe
+        const dirRel = toRel(path.dirname(filePath));
+        pages = pages.replace(
+          /<a href="([^"#/][^"]*\.md)">/g,
+          (_, href) => `<a href="/preview?path=${encodeURIComponent(dirRel + '/' + href)}">`
+        );
+        rendered = previewHtml(pages);
       }
       setPreviewCache(filePath, season, rendered);
       res.send(rendered);
@@ -3401,3 +3408,16 @@ server.listen(PORT, HOST, () => {
     fetchCdnCached(url).catch(e => console.warn(`[cdn-warmup] ${url}: ${e.message}`));
   }
 });
+
+// ─── Graceful shutdown (pm2 sends SIGINT on restart/stop) ────────────────────
+function shutdown(signal) {
+  console.log(`\n[${signal}] Shutting down gracefully…`);
+  server.close(() => {
+    console.log('HTTP server closed.');
+    process.exit(0);
+  });
+  // Force exit after 5s if connections linger
+  setTimeout(() => process.exit(1), 5000);
+}
+process.on('SIGINT',  () => shutdown('SIGINT'));
+process.on('SIGTERM', () => shutdown('SIGTERM'));

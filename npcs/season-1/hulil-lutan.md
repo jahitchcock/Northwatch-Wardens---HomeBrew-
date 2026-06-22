@@ -10,6 +10,8 @@ tags: [villain, hostile, recurring]
 
 ## Profile
 
+![portrait](/portraits/HulilLutan.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A lean tiefling woman with the unhurried movements of someone who has thought through all available exits before entering any room.
 
 **Voice:** Quiet and controlled — she speaks slowly because she wants you to hear exactly what she is saying, and because she has decided there is no urgency in this particular exchange.
@@ -39,4 +41,34 @@ Hulil's doubts about the patron's endgame crystallize into action. She may surfa
 
 ## Stat Block Reference
 
-`[Use Assassin stat block, MM p.343, or Spy with added spell-like abilities if tiefling traits are relevant]`
+**Assassin** · *Medium humanoid (any race), any non-good alignment* · CR 8 (3,900 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 15 (studded leather armor) |
+| **Hit Points** | 78 (12d8 + 24) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (+0) | 16 (+3) | 14 (+2) | 13 (+1) | 11 (+0) | 10 (+0) |
+
+**Saving Throws** Dex +6, Int +4
+**Skills** Acrobatics +6, Deception +3, Perception +3, Stealth +9
+**Damage Resistances** poison
+**Senses** passive Perception 13
+**Languages** Thieves' cant plus any two languages
+
+**Assassinate.** During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit against a surprised creature is a critical hit.
+
+**Evasion.** If the assassin makes a Dexterity saving throw for half damage, it takes no damage on a success and half on a failure.
+
+**Sneak Attack (1/Turn).** The assassin deals an extra 13 (4d6) damage when it hits with a weapon attack and has advantage, or when the target is adjacent to an ally of the assassin.
+
+**Actions**
+
+**Multiattack.** The assassin makes two shortsword attacks.
+
+**Shortsword.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus DC 15 Con save or 24 (7d6) poison damage.
+
+**Light Crossbow.** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage plus DC 15 Con save or 24 (7d6) poison damage.

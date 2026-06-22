@@ -11,6 +11,8 @@ tags: [ally, neutral, recurring]
 
 ## Profile
 
+![Captain Emmajeen Kole](https://i.imgur.com/lwDmJHh.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A compact half-elf woman in regulation armor that shows heavy use; her movements are economical and she never stands with her back to a door.
 
 **Voice:** Direct and clipped — she says exactly what she means and expects the same in return.
@@ -33,6 +35,34 @@ She is a good ongoing contact for the region — a guard captain who owes the pa
 
 ## Stat Block Reference
 
-`[Use Knight stat block, MM p.347]`
+**Knight** · *Medium humanoid (any race), any alignment* · CR 3 (700 XP)
 
-![Captain Emmajeen Kole](https://i.imgur.com/lwDmJHh.png)
+| | |
+|---|---|
+| **Armor Class** | 18 (plate armor) |
+| **Hit Points** | 52 (8d8 + 16) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (+3) | 11 (+0) | 14 (+2) | 11 (+0) | 11 (+0) | 15 (+2) |
+
+**Saving Throws** Con +4, Wis +2
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Brave.** The knight has advantage on saving throws against being frightened.
+
+**Actions**
+
+**Multiattack.** The knight makes two melee attacks.
+
+**Greatsword.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage.
+
+**Heavy Crossbow.** *Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage.
+
+**Leadership (Recharges after a Short or Long Rest).** For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature within 30 ft. that it can see makes an attack roll or saving throw. That creature can add a d4 to its roll if it can hear and understand the knight.
+
+**Reactions**
+
+**Parry.** The knight adds 2 to its AC against one melee attack that would hit it. The knight must see the attacker and be wielding a melee weapon.

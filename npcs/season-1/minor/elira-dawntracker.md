@@ -10,6 +10,8 @@ tags: [minor, recurring, guide]
 
 ## Profile
 
+![portrait](/portraits/EliraDawntracker.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Wood elf with long auburn hair threaded with wooden beads, smelling of pine and fresh mint, always with a worn canvas gathering bag slung over one shoulder.
 
 **Voice:** Slow, deliberate, and reverent — she speaks about plants the way a scholar speaks about ancient texts, with patience for those willing to listen.
@@ -28,4 +30,28 @@ Elira sells standard potions and trail remedies near the Inn or at the edge of t
 
 ## Stat Block Reference
 
-`[Druid / Scout]`
+**Druid** · *Medium humanoid (any race), any alignment* · CR 2 (450 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 11 (16 with *barkskin*) |
+| **Hit Points** | 27 (5d8 + 5) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 15 (+2) | 11 (+0) |
+
+**Skills** Medicine +4, Nature +3, Perception +4, Survival +4
+**Senses** passive Perception 14
+**Languages** Druidic plus any two languages
+
+**Spellcasting.** The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
+
+- Cantrips (at will): *druidcraft, produce flame, shillelagh*
+- 1st level (4 slots): *entangle, healing word, thunderwave*
+- 2nd level (3 slots): *animal messenger, heat metal*
+
+**Actions**
+
+**Quarterstaff.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with both hands.

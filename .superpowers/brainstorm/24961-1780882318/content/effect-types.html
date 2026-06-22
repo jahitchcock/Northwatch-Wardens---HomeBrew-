@@ -1,0 +1,57 @@
+<h2>What kind of effects do you want on the VTT?</h2>
+<p class="subtitle">These would layer on top of the battle map. Pick all that apply.</p>
+
+<div class="options" data-multiselect>
+
+  <div class="option" data-choice="atmosphere" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Atmospheric Overlays</h3>
+      <p>Animated CSS effects covering the full map — rain, snow, fog drifting across, fire glow. Toggle on/off from the DM panel. Great for setting the scene without hiding anything.</p>
+      <div style="margin-top:10px;padding:10px;border-radius:6px;background:#111;position:relative;overflow:hidden;height:60px">
+        <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(100,180,255,0.18) 0%,transparent 100%);animation:none"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#6ab4ff;font-size:11px;letter-spacing:1px">🌧 RAIN &nbsp;·&nbsp; 🌫 FOG &nbsp;·&nbsp; 🔥 FIRE &nbsp;·&nbsp; ❄️ SNOW</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="darkness" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Darkness / Dim</h3>
+      <p>Overlay a dark vignette or full dimming over the map. Useful for night encounters, underground, or when you want to re-reveal a map dramatically. Adjustable opacity slider.</p>
+      <div style="margin-top:10px;padding:10px;border-radius:6px;background:#111;position:relative;overflow:hidden;height:60px">
+        <div style="position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(0,0,0,0) 20%,rgba(0,0,0,0.85) 100%)"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:11px;letter-spacing:1px">VIGNETTE / BLACKOUT</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="fog-of-war" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Fog of War</h3>
+      <p>DM draws reveal zones on the map — unexplored areas stay hidden under fog. Revealed areas show the map beneath. Drawn from the DM panel using click/drag.</p>
+      <div style="margin-top:10px;padding:10px;border-radius:6px;background:#111;position:relative;overflow:hidden;height:60px">
+        <div style="position:absolute;left:0;top:0;width:55%;height:100%;background:rgba(40,40,60,0.9)"></div>
+        <div style="position:absolute;right:0;top:0;width:45%;height:100%;background:rgba(60,80,120,0.3)"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:11px;letter-spacing:1px">HIDDEN &nbsp;│&nbsp; REVEALED</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="spotlight" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Spotlight / Torch Zones</h3>
+      <p>Place light circles on the map — torch radius, campfire glow, magical light. Everything outside the lights is darkened. DM places/moves lights from the panel.</p>
+      <div style="margin-top:10px;padding:10px;border-radius:6px;background:#111;position:relative;overflow:hidden;height:60px">
+        <div style="position:absolute;inset:0;background:#0a0a0a"></div>
+        <div style="position:absolute;left:30%;top:50%;transform:translate(-50%,-50%);width:50px;height:50px;border-radius:50%;background:radial-gradient(circle,rgba(255,180,60,0.7) 0%,transparent 100%)"></div>
+        <div style="position:absolute;left:70%;top:50%;transform:translate(-50%,-50%);width:36px;height:36px;border-radius:50%;background:radial-gradient(circle,rgba(100,160,255,0.6) 0%,transparent 100%)"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:11px;letter-spacing:1px">TORCH &nbsp;·&nbsp; MAGIC LIGHT</div>
+      </div>
+    </div>
+  </div>
+
+</div>

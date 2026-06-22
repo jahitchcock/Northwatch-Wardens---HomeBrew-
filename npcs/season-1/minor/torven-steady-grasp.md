@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/TorvenSteadyGrasp.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Lean and weathered human with a burn scar across his right shoulder, moving with deliberate, unhurried calm around the animals in his care.
 
 **Voice:** Quiet and measured — speaks rarely, chooses words carefully, more at ease talking to a horse than a person.
@@ -28,4 +30,22 @@ Torven is rarely in the main room. PCs who seek him out in the stables find a ma
 
 ## Stat Block Reference
 
-`[Guard / Veteran if combat arises]`
+**Guard** · *Medium humanoid (any race), any alignment* · CR 1/8 (25 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 16 (chain shirt, shield) |
+| **Hit Points** | 11 (2d8 + 2) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 13 (+1) | 12 (+1) | 12 (+1) | 10 (+0) | 11 (+0) | 10 (+0) |
+
+**Skills** Perception +2
+**Senses** passive Perception 12
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Spear.** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.

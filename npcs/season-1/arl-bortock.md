@@ -11,6 +11,8 @@ tags: [neutral]
 
 ## Profile
 
+![Arl Bortock](https://i.imgur.com/frpcU8i.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A heavyset older man with the particular authority of someone who has lived in one place long enough that his opinions about it carry weight without him needing to justify them.
 
 **Voice:** Deliberate, with long beats before conclusions — he has opinions and he wants you to feel the full weight of how long he has held them.
@@ -31,6 +33,21 @@ His grandfather's legend is a DM tool — deploy it when the party needs a folkl
 
 ## Stat Block Reference
 
-`[Commoner stat block; no combat role]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (10 XP)
 
-![Arl Bortock](https://i.imgur.com/frpcU8i.jpg)
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

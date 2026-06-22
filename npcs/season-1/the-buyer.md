@@ -10,6 +10,8 @@ tags: [merchant, neutral, recurring, villain]
 
 ## Profile
 
+![portrait](/portraits/TheBuyer.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Always seen at a distance or in low light — a deliberately maintained presentation; the clearest observation the party is likely to get is a voice and a silhouette and the sense of someone who has made a specific choice about how much to be seen.
 
 **Voice:** Measured and precise, with a warmth that feels genuine without revealing anything; they speak as though they have thought carefully about what to say and have decided that this version of the conversation is in everyone's interest.
@@ -39,4 +41,4 @@ The Buyer's agenda becomes legible. Whether the party chooses to continue workin
 
 ## Stat Block Reference
 
-`[No Season 1 combat stat block; in later seasons, use as appropriate for revealed faction]`
+*No Season 1 combat role. Stat block to be defined when faction is revealed.*

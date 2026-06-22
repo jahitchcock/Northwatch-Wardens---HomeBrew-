@@ -4,7 +4,13 @@
   "description": "DM Control Panel for Northwatch Wardens",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "up": "pm2 start ecosystem.config.js",
+    "down": "pm2 stop dm-panel",
+    "restart": "pm2 restart dm-panel",
+    "deploy": "pm2 restart dm-panel",
+    "logs": "pm2 logs dm-panel",
+    "status": "pm2 status dm-panel"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",

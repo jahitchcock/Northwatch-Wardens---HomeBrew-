@@ -11,6 +11,8 @@ tags: [creature, recurring, ally, neutral]
 
 ## Profile
 
+![Bolt](https://i.imgur.com/4oD3lBF.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A large grey wolf with pale amber eyes that hold still a moment longer than natural animal eyes do — there is something reading the situation behind them.
 
 **Voice:** Speaks in short, careful sentences; has learned language the way someone does who finds the grammar of it mildly alien but is working hard at it because it matters.
@@ -40,6 +42,26 @@ If the Welton arc resolved diplomatically, Bolt becomes a long-distance contact 
 
 ## Stat Block Reference
 
-`[Use Awakened Wolf: base Wolf stat block (MM p.341) + Intelligence 10, speaks Common, additional skills at DM discretion]`
+**Awakened Wolf** · *Medium beast, neutral* · CR 1/2 (100 XP)
 
-![Bolt](https://i.imgur.com/4oD3lBF.jpg)
+| | |
+|---|---|
+| **Armor Class** | 13 (natural armor) |
+| **Hit Points** | 11 (2d8 + 2) |
+| **Speed** | 40 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (+1) | 15 (+2) | 12 (+1) | 10 (+0) | 12 (+1) | 6 (−2) |
+
+**Skills** Perception +3, Stealth +4
+**Senses** passive Perception 13
+**Languages** Common (can speak)
+
+**Keen Hearing and Smell.** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+
+**Pack Tactics.** The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+**Actions**
+
+**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.

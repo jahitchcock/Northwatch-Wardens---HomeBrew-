@@ -1,0 +1,113 @@
+<h2>Full Combat Tracker layout</h2>
+<p class="subtitle">The add panel lives at the bottom of the modal, toggled with a + button. Does this feel right?</p>
+
+<div class="mockup">
+  <div class="mockup-header">Combat Tracker modal — with tabbed add panel open</div>
+  <div class="mockup-body" style="padding:0;background:#111;border-radius:6px;overflow:hidden;font-family:'Segoe UI',sans-serif;font-size:12px;color:#cdd6f4;max-width:620px;margin:0 auto">
+
+    <!-- Modal header -->
+    <div style="background:#0d0d0d;border-bottom:1px solid #2a2a2a;padding:8px 14px;display:flex;align-items:center;gap:10px">
+      <span style="font-weight:bold;color:#cdd6f4">⚔ Combat Tracker</span>
+      <span style="color:#888;font-size:11px">Round 2</span>
+      <div style="margin-left:auto;display:flex;gap:6px">
+        <button style="background:#1e1e2e;border:1px solid #333;color:#cdd6f4;padding:2px 8px;border-radius:3px;font-size:10px">↕ Sort Init</button>
+        <button style="background:#1e1e2e;border:1px solid #333;color:#cdd6f4;padding:2px 8px;border-radius:3px;font-size:10px">Next Turn ▶</button>
+        <button style="background:#89b4fa;border:none;color:#1a1a2e;padding:2px 8px;border-radius:3px;font-size:10px;font-weight:bold">+ Add</button>
+      </div>
+    </div>
+
+    <!-- Combatant list -->
+    <div style="padding:8px 14px;display:flex;flex-direction:column;gap:4px;border-bottom:1px solid #2a2a2a">
+      <!-- Active turn -->
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e3a1e;border:1px solid #a6e3a1;border-radius:4px">
+        <span style="color:#a6e3a1;font-weight:bold;width:24px;text-align:center">20</span>
+        <span style="flex:1;font-weight:bold">John <span style="color:#888;font-weight:normal;font-size:10px">player</span></span>
+        <span style="color:#888;font-size:10px">AC 18</span>
+        <span style="color:#a6e3a1;font-size:10px">HP 45/45</span>
+        <span style="color:#888;font-size:10px">▸ TURN</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e1e2e;border:1px solid #2a2a2a;border-radius:4px">
+        <span style="color:#888;width:24px;text-align:center">18</span>
+        <span style="flex:1">Wolf <span style="color:#888;font-size:10px">monster</span></span>
+        <span style="color:#888;font-size:10px">AC 13</span>
+        <span style="color:#f38ba8;font-size:10px">HP 6/11</span>
+        <span style="color:#f38ba8;font-size:10px">Prone</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e1e2e;border:1px solid #2a2a2a;border-radius:4px">
+        <span style="color:#888;width:24px;text-align:center">14</span>
+        <span style="flex:1">Kuetis <span style="color:#888;font-size:10px">player</span></span>
+        <span style="color:#888;font-size:10px">AC 13</span>
+        <span style="color:#a6e3a1;font-size:10px">HP 38/38</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;background:#1e1e2e;border:1px solid #2a2a2a;border-radius:4px">
+        <span style="color:#888;width:24px;text-align:center">11</span>
+        <span style="flex:1">Dire Wolf <span style="color:#888;font-size:10px">monster</span></span>
+        <span style="color:#888;font-size:10px">AC 14</span>
+        <span style="color:#fab387;font-size:10px">HP 22/37</span>
+      </div>
+    </div>
+
+    <!-- Add panel (toggled open) -->
+    <div style="background:#0a0a0a;border-top:2px solid #89b4fa">
+      <!-- Tab bar -->
+      <div style="display:flex;gap:0;border-bottom:1px solid #1e1e2e">
+        <span style="padding:5px 14px;color:#89b4fa;border-bottom:2px solid #89b4fa;font-size:11px;cursor:pointer">Players</span>
+        <span style="padding:5px 14px;color:#666;font-size:11px;cursor:pointer">NPCs</span>
+        <span style="padding:5px 14px;color:#666;font-size:11px;cursor:pointer">Monsters</span>
+        <span style="padding:5px 14px;color:#666;font-size:11px;cursor:pointer">Manual</span>
+      </div>
+
+      <!-- Players tab content -->
+      <div style="padding:8px 14px;display:flex;flex-direction:column;gap:4px">
+        <div style="display:flex;align-items:center;gap:8px;padding:4px 8px;background:#1e1e2e;border-radius:3px;opacity:0.45">
+          <span style="flex:1">⚔ John (Paladin 5)</span>
+          <span style="color:#888;font-size:10px">AC 18 · HP 45</span>
+          <span style="color:#a6e3a1;font-size:10px">✓ in combat</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:4px 8px;background:#1e1e2e;border-radius:3px;opacity:0.45">
+          <span style="flex:1">🧙 Kuetis (Warlock 5)</span>
+          <span style="color:#888;font-size:10px">AC 13 · HP 38</span>
+          <span style="color:#a6e3a1;font-size:10px">✓ in combat</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:4px 8px;background:#1e1e2e;border-radius:3px">
+          <span style="flex:1">🏹 Perkia (Ranger 5)</span>
+          <span style="color:#888;font-size:10px">AC 15 · HP 42</span>
+          <button style="background:#313244;border:none;color:#cdd6f4;padding:2px 8px;border-radius:3px;font-size:10px;margin-left:auto">+ Add</button>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:4px 8px;background:#1e1e2e;border-radius:3px">
+          <span style="flex:1">🐉 Falcor (Companion)</span>
+          <span style="color:#888;font-size:10px">AC 13 · HP 19</span>
+          <button style="background:#313244;border:none;color:#cdd6f4;padding:2px 8px;border-radius:3px;font-size:10px;margin-left:auto">+ Add</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div style="margin-top:20px">
+<h3>A few details to confirm:</h3>
+<div class="options" data-multiselect>
+  <div class="option" data-choice="already-in" onclick="toggleSelect(this)">
+    <div class="letter">1</div>
+    <div class="content">
+      <h3>Dim "already in combat" players</h3>
+      <p>Players already added show as greyed-out with a checkmark — can't double-add.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="roll-init" onclick="toggleSelect(this)">
+    <div class="letter">2</div>
+    <div class="content">
+      <h3>Auto-roll initiative on add</h3>
+      <p>When adding a combatant, auto-roll 1d20 + their init modifier. User can still override.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="add-all" onclick="toggleSelect(this)">
+    <div class="letter">3</div>
+    <div class="content">
+      <h3>Adventure monsters: "Add All" button</h3>
+      <p>Add all monsters from the selected adventure at once, with count controls (e.g. Wolf ×3).</p>
+    </div>
+  </div>
+</div>
+</div>

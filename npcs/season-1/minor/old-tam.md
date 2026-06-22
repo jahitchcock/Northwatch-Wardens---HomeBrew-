@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/OldTam.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A bent, white-haired human leaning on a walking stick, with a clouded left eye that seems to look through people rather than at them — permanently occupying the chair closest to the Shepherd's Crook fireplace.
 
 **Voice:** Wandering and slow, mixing digressions and tangents freely, until a moment of sudden, startling clarity cuts through like a blade.
@@ -28,4 +30,21 @@ Tam's rambling is a delivery mechanism for genuine historical intelligence. PCs 
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

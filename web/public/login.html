@@ -36,7 +36,7 @@
         body: JSON.stringify({ password: pw }),
       });
       if (r.ok) {
-        window.location.href = '/';
+        window.top.location.href = '/';
       } else {
         errEl.hidden = false;
         document.getElementById('login-pw').value = '';

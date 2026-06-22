@@ -11,6 +11,8 @@ tags: [neutral]
 
 ## Profile
 
+![Irven Liel](https://i.imgur.com/XRPU9yL.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A wiry human man who always seems to be mid-transit — one foot out the door, pack half-shouldered, in the middle of something he was just about to do.
 
 **Voice:** Friendly and slightly distracted, like someone who is mentally composing his next message while having the current conversation.
@@ -33,6 +35,21 @@ He can also function as a quick-hire courier if the party needs to send word som
 
 ## Stat Block Reference
 
-`[Commoner stat block; no combat role]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (10 XP)
 
-![Irven Liel](https://i.imgur.com/XRPU9yL.jpg)
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

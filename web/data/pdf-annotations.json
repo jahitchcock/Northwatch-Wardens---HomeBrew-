@@ -1,5 +1,29 @@
 {
   "collections": [],
-  "bookmarks": [],
-  "annotations": {}
+  "bookmarks": [
+    {
+      "id": "ac07a4cc-9fdb-44cd-a799-31010d595bf9",
+      "bookId": "core/Player's Handbook.pdf",
+      "page": 13,
+      "label": "Hit Dice",
+      "collectionIds": []
+    }
+  ],
+  "annotations": {
+    "core/Player's Handbook.pdf": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": [],
+      "13": []
+    }
+  }
 }

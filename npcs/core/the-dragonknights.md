@@ -5,6 +5,7 @@ affiliation: None (historical)
 location: Temple of the Dragonknights (northwest mountains)
 introduced: season-1
 status: legendary
+portrait: /portraits/TheDragonknights.png
 tags: [cultural-figure, legend, historical]
 ---
 
@@ -26,3 +27,7 @@ Local stories credit the Dragonknights with protecting the region from great evi
 - They fought alongside dragons
 - They sealed something terrible beneath their temple
 - Their spirits may still guard the mountain passes
+
+## Stat Block Reference
+
+*Historical/legendary figure — no stat block applicable. Individual members would vary; consult appropriate MM entries if needed.*

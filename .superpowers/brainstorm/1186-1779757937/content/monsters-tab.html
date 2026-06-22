@@ -1,0 +1,128 @@
+<h2>Monsters tab — how should the two sources be arranged?</h2>
+<p class="subtitle">Adventure monsters (parsed from your campaign files) vs 5etools bestiary search</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:11px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <!-- Outer tab bar -->
+        <div style="background:#111;padding:5px 8px;border-bottom:1px solid #333;display:flex;gap:4px">
+          <span style="color:#555;padding:2px 7px;font-size:10px">Players</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">NPCs</span>
+          <span style="background:#2a2a4a;color:#89b4fa;padding:2px 7px;border-radius:3px;border-bottom:2px solid #89b4fa;font-size:10px">Monsters</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">Manual</span>
+        </div>
+        <!-- Two sections stacked -->
+        <div style="padding:6px 8px;display:flex;flex-direction:column;gap:6px">
+          <!-- Adventure section -->
+          <div>
+            <div style="color:#a6e3a1;font-size:9px;margin-bottom:3px">FROM ADVENTURE</div>
+            <select style="width:100%;background:#1e1e3a;border:1px solid #444;color:#cdd6f4;padding:3px;border-radius:3px;font-size:10px">
+              <option>Wolves of Welton</option>
+            </select>
+            <div style="margin-top:3px;display:flex;flex-direction:column;gap:2px">
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;background:#1e1e3a;border-radius:2px">
+                <span>🐺 Wolf ×3</span>
+                <span style="color:#888">AC 13 · HP 11</span>
+                <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 5px;border-radius:2px;font-size:9px">+Add All</button>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;border-radius:2px;color:#666">
+                <span>🐺 Dire Wolf ×1</span>
+                <span>AC 14 · HP 37</span>
+                <button style="background:#1e1e3a;border:1px solid #333;color:#888;padding:1px 5px;border-radius:2px;font-size:9px">+Add All</button>
+              </div>
+            </div>
+          </div>
+          <div style="border-top:1px solid #2a2a2a;padding-top:5px">
+            <div style="color:#89b4fa;font-size:9px;margin-bottom:3px">FROM 5ETOOLS BESTIARY</div>
+            <input style="width:100%;background:#1e1e3a;border:1px solid #444;color:#cdd6f4;padding:3px;border-radius:3px;font-size:10px;box-sizing:border-box" placeholder="Search bestiary…">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Stacked sections</h3>
+      <p>Adventure picker on top, 5etools search below. Both visible at once. Simple scroll if the list gets long.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:11px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <div style="background:#111;padding:5px 8px;border-bottom:1px solid #333;display:flex;gap:4px">
+          <span style="color:#555;padding:2px 7px;font-size:10px">Players</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">NPCs</span>
+          <span style="background:#2a2a4a;color:#89b4fa;padding:2px 7px;border-radius:3px;border-bottom:2px solid #89b4fa;font-size:10px">Monsters</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">Manual</span>
+        </div>
+        <!-- Sub-tabs inside Monsters -->
+        <div style="padding:4px 8px;border-bottom:1px solid #222;display:flex;gap:3px">
+          <span style="background:#1e3a1e;color:#a6e3a1;padding:2px 7px;border-radius:3px;font-size:9px;border-bottom:1px solid #a6e3a1">Adventure</span>
+          <span style="color:#555;padding:2px 7px;font-size:9px">5etools</span>
+        </div>
+        <div style="padding:6px 8px">
+          <select style="width:100%;background:#1e1e3a;border:1px solid #444;color:#cdd6f4;padding:3px;border-radius:3px;font-size:10px;margin-bottom:4px">
+            <option>Wolves of Welton</option>
+          </select>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;background:#1e1e3a;border-radius:2px">
+              <span>🐺 Wolf ×3</span>
+              <span style="color:#888">AC 13 · HP 11</span>
+              <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 5px;border-radius:2px;font-size:9px">+Add All</button>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;border-radius:2px;color:#666">
+              <span>🐺 Dire Wolf ×1</span>
+              <span>AC 14 · HP 37</span>
+              <button style="background:#1e1e3a;border:1px solid #333;color:#888;padding:1px 5px;border-radius:2px;font-size:9px">+Add All</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Sub-tabs inside Monsters</h3>
+      <p>Monsters tab has its own inner tabs: <em>Adventure</em> and <em>5etools</em>. Each fills the full panel. Cleaner when the monster list is long.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#1a1a2e;padding:12px;font-family:monospace;font-size:11px;color:#cdd6f4">
+      <div style="background:#0d0d1a;border:1px solid #333;border-radius:6px;overflow:hidden">
+        <div style="background:#111;padding:5px 8px;border-bottom:1px solid #333;display:flex;gap:4px">
+          <span style="color:#555;padding:2px 7px;font-size:10px">Players</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">NPCs</span>
+          <span style="background:#2a2a4a;color:#89b4fa;padding:2px 7px;border-radius:3px;border-bottom:2px solid #89b4fa;font-size:10px">Monsters</span>
+          <span style="color:#555;padding:2px 7px;font-size:10px">Manual</span>
+        </div>
+        <div style="padding:6px 8px;display:flex;flex-direction:column;gap:4px">
+          <!-- Unified search -->
+          <input style="width:100%;background:#1e1e3a;border:1px solid #89b4fa;color:#cdd6f4;padding:3px 6px;border-radius:3px;font-size:10px;box-sizing:border-box" placeholder="Search all monsters or pick adventure…" value="wolf">
+          <div style="display:flex;gap:4px">
+            <select style="flex:1;background:#1e1e3a;border:1px solid #444;color:#cdd6f4;padding:2px;border-radius:3px;font-size:9px">
+              <option>All adventures</option>
+              <option>Wolves of Welton</option>
+            </select>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;background:#1e1e3a;border-radius:2px">
+              <span>🐺 Wolf <span style="color:#a6e3a1;font-size:9px">adventure</span></span>
+              <span style="color:#888">AC 13 · HP 11</span>
+              <button style="background:#313244;border:none;color:#cdd6f4;padding:1px 5px;border-radius:2px;font-size:9px">+ Add</button>
+            </div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:2px 5px;border-radius:2px;color:#888">
+              <span>🐺 Dire Wolf <span style="color:#89b4fa;font-size:9px">5etools</span></span>
+              <span>AC 14 · HP 37</span>
+              <button style="background:#1e1e3a;border:1px solid #333;color:#888;padding:1px 5px;border-radius:2px;font-size:9px">+ Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Unified search + adventure filter</h3>
+      <p>One search box searches both adventure files and 5etools bestiary simultaneously. An optional dropdown filters to a specific adventure. Results are tagged by source.</p>
+    </div>
+  </div>
+
+</div>

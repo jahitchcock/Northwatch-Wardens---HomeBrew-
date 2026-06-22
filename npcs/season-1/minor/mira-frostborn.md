@@ -10,6 +10,8 @@ tags: [minor, recurring, guide]
 
 ## Profile
 
+![portrait](/portraits/MiraFrostborn.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Tall half-orc with braided black hair, wearing furs she trapped and cured herself, the tip of her right tusk broken off in a way she has never bothered to explain.
 
 **Voice:** Plain and direct — no social cushioning, no apology, just what needs to be said in as few words as possible.
@@ -28,4 +30,28 @@ Mira is the party's most valuable asset for wilderness travel in the Palebank re
 
 ## Stat Block Reference
 
-`[Scout / Ranger variant]`
+**Scout** · *Medium humanoid (any race), any alignment* · CR 1/2 (100 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 13 (leather armor) |
+| **Hit Points** | 16 (3d8 + 3) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (+0) | 14 (+2) | 12 (+1) | 11 (+0) | 13 (+1) | 11 (+0) |
+
+**Skills** Nature +4, Perception +5, Stealth +6, Survival +5
+**Senses** passive Perception 15
+**Languages** any one language (usually Common)
+
+**Keen Hearing and Sight.** The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+
+**Actions**
+
+**Multiattack.** The scout makes two melee attacks or two ranged attacks.
+
+**Shortsword.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+
+**Longbow.** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage.

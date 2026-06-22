@@ -5,6 +5,7 @@ affiliation: None (historical)
 location: Throughout Northreach
 introduced: season-1
 status: legendary
+portrait: /portraits/TheFirstSettlers.png
 tags: [cultural-figure, legend, historical]
 ---
 
@@ -26,3 +27,7 @@ They came north seeking freedom from southern wars, made pacts with local commun
 - They came north seeking freedom from southern wars
 - They made pacts with local communities already living here
 - They learned the hard way which places to avoid
+
+## Stat Block Reference
+
+*Historical/legendary figure — no stat block applicable. Individual members would vary; consult appropriate MM entries if needed.*

@@ -10,6 +10,8 @@ tags: [neutral]
 
 ## Profile
 
+![portrait](/portraits/MartaHenwick.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A sharp-faced human woman in her forties who keeps her shop immaculate and her eyes moving; she notices who comes in, how long they stay, and who they talk to.
 
 **Voice:** Quick and conspiratorial, always pitched slightly below the ambient noise — everything she says sounds like it's being confided.
@@ -30,4 +32,21 @@ She can also be used as a pressure point if the party needs leverage: her embell
 
 ## Stat Block Reference
 
-`[Commoner stat block; no combat role]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (10 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

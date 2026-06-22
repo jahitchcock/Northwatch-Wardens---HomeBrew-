@@ -4,19 +4,38 @@
 
 ---
 
-## Overview
+![Northreach Map](/maps/NorthreachMap.png)
+
+---
+
+## Regional Overview
 
 Northreach reveals itself mile by mile: wind-combed forests, narrow roads that widen and contract like breathing, and settlements that feel earned against the cold expanse. This is a region where distance matters, where the space between warm lights can swallow the unwary, and where every community represents a deliberate choice to endure.
+
+**Climate:** Cold temperate to subarctic. Cold winters, short growing seasons.  
+**Terrain:** Rolling hills, dense forests, coastal plains, mountains to the north.  
+**Infrastructure:** Rough roads, limited trade routes, frontier conditions.  
+**Settlement Pattern:** Scattered villages, isolated farmsteads, few towns — connected by routes all converging on the Waystone Inn.
+
+### Society
+
+- **Self-reliance** — communities depend on themselves first; mutual aid fills the gaps
+- **Wary of strangers** — trust is earned through reliability and demonstrated competence
+- **Practical governance** — village councils of respected elders; guilds (Growers, Fleecers) provide trade structure
+- **Magic** — rare and mistrusted, but increasingly necessary
+- **Communication** — news travels by travelers; weeks between updates from the south
+
+---
 
 ---
 
 ## The Waystone Inn (Central Northreach)
 
 ### What It Is
-The Waystone Inn serves as both a traveler's rest and the headquarters of the Northwatch Wardens. Built around an ancient standing stone (the "waystone" that gives the place its name), the inn occupies a strategic crossroads where several major routes converge.
+The [Waystone Inn](loc:locations/northreach/waystone-inn.md) serves as both a traveler's rest and the headquarters of the Northwatch Wardens. Built around an ancient standing stone (the "waystone" that gives the place its name), the inn occupies a strategic crossroads where several major routes converge.
 
 ### Geography
-- **Location:** Center of the region, roughly equidistant from Welton, Pinebrook, and Palebank
+- **Location:** Center of the region, roughly equidistant from [Welton](loc:locations/northreach/welton.md), [Pinebrook](loc:locations/northreach/pinebrook.md), and [Palebank](loc:locations/northreach/palebank-village.md)
 - **Terrain:** Rolling hills with scattered pine forests
 - **Roads:** Three main roads converge here—west to Welton, southeast to Pinebrook, northeast to Palebank
 
@@ -60,7 +79,7 @@ The inn maintains a careful balance:
 ## Welton (Southwest)
 
 ### What It Is
-A farming and herding village built on good soil and stubborn determination. Welton supplies grain and livestock to other settlements and serves as a model of frontier community cooperation.
+A farming and herding village built on good soil and stubborn determination. [Welton](loc:locations/northreach/welton.md) supplies grain and livestock to other settlements and serves as a model of frontier community cooperation.
 
 ### Geography
 - **Location:** Southwest of the Waystone Inn, about a day's travel
@@ -136,7 +155,7 @@ Village council of five elected members who rotate leadership:
 ## Westly's Farm (West of Welton)
 
 ### What It Is
-An outlying sheep farm that represents the isolated homesteads common on the frontier. Westly's Farm sits at the edge of Welton's protected area, closer to the wild forests than most residents prefer.
+An outlying sheep farm that represents the isolated homesteads common on the frontier. [Westly's Farm](loc:locations/northreach/westlys-farm.md) sits at the edge of [Welton](loc:locations/northreach/welton.md)'s protected area, closer to the wild forests than most residents prefer.
 
 ### Geography
 - **Location:** About three miles west of Welton proper
@@ -187,12 +206,12 @@ Outlying farms like Westly's face constant challenges:
 ## Pinebrook (Southeast)
 
 ### What It Is
-A trading village positioned at the intersection of several routes. Pinebrook serves as a commercial hub where goods from Northreach's scattered communities are bought, sold, and redistributed.
+A trading village positioned at the intersection of several routes. [Pinebrook](loc:locations/northreach/pinebrook.md) serves as a commercial hub where goods from Northreach's scattered communities are bought, sold, and redistributed.
 
 ### Geography
 - **Location:** Southeast of the Waystone Inn, about a day and a half travel
 - **Terrain:** Forested region near a reliable river crossing
-- **Trade Position:** Routes from Waystone, Welton, Palebank, and southern settlements converge here
+- **Trade Position:** Routes from Waystone, [Welton](loc:locations/northreach/welton.md), [Palebank](loc:locations/northreach/palebank-village.md), and southern settlements converge here
 
 ### The Settlement
 Pinebrook is built for commerce:
@@ -218,8 +237,8 @@ About 90 permanent residents, plus floating population of travelers:
 - A few retired traders
 
 ### What Passes Through Pinebrook
-- Grain and wool from Welton
-- Fish and sealskins from Palebank
+- Grain and wool from [Welton](loc:locations/northreach/welton.md)
+- Fish and sealskins from [Palebank](loc:locations/northreach/palebank-village.md)
 - Timber from northern logging camps
 - Southern manufactured goods (tools, cloth, luxuries)
 - Artifacts and relics (quietly, through certain merchants)
@@ -273,7 +292,7 @@ About 90 permanent residents, plus floating population of travelers:
 ## Palebank Village (Northeast Coast)
 
 ### What It Is
-A cold coastal settlement that survives on fishing, sealing, and the determination of people who've chosen to live at the edge of the known world. Palebank serves as the last outpost before the frozen wilderness of Eiselcross.
+A cold coastal settlement that survives on fishing, sealing, and the determination of people who've chosen to live at the edge of the known world. [Palebank Village](loc:locations/northreach/palebank-village.md) serves as the last outpost before the frozen wilderness of Eiselcross.
 
 ### Geography
 - **Location:** Northeast of the Waystone Inn, about three days' travel
@@ -362,34 +381,16 @@ Life here is hard but honest:
 
 ---
 
-## Salsvault (Far North of Palebank)
+## Salsvault (Far North — Beyond Northreach)
 
-### What It Is
-An ancient ruin rising from the ice
-
-### Geography
-- **Location:** Far north of Palebank, requiring boat travel and ice hiking
-- **Terrain:** Permanently frozen wasteland
-- **Approach:** Dangerous under the best conditions, deadly in bad weather
-
-### The Structure
-What can be seen from outside:
-- Crystalline towers jutting from glacial ice
-- Metal and stone architecture unlike anything built in recent ages
-- Faint magical luminescence visible at night
-- Entrance partially buried, requiring excavation
-
-### What Explorers Know
-- Many who explore it don't return
-::
-      "The desperate go to Salsvault. The smart stay away."
+Aeorian ruins far north of Palebank. See [Salsvault](loc:locations/the-far-north/salsvault.md) in The Far North.
 
 ---
 
 ## Temple of the Dragonknights (Northwest Mountains)
 
 ### What It Is
-A remote mountain temple dedicated to an ancient order of warriors who once defended the region. The temple is both a monument to past heroes and a warning about what they fought. An impressive complex carved into the mountainside.
+The [Temple of the Dragonknights](loc:locations/northreach/temple-of-the-dragonknights.md) is a remote mountain temple dedicated to an ancient order of warriors who once defended the region. The temple is both a monument to past heroes and a warning about what they fought. An impressive complex carved into the mountainside.
 
 ### Geography
 - **Location:** High in the northwest mountains, several days' difficult travel
@@ -431,10 +432,10 @@ Local stories emphasize danger:
 ## Noke's Tower (West of Waystone)
 
 ### What It Is
-A wizard's tower that serves as both a residence and a cautionary tale. The tower is home to Finethir Shinebright, an eccentric gnome wizard whose experiments are brilliant, dangerous, and unpredictable.
+[Noke's Tower](loc:locations/northreach/nokes-tower.md) is a wizard's tower that serves as both a residence and a cautionary tale. The tower is home to Finethir Shinebright, an eccentric gnome wizard whose experiments are brilliant, dangerous, and unpredictable.
 
 ### Geography
-- **Location:** West of the Waystone Inn, visible from the road
+- **Location:** West of the [Waystone Inn](loc:locations/northreach/waystone-inn.md), visible from the road
 - **Terrain:** Isolated hill with cleared approach
 - **Visibility:** Tower can be seen from miles away (sometimes glows at night)
 
@@ -508,7 +509,7 @@ What travelers watch for:
 
 ### Landmarks Between Settlements
 Features that help navigation:
-- The Split Oak (halfway between Waystone and Welton)
+- The Split Oak (halfway between [Waystone Inn](loc:locations/northreach/waystone-inn.md) and [Welton](loc:locations/northreach/welton.md))
 - Crow's Rest (stone outcrop, good campsite)
 - The Old Bridge (Roman-style stone bridge, origin unknown)
 - Three Sisters Pines (trio of ancient trees visible for miles)

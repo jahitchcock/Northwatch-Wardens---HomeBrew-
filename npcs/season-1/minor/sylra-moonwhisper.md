@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/SylraMoonwhisper.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Willowy half-elf with short silver hair, a collection of patron-gifted earrings that sway when she moves, and ink-stained fingers that betray the journal she keeps behind the bar.
 
 **Voice:** Bright and darting — jumps between topics, interrupts herself to ask a follow-up question, ends observations with a hopeful uplift.
@@ -28,4 +30,21 @@ Sylra will trade information for "interesting stories" — specific, personal, v
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

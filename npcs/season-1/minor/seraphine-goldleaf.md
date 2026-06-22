@@ -10,6 +10,8 @@ tags: [minor, recurring, merchant]
 
 ## Profile
 
+![portrait](/portraits/SeraphineGoldleaf.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Silver-haired gnome with hair arranged in complex braids, every finger wearing a different ring, dressed in layered colorful clothing that somehow always looks intentional rather than chaotic.
 
 **Voice:** Shrewd and playful — treats every transaction as a game she expects to win, but laughs genuinely when outplayed.
@@ -28,4 +30,21 @@ Seraphine is a fun haggling encounter with hidden depth. She matches PCs in word
 
 ## Stat Block Reference
 
-`[Commoner / Noble]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

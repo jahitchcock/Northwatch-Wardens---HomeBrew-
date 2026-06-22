@@ -10,6 +10,8 @@ tags: [minor, recurring, innkeeper]
 
 ## Profile
 
+![portrait](/portraits/BrindleTossbrew.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Round halfling woman with rosy cheeks, a flour-dusted apron, and an infectious laugh that fills whatever room she's standing in.
 
 **Voice:** Warm and encompassing — she asks questions, remembers the answers, and greets returning guests by name and preference.
@@ -28,4 +30,21 @@ Brindle's inn is the social hub of Welton. She knows who is feuding, who is cour
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

@@ -29,7 +29,7 @@ tags: [hub, settlement, social, quest-site]
 
 ## Season 1: Commerce Under Pressure
 
-Trade continues normally but with increased caution. Rumors of danger on the routes to Welton and northeast toward Palebank have pushed prices up on several goods. Some merchants are rerouting or delaying shipments. Competition for warehouse space has intensified as traders hold stock rather than ship it north. On the surface, Pinebrook is prospering; underneath, the Merchant's Council is nervous and certain goods are moving through channels that don't appear in the public ledgers.
+Trade continues normally but with increased caution. Rumors of danger on the routes to [Welton](loc:locations/northreach/welton.md) and northeast toward [Palebank](loc:locations/northreach/palebank-village.md) have pushed prices up on several goods. Some merchants are rerouting or delaying shipments. Competition for warehouse space has intensified as traders hold stock rather than ship it north. On the surface, Pinebrook is prospering; underneath, the Merchant's Council is nervous and certain goods are moving through channels that don't appear in the public ledgers.
 
 ## Aeorian Echo Presence
 

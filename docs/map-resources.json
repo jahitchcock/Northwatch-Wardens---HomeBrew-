@@ -1,0 +1,2440 @@
+{
+  "map_resources": {
+    "last_updated": "2026-06-02",
+    "notes": "All resources available for Northwatch Wardens encounters. Check these before generating AI maps. Season 1 is predominantly winter/cold — prioritise snow tablecloth, DT5/DU3 cave sets, and Reincarnated Dungeon/Wilderness tiles.",
+    "physical": {
+      "tablecloth": [
+        {
+          "id": "tablecloth-snow-field",
+          "name": "Snow Field Tablecloth",
+          "side": "A",
+          "terrain": "winter outdoor",
+          "description": "Large snow-covered open field. Ideal base layer for any winter outdoor encounter — Welton road ambush, icefield travel, Palebank Village exterior.",
+          "tags": [
+            "snow",
+            "winter",
+            "outdoor",
+            "open",
+            "large"
+          ],
+          "northwatch_uses": [
+            "wolves-of-welton",
+            "pale-sickness-travel",
+            "palebank-exterior"
+          ]
+        },
+        {
+          "id": "tablecloth-snow-river",
+          "name": "Snow Field with River Tablecloth",
+          "side": "B",
+          "terrain": "winter outdoor, river",
+          "description": "Snow-covered terrain with a river running through it. Good for riverside ambushes, frozen crossing encounters, or any winter wetland scene.",
+          "tags": [
+            "snow",
+            "winter",
+            "outdoor",
+            "river",
+            "water",
+            "large"
+          ],
+          "northwatch_uses": [
+            "river-crossing",
+            "winter-ambush"
+          ]
+        }
+      ],
+      "tactical_maps_reincarnated": {
+        "notes": "Physical poster maps (double-sided). Mix-and-match for encounters. These are the physical versions of the Reincarnated PDFs.",
+        "sets": [
+          {
+            "id": "tmr-dungeon",
+            "name": "Tactical Maps Reincarnated — Dungeon",
+            "format": "physical poster",
+            "terrain": "dungeon interior",
+            "tags": [
+              "dungeon",
+              "stone",
+              "interior",
+              "corridors",
+              "rooms"
+            ],
+            "northwatch_uses": [
+              "salsvault",
+              "temple-of-dragonknights",
+              "any-dungeon"
+            ]
+          },
+          {
+            "id": "tmr-wilderness",
+            "name": "Tactical Maps Reincarnated — Wilderness",
+            "format": "physical poster",
+            "terrain": "outdoor wilderness",
+            "tags": [
+              "forest",
+              "wilderness",
+              "outdoor",
+              "road",
+              "clearing"
+            ],
+            "northwatch_uses": [
+              "wolves-of-welton",
+              "road-encounters"
+            ]
+          },
+          {
+            "id": "tmr-city",
+            "name": "Tactical Maps Reincarnated — City",
+            "format": "physical poster",
+            "terrain": "urban",
+            "tags": [
+              "city",
+              "streets",
+              "buildings",
+              "urban",
+              "market"
+            ],
+            "northwatch_uses": [
+              "pinebrook",
+              "waystone-inn-exterior"
+            ]
+          }
+        ]
+      },
+      "gloomhaven_base": {
+        "notes": "Base Gloomhaven (1st Ed). Hex-grid, 1-inch hexes, modular. 60 unique map tiles across 14 shape configs. 4 terrain art styles: MS (Man Made Stone — dungeon), NS (Natural Stone — cave), W (Wood — building), DG (Dirt & Grass — outdoor). Source: Gloomhaven_Tiles_Manifest_and_Graphic_Study.xlsx",
+        "grid_type": "hex (1-inch hexes) — does not align with D&D square grid; use as visual reference or freeform layout",
+        "terrain_types": {
+          "MS": "Man Made Stone — cut stone dungeon/fortress aesthetic. Best for Salsvault, Temple of Dragonknights.",
+          "NS": "Natural Stone — rough cave/cavern aesthetic. Best for Croaker Cave, icefield encounters.",
+          "W": "Wood — timber building interiors. Best for Waystone Inn, Jolly Dwarf Tavern.",
+          "DG": "Dirt & Grass — outdoor ground. Best for Welton, Palebank Village exterior."
+        },
+        "tile_catalog": {
+          "notes": "Config = hex row pattern (e.g. '5-4' = two rows of 5 and 4 hexes). Qty = copies in base game box.",
+          "shape_A": {
+            "config": "5-4",
+            "hexes": 9,
+            "shape": "small 2-row room",
+            "tiles": [
+              {
+                "id": "A1a",
+                "terrain": "MS",
+                "qty": 4
+              },
+              {
+                "id": "A1b",
+                "terrain": "W",
+                "qty": 1
+              },
+              {
+                "id": "A2a",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "A2b",
+                "terrain": "NS",
+                "qty": 2
+              },
+              {
+                "id": "A3a",
+                "terrain": "NS",
+                "qty": null
+              },
+              {
+                "id": "A3b",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "A4a",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "A4b",
+                "terrain": "MS",
+                "qty": null
+              }
+            ]
+          },
+          "shape_B": {
+            "config": "4-3-4-3",
+            "hexes": 14,
+            "shape": "small 4-row room",
+            "tiles": [
+              {
+                "id": "B1a",
+                "terrain": "W",
+                "qty": 4
+              },
+              {
+                "id": "B1b",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "B2a",
+                "terrain": "W",
+                "qty": null
+              },
+              {
+                "id": "B2b",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "B3a",
+                "terrain": "W",
+                "qty": null
+              },
+              {
+                "id": "B3b",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "B4a",
+                "terrain": "W",
+                "qty": null
+              },
+              {
+                "id": "B4b",
+                "terrain": "NS",
+                "qty": 1
+              }
+            ]
+          },
+          "shape_C": {
+            "config": "3-4-3-2",
+            "hexes": 12,
+            "shape": "small irregular room",
+            "tiles": [
+              {
+                "id": "C1a",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "C1b",
+                "terrain": "W",
+                "qty": 1
+              },
+              {
+                "id": "C2a",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "C2b",
+                "terrain": "MS",
+                "qty": null
+              }
+            ]
+          },
+          "shape_D": {
+            "config": "3-4-5-4-3",
+            "hexes": 19,
+            "shape": "medium diamond room",
+            "tiles": [
+              {
+                "id": "D1a",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "D1b",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "D2a",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "D2b",
+                "terrain": "NS",
+                "qty": 1
+              }
+            ]
+          },
+          "shape_E": {
+            "config": "4-5-4-5-4",
+            "hexes": 24,
+            "shape": "medium wide room",
+            "tiles": [
+              {
+                "id": "E1a",
+                "terrain": "MS",
+                "qty": 1
+              },
+              {
+                "id": "E1b",
+                "terrain": "NS",
+                "qty": 0
+              }
+            ]
+          },
+          "shape_F": {
+            "config": "3-2-3-2-3-2-3-2-3",
+            "hexes": 23,
+            "shape": "long zigzag corridor",
+            "tiles": [
+              {
+                "id": "F1a",
+                "terrain": "MS",
+                "qty": 1
+              },
+              {
+                "id": "F1b",
+                "terrain": "DG",
+                "qty": 1
+              }
+            ]
+          },
+          "shape_G": {
+            "config": "8-7-8",
+            "hexes": 23,
+            "shape": "medium wide 3-row room",
+            "tiles": [
+              {
+                "id": "G1a",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "G1b",
+                "terrain": "MS",
+                "qty": 1
+              },
+              {
+                "id": "G2a",
+                "terrain": "NS",
+                "qty": 1
+              },
+              {
+                "id": "G2b",
+                "terrain": "W",
+                "qty": 1
+              }
+            ]
+          },
+          "shape_H": {
+            "config": "6-7-2-3-2-3-2",
+            "hexes": 25,
+            "shape": "L-shaped / irregular medium room",
+            "tiles": [
+              {
+                "id": "H1a",
+                "terrain": "NS",
+                "qty": 2
+              },
+              {
+                "id": "H1b",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "H2a",
+                "terrain": "NS",
+                "qty": null
+              },
+              {
+                "id": "H2b",
+                "terrain": "DG",
+                "qty": 1
+              },
+              {
+                "id": "H3a",
+                "terrain": "W",
+                "qty": 1
+              },
+              {
+                "id": "H3b",
+                "terrain": "MS",
+                "qty": null
+              }
+            ]
+          },
+          "shape_I": {
+            "config": "6-5-6-5-6",
+            "hexes": 28,
+            "shape": "medium tall 5-row room",
+            "tiles": [
+              {
+                "id": "I1a",
+                "terrain": "W",
+                "qty": 2
+              },
+              {
+                "id": "I1b",
+                "terrain": "MS",
+                "qty": 1
+              },
+              {
+                "id": "I2a",
+                "terrain": "NS",
+                "qty": 1
+              },
+              {
+                "id": "I2b",
+                "terrain": "W",
+                "qty": null
+              }
+            ]
+          },
+          "shape_J": {
+            "config": "9-9-8",
+            "hexes": 26,
+            "shape": "large wide 3-row room",
+            "tiles": [
+              {
+                "id": "J1a",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "J1b",
+                "terrain": "NS",
+                "qty": 2
+              },
+              {
+                "id": "J2a",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "J2b",
+                "terrain": "NS",
+                "qty": null
+              }
+            ]
+          },
+          "shape_K": {
+            "config": "9-12-10",
+            "hexes": 31,
+            "shape": "large irregular room",
+            "tiles": [
+              {
+                "id": "K1a",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "K1b",
+                "terrain": "NS",
+                "qty": 2
+              },
+              {
+                "id": "K2a",
+                "terrain": "NS",
+                "qty": null
+              },
+              {
+                "id": "K2b",
+                "terrain": "MS",
+                "qty": null
+              }
+            ]
+          },
+          "shape_L": {
+            "config": "5-4-5-4-5-4-5",
+            "hexes": 32,
+            "shape": "long straight corridor",
+            "tiles": [
+              {
+                "id": "L1a",
+                "terrain": "MS",
+                "qty": 2
+              },
+              {
+                "id": "L1b",
+                "terrain": "DG",
+                "qty": 2
+              },
+              {
+                "id": "L2a",
+                "terrain": "NS",
+                "qty": null
+              },
+              {
+                "id": "L2b",
+                "terrain": "MS",
+                "qty": null
+              },
+              {
+                "id": "L3a",
+                "terrain": "DG",
+                "qty": null
+              },
+              {
+                "id": "L3b",
+                "terrain": "NS",
+                "qty": 2
+              }
+            ]
+          },
+          "shape_M": {
+            "config": "4-5-6-5-6-5-4",
+            "hexes": 35,
+            "shape": "large oval room",
+            "tiles": [
+              {
+                "id": "M1a",
+                "terrain": "MS",
+                "qty": 1
+              },
+              {
+                "id": "M1b",
+                "terrain": "DG",
+                "qty": 1
+              }
+            ]
+          },
+          "shape_N": {
+            "config": "8-7-8-7-8-7-8",
+            "hexes": 53,
+            "shape": "very large 7-row room (boss room)",
+            "tiles": [
+              {
+                "id": "N1a",
+                "terrain": "NS",
+                "qty": 1
+              },
+              {
+                "id": "N1b",
+                "terrain": "MS",
+                "qty": 1
+              }
+            ]
+          }
+        },
+        "punch_sheets": [
+          {
+            "sheet": "01",
+            "map_tiles": 6,
+            "notes": "Many small room/corridor pieces, front and back. Dense corridor content."
+          },
+          {
+            "sheet": "02",
+            "map_tiles": 8,
+            "notes": "Many small room/corridor pieces, front and back."
+          },
+          {
+            "sheet": "03",
+            "map_tiles": 4,
+            "notes": "Medium map pieces. Sheet also contains summon tokens (8 back, 8 front) and status/damage tokens."
+          },
+          {
+            "sheet": "04",
+            "map_tiles": 4,
+            "notes": "Medium map pieces. Sheet also contains summon tokens and status tokens."
+          },
+          {
+            "sheet": "05",
+            "map_tiles": 4,
+            "notes": "Medium map pieces. Sheet also contains summon tokens, monster standees, damage/money tokens."
+          },
+          {
+            "sheet": "06",
+            "map_tiles": 4,
+            "notes": "Medium map pieces. Sheet also contains monster standees, damage/money/summon tokens."
+          },
+          {
+            "sheet": "07",
+            "map_tiles": 2,
+            "notes": "Large map pieces. Sheet also contains scenario aid tokens, monster standees, money tokens."
+          },
+          {
+            "sheet": "08",
+            "map_tiles": 2,
+            "notes": "Large map pieces. Sheet also contains scenario aid tokens, monster standees, money tokens."
+          },
+          {
+            "sheet": "09",
+            "map_tiles": 3,
+            "notes": "Large map pieces + 1 board. Sheet also contains boss standees, monster standees, tracker."
+          },
+          {
+            "sheet": "10",
+            "map_tiles": 4,
+            "notes": "Large map pieces. Sheet also contains damage tokens and large monster standees."
+          },
+          {
+            "sheet": "11",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "obstacle": 8,
+                "corridor": 2,
+                "difficult_terrain": 4,
+                "door": 3
+              },
+              "front": {
+                "obstacle": 10,
+                "door": 3,
+                "hazardous_terrain": 2,
+                "difficult_terrain": 2
+              }
+            }
+          },
+          {
+            "sheet": "12",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "obstacle": 6,
+                "corridor": 1,
+                "difficult_terrain": 4,
+                "door": 4
+              },
+              "front": {
+                "obstacle": 7,
+                "door": 4,
+                "hazardous_terrain": 2,
+                "difficult_terrain": 2
+              }
+            }
+          },
+          {
+            "sheet": "13",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "obstacle": 11,
+                "corridor": 1,
+                "difficult_terrain": 2,
+                "door": 2
+              },
+              "front": {
+                "obstacle": 11,
+                "hazardous_terrain": 2,
+                "difficult_terrain": 2,
+                "door": 3
+              }
+            }
+          },
+          {
+            "sheet": "14",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "hazardous_terrain": 3,
+                "corridor": 2,
+                "treasure": 2,
+                "difficult_terrain": 2,
+                "door": 4
+              },
+              "front": {
+                "trap": 6,
+                "obstacle": 10,
+                "corridor": 3,
+                "treasure": 2,
+                "door": 6
+              }
+            }
+          },
+          {
+            "sheet": "15",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "obstacle": 1,
+                "corridor": 4,
+                "treasure": 2,
+                "hazardous_terrain": 2,
+                "difficult_terrain": 3
+              },
+              "front": {
+                "trap": 6,
+                "obstacle": 8,
+                "corridor": 1,
+                "door": 6,
+                "treasure": 2
+              }
+            }
+          },
+          {
+            "sheet": "16",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "hazardous_terrain": 1,
+                "difficult_terrain": 4,
+                "corridor": 6,
+                "obstacle": 1,
+                "treasure": 2
+              },
+              "front": {
+                "trap": 6,
+                "obstacle": 10,
+                "corridor": 3,
+                "treasure": 2,
+                "door": 6,
+                "difficult_terrain": 1
+              }
+            }
+          },
+          {
+            "sheet": "17",
+            "map_tiles": 4,
+            "overlay_tiles": {
+              "front": {
+                "obstacle": 14
+              }
+            }
+          },
+          {
+            "sheet": "18",
+            "map_tiles": 2,
+            "overlay_tiles": {
+              "back": {
+                "corridor": 4,
+                "obstacle": 1
+              },
+              "front": {
+                "door": 4,
+                "obstacle": 10,
+                "difficult_terrain": 1
+              }
+            }
+          }
+        ],
+        "overlay_tile_totals": {
+          "notes": "Approximate totals across all sheets for planning purposes",
+          "doors": "~50 — wall door pieces, key for connecting rooms",
+          "corridors": "~27 — narrow connecting passage pieces",
+          "obstacles": "~115 — blocking hex pieces (rocks, furniture, pillars)",
+          "difficult_terrain": "~26 — slowing terrain hexes",
+          "hazardous_terrain": "~12 — damaging terrain hexes",
+          "treasure_tiles": "~12 — chest/loot hexes",
+          "traps": "~18 — trap hexes"
+        },
+        "northwatch_uses": {
+          "croaker-cave": "Sheets 01-06 for cave passages; DU3/DT5 overlay tiles for cave texture; doors for the cave entry and Sett's hideout divider",
+          "salsvault": "Sheets 07-10 for larger rooms; sheets 11-13 overlay tiles for obstacles and hazardous terrain; sheet 18 corridors for facility passageways",
+          "temple-of-dragonknights": "Sheets 07-09 for grand halls; obstacle tiles for altar and pillar dressing; door tiles for chamber entrances",
+          "any-dungeon": "Mix sheets 01-06 (corridors/small rooms) with 07-10 (large rooms) and 11-18 overlay tiles for full encounter dressing"
+        }
+      }
+    },
+    "digital_maps": {
+      "path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\07 - Maps",
+      "notes": "All maps exist in both gridded (.jpg) and gridless ( (gridless).jpg ) versions. All appear to be from a commercial VTT battlemap bundle.",
+      "maps": [
+        {
+          "id": "map-064",
+          "filename_base": "64",
+          "terrain": "outdoor garden / shrine",
+          "description": "Walled garden or cultivated outdoor space with a stone shrine/monument, dirt paths, flower beds, surrounding dense tree line. Summery/temperate.",
+          "approximate_size": "26x20 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "outdoor",
+            "garden",
+            "shrine",
+            "paths",
+            "trees",
+            "temperate"
+          ],
+          "northwatch_uses": [
+            "shrine-encounter",
+            "estate-grounds",
+            "any-outdoor-temperate"
+          ]
+        },
+        {
+          "id": "map-130",
+          "filename_base": "130",
+          "terrain": "forest clearing",
+          "description": "Open forest clearing with wildflowers (purple, red, blue), a single large boulder at center, forest canopy surrounding. Summery green.",
+          "approximate_size": "26x20 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "outdoor",
+            "forest",
+            "clearing",
+            "boulder",
+            "flowers",
+            "temperate"
+          ],
+          "northwatch_uses": [
+            "forest-ambush",
+            "druid-clearing",
+            "road-encounter"
+          ]
+        },
+        {
+          "id": "map-144",
+          "filename_base": "144",
+          "terrain": "forest road junction",
+          "description": "Forested area with a dirt road or path cutting diagonally through dense forest. Lush temperate forest, large tree canopy.",
+          "approximate_size": "26x20 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "outdoor",
+            "forest",
+            "road",
+            "path",
+            "junction",
+            "temperate"
+          ],
+          "northwatch_uses": [
+            "road-ambush",
+            "wolves-of-welton-approach",
+            "any-road-encounter"
+          ]
+        },
+        {
+          "id": "map-178",
+          "filename_base": "178",
+          "terrain": "tavern / inn interior",
+          "description": "Warm-lit multi-room building interior: main common room with fireplace, side rooms including what appears to be a bedroom and storage, wooden plank floors, outdoor overhang/porch visible.",
+          "approximate_size": "26x20 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "interior",
+            "tavern",
+            "inn",
+            "building",
+            "warm",
+            "multi-room"
+          ],
+          "northwatch_uses": [
+            "waystone-inn",
+            "jolly-dwarf-tavern-palebank",
+            "any-inn-encounter"
+          ]
+        },
+        {
+          "id": "map-227",
+          "filename_base": "227",
+          "terrain": "forest meadow with ruins",
+          "description": "Large open grassy meadow bordered by dense forest on both sides. Ancient stone ruin/well at center. Temperate, summery coloring.",
+          "approximate_size": "26x22 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "outdoor",
+            "meadow",
+            "forest",
+            "ruins",
+            "open",
+            "temperate"
+          ],
+          "northwatch_uses": [
+            "road-encounter",
+            "ruins-exploration",
+            "any-open-field"
+          ]
+        },
+        {
+          "id": "map-286",
+          "filename_base": "286",
+          "terrain": "ancient stone ruins plaza",
+          "description": "Outdoor stone-paved plaza with ruined columns, raised central platform, scattered rubble and overgrown vegetation. Worn stone aesthetic, good for temple exterior or ancient site.",
+          "approximate_size": "26x22 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "outdoor",
+            "ruins",
+            "stone",
+            "plaza",
+            "columns",
+            "ancient",
+            "temple"
+          ],
+          "northwatch_uses": [
+            "temple-of-dragonknights-exterior",
+            "ancient-ruins",
+            "boss-arena"
+          ]
+        },
+        {
+          "id": "map-350",
+          "filename_base": "350",
+          "terrain": "multi-room dungeon interior",
+          "description": "Dark stone dungeon with multiple connected rooms and corridors, torchlight at intervals. L-shaped layout with staircase visible. Classic dungeon stone.",
+          "approximate_size": "26x20 squares",
+          "has_grid": true,
+          "has_gridless": true,
+          "tags": [
+            "interior",
+            "dungeon",
+            "stone",
+            "dark",
+            "multi-room",
+            "corridors",
+            "stairs"
+          ],
+          "northwatch_uses": [
+            "salsvault",
+            "temple-of-dragonknights-interior",
+            "any-dungeon"
+          ]
+        }
+      ]
+    },
+    "tile_pdfs": {
+      "path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\08 - DungeonTiles",
+      "notes": "D&D 4e-era WotC Dungeon Tiles product line plus Reincarnated editions. Print and cut for physical use, or use digitally in VTT. Square grid, 1 inch = 1 square.",
+      "sets": [
+        {
+          "id": "dt-set1",
+          "filename": "Dungeon Tiles, Set 1.pdf",
+          "name": "Dungeon Tiles Set 1",
+          "pages": 16,
+          "size_mb": 3.1,
+          "aesthetic": "Warm tan-beige flagstone, clean painted style, classic dungeon torchlight warmth",
+          "tile_types": [
+            "large/small stone floor rectangles",
+            "straight corridors",
+            "T-junctions",
+            "L-bends",
+            "4-way crossings",
+            "small/medium rooms",
+            "raised dais",
+            "tavern room with furniture"
+          ],
+          "terrain_features": [
+            "flagstone floors",
+            "wooden doors",
+            "stone pillars",
+            "tavern tables and chairs",
+            "bar counter"
+          ],
+          "tags": [
+            "dungeon",
+            "stone",
+            "rooms",
+            "corridors",
+            "tavern",
+            "modular",
+            "foundational"
+          ],
+          "northwatch_uses": [
+            "waystone-inn",
+            "jolly-dwarf-palebank",
+            "salsvault",
+            "temple-of-dragonknights",
+            "any-dungeon"
+          ]
+        },
+        {
+          "id": "dt-hidden-crypts",
+          "filename": "Hidden Crypts Dungeon Tiles, Set 3.pdf",
+          "name": "Hidden Crypts (Set 3)",
+          "pages": 16,
+          "size_mb": 3.0,
+          "aesthetic": "Cool blue-grey weathered stone, dim crypts feel, blood-red graffiti accent, muted cold palette",
+          "tile_types": [
+            "plain grey stone floors",
+            "straight corridors",
+            "diagonal/angled sections",
+            "small rooms with archways",
+            "altar dais",
+            "pit trap (void floor)",
+            "teleportation circle",
+            "burial alcove",
+            "sarcophagus room"
+          ],
+          "terrain_features": [
+            "cracked flagstone",
+            "wall niches",
+            "sarcophagi",
+            "mummy wrappings",
+            "pit traps",
+            "glowing runic circle",
+            "skull-and-crossbones markings",
+            "blood stains",
+            "coffins"
+          ],
+          "tags": [
+            "crypt",
+            "tomb",
+            "dungeon",
+            "burial",
+            "dark",
+            "undead",
+            "traps"
+          ],
+          "northwatch_uses": [
+            "temple-of-dragonknights",
+            "any-tomb-encounter",
+            "any-undead-dungeon"
+          ]
+        },
+        {
+          "id": "dt4-ruins-wild",
+          "filename": "DT4 Ruins of the Wild_ Dungeon Tiles.pdf",
+          "name": "DT4: Ruins of the Wild",
+          "pages": 16,
+          "size_mb": 3.1,
+          "aesthetic": "Naturalistic warm greens and earthy browns, bright daylight, loose organic painted style",
+          "tile_types": [
+            "open grassland fields",
+            "standing-stone circle arena",
+            "earthen trenches",
+            "ruined cabin interior",
+            "riverbank sections",
+            "dirt road strips",
+            "scatter tokens (pools, logs, boulders, stone ring)"
+          ],
+          "terrain_features": [
+            "standing stones",
+            "earthen pits",
+            "grassy fields",
+            "river edge",
+            "boulders",
+            "sparse trees",
+            "shallow water pools",
+            "dirt tracks",
+            "wooden cabin interior"
+          ],
+          "tags": [
+            "ruins",
+            "outdoor",
+            "wilderness",
+            "standing-stones",
+            "ritual",
+            "river",
+            "road"
+          ],
+          "northwatch_uses": [
+            "temple-of-dragonknights-approach",
+            "wolves-of-welton",
+            "any-outdoor-ruins",
+            "druid-clearing"
+          ]
+        },
+        {
+          "id": "dt5-lost-caverns",
+          "filename": "DT5 Dungeon Tiles_ Lost Caverns of the Underdark.pdf",
+          "name": "DT5: Lost Caverns of the Underdark",
+          "pages": 16,
+          "size_mb": 10.3,
+          "aesthetic": "Dark desaturated grey-green cave rock, photorealistic texture, deep blacks, oppressive atmosphere",
+          "tile_types": [
+            "irregular cave corridors wide and narrow",
+            "large open cavern chambers",
+            "underground lake/pool sections",
+            "cave dead-ends",
+            "straight cave passages",
+            "L-bend cave passages"
+          ],
+          "terrain_features": [
+            "cave rock walls",
+            "underground pools and lakes",
+            "stalactites and stalagmites",
+            "damp stone floors",
+            "fungi patches",
+            "rubble",
+            "cave moss"
+          ],
+          "tags": [
+            "cave",
+            "cavern",
+            "underground",
+            "natural",
+            "water",
+            "stalactite",
+            "underdark"
+          ],
+          "northwatch_uses": [
+            "croaker-cave",
+            "salsvault-approach",
+            "any-cave"
+          ]
+        },
+        {
+          "id": "dt6-dire-tombs",
+          "filename": "DT6 Dungeon Tiles_ Dire Tombs.pdf",
+          "name": "DT6: Dire Tombs",
+          "pages": 16,
+          "size_mb": 12.4,
+          "aesthetic": "Warm amber-yellow sandstone, ancient Egyptian/desert tomb feel, ochre and gold palette, torchlit warmth",
+          "tile_types": [
+            "wide straight corridors",
+            "large rectangular tomb chambers",
+            "angled/diagonal corridors",
+            "alcove/niche tiles",
+            "small square rooms",
+            "pit trap tiles",
+            "sarcophagus tiles"
+          ],
+          "terrain_features": [
+            "sarcophagi",
+            "canopic jars",
+            "pit traps",
+            "hieroglyphic wall carvings",
+            "dragon/serpent skeleton",
+            "ancient stonework",
+            "alcove niches",
+            "teleportation circle glyphs"
+          ],
+          "tags": [
+            "tomb",
+            "mausoleum",
+            "crypt",
+            "egyptian",
+            "desert",
+            "undead",
+            "traps"
+          ],
+          "northwatch_uses": [
+            "temple-of-dragonknights",
+            "any-tomb-encounter",
+            "any-undead-dungeon"
+          ]
+        },
+        {
+          "id": "dt7-fane",
+          "filename": "DT7 Dungeon Tiles_ Fane of the Forgotten Gods.pdf",
+          "name": "DT7: Fane of the Forgotten Gods",
+          "pages": 16,
+          "size_mb": 10.9,
+          "aesthetic": "Cool grey-green aged temple masonry, moss, classical columns and arches, magical blue glow accents, outdoor sections with grass surroundings",
+          "tile_types": [
+            "large ceremonial temple plazas",
+            "arched colonnade corridors",
+            "checkerboard floor rooms",
+            "diagonal corner cuts",
+            "alcoves with magical orb pedestals",
+            "circular/octagonal room sections",
+            "ruined outdoor colonnade"
+          ],
+          "terrain_features": [
+            "stone columns and pillars",
+            "arched colonnades",
+            "magical glowing orbs (red/blue)",
+            "arcane summoning circles",
+            "altar pedestals",
+            "gargoyle carvings",
+            "checkerboard mosaic floors",
+            "water basin/scrying pool"
+          ],
+          "tags": [
+            "temple",
+            "shrine",
+            "altar",
+            "religious",
+            "ceremonial",
+            "arcane",
+            "outdoor-plaza"
+          ],
+          "northwatch_uses": [
+            "temple-of-dragonknights",
+            "any-temple-interior",
+            "boss-fight-arena"
+          ]
+        },
+        {
+          "id": "dt99-witchlight",
+          "filename": "DT99  WITCHLIGHT FENS, THE - DUNGEON TILES.pdf",
+          "name": "DT99: Witchlight Fens",
+          "pages": 14,
+          "size_mb": 2.6,
+          "aesthetic": "Muted blue-grey swamp water, grey-green moss and algae, dark overcast lighting, organic murky palette",
+          "tile_types": [
+            "swamp/fen open water sections",
+            "bog island tiles",
+            "wooden dock/boardwalk bridge",
+            "stone-and-wood building interior",
+            "open swamp with tree outcroppings",
+            "small wooded island tiles",
+            "rocky outcrops",
+            "fallen log tokens"
+          ],
+          "terrain_features": [
+            "stagnant swamp water",
+            "moss-covered trees",
+            "wooden dock planks",
+            "bog islands",
+            "algae and water plants",
+            "fallen logs",
+            "rocky outcrops",
+            "murky pools",
+            "dead trees"
+          ],
+          "tags": [
+            "swamp",
+            "wetland",
+            "water",
+            "bog",
+            "outdoor",
+            "dock",
+            "hag"
+          ],
+          "northwatch_uses": [
+            "any-wetland-encounter",
+            "hag-lair",
+            "any-coastal-dock"
+          ]
+        },
+        {
+          "id": "du3-caves-carnage",
+          "filename": "DU3 Dungeon Tiles_ Caves of Carnage.pdf",
+          "name": "DU3: Caves of Carnage",
+          "pages": 14,
+          "size_mb": 7.4,
+          "aesthetic": "Very dark and gloomy grey-green cave rock, glowing green acid/slime pools, heavily shadowed, claustrophobic and dangerous",
+          "tile_types": [
+            "irregular cave corridors",
+            "large open cavern chambers",
+            "underground acid/slime pools",
+            "narrow passage strips",
+            "trapped pit (glowing acid floor)",
+            "cave alcoves",
+            "cave junction tiles",
+            "portcullis/bars"
+          ],
+          "terrain_features": [
+            "cave rock walls",
+            "underground acid/slime pools",
+            "bones and skulls",
+            "cave mushrooms",
+            "rubble",
+            "dripping stalactites",
+            "iron bars/portcullis",
+            "cage/prison elements",
+            "blood stains"
+          ],
+          "tags": [
+            "cave",
+            "cavern",
+            "lair",
+            "acid",
+            "gore",
+            "prison",
+            "monster"
+          ],
+          "northwatch_uses": [
+            "croaker-cave",
+            "any-monster-lair",
+            "goblin-lair",
+            "any-cave"
+          ]
+        },
+        {
+          "id": "du4-arcane-towers",
+          "filename": "DU4 Dungeon Tiles_ Arcane Towers.pdf",
+          "name": "DU4: Arcane Towers",
+          "pages": 15,
+          "size_mb": 48.8,
+          "aesthetic": "Cool grey-beige stone masonry, smooth flagstone, scholarly and refined, modest wall-sconce lighting, warm accents on furnishings",
+          "tile_types": [
+            "curved staircase landing tiles",
+            "circular tower room sections",
+            "straight arched-doorway corridors",
+            "rectangular tower rooms",
+            "library/study with bookshelves",
+            "spiral staircase overhead tiles",
+            "L-bend corridors",
+            "balcony/landing tiles"
+          ],
+          "terrain_features": [
+            "spiral staircases",
+            "arched stone corridors",
+            "bookshelves and tomes",
+            "alchemical workbench with potions",
+            "magical glowing portal (blue)",
+            "wooden doors",
+            "iron wall sconces",
+            "fireplace",
+            "rugs and furniture"
+          ],
+          "tags": [
+            "tower",
+            "arcane",
+            "wizard",
+            "library",
+            "laboratory",
+            "curved",
+            "multi-storey"
+          ],
+          "northwatch_uses": [
+            "nokes-tower-wild-sheep-chase",
+            "any-arcane-location",
+            "mage-guild"
+          ]
+        },
+        {
+          "id": "du5-sinister-woods",
+          "filename": "DU5 Dungeon Tiles_ Sinister Woods.pdf",
+          "name": "DU5: Sinister Woods",
+          "pages": 15,
+          "size_mb": 50.8,
+          "aesthetic": "Lush vivid green forest, bright daylight filtering through canopy, rich saturated greens, dense and enclosed",
+          "tile_types": [
+            "dense forest canopy tiles (large)",
+            "forest clearing tiles",
+            "ruined outdoor stone building sections",
+            "forest path/trail corridors",
+            "web-covered forest clearing",
+            "stone ruin interior in woods",
+            "tree cluster scatter tokens"
+          ],
+          "terrain_features": [
+            "dense tree canopies",
+            "large boulders",
+            "giant spider webs",
+            "fallen logs",
+            "dead trees and branches",
+            "forest undergrowth",
+            "mossy stone ruins",
+            "grass clearings",
+            "mushroom clusters"
+          ],
+          "tags": [
+            "forest",
+            "outdoor",
+            "dark",
+            "spider",
+            "ruins",
+            "druid",
+            "sinister"
+          ],
+          "northwatch_uses": [
+            "wolves-of-welton",
+            "any-dark-forest-encounter",
+            "spider-lair",
+            "druid-grove"
+          ]
+        },
+        {
+          "id": "du6-shadowghast",
+          "filename": "DU6 Shadowghast Manor.pdf",
+          "name": "DU6: Shadowghast Manor",
+          "pages": 13,
+          "size_mb": 4.7,
+          "aesthetic": "Cool grey-green stonework, dim amber torch glow, Gothic and funerary, dark oppressive masonry, ornate but decayed tile patterns",
+          "tile_types": [
+            "gravestone/cemetery outdoor section",
+            "circular stone ritual/rotunda floor",
+            "straight stone corridors",
+            "stone staircase tiles",
+            "ornate patterned floor rooms",
+            "large crypt with sarcophagi",
+            "coffin-lined hall",
+            "ancillary rooms"
+          ],
+          "terrain_features": [
+            "headstones and burial markers",
+            "open graves",
+            "sarcophagi",
+            "coffins",
+            "iron door frames",
+            "ornate mosaic floor tiles",
+            "wall torches",
+            "stone stairs",
+            "trap doors"
+          ],
+          "tags": [
+            "manor",
+            "haunted",
+            "crypt",
+            "gothic",
+            "undead",
+            "cemetery",
+            "vampire"
+          ],
+          "notes": "Identical tile content to Shadowghast Manor (alt) — owning both gives duplicate tiles useful for larger layouts.",
+          "northwatch_uses": [
+            "any-manor-encounter",
+            "undead-dungeon",
+            "graveyard-encounter"
+          ]
+        },
+        {
+          "id": "shadowghast-alt",
+          "filename": "Shadowghast Manor - Dungeon Tiles.pdf",
+          "name": "Shadowghast Manor (alternate edition)",
+          "pages": 13,
+          "size_mb": 4.7,
+          "aesthetic": "Identical to DU6",
+          "tile_types": [
+            "same as DU6"
+          ],
+          "terrain_features": [
+            "same as DU6"
+          ],
+          "tags": [
+            "manor",
+            "haunted",
+            "crypt",
+            "gothic",
+            "undead",
+            "cemetery"
+          ],
+          "notes": "Alternate retail packaging of DU6 — same tiles. Duplicate set useful for constructing larger cemetery or crypt layouts without cutting.",
+          "northwatch_uses": [
+            "any-manor-encounter",
+            "undead-dungeon"
+          ]
+        },
+        {
+          "id": "master-dungeon",
+          "filename": "Dungeon Tiles Master Set - The Dungeon_ An Essential.pdf",
+          "name": "Dungeon Tiles Master Set — The Dungeon",
+          "pages": 22,
+          "size_mb": 19.5,
+          "aesthetic": "Desaturated grey-green dungeon stone, gritty painted style, dim ambient light, metal fixtures and rust marks, realistic sober tone",
+          "tile_types": [
+            "large/small rectangular dungeon chambers",
+            "straight corridors wide and narrow",
+            "T-junctions",
+            "L-bends",
+            "4-way crossings",
+            "portcullis/gate tiles",
+            "prison cell tiles",
+            "staircase tiles",
+            "blood-splattered room",
+            "jail with iron bars",
+            "large hall tiles"
+          ],
+          "terrain_features": [
+            "iron bars and portcullises",
+            "manacles on walls",
+            "wall torches",
+            "prison cell furniture",
+            "blood stains",
+            "drain grates",
+            "iron rings",
+            "bench and table"
+          ],
+          "tags": [
+            "dungeon",
+            "stone",
+            "prison",
+            "comprehensive",
+            "master",
+            "modular"
+          ],
+          "northwatch_uses": [
+            "salsvault",
+            "temple-of-dragonknights",
+            "any-dungeon",
+            "prison-escape"
+          ]
+        },
+        {
+          "id": "master-wilderness",
+          "filename": "Dungeon Tiles Master Set - the Wilderness An Essential.pdf",
+          "name": "Dungeon Tiles Master Set — Wilderness",
+          "pages": 21,
+          "size_mb": 4.7,
+          "aesthetic": "Rich natural green fields and blue water, full daylight painterly style, bright and colourful, highly detailed grass texture",
+          "tile_types": [
+            "open grassland plains",
+            "standing-stone henge arena",
+            "river straight sections",
+            "stone bridge over river",
+            "lake/pond tiles",
+            "wooded area tiles",
+            "forest clearing",
+            "dirt road sections",
+            "ravine/earthwork ditch",
+            "hillside slope tiles",
+            "water ford crossing",
+            "scatter tokens"
+          ],
+          "terrain_features": [
+            "standing stones",
+            "rivers and streams",
+            "stone bridges",
+            "ponds and lakes",
+            "trees and bushes",
+            "dirt roads",
+            "earthen ditches",
+            "grassy hillocks",
+            "tree stumps",
+            "scattered rocks"
+          ],
+          "tags": [
+            "wilderness",
+            "outdoor",
+            "forest",
+            "river",
+            "bridge",
+            "road",
+            "comprehensive"
+          ],
+          "northwatch_uses": [
+            "wolves-of-welton",
+            "road-encounters",
+            "pale-sickness-travel",
+            "any-outdoor"
+          ]
+        },
+        {
+          "id": "reincarnated-dungeon",
+          "filename": "Dungeon Tiles Reincarnated - Dungeon.pdf",
+          "name": "Dungeon Tiles Reincarnated — Dungeon",
+          "pages": 34,
+          "size_mb": 9.3,
+          "aesthetic": "Cool blue-grey stone, clean flagstone, higher contrast than originals, magical glowing effects, moonlight-blue ambient tone",
+          "tile_types": [
+            "plain stone floor rooms multiple sizes",
+            "straight corridors",
+            "T-junction/L-bend connectors",
+            "4-way crossings",
+            "circular tower room sections",
+            "spiral staircases",
+            "arched corridors",
+            "large hall with columns",
+            "bed chamber/quarters",
+            "summoning circle room",
+            "diagonal corridor cuts",
+            "portcullis tiles",
+            "prison cell tiles",
+            "rubble collapse tile"
+          ],
+          "terrain_features": [
+            "flagstone floors",
+            "stone pillars",
+            "iron portcullises",
+            "spiral staircases",
+            "arched doorways",
+            "summoning rune circles",
+            "beds and furniture",
+            "magical orbs",
+            "rubble piles",
+            "wall sconces"
+          ],
+          "tags": [
+            "dungeon",
+            "stone",
+            "remastered",
+            "comprehensive",
+            "arcane",
+            "modular",
+            "best-of"
+          ],
+          "northwatch_uses": [
+            "salsvault",
+            "temple-of-dragonknights",
+            "any-dungeon",
+            "mage-tower"
+          ]
+        },
+        {
+          "id": "reincarnated-wilderness",
+          "filename": "Dungeon Tiles Reincarnated - Wilderness.pdf",
+          "name": "Dungeon Tiles Reincarnated — Wilderness",
+          "pages": 34,
+          "size_mb": 11.6,
+          "aesthetic": "Highly varied — green forest, blue water, ochre desert, dark underground in same set; painterly naturalistic style",
+          "tile_types": [
+            "open grassland plains",
+            "river straight/bend/fork sections",
+            "stone bridge crossing",
+            "lake and pond tiles",
+            "forest path with canopy",
+            "dense forest canopy tiles",
+            "swamp/bog tiles",
+            "desert/sandy terrain tiles",
+            "dark underground water",
+            "cave entrance exterior",
+            "scatter tokens",
+            "rowboat token"
+          ],
+          "terrain_features": [
+            "grassy plains",
+            "rivers and lakes",
+            "stone bridges",
+            "dense trees",
+            "swamp vegetation",
+            "desert sand dunes",
+            "cave entrances",
+            "rocky outcrops",
+            "fallen trees",
+            "rowboat/vessel",
+            "standing stones",
+            "mushroom clusters",
+            "underground water"
+          ],
+          "tags": [
+            "wilderness",
+            "outdoor",
+            "forest",
+            "swamp",
+            "desert",
+            "river",
+            "cave-entrance",
+            "comprehensive"
+          ],
+          "notes": "Most diverse single set — covers 6 terrain types: grassland, forest, swamp, desert, water, underground river.",
+          "northwatch_uses": [
+            "wolves-of-welton",
+            "road-encounters",
+            "pale-sickness-travel",
+            "icefield-approach",
+            "any-outdoor",
+            "any-cave-entrance"
+          ]
+        },
+        {
+          "id": "reincarnated-city",
+          "filename": "Dungeon Tiles Reincarnated - City.pdf",
+          "name": "Dungeon Tiles Reincarnated — City",
+          "pages": 34,
+          "size_mb": 11.5,
+          "aesthetic": "Aged grey-brown cobblestone streets with moss and puddles; vivid green-slimed sewers; grey-blue harbour water; gritty urban style with lantern warm-light accents",
+          "tile_types": [
+            "cobblestone street straight/junction/crossroad",
+            "city sewer corridors (green algae)",
+            "sewer junction tiles",
+            "harbour dock/pier sections",
+            "wooden warehouse interior",
+            "canal/waterway tiles",
+            "city square/plaza",
+            "building facade exterior",
+            "fountain/market square",
+            "inn/tavern interior"
+          ],
+          "terrain_features": [
+            "cobblestone streets",
+            "sewer grates and channels",
+            "algae-covered sewer walls",
+            "dock pilings",
+            "water channels",
+            "market stalls",
+            "stone walls",
+            "puddles and moss",
+            "wooden planks and docks"
+          ],
+          "tags": [
+            "city",
+            "urban",
+            "streets",
+            "sewer",
+            "harbour",
+            "dock",
+            "market",
+            "comprehensive"
+          ],
+          "notes": "Only dedicated urban set in the library. Sewer section has full modular connectivity.",
+          "northwatch_uses": [
+            "pinebrook",
+            "any-urban-encounter",
+            "harbour-dock-encounter",
+            "sewer-chase"
+          ]
+        }
+      ],
+      "tactical_maps_reincarnated": {
+        "notes": "22 full-colour double-sided poster maps. Physical product owned. Maps sourced from classic D&D adventures.",
+        "maps": [
+          {
+            "id": "tmr-01",
+            "name": "Green Valley Pass (King's Road)",
+            "terrain": "countryside road",
+            "tags": [
+              "road",
+              "outdoor",
+              "temperate",
+              "travel"
+            ],
+            "northwatch_uses": [
+              "wolves-of-welton-approach",
+              "any-road-encounter"
+            ]
+          },
+          {
+            "id": "tmr-02",
+            "name": "Farmer's Road (Harkenwold)",
+            "terrain": "rural farmstead and road",
+            "tags": [
+              "road",
+              "farm",
+              "outdoor",
+              "temperate"
+            ],
+            "northwatch_uses": [
+              "westly-farm",
+              "any-rural-encounter"
+            ]
+          },
+          {
+            "id": "tmr-03",
+            "name": "Busy Town Street",
+            "terrain": "urban street",
+            "tags": [
+              "city",
+              "street",
+              "urban"
+            ],
+            "northwatch_uses": [
+              "pinebrook",
+              "any-urban-encounter"
+            ]
+          },
+          {
+            "id": "tmr-04",
+            "name": "Decrepit Bridge",
+            "terrain": "ruined bridge",
+            "tags": [
+              "bridge",
+              "ruins",
+              "outdoor"
+            ],
+            "northwatch_uses": [
+              "any-bridge-encounter"
+            ]
+          },
+          {
+            "id": "tmr-05",
+            "name": "Ruined Town (Vor Rukoth)",
+            "terrain": "ruined settlement",
+            "tags": [
+              "ruins",
+              "town",
+              "outdoor"
+            ],
+            "northwatch_uses": [
+              "any-ruined-settlement"
+            ]
+          },
+          {
+            "id": "tmr-06",
+            "name": "Modest Keep",
+            "terrain": "castle gatehouse",
+            "tags": [
+              "castle",
+              "fortification",
+              "outdoor"
+            ],
+            "northwatch_uses": [
+              "any-fortification"
+            ]
+          },
+          {
+            "id": "tmr-07",
+            "name": "Abandoned Fort (Moathouse)",
+            "terrain": "ruined fort/moathouse",
+            "tags": [
+              "ruins",
+              "fort",
+              "outdoor"
+            ],
+            "northwatch_uses": [
+              "temple-of-dragonknights-approach",
+              "any-ruin"
+            ]
+          },
+          {
+            "id": "tmr-08",
+            "name": "Snowy City Gate",
+            "terrain": "winter urban gate",
+            "tags": [
+              "winter",
+              "snow",
+              "city",
+              "gate",
+              "urban"
+            ],
+            "northwatch_uses": [
+              "palebank-village",
+              "any-winter-urban"
+            ]
+          },
+          {
+            "id": "tmr-09",
+            "name": "Ice Flower Dugout (Icingdeath's Lair)",
+            "terrain": "frozen ice cave / crevasse",
+            "tags": [
+              "winter",
+              "snow",
+              "ice",
+              "cave",
+              "lair"
+            ],
+            "northwatch_uses": [
+              "pale-sickness-icefield",
+              "any-ice-cave"
+            ]
+          },
+          {
+            "id": "tmr-10",
+            "name": "Bandit's Checkpoint (Vaults of the Underdark)",
+            "terrain": "underground checkpoint",
+            "tags": [
+              "underground",
+              "dungeon",
+              "checkpoint"
+            ],
+            "northwatch_uses": [
+              "salsvault",
+              "any-dungeon"
+            ]
+          },
+          {
+            "id": "tmr-11",
+            "name": "Arcane Hideout (Vaults of the Underdark)",
+            "terrain": "underground arcane lair",
+            "tags": [
+              "underground",
+              "arcane",
+              "lair",
+              "dungeon"
+            ],
+            "northwatch_uses": [
+              "salsvault",
+              "any-arcane-dungeon"
+            ]
+          },
+          {
+            "id": "tmr-12",
+            "name": "Underdark Caverns (Vaults of the Underdark)",
+            "terrain": "underdark cave complex",
+            "tags": [
+              "cave",
+              "underdark",
+              "underground",
+              "cavern"
+            ],
+            "northwatch_uses": [
+              "croaker-cave",
+              "any-cave"
+            ]
+          },
+          {
+            "id": "tmr-13",
+            "name": "Mushroom Grotto (Vaults of the Underdark)",
+            "terrain": "underground mushroom grotto",
+            "tags": [
+              "cave",
+              "underdark",
+              "mushroom",
+              "grotto"
+            ],
+            "northwatch_uses": [
+              "any-cave",
+              "any-underdark"
+            ]
+          },
+          {
+            "id": "tmr-14",
+            "name": "Volcanic Treasure Trove",
+            "terrain": "volcanic lava environment",
+            "tags": [
+              "lava",
+              "volcanic",
+              "treasure",
+              "lair"
+            ],
+            "northwatch_uses": [
+              "any-boss-lair"
+            ]
+          },
+          {
+            "id": "tmr-15",
+            "name": "Red Dragon Lair",
+            "terrain": "volcanic dragon lair",
+            "tags": [
+              "lava",
+              "volcanic",
+              "dragon",
+              "lair"
+            ],
+            "northwatch_uses": [
+              "any-boss-lair"
+            ]
+          },
+          {
+            "id": "tmr-16",
+            "name": "Bloodstone Clearing",
+            "terrain": "wilderness clearing",
+            "tags": [
+              "outdoor",
+              "clearing",
+              "wilderness"
+            ],
+            "northwatch_uses": [
+              "any-outdoor-encounter"
+            ]
+          },
+          {
+            "id": "tmr-17",
+            "name": "Sapphire Shrine",
+            "terrain": "magical shrine",
+            "tags": [
+              "shrine",
+              "magical",
+              "outdoor"
+            ],
+            "northwatch_uses": [
+              "any-magical-location"
+            ]
+          },
+          {
+            "id": "tmr-18",
+            "name": "Forgotten Road (Red Hand of Doom)",
+            "terrain": "wilderness road with cottage ruin",
+            "tags": [
+              "road",
+              "outdoor",
+              "ruins",
+              "cottage"
+            ],
+            "northwatch_uses": [
+              "wolves-of-welton-approach",
+              "any-road-encounter"
+            ]
+          },
+          {
+            "id": "tmr-19",
+            "name": "Draconic Shrine (Red Hand of Doom)",
+            "terrain": "dragon-themed outdoor shrine",
+            "tags": [
+              "shrine",
+              "outdoor",
+              "dragon",
+              "ruins"
+            ],
+            "northwatch_uses": [
+              "temple-of-dragonknights",
+              "any-shrine"
+            ]
+          },
+          {
+            "id": "tmr-20",
+            "name": "Portal Chamber (Tomb of Horrors)",
+            "terrain": "dungeon cave chamber with portal",
+            "tags": [
+              "dungeon",
+              "cave",
+              "portal",
+              "arcane"
+            ],
+            "northwatch_uses": [
+              "salsvault",
+              "any-arcane-dungeon"
+            ]
+          },
+          {
+            "id": "tmr-21",
+            "name": "Temple of the Dragon Gems (Demon Queen's Enclave)",
+            "terrain": "dungeon temple",
+            "tags": [
+              "temple",
+              "dungeon",
+              "dragon",
+              "gems"
+            ],
+            "northwatch_uses": [
+              "temple-of-dragonknights"
+            ]
+          },
+          {
+            "id": "tmr-22",
+            "name": "Throne of Death and Despair",
+            "terrain": "dungeon throne room boss encounter",
+            "tags": [
+              "dungeon",
+              "throne",
+              "boss",
+              "undead"
+            ],
+            "northwatch_uses": [
+              "any-boss-encounter",
+              "any-dungeon"
+            ]
+          }
+        ],
+        "winter_maps": [
+          "tmr-08",
+          "tmr-09"
+        ],
+        "cave_maps": [
+          "tmr-09",
+          "tmr-10",
+          "tmr-11",
+          "tmr-12",
+          "tmr-13",
+          "tmr-20"
+        ],
+        "dungeon_maps": [
+          "tmr-10",
+          "tmr-11",
+          "tmr-20",
+          "tmr-21",
+          "tmr-22"
+        ],
+        "outdoor_maps": [
+          "tmr-01",
+          "tmr-02",
+          "tmr-04",
+          "tmr-05",
+          "tmr-06",
+          "tmr-07",
+          "tmr-16",
+          "tmr-17",
+          "tmr-18",
+          "tmr-19"
+        ],
+        "urban_maps": [
+          "tmr-03",
+          "tmr-08"
+        ]
+      }
+    },
+    "downloaded_maps": {
+      "path": "C:\\Users\\joshu\\OneDrive\\Documents\\dnd\\07 - Maps\\downloads",
+      "source": "The Fateful Force (thefatefulforce.com) — all maps free, direct download, no account required",
+      "folders": {
+        "winter": [
+          {
+            "id": "dl-frozen-forest",
+            "file": "bheur-hag-frozen-forest.zip",
+            "name": "Bheur Hag Frozen Forest",
+            "size": "70x97",
+            "terrain": "winter forest, snow",
+            "northwatch_uses": [
+              "wolves-of-welton-winter",
+              "pale-sickness-travel",
+              "icefield-encounter"
+            ]
+          }
+        ],
+        "dungeon-cave": [
+          {
+            "id": "dl-wave-echo",
+            "file": "wave-echo-cavern.zip",
+            "name": "Wave Echo Cavern",
+            "size": "70x90",
+            "terrain": "large cave system, multi-room",
+            "northwatch_uses": [
+              "croaker-cave",
+              "salsvault-inspiration"
+            ]
+          },
+          {
+            "id": "dl-dwarven-mine",
+            "file": "dwarven-mine-lost-shrine.zip",
+            "name": "Dwarven Mine Complex & Lost Shrine",
+            "size": "78x62 + 50x62",
+            "terrain": "underground mine, shrine",
+            "northwatch_uses": [
+              "salsvault",
+              "any-dungeon"
+            ]
+          },
+          {
+            "id": "dl-lost-tomb",
+            "file": "lost-tomb.zip",
+            "name": "Lost Tomb",
+            "size": "40x49",
+            "terrain": "tomb, dungeon",
+            "northwatch_uses": [
+              "temple-of-dragonknights",
+              "any-tomb"
+            ]
+          },
+          {
+            "id": "dl-dungeon-prison",
+            "file": "dungeon-prison.zip",
+            "name": "Dungeon Prison",
+            "size": "28x29",
+            "terrain": "dungeon interior, prison",
+            "northwatch_uses": [
+              "any-dungeon"
+            ]
+          },
+          {
+            "id": "dl-lichs-lair",
+            "file": "lichs-lair.zip",
+            "name": "Lich's Lair",
+            "size": "60x50",
+            "terrain": "boss dungeon lair",
+            "northwatch_uses": [
+              "any-boss-dungeon"
+            ]
+          }
+        ],
+        "tavern-inn": [
+          {
+            "id": "dl-smiling-orc",
+            "file": "smiling-orc-inn.zip",
+            "name": "Smiling Orc Inn",
+            "size": "50x40",
+            "terrain": "tavern interior, multi-room",
+            "northwatch_uses": [
+              "waystone-inn",
+              "jolly-dwarf-palebank",
+              "any-inn"
+            ]
+          },
+          {
+            "id": "dl-blue-water-inn",
+            "file": "blue-water-inn.zip",
+            "name": "Blue Water Inn",
+            "size": "31x43",
+            "terrain": "inn interior, multi-floor",
+            "northwatch_uses": [
+              "waystone-inn",
+              "jolly-dwarf-palebank"
+            ]
+          },
+          {
+            "id": "dl-sleeping-giant",
+            "file": "sleeping-giant-tap-room.zip",
+            "name": "Sleeping Giant Tap Room",
+            "size": "30x30",
+            "terrain": "tavern common room",
+            "northwatch_uses": [
+              "any-tavern"
+            ]
+          }
+        ],
+        "forest-outdoor": [
+          {
+            "id": "dl-generic-forest",
+            "file": "generic-forest.zip",
+            "name": "Generic Forest Maps",
+            "size": "30x30",
+            "terrain": "temperate forest, multiple variants",
+            "northwatch_uses": [
+              "wolves-of-welton",
+              "any-forest-encounter"
+            ]
+          },
+          {
+            "id": "dl-druid-grove",
+            "file": "druid-grove.zip",
+            "name": "Druid Grove",
+            "size": "30x30",
+            "terrain": "sacred forest clearing",
+            "northwatch_uses": [
+              "forest-encounter"
+            ]
+          },
+          {
+            "id": "dl-cabin-woods",
+            "file": "cabin-in-woods.zip",
+            "name": "Cabin in the Woods",
+            "size": "30x30",
+            "terrain": "wilderness cabin exterior/interior",
+            "northwatch_uses": [
+              "westly-farm",
+              "any-isolated-building"
+            ]
+          },
+          {
+            "id": "dl-bandit-camp",
+            "file": "bandit-camp.zip",
+            "name": "Forest Bandit Camp",
+            "size": "40x40",
+            "terrain": "forest camp, tents",
+            "northwatch_uses": [
+              "any-camp-encounter"
+            ]
+          },
+          {
+            "id": "dl-cliff-outpost",
+            "file": "cliff-outpost.zip",
+            "name": "Cliff Outpost",
+            "size": "50x50",
+            "terrain": "cliff edge, outpost structures",
+            "northwatch_uses": [
+              "pale-sickness-coastal",
+              "any-outpost"
+            ]
+          },
+          {
+            "id": "dl-river-fort",
+            "file": "river-fort.zip",
+            "name": "River Fort",
+            "size": "70x50",
+            "terrain": "fortress, river, outdoor",
+            "northwatch_uses": [
+              "any-fortress"
+            ]
+          }
+        ],
+        "village-coastal": [
+          {
+            "id": "dl-fishing-hamlet",
+            "file": "fishing-hamlet.zip",
+            "name": "Fishing Hamlet",
+            "size": "49x41",
+            "terrain": "coastal village, docks, buildings",
+            "northwatch_uses": [
+              "palebank-village"
+            ]
+          },
+          {
+            "id": "dl-village-barovia",
+            "file": "village-of-barovia.zip",
+            "name": "Village of Barovia",
+            "size": "large",
+            "terrain": "gothic village, streets, buildings",
+            "northwatch_uses": [
+              "pinebrook",
+              "any-village"
+            ]
+          }
+        ],
+        "ruins-temple": [
+          {
+            "id": "dl-temple-ruins",
+            "file": "temple-ruins.zip",
+            "name": "Temple Ruins",
+            "size": "37x47",
+            "terrain": "outdoor ruined temple",
+            "northwatch_uses": [
+              "temple-of-dragonknights-exterior"
+            ]
+          },
+          {
+            "id": "dl-abandoned-ruins",
+            "file": "abandoned-ruins.zip",
+            "name": "Abandoned Ruins",
+            "size": "30x30",
+            "terrain": "small ruined structure",
+            "northwatch_uses": [
+              "any-ruin-encounter"
+            ]
+          },
+          {
+            "id": "dl-ferghail-ziggurat",
+            "file": "ferghail-ziggurat.zip",
+            "name": "Ferghail Ziggurat Temple",
+            "size": "114x100",
+            "terrain": "massive temple complex",
+            "northwatch_uses": [
+              "temple-of-dragonknights"
+            ]
+          },
+          {
+            "id": "dl-graveyard",
+            "file": "heroes-rest-graveyard.zip",
+            "name": "Heroes' Rest Graveyard",
+            "size": "30x30",
+            "terrain": "graveyard, outdoor",
+            "northwatch_uses": [
+              "any-undead-encounter"
+            ]
+          },
+          {
+            "id": "dl-undercrypt",
+            "file": "heroes-rest-undercrypt.zip",
+            "name": "Heroes' Rest Undercrypt",
+            "size": "30x30",
+            "terrain": "crypt, underground",
+            "northwatch_uses": [
+              "any-crypt"
+            ]
+          },
+          {
+            "id": "dl-wizard-tower",
+            "file": "wizard-tower.zip",
+            "name": "Wizard Tower",
+            "size": "34x34",
+            "terrain": "tower interior, multi-floor",
+            "northwatch_uses": [
+              "nokes-tower-wild-sheep-chase"
+            ]
+          }
+        ],
+        "road-ambush": [
+          {
+            "id": "dl-goblin-ambush",
+            "file": "goblin-ambush.zip",
+            "name": "Goblin Ambush",
+            "size": "40x30",
+            "terrain": "outdoor road ambush",
+            "northwatch_uses": [
+              "wolves-of-welton-approach",
+              "any-road-ambush"
+            ]
+          },
+          {
+            "id": "dl-roadside-ambush",
+            "file": "roadside-ambush.zip",
+            "name": "Roadside Ambush",
+            "size": "25x20",
+            "terrain": "road, trees, ambush site",
+            "northwatch_uses": [
+              "any-road-ambush"
+            ]
+          },
+          {
+            "id": "dl-toll-bridge",
+            "file": "toll-bridge.zip",
+            "name": "Toll Bridge",
+            "size": "45x40",
+            "terrain": "river bridge, road",
+            "northwatch_uses": [
+              "any-bridge-encounter"
+            ]
+          },
+          {
+            "id": "dl-boareskyr-bridge",
+            "file": "boareskyr-bridge.zip",
+            "name": "Boareskyr Bridge",
+            "size": "70x60",
+            "terrain": "large stone bridge, river",
+            "northwatch_uses": [
+              "any-bridge-encounter"
+            ]
+          },
+          {
+            "id": "dl-cragmaw-hideout",
+            "file": "cragmaw-hideout.zip",
+            "name": "Cragmaw Hideout",
+            "size": "30x21",
+            "terrain": "cave hideout, bandit lair",
+            "northwatch_uses": [
+              "croaker-cave",
+              "any-bandit-hideout"
+            ]
+          }
+        ]
+      },
+      "online_sources": {
+        "notes": "For additional maps not yet downloaded. All free tier.",
+        "sources": [
+          {
+            "name": "The Fateful Force",
+            "url": "https://thefatefulforce.com/battle-resources/battle-maps/",
+            "model": "free direct download, no account",
+            "best_for": [
+              "dungeon",
+              "cave",
+              "inn",
+              "forest",
+              "village",
+              "ruins",
+              "road"
+            ]
+          },
+          {
+            "name": "2-Minute Tabletop",
+            "url": "https://2minutetabletop.com/product-category/free/",
+            "model": "pay-what-you-want (free at $0), checkout required",
+            "best_for": [
+              "winter",
+              "dungeon",
+              "cave",
+              "tavern",
+              "wilderness"
+            ],
+            "recommended": [
+              {
+                "name": "Winter Wilderness",
+                "url": "https://2minutetabletop.com/product/winter-wilderness/",
+                "terrain": "winter outdoor"
+              },
+              {
+                "name": "Frozen Lake",
+                "url": "https://2minutetabletop.com/frozen-lake-battle-map/",
+                "terrain": "frozen water"
+              },
+              {
+                "name": "Dwarven Tavern",
+                "url": "https://2minutetabletop.com/product/dwarven-tavern/",
+                "terrain": "tavern interior"
+              },
+              {
+                "name": "Wave Echo Cavern (Living Depths)",
+                "url": "https://2minutetabletop.com/product/living-depths-pt-1/",
+                "terrain": "cave"
+              },
+              {
+                "name": "Crystal Crypts",
+                "url": "https://2minutetabletop.com/product/crystal-crypts/",
+                "terrain": "crypt dungeon"
+              }
+            ]
+          },
+          {
+            "name": "Rune Foundry Winter Pack",
+            "url": "https://runefoundry.com/products/winter-snow-battle-map-pack",
+            "model": "free, checkout required",
+            "includes": [
+              "Arctic Coast",
+              "Snow Cave",
+              "Snowy Town",
+              "Snowy Village",
+              "Winter Camp",
+              "Winter Hot Springs"
+            ],
+            "best_for": [
+              "winter",
+              "snow",
+              "coastal",
+              "village"
+            ]
+          }
+        ]
+      }
+    },
+    "quick_reference": {
+      "winter_outdoor": [
+        "tablecloth-snow-field",
+        "tablecloth-snow-river",
+        "tmr-wilderness"
+      ],
+      "cave_dungeon": [
+        "dt5-lost-caverns",
+        "du3-caves-carnage",
+        "gh-room-medium",
+        "gh-corridor-small",
+        "master-dungeon",
+        "reincarnated-dungeon"
+      ],
+      "forest_road": [
+        "map-144",
+        "map-130",
+        "du5-sinister-woods",
+        "master-wilderness",
+        "tmr-wilderness"
+      ],
+      "ruins_temple": [
+        "map-286",
+        "dt4-ruins-wild",
+        "dt7-fane",
+        "dt6-dire-tombs"
+      ],
+      "tavern_interior": [
+        "map-178"
+      ],
+      "any_dungeon_fast": [
+        "master-dungeon",
+        "reincarnated-dungeon",
+        "gh-room-small",
+        "gh-room-medium"
+      ],
+      "croaker_cave": [
+        "dt5-lost-caverns",
+        "du3-caves-carnage",
+        "gh-room-medium",
+        "gh-corridor-small"
+      ],
+      "salsvault": [
+        "master-dungeon",
+        "reincarnated-dungeon",
+        "dt7-fane",
+        "gh-room-large"
+      ],
+      "temple_of_dragonknights": [
+        "map-286",
+        "dt7-fane",
+        "dt6-dire-tombs",
+        "reincarnated-dungeon"
+      ],
+      "palebank_village": [
+        "tablecloth-snow-field",
+        "master-wilderness",
+        "map-178"
+      ]
+    }
+  }
+}

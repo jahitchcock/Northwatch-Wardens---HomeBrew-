@@ -10,6 +10,8 @@ tags: [minor, recurring]
 
 ## Profile
 
+![portrait](/portraits/KorrinShale.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** White-bearded dwarf whose beard genuinely has small icicles frozen into it — a look he insists is deliberate fashion — wearing a seal-fur coat that smells of cold water and fish brine.
 
 **Voice:** Doomsaying delivered cheerfully, as though bad news is the funniest thing he's heard all week.
@@ -28,4 +30,21 @@ Korrin is the first person in Palebank to mention the "voices in the ice" — de
 
 ## Stat Block Reference
 
-`[Commoner]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

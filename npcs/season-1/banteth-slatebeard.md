@@ -11,6 +11,8 @@ tags: [ally, neutral]
 
 ## Profile
 
+![Banteth Slatebeard](https://i.imgur.com/EI33MV8.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A broad dwarf man with a floury apron and the comfortable manner of someone who has decided that the best response to most problems is a hot meal and a moment to breathe.
 
 **Voice:** Unhurried and even, with a gentle humor that never sharpens into sarcasm.
@@ -33,6 +35,21 @@ He is fundamentally honest and fundamentally kind. Do not make him a pushover �
 
 ## Stat Block Reference
 
-`[Commoner stat block; no combat role]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (10 XP)
 
-![Banteth Slatebeard](https://i.imgur.com/EI33MV8.jpg)
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

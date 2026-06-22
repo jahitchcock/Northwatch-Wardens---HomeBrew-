@@ -42,13 +42,13 @@ The inn's foundation incorporates Aevorian materials from ruins cleared by the f
 ## Adventure Connections
 
 - **Wolves at the Waystone** — The inn is the departure point and return anchor for this opening adventure; the contract board and common room serve as briefing and debrief spaces.
-- **Wild Sheep Chase** — Party is dispatched from here to investigate reports of enchanted livestock near Noke's Tower.
+- **Wild Sheep Chase** — Party is dispatched from here to investigate reports of enchanted livestock near [Noke's Tower](loc:locations/northreach/nokes-tower.md).
 
 ---
 
 ## DM Secrets
 
-**The Waystone's True Nature:** The stone was originally an Aevorian facility location marker. When Aevor crashed, it survived as a beacon. The current reactivation of Aevorian technology is making it active again — it is now communicating with other sites, including Salsvault. Elric has recognized the script and secretly documented seven instances of unusual resonance, but has not told Brenna.
+**The Waystone's True Nature:** The stone was originally an Aevorian facility location marker. When Aevor crashed, it survived as a beacon. The current reactivation of Aevorian technology is making it active again — it is now communicating with other sites, including [Salsvault](loc:locations/northreach/salsvault.md). Elric has recognized the script and secretly documented seven instances of unusual resonance, but has not told Brenna.
 
 **Hidden Spaces:**
 - *Brenna's Hidden Office* — Behind a bookshelf in her quarters. Contains encrypted correspondence, maps marking suspected Aevorian sites, a 15-year journal documenting patterns, and contingency evacuation plans.

@@ -10,6 +10,8 @@ tags: [minor, recurring, traveler, merchant]
 
 ## Profile
 
+![portrait](/portraits/RendalKeenwhistle.png) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** Balding halfling with impressive sideburns pushing a cart piled with tools, small mechanisms, and oddities — always with something interesting sitting on top and something more interesting underneath.
 
 **Voice:** Chatty and affably curious — he asks about everyone's business while appearing to volunteer his own freely, though nothing he says about himself is quite complete.
@@ -28,4 +30,21 @@ Rendal appears in multiple locations across the campaign — he is always plausi
 
 ## Stat Block Reference
 
-`[Commoner / Spy]`
+**Commoner** · *Medium humanoid (any race), any alignment* · CR 0 (0 XP)
+
+| | |
+|---|---|
+| **Armor Class** | 10 |
+| **Hit Points** | 4 (1d8) |
+| **Speed** | 30 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) | 10 (+0) |
+
+**Senses** passive Perception 10
+**Languages** any one language (usually Common)
+
+**Actions**
+
+**Club.** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.

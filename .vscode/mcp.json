@@ -13,6 +13,12 @@
       "command": "npx",
       "args": ["-y", "jazzsequence-5emcp"],
       "description": "D&D 5e reference server - spells, monsters, items, races, classes, feats, encounter builder, CR calculator"
+    },
+    "image-gen": {
+      "type": "stdio",
+      "command": "f:\\NewProject\\image-gen\\.venv\\Scripts\\python.exe",
+      "args": ["f:\\NewProject\\image-gen\\mcp_server.py"],
+      "description": "Local Stable Diffusion image generation via ComfyUI — portraits, scenes, NPC art"
     }
   }
 }

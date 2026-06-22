@@ -11,6 +11,8 @@ tags: [creature, recurring, hostile, neutral]
 
 ## Profile
 
+![Flame](https://i.imgur.com/J4lh2Bs.jpg) {width:130px,float:right,margin:"0 0 10px 15px"}
+
 **Appearance:** A large tawny wolf with a burn scar along one shoulder that has never fully healed; she moves with deliberate, contained energy that looks like it is always about two seconds from becoming something else.
 
 **Voice:** Fluent, cutting, and impatient — she has mastered language faster than Bolt and uses it like a tool for winning arguments.
@@ -40,6 +42,28 @@ If the Welton arc gave Flame what she wanted, she is a powerful regional faction
 
 ## Stat Block Reference
 
-`[Use Awakened Wolf: base Wolf stat block (MM p.341) + Intelligence 12, speaks Common, additional combat options at DM discretion]`
+**Awakened Wolf (Alpha)** · *Medium beast, neutral* · CR 1 (200 XP)
 
-![Flame](https://i.imgur.com/J4lh2Bs.jpg)
+| | |
+|---|---|
+| **Armor Class** | 13 (natural armor) |
+| **Hit Points** | 22 (4d8 + 4) |
+| **Speed** | 40 ft. |
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 (+2) | 15 (+2) | 12 (+1) | 12 (+1) | 13 (+1) | 8 (−1) |
+
+**Skills** Perception +5, Stealth +4
+**Senses** passive Perception 15
+**Languages** Common (can speak)
+
+**Keen Hearing and Smell.** The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+
+**Pack Tactics.** The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+**Actions**
+
+**Bite.** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+
+**Terrifying Howl.** Each creature within 30 ft. that can hear the wolf must succeed on a DC 11 Wisdom saving throw or be frightened until the end of its next turn.

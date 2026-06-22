@@ -1,0 +1,95 @@
+<h2>Section 2: Footer Bar UI</h2>
+<p class="subtitle">How the persistent sound bar looks at the bottom of the DM Panel</p>
+
+<div class="mockup">
+  <div class="mockup-header">DM Panel — Footer Bar (normal state)</div>
+  <div class="mockup-body" style="padding:0;background:#0d0d0d;">
+
+    <!-- Simulated panel content above -->
+    <div style="background:#1a1a1a;padding:20px 24px;font-size:12px;color:#555;min-height:60px;display:flex;align-items:center;justify-content:center;">
+      …DM Panel content (file viewer / tracker / combat tracker)…
+    </div>
+
+    <!-- The footer bar -->
+    <div style="
+      background:#0d0d0d;
+      border-top:1px solid #2a2a2a;
+      padding:7px 16px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-family:'Segoe UI',sans-serif;
+      font-size:12px;
+    ">
+      <!-- Icon + scene name -->
+      <span style="color:#cba6f7;font-size:14px">♪</span>
+      <span style="color:#f5f0e8;min-width:120px">Tavern — Waystone Inn</span>
+
+      <!-- Play/Stop -->
+      <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 12px;border-radius:3px;cursor:pointer;font-size:11px">■ Stop</button>
+
+      <!-- Quick scene buttons -->
+      <div style="display:flex;gap:5px;margin-left:4px">
+        <button style="background:#2a1a3a;border:1px solid #6c3d8c;color:#cba6f7;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Tavern</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Forest</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Dungeon</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Combat</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Cave</button>
+        <button style="background:none;border:1px solid #333;color:#555;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">+ More…</button>
+      </div>
+
+      <!-- Volume -->
+      <div style="margin-left:auto;display:flex;align-items:center;gap:8px;color:#888;font-size:11px">
+        <span>🔊</span>
+        <input type="range" min="0" max="100" value="70" style="width:70px;accent-color:#cba6f7">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="mockup" style="margin-top:20px">
+  <div class="mockup-header">Suggestion state — you opened "waystone-inn.md"</div>
+  <div class="mockup-body" style="padding:0;background:#0d0d0d;">
+
+    <div style="background:#1a1a1a;padding:20px 24px;font-size:12px;color:#555;min-height:40px;display:flex;align-items:center;justify-content:center;">
+      …viewing waystone-inn.md…
+    </div>
+
+    <div style="
+      background:#0d0d0d;
+      border-top:1px solid #2a2a2a;
+      padding:7px 16px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-family:'Segoe UI',sans-serif;
+      font-size:12px;
+    ">
+      <span style="color:#cba6f7;font-size:14px">♪</span>
+      <span style="color:#666;min-width:120px;font-style:italic">— stopped —</span>
+
+      <button style="background:#313244;border:none;color:#cdd6f4;padding:4px 12px;border-radius:3px;cursor:pointer;font-size:11px">▶ Play</button>
+
+      <div style="display:flex;gap:5px;margin-left:4px;align-items:center">
+        <!-- Suggested scene is highlighted with a subtle pulse/glow -->
+        <button style="background:#1a2a1a;border:1px solid #4a7a4a;color:#a6e3a1;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer" title="Suggested for this file">
+          Tavern ✦
+        </button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Forest</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Dungeon</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Combat</button>
+        <button style="background:none;border:1px solid #333;color:#666;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">Cave</button>
+        <button style="background:none;border:1px solid #333;color:#555;border-radius:3px;padding:3px 10px;font-size:11px;cursor:pointer">+ More…</button>
+        <span style="color:#666;font-size:10px;margin-left:4px;font-style:italic">suggested for this file</span>
+      </div>
+
+      <div style="margin-left:auto;display:flex;align-items:center;gap:8px;color:#888;font-size:11px">
+        <span>🔊</span>
+        <input type="range" min="0" max="100" value="70" style="width:70px;accent-color:#cba6f7">
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:16px">The "More…" button opens a full scene picker modal with all bundled + custom scenes listed.</p>
