@@ -660,6 +660,8 @@
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
+      <button id="btn-novels" class="tab" title="Open novel reader">📖 Novels</button>
+      <button id="btn-lore" class="tab" title="Semantic lore search (RAG)">🔮 Lore</button>
         <option value="6">6</option>
       </select>
     </div>
@@ -879,3 +881,44 @@
   </div>
 </body>
 </html>
+
+  <!-- Lore RAG semantic-search modal (self-contained) -->
+  <style>
+    #lore-modal{position:fixed;inset:0;z-index:9000;display:none;background:rgba(0,0,0,.55);}
+    #lore-modal.open{display:flex;align-items:flex-start;justify-content:center;}
+    #lore-box{margin-top:6vh;width:min(860px,94vw);max-height:86vh;display:flex;flex-direction:column;
+      background:#1b1b1f;color:#e8e6e0;border:1px solid #3a3a42;border-radius:10px;overflow:hidden;
+      box-shadow:0 12px 48px rgba(0,0,0,.5);font-size:14px;}
+    #lore-hd{display:flex;gap:8px;align-items:center;padding:10px 12px;border-bottom:1px solid #3a3a42;flex-wrap:wrap;}
+    #lore-hd h3{margin:0;font-size:15px;font-weight:600;flex:0 0 auto;}
+    #lore-q{flex:1 1 220px;min-width:160px;padding:7px 10px;border-radius:6px;border:1px solid #4a4a54;
+      background:#111;color:#fff;}
+    #lore-modal select,#lore-modal button{padding:7px 10px;border-radius:6px;border:1px solid #4a4a54;
+      background:#2a2a32;color:#e8e6e0;cursor:pointer;}
+    #lore-hd label{display:flex;gap:4px;align-items:center;font-size:12px;opacity:.85;cursor:pointer;}
+    #lore-go{background:#3b5bdb;border-color:#3b5bdb;color:#fff;}
+    #lore-body{padding:12px;overflow:auto;}
+    #lore-answer{white-space:pre-wrap;line-height:1.5;background:#15150f;border:1px solid #4a4626;
+      border-radius:6px;padding:12px;margin-bottom:14px;}
+    .lore-hit{border:1px solid #33333b;border-radius:6px;padding:8px 10px;margin-bottom:8px;background:#161619;}
+    .lore-hit-head{font-size:12px;color:#9fb4e0;margin-bottom:4px;display:flex;justify-content:space-between;gap:8px;}
+    .lore-score{color:#7a7a86;}
+    .lore-hit-text{white-space:pre-wrap;margin:0;font-size:13px;line-height:1.45;max-height:220px;overflow:auto;}
+    #lore-status{opacity:.7;font-size:13px;}
+  </style>
+  <div id="lore-modal">
+    <div id="lore-box">
+      <div id="lore-hd">
+        <h3>🔮 Lore</h3>
+        <input id="lore-q" type="text" placeholder="Search Aevorian lore…" autocomplete="off">
+        <select id="lore-collection" title="campaign = full canon · novels = firewalled deep-time lore">
+          <option value="campaign">Campaign</option>
+          <option value="novels">Novels</option>
+        </select>
+        <label title="Draft a grounded answer with the local LM Studio model"><input id="lore-ask" type="checkbox"> Write</label>
+        <button id="lore-go">Search</button>
+        <button id="lore-close" title="Close">✕</button>
+      </div>
+      <div id="lore-body"><div id="lore-status">Type a query and press Enter.</div></div>
+    </div>
+  </div>

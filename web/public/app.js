@@ -4721,3 +4721,57 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 })();
+
+// ─── Lore RAG modal (semantic search + optional grounded generation) ───────────
+(function initLoreSearch() {
+  const modal = document.getElementById('lore-modal');
+  const openBtn = document.getElementById('btn-lore');
+  if (!modal || !openBtn) return;
+  const q = document.getElementById('lore-q');
+  const coll = document.getElementById('lore-collection');
+  const askBox = document.getElementById('lore-ask');
+  const go = document.getElementById('lore-go');
+  const closeBtn = document.getElementById('lore-close');
+  const body = document.getElementById('lore-body');
+
+  const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  const status = t => { body.innerHTML = '<div id="lore-status">' + esc(t) + '</div>'; };
+
+  function open() { modal.classList.add('open'); q.focus(); q.select(); }
+  function close() { modal.classList.remove('open'); }
+
+  async function run() {
+    const query = q.value.trim();
+    if (!query) return;
+    const ask = askBox.checked;
+    status(ask ? 'Writing with local model… (first run may load the model)' : 'Searching…');
+    try {
+      const r = await fetch(ask ? '/api/lore-ask' : '/api/lore-search', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ query, collection: coll.value, k: 6 }),
+      });
+      const data = await r.json();
+      if (!r.ok) { status(data.error || ('error ' + r.status)); return; }
+      if (ask) {
+        const srcs = (data.sources || []).map(s => s.source_path).join(', ');
+        body.innerHTML = '<div id="lore-answer">' + esc(data.answer || '') + '</div>' +
+          '<div id="lore-status">Model: ' + esc(data.model || '?') + ' · Sources: ' + esc(srcs) + '</div>';
+      } else {
+        const hits = (data.results || []).map(x =>
+          '<div class="lore-hit"><div class="lore-hit-head"><span>' +
+          esc(x.source_path + (x.heading ? ' — ' + x.heading : '')) +
+          '</span><span class="lore-score">' + x.score.toFixed(3) + '</span></div>' +
+          '<pre class="lore-hit-text">' + esc(x.text) + '</pre></div>').join('');
+        body.innerHTML = hits || '<div id="lore-status">No results.</div>';
+      }
+    } catch (e) { status(String(e)); }
+  }
+
+  openBtn.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  go.addEventListener('click', run);
+  q.addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
+  modal.addEventListener('click', e => { if (e.target === modal) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.classList.contains('open')) close(); });
+})();

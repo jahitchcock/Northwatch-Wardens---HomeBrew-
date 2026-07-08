@@ -1458,6 +1458,43 @@ function parseTableFile(filePath) {
       const m = lastHeading.match(/\(d(\d+)\)/i);
       if (m) die = parseInt(m[1]);
       continue;
+// ─── Lore RAG (semantic search + grounded generation) ──────────────────────────
+// Proxies to the pgvector/fastembed service on the GPU box. `collection` is
+// required by the upstream API and enforces the campaign/novels canon firewall.
+const LORE_RAG_API = process.env.LORE_RAG_API || 'http://10.10.6.56:8100';
+
+app.post('/api/lore-search', async (req, res) => {
+  try {
+    const { query, collection = 'campaign', k = 6 } = req.body || {};
+    if (!query) return res.status(400).json({ error: 'query required' });
+    const r = await fetch(`${LORE_RAG_API}/search`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ query, collection, k }),
+    });
+    if (!r.ok) return res.status(502).json({ error: await r.text() });
+    res.json(await r.json());
+  } catch (e) {
+    res.status(500).json({ error: String(e) });
+  }
+});
+
+app.post('/api/lore-ask', async (req, res) => {
+  try {
+    const { query, collection = 'campaign', k = 6, model } = req.body || {};
+    if (!query) return res.status(400).json({ error: 'query required' });
+    const r = await fetch(`${LORE_RAG_API}/ask`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ query, collection, k, model }),
+    });
+    if (!r.ok) return res.status(502).json({ error: await r.text() });
+    res.json(await r.json());
+  } catch (e) {
+    res.status(500).json({ error: String(e) });
+  }
+});
+
     }
     if (t.startsWith('|') && !t.match(/^\|[-: ]+\|/)) {
       if (!inTable) {
