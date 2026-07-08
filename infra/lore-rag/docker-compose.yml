@@ -1,0 +1,30 @@
+services:
+  lore-db:
+    image: pgvector/pgvector:pg16
+    container_name: lore-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: lore
+      POSTGRES_USER: lore
+      POSTGRES_PASSWORD: lore_local_only
+    volumes:
+      - lore-pgdata:/var/lib/postgresql/data
+      - ./rag-api/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    networks: [lore-net]
+
+  rag-api:
+    build: ./rag-api
+    container_name: lore-rag-api
+    restart: unless-stopped
+    environment:
+      DB_DSN: postgresql://lore:lore_local_only@lore-db:5432/lore
+      EMBED_MODEL: BAAI/bge-small-en-v1.5
+    ports:
+      - "10.10.6.56:8100:8100"
+    depends_on: [lore-db]
+    networks: [lore-net]
+
+volumes:
+  lore-pgdata:
+networks:
+  lore-net:
