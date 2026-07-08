@@ -1,5 +1,5 @@
 ---
-title: Session 0: Character Integration Prompts
+title: "Session 0: Character Integration Prompts"
 type: DM-Resource
 tags: DM-Resource, Session-0, Season-1
 status: Canon

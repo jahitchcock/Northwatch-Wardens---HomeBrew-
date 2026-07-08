@@ -3,7 +3,7 @@ name: The Archivists of Aevor
 type: scholarly
 alignment: neutral
 introduced: season-1
-headquarters: Multiple Libraries (primary: Palebank Archive)
+headquarters: "Multiple Libraries (primary: Palebank Archive)"
 tags: [aevorian, scholars, relics, palebank, far-north, dangerous-knowledge]
 ---
 
