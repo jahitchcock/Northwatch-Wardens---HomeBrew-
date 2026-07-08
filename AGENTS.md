@@ -70,7 +70,7 @@ Edit TOC JSON to add/remove content. Never edit `build/*.md` directly.
 
 ## Verification
 
-Always run `node verify-build.js` before claiming completion. The workflow in `.github/workflows/build-and-deploy.yml` also validates XML well-formedness and auto-deploys to GitHub Pages on push to `main`.
+## Lore RAG
 
 ## Key Reference Files
 
