@@ -19,6 +19,12 @@
       "command": "f:\\NewProject\\image-gen\\.venv\\Scripts\\python.exe",
       "args": ["f:\\NewProject\\image-gen\\mcp_server.py"],
       "description": "Local Stable Diffusion image generation via ComfyUI — portraits, scenes, NPC art"
+    },
+    "aevorian-lore": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["c:\\Users\\joshu\\OneDrive\\Documents\\dnd\\00 - Campaigns\\Northwatch Wardens - (HomeBrew)\\tools\\lore-rag\\mcp-server.mjs"],
+      "description": "Aevorian lore RAG — semantic search (search_lore) + grounded generation (ask_lore) over campaign & novels, firewalled"
     }
   }
 }
