@@ -1,0 +1,15 @@
+{
+  "name": "lore-rag-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": { "lore-query": "./query.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "index": "node indexer.mjs",
+    "query": "node query.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "gray-matter": "^4.0.3"
+  }
+}
