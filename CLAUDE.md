@@ -1,6 +1,10 @@
 # CLAUDE.md
 
-Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northreach (world: Aevoria). This repo generates two PDF-ready Homebrewery guides: **The Adventurer's Guide to Aevoria** (player-facing, printed) and **A DM's Guide to Aevoria** (adventures + secrets).
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northreach (world: Aevoria). This repo generates two PDF-ready Homebrewery guides: **The Adventurer's Guide to Aevoria** (player-facing, printed) and **A DM's Guide to Aevoria** (adventures + secrets). It also hosts a separate narrative-fiction project, **the Novels** (see below).
+
+This repo has two parallel sets of agent instructions: this file (`CLAUDE.md`) and `AGENTS.md`. When they disagree on build mechanics, `AGENTS.md` is the more current source — it documents a print-pipeline reorg that this file predates.
 
 ## DM Panel (Primary Interface)
 
@@ -31,6 +35,8 @@ python scripts/build/add_page_footers.py  # Regenerate footers (auto-runs in bui
 ```
 
 First run auto-installs npm deps. Output lands in `build/`. GitHub Actions auto-builds on push to `main`.
+
+> **Build currently broken (per `AGENTS.md`):** source content was moved into `_print/`, but the TOC JSON paths (`build/players-guide-toc.json`, `build/dms-guide-toc.json`) still point at the old root-level locations, so builds fail with "File not found". The live build entrypoint is now `_print/build.js` (and `npm run build` in `_print/`). Verify with `node _print/verify-build.js` before claiming a build succeeded. See `AGENTS.md` for the full pipeline and the Homebrewery ↔ source unbuild/sync workflow.
 
 ## Architecture
 
@@ -67,6 +73,35 @@ adventures/season-N/
 ```
 
 When scaffolding a new adventure use the `/new-adventure` skill — it follows this layout automatically.
+
+## Novels — *The Old Songs of Aevoria*
+
+A standalone five-book narrative-fiction series under `Novels/`, set in **deep-time / mythic-age Aevoria** (the campaign world's distant ancestor). It is a separate project from the campaign guides and ships under the pen name **J. H. Thorne** (covers, title pages, series credits).
+
+- **Series bible (single source of truth):** `Novels/00 Series Outline/Files/Old_Songs_of_Aevoria_MASTER_REFERENCE.md`. Author-voice rules: `Novels/Style_Sheet.md`. Per-book material under `Novels/01 Book One/` … `Novels/05 Book 4/` (chapters + outline/beat sheets). Book One (*She Who Would Not Be Silent*) is the most developed: Parts One–Two drafted (Ch. 1–22), Part Three pending.
+- **Canon firewall (CRITICAL — inverse of the campaign's rule):** the novels use **only** the native Aevoria pantheon, magic, and cultures. They must **NEVER** reference Aeor, the Calamity, the **Aeorian Echo**, Eclipse Day, or any current-campaign NPC/location/organization — explicitly **including the Northwatch Wardens**. (Campaign adventures *seed* Echo clues; novels must contain *zero*.)
+- **Voice:** first-person **Elowen** (a Memory-Keeper), past tense, three deliberately contrasted registers — narration / reflection / action. Restraint is the house style.
+- **Tooling:** the **`novelist`** skill loads the full voice guide + per-character dialogue voices; the **`jh-thorne`** agent drafts/edits chapters and runs cross-chapter consistency and firewall passes. Do not confuse `jh-thorne` (novels) with the **`author`** agent (campaign adventure prose). Before any prose work on the series, read the master reference and `Style_Sheet.md`.
+
+## Asset Generation (portraits, maps, covers)
+
+NPC portraits, battlemaps, and book covers are produced via the **image-gen** MCP server (`f:\NewProject\image-gen`), which submits workflows to **ComfyUI** on the remote R730 (Tesla P40 24 GB, `10.10.6.56:8188`). image-gen's `.env` handles the remote URL; Northwatch just invokes MCP tools. Tool results embed base64; parse out the `result.path` rather than reading the whole payload.
+
+### New capabilities (Q3 2026)
+
+- **HQ Pipelines (GGUF-optimized):** `generate_*_hq()` variants deliver quality-first results via quantized models on the P40: `generate_battlemap_topdown_sdxl_hq()` (with hi-res fix + ESRGAN upscale), `generate_image_face_locked_hq()` (InstantID + GFPGAN restore), and `generate_image_flux()` (Flux 1.0 GGUF text-to-image).
+- **Feedback loop for batches:** Set `feedback=True` in generation calls to enable multi-image batches that critique each result (anatomy + vision), revise the prompt, and retry — useful for iterating on key NPC portraits or battlemap aesthetics.
+- **Model rotation during feedback:** Optionally rotate between `gemma-3-4b-it`, `lumimaid-v0.2-12b`, `mythomax-l2-13b` for diverse critiques.
+- **Viewer enhancements (in progress):** Future web UI for gallery browsing, slideshow, and face-locking from selected images.
+
+### Checkpoint guidance
+
+Use these for clean, grounded fantasy:
+- **`dreamshaper_8`** (SDXL): painterly, atmospheric — good for battlemaps, tavern scenes, environment art.
+- **`realisticVisionV60B1`** or **`realvisxlV50`** (SDXL): clean SFW portraits — best for NPC faces.
+- **Flux 1.0** (GGUF): cutting-edge quality, recommended for hero art (book covers, key NPCs).
+
+For HQ variants, call image-gen directly: `.venv\Scripts\python.exe image_pipeline.py --prompt "..." --hq` or use the MCP tools (which auto-select HQ where available).
 
 ## Canonical Geography
 
