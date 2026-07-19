@@ -622,14 +622,29 @@
     }
     #ps-msg-input:focus, #ps-idle-input:focus { outline: 1px solid #c5a56a; border-color: #4a3820; }
     .ps-right { margin-left: auto; display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+    @media (max-width: 900px) {
+      /* Player strip is collapsed by default on phones/tablets; the 📺 toggle
+         in the tab bar reveals it. Keeps the second top row off-screen until
+         the DM needs the player-screen controls. */
+      #player-strip { display: none; }
+      body.player-strip-open #player-strip { display: flex; flex-wrap: wrap; row-gap: 6px; }
+
+      /* When open, let the message/idle wraps flex-shrink so the strip stays
+         within the viewport width. Inputs shrink below 200px on narrow screens. */
+      #ps-msg-wrap, #ps-idle-wrap { flex: 1 1 100%; min-width: 0; }
+      #ps-msg-input, #ps-idle-input { width: auto; min-width: 60px; flex: 1; }
+    }
   </style>
 </head>
 <body>
 
   <header id="tabbar">
-    <!-- Mobile-only drawer toggles — grouped at start so they're always visible without scrolling -->
-    <button class="mob-btn" id="mob-files" aria-label="Toggle file browser">☰</button>
-    <button class="mob-btn" id="mob-term" aria-label="Toggle terminal">⌨</button>
+    <!-- Mobile-only drawer toggles — sticky cluster so they stay visible while the tabs scroll -->
+    <div id="mob-btns">
+      <button class="mob-btn" id="mob-files" aria-label="Toggle file browser">☰</button>
+      <button class="mob-btn" id="mob-term" aria-label="Toggle terminal">⌨</button>
+      <button class="mob-btn" id="mob-player" aria-label="Toggle player screen controls" title="Player screen controls">📺</button>
+    </div>
 
     <nav class="tab-group">
       <button class="tab" data-path="gm-lore/welcome.md">Home</button>
@@ -645,6 +660,8 @@
         <button id="btn-tools">Tools ▾</button>
       </div>
       <button id="btn-rulebooks" class="tab" title="Open PDF rulebook viewer">📖 Rulebooks</button>
+      <button id="btn-novels" class="tab" title="Open novel reader">📖 Novels</button>
+      <button id="btn-lore" class="tab" title="Semantic lore search (RAG)">🔮 Lore</button>
     </nav>
 
     <div id="search-wrap">
@@ -660,8 +677,6 @@
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
-      <button id="btn-novels" class="tab" title="Open novel reader">📖 Novels</button>
-      <button id="btn-lore" class="tab" title="Semantic lore search (RAG)">🔮 Lore</button>
         <option value="6">6</option>
       </select>
     </div>
@@ -676,9 +691,10 @@
     <button id="btn-manifest" title="Edit MANIFEST.md for current directory" hidden>✎ Manifest</button>
     <button id="btn-print" title="Print this handout" hidden>🖨 Print</button>
     <button id="btn-send-player" title="Send handout to player screen" hidden>📺 Send</button>
-
-    <div id="toast" aria-live="polite"></div>
   </header>
+
+  <!-- Toast lives outside the header so the mobile tab-strip mask can't hide it -->
+  <div id="toast" aria-live="polite"></div>
 
   <!-- Player screen Now Showing strip -->
   <div id="player-strip">
@@ -698,6 +714,8 @@
     <div class="ps-right">
       <button id="ps-msg-btn"  class="ps-action" title="Send a message to players">✉</button>
       <button id="ps-idle-btn" class="ps-action" title="Edit idle screen message">✏ Idle</button>
+      <button id="ps-shop-btn" class="ps-action" title="Send shop details to players">🏪 Shop</button>
+      <button id="ps-qr-btn"   class="ps-action" title="Send QR code to join">🔗 QR</button>
       <button id="ps-open"     class="ps-action ps-action--open" title="Open player screen in new tab">Open ↗</button>
     </div>
   </div>
@@ -725,6 +743,7 @@
         <button class="vtt-fx-btn" data-fx="fog">🌫 Fog</button>
         <button class="vtt-fx-btn" data-fx="snow">❄️ Snow</button>
         <button class="vtt-fx-btn" data-fx="fire">🔥 Fire</button>
+        <button id="vtt-grid-btn" class="vtt-fx-btn">▦ Grid</button>
       </div>
       <div class="vtt-dark-row">
         <span>🌑</span>
@@ -780,10 +799,22 @@
         <button id="left-maps-gen-btn" class="left-maps-generate-btn">+ Generate Map</button>
         <div id="left-maps-gen-form" hidden>
           <div class="left-maps-style-row">
-            <button class="left-maps-style-btn active" data-style="topdown">Top-down</button>
+            <button class="left-maps-style-btn active" data-style="topdown">Top-Down</button>
+            <button class="left-maps-style-btn" data-style="topdown_hq" title="HQ with hires-fix + upscale">HQ</button>
             <button class="left-maps-style-btn" data-style="scene">Scene</button>
+            <button class="left-maps-style-btn" data-style="mapcraft" title="Mapcraft LoRA">MC</button>
+            <button class="left-maps-style-btn" data-style="mapcraft_flux" title="Mapcraft FLUX">MC-Flux</button>
           </div>
           <textarea id="left-maps-prompt" class="left-maps-prompt" placeholder="dungeon room, stone floor, torches…" rows="3"></textarea>
+          <details id="left-maps-advanced" style="margin-top:4px">
+            <summary style="font-size:9px;cursor:pointer;color:var(--subtext)">Advanced</summary>
+            <textarea id="left-maps-neg" class="left-maps-prompt" placeholder="Negative prompt (optional)" rows="2" style="margin-top:4px"></textarea>
+            <div style="display:flex;gap:4px;margin-top:4px;flex-wrap:wrap">
+              <input id="left-maps-seed" type="number" placeholder="Seed (random)" class="left-maps-num" style="width:100px">
+              <input id="left-maps-steps" type="number" placeholder="Steps" class="left-maps-num" style="width:70px">
+              <input id="left-maps-cfg" type="number" step="0.5" placeholder="CFG" class="left-maps-num" style="width:65px">
+            </div>
+          </details>
           <button id="left-maps-submit" class="left-maps-submit-btn">Generate</button>
           <div id="left-maps-status"></div>
         </div>
@@ -879,8 +910,6 @@
     <span class="snd-divider">│</span>
     <button id="snd-fx-btn" title="Spell Effects">⚡ FX</button>
   </div>
-</body>
-</html>
 
   <!-- Lore RAG semantic-search modal (self-contained) -->
   <style>
@@ -922,3 +951,5 @@
       <div id="lore-body"><div id="lore-status">Type a query and press Enter.</div></div>
     </div>
   </div>
+</body>
+</html>

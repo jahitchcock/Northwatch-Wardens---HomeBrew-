@@ -6,7 +6,23 @@ location: Palebank Village — Urgon's cabin, Pelc's Curiosities, Tulgi's cabin,
 
 # Scene 1: Palebank Investigation
 
-**Setup:** The Wardens have a 7-day clock before Tulgi Lutan dies; 10 days before Irven Liel's family follows. Every location in the village connects to two blue vials that started the outbreak. Elro Aldataur is the party's first contact and will guide them between locations.
+**Setup:** The Wardens have a 7-day clock before [Tulgi Lutan](npcs/core/tulgi-lutan.md) dies; 10 days before [Irven Liel Sr.](npcs/season-1/irven-liel-sr.md)'s family follows. Every location in the village connects to two blue vials that started the outbreak. [Elro Aldataur](npcs/core/elro-aldataur.md) is the party's first contact and will guide them between locations.
+
+---
+
+## VTT Maps for This Scene
+
+Load these maps from the **Maps** panel in the DM dashboard as you visit each location:
+
+| Location | Map File | Size | Notes |
+|----------|----------|------|-------|
+| **Urgon's Cabin** | `ps-01-urgons-cabin_grid.png` | 4×4 squares (20×20 ft) | Blacksmith's home, forge visible, chest on floor |
+| **Pelc's Curiosities** | `ps-02-pelcs-curiosities_grid.png` | 5×5 squares (25×25 ft) | Trading post, show forced entry at rear window |
+| **Tulgi's Cabin** | `ps-03-tulgis-cabin_grid.png` | 4×4 squares (20×20 ft) | Neat cottage, sick NPC present |
+| **Irven's Home** | `ps-04-irvens-home_grid.png` | 6×5 squares (30×25 ft) | Family residence, infected children present |
+| **Frostwatch Guard Post** | `ps-05-frostwatch-post_grid.png` | 4×6 squares (20×30 ft) | Military outpost, Mila Teno stationed here |
+
+**Tip:** These are optional — you can run the investigation as theater-of-mind if preferred. Use maps only for the locations where the party spends time investigating.
 
 ---
 
@@ -26,20 +42,20 @@ location: Palebank Village — Urgon's cabin, Pelc's Curiosities, Tulgi's cabin,
 
 ### Urgon's Cabin
 
-A one-room trapper's cabin, recently ransacked. Dried herbs and pelts still hang from the rafters, undisturbed. The floor near the storage chest shows boot prints tracked in frost — two sets, one coming, one going, neither matching Urgon's boots (which are still by the door). A faint chill radiates from the chest itself. Urgon's body was removed to the village hall, but his belongings remain. The place smells of cold metal and something faintly chemical — like ice scraped from iron.
+A one-room cabin behind the village smithy, recently ransacked. A long-dead forge stands cold in the corner; iron tools and unfinished work hang from the rafters, undisturbed. The floor near the storage chest shows boot prints tracked in frost — two sets, one coming, one going, neither matching Urgon's boots (which are still by the door). A faint chill radiates from the chest itself. Urgon's body was removed to the village hall, but his belongings remain. The place smells of cold metal and something faintly chemical — like ice scraped from iron.
 
-- **Chest (locked, DC 10 Thieves' Tools):** Urgon's journal. Entry three weeks ago: *"Brought back two vials from the site. Blue glass, heavy. Beautiful. Kept one, sold one to Tulgi."* Entry two weeks ago: *"Fingers feel cold."* Entry one week ago: nothing more.
-- **Boot prints (DC 12 Investigation):** Prints match Tulgi Lutan's distinctive flat-footed gait. They left in a hurry.
+- **Chest (locked, DC 10 Thieves' Tools):** Urgon's journal. Entry three weeks ago: *"Brought two vials back from the ruins in the north. Blue glass, heavy. Beautiful — cold even through gloves. Sold both to Pelc. I needed the coin, and I didn't want them under my roof."* Entry two weeks ago: *"Fingers feel cold."* Entry one week ago: nothing more.
+- **Boot prints (DC 12 Investigation):** Prints match Tulgi Lutan's distinctive flat-footed gait. Someone searched the cabin after Urgon died — and left in a hurry, without opening the locked chest.
 - **Urgon's body (at village hall, DC 10 Medicine):** The disease is magical, not natural. Blue veins visible beneath ice-clear skin. Internal crystallization visible at joints. He did not suffer long.
 - **Vial residue on chest shelf (DC 12 Arcana):** Aevorian in origin — cold, unnatural, not aligned with any current school of magic.
 
 ### Pelc's Curiosities
 
-A cluttered trading post — every shelf crammed with oddities, preserved specimens, and dubious "artifacts." The proprietor Pelc is tight-lipped until he sees the commission papers from Elric Vael. Signs of forced entry at the rear: a window latch broken inward, a display case lid left ajar. The case still has the receipt.
+A cluttered trading post — every shelf crammed with oddities, preserved specimens, and dubious "artifacts." The proprietor, **[Verla Pelc](npcs/core/verla-pelc.md)**, is tight-lipped until she sees the commission papers from [Elric Vael](npcs/core/elric-vael.md). Signs of forced entry at the rear: a window latch broken inward, a display case lid left ajar. The case still has the receipt.
 
-- **Receipt (DC 10 Investigation):** Urgon sold two blue glass vials to Pelc three weeks ago, marked *"Aevorian — northern site, unidentified."* One sold to Tulgi Lutan (cash). One sold to Irven Liel's household via traveling fence.
-- **Broken window:** Tulgi's break-in. She couldn't afford Pelc's price; took the receipt instead to find where the second vial went.
-- **Pelc's account:** "I thought they were decorative. Pretty things. Urgon said he'd found them north. I didn't ask more." He is genuinely frightened now.
+- **Receipt (DC 10 Investigation):** Urgon sold two blue glass vials to Verla Pelc three weeks ago, marked *"Aevorian — northern site, unidentified."* Pelc resold them: one to Tulgi Lutan (cash); one to Irven Liel Sr.'s household, brokered by a traveling fence named Brynn.
+- **Broken window — Tulgi's break-in:** After Urgon died and the sickness began, Tulgi realized the vials were the cause. Pelc wouldn't say who else had bought one, so Tulgi broke in and stole the receipt to trace the second vial herself.
+- **Pelc's account:** "I thought they were decorative. Pretty things. Urgon said he'd found them north. I didn't ask more." She is genuinely frightened now — and guarded about how much she knew before she sold them on.
 
 <div class="sound-strip">🔊 SFX on confession moment: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
 
@@ -53,12 +69,12 @@ Tulgi answers the door slowly. She is obviously ill — blue veins visible at he
 
 ### Irven's Home
 
-Irven Liel is a merchant with a family. His partner and two children are also infected — bought the vials from a traveling fence as "decorative Aevorian glass." One child has already progressed to visible crystallization at the fingertips. Irven is desperate in the way only a parent can be. He will give the party anything.
+Irven Liel Sr. is a merchant with a family. His partner and two children are also infected — bought the vials from a traveling fence as "decorative Aevorian glass." One child has already progressed to visible crystallization at the fingertips. Irven is desperate in the way only a parent can be. He will give the party anything.
 
-- **Fence description:** "Broad man, northern accent, called himself Bryn. Said he had more where these came from. Heading toward Croaker Cave when I last saw him." (This is Bandit Captain Brynn Wraithwood — "B.W." on the cave note.)
+- **Fence description:** "Broad man, northern accent, called himself Brynn. Said he had more where these came from. Heading toward Croaker Cave when I last saw him." (This is Bandit Captain [Brynn Wraithwood](npcs/season-1/brynn-wraithwood.md) — "B.W." on the cave note.)
 - **10-day clock:** The children have 10 days. Irven's partner has 12.
 
-### Mila Teno (Frostwatch Guard)
+### [Mila Teno](npcs/core/mila-teno.md) (Frostwatch Guard)
 
 Mila can be found at the Frostwatch post or patrolling near Pelc's. She is composed but self-recriminating — she saw Tulgi near Urgon's cabin the night of the break-in and did nothing.
 
@@ -69,7 +85,7 @@ Mila can be found at the Frostwatch post or patrolling near Pelc's. She is compo
 
 ## What Happens
 
-1. Elro briefs the party: Urgon died first, now Tulgi and Irven's family are symptomatic. He knows nothing beyond that.
+1. Elro briefs the party: [Urgon](npcs/core/urgon-wenth.md) died first, now Tulgi and Irven's family are symptomatic. He knows nothing beyond that.
 2. Party investigates locations in any order. Urgon's cabin and Pelc's together establish the vial chain. Tulgi's cabin and Irven's home add urgency and the Croaker Cave lead.
 3. Mila provides the timeline that ties Tulgi to the break-in.
 4. At some point the party realizes: to cure Tulgi and Irven's family, they need the cure source — which means following the vials north.
@@ -126,7 +142,7 @@ Mila can be found at the Frostwatch post or patrolling near Pelc's. She is compo
 **If party is unkind:**
 > "I know what I did. I've known every day since. You don't have to tell me."
 
-### Irven Liel
+### Irven Liel Sr.
 
 **Desperate opening:**
 > "My children. Please. Look at their hands. I don't know what to do. We bought those vials because they were beautiful — I thought my partner would love them — I didn't know —"

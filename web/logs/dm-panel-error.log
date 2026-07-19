@@ -8752,3 +8752,393 @@
 2026-06-13 18:40:04:     at node:internal/main/run_main_module:33:47
 2026-06-13 18:40:04: 
 2026-06-13 18:40:04: Node.js v24.15.0
+2026-06-23 20:52:52: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13
+2026-06-23 20:52:52: var consoleProcessList = getConsoleProcessList(shellPid);
+2026-06-23 20:52:52:                          ^
+2026-06-23 20:52:52: 
+2026-06-23 20:52:52: Error: AttachConsole failed
+2026-06-23 20:52:52:     at Object.<anonymous> (C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13:26)
+2026-06-23 20:52:52:     at Module._compile (node:internal/modules/cjs/loader:1830:14)
+2026-06-23 20:52:52:     at Object..js (node:internal/modules/cjs/loader:1961:10)
+2026-06-23 20:52:52:     at Module.load (node:internal/modules/cjs/loader:1553:32)
+2026-06-23 20:52:52:     at Module._load (node:internal/modules/cjs/loader:1355:12)
+2026-06-23 20:52:52:     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+2026-06-23 20:52:52:     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2026-06-23 20:52:52:     at node:internal/main/run_main_module:33:47
+2026-06-23 20:52:52: 
+2026-06-23 20:52:52: Node.js v24.15.0
+2026-06-24 19:06:57: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13
+2026-06-24 19:06:57: var consoleProcessList = getConsoleProcessList(shellPid);
+2026-06-24 19:06:57:                          ^
+2026-06-24 19:06:57: 
+2026-06-24 19:06:57: Error: AttachConsole failed
+2026-06-24 19:06:57:     at Object.<anonymous> (C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13:26)
+2026-06-24 19:06:57:     at Module._compile (node:internal/modules/cjs/loader:1830:14)
+2026-06-24 19:06:57:     at Object..js (node:internal/modules/cjs/loader:1961:10)
+2026-06-24 19:06:57:     at Module.load (node:internal/modules/cjs/loader:1553:32)
+2026-06-24 19:06:57:     at Module._load (node:internal/modules/cjs/loader:1355:12)
+2026-06-24 19:06:57:     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+2026-06-24 19:06:57:     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2026-06-24 19:06:57:     at node:internal/main/run_main_module:33:47
+2026-06-24 19:06:57: 
+2026-06-24 19:06:57: Node.js v24.15.0
+2026-06-25 20:04:37: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13
+2026-06-25 20:04:37: var consoleProcessList = getConsoleProcessList(shellPid);
+2026-06-25 20:04:37:                          ^
+2026-06-25 20:04:37: 
+2026-06-25 20:04:37: Error: AttachConsole failed
+2026-06-25 20:04:37:     at Object.<anonymous> (C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13:26)
+2026-06-25 20:04:37:     at Module._compile (node:internal/modules/cjs/loader:1830:14)
+2026-06-25 20:04:37:     at Object..js (node:internal/modules/cjs/loader:1961:10)
+2026-06-25 20:04:37:     at Module.load (node:internal/modules/cjs/loader:1553:32)
+2026-06-25 20:04:37:     at Module._load (node:internal/modules/cjs/loader:1355:12)
+2026-06-25 20:04:37:     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+2026-06-25 20:04:37:     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2026-06-25 20:04:37:     at node:internal/main/run_main_module:33:47
+2026-06-25 20:04:37: 
+2026-06-25 20:04:37: Node.js v24.15.0
+2026-06-25 20:07:11: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13
+2026-06-25 20:07:11: var consoleProcessList = getConsoleProcessList(shellPid);
+2026-06-25 20:07:11:                          ^
+2026-06-25 20:07:11: 
+2026-06-25 20:07:11: Error: AttachConsole failed
+2026-06-25 20:07:11:     at Object.<anonymous> (C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\node-pty\lib\conpty_console_list_agent.js:13:26)
+2026-06-25 20:07:11:     at Module._compile (node:internal/modules/cjs/loader:1830:14)
+2026-06-25 20:07:11:     at Object..js (node:internal/modules/cjs/loader:1961:10)
+2026-06-25 20:07:11:     at Module.load (node:internal/modules/cjs/loader:1553:32)
+2026-06-25 20:07:11:     at Module._load (node:internal/modules/cjs/loader:1355:12)
+2026-06-25 20:07:11:     at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+2026-06-25 20:07:11:     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2026-06-25 20:07:11:     at node:internal/main/run_main_module:33:47
+2026-06-25 20:07:11: 
+2026-06-25 20:07:11: Node.js v24.15.0
+2026-07-17 17:30:32: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:32:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:32:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:32:     at node:net:2274:7
+2026-07-17 17:30:32:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:32:   code: 'EADDRINUSE',
+2026-07-17 17:30:32:   errno: -4091,
+2026-07-17 17:30:32:   syscall: 'listen',
+2026-07-17 17:30:32:   address: '0.0.0.0',
+2026-07-17 17:30:32:   port: 5050
+2026-07-17 17:30:32: }
+2026-07-17 17:30:34: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:34:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:34:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:34:     at node:net:2274:7
+2026-07-17 17:30:34:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:34:   code: 'EADDRINUSE',
+2026-07-17 17:30:34:   errno: -4091,
+2026-07-17 17:30:34:   syscall: 'listen',
+2026-07-17 17:30:34:   address: '0.0.0.0',
+2026-07-17 17:30:34:   port: 5050
+2026-07-17 17:30:34: }
+2026-07-17 17:30:36: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:36:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:36:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:36:     at node:net:2274:7
+2026-07-17 17:30:36:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:36:   code: 'EADDRINUSE',
+2026-07-17 17:30:36:   errno: -4091,
+2026-07-17 17:30:36:   syscall: 'listen',
+2026-07-17 17:30:36:   address: '0.0.0.0',
+2026-07-17 17:30:36:   port: 5050
+2026-07-17 17:30:36: }
+2026-07-17 17:30:38: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:38:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:38:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:38:     at node:net:2274:7
+2026-07-17 17:30:38:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:38:   code: 'EADDRINUSE',
+2026-07-17 17:30:38:   errno: -4091,
+2026-07-17 17:30:38:   syscall: 'listen',
+2026-07-17 17:30:38:   address: '0.0.0.0',
+2026-07-17 17:30:38:   port: 5050
+2026-07-17 17:30:38: }
+2026-07-17 17:30:41: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:41:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:41:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:41:     at node:net:2274:7
+2026-07-17 17:30:41:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:41:   code: 'EADDRINUSE',
+2026-07-17 17:30:41:   errno: -4091,
+2026-07-17 17:30:41:   syscall: 'listen',
+2026-07-17 17:30:41:   address: '0.0.0.0',
+2026-07-17 17:30:41:   port: 5050
+2026-07-17 17:30:41: }
+2026-07-17 17:30:43: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:43:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:43:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:43:     at node:net:2274:7
+2026-07-17 17:30:43:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:43:   code: 'EADDRINUSE',
+2026-07-17 17:30:43:   errno: -4091,
+2026-07-17 17:30:43:   syscall: 'listen',
+2026-07-17 17:30:43:   address: '0.0.0.0',
+2026-07-17 17:30:43:   port: 5050
+2026-07-17 17:30:43: }
+2026-07-17 17:30:46: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:46:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:46:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:46:     at node:net:2274:7
+2026-07-17 17:30:46:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:46:   code: 'EADDRINUSE',
+2026-07-17 17:30:46:   errno: -4091,
+2026-07-17 17:30:46:   syscall: 'listen',
+2026-07-17 17:30:46:   address: '0.0.0.0',
+2026-07-17 17:30:46:   port: 5050
+2026-07-17 17:30:46: }
+2026-07-17 17:30:49: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:49:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:49:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:49:     at node:net:2274:7
+2026-07-17 17:30:49:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:49:   code: 'EADDRINUSE',
+2026-07-17 17:30:49:   errno: -4091,
+2026-07-17 17:30:49:   syscall: 'listen',
+2026-07-17 17:30:49:   address: '0.0.0.0',
+2026-07-17 17:30:49:   port: 5050
+2026-07-17 17:30:49: }
+2026-07-17 17:30:52: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:52:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:52:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:52:     at node:net:2274:7
+2026-07-17 17:30:52:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:52:   code: 'EADDRINUSE',
+2026-07-17 17:30:52:   errno: -4091,
+2026-07-17 17:30:52:   syscall: 'listen',
+2026-07-17 17:30:52:   address: '0.0.0.0',
+2026-07-17 17:30:52:   port: 5050
+2026-07-17 17:30:52: }
+2026-07-17 17:30:54: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:30:54:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:30:54:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:30:54:     at node:net:2274:7
+2026-07-17 17:30:54:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:30:54:   code: 'EADDRINUSE',
+2026-07-17 17:30:54:   errno: -4091,
+2026-07-17 17:30:54:   syscall: 'listen',
+2026-07-17 17:30:54:   address: '0.0.0.0',
+2026-07-17 17:30:54:   port: 5050
+2026-07-17 17:30:54: }
+2026-07-17 17:32:15: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:15:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:15:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:15:     at node:net:2274:7
+2026-07-17 17:32:15:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:15:   code: 'EADDRINUSE',
+2026-07-17 17:32:15:   errno: -4091,
+2026-07-17 17:32:15:   syscall: 'listen',
+2026-07-17 17:32:15:   address: '0.0.0.0',
+2026-07-17 17:32:15:   port: 5050
+2026-07-17 17:32:15: }
+2026-07-17 17:32:17: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:17:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:17:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:17:     at node:net:2274:7
+2026-07-17 17:32:17:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:17:   code: 'EADDRINUSE',
+2026-07-17 17:32:17:   errno: -4091,
+2026-07-17 17:32:17:   syscall: 'listen',
+2026-07-17 17:32:17:   address: '0.0.0.0',
+2026-07-17 17:32:17:   port: 5050
+2026-07-17 17:32:17: }
+2026-07-17 17:32:18: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:18:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:18:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:18:     at node:net:2274:7
+2026-07-17 17:32:18:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:18:   code: 'EADDRINUSE',
+2026-07-17 17:32:18:   errno: -4091,
+2026-07-17 17:32:18:   syscall: 'listen',
+2026-07-17 17:32:18:   address: '0.0.0.0',
+2026-07-17 17:32:18:   port: 5050
+2026-07-17 17:32:18: }
+2026-07-17 17:32:20: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:20:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:20:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:20:     at node:net:2274:7
+2026-07-17 17:32:20:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:20:   code: 'EADDRINUSE',
+2026-07-17 17:32:20:   errno: -4091,
+2026-07-17 17:32:20:   syscall: 'listen',
+2026-07-17 17:32:20:   address: '0.0.0.0',
+2026-07-17 17:32:20:   port: 5050
+2026-07-17 17:32:20: }
+2026-07-17 17:32:22: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:22:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:22:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:22:     at node:net:2274:7
+2026-07-17 17:32:22:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:22:   code: 'EADDRINUSE',
+2026-07-17 17:32:22:   errno: -4091,
+2026-07-17 17:32:22:   syscall: 'listen',
+2026-07-17 17:32:22:   address: '0.0.0.0',
+2026-07-17 17:32:22:   port: 5050
+2026-07-17 17:32:22: }
+2026-07-17 17:32:24: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:24:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:24:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:24:     at node:net:2274:7
+2026-07-17 17:32:24:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:24:   code: 'EADDRINUSE',
+2026-07-17 17:32:24:   errno: -4091,
+2026-07-17 17:32:24:   syscall: 'listen',
+2026-07-17 17:32:24:   address: '0.0.0.0',
+2026-07-17 17:32:24:   port: 5050
+2026-07-17 17:32:24: }
+2026-07-17 17:32:25: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:25:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:25:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:25:     at node:net:2274:7
+2026-07-17 17:32:25:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:25:   code: 'EADDRINUSE',
+2026-07-17 17:32:25:   errno: -4091,
+2026-07-17 17:32:25:   syscall: 'listen',
+2026-07-17 17:32:25:   address: '0.0.0.0',
+2026-07-17 17:32:25:   port: 5050
+2026-07-17 17:32:25: }
+2026-07-17 17:32:27: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:27:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:27:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:27:     at node:net:2274:7
+2026-07-17 17:32:27:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:27:   code: 'EADDRINUSE',
+2026-07-17 17:32:27:   errno: -4091,
+2026-07-17 17:32:27:   syscall: 'listen',
+2026-07-17 17:32:27:   address: '0.0.0.0',
+2026-07-17 17:32:27:   port: 5050
+2026-07-17 17:32:27: }
+2026-07-17 17:32:29: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:29:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:29:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:29:     at node:net:2274:7
+2026-07-17 17:32:29:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:29:   code: 'EADDRINUSE',
+2026-07-17 17:32:29:   errno: -4091,
+2026-07-17 17:32:29:   syscall: 'listen',
+2026-07-17 17:32:29:   address: '0.0.0.0',
+2026-07-17 17:32:29:   port: 5050
+2026-07-17 17:32:29: }
+2026-07-17 17:32:31: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:32:31:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:32:31:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:32:31:     at node:net:2274:7
+2026-07-17 17:32:31:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:32:31:   code: 'EADDRINUSE',
+2026-07-17 17:32:31:   errno: -4091,
+2026-07-17 17:32:31:   syscall: 'listen',
+2026-07-17 17:32:31:   address: '0.0.0.0',
+2026-07-17 17:32:31:   port: 5050
+2026-07-17 17:32:31: }
+2026-07-17 17:47:06: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:06:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:06:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:06:     at node:net:2274:7
+2026-07-17 17:47:06:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:06:   code: 'EADDRINUSE',
+2026-07-17 17:47:06:   errno: -4091,
+2026-07-17 17:47:06:   syscall: 'listen',
+2026-07-17 17:47:06:   address: '0.0.0.0',
+2026-07-17 17:47:06:   port: 5050
+2026-07-17 17:47:06: }
+2026-07-17 17:47:08: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:08:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:08:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:08:     at node:net:2274:7
+2026-07-17 17:47:08:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:08:   code: 'EADDRINUSE',
+2026-07-17 17:47:08:   errno: -4091,
+2026-07-17 17:47:08:   syscall: 'listen',
+2026-07-17 17:47:08:   address: '0.0.0.0',
+2026-07-17 17:47:08:   port: 5050
+2026-07-17 17:47:08: }
+2026-07-17 17:47:10: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:10:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:10:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:10:     at node:net:2274:7
+2026-07-17 17:47:10:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:10:   code: 'EADDRINUSE',
+2026-07-17 17:47:10:   errno: -4091,
+2026-07-17 17:47:10:   syscall: 'listen',
+2026-07-17 17:47:10:   address: '0.0.0.0',
+2026-07-17 17:47:10:   port: 5050
+2026-07-17 17:47:10: }
+2026-07-17 17:47:12: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:12:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:12:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:12:     at node:net:2274:7
+2026-07-17 17:47:12:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:12:   code: 'EADDRINUSE',
+2026-07-17 17:47:12:   errno: -4091,
+2026-07-17 17:47:12:   syscall: 'listen',
+2026-07-17 17:47:12:   address: '0.0.0.0',
+2026-07-17 17:47:12:   port: 5050
+2026-07-17 17:47:12: }
+2026-07-17 17:47:14: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:14:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:14:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:14:     at node:net:2274:7
+2026-07-17 17:47:14:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:14:   code: 'EADDRINUSE',
+2026-07-17 17:47:14:   errno: -4091,
+2026-07-17 17:47:14:   syscall: 'listen',
+2026-07-17 17:47:14:   address: '0.0.0.0',
+2026-07-17 17:47:14:   port: 5050
+2026-07-17 17:47:14: }
+2026-07-17 17:47:16: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:16:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:16:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:16:     at node:net:2274:7
+2026-07-17 17:47:16:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:16:   code: 'EADDRINUSE',
+2026-07-17 17:47:16:   errno: -4091,
+2026-07-17 17:47:16:   syscall: 'listen',
+2026-07-17 17:47:16:   address: '0.0.0.0',
+2026-07-17 17:47:16:   port: 5050
+2026-07-17 17:47:16: }
+2026-07-17 17:47:18: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:18:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:18:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:18:     at node:net:2274:7
+2026-07-17 17:47:18:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:18:   code: 'EADDRINUSE',
+2026-07-17 17:47:18:   errno: -4091,
+2026-07-17 17:47:18:   syscall: 'listen',
+2026-07-17 17:47:18:   address: '0.0.0.0',
+2026-07-17 17:47:18:   port: 5050
+2026-07-17 17:47:18: }
+2026-07-17 17:47:20: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:20:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:20:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:20:     at node:net:2274:7
+2026-07-17 17:47:20:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:20:   code: 'EADDRINUSE',
+2026-07-17 17:47:20:   errno: -4091,
+2026-07-17 17:47:20:   syscall: 'listen',
+2026-07-17 17:47:20:   address: '0.0.0.0',
+2026-07-17 17:47:20:   port: 5050
+2026-07-17 17:47:20: }
+2026-07-17 17:47:22: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:22:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:22:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:22:     at node:net:2274:7
+2026-07-17 17:47:22:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:22:   code: 'EADDRINUSE',
+2026-07-17 17:47:22:   errno: -4091,
+2026-07-17 17:47:22:   syscall: 'listen',
+2026-07-17 17:47:22:   address: '0.0.0.0',
+2026-07-17 17:47:22:   port: 5050
+2026-07-17 17:47:22: }
+2026-07-17 17:47:23: Error: listen EADDRINUSE: address already in use 0.0.0.0:5050
+2026-07-17 17:47:23:     at Server.setupListenHandle [as _listen2] (node:net:2008:16)
+2026-07-17 17:47:23:     at listenInCluster (node:net:2065:12)
+2026-07-17 17:47:23:     at node:net:2274:7
+2026-07-17 17:47:23:     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+2026-07-17 17:47:23:   code: 'EADDRINUSE',
+2026-07-17 17:47:23:   errno: -4091,
+2026-07-17 17:47:23:   syscall: 'listen',
+2026-07-17 17:47:23:   address: '0.0.0.0',
+2026-07-17 17:47:23:   port: 5050
+2026-07-17 17:47:23: }

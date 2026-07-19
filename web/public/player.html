@@ -48,6 +48,29 @@
     }
     #img-caption { display: none; }
 
+    /* ── NPC reveal ── */
+    #view-npc {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(ellipse at center, #1a1510 0%, #000 80%);
+    }
+    #npc-portrait {
+      max-width: 55vw; max-height: 85vh;
+      object-fit: contain; display: block;
+      border-radius: 8px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7), 0 0 80px rgba(140,100,40,0.15);
+    }
+    #npc-name {
+      position: absolute; bottom: clamp(24px, 6vh, 60px);
+      left: 50%; transform: translateX(-50%);
+      font-family: 'Cormorant SC', 'Palatino Linotype', serif;
+      font-size: clamp(1.8rem, 5vw, 4rem);
+      font-weight: 700; color: #e8d8b0;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.8), 0 0 30px rgba(0,0,0,0.5);
+      letter-spacing: 0.06em; text-align: center;
+      white-space: nowrap;
+    }
+
     /* ── Text ── */
     #view-text { max-width: 80vw; text-align: center; }
     #text-content {
@@ -140,6 +163,11 @@
     <div id="img-caption"></div>
   </div>
 
+  <div id="view-npc" class="ps-hidden">
+    <img id="npc-portrait" src="" alt="">
+    <div id="npc-name"></div>
+  </div>
+
   <div id="view-text" class="ps-hidden">
     <p id="text-content"></p>
   </div>
@@ -148,6 +176,13 @@
 
   <div id="view-rulebook" class="ps-hidden">
     <iframe id="rulebook-frame" src="" title="Rulebook page"></iframe>
+  </div>
+
+  <div id="view-shop" class="ps-hidden" style="background: #e8d9a8; color: #1c0e00; padding: clamp(12px, 3vw, 40px); border-radius: 1px; max-width: min(700px, 95vw); max-height: 90vh; overflow-y: auto; font-family: 'Cormorant Garamond', serif; font-size: clamp(0.85rem, 1.4vw, 1.1rem); line-height: 1.5; box-shadow: 2px 3px 0 rgba(0,0,0,.25), 0 14px 50px rgba(0,0,0,.75);"></div>
+
+  <div id="view-qrcode" class="ps-hidden" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;">
+    <img id="qr-img" src="" alt="QR Code" style="width: 300px; height: 300px; background: white; padding: 10px;">
+    <p style="font-size: 18px; color: #ccc; font-family: serif;">Scan to join</p>
   </div>
 </div>
 
@@ -159,9 +194,12 @@
 const views = {
   idle:     document.getElementById('view-idle'),
   image:    document.getElementById('view-image'),
+  npc:      document.getElementById('view-npc'),
   text:     document.getElementById('view-text'),
   handout:  document.getElementById('view-handout'),
   rulebook: document.getElementById('view-rulebook'),
+  shop:     document.getElementById('view-shop'),
+  qrcode:   document.getElementById('view-qrcode'),
 };
 const content      = document.getElementById('content');
 const reconnectEl  = document.getElementById('reconnect-indicator');
@@ -229,6 +267,11 @@ function applyState(state) {
       cap.style.display = state.caption ? '' : 'none';
       views.image.classList.remove('ps-hidden');
 
+    } else if (state.type === 'npc') {
+      document.getElementById('npc-portrait').src = state.url;
+      document.getElementById('npc-name').textContent = state.caption || '';
+      views.npc.classList.remove('ps-hidden');
+
     } else if (state.type === 'text') {
       document.getElementById('text-content').textContent = state.content;
       views.text.classList.remove('ps-hidden');
@@ -249,6 +292,23 @@ function applyState(state) {
       });
       document.getElementById('rulebook-frame').src = `/rulebooks?${params}`;
       views.rulebook.classList.remove('ps-hidden');
+
+    } else if (state.type === 'shop') {
+      const titleHtml = state.title ? `<h1 style="font-family: 'Cormorant SC', serif; font-size: clamp(1.2rem, 3.5vw, 2.4rem); font-weight: 700; color: #1c0e00; text-align: center; letter-spacing: 0.06em; margin: 0 0 0.3em; line-height: 1.1; grid-column: 1 / -1;">${esc(state.title)}</h1>` : '';
+      const itemsHtml = (state.items || []).map(item => `
+        <div style="padding: clamp(8px, 1.5vh, 12px); border: 1px solid #8a6420; background: rgba(255,255,255,0.4);">
+          <div style="font-weight: 700; font-size: clamp(0.9rem, 1.1vw, 1.05rem); margin-bottom: clamp(2px, 0.3vh, 4px);">${esc(item.name)}</div>
+          ${item.price ? `<div style="color: #7a5820; font-style: italic; font-size: clamp(0.75rem, 0.9vw, 0.9rem); margin-bottom: clamp(4px, 0.7vh, 6px); font-weight: 600;">${esc(item.price)}</div>` : ''}
+          ${item.description ? `<div style="margin-bottom: 0; font-size: clamp(0.75rem, 0.85vw, 0.88rem); line-height: 1.2;">${renderMd(item.description)}</div>` : ''}
+        </div>
+      `).join('');
+      const gridHtml = `<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(clamp(120px, 40vw, 200px), 1fr)); gap: clamp(8px, 1.5vw, 12px); align-items: start;">${titleHtml}${itemsHtml || '<p>No items available.</p>'}</div>`;
+      views.shop.innerHTML = gridHtml;
+      views.shop.classList.remove('ps-hidden');
+
+    } else if (state.type === 'qrcode') {
+      document.getElementById('qr-img').src = state.dataUrl;
+      views.qrcode.classList.remove('ps-hidden');
     }
 
     content.classList.remove('fading');
@@ -256,24 +316,37 @@ function applyState(state) {
 }
 
 // ── WebSocket with auto-reconnect ──────────────────────────────────────────────
+let reconnectTimeout = null;
+
 function connect() {
   const ws = new WebSocket(`ws://${location.host}/ws/player`);
 
-  ws.addEventListener('open', () => {
+  // Store handler references for cleanup
+  const onOpen = () => {
     reconnectEl.classList.remove('visible');
-  });
+  };
 
-  ws.addEventListener('message', e => {
+  const onMessage = e => {
     try { applyState(JSON.parse(e.data)); } catch {}
-  });
+  };
 
-  ws.addEventListener('close', () => {
+  const onClose = () => {
     reconnectEl.classList.add('visible');
-    setTimeout(connect, 3000);
-  });
+    // Use stored timeout reference for cleanup on page unload
+    reconnectTimeout = setTimeout(connect, 3000);
+  };
+
+  ws.addEventListener('open', onOpen);
+  ws.addEventListener('message', onMessage);
+  ws.addEventListener('close', onClose);
 }
 
 connect();
+
+// Cleanup on page unload
+window.addEventListener('beforeunload', () => {
+  if (reconnectTimeout) clearTimeout(reconnectTimeout);
+});
 </script>
 </body>
 </html>

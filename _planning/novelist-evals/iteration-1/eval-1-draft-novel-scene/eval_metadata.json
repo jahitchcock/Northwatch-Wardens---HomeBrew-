@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "draft-novel-scene",
+  "prompt": "Write a short scene (about 200 words) from The Old Songs of Aevoria. The scene: Elowen, Corwin, and Brannoc are sitting around a campfire after a long day of walking. Brannoc tells a story about a mine that collapsed on his cousin. Corwin listens and gives a quiet response. Elowen reflects on the difference between how dwarves keep their dead and how the Nullwood does. Use the novelist skill's voice rules — narration register, one elder-Elowen reflection seam, no anaphoric tic, and correct character voices for Corwin (no contractions, formal-archaic) and Brannoc (colloquial, calls people 'elf' and 'human', dropped subjects). Start with a scene-break dash, include YAML frontmatter for the chapter, and end with the chapter-end marker.",
+  "assertions": []
+}

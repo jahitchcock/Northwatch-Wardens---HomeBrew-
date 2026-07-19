@@ -1,27 +1,27 @@
 ---
-title: The Traveler's Contract
+title: The Buyer's Contract
 type: handout
-when: Found in Croaker Cave or on Urgon's body
+when: Found in Croaker Cave (on Brynn or in the chest)
 ---
 
 ```
 [Official-looking document, partially burned]
 
-COMMISSION CONTRACT
+RETRIEVAL & DISTRIBUTION AGREEMENT
 
-BUYER:  [Name deliberately obscured with ink]
-SELLER: Urgon Wenth, Smith
+BUYER:    [Name deliberately obscured with ink]
+RETRIEVER: B. Wraithwood
 
 TERMS:
-- Fabricate twelve (12) reinforced glass vials
-- Specifications: Cold-resistant, airtight seal
-- Payment: 100 gold pieces (50 advance, 50 on delivery)
-- Discretion: Seller will not inquire about contents
-- Return Date: [One month from contract date]
+- Recover Aevorian materials from the northern site ("Salsvault")
+- Priority: any vial or vessel containing blue liquid
+- Payment: per item, on delivery — premium for intact seals
+- Discretion: Retriever will not open, sample, or inquire about contents
+- Channel: move goods quietly through Northreach settlements
 
 SPECIAL CLAUSE:
-Buyer reserves right to reclaim materials if Seller compromises
-containment or security.
+Buyer reserves right to reclaim all materials if containment or
+security is compromised. Losses from mishandling are the Retriever's.
 
 [Signature: Illegible scrawl]
 [Witness: None]

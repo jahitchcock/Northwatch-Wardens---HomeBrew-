@@ -6,7 +6,19 @@ location: Icefields north of Palebank, via The Cold Anchor research station
 
 # Scene 3: Journey to Salsvault
 
-**Setup:** The journey is 1–2 days across hostile terrain. The Cold Anchor is the last safe stop before the icefields proper. Morgo, the veteran guide stationed there, is critical — his gear reduces environmental risk substantially. The journey itself is about tension and dread building toward Salsvault. Random encounters are optional texture, not required content.
+**Setup:** The journey is 1–2 days across hostile terrain. The Cold Anchor is the last safe stop before the icefields proper. [Morgo](npcs/season-1/morgo-delwur.md), the veteran guide stationed there, is critical — his gear reduces environmental risk substantially. The journey itself is about tension and dread building toward Salsvault. Random encounters are optional texture, not required content.
+
+---
+
+## VTT Map for This Scene
+
+| Location | Map File | Size | Purpose |
+|----------|----------|------|---------|
+| **Cold Anchor Waypoint** | `ps-13-cold-anchor-waypoint_grid.png` | 6×7 squares (30×35 ft) | Research station interior — warm, safe rest point |
+
+**When to Use:** Load this map when party arrives at Cold Anchor. It serves as a warm, safe contrast to the freezing icefields outside. Good for restocking supplies, NPC interaction with Morgo, and brief recovery before final push to Salsvault.
+
+**Optional Travel Maps:** For overland icefields travel, you can use `generic-03-icefields-route_grid.png` if encounters occur during journey.
 
 ---
 
@@ -162,7 +174,7 @@ Open terrain, 4–6 hours from the Cold Anchor to Salsvault. Three distinct haza
 
 ## Time Pressure
 
-Every failed navigation check adds 2 hours. Every rest taken on the icefields advances the plague clock by the full rest duration. Remind players: Tulgi has 7 days, Irven's family has 10. If they left Palebank with 6 days remaining and the journey takes 2, they have 4 days to get in, cure in hand, and back.
+Every failed navigation check adds 2 hours. Every rest taken on the icefields advances the plague clock by the full rest duration. Remind players: [Tulgi](npcs/core/tulgi-lutan.md) has 7 days, [Irven](npcs/season-1/irven-liel-sr.md)'s family has 10. If they left Palebank with 6 days remaining and the journey takes 2, they have 4 days to get in, cure in hand, and back.
 
 ---
 

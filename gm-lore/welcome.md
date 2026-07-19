@@ -81,3 +81,9 @@ The built-in terminal opens a PowerShell session in the campaign root directory.
 ### Cross-Reference Links
 
 Blue dotted links throughout NPC and location documents open popup previews without replacing your current document. NPC table rows are clickable — click any row for an inline stat popup with ability scores, traits, and DM notes.
+
+### External Tools
+
+| Tool | Use |
+|---|---|
+| **📖 Novels** | [Open novel reader](/novels) — read *The Old Songs of Aevoria* chapters, with progress tracking and reading controls |

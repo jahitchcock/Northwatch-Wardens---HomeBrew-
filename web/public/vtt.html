@@ -89,6 +89,18 @@
       position: fixed; inset: 0; z-index: 5;
       display: flex; align-items: center; justify-content: center;
     }
+
+    /* Physical-scale grid overlay — sized in px via --grid-size so squares
+       are true 1-inch (5-ft) on the DM's display. Stacked above map/effects. */
+    #grid-overlay {
+      position: fixed; inset: 0; z-index: 15;
+      pointer-events: none; display: none;
+      background-image:
+        linear-gradient(to right, rgba(255,255,255,0.35) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.35) 1px, transparent 1px);
+      background-size: var(--grid-size, 54.9px) var(--grid-size, 54.9px);
+    }
+    #grid-overlay.on { display: block; }
   </style>
 </head>
 <body>
@@ -105,10 +117,14 @@
     </div>
   </div>
 
+  <div id="grid-overlay"></div>
+
   <script>
     const mapEl  = document.getElementById('map');
     const idleEl = document.getElementById('idle');
     const fxDark = document.getElementById('fx-dark');
+    const gridEl = document.getElementById('grid-overlay');
+    let tvGridPx = 54.9; // fallback default (Samsung UN40H6203AF)
 
     /* ── Generate rain drops once at load ── */
     (function buildRain() {
@@ -271,7 +287,22 @@
 
       // Darkness
       fxDark.style.backgroundColor = `rgba(0,0,0,${state.darkness || 0})`;
+
+      // Grid overlay — use TV-calculated grid size
+      gridEl.style.setProperty('--grid-size', (state.gridSize || tvGridPx) + 'px');
+      gridEl.classList.toggle('on', !!state.grid);
     }
+
+    // Load TV specs and grid size
+    fetch('/api/vtt-tv-specs')
+      .then(r => r.json())
+      .then(specs => {
+        tvGridPx = specs.calculated_grid_px || 54.9;
+      })
+      .catch(() => {
+        // Fallback — will be used if TV specs endpoint fails
+        tvGridPx = 54.9;
+      });
 
     // Load initial state
     fetch('/api/vtt-screen').then(r => r.json()).then(applyState).catch(() => {});
@@ -281,8 +312,22 @@
       const ws = new WebSocket(`ws://${location.host}/ws/vtt`);
       ws.onmessage = e => { try { applyState(JSON.parse(e.data)); } catch {} };
       ws.onclose   = () => setTimeout(connect, 2000);
+      // A socket left open for hours on a TV/kiosk browser can die silently
+      // (router NAT timeout) without ever firing onclose — force it closed so
+      // the reconnect path above actually runs.
+      ws.onerror   = () => ws.close();
     }
     connect();
+
+    // Belt-and-suspenders: re-poll state periodically even while the socket
+    // looks connected, so a session left running overnight can't quietly
+    // drift out of sync and get stuck on a stale/black screen.
+    const pollInterval = setInterval(() => {
+      fetch('/api/vtt-screen').then(r => r.json()).then(applyState).catch(() => {});
+    }, 30000);
+
+    // Cleanup on page unload to prevent memory leak on long-running kiosks
+    window.addEventListener('beforeunload', () => clearInterval(pollInterval));
   </script>
 </body>
 </html>

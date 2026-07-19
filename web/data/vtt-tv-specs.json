@@ -1,0 +1,18 @@
+{
+  "tv_model": "Samsung UN40H6203AF",
+  "description": "40-inch TV used for in-session VTT display",
+  "physical_dimensions": {
+    "width_mm": 888,
+    "height_mm": 500,
+    "diagonal_inches": 40
+  },
+  "resolution": {
+    "width_px": 1920,
+    "height_px": 1080
+  },
+  "grid_settings": {
+    "grid_ft": 5,
+    "description": "Standard D&D 5e grid: 1 grid square = 5 feet in-game"
+  },
+  "notes": "Used for real-time battle display on TV. Grid size calculated as: px_per_inch = (width_px / width_mm) * 25.4; grid_px = px_per_inch * grid_ft / 12"
+}

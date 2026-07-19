@@ -23,6 +23,10 @@ html, body { height: 100vh; overflow: hidden; }
 body {
   display: grid;
   grid-template-rows: var(--tab-h) auto 1fr;
+  /* Single column capped at the viewport — without this the grid column
+     auto-expands to the tab strip's max-content width and pushes the whole
+     UI (and the content iframe) wider than a phone screen. */
+  grid-template-columns: minmax(0, 1fr);
   grid-template-areas: "tab" "ps" "ws";
   background: var(--bg);
   color: var(--text);
@@ -509,6 +513,18 @@ body.dragging .rh { pointer-events: auto !important; }
 }
 .left-maps-submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
+.left-maps-num {
+  padding: 3px 4px;
+  font-size: 10px;
+  background: var(--surface1);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.left-maps-num:focus { outline: none; border-color: var(--accent); }
+.left-maps-num::placeholder { color: var(--subtext); opacity: 0.6; }
+
 #left-maps-status {
   font-size: 10px;
   color: var(--subtext);
@@ -759,6 +775,7 @@ mark {
     transform: translateX(100%);
     transition: transform 0.22s ease;
     border-left: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
   #panel-right.drawer-open {
     transform: translateX(0);
@@ -775,6 +792,16 @@ mark {
 
   /* btn-ctx always visible on mobile when file open */
   #btn-ctx { font-size: 12px; padding: 5px 10px; }
+
+  /* Player strip: contain flex overflow so it doesn't push the body wider
+     than the viewport (especially important on iOS Safari where
+     overflow:hidden on body doesn't prevent horizontal scrolling). */
+  #player-strip {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+  }
+  #player-strip::-webkit-scrollbar { display: none; }
 }
 
 /* ─── Small phones (≤ 480px) ─────────────────────────────────────────────── */
@@ -1244,6 +1271,92 @@ body.tools-open #viewer { visibility: hidden; }
 /* Push workspace content above the sound bar */
 #workspace { padding-bottom: 38px; }
 
+/* ── Effects Panel ─────────────────────────────────────────────────────────── */
+/* NOTE: this base block must stay ABOVE the responsive @media blocks below —
+   same-specificity CSS resolves ties by source order, so if this came after
+   the media queries it would silently win over them at every viewport. */
+#snd-fx-panel {
+  position: fixed;
+  bottom: 38px;
+  right: 14px;
+  width: min(540px, 96vw);
+  max-height: min(560px, calc(100vh - 60px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  padding: 0 12px 8px;
+  z-index: 101;
+}
+#snd-fx-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 8px 0;
+  background: #111;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  z-index: 1;
+}
+#snd-fx-close {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 2px 4px;
+}
+#snd-fx-close:hover { color: #cdd6f4; }
+#snd-fx-grid { display: flex; flex-direction: column; gap: 4px; }
+.snd-fx-category {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #555;
+  margin-top: 2px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.snd-fx-category:hover { color: #888; }
+.snd-fx-category::before { content: '▾'; font-size: 0.7rem; transition: transform 0.1s; }
+.snd-fx-category.snd-fx-collapsed::before { transform: rotate(-90deg); }
+.snd-fx-row { display: flex; flex-wrap: wrap; gap: 4px; }
+.snd-fx-row.snd-fx-collapsed { display: none; }
+.snd-fx-btn {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #cdd6f4;
+  cursor: pointer;
+  font-size: 0.72rem;
+  padding: 3px 7px;
+  transition: background 0.1s, border-color 0.1s;
+}
+.snd-fx-btn:hover { background: #2a1a3a; border-color: var(--accent); }
+.snd-fx-btn:active, .snd-fx-btn.snd-fx-flash { background: #3a2a4a; border-color: var(--accent); color: var(--accent); }
+.snd-divider { color: #333; padding: 0 2px; user-select: none; }
+#snd-fx-btn {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: #cdd6f4;
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+}
+#snd-fx-btn:hover { border-color: var(--accent); color: var(--accent); }
+#snd-fx-btn.snd-fx-open { border-color: var(--accent); color: var(--accent); background: #2a1a3a; }
+
 @media (max-width: 900px) {
   /* Larger touch targets */
   #snd-play, #snd-loop, #snd-fx-btn, .snd-quick-btn, .snd-more-btn {
@@ -1267,6 +1380,18 @@ body.tools-open #viewer { visibility: hidden; }
     right: 0;
     left: auto;
   }
+}
+
+/* Short/laptop viewports (e.g. 1366x768): keep the FX panel fully on-screen
+   and reachable without relying on scroll to find the header/close button. */
+@media (max-height: 820px) {
+  #snd-fx-panel {
+    bottom: 38px;
+    max-height: calc(100vh - 46px);
+  }
+  #snd-fx-header { padding: 6px 0; margin-bottom: 6px; }
+  #snd-fx-grid { gap: 3px; }
+  .snd-fx-category { margin-top: 1px; }
 }
 
 @media (max-width: 480px) {
@@ -1323,68 +1448,6 @@ body.tools-open #viewer { visibility: hidden; }
   margin-right: 5px;
   color: var(--accent);
 }
-
-/* ── Effects Panel ─────────────────────────────────────────────────────────── */
-#snd-fx-panel {
-  position: fixed;
-  bottom: 38px;
-  right: 14px;
-  width: 540px;
-  max-height: calc(100vh - 60px);
-  overflow-y: auto;
-  background: #111;
-  border: 1px solid #2a2a2a;
-  border-bottom: none;
-  border-radius: 8px 8px 0 0;
-  padding: 8px 12px;
-  z-index: 101;
-}
-#snd-fx-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #888;
-}
-#snd-fx-close {
-  background: none;
-  border: none;
-  color: #666;
-  cursor: pointer;
-  font-size: 0.85rem;
-  padding: 2px 4px;
-}
-#snd-fx-close:hover { color: #cdd6f4; }
-#snd-fx-grid { display: flex; flex-direction: column; gap: 4px; }
-.snd-fx-category { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: #555; margin-top: 2px; }
-.snd-fx-row { display: flex; flex-wrap: wrap; gap: 4px; }
-.snd-fx-btn {
-  background: #1a1a1a;
-  border: 1px solid #333;
-  border-radius: 4px;
-  color: #cdd6f4;
-  cursor: pointer;
-  font-size: 0.72rem;
-  padding: 3px 7px;
-  transition: background 0.1s, border-color 0.1s;
-}
-.snd-fx-btn:hover { background: #2a1a3a; border-color: var(--accent); }
-.snd-fx-btn:active, .snd-fx-btn.snd-fx-flash { background: #3a2a4a; border-color: var(--accent); color: var(--accent); }
-.snd-divider { color: #333; padding: 0 2px; user-select: none; }
-#snd-fx-btn {
-  background: #1a1a1a;
-  border: 1px solid #333;
-  border-radius: 4px;
-  color: #cdd6f4;
-  cursor: pointer;
-  font-size: 0.75rem;
-  padding: 3px 8px;
-}
-#snd-fx-btn:hover { border-color: var(--accent); color: var(--accent); }
-#snd-fx-btn.snd-fx-open { border-color: var(--accent); color: var(--accent); background: #2a1a3a; }
 
 /* ── Stat Block Popup ────────────────────────────────── */
 .sb-overlay {
@@ -1580,3 +1643,72 @@ body.tools-open #viewer { visibility: hidden; }
   font-family: inherit;
 }
 .login-btn:hover { background: #b4d0ff; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   Mobile / Tablet polish pass (S23 Ultra, Galaxy Tab S8)
+   Appended last so it wins the cascade. See
+   docs/superpowers/specs/2026-06-26-dm-panel-mobile-friendly-design.md
+   ════════════════════════════════════════════════════════════════════════════ */
+
+/* ── Horizontal-overflow safety net ───────────────────────────────────────── */
+html, body { max-width: 100%; overflow-x: hidden; }
+#workspace, #panel-center, #panel-left, #panel-right { max-width: 100%; }
+/* Any rendered/long content inside panels wraps instead of widening the layout */
+#panel-left, #panel-right { overflow-wrap: anywhere; }
+
+/* ── Touch targets: comfortable on ANY touch device (phone + tablet) ──────────
+   Scoped to coarse pointers so the desktop mouse layout is untouched. */
+@media (pointer: coarse) {
+  .tab            { padding: 9px 14px; font-size: 13px; }
+  .mob-btn        { min-width: 40px; min-height: 40px; font-size: 18px; }
+  .tl             { padding: 10px 12px; font-size: 14px; line-height: 1.3; }
+  #btn-ctx        { padding: 8px 12px; font-size: 13px; }
+  #search-input   { padding: 8px 10px; font-size: 14px; }
+  #season-sel     { padding: 7px 8px; font-size: 13px; }
+  #season-tracker { padding: 7px 12px; }
+  /* Resize handles are useless without a mouse; reclaim their width */
+  .rh             { display: none; }
+}
+
+/* ── Tablet portrait & large phones in landscape (601–900px) ──────────────────
+   The ≤900px rules already switch panels to drawers; here we give the drawers
+   a more generous, readable width on the roomier tablet screen. */
+@media (min-width: 601px) and (max-width: 900px) {
+  #panel-left  { width: min(60vw, 360px) !important; }
+  #panel-right { width: min(80vw, 520px) !important; }
+  .tab { font-size: 13px; }
+  #breadcrumb { display: block; max-width: 38vw; }   /* room for it on a tablet */
+}
+
+/* ── Drawers: don't let an open drawer create sideways scroll ──────────────── */
+@media (max-width: 900px) {
+  #panel-left, #panel-right { max-width: 100vw; }
+  /* Keep the scrollable tab strip clear of the notch / rounded corners */
+  #tabbar { padding-left: max(8px, env(safe-area-inset-left));
+            padding-right: max(8px, env(safe-area-inset-right)); }
+}
+
+/* ── Nav tab strip polish: the whole bar scrolls (as before), but the mobile
+      button group stays pinned on the left so ☰/⌨/📺 never scroll out of
+      reach, and the trailing edge fades to hint that the tabs scroll. ─────── */
+@media (max-width: 900px) {
+  /* Pinned button cluster — sticks to the left edge during horizontal scroll */
+  #mob-btns {
+    display: flex;
+    gap: 4px;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    flex-shrink: 0;
+    background: var(--panel);
+    /* small fade on its trailing side so tabs slide under it cleanly */
+    box-shadow: 6px 0 6px -4px var(--panel);
+  }
+  /* Trailing-edge fade hint. #toast lives outside the header so it isn't masked. */
+  #tabbar {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 24px), transparent);
+  }
+  /* 📺 toggle reflects whether the player strip is showing */
+  #mob-player.active { color: var(--accent); }
+}

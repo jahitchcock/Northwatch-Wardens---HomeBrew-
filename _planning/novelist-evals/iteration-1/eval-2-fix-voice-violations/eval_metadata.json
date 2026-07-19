@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "fix-voice-violations",
+  "prompt": "Read the following passage and fix ALL voice violations against the novelist skill's rules:\n\n---\n\nIt was a hot day. It was the kind of hot that made you want to stop moving. There was no shade anywhere. There was just the road, stretching on forever.\n\nCorwin said, \"I'm tired. Let's stop here for a bit. It's too hot to keep walking.\"\n\n\"I don't know,\" Brannoc said. \"I have walked through hotter days in the deep places of the earth. The stone remembers heat the way it remembers everything.\"\n\n\"You're not a dwarf,\" Corwin said. \"You don't know what stone remembers.\"\n\n---\n\nFix these specific issues: (1) Break the anaphoric tic in the opening (all sentences start with 'It was' or 'There was'). (2) Fix Corwin's contractions — he should use zero contractions. (3) Fix Brannoc's voice — he should call people 'elf' or 'human', drop subjects, and use conversational contractions. (4) Fix Elowen's narration — she was a passenger in this passage; the narration should feel like first-person Elowen watching and reflecting, with at least one elder-Elowen hindsight seam.\n\nOutput the corrected passage with brief notes on what changed and why.",
+  "assertions": []
+}

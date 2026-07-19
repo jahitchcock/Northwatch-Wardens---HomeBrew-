@@ -1,15 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "Northwatch Wardens - (HomeBrew)",
 			"path": "."
 		},
 		{
+			"name": "image-gen",
 			"path": "F:/NewProject/image-gen"
 		},
 		{
+			"name": "08 - DungeonTiles",
 			"path": "../../08 - DungeonTiles"
 		},
 		{
+			"name": "07 - Maps",
 			"path": "../../07 - Maps"
 		}
 	],

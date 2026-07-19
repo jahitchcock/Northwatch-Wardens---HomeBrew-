@@ -6,7 +6,17 @@ location: Smuggler hideout, cliffs west of Palebank (30-minute walk)
 
 # Scene 2: Croaker Cave
 
-**Setup:** The bandits stole the vials because they looked valuable — a Corsair fence named Brynn Wraithwood (the "B.W." on the cave note) promised coin for anything Aevorian. They had no idea the vials were deadly. These are cold, hungry, morally grey people — not monsters. The cure path runs through them, but violence isn't the only route.
+**Setup:** [Brynn Wraithwood](npcs/season-1/brynn-wraithwood.md) — the Corsair fence who leads this crew (the "B.W." on the cave note) — took a buyer's commission to retrieve Aevorian relics from the ruins up north. His people brought back anything that glowed blue, these vials among them, and he's been quietly fencing the haul across Northreach since. They had no idea the vials were deadly. These are cold, hungry, morally grey people — not monsters. The cure path runs through them, but violence isn't the only route.
+
+---
+
+## VTT Map for This Scene
+
+| Location | Map File | Size | Notes |
+|----------|----------|------|-------|
+| **Croaker Cave** | `ps-06-croaker-cave_grid.png` | 8×5 squares (40×25 ft) | Central campfire, supply crates, chest on far wall, 5 bandits + leader |
+
+**Setup Note:** Place Brynn and 4 bandits near the campfire. Place Sett (infected bandit) off to one side. Show the chest location at the far wall covered with blankets.
 
 ---
 
@@ -44,7 +54,7 @@ One bandit — Sett, a young woman with blue-tinged fingers — is sitting apart
 2. Mentioning the disease causes immediate reaction: the bandits look at each other, then at Sett.
 3. DC 12 Intimidation: Brynn orders everyone to stand down; hands over the chest key.
 4. DC 14 Persuasion: Brynn actively helps — opens the chest, tells them everything he knows about Salsvault.
-5. If party offers to cure Sett on return: Brynn gives them detailed directions, Morgo's contact information, and the second map.
+5. If party offers to cure Sett on return: Brynn gives them detailed directions, [Morgo](npcs/season-1/morgo-delwur.md)'s contact information, and the second map.
 
 <div class="sound-strip">🔊 If combat starts: <button class="snd-cue" data-scene="combat">🎵 Combat</button> &nbsp; SFX: <button class="snd-sfx" data-sfx="explosion">💥 Explosion</button></div>
 
@@ -163,13 +173,13 @@ Regardless of path, if the party notices Sett's fingers and asks:
 
 ## Time Pressure
 
-Recovering the vials stops further infections in Palebank — frame this to the party explicitly. "As long as those vials exist outside containment, anyone who touches them could become the next Urgon." Every hour in Croaker Cave is an hour of potential additional exposure in the village.
+Recovering the vials stops further infections in Palebank — frame this to the party explicitly. "As long as those vials exist outside containment, anyone who touches them could become the next [Urgon](npcs/core/urgon-wenth.md)." Every hour in Croaker Cave is an hour of potential additional exposure in the village.
 
 ---
 
 ## Escalation
 
-- **If party kills all the bandits:** The chest is accessible; the second map is in Brynn's pack. Sett is mortally wounded in the crossfire unless the party specifically protects her. The information about the researcher who hired Brynn is lost unless someone searched Brynn's body (DC 10 Investigation: a letter from "B. Wharrick, Acquisitions" with a Stilben address).
+- **If party kills all the bandits:** The chest is accessible; the second map is in Brynn's pack. Sett is mortally wounded in the crossfire unless the party specifically protects her. The information about the patron who hired Brynn is lost unless someone searched Brynn's body (DC 10 Investigation: a letter signed only "Acquisitions," with a Stilben drop-address — the party's first faint trace of [The Buyer](npcs/season-1/the-buyer.md)).
 - **If party skips Croaker Cave entirely:** They arrive at Salsvault without the vials and the full context. Morgo at the Cold Anchor knows Brynn by reputation and can partially fill in: "There was a fence — big fellow, northerner — buying Aevorian artifacts. Haven't seen him in weeks."
 - **If combat drags past 3 rounds:** Brynn calls for a ceasefire. "This is pointless. We're not dying over a chest. What do you actually want?"
 - **If party wants to take the infected vials with them:** They can — they're the disease vector. Handle with cloth or gloves (DC 11 Con save to avoid infection if handled barehanded for more than a minute).

@@ -8,7 +8,7 @@ when: When Tulgi shares her findings with players
 HEALER'S LOG — TULGI LUTAN
 Palebank Village Medical Records
 
-PATIENT: Irven Liel (Age 47, Trapper)
+PATIENT: Urgon Wenth (Dwarf, Blacksmith) — FIRST FATALITY
 
 Day 1: Fever, chills, extreme fatigue. Frostbite-like discoloration on
 fingers despite warm conditions.
@@ -20,7 +20,8 @@ No improvement.
 Day 3: Patient unresponsive. Skin cold to touch but internal temperature
 elevated. Pulse erratic.
 
-Day 4: Deceased. Body preserved for examination.
+Day 4: Deceased — body fully crystallized, frozen mid-stride.
+Preserved as found.
 
 AUTOPSY FINDINGS:
 - Crystalline formations in blood vessels
@@ -33,16 +34,16 @@ CONCLUSION: This is NOT natural illness.
 ---
 
 ADDITIONAL PATIENTS (similar progression):
-• Mila Teno (Age 34, Fisher) — DECEASED
-• Korinn Tansi (Age 29, Hunter) — DECEASED
-• Verla Pelc (Age 61, Merchant) — CRITICAL
-• Four others showing early symptoms
+• Tulgi Lutan (myself) — early symptoms, source: a vial I bought
+• Irven Liel Sr.'s household — partner and two children, worsening
+• Several others showing early signs
 
 COMMON FACTORS:
-All victims visited Urgon's smithy within two weeks of symptom onset.
-Urgon missing. Blue vials found in smithy suggest alchemical contamination.
+Every victim had contact with the blue Aevorian vials Urgon brought
+back from the north — two of them, sold on through Verla Pelc.
 
-RECOMMENDATION: Urgon must be found. Source must be destroyed.
+RECOMMENDATION: Find where Urgon got them. The source must be sealed
+or destroyed before more vials reach the village.
 
 — Tulgi Lutan, Healer
 ```

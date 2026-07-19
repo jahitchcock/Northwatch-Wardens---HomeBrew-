@@ -10,6 +10,8 @@ const { marked } = require('marked');
 const cookieParser = require('cookie-parser');
 const crypto = require('crypto');
 
+const { spawn } = require('child_process');
+
 const DM_PASSWORD = process.env.DM_PASSWORD || 'TPK';
 const COOKIE_SECRET = process.env.COOKIE_SECRET || 'nw-dm-panel-secret-2026';
 const COOKIE_NAME = 'dm_auth';
@@ -40,7 +42,50 @@ const ANNOTATIONS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/pdf-annotations.json
 const indexingNow = new Set(); // bookIds currently being indexed in background
 
 let playerScreenState = { type: 'idle', idleMessage: null };
-let vttState          = { type: 'idle', effects: [], darkness: 0 };
+
+// TV specs for grid calculation: reads from vtt-tv-specs.json and computes the
+// correct pixel size for 5-ft grid squares displayed on the physical TV.
+// Formula: px_per_inch = (width_px / width_mm) * 25.4; grid_px = px_per_inch * grid_ft / 12
+const TV_SPECS_FILE = path.join(CAMPAIGN_ROOT, 'web/data/vtt-tv-specs.json');
+function calculateGridSizeFromTvSpecs() {
+  try {
+    const specs = JSON.parse(fs.readFileSync(TV_SPECS_FILE, 'utf8'));
+    const { width_px, height_px } = specs.resolution;
+    const { width_mm, height_mm } = specs.physical_dimensions;
+    const { grid_ft } = specs.grid_settings;
+    // Pixels per inch: (px/mm) * (mm/inch)
+    const px_per_inch = (width_px / width_mm) * 25.4;
+    // Grid size in px: 1 grid square = grid_ft feet = grid_ft/12 inches
+    return Math.round(px_per_inch * (grid_ft / 12) * 100) / 100;
+  } catch {
+    // Fallback: hardcoded for Samsung UN40H6203AF, 1920x1080 @ 888x500mm, 5-ft grid
+    return 54.9;
+  }
+}
+const DEFAULT_VTT_GRID_SIZE = calculateGridSizeFromTvSpecs();
+
+// vttState is persisted to disk so a pm2 restart (crash, or the file-watcher
+// restarting on a public/ or server.js change) doesn't drop the DM back to a
+// blank black screen mid-session — it reloads whatever was last on the TV.
+const VTT_STATE_FILE = path.join(CAMPAIGN_ROOT, 'web/data/vtt-state.json');
+const DEFAULT_VTT_STATE = { type: 'idle', effects: [], darkness: 0, grid: true, gridSize: DEFAULT_VTT_GRID_SIZE };
+
+function loadVttState() {
+  try {
+    const saved = JSON.parse(fs.readFileSync(VTT_STATE_FILE, 'utf8'));
+    return { ...DEFAULT_VTT_STATE, ...saved };
+  } catch { /* no saved state yet, or unreadable — fall back to default */ }
+  return { ...DEFAULT_VTT_STATE };
+}
+
+function saveVttState() {
+  try {
+    fs.mkdirSync(path.dirname(VTT_STATE_FILE), { recursive: true });
+    fs.writeFileSync(VTT_STATE_FILE, JSON.stringify(vttState, null, 2));
+  } catch { /* non-fatal — in-memory state still works for this run */ }
+}
+
+let vttState  = loadVttState();
 let playerWss = null;    // assigned later after server is created
 let vttWss    = null;
 let terminalWss = null;  // assigned inside if(pty) block
@@ -405,6 +450,10 @@ const PUBLIC_PREFIXES = [
   '/player', '/api/player-screen',
   // VTT screen — public display + DM reads state (POST auth checked inside handler)
   '/vtt', '/api/vtt-screen',
+  // Novels — public e-reader
+  '/novels', '/api/novels',
+  // Shops — DM panel endpoint
+  '/api/shops',
 ];
 
 function signValue(val) {
@@ -685,6 +734,24 @@ const FRAME_SCREEN_CSS = `
 
   /* Images shouldn't overflow */
   img { max-width: 100%; height: auto; }
+
+  /* Long words / URLs / IDs must wrap instead of widening the page */
+  .brewRenderer .pages .page { overflow-wrap: break-word; word-break: break-word; }
+
+  /* Wide tables and code blocks scroll inside their own box, not the page */
+  .brewRenderer .pages .page table,
+  .brewRenderer .pages .page pre {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Phones / small tablets: trim heavy page padding so content fills the screen */
+  @media (max-width: 600px) {
+    .pages { padding: 14px 8px; gap: 18px; }
+    .brewRenderer .pages .page { padding: 18px 16px !important; }
+  }
 `;
 
 const WEB_CONTENT_CSS = `
@@ -696,6 +763,8 @@ const WEB_CONTENT_CSS = `
     font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif;
     font-size: 15px;
     line-height: 1.7;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
   .web-content { max-width: 760px; margin: 0 auto; padding: 28px 24px 60px; }
   h1 { font-size: 1.8em; color: #58180d; text-transform: uppercase;
@@ -781,6 +850,16 @@ const WEB_CONTENT_CSS = `
     cursor: pointer; font-family: system-ui, sans-serif; line-height: 1.6;
   }
   .snd-sfx:hover { background: #4a8a4a; }
+  /* Wide tables / code scroll within their box instead of widening the page */
+  table, pre { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  pre { white-space: pre; }
+  /* Phones: lighter padding, slightly larger base text for readability */
+  @media (max-width: 600px) {
+    html, body { font-size: 16px; }
+    .web-content { padding: 18px 14px 48px; }
+    .npc-header { gap: 12px; }
+    .npc-portrait { width: 88px; height: 88px; }
+  }
 `;
 
 const CDN = u => `/cdn-proxy?url=${encodeURIComponent(u)}`;
@@ -790,6 +869,7 @@ function previewHtml(body) {
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <link href="${CDN('https://use.fontawesome.com/releases/v5.15.1/css/all.css')}" rel="stylesheet">
   <link href="${CDN('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700')}" rel="stylesheet">
   <link href="${CDN('https://assets.dungeonsandmarkdown.spjak.com/bundle.css')}" rel="stylesheet">
@@ -830,6 +910,7 @@ function webPreviewHtml(title, bodyHtml) {
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>${esc(title)}</title>
   <style>${WEB_CONTENT_CSS}</style>
 </head>
@@ -966,7 +1047,10 @@ app.get('/preview', (req, res) => {
 
       let rendered;
       if (isWebPath(filePath)) {
-        const { html, title } = renderWebMarkdown(filePath);
+        // Pass the file's own directory as baseRel so relative .md links
+        // (e.g. an adventure index.md linking to its scene files) resolve
+        // to working modal links even when the file is opened directly.
+        const { html, title } = renderWebMarkdown(filePath, toRel(path.dirname(filePath)));
         rendered = webPreviewHtml(title, html);
       } else {
         const content = fs.readFileSync(filePath, 'utf8');
@@ -1245,6 +1329,60 @@ app.get('/api/map-library', requireAuth, (req, res) => {
   }
 });
 
+// Adventure maps (Pale Sickness, etc.) — organized by type
+app.get('/api/adventure-maps', requireAuth, (req, res) => {
+  try {
+    const ADVENTURE_MAPS_DIR = path.join(CAMPAIGN_ROOT, 'adventures/season-1/the-pale-sickness/maps');
+    const result = { 'pale-sickness': [], 'generic': [] };
+
+    if (!fs.existsSync(ADVENTURE_MAPS_DIR)) return res.json(result);
+
+    ['pale-sickness', 'generic'].forEach(category => {
+      const categoryDir = path.join(ADVENTURE_MAPS_DIR, category);
+      if (fs.existsSync(categoryDir)) {
+        const files = fs.readdirSync(categoryDir)
+          .filter(f => /\.(png|jpg|webp)$/i.test(f))
+          .map(f => {
+            const full = path.join(categoryDir, f);
+            const stat = fs.statSync(full);
+            return {
+              filename: f,
+              name: f.replace(/_grid\.png$/, '').replace(/-/g, ' ').replace(/^ps /, '').toUpperCase(),
+              url: `/maps-adventure/${category}/${encodeURIComponent(f)}`,
+              mtime: stat.mtimeMs,
+              size: stat.size,
+            };
+          })
+          .sort((a, b) => b.mtime - a.mtime);
+        result[category] = files;
+      }
+    });
+    res.json(result);
+  } catch (e) {
+    console.error('[adventure-maps]', e.message);
+    res.status(500).json({ error: e.message });
+  }
+});
+
+// Serve adventure maps
+app.use('/maps-adventure/:category/:file', (req, res) => {
+  const { category, file } = req.params;
+  if (!['pale-sickness', 'generic'].includes(category)) {
+    return res.status(403).send('Invalid category');
+  }
+  const filePath = path.join(
+    CAMPAIGN_ROOT,
+    'adventures/season-1/the-pale-sickness/maps',
+    category,
+    decodeURIComponent(file)
+  );
+  // Ensure the file is within the allowed directory
+  if (!filePath.startsWith(path.join(CAMPAIGN_ROOT, 'adventures/season-1/the-pale-sickness/maps'))) {
+    return res.status(403).send('Access denied');
+  }
+  res.sendFile(filePath);
+});
+
 app.get('/api/maps', requireAuth, (req, res) => {
   try {
     if (!fs.existsSync(MAPS_OUTPUT_DIR)) return res.json([]);
@@ -1264,101 +1402,63 @@ app.get('/api/maps', requireAuth, (req, res) => {
   }
 });
 
-app.post('/api/maps/generate', requireAuth, express.json(), async (req, res) => {
-  const { style, prompt, negative_prompt, seed, steps, cfg, model } = req.body || {};
-  if (!prompt) return res.status(400).json({ error: 'prompt required' });
-  if (!['topdown', 'scene'].includes(style)) return res.status(400).json({ error: 'style must be topdown or scene' });
+const _imageGenPython = () => process.env.IMAGE_GEN_PYTHON || 'f:\\NewProject\\image-gen\\.venv\\Scripts\\python.exe';
+const _bridgeScript = () => path.join(__dirname, 'generate_map.py');
 
-  const workflowFile = style === 'topdown'
-    ? path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_topdown_sdxl.json')
-    : path.join(BATTLEMAP_WORKFLOWS_DIR, 'txt2img_battlemap_scene.json');
-
-  let wf;
+app.get('/api/maps/styles', requireAuth, (req, res) => {
   try {
-    wf = JSON.parse(fs.readFileSync(workflowFile, 'utf8'));
-  } catch (e) {
-    return res.status(500).json({ error: `Failed to load workflow: ${e.message}` });
-  }
-
-  const resolvedSeed = (seed != null && Number.isInteger(seed) && seed >= 0)
-    ? seed
-    : Math.floor(Math.random() * 2**32);
-  const resolvedSteps = steps || 25;
-  const resolvedCfg = cfg || (style === 'topdown' ? 3.0 : 8.0);
-
-  const defaultNeg = style === 'topdown' ? BATTLEMAP_TOPDOWN_NEGATIVE : BATTLEMAP_SCENE_NEGATIVE;
-  try {
-    wf['3']['inputs']['text'] = prompt;
-    wf['4']['inputs']['text'] = negative_prompt || defaultNeg;
-    if (model) wf['1']['inputs']['ckpt_name'] = model;
-    wf['6']['inputs']['seed'] = resolvedSeed;
-    wf['6']['inputs']['steps'] = resolvedSteps;
-    wf['6']['inputs']['cfg'] = resolvedCfg;
-  } catch (e) {
-    return res.status(500).json({ error: `Workflow schema mismatch: ${e.message}` });
-  }
-
-  const clientId = crypto.randomUUID();
-  let promptId;
-  try {
-    const submitResp = await fetch(`${COMFYUI_URL}/prompt`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt: wf, client_id: clientId }),
+    const child = spawn(_imageGenPython(), [_bridgeScript(), '--list-styles'], {
+      cwd: __dirname,
+      stdio: ['pipe', 'pipe', process.stderr],
+      env: { ...process.env, PYTHONIOENCODING: 'utf-8' },
     });
-    if (!submitResp.ok) {
-      const text = await submitResp.text();
-      return res.status(502).json({ error: `ComfyUI rejected workflow: ${text}` });
-    }
-    const submitData = await submitResp.json();
-    if (submitData.error) return res.status(502).json({ error: submitData.error });
-    promptId = submitData.prompt_id;
+    let stdout = '';
+    child.stdout.on('data', d => stdout += d.toString());
+    child.on('close', code => {
+      if (code !== 0) return res.status(500).json({ error: 'Style listing failed' });
+      try { res.json(JSON.parse(stdout)); }
+      catch { res.status(500).json({ error: 'Invalid style data' }); }
+    });
+    child.stdin.end();
   } catch (e) {
-    return res.status(502).json({ error: `ComfyUI unreachable: ${e.message}` });
+    res.status(500).json({ error: e.message });
   }
+});
 
-  let imageInfo = null;
-  const deadline = Date.now() + 120_000;
-  while (Date.now() < deadline) {
-    await new Promise(r => setTimeout(r, 2000));
+app.post('/api/maps/generate', requireAuth, async (req, res) => {
+  const { style, prompt, negative_prompt, seed, steps, cfg, model, width, height } = req.body || {};
+  if (!prompt) return res.status(400).json({ error: 'prompt required' });
+
+  // Build the params JSON to pipe to the Python bridge.
+  const params = { style, prompt };
+  if (negative_prompt) params.negative_prompt = negative_prompt;
+  if (seed != null && Number.isInteger(seed) && seed >= 0) params.seed = seed;
+  if (steps) params.steps = steps;
+  if (cfg) params.cfg = cfg;
+  if (model) params.model = model;
+  if (width) params.width = width;
+  if (height) params.height = height;
+
+  const child = spawn(_imageGenPython(), [_bridgeScript()], {
+    cwd: __dirname,
+    stdio: ['pipe', 'pipe', process.stderr],
+    env: { ...process.env, PYTHONIOENCODING: 'utf-8' },
+  });
+
+  let stdout = '';
+  child.stdout.on('data', d => stdout += d.toString());
+  child.stdout.on('end', () => {
     try {
-      const histResp = await fetch(`${COMFYUI_URL}/history/${promptId}`);
-      const hist = await histResp.json();
-      if (hist[promptId]) {
-        const entry = hist[promptId];
-        if (entry.status?.status_str === 'error') {
-          return res.status(502).json({ error: `ComfyUI error: ${JSON.stringify(entry.status.messages)}` });
-        }
-        for (const nodeOut of Object.values(entry.outputs || {})) {
-          for (const img of (nodeOut.images || [])) {
-            imageInfo = img;
-          }
-        }
-        if (imageInfo) break;
-      }
-    } catch { /* keep polling */ }
-  }
+      const result = JSON.parse(stdout);
+      if (result.error) return res.status(500).json({ error: result.error });
+      res.json({ filename: result.filename, url: result.url });
+    } catch (e) {
+      res.status(500).json({ error: `Failed to parse bridge output: ${e.message}`, raw: stdout.slice(0, 500) });
+    }
+  });
+  child.on('error', e => res.status(500).json({ error: `Bridge spawn failed: ${e.message}` }));
 
-  if (!imageInfo) return res.status(504).json({ error: 'Generation timed out after 120s' });
-
-  let imgBytes;
-  try {
-    const viewResp = await fetch(
-      `${COMFYUI_URL}/view?filename=${encodeURIComponent(imageInfo.filename)}&subfolder=${encodeURIComponent(imageInfo.subfolder || '')}&type=${imageInfo.type || 'output'}`
-    );
-    if (!viewResp.ok) return res.status(502).json({ error: 'Failed to fetch image from ComfyUI' });
-    imgBytes = Buffer.from(await viewResp.arrayBuffer());
-  } catch (e) {
-    return res.status(502).json({ error: `Failed to fetch image: ${e.message}` });
-  }
-
-  fs.mkdirSync(MAPS_OUTPUT_DIR, { recursive: true });
-  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-  const filename = `${style}_${timestamp}_${resolvedSeed}.png`;
-  const outPath = path.join(MAPS_OUTPUT_DIR, filename);
-  fs.writeFileSync(outPath, imgBytes);
-
-  res.json({ filename, url: `/maps-output/${encodeURIComponent(filename)}` });
+  child.stdin.end(JSON.stringify(params));
 });
 
 // ─── Save image (clipboard paste) ─────────────────────────────────────────
@@ -1421,43 +1521,6 @@ app.get('/api/search', (req, res) => {
   res.json(out);
 });
 
-// ─── Tables API ───────────────────────────────────────────────────────────────
-
-// Parse a /tables/*.md file into rollable groups.
-// Two strategies: markdown tables (d20/d12 rolls) and numbered-heading lists.
-function parseTableFile(filePath) {
-  const raw = fs.readFileSync(filePath, 'utf8');
-  // Strip frontmatter and Homebrewery syntax
-  let content = raw.replace(/^---[\s\S]*?---\n?/, '');
-  content = content.replace(/\{\{\w[^\n}]*\n/g, '').replace(/^\}\}\s*$/gm, '');
-  content = content.replace(/\\(page|column)/g, '');
-
-  const groups = [];
-  const lines = content.split('\n');
-  let lastHeading = '';
-  let die = 20;
-  let inTable = false;
-  let headerCells = null;
-  let rows = [];
-
-  function flush() {
-    if (headerCells && rows.length > 0) {
-      // Only treat as a rollable table if rows start with numbers
-      if (/^\d/.test(rows[0]?.[0] || '')) {
-        groups.push({ name: lastHeading, die, rows: rows.map(r => ({ roll: r[0], text: r.slice(1).join(' — ') })) });
-      }
-    }
-    headerCells = null; rows = []; inTable = false;
-  }
-
-  for (const line of lines) {
-    const t = line.trim();
-    if (/^#{1,4}\s/.test(t)) {
-      flush();
-      lastHeading = t.replace(/^#{1,4}\s+/, '').replace(/\*\*/g, '').trim();
-      const m = lastHeading.match(/\(d(\d+)\)/i);
-      if (m) die = parseInt(m[1]);
-      continue;
 // ─── Lore RAG (semantic search + grounded generation) ──────────────────────────
 // Proxies to the pgvector/fastembed service on the GPU box. `collection` is
 // required by the upstream API and enforces the campaign/novels canon firewall.
@@ -1495,6 +1558,43 @@ app.post('/api/lore-ask', async (req, res) => {
   }
 });
 
+// ─── Tables API ───────────────────────────────────────────────────────────────
+
+// Parse a /tables/*.md file into rollable groups.
+// Two strategies: markdown tables (d20/d12 rolls) and numbered-heading lists.
+function parseTableFile(filePath) {
+  const raw = fs.readFileSync(filePath, 'utf8');
+  // Strip frontmatter and Homebrewery syntax
+  let content = raw.replace(/^---[\s\S]*?---\n?/, '');
+  content = content.replace(/\{\{\w[^\n}]*\n/g, '').replace(/^\}\}\s*$/gm, '');
+  content = content.replace(/\\(page|column)/g, '');
+
+  const groups = [];
+  const lines = content.split('\n');
+  let lastHeading = '';
+  let die = 20;
+  let inTable = false;
+  let headerCells = null;
+  let rows = [];
+
+  function flush() {
+    if (headerCells && rows.length > 0) {
+      // Only treat as a rollable table if rows start with numbers
+      if (/^\d/.test(rows[0]?.[0] || '')) {
+        groups.push({ name: lastHeading, die, rows: rows.map(r => ({ roll: r[0], text: r.slice(1).join(' — ') })) });
+      }
+    }
+    headerCells = null; rows = []; inTable = false;
+  }
+
+  for (const line of lines) {
+    const t = line.trim();
+    if (/^#{1,4}\s/.test(t)) {
+      flush();
+      lastHeading = t.replace(/^#{1,4}\s+/, '').replace(/\*\*/g, '').trim();
+      const m = lastHeading.match(/\(d(\d+)\)/i);
+      if (m) die = parseInt(m[1]);
+      continue;
     }
     if (t.startsWith('|') && !t.match(/^\|[-: ]+\|/)) {
       if (!inTable) {
@@ -3192,6 +3292,420 @@ app.get('/rulebooks', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'rulebooks.html'));
 });
 
+// ─── Novel routes ───────────────────────────────────────────────────────────────
+
+const NOVELS_DIR = path.join(CAMPAIGN_ROOT, 'Novels');
+
+app.get('/api/novels', (req, res) => {
+  try {
+    const result = [];
+    if (!fs.existsSync(NOVELS_DIR)) return res.json(result);
+
+    const parseFrontmatter = (content) => {
+      const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      if (!match) return {};
+      const fm = {};
+      for (const line of match[1].split(/\r?\n/)) {
+        const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/);
+        if (m) fm[m[1]] = isNaN(m[2]) ? m[2] : parseFloat(m[2]);
+      }
+      return fm;
+    };
+
+    for (const entry of fs.readdirSync(NOVELS_DIR, { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const bookDir = path.join(NOVELS_DIR, entry.name);
+      const chaptersDir = path.join(bookDir, 'Chapters');
+      if (!fs.existsSync(chaptersDir)) continue;
+
+      const chapters = [];
+      for (const ch of fs.readdirSync(chaptersDir, { withFileTypes: true })) {
+        if (!ch.isFile() || !ch.name.toLowerCase().endsWith('.md')) continue;
+        const chPath = path.join(chaptersDir, ch.name);
+        const content = fs.readFileSync(chPath, 'utf8');
+        const fm = parseFrontmatter(content);
+
+        const label = fm.label || 'Chapter';
+        const title = fm.title || ch.name.replace(/\.md$/i, '').replace(/_/g, ' ');
+        const displayName = label + ' — ' + title;
+
+        chapters.push({
+          name: displayName,
+          file: 'Novels/' + entry.name + '/Chapters/' + ch.name,
+          sort_order: fm.sort_order || 0,
+          part: fm.part || 0,
+          type: fm.type || 'chapter',
+          series: fm.series || '',
+        });
+      }
+
+      chapters.sort((a, b) => a.sort_order - b.sort_order);
+
+      const bookTitle = entry.name.replace(/^\d+\s*/, '').trim();
+
+      let subtitle = '';
+      if (chapters.length > 0) {
+        try {
+          const firstCh = path.join(NOVELS_DIR, entry.name, 'Chapters', fs.readdirSync(chaptersDir, { withFileTypes: true }).find(c => c.isFile() && c.name.toLowerCase().endsWith('.md')).name);
+          const firstContent = fs.readFileSync(firstCh, 'utf8');
+          const subMatch = firstContent.match(/^##\s+Book\s+\S+\s+[-—]\s+\*?([^*\n]+)\*?/m);
+          if (subMatch) subtitle = subMatch[1].trim();
+        } catch {}
+      }
+
+      let cover = null;
+      const coverDir = path.join(bookDir, 'Cover');
+      if (fs.existsSync(coverDir)) {
+        const coverFile = fs.readdirSync(coverDir).find(f => /titled.*\.(png|jpe?g|webp)$/i.test(f))
+          || fs.readdirSync(coverDir).find(f => /\.(png|jpe?g|webp)$/i.test(f));
+        if (coverFile) cover = '/api/novels/cover/' + encodeURIComponent(entry.name) + '/' + encodeURIComponent(coverFile);
+      }
+
+      result.push({
+        id: entry.name,
+        title: bookTitle,
+        subtitle,
+        cover,
+        chapters,
+      });
+    }
+
+    // Sort books by their number prefix
+    result.sort((a, b) => {
+      const na = parseInt(a.id.match(/^\d+/)?.[0] || '99');
+      const nb = parseInt(b.id.match(/^\d+/)?.[0] || '99');
+      return na - nb;
+    });
+
+    res.json(result);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get('/api/novels/cover/:bookId/:file', (req, res) => {
+  const coverPath = path.join(NOVELS_DIR, req.params.bookId, 'Cover', req.params.file);
+  if (!fs.existsSync(coverPath)) return res.status(404).end();
+  res.sendFile(coverPath);
+});
+
+app.get('/novels', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'novels.html'));
+});
+
+app.get('/novels/read', (req, res) => {
+  try {
+    const relPath = req.query.path;
+    if (!relPath || !relPath.includes('/Chapters/') || !relPath.toLowerCase().endsWith('.md')) {
+      return res.status(400).send('Invalid chapter path');
+    }
+
+    const filePath = safePath(relPath);
+    if (!fs.existsSync(filePath)) return res.status(404).send('Chapter not found');
+
+    const rawContent = fs.readFileSync(filePath, 'utf8');
+    const fmMatch = rawContent.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/);
+    const fm = {};
+    if (fmMatch) {
+      for (const line of fmMatch[0].replace(/^---\r?\n/, '').replace(/\r?\n---\r?\n?$/, '').split(/\r?\n/)) {
+        const m = line.match(/^(\w+):\s*"?([^"]*)"?\s*$/);
+        if (m) fm[m[1]] = isNaN(m[2]) ? m[2] : parseFloat(m[2]);
+      }
+    }
+    const content = fmMatch ? rawContent.slice(fmMatch[0].length) : rawContent;
+    const pages = renderPages(content, null);
+
+    const dirRel = path.dirname(relPath).replace(/\\/g, '/');
+    const bodyHtml = pages.replace(
+      /<a href="([^"#/][^"]*\.md)">/g,
+      (_, href) => `<a href="/preview?path=${encodeURIComponent(dirRel + '/' + href)}">`
+    );
+
+    const parts = relPath.replace(/\\/g, '/').split('/');
+    const bookId = parts.length >= 2 ? parts[1] : '';
+
+    let chTitle = (fm.label || '') + (fm.label && fm.title ? ' — ' : '') + (fm.title || '');
+    if (!chTitle) {
+      chTitle = path.basename(relPath).replace(/\.md$/i, '').replace(/_/g, ' ');
+      const chMatch3 = bodyHtml.match(/<h3[^>]*>([^<]+)<\/h3>/);
+      const chMatch2 = bodyHtml.match(/<h2[^>]*>([^<]+)<\/h2>/);
+      const chMatch1 = bodyHtml.match(/<h1[^>]*>([^<]+)<\/h1>/);
+      if (chMatch3) chTitle = chMatch3[1].replace(/<[^>]+>/g, '').trim();
+      else if (chMatch2) chTitle = chMatch2[1].replace(/<[^>]+>/g, '').trim();
+      else if (chMatch1) chTitle = chMatch1[1].replace(/<[^>]+>/g, '').trim();
+    }
+
+    const bookTitle = bookId.replace(/^\d+\s*/, '').trim();
+
+    res.send(`<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>${esc(chTitle)} — ${esc(bookTitle)}</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+    background: #0d0a08; color: #d8d0c8; -webkit-font-smoothing: antialiased;
+    display: flex; flex-direction: column;
+  }
+  #reader-bar {
+    display: flex; align-items: center; gap: 6px; padding: 6px 10px;
+    background: #161210; border-bottom: 1px solid #2a2220; flex-shrink: 0;
+    font-size: 12px; flex-wrap: wrap;
+  }
+  #reader-bar a, .nav-btn {
+    color: #b8a898; text-decoration: none; border: 1px solid #3a3028;
+    border-radius: 4px; padding: 4px 8px; font-size: 12px; cursor: pointer;
+    background: none; font-family: inherit; white-space: nowrap;
+  }
+  #reader-bar a:hover, .nav-btn:hover { border-color: #6a5a48; color: #d8c8b8; }
+  .nav-btn:disabled { opacity: 0.3; cursor: default; border-color: #1e1816; color: #4a3a2a; }
+  .reader-ch-title {
+    color: #f0e8d8; white-space: nowrap; overflow: hidden;
+    text-overflow: ellipsis; flex: 1; min-width: 0;
+  }
+  .reader-ch-title em { font-style: normal; color: #c8a878; }
+  .reader-settings-btn {
+    background: none; border: 1px solid #3a3028; color: #8a7a6a;
+    border-radius: 4px; padding: 4px 8px; font-size: 14px; cursor: pointer;
+    line-height: 1;
+  }
+  .reader-settings-btn:hover { border-color: #6a5a48; color: #b8a898; }
+  #reader-settings {
+    display: none; padding: 10px 14px; background: #12100e;
+    border-bottom: 1px solid #2a2220; flex-shrink: 0; gap: 16px;
+    flex-wrap: wrap; align-items: center;
+  }
+  #reader-settings.open { display: flex; }
+  .rs-group { display: flex; align-items: center; gap: 6px; }
+  .rs-label { font-size: 11px; color: #8a7a6a; font-family: sans-serif; }
+  .rs-btn {
+    background: none; border: 1px solid #3a3028; color: #b8a898;
+    border-radius: 3px; padding: 2px 8px; font-size: 14px; cursor: pointer;
+    font-family: sans-serif; line-height: 1.4;
+  }
+  .rs-btn:hover { border-color: #6a5a48; }
+  .rs-val { font-size: 11px; color: #c8a878; font-family: sans-serif; min-width: 28px; text-align: center; }
+  #reader-nav {
+    display: flex; align-items: center; gap: 6px;
+  }
+  #reader-content {
+    flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;
+    padding: 20px 24px 40vh; max-width: 780px; margin: 0 auto;
+  }
+  @media (max-width: 600px) {
+    #reader-content { padding: 14px 16px 40vh; }
+    #reader-bar { padding: 4px 8px; gap: 4px; }
+  }
+  #reader-content h1, #reader-content h2, #reader-content h3,
+  #reader-content h4, #reader-content h5 {
+    color: #f0e8d8; font-weight: normal;
+  }
+  #reader-content h1 { font-size: 1.5em; margin: 1.2em 0 0.4em; }
+  #reader-content h2 { font-size: 1.2em; margin: 1em 0 0.3em; }
+  #reader-content h3 { font-size: 1.1em; margin: 0.8em 0 0.2em; }
+  #reader-content p { margin: 0 0 1em; }
+  #reader-content em { font-style: italic; color: #c8b8a8; }
+  #reader-content strong { color: #f0e8d8; }
+  #reader-content hr { border: none; border-top: 1px solid #2a2220; margin: 1.5em 0; }
+  #reader-content blockquote {
+    border-left: 3px solid #3a3028; padding: 0.5em 1em; margin: 1em 0;
+    background: #12100e; border-radius: 4px; color: #c8b8a8;
+  }
+  #reader-content ul, #reader-content ol { margin: 0 0 1em 1.5em; }
+  #reader-content li { margin-bottom: 0.3em; }
+  #reader-content a { color: #b8a8e8; }
+</style>
+</head>
+<body>
+  <div id="reader-bar">
+    <a href="/novels">← Novels</a>
+    <span id="nav-chapter" class="reader-ch-title">${esc(chTitle)}</span>
+    <button class="reader-settings-btn" id="settings-toggle" title="Reading settings">Aa</button>
+  </div>
+  <div id="reader-settings">
+    <div class="rs-group">
+      <span class="rs-label">Font</span>
+      <button class="rs-btn" id="font-dec">A−</button>
+      <span class="rs-val" id="font-val">16</span>
+      <button class="rs-btn" id="font-inc">A+</button>
+    </div>
+    <div class="rs-group">
+      <span class="rs-label">Spacing</span>
+      <button class="rs-btn" id="space-dec">−</button>
+      <span class="rs-val" id="space-val">1.75</span>
+      <button class="rs-btn" id="space-inc">+</button>
+    </div>
+  </div>
+  <div id="reader-content">${bodyHtml}</div>
+  <div id="reader-bar">
+    <div id="reader-nav"></div>
+  </div>
+  <script>
+    (function() {
+      var PREFS_KEY = 'novels_prefs';
+      var PROGRESS_KEY = 'novels_progress';
+      var bookId = ${JSON.stringify(bookId)};
+      var chIdx = -1;
+      var chapters = [];
+      var curFile = ${JSON.stringify(relPath)};
+
+      try {
+        var bookData = sessionStorage.getItem('novels_book_' + bookId);
+        if (bookData) {
+          var book = JSON.parse(bookData);
+          chapters = book.chapters || [];
+          for (var i = 0; i < chapters.length; i++) {
+            if (chapters[i].file === curFile) { chIdx = i; break; }
+          }
+        }
+      } catch(e) {}
+
+      // ── Prefs (font size, line height) ──
+      function loadPrefs() {
+        try { return JSON.parse(localStorage.getItem(PREFS_KEY) || '{}'); } catch { return {}; }
+      }
+      function savePrefs(p) {
+        localStorage.setItem(PREFS_KEY, JSON.stringify(p));
+      }
+
+      var prefs = loadPrefs();
+      var fontSize = prefs.fontSize || 16;
+      var lineHeight = prefs.lineHeight || 1.75;
+
+      var content = document.getElementById('reader-content');
+      var fontVal = document.getElementById('font-val');
+      var spaceVal = document.getElementById('space-val');
+
+      function applyPrefs() {
+        content.style.fontSize = fontSize + 'px';
+        content.style.lineHeight = lineHeight;
+        fontVal.textContent = fontSize;
+        spaceVal.textContent = lineHeight.toFixed(2);
+        prefs.fontSize = fontSize;
+        prefs.lineHeight = lineHeight;
+        savePrefs(prefs);
+      }
+      applyPrefs();
+
+      document.getElementById('font-dec').addEventListener('click', function() {
+        if (fontSize > 10) { fontSize -= 1; applyPrefs(); }
+      });
+      document.getElementById('font-inc').addEventListener('click', function() {
+        if (fontSize < 36) { fontSize += 1; applyPrefs(); }
+      });
+      document.getElementById('space-dec').addEventListener('click', function() {
+        if (lineHeight > 1.0) { lineHeight = Math.round((lineHeight - 0.25) * 100) / 100; applyPrefs(); }
+      });
+      document.getElementById('space-inc').addEventListener('click', function() {
+        if (lineHeight < 3.0) { lineHeight = Math.round((lineHeight + 0.25) * 100) / 100; applyPrefs(); }
+      });
+
+      document.getElementById('settings-toggle').addEventListener('click', function() {
+        document.getElementById('reader-settings').classList.toggle('open');
+      });
+
+      // ── Chapter navigation ──
+      function renderNav() {
+        var nav = document.getElementById('reader-nav');
+        if (chIdx < 0 || chapters.length === 0) {
+          nav.innerHTML = '<span style="color:#5a4a3a;font-size:12px">Chapter 1 of 1</span>';
+          return;
+        }
+        var prev = chIdx > 0 ? chapters[chIdx - 1] : null;
+        var next = chIdx < chapters.length - 1 ? chapters[chIdx + 1] : null;
+        nav.innerHTML =
+          (prev
+            ? '<button class="nav-btn" data-file="' + escAttr(prev.file) + '">← ' + escHtml(prev.name) + '</button>'
+            : '<button class="nav-btn" disabled>← Previous</button>') +
+          '<span style="color:#5a4a3a;font-size:11px;padding:0 4px;font-family:sans-serif">' + (chIdx + 1) + ' / ' + chapters.length + '</span>' +
+          (next
+            ? '<button class="nav-btn" data-file="' + escAttr(next.file) + '">' + escHtml(next.name) + ' →</button>'
+            : '<button class="nav-btn" disabled>Next →</button>');
+
+        document.querySelectorAll('.nav-btn[data-file]').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            saveDepth();
+            savePrefs(prefs);
+            window.location.href = '/novels/read?path=' + encodeURIComponent(this.dataset.file);
+          });
+        });
+      }
+
+      function escHtml(s) {
+        var d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+      }
+      function escAttr(s) {
+        return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      }
+
+      // ── Progress ──
+      function loadProgress() {
+        try { return JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}'); } catch { return {}; }
+      }
+      function saveProgress(p) {
+        localStorage.setItem(PROGRESS_KEY, JSON.stringify(p));
+      }
+      function saveDepth() {
+        if (chIdx < 0) return;
+        var p = loadProgress();
+        if (!p[bookId]) p[bookId] = { depths: {} };
+        p[bookId].lastChapter = chIdx;
+        var el = content;
+        var max = el.scrollHeight - el.clientHeight;
+        if (max > 0) {
+          p[bookId].depths[chIdx] = Math.round((el.scrollTop / max) * 100);
+        }
+        saveProgress(p);
+      }
+
+      // Restore scroll
+      if (chIdx >= 0) {
+        var p = loadProgress();
+        var d = p[bookId] && p[bookId].depths && p[bookId].depths[chIdx];
+        if (d && d > 0) {
+          requestAnimationFrame(function() {
+            var max = content.scrollHeight - content.clientHeight;
+            if (max > 0) content.scrollTop = max * (d / 100);
+          });
+        }
+      }
+
+      renderNav();
+      document.addEventListener('visibilitychange', function() {
+        if (document.hidden) saveDepth();
+      });
+      window.addEventListener('beforeunload', function() {
+        saveDepth();
+        savePrefs(prefs);
+      });
+      setInterval(saveDepth, 5000);
+    })();
+  </script>
+</body>
+</html>`);
+  } catch (e) {
+    res.status(500).send('Error loading chapter: ' + esc(e.message));
+  }
+});
+
+// ─── QR Code Generation (for player panel invite links) ────────────────────────
+// Simple QR code generator using a canvas-based library approach
+// For now, use a public QR code API (fallback: client can generate with JS)
+function generateQRCodeDataUrl(text) {
+  // Use a simple QR code generation approach
+  // Format: https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=TEXT
+  // Since we want a data URL, we'll return a simple encoded QR or use client-side generation
+  // For now, return a placeholder URL that the client will fetch and convert to data URL
+  const encoded = encodeURIComponent(text);
+  return `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encoded}`;
+}
+
 // ─── Player Screen ────────────────────────────────────────────────────────────
 
 app.get('/player', (req, res) => {
@@ -3208,24 +3722,35 @@ app.post('/api/player-screen', (req, res) => {
     return res.status(401).json({ error: 'Unauthorized' });
   }
 
-  const { type, url, caption, content, title, markdown, bookId, page, idleMessage } = req.body;
-  const VALID_TYPES = ['idle', 'image', 'text', 'handout', 'rulebook'];
+  const { type, url, caption, content, title, markdown, bookId, page, idleMessage, items, qrcodeUrl } = req.body;
+  const VALID_TYPES = ['idle', 'image', 'npc', 'text', 'handout', 'rulebook', 'shop', 'qrcode'];
   if (!VALID_TYPES.includes(type)) return res.status(400).json({ error: 'Invalid type' });
   if (type === 'image'    && !url)      return res.status(400).json({ error: 'url required' });
+  if (type === 'npc'      && !url)      return res.status(400).json({ error: 'url required' });
   if (type === 'text'     && !content)  return res.status(400).json({ error: 'content required' });
   if (type === 'handout'  && !markdown) return res.status(400).json({ error: 'markdown required' });
   if (type === 'rulebook' && !bookId)   return res.status(400).json({ error: 'bookId required' });
+  if (type === 'shop'     && !items)    return res.status(400).json({ error: 'items required' });
 
   if (type === 'idle') {
     playerScreenState = { type: 'idle', idleMessage: idleMessage || null };
   } else if (type === 'image') {
     playerScreenState = { type: 'image', url, caption: caption || null };
+  } else if (type === 'npc') {
+    playerScreenState = { type: 'npc', url, caption: caption || null };
   } else if (type === 'text') {
     playerScreenState = { type: 'text', content };
   } else if (type === 'handout') {
     playerScreenState = { type: 'handout', title: title || '', markdown };
   } else if (type === 'rulebook') {
     playerScreenState = { type: 'rulebook', bookId, page: Number(page) || 1 };
+  } else if (type === 'shop') {
+    playerScreenState = { type: 'shop', title: title || '', items: items || [] };
+  } else if (type === 'qrcode') {
+    // Generate QR code URL for player panel
+    const playerUrl = qrcodeUrl || `http://${req.get('host')}/player`;
+    const qrUrl = generateQRCodeDataUrl(playerUrl);
+    playerScreenState = { type: 'qrcode', dataUrl: qrUrl };
   }
 
   broadcastPlayerScreen();
@@ -3238,6 +3763,18 @@ app.get('/vtt', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'vtt.html'));
 });
 
+app.get('/api/vtt-tv-specs', (req, res) => {
+  // Return TV specifications and calculated grid size. Client uses this to
+  // render the grid overlay at the correct physical scale.
+  try {
+    const specs = JSON.parse(fs.readFileSync(TV_SPECS_FILE, 'utf8'));
+    const gridSize = calculateGridSizeFromTvSpecs();
+    res.json({ ...specs, calculated_grid_px: gridSize });
+  } catch {
+    res.status(500).json({ error: 'TV specs not found' });
+  }
+});
+
 app.get('/api/vtt-screen', (req, res) => {
   res.json(vttState);
 });
@@ -3246,10 +3783,10 @@ app.post('/api/vtt-screen', express.json(), (req, res) => {
   if (verifyValue(req.cookies[COOKIE_NAME]) !== 'dm') {
     return res.status(401).json({ error: 'Unauthorized' });
   }
-  const { type, url, effects, darkness } = req.body;
+  const { type, url, effects, darkness, grid, gridSize } = req.body;
   const VALID_FX = new Set(['rain', 'fog', 'snow', 'fire']);
 
-  // effects and darkness are optional — preserve existing values if not sent
+  // effects, darkness, grid and gridSize are optional — preserve existing values if not sent
   let newEffects = vttState.effects;
   if (effects !== undefined) {
     if (!Array.isArray(effects) || !effects.every(f => VALID_FX.has(f))) {
@@ -3266,16 +3803,34 @@ app.post('/api/vtt-screen', express.json(), (req, res) => {
     newDarkness = darkness;
   }
 
+  let newGrid = vttState.grid;
+  if (grid !== undefined) {
+    if (typeof grid !== 'boolean') {
+      return res.status(400).json({ error: 'grid must be boolean' });
+    }
+    newGrid = grid;
+  }
+
+  let newGridSize = vttState.gridSize;
+  if (gridSize !== undefined) {
+    if (typeof gridSize !== 'number' || gridSize < 10 || gridSize > 500) {
+      return res.status(400).json({ error: 'gridSize must be 10–500' });
+    }
+    newGridSize = gridSize;
+  }
+
+  const fx = { effects: newEffects, darkness: newDarkness, grid: newGrid, gridSize: newGridSize };
   if (type === undefined) {
-    // Effects/darkness-only update — preserve existing type and url
-    vttState = { ...vttState, effects: newEffects, darkness: newDarkness };
+    // Effects/darkness/grid-only update — preserve existing type and url
+    vttState = { ...vttState, ...fx };
   } else if (type === 'idle') {
-    vttState = { type: 'idle', effects: newEffects, darkness: newDarkness };
+    vttState = { type: 'idle', ...fx };
   } else if (type === 'map' && url) {
-    vttState = { type: 'map', url, effects: newEffects, darkness: newDarkness };
+    vttState = { type: 'map', url, ...fx };
   } else {
     return res.status(400).json({ error: 'Invalid payload' });
   }
+  saveVttState();
   broadcastVtt();
   res.json({ ok: true });
 });
@@ -3306,6 +3861,11 @@ if (pty) {
       proc = pty.spawn(shell, [], {
         name: 'xterm-color', cols: 120, rows: 30,
         cwd: CAMPAIGN_ROOT, env: process.env,
+        // Force the winpty backend on Windows. node-pty's default ConPTY backend
+        // spawns a console-list helper agent that throws "AttachConsole failed"
+        // when running detached under the pm2 daemon (no console to attach to),
+        // which crashes the terminal. winpty is robust in that context.
+        useConpty: false,
       });
     } catch (e) {
       console.warn('Failed to spawn PTY:', e.message);
@@ -3400,16 +3960,38 @@ if (pty) {
   });
 }
 
+// Heartbeat so dead connections (router/NAT silently dropped an idle socket —
+// common for a TV/kiosk browser left open for hours) get terminated instead of
+// hanging forever; the client's onclose then fires and it reconnects.
+function heartbeat() { this.isAlive = true; }
+
+function attachHeartbeat(wss) {
+  wss.on('connection', ws => {
+    ws.isAlive = true;
+    ws.on('pong', heartbeat);
+  });
+  const interval = setInterval(() => {
+    wss.clients.forEach(ws => {
+      if (ws.isAlive === false) return ws.terminate();
+      ws.isAlive = false;
+      ws.ping();
+    });
+  }, 30000);
+  wss.on('close', () => clearInterval(interval));
+}
+
 // Player screen WebSocket — push state to all /player clients
 playerWss = new WebSocket.Server({ noServer: true });
 playerWss.on('connection', ws => {
   ws.send(JSON.stringify(playerScreenState));
 });
+attachHeartbeat(playerWss);
 
 vttWss = new WebSocket.Server({ noServer: true });
 vttWss.on('connection', ws => {
   ws.send(JSON.stringify(vttState));
 });
+attachHeartbeat(vttWss);
 
 // Single upgrade handler routes by path — avoids interference when multiple
 // WebSocket.Server instances each register their own upgrade listener, which

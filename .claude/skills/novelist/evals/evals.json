@@ -1,0 +1,35 @@
+{
+  "skill_name": "novelist",
+  "evals": [
+    {
+      "id": 1,
+      "name": "draft-novel-scene",
+      "prompt": "Write a short scene (about 200 words) from The Old Songs of Aevoria. The scene: Elowen, Corwin, and Brannoc are sitting around a campfire after a long day of walking. Brannoc tells a story about a mine that collapsed on his cousin. Corwin listens and gives a quiet response. Elowen reflects on the difference between how dwarves keep their dead and how the Nullwood does. Use the novelist skill's voice rules — narration register, one elder-Elowen reflection seam, no anaphoric tic, and correct character voices for Corwin (no contractions, formal-archaic) and Brannoc (colloquial, calls people 'elf' and 'human', dropped subjects). Start with a scene-break dash, include YAML frontmatter for the chapter, and end with the chapter-end marker.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "fix-voice-violations",
+      "prompt": "Read the following passage and fix ALL voice violations against the novelist skill's rules:\n\n---\n\nIt was a hot day. It was the kind of hot that made you want to stop moving. There was no shade anywhere. There was just the road, stretching on forever.\n\nCorwin said, \"I'm tired. Let's stop here for a bit. It's too hot to keep walking.\"\n\n\"I don't know,\" Brannoc said. \"I have walked through hotter days in the deep places of the earth. The stone remembers heat the way it remembers everything.\"\n\n\"You're not a dwarf,\" Corwin said. \"You don't know what stone remembers.\"\n\n---\n\nFix these specific issues: (1) Break the anaphoric tic in the opening (all sentences start with 'It was' or 'There was'). (2) Fix Corwin's contractions — he should use zero contractions. (3) Fix Brannoc's voice — he should call people 'elf' or 'human', drop subjects, and use conversational contractions. (4) Fix Elowen's narration — she was a passenger in this passage; the narration should feel like first-person Elowen watching and reflecting, with at least one elder-Elowen hindsight seam.\n\nOutput the corrected passage with brief notes on what changed and why.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "check-canon-firewall",
+      "prompt": "Review the following passage for canon firewall violations. Flag any content that uses excluded elements and suggest native replacements.\n\n---\n\nWe walked through the Aeorian ruins that afternoon. The crystalline structures hummed with the echo of the Calamity, a vibration that made my teeth ache. Corwin said it reminded him of the Heart of Winter, which he had visited once during the Eclipse Day celebrations.\n\n\"The Northwatch Wardens would know what to make of this,\" Brannoc said. \"They deal with strange magic all the time.\"\n\n\"Aye,\" Corwin said. \"The Wardens and their Echo-chasers. I met one once at the Waystone Inn.\"\n\n---\n\nList every violation. For each, say what element is used, why it's excluded (cite the skill's Canon Firewall section), and what native Aevoria element could replace it. Do not edit without approval.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "elder-Elowen-seam-register",
+      "prompt": "Read the following passage and identify ALL elder-Elowen register violations. The novelist skill requires that elder-Elowen hindsight seams be: (1) italicized, (2) one or two sentences (never a full paragraph), (3) a seam where present-tense knowledge meets past-tense feeling, (4) not a lore-dump or lecture from the future. Flag all violations.\n\n---\n\nWe walked all that day. The road climbed through birchwood and then above the treeline, where the wind had nothing to stop it. Corwin walked ahead, Wren beside him. Brannoc kept pace with me, though I could tell he wanted to be at the front.\n\nI was young. I still believed a thing kept was a thing saved.\n\nWhen we reached the pass, we saw the mountains to the north. They were not the Greymarch peaks we had crossed before. These were older. The stone had a different color to it — gray-green, like lichen that had been growing since before the first song. Corwin stopped and stared at them for a long time.\n\nI did not know then that I would remember that sky. That particular gray. That exact weight of the air before rain. I did not know that I would spend years trying to return to this moment. I did not know that I would come back here alone, years later, and stand on this same pass and find the wind still sounded the same. I did not know that the mountains would outlast everyone I loved. I did not know that I would return to the Nullwood and find the grove where Wren and I had buried our losses and that the grove would be gone, burned in a fire the forest had not seen in three hundred years. I did not know.\n\nCorwin said, \"There is something wrong with this place.\"\n\n\"Aye,\" Brannoc said. \"Mountains don't stare back.\"\n\n---\n\nFlag every specific issue with the elder-Elowen seams against the skill's rules. Also note any character voice violations in dialogue.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "negative-subtle-violations",
+      "prompt": "You are a quality reviewer. Review the following passage and flag ANY issues against the novelist skill's rules — character voice, canon firewall, anaphoric tic, register issues, formatting. List every distinct violation.\n\n---\n\nI'm looking at the map and thinking it's not going to work. Wren comes up beside me.\n\n\"Don't worry about it,\" she says. \"We'll figure it out.\"\n\n\"You are too optimistic,\" I say. \"That is your flaw.\"\n\n\"It's not a flaw,\" she says, laughing. \"It's how I keep going.\"\n\nCorwin walks over. \"I'm telling you, we don't need a map. I've been this way before. It's fine.\"\n\n\"It is not fine,\" I say. \"It signifies nothing.\"\n\nBrannoc snorts. \"The elf doesn't trust your memory, human. Can't say I blame her. Your memory is older than my grandmother's beard.\"\n\n\"You are not helping,\" I say.\n\nBefore he can answer, we hear it. A sound that comes not from the world but from the crack between worlds. The Echo. We all go still.\n\n\"The Aeorian ruins are close,\" Corwin says.\n\n---\n\nFor each violation: identify the line, what rule it breaks, and what severity (hard/soft/edge). If a character voice is wrong, say what the character should have said instead. If a canon element is excluded, suggest a native replacement.",
+      "files": []
+    }
+  ]
+}

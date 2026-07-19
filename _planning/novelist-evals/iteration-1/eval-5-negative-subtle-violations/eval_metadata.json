@@ -1,0 +1,6 @@
+{
+  "eval_id": 5,
+  "eval_name": "negative-subtle-violations",
+  "prompt": "You are a quality reviewer. Review the following passage and flag ANY issues against the novelist skill's rules — character voice, canon firewall, anaphoric tic, register issues, formatting. List every distinct violation.",
+  "assertions": []
+}

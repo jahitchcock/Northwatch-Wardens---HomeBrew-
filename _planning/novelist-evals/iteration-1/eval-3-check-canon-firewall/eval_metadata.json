@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "check-canon-firewall",
+  "prompt": "Review the following passage for canon firewall violations. Flag any content that uses excluded elements and suggest native replacements.\n\n---\n\nWe walked through the Aeorian ruins that afternoon. The crystalline structures hummed with the echo of the Calamity, a vibration that made my teeth ache. Corwin said it reminded him of the Heart of Winter, which he had visited once during the Eclipse Day celebrations.\n\n\"The Northwatch Wardens would know what to make of this,\" Brannoc said. \"They deal with strange magic all the time.\"\n\n\"Aye,\" Corwin said. \"The Wardens and their Echo-chasers. I met one once at the Waystone Inn.\"\n\n---\n\nList every violation. For each, say what element is used, why it's excluded (cite the skill's Canon Firewall section), and what native Aevoria element could replace it. Do not edit without approval.",
+  "assertions": []
+}

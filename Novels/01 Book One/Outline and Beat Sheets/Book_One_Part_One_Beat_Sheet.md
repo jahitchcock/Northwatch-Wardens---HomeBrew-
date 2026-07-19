@@ -105,6 +105,20 @@
 
 ---
 
+## Interlude — The Road Between (`Book_One_Chapter_09a`)
+
+**Bridge between Part One and Part Two.** A 1–2 page elder-Elowen reflection, pure reflection register (no scene). Compresses the weeks of travel between Greymarch and Karrendeep into mythic strokes. Functions as:
+- A tonal palate-cleanser between Part One's claustrophobia and Part Two's open road
+- A time-telescope (the Feist-stroke the Style Sheet licenses)
+- The first sustained use of the reflection register as its own section
+- A thematic bridge: the road undoing the Quiet's teaching, tale-debt as currency, the softening of silence into company
+
+**Plants:** the road as teacher; tale-debt economy; Corwin watching Elowen tell her first tale-debt (his first glimpse of what she is); the bond forming between them.
+
+**Button:** "We walked on." Turns the page into Part Two on momentum.
+
+---
+
 ## What Part One Sets Running
 
 - **Elowen's flaw planted, not fixed:** her secret archive is itself a hoarding — she must still learn the book's thesis (*some songs must be given away to live*), which makes her Ch. 25 act of releasing Wren's memory a true arc-turn rather than a foregone one.

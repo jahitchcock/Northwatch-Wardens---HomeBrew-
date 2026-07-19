@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Novels — The Old Songs of Aevoria</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  font-family: 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+  background: #0d0a08; color: #d8d0c8; -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  display: flex; flex-direction: column; height: 100%; max-width: 900px; margin: 0 auto;
+}
+
+/* ── Header ───────────────────────────────────── */
+#header {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 14px; background: #161210;
+  border-bottom: 1px solid #2a2220; flex-shrink: 0;
+  min-height: 48px;
+}
+#back-btn {
+  background: none; border: 1px solid #3a3028; color: #b8a898;
+  border-radius: 4px; padding: 4px 10px; font-size: 13px;
+  cursor: pointer; font-family: inherit; white-space: nowrap;
+}
+#back-btn:hover { border-color: #6a5a48; color: #d8c8b8; }
+#header-title {
+  font-size: 15px; color: #f0e8d8; font-weight: normal;
+  letter-spacing: 0.03em; white-space: nowrap; overflow: hidden;
+  text-overflow: ellipsis;
+}
+#header-title em { font-style: normal; color: #c8a878; }
+
+/* ── Views ─────────────────────────────────────── */
+#content {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.view { display: none; }
+.view.active { display: block; }
+
+/* ── Book List ─────────────────────────────────── */
+#book-list { padding: 0; }
+.book-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 18px 20px; border-bottom: 1px solid #1e1816;
+  cursor: pointer; transition: background 0.1s;
+  text-decoration: none; color: inherit;
+}
+.book-card:hover { background: #161210; }
+.book-card:active { background: #1e1816; }
+.book-number {
+  font-size: 11px; color: #8a7a6a; font-family: sans-serif;
+  background: #1e1816; border-radius: 4px; width: 48px; height: 72px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; overflow: hidden;
+}
+.book-cover-img {
+  width: 100%; height: 100%; object-fit: cover; border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+.book-title {
+  font-size: 17px; color: #f0e8d8; line-height: 1.3;
+}
+.book-subtitle {
+  font-size: 13px; color: #b8a898; font-style: italic; margin-top: 1px;
+}
+.book-resume {
+  font-size: 11px; color: #c8a878; font-family: sans-serif;
+  margin-left: 8px;
+}
+.book-chapter-count {
+  font-size: 12px; color: #8a7a6a; font-family: sans-serif;
+  margin-left: auto; white-space: nowrap;
+}
+.book-arrow {
+  color: #5a4a3a; font-size: 16px; margin-left: 4px;
+}
+
+/* ── Chapter List ──────────────────────────────── */
+#chapter-list { padding: 0; }
+.chapter-header {
+  padding: 12px 20px; border-bottom: 1px solid #1e1816;
+}
+.chapter-book-title {
+  font-size: 11px; color: #8a7a6a; font-family: sans-serif;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.chapter-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 20px; border-bottom: 1px solid #1a1412;
+  cursor: pointer; transition: background 0.1s;
+  text-decoration: none; color: inherit;
+}
+.chapter-item:hover { background: #161210; }
+.chapter-item:active { background: #1e1816; }
+.chapter-title {
+  font-size: 16px; color: #e8ddd0; line-height: 1.3; flex: 1;
+}
+.chapter-depth {
+  font-size: 11px; color: #6a5a4a; font-family: sans-serif;
+  flex-shrink: 0; min-width: 40px; text-align: right;
+}
+.chapter-resume-card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 20px; margin: 8px 12px;
+  background: #1a1410; border: 1px solid #3a3020; border-radius: 6px;
+  cursor: pointer; transition: background 0.1s;
+}
+.chapter-resume-card:hover { background: #221c16; }
+.chapter-resume-label {
+  font-size: 10px; color: #c8a878; font-family: sans-serif;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.chapter-resume-title {
+  font-size: 15px; color: #f0e8d8; line-height: 1.3;
+}
+.chapter-resume-arrow {
+  margin-left: auto; color: #c8a878; font-size: 18px;
+}
+
+/* ── Loading / Error ───────────────────────────── */
+.loading {
+  text-align: center; padding: 40px 20px; color: #6a5a4a;
+  font-family: sans-serif; font-size: 13px;
+}
+.error {
+  text-align: center; padding: 40px 20px; color: #c06050;
+  font-family: sans-serif; font-size: 13px;
+}
+
+/* ── Mobile adjustments ────────────────────────── */
+@media (max-width: 600px) {
+  .book-card { padding: 14px 16px; }
+  .book-title { font-size: 15px; }
+  .chapter-item { padding: 14px 16px; }
+  .chapter-title { font-size: 15px; }
+  #header { padding: 8px 12px; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header id="header">
+    <button id="back-btn" hidden>← Back</button>
+    <span id="header-title">Novels <em>— The Old Songs of Aevoria</em></span>
+  </header>
+  <main id="content">
+    <div id="book-list" class="view active"></div>
+    <div id="chapter-list" class="view"></div>
+  </main>
+</div>
+
+<script>
+'use strict';
+
+const STORAGE_KEY = 'novels_progress';
+
+const $ = id => document.getElementById(id);
+const backBtn = $('back-btn');
+const headerTitle = $('header-title');
+const bookListView = $('book-list');
+const chapterListView = $('chapter-list');
+
+let books = [];
+const stack = [];
+
+// ── Progress persistence ──────────────────────────
+
+function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { return {}; }
+}
+
+function getDepth(bookId, chIdx) {
+  const p = loadProgress();
+  return p[bookId]?.depths?.[chIdx] ?? 0;
+}
+
+function fmtDepth(pct) {
+  if (pct >= 98) return '✓';
+  if (pct >= 75) return '▮▮▮▮';
+  if (pct >= 50) return '▮▮▮';
+  if (pct >= 25) return '▮▮';
+  if (pct > 0)  return '▮';
+  return '';
+}
+
+// ── View switching ────────────────────────────────
+
+function showView(name) {
+  bookListView.classList.toggle('active', name === 'books');
+  chapterListView.classList.toggle('active', name === 'chapters');
+}
+
+function showBooks() {
+  showView('books');
+  backBtn.hidden = true;
+  headerTitle.innerHTML = 'Novels <em>— The Old Songs of Aevoria</em>';
+  stack.length = 0;
+  renderBooks(books);
+}
+
+function showChapters(book) {
+  showView('chapters');
+  backBtn.hidden = false;
+  headerTitle.textContent = book.title;
+  stack.push({ view: 'chapters', book });
+  renderChapters(book);
+}
+
+function openReader(book, chapter, chIdx) {
+  try {
+    sessionStorage.setItem('novels_book_' + book.id, JSON.stringify(book));
+  } catch {}
+  window.location.href = '/novels/read?path=' + encodeURIComponent(chapter.file);
+}
+
+backBtn.addEventListener('click', () => {
+  stack.pop();
+  if (stack.length === 0) {
+    showBooks();
+  } else {
+    const prev = stack[stack.length - 1];
+    if (prev.view === 'chapters') {
+      showView('chapters');
+      backBtn.hidden = false;
+      headerTitle.textContent = prev.book.title;
+      renderChapters(prev.book);
+    } else if (prev.view === 'books') {
+      showBooks();
+    }
+  }
+});
+
+// ── Rendering ─────────────────────────────────────
+
+function renderBooks(data) {
+  books = data;
+  bookListView.innerHTML = '';
+  if (!data || data.length === 0) {
+    bookListView.innerHTML = '<div class="loading">No books found.</div>';
+    return;
+  }
+  const progress = loadProgress();
+  data.forEach((book, i) => {
+    const card = document.createElement('div');
+    card.className = 'book-card';
+    const bp = progress[book.id];
+    const coverHtml = book.cover
+      ? `<img class="book-cover-img" src="${escHtml(book.cover)}" alt="${escHtml(book.title)} cover" loading="lazy">`
+      : String(i + 1).padStart(2, '0');
+    card.innerHTML = `
+      <div class="book-number">${coverHtml}</div>
+      <div>
+        <div class="book-title">${escHtml(book.title)}${book.subtitle ? ' <em>— ' + escHtml(book.subtitle) + '</em>' : ''}</div>
+        ${bp && book.chapters[bp.lastChapter] ? `<div class="book-resume">↻ ${escHtml(book.chapters[bp.lastChapter].name)}</div>` : ''}
+      </div>
+      <div class="book-chapter-count">${book.chapters.length} chapter${book.chapters.length !== 1 ? 's' : ''}</div>
+      <span class="book-arrow">›</span>
+    `;
+    card.addEventListener('click', () => showChapters(book));
+    bookListView.appendChild(card);
+  });
+}
+
+function renderChapters(book) {
+  chapterListView.innerHTML = '';
+  const header = document.createElement('div');
+  header.className = 'chapter-header';
+  header.innerHTML = `<div class="chapter-book-title">${escHtml(book.title)}${book.subtitle ? ' — ' + escHtml(book.subtitle) : ''}</div>`;
+  chapterListView.appendChild(header);
+
+  if (!book.chapters || book.chapters.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'loading';
+    empty.textContent = 'No chapters yet.';
+    chapterListView.appendChild(empty);
+    return;
+  }
+
+  const progress = loadProgress();
+  const bp = progress[book.id];
+
+  if (bp && book.chapters[bp.lastChapter]) {
+    const resume = document.createElement('div');
+    resume.className = 'chapter-resume-card';
+    resume.innerHTML = `
+      <div>
+        <div class="chapter-resume-label">Continue Reading</div>
+        <div class="chapter-resume-title">↻ ${escHtml(book.chapters[bp.lastChapter].name)}</div>
+      </div>
+      <span class="chapter-resume-arrow">›</span>
+    `;
+    resume.addEventListener('click', () => openReader(book, book.chapters[bp.lastChapter], bp.lastChapter));
+    chapterListView.appendChild(resume);
+  }
+
+  book.chapters.forEach((ch, i) => {
+    const item = document.createElement('div');
+    item.className = 'chapter-item';
+    const depth = getDepth(book.id, i);
+    const bar = fmtDepth(depth);
+    item.innerHTML = `
+      <div class="chapter-title">${escHtml(ch.name)}</div>
+      ${bar ? `<span class="chapter-depth">${bar}</span>` : ''}
+    `;
+    item.addEventListener('click', () => openReader(book, ch, i));
+    chapterListView.appendChild(item);
+  });
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// ── Initialise ───────────────────────────────────
+bookListView.innerHTML = '<div class="loading">Loading…</div>';
+
+fetch('/api/novels')
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(data => renderBooks(data))
+  .catch(err => {
+    bookListView.innerHTML = '<div class="error">Failed to load novels: ' + escHtml(err.message) + '</div>';
+  });
+</script>
+</body>
+</html>

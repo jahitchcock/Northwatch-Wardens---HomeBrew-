@@ -1,0 +1,15 @@
+Ambient scene loops for Northwatch Wardens DM Panel
+Source: Mixkit (https://mixkit.co/free-sound-effects/) — Mixkit Sound Effects Free License
+(no attribution required; credited here anyway for easy re-sourcing / re-downloading later)
+
+forest1.mp3    — https://mixkit.co/free-sound-effects/forest/ (id 1210, "Forest birds ambience")
+rain1.mp3      — https://mixkit.co/free-sound-effects/rain/ (id 2394, "Rain long loop")
+ritual1.mp3    — https://mixkit.co/free-sound-effects/ritual/ (id 296, "Shaman male voices in ritual")
+mountain1.mp3  — https://mixkit.co/free-sound-effects/mountain/ (id 1267, "Wind in the top of the mountain")
+swamp1.mp3     — https://mixkit.co/free-sound-effects/swamp/ (id 40, "Insects, birds and frogs in the swamp ambience")
+river1.mp3     — https://mixkit.co/free-sound-effects/water/ (id 3126, "Water flowing ambience loop")
+
+Pre-existing scenes (cave2, combat2/3, night1/2, tavern2, winter1) predate this file —
+source unknown (see chat history investigation, 2026-07-17).
+
+Effect (spell/combat/creature) sound credits are in sfx/CREDITS.txt.

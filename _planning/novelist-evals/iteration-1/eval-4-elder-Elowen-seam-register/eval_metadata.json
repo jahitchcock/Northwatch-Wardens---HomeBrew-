@@ -1,0 +1,6 @@
+{
+  "eval_id": 4,
+  "eval_name": "elder-Elowen-seam-register",
+  "prompt": "Read the following passage and identify ALL elder-Elowen register violations. The novelist skill requires that elder-Elowen hindsight seams be: (1) italicized, (2) one or two sentences (never a full paragraph), (3) a seam where present-tense knowledge meets past-tense feeling, (4) not a lore-dump or lecture from the future. Flag all violations.",
+  "assertions": []
+}

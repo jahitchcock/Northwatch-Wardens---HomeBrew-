@@ -7958,3 +7958,1195 @@
 2026-06-13 13:05:16: DM Panel → http://0.0.0.0:5050
 2026-06-13 13:05:16: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
 2026-06-13 13:05:16: 
+2026-06-22 15:47:33: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-22 15:47:33: Require stack:
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-22 15:47:33: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-22 15:47:33: Require stack:
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-22 15:47:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-22 15:47:33: 
+2026-06-22 15:47:33: DM Panel → http://0.0.0.0:5050
+2026-06-22 15:47:33: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-22 15:47:33: 
+2026-06-25 21:22:55: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-25 21:22:55: Require stack:
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-25 21:22:55: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-25 21:22:55: Require stack:
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-25 21:22:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-25 21:22:57: 
+2026-06-25 21:22:57: DM Panel → http://0.0.0.0:5050
+2026-06-25 21:22:57: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-25 21:22:57: 
+2026-06-26 16:40:00: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:00: Require stack:
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:00: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:00: Require stack:
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:01: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:01: Require stack:
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:01: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:01: Require stack:
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:01: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:02: 
+2026-06-26 16:40:02: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:40:02: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:40:02: 
+2026-06-26 16:40:07: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:07: Require stack:
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:07: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:07: Require stack:
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:07: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:08: 
+2026-06-26 16:40:08: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:40:08: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:40:08: 
+2026-06-26 16:40:20: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:20: Require stack:
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:20: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:20: Require stack:
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:21: 
+2026-06-26 16:40:21: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:40:21: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:40:21: 
+2026-06-26 16:40:55: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:55: Require stack:
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:55: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:40:55: Require stack:
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:40:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:40:55: 
+2026-06-26 16:40:55: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:40:55: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:40:55: 
+2026-06-26 16:41:32: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:41:32: Require stack:
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:41:32: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:41:32: Require stack:
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:41:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:41:32: 
+2026-06-26 16:41:32: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:41:32: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:41:32: 
+2026-06-26 16:42:00: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:42:00: Require stack:
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:42:00: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 16:42:00: Require stack:
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 16:42:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 16:42:00: 
+2026-06-26 16:42:00: DM Panel → http://0.0.0.0:5050
+2026-06-26 16:42:00: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 16:42:00: 
+2026-06-26 17:04:05: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:04:05: Require stack:
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:04:05: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:04:05: Require stack:
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:04:05: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:04:05: 
+2026-06-26 17:04:05: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:04:05: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:04:05: 
+2026-06-26 17:12:31: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:12:31: Require stack:
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:12:31: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:12:31: Require stack:
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:12:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:12:31: 
+2026-06-26 17:12:31: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:12:31: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:12:31: 
+2026-06-26 17:12:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:12:35: Require stack:
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:12:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:12:35: Require stack:
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:12:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:12:35: 
+2026-06-26 17:12:35: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:12:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:12:35: 
+2026-06-26 17:14:37: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:37: Require stack:
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:37: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:37: Require stack:
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:37: 
+2026-06-26 17:14:37: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:14:37: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:14:37: 
+2026-06-26 17:14:45: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:45: Require stack:
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:45: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:45: Require stack:
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:45: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:45: 
+2026-06-26 17:14:45: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:14:45: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:14:45: 
+2026-06-26 17:14:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:54: Require stack:
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:14:54: Require stack:
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:14:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:14:54: 
+2026-06-26 17:14:54: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:14:54: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:14:54: 
+2026-06-26 17:15:00: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:15:00: Require stack:
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:15:00: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:15:00: Require stack:
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:15:00: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:15:00: 
+2026-06-26 17:15:00: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:15:00: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:15:00: 
+2026-06-26 17:15:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:15:54: Require stack:
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:15:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:15:54: Require stack:
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:15:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:15:55: 
+2026-06-26 17:15:55: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:15:55: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:15:55: 
+2026-06-26 17:17:46: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:46: Require stack:
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:17:46: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:46: Require stack:
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:17:46: 
+2026-06-26 17:17:46: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:17:46: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:17:46: 
+2026-06-26 17:17:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:54: Require stack:
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:17:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:54: Require stack:
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:17:54: 
+2026-06-26 17:17:54: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:17:54: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:17:54: 
+2026-06-26 17:17:59: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:59: Require stack:
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:17:59: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:17:59: Require stack:
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:17:59: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:18:00: 
+2026-06-26 17:18:00: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:18:00: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:18:00: 
+2026-06-26 17:29:53: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:29:53: Require stack:
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:29:53: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:29:53: Require stack:
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:29:53: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:29:53: 
+2026-06-26 17:29:53: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:29:53: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:29:53: 
+2026-06-26 17:30:20: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:20: Require stack:
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:20: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:20: Require stack:
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:20: 
+2026-06-26 17:30:20: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:30:20: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:30:20: 
+2026-06-26 17:30:27: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:27: Require stack:
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:27: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:27: Require stack:
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:27: 
+2026-06-26 17:30:27: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:30:27: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:30:27: 
+2026-06-26 17:30:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:35: Require stack:
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:30:35: Require stack:
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:30:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:30:35: 
+2026-06-26 17:30:35: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:30:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:30:35: 
+2026-06-26 17:31:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:31:35: Require stack:
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:31:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-26 17:31:35: Require stack:
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-26 17:31:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-26 17:31:36: 
+2026-06-26 17:31:36: DM Panel → http://0.0.0.0:5050
+2026-06-26 17:31:36: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-26 17:31:36: 
+2026-06-27 15:19:44: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-27 15:19:44: Require stack:
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-27 15:19:44: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-27 15:19:44: Require stack:
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-27 15:19:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-27 15:19:44: 
+2026-06-27 15:19:44: DM Panel → http://0.0.0.0:5050
+2026-06-27 15:19:44: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-27 15:19:44: 
+2026-06-27 15:24:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-27 15:24:54: Require stack:
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-27 15:24:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-06-27 15:24:54: Require stack:
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-06-27 15:24:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-06-27 15:24:54: 
+2026-06-27 15:24:54: DM Panel → http://0.0.0.0:5050
+2026-06-27 15:24:54: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-06-27 15:24:54: 
+2026-07-02 08:59:51: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-02 08:59:51: Require stack:
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-02 08:59:51: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-02 08:59:51: Require stack:
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-02 08:59:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-02 08:59:52: 
+2026-07-02 08:59:52: DM Panel → http://0.0.0.0:5050
+2026-07-02 08:59:52: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-02 08:59:52: 
+2026-07-03 19:30:31: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-03 19:30:31: Require stack:
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-03 19:30:31: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-03 19:30:31: Require stack:
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-03 19:30:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-03 19:30:33: 
+2026-07-03 19:30:33: DM Panel → http://0.0.0.0:5050
+2026-07-03 19:30:33: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-03 19:30:33: 
+2026-07-08 08:55:12: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:55:12: Require stack:
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:55:12: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:55:12: Require stack:
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:55:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:55:12: 
+2026-07-08 08:55:12: DM Panel → http://0.0.0.0:5050
+2026-07-08 08:55:12: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-08 08:55:12: 
+2026-07-08 08:55:46: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:55:46: Require stack:
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:55:46: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:55:46: Require stack:
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:55:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:55:46: 
+2026-07-08 08:55:46: DM Panel → http://0.0.0.0:5050
+2026-07-08 08:55:46: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-08 08:55:46: 
+2026-07-08 08:56:20: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:20: Require stack:
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:20: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:20: Require stack:
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:20: 
+2026-07-08 08:56:20: DM Panel → http://0.0.0.0:5050
+2026-07-08 08:56:20: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-08 08:56:20: 
+2026-07-08 08:56:39: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:39: Require stack:
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:39: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:39: Require stack:
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:39: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:39: 
+2026-07-08 08:56:39: DM Panel → http://0.0.0.0:5050
+2026-07-08 08:56:39: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-08 08:56:39: 
+2026-07-08 08:56:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:54: Require stack:
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-08 08:56:54: Require stack:
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-08 08:56:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-08 08:56:54: 
+2026-07-08 08:56:54: DM Panel → http://0.0.0.0:5050
+2026-07-08 08:56:54: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-08 08:56:54: 
+2026-07-09 12:12:44: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:12:44: Require stack:
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:12:44: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:12:44: Require stack:
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:12:44: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:12:45: 
+2026-07-09 12:12:45: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:12:45: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:12:45: 
+2026-07-09 12:12:50: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:12:50: Require stack:
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:12:50: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:12:50: Require stack:
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:12:50: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:12:50: 
+2026-07-09 12:12:50: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:12:50: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:12:50: 
+2026-07-09 12:13:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:13:35: Require stack:
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:13:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:13:35: Require stack:
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:13:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:13:35: 
+2026-07-09 12:13:35: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:13:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:13:35: 
+2026-07-09 12:15:11: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:11: Require stack:
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:11: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:11: Require stack:
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:11: 
+2026-07-09 12:15:11: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:15:11: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:15:11: 
+2026-07-09 12:15:19: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:19: Require stack:
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:19: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:19: Require stack:
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:19: 
+2026-07-09 12:15:19: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:15:19: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:15:19: 
+2026-07-09 12:15:32: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:32: Require stack:
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:32: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:15:32: Require stack:
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:15:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:15:32: 
+2026-07-09 12:15:32: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:15:32: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:15:32: 
+2026-07-09 12:16:42: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:16:42: Require stack:
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:16:42: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:16:42: Require stack:
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:16:42: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:16:42: 
+2026-07-09 12:16:42: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:16:42: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:16:42: 
+2026-07-09 12:16:51: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:16:51: Require stack:
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:16:51: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-09 12:16:51: Require stack:
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-09 12:16:51: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-09 12:16:51: 
+2026-07-09 12:16:51: DM Panel → http://0.0.0.0:5050
+2026-07-09 12:16:51: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-09 12:16:51: 
+2026-07-17 17:30:32: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:32: Require stack:
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:32: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:32: Require stack:
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:32: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:32: Require stack:
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:32: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:32: Require stack:
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:32: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:32: 
+2026-07-17 17:30:32: DM Panel → http://0.0.0.0:5050
+2026-07-17 17:30:32: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 17:30:32: 
+2026-07-17 17:30:34: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:34: Require stack:
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:34: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:34: Require stack:
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:34: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:36: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:36: Require stack:
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:36: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:36: Require stack:
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:38: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:38: Require stack:
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:38: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:38: Require stack:
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:38: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:40: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:40: Require stack:
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:40: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:40: Require stack:
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:40: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:43: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:43: Require stack:
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:43: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:43: Require stack:
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:43: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:46: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:46: Require stack:
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:46: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:46: Require stack:
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:46: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:49: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:49: Require stack:
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:49: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:49: Require stack:
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:49: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:52: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:52: Require stack:
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:52: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:52: Require stack:
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:52: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:54: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:54: Require stack:
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:30:54: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:30:54: Require stack:
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:30:54: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:15: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:15: Require stack:
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:15: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:15: Require stack:
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:17: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:17: Require stack:
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:17: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:17: Require stack:
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:17: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:18: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:18: Require stack:
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:18: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:18: Require stack:
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:20: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:20: Require stack:
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:20: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:20: Require stack:
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:22: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:22: Require stack:
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:22: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:22: Require stack:
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:22: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:24: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:24: Require stack:
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:24: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:24: Require stack:
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:24: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:25: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:25: Require stack:
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:25: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:25: Require stack:
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:27: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:27: Require stack:
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:27: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:27: Require stack:
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:29: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:29: Require stack:
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:29: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:29: Require stack:
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:29: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:31: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:31: Require stack:
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:32:31: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:32:31: Require stack:
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:32:31: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:06: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:06: Require stack:
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:06: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:06: Require stack:
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:06: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:08: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:08: Require stack:
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:08: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:08: Require stack:
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:08: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:10: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:10: Require stack:
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:10: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:10: Require stack:
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:10: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:12: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:12: Require stack:
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:12: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:12: Require stack:
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:14: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:14: Require stack:
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:14: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:14: Require stack:
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:14: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:16: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:16: Require stack:
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:16: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:16: Require stack:
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:16: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:18: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:18: Require stack:
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:18: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:18: Require stack:
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:20: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:20: Require stack:
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:20: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:20: Require stack:
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:20: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:21: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:21: Require stack:
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:21: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:21: Require stack:
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:21: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:23: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:23: Require stack:
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:47:23: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:47:23: Require stack:
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:47:23: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:56:25: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:56:25: Require stack:
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:56:25: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 17:56:25: Require stack:
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 17:56:25: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 17:56:25: 
+2026-07-17 17:56:25: DM Panel → http://0.0.0.0:5050
+2026-07-17 17:56:25: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 17:56:25: 
+2026-07-17 18:05:12: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 18:05:12: Require stack:
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 18:05:12: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 18:05:12: Require stack:
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 18:05:12: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 18:05:12: 
+2026-07-17 18:05:12: DM Panel → http://0.0.0.0:5050
+2026-07-17 18:05:12: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 18:05:12: 
+2026-07-17 18:09:15: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 18:09:15: Require stack:
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 18:09:15: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 18:09:15: Require stack:
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 18:09:15: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 18:09:15: 
+2026-07-17 18:09:15: DM Panel → http://0.0.0.0:5050
+2026-07-17 18:09:15: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 18:09:15: 
+2026-07-17 19:42:09: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:42:09: Require stack:
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:42:09: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:42:09: Require stack:
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:42:09: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:42:10: 
+2026-07-17 19:42:10: DM Panel → http://0.0.0.0:5050
+2026-07-17 19:42:10: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 19:42:10: 
+2026-07-17 19:49:55: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:49:55: Require stack:
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:49:55: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:49:55: Require stack:
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:49:55: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:49:56: 
+2026-07-17 19:49:56: DM Panel → http://0.0.0.0:5050
+2026-07-17 19:49:56: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 19:49:56: 
+2026-07-17 19:54:18: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:54:18: Require stack:
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:54:18: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 19:54:18: Require stack:
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 19:54:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 19:54:18: 
+2026-07-17 19:54:18: DM Panel → http://0.0.0.0:5050
+2026-07-17 19:54:18: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 19:54:18: 
+2026-07-17 20:02:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:02:35: Require stack:
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:02:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:02:35: Require stack:
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:02:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:02:35: 
+2026-07-17 20:02:35: DM Panel → http://0.0.0.0:5050
+2026-07-17 20:02:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 20:02:35: 
+2026-07-17 20:18:36: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:18:36: Require stack:
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:18:36: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:18:36: Require stack:
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:18:36: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:18:36: 
+2026-07-17 20:18:36: DM Panel → http://0.0.0.0:5050
+2026-07-17 20:18:36: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 20:18:36: 
+2026-07-17 20:31:48: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:31:48: Require stack:
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:31:48: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:31:48: Require stack:
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:31:48: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:31:48: 
+2026-07-17 20:31:48: DM Panel → http://0.0.0.0:5050
+2026-07-17 20:31:48: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 20:31:48: 
+2026-07-17 20:32:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:32:35: Require stack:
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:32:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 20:32:35: Require stack:
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 20:32:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 20:32:35: 
+2026-07-17 20:32:35: DM Panel → http://0.0.0.0:5050
+2026-07-17 20:32:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 20:32:35: 
+2026-07-17 21:08:19: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 21:08:19: Require stack:
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 21:08:19: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-17 21:08:19: Require stack:
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-17 21:08:19: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-17 21:08:19: 
+2026-07-17 21:08:19: DM Panel → http://0.0.0.0:5050
+2026-07-17 21:08:19: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-17 21:08:19: 
+2026-07-18 20:49:37: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-18 20:49:37: Require stack:
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-18 20:49:37: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-18 20:49:37: Require stack:
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-18 20:49:37: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-18 20:49:37: 
+2026-07-18 20:49:37: DM Panel → http://0.0.0.0:5050
+2026-07-18 20:49:37: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-18 20:49:37: 
+2026-07-18 22:10:33: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-18 22:10:33: Require stack:
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-18 22:10:33: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-18 22:10:33: Require stack:
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-18 22:10:33: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-18 22:10:33: 
+2026-07-18 22:10:33: DM Panel → http://0.0.0.0:5050
+2026-07-18 22:10:33: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-18 22:10:33: 
+2026-07-19 01:06:27: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:06:27: Require stack:
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:06:27: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:06:27: Require stack:
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:06:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:06:27: 
+2026-07-19 01:06:27: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:06:27: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:06:27: 
+2026-07-19 01:11:35: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:11:35: Require stack:
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:11:35: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:11:35: Require stack:
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:11:35: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:11:35: 
+2026-07-19 01:11:35: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:11:35: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:11:35: 
+2026-07-19 01:14:18: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:14:18: Require stack:
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:14:18: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:14:18: Require stack:
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:14:18: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:14:19: 
+2026-07-19 01:14:19: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:14:19: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:14:19: 
+2026-07-19 01:18:56: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:18:56: Require stack:
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:18:56: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:18:56: Require stack:
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:18:56: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:18:57: 
+2026-07-19 01:18:57: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:18:57: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:18:57: 
+2026-07-19 01:27:47: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:27:47: Require stack:
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:27:47: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:27:47: Require stack:
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:27:47: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:27:47: 
+2026-07-19 01:27:47: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:27:47: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:27:47: 
+2026-07-19 01:31:11: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:31:11: Require stack:
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:31:11: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:31:11: Require stack:
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:31:11: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:31:11: 
+2026-07-19 01:31:11: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:31:11: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:31:11: 
+2026-07-19 01:42:26: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:42:26: Require stack:
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:42:26: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:42:26: Require stack:
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:42:26: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:42:26: 
+2026-07-19 01:42:26: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:42:26: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:42:26: 
+2026-07-19 01:48:27: Warning: Cannot polyfill `DOMMatrix`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:48:27: Require stack:
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:48:27: Warning: Cannot polyfill `Path2D`, rendering may be broken: "Error: Cannot find module 'canvas'
+2026-07-19 01:48:27: Require stack:
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\node_modules\pdfjs-dist\legacy\build\pdf.js
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\lib\pdf-indexer.js
+2026-07-19 01:48:27: - C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)\web\server.js".
+2026-07-19 01:48:27: 
+2026-07-19 01:48:27: DM Panel → http://0.0.0.0:5050
+2026-07-19 01:48:27: Root: C:\Users\joshu\OneDrive\Documents\dnd\00 - Campaigns\Northwatch Wardens - (HomeBrew)
+2026-07-19 01:48:27: 

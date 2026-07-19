@@ -12,7 +12,7 @@ tags: [child, ally, recurring]
 
 ![portrait](/portraits/ClementineAndersmith.png) {width:130px,float:right,margin:"0 0 10px 15px"}
 
-**Appearance:** A girl of perhaps ten, with the specific quality of stillness that children develop when they have decided that panic is not going to help and they are waiting for something to change.
+**Appearance:** A girl of perhaps ten, with reddish-auburn hair and the specific quality of stillness that children develop when they have decided that panic is not going to help and they are waiting for something to change.
 
 **Voice:** Careful and observant — she asks better questions than the situation implies she should be able to.
 

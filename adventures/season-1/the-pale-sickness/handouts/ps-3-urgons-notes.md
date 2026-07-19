@@ -1,58 +1,50 @@
 ---
-title: Urgon's Workshop Notes
+title: Urgon's Journal
 type: handout
-when: When players search Urgon's smithy
+when: When players open the locked chest in Urgon's cabin
 ---
 
 ```
-URGON WENTH — PERSONAL NOTES
-[Found in locked drawer beneath workbench]
+URGON WENTH — PERSONAL JOURNAL
+[Found in the locked chest]
 
-New commission from northern traveler. Well-paid. Strange request:
-forge "containers" for volatile liquid. Traveler wouldn't say what
-liquid was for. Coins were good. Real gold. Couldn't refuse.
+Trading run took me further north than I've ever gone. Found ruins
+in the ice — old, OLD, not dwarven, not anything I know. Half-buried
+in the glacier. Should have turned back. Didn't.
 
----
-
-Containers complete. Traveler returned with SEALED casks of blue liquid.
-Transferred to vials I made. Liquid GLOWS faintly in darkness.
-Cold to touch even through glass.
-
-Traveler warned: Don't open. Don't touch. Don't ask.
-
-I should have asked.
+Brought two vials out with me. Blue glass, heavy, beautiful. Cold to
+the touch even through gloves. Liquid GLOWS faint in the dark. Knew
+they were worth coin the moment I saw them.
 
 ---
 
-Elro Aldataur came by. Recognized the liquid's glow. Said it's
-"pre-Calamity material." Aevorian. Dangerous. Forbidden.
-
-He begged me to dispose of it. But traveler paid half up front — says
-he'll return with second half when he retrieves vials next month.
-
-I'll just... keep them sealed. What's the harm?
+Sold both to Pelc. Good price. Told myself I was glad to be rid of
+them — truth is I just wanted the coin. Didn't want them under my
+roof another night. Pelc didn't ask where they came from. Pelc never
+does.
 
 ---
 
-Vial cracked during grinding work. Liquid evaporated instantly.
-Breathed the vapor before I realized.
+Elro Aldataur came by. Saw one of the vials still on Pelc's shelf and
+went pale. Said it's "pre-Calamity material." Aevorian. Dangerous.
+Forbidden. Begged me to warn folk off them.
 
-Felt sick immediately. Blue tinge on hands within hours.
-By the Third God...
+But they're sold now. Out of my hands. What's the harm?
 
-Elro was right. Disposing of remaining vials — but where?
+---
+
+Fingers feel cold. Won't warm no matter the fire. Blue creeping up
+under the nails. By the Third God — was it the vials? I only carried
+them a few days.
+
+Elro was right. I should have asked.
 
 ---
 
 [Final Entry — shaky handwriting]
 
-Can't stay. Illness spreading to others. It's my fault. Those vials...
-
-Taking them north. Back to where they belong. If the glacier holds
-ruins, maybe answers there too.
-
-If you find this and I'm gone — look for Croaker Cave.
-Bandit hideout, but better than village contamination.
+It's spreading. Tulgi. Irven's little ones. My fault. The answers
+are north, in those ruins — if anyone's fool enough to go.
 
 Forgive me, Palebank.
 

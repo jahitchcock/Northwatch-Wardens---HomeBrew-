@@ -19,6 +19,25 @@ Six rooms in sequence. The party enters at Room 1 and must reach Room 5. Room 6 
     1               2                  3                    4                      5                      6
 ```
 
+## VTT Maps for This Facility
+
+Load these maps in sequence as the party progresses through Salsvault:
+
+| Room | Map File | Size | Key Features | Encounters |
+|------|----------|------|--------------|------------|
+| **1: Entrance Hall** | `ps-07-salsvault-room1-entrance_grid.png` | 6×4 (30×20 ft) | Metal walls, blue glyphs, iced floor, side corridors | 2 Flying Swords, spore vent |
+| **2: Research Labs** | `ps-08-salsvault-room2-labs_grid.png` | 8×6 (40×30 ft) | Workbenches, shelving, blue vial on rack, schematic | 2 Animated Armor, 2 spore vents |
+| **3: Containment Hall** | `ps-09-salsvault-room3-containment_grid.png` | 10×8 (50×40 ft) | 8 sealed pods, Pod 7 destroyed, blue mist | Continuous spore exposure (DC 11 Con/round) |
+| **4: Construct Storage** | `ps-10-salsvault-room4-storage_grid.png` | 8×8 (40×40 ft) | 12 dormant armor alcoves, schematic on workbench | ⚠️ ALL 12 activate if any disturbed — AVOID |
+| **5: Preservation Chamber** | `ps-11-salsvault-room5-preservation_grid.png` | 4×4 (20×20 ft) | Warm room (contrasts with rest), gold & blue vials | **OBJECTIVE** — Retrieve 6 gold vials (antidote) |
+| **6: Control Room** | `ps-12-salsvault-room6-control_grid.png` | 6×6 (30 ft diameter) | Central console, crystal displays, security recording | Optional — reveals campaign mystery |
+
+**DM Notes:**
+- Load Room 1 as party enters facility
+- Advance to next room as they progress (don't pre-load all)
+- Use map for each room even if party attempts stealth — helps visualize positioning
+- Room 5 is the goal; Room 6 is optional but essential for campaign revelation
+
 ---
 
 <div class="sound-strip">🔊 Set ambience: <button class="snd-cue" data-scene="dungeon">🎵 Dungeon</button></div>
@@ -36,7 +55,7 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 **Spore vent:** DC 11 Constitution save on entering if vent is not blocked. DC 12 Athletics or Dexterity (thieves' tools) to jam it shut with available materials.
 
 **Interactive elements:**
-- **Urgon's bootprints:** Lead straight to the Containment Hall (Room 3), bypassing the Research Labs. Party can follow them.
+- **[Urgon](npcs/core/urgon-wenth.md)'s bootprints:** Lead straight to the Containment Hall (Room 3), bypassing the Research Labs. Party can follow them.
 - **Aevorian glyphs (DC 13 Arcana to read):** Warning signs. "CONTAINMENT BREACH — SECTOR 3" and "AUTHORIZED PERSONNEL ONLY."
 - **Left dead-end:** A collapsed guard post. Contains a dead construct (inert — parts salvageable) and a sealed container with 2 potions of healing.
 
@@ -136,7 +155,7 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 **Interactive elements:**
 - **Pod 7 (the breach):** Burn marks on the inside of the torn door. Temperature inside the pod is warmer than the rest of the facility. A residue on the walls matches the disease samples — but also shows something else: large claws, human-sized. Something alive was in here.
 - **Sealed pod labels (DC 12 Arcana):** "SAMPLE — FRIGID WOE — BATCH 7-C," "SAMPLE — FRIGID WOE — BATCH 7-D," etc. Seven variants of the same disease.
-- **Urgon's bootprints:** Continue through this room, heading directly to Room 5. He came here first, broke open Pod 7 (his crowbar marks are on the door seal), and triggered the breach.
+- **Urgon's bootprints:** Continue through this room toward the sample racks and back out — giving the ruined pod a wide berth. Pod 7 was already breached when he arrived (that's what frightened him). He grabbed two sealed blue vials and fled; he did not cause this. Whatever burst out of Pod 7 is a separate, older mystery.
 
 ---
 
@@ -195,7 +214,7 @@ A 30-by-20-foot entry chamber. Ceiling 15 feet high. Two narrow corridors branch
 <div class="sound-strip">🔊 Hooded figure revealed: <button class="snd-sfx" data-sfx="dark">💀 Dark</button></div>
 
 - **The hooded figure image:** Non-human (wrong proportions — too tall, too thin, joints not quite right). At the console. The image is from the activation event — a security recording. DC 17 Arcana: the figure's movements at the console are deliberate and knowledgeable. This was not accidental discovery. Someone knew exactly how to turn Salsvault on.
-- **Emergency shutdown (DC 15 Arcana to operate):** Party can shut down Salsvault. This reduces Echo interference in the region for 2d6 months. Elric will be conflicted about this ("invaluable research, lost").
+- **Emergency shutdown (DC 15 Arcana to operate):** Party can shut down Salsvault. This reduces Echo interference in the region for 2d6 months. [Elric](npcs/core/elric-vael.md) will be conflicted about this ("invaluable research, lost").
 
 ### Key Rolls — Room 6
 
@@ -232,6 +251,6 @@ If the party disturbs the constructs in Room 4 and triggers a full activation: t
 ## Escalation
 
 - **Party getting overwhelmed:** Constructs defend and do not pursue beyond their room. Running is always an option. Room 5 (the antidote room) is the only objective — if they grab the vials and run, they win.
-- **Hidden cache (emergency):** Morgo's supply box outside the entrance. 2d4 potions of healing in a waterproof case under a cairn marked with two crossed rocks, 10 feet left of the entrance.
+- **Hidden cache (emergency):** [Morgo](npcs/season-1/morgo-delwur.md)'s supply box outside the entrance. 2d4 potions of healing in a waterproof case under a cairn marked with two crossed rocks, 10 feet left of the entrance.
 - **If party can't operate the Control Room console:** Elric can analyze rubbing/sketches of the glyphs after the adventure. The revelation still happens — just delayed.
 - **Partial collapse trigger:** If the party uses a fire-based area spell in Room 2 or Room 3, unstable ice in the ceiling fractures. Everyone makes DC 13 Dexterity save or takes 3d6 bludgeoning damage and is knocked prone. The facility is not destroyed but the path back to Room 1 requires DC 14 Athletics to navigate rubble.

@@ -24,8 +24,8 @@ The party returns before the clock expires (Tulgi has 1+ days left, Irven's fami
 
 > *"Elro meets you at the village entrance. He looks at the vials. He looks at you. 'Is that—' He can't finish. You show him one. He takes it gently, as if it might shatter."*
 
-- Tulgi Lutan survives. She is quiet afterward. She never speaks of the vials again, but she pays her taxes early for the rest of her life and leaves anonymous donations at the Frostwatch post.
-- Irven's family survives. The children don't fully understand what happened. Irven names his next trading vessel *Warden* and sends 200 gp to the guild "with no conditions."
+- [Tulgi Lutan](npcs/core/tulgi-lutan.md) survives. She is quiet afterward. She never speaks of the vials again, but she pays her taxes early for the rest of her life and leaves anonymous donations at the Frostwatch post.
+- [Irven](npcs/season-1/irven-liel-sr.md)'s family survives. The children don't fully understand what happened. Irven names his next trading vessel *Warden* and sends 200 gp to the guild "with no conditions."
 - Elro pays the full 300 gp reward and offers Palebank as a Warden-friendly supply point.
 - Elro's toast at the village hall: *"To the Northwatch Wardens. They came when I asked. They came back when it mattered."*
 
@@ -70,7 +70,7 @@ The party must decide between Tulgi, Irven's partner, and Irven's children. No N
 
 ## NPCs at Closing
 
-### Elro Aldataur
+### [Elro Aldataur](npcs/core/elro-aldataur.md)
 
 **If best outcome:**
 > "I've been a village head for fifteen years. People have died on my watch before. This time, they didn't have to — and they didn't." *He shakes your hand.* "Come back whenever you need. Palebank is yours."
@@ -81,12 +81,12 @@ The party must decide between Tulgi, Irven's partner, and Irven's children. No N
 **If failure:**
 > *He doesn't come to the door. Mila speaks for him: "He asked me to tell you he doesn't blame you. He also asked me to tell you not to come back."*
 
-### Mila Teno
+### [Mila Teno](npcs/core/mila-teno.md)
 
 **After the cure is administered:**
 > "I lift the quarantine at dawn. I'll stay on post for a week more, make sure it holds." *Beat.* "You came back. Not everyone does."
 
-### Lorewarden Elric Vael (Waystone debrief)
+### Lorewarden [Elric Vael](npcs/core/elric-vael.md) (Waystone debrief)
 
 **If party shut down Salsvault:**
 > "You did what you had to do. I understand. I just—" *He touches his journal.* "—there was so much we could have learned." *He recovers.* "It doesn't matter. We know where the others are."

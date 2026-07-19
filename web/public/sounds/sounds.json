@@ -1,0 +1,116 @@
+{
+  "scenes": [
+    {
+      "id": "cave",
+      "label": "Cave",
+      "files": ["cave2.wav"],
+      "keywords": ["cave", "cavern", "underground", "croaker", "salsvault"]
+    },
+    {
+      "id": "combat",
+      "label": "Combat",
+      "files": ["combat2.wav", "combat3.wav"],
+      "keywords": ["combat", "fight", "battle", "encounter"]
+    },
+    {
+      "id": "night",
+      "label": "Night",
+      "files": ["night1.wav", "night2.wav"],
+      "keywords": ["night", "camp", "rest", "dark", "evening"]
+    },
+    {
+      "id": "tavern",
+      "label": "Tavern",
+      "files": ["tavern2.wav"],
+      "keywords": ["tavern", "inn", "waystone", "pub", "bar"]
+    },
+    {
+      "id": "winter",
+      "label": "Winter",
+      "files": ["winter1.wav"],
+      "keywords": ["winter", "snow", "cold", "ice", "frost", "palebank", "pale"]
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "files": ["forest1.mp3"],
+      "keywords": ["forest", "woods", "wilderness", "wolves", "welton", "westly", "pinebrook"]
+    },
+    {
+      "id": "rain",
+      "label": "Rain",
+      "files": ["rain1.mp3"],
+      "keywords": ["rain", "storm", "downpour", "wet", "road", "travel"]
+    },
+    {
+      "id": "ritual",
+      "label": "Ritual",
+      "files": ["ritual1.mp3"],
+      "keywords": ["ritual", "cultist", "cult", "chant", "dragon cult", "echo", "aeorian"]
+    },
+    {
+      "id": "mountain",
+      "label": "Mountain Wind",
+      "files": ["mountain1.mp3"],
+      "keywords": ["mountain", "wind", "temple", "dragonknight", "dragonknights", "summit", "peak"]
+    },
+    {
+      "id": "swamp",
+      "label": "Swamp",
+      "files": ["swamp1.mp3"],
+      "keywords": ["swamp", "marsh", "bog", "frog", "mire"]
+    },
+    {
+      "id": "river",
+      "label": "River",
+      "files": ["river1.mp3"],
+      "keywords": ["river", "water", "stream", "lake", "dock", "bridge"]
+    }
+  ],
+  "effects": [
+    { "id": "arcane", "label": "Arcane", "file": "sfx/arcane.wav", "category": "Magic" },
+    { "id": "dark", "label": "Dark", "file": "sfx/dark.wav", "category": "Magic" },
+    { "id": "spell-cast", "label": "Spell Cast", "file": "sfx/spell-cast.mp3", "category": "Magic" },
+    { "id": "magic-whoosh", "label": "Magic Whoosh", "file": "sfx/magic-whoosh.mp3", "category": "Magic" },
+    { "id": "heal", "label": "Heal", "file": "sfx/heal.mp3", "category": "Magic" },
+    { "id": "lightning-blast", "label": "Lightning Blast", "file": "sfx/lightning-blast.mp3", "category": "Magic" },
+    { "id": "teleport", "label": "Teleport", "file": "sfx/teleport.mp3", "category": "Magic" },
+
+    { "id": "epic", "label": "Epic", "file": "sfx/epic.wav", "category": "Dramatic" },
+    { "id": "impact", "label": "Impact", "file": "sfx/impact.wav", "category": "Dramatic" },
+    { "id": "critical-hit", "label": "Critical Hit", "file": "sfx/critical-hit.mp3", "category": "Dramatic" },
+
+    { "id": "mechanical", "label": "Mechanical", "file": "sfx/mechanical.wav", "category": "Environment" },
+    { "id": "thunder-rumble", "label": "Thunder", "file": "sfx/thunder-rumble.mp3", "category": "Environment" },
+    { "id": "door-creak", "label": "Door Creak", "file": "sfx/door-creak.mp3", "category": "Environment" },
+    { "id": "footsteps-forest", "label": "Footsteps (Forest)", "file": "sfx/footsteps-forest.mp3", "category": "Environment" },
+    { "id": "footsteps-stone", "label": "Footsteps (Stone)", "file": "sfx/footsteps-stone.mp3", "category": "Environment" },
+    { "id": "campfire-crackle", "label": "Campfire", "file": "sfx/campfire-crackle.mp3", "category": "Environment" },
+    { "id": "door-knock", "label": "Door Knock", "file": "sfx/door-knock.mp3", "category": "Environment" },
+    { "id": "door-slam", "label": "Door Slam", "file": "sfx/door-slam.mp3", "category": "Environment" },
+    { "id": "key-lock", "label": "Key/Lock", "file": "sfx/key-lock.mp3", "category": "Environment" },
+    { "id": "rockslide", "label": "Rockslide", "file": "sfx/rockslide.mp3", "category": "Environment" },
+
+    { "id": "wild", "label": "Wild", "file": "sfx/wild.wav", "category": "Creatures" },
+    { "id": "wolf-howl", "label": "Wolf Howl", "file": "sfx/wolf-howl.mp3", "category": "Creatures" },
+    { "id": "dragon-roar", "label": "Dragon Roar", "file": "sfx/dragon-roar.mp3", "category": "Creatures" },
+    { "id": "dragon-breath", "label": "Dragon Breath", "file": "sfx/dragon-breath.mp3", "category": "Creatures" },
+    { "id": "zombie-groan", "label": "Zombie Groan", "file": "sfx/zombie-groan.mp3", "category": "Creatures" },
+    { "id": "monster-growl", "label": "Monster Growl", "file": "sfx/monster-growl.mp3", "category": "Creatures" },
+    { "id": "beast-roar", "label": "Beast Roar", "file": "sfx/beast-roar.mp3", "category": "Creatures" },
+    { "id": "horse-neigh", "label": "Horse Neigh", "file": "sfx/horse-neigh.mp3", "category": "Creatures" },
+    { "id": "horse-gallop", "label": "Horse Gallop", "file": "sfx/horse-gallop.mp3", "category": "Creatures" },
+    { "id": "bat-squeak", "label": "Bat Squeak", "file": "sfx/bat-squeak.mp3", "category": "Creatures" },
+
+    { "id": "sword-slash", "label": "Sword Slash", "file": "sfx/sword-slash.mp3", "category": "Combat" },
+    { "id": "sword-strike", "label": "Sword Strike", "file": "sfx/sword-strike.mp3", "category": "Combat" },
+    { "id": "arrow-shot", "label": "Arrow Shot", "file": "sfx/arrow-shot.mp3", "category": "Combat" },
+    { "id": "punch-impact", "label": "Punch", "file": "sfx/punch-impact.mp3", "category": "Combat" },
+    { "id": "whip-crack", "label": "Whip Crack", "file": "sfx/whip-crack.mp3", "category": "Combat" },
+
+    { "id": "coin-clink", "label": "Coins", "file": "sfx/coin-clink.mp3", "category": "Social" },
+    { "id": "crowd-cheer", "label": "Crowd Cheer", "file": "sfx/crowd-cheer.mp3", "category": "Social" },
+    { "id": "church-bell", "label": "Bell", "file": "sfx/church-bell.mp3", "category": "Social" },
+    { "id": "potion-drink", "label": "Potion Drink", "file": "sfx/potion-drink.mp3", "category": "Social" }
+  ]
+}

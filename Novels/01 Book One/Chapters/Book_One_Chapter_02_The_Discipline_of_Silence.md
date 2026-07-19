@@ -1,3 +1,12 @@
+---
+series: "The Old Songs of Aevoria"
+title: "The Discipline of Silence"
+label: "Chapter Two"
+sort_order: 2
+part: 1
+type: chapter
+---
+
 # The Old Songs of Aevoria
 ## Book One — *She Who Would Not Be Silent*
 ### Chapter Two — The Discipline of Silence
@@ -24,7 +33,7 @@ That morning, as on every morning, we sat in a ring on the smooth roots of the t
 
 I want to set him down carefully, here at the beginning, because of what comes after, and because the songs we make of our betrayers are forever turning them into something simpler than a person, and I have promised to keep him whole even though he did not keep me.
 
-Ilvath was old, even for us. The Withering had taken his wife and both his daughters in a single season, and where another man might have broken loud, Ilvath had broken quiet, and then he had spent the long years since teaching the rest of us to break the same way, because he believed — he truly believed, I never doubted it, not even at the end — that it was the only mercy a people with our memory could bear. We do not forget, the Nullwood elves. That is the thing the short-lived races never understand about us. A human grief wears thin with the years because the years wear the human thin. Ours do not wear thin. We carry every face as fresh as the day it left us, for centuries, for as long as we last, and Ilvath had looked at that — at a whole people condemned to carry perfect, undimming grief across a span of years no human heart could imagine — and he had decided that silence was kinder than memory.
+Ilvath was old, even for us. The Withering had taken his wife, his son, and both his daughters in a single season, and where another man might have broken loud, Ilvath had broken quiet, and then he had spent the long years since teaching the rest of us to break the same way, because he believed — he truly believed, I never doubted it, not even at the end — that it was the only mercy a people with our memory could bear. We do not forget, the Nullwood elves. That is the thing the short-lived races never understand about us. A human grief wears thin with the years because the years wear the human thin. Ours do not wear thin. We carry every face as fresh as the day it left us, for centuries, for as long as we last, and Ilvath had looked at that — at a whole people condemned to carry perfect, undimming grief across a span of years no human heart could imagine — and he had decided that silence was kinder than memory.
 
 He was not wrong about the weight. I have come to think he was wrong about almost everything else. But he was not wrong about the weight, and I will not pretend, even now, that he was.
 

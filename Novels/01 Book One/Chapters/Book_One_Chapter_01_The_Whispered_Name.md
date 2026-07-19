@@ -1,3 +1,12 @@
+---
+series: "The Old Songs of Aevoria"
+title: "The Whispered Name"
+label: "Chapter One"
+sort_order: 1
+part: 1
+type: chapter
+---
+
 # The Old Songs of Aevoria
 ## Book One — *She Who Would Not Be Silent*
 ### Chapter One — The Whispered Name

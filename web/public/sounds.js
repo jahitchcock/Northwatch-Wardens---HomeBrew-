@@ -73,7 +73,7 @@ window.SoundPlayer = (() => {
 
     // Load manifest + custom files
     try {
-      const manifest = await fetch('/sounds/sounds.json').then(r => r.json());
+      const manifest = await fetch('/sounds/sounds.json?v=' + Date.now()).then(r => r.json());
       scenes = [...manifest.scenes];
       effects = manifest.effects || [];
 
@@ -307,6 +307,11 @@ window.SoundPlayer = (() => {
   }
 
   // ── Effects panel ─────────────────────────────────────────────────────────
+  function loadFxCollapsed() {
+    try { return JSON.parse(localStorage.getItem('soundbar-fx-collapsed') || '{}'); }
+    catch (_) { return {}; }
+  }
+
   function renderEffectsPanel() {
     const grid = document.getElementById('snd-fx-grid');
     if (!grid || !effects.length) return;
@@ -322,11 +327,15 @@ window.SoundPlayer = (() => {
       catMap[fx.category].push(fx);
     });
 
+    const collapsed = loadFxCollapsed();
+
     grid.innerHTML = '';
     categories.forEach(cat => {
       const label = document.createElement('div');
       label.className = 'snd-fx-category';
       label.textContent = cat;
+      label.tabIndex = 0;
+      label.setAttribute('role', 'button');
       grid.appendChild(label);
 
       const row = document.createElement('div');
@@ -344,15 +353,41 @@ window.SoundPlayer = (() => {
         row.appendChild(btn);
       });
       grid.appendChild(row);
+
+      const setCollapsed = (on) => {
+        label.classList.toggle('snd-fx-collapsed', on);
+        row.classList.toggle('snd-fx-collapsed', on);
+      };
+      setCollapsed(!!collapsed[cat]);
+
+      const toggle = () => {
+        const state = loadFxCollapsed();
+        const on = !state[cat];
+        state[cat] = on;
+        localStorage.setItem('soundbar-fx-collapsed', JSON.stringify(state));
+        setCollapsed(on);
+      };
+      label.addEventListener('click', toggle);
+      label.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+      });
     });
   }
 
-  function toggleFxPanel() {
+  async function toggleFxPanel() {
     if (!fxPanelEl) return;
     if (fxPanelEl.hidden) {
       fxPanelEl.hidden = false;
       fxBtnEl.classList.add('snd-fx-open');
-      if (!document.getElementById('snd-fx-grid').children.length) renderEffectsPanel();
+      if (!document.getElementById('snd-fx-grid').children.length) {
+        if (!effects.length) {
+          try {
+            const manifest = await fetch('/sounds/sounds.json?v=' + Date.now()).then(r => r.json());
+            effects = manifest.effects || [];
+          } catch (_) {}
+        }
+        renderEffectsPanel();
+      }
     } else {
       closeFxPanel();
     }

@@ -128,7 +128,20 @@
       "Bash(pm2 save:*)",
       "Bash(pm2-startup install:*)",
       "Bash(pm2 restart:*)",
-      "Bash(echo \"EXIT:$?\")"
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(xargs -0 grep -l \"def apply_grid_overlay\")",
+      "Bash(python *)",
+      "PowerShell(Get-ChildItem *)",
+      "mcp__image-gen__generate_battlemap_mapcraft",
+      "mcp__image-gen__generate_battlemap_topdown",
+      "PowerShell(cd F:\\\\NewProject\\\\image-gen; .\\\\.venv\\\\Scripts\\\\Activate.ps1; $env:PYTHONIOENCODING = 'utf-8'; python .\\\\generate_pale_sickness_maps.py --priority high)",
+      "PowerShell(Tail *)",
+      "PowerShell(cd F:\\\\NewProject\\\\image-gen; .\\\\.venv\\\\Scripts\\\\Activate.ps1; $env:PYTHONIOENCODING = 'utf-8'; python .\\\\generate_pale_sickness_maps.py --priority medium)",
+      "PowerShell(head *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Tee-Object *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(& \"C:\\\\Users\\\\joshu\\\\OneDrive\\\\Documents\\\\dnd\\\\00 - Campaigns\\\\Northwatch Wardens - \\(HomeBrew\\)\\\\web\\\\public\\\\maps\\\\organize_pale_sickness.ps1\")"
     ]
   }
 }

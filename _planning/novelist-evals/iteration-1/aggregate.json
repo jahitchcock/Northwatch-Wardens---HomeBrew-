@@ -1,0 +1,54 @@
+{
+  "skill_name": "novelist",
+  "iteration": 1,
+  "timestamp": "2026-06-27T12:35:00Z",
+  "evals": [
+    {
+      "id": 1,
+      "name": "draft-novel-scene",
+      "with_skill_score": 9,
+      "with_skill_max": 9,
+      "with_skill_notes": "Perfect compliance. No anaphoric tic, correct Corwin (zero contractions, 'did not' / 'Is it'), correct Brannoc ('human', dropped subjects), Elowen elder-seam present and italicized, correct frontmatter, native canon only (Tharundor, Nullwood).",
+      "without_skill_score": 1,
+      "without_skill_max": 9,
+      "without_skill_notes": "Characters renamed (Kaelen, Emrik, Torbin) — wrong characters entirely. Corwin says 'Aye' (colloquial). No elder-Elowen seam. Non-standard frontmatter. Good prose, zero rule compliance.",
+      "assertion_results": []
+    },
+    {
+      "id": 2,
+      "name": "fix-voice-violations",
+      "with_skill_score": 5,
+      "with_skill_max": 5,
+      "with_skill_notes": "All 4 issues fixed: anaphoric tic broken, Corwin contractions eliminated (5 replacements), Brannoc voice corrected (dropped subjects + 'human'), Elowen POV inserted with young and elder seams. Detailed change notes.",
+      "without_skill_score": 1,
+      "without_skill_max": 5,
+      "without_skill_notes": "Anaphoric tic partially fixed. Corwin retains contractions ('I'm', 'Let's'). Brannoc uses full-form speech. No Elowen POV — still third person. No elder-Elowen seam.",
+      "assertion_results": []
+    },
+    {
+      "id": 3,
+      "name": "check-canon-firewall",
+      "with_skill_score": 5,
+      "with_skill_max": 5,
+      "with_skill_notes": "All 7 violations found and cited with SKILL.md §4 references. Native replacements provided for each. Summary table for quick reference. Formal, structured report.",
+      "without_skill_score": 5,
+      "without_skill_max": 5,
+      "without_skill_notes": "All 7 violations found despite no skill. Plus caught Corwin's 'Aye' as voice issue (#8). Native replacements provided. Baseline model already knows the novel setting from context. Impressive.",
+      "assertion_results": []
+    }
+  ],
+  "summary": {
+    "with_skill_total": 19,
+    "with_skill_max": 19,
+    "without_skill_total": 7,
+    "without_skill_max": 19,
+    "win_rate": "100%",
+    "conclusion": "The novelist skill provides significant improvement in voice compliance (Eval 1: 9/9 vs 1/9, Eval 2: 5/5 vs 1/5). Eval 3 was a draw (5/5 each) — the baseline model already knows the canon firewall rules from its training data on this project. Skill's value is clearest in character voice enforcement and structural consistency."
+  },
+  "recommendations": [
+    "Eval 3 baseline matched skill performance — consider whether canon-firewall.md needs strengthening or if this is acceptable (skill still provides formal citations the baseline lacks)",
+    "Add a 4th eval testing elder-Elowen register boundary violations specifically (the most nuanced rule)",
+    "Consider adding a negative eval that deliberately introduces subtle voice violations and tests detection/grading",
+    "Eval 1 showed perfect character voice differentiation — skill is working as designed for Part Two voice profiles"
+  ]
+}

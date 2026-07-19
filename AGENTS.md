@@ -1,62 +1,42 @@
 # AGENTS.md
 
-Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northreach (world: Aevoria).
-
-Two systems: the **DM Panel** (web dashboard, active use) and the **print build** (Homebrewery PDF pipeline, currently broken).
+D&D 5e guild campaign + DM dashboard + novel series.
 
 ## DM Panel (Primary)
 
 ```bash
 cd web
 npm install     # if needed
-npm start       # → http://localhost:5050
+npm start       # → http://localhost:5050 (pw: TPK, from DM_PASSWORD env)
 ```
 
-Express + WebSocket server. Serves `web/public/` (app.js + style.css). Features: file browser, markdown preview with Homebrewery syntax support, search, random tables (`tables/`), character sheets (`player-characters/`), session tracker CRUD (`timeline/sessions/`), seasonal calendar, treasure/encounter generators, WebSocket terminal (via xterm.js + node-pty).
+Express + WebSocket. Serves `web/public/`. pm2-managed in production: `cd web && npm run up` (or `restart`/`down`/`logs`/`status`). Auto-restarts on `server.js`/`lib/`/`public/`/`views/` changes.
 
-Directories excluded from file browser: `.git`, `.github`, `web/`, `node_modules`, `build/`, `logs/`, `scripts/`, `LionsdenGameFiles/`.
+**Novels:** public-access e-reader at `/novels` (no auth). 31 chapter files in `Novels/01 Book One/Chapters/` with YAML frontmatter (series, title, label, sort_order, part, type). Book One complete (30 chapters + interlude). Novelist skill at `.claude/skills/novelist/`. J.H. Thorne agent at `@jh-thorne`.
 
 ## Print Build (Broken)
 
-```bash
-./build.sh                    # Both (auto npm install)
-./build.sh --players          # Player's Guide only
-./build.sh --dms              # DM's Guide only
-./build.sh --unbuild-players  # Reverse sync: Homebrewery → source
-./build.sh --unbuild-dms      # Reverse sync: Homebrewery → source
-```
+The TOC JSONs (`build/players-guide-toc.json`, `build/dms-guide-toc.json`) reference `../World Building/`, `../Season 1/` paths but source content was moved to `_print/`. Fix: prepend `_print/` to paths. Also: `build.sh`, `build.js`, `_print/build.js`, and `_print/package.json` don't exist — these are referenced in docs but absent from the repo.
 
-Also: `npm run build`, `npm run build:players`, `npm run build:dms` (scripts in `_print/package.json`)
+Pipeline (aspirational): `scripts/build/add_page_footers.py` → concatenate by TOC order → render via `homebrewery-renderer.js` → output in `build/`.
 
-Output in `build/`. First run installs npm deps.
-
-**Known issue:** Source content was moved from `World Building/`, `Season 1/` into `_print/`, but TOC JSON paths (`build/players-guide-toc.json`, `build/dms-guide-toc.json`) still point to the old root-level paths. Build will fail with "File not found" warnings. Fix by prepending `_print/` to paths in TOC JSON files. See `_print/build.js:3-5`.
-
-## Pipeline (Print)
-
-1. `_print/build.js` runs `scripts/build/add_page_footers.py` (injects `{{pageNumber}}`/`{{footnote}}` before each `\page`)
-2. Concatenates files in TOC JSON order with `<!-- FILE_START/FILE_END -->` markers
-3. `homebrewery-renderer.js` (adapted from naturalcrit/homebrewery) renders to `.md/.txt/.html`
-4. Verify with: `node _print/verify-build.js` (checks duplicate `\page`, TOC page numbers)
-5. Unbuild: `node _print/unbuild.js --players` (or `--dms`) extracts content from compiled `.txt` back to source using markers
-
-## Content Separation
-
-Player guide files (in `build/players-guide-toc.json`) are **physically printed**. NEVER include:
-- File links: `[text](../path/file.md)` — use chapter refs: `**Chapter 4: The Northwatch Wardens**`
-- Repo structure refs: `Premade PCs/`, `Season 1/Adventures/` — use: `Available from your DM`
-
-DM guide can use repo refs freely.
-
-Edit TOC JSON to add/remove content. Never edit `build/*.md` directly.
+CI (`.github/workflows/build-and-deploy.yml`) runs XML validation then `./build.sh` — will fail since `build.sh` missing.
 
 ## File Formats
 
-- `.md` = Homebrewery V3 (NOT standard markdown) — syntax in `.github/HOMEBREWERY_V3_GUIDE.md`
-- `.xml` = Game Master 5e v5 (root: `<data version="5">`, NOT `<compendium>`)
-- `.json` = D&D 5e stat blocks
+- `.md` = Homebrewery V3 (see `.github/HOMEBREWERY_V3_GUIDE.md`). NOT standard markdown.
+- `.xml` = Game Master 5e v5 (root: `<data version="5">`, NOT `<compendium>`). Unique UIDs required.
+- `.json` = D&D 5e stat blocks.
 
-## Canonical Geography
+## Content Separation (Player vs DM)
+
+Player guide files (in `build/players-guide-toc.json`) will be printed. NEVER use file links `[text](../path/file.md)` or repo path refs — use `**Chapter 4: ...**` or `Available from your DM`. DM guide can use repo refs freely.
+
+## Adventures
+
+Each adventure in its own folder: `adventures/season-N/adventure-name/index.md` (optional scene splits `01-*.md`, `handouts/`). Order-independent, 2–5 players, subtle Aeorian Echo clues. Tone: grounded low-magic frontier.
+
+## Canonical Geography (Don't Invent)
 
 | Location | Purpose |
 |----------|---------|
@@ -64,18 +44,19 @@ Edit TOC JSON to add/remove content. Never edit `build/*.md` directly.
 | Welton + Westly's Farm | Wolves of Welton |
 | Pinebrook | Peril in Pinebrook |
 | Palebank Village + Croaker Cave | The Pale Sickness |
-| Salsvault | Aeorian ruins (Echo mystery) |
+| Salsvault | Aeorian ruins (Echo source) |
 | Temple of the Dragonknights | Capstone |
 | Noke's Tower | Wild Sheep Chase |
 
-## Verification
+## Skills
+
+36 skills in `.claude/skills/`. Load matching skill before D&D work: `canon-check`, `new-adventure`, `new-npc`, `session-prep`, `xml-manager`, `dm-assistant`, `novelist`, `brainstorming` (mandatory before creative work), `observe-plan-act-reflect` (outer loop for multi-step tasks), `verification-before-completion` (before claiming done).
 
 ## Lore RAG
 
-## Key Reference Files
+Semantic search + grounded generation over campaign lore and (firewalled) the novels. See `tools/lore-rag/README.md`.
 
-- `.github/HOMEBREWERY_V3_GUIDE.md` — Homebrewery syntax (single source of truth)
-- `.github/PLAYER_DM_CONTENT_GUIDE.md` — Content separation rules
-- `_print/SYNC_WORKFLOW.md` — Bidirectional Homebrewery ↔ source sync process
-- `.claude/skills/` — 29 skills; load matching skill before working on D&D content (canon-check, xml-manager, dm-assistant, etc.)
-- `_planning/IDEAS.md` — project-level brainstorming and enhancement ideas (DM Panel, Print Build, workflow, etc.)
+- Prefer `search_lore` (MCP tool, `aevorian-lore` server) with `collection: "campaign"` to ground adventure/NPC/world work in real canon before writing; use `collection: "novels"` **only** inside novelist / jh-thorne work (it cannot see campaign material — this is the canon firewall).
+- `ask_lore` returns a local LM Studio draft grounded in retrieved chunks; use `search_lore` when you'll write the prose yourself.
+- After editing lore `.md`, reindex: `node tools/lore-rag/indexer.mjs` (or `campaign` / `novels`).
+- Service lives on the GPU box (`10.10.6.56:8100`); infra in `infra/lore-rag/`.

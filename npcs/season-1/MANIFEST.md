@@ -4,25 +4,25 @@ All named NPCs introduced in Season 1, grouped by location/adventure.
 
 ## Waystone Inn (Guild HQ) — Wardens & Regulars
 
-- [Sera Gelanadel](sera-gelanadel.md)
-- [Bordel Barleywind](bordel-barleywind.md)
-- [Rowan Fairweather](rowan-fairweather.md)
-- [Takk Oaksplitter](takk-oaksplitter.md)
-- [Galvena Aballon](galvena-aballon.md)
-- [Ariodh Highwhirl](ariodh-highwhirl.md)
-- [Guz](guz.md)
-- [Mila Teno](mila-teno.md)
-- [Aurixean Valignaak](aurixean-valignaak.md)
-- [Flynt Wymblen](flynt-wymblen.md)
+- [Sera Gelanadel](../core/sera-gelanadel.md)
+- [Bordel Barleywind](../core/bordel-barleywind.md)
+- [Rowan Fairweather](../core/rowan-fairweather.md)
+- [Takk Oaksplitter](../core/takk-oaksplitter.md)
+- [Galvena Aballon](../core/galvena-aballon.md)
+- [Ariodh Highwhirl](../core/ariodh-highwhirl.md)
+- [Guz](../core/guz.md)
+- [Mila Teno](../core/mila-teno.md)
+- [Aurixean Valignaak](../core/aurixean-valignaak.md)
+- [Flynt Wymblen](../core/flynt-wymblen.md)
 
 ## Welton (Wolves of Welton)
 
-- [Corel](corel.md)
-- [Father Johan Merriksonn](father-johan-merriksonn.md)
+- [Corel](../core/corel.md)
+- [Father Johan Merriksonn](../core/father-johan-merriksonn.md)
 - [Alexi Merriksonn](alexi-merriksonn.md)
-- [Willen Featherock](willen-featherock.md)
-- [Tillus Merrion](tillus-merrion.md)
-- [Leanor Slatebeard](leanor-slatebeard.md)
+- [Willen Featherock](../core/willen-featherock.md)
+- [Tillus Merrion](../core/tillus-merrion.md)
+- [Leanor Slatebeard](../core/leanor-slatebeard.md)
 - [Banteth Slatebeard](banteth-slatebeard.md)
 - [Marta Henwick](marta-henwick.md)
 - [Irven Liel](irven-liel.md)
@@ -38,13 +38,15 @@ All named NPCs introduced in Season 1, grouped by location/adventure.
 
 ## Palebank Village (Frozen Sick)
 
-- [Elro Aldataur](elro-aldataur.md)
-- [Verla Pelc](verla-pelc.md)
-- [Urgon](urgon.md)
-- [Tulgi](tulgi.md)
+- [Elro Aldataur](../core/elro-aldataur.md)
+- [Verla Pelc](../core/verla-pelc.md)
+- [Urgon Wenth](../core/urgon-wenth.md)
+- [Tulgi Lutan](../core/tulgi-lutan.md)
+- [Irven Liel Sr.](irven-liel-sr.md) — Palebank merchant/father; **not** the Welton courier [Irven Liel](irven-liel.md)
 
 ## Croaker Cave (Frozen Sick)
 
+- [Brynn Wraithwood](brynn-wraithwood.md)
 - [Hulil Lutan](hulil-lutan.md)
 - [Raegrin Mau](raegrin-mau.md)
 
@@ -58,15 +60,15 @@ All named NPCs introduced in Season 1, grouped by location/adventure.
 
 ## Northreach Wilderness (Mobile)
 
-- [The Awakened Fawn](../minor/the-awakened-fawn.md) — Echo-touched fawn, witness to the first casualty
+- [The Awakened Fawn](minor/the-awakened-fawn.md) — Echo-touched fawn, witness to the first casualty
 
 ## Noke's Tower (Wild Sheep Chase)
 
-- [Finethir Shinebright](finethir-shinebright.md)
+- [Finethir Shinebright](../core/finethir-shinebright.md)
 - [Ahmed Noke](ahmed-noke.md)
 
 ## Temple of the Dragonknights (Capstone)
 
-- [Joel Andersmith](joel-andersmith.md)
+- [Joel Andersmith](../core/joel-andersmith.md)
 - [Clementine Andersmith](clementine-andersmith.md)
 - [Venomfang](venomfang.md)

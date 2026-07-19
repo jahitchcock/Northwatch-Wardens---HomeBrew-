@@ -157,6 +157,7 @@ const modal2 = $('modal2');
 const backdrop = $('drawer-backdrop');
 const mobFiles = $('mob-files');
 const mobTerm  = $('mob-term');
+const mobPlayer = $('mob-player');
 
 // ─── Resize handles ──────────────────────────────────────────────────────────
 
@@ -452,11 +453,14 @@ function tabPath(base) {
   return base;
 }
 
+let activeTab = null; // Cache active tab to avoid re-querying all tabs on click
 document.querySelectorAll('.tab').forEach(tab => {
+  if (tab.classList.contains('active')) activeTab = tab;
   tab.addEventListener('click', () => {
     if (tab.dataset.tab) return; // handled by dedicated tab listener (e.g. Tracker)
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    if (activeTab) activeTab.classList.remove('active');
     tab.classList.add('active');
+    activeTab = tab;
     openPath(tabPath(tab.dataset.path));
     setActive(null);
     if (isMobile()) closeDrawers();
@@ -584,8 +588,14 @@ function getTopModal() {
 }
 
 function getFreeModal() {
-  if (!modal1 || modal1.hidden) return modal1;
-  return modal2;
+  const m = (!modal1 || modal1.hidden) ? modal1 : modal2;
+  // Reset any per-view inline styling left on the body (e.g. the dark
+  // background the NPC/Location list views stamp on). Otherwise that dark
+  // background leaks into the next parchment modal (markdown/NPC cross-refs),
+  // putting dark text on a dark background — unreadable in every theme.
+  // Views that need a non-default background set it after acquiring the modal.
+  if (m) m.querySelector('.modal-body').style.cssText = '';
+  return m;
 }
 
 async function openModal(relPath) {
@@ -635,7 +645,11 @@ function closeTopModal() {
   setTimeout(() => {
     m.hidden = true;
     const mb = m.querySelector('.modal-body');
-    if (mb) mb.innerHTML = '';
+    if (mb) {
+      // Remove all event listeners from modal content before clearing to prevent memory leaks
+      const clone = mb.cloneNode(false);
+      mb.parentNode.replaceChild(clone, mb);
+    }
     m.querySelector('.modal-box').classList.remove('modal-box--tall');
   }, 180);
 }
@@ -798,7 +812,8 @@ function showSearchResults(results, q) {
     }
 
     item.addEventListener('click', () => {
-      document.querySelectorAll('.sr-item').forEach(el => el.classList.remove('active'));
+      const prev = fileTree.querySelector('.sr-item.active');
+      if (prev) prev.classList.remove('active');
       item.classList.add('active');
       openPath(r.path);
     });
@@ -876,6 +891,14 @@ mobTerm.addEventListener('click', () => {
   if (!isMobile()) return;
   panelR.classList.contains('drawer-open') ? closeDrawers() : openDrawer('right');
 });
+
+// 📺 — reveal/hide the collapsed player-screen strip on mobile
+if (mobPlayer) {
+  mobPlayer.addEventListener('click', () => {
+    const open = document.body.classList.toggle('player-strip-open');
+    mobPlayer.classList.toggle('active', open);
+  });
+}
 
 backdrop.addEventListener('click', () => closeDrawers());
 
@@ -1292,7 +1315,8 @@ function renderCombatTracker(m, view = 'combat') {
     m.querySelectorAll('.ct-add-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         ctAddPanelTab = tab.dataset.tab;
-        m.querySelectorAll('.ct-add-tab').forEach(t => t.classList.remove('active'));
+        const prev = m.querySelector('.ct-add-tab.active');
+        if (prev) prev.classList.remove('active');
         tab.classList.add('active');
         renderAddTab(m);
       });
@@ -2073,6 +2097,9 @@ function psDescribe(state) {
   if (state.type === 'image') {
     return `Image: ${state.caption || state.url.split('/').pop()}`;
   }
+  if (state.type === 'npc') {
+    return `NPC: ${state.caption || 'Unknown'}`;
+  }
   if (state.type === 'text') {
     const preview = state.content.length > 40 ? state.content.slice(0, 40) + '…' : state.content;
     return `Message: "${preview}"`;
@@ -2137,6 +2164,27 @@ function initPlayerStrip() {
     $('ps-msg-input').value = '';
   });
 
+  // Shop button — send shop inventory to player screen
+  $('ps-shop-btn').addEventListener('click', async () => {
+    const shops = (await (await fetch('/api/shops')).json()) || [];
+    if (shops.length === 0) {
+      alert('No shops found. Check your campaign data.');
+      return;
+    }
+    const shop = shops[0]; // Send first shop for now (can be enhanced to select)
+    const items = (shop.inventory || []).map(item => ({
+      name: item.name,
+      price: item.price ? `${item.price} gp` : '',
+      description: item.description || '',
+    }));
+    sendToPlayerScreen({ type: 'shop', items });
+  });
+
+  // QR code button — send join link QR code to player screen
+  $('ps-qr-btn').addEventListener('click', () => {
+    sendToPlayerScreen({ type: 'qrcode' });
+  });
+
   // Idle message edit form
   $('ps-idle-btn').addEventListener('click', () => {
     const wrap = $('ps-idle-wrap');
@@ -2165,6 +2213,16 @@ $('btn-rulebooks').addEventListener('click', () => {
     _rulebooksTab.focus();
   } else {
     _rulebooksTab = window.open('/rulebooks', 'rulebooks');
+  }
+});
+
+// ─── Novels tab ───────────────────────────────────────────────────────────────
+let _novelsTab = null;
+$('btn-novels').addEventListener('click', () => {
+  if (_novelsTab && !_novelsTab.closed) {
+    _novelsTab.focus();
+  } else {
+    _novelsTab = window.open('/novels', 'novels');
   }
 });
 
@@ -2253,25 +2311,28 @@ btnPrint.addEventListener('click', () => {
 // ─── VTT Effects Controls ─────────────────────────────────────────────────────
 
 {
-  // Mirror of server vttState effects/darkness fields
+  // Mirror of server vttState effects/darkness/grid fields
   let _vttActive  = new Set();   // currently active effect names
   let _vttDark    = 0;           // 0–1
+  let _vttGrid    = false;       // grid overlay on/off
   let _darkTimer  = null;
 
-  const fxBtns   = document.querySelectorAll('.vtt-fx-btn');
+  const fxBtns   = document.querySelectorAll('.vtt-fx-btn[data-fx]');
   const darkSlider = document.getElementById('vtt-dark-slider');
   const darkVal    = document.getElementById('vtt-dark-val');
   const clearBtn   = document.getElementById('vtt-clear-fx');
   const openBtn    = document.getElementById('vtt-open');
+  const gridBtn    = document.getElementById('vtt-grid-btn');
 
   function postVttEffects() {
-    // No `type` field — server preserves existing type/url and only updates effects/darkness
+    // No `type` field — server preserves existing type/url and only updates effects/darkness/grid
     fetch('/api/vtt-screen', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         effects: [..._vttActive],
         darkness: _vttDark,
+        grid: _vttGrid,
       }),
     }).catch(() => {});
   }
@@ -2282,6 +2343,7 @@ btnPrint.addEventListener('click', () => {
     });
     darkVal.textContent = Math.round(_vttDark * 100) + '%';
     darkSlider.value    = Math.round(_vttDark * 100);
+    gridBtn.classList.toggle('active', _vttGrid);
   }
 
   // Toggle effect buttons
@@ -2293,6 +2355,13 @@ btnPrint.addEventListener('click', () => {
       refreshBtnUI();
       postVttEffects();
     });
+  });
+
+  // Grid toggle
+  gridBtn.addEventListener('click', () => {
+    _vttGrid = !_vttGrid;
+    refreshBtnUI();
+    postVttEffects();
   });
 
   // Darkness slider — debounced 50ms
@@ -2321,6 +2390,7 @@ btnPrint.addEventListener('click', () => {
     if (!state) return;
     _vttActive = new Set(state.effects || []);
     _vttDark   = state.darkness || 0;
+    _vttGrid   = !!state.grid;
     refreshBtnUI();
   }).catch(() => {});
 }
@@ -2743,7 +2813,7 @@ function renderRefModal(m, items, type) {
       btn.addEventListener('click', e => {
         e.stopPropagation();
         if (btn.dataset.portrait) {
-          sendToPlayerScreen({ type: 'image', url: btn.dataset.portrait, caption: btn.dataset.caption });
+          sendToPlayerScreen({ type: 'npc', url: btn.dataset.portrait, caption: btn.dataset.caption });
         } else {
           sendToPlayerScreen({ type: 'text', content: btn.dataset.caption });
         }
@@ -2799,7 +2869,7 @@ async function showNpcDetail(m, npc, allNpcs, backFn) {
   m.querySelector('.npc-send-portrait').addEventListener('click', () => {
     const btn = m.querySelector('.npc-send-portrait');
     if (btn.dataset.portrait) {
-      sendToPlayerScreen({ type: 'image', url: btn.dataset.portrait, caption: btn.dataset.caption });
+      sendToPlayerScreen({ type: 'npc', url: btn.dataset.portrait, caption: btn.dataset.caption });
     } else {
       sendToPlayerScreen({ type: 'text', content: btn.dataset.caption });
     }
@@ -3192,6 +3262,7 @@ function renderShopsModal(m, shops) {
           <option value="winter">❄️ Deepwinter</option>
         </select>
         <button id="shop-restock-btn" style="padding:4px 10px;background:#2a2035;border:1px solid #5a3a7a;color:#c9a0f0;border-radius:4px;cursor:pointer;font-size:12px;white-space:nowrap">🎲 Restock</button>
+        <button id="shop-send-btn" style="padding:4px 10px;background:#1a3a2a;border:1px solid #3a6a5a;color:#6db5a8;border-radius:4px;cursor:pointer;font-size:12px;white-space:nowrap" title="Send current shop to player screen">📤 Send to Player</button>
         <span id="shop-stock-date" style="font-family:sans-serif;font-size:11px;color:#555;white-space:nowrap"></span>
       </div>
       <div id="shop-items-list"></div>
@@ -3300,6 +3371,36 @@ function renderShopsModal(m, shops) {
     updateCartBar(body);
     updateStockDate();
     renderItems();
+  });
+
+  body.querySelector('#shop-send-btn').addEventListener('click', async () => {
+    const shopId = shopSel.value;
+    if (!shopId) {
+      alert('Please select a shop first');
+      return;
+    }
+    const shop = shops.find(s => s.id === shopId);
+    if (!shop) return;
+
+    const items = shop.items.map(it => ({
+      name: it.name,
+      price: it.gp ? `${it.gp}gp` : (it.sp ? `${it.sp}sp` : 'Free'),
+      description: it.description || ''
+    }));
+
+    try {
+      await fetch('/api/player-screen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'shop',
+          title: `${shop.name} — ${shop.location}`,
+          items
+        })
+      });
+    } catch (e) {
+      console.error('Failed to send shop:', e);
+    }
   });
 
   body.querySelector('#shop-cart-clear').addEventListener('click', () => {
@@ -4656,10 +4757,15 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.className = 'lm-load-more';
       btn.style.cssText = 'grid-column:1/-1;text-align:center;padding:6px;font-size:10px;color:var(--accent);cursor:pointer';
       btn.textContent = `Load more (${galleryShown.length - galleryRenderedCount} remaining)`;
-      btn.addEventListener('click', renderGalleryPage);
+      btn.dataset.action = 'load-more';
       gallery.appendChild(btn);
     }
   }
+
+  // Event delegation for "load more" button (prevents listener accumulation)
+  gallery.addEventListener('click', e => {
+    if (e.target.closest('[data-action="load-more"]')) renderGalleryPage();
+  });
 
   // Load map library on page load
   fetch('/api/map-library').then(r => r.ok ? r.json() : []).then(d => {
@@ -4698,12 +4804,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const p = promptEl.value.trim();
     if (!p) return;
     submitBtn.disabled = true;
-    status.textContent = 'Generating… (30–90s)';
+    status.textContent = 'Generating… (30s–12min depending on style)';
     try {
+      const body = { style: mapStyle, prompt: p };
+
+      // Optional advanced params
+      const negEl = document.getElementById('left-maps-neg');
+      if (negEl && negEl.value.trim()) body.negative_prompt = negEl.value.trim();
+
+      const seedEl = document.getElementById('left-maps-seed');
+      const seedVal = seedEl ? parseInt(seedEl.value, 10) : NaN;
+      if (!isNaN(seedVal) && seedVal >= 0) body.seed = seedVal;
+
+      const stepsEl = document.getElementById('left-maps-steps');
+      const stepsVal = stepsEl ? parseInt(stepsEl.value, 10) : NaN;
+      if (!isNaN(stepsVal) && stepsVal > 0) body.steps = stepsVal;
+
+      const cfgEl = document.getElementById('left-maps-cfg');
+      const cfgVal = cfgEl ? parseFloat(cfgEl.value) : NaN;
+      if (!isNaN(cfgVal) && cfgVal > 0) body.cfg = cfgVal;
+
       const r = await fetch('/api/maps/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ style: mapStyle, prompt: p }),
+        body: JSON.stringify(body),
       });
       if (!r.ok) {
         let msg = 'Generation failed';
@@ -4712,6 +4836,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       status.textContent = 'Done — save the output to your adventure folder, then reload to see it here.';
       promptEl.value = '';
+      if (negEl) negEl.value = '';
+      const seedInput = document.getElementById('left-maps-seed');
+      if (seedInput) seedInput.value = '';
       genForm.hidden = true;
       genBtn.textContent = '+ Generate Map';
     } catch (e) {
@@ -4737,8 +4864,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
   const status = t => { body.innerHTML = '<div id="lore-status">' + esc(t) + '</div>'; };
 
+  // Store listener references for cleanup
+  const listeners = {};
+
   function open() { modal.classList.add('open'); q.focus(); q.select(); }
-  function close() { modal.classList.remove('open'); }
+  function close() {
+    modal.classList.remove('open');
+    // Clean up event listeners to prevent memory leak
+    if (listeners.openClick) openBtn.removeEventListener('click', listeners.openClick);
+    if (listeners.closeClick) closeBtn.removeEventListener('click', listeners.closeClick);
+    if (listeners.goClick) go.removeEventListener('click', listeners.goClick);
+    if (listeners.qKeydown) q.removeEventListener('keydown', listeners.qKeydown);
+    if (listeners.modalClick) modal.removeEventListener('click', listeners.modalClick);
+    if (listeners.docKeydown) document.removeEventListener('keydown', listeners.docKeydown);
+  }
 
   async function run() {
     const query = q.value.trim();
@@ -4768,10 +4907,18 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (e) { status(String(e)); }
   }
 
-  openBtn.addEventListener('click', open);
-  closeBtn.addEventListener('click', close);
-  go.addEventListener('click', run);
-  q.addEventListener('keydown', e => { if (e.key === 'Enter') run(); });
-  modal.addEventListener('click', e => { if (e.target === modal) close(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.classList.contains('open')) close(); });
+  // Store listener functions so they can be removed later
+  listeners.openClick = open;
+  listeners.closeClick = close;
+  listeners.goClick = run;
+  listeners.qKeydown = e => { if (e.key === 'Enter') run(); };
+  listeners.modalClick = e => { if (e.target === modal) close(); };
+  listeners.docKeydown = e => { if (e.key === 'Escape' && modal.classList.contains('open')) close(); };
+
+  openBtn.addEventListener('click', listeners.openClick);
+  closeBtn.addEventListener('click', listeners.closeClick);
+  go.addEventListener('click', listeners.goClick);
+  q.addEventListener('keydown', listeners.qKeydown);
+  modal.addEventListener('click', listeners.modalClick);
+  document.addEventListener('keydown', listeners.docKeydown);
 })();

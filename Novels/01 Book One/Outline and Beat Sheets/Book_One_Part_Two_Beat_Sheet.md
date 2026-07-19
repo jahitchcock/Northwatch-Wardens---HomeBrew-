@@ -4,6 +4,8 @@
 
 **Scope:** Part Two — *The Road* (Chapters 10–22). The heart of the book: the found family forms, the romance must make the reader genuinely happy, and the trap closes.
 
+**Preceded by:** `Book_One_Chapter_09a_The_Road_Between.md` — a 1–2 page elder-Elowen reflection bridging Part One and Part Two. Compresses weeks of travel; introduces tale-debt; softens the silence between Elowen and Corwin into company.
+
 **New proper nouns introduced in Part Two (canon sign-off):**
 - **Thistlebrook** — frontier settlement at the edge of cultivated country; Wren's home.
 - **Karrendeep** — a small dwarven daughter-hold (distant child of Tharundor).

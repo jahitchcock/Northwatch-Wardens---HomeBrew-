@@ -293,7 +293,7 @@ NORTHWATCH WARDENS
 CONTRACT NO. P-08
 
 CLIENT: Palebank Village Council
-CONTACT: Pelc Dalton, Merchant & Council Rep
+CONTACT: Elro Aldataur, Village Head
 LOCATION: Palebank Village (5 days northeast)
 
 SITUATION:
