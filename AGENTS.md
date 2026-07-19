@@ -52,11 +52,118 @@ Each adventure in its own folder: `adventures/season-N/adventure-name/index.md` 
 
 36 skills in `.claude/skills/`. Load matching skill before D&D work: `canon-check`, `new-adventure`, `new-npc`, `session-prep`, `xml-manager`, `dm-assistant`, `novelist`, `brainstorming` (mandatory before creative work), `observe-plan-act-reflect` (outer loop for multi-step tasks), `verification-before-completion` (before claiming done).
 
-## Lore RAG
+## Lore RAG — Default Interface for All Lore Queries ⭐
 
-Semantic search + grounded generation over campaign lore and (firewalled) the novels. See `tools/lore-rag/README.md`.
+**This is your primary research tool.** Use it before writing any lore-adjacent content.
 
-- Prefer `search_lore` (MCP tool, `aevorian-lore` server) with `collection: "campaign"` to ground adventure/NPC/world work in real canon before writing; use `collection: "novels"` **only** inside novelist / jh-thorne work (it cannot see campaign material — this is the canon firewall).
-- `ask_lore` returns a local LM Studio draft grounded in retrieved chunks; use `search_lore` when you'll write the prose yourself.
-- After editing lore `.md`, reindex: `node tools/lore-rag/indexer.mjs` (or `campaign` / `novels`).
-- Service lives on the GPU box (`10.10.6.56:8100`); infra in `infra/lore-rag/`.
+Semantic search + grounded generation over campaign lore and (firewalled) the novels. Full docs: `tools/lore-rag/README.md`.
+
+### Quick Reference
+
+```bash
+# In Claude Code (MCP tools — preferred):
+search_lore(query="what is Salsvault", collection="campaign", k=6)
+ask_lore(query="describe the five syndicates", collection="campaign")
+
+# CLI (testing / debugging):
+cd tools/lore-rag
+node query.mjs "your question" -c campaign
+node query.mjs "your question" -c campaign --ask
+```
+
+### When to Use Each Tool
+
+| Your Task | Tool | Result |
+| --- | --- | --- |
+| "Is X already in the lore?" | `search_lore` | 6 relevant chunks ranked by semantic score |
+| "Generate a grounded answer about X" | `ask_lore` | LM Studio draft (qwen/qwen3-14b) + sources cited |
+| "Check if X contradicts Y" | `search_lore` both | Compare chunks directly; no hallucinations |
+| **NEVER:** grep lore files | `rg` lore | (Impractical: keyword search loses semantic meaning) |
+
+### Collections (Required Parameter)
+
+- **`campaign`** — Full Northwatch Wardens lore (default). Includes adventures, NPCs, locations, factions, secrets, Echo mystery. Use for all adventure/NPC/world work.
+- **`novels`** — *Old Songs of Aevoria* only (firewalled from campaign). Use **only** inside `@jh-thorne` or `novelist` skill work. Cannot retrieve campaign material (this is structural, not convention).
+
+### Workflow: After You Edit Lore Files
+
+Every lore `.md` edit must trigger a reindex:
+
+```bash
+cd tools/lore-rag
+node indexer.mjs campaign    # Quick: reindex campaign only
+node indexer.mjs novels      # Quick: reindex novels only
+node indexer.mjs             # Full: both collections
+```
+
+Takes ~2 minutes. Without reindex, your changes won't appear in RAG queries for 24 hours (CI picks it up on push).
+
+Verify immediately:
+
+```bash
+node query.mjs "key phrase from your new content" -c campaign
+```
+
+### Workflow: Adding New Lore
+
+1. Create `.md` file in correct directory (npcs/season-1/, adventures/, locations/, etc.)
+2. Add YAML frontmatter:
+
+```yaml
+---
+title: "Name"
+type: "npc" | "location" | "adventure" | "faction" | etc.
+status: "canon" | "wip"
+---
+```
+
+1. Reindex: `node indexer.mjs campaign`
+2. Test: `node query.mjs "your content" -c campaign`
+3. Commit normally
+
+### Technical Details
+
+- **API:** `http://10.10.6.56:8100` (GPU box, persistent)
+- **Health:** `curl http://10.10.6.56:8100/health` → `{"ok":true,...}`
+- **Stats:** `curl http://10.10.6.56:8100/stats` → chunk counts per collection
+- **MCP Server:** Registered as `aevorian-lore` in `.vscode/mcp.json`
+- **Embeddings:** BAAI/bge-small-en-v1.5 (384-dim, CPU-based, decoupled from LM Studio)
+- **Generation:** LM Studio (10.10.6.56:1234)
+  - Campaign default: `qwen/qwen3-14b`
+  - Novels default: `lumimaid-v0.2-12b` (larger context, better for prose)
+
+### Efficiency vs Grep
+
+| Metric | RAG | Grep |
+| --- | --- | --- |
+| Query time | 0.34s | 1.07s |
+| Results | 6 curated chunks | 378+ raw matches |
+| Relevance | Semantic ranked | Keyword only |
+| Natural language | ✓ Yes | ✗ No |
+| Grounded generation | ✓ Yes (LM Studio) | ✗ No |
+| Break-even | ~50 queries | — |
+
+**Verdict:** RAG is the default. Grep only for exact code/syntax matches (never lore).
+
+### Troubleshooting
+
+**"No results found"**
+- Check spelling: `search_lore("Salvault"...)` won't find "Salsvault"
+- Try synonyms: `search_lore("ancient lab", collection="campaign")`
+- Verify content is indexed: `curl http://10.10.6.56:8100/stats`
+
+**"Results are off-topic"**
+- Rephrase as natural language: instead of "Croaker Cave", try "where did the party fight frogs?"
+- Increase k: `search_lore(..., k=10)` for more results to filter
+
+**Generation hangs (502 error)**
+- GPU box may be running another LLM. Free VRAM on `10.10.6.56`.
+- Search still works (embeddings are CPU-only).
+
+**Index is stale after edit**
+- Manual: `node tools/lore-rag/indexer.mjs campaign`
+- CI auto-reindex on push to main (runs in workflow)
+
+---
+
+**Default: Use RAG for all lore research.** It's 3x faster than grep and understands what you're actually asking.

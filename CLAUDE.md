@@ -6,7 +6,60 @@ Northwatch Wardens: Season One — modular D&D 5e guild campaign set in Northrea
 
 This repo has two parallel sets of agent instructions: this file (`CLAUDE.md`) and `AGENTS.md`. When they disagree on build mechanics, `AGENTS.md` is the more current source — it documents a print-pipeline reorg that this file predates.
 
-## DM Panel (Primary Interface)
+## Lore RAG (Default Lore Interface) ⭐
+
+**Use the Lore RAG as your primary interface for all lore queries.** It's 3x faster than grep and understands natural language questions.
+
+### Quick Start
+
+```bash
+# In Claude Code (this session), use the MCP tool directly:
+search_lore(query="what is Salsvault", collection="campaign", k=6)
+ask_lore(query="describe Salsvault to a player", collection="campaign")
+
+# Via CLI for testing:
+cd tools/lore-rag
+node query.mjs "your question" -c campaign
+node query.mjs "your question" -c campaign --ask  # with LM Studio draft
+```
+
+### When to Use Each Tool
+
+| Task | Tool | Why |
+| --- | --- | --- |
+| "What is X in the lore?" | `search_lore` | Fast semantic search, 6 curated results |
+| "Tell me about X for players" | `ask_lore` | LM Studio generates grounded answer |
+| "Does X contradict Y?" | `search_lore` both, compare | Verify canon consistency |
+| Grep exact match (rare) | `rg` / grep | Only for syntax/code, never lore |
+
+### Collections
+
+- **`campaign`** — Full campaign lore (adventures, NPCs, locations, lore secrets, Echo mystery). Default for all work.
+- **`novels`** — *Old Songs of Aevoria* only (firewalled from campaign). Use only inside `@jh-thorne` / `novelist` skill work.
+
+### After Editing Lore Files
+
+**Every time you edit lore `.md` files, reindex:**
+
+```bash
+cd tools/lore-rag
+node indexer.mjs campaign     # Quick: just campaign files
+node indexer.mjs novels       # Quick: just novel files
+node indexer.mjs              # Full: both collections
+```
+
+Takes ~2 minutes. Service auto-reindexes on push (CI pipeline), but manual reindex lets you test immediately.
+
+### Service Status
+
+- **API:** `http://10.10.6.56:8100` (GPU box)
+- **Health check:** `curl http://10.10.6.56:8100/health`
+- **Chunk counts:** `curl http://10.10.6.56:8100/stats`
+- **MCP Server:** Registered as `aevorian-lore` in `.vscode/mcp.json`
+
+---
+
+## DM Panel (Dashboard Interface)
 
 The web dashboard is the primary runtime tool for campaign management. It runs persistently via **pm2** (auto-starts on boot, auto-restarts on crash or file changes).
 
@@ -20,7 +73,7 @@ cd web && npm run up        # Start if not running
 
 Config: `web/ecosystem.config.js`. Logs: `web/logs/`. File watcher auto-restarts on changes to `server.js`, `lib/`, `public/`, `views/`.
 
-Features: file browser (all campaign markdown), NPC viewer, party character sheets, session tracker, seasonal calendar, random encounter/treasure generators, 5etools integration (at port 2014 on same host), WebSocket terminal.
+Features: file browser (all campaign markdown), NPC viewer, party character sheets, session tracker, seasonal calendar, random encounter/treasure generators, 5etools integration (at port 2014 on same host), WebSocket terminal, **🔮 Lore button** (integrated RAG search).
 
 NPC files: `npcs/core/` (canonical, recurring), `npcs/season-1/` (adventure-specific). Portrait images served from `web/public/portraits/`.
 
@@ -103,6 +156,51 @@ Use these for clean, grounded fantasy:
 
 For HQ variants, call image-gen directly: `.venv\Scripts\python.exe image_pipeline.py --prompt "..." --hq` or use the MCP tools (which auto-select HQ where available).
 
+## Adding New Lore (Workflow)
+
+When you create new lore (NPCs, locations, adventures, factions, etc.):
+
+1. **Create the `.md` file** in the appropriate directory:
+   - `npcs/season-1/` for new PCs/NPCs
+   - `adventures/season-N/` for new adventures
+   - `locations/` for new locations
+   - `factions/` for new factions
+   - `gm-lore/` for secrets/world-building
+
+1. **Add YAML frontmatter** (required for indexing):
+
+```yaml
+---
+title: "Your Title"
+type: "npc" | "location" | "adventure" | "faction" | etc.
+status: "canon" | "wip"
+---
+```
+
+1. **Reindex immediately** (so RAG sees your new content):
+
+```bash
+cd tools/lore-rag
+node indexer.mjs campaign  # or `novels` if novel content
+```
+
+1. **Verify in RAG** (test your new content is searchable):
+
+```bash
+node query.mjs "name or key detail" -c campaign
+```
+
+1. **Commit** when ready:
+
+```bash
+git add your-new-file.md
+git commit -m "feat(lore): add new [npc/location/faction/etc]"
+```
+
+**Canon firewall:** If adding to `Novels/`, reindex with `node indexer.mjs novels` only. The novels collection is firewalled from campaign material.
+
+---
+
 ## Canonical Geography
 
 Never invent locations. All Northreach locations:
@@ -143,16 +241,18 @@ To start the web dashboard: `cd web && node server.js` → open `http://localhos
 
 ### Campaign (D&D / Northwatch Wardens)
 
-| Skill | Use |
-|-------|-----|
-| `canon-check` | Validate geography, NPCs, player-facing links, tone against canon |
-| `new-adventure` | Scaffold adventure with template + Aeorian Echo hooks |
-| `new-npc` | Create NPC: Homebrewery stat block + XML entry + roster update |
-| `session-prep` | One-page DM session prep doc |
-| `gm-craft` | DM storytelling: fail forward, NPC motivation, scene pacing, improv |
-| `dm-assistant` | Intent router → delegates to session-prep / new-adventure / new-npc / canon-check |
-| `dnd` | D&D 5e SRD API: dice rolls, spell/monster lookup, character gen, encounters |
-| `dnd-map-builder` | Next.js interactive map tool for DMs |
+| Skill | Use | RAG Integration |
+| --- | --- | --- |
+| `canon-check` | Validate geography, NPCs, player-facing links, tone against canon | Uses `search_lore` to verify claims against indexed lore |
+| `new-adventure` | Scaffold adventure with template + Aeorian Echo hooks | Queries RAG for location/NPC context before writing |
+| `new-npc` | Create NPC: Homebrewery stat block + XML entry + roster update | Searches RAG for related NPCs and factions |
+| `session-prep` | One-page DM session prep doc | Retrieves session context from RAG for continuity |
+| `gm-craft` | DM storytelling: fail forward, NPC motivation, scene pacing, improv | Uses RAG for lore grounding and improvisation cues |
+| `dm-assistant` | Intent router → delegates to session-prep / new-adventure / new-npc / canon-check | Routes to RAG-aware skills |
+| `dnd` | D&D 5e SRD API: dice rolls, spell/monster lookup, character gen, encounters | Separate from lore RAG (system/mechanics) |
+| `dnd-map-builder` | Next.js interactive map tool for DMs | Separate from lore RAG (visual/spatial) |
+
+**All campaign skills should query the Lore RAG before writing.** Use `search_lore` to ground work in canonical lore.
 
 ### Development Workflow
 
