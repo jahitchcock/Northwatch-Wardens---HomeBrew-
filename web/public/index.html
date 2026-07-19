@@ -668,6 +668,20 @@
       <input id="search-input" type="search" placeholder="Search files…" autocomplete="off" spellcheck="false">
     </div>
 
+    <div id="lore-search-wrap">
+      <input id="lore-query" type="text" placeholder="🔮 Ask about lore…" autocomplete="off" spellcheck="false">
+      <select id="lore-collection" title="Campaign or Novels lore">
+        <option value="campaign">Campaign</option>
+        <option value="novels">Novels</option>
+      </select>
+      <label id="lore-ask-label" title="Generate grounded answer (slower)">
+        <input id="lore-ask-toggle" type="checkbox">
+        Write
+      </label>
+      <button id="lore-go-btn" title="Search lore (Enter key also works)">🔍</button>
+      <div id="lore-quick-results" style="display:none;"></div>
+    </div>
+
     <div id="season-wrap">
       <label for="season-sel">Season</label>
       <select id="season-sel">
@@ -875,6 +889,69 @@
         <button class="modal-close" aria-label="Close">✕</button>
       </div>
       <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- VTT Map Sender Modal -->
+  <div id="vtt-modal" class="modal-overlay" hidden>
+    <div class="modal-box modal-box--tall">
+      <div class="modal-header">
+        <span class="modal-title">Send Map to VTT</span>
+        <button class="modal-close" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body" style="background: #f5f0e8; color: #2c1810;">
+        <div style="display: flex; flex-direction: column; gap: 1rem; padding: 1.5rem;">
+          <!-- Map Selector -->
+          <div>
+            <label for="vtt-map-select" style="display: block; font-weight: bold; margin-bottom: 0.5rem; color: #58180d;">Map:</label>
+            <select id="vtt-map-select" style="width: 100%; padding: 0.5rem; background: white; color: #2c1810; border: 1px solid #c9ad6a; border-radius: 4px; font-family: inherit;">
+              <option value="">— Select a map —</option>
+            </select>
+          </div>
+
+          <!-- Effects Toggles -->
+          <fieldset style="border: 1px solid #c9ad6a; padding: 1rem; border-radius: 4px; background: #ede8da;">
+            <legend style="font-weight: bold; padding: 0 0.5rem; color: #58180d;">Effects:</legend>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+              <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: #2c1810;">
+                <input type="checkbox" id="vtt-fx-rain" value="rain"> Rain
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: #2c1810;">
+                <input type="checkbox" id="vtt-fx-snow" value="snow"> Snow
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: #2c1810;">
+                <input type="checkbox" id="vtt-fx-fog" value="fog"> Fog
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: #2c1810;">
+                <input type="checkbox" id="vtt-fx-fire" value="fire"> Fire
+              </label>
+            </div>
+          </fieldset>
+
+          <!-- Darkness Slider -->
+          <div>
+            <label for="vtt-darkness" style="display: block; font-weight: bold; margin-bottom: 0.5rem; color: #58180d;">
+              Darkness: <span id="vtt-darkness-val">0%</span>
+            </label>
+            <input type="range" id="vtt-darkness" min="0" max="100" value="0" style="width: 100%; accent-color: #c9ad6a;">
+          </div>
+
+          <!-- Grid Toggle -->
+          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: #2c1810;">
+            <input type="checkbox" id="vtt-grid-toggle"> Show Grid (1 inch = 5 ft)
+          </label>
+
+          <!-- Action Buttons -->
+          <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+            <button id="vtt-send-btn" style="flex: 1; padding: 0.75rem; background: #c9ad6a; color: #2c1810; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-family: inherit;">
+              Send to VTT
+            </button>
+            <button id="vtt-clear-btn" style="flex: 1; padding: 0.75rem; background: #ede8da; color: #2c1810; border: 1px solid #c9ad6a; border-radius: 4px; cursor: pointer; font-family: inherit;">
+              Clear Screen
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

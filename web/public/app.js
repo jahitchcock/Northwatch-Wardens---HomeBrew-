@@ -667,6 +667,137 @@ window.dmOpenModalRaw = (title, bodyHtml) => {
   requestAnimationFrame(() => m.classList.add('visible'));
 };
 
+// ─── VTT Modal Handler ────────────────────────────────────────────────────────
+
+let vttMaps = [];
+
+async function initVttModal() {
+  const vttModal = $('vtt-modal');
+  const mapSelect = $('vtt-map-select');
+  const darkSlider = $('vtt-darkness');
+  const darkVal = $('vtt-darkness-val');
+  const sendBtn = $('vtt-send-btn');
+  const clearBtn = $('vtt-clear-btn');
+  const gridToggle = $('vtt-grid-toggle');
+
+  if (!vttModal) return; // Modal not in DOM
+
+  // Load maps from API
+  async function loadMaps() {
+    try {
+      const resp = await fetch('/api/map-library');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      vttMaps = await resp.json();
+
+      // Populate selector
+      mapSelect.innerHTML = '<option value="">— Select a map —</option>';
+      vttMaps.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m.url;
+        opt.textContent = m.name;
+        mapSelect.appendChild(opt);
+      });
+    } catch (err) {
+      console.error('[vtt-modal] Failed to load maps:', err);
+    }
+  }
+
+  // Open VTT modal (optionally with pre-selected map)
+  window.openVttModal = (mapUrl = '') => {
+    if (!vttModal) return;
+    vttModal.hidden = false;
+    requestAnimationFrame(() => vttModal.classList.add('visible'));
+
+    if (mapUrl) {
+      mapSelect.value = mapUrl;
+    }
+
+    if (vttMaps.length === 0) loadMaps();
+  };
+
+  // Send to VTT
+  sendBtn.addEventListener('click', async () => {
+    const mapUrl = mapSelect.value;
+    if (!mapUrl) {
+      alert('Please select a map');
+      return;
+    }
+
+    const effects = [];
+    if ($('vtt-fx-rain').checked) effects.push('rain');
+    if ($('vtt-fx-snow').checked) effects.push('snow');
+    if ($('vtt-fx-fog').checked) effects.push('fog');
+    if ($('vtt-fx-fire').checked) effects.push('fire');
+
+    const darkness = parseFloat(darkSlider.value) / 100;
+    const grid = gridToggle.checked;
+
+    try {
+      const resp = await fetch('/api/vtt-screen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'map',
+          url: mapUrl,
+          effects,
+          darkness,
+          grid,
+        }),
+      });
+
+      if (!resp.ok) {
+        const err = await resp.json();
+        alert('Error: ' + (err.error || 'Failed to send map'));
+        return;
+      }
+
+      // Close modal on success
+      vttModal.classList.remove('visible');
+      setTimeout(() => { vttModal.hidden = true; }, 180);
+    } catch (err) {
+      console.error('[vtt] Send failed:', err);
+      alert('Failed to send map to VTT');
+    }
+  });
+
+  // Clear screen
+  clearBtn.addEventListener('click', async () => {
+    try {
+      await fetch('/api/vtt-screen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type: 'idle' }),
+      });
+
+      vttModal.classList.remove('visible');
+      setTimeout(() => { vttModal.hidden = true; }, 180);
+    } catch (err) {
+      console.error('[vtt] Clear failed:', err);
+    }
+  });
+
+  // Update darkness value display
+  darkSlider.addEventListener('input', () => {
+    darkVal.textContent = darkSlider.value + '%';
+  });
+
+  // Close button
+  vttModal.querySelector('.modal-close').addEventListener('click', () => {
+    vttModal.classList.remove('visible');
+    setTimeout(() => { vttModal.hidden = true; }, 180);
+  });
+
+  // Load maps on init
+  await loadMaps();
+}
+
+// Initialize VTT modal when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initVttModal);
+} else {
+  initVttModal();
+}
+
 // Document-level click handler for modal links and close targets
 document.addEventListener('click', e => {
   // data-modal links (NPC, location, faction cross-refs)
@@ -4921,4 +5052,91 @@ document.addEventListener('DOMContentLoaded', () => {
   q.addEventListener('keydown', listeners.qKeydown);
   modal.addEventListener('click', listeners.modalClick);
   document.addEventListener('keydown', listeners.docKeydown);
+})();
+
+// Quick lore search bar in the header (Option 1 UI)
+(function initLoreQuickSearch() {
+  const q = document.getElementById('lore-query');
+  const coll = document.getElementById('lore-collection');
+  const askToggle = document.getElementById('lore-ask-toggle');
+  const goBtn = document.getElementById('lore-go-btn');
+  const resultsDiv = document.getElementById('lore-quick-results');
+
+  if (!q || !resultsDiv) return;
+
+  const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+  function showResults(data, ask) {
+    if (!data || (!data.results && !data.answer)) {
+      resultsDiv.innerHTML = '<div class="lore-result-item"><div class="lore-result-text">No results found.</div></div>';
+      resultsDiv.style.display = 'block';
+      return;
+    }
+
+    if (ask) {
+      // Show generated answer
+      const srcs = (data.sources || []).map(s => s.source_path).join(', ');
+      resultsDiv.innerHTML =
+        '<div class="lore-result-item">' +
+        '<div class="lore-result-source">Generated Answer</div>' +
+        '<div class="lore-result-text">' + esc(data.answer || '') + '</div>' +
+        '<div style="font-size:10px;color:var(--subtext);margin-top:4px;">Model: ' + esc(data.model || '?') + ' | Sources: ' + esc(srcs) + '</div>' +
+        '</div>';
+    } else {
+      // Show search results
+      const hits = (data.results || []).slice(0, 5).map(x =>
+        '<div class="lore-result-item">' +
+        '<div class="lore-result-source">' + esc(x.source_path) + (x.heading ? ' — ' + esc(x.heading) : '') + '</div>' +
+        '<div class="lore-result-text">' + esc(x.text) + '</div>' +
+        '<div style="font-size:9px;color:var(--accent);">Score: ' + x.score.toFixed(3) + '</div>' +
+        '</div>'
+      ).join('');
+      resultsDiv.innerHTML = hits || '<div class="lore-result-item"><div class="lore-result-text">No results.</div></div>';
+    }
+    resultsDiv.style.display = 'block';
+  }
+
+  async function search() {
+    const query = q.value.trim();
+    if (!query) return;
+
+    const ask = askToggle.checked;
+    goBtn.disabled = true;
+    goBtn.textContent = ask ? '⏳' : '🔍';
+
+    try {
+      const r = await fetch(ask ? '/api/lore-ask' : '/api/lore-search', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ query, collection: coll.value, k: 6 }),
+      });
+      const data = await r.json();
+      if (!r.ok) {
+        resultsDiv.innerHTML = '<div class="lore-result-item"><div class="lore-result-text">Error: ' + esc(data.error || r.status) + '</div></div>';
+        resultsDiv.style.display = 'block';
+      } else {
+        showResults(data, ask);
+      }
+    } catch (e) {
+      resultsDiv.innerHTML = '<div class="lore-result-item"><div class="lore-result-text">Error: ' + esc(String(e)) + '</div></div>';
+      resultsDiv.style.display = 'block';
+    } finally {
+      goBtn.disabled = false;
+      goBtn.textContent = '🔍';
+    }
+  }
+
+  // Event listeners
+  goBtn.addEventListener('click', search);
+  q.addEventListener('keydown', e => {
+    if (e.key === 'Enter') search();
+    if (e.key === 'Escape') { resultsDiv.style.display = 'none'; q.blur(); }
+  });
+
+  // Close results when clicking outside
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#lore-search-wrap')) {
+      resultsDiv.style.display = 'none';
+    }
+  });
 })();
