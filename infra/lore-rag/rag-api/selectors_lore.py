@@ -40,3 +40,24 @@ def validate_delete(collection, source_paths, prefix, valid) -> str | None:
     if not source_paths and prefix is None:
         return "supply source_paths and/or prefix"
     return None
+
+
+def build_delete(collection, source_paths, prefix) -> tuple[str, list]:
+    """(sql, params) for a delete. Selectors are OR'd — their union is removed.
+
+    Callers must run validate_delete first; this assumes at least one selector
+    is present and would otherwise build a clauseless statement.
+    """
+    clauses, params = [], [collection]
+    if source_paths:
+        clauses.append("source_path = ANY(%s)")
+        params.append(list(source_paths))
+    if prefix:
+        clauses.append("source_path LIKE %s ESCAPE '\\'")
+        params.append(like_escape(prefix) + "%")
+    sql = (
+        "DELETE FROM chunks WHERE collection=%s AND ("
+        + " OR ".join(clauses)
+        + ")"
+    )
+    return sql, params

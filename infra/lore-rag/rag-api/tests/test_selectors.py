@@ -63,3 +63,38 @@ def test_validate_rejects_empty_prefix_even_alongside_paths():
     # The paths would succeed, but the empty prefix would widen the delete to
     # the whole collection, so the whole request is refused.
     assert validate_delete("homehub", ["insight/a"], "", VALID) is not None
+
+
+from selectors_lore import build_delete
+
+
+def test_build_delete_by_paths():
+    sql, params = build_delete("homehub", ["insight/a", "insight/b"], None)
+    assert "source_path = ANY(%s)" in sql
+    assert "LIKE" not in sql
+    assert params == ["homehub", ["insight/a", "insight/b"]]
+
+
+def test_build_delete_by_prefix():
+    sql, params = build_delete("homehub", [], "insight/")
+    assert "LIKE %s ESCAPE" in sql
+    assert "ANY" not in sql
+    assert params == ["homehub", "insight/%"]
+
+
+def test_build_delete_by_both_is_a_union():
+    sql, params = build_delete("homehub", ["note/a"], "insight/")
+    assert " OR " in sql
+    assert params == ["homehub", ["note/a"], "insight/%"]
+
+
+def test_build_delete_always_scopes_to_collection():
+    # Every collection is in one table. A delete that forgot this clause would
+    # cross from homehub into the campaign's lore.
+    sql, _ = build_delete("homehub", ["insight/a"], None)
+    assert "collection=%s" in sql
+
+
+def test_build_delete_escapes_wildcards_in_prefix():
+    _, params = build_delete("homehub", [], "note_1/")
+    assert params[1] == "note\\_1/%"
