@@ -24,3 +24,19 @@ def like_escape(value: str) -> str:
     for ch in _LIKE_SPECIALS:
         out = out.replace(ch, "\\" + ch)
     return out
+
+
+def validate_delete(collection, source_paths, prefix, valid) -> str | None:
+    """Return an error message, or None when the request is safe to run.
+
+    Rejects the two shapes that would silently widen the delete beyond what the
+    caller named. This service has no auth and holds three collections of real
+    user data, so the guard is structural rather than conventional.
+    """
+    if collection not in valid:
+        return f"collection must be one of {sorted(valid)}"
+    if prefix is not None and prefix == "":
+        return "prefix must not be empty — it would match the entire collection"
+    if not source_paths and prefix is None:
+        return "supply source_paths and/or prefix"
+    return None
