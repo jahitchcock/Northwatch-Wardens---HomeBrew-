@@ -61,3 +61,36 @@ def build_delete(collection, source_paths, prefix) -> tuple[str, list]:
         + ")"
     )
     return sql, params
+
+
+def _prefix_clause(prefix, params) -> str:
+    """Shared by the listing and its count so the two can never diverge."""
+    if not prefix:
+        return ""
+    params.append(like_escape(prefix) + "%")
+    return " AND source_path LIKE %s ESCAPE '\\'"
+
+
+def build_paths(collection, prefix, limit) -> tuple[str, list]:
+    """(sql, params) listing distinct paths, ordered so output is diffable."""
+    params = [collection]
+    sql = (
+        "SELECT DISTINCT source_path FROM chunks WHERE collection=%s"
+        + _prefix_clause(prefix, params)
+        + " ORDER BY source_path LIMIT %s"
+    )
+    params.append(limit)
+    return sql, params
+
+
+def build_paths_count(collection, prefix) -> tuple[str, list]:
+    """(sql, params) for the true total, deliberately unlimited.
+
+    Reported alongside a limited listing so a caller can detect truncation.
+    """
+    params = [collection]
+    sql = (
+        "SELECT COUNT(DISTINCT source_path) FROM chunks WHERE collection=%s"
+        + _prefix_clause(prefix, params)
+    )
+    return sql, params

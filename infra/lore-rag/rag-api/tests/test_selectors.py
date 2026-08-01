@@ -98,3 +98,37 @@ def test_build_delete_always_scopes_to_collection():
 def test_build_delete_escapes_wildcards_in_prefix():
     _, params = build_delete("homehub", [], "note_1/")
     assert params[1] == "note\\_1/%"
+
+
+from selectors_lore import build_paths, build_paths_count
+
+
+def test_build_paths_is_distinct_and_ordered():
+    sql, params = build_paths("homehub", None, 1000)
+    assert "SELECT DISTINCT source_path" in sql
+    assert "ORDER BY source_path" in sql
+    assert params == ["homehub", 1000]
+
+
+def test_build_paths_filters_by_prefix():
+    sql, params = build_paths("homehub", "insight/", 1000)
+    assert "LIKE %s ESCAPE" in sql
+    assert params == ["homehub", "insight/%", 1000]
+
+
+def test_build_paths_escapes_wildcards_in_prefix():
+    _, params = build_paths("homehub", "note_1/", 50)
+    assert params[1] == "note\\_1/%"
+
+
+def test_build_paths_count_counts_distinct_paths():
+    sql, params = build_paths_count("homehub", None)
+    assert "COUNT(DISTINCT source_path)" in sql
+    assert params == ["homehub"]
+
+
+def test_build_paths_count_respects_prefix_and_has_no_limit():
+    # The count must be the true total, so it is never limited.
+    sql, params = build_paths_count("homehub", "insight/")
+    assert "LIMIT" not in sql
+    assert params == ["homehub", "insight/%"]
