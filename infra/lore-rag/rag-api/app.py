@@ -5,12 +5,13 @@ from pydantic import BaseModel, Field
 import psycopg
 from pgvector.psycopg import register_vector
 from fastembed import TextEmbedding
+from selectors_lore import build_delete, build_paths, build_paths_count, validate_delete
 
 DB_DSN = os.environ["DB_DSN"]
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 LM_API = os.environ.get("LM_API", "http://10.10.6.56:1234/v1")
-DEFAULT_MODEL = {"campaign": "qwen/qwen3-14b", "novels": "lumimaid-v0.2-12b"}
-VALID = {"campaign", "novels"}
+DEFAULT_MODEL = {"campaign": "qwen/qwen3-14b", "novels": "lumimaid-v0.2-12b", "homehub": "qwen/qwen3-14b"}
+VALID = {"campaign", "novels", "homehub"}
 
 app = FastAPI(title="Aevorian Lore RAG")
 _embedder = TextEmbedding(model_name=EMBED_MODEL)
@@ -40,6 +41,11 @@ class SearchReq(BaseModel):
     collection: str
     query: str
     k: int = 6
+
+class DeleteReq(BaseModel):
+    collection: str
+    source_paths: list[str] = Field(default_factory=list)
+    prefix: Optional[str] = None
 
 @app.get("/health")
 def health():
@@ -74,6 +80,46 @@ def index(req: IndexReq):
                  psycopg.types.json.Jsonb(it.metadata), h, v))
         c.commit()
     return {"indexed": len(req.items)}
+
+_PATHS_LIMIT_DEFAULT = 1000
+
+
+@app.post("/delete")
+def delete(req: DeleteReq):
+    """Remove chunks by explicit path and/or prefix.
+
+    Deliberately not DELETE-with-body: request bodies on DELETE are poorly
+    supported by intermediaries, and every other endpoint here is already POST.
+    """
+    err = validate_delete(req.collection, req.source_paths, req.prefix, VALID)
+    if err:
+        raise HTTPException(400, err)
+    sql, params = build_delete(req.collection, req.source_paths, req.prefix)
+    with db() as c:
+        deleted = c.execute(sql, params).rowcount
+        c.commit()
+    return {"deleted": deleted}
+
+
+@app.get("/paths")
+def paths(collection: str, prefix: Optional[str] = None, limit: int = _PATHS_LIMIT_DEFAULT):
+    """List distinct source_paths so a consumer can reconcile its own records.
+
+    Delete alone cannot keep a caller consistent: if a delete fails, the caller
+    has already dropped its record and will never name that path again, so the
+    orphan becomes permanent and invisible. Listing closes that loop.
+
+    An empty prefix is harmless here (listing is not destructive), so unlike
+    /delete it is simply treated as "no filter".
+    """
+    if collection not in VALID:
+        raise HTTPException(400, f"collection must be one of {sorted(VALID)}")
+    sql, params = build_paths(collection, prefix, limit)
+    count_sql, count_params = build_paths_count(collection, prefix)
+    with db() as c:
+        rows = c.execute(sql, params).fetchall()
+        total = c.execute(count_sql, count_params).fetchone()[0]
+    return {"collection": collection, "paths": [r[0] for r in rows], "count": total}
 
 def _search_rows(collection, query, k):
     qv = embed([query], query=True)[0]
