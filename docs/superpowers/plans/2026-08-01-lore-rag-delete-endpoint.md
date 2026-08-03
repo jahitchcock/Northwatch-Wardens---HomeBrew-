@@ -631,10 +631,12 @@ COPY app.py .
 Replace it with:
 
 ```dockerfile
-COPY app.py selectors_lore.py .
+COPY app.py selectors_lore.py ./
 ```
 
-Without this the image builds fine and then crashes on startup with
+The trailing slash is required: the classic builder rejects a multi-source COPY whose
+destination is not a directory, and BuildKit is disabled for this host. Without copying the file
+at all, the image builds fine and then crashes on startup with
 `ModuleNotFoundError: No module named 'selectors_lore'`, *after* the running container has been
 replaced.
 
