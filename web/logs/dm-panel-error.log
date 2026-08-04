@@ -9142,3 +9142,8 @@
 2026-07-17 17:47:23:   address: '0.0.0.0',
 2026-07-17 17:47:23:   port: 5050
 2026-07-17 17:47:23: }
+2026-07-22 12:39:58: [cdn-warmup] https://use.fontawesome.com/releases/v5.15.1/css/all.css: fetch failed
+2026-07-22 12:39:58: [cdn-warmup] https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700: fetch failed
+2026-07-22 12:39:58: [cdn-warmup] https://assets.dungeonsandmarkdown.spjak.com/bundle.css: fetch failed
+2026-07-22 12:39:58: [cdn-warmup] https://assets.dungeonsandmarkdown.spjak.com/themes/V3/Blank/style.css: fetch failed
+2026-07-22 12:39:58: [cdn-warmup] https://assets.dungeonsandmarkdown.spjak.com/themes/V3/5ePHB/style.css: fetch failed
