@@ -12,13 +12,13 @@ location: Icefields north of Palebank, via The Cold Anchor research station
 
 ## VTT Map for This Scene
 
-| Location | Map File | Size | Purpose |
-|----------|----------|------|---------|
-| **Cold Anchor Waypoint** | `ps-13-cold-anchor-waypoint_grid.png` | 6×7 squares (30×35 ft) | Research station interior — warm, safe rest point |
+| Location | Send to VTT | Size | Purpose |
+|----------|------------|------|---------|
+| **Cold Anchor Waypoint** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-13-cold-anchor-waypoint_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 6×7 squares (30×35 ft) | Research station interior — warm, safe rest point |
 
-**When to Use:** Load this map when party arrives at Cold Anchor. It serves as a warm, safe contrast to the freezing icefields outside. Good for restocking supplies, NPC interaction with Morgo, and brief recovery before final push to Salsvault.
+**When to Use:** Click **→ VTT** when party arrives at Cold Anchor. It serves as a warm, safe contrast to the freezing icefields outside. Good for restocking supplies, NPC interaction with Morgo, and brief recovery before final push to Salsvault.
 
-**Optional Travel Maps:** For overland icefields travel, you can use `generic-03-icefields-route_grid.png` if encounters occur during journey.
+**Optional Travel Maps:** For overland icefields travel, you can use `generic-03-icefields-route_grid.png` if encounters occur during journey (load from Maps panel).
 
 ---
 

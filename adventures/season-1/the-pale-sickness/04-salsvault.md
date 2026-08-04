@@ -21,21 +21,21 @@ Six rooms in sequence. The party enters at Room 1 and must reach Room 5. Room 6 
 
 ## VTT Maps for This Facility
 
-Load these maps in sequence as the party progresses through Salsvault:
+Click **→ VTT** to send each map with effects to your VTT display:
 
-| Room | Map File | Size | Key Features | Encounters |
-|------|----------|------|--------------|------------|
-| **1: Entrance Hall** | `ps-07-salsvault-room1-entrance_grid.png` | 6×4 (30×20 ft) | Metal walls, blue glyphs, iced floor, side corridors | 2 Flying Swords, spore vent |
-| **2: Research Labs** | `ps-08-salsvault-room2-labs_grid.png` | 8×6 (40×30 ft) | Workbenches, shelving, blue vial on rack, schematic | 2 Animated Armor, 2 spore vents |
-| **3: Containment Hall** | `ps-09-salsvault-room3-containment_grid.png` | 10×8 (50×40 ft) | 8 sealed pods, Pod 7 destroyed, blue mist | Continuous spore exposure (DC 11 Con/round) |
-| **4: Construct Storage** | `ps-10-salsvault-room4-storage_grid.png` | 8×8 (40×40 ft) | 12 dormant armor alcoves, schematic on workbench | ⚠️ ALL 12 activate if any disturbed — AVOID |
-| **5: Preservation Chamber** | `ps-11-salsvault-room5-preservation_grid.png` | 4×4 (20×20 ft) | Warm room (contrasts with rest), gold & blue vials | **OBJECTIVE** — Retrieve 6 gold vials (antidote) |
-| **6: Control Room** | `ps-12-salsvault-room6-control_grid.png` | 6×6 (30 ft diameter) | Central console, crystal displays, security recording | Optional — reveals campaign mystery |
+| Room | Send to VTT | Size | Key Features | Encounters |
+|------|------------|------|--------------|------------|
+| **1: Entrance Hall** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-07-salsvault-room1-entrance_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 6×4 (30×20 ft) | Metal walls, blue glyphs, iced floor, side corridors | 2 Flying Swords, spore vent |
+| **2: Research Labs** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-08-salsvault-room2-labs_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 8×6 (40×30 ft) | Workbenches, shelving, blue vial on rack, schematic | 2 Animated Armor, 2 spore vents |
+| **3: Containment Hall** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-09-salsvault-room3-containment_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 10×8 (50×40 ft) | 8 sealed pods, Pod 7 destroyed, blue mist | Continuous spore exposure (DC 11 Con/round) |
+| **4: Construct Storage** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-10-salsvault-room4-storage_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 8×8 (40×40 ft) | 12 dormant armor alcoves, schematic on workbench | ⚠️ ALL 12 activate if any disturbed — AVOID |
+| **5: Preservation Chamber** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-11-salsvault-room5-preservation_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 4×4 (20×20 ft) | Warm room (contrasts with rest), gold & blue vials | **OBJECTIVE** — Retrieve 6 gold vials (antidote) |
+| **6: Control Room** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-12-salsvault-room6-control_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 6×6 (30 ft diameter) | Central console, crystal displays, security recording | Optional — reveals campaign mystery |
 
-**DM Notes:**
+**DM Tips:**
 - Load Room 1 as party enters facility
 - Advance to next room as they progress (don't pre-load all)
-- Use map for each room even if party attempts stealth — helps visualize positioning
+- Use the modal to add effects (fog for spore vents, darkness for containment, etc.)
 - Room 5 is the goal; Room 6 is optional but essential for campaign revelation
 
 ---

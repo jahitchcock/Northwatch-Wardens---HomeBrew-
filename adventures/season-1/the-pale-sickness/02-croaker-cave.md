@@ -12,11 +12,11 @@ location: Smuggler hideout, cliffs west of Palebank (30-minute walk)
 
 ## VTT Map for This Scene
 
-| Location | Map File | Size | Notes |
-|----------|----------|------|-------|
-| **Croaker Cave** | `ps-06-croaker-cave_grid.png` | 8×5 squares (40×25 ft) | Central campfire, supply crates, chest on far wall, 5 bandits + leader |
+| Location | Send to VTT | Size | Notes |
+|----------|------------|------|-------|
+| **Croaker Cave** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-06-croaker-cave_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 8×5 squares (40×25 ft) | Central campfire, supply crates, chest on far wall, 5 bandits + leader |
 
-**Setup Note:** Place Brynn and 4 bandits near the campfire. Place Sett (infected bandit) off to one side. Show the chest location at the far wall covered with blankets.
+**Setup:** Click **→ VTT** to open the map sender modal. Place Brynn and 4 bandits near the campfire. Place Sett (infected bandit) off to one side. Show the chest location at the far wall covered with blankets.
 
 ---
 

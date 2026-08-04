@@ -12,17 +12,17 @@ location: Palebank Village — Urgon's cabin, Pelc's Curiosities, Tulgi's cabin,
 
 ## VTT Maps for This Scene
 
-Load these maps from the **Maps** panel in the DM dashboard as you visit each location:
+Click the map name to send it to the VTT display with effects (or load from the **Maps** panel in the DM dashboard):
 
-| Location | Map File | Size | Notes |
-|----------|----------|------|-------|
-| **Urgon's Cabin** | `ps-01-urgons-cabin_grid.png` | 4×4 squares (20×20 ft) | Blacksmith's home, forge visible, chest on floor |
-| **Pelc's Curiosities** | `ps-02-pelcs-curiosities_grid.png` | 5×5 squares (25×25 ft) | Trading post, show forced entry at rear window |
-| **Tulgi's Cabin** | `ps-03-tulgis-cabin_grid.png` | 4×4 squares (20×20 ft) | Neat cottage, sick NPC present |
-| **Irven's Home** | `ps-04-irvens-home_grid.png` | 6×5 squares (30×25 ft) | Family residence, infected children present |
-| **Frostwatch Guard Post** | `ps-05-frostwatch-post_grid.png` | 4×6 squares (20×30 ft) | Military outpost, Mila Teno stationed here |
+| Location | Send to VTT | Size | Notes |
+|----------|------------|------|-------|
+| **Urgon's Cabin** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-01-urgons-cabin_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 4×4 squares (20×20 ft) | Blacksmith's home, forge visible, chest on floor |
+| **Pelc's Curiosities** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-02-pelcs-curiosities_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 5×5 squares (25×25 ft) | Trading post, show forced entry at rear window |
+| **Tulgi's Cabin** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-03-tulgis-cabin_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 4×4 squares (20×20 ft) | Neat cottage, sick NPC present |
+| **Irven's Home** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-04-irvens-home_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 6×5 squares (30×25 ft) | Family residence, infected children present |
+| **Frostwatch Guard Post** | <a onclick="openVttModal('/raw?path=adventures/season-1/the-pale-sickness/maps/pale-sickness/ps-05-frostwatch-post_grid.png')" style="cursor: pointer; color: var(--accent); text-decoration: underline;">→ VTT</a> | 4×6 squares (20×30 ft) | Military outpost, Mila Teno stationed here |
 
-**Tip:** These are optional — you can run the investigation as theater-of-mind if preferred. Use maps only for the locations where the party spends time investigating.
+**Tip:** Click the **→ VTT** link to open a modal where you can add effects (rain, snow, fog, fire), adjust darkness, toggle grid, then send to your VTT display. Optional — run as theater-of-mind if preferred.
 
 ---
 
